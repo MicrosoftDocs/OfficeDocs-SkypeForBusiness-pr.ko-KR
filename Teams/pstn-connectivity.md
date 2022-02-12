@@ -24,12 +24,12 @@ search.appverid: MET150
 description: PSTN Teams(PSTN 연결) 옵션 및 조직에 대해 결정해야 하는 결정에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 409f5a1f8872b8e3bd3b1999a0024fa28583024d
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 28cb740146fc23f3dfdda35c35f280cba8a950c4
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518830"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763752"
 ---
 # <a name="pstn-connectivity-options"></a>PSTN 연결 옵션
 
@@ -168,7 +168,7 @@ Microsoft에는 구독자(사용자) 번호와 조직의 사용자에게 할당�
 
 - 연산자를 통해 전화 번호 관리에 대한 자세한 커넥트 운영자 번호로 전화 [번호 커넥트](operator-connect-configure.md#set-up-phone-numbers).
 
-- 직접 라우팅에 대한 전화 번호 관리에 대한 자세한 내용은 전화 번호 구성 및 엔터프라이즈 음성 및 음성 안내를 [참조하세요](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online).
+- 직접 라우팅에 대한 전화 번호 관리에 대한 자세한 내용은 전화 번호 구성 및 엔터프라이즈 [음성 사용을 참조하세요](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
 
 
 ### <a name="call-routing-and-dial-plans"></a>통화 라우팅 및 전화 걸기 계획

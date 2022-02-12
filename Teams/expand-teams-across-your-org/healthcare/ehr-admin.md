@@ -22,13 +22,13 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: EHR 커넥터를 Teams EHR 커넥터를 통합하여 조직의 의료 공급자가 Epic EHR 시스템에서 직접 환자 또는 기타 공급자와 가상 Teams 수 있도록 하는 방법에 대해 알아보습니다.
-ms.openlocfilehash: 90a4b51fa1855fa7d680af80d4a47f9bf407d789
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+description: 조직에서 의료 서비스 공급자가 Epic EHR Teams 직접 환자 또는 다른 공급자와 가상 방문을 수행하도록 Teams EHR 커넥터를 통합하는 방법을 알아보습니다.
+ms.openlocfilehash: 3274ed2c566008dd7474accf159540c96c82b865
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518610"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763323"
 ---
 # <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>가상 Teams - Epic EHR에 통합
 
@@ -36,10 +36,10 @@ EHR(전자 Microsoft Teams) 커넥터를 사용하면 임상의가 서사시 EHR
 
 의사의 통신 및 공동 작업 Teams 쉽게 조각된 시스템의 어지러워진 시스템을 잘라서 최상의 관리에 집중할 수 있습니다. EHR Teams 사용하여 다음을 할 수 있습니다.
 
-- 통합된 Teams 에픽 EHR 시스템에서 가상 방문을 실행합니다.
-- 환자가 환자 포털 내에서 또는 SMS를 Teams 가상 방문에 참가할 수 있도록 합니다.
-- 다중 참가자, 그룹 방문 및 통역 서비스를 비롯한 다른 가상 방문 시나리오를 지원합니다.
-- 참석자 연결, 연결 끊기 및 자동 감사 및 레코드 유지를 사용하도록 설정하는 Teams 가상 방문에 대한 메타데이터를 EHR 시스템에 다시 작성합니다.
+- 통합 Teams 임상 워크플로를 사용하여 Epic EHR 시스템에서 가상 방문을 실행합니다.
+- 환자가 환자 Teams 또는 SMS를 통해 가상 방문에 참가할 수 있도록 합니다.
+- 다중 참가자, 그룹 방문 및 통역 서비스를 비롯한 다른 시나리오를 지원합니다.
+- 참석자 연결, 연결 끊기 및 자동 감사 및 레코드 유지를 사용하도록 설정하는 Teams 가상 방문에 대한 메타데이터를 EHR 시스템에 다시 기록합니다.
 - EHR에 연결된 방문에 대한 소비 데이터 보고서 및 사용자 지정 가능한 통화 품질 정보를 볼 수 있습니다.
 
 EHR 포털에서 가상 방문을 관리하는 방법에 대한 개요는 이 비디오를 참조하세요.
@@ -128,9 +128,9 @@ Epic 기술 전문가와 함께 [Epic-Microsoft 팀 원격 상태 통합 가이�
 ### <a name="enable-sms-notifications-optional"></a>SMS 알림 사용(선택 사항)
 
 > [!NOTE]
-> SMS 알림은 현재 미국에서만 사용할 수 있습니다. 향후 릴리스에서 다른 지역에서 이 기능을 사용할 수 있도록 Teams 이 문서를 업데이트할 예정입니다. 
+> SMS 알림은 현재 미국에서만 사용할 수 있습니다. 향후 릴리스에서 다른 지역에서 이 기능을 사용할 수 있도록 Teams 이 문서를 업데이트할 예정입니다.
 
-조직에서 Microsoft가 환자에 대한 SMS 알림을 관리하려는 경우 이 단계를 완료합니다. SMS 알림을 사용하도록 설정하면 환자는 예약된 가상 방문에 대한 확인 및 미리 알림 메시지를 받게 됩니다.
+조직에서 Microsoft가 환자에 대한 SMS 알림을 관리하려는 경우 이 단계를 완료합니다. SMS 알림을 사용하도록 설정하면 환자는 예약된 방문에 대한 확인 및 미리 알림 메시지를 받게 됩니다.
 
 SMS 알림을 사용하도록 설정하려면 Microsoft 365 관리자가 다음을 합니다.
 
@@ -159,8 +159,8 @@ SMS 알림을 사용하도록 설정하려면 Microsoft 365 관리자가 다음�
 
     :::image type="content" source="media/ehr-connector-epic-sms-setup.png" alt-text="SMS 설정 설정을 보여주는 스크린샷입니다." lightbox="media/ehr-connector-epic-sms-setup.png":::
 
-    - **확인 SMS**: 가상 방문이 EHR 시스템에서 예약, 업데이트 또는 취소될 때 환자에게 알림이 전송됩니다.
-    - **미리 알림 SMS**: 지정한 시간 간격 및 가상 방문의 예약된 시간에 따라 환자에게 알림이 전송됩니다.
+    - **확인 SMS**: EHR 시스템에서 방문이 예약, 업데이트 또는 취소될 때 알림이 환자에게 전송됩니다.
+    - **미리 알림 SMS**: 지정한 시간 간격과 방문의 예약된 시간에 따라 환자에게 알림이 전송됩니다.
 
     저장 **을 선택 합니다**.
 
@@ -197,7 +197,7 @@ Epic 관리자가 구성 정보를 승인하면 환자 및 공급자 출시에 �
 - SMS 구성 레코드
 - 디바이스 테스트 구성 레코드
 
-에픽 고객 분석가는 이러한 레코드를 에픽에 제공해야 에픽에서 가상 방문 구성을 완료해야 합니다. 자세한 내용은 [Epic-Microsoft Teams Telehealth 통합 가이드를 참조하세요](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
+에픽 고객 분석가는 이러한 레코드를 에픽에 제공해야 에픽에서 Virtual Visits 구성을 완료해야 합니다. 자세한 내용은 [Epic-Microsoft Teams Telehealth 통합 가이드를 참조하세요](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
 
 > [!Note]  
 > 사용자 또는 Microsoft 365 고객 분석가가 구성 포털에 로그인하여 필요한 경우 통합 레코드를 보고 조직 구성을 변경할 수 있습니다.
@@ -207,11 +207,11 @@ Epic 관리자가 구성 정보를 승인하면 환자 및 공급자 출시에 �
 > [!Note]
 > 에픽 고객 분석가는 관리자 관리자에 의해 구성된 각 FHIR 기본 URL에 대한 승인 Microsoft 365 완료해야 합니다.
 
-## <a name="launch-teams-virtual-visits"></a>Teams 가상 방문 시작
+## <a name="launch-teams-virtual-visits"></a>가상 Teams 시작
 
 EHR 커넥터 단계 및 에픽 구성을 완료한 후 조직에서 비디오 방문을 지원할 준비가 Teams.
 
-### <a name="virtual-visit-prerequisites"></a>가상 방문 필수 구성 요소
+### <a name="virtual-visits-prerequisites"></a>가상 방문의 전제
 
 - 시스템은 모든 소프트웨어 및 브라우저 [](../../hardware-requirements-for-the-teams-app.md) 요구 사항을 충족해야 Teams.
 
@@ -219,40 +219,40 @@ EHR 커넥터 단계 및 에픽 구성을 완료한 후 조직에서 비디오 �
 
 ### <a name="provider-experience"></a>공급자 환경
 
-조직의 의료 서비스 공급자는 에픽 공급자 앱(Hyperspace, Haiku, Canto)의 Teams 사용하여 가상 방문에 참가할 수 있습니다. **가상 방문 시작** 단추는 공급자 흐름에 포함되어 있습니다.
+조직의 의료 서비스 공급자는 해당 Teams(Hyperspace, Haiku, Canto)의 앱을 사용하여 방문에 참가할 수 있습니다. **가상 방문 시작** 단추는 공급자 흐름에 포함되어 있습니다.
 
 공급자 환경의 주요 기능:
 
-- 공급자는 지원되는 브라우저 또는 웹앱을 사용하여 가상 Teams 있습니다.
+- 공급자는 지원되는 브라우저 또는 웹앱을 사용하여 방문에 Teams 있습니다.
 
-- 공급자는 가상 방문에 처음 참여할 때 Microsoft 365 계정으로 1회 로그인해야 합니다.
+- 공급자는 처음으로 방문에 참가할 때 Microsoft 365 계정으로 일회성 로그인을 해야 합니다.
 
 - 일회성 로그인 후 공급자는 가상 약속으로 Teams. (공급자는 로그인하여 로그인해야 Teams.
 
-- 공급자는 주어진 약속에 대한 연결 및 연결을 끊는 참가자의 실시간 업데이트를 볼 수 있습니다. 공급자는 환자가 가상 방문에 연결된 경우를 볼 수 있습니다.
+- 공급자는 주어진 약속에 대한 연결 및 연결을 끊는 참가자의 실시간 업데이트를 볼 수 있습니다. 공급자는 환자가 방문에 연결되는 경우를 볼 수 있습니다.
 
-  ![환자와 가상 방문의 공급자 경험.](media/ehc-provider-experience-6.png)
+  ![환자와의 방문의 공급자 경험.](media/ehc-provider-experience-6.png)
 
 > [!NOTE]
 > 의료 기록 연속성 또는 보존 목적에 필요한 모임 채팅에 입력된 모든 정보는 의료 공급자가 다운로드, 복사 및 기록해야 합니다. 채팅은 법적 의료 기록 또는 지정된 레코드 집합을 구성하지 않습니다. 채팅의 메시지는 관리자 관리자가 만든 설정에 Microsoft Teams 저장됩니다.
 
 ### <a name="patient-experience"></a>환자 환경
 
-커넥터는 MyChart 웹 및 모바일을 통해 가상 방문에 참여하는 환자를 지원합니다. 약속 시점에 환자는 **가상 방문 시작** 단추를 사용하여 MyChart에서 가상 방문을 시작할 있습니다.
+커넥터는 MyChart 웹 및 모바일을 통해 방문에 참가하는 환자를 지원합니다. 약속 시 환자는 가상 방문 시작 단추를 사용하여 MyChart에서 방문 **을 시작할 수** 있습니다.
 
 환자 환경의 주요 기능:
 
-- 환자는 앱을 설치하지 않고도 데스크톱 및 모바일의 최신 [웹 브라우저에서 가상 Teams 수 있습니다](../mobile-browser-join.md).
+- 환자는 앱을 설치하지 않고도 데스크톱 및 모바일의 최신 [웹 브라우저에서 방문에 참가할 Teams 있습니다](../mobile-browser-join.md).
 
-- 환자는 한 번의 클릭으로 가상 방문에 참가할 수 있으며 다른 계정이나 로그인이 필요하지 않습니다.
+- 환자는 클릭 한 번으로 방문에 참가할 수 있으며 다른 계정이나 로그인이 필요하지 않습니다.
 
-- 환자는 Microsoft 계정을 만들거나 가상 방문을 시작하기 위해 로그인할 필요가 없습니다.
+- 환자는 Microsoft 계정을 만들거나 방문을 시작하기 위해 로그인할 필요는 없습니다.
 
-- 환자는 공급자가 약속에 참가하고 가상 방문에 이를 인정할 때까지 로비에 배치됩니다.
+- 환자는 공급자가 가입하고 인정할 때까지 로비에 배치됩니다.
 
-- 환자는 가상 방문에 참가하기 전에 로비에서 비디오 및 마이크를 테스트할 수 있습니다.
+- 환자는 방문에 참가하기 전에 로비에서 비디오 및 마이크를 테스트할 수 있습니다.
 
-  ![가상 방문의 환자 경험.](media/ehc-virtual-visit-5.png)
+  ![방문의 환자 경험.](media/ehc-virtual-visit-5.png)
 
 > [!Note]
 > Epic, MyChart, Haiku 및 Canto는 Epic Systems Corporation의 상표입니다.

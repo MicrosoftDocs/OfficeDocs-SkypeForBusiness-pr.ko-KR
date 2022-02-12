@@ -1,6 +1,6 @@
 ---
 title: 직접 라우팅에 대한 전화 번호 번역
-ms.reviewer: ''
+ms.reviewer: filippse
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,23 +16,23 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 시스템 직접 라우팅을 Microsoft 전화 방법에 대해 자세히 알아보도록 합니다.
-ms.openlocfilehash: 2e94da39c23c10a912f4b3f0433467439b5ecf77
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 2a9f5c92da348a47f5a6d24389254436f2fd510c
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766371"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763293"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>전화 번호가 다른 형식으로 변환
 
-이 문서에서는 아웃바운드 및 인바운드 호출에 대한 숫자를 대체 형식으로 변환하는 방법을 설명합니다.  직접 라우팅을 구성하기 위한 다음 단계의 4단계입니다.
+이 문서에서는 아웃바운드 및 인바운드 호출에 대한 숫자를 대체 형식으로 변환하는 방법을 설명합니다. 직접 라우팅을 구성하기 위한 다음 단계의 4단계입니다.
 
 - 1단계. [커넥트 시스템으로 SBC를 Microsoft 전화 연결의 유효성을 검사합니다.](direct-routing-connect-the-sbc.md) 
 - 2단계. [직접 라우팅, 음성 및 음성메일에 사용자를 사용하도록 설정](direct-routing-enable-users.md)   
 - 3단계. [음성 라우팅 구성](direct-routing-voice-routing.md)
-- **4단계. 숫자를**   대체 형식으로 변환합니다(이 문서)
+- **4단계. 숫자를 대체 형식으로 변환합니다**   (이 문서)
 
-직접 라우팅을 설정하는 데 필요한 모든 단계에 대한 자세한 내용은 직접 라우팅 [구성 을 참조하세요.](direct-routing-configure.md)
+직접 라우팅을 설정하는 데 필요한 모든 단계에 대한 자세한 내용은 직접 라우팅 [구성을 참조하세요](direct-routing-configure.md).
 
 경우에 따라 테넌트 관리자는 세션 경계 컨트롤러(SBC)와의 상호운용성을 보장하기 위해 만든 패턴에 따라 아웃바운드 및/또는 인바운드 호출의 수를 변경하려는 경우도 있습니다. 이 문서에서는 숫자 번역 규칙 정책을 지정하여 숫자를 대체 형식으로 변환하는 방법을 설명합니다. 
 
@@ -43,9 +43,9 @@ ms.locfileid: "61766371"
 
 이 정책은 SBC 수준에서 적용됩니다. PowerShell에 나열할 때 나타나는 순서대로 적용되는 여러 번역 규칙을 SBC에 할당할 수 있습니다. 정책에서 규칙의 순서를 변경할 수 있습니다.
 
-번호 조작 규칙을 만들고 수정, 보기 및 삭제하려면 [New-CsTeamsTranslationRule,](/powershell/module/skype/new-csteamstranslationrule) [Set-CsTeamsTranslationRule,](/powershell/module/skype/set-csteamstranslationrule) [Get-CsTeamsTranslationRule](/powershell/module/skype/get-csteamstranslationrule)및 [Remove-CsTeamsTranslationRule](/powershell/module/skype/remove-csteamstranslationrule) cmdlet을 사용 합니다.
+번호 조작 규칙을 만들고 수정, 보기 및 삭제하려면 [New-CsTeamsTranslationRule](/powershell/module/skype/new-csteamstranslationrule), [Set-CsTeamsTranslationRule](/powershell/module/skype/set-csteamstranslationrule), [Get-CsTeamsTranslationRule](/powershell/module/skype/get-csteamstranslationrule) 및 [Remove-CsTeamsTranslationRule](/powershell/module/skype/remove-csteamstranslationrule) cmdlet을 사용한다.
 
-SBC에 번호 조작 규칙을 할당, 구성 및 나열하기 위해 [New-CSOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) 및 [Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway) cmdlet을 InboundTeamsNumberTranslationRules와 함께 사용하세요. InboundPSTNumberTranslationRules, OutboundTeamsNumberTranslationRules, OutboundPSTNumberTranslationRules, InboundPSTNumberTranslationRules, OutboundTeamsNumberTranslationRules 및 OutboundPSTNumberTranslationRules 매개 변수.
+SBC에 번호 조작 규칙을 할당, 구성 및 나열하기 위해 InboundTeamsNumberTranslationRules, InboundPSTNumberTranslationRules, OutboundTeamsNumberTranslationRules 및 OutboundPSTNumberTranslationRules 매개 변수와 함께 [New-CSOnlinePSTSTNUMBERTranslationRules 매개 변수와 함께 New-CSOnlinePSTSTNUMBERTranslationRules](/powershell/module/skype/new-csonlinepstngateway) 매개 변수를 사용합니다.[](/powershell/module/skype/set-csonlinepstngateway)
 
 > [!NOTE]
 > 최대 총 번역 규칙 수는 400개, 최대 번역 매개 변수 이름 길이는 100개 기호, 최대 번역 매개 변수 패턴 길이는 1024개 기호, 최대 번역 매개 변수 변환 길이는 256개 기호입니다.
@@ -53,7 +53,7 @@ SBC에 번호 조작 규칙을 할당, 구성 및 나열하기 위해 [New-CSOnl
 
 ## <a name="example-sbc-configuration"></a>SBC 구성 예제
 
-이 시나리오의 경우 ```New-CsOnlinePSTNGateway``` cmdlet을 실행하여 다음 SBC 구성을 생성합니다.
+이 시나리오에서는 New-CsOnlinePSTNGateway cmdlet을 실행하여 다음 SBC 구성을 만들 수 있습니다.
 
 ```PowerShell
 New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRules ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRules ‘AddPlus1’ -OutboundPSTNNumberTranslationRules ‘AddSeattleAreaCode’,‘StripPlus1’  -OutboundTeamsNumberTranslationRules ‘StripPlus1’
@@ -63,10 +63,10 @@ SBC에 할당된 번역 규칙은 다음 표에 요약되어 있습니다.
 
 |이름  |패턴 |번역  |
 |---------|---------|---------|
-|AddPlus1     |^(\d {10} )$          |+1$1          |
-|AddE164SeattleAreaCode      |^(\d {4} )$          | +1206555$1         |
-|AddSeattleAreaCode    |^(\d {4} )$          | 425555$1         |
-|StripPlus1    |^+1(\d {10} )$          | $1         |
+|AddPlus1     |^(\d{10})$          |+1$1          |
+|AddE164SeattleAreaCode      |^(\d{4})$          | +1206555$1         |
+|AddSeattleAreaCode    |^(\d{4})$          | 425555$1         |
+|StripPlus1    |^+1(\d{10})$          | $1         |
 
 다음 예제에서는 Alice와 Bob의 두 사용자가 있습니다. Alice는 Teams +1 206 555 0100인 사용자입니다. Bob은 +1 425 555 0100인 PSTN 사용자입니다.
 

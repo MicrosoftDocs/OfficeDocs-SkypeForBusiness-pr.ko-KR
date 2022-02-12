@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: 관리 센터에서 칭찬하기 앱을 관리하는 Microsoft Teams 대해 자세히 알아보습니다.
-ms.openlocfilehash: 064a1b90db44971e2fd796ea96de2a3523f7f380
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 24ddbc66018056360e226f13669ee3dae1e78db5
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62401612"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763313"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>관리 칭찬하기 관리 센터에서 Microsoft Teams 관리
 
@@ -47,7 +47,7 @@ ms.locfileid: "62401612"
 :::image type="content" source="media/default-set-praise.png" alt-text="기본 배지 집합의 배지 이미지입니다.":::
 
 > [!NOTE]
-> 2022년 2월부터는 기본 배지만 보내고 받을 수 있습니다. 사용자 지정 배지는 더 이상 사용할 수 없습니다. 사용자 지정 배지는 곧 관리 센터의 앱 설정 페이지에서 Teams 제거됩니다.
+> 2022년 2월부터는 기본 배지만 보내고 받을 수 있습니다. 사용자 지정 배지는 더 이상 사용할 수 없습니다. 사용자 지정 배지에 대한 옵션은 관리 센터에서 Teams 제거되었습니다.
 
 ## <a name="related-articles"></a>관련 기사
 

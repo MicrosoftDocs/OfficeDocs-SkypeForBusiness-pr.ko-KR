@@ -16,19 +16,19 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 사용자가 직접 라우팅을 사용하도록 Microsoft Teams 전화 방법을 알아보습니다.
-ms.openlocfilehash: f3e5d4a83850c7f934bd5cf299822916656db7d6
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 4acf18799060d6cc89e477109e916b5bf0d8401a
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518630"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763333"
 ---
-# <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>직접 라우팅, 음성 및 음성메일에 사용자를 사용하도록 설정
+# <a name="enable-users-for-direct-routing"></a>직접 라우팅에 대한 사용자 사용
 
 이 문서에서는 직접 라우팅에 대해 사용자를 사용하도록 설정하는 방법을 설명합니다. 직접 라우팅을 구성하기 위한 다음 단계의 2단계입니다.
 
 - 1단계. [커넥트 SBC를 전화 시스템 확인](direct-routing-connect-the-sbc.md) 
-- **2단계. 직접 라우팅,**   음성 및 음성 문서에 사용자를 사용하도록 설정(이 문서)
+- **2단계. 직접 라우팅에 사용자**   사용(이 문서)
 - 3단계. [음성 라우팅 구성](direct-routing-voice-routing.md)
 - 4단계. [숫자를 대체 형식으로 변환](direct-routing-translate-numbers.md) 
 
@@ -38,8 +38,9 @@ ms.locfileid: "62518630"
 직접 라우팅에 사용자를 사용하도록 설정할 준비가 된 경우 다음 단계를 따릅니다. 
 
 1. 사용자 지정에서 사용자를 Microsoft 365 라이선스를 전화 시스템 할당합니다.  
-2. 전화 번호를 구성하고 엔터프라이즈 음성 및 음성을 사용하도록 설정합니다. 
-3. 사용자에게 Teams 전용 모드를 할당합니다.
+2. 사용자가 온라인에 홈이 되도록 합니다.
+3. 전화 번호를 구성하고 엔터프라이즈 음성을 사용하도록 설정합니다. 
+4. 사용자에게 Teams 전용 모드를 할당합니다.
 
 ## <a name="create-a-user-and-assign-the-license"></a>사용자 만들기 및 라이선스 할당
 
@@ -86,43 +87,43 @@ ms.locfileid: "62518630"
  > [!NOTE]
  > 모든 사용자의 전화 특성은 온라인에서 관리되어야만 프레미스 비즈니스용 Skype [합니다](/skypeforbusiness/hybrid/decommission-on-prem-overview). 
 
-## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online"></a>전화 번호 구성 및 엔터프라이즈 음성 및 음성 이메일 온라인 사용 
+## <a name="configure-the-phone-number-and-enable-enterprise-voice"></a>전화 번호 구성 및 엔터프라이즈 음성 사용 
 
-사용자를 만들어 라이선스를 할당한 후 사용자의 온라인 전화 설정을 구성해야 합니다. 
+사용자를 만들어 라이선스를 할당한 후 사용자의 온라인 전화 설정을 구성해야 합니다. 사용자에 대한 클라우드 음성 사서함 구성은 자동으로 수행됩니다. 추가 구성을 완료할 필요가 없습니다.
 
-1. 커넥트 PowerShell Microsoft Teams 세션을 제공합니다. 
+1. 커넥트 PowerShell Microsoft Teams 합니다. 
 
-2. 사용자의 전화 번호를 관리하는 경우 다음 명령을 실행합니다. 
+2. 다음 단계는 사용자의 전화 번호를 온라인에서 관리하는지 여부에 따라 결정됩니다. 전화 번호를온-프레미스에서 관리하는 경우 관리 셸, 제어판 또는 디모전 후 특성을 관리하는 방법 결정에 설명된 방법 중 비즈니스용 Skype 관리 프레미스 및 관리 프레미스를 사용해야 [합니다](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes).
 
-    ```PowerShell
-    Set-CsPhoneNumberAssignment -Identity "<User name>" -EnterpriseVoiceEnabled $true
-    ```
-3. 사용자의 전화 번호를 온라인으로 관리하는 경우 명령을 실행합니다. 
+   - 사용자의 전화 번호를 관리하는 경우 다음 명령을 사용하여 사용자가 온라인에서 Enterprise Voice 사용하도록 설정되어 있는지 확인해야 합니다.
+
+       ```PowerShell
+       Set-CsPhoneNumberAssignment -Identity "<User name>" -EnterpriseVoiceEnabled $true
+       ```
+       
+   - 온라인에서 사용자의 전화 번호를 관리하는 경우 PowerShell에서 다음 명령을 사용하여 사용자에게 전화 번호를 Teams 합니다. 사용자가 명령에 Enterprise Voice 자동으로 활성화됩니다. 
  
-    ```PowerShell
-    Set-CsPhoneNumberAssignment -Identity "<User name>" -PhoneNumber <phone number> -PhoneNumberType DirectRouting
-    ```
+       ```PowerShell
+       Set-CsPhoneNumberAssignment -Identity "<User name>" -PhoneNumber <phone number> -PhoneNumberType DirectRouting
+       ```
     
-    예를 들어 "Spencer Low"에 대한 전화 번호를 추가하면 다음을 입력합니다. 
+       예를 들어 "Spencer Low"에 대한 전화 번호를 추가하면 다음을 입력합니다. 
 
-    ```PowerShell
-    Set-CsPhoneNumberAssignment -Identity "spencer.low@contoso.com" -PhoneNumber "+14255388797" -PhoneNumberType DirectRouting
-    ```
-    사용자가 "Spencer Low" 및 "Stacy Quinn"이 고유 확장과 동일한 기본 번호를 공유하는 경우 다음을 입력합니다.
+       ```PowerShell
+       Set-CsPhoneNumberAssignment -Identity "spencer.low@contoso.com" -PhoneNumber "+14255388797" -PhoneNumberType DirectRouting
+       ```
+       사용자가 "Spencer Low" 및 "Stacy Quinn"이 고유 확장과 동일한 기본 번호를 공유하는 경우 다음을 입력합니다.
     
-    ```PowerShell
-    Set-CsPhoneNumberAssignment -Identity "spencer.low@contoso.com" -PhoneNumber "+14255388701;ext=1001" -PhoneNumberType DirectRouting
-    Set-CsPhoneNumberAssignment -Identity "stacy.quinn@contoso.com" -PhoneNumber "+14255388701;ext=1002" -PhoneNumberType DirectRouting
-    ```
+       ```PowerShell
+       Set-CsPhoneNumberAssignment -Identity "spencer.low@contoso.com" -PhoneNumber "+14255388701;ext=1001" -PhoneNumberType DirectRouting
+       Set-CsPhoneNumberAssignment -Identity "stacy.quinn@contoso.com" -PhoneNumber "+14255388701;ext=1002" -PhoneNumberType DirectRouting
+       ```
 
     Microsoft는 전화 번호가 국가 코드가 있는 전체 E.164 전화 번호로 구성되는 것이 좋습니다. 확장을 사용하여 전화 번호를 구성할 수 있습니다. 이러한 확장은 기본 번호에 대한 룩업이 두 개 이상의 결과를 반환할 때 사용자를 찾아보는 데 사용됩니다. 이 기능을 사용하면 회사에서 동일한 기본 번호 및 고유 확장으로 전화 번호를 구성할 수 있습니다. 보기가 성공하려면 다음과 같이 확장이 포함된 전체 번호를 포함해야 합니다.
     
     ```PowerShell
     To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
     ```
-    
-    > [!NOTE]
-    > 사용자의 전화 번호가 프레미스에서 관리되는 경우 관리 비즈니스용 Skype 제어판을 사용하여 사용자의 전화 번호를 구성합니다. 
 
 
 ## <a name="configure-sending-calls-directly-to-voicemail"></a>음성 메일에 직접 통화 보내기 구성

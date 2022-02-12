@@ -21,16 +21,16 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 조직의 사용자에 대한 Teams 예약 앱을 관리하는 방법에 대해 자세히 알아보십시오.
-ms.openlocfilehash: 2bbc671b1054cfa4340abf7656e17939d147dea2
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: 147089c51ebc6d3e5eb6bf567579c9aa7fc5f2ce
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288346"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763732"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>에서 Bookings 앱 관리 Microsoft Teams
 
-Microsoft Teams의 Bookings 앱은 의료 방문, 재무 컨설팅, 인터뷰, 고객 지원, 교육 현장 시간 등 개인 약속과 가상 약속을 예약할 수 있는 간단한 방법을 제공합니다. 자세한 내용은 웹 사이트 및 [Bookings 앱을 Teams 가상 방문을 참조하세요](expand-teams-across-your-org/bookings-virtual-visits.md).
+Microsoft Teams의 Bookings 앱은 의료 방문, 재무 컨설팅, 인터뷰, 고객 지원, 교육 현장 시간 등 개인 약속과 가상 약속을 예약할 수 있는 간단한 방법을 제공합니다. 자세한 내용은 가상 방문 및 Teams [앱을 참조하세요](expand-teams-across-your-org/bookings-virtual-visits.md).
 
 스케줄러는 한 번의 경험으로 여러 부서 및 직원 일정을 관리할 수 있을 뿐만 아니라 내부 및 외부 참석자들과의 커뮤니케이션도 관리할 수 있습니다. 가상 약속 자체는 강력한 Microsoft Teams 회의 기능을 제공하는 모임을 통해 개최됩니다.
 
@@ -104,7 +104,7 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
 
 ## <a name="related-articles"></a>관련 기사
 
-[모바일 브라우저에서 가상 Teams 조인 환경 관리](expand-teams-across-your-org/mobile-browser-join.md)
+[모바일 브라우저에서 가상 Teams 대한 조인 환경 관리](expand-teams-across-your-org/mobile-browser-join.md)
 
 
   [최종 사용자를 위한 Bookings 설명서](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)

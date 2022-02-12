@@ -22,19 +22,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: 조직에서 의료 서비스 공급자가 Cerner EHR Teams 직접 환자 또는 다른 공급자와 가상 방문을 수행하도록 Teams EHR 커넥터를 통합하는 방법을 알아보습니다.
-ms.openlocfilehash: 40bfd115d966e812804c76ab77ab4ea2ddc70d7d
-ms.sourcegitcommit: 9f1f5cd828c24676c20df727b2c67daf56ff884c
+description: 조직에서 의료 서비스 Teams Cerner EHR 시스템에서 직접 환자 또는 기타 공급자와 가상 방문을 수행하도록 Teams EHR 커넥터를 통합하는 방법에 대해 자세히 알아보습니다.
+ms.openlocfilehash: e7d104e4541462c94ddb95805ae7ec2a8619bf5b
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248779"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763702"
 ---
 # <a name="virtual-visits-with-teams---integration-into-cerner-ehr"></a>가상 Teams - Cerner EHR에 통합
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-EHR(전자 Microsoft Teams) 커넥터를 사용하면 임상의가 환자와 가상 방문을 시작하거나 Cerner EHR 시스템에서 직접 Microsoft Teams 다른 공급자와 상담할 수 있습니다. Microsoft 365 클라우드를 Teams HIPAA, HITECH 인증 준수를 지원하는 단일 허브에서 채팅, 비디오, 음성 및 의료 도구와의 간단하고 안전한 공동 작업 및 통신을 가능하게 합니다.
+EHR(전자 Microsoft Teams) 커넥터를 사용하면 임상의가 가상 환자 방문을 시작하거나 Cerner EHR 시스템에서 직접 Microsoft Teams 다른 공급자와 상담할 수 있습니다. Microsoft 365 클라우드를 Teams HIPAA, HITECH 인증 준수를 지원하는 단일 허브에서 채팅, 비디오, 음성 및 의료 도구와의 간단하고 안전한 공동 작업 및 통신을 가능하게 합니다.
 
 의사의 통신 및 공동 작업 Teams 쉽게 조각된 시스템의 어지러워진 시스템을 잘라서 최상의 관리에 집중할 수 있습니다. EHR Teams 사용하여 다음을 할 수 있습니다.
 
@@ -56,7 +56,7 @@ EHR(전자 Microsoft Teams) 커넥터를 사용하면 임상의가 환자와 가
 - EHR Microsoft Teams 독립 실행형 제품(프로덕션 EHR 환경에서 테스트하는 동안만 적용)에 대한 활성 구독입니다.
 - 사용자는 모임을 포함하는 Microsoft 365 Office 365 라이선스를 Teams 있습니다.
 - Teams 의료 조직에서 채택 및 사용됩니다.
-- 시스템은 모든 [](../../hardware-requirements-for-the-teams-app.md) 소프트웨어 및 브라우저 요구 사항을 Teams.
+- 시스템은 모든 소프트웨어 및 [](../../hardware-requirements-for-the-teams-app.md) 브라우저 요구 사항을 Teams.
 - Cerner 버전 2018년 11월 이상
 
 ## <a name="set-up-the-teams-ehr-connector"></a>EHR Teams 설정
@@ -87,13 +87,13 @@ EHR(전자 Microsoft Teams) 커넥터를 사용하면 임상의가 환자와 가
 
 - 테스트 및 프로덕션 환경에 대한 통합을 설정할 수 있습니다. 초기 설정의 경우 프로덕션으로 이동하기 전에 테스트 환경에서 커넥터를 구성하는 것이 좋습니다.
 
-FHIR 기본 URL의 유효성을 검사하고 환경을 선택한 후 완료 를 **선택하세요.** 그런 다음, 필요한 경우 다른 환경에 대해 FHIR 기본 URL을 더 추가합니다.
+FHIR 기본 URL의 유효성을 검사하고 환경을 선택한 후 완료를 **선택하세요**. 그런 다음, 필요한 경우 다른 환경에 대해 FHIR 기본 URL을 더 추가합니다.
 
-**다음을** 선택하여 다음 단계로 이동합니다.
+다음 **을** 선택하여 다음 단계로 이동합니다.
 
 ### <a name="enable-sms-notifications-optional"></a>SMS 알림 사용(선택 사항)
 
-조직에서 Microsoft가 환자에 대한 SMS 알림을 관리하려는 경우 이 단계를 완료합니다. SMS 알림을 사용하도록 설정하면 환자는 예약된 가상 방문에 대한 확인 및 미리 알림 메시지를 받게 됩니다.
+조직에서 Microsoft가 환자에 대한 SMS 알림을 관리하려는 경우 이 단계를 완료합니다. SMS 알림을 사용하도록 설정하면 환자는 예약된 방문에 대한 확인 및 미리 알림 메시지를 받게 됩니다.
 
 SMS 알림을 사용하도록 설정하려면 Microsoft 365 관리자가 다음을 합니다.
 
@@ -104,13 +104,13 @@ SMS 알림을 사용하도록 설정하려면 Microsoft 365 관리자가 다음�
 
     :::image type="content" source="media/ehr-admin-cerner-sms-notifications.png" alt-text="동의 확인란 및 전화 번호를 생성하는 옵션을 보여 주며 SMS 알림 페이지의 스크린샷입니다." lightbox="media/ehr-admin-cerner-sms-notifications.png":::
 
-1. 전화 **번호 아래에서** **새** 전화 번호 생성을 선택하여 조직에 대한 전화 번호를 생성합니다. 이렇게 하면 새 전화 번호를 요청하고 생성하는 프로세스가 시작됩니다. 이 프로세스를 완료하는 데 최대 2분이 걸릴 수 있습니다.
+1. 전화 **번호 아래****에서 새 전화** 번호 생성을 선택하여 조직에 대한 전화 번호를 생성합니다. 이렇게 하면 새 전화 번호를 요청하고 생성하는 프로세스가 시작됩니다. 이 프로세스를 완료하는 데 최대 2분이 걸릴 수 있습니다.
 
     전화 번호가 생성되면 화면에 표시됩니다. 이 번호는 환자에게 SMS 확인 및 미리 알림을 보내는 데 사용됩니다. 이 숫자는 프로비전되어 있지만 FHIR 기본 URL에 아직 연결되지 않았습니다. 다음 단계에서 이 작업을 합니다.
 
     :::image type="content" source="media/ehr-admin-cerner-phone-number.png" alt-text="생성된 전화 번호의 예제를 보여주는 스크린샷입니다." lightbox="media/ehr-admin-cerner-phone-number.png":::
 
-    완료 **를** 선택한 다음 다음 **을 선택합니다.**
+    완료 **를** 선택한 다음 다음을 **선택합니다**.
 
 1. 전화 번호를 FHIR 기본 URL에 연결하려면 **SMS** **전화** 번호 아래에서 번호를 선택합니다. SMS 알림을 사용하도록 설정하려는 각 FHIR 기본 URL에 대해 이 작업을 합니다.
 
@@ -118,51 +118,51 @@ SMS 알림을 사용하도록 설정하려면 Microsoft 365 관리자가 다음�
 
     커넥터를 처음 구성하는 경우 이전 단계에서 입력한 FHIR 기본 URL이 표시됩니다. 동일한 전화 번호는 여러 FHIR 기본 URL에 연결할 수 있습니다. 즉, 환자는 다른 조직 및/또는 부서에 대해 동일한 전화 번호에서 SMS 알림을 받게 됩니다.
 
-     다음 **을 선택합니다.**
+     다음 **을 선택합니다**.
 
 ### <a name="review-and-finish-the-configuration"></a>구성 검토 및 완료
 
-환자 및 공급자 시작에 대한 통합 레코드가 표시됩니다. 이러한 레코드는 Cerner에서 가상 방문 구성을 완료하는 데 필요합니다. 자세한 내용은 Telehealth Cerner-Microsoft Teams 가이드를 참조하세요.
+환자 및 공급자 시작에 대한 통합 레코드가 표시됩니다. 이러한 레코드는 Cerner에서 Virtual Visits 구성을 완료하는 데 필요합니다. 자세한 내용은 Telehealth Cerner-Microsoft Teams 가이드를 참조하세요.
 
 > [!NOTE]
 > 사용자 관리자의 Microsoft 365 구성 포털에 로그인하여 필요한 경우 통합 레코드를 보고 구성 설정을 변경할 수 있습니다.
 
-## <a name="launch-teams-virtual-visits"></a>Teams 가상 방문 시작
+## <a name="launch-teams-virtual-visits"></a>가상 Teams 시작
 
 EHR 커넥터 단계 및 Cerner 구성 단계를 완료한 후 조직에서 비디오 방문을 지원할 준비가 Teams.
 
-### <a name="virtual-visits-prerequisites"></a>가상 방문 전제
+### <a name="virtual-visits-prerequisites"></a>가상 방문의 전제
 
-- 시스템은 모든 소프트웨어 [](../../hardware-requirements-for-the-teams-app.md) 및 브라우저 요구 사항을 충족해야 Teams.
+- 시스템은 모든 소프트웨어 및 브라우저 [](../../hardware-requirements-for-the-teams-app.md) 요구 사항을 충족해야 Teams.
 - Cerner 조직과 사용자 조직 간의 통합 Microsoft 365 완료했습니다.
 
 ### <a name="provider-experience"></a>공급자 환경
 
-조직의 의료 서비스 공급자는 PowerChart 포털에서 Teams 가상 방문에 참가할 수 있습니다. 공급자는 환자 보드로 이동해야 합니다. 이 Teams 사용할 수 있습니다.
+조직의 의료 공급자는 PowerChart 포털에서 Teams 방문에 참가할 수 있습니다. 공급자는 환자 보드로 이동해야 합니다. 이 Teams 사용할 수 있습니다.
 
-거기에서 공급자는 가상 방문 정보를 보고, 가상 방문에 참가하고, 모임 링크를 보낼 수 있습니다. 일회성 로그인 후 공급자는 가상 약속으로 Teams.
+거기에서 공급자는 방문 정보를 보고, 방문에 참가하고, 모임 링크를 보낼 수 있습니다. 일회성 로그인 후 공급자는 가상 약속으로 Teams.
 
 공급자 환경의 주요 기능:
 
-- 공급자는 지원되는 브라우저 또는 웹앱을 사용하여 가상 Teams 있습니다.
+- 공급자는 지원되는 브라우저 또는 웹앱을 사용하여 방문에 Teams 있습니다.
 - 공급자는 화면 공유, 사용자 Teams 기록을 포함하여 지원되는 모든 모임 기능을 사용할 수 있습니다.
-- 공급자는 PowerChart에서 주어진 약속에 대한 가상 방문에 연결하는 환자의 실시간 업데이트를 볼 수 있습니다.
-- 가상 방문 중에 공급자 정보는 환자에게 표시되지 않습니다.
+- 공급자는 PowerChart에서 주어진 약속을 위해 방문에 연결하는 환자의 실시간 업데이트를 볼 수 있습니다.
+- 공급자 정보는 방문하는 동안 환자에게 표시되지 않습니다.
 
 > [!NOTE]
 > 의료 기록 연속성 또는 보존 목적에 필요한 모임 채팅에 입력된 모든 정보는 의료 공급자가 다운로드, 복사 및 기록해야 합니다. 채팅은 법적 의료 기록 또는 지정된 레코드 집합을 구성하지 않습니다. 채팅의 메시지는 관리자 관리자가 만든 설정에 Microsoft Teams 저장됩니다.
 
 ### <a name="patient-experience"></a>환자 환경
 
-커넥터는 SMS 텍스트 메시지의 링크를 통해 가상 방문에 참가하는 환자를 지원합니다. 약속 시 환자는 SMS 문자 메시지의 링크를 탭하여 가상 방문을 시작할 수 있습니다.
+커넥터는 SMS 텍스트 메시지의 링크를 통해 방문에 참가하는 환자를 지원합니다. 약속 시 환자는 SMS 문자 메시지의 링크를 탭하여 방문을 시작할 수 있습니다.
 
 환자 경험의 주요 기능
 
-- 환자는 앱 을 설치하지 않고도 데스크톱 및 모바일의 최신 웹 브라우저에서 가상 [Teams 수 있습니다.](../mobile-browser-join.md)
-- 환자는 한 번의 클릭으로 가상 방문에 참가할 수 있으며 다른 계정이나 로그인이 필요하지 않습니다.
-- 환자는 Microsoft 계정을 만들거나 가상 방문을 시작하기 위해 로그인할 필요가 없습니다.
-- 환자는 공급자가 약속에 참가하고 가상 방문에 이를 인정할 때까지 로비에 배치됩니다.
-- 환자는 가상 방문에 참가하기 전에 로비에서 비디오 및 마이크를 테스트할 수 있습니다.
+- 환자는 앱을 설치하지 않고도 데스크톱 및 모바일의 최신 [웹 브라우저에서 방문에 참가할 Teams 있습니다](../mobile-browser-join.md).
+- 환자는 클릭 한 번으로 방문에 참가할 수 있으며 다른 계정이나 로그인이 필요하지 않습니다.
+- 환자는 Microsoft 계정을 만들거나 방문을 시작하기 위해 로그인할 필요는 없습니다.
+- 환자는 공급자가 가입하고 인정할 때까지 로비에 배치됩니다.
+- 환자는 방문에 참가하기 전에 로비에서 비디오 및 마이크를 테스트할 수 있습니다.
 
 ## <a name="privacy-and-location-of-data"></a>개인 정보 및 데이터의 위치
 
@@ -170,7 +170,7 @@ Teams EHR 시스템에 통합하면 통합 및 가상 방문 흐름 중에 사�
 
 EHR Teams EHR 커넥터는 EHR 시스템에서 환자 또는 의료 공급자의 식별 가능한 개인 데이터 또는 의료 공급자의 건강 기록을 저장하거나 전송하지 않습니다. EHR 커넥터가 저장하는 유일한 데이터는 모임 설정 중에 사용되는 EHR 사용자의 고유 ID만 Teams 있습니다.
 
-EHR 사용자의 고유 ID는 [Microsoft 365 고객 데이터가 저장되는 위치](/microsoft-365/enterprise/o365-data-locations)에 설명된 세 가지 지역 중 하나에 저장됩니다. 모임 참가자가 공유하는 모든 채팅, 녹음 Teams 기존 저장소 정책에 따라 저장됩니다. 데이터 위치에 대한 자세한 내용은 Teams 의 데이터 위치를 [Teams.](../../location-of-data-in-teams.md)
+EHR 사용자의 고유 ID는 [Microsoft 365 고객 데이터가 저장되는 위치](/microsoft-365/enterprise/o365-data-locations)에 설명된 세 가지 지역 중 하나에 저장됩니다. 모임 참가자가 공유하는 모든 채팅, 녹음 Teams 기존 저장소 정책에 따라 저장됩니다. 데이터 위치에 대한 자세한 내용은 Teams 데이터 위치를 [Teams 참조하세요](../../location-of-data-in-teams.md).
 
 ## <a name="related-articles"></a>관련 기사
 

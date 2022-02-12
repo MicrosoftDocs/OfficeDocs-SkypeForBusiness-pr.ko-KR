@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 한 장소에서 비즈니스용 Skype 서버 2015/2019 및 Lync 2013에 대한 업데이트를 찾고 관리합니다. 업데이트에 대한 자세한 내용을 알아본 후 업데이트를 다운로드하려면 이 페이지의 링크를 사용하세요.
-ms.openlocfilehash: e90155c15909ca876362990ba2754e4b136d2ac6
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: ea8d88f9287c8795ee3b3f4252c2e0664695a44a
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012382"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763343"
 ---
 # <a name="skype-for-business-server-updates"></a>비즈니스용 Skype 서버 업데이트
 
-비즈니스용 Skype 서버 [2019, 비즈니스용 Skype 서버 2015,](#skype-for-business-server-2019-update-history)Lync Server [2013](#skype-for-business-server-2015-update-history)및 [Lync Server 2010에](#lync-server-2010-update-history) 대한 업데이트를 한 장소에서 찾고 관리합니다. [](#lync-server-2013-update-history) 업데이트에 대한 자세한 내용을 알아본 후 업데이트를 다운로드하려면 이 페이지의 링크를 사용하세요.
+비즈니스용 Skype 서버 [2019, 비즈니스용 Skype 서버 2015](#skype-for-business-server-2019-update-history), [Lync Server 2013 및 Lync Server 2010](#lync-server-2013-update-history)에 대한 업데이트를 한 장소에서 찾고 관리합니다[](#lync-server-2010-update-history). [](#skype-for-business-server-2015-update-history) 업데이트에 대한 자세한 내용을 알아본 후 업데이트를 다운로드하려면 이 페이지의 링크를 사용하세요.
 
-온라인 및 비즈니스용 Skype 최신 Microsoft 365 자세한 내용은 Microsoft 365 [로드맵을 참조하세요.](https://go.microsoft.com/fwlink/p/?linkid=529454)
+최신 비즈니스용 Skype 온라인 및 Microsoft 365 내용은 Microsoft 365 [로드맵을 참조하세요](https://go.microsoft.com/fwlink/p/?linkid=529454).
 
 ## <a name="skype-for-business-server-2019-update-history"></a>비즈니스용 Skype 서버 2019 업데이트 기록
 
@@ -58,13 +58,14 @@ KB 4470124 게시된 모든 누적 업데이트 및 핫픽스의 모든 기록 �
 
 |패키지 이름|KB 번호|릴리스 날짜|
 |:--- |:--- |:--- |
-|비즈니스용 Skype 서버 2015 누적 업데이트 12|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2021년 8월 |
-|비즈니스용 Skype 서버 2015 누적 업데이트 11 핫픽스 2|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020년 11월 |
-|비즈니스용 Skype 서버 2015 누적 업데이트 11 핫픽스 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020년 7월 |
-|비즈니스용 Skype 서버 2015 누적 업데이트 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020년 5월 13일 |
-|비즈니스용 Skype 서버 2015 누적 업데이트 10 핫픽스 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019년 8월 |
-|비즈니스용 Skype 서버 2015 누적 업데이트 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019년 7월 |
-|비즈니스용 Skype 서버 2015, 웹 구성 요소 서버용 누적 업데이트 9|[KB 4487981](https://support.microsoft.com/kb/4487981)| 2019년 5월 |
+|비즈니스용 Skype 서버 2015 누적 업데이트 12 핫픽스 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|2022년 2월 |
+|비즈니스용 Skype 서버 2015 누적 업데이트 12|[KB 3061064](https://support.microsoft.com/kb/3061064)|2021년 8월 |
+|비즈니스용 Skype 서버 2015 누적 업데이트 11 핫픽스 2|[KB 3061064](https://support.microsoft.com/kb/3061064)|2020년 11월 |
+|비즈니스용 Skype 서버 2015 누적 업데이트 11 핫픽스 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|2020년 7월 |
+|비즈니스용 Skype 서버 2015 누적 업데이트 11|[KB 3061064](https://support.microsoft.com/kb/3061064)|2020년 5월 13일 |
+|비즈니스용 Skype 서버 2015 누적 업데이트 10 핫픽스 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|2019년 8월 |
+|비즈니스용 Skype 서버 2015 누적 업데이트 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)|2019년 7월 |
+|비즈니스용 Skype 서버 2015, 웹 구성 요소 서버용 누적 업데이트 9|[KB 4487981](https://support.microsoft.com/kb/4487981)|2019년 5월 |
 |비즈니스용 Skype 서버 2015, 프런트 엔드 서버 및 에지 서버용 누적 업데이트 8|[KB 4464355](https://support.microsoft.com/kb/4464355)|2019년 1월|
 |비즈니스용 Skype 서버, 프런트 엔드 서버 및 에지 서버용 누적 업데이트 7 |[KB 4340904](https://support.microsoft.com/kb/4340904) |2018년 7월 |
 |비즈니스용 Skype 서버 2015, 프런트 엔드 서버 및 에지 서버용 누적 업데이트 6 핫픽스 2 |[KB 4086059](https://support.microsoft.com/kb/4086059) |2018년 3월 |
@@ -141,7 +142,7 @@ KB 4470124 게시된 모든 누적 업데이트 및 핫픽스의 모든 기록 �
 
 #### <a name="pre-configured-vhds"></a>미리 구성된 VHD
 
-전체 토폴로지는 Microsoft Lync 2013, Microsoft Exchange 2013, SharePoint 2013 및 UC 개발자 플랫폼 API(Microsoft Lync 2013 SDK, Exchange Web Services Managed API 2.0, Microsoft Lync Server 2013 SDK 및 Microsoft Unified Communications Managed API 4.0 포함)를 완전히 평가할 수 있는 7개의 가상 컴퓨터로 구성됩니다.
+전체 토폴로지는 Microsoft Lync 2013을 완전히 평가할 수 있는 7개의 가상 컴퓨터로 구성됩니다. Microsoft Exchange 2013, SharePoint 2013 및 UC 개발자 플랫폼 API(Microsoft Lync 2013 SDK, Exchange Web Services Managed API 2.0, Microsoft Lync Server 2013 SDK 및 Microsoft Unified Communications Managed API 4.0 포함)
 
 패키지 이름 |릴리스 날짜|
 |:--- |:--- |
@@ -241,14 +242,14 @@ KB 4470124 게시된 모든 누적 업데이트 및 핫픽스의 모든 기록 �
 |[Lync Server 2010 설명서 도움말 파일](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|2012년 3월 |
 |[Lync Server 2010 시작 페이지](/previous-versions/office/skype-server-2010/gg398616(v=ocs.14))|2012년 10월 |
 |[Microsoft Lync Server 2010 설명서의 IM 전문가](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|2012년 3월 |
-|[Lync 2010 릴리스 정보](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3).aspx)|2011년 1월 |
+|[Lync 2010 Release](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3) Notes.aspx)|2011년 1월 |
 |[Lync Server 2010 릴리스 정보](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|2011년 1월 |
 |[Lync Server 2010 계획 도구 읽기](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=c8ba3275-270f-4c0b-90bb-edc1d1216c2d)|2011년 1월 |
 |[Lync Server 2010 에지 서버 참조 아키텍처 다이어그램](https://www.microsoft.com/download/details.aspx?id=13791)|2011년 3월 |
 
 ### <a name="resource-kit-technical-reference"></a>리소스 키트(기술 참조)
 
-Microsoft [Lync Server 2010 Resource Kit](https://www.microsoft.com/download/en/details.aspx?id=22644) 다운로드 사이트를 방문하여 책 장을 개별적으로 다운로드하거나 리소스 키트의 [19장](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip)모두가 .zip 파일을 다운로드합니다.
+[Microsoft Lync Server 2010 Resource Kit](https://www.microsoft.com/download/en/details.aspx?id=22644) 다운로드 사이트를 방문하여 책 장을 개별적으로 다운로드하거나 리소스 키트의 [19](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip)개 챕터가 모두 .zip 파일을 다운로드합니다.
 
 ### <a name="group-chat"></a>그룹 채팅
 

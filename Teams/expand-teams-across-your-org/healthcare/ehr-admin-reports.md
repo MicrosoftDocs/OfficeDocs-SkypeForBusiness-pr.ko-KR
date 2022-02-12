@@ -1,5 +1,5 @@
 ---
-title: Teams 가상 방문에 대한 관리 - EHR 커넥터 관리자 보고서
+title: 가상 Teams - EHR 커넥터 관리자 보고서
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,23 +8,28 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 searchScope:
-  - Microsoft Teams
-  - Microsoft Cloud for Healthcare
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection:
-  - M365-collaboration
-  - Teams_ITAdmin_Healthcare
-  - microsoftcloud-healthcare
-  - m365solution-healthcare
-  - m365solution-scenario
+- M365-collaboration
+- Teams_ITAdmin_Healthcare
+- microsoftcloud-healthcare
+- m365solution-healthcare
+- m365solution-scenario
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.reviewer: ansantam
 description: EHR 커넥터 Teams 관리 보고서 보기
+ms.openlocfilehash: 3f85d48493822db3a26851d281f7a5fddf813960
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763303"
 ---
-
 # <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams EHR 커넥터 관리자 보고서
 
 EHR(전자 상태 Microsoft Teams) 커넥터 관리 보고서 대화 상자는 사용 현황 데이터를 빠르고 쉽게 읽을 수 있도록 합니다.

@@ -1,5 +1,5 @@
 ---
-title: 모바일 브라우저에서 가상 Teams 조인 환경 관리
+title: 모바일 브라우저에서 가상 Teams 대한 조인 환경 관리
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
@@ -21,14 +21,14 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: 모바일 브라우저에서 가상 Teams 조인 경험에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 5c4b0f7ac9011d12d12e3076f900880292e72eb1
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: 83bbe6e2db29a1ed43bbe1646f8545072dac7d2d
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288566"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763712"
 ---
-# <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>모바일 브라우저에서 가상 Teams 조인 환경 관리
+# <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>모바일 브라우저에서 가상 Teams 대한 조인 환경 관리
 
 Microsoft Teams 앱을 다운로드하지 않고도 사람들이 모바일 장치에서 약속에 쉽게 참여할 수 Teams. 보다 원활한 환경을 위해 참석자들은 모바일 브라우저에서 의료 방문, 재무 상담, 교육자 사무실 시간 등의 약속에 참가할 수 있습니다. 참석자들은 Android 또는 iOS 모바일 Teams 모바일 앱을 설치할 필요가 없습니다.
 
@@ -66,9 +66,9 @@ Bookings에서  >  설정 **Appointment** 형식으로 이동하고 약속 유�
 
 사용자 또는 직원이 설정할 필요가 없습니다!
 
-**Cerner EHR** 과의 통합: Teams EHR 커넥터는 모바일을 통해 가상 방문에 참가하는 환자를 지원합니다. 약속 시 환자는 SMS 문자 메시지의 링크를 탭하여 가상 방문에 참가할 수 있습니다. 환자가 원하는 브라우저를 선택한 다음 해당 Teams 열립니다.
+**Cerner EHR** 과의 통합: Teams EHR 커넥터는 모바일을 통해 가상 약속에 참가하는 환자를 지원합니다. 약속 시 환자는 SMS 문자 메시지의 링크를 탭하여 참가할 수 있습니다. 환자가 원하는 브라우저를 선택한 다음 해당 Teams 열립니다.
 
-**Epic EHR** 과의 통합: Teams EHR 커넥터는 MyChart 웹 및 모바일을 통해 가상 방문에 참가하는 환자를 지원합니다. 약속 시 환자는 가상 방문 시작 단추를 사용하여 MyChart에서 가상 방문을 **시작할 수** 있습니다. 환자가 원하는 브라우저를 선택한 다음 해당 Teams 열립니다.
+**Epic EHR** 과의 통합: Teams EHR 커넥터는 MyChart 웹 및 모바일을 통해 가상 약속에 참가하는 환자를 지원합니다. 약속 시 환자는 가상 방문 시작 단추를 사용하여 MyChart에서 방문을 **시작할 수** 있습니다. 환자가 원하는 브라우저를 선택한 다음 해당 Teams 열립니다.
 
 ## <a name="supported-mobile-browsers"></a>지원되는 모바일 브라우저
 
@@ -86,14 +86,14 @@ Bookings에서  >  설정 **Appointment** 형식으로 이동하고 약속 유�
 
 ## <a name="things-to-consider"></a>고려해야 할 일
 
-가상 방문을 수행하는 직원 구성원은 모바일 브라우저에서 참가하는 참석자와 Teams 데스크톱, 모바일 또는 웹 클라이언트에서 자신의 화면을 공유할 수 있습니다. 그러나 참석자들은 모바일 브라우저에서 자신의 화면을 공유할 수 없습니다.
+방문을 수행하는 직원 구성원은 모바일 브라우저에서 참가하는 참석자와 Teams 데스크톱, 모바일 또는 웹 클라이언트에서 자신의 화면을 공유할 수 있습니다. 그러나 참석자들은 모바일 브라우저에서 자신의 화면을 공유할 수 없습니다.
 
 > [!NOTE]
 > 향후 릴리스에서 모임 참가 경험에 더 많은 기능을 Teams 있으므로 최신 정보를 다시 확인하세요. 다가오는 주요 기능을 Teams 로드맵을 Microsoft 365 [있습니다](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
 
 ## <a name="related-articles"></a>관련 기사
 
-- [Teams 및 Bookings 앱을 통해 가상 방문](bookings-virtual-visits.md)
+- [가상 Teams 및 Bookings 앱을 통해 가상 방문](bookings-virtual-visits.md)
 - [예약 약속 유형 만들기](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)
 - [참석자로 Bookings 약속 참가](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
 - [가상 Teams - Cerner EHR에 통합](healthcare/ehr-admin-cerner.md)

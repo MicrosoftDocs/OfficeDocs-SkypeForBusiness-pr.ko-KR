@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 및 Bookings 앱을 가상으로 방문
+title: 가상 Microsoft Teams 및 Bookings 앱을 통해 가상 방문
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
@@ -20,23 +20,23 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: ''
-description: 가상 방문을 예약, 관리 및 Teams 예약하는 방법에 대해 자세히 알아보십시오.
-ms.openlocfilehash: ae74a4195bc8aa0deeca81221e70fe28890938ec
-ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
+description: 예약에서 Bookings 앱을 사용하여 가상 방문을 예약, 관리 및 Teams.
+ms.openlocfilehash: 5734dbde3db60e5595a1c712bdfb7849dc86485e
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62312351"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763802"
 ---
-# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Microsoft Teams 및 Bookings 앱을 가상으로 방문
+# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>가상 Microsoft Teams 및 Bookings 앱을 통해 가상 방문
 
 ## <a name="overview"></a>개요
 
-이 [앱의 Bookings](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) Microsoft Teams 조직은 직원 및 참석자에 대한 가상 약속을 예약하고 관리할 수 있는 간단한 방법을 제공합니다. 의료 방문, 재무 상담, 인터뷰, 고객 지원, 가상 피팅 및 상담, 교육 사무실 시간 등의 가상 약속을 예약하는 데 사용할 수 있습니다.
+이 [앱의 Bookings](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) Microsoft Teams 조직은 직원 및 참석자에 대한 가상 약속을 예약하고 관리할 수 있는 간단한 방법을 제공합니다. 의료 방문, 재무 상담, 인터뷰, 고객 지원, 가상 피팅 및 상담, 교육 사무실 시간 등의 약속을 예약하는 데 사용할 수 있습니다.
 
 Bookings 앱을 사용하면 조직의 복잡한 예약 요구를 쉽게 관리할 수 있습니다. 스케줄러는 한 번의 경험으로 여러 부서 및 직원 일정을 관리할 수 있을 뿐만 아니라 내부 및 외부 참석자들과의 커뮤니케이션도 관리할 수 있습니다.
 
-가상 방문은 강력한 Microsoft Teams 회의 기능을 제공하는 모임을 통해 개최됩니다. 예를 들어 의사는 화면을 공유하고 환자와 테스트 결과를 검토할 수 있습니다. 또는 은행 고문이 문서에 전자 서명을 요청할 수 있어 원격으로 트랜잭션을 닫을 수 있습니다.
+가상 약속은 강력한 Microsoft Teams 회의 기능을 제공하는 모임을 통해 개최됩니다. 예를 들어 의사는 화면을 공유하고 환자와 테스트 결과를 검토할 수 있습니다. 또는 은행 고문이 문서에 전자 서명을 요청할 수 있어 원격으로 트랜잭션을 닫을 수 있습니다.
 
 각 가상 약속에는 Teams 웹 브라우저에서 또는 모든 장치에서 쉽게 참가할 수 있는 참석자에 Teams 모임 링크가 포함되어 있습니다. 자동화된 전자 메일 미리 알림은 노쇼를 줄이고 고객 및 클라이언트 참여를 향상시키는 데 도움이 됩니다.
 
@@ -44,11 +44,11 @@ Bookings를 사용하면 업계에 맞는 환경을 얻을 수 있습니다. 조
 
 |산업 | 예제 |
 |---------|---------|
-|금융 서비스    |  원격 판매 및 서비스에 대한 가상 방문<br/>은행 관계 관리자, 재무 고문 및 클레임 조정자에 대한 가상 약속을 예약하고 관리하여 고객의 효율성과 편의성을 높이기 위해 몇 가지 이름을 지정합니다.  |
-|의료 서비스   |  환자 진료를 위한 가상 방문 <br/>의료진이 환자 또는 기타 의료 공급자를 만나 의료 서비스를 논의하기 위해 가상 방문을 예약하고 관리합니다.   |
+|금융 서비스    |  원격 판매 및 서비스에 대한 가상 방문<br/>은행 관계 관리자, 재무 고문 및 클레임 조정자에 대한 약속을 예약하고 관리하여 고객의 효율성과 편의성을 높이기 위해 몇 가지 이름을 지정합니다.  |
 |소매점   | 가상 피팅 및 상담 <br/>고객과 가상 피팅 및 상담을 수행하기 위해 영업 직원, 제품 전문가 및 디자인 컨설턴트의 약속을 예약하고 관리합니다.   |
+|의료 서비스   |  환자 진료를 위한 가상 방문 <br/>의료진의 약속을 예약하고 관리하여 환자 또는 다른 의료 공급자와 만나 의료 서비스를 논의합니다.   |
 
-이 문서에서는 가상 방문을 예약, 관리 및 Teams 예약에서 Bookings 앱을 사용하는 방법에 대한 개요를 제공합니다.
+이 문서에서는 예약에서 Bookings 앱을 사용하여 가상 방문을 예약, 관리 및 Teams.
 
 ## <a name="before-you-get-started"></a>시작하기 전
 
@@ -84,7 +84,7 @@ Bookings 앱은 앱과 Outlook. 직원을 추가하면 해당 사람의 일정 �
 
 추가하는 정보 및 링크는 이 유형의 약속을 예약할 때마다 참석자에게 전송되는 전자 메일 확인에 포함됩니다. 참석자는 다운로드하지 않고도 모바일 브라우저에서 참가할 수 있는지 여부와 같은 전자 [](mobile-browser-join.md) 메일 미리 알림 및 기타 옵션을 설정할 Teams. 자세한 내용은 약속 유형 [만들기를 참조합니다](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
 
-## <a name="schedule-a-virtual-visit"></a>가상 방문 예약
+## <a name="schedule-a-visit"></a>방문 예약
 
 예약 일정에서 새 **예약을 선택합니다**. 약속 유형을 선택한 다음 관련 정보를 입력합니다.
 
@@ -92,11 +92,11 @@ Bookings 앱은 앱과 Outlook. 직원을 추가하면 해당 사람의 일정 �
 
 참석자에게 보낸 전자 메일 확인에는 모임 링크와 첨부 파일이 포함되어 일정에 가상 약속을 추가할 수 있습니다. 직원에게 전자 메일 확인 및 모임 초대도 받게 됩니다.
 
-## <a name="conduct-a-virtual-visit"></a>가상 방문 수행
+## <a name="conduct-a-visit"></a>방문 수행
 
 일정 Teams 또는 Outlook 예약으로 이동한 다음 참가 또는 모임 Teams 선택합니다. 오디오 및 비디오 설정을 확인한 다음 지금 **참가를 선택합니다**. 자세한 내용은 예약 약속 [수행을 참조합니다](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
 
-## <a name="monitor-virtual-visits-and-get-real-time-status-updates"></a>가상 방문 모니터링 및 실시간 상태 업데이트 확인
+## <a name="monitor-visits-and-get-real-time-status-updates"></a>방문 모니터링 및 실시간 상태 업데이트 확인
 
 Bookings [의](https://support.microsoft.com/office/queue-view-in-bookings-3eea2840-a1e0-4bcd-8e09-d3cf51c184d6) 큐 보기는 직원에게 실시간 업데이트와 함께 하루의 모든 가상 약속을 모니터링할 수 있는 대시보드를 제공합니다. 큐를 표시하기 위해 예약의 **큐** 탭으로 이동합니다.
 
@@ -117,7 +117,7 @@ Bookings 웹앱은 추가 기능을 제공합니다. 예를 들어 직원이 약
 
 ## <a name="related-articles"></a>관련 기사
 
-- [모바일 브라우저에서 가상 Teams 조인 환경 관리](mobile-browser-join.md)
+- [모바일 브라우저에서 가상 Teams 대한 조인 환경 관리](mobile-browser-join.md)
 
 - [의료 조직을 위한 Teams 시작](healthcare/teams-in-hc.md)
 
