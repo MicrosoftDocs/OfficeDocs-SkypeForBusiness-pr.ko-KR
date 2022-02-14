@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 교육 정책 마법사를 사용하여 교육용 Teams 학생 및 교육자에 대한 정책을 쉽게 적용하여 학습 환경을 안전하게 유지하는 방법에 대해 알아보습니다.
 f1keywords: ''
-ms.openlocfilehash: d724fcd7c5c62e861991e93cbbb9a0969a6c567e
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 9834aceeffc6c5604c144e801405cea968df5a69
+ms.sourcegitcommit: 2612020cd932117148440b60be818ba31208b1d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62387646"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "62805459"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>보안 교육용 Teams 정책 마법사를 사용하여 안전한 학습 환경에 대한 정책을 쉽게 적용할 수 있습니다.
 
@@ -77,15 +77,15 @@ ms.locfileid: "62387646"
 
     :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="기관 유형을 선택하는 마법사의 페이지의 스크린샷입니다.":::
 
-3. 교육자 및 교직원이 포함된 그룹을 검색하고 선택한 다음 다음을 **선택합니다**. 교육자 및 교직원에 대해 아직 그룹이 설정되지 않은 경우 그룹을 만든 [다음 마법사를](/microsoft-365/admin/create-groups/create-groups) 다시 실행합니다. <br/><br/>현재 그룹 하나만 선택할 수 있습니다. 선택한 그룹의 교육자 및 교직원에게 요구에 맞는 [](#policies-applied-by-the-wizard) 사용자 지정 정책 집합이 할당됩니다. 이 정책 집합은 학생에게 적용되는 정책과는 별개입니다.
+3. 교육자 및 교직원이 포함된 그룹을 검색하고 선택한 다음 다음을 **선택합니다**. 교육자 및 교직원에 대해 아직 그룹이 설정되지 않은 경우 그룹을 만든 [다음 마법사를](/microsoft-365/admin/create-groups/create-groups) 다시 실행합니다. <br/><br/>최대 3개의 그룹을 선택할 수 있습니다. 선택한 그룹의 교육자 및 교직원에게 요구에 맞는 [](#policies-applied-by-the-wizard) 사용자 지정 정책 집합이 할당됩니다. 이 정책 집합은 학생에게 적용되는 정책과는 별개입니다.
 
-    :::image type="content" source="media/easy-policy-setup-group.png" alt-text="마법사의 페이지 스크린샷을 통해 교사 및 교직원 그룹을 선택합니다.":::
+    :::image type="content" source="media/edu-policy-wizard-add-3-groups.png" alt-text="마법사의 페이지 스크린샷을 통해 교사 및 교직원 그룹을 선택합니다.":::
 
 4. 선택을 검토합니다.
 
-    :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="선택을 검토하기 위해 마법사의 페이지의 스크린샷입니다.":::
+    :::image type="content" source="media/edu-policy-wizard-3-groups-review.png" alt-text="선택을 검토하기 위해 마법사의 페이지의 스크린샷입니다.":::
 
-5. 적용 **을** 선택하여 변경 내용을 적용합니다. 완료하는 데 몇 분 정도 걸릴 수 있습니다.<br/><br/>전역(Org-wide 기본값) 정책 정의는 학생에게 즉시 적용됩니다. 교육자 및 교직원의 경우 그룹 크기에 따라 선택한 그룹의 각 구성원에 사용자 지정 정책을 할당하는 데 몇 시간이 걸릴 수 있습니다. 이 단계는 이 단계를 성공적으로 완료한 후에 백그라운드에서 발생합니다.
+5. 적용 **을** 선택하여 변경 내용을 적용합니다. 완료하는 데 몇 분 정도 걸릴 수 있습니다.<br/><br/>전역(Org-wide 기본값) 정책 정의는 학생에게 즉시 적용됩니다. 교육자 및 교직원의 경우 그룹 크기에 따라 선택한 그룹의 각 구성원에 사용자 지정 정책이 할당되는 데 몇 시간이 걸릴 수 있습니다. 이 단계는 이 단계를 성공적으로 완료한 후에 백그라운드에서 발생합니다.
 6. 진행 중이지만 아직 완료되지 않았습니다. 고려해야 할 몇 가지가 있습니다. 다음으로, 이 문서의 마법사 섹션을 실행한 후 수행해야 할 일의 [단계를](#what-to-do-after-running-the-wizard) 참조하세요.
 
     :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="다음 단계에 대한 마법사의 페이지의 스크린샷입니다.":::
@@ -137,9 +137,9 @@ Teams 정책 영역의 경우 다음과 같은 방법으로 사용자에게 정�
 
 ### <a name="step-3-check-message-center-for-policy-updates"></a>3단계: 정책 업데이트 확인 메시지 센터
 
-현재 마법사는 이 정책을 실행할 때 권장되는 정책을 적용합니다. 새 정책을 사용할 수 Teams 학생 안전에 대한 전역(org-wide default) 설정이 마법사에 의해 자동으로 업데이트됩니다. 
+현재 마법사는 이 정책을 실행할 때 권장되는 정책을 적용합니다. 새 정책을 사용할 수 Teams 학생 안전에 대한 전역(org-wide default) 설정이 마법사에 의해 자동으로 업데이트됩니다.
 
-그러나 메시지 센터([](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter)Microsoft 365 관리 센터)를 자주 확인하여 새 기능과 해당 정책 및 정책 설정을 Teams. 
+그러나 메시지 센터([](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter)Microsoft 365 관리 센터)를 자주 확인하여 새 기능과 해당 정책 및 정책 설정을 Teams.
 
 ## <a name="make-changes-in-the-wizard"></a>마법사에서 변경
 
