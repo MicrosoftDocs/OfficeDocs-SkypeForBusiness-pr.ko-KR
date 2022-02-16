@@ -21,14 +21,14 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 내기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: 192d56972c0d26484be773cf40fe0d1c59b69136
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: 809f69383f73346f7964926e689739016b155705
+ms.sourcegitcommit: 5aae5eace62e491dac655882d24974824ce1aa07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763671"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "62856686"
 ---
-# <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 인증된 디바이스
+# <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 인증된 Android 디바이스
 
 인증 Microsoft Teams 인증 프로그램은 인증된 디바이스가 전체 환경(오디오, 비디오, 사용자 인터페이스)에서 더 높은 성능 목표 및 품질 메트릭을 Teams 보장합니다. Microsoft 및 OEM 파트너는 디바이스가 보안, 오디오 및 비디오 품질, 환경 및 접근성을 포함하여 모든 인증 요구 사항을 충족하도록 Teams 협력하고 있습니다.
 
@@ -219,6 +219,10 @@ ms.locfileid: "62763671"
 | Poly Studio X30 | `3.8.0`          | 2021 업데이트 #2    |
 | Poly Studio X50 | `3.8.0`          | 2021 업데이트 #2    |
 | Poly TC8        | `3.8.0`          | 2021 업데이트 #2    |
+| Logi Rallybar    | 1.3.538         | 2021 업데이트 #2B    |
+| Logi Rallybar Mini | 1.3.538       | 2021 업데이트 #2B    |
+| Logi Rallybar    | 1.4.228         | 2021 업데이트 #2B    |
+| Logi Rallybar Mini | 1.4.228       | 2021 업데이트 #2B    |
 | Poly Studio X30 | `3.7.0`          | 2021 업데이트 #2A    |
 | Poly Studio X50 | `3.7.0`          | 2021 업데이트 #2A    |
 | Poly TC8        | `3.7.0`          | 2021 업데이트 #2A    |

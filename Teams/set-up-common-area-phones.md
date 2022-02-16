@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '로비, 수신 공간 및 회의실에 대한 공용 영역 휴대폰을 설정하는 방법에 대해 자세히 알아보기 '
-ms.openlocfilehash: a4e4720fe7baf58d0da6f00800c61b706ec48516
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 144e32e1bf56bc3e2d64d0c6a1a137fd501442b7
+ms.sourcegitcommit: 5aae5eace62e491dac655882d24974824ce1aa07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279266"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "62856666"
 ---
 # <a name="deploy-common-area-phones-for-microsoft-teams"></a>공용 영역 휴대폰을 배포합니다Microsoft Teams
 
@@ -55,7 +55,7 @@ ms.locfileid: "62279266"
 &sup2; sovereign 클라우드에서 사용할 수 없습니다.  
 
 >[!NOTE]
-> 휴대폰의 공용 영역 비즈니스용 Skype 서버 계정은 Microsoft Teams. 이 문서의 단계를 따라 해당 계정을 다시 Teams 필요한 경우 PTSN 연결을 마이그레이션합니다.
+> 공동 영역 전화 개체에 대한 계정은 비즈니스용 Skype 서버 마이그레이션할 수 Microsoft Teams. 이 문서의 단계를 따라 해당 계정을 다시 Teams 필요한 경우 PTSN 연결을 마이그레이션합니다.
 
 ## <a name="step-1---buy-the-licenses"></a>1단계 - 라이선스 구매
 
