@@ -24,10 +24,10 @@ appliesto:
 ms.reviewer: ansantam
 description: 조직에서 의료 서비스 공급자가 Epic EHR Teams 직접 환자 또는 다른 공급자와 가상 방문을 수행하도록 Teams EHR 커넥터를 통합하는 방법을 알아보습니다.
 ms.openlocfilehash: 3274ed2c566008dd7474accf159540c96c82b865
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2022
+ms.lasthandoff: 02/15/2022
 ms.locfileid: "62763323"
 ---
 # <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>가상 Teams - Epic EHR에 통합

@@ -3,25 +3,30 @@ title: 정책 패키지 관리 Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
-ms.reviewer: 'sekrantz, aaglick'
+ms.reviewer: sekrantz, aaglick
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - ms.teamsadmincenter.policypackages.overview
-  - seo-marvel-apr2020
+- ms.teamsadmincenter.policypackages.overview
+- seo-marvel-apr2020
 ms.localizationpriority: medium
 search.appverid: MET150
-description: '사용자 그룹에 대한 정책을 관리할 때 Microsoft Teams 간소화하고, 간소화하고, 일관성을 제공하는 데 도움이 되는 정책 패키지를 사용하여 관리하는 방법에 대해 알아보고,'
+description: 사용자 그룹에 대한 정책을 관리할 때 Microsoft Teams 간소화하고, 간소화하고, 일관성을 제공하는 데 도움이 되는 정책 패키지를 사용하여 관리하는 방법에 대해 알아보고,
+ms.openlocfilehash: f90febffb5385a3b91859d63db1b4b320e0a94a7
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "62425305"
 ---
-
 # <a name="manage-policy-packages-for-microsoft-teams"></a>정책 패키지 관리 Microsoft Teams
 
 Microsoft Teams의 정책 패키지는 조직에서 유사한 역할을 가진 사용자에게 할당할 수 있는 미리 정의된 정책 및 정책 설정의 모음입니다. 조직 전체의 사용자 그룹에 대한 정책을 관리할 때 일관성을 제공, 간소화 및 지원하기 위한 정책 패키지를 구축했습니다.  

@@ -16,10 +16,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 659cfd90e2fb5f498c00ea4b48039f9493357309
-ms.sourcegitcommit: 0486ca906fc7f66460e54e400541e5d5cbfc6dde
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/21/2022
+ms.lasthandoff: 02/15/2022
 ms.locfileid: "62161037"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>라이선스에 Teams 앱 맞춤 설정
@@ -51,16 +51,16 @@ F 라이선스가 있는 사용자를 위해 고정된 앱:
 ## <a name="admin-controls"></a>관리자 컨트롤
 
 > [!NOTE]
-> 이 기능을 적용하려면 전역(org-wide [default)](teams-app-setup-policies.md) 앱 설정 정책에서 사용자 고정을 설정해야 합니다.
+> 이 기능을 적용하려면 전역(org-wide [default) 앱](teams-app-setup-policies.md) 설정 정책에서 사용자 고정을 설정해야 합니다.
 
-맞춤형 앱 환경 기능은 관리 센터의 앱 관리 페이지에서 라이선스 또는 전체 앱 [](manage-apps.md#manage-org-wide-app-settings) 설정을 기반으로 맞춤 앱 표시에 Teams 제어됩니다.  기능이 설정된 경우 F 라이선스가 있는 조직의 모든 사용자가 맞춤형 앱 환경을 얻을 수 있습니다.
+맞춤형 앱 환경 기능은 관리 센터의 앱 관리 페이지에서 라이선스  또는 전체 앱 설정을 기반으로 맞춤 앱 표시에 Teams 제어됩니다.[](manage-apps.md#manage-org-wide-app-settings) 기능이 설정된 경우 F 라이선스가 있는 조직의 모든 사용자가 맞춤형 앱 환경을 얻을 수 있습니다.
 
 사용자에게 할당된 사용자 지정 앱 설정 정책이 우선 순위에 따라 결정됩니다. 즉, 사용자에게 사용자 지정 앱 설정 정책이 이미 할당되어 있는 경우 사용자는 사용자 지정 앱 설정 정책에 정의된 구성을 얻습니다. 이 기능이 조직에서 적용한 기존 앱 설정 정책과 함께 작동하는 방법에 대한 자세한 내용은 이 문서의 [시나리오](#scenarios) 섹션을 참조하세요.
 
 이 기능은 기본적으로 켜져 있습니다. 그러나 Microsoft에서 제공하는 맞춤형 앱 환경을 원하지 않는 경우 기능을 해제할 수 있습니다. 기능을 끄거나 끄는 경우:
 
-1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 앱 관리 Teams 앱 관리로 이동한 다음,  >   **Org-wide 앱** 설정을 선택합니다.
-2. 맞춤 **앱에서** 라이선스에  따라 맞춤 앱 표시 토글을 해제 또는 **켜기로** **전환합니다.**
+1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams **AppsManage** >  앱 Teams 이동한 다음, **Org-wide 앱 설정을 선택합니다**.
+2. 맞춤 **앱 아래** 에서 라이선스를 기반으로  맞춤 앱 표시를 해제 또는 **켜** 기로 **전환합니다**.
 
     :::image type="content" source="media/pin-teams-apps-based-on-license.png" alt-text="앱 관리 페이지의 스크린샷, 라이선스 전체 앱 설정에 따라 맞춤 앱 표시" lightbox="media/pin-teams-apps-based-on-license.png":::
 
@@ -79,7 +79,7 @@ F 라이선스가 있는 사용자를 위해 고정된 앱:
 |맞춤 앱 환경의 앱은 이미 앱 설정 정책에 정의되어 있으며 기능이 설정되어 있습니다. |앱은 맞춤 앱 환경이 정의한 순서에 따라 고정됩니다.        |
 
 > [!NOTE]
-> 맞춤 앱 환경의 앱 또는 앱 순서를 변경할 수 없습니다. 지금은 변경하려는 경우 사용자 지정 환경을 설정할 수 있습니다. 이렇게 하여 먼저 기능을 해제합니다. 그런 다음 사용자 지정 앱 설정 [정책을](teams-app-setup-policies.md)만들고 사용자 또는 그룹에 [할당합니다.](assign-policies-users-and-groups.md)
+> 맞춤 앱 환경의 앱 또는 앱 순서를 변경할 수 없습니다. 지금은 변경하려는 경우 사용자 지정 환경을 설정할 수 있습니다. 이렇게 하여 먼저 기능을 해제합니다. 그런 다음 사용자 [지정 앱 설정 정책을 만들고](teams-app-setup-policies.md) 사용자 또는 그룹에 [할당합니다](assign-policies-users-and-groups.md).
 
 ## <a name="related-articles"></a>관련 기사
 

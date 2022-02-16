@@ -8,18 +8,23 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 searchScope:
-  - Microsoft Teams
+- Microsoft Teams
 search.appverid: MET150
 description: Microsoft Teams의 승인 응용 프로그램 가용성에 대해 알아보세요.
 ms.localizationpriority: medium
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: ea3da24dc0fa3a64d90b38a67b13be0fa4d041ce
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "62421551"
 ---
-
 # <a name="teams-approvals-app-availability"></a>Teams 승인 앱 가용성
 
 승인 앱은 모든 Microsoft Teams 사용자를 위한 개인 앱으로 사용할 수 있습니다.

@@ -24,10 +24,10 @@ appliesto:
 ms.reviewer: ansantam
 description: 조직에서 의료 서비스 Teams Cerner EHR 시스템에서 직접 환자 또는 기타 공급자와 가상 방문을 수행하도록 Teams EHR 커넥터를 통합하는 방법에 대해 자세히 알아보습니다.
 ms.openlocfilehash: e7d104e4541462c94ddb95805ae7ec2a8619bf5b
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2022
+ms.lasthandoff: 02/15/2022
 ms.locfileid: "62763702"
 ---
 # <a name="virtual-visits-with-teams---integration-into-cerner-ehr"></a>가상 Teams - Cerner EHR에 통합

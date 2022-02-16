@@ -19,10 +19,10 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c19894106dfd06c13ec9936657837aa42fcdade0
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/13/2022
+ms.lasthandoff: 02/15/2022
 ms.locfileid: "62015018"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams
@@ -37,15 +37,15 @@ ms.locfileid: "62015018"
 
 Walkie Talkie는 GMS(Google Mobile Services) 및 iOS 디바이스를 Mobile Services Android 디바이스에서 지원됩니다. 
 
-현재 Walkie Talkie는 미리 설치되어 있지 않습니다. 조직의 사용자에 대해 이 기능을 사용하도록 설정하려면 관리자 센터의 [](teams-app-setup-policies.md)사용자에게 할당된 앱 설정 정책에 Walkie   [talkie를 Teams 합니다.](https://admin.teams.microsoft.com/) 활성화되면 48시간 이내에 앱에서 Walkie Talkie를 사용할 수 있습니다.
+현재 Walkie Talkie는 미리 설치되어 있지 않습니다. 조직의 사용자에 대해 이 기능을 사용하도록 설정하려면 Walkie Talkie [](teams-app-setup-policies.md) 를 관리자 센터의 사용자에게 Teams 설치 정책에 [추가해야 합니다](https://admin.teams.microsoft.com/). 활성화되면 48시간 이내에 앱에서 Walkie Talkie를 사용할 수 있습니다.
 
 ### <a name="adding-walkie-talkie-to-your-app-list"></a>앱 목록에 Walkie Talkie 추가
 
-Microsoft Teams 관리 센터의 앱 Teams 정책에서 사용자 고정 허용을 On으로  >  설정해야 **합니다.**  그런 다음 고정된 앱 섹션에서 **+앱 추가 를 클릭합니다.**
+Microsoft Teams 관리 센터의 Teams **AppSetup** >  정책에서 사용자 고정 허용을 On **으로 설정해야** **합니다**. 그런 다음 고정된 앱 섹션에서 **+앱 추가를 클릭합니다**.
 
 :::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="고정된 앱 섹션 및 선택할 앱 추가 단추를 보여줍니다.":::
 
-오른쪽에  나타나는 고정된 앱 추가 패널에서 검색  텍스트 상자를 사용하여 Walkie Talkie를 검색합니다. 검색 결과로 있는 경우 이름  오른쪽에 있는 추가 단추를 선택하여 목록에 추가합니다.
+오른쪽 **에 나타나는** 고정된 앱 추가 패널에서 검색 텍스트 상자를 사용하여 Walkie  Talkie를 검색합니다. 검색 결과로 있는 경우 이름 오른쪽에 있는 추가 단추  를 선택하여 목록에 추가합니다.
 
 :::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="검색 창에 입력된 Walkie가 있는 고정된 앱 추가 사이드바와 검색 결과의 Walkie Talkie 앱 옆에 추가 단추가 표시됩니다.":::
 
@@ -66,7 +66,7 @@ Microsoft Teams 관리 센터의 앱 Teams 정책에서 사용자 고정 허용�
 위에서 설명한 대로 IP 네트워크를 통해 실시간 미디어의 품질은 네트워크 연결의 품질에 크게 영향을 주지만, 특히 다음의 양에 따라 크게 영향을 미치게 됩니다.
 
 - **대기 시간** - 네트워크의 지점 A에서 B 지점까지 IP 패킷을 수신하는 데 걸리는 시간입니다. 이 네트워크 전파 지연은 기본적으로 두 지점 사이의 물리적 거리와 라이트 속도 사이의 다양한 라우터에서 취한 오버헤드를 포함하여 물리적 거리와 연결됩니다. 대기 시간은 RTT(왕복 시간)로 측정됩니다.
-- **도착 간 지터** - 연속 패킷 간의 평균 지연 변경입니다.
+- **도착 간 지** 터 - 연속 패킷 간의 평균 지연 변경입니다.
 - **패킷 손실** - 종종 특정 기간에 손실되는 패킷의 백분율로 정의됩니다. 패킷 손실은 거의 영향을 주지 않고 개별 손실된 작은 패킷에서 전체 오디오 컷아웃을 일으키는 백-백 버스트 손실까지 오디오 품질에 직접 영향을 미치게 됩니다.
 
 Walkie Talkie의 예상 데이터 사용량은 오디오를 보내거나 받을 때 약 20 Kb/s입니다. 유휴 시 Walkie Talkie의 예상 데이터 사용량은 무시할 수 있습니다.
@@ -81,10 +81,10 @@ Walkie Talkie의 예상 데이터 사용량은 오디오를 보내거나 받을 
   - 유선 헤드셋(Android만 해당)
     - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
 - **견고한 Android 휴대폰**
-  - 삼성 [갤럭시 XCover](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)Pro, [Galaxy XCover 5,](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy)Galaxy Tab Active [3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
+  - 삼성 [갤럭시 XCover](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/) Pro, [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
     - 수동 설정 - Teams 설치된 경우 XCover/Active 설정 > 고급 기능 > 이동합니다. '앱으로 XCover 키 제어'를 켜고 'Teams'
     - [MDM 설정](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
-  - Zebra [TC5x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html) [TC7x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html) [TC2x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html) [EC5x,](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html)EC30 , [MC3300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html), [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) [](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html) 
+  - Zebra [TC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html), [TC7x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html), [TC2x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html), [EC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html), [EC30](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html), [MC3300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html), [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) 
     - 수동 설정 - Teams 설치된 전용 PTT 단추(LEFT_TRIGGER_2)는 기본적으로 Walkie Talkie와 함께 작동합니다.
     
 > [!NOTE]
@@ -92,7 +92,7 @@ Walkie Talkie의 예상 데이터 사용량은 오디오를 보내거나 받을 
 
 ### <a name="license-requirements"></a>라이선스 요구 사항
 
-Walkie Talkie 앱은 구독의 모든 유료 Teams Office 365 [포함됩니다.](/office365/servicedescriptions/teams-service-description) 액세스 권한을 얻게 Teams 방법에 대한 자세한 내용은 [Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+Walkie Talkie 앱은 구독의 모든 유료 Teams Office 365 [포함되어 있습니다](/office365/servicedescriptions/teams-service-description). 액세스 액세스에 대한 자세한 내용은 Teams 액세스 권한을  [Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 ## <a name="further-information"></a>추가 정보
 

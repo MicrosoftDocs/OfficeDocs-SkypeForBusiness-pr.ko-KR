@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 사용자 지정 앱을 관리 센터의 조직의 앱 스토어에 업로드하는 Microsoft Teams 대해 자세히 알아보습니다.
-ms.openlocfilehash: ccb123f776bd7a2b5a5c97685d63eea853c79a58
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 30e63673956c71aee53f1acd685b6107a61f566f
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62398315"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "62824717"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>앱 패키지를 업로드하여 사용자 지정 앱 게시
 
@@ -75,7 +75,7 @@ Microsoft는 이러한 <a href="/microsoftteams/platform/publishing/office-store
 조직의 앱 스토어의 사용자가 앱을 사용할 수 있도록하려면 앱을 업로드합니다. 관리 센터의 앱 관리 페이지에서 <a href="/microsoftteams/manage-apps" target="_blank"></a> Microsoft Teams 수 있습니다.
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 관리** 로 이동합니다.
-2. **업로드 클릭** 하고 파일 선택을 **클릭한 다음** 개발자로부터 받은 앱 패키지를 선택합니다.
+2. **업로드 선택하고**, **업로드 클릭하고**, 개발자로부터 받은 앱 패키지를 선택하고 열 **기 를 선택합니다**.
 
    ![관리 센터에 앱을 업로드하는 스크린샷.](media/manage-your-lob-apps-upload-new-app.png) 
 
