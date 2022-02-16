@@ -15,16 +15,16 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: CQD(통화 품질 대시보드) 쿼리 템플릿을 사용하려면 Power BI 커넥터 설치
-ms.openlocfilehash: e72f5731358ae1856b0379b47faefc5346ee3831
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 474edeca9e694e38e1503074fc45c8bcdaca3483
+ms.sourcegitcommit: f0eaaf67b4fdce87d5c01b456c506c1435714ced
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730347"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "62852501"
 ---
 # <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>전화 품질 대시보드 쿼리 템플릿을 Power BI Microsoft 통화 품질 커넥터 설치
 
-CQD(통화 품질 대시보드)에 Power BI 쿼리 템플릿(PBI Microsoft Teams X 파일)을 사용하려면 먼저 다운로드 에 포함된 *MicrosoftCallQuality.pqx* 파일을 사용하여 Power BI 전화 품질 커넥터를 설치해야 [합니다.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)
+CQD(통화 품질 대시보드)에 Power BI 쿼리 템플릿(PBI Microsoft Teams X 파일)을 사용하려면 먼저 다운로드에 포함된 *MicrosoftCallQuality.pqx* 파일을 사용하여 Power BI 전화 품질 커넥터를 설치해야 [합니다](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).
 
 다음 Power BI 템플릿에 대해 알아보기 위해 Teams [CQD](CQD-Power-BI-query-templates.md) 데이터를 분석합니다.
 
@@ -35,43 +35,43 @@ CQD(통화 품질 대시보드)에 Power BI 쿼리 템플릿(PBI Microsoft Teams
 
 ## <a name="installation"></a>설치
 
-커넥터를 사용할 수 있도록 사용자 지정 커넥터를 설치하고 보안을 조정하는 프로세스는 자세한 Power BI [설명되어 있습니다.](/power-bi/desktop-connector-extensibility) 단순성을 위해 간단한 설명은 다음과 같습니다.
+커넥터를 사용할 수 있도록 사용자 지정 커넥터를 설치하고 보안을 조정하는 프로세스는 자세한 Power BI [설명되어 있습니다](/power-bi/desktop-connector-extensibility). 단순성을 위해 간단한 설명은 다음과 같습니다.
 
-1. 컴퓨터에 사용자 지정 커넥터 폴더에 *\[ \] \\ 문서가 Power BI Desktop \\ 확인합니다.* 그렇지 않은 경우 이 폴더를 만드면 됩니다. <sup>1</sup>
+1. 컴퓨터에 문서가 이미 있는지 확인합니다 *Power BI Desktop\\ Custom 커넥터 폴더입니다.\[\]\\* 그렇지 않은 경우 이 폴더를 만드면 됩니다. <sup>1</sup>
 
-2. *\* 커넥터 파일(.mez* 또는 *\* .pqx* 파일)을 다운로드하고 사용자 지정 커넥터 디렉터리에 *를 니다.*
+2. 커넥터 파일( *\*.mez* 또는 *\*.pqx* 파일)을 다운로드하고 사용자 지정 커넥터 디렉터리에 *를 니다* .
 
-3. **커넥터 파일이 *\* .mez* 파일인** 경우 사용자 지정 커넥터 설정 설명서에 설명된 바와 같이 보안 설정을 [조정해야 합니다.](/power-bi/desktop-connector-extensibility#data-extension-security)
+3. **커넥터 파일이 *\*.mez* 파일** 인 경우 사용자 지정 커넥터 설정 설명서에 설명된 바와 같이 보안 설정을 [조정해야 합니다](/power-bi/desktop-connector-extensibility#data-extension-security).
 
-새 버전의 Microsoft 통화 품질 커넥터가 릴리스된 경우 사용자 지정 *커넥터* 디렉터리의 이전 커넥터 파일을 새 파일로 바 대체합니다.
+새 버전의 Microsoft 통화 품질 커넥터가 릴리스된 경우 *사용자 지정 커넥터* 디렉터리의 이전 커넥터 파일을 새 파일로 바 대체합니다.
 
 ## <a name="setup"></a>설정
 
 보고서를 빌드하고 쿼리를 실행하려면 먼저 CQD 데이터 원본에 연결해야 합니다. 연결하기 위해 아래 단계를 따릅니다.
 
-1. 의 홈 탭에서 Power BI Desktop 을 *클릭합니다.*
+1. 데이터 Power BI Desktop 탭에서 데이터 다운로드 *를 클릭합니다*.
 
     ![스크린샷: Power BI 커넥터입니다.](media/CQD-power-bi-connector1-resize.png)
 
-2. 이 *시점에 데이터* 저장 창이 나타납니다. Online *Services로 이동한* 다음 Microsoft 통화 품질(베타)을 선택하고 를 커넥트.  
+2. 이 *시점에 데이터* 저장 창이 나타납니다. *Online Services로 이동* 한 다음 *Microsoft* 통화 *품질(베타)* 을 선택하고 해당 서비스를 커넥트.
 
     ![스크린샷: Power BI 커넥터입니다.](media/CQD-power-bi-connector2-resize.png)
 
 3. 다음에 로그인하라는 메시지가 표시됩니다. 통화 품질 대시보드에 사용하는 동일한 자격 증명을 사용하세요. <sup>2</sup>
 
-4. 다음 프롬프트는 두 데이터 연결 모드 사이의 *옵션을 제공합니다.* *DirectQuery를 선택하고* 확인을 *쳤습니다.*
+4. 다음 프롬프트는 두 데이터 연결 모드 *간에 옵션을 제공합니다*. *DirectQuery를 선택하고* 확인을 *쳤습니다*.
 
-5. 마지막으로 통화 품질 대시보드에 대한 전체 데이터 모델을 보여주는 최종 프롬프트가 표시됩니다. 이 시점에는 데이터가 표시되지 않습니다. CQD의 데이터 모델만 표시됩니다. *부하를* 선택하여 설정 프로세스를 완료합니다.
+5. 마지막으로 통화 품질 대시보드에 대한 전체 데이터 모델을 보여주는 최종 프롬프트가 표시됩니다. 이 시점에는 데이터가 표시되지 않습니다. CQD의 데이터 모델만 표시됩니다. 부하 *를* 선택하여 설정 프로세스를 완료합니다.
 
-6. 이 시점에서 Power BI 모델이 창의 오른쪽에 로드됩니다. 그렇지 않으면 페이지가 비어 있으며 쿼리는 기본적으로 로드되지 않습니다. 쿼리를 **빌드하고** 데이터를 반환하기 위해 아래 쿼리 빌드로 진행합니다.
+6. 이 시점에서 Power BI 모델이 창의 오른쪽에 로드됩니다. 그렇지 않으면 페이지가 비어 있으며 쿼리는 기본적으로 로드되지 않습니다. 쿼리를 **빌드** 하고 데이터를 반환하기 위해 아래 쿼리 빌드로 진행합니다.
 
-이 설정 프로세스 중에 단계가 명확하지 않은 경우 프로세스에 대한 자세한 설명은 [빠른 시작:](/power-bi/desktop-quickstart-connect-to-data)커넥트 의 데이터에 Power BI Desktop.
+이 설정 프로세스 중에 단계가 명확하지 않은 경우 프로세스에 대한 자세한 설명은 [빠른 시작:](/power-bi/desktop-quickstart-connect-to-data) 커넥트 데이터로 Power BI Desktop.
 
 ## <a name="building-queries"></a>쿼리 구축
 
-설정이 완료되면 필드 창에 수백 개의 차원 및 측정값 로드의 이름이 *표시됩니다.* 여기에서 실제 쿼리를 생성하는 것은 간단합니다. 쿼리에 대해 원하는 차원 및 측정값을 선택한 다음 페이지로 끌어 놓습니다. 간단한 예제와 함께 자세한 설명은 다음과 같습니다.
+설정이 완료되면 필드 창에 수백 개의 차원 및 측정값 로드의 이름이 *표시됩니다* . 여기에서 실제 쿼리를 생성하는 것은 간단합니다. 쿼리에 대해 원하는 차원 및 측정값을 선택한 다음 페이지로 끌어 놓습니다. 간단한 예제와 함께 자세한 설명은 다음과 같습니다.
 
-1. 시각화 창에서 사용할 *시각화를* 선택합니다. 해당 시각화의 빈 버전이 페이지에 표시해야 합니다. 이 예제에서는 테이블 시각화를 *사용하게* 됩니다.
+1. 시각화 창에서 사용할 시각화 *를* 선택합니다. 해당 시각화의 빈 버전이 페이지에 표시해야 합니다. 이 예제에서는 테이블 시각화를 *사용* 하게 됩니다.
 
     ![스크린샷: Power BI 커넥터입니다.](media/CQD-power-bi-connector3-resize.png)
 
@@ -82,25 +82,25 @@ CQD(통화 품질 대시보드)에 Power BI 쿼리 템플릿(PBI Microsoft Teams
     > [!IMPORTANT]
     > 품질 대시보드를 호출하려면 쿼리를 실행하기 위한 측정값이 필요합니다. 쿼리에 측정값을 추가하지 못하면 해당 쿼리가 실패합니다.
 
-3. 다음으로 필터링할 차원을 선택하고 필터 창의 이 시각적 필드의 *필터로* *끌어다* 놓습니다. Microsoft Call Quality 커넥터는  현재 기본 필터링(가능한 차원 값 목록에서 값 선택), 고급 필터링(통화 품질 대시보드와 유사하게 필터링할  값 및 피연산자  지정), 상대 날짜 필터링(종료 시간 및 시작 시간 차원에만 사용 가능)을 *지원합니다.*  Top N에 따라 *필터링은* 품질 대시보드 호출에서 지원되지 않습니다.
+3. 다음으로 필터링할 차원을 선택하고 필터 창의 이 시각적 필드의 *필터**로 끌어다* 놓습니다. Microsoft Call Quality 커넥터는 현재 기본 필터링(가능한 차원 값 목록에서 값 *선택), 고급* 필터링(통화 품질 대시보드와 유사하게 필터링할 값 및 피연산자 지정), 상대 날짜 필터링(종료 시간 및 시작 시간  차원에만 사용 가능)을  *지원합니다.* Top N에 따라 *필터링* 은 품질 대시보드 호출에서 지원되지 않습니다.
 
     ![스크린샷: Power BI 커넥터입니다.](media/CQD-power-bi-connector5-resize.png)
 
     > [!IMPORTANT]
     > 필터는 차원에 적용될 때만 지원됩니다. 측정값의 값을 필터링하는 것은 통화 품질 대시보드에서 지원되지 않습니다.
 
-4. 마지막으로 시각화 *창* 내의 서식  탭을 선택하여 쿼리의 스타일을 지정하고 서식을 지정합니다.
+4. 마지막으로 *시각화 창 내의* 서식 탭을 선택하여 쿼리  의 스타일을 지정하고 서식을 지정합니다.
 
     > [!NOTE]
     > 품질 대시보드 쿼리를 호출하려면 하나 이상의 측정값이 필요합니다. 쿼리가 로드되지 않는 경우 쿼리에 측정값이 포함되어 있는지 다시 검사합니다.
 
 ## <a name="creating-a-drillthrough-report"></a>Drillthrougs 보고서 만들기
 
-[드릴스루를](/power-bi/desktop-drillthrough) 사용하면 Power BI 값을 컨텍스트로 사용하여 빠르게 필터링할 수 있는 포커스가 있는 보고서를 만들 수 있습니다. Microsoft Call Quality 커넥터를 사용하여 첫 번째 쿼리를 만드는 방법을 알고 나면 드릴스루를 만드는 것이 더 간단합니다.
+[드릴스루를](/power-bi/desktop-drillthrough) 사용하여 Power BI 값을 컨텍스트로 사용하여 빠르게 필터링할 수 있는 포커스가 있는 보고서를 만들 수 있습니다. Microsoft Call Quality 커넥터를 사용하여 첫 번째 쿼리를 만드는 방법을 알고 나면 드릴스루를 만드는 것이 더 간단합니다.
 
 1. 집중된 보고서에 대한 다른 페이지를 만든 다음 해당 페이지에 쿼리를 추가합니다.
 
-2. 드릴스루 필터로 사용할 차원을 선택하고 시각화 창의 *Drillthrough* 필드로 *끌어다* 놓습니다.
+2. 드릴스루 필터로 사용할 차원을 선택하고 시각화 창의 *Drillthrough* 필드 *로 끌어다* 놓습니다.
 
     ![스크린샷: Power BI 커넥터입니다.](media/CQD-power-bi-connector6-resize.png)
 
@@ -124,13 +124,13 @@ Microsoft Call Quality 커넥터 쿼리는 drillthrough 기능을 염두에 두�
 
 3. **사용자 지정 시각적 개체 –** Microsoft Call Quality 커넥터는 다양한 사용자 지정 시각적 개체와 함께 작동하지만 모든 사용자 지정 시각적 개체와의 호환성을 보장할 수 없습니다. 많은 사용자 지정 시각적 개체는 계산된 열 또는 가져온 데이터를 사용하는 데 의존하고, 이 시각적 개체는 DirectQuery 커넥터에서 지원되지 않습니다.
 
-4. **캐시된** 데이터 참조 - Power BI 현재는 DirectQuery 커넥터에서 캐시된 데이터를 참조하는 방법을 지원하지 않습니다. 쿼리 결과를 참조하려고 하면 새 쿼리가 표시됩니다.
+4. **캐시된** 데이터 참조 – 현재 Power BI DirectQuery 커넥터에서 캐시된 데이터를 참조하는 것은 지원되지 않습니다. 쿼리 결과를 참조하려고 하면 새 쿼리가 표시됩니다.
 
-5. **상대 데이터 필터링 –** Microsoft 통화 품질 커넥터에서 지원되지만 시작  시간 및 종료 시간 *차원에서만* 지원됩니다. 날짜 *차원은* 상대 날짜 필터링을 위한 명백한 선택일 수 있습니다. *날짜는* 날짜 시간 개체로 저장되지 않습니다. 따라서 날짜에서 상대 날짜 필터링을 지원하지 Power BI.
+5. **상대 데이터 필터링 –** Microsoft 통화 품질 커넥터에서 지원되지만 시작 시간 및 종료 시간 차원  에서 *만* 지원됩니다. 날짜 *차원* 은 상대 날짜 필터링을 위한 명백한 선택일 수 있습니다. *날짜* 는 날짜 시간 개체로 저장되지 않습니다. 따라서 날짜에서 상대 날짜 필터링을 지원하지 Power BI.
 
 6. **측정 전용 쿼리 -** 현재 Microsoft 통화 품질 커넥터에서는 지원되지 않습니다. 세 개 이상의 측정값과 차원이 없는 시각화를 만들 때 열 데이터가 변환됩니다. 이를 방지하기 위해 항상 시각화에 하나 이상의 차원(예: 월 연도)을 포함합니다. Microsoft Call Quality 커넥터의 예정된 릴리스에서 해결될 예정인 Power BI.
 
-7. **정부 커뮤니티 클라우드(GCC) 지원 –** 사용자 환경의 GCC Microsoft Call Quality 커넥터는 사용자만 사용할 때 Power BI Desktop 합니다. Microsoft Call Quality 커넥터는 현재 고객에 대한 Power BI 서비스와 GCC 없습니다.
+7. **정부 커뮤니티 클라우드(GCC) 지원 –** GCC 환경에서만 사용할 때 Microsoft 통화 품질 커넥터가 Power BI Desktop 합니다. Microsoft Call Quality 커넥터는 현재 고객에 대한 Power BI 서비스와 GCC 없습니다.
 
 이러한 문제는 대부분 CQD 데이터 모델의 디자인에 Power BI DirectQuery 커넥터 디자인에 대한 제한 사항입니다.
 
@@ -138,11 +138,19 @@ Microsoft Call Quality 커넥터 쿼리는 drillthrough 기능을 염두에 두�
 
 ### <a name="im-trying-to-use-the-date-column-as-a-date-slicer-as-soon-as-i-convert-the-data-type-of-this-column-to-date-i-get-this-error"></a>날짜 열을 날짜 슬라이서로 사용하려고 합니다. 이 열의 데이터 형식을 Date로 변환하면 이 오류가 발생합니다.
 
-> **이 시각적 개체에** 대한 데이터를 로드할 수 없습니다. OLE DB 또는 ODBC 오류: [식.오류] 식을 데이터 원본에 접을 수 없습니다. 더 간단한 식으로 사용해 주세요.
+> **이 시각적 개체** 에 대한 데이터를 로드할 수 없습니다. OLE DB 또는 ODBC 오류: [식.오류] 식을 데이터 원본에 접을 수 없습니다. 더 간단한 식으로 사용해 주세요.
 
 날짜 슬라이서는 Microsoft 통화 품질 커넥터에서 지원되지 않습니다. 날짜 범위를 지정하기 위해 날짜보다 작고 큰 필터를 지정하여 보고서에 두 개의 필터를 적용합니다.
 
 또는 볼 날짜가 최근인 경우 상대 날짜 필터를 적용하여 마지막 N일/주/월에 대한 데이터만 표시합니다.
+
+
+### <a name="when-i-add-certain-dimensions-to-my-reports-the-visual-immediately-returns-couldnt-load-the-data-for-this-visual-removing-the-dimension-fixes-the-visual----what-is-happening"></a>보고서에 특정 차원을 추가하면 시각적 개체는 "이 시각적 개체에 대한 데이터를 로드할 수 없습니다"를 즉시 **반환합니다**. 차원을 제거하여 시각적 개체가 수정됩니다. 어떻게 하나요?
+
+Microsoft Call Quality 커넥터의 알려진 문제입니다. 전체 숫자로 노출되는 모든 차원은 Power BI '집계' 열로 표시됩니다. 여기서 Power BI 요약 작업(일반적으로 'Sum')을 시도합니다. 경우에 따라 두 번째 WiFi 채널과 같은 차원의 '합계'는 의미가 없습니다. 결과가 유용하지는 않은 경우에도 이 동작은 값을 합산하는 데 성공합니다. 다른 경우에는 이 요약 작업이 실패하고 시각적 개체에 오류가 발생합니다.
+
+이 문제를 해결하기 위해 먼저 시각적 개체에서 차원을 제거합니다. '필드' 목록에서 차원을 선택하고 리본 메뉴의 '열 도구' 탭으로 이동한 후 '요약' 드롭다운 메뉴를 클릭하고 요약 안 를 **선택합니다**. 이제 차원을 시각적 개체에 다시 추가할 수 있습니다.
+
 
 ## <a name="error-codes"></a>오류 코드
 
@@ -160,9 +168,9 @@ Microsoft Call Quality 커넥터는 Power BI 쿼리 종류 측면에서 브라�
 
 ## <a name="footnotes"></a>각주
 
-**<sup>1</sup>** 특정 프로세스 및 앱(예: OneDrive) 문서 루트 폴더가 변경될 수 있습니다. 사용자 지정 *\\* Power BI Desktop 디렉터리가 현재 루트 폴더 문서 폴더 안에 배치되어 있는지 확인합니다.
+**<sup>1</sup>** 특정 프로세스 및 앱(예: OneDrive)은 문서 루트 폴더가 변경될 수 있습니다. Power BI Desktop *Custom 커넥터 디렉터리가 현재 루트\\* 폴더 문서 폴더 안에 배치되어 있는지 확인합니다.
 
-**<sup>2</sup>** 통화 품질 대시보드에 사용하는  로그인 자격 증명은 앱 자체에 로그인하는 데 사용하는 Power BI Desktop 필요가 없습니다.
+**<sup>2</sup>** 통화 품질 대시보드에 사용하는 로그인 자격 증명은 앱 자체  에 로그인하는 데 사용하는 Power BI Desktop 필요가 없습니다.
 
 ## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
