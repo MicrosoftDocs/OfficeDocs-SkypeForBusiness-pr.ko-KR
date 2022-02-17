@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 659cfd90e2fb5f498c00ea4b48039f9493357309
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.openlocfilehash: 774688012d4e70a20897cd45aa78883ba7985e68
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62161037"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62864041"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>라이선스에 Teams 앱 맞춤 설정
 
@@ -61,8 +61,6 @@ F 라이선스가 있는 사용자를 위해 고정된 앱:
 
 1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams **AppsManage** >  앱 Teams 이동한 다음, **Org-wide 앱 설정을 선택합니다**.
 2. 맞춤 **앱 아래** 에서 라이선스를 기반으로  맞춤 앱 표시를 해제 또는 **켜** 기로 **전환합니다**.
-
-    :::image type="content" source="media/pin-teams-apps-based-on-license.png" alt-text="앱 관리 페이지의 스크린샷, 라이선스 전체 앱 설정에 따라 맞춤 앱 표시" lightbox="media/pin-teams-apps-based-on-license.png":::
 
 ## <a name="scenarios"></a>시나리오
 

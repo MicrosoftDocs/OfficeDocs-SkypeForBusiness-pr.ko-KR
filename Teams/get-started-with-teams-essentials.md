@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a779d094e7a1f266a19aaecf6bbb86732f75f66b
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 3c80b93ef457048d006fb7a7eb6085b3ed5d8eb4
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279376"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62864031"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>소규모 비즈니스를 위한 Microsoft Teams Essentials 빠른 시작 가이드
 
@@ -100,14 +100,6 @@ Microsoft 인증 파트너를 통해 Teams Essentials를 구매한 경우 **Micr
 > 향상된 관리 기능과 전체 Teams 기능을 사용하려면 사용자에게 적합한 [Microsoft 365 또는 Office 365 구독 플랜](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options)을 구매하여 전체 버전의 Teams로 업그레이드해야 합니다. 조직에서 공동 작업하는 방식을 보다 유연하게 관리할 수 있으므로 이를 사용하는 것이 좋습니다.
 
 ## <a name="administration-limits-and-specifications-for-microsoft-teams-essentials"></a>Microsoft Teams Essentials에 대한 관리 제한 사항 및 사양
-
-다음은 관리자로 고려할 몇 가지 중요한 Teams Essentials 제한 사항 및 사양입니다.
-
-  - **관리:** Teams Essentials 구독에는 Teams 관리 센터에 대한 액세스 권한이 제공되지 **않습니다**. Teams Essentials 사용자는 Microsoft 365 관리 센터의 간소화된 보기를 통해 구독 관리, 새 사용자 구성을 비롯한 중요한 작업을 수행할 수 있습니다.
-
-  - **Microsoft Teams PowerShell:** PowerShell 지원이 없으므로 PowerShell 명령줄을 사용하여 직접 Teams Essentials를 관리할 **수 없습니다**.
-
-  - **저장소**: Teams Essentials는 파일 저장소에 OneDrive의 개인 클라우드 저장소를 사용합니다.
 
 [Microsoft Teams 제한 사항 및 사양](/microsoftteams/limits-specifications-teams)으로 이동하여 Teams에 적용되는 제한 사항, 사양 및 기타 요구 사항에 대해 자세히 알아보세요.
 

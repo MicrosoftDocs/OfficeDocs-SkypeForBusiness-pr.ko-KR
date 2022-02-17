@@ -11,13 +11,18 @@ search.appverid: MET150
 description: 회의실에서 음성 인식(음성 프로필)에 대한 테넌트 Teams 알아보세요.
 ms.localizationpriority: medium
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 9c970fb3d8584c9a68512187158c7dad11562c4a
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62863901"
 ---
-
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>지능형 스피커에 대한 음성 인식 기술 컨트롤 관리
 
 지능형 스피커는 음성 프로필 정보를 사용하여 라이브 전사에서 누구를 말한지 인식합니다. 회의실에 Microsoft Teams 룸 Windows 지능형 스피커가 장착되어 있는 경우 모임 중에 라이브 전사를 사용할 수 있습니다. 이 문서에서는 테넌트 관리자인 사용자가 음성 인식에 사용되는 음성 프로파일링을 제어하여 라이브 전사 생성 방법을 설명합니다. 조직에서 음성 인식 및 다음 기능을 사용하는 정도를 제어할 수 있습니다.
@@ -84,6 +89,9 @@ appliesto:
 관리 Teams 관리 센터에서 **전사 정책을 설정** 합니다. 설정 기본적으로 **꺼** 집니다.
 
 ![모임 정책이 강조 표시된 관리 센터 및 전사 허용이 선택되었습니다.](../media/allow-transcription1.png)
+  
+> [!NOTE]
+> 정책이 할당된 후 적용하는 데 최대 48시간이 걸릴 수 있습니다. 정책을 더 빨리 적용하려면 계정을 로그인하고 다시 로그인해야 합니다.
 
 ## <a name="frequently-asked-questions-faq"></a>자주 묻는 질문 (FAQ)
 
@@ -93,7 +101,7 @@ appliesto:
 
 **보존 시간 표시 막대 및 정책이란?**
 
-일반 보존 정책은 데이터 보존 개요 [에 설명되어 있습니다](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). 또한 사용자가 해당 3년 기간 내에 지능형 스피커를 사용하여 모임에 초대되지 않은 경우 사용자의 음성 프로필 데이터가 3년 후에 삭제됩니다. 기존 직원의 모임에는 데이터가 사용되지 않습니다. 직원이 회사를 떠났을 경우 음성 프로필 데이터는 사용자 콘텐츠로 간주되어 데이터 보존 개요에 Office 365 데이터 보존 정책에 따라 처리[됩니다](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
+일반 보존 정책은 데이터 보존 개요 [에 설명되어 있습니다](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). 또한 사용자가 해당 1년 기간 내에 지능형 스피커를 사용하여 모임에 초대되지 않은 경우 사용자의 음성 프로필 데이터가 1년 후에 삭제됩니다. 기존 직원의 모임에는 데이터가 사용되지 않습니다. 직원이 회사를 떠났을 경우 음성 프로필 데이터는 사용자 콘텐츠로 간주되어 데이터 보존 개요에 Office 365 데이터 보존 정책에 따라 처리[됩니다](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
 
 **음성 프로필 데이터가 전체 사용자에 Microsoft 서비스?**
 

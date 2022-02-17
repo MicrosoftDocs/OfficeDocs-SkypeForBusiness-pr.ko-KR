@@ -13,12 +13,12 @@ f1.keywords:
 description: CCaaS(서비스로 통합된 촉구 센터) 솔루션에 대한 Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c31ed6194dbf3cf7cf4169983b7292699cce918
-ms.sourcegitcommit: 2612020cd932117148440b60be818ba31208b1d1
+ms.openlocfilehash: 7593264efff9935df0606c1fad7e32006ea52c44
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "62805449"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62863911"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>고객 센터 통합을 위한 Microsoft Teams
 
@@ -70,7 +70,7 @@ Microsoft Teams 채팅, 비디오 모임 및 통화를 비롯한 통신 모드�
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                                  |
-| 'Heedify' | https://heedify.io/call-center/                                                 |
+| `Heedify` | https://heedify.io/call-center/                                                 |
 | `Intermedia` | https://www.intermedia.com/products/contact-center                          |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |

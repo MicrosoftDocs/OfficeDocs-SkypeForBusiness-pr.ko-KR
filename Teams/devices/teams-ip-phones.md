@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 내기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: 809f69383f73346f7964926e689739016b155705
-ms.sourcegitcommit: 5aae5eace62e491dac655882d24974824ce1aa07
+ms.openlocfilehash: e55e2bed641c1cc2042cd02aefbe2a6e13ea8f17
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "62856686"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62863941"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 인증된 Android 디바이스
 
@@ -133,8 +133,6 @@ ms.locfileid: "62856686"
 | 디바이스 모델  | 펌웨어 버전  | 포함된 제품 릴리스  |
 |:----------------|:--------------|:----------------------------|
 |오디오 코드 C455HD | `1.15.271`    | 2022 업데이트 #1
-|Poly Trio C60   | `7.2.1.1712`  | 2022 업데이트 #1   |
-|Poly CCX400/CCX500/CCX600   | `7.2.1.1707`  | 2022 업데이트 #1  |
 |오디오 코드 C448HD  | `1.14.500` | 2022 업데이트 #1 |
 |오디오 코드 C450HD  | `1.14.500` | 2022 업데이트 #1  |
 |오디오 코드 C470HD  | `1.14.500` | 2022 업데이트 #1   |
