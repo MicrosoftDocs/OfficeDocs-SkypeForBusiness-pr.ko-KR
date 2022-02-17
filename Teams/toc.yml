@@ -475,8 +475,6 @@ items:
         href: teams-channels-overview.md
       - name: 개인 채널 개요
         href: private-channels.md
-      - name: 개인 채널의 수명 주기 관리
-        href: private-channels-life-cycle-management.md
       - name: Teams에서 팀 소유자와 팀 구성원 할당
         href: assign-roles-permissions.md
       - name: 팀의 동적 구성원 개요

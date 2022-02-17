@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft Direct 라우팅을 통해 지원되는 SBC(고객 제공 세션 테두리 컨트롤러)를 연결하여 사용자에 전화 시스템.
-ms.openlocfilehash: 9f75646dd90b4c30384e12ae23fdc46be8825fab
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 9070acf8483041115308335abac49796be311453
+ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518840"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62881543"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -182,7 +182,7 @@ CSR(인증 서명 요청)을 생성하여 SBC에 대한 인증서를 요청하�
 - DigiCert High Assurance EV Root CA
 
 > [!NOTE]
-> SBC의 연결에 대해 MTLS(상호 TLS) 지원을 Teams 경우 TLS 컨텍스트의 SBC 신뢰할 수 있는 루트 저장소에 Baltimore CyberTrust 루트 인증서를 Teams 설치해야 합니다. (Microsoft 서비스 인증서가 Baltimore 루트 인증서를 사용하기 때문에입니다.) Baltimore 루트 인증서를 다운로드하려면 암호화 Office 365 [참조하세요](/microsoft-365/compliance/encryption-office-365-certificate-chains).
+> MLS(상호 TLS) 지원이 SBC의 Teams 연결에 대해 사용하도록 설정되어 있는 경우 TLS 컨텍스트의 SBC 신뢰할 수 있는 루트 저장소에 Baltimore CyberTrust 루트 및 DigiCert Global Root G2 인증서를 Teams 합니다. (Microsoft 서비스 인증서가 이러한 두 루트 인증서 중 하나를 사용하기 때문에입니다.) 이러한 루트 인증서를 다운로드하려면 암호화 Office 365 [참조하세요](/microsoft-365/compliance/encryption-office-365-certificate-chains). 자세한 내용은 [TLS 인증서 변경 Office 참조합니다](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes).
 
 ## <a name="sip-signaling-fqdns"></a>SIP 신호: FQDNS 
 

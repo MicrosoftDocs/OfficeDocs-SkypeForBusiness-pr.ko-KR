@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 참가자 및 게스트의 모임 정책 설정을 Teams 자세히 알아보고
-ms.openlocfilehash: ac77ab8b032fa792b0b137c84679912768e3b1b6
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: bdff1880104f80e7a5073900087a855202a9a137
+ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457378"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62881533"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>모임 정책 설정 - 참가자 및 게스트
 
@@ -98,15 +98,14 @@ ms.locfileid: "62457378"
 
 |설정값 |동작  |
 |---------|---------|
-|**모든 사람에 대해 켜기**     | 모든 참가자는 채팅 메시지를 쓰고 볼 수 있습니다. |
-|**모든 사람에 대해 해제**     | 모든 참가자에 대해 모임 채팅이 해제됩니다.  |
-|**익명 사용자만이 아니라 모든 사용자에 대해 켜기**| 익명 사용자는 모임 중에 채팅할 수 없지만 메시지를 읽을 수 있습니다. |
+|**사용 가능**     | 모든 참가자는 채팅 메시지를 쓰고 볼 수 있습니다. |
+|**사용할 수 없습니다.**     | 모든 참가자에 대해 모임 채팅이 해제됩니다.  |
 
 <a name="bkparticipantsandguests"> </a>
 
 ## <a name="enable-meeting-policy-settings"></a>모임 정책 설정 사용
 
-모임 정책 설정을 사용하도록 [설정](https://admin.teams.microsoft.com/policies/meetings)하려면 Teams 관리 센터(Meeting **PolicyEdit** >  **a** **policyParticipants** >  & 게스트) 또는 [PowerShell에서 Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet을 Teams 있습니다. 
+모임 정책 설정을 사용하도록 [설정](https://admin.teams.microsoft.com/policies/meetings)하려면 Teams 관리 센터(Meeting **PolicyEdit** >  **a** **policyParticipants** >  & 게스트) 또는 [PowerShell에서 Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 Teams 있습니다. 
 
 이 예제에서는 PowerShell을 사용하여 모든 사용자가 모임을 시작하거나 참가할 수 있도록 전역 모임 정책을 수정합니다.
 

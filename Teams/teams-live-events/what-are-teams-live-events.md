@@ -6,24 +6,29 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.collection:
-  - M365-collaboration
-  - m365initiative-meetings
-  - m365solution-spcomms
-  - m365solution-scenario
+- M365-collaboration
+- m365initiative-meetings
+- m365solution-spcomms
+- m365solution-scenario
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
-description: '라이브 이벤트를 통해 사용자가 Teams, Yammer 및 Stream에서 대규모 온라인 청중에게 비디오 및 콘텐츠를 브로드캐스트할 수 있는 방법을 알아보세요.'
+description: 라이브 이벤트를 통해 사용자가 Teams, Yammer 및 Stream에서 대규모 온라인 청중에게 비디오 및 콘텐츠를 브로드캐스트할 수 있는 방법을 알아보세요.
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - ms.teamsadmincenter.dashboard.helparticle.liveevents
-  - ms.teamsadmincenter.liveevents.policies
+- ms.teamsadmincenter.dashboard.helparticle.liveevents
+- ms.teamsadmincenter.liveevents.policies
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: high
+ms.openlocfilehash: 53a49355b10a3250366d2bc67655f120412e1cc3
+ms.sourcegitcommit: 5aae5eace62e491dac655882d24974824ce1aa07
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "62856676"
 ---
-
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 라이브 이벤트란
 
 ## <a name="overview"></a>개요
@@ -97,7 +102,7 @@ eCDN의 목표는 인터넷에서 비디오 콘텐츠를 가져와 네트워크 
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [램프](https://rampecdn.com)
 - [Riverbed](https://www.riverbed.com/solutions/office-365.html)
-- [Peer5](https://www.peer5.com/)(출시 예정)
+- [Peer5](https://www.peer5.com/)
 
 ### <a name="attendee-experience"></a>참석자 환경
 
