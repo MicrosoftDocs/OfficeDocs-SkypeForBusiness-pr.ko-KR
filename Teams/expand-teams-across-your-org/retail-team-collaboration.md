@@ -19,12 +19,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef9f41dd9317e31fc91a587abfac40370b035376
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: f86550586a28e1d5261cacb17941b9501d5402a1
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288878"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62864051"
 ---
 # <a name="retail-team-collaboration"></a>소매 팀 공동 작업
 
