@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 175b7f4bf8d181ae7e66edb255bd32dd40bb2fa1
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 7264d7f08342121a862943dd8b063fe904c87072
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518980"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893731"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>의 루프 구성 요소 개요 Teams
 
@@ -78,7 +78,7 @@ Teams 채팅에서 구성 요소를 열면 Office 문서에 대해 제공되는 
 - 테넌트 기본 파일 사용 권한이 특정 사용자  (사용자가 지정한 사용자만)로 설정되어 있는 경우 20명 이상의 구성원이 있는 그룹 채팅에서 라이브 구성 요소를 만들면 보낸 사람이 구성 요소에 대한 사용 권한 옵션을 수동으로 선택해야 합니다.
 - 검색에서 루프 Teams 검색하면 채팅 메시지 자체가 아니라 office.com 구성 요소에 대한 링크를 반환합니다.
 - 페더리된 채팅에서 루프 구성 요소를 사용하지 않도록 설정됩니다.
-- 테넌트가 외부 액세스 옵션을 설정하여 B2B 게스트가 테넌트 구성원과 동일한 액세스  수준을 하도록 허용하지 않는 한 B2B 게스트는 조직에서 사용자 링크를 통해 공유되는 라이브 구성 요소에서 공동 작업할 수 없습니다. 자세한 내용은 [B2B 외부 공동 작업 설정 구성을 참조하세요](/azure/active-directory/external-identities/delegate-invitations#configure-b2b-external-collaboration-settings).
+- B2B 게스트는 회사 공유 링크를 통해 공유되는 라이브 구성 요소에서 공동 작업할 수 없습니다. 현재 이 채팅에  있는 사용자에 대한 권한을 설정하여 B2B 게스트와 구성 요소를 공유합니다.
 - 루프 구성 요소는 채널에서 지원되지 Teams 없습니다.
 - 채팅의 루프 구성 요소는 파일이 다른 라이브러리로 이동된 경우만 로드되지 않습니다. 파일이 다른 폴더로 이동된 경우 채팅에서 계속 로드됩니다.
 

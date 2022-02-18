@@ -18,12 +18,12 @@ ms.localizationpriority: high
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2f0bc329910f4e4d89f07684f92ddcc1c340edf3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65421d36c0a8c19d8c7118e348222e3b62175a95
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606947"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893527"
 ---
 # <a name="teams-update-process"></a>Teams 업데이트 프로세스
 
@@ -33,17 +33,15 @@ Teams 데스크톱 클라이언트 업데이트는 TAP(기술 채택 프로그�
 
 데스크톱 클라이언트는 자동으로 업데이트됩니다. Teams에서는 몇 시간마다 백그라운드에서 업데이트를 확인하고 다운로드한 다음 자동으로 업데이트를 설치하기 전에 컴퓨터가 유휴 상태가 될 때까지 기다립니다.
 
-사용자는 앱 오른쪽 상단의 **프로필** 드롭다운 메뉴에서 **업데이트 확인** 을 선택하여 업데이트를 수동으로 다운로드할 수도 있습니다. 업데이트가 있는 경우 컴퓨터가 유휴 상태일 때 업데이트가 다운로드되어 자동으로 설치됩니다.
+사용자는 앱 오른쪽 상단의 **프로필** 아이콘 옆에 있는 **...** 드롭다운 메뉴에서 **업데이트 확인** 을 선택하여 업데이트를 수동으로 다운로드할 수도 있습니다. 업데이트가 있는 경우 컴퓨터가 유휴 상태일 때 업데이트가 다운로드되어 자동으로 설치됩니다.
 
 업데이트를 다운로드하려면 사용자가 로그인해야 합니다.
-
-2019년 7월 31일부터 Teams 클라이언트 업데이트는 업데이트 중에 더 낮은 네트워크 대역폭을 사용합니다. 이 업데이트는 기본적으로 켜져 있으며 관리자나 사용자의 조치가 필요하지 않습니다.
 
 ## <a name="what-about-updates-to-microsoft-365-apps-for-enterprise"></a>엔터프라이즈용 Microsoft 365 앱에 대한 업데이트는 어떤가요?
 
 Teams는 [엔터프라이즈용 Microsoft 365 앱으로 Microsoft Teams 배포](/DeployOffice/teams-install)에 설명된 대로 엔터프라이즈용 Microsoft 365 앱을 새로 설치할 때 기본적으로 설치됩니다.
 
-Teams는 위에 설명된 대로 자체 업데이트 프로세스를 따릅니다. Teams는 Word 및 Excel과 같은 다른 Office 앱에 대한 업데이트 프로세스를 따르지 않습니다. 자세한 내용은 [기업용 Microsoft 365 앱의 업데이트 채널 개요](/DeployOffice/overview-of-update-channels-for-office-365-proplus)를 참조하세요.
+Teams는 위에 설명된 대로 자체 업데이트 프로세스를 따릅니다. Teams는 Word 및 Excel과 같은 다른 Office 앱에 대한 업데이트 프로세스를 따르지 않습니다. 자세한 내용은 [Microsoft 365 앱의 업데이트 채널 개요](/DeployOffice/overview-update-channels)를 참조하세요.
 
 ## <a name="what-about-updates-to-teams-on-vdi"></a>VDI의 Teams 업데이트는 어떤가요?
 

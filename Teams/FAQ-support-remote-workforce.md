@@ -16,12 +16,12 @@ search.appverid: MET150
 description: COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우, 이 가이드를 사용하여 원격 작업자의 생산성을 지원할 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06be01aad7a8bea73c608cd4709149042daec9e2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 631fdd7668e8dd0bc8781509671dc11a1c631816
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610525"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893537"
 ---
 # <a name="faq-support-your-remote-workforce"></a>자주 묻는 질문(FAQ) - 원격 작업자 지원
 
@@ -83,7 +83,7 @@ Teams는 다음 두 가지 프로그램을 통해 무료로 사용할 수 있습
 
 ### <a name="i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses"></a>Microsoft 365가 이미 있지만 Teams를 사용하지 않습니다. 평가판 라이선스를 제공하나요?
 
-Microsoft 365이 있는 경우 Teams도 이미 설치되어 있습니다. 모든 사용자에 대해 [설정](Office-365-set-up.md)합니다. 이 기능이 설정되면 사용자가 [데스크톱](get-clients.md#desktop-client) 또는 [모바일](get-clients.md#mobile-clients) 클라이언트를 설치하거나 [브라우저](get-clients.md#mobile-clients)([https://teams.microsoft.com](https://teams.microsoft.com))에서 Teams를 실행할 수 있습니다. 
+Microsoft 365이 있는 경우 Teams도 이미 설치되어 있습니다. 모든 사용자에 대해 [설정](Office-365-set-up.md)합니다. 이 기능이 설정되면 사용자가 [데스크톱](get-clients.md#desktop-clients) 또는 [모바일](get-clients.md#mobile-clients) 클라이언트를 설치하거나 [브라우저](get-clients.md#mobile-clients)([https://teams.microsoft.com](https://teams.microsoft.com))에서 Teams를 실행할 수 있습니다. 
 
 ### <a name="how-do-i-get-help-to-get-started-with-teams-and-make-sure-the-deployment-is-successful"></a>Teams 시작에 대한 도움말을 얻으려면 어떻게 해야 하나요?
 

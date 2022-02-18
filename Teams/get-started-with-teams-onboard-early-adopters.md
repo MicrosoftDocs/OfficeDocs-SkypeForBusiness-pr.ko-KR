@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04873436e120f87794037a72ce35efacb85e5ef2
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 3ac3a069aa54e9e8d871c7daccbf068c510b0fc0
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62394520"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893587"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Microsoft Teams에 얼리 어답터 등록
 
@@ -55,7 +55,7 @@ Teams에는 데스크톱(Windows 및 Mac), 웹 및 모바일(iOS 및 Android)용
 
 ### <a name="desktop-client"></a>데스크톱 클라이언트
 
-Teams 데스크톱 클라이언트는 Windows 및 Mac 사용자에게 최고의 전체 환경을 제공합니다. 자세한 내용은 [Teams용 클라이언트 가져오기(데스크톱 클라이언트)](./get-clients.md#desktop-client) 및 [Microsoft Teams 앱의 하드웨어 요구 사항](./hardware-requirements-for-the-teams-app.md)을 참조하세요.
+Teams 데스크톱 클라이언트는 Windows 및 Mac 사용자에게 최고의 전체 환경을 제공합니다. 자세한 내용은 [Teams용 클라이언트 가져오기(데스크톱 클라이언트)](./get-clients.md#desktop-clients) 및 [Microsoft Teams 앱의 하드웨어 요구 사항](./hardware-requirements-for-the-teams-app.md)을 참조하세요.
 
 > [!NOTE]
 > 관리자는 이 방법을 선택하여 Microsoft Endpoint Configuration Manager(Windows) 또는 Jamf Pro(macOS)와 같은 설치 파일을 조직의 컴퓨터에 배포할 수 있습니다.
