@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 내기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: e55e2bed641c1cc2042cd02aefbe2a6e13ea8f17
-ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.openlocfilehash: 5b8e7636c53add6e8ef30fa8903cff8ac3d260a3
+ms.sourcegitcommit: 86a4826472f3f1357ee9bffd512108d8778e0c5b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62863941"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62897553"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 인증된 Android 디바이스
 
@@ -71,8 +71,9 @@ ms.locfileid: "62863941"
 
 | 디바이스 모델 | 펌웨어 버전 | 현재 인증 종료 날짜 | 방 크기                                        |  Android OS 버전    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| Logitech Roommate | `1.4.71` | 2024년 9월 3일  | 대형 회의실(4.5m x 8.5m)  |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | 2023년 8월 5일 | EPOS Vision 3T와 함께 제공 | 9 |
-| Logitech Tap Device     | `1.2.982`     |   2024년 9월 3일  | Logitech Rally Bar 및 Rally Bar Mini와 호환 | 10 |
+| Logitech Tap Device     | `1.2.982`  |   2024년 9월 3일  | Logitech Rally Bar 및 Rally Bar Mini와 호환 | 10 |
 | Logitech Rally Bar Mini | `1.2.982`     |   2024년 9월 3일  |    작은 미팅룸(4.5m x 4.5m) | 10 |
 | Logitech Rally Bar      | `1.2.788`     |   2024년 9월 3일  |    중간 크기 방(4.5m x 6m)       | 10 |
 | AudioCodes RXV80 | `1.9.155`        |   2023년 8월 5일  | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5m x 4.5m) | 9 |

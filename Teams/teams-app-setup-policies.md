@@ -1,7 +1,7 @@
 ---
 title: 앱 설정 정책 관리 Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: KarliStites
+ms.author: kastites
 manager: serdars
 ms.reviewer: rarang
 ms.topic: article
@@ -9,18 +9,23 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 조직의 사용자에 대한 앱 설정 정책을 Microsoft Teams 방법을 자세히 알아보고 관리합니다.
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - ms.teamsadmincenter.appsetuppolicies.overview
+- ms.teamsadmincenter.appsetuppolicies.overview
+ms.openlocfilehash: 8105e8086571d6eb227395781fd841820b863f0e
+ms.sourcegitcommit: 86a4826472f3f1357ee9bffd512108d8778e0c5b
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62897543"
 ---
-
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>앱 설정 정책 관리 Microsoft Teams
 
 관리자는 앱 설정 정책을 사용하여 앱을 설치하고 고정하여 조직에서 가장 많이 사용되는 앱을 홍보하고 사용자가 사용자 지정 앱을 업로드할지 여부를 결정할 수 Teams.
@@ -119,7 +124,7 @@ ms.custom:
 4. 사용자 지정 앱을 업로드 사용자 지정 앱을 업로드할지 여부에 따라 사용자 지정 앱을 켜거나 Teams.
 
 > [!NOTE]
-> 타사 앱 허용이 [org-wide](manage-apps.md#manage-org-wide-app-settings) 앱 설정에서 해제된 경우 이 설정을 변경할 수 없습니다.
+> 타사 앱이 오그 전체 앱 설정에서  꺼져 있는 경우 이 설정을 변경할 [수 없습니다](manage-apps.md#manage-org-wide-app-settings).
 
 ## <a name="manage-app-setup-policies"></a>앱 설정 정책 관리
 
@@ -127,7 +132,7 @@ ms.custom:
 
 전역 정책의 설정을 편집하여 원하는 앱을 포함합니다. 조직의 Teams 사용자 그룹에 대한 사용자 지정을 사용자 지정하기 위해 하나 이상의 사용자 지정 정책을 만들고 할당합니다.
 
-![앱 설정 정책 페이지.](media/app-setup-policies.png)
+![앱 설정 정책 페이지.](media/app-setup-policies-update.png)
 
 ### <a name="edit-an-app-setup-policy"></a>앱 설정 정책 편집
 
@@ -141,23 +146,19 @@ ms.custom:
 
 4. **저장** 을 선택합니다.
 
-### <a name="assign-a-custom-app-setup-policy-to-users"></a>사용자에게 사용자 지정 앱 설정 정책 할당
+### <a name="assign-a-custom-app-setup-policy-to-users-and-groups"></a>사용자 및 그룹에 사용자 지정 앱 설정 정책 할당
 
-사용자에게 정책 할당에 대한 자세한 내용은 사용자 및 그룹에 [정책 할당을 참조하세요](assign-policies-users-and-groups.md).
+사용자 및 그룹에 정책 할당에 대한 자세한 내용은 사용자 및 그룹에 정책 [할당을 참조하세요](assign-policies-users-and-groups.md).
 
 ## <a name="faq"></a>FAQ
 
 ### <a name="working-with-app-setup-policies"></a>앱 설정 정책 작업
 
-#### <a name="can-i-assign-an-app-setup-policy-to-a-group"></a>그룹에 앱 설정 정책을 할당할 수 있습니다.
-
-PowerShell을 사용하여 그룹에 앱 설정 정책을 할당할 수 있습니다. PowerShell을 사용하여 그룹에 정책 할당에 대한 자세한 내용은 사용자 및 그룹에 정책 할당 [을 참조하세요](assign-policies-users-and-groups.md#use-the-powershell-option).
-
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>관리 센터에 포함된 기본 제공 앱 Microsoft Teams 정책
 
 - **전역(조직 전체 기본값)**: 이 기본 정책은 다른 정책을 할당하지 않는 한 조직의 모든 사용자에게 적용됩니다. 전역 정책을 편집하여 사용자에게 가장 중요한 앱을 고정합니다.
 
-- **FrontlineWorker**: 이 정책은 프런트라인 작업자를 위한 것입니다. 조직의 Frontline Workers에 할당할 수 있습니다. 만드는 사용자 지정 정책과 마찬가지로 설정이 활성화될 수 있도록 사용자에게 정책을 할당해야 합니다. 자세한 내용은 이 문서의 사용자에게 사용자 [](#assign-a-custom-app-setup-policy-to-users) 지정 앱 설정 정책 할당 섹션으로 이동하세요.
+- **FrontlineWorker**: 이 정책은 프런트라인 작업자를 위한 것입니다. 조직의 Frontline Workers에 할당할 수 있습니다. 만드는 사용자 지정 정책과 마찬가지로 설정이 활성화될 수 있도록 사용자에게 정책을 할당해야 합니다. 자세한 내용은 이 문서의 사용자에게 사용자 [](#assign-a-custom-app-setup-policy-to-users-and-groups) 지정 앱 설정 정책 할당 섹션으로 이동하세요.
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>고정된 앱 추가 창에서 앱을 찾을 수 없는 이유
 

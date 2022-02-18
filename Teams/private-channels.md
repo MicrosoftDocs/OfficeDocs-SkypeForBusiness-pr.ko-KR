@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams에서 비공개 채널을 사용하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 8d041d0fa8a182cb3cebf485c9cef92f880a99e5
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: edf3fc2933bf51f3c5966fa8e021fe0ff50de39b
+ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299013"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62881553"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams의 비공개 채널
 
@@ -83,10 +83,6 @@ Microsoft Teams의 비공개 채널은 팀 내 공동 작업을 위한 집중적
 |설정 편집|아니요|해당 없음|해당 없음|예|아니요|아니요|
 |탭 및 앱 관리|아니요|해당 없음|해당 없음|예, 팀용 앱을 설치해야 합니다.|채널 소유자가 제어|아니요|
 
-## <a name="manage-the-lifecycle-of-private-channels"></a>비공개 채널의 수명 주기 관리
-
-조직 내 비공개 채널의 수명 주기를 관리하는 방법에 대한 지침은 [Teams 내 비공개 채널의 수명 주기 관리](private-channels-life-cycle-management.md)를 참조하세요. 여기에는 조직 내 어떤 사용자가 비공개 채널을 만들 수 있도록 할지 여부를 제어하는 방법, 팀 소유자 대신 비공개 채널을 만드는 방법, 보관 및 감사 목적으로 모든 비공개 채널 메시지 목록을 얻는 방법, 및 기타 관리 작업에 대한 설명이 포함되어 있습니다.  
-
 ## <a name="private-channel-sharepoint-sites"></a>비공개 채널 SharePoint 사이트
 
 각 비공개 채널에는 고유한 SharePoint 사이트가 있습니다. 별도의 사이트는 비공개 채널 파일에 대한 액세스 권한이 비공개 채널의 구성원에게만 제한되도록 하기 위함입니다. 이러한 사이트는 기본적으로 문서 라이브러리를 통해 만들어지며, [사이트 관리 인터페이스](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)를 통해 전체 기능이 적용된 사이트로 손쉽게 업그레이드할 수 있습니다. 각 사이트는 상위 팀의 사이트와 동일한 지역에서 만들어집니다. 이러한 간단한 사이트에는 사용자 지정 템플릿 ID인 "TEAMCHANNEL#0"이 있어 PowerShell 및 Graph API를 통해 더욱 손쉽게 관리할 수 있습니다. 
@@ -139,3 +135,5 @@ Teams는 비공개 채널 사이트의 수명 주기를 관리합니다. 사이�
 [Teams PowerShell 개요](teams-powershell-overview.md)
 
 [Microsoft Graph API를 사용하여 Teams에서 작업](/graph/api/resources/teams-api-overview)
+
+[채널 리소스 종류](/graph/api/resources/channel)
