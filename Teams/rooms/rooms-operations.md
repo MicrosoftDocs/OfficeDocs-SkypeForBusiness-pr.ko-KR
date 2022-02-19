@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 룸 유지 관리 및 작업
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -12,18 +12,17 @@ ms.collection:
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: 이 항목에서 이 항목의 관리에 대해 Microsoft Teams 룸.
-ms.openlocfilehash: be5f183e593ca1723383b6834c9ff5cad387b42f
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+description: 관리에 대해 Microsoft Teams 룸.
+ms.openlocfilehash: 864438890bbaef87842f6cb4b77328906036ea56
+ms.sourcegitcommit: 060ba9910b8d74cbf7097cd3b8e2834afdb3db95
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62298993"
+ms.lasthandoff: 02/19/2022
+ms.locfileid: "62909020"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams 룸 유지 관리 및 작업
  
-이 항목에서 이 항목의 관리에 대해 Microsoft Teams 룸.
-  
+ 
 Microsoft Teams 룸 회의실을 풍부하고 공동 작업 환경으로 변환하도록 설계된 Microsoft의 회의 솔루션입니다. 사용자는 친숙한 인터페이스 또는 Microsoft Teams 비즈니스용 Skype 즐길 수 있으며 IT 관리자는 쉽게 배포되고 관리되는 앱에 Windows 10 Teams 룸 있습니다. Microsoft Teams 룸 설치가 용이하도록 기존 장비를 활용하여 회의실에 Microsoft Teams 비즈니스용 Skype 수 있도록 디자인되었습니다.
     
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>로그를 수집하는 Microsoft Teams 룸
@@ -209,18 +208,9 @@ Copy-Item $movefile $targetDevice
 
 기본적으로 Microsoft Teams 룸 최신 버전의 소프트웨어를 Windows 저장소에 Microsoft Teams 룸 시도합니다. 따라서 Teams 룸 인터넷에 정기적으로 액세스해야 합니다. Microsoft에 지원 문제를 문의하기 전에 Microsoft Teams 룸 최신 버전의 앱으로 로드해야 합니다.
   
-Microsoft Teams 룸 업데이트에 Windows 운영 체제 및 주변 장치 펌웨어 업데이트를 검색합니다. Teams 2:00AM 로컬 시간부터 설치하도록 구성됩니다.
-  
-저장소에 액세스하는 데 제한이 Windows 수동으로 업데이트를 관리해야 하므로 오프라인 앱 배포에 대한 일반적인 절차를 비즈니스용 Microsoft Store 수 없는 경우 배포 키트에서 적절한 APPX 파일 [및](https://businessstore.microsoft.com/store) 종속[](/microsoft-store/distribute-offline-apps)성(지침에서 구성)을 획득할 수 있습니다.[](https://go.microsoft.com/fwlink/?linkid=851168) [ Microsoft Teams 룸)](console.md) 구성 관리자와 함께 사용할 수 있습니다. 배포 키트 릴리스는 저장소 릴리스 뒤로 까다로우기 때문에 항상 사용 가능한 최신 빌드와 일치하지 않을 수 있습니다.
-  
-### <a name="to-update-using-powershell"></a>PowerShell을 사용하여 업데이트
+Microsoft Teams 룸 업데이트에 Windows 운영 체제 및 주변 장치 펌웨어 업데이트를 검색합니다. 또한 애플리케이션 업데이트를 검색하기 위해 Microsoft Store 연결합니다.
 
-1. 설치 [MSI](https://go.microsoft.com/fwlink/?linkid=851168) 에서 디바이스가 액세스할 수 있는 공유로 패키지를 추출합니다.
-2. 디바이스를 대상으로 하는 Microsoft Teams 룸 스크립트를 실행하여 디바이스 \<share\> 공유를 적절하게 변경합니다.
-    
-    ```PowerShell
-    Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
-    ```
+애플리케이션 업데이트를 수동으로 관리해야 하지만 오프라인 앱 배포에 대한 일반적인 비즈니스용 Microsoft Store 수행할 수 없는 경우 [](https://businessstore.microsoft.com/store) 지원되는 운영 체제에서 [](/microsoft-store/distribute-offline-apps)앱 업데이트를 Teams 룸 업데이트 패키지를 Teams 룸 수 있습니다. 업데이트 릴리스는 저장소 릴리스 뒤로 릴리즈될 수 있으며 항상 사용 가능한 최신 빌드와 일치하지 않을 수 있습니다. 자세한 [내용은 Microsoft Teams 룸 수동으로](manual-update.md) 업데이트 를 참조하세요.
 
 ## <a name="admin-mode-and-device-management"></a>관리자 모드 및 디바이스 관리
 <a name="AdminMode"> </a>
