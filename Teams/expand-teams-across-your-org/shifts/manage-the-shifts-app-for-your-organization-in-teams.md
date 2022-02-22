@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fa274c8aa068d7b17ce35d17525b58152677de07
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: dd40888ec8f1f7c5c05c3f5a2bf5a867ece93a65
+ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288376"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "62918881"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 교대 근무s 앱 관리
 
@@ -52,6 +52,10 @@ Shifts가 현재 게스트를 지원하지 않는 것을 아는 것이 중요합
 ## <a name="location-of-shifts-data"></a>교대 근무 데이터의 위치
 
 교대 근무 데이터는 현재 북아메리카, 서유럽 및 아시아 태평양에 위치한 데이터 센터의 Azure에 저장됩니다. 데이터가 저장되는 위치에 대한 자세한 내용은 [내 데이터는 어디에 있나요](http://o365datacentermap.azurewebsites.net/)?를 참조하세요.
+
+## <a name="shifts-data"></a>데이터 이동
+
+Shifts 데이터가 저장되는 위치 및 Shifts 데이터의 보존, 검색 및 암호화에 대한 자세한 내용은 [Shifts 데이터 FAQ를 참조하세요](shifts-data-faq.md).
 
 ## <a name="set-up-shifts"></a>교대 근무 설정
 
@@ -86,6 +90,7 @@ Shifts 앱을 추가 [](../../teams-app-setup-policies.md) 하여 사용자 지�
 
 ## <a name="related-topics"></a>관련 주제
 
+- [Teams의 교대 근무](../shifts-for-teams-landing-page.md)
 - [일선 작업자를 위한 Shifts 도움말](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
-- [Teams에서 사용자에게 정책 할당](../../policy-assignment-overview.md)
 - [Shifts 커넥터](shifts-connectors.md)
+- [Teams에서 사용자에게 정책 할당](../../policy-assignment-overview.md)

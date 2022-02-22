@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7264d7f08342121a862943dd8b063fe904c87072
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 660ecd7542eadd56b284642895e5da15a1cdd434
+ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893731"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "62918942"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>의 루프 구성 요소 개요 Teams
 
@@ -37,6 +37,8 @@ ms.locfileid: "62893731"
 **구성 요소를 공유합니다.** 이 릴리스에서는 루프 구성 요소를 서로 다른 채팅 Teams 수 있습니다. 받는 사람은 어디에 있든 편집할 수 있으며 변경 내용에 상관없이 즉시 업데이트를 볼 수 있습니다.
 
 **채팅에서 시작하고 거기에서 빌드합니다.** 채팅에서 만드는 Teams 모든 구성 요소가 자동으로 OneDrive. 따라서 채팅에서 공동 작업을 시작한 다음 나중에 파일로 이동하여 편집할 수 있는 시각적 공간이 커지고 원하는만큼 구성 요소를 추가할 수 있습니다.
+
+루프 구성 요소에 대한 관리 설정에 대한 자세한 Teams 루프 구성 요소 관리를 [SharePoint](/sharepoint/manage-loop-components).
 
 ## <a name="clients-and-platforms"></a>클라이언트 및 플랫폼
 
@@ -81,7 +83,3 @@ Teams 채팅에서 구성 요소를 열면 Office 문서에 대해 제공되는 
 - B2B 게스트는 회사 공유 링크를 통해 공유되는 라이브 구성 요소에서 공동 작업할 수 없습니다. 현재 이 채팅에  있는 사용자에 대한 권한을 설정하여 B2B 게스트와 구성 요소를 공유합니다.
 - 루프 구성 요소는 채널에서 지원되지 Teams 없습니다.
 - 채팅의 루프 구성 요소는 파일이 다른 라이브러리로 이동된 경우만 로드되지 않습니다. 파일이 다른 폴더로 이동된 경우 채팅에서 계속 로드됩니다.
-
-## <a name="related-topics"></a>관련 항목
-
-[루프 구성 요소 관리 SharePoint](/sharepoint/manage-loop-components)

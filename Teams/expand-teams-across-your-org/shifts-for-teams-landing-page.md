@@ -22,12 +22,12 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 4c3ed73b3238be2795c30fa7d162ed201cd77afd
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: b92cca01512d31fe193a718eede74fd04f44ae2e
+ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288506"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "62918871"
 ---
 # <a name="shifts-for-teams"></a>Teams의 교대 근무
 
@@ -43,8 +43,9 @@ ms.locfileid: "62288506"
 
 |&nbsp;  |&nbsp; |
 |---------|---------|
-|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol.">|**[조직의 Shifts 관리](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** 조직의 Shifts를 관리하는 방법에 대해 자세히 알아보습니다. |
-|<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">|**[교대 근무 관리를 위한 일정 소유자 관리](shifts/schedule-owner-for-shift-management.md)** 이 기능을 사용하면 직원을 팀 소유자로 만들지 않고도 팀 구성원의 권한을 일정 소유자로 승강할 수 있습니다. |
+|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol.">   |**[Shifts 관리](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** 조직의 Shifts를 관리하는 방법에 대해 자세히 알아보습니다.         |
+|<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">   |**[교대 근무 관리를 위한 일정 소유자 관리](shifts/schedule-owner-for-shift-management.md)** 이 기능을 사용하면 직원을 팀 소유자로 만들지 않고도 팀 구성원의 권한을 일정 소유자로 승강할 수 있습니다.         |
+|<img src="/office/media/icons/help.png" alt="Help symbol.">     | **[데이터 FAQ 이동](shifts/shifts-data-faq.md)** Shifts 데이터가 저장되는 위치 및 Shifts 데이터와 관련된 기타 항목(보존, 검색 및 암호화 포함)에 대해 자세히 알아보습니다.        |
 
 ## <a name="shifts-connectors"></a>Shifts 커넥터
 
