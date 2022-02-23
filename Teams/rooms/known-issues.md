@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 업데이트, 사용자 인터페이스Microsoft Teams 룸 하드웨어 및 제한 사항 및 예상 동작을 포함하여 알려진 문제에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0c9d73ddf276fac1474c51156cbc59a3b3bbb47b
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: 5322020d37e3251aa54a20afecba353dd6335f55
+ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299093"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62926321"
 ---
 # <a name="known-issues"></a>알려진 문제 
  
@@ -31,6 +31,7 @@ ms.locfileid: "62299093"
 
 | 문제 제목 |  동작 \/ 증상 | 알려진 해결 방법 | KB 문서 |
 |  ---        |      ---             |   ---            | --- |
+| 에지가 검색되지 않을 때 화이트보드/콘텐츠 카메라가 콘텐츠 향상에 실패합니다. | 4.11.12.0으로 업데이트한 후 콘텐츠 카메라의 보기에 화이트보드 가장자리가 없는 경우 카메라가 카메라 보기에서 모든 콘텐츠를 향상/오버레이하지 않습니다.| 카메라 보기의 모든 콘텐츠를 개선하기 위해 향후 릴리스에 포함되는 수정 내용입니다. 해결 방법을 통해 화이트보드에 상자에 적용된 화가 테이프를 사용하여 콘텐츠 카메라가 콘텐츠를 포커스하고 향상시키는 데 사용할 수 있는 가장자리를 일시적으로 제공할 수 있습니다. | 없음 |
 | Edge 브라우저 자동 시작 | 빌드하기 전에 Edge 브라우저 97.0.1072.62는 디바이스가 시작될 때 Microsoft Teams 룸 앱과 함께 자동으로 시작됩니다. | 사용자 상호 작용이 필요하지 않고 2022년 1월 17일 월요일 또는 그 전에 자동으로 해결됩니다. 더 빠른 해결이 필요한 경우: 에지가 Microsoft Teams 함께 시작하면 URL edge://settings/help 자동으로 다운로드하고 적용해야 합니다. 업데이트가 적용된 후 브라우저에서 '다시 시작'을 선택합니다. Edge Azure IoT 닫고 시스템을 다시 부트하면 문제가 해결됩니다. | 없음 |
 | 갤러리 참가자 비디오 분할   |  9명 이상의 원격 참가자가 있는 모임에 공유 콘텐츠가 없는 경우 모임이 이중 전면 디스플레이 모드인 경우 자체 미리 보기가 있는 회의실 전면 디스플레이의 비디오 1개가 오디오로 표시될 수 있습니다. 또한 실제 오디오 참가자 수보다 적은 수의 오디오 참가자가 이중 전면 디스플레이에 표시됩니다. | 문제는 향후 업데이트에서 해결됩니다. | 없음 |
 | 애플리케이션이 시작되지 않습니다. |  애플리케이션 버전 4.4.41.0으로 업데이트한 후 시스템이 검은색 화면으로 부팅되거나 몇 분 후에 로그인 화면으로 이동합니다. | 이 문제를 Microsoft Teams 룸 [4.4.41.0](/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) 버전으로 업데이트한 후 애플리케이션이 시작되지 않는 경우의 단계를 따릅니다.  | 없음 |

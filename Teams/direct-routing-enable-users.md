@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 사용자가 직접 라우팅을 사용하도록 Microsoft Teams 전화 방법을 알아보습니다.
-ms.openlocfilehash: 4acf18799060d6cc89e477109e916b5bf0d8401a
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: be2f0e0f33bd236591c8c8a2d9cf415972e018d6
+ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763333"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62926301"
 ---
 # <a name="enable-users-for-direct-routing"></a>직접 라우팅에 대한 사용자 사용
 
@@ -90,6 +90,27 @@ ms.locfileid: "62763333"
 ## <a name="configure-the-phone-number-and-enable-enterprise-voice"></a>전화 번호 구성 및 엔터프라이즈 음성 사용 
 
 사용자를 만들어 라이선스를 할당한 후 사용자의 온라인 전화 설정을 구성해야 합니다. 사용자에 대한 클라우드 음성 사서함 구성은 자동으로 수행됩니다. 추가 구성을 완료할 필요가 없습니다.
+
+관리자 센터를 사용하여 전화 번호를 구성하거나 Teams PowerShell을 사용하여 전화 Teams 수 있습니다.
+
+### <a name="use-teams-admin-center"></a>관리 Teams 사용
+
+1. **UsersManage 사용자** -> **로 이동합니다**.
+
+2. 사용자를 선택합니다.
+
+2. 계정 **일반** **정보에서** 편집을 **선택합니다**.
+
+3. 전화 **번호 할당** 에서 번호 전화 드롭  다운 메뉴에서 직접 라우팅 **을 선택합니다**.
+
+4. 앱에 할당된 전화 번호 및 전화 번호 확장을 입력합니다.
+
+5. 적용을 **선택합니다.**
+
+이제 계정 일반 정보가 할당된 전화 번호 및 직접 라우팅을 전화 번호 유형으로 표시됩니다.
+
+
+### <a name="use-powershell"></a>PowerShell 사용
 
 1. 커넥트 PowerShell Microsoft Teams 합니다. 
 

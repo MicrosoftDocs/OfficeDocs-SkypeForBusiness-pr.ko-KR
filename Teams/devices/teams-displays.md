@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 표시
-ms.author: serdars
-author: SerdarSoysal
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 이 문서에서는 디스플레이에서 지원되는 기능과 Microsoft Teams 제공합니다.
-ms.openlocfilehash: 2d6fb3269e8abf33fc75b59fcef924d133a1ccb3
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 8c8004edd12042ca27e77e545f23b8770f8d1899
+ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62384142"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62926331"
 ---
 # <a name="microsoft-teams-displays"></a>Microsoft Teams 표시
 
@@ -53,6 +53,17 @@ Intune을 사용하여 Teams 디스플레이를 배포하는 방법에 대한 �
 ## <a name="manage-teams-displays-in-your-organization"></a>조직에서 Teams 표시 관리
 
 디스플레이 Teams 관리 센터의 왼쪽 탐색에서 Microsoft Teams 디스플레이로 **Teams 있습니다**. 여기에서 디바이스 구성 프로필을 변경하고, 업데이트를 관리하고, 디바이스를 다시 시작하고, 디바이스 태그를 추가 및 제거할 수 있습니다. 자세한 내용은 에서 디바이스 [관리를](device-management.md) Teams.
+
+## <a name="set-up-hot-desking-on-teams-displays"></a>디스플레이에서 핫 데스크 Teams 설정
+
+핫 데스크링을 사용하면 조직에서 임시 작업 영역 또는 디바이스 자체에서 임시 작업 Teams Outlook 미리 예약할 수 있습니다. 핫 데스크링을 사용하도록 설정하면 사용자가 Teams 자격 증명으로 Microsoft 365 로그인하여 모임, 채팅 및 파일에 액세스합니다. 로그인하면 모든 개인 정보가 장치에서 제거됩니다.
+
+시작하려면 라이선스를 Microsoft Teams 룸 스탠더드 각 디스플레이에 Teams 계정을 만들어야 합니다. 리소스 [계정을 Microsoft Teams 룸 Office 365](../rooms/with-office-365.md) 배포를 참조합니다.
+
+리소스 계정을 만든 후 핫 데스크링을 사용하도록 정책을 만들고 할당할 수 있습니다. [자세한 내용은 New-CsTeamsIPPhonePolicy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps)를 참조합니다.
+
+> [!IMPORTANT]
+> 핫 Teams 디스플레이는 여러 사용자가 공유 작업 공간에서 사용하기 때문에 Multi-Factor Authentication과 같은 환경의 조건부 액세스 규칙 및 기타 ID 구성은 이러한 디바이스에 영향을 주며 로그인 문제를 일으킬 수 있습니다. 공유 디바이스 보안에 대한 지침은 Android 디바이스 공유에 대한 인증 [모범 Teams 참조하세요](authentication-best-practices-for-android-devices.md).
 
 ## <a name="upgrade-teams-phones-to-teams-displays"></a>Teams 휴대폰을 Teams 업그레이드
 
