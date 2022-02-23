@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 통화 품질 대시보드 Power BI 보고서를 사용하여 대기열 기록 데이터를 자동 전화 교환 방법에 대해 자세히 알아보면 됩니다.
-ms.openlocfilehash: 22c2152401cd9ec08ae1fbad2bbd42eb29fc0726
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: bb83a31b083387bc945f7f4b4388ee6643c00f10
+ms.sourcegitcommit: d8dba15c520de3894d1781e17acb2c75fb38ed49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457238"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62921876"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>자동 전화 교환 & 기록 보고서 호출
 
@@ -75,7 +75,7 @@ Teams 자동 전화 교환 & 큐 기록 보고서 Power BI 템플릿은 다음 �
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    - 지역은 **/** 위의 예제와 같은 다음에 표시됩니다.
+    - 지역은 **/** 위의 예제와 같은 다음에 표시됩니다. 지역은 noam입니다.
 
  - 보고서는 샘플 데이터로 시작됩니다.
  
@@ -238,7 +238,7 @@ Teams 자동 전화 교환 & 큐 기록 보고서 Power BI 템플릿은 다음 �
 
 |이름                                    |데이터 형식                |설명                              |
 |:---------------------------------------|:------------------------|:----------------------------------------|
-|***중단된 통화 %***                 |백분율               |측정값: TotalCallCount / Total Calls<br>성공한 콜 수와 중단된 호출 수의 비율    |
+|***중단된 통화 %***                 |백분율               |측정값: 중단된 통화 수 / 총 통화 수    |
 |총 통화                             |정수             |측정값: Sum agent 응답 호출        |
 |TotalCallCount                          |정수             |측정값: Sum(Call Count)                 |
 

@@ -1539,6 +1539,8 @@ items:
                 items:
                   - name: 개요
                     href: expand-teams-across-your-org/shifts/shifts-connectors.md
+              - name: 데이터 이동 FAQ
+                href: expand-teams-across-your-org/shifts/shifts-data-faq.md
       - name: 교육용 Teams
         href: expand-teams-across-your-org/teams-for-education-landing-page.md
         items:

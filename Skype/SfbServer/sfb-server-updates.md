@@ -12,13 +12,13 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
-description: 한 장소에서 비즈니스용 Skype 서버 2015/2019 및 Lync 2013에 대한 업데이트를 찾고 관리합니다. 업데이트에 대한 자세한 내용을 알아본 후 업데이트를 다운로드하려면 이 페이지의 링크를 사용하세요.
-ms.openlocfilehash: ea8d88f9287c8795ee3b3f4252c2e0664695a44a
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+description: 한 장소에서 비즈니스용 Skype 서버 2019 및 2015 및 Lync Server 2013 및 2010에 대한 업데이트를 찾고 관리합니다. 업데이트에 대한 자세한 내용을 알아본 후 업데이트를 다운로드하려면 이 페이지의 링크를 사용하세요.
+ms.openlocfilehash: 68b34b75cf0e671f5927c4e006e5567052be6e4e
+ms.sourcegitcommit: d8dba15c520de3894d1781e17acb2c75fb38ed49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763343"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62921866"
 ---
 # <a name="skype-for-business-server-updates"></a>비즈니스용 Skype 서버 업데이트
 
@@ -28,10 +28,11 @@ ms.locfileid: "62763343"
 
 ## <a name="skype-for-business-server-2019-update-history"></a>비즈니스용 Skype 서버 2019 업데이트 기록
 
-KB 4470124 게시된 모든 누적 업데이트 및 핫픽스의 모든 기록 목록이 있는 비즈니스용 Skype 서버 2019의 마스터 KB입니다. 
+[KB 4470124](https://support.microsoft.com/kb/4470124) 2019의 마스터 KB입니다비즈니스용 Skype 서버 KB입니다. 여기에는 이 제품에 대해 릴리스된 모든 누적 업데이트 및 핫픽스에 대한 기록 데이터가 포함되어 있습니다. 
 
 |패키지 이름|KB 번호|릴리스 날짜|
 |:--- |:--- |:--- |
+|비즈니스용 Skype 서버 2019 누적 업데이트 6 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2021년 12월 |
 |비즈니스용 Skype 서버 2019년 누적 업데이트 5 |[KB 4470124(MACP3)](https://support.microsoft.com/kb/4470124)| 2021년 3월 |
 |비즈니스용 Skype 서버 2019년 누적 업데이트 4 핫픽스 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020년 11월 |
 |비즈니스용 Skype 서버 2019년 누적 업데이트 4 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020년 9월 |
@@ -54,7 +55,7 @@ KB 4470124 게시된 모든 누적 업데이트 및 핫픽스의 모든 기록 �
 
 ## <a name="skype-for-business-server-2015-update-history"></a>비즈니스용 Skype 서버 업데이트 기록
 
-[KB 3061064](https://support.microsoft.com/kb/3061064) 릴리스된 모든 누적 업데이트가 포함되어 있습니다. 
+[KB 3061064](https://support.microsoft.com/kb/3061064) 2015의 마스터 KB입니다비즈니스용 Skype 서버 KB입니다. 여기에는 이 제품에 대해 릴리스된 모든 누적 업데이트 및 핫픽스에 대한 기록 데이터가 포함되어 있습니다. 
 
 |패키지 이름|KB 번호|릴리스 날짜|
 |:--- |:--- |:--- |
@@ -92,33 +93,34 @@ KB 4470124 게시된 모든 누적 업데이트 및 핫픽스의 모든 기록 �
 
 ## <a name="lync-server-2013-update-history"></a>Lync Server 2013 업데이트 기록
 
-[KB 2809243](https://support.microsoft.com/kb/2809243) 릴리스된 모든 누적 업데이트가 포함되어 있습니다.
+[KB 2809243](https://support.microsoft.com/kb/2809243) Lync Server 2013의 마스터 KB입니다. 여기에는 이 제품에 대해 릴리스된 모든 누적 업데이트 및 핫픽스에 대한 기록 데이터가 포함되어 있습니다.
 
 |패키지 이름|KB 번호|릴리스 날짜|
 |:--- |:--- |:--- |
-|Lync Server 2013 누적 업데이트 10 핫픽스 5 |[KB 2809243](https://support.microsoft.com/kb/2809243)|2021년 9월|
+|Lync Server 2013 누적 업데이트 10 핫픽스 6 |[KB 5003602](https://support.microsoft.com/kb/5003602)|2021년 5월|
+|Lync Server 2013 누적 업데이트 10 핫픽스 5 |[KB 2809243](https://support.microsoft.com/kb/2809243)|2021년 2월|
 |Lync Server 2013 누적 업데이트 10 핫픽스 4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2020년 7월|
 |Lync Server 2013 누적 업데이트 10 핫픽스 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2019년 9월|
 |Lync Server 2013 누적 업데이트 10 핫픽스 2 |[KB 4501392](https://support.microsoft.com/kb/4501392)|2019년 6월|
 |Lync Server 2013 누적 업데이트 10 핫픽스 1 |[KB 4458772](https://support.microsoft.com/kb/4458772)|2019년 1월|
 |Lync Server 2013 누적 업데이트 10 |[KB 4295703](https://support.microsoft.com/kb/4295703)|2018년 7월 |
-|Lync Server 2013 누적 업데이트 9  |[KB 4019183](https://support.microsoft.com/kb/4019183) |2017년 7월 |
+|Lync Server 2013 누적 업데이트 9 |[KB 4019183](https://support.microsoft.com/kb/4019183) |2017년 7월 |
 |Lync Server 2013 누적 업데이트 8 핫픽스 4 |[KB 4014154](https://support.microsoft.com/kb/4014154) |2017년 3월 |
 |Lync Server 2013 누적 업데이트 8 핫픽스 3 |[KB 3210166](https://support.microsoft.com/kb/3210166) |2017년 1월 |
 |Lync Server 2013 누적 업데이트 8 핫픽스 2 |[KB 3212869](https://support.microsoft.com/kb/3212869) |2016년 12월 |
 |Lync Server 2013 누적 업데이트 8 핫픽스 1 |[KB 3200079](https://support.microsoft.com/kb/3200079) |2016년 11월 |
 |Lync Server 2013 누적 업데이트 8 |[KB 3175336](https://support.microsoft.com/kb/3175336)|2016년 8월 |
-|Lync Server 2013 누적 업데이트 7  |[KB 3140581](https://support.microsoft.com/kb/3140581)|2016년 4월 |
+|Lync Server 2013 누적 업데이트 7 |[KB 3140581](https://support.microsoft.com/kb/3140581)|2016년 4월 |
 |Lync Server 2013 누적 업데이트 6 핫픽스 2 |[KB 3175338](https://support.microsoft.com/kb/3175338)|2016년 1월 |
 |Lync Server 2013 누적 업데이트 6 핫픽스 1 |[KB 3121213](https://support.microsoft.com/kb/3121213)|December 2015 |
 |Lync Server 2013 누적 업데이트 6 |[KB 3081739](https://support.microsoft.com/kb/3081739)|2015년 9월 |
 |Lync Server 2013 누적 업데이트 5 핫픽스 10 |[KB 3064728](https://support.microsoft.com/kb/3064728)|2015년 7월 |
 |Lync Server 2013 누적 업데이트 5 핫픽스 9 |[KB 3051951](https://support.microsoft.com/kb/3051951)|2015년 5월 |
-|Lync Server 2013 누적 업데이트 5 핫픽스 8  |[KB 3031065](https://support.microsoft.com/kb/3031065)|2015년 2월 |
-|Lync Server 2013 누적 업데이트 5 핫픽스 7.1|[KB 3027553](https://support.microsoft.com/kb/3140582)|2014년 12월 |
+|Lync Server 2013 누적 업데이트 5 핫픽스 8 |[KB 3031065](https://support.microsoft.com/kb/3031065)|2015년 2월 |
+|Lync Server 2013 누적 업데이트 5 핫픽스 7.1 |[KB 3027553](https://support.microsoft.com/kb/3140582)|2014년 12월 |
 |Lync Server 2013 누적 업데이트 5 핫픽스 7 |[KB 3018232](https://support.microsoft.com/kb/3018232)|2014년 12월 |
 |Lync Server 2013 누적 업데이트 5 핫픽스 6 |[KB 3010028](https://support.microsoft.com/kb/3010028)|2014년 11월  |
-|Lync Server 2013 누적 업데이트 5 핫픽스 5|[KB 3003358](https://support.microsoft.com/kb/3003358)|2014년 10월 |
+|Lync Server 2013 누적 업데이트 5 핫픽스 5 |[KB 3003358](https://support.microsoft.com/kb/3003358)|2014년 10월 |
 | Lync Server 2013 누적 업데이트 5 핫픽스 2 |[KB 2987511](https://support.microsoft.com/kb/3120728)|2014년 9월 |
 | Lync Server 2013 누적 업데이트 5 |[KB 2937305](https://support.microsoft.com/kb/2937305)|2014년 8월 |
 |Lync Server 2013 누적 업데이트 4 |[KB 2905040](https://support.microsoft.com/kb/2905040)|2014년 1월 |
@@ -127,7 +129,7 @@ KB 4470124 게시된 모든 누적 업데이트 및 핫픽스의 모든 기록 �
 |Lync Server 2013 누적 업데이트 1 |[KB 2781550](https://support.microsoft.com/kb/2781550)|2013년 2월 |
 ||||
 
-### <a name="lync-server-2013-dev-tools"></a>Lync Server 2013 개발자 도구
+### <a name="alync-server-2013-dev-tools"></a></a>Lync Server 2013 개발자 도구
 
 |패키지 이름|릴리스 날짜|
 |:--- |:--- |
@@ -150,15 +152,16 @@ KB 4470124 게시된 모든 누적 업데이트 및 핫픽스의 모든 기록 �
 |[테스트 드라이브 - Lync Server 2013 - 3부](https://www.microsoft.com/download/details.aspx?id=40267) |2013년 9월 |
 |[테스트 드라이브 - Lync Server 2013 - 3부](https://www.microsoft.com/download/details.aspx?id=40265) |2013년 9월 |
 
-### <a name="lync-2013-tools"></a>Lync 2013 도구
+### <a name="lync-server-2013-tools"></a><a id="lync-2013-tools"></a>Lync Server 2013 도구
 
 |패키지 이름 |릴리스 날짜|
 |:--- |:--- |
+| Lync Server 2013 MMT(모임 마이그레이션 도구) |2021년 9월 |
 | Lync 연결 분석기(32비트) 사용 중지 |2017년 6월 |
 | Lync 연결 분석기(64비트) 사용 중지 |2017년 6월 |
 | Lync Server 2013 모범 사례 분석기 |2012년 10월 |
 |[Lync Server 2013 용량 계산기](https://www.microsoft.com/download/details.aspx?id=36828) |2013년 7월 |
-|Lync Server 2013 디버깅 도구 |2014년 1월 |
+| Lync Server 2013 디버깅 도구 |2014년 1월 |
 | Lync Server 2013 관리 팩 |2016년 5월 |
 | Lync Server 2013 영구 채팅 리소스 키트 |2013년 7월 |
 | Lync Server 2013 계획 도구 |2013년 7월 |
@@ -169,7 +172,7 @@ KB 4470124 게시된 모든 누적 업데이트 및 핫픽스의 모든 기록 �
 |[Lync VDI 2013 플러그 인(64비트)](https://www.microsoft.com/download/details.aspx?id=35454) |2012년 10월 |
 |[새 Office Visio 스텐실](https://www.microsoft.com/download/details.aspx?id=35772) |2016년 7월 |
 
-### <a name="lync-2013-downloadable-documentation"></a>Lync 2013 다운로드 가능한 설명서
+### <a name="lync-server-2013-downloadable-documentation"></a><a id="lync-2013-downloadable-documentation"></a>Lync Server 2013 다운로드 가능한 설명서
 
 패키지 이름 |릴리스 날짜|
 |:--- |:--- |
@@ -179,7 +182,7 @@ KB 4470124 게시된 모든 누적 업데이트 및 핫픽스의 모든 기록 �
 
 ## <a name="lync-server-2010-update-history"></a>Lync Server 2010 업데이트 기록
 
-[KB 2493736](https://support.microsoft.com/kb/2493736) 릴리스된 모든 누적 업데이트가 포함되어 있습니다.
+[KB 2493736](https://support.microsoft.com/kb/2493736) Lync Server 2010의 마스터 KB입니다. 여기에는 이 제품에 대해 릴리스된 모든 누적 업데이트 및 핫픽스에 대한 기록 데이터가 포함되어 있습니다.
 
 |패키지 이름|KB 번호|릴리스 날짜|
 |:--- |:--- |:--- |
@@ -211,7 +214,7 @@ KB 4470124 게시된 모든 누적 업데이트 및 핫픽스의 모든 기록 �
 |Lync Server 2010 누적 업데이트, 그룹 채팅 관리 도구 |[KB 2884631](https://support.microsoft.com/kb/2884631) |2013년 10월|
 |Lync 2010 누적 업데이트, 그룹 채팅 |[KB 2884627](https://support.microsoft.com/kb/2884627) |2013년 10월|
 
-### <a name="lync-2010-dev-tools"></a>Lync 2010 개발자 도구
+### <a name="lync-server-2010-developer-tools"></a><a id="lync-2010-dev-tools"></a>Lync Server 2010 개발자 도구
 
 |패키지 이름 |릴리스 날짜|
 |:--- |:--- |
@@ -222,7 +225,7 @@ KB 4470124 게시된 모든 누적 업데이트 및 핫픽스의 모든 기록 �
 | 음성 플랫폼 - 서버 런타임 언어(버전 10.2) |2010년 9월 |
 | Microsoft Lync Server 2010용 Unified Communications Enhanced Presence Schemas |2010년 11월 |
 
-### <a name="lync-2010-tools"></a>Lync 2010 도구
+### <a name="lync-server-2010-tools"></a><a id="lync-2010-tools"></a>Lync Server 2010 도구
 
 |패키지 이름 |릴리스 날짜|
 |:--- |:--- |
@@ -235,7 +238,7 @@ KB 4470124 게시된 모든 누적 업데이트 및 핫픽스의 모든 기록 �
 |[Lync Server 2010 Visio 스텐실](https://www.microsoft.com/downloads/details.aspx?FamilyID=65B5A396-2C87-445D-BE23-D324727D19CB)|2011년 2월 |
 | Lync Server 2010 웹 스케줄러 |2011년 4월 |
 
-### <a name="lync-2010-downloadable-documentation"></a>Lync 2010 다운로드 가능 설명서
+### <a name="lync-server-2010-downloadable-documentation"></a><a id="lync-2010-downloadable-documentation"></a>Lync Server 2010 다운로드 가능 설명서
 
 패키지 이름 |릴리스 날짜|
 |:--- |:--- |
@@ -249,7 +252,7 @@ KB 4470124 게시된 모든 누적 업데이트 및 핫픽스의 모든 기록 �
 
 ### <a name="resource-kit-technical-reference"></a>리소스 키트(기술 참조)
 
-[Microsoft Lync Server 2010 Resource Kit](https://www.microsoft.com/download/en/details.aspx?id=22644) 다운로드 사이트를 방문하여 책 장을 개별적으로 다운로드하거나 리소스 키트의 [19](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip)개 챕터가 모두 .zip 파일을 다운로드합니다.
+[Microsoft Lync Server 2010 Resource Kit](https://www.microsoft.com/download/en/details.aspx?id=22644) 다운로드 사이트를 방문하여 책 장을 개별적으로 다운로드하거나 [19](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip)개 장의 리소스 키트가 모두 포함된 .zip 파일을 다운로드합니다.
 
 ### <a name="group-chat"></a>그룹 채팅
 
@@ -277,4 +280,3 @@ KB 4470124 게시된 모든 누적 업데이트 및 핫픽스의 모든 기록 �
 - [2015 비즈니스용 Skype 서버 설치](./deploy/install/install.md)
 - [2015 비즈니스용 Skype 서버 업그레이드](./deploy/upgrade-to-skype-for-business-server.md)
 - [MSI(설치 관리자)를 비즈니스용 Skype 버전의 최신 Windows 업데이트](sfb-client-updates.md)
-
