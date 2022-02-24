@@ -21,14 +21,14 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 예약에서 Bookings 앱을 사용하여 가상 방문을 예약, 관리 및 Teams.
-ms.openlocfilehash: 5734dbde3db60e5595a1c712bdfb7849dc86485e
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: 6241c377cc5daa0986081fbfa30eca5fa7146efc
+ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763802"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62929273"
 ---
-# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>가상 Microsoft Teams 및 Bookings 앱을 통해 가상 방문
+# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Microsoft Teams 및 Bookings 앱을 가상으로 방문
 
 ## <a name="overview"></a>개요
 
@@ -118,6 +118,8 @@ Bookings 웹앱은 추가 기능을 제공합니다. 예를 들어 직원이 약
 ## <a name="related-articles"></a>관련 기사
 
 - [모바일 브라우저에서 가상 Teams 대한 조인 환경 관리](mobile-browser-join.md)
+
+- [Teams 가상 방문 사용 현황 보고서](../teams-analytics-and-reports/virtual-visits-usage-report.md)
 
 - [의료 조직을 위한 Teams 시작](healthcare/teams-in-hc.md)
 

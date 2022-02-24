@@ -18,12 +18,12 @@ description: 이 문서에서는 관리 센터에서 Teams 보고서에 대해 M
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 807b4e545580cf54b762aacfccde47992d508f82
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 8e52cfeb36ddc734a5cef420261308e9b8867d56
+ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046064"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62929143"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 분석 및 보고
 
@@ -31,9 +31,9 @@ ms.locfileid: "60046064"
 
 ## <a name="how-to-access-the-reports"></a>보고서에 액세스하는 방법
 
-보고서에 액세스하려면 Microsoft 365 또는 Office 365 글로벌 관리자, Microsoft 365 또는 Office 365 Teams 관리자의 전역 관리자 비즈니스용 Skype 있어야 합니다. 관리자 역할에 대한 Teams 및 각 관리자 역할에 액세스할 수 있는 보고서에 대한 자세한 내용은 관리자 Teams 관리자 역할 사용 을 [Teams.](../using-admin-roles.md)
+보고서에 액세스하려면 Microsoft 365 또는 Office 365 글로벌 관리자, Microsoft 365 또는 Office 365 Teams 관리자의 전역 관리자 비즈니스용 Skype 있어야 합니다. 관리자 역할에 대한 Teams 및 각 관리자 역할에 액세스할 수 있는 보고서에 대한 자세한 내용은 관리자 Teams 관리자 역할 사용을 [Teams.](../using-admin-roles.md)
 
-관리 센터로 Microsoft Teams 왼쪽 탐색에서 **분석**& 보고서를 선택한 다음 보고서 보기에서 실행할 보고서를 선택합니다.
+관리 Microsoft Teams 왼쪽 탐색에서 **분석** & 선택한 다음 보고서 보기에서 실행할 보고서를 선택합니다.
 
 > [!NOTE]
 > 관리 센터의 Microsoft Teams 보고서는 Teams 보고서의 일부인 Microsoft 365 활동 보고서와 Microsoft 365 관리 센터. 작업 보고서의 활동 보고서에 대한 자세한 내용은 Microsoft 365 관리 센터 Teams 활동 보고서를 [참조하세요Microsoft 365 관리 센터](../teams-activity-reports.md)
@@ -47,27 +47,26 @@ ms.locfileid: "60046064"
 |보고서  |무엇을 측정하나요? |
 |---------|---------|
 |[Teams 사용 현황 보고서](teams-usage-report.md)  |  활성 사용자<br/>팀 및 채널의 활성 사용자<br/>활성 채널<br/>메시지<br/>팀의 개인 정보 설정<br/>팀의 게스트   |
-|[Teams 사용자 작업 보고서](user-activity-report.md)  | 팀 채팅에 사용자가 게시한 메시지<br/>개인 채팅에 사용자가 게시한 메시지<br/>  1:1 참가한 사용자 호출<br/> 조직된 모임 사용자 수 <br/>참가한 모임 사용자 수<br/>모임 오디오, 비디오 및 화면 공유 시간<br/>   사용자의 마지막 활동 날짜     |
+|[Teams 사용자 작업 보고서](user-activity-report.md)  | 팀 채팅에 사용자가 게시한 메시지<br/>개인 채팅에 사용자가 게시한 메시지<br/>  1:1 참가한 사용자 호출<br/> 조직된 모임 사용자 수 <br/>참여한 모임 사용자 수<br/>모임 오디오, 비디오 및 화면 공유 시간<br/>   사용자의 마지막 활동 날짜     |
 |[Teams 장치 사용 현황 보고서](device-usage-report.md)   |  Windows 사용자<br/>Mac 사용자<br/>iOS 사용자<br/>Android 휴대폰 사용자     |
 |[Teams 라이브 이벤트 사용 현황 보고서](teams-live-event-usage-report.md)   |  총 보기<br>시작 시간<br>이벤트 상태<br>이끌이<br>발표자<br>생산자<br>녹음/녹화 설정<br>프로덕션 유형    |
 |[Teams PSTN 차단된 사용자 보고서](pstn-blocked-users-report.md)   |  표시 이름<br>전화 번호<br>이유<br>작업 유형<br>작업 날짜 및 시간   |
 |[Teams PSTN 분 풀 보고서](pstn-minute-pools-report.md) |  국가 또는 지역<br>기능(라이선스) <br>총 분<br>사용된 분<br>사용 가능한 분|
 |[Teams PSTN 사용 보고서 - 통화 계획](pstn-usage-report.md#calling-plans)|  타임스탬프<br>사용자 이름<br>전화 번호<br>통화 유형 <br>에 호출<br>국가 또는 지역으로 <br>에서 호출 <br>국가 또는 지역에서<br>요금<br>통화<br>기간<br>국내/국제<br>통화 ID<br>숫자 형식<br>국가 또는 지역<br>회의 ID<br>기능(라이선스)|
 |[Teams PSTN 사용 보고서 - 직접 라우팅](pstn-usage-report.md#direct-routing)  |  타임스탬프<br>표시 이름<br>SIP 주소<br>전화 번호 <br>통화 유형<br>에 호출<br>시작 시간<br>초대 시간<br>실패 시간<br>종료 시간<br>기간<br>숫자 형식<br>미디어 바이패스<br>SBC FQDN<br>Azure 지역<br>이벤트 유형<br>최종 SIP 코드<br>최종 Microsoft 하위 코드<br>최종 SIP 구<br>상관 관계 ID  |
-|[Teams 보호 라이선스 보고서](information-protection-license-report.md)  | <br>사용자가 변경 알림을 통해 메시지를 푸시할 수 있는 유효한 라이선스가 있는지 여부</br><br>사용자가 트리거한 변경 알림 이벤트의 총 수</br><br>Org-wide 변경 알림 이벤트를 수신하는 앱</br>|
-
-
+|[Teams 보호 라이선스 보고서](information-protection-license-report.md)  | <br>사용자가 변경 알림을 통해 메시지를 푸시할 수 있는 유효한 라이선스가 있는지 여부</br><br>사용자가 트리거한 변경 알림 이벤트의 총 수<br><br>Org-wide 변경 알림 이벤트를 수신하는 앱<br>|
+|[Teams 가상 방문 사용 현황 보고서](virtual-visits-usage-report.md)  | 가상 방문 수<br>예약 방문 횟수<br>EHR(전자 Teams)통합된 방문 수<br>방문의 평균 기간<br>참석자 평균 로비 대기 시간<br>시작 시간<br>모임 ID<br>로비 대기 시간<br>기간<br>상태<br>제품 유형<br>참석자<br>보낸 SMS
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="make-the-user-specific-data-anonymous"></a>사용자 특정 데이터를 익명으로 지정
 
-사용자 활동의 데이터를 Teams 및 디바이스 Teams 보고서를 익명으로 설정하려면 전역 관리자로 설정해야 합니다. 그러면 보고서 및 해당 내보내기에서 표시 이름, 전자 메일 및 AAD ID와 같은 식별 가능한 정보가 숨겨지게 됩니다.
+사용자 활동의 데이터를 Teams 및 디바이스 Teams 보고서를 익명으로 설정하려면 전역 관리자로 설정해야 합니다. 그러면 보고서 및 내보내기에서 표시 이름, 전자 메일 및 AAD ID와 같은 식별 가능한 정보가 숨겨지게 됩니다.
 
-1. Microsoft 365 관리 센터 에서 설정 또는  설정 으로 이동하고 서비스 \> **탭에서** 보고서를 **선택합니다.** 
+1.  \> Microsoft 365 관리 센터 또는 설정 **또는** 설정 탭에서 보고서를 **선택합니다**.
     
-2. 보고서를 **선택한** 다음 익명 식별자 **표시를 선택합니다.** 이 설정은 관리 센터뿐만 아니라 Microsoft 365 관리 센터 사용 Teams 적용됩니다.
+2. 보고서를 **선택한** 다음 익명 식별자 **표시를 선택합니다**. 이 설정은 관리 센터뿐만 아니라 Microsoft 365 관리 센터 사용 Teams 적용됩니다.
   
-3. 변경 **내용 저장 을 선택합니다.**
+3. 변경 **내용 저장을 선택합니다**.
 
 > [!NOTE]
-> 이 설정을 사용하도록 설정하면 사용자 [](user-activity-report.md) 활동 보고서에서 Teams 및 디바이스 사용 Teams 정보를 [식별하지](device-usage-report.md) 않습니다. 관리 센터에서 사용할 수 있는 다른 Teams 영향을 주지 않습니다.
+> 이 설정을 사용하도록 설정하면 사용자 활동 보고서에서 Teams [](user-activity-report.md) 및 디바이스 Teams 보고서가 식별[되지](device-usage-report.md) 않습니다. 관리 센터에서 사용할 수 있는 다른 Teams 영향을 주지 않습니다.
