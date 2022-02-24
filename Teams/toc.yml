@@ -457,6 +457,8 @@ items:
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
               - name: Teams 정보 보호 라이선스 보고서
                 href: teams-analytics-and-reports/information-protection-license-report.md
+              - name: Teams 가상 방문 사용 현황 보고서
+                href: teams-analytics-and-reports/virtual-visits-usage-report.md
       - name: '로그 파일, 서비스 상태 및 지원'
         items:
           - name: 로그 파일을 사용하여 Teams 모니터링 및 문제 해결
@@ -1527,6 +1529,10 @@ items:
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Bookings 앱 관리
                 href: bookings-app-admin.md
+              - name: 모바일 브라우저에서 참가 환경 관리
+                href: expand-teams-across-your-org/mobile-browser-join.md
+              - name: 가상 방문 사용 현황 보고서
+                href: teams-analytics-and-reports/virtual-visits-usage-report.md
           - name: Teams의 교대 근무
             items:
               - name: 교대 근무 시작하기
@@ -1645,6 +1651,8 @@ items:
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: Teams 및 Bookings를 사용한 가상 방문
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
+              - name: 가상 방문 사용 현황 보고서
+                href: teams-analytics-and-reports/virtual-visits-usage-report.md
               - name: 모바일 브라우저에서 참가 환경 관리
                 href: expand-teams-across-your-org/mobile-browser-join.md
           - name: 정책 패키지 보기 및 할당
