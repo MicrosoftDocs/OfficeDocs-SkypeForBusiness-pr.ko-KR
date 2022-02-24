@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams에서 비공개 채널을 사용하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: edf3fc2933bf51f3c5966fa8e021fe0ff50de39b
-ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
+ms.openlocfilehash: 2ff886835258d9508e2cbe7c977ab5437d87129e
+ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62881553"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62926311"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams의 비공개 채널
 
@@ -102,9 +102,9 @@ Teams는 비공개 채널 사이트의 수명 주기를 관리합니다. 사이�
 >
 > [Microsoft Teams에 연결된 팀 사이트](/SharePoint/teams-connected-sites) 관리에 대해 자세히 알아보세요.
 
-## <a name="private-channel-message-compliance-records"></a>비공개 채널 메시지 규정 준수 레코드
+## <a name="compliance-copies-of-private-channel-messages"></a>비공개 채널 메시지의 준수 복사본
 
-비공개 채널에 전송된 메시지 레코드는 그룹 사서함이 아닌 모든 비공개 채널 구성원의 사서함에 전달됩니다. 레코드 제목은 출처 비공개 채널을 표시하도록 형식이 지정됩니다.
+비공개 채널로 전송된 메시지의 준수 복사본은 그룹 사서함이 아닌 모든 비공개 채널 구성원의 사서함으로 전달됩니다. 준수 복사본의 제목에는 전송된 비공개 채널에서 보냈다는 걸 나타내는 서식이 지정됩니다.
 
 비공개 채널 메시지의 eDiscovery 검색을 수행하는 방법에 대한 자세한 내용은 [비공개 채널의 eDiscovery](ediscovery-investigation.md#ediscovery-of-private-channels)를 참조하세요.
 
