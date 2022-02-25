@@ -2,7 +2,7 @@
 title: Microsoft StaffHub가 사용 중지된 경우
 author: SerdarSoysal
 ms.author: serdars
-ms.reviewer: 'lisawu, gumariam'
+ms.reviewer: lisawu, gumariam
 manager: serdars
 audience: admin
 ms.topic: article
@@ -10,16 +10,21 @@ ms.service: msteams
 search.appverid: MET150
 description: Microsoft StaffHub의 사용 중지 및 Microsoft StaffHub의 Shifts 앱 전환에 대한 FAQ에 대한 답변을 Microsoft Teams.
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection:
-  - M365-collaboration
-  - Teams_ITAdmin_FLW
+- M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 08b3b0ddfa3d53bebb9c3e628347e99d1016a133
+ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62960040"
 ---
-
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub가 사용 중지된 경우
 
 2020년 6월 30일부터 Microsoft StaffHub는 사용 중지됩니다. Microsoft Teams에 StaffHub 기능을 구축하고 있습니다. 현재 Teams에는 일정 관리를 위한 교대 근무 앱이 포함되어 있으며 시간이 지날 때 추가 기능이 배포될 것입니다.
@@ -151,8 +156,7 @@ Frontline 작업자는 Shifts에서 전체 작업 일정을 한눈에 볼 수 �
 
 PowerShell Teams PowerShell Microsoft Teams PowerShell 모듈을 통해 비즈니스용 Skype 관리합니다. 자세한 내용은 [PowerShell Teams 참조하세요](../../teams-powershell-overview.md). 현재 Shifts를 관리하는 데 사용할 수 있는 특정 PowerShell cmdlet은 없습니다.  
 
-관심이 있는 경우 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform)의 Teams 피드백 포털을 통해 요청을 보내주세요.
-
+관심이 있는 경우 피드백 포털을 통해 Teams [보내주세요](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 
 [!INCLUDE [uservoice-disclaimer-note](../../includes/uservoice-disclaimer-note.md)]
 

@@ -23,10 +23,10 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 통화 품질 대시보드 Power BI 보고서를 사용하여 대기열 기록 데이터를 자동 전화 교환 방법에 대해 자세히 알아보면 됩니다.
 ms.openlocfilehash: bb83a31b083387bc945f7f4b4388ee6643c00f10
-ms.sourcegitcommit: d8dba15c520de3894d1781e17acb2c75fb38ed49
+ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2022
+ms.lasthandoff: 02/25/2022
 ms.locfileid: "62921876"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>자동 전화 교환 & 기록 보고서 호출

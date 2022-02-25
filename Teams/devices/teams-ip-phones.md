@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 내기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: 1b5b32edeecd7c20840e3644583843a1c7e465b4
-ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
+ms.openlocfilehash: d379505751a25cf0880538efb1745765d7061044
+ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62929173"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62960020"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 인증된 Android 디바이스
 
@@ -284,7 +284,8 @@ ms.locfileid: "62929173"
 
 |제품 릴리스| 릴리스 날짜 | Microsoft Teams 앱 버전 | 회사 포털 버전 | 관리자 에이전트 버전 |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-|2021 업데이트 #1  |2021년 8월 12일 |`1449/1.0.97.2021070601`|`5.0.5211.0`            |  `268`|
+|2022 업데이트 #1  | Febuary 22, 2022 |`1449/1.0.96.2021726501` | `5.0.5304.0 `  | `322` |
+|2021 업데이트 #1  | 2021년 8월 12일 |`1449/1.0.97.2021070601`   | `5.0.5211.0`   |  `268`|
 
 #### <a name="firmware-versions"></a>펌웨어 버전
 
@@ -292,8 +293,9 @@ ms.locfileid: "62929173"
 
 | 디바이스 모델  | 펌웨어 버전 | 포함된 제품 릴리스|
 |:--------------|:-----------------|:-------------------------|
-|Crestron -TSS770| `1.004.0115` |2021 업데이트 #1 |
-|Crestron-TSS1070 | `1.004.0115` |2021 업데이트 #1 |
+|Yealink RoomPanel | ` 147.15.0.29 ` | 2022 업데이트 #1 |
+|Crestron -TSS770  | `1.004.0115` |2021 업데이트 #1 |
+|Crestron-TSS1070  | `1.004.0115` |2021 업데이트 #1 |
 |Yealink RoomPanel | `147.15.0.17` |2021 업데이트 #1 |
 |Logitech Tap Scheduler | `1.5.209` |2021 업데이트 #1 |
 

@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 팀 구성원을 채널 중재자로 추가하는 방법을 포함하여 Microsoft Teams 채널을 설정하는 방법을 배워 보세요.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9fd15b6d7eeecf0f1b7e6ec25e33236f50fd83b3
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 4441eea880b5dcf1d71ca11f0ad32cf148f90cf4
+ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62400852"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62960010"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>채널에서 채널 중재 설정 및 관리 Microsoft Teams
 
@@ -62,7 +62,7 @@ ms.locfileid: "62400852"
 
 Teams 채널로 이동하여 추가 옵션을 **클릭합니다.** >  **채널을 관리합니다**. 여기에서 중재를 켜고 끄고, 팀 구성원을 중재자로 추가하고, 기본 설정을 설정할 수 있습니다.
 
-채널 중재는 채널당 설정입니다. 채널 중재에 대한 테넌트 수준 설정은 없습니다. 테넌트 수준 채널 중재 설정을 추가하고자 하는 경우 [UserVoice에서 Teams 요청합니다](https://microsoftteams.uservoice.com/).
+채널 중재는 채널당 설정입니다. 채널 중재에 대한 테넌트 수준 설정은 없습니다. 테넌트 수준 채널 중재 설정을 추가하고자 하는 경우 피드백 포털에서 Teams [요청합니다](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 

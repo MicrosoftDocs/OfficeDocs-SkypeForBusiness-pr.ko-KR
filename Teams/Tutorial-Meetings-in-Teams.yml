@@ -20,12 +20,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: bfdb7ceab9e4a3d3ffebf903b073c5ec707e7bc6
-  ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+  ms.openlocfilehash: 1737461b1eface3038957a862ab2bcb743ca4615
+  ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 10/28/2021
-  ms.locfileid: "60605604"
+  ms.lasthandoff: 02/25/2022
+  ms.locfileid: "62960060"
 items:
 - durationInMinutes: 1
   content: >
@@ -67,7 +67,7 @@ items:
     -   이 자습서의 "다음 단계" 페이지 하단에 있는 설명 섹션에 게시합니다.
 
 
-    새 기능에 대한 아이디어와 같은 Teams에 대한 제품 피드백을 제공하려면 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)를 방문하세요.
+    새 기능에 대한 아이디어와 Teams 제품에 대한 제품 피드백을 제공 Teams [피드백 포털을 방문해 주세요](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 - title: Teams에서 모임
   durationInMinutes: 16
   content: "\nTeams 모임을 이해하려면 다음을 참조하세요.\n-   [모임 및 호출](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)의 “모임 갖기”(예상 소요 시간: 6분)\n\n-   [지금 모임](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf) 비디오(1:45분)\n\n-   [예약된 모임](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137) 비디오(1:45분)\n\n-   모임 로비, 익명으로 모임 참여 등에 대한 자세한 내용은 [Microsoft Teams 모임 9가지 팁](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)(예상 소요 시간: 6분)\n"
@@ -108,7 +108,7 @@ items:
 
     2.  의견 보내기:
         - 이 페이지 하단의 메모 섹션에 게시합니다.
-        - Teams 제품에 대한 피드백을 제공하거나 새로운 기능을 요청하려면 [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)로 이동하세요.
+        - 제품 Teams 피드백을 제공하거나 새 기능을 요청하기 위해 피드백 포털로 [Teams 합니다](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
     3.  최신 상태로 유지:
         - [Teams 블로그](https://aka.ms/teamsblog)를 팔로우하세요.
         - [Teams 로드맵](https://aka.ms/O365Roadmap)읽어 보세요.
