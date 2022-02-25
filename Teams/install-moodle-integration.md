@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95b368bab33818332ca9c2d0eafcb1966fffb3af
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: 1c6118fe7f9ffe00eb9b8cb657d1a6ea3221311b
+ms.sourcegitcommit: 766199440a152d97c95c2c45b7c4654815e64d9a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363044"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62963389"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Moodle 통합을 Microsoft Teams
 
@@ -187,6 +187,6 @@ Moodle 설명서에서 Moodle 플러그 인을 설치하는 방법에 대한 자
 
 그거에요! 이제 사용자와 팀이 지금부터 직접 Moodle 과정 작업을 시작할 수 Microsoft Teams.
 
-기능 요청 또는 피드백을 당사와 공유하기 위해 사용자 음성 페이지를 [방문하세요](https://microsoftteams.uservoice.com/forums/916759-moodle).
+기능 요청 또는 피드백을 당사와 공유하기 위해 피드백 포털 [을 방문해 주세요](https://feedbackportal.microsoft.com).
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]

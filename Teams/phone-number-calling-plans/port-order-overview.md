@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: 포트 주문의 개요와 서비스 공급자에서 전화 번호를 전송하는 방법을 Teams.
-ms.openlocfilehash: b17e0dea6181c111355a865bf1f70c07bfcb9258
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: bb9ebd91b1f5a08fb07eff0f469be4496714ecfc
+ms.sourcegitcommit: 766199440a152d97c95c2c45b7c4654815e64d9a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62398422"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62963419"
 ---
 # <a name="whats-a-port-order"></a>포트 순서
 
@@ -136,13 +136,17 @@ ms.locfileid: "62398422"
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>사용자(구독자) 전화 번호를 서비스 번호로 변환할 수 있나요?
 <a name="bkmk_type_1"> </a>
 
-예. 할 수 있습니다. 조직의 테넌트 GUID 및 변환하려는 전화 번호가 포함된 서비스 요청을 제출하기만하면 됩니다. 이를 위해 조직의 전화 [번호 관리를 참조합니다](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+예. 할 수 있습니다. 조직의 테넌트 GUID 및 변환하려는 전화 번호가 포함된 서비스 요청을 제출하기만하면 됩니다. 이를 위해 조직의 전화 번호 [관리를 참조합니다.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 ## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>다른 전화 서비스 공급자 또는 통신사로 Teams 내 번호를 이식할 수 있나요?
 
-다른 통신사로 번호를 Teams 새 통신사에 요청을 제출해야 합니다. 또한 지원 사례를 열고 포트 PIN을 설정해야 합니다. 지원을 받을 수 있는 방법에 대한 자세한 내용은 지원 보기 [를 참조하세요](/microsoft-365/business-video/get-help-support). 
+다른 통신사로 번호를 Teams 새 통신사에 요청을 제출해야 합니다. 또한 관리 센터에서 포터링 PIN을 Microsoft Teams 합니다.
+
+포링 PIN  >  을 정의하려면 Microsoft Teams 관리 센터의 왼쪽 탐색에서 음성전화 번호로 이동하고 페이지의 오른쪽 **위** 모서리에 있는 포링 **PIN** 관리를 선택한 다음 10자리 PIN을 입력합니다.
 
 새 통신 사업자에서 포터링 요청에 문의하면 사용자가 정의한 PIN을 제공해야 합니다.
+
+PIN을 추가로 설정해야 하는 경우 전화 번호 서비스 팀에 [문의하시기 바랍니다.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 ## <a name="common-mistakes-to-watch-out-for"></a>조심해야 하는 일반적인 실수
 <a name="bkmk_type_1"> </a>
