@@ -9,21 +9,26 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - ms.teamsadmincenter.meetingsettings.invitationurls
-  - ms.teamsadmincenter.meetingsettings.network.ports
-  - ms.teamsadmincenter.meetingsettings.overview
+- ms.teamsadmincenter.meetingsettings.invitationurls
+- ms.teamsadmincenter.meetingsettings.network.ports
+- ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
-  - M365-collaboration
-  - m365initiative-meetings
+- M365-collaboration
+- m365initiative-meetings
 description: 사용자가 조직에서 예약하는 모든 Teams 모임 설정을 관리하는 방법을 알아봅니다.
+ms.openlocfilehash: 294bbac570d1f1741449c7c81cb9389b20cdcdc6
+ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62960030"
 ---
-
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams에서의 모임 설정 관리
 
 관리자는 Teams 모임 설정을 사용하여 익명 사용자가 Teams 모임에 참여하고 모임 초대를 사용자 지정하고 QoS(서비스 품질)을 활성화하고 실시간 트래픽에 대한 포트 범위를 설정할 수 있습니다. 이 설정은 사용자가 조직에서 예약하는 모든 Teams 모임에 적용됩니다. Microsoft Teams 관리 센터의 **모임** > **모임 설정** 에서 이러한 설정을 관리합니다.
@@ -67,6 +72,14 @@ description: 사용자가 조직에서 예약하는 모든 Teams 모임 설정�
 > [!NOTE]
 > 조직별로 익명 가입이 해제된 조직에 대해 조직자별 정책을 사용하려면 관리자가 정책을 생성한 다음 사용자에게 할당해야 합니다. 방법을 알아보려면 [Microsoft Teams에서 모임 정책 관리](/microsoftteams/meeting-policies-overview)를 참조하세요.
 
+### <a name="blocking-anonymous-join-for-specific-client-types"></a>특정 클라이언트 유형에 대한 익명 참가 차단
+
+익명의 사용자가 모임에 참여할 수 있는 경우 Teams 클라이언트 또는 [Azure Communication Services](/azure/communication-services/)를 사용하여 빌드된 사용자 지정 클라이언트를 사용할 수 있습니다. 관리자는 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)의 **-BlockedAnonymousJoinClientTypes** 매개 변수를 사용하여 선택한 클라이언트 유형을 차단할 수 있습니다.
+
+가능한 값은 다음과 같습니다.
+- 널(기본값). 모든 클라이언트 유형이 허용됩니다.
+- Acs. [Azure Communication Services](/azure/communication-services/)를 사용하여 빌드된 사용자 지정 클라이언트를 차단합니다.
+- Teams. Teams 클라이언트를 차단합니다.
 
 ## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>익명 사용자가 모임에서 앱과 상호 작용할 수 있도록 허용
 
