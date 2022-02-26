@@ -17,12 +17,12 @@ description: 법적 절차를 위해 전자적으로 저장된 모든 정보를 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b78ec3ad6741d2c7f83d7732400d5f1154747d5e
-ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
+ms.openlocfilehash: 5a35afa53a8f94a5d0106e67d2f9f87eacfaca63
+ms.sourcegitcommit: edf68b7ac4f1861259a0990157ee6ae84f68ca42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62929163"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "62974465"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>콘텐츠에 대한 eDiscovery 조사를 Microsoft Teams
 
@@ -47,7 +47,7 @@ ms.locfileid: "62929163"
 |이모지, GIF 및 스티커 | 예 | |
 |피드 알림 | 아니요 | |
 |인라인 이미지 | 예 | |
-|루프 구성 요소| 아니요|루프 구성 요소가 포함된 채팅 메시지는 검색할 수 있습니다. 그러나 루프 구성 요소의 콘텐츠는 검색을 위해 인덱싱되지 않습니다. 검색 결과에 반환되지 않습니다. 검색 결과에 루프 구성 요소가 포함된 메시지가 포함된 경우 루프 구성 요소 콘텐츠를 볼 수 있습니다.  |
+|루프 구성 요소| 예|루프 구성 요소의 콘텐츠는 루프 구성 요소를 보내는 사용자의 비즈니스용 OneDrive .fluid 파일에 저장됩니다. 즉, 루프 구성 요소에서 콘텐츠를 검색할 OneDrive 데이터 원본으로 데이터를 포함해야 합니다. |
 |IM 대화 모임 | 예 | |
 |모임 메타데이터<sup>1</sup> | 예 |  |
 |채널 이름 | 예 | |
@@ -91,7 +91,7 @@ Microsoft Teams eDiscovery 내보내기 출력에 im 또는 Conversations로 Exc
 
 ## <a name="ediscovery-of-private-channels"></a>개인 채널의 eDiscovery
 
-개인 채널로 전송된 메시지의 준수 복사본은 그룹 사서함이 아닌 모든 개인 채널 구성원의 사서함으로 배달됩니다. 규정 준수 복사본의 제목은 전송된 개인 채널을 나타내기 위해 서식이 지정됩니다.
+비공개 채널로 전송된 메시지의 준수 복사본은 그룹 사서함이 아닌 모든 비공개 채널 구성원의 사서함으로 전달됩니다. 준수 복사본의 제목에는 전송된 비공개 채널에서 보냈다는 걸 나타내는 서식이 지정됩니다.
 
 각 개인 채널에는 부모 팀 사이트와 SharePoint 자체 사이트가 있기 때문에 개인 채널의 파일은 부모 팀과 독립적으로 관리됩니다.
 

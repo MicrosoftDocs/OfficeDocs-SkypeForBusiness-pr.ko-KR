@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07d050782dfef1ce89f54891302457c2f1616fa5
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: ed6abe00ac67b6029fdb72178ad09e21ec58e80d
+ms.sourcegitcommit: edf68b7ac4f1861259a0990157ee6ae84f68ca42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763651"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "62974455"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>빠른 시작 - 모임, 웨비나 및 라이브 이벤트 
 
@@ -157,7 +157,7 @@ Teams와 함께 제공되는 앱을 사용하고, 인증된 타사 앱과 템플
 | 게시물 | 설명 | 
 |----------|--------|
 | [앱, 봇 및 커넥터](deploy-apps-microsoft-teams-landing-page.md) | 앱 소개 및 조직에 앱을 배포하는 방법입니다. |
-| [Teams 모임용 앱](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings | 모임 앱 확장성 개요, API 참조, 모임용 앱 활성화 및 구성 방법. |
+| [Teams 모임용 앱](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings) | 모임 앱 확장성 개요, API 참조, 모임용 앱 활성화 및 구성 방법. |
 | [Teams에서 화이트보드 관리](manage-whiteboard.md) | 화이트보드 기능과 조직에 대해 활성화 및 비활성화하는 방법을 설명합니다. |
 ||
 
