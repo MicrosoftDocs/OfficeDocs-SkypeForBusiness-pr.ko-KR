@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2df5c465c9115dce47ee9e80ea649768606c338f
-ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
+ms.openlocfilehash: 3f26413aa746b37474e7035e313fc8ffff2fb93c
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "62918960"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039956"
 ---
 # <a name="shifts-data-faq"></a>데이터 FAQ 이동
 
@@ -35,13 +35,13 @@ ms.locfileid: "62918960"
 
 ## <a name="where-is-shifts-data-stored"></a>Shifts 데이터는 어디에 저장하나요?
 
-Shifts 데이터는 아시아 태평양(APAC), 유럽 연합(EU) 또는 미국의 세 가지 지역(지역) 중 하나에 저장됩니다. 각 지역은 HA(고가용성) 및 DR(재해 복구)을 위해 두 개 이상의 Azure 데이터 센터 지역에 데이터를 저장합니다. 현재 미국/북아메리카 지역은 미국 중북부 및 중남부에 있는 데이터 센터를 사용 중입니다. 자세한 내용은 저장된 고객 Microsoft 365 [위치 를 참조합니다](/microsoft-365/enterprise/o365-data-locations).
+Shifts 데이터는 아시아 태평양(APAC), 유럽 연합(EU) 또는 미국의 세 가지 지역(지역) 중 하나에 저장됩니다. 각 지역은 HA(고가용성) 및 DR(재해 복구)을 위해 두 개 이상의 Azure 데이터 센터 지역에 데이터를 저장합니다. 현재 미국/북아메리카 지역은 미국 중북부 및 중남부에 있는 데이터 센터를 사용 중입니다. 자세한 내용은 저장된 고객 Microsoft 365 [위치를 참조합니다](/microsoft-365/enterprise/o365-data-locations).
 
 현재 Shifts는 오스트레일리아, 캐나다, 프랑스, 일본 및 영국에 데이터 거주를 제공합니다. 지원을 더 많은 위치로 확장하기 위해 적극적으로 작업하고 있습니다.
 
 ## <a name="can-i-choose-where-shifts-data-is-stored"></a>Shifts 데이터가 저장되는 위치를 선택할 수 있나요?
 
-처음 Teams 설정하면 구독 수준에서 설정되는 국가 또는 지역을 선택합니다. Shifts는 이 선택을 존중하며 해당 지역을 지원하는 경우 Teams 설정한 로 로컬 및 지역을 사용하게 됩니다. 해당 지역에 아직 없는 경우 지원되는 가까운 지역에 데이터를 저장합니다. 앞으로는 인근 지역에 저장된 경우 기존 데이터를 프로비전된 지역으로 마이그레이션할 Teams.
+처음 Teams 설정하면 구독 수준에서 설정되는 국가 또는 지역을 선택합니다. Shifts는 이 선택을 존중하고 해당 지역을 지원하는 경우 해당 Teams 설정한 로콜 및 지역을 사용하게 됩니다. 해당 지역에 아직 없는 경우 지원되는 가까운 지역에 데이터를 저장합니다. 앞으로는 인근 지역에 저장된 경우 기존 데이터를 프로비전된 지역으로 마이그레이션할 Teams.
 
 ## <a name="can-i-access-and-export-or-delete-a-users-personal-data-in-shifts"></a>Shifts에서 사용자의 개인 데이터에 액세스하고 내보내거나 삭제할 수 있나요?
 
@@ -57,7 +57,7 @@ Shifts는 GDPR(일반 데이터 보호 규정)을 준수합니다.개인 데이�
 
 테넌트를 삭제하면 보존 기간이 끝나면 모든 Shifts 데이터가 삭제됩니다.
 
-Shifts 데이터만 삭제하는 옵션은 없습니다. 팀에서 팀을 삭제하면 Teams 기간이 끝나면 해당 팀과 연결된 일정 데이터가 삭제됩니다. 자세한 내용은 데이터 보존[,](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview) 삭제 및 삭제를 Microsoft 365.
+Shifts 데이터만 삭제하는 옵션은 없습니다. 팀에서 팀을 삭제하면 Teams 기간이 끝나면 해당 팀과 연결된 데이터를 변경합니다. 자세한 내용은 데이터 보존[,](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview) 삭제 및 삭제를 Microsoft 365.
 
 ## <a name="can-i-recover-a-shifts-schedule-that-was-deleted"></a>삭제된 Shifts 일정을 복구할 수 있나요?
 
@@ -75,13 +75,9 @@ Teams 보존 정책에 대한 자세한 내용은 Teams 및 보존 정책 관리
 
 현재 라이선스가 해지된 사용자의 데이터를 검색하는 기능을 제공하지 않습니다. 이 기능은 현재 진행하고 있는 기능입니다.
 
-## <a name="is-shifts-supported-in-government-cloud-community-gcc-environments"></a>Shifts는 정부 클라우드 Community(GCC) 환경에서 지원하나요?
-
-Shifts는 GCC 환경에서 사용할 수 있지만, 높은 GCC DoD 환경에서는 사용할 수 없습니다.
-
 ## <a name="what-type-of-encryption-does-shifts-use-for-data-at-rest-and-in-transit"></a>Shifts는 미사용 데이터 및 전송 시 데이터에 어떤 유형의 암호화를 사용하나요?
 
-Shifts 데이터는 Azure Cosmos DB 및 Azure Storage. 자세한 내용은 [미사용 Azure](/azure/security/fundamentals/encryption-atrest) 데이터 암호화 및 Azure Cosmos [참조하세요](/azure/cosmos-db/database-encryption-at-rest).
+Shifts 데이터는 Azure Cosmos DB 및 Azure Storage. 자세한 내용은 [미사용 Azure](/azure/security/fundamentals/encryption-atrest) 데이터 암호화 및 Azure Cosmos [DB를 참조하세요](/azure/cosmos-db/database-encryption-at-rest).
 
 Shifts는 전송되는 Microsoft 365 암호화에 대한 지침에 따릅니다. 자세한 내용은 전송 중 데이터 암호화 [를 참조하세요](/compliance/assurance/assurance-encryption-in-transit).
 
@@ -95,7 +91,7 @@ Shifts 데이터의 변경 불가능한 복사본은 저장하지 않습니다. 
 
 변경할 수 없는 Shift의 특정 측면과 변경할 수 있는 특정 측면이 있습니다. 예를 들어 노트 및 색과 같은 교대 근무 세부 정보를 Shifts 앱에서 변경할 수 있는 방법과 유사하게 편집할 수 있습니다. 요청이 철회되지 않는 한 교대 근무 요청을 편집할 수 없습니다.
 
-변경된 필드를 확인하려면 Shifts 이벤트에 대한 Microsoft 365 감사 로그를 검색할 수 있습니다. 감사 로그의 Shifts 활동에 대해 기록된 이벤트에 Microsoft 365 자세한 내용은 작업의 [Shifts를 Teams 참조하세요](../../audit-log-events.md#shifts-in-teams-activities).
+변경된 필드를 확인하려면 Shifts 이벤트에 대한 Microsoft 365 감사 로그를 검색할 수 있습니다. 감사 로그에서 Shifts 활동에 대해 기록된 이벤트에 Microsoft 365 자세한 내용은 작업의 [Shifts를 Teams 참조하세요](../../audit-log-events.md#shifts-in-teams-activities).
 
 ## <a name="my-organization-uses-a-workforce-management-system-for-scheduling-can-we-integrate-with-and-access-shifts-data"></a>조직에서는 인력 관리 시스템을 사용하여 일과를 계획합니다. Shifts 데이터와 통합하고 액세스할 수 있나요?
 

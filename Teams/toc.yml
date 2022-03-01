@@ -1564,7 +1564,7 @@ items:
             href: edu-remote-low-bandwidth.md
           - name: 교육용 Teams 정책 마법사
             href: easy-policy-setup-edu.md
-          - name: Teams용 부모 앱 배포
+          - name: 교육용 Microsoft Teams의 부모
             href: edu-parents-app.md
           - name: 교육용 Teams의 커리어 코치 앱
             href: career-coach.md

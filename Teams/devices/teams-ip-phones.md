@@ -20,19 +20,19 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 - seo-marvel-apr2020
-description: 최상의 결과를 내기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: f3d82d9e546b2a2ba1b3e741173695898a72eb4d
-ms.sourcegitcommit: edf68b7ac4f1861259a0990157ee6ae84f68ca42
+description: 최상의 결과를 생성하기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
+ms.openlocfilehash: 6ce43dca8c425b65fa1fa4cb1722d656d33b725c
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "62974485"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039916"
 ---
-# <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 인증된 Android 디바이스
+# <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams Android 디바이스
 
-인증 Microsoft Teams 인증 프로그램은 인증된 디바이스가 전체 환경(오디오, 비디오, 사용자 인터페이스)에서 더 높은 성능 목표 및 품질 메트릭을 Teams 보장합니다. Microsoft 및 OEM 파트너는 디바이스가 보안, 오디오 및 비디오 품질, 환경 및 접근성을 포함하여 모든 인증 요구 사항을 충족하도록 Teams 협력하고 있습니다.
+인증 Microsoft Teams 인증 프로그램은 인증된 디바이스가 전체 환경(오디오, 비디오, 사용자 인터페이스)에서 더 높은 Teams 및 품질 메트릭을 충족하도록 보장합니다. Microsoft 및 OEM 파트너는 디바이스가 보안, 오디오 및 비디오 품질, 환경 및 접근성을 포함하여 모든 인증 요구 사항을 충족하도록 Teams 협력하고 있습니다.
 
-인증 프로그램은 인증된 모든 디바이스가 관리 센터 및 관리 센터에 필요한 기능 집합을 사용하여 Android 버전을 Teams Teams 수 있도록 디자인되었습니다. 인증 종료 날짜는 인증 프로그램에 입력할 때 디바이스에서 실행되는 Android OS 버전을 기반으로 합니다. OEM 파트너는 Android OS 버전을 업그레이드하고 인증을 다시 인증하거나 최신 모델인 새 모델을 공개하여 인증 수명을 연장하기 위해 작업하고 있습니다.
+인증 프로그램은 인증된 모든 디바이스가 관리 센터 및 관리 센터에 필요한 기능 집합을 사용하여 Android 버전을 Teams Teams 디자인되었습니다. 인증 종료 날짜는 인증 프로그램에 입력할 때 디바이스에서 실행되는 Android OS 버전을 기반으로 합니다. OEM 파트너는 Android OS 버전을 업그레이드하고 인증을 다시 인증하거나 최신 모델인 새 모델을 공개하여 인증 수명을 연장하기 위해 작업하고 있습니다.
 
 인증 기간을 초과하여 Microsoft는 인증 기간이 종료된 후 2년 동안 이러한 디바이스에서 가장 Teams 클라이언트의 최신 버전을 지원하기 위해 최선을 다하고 있습니다.
 
@@ -67,7 +67,7 @@ ms.locfileid: "62974485"
 
 ## <a name="certified-teams-rooms-on-android"></a>Android에서 Teams 룸 인증된 앱
 
-다음 디바이스는 Android 인증 프로그램에서 Microsoft Teams 룸 인증됩니다.
+다음 디바이스는 Android 인증 Microsoft Teams 룸 인증됩니다.
 
 | 디바이스 모델 | 펌웨어 버전 | 현재 인증 종료 날짜 | 방 크기                                        |  Android OS 버전    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
@@ -88,14 +88,14 @@ ms.locfileid: "62974485"
 
 ## <a name="certified-teams-displays"></a>인증된 Teams 디스플레이
 
-다음 디바이스는 Android 인증 프로그램을 표시하는 Microsoft Teams 인증됩니다.
+다음 디바이스는 Android 인증 Microsoft Teams 인증됩니다.
 
 | 디바이스 모델 | 펌웨어 버전 | 현재 인증 종료 날짜  | Android OS 버전 |
 |:------------------------|:-----------------|:--------------|----------------------------------|
 |Lenovo ThinkSmart 보기|`CD-18781Y.201006.099`| 2022년 12월 5일 |  8.1  |
 
 ## <a name="certified-teams-panels"></a>인증된 Teams 패널
-다음 디바이스는 인증된 Microsoft Teams 인증 프로그램입니다.
+다음 디바이스는 인증 Microsoft Teams 인증됩니다.
 
 | 디바이스 모델| 펌웨어 버전 | 현재 인증 종료 날짜 | Android OS 버전 |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
@@ -129,10 +129,12 @@ ms.locfileid: "62974485"
 
 #### <a name="firmware-versions"></a>펌웨어 버전
 
-디바이스에 새 펌웨어 버전을 설치할 때 해당 설치된 버전의 앱, Microsoft Teams, 관리자 에이전트를 회사 포털 수 있습니다. 포함된 제품 릴리스 열에서 제품  릴리스를 찾은 다음 이전 앱 버전 테이블에서 제품 릴리스 **를 살펴** 봐야 합니다.
+디바이스에 새 펌웨어 버전을 설치하는 경우 앱, Microsoft Teams 및 관리 에이전트의 해당 설치된 회사 포털 결정할 수 있습니다. 포함된 제품 릴리스 열에서 제품  릴리스를 찾은 다음 이전 앱 버전 테이블에서 제품 릴리스 **를 살펴** 봐야 합니다.
 
 | 디바이스 모델  | 펌웨어 버전  | 포함된 제품 릴리스  |
 |:----------------|:--------------|:----------------------------|
+| Poly Trio C60   | `7.2.1.1831`  | 2022 업데이트 #1                        |
+| Poly CCX400/CCX500/CCX600   | `7.2.1.1826`  | 2022 업데이트 #1                 |
 |Crestron UC-2     | `1.0.4.75`    | 2022 업데이트 #1 |
 |오디오 코드 C455HD | `1.15.271`    | 2022 업데이트 #1
 |오디오 코드 C448HD  | `1.14.500` | 2022 업데이트 #1 |
@@ -291,7 +293,7 @@ ms.locfileid: "62974485"
 
 |제품 릴리스| 릴리스 날짜 | Microsoft Teams 앱 버전 | 회사 포털 버전 | 관리자 에이전트 버전 |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-|2022 업데이트 #1A | Febuary 25, 2022 | `1449/1.0.97.2022730007` | `5.0.5304.0`  | `322` |
+|2022 업데이트 #1A | 2022년 2월 25일 | `1449/1.0.97.2022730007` | `5.0.5304.0`  | `322` |
 |2022 업데이트 #1  | 2022년 2월 22일 |`1449/1.0.96.2021726501` | `5.0.5304.0 `  | `322` |
 |2021 업데이트 #1  | 2021년 8월 12일 |`1449/1.0.97.2021070601`   | `5.0.5211.0`   |  `268`|
 
@@ -315,9 +317,9 @@ ms.locfileid: "62974485"
 
 모바일 [장치에서](phones-for-teams.md) 펌웨어 버전 찾기를 참조하여 모바일 장치에서 디바이스 펌웨어 버전을 확인합니다.
 
-Microsoft Teams 라이선스는 구독 또는 구독의 일부로 Microsoft 365 Office 365 [있습니다](/office365/servicedescriptions/teams-service-description). 휴대폰에서 사용 가능한 라이선스를 사용하는 데 필요한 라이선스에 Microsoft Teams 자세한 내용은 사용 가능한 전화 시스템 라이선스[를 참조합니다](https://products.office.com/microsoft-teams/voice-calling).
+Microsoft Teams 라이선스는 구독 또는 구독의 일부로 Microsoft 365 [Office 365 있습니다](/office365/servicedescriptions/teams-service-description). 휴대폰에서 사용 가능한 라이선스를 사용하는 데 필요한 라이선스에 Microsoft Teams 자세한 내용은 사용 가능한 전화 시스템 라이선스를 [참조합니다](https://products.office.com/microsoft-teams/voice-calling).
 
-액세스 액세스에 대한 자세한 내용은 Teams 액세스 권한을 얻나요?를 Microsoft Teams[.](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+액세스 권한을 얻게 Teams 방법에 대한 자세한 내용은 액세스 권한을 Microsoft Teams[.](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 인증 프로그램에 참가하기를 원하는 공급업체인 경우 요구 사항 및 사용 가능한 프로그램에 [](/skypeforbusiness/certification/how-to-join) 가입하는 방법을 참조하세요.
 

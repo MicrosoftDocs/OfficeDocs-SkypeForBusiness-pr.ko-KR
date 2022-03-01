@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅에 대해 인증된 SBA(Session Border Controller)에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69add2b195da03dee69b2a33583b5dbed8f614e8
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 3805a87171a770298e41337dfdd569c1b7d76985
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518930"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039996"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>직접 라우팅에 대한 인증된 SBC(Session Border Controller)
 
@@ -173,9 +173,9 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 | [리본 메뉴](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 6000. 소프트웨어 버전: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)   |     &#10004;     |
 | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  Grandstream GXW42xx이 포함된 anynode(V1.0.7.10) |     &#10004;     |
   
-새 기능에 대한 아이디어 등 Teams 관련 피드백을 제공하려면 [UserVoice](https://microsoftteams.uservoice.com)를 방문하세요.
-
-
-[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
 주 버전에 부여된 인증을 확인합니다. 즉, 주 버전 이후의 SBC 펌웨어에서 임의의 번호를 가진 펌웨어가 지원됩니다.
+
+새 기능에 대한 아이디어 등 Teams 관련 피드백을 제공하려면 [Microsoft 피드백 포털](https://feedbackportal.microsoft.com/)을 방문하세요.
+
+
