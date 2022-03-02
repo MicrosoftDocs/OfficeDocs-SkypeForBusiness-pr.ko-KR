@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b87aaae3feeef9552cd64d76bb777cb081a6102e
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: b3b16b3015771cd136f3e5ee7333619008ada332
+ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055429"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "63047138"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>조직에서 Microsoft Teams 설정 관리
 
@@ -34,7 +34,23 @@ ms.locfileid: "61055429"
 
 [Microsoft Teams 관리 센터](https://admin.teams.microsoft.com)의 **Teams 앱** 에서 조직의 앱을 관리합니다. 예를 들어, 조직 전체 또는 특정 Teams 사용자에게 사용할 수 있는 앱을 제어하는 정책을 설정하고, 사용자에게 가장 중요한 앱을 고정하여 Teams를 사용자 지정할 수 있습니다.
 
-자세한 내용은 [Team에서 앱에 대한 관리 설정](admin-settings.md)을 참조하세요.  
+자세한 내용은 [Team에서 앱에 대한 관리 설정](admin-settings.md)을 참조하세요.
+
+### <a name="workflows-in-teams"></a>Teams의 워크플로
+
+워크플로를 사용하면 Power Automate를 사용하여 반복적인 작업과 프로세스를 자동화할 수 있습니다. **앱 권한 정책** 을 사용하거나 Power Automate를 차단하여 **앱 관리** 페이지를 통해 Teams에서 조직의 워크플로를 끌 수 있습니다. 이 기능은 기본적으로 켜져 있습니다. 워크플로에 대한 자세한 내용은 [워크플로 찾아보기 및 추가](https://support.microsoft.com/office/browse-and-add-workflows-4998095c-8b72-4b0e-984c-f2ad39e6ba9a)를 참조하세요.
+
+앱 권한 정책이 있는 워크플로를 끄려면 차단 목록에 Power Automate를 포함하거나 허용 목록에서 제거하도록 전역(조직 전체 기본값) 정책을 편집합니다.
+
+**앱 관리** 페이지를 통해 Power Automate를 차단할 수도 있습니다.
+
+1. [**Teams 앱** > **앱 관리**](https://admin.teams.microsoft.com/policies/manage-apps)로 이동합니다.
+1. **Power Automate** 를 검색합니다.
+1. 앱을 선택합니다.
+1. **상태** 를 **허용** 에서 **차단됨** 으로 변경합니다.
+
+> [!NOTE]
+> 워크플로를 끄면 Teams 앱 스토어, 메시지 확장 및 추가 작업 메뉴에서 앱이 숨겨집니다. 워크플로를 끄면 활성 흐름도 비활성화됩니다.
 
 ## <a name="teams-external-access-and-guest-access-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터의 Teams 외부 액세스 및 게스트 액세스 설정
 
@@ -79,7 +95,7 @@ Teams의 사용자 활동 피드에 제안된 피드를 표시할지 여부를 �
 
 여기서 파일 공유 및 클라우드 파일 저장소 옵션을 켜거나 끌 수 있습니다.
 
-사용자는 Teams 채널과 채팅의 클라우드 저장소 서비스에서 파일을 업로드하고 공유할 수 있습니다. Teams의 클라우드 저장소 옵션에는 현재 Dropbox, Box, ShareFile, Google Drive및 Egnyte가 포함됩니다. 조직에서 사용하려는 클라우드 저장소 공급자에 대한 스위치를 켭니다.
+사용자는 Teams 채널과 채팅의 클라우드 저장소 서비스에서 파일을 업로드하고 공유할 수 있습니다. Teams의 클라우드 저장소 옵션에는 현재 Dropbox, Box, Citrix 파일, Google Drive 및 Egnyte가 포함됩니다. 조직에서 사용하려는 클라우드 저장소 공급자에 대한 스위치를 켭니다.
 
 #### <a name="organization"></a>조직
 
