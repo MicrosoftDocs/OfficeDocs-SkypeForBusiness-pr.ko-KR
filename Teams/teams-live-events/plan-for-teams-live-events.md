@@ -8,20 +8,25 @@ ms.service: msteams
 audience: admin
 ms.reviewer: sonua
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: high
 ms.collection:
-  - M365-collaboration
-  - m365initiative-meetings
-  - m365initiative-meetings-enabler
-  - enabler-strategic
+- M365-collaboration
+- m365initiative-meetings
+- m365initiative-meetings-enabler
+- enabler-strategic
 search.appverid: MET150
 description: 이 문서에서는 Microsoft Teams에서 라이브 이벤트를 설정하기 전에 고려해야 하는 요소에 대해 설명합니다.
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f7ce782db18c15e3b08367e0956003f7af2dde75
+ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "63047148"
 ---
-
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 계획하기
 
 조직에서 대규모 모임을 개최하기 위해 Teams 라이브 이벤트를 계획하는 경우, 설정하기 전에 고려해야 할 몇 가지 요소가 있습니다.
@@ -181,7 +186,10 @@ Teams 라이브 이벤트를 구성, 제작 또는 발표하기 위해 할당해
 **제외 사항 및 고려 사항**
 
 - **데이터 위치:** 위에 나열된 지역 이외의 Teams 데이터 위치는 현재 지원되지 않습니다.
-- **중국:** 중국에서 Azure CDN에 액세스할 수 없으므로 팀 구성원 및 참석자는 Teams 라이브 이벤트를 사용할 수 없습니다. 해결 방법은 회사 VPN 연결을 사용하여 고객의 회사 네트워크를 통해 CDN에 클라이언트를 연결하는 것입니다.
+
+>[!Note]
+> 라이브 이벤트는 Azure CDN 서비스에 의존하며, 일부 국가에서는 제공되지 않을 수 있습니다. 관리자는 해당 앱이 원활하게 작동하려면 모든 관련 법률 및 규정에 따라 VPN을 설정하여 회사 네트워크에 연결해야 할 수 있습니다. 완료되면 조직의 사용자가 라이브 이벤트를 예약하고 참석할 수 있습니다.
+
 
 ## <a name="next-steps"></a>다음 단계
 
