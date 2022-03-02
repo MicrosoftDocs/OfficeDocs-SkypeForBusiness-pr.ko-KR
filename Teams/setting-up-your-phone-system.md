@@ -24,12 +24,12 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-get-started
 description: 조직에서 조직에 대한 Teams 전화 시스템 방법을 자세히 설명하는 단계별 Microsoft 365.
-ms.openlocfilehash: 1a8f7ed554a360b94e568058be29697c0f2b1767
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: 3a5c275c7d7d881ff770e6e84a3d4fa935d2827f
+ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/01/2022
-ms.locfileid: "63039986"
+ms.locfileid: "63043346"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>조직에서 전화 시스템 설정
 
@@ -50,7 +50,7 @@ ms.locfileid: "63039986"
 
 ## <a name="step-1-buy-and-assign-a-phone-system-license"></a>1단계: 라이선스 전화 시스템 할당
 
-단일 사용자에게 전화 시스템 라이선스를 할당하기 위해 단계는 단일 라이선스를 할당하는 Microsoft 365 동일합니다. 여러 사용자에게 일괄적으로 라이선스를 할당할 수도 있습니다. 사용 가능한 라이선스에 대한 전화 시스템 및 라이선스를 획득하고 할당하는 방법에 대한 자세한 내용은 추가 Teams 추가 기능 [](/teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 라이선스 및 추가 Microsoft Teams 할당을 [참조하세요](/teams-add-on-licensing/assign-teams-add-on-licenses.md).
+단일 사용자에게 전화 시스템 라이선스를 할당하기 위해 단계는 단일 라이선스를 할당하는 Microsoft 365 동일합니다. 여러 사용자에게 일괄적으로 라이선스를 할당할 수도 있습니다. 사용 가능한 라이선스 및 전화 시스템 라이선스를 획득하고 할당하는 방법에 대한 자세한  [내용은 추가 기능](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) 라이선스Teams 추가 기능 라이선스 할당을 Teams 참조[하세요](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
 
 ## <a name="step-2-choose-a-pstn-connectivity-option"></a>2단계. PSTN 연결 옵션 선택 
  

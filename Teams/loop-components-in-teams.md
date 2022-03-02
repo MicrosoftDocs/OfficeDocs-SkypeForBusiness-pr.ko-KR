@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 660ecd7542eadd56b284642895e5da15a1cdd434
-ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
+ms.openlocfilehash: 3f9ca97a0088c703dc482d69406a9e9c2c8b2a22
+ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "62918942"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63043376"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>의 루프 구성 요소 개요 Teams
 
@@ -34,51 +34,51 @@ ms.locfileid: "62918942"
 
 **작업을 함께 더 빠르게 수행할 수 있습니다.** 크라우드 소스 의제, 그룹의 작업 항목을 추적하거나, 총체적으로 메모를 작성합니다. 루프 구성 요소를 사용하여 몇 가지 시나리오만 쉽게 만들 수 있습니다.
 
-**구성 요소를 공유합니다.** 이 릴리스에서는 루프 구성 요소를 서로 다른 채팅 Teams 수 있습니다. 받는 사람은 어디에 있든 편집할 수 있으며 변경 내용에 상관없이 즉시 업데이트를 볼 수 있습니다.
+**구성 요소를 공유합니다.** 이 릴리스에서는 루프 구성 요소를 다른 채팅으로 Teams 수 있습니다. 받는 사람은 어디에 있든 편집할 수 있으며 변경 내용에 상관없이 즉시 업데이트를 볼 수 있습니다.
 
-**채팅에서 시작하고 거기에서 빌드합니다.** 채팅에서 만드는 Teams 모든 구성 요소가 자동으로 OneDrive. 따라서 채팅에서 공동 작업을 시작한 다음 나중에 파일로 이동하여 편집할 수 있는 시각적 공간이 커지고 원하는만큼 구성 요소를 추가할 수 있습니다.
+**채팅에서 시작하고 거기에서 빌드합니다.** 채팅에서 만든 Teams 모든 구성 요소가 자동으로 OneDrive. 따라서 채팅에서 공동 작업을 시작한 다음 나중에 파일로 이동하여 편집할 수 있는 시각적 공간이 커지고 원하는만큼 구성 요소를 추가할 수 있습니다.
 
 루프 구성 요소에 대한 관리 설정에 대한 자세한 Teams 루프 구성 요소 관리를 [SharePoint](/sharepoint/manage-loop-components).
 
 ## <a name="clients-and-platforms"></a>클라이언트 및 플랫폼
 
-Mac, Teams, Windows, iOS 및 Android에서 사용할 수 있습니다.
+Mac Teams, Linux, iOS 및 Android의 Windows 앱에서 사용할 수 있습니다.
 
-## <a name="loop-components-and-fluid-files"></a>루프 구성 요소 및 .fluid 파일
+## <a name="loop-components-and-loop-files"></a>루프 구성 요소 및 .loop 파일
 
-에서 만든 루프 Teams 작성자의 문서에 저장된 .fluid 파일로 OneDrive. 파일로 OneDrive 사용자가 모든 문서처럼 루프 구성 요소(.fluid files)를 쉽게 만들고 검색하고 관리할 Office 있습니다. .fluid 파일은 eDiscovery, 감사, 보고 및 법적 보류와 같은 데이터 거버넌스 기능과 함께 사용됩니다.
+Teams 만든 루프 구성 요소는 크리에이터의 Teams에 저장된 .loop 파일로 OneDrive. 파일로 OneDrive 사용자가 모든 문서처럼 루프 구성 요소(.loop files)를 쉽게 만들고 검색하고 관리할 Office 있습니다. .loop 파일은 eDiscovery, 감사, 보고 및 법적 보류와 같은 데이터 거버넌스 기능과 함께 사용됩니다.
 
-## <a name="how-are-fluid--files-stored"></a>.fluid 파일은 어떻게 저장하나요?
+## <a name="how-are-loop--files-stored"></a>.loop 파일은 어떻게 저장하나요?
 
-.fluid 파일은 Office.com 및 OneDrive(예: 최근 및 권장 영역)에 표시됩니다. 사용자는 Office.com에서 .fluid 파일에서 콘텐츠를 검색하고 OneDrive. .fluid 파일은 이전 버전으로 복원할 수 OneDrive. 루프 구성 요소 채팅 참가자를 만들하려면 계정이 OneDrive 있어야 합니다. 유효한 OneDrive 계정이 없는 경우 채팅 참가자는 여전히 유효한 계정이 있는 다른 사용자가 만든 구성 요소에서 공동 작업할 OneDrive 수 있지만 자체 계정을 만들 수 없습니다. 
+.loop 파일은 Office.com 및 OneDrive(예: 최근 및 권장 영역)에 표시됩니다. 사용자는 Office.com에서 .loop 파일에서 콘텐츠를 검색하고 OneDrive. .loop 파일은 이전 버전으로 복원할 수 OneDrive. 루프 구성 요소를 만들하려면 채팅 참가자에게 계정이 OneDrive 있어야 합니다. 유효한 OneDrive 계정이 없는 경우 채팅 참가자는 여전히 유효한 계정이 있는 다른 사용자가 만든 구성 요소에서 공동 작업할 OneDrive 수 있지만 자체 계정을 만들 수 없습니다. 
 
-.fluid 파일을 OneDrive 사이트로 SharePoint 경우 라이브 구성 요소가 채팅에서 로드되지 Teams 됩니다.
+.loop 파일을 OneDrive 사이트로 SharePoint 경우 라이브 구성 요소가 채팅에서 로드되지 Teams 됩니다.
 
 ## <a name="what-happens-if-the-owner-of-the-file-leaves-the-company"></a>파일의 소유자가 회사를 떠날 경우 어떻게 하나요?
 
-OneDrive 보존 정책은 사용자가 만든 다른 콘텐츠와 같은 .fluid 파일에 적용됩니다.
+OneDrive 보존 정책은 사용자가 만든 다른 콘텐츠와 같은 .loop 파일에 적용됩니다.
 
-## <a name="how-are-fluid-files-shared"></a>.fluid 파일은 어떻게 공유하나요?
+## <a name="how-are-loop-files-shared"></a>.loop 파일은 어떻게 공유하나요?
 
 루프 구성 요소는 채팅에 삽입하거나 Teams 채팅에서 다른 채팅으로 복사할 수 있습니다. (루프 구성 요소는 채널에서 아직 지원되지 않습니다.) 조직의 기존 사용 권한은 기본적으로 제공되지만 사용자는 보내기 전에 권한을 변경하여 모든 사용자가 액세스할 수 있도록 할 수 있습니다.
 
-Teams 채팅에서 구성 요소를 열면 Office 문서에 대해 제공되는 공유 옵션과 마찬가지로 창 맨 위에 공유 기능을 Office 있습니다.
+Teams 채팅에서 구성 요소를 열면 Office 문서에 대해 제공되는 공유 옵션과 마찬가지로 창 맨 위에 공유 기능이 Office 있습니다.
 
-## <a name="what-if-a-fluid-file-becomes-corrupted-or-damaged"></a>.fluid 파일이 손상되거나 손상된 경우 어떻게 하나요?
+## <a name="what-if-a-loop-file-becomes-corrupted-or-damaged"></a>.loop 파일이 손상되거나 손상된 경우 어떻게 하나요?
 
 버전 기록을 사용하면 이전 버전의 파일을 검토하고 복사할 수 있습니다.
 
-## <a name="what-apps-can-open-and-edit-fluid-files"></a>.fluid 파일을 열고 편집할 수 있는 앱은 무엇입니까?
+## <a name="what-apps-can-open-and-edit-loop-files"></a>.loop 파일을 열고 편집할 수 있는 앱은 무엇입니까?
 
-.fluid 파일은 브라우저의 링크(예: Office.com)로만 열 수 있으며, 채팅의 루프 구성 요소로 Teams 수 있습니다. 다운로드한 경우 먼저 다시 OneDrive 다시 열 수 SharePoint.
+.loop 파일은 브라우저의 링크(예: Office.com)로만 열 수 있으며, 채팅의 루프 구성 요소로 Teams 수 있습니다. 다운로드한 경우 먼저 다시 OneDrive 다시 열 수 SharePoint.
 
 ## <a name="known-issues"></a>알려진 문제
 
-- Android에서 앱을 사용할 때 채팅의 루프 구성 요소를 Office 앱 편집할 Teams 수 없습니다.
+- Android에서 앱을 사용할 때 채팅의 루프 구성 요소를 Office 앱 통해 편집할 Teams 수 없습니다.
 - 테넌트 기본 파일 사용 권한을 특정 사용자(사용자가 지정한 사용자만)로 설정하고 보낸 사람이 구성 요소를 만들 때 사용 권한 대화 상자의 특정 사용자  목록에서 일부 사용자를 제거하는 경우 해당 사용자는 여전히 콘텐츠에 액세스할 수 있습니다.
 - 테넌트 기본 파일 사용 권한이 특정 사용자  (사용자가 지정한 사용자만)로 설정되어 있는 경우 라이브 구성 요소에 대한 링크를 복사하고 다른 채팅에 붙여넣기하려면 보낸 사람이 사용 권한 대화 상자를 사용하고 받는 사람을 추가하여 액세스 권한을 올바르게 부여할 수 있습니다.
 - 테넌트 기본 파일 사용 권한이 특정 사용자  (사용자가 지정한 사용자만)로 설정되어 있는 경우 20명 이상의 구성원이 있는 그룹 채팅에서 라이브 구성 요소를 만들면 보낸 사람이 구성 요소에 대한 사용 권한 옵션을 수동으로 선택해야 합니다.
-- 검색에서 루프 Teams 검색하면 채팅 메시지 자체가 아니라 office.com 구성 요소에 대한 링크를 반환합니다.
+- 검색에서 루프 Teams 검색하면 채팅 메시지 자체가 아니라 office.com 구성 요소에 대한 링크가 반환됩니다.
 - 페더리된 채팅에서 루프 구성 요소를 사용하지 않도록 설정됩니다.
 - B2B 게스트는 회사 공유 링크를 통해 공유되는 라이브 구성 요소에서 공동 작업할 수 없습니다. 현재 이 채팅에  있는 사용자에 대한 권한을 설정하여 B2B 게스트와 구성 요소를 공유합니다.
 - 루프 구성 요소는 채널에서 지원되지 Teams 없습니다.

@@ -19,12 +19,12 @@ description: Teams 모임 및 그룹 통화를 녹음하여 오디오, 비디오
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a067488736a1392ac34259ba77518c299c46d203
-ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
+ms.openlocfilehash: 7136ea224b23e29e7b4e669fbe3d364b787193fd
+ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62224015"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63043356"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -181,7 +181,23 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |대부분의 사용자에게 기록을 사용하지 않도록 설정하고 선택적으로 특정 사용자에게 기록을 사용하도록 설정하려고 합니다. |<ol><li>Global CsTeamsMeetingPolicy에 AllowCloudRecording = False인지 확인합니다. <li>대부분의 사용자에게 Global CsTeamsMeetingPolicy 또는 AllowCloudRecording = False인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다. <li>다른 모든 사용자에게 AllowCloudRecording = True인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다. </ol>|
 
 ### <a name="terms-of-use-acceptance"></a>사용 약관 동의
-조직에서 모임을 녹음/녹화하기 전에 사용자가 동의하도록 하는 모임 녹음/녹화 정책이 있는 경우, [Azure Active Directory 사용 약관](/azure/active-directory/conditional-access/terms-of-use) 기능을 사용하세요. 이 기능을 사용하면 Microsoft Teams에 액세스하기 전에 조직의 사용자 정책에 동의할 수 있습니다. 이 기능은 녹음/녹화 단추를 클릭하는 것과 관련이 없지만 Teams나 기타 Microsoft 365 앱을 전체적으로 사용하는 것과 관련이 있습니다. Teams나 Microsoft 365 사용에 대한 전반적인 이용 약관에 회의 기록 정보를 추가하는 것이 좋습니다. 
+조직에서 모임을 녹음/녹화하기 전에 사용자가 동의하도록 하는 모임 녹음/녹화 정책이 있는 경우, [Azure Active Directory 사용 약관](/azure/active-directory/conditional-access/terms-of-use) 기능을 사용하세요. 이 기능을 사용하면 Microsoft Teams에 액세스하기 전에 조직의 사용자 정책에 동의할 수 있습니다. 이 기능은 녹음/녹화 단추를 클릭하는 것과 관련이 없지만 Teams나 기타 Microsoft 365 앱을 전체적으로 사용하는 것과 관련이 있습니다. Teams나 Microsoft 365 사용에 대한 전반적인 이용 약관에 회의 기록 정보를 추가하는 것이 좋습니다.
+
+### <a name="set-a-custom-privacy-policy-url"></a>사용자 지정 개인 정보 보호 정책 URL 설정
+
+관리자는 조직에 대한 사용자 지정 링크를 사용하여 Teams 녹음 및 전사 개인 정보 보호 정책 URL을 업데이트할 수 있습니다. 다음 단계에 따라 [Azure AD 관리 센터](https://aad.portal.azure.com)에서 이 작업을 수행할 수 있습니다.
+
+1. Azure AD 관리 센터에 로그인합니다.
+1. **Azure Active Directory** > **속성** 으로 이동합니다.
+1. 개인 정보 취급 방침 링크로 **개인정보처리방침 URL** 필드를 업데이트합니다.
+
+> [!NOTE]
+> 조직에 대해 이 필드를 이미 업데이트한 경우 변경할 필요가 없습니다.
+
+개인 정보 취급 방침 URL을 추가하면 기본 Teams 모임 녹음/녹화 및 전사 개인정보처리방침이 조직에서 제공한 새 URL로 바뀝니다.
+
+> [!NOTE]
+> 조직에서 호스팅하는 Teams 모임에 참가하는 익명, 게스트 및 페더레이션 사용자에게는 여전히 기본 Teams 모임 녹음/녹화 및 전사 개인 정보 보호 정책이 적용됩니다.
 
 ## <a name="permissions-and-storage"></a>사용 권한 및 저장소
 
