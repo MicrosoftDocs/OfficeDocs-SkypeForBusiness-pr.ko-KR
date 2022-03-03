@@ -17,12 +17,12 @@ metadata:
   - M365-voice
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 1570c7e7a92a2a3914d01733fed3691d61282e16
-  ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+  ms.openlocfilehash: 976b0303dfe17ad9f51f37e574e141beea59741f
+  ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 11/08/2021
-  ms.locfileid: "60834806"
+  ms.lasthandoff: 03/02/2022
+  ms.locfileid: "63050884"
 items:
 - durationInMinutes: 1
   content: >
@@ -62,7 +62,7 @@ items:
     - 이 자습서의 ‘다음 단계’ 페이지 하단에 있는 댓글 섹션에 게시합니다.</a>
 
 
-    새 기능에 대한 아이디어와 같은 Teams에 대한 제품 피드백을 제공하려면 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)를 방문하세요.
+    새 기능에 대한 아이디어와 같은 Teams 제품 피드백을 제공 Teams [피드백 포털을 방문해 주세요](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 - title: Teams에서 통화하기는 무엇인가요?
   durationInMinutes: 15
   content: >
@@ -247,4 +247,4 @@ items:
   content: "\n이제 환경에서 전화 시스템을 제대로 계획하고 구현했으므로 이 시스템이 사용되며 탁월한 사용자 환경을 제공하는 것을 확인해야 합니다. 완전한 세부 정보는 이 교육의 범위를 넘어가지만, 가장 중요한 참여 영역을 강조하고 싶습니다.\n\n-   도입 및 변화 관리 사용자는 서비스가 제공되면 간단히 서비스를 사용하기 시작할 수 있습니다. 아니면 그렇지 않을 수도 있습니다. 따라서 올바른 도입 및 변화 관리를 실행하는 것이 중요합니다.\n\n-   사용 모니터링 및 촉진 Teams가 전화 클라이언트로 수용되는 정도를 측정하는 데 도움이 되도록 KSI 중 하나를 활성 사용자 수로 하는 것이 좋습니다.\n\n-   품질 모니터링 및 촉진\n\n사용자의 만족도는 전화의 품질과 직접적인 관련이 있습니다. 따라서 통화 품질을 모니터링하고 필요한 경우 이를 개선하는 것이 중요합니다. 통화 품질을 보고하는 방법을 알아보려면 통화 품질 대시보드 교육을 참조하세요. 이러한 비디오는 비즈니스용 Skype에 맞게 구축되었지만 Teams에도 적용됩니다. <https://aka.ms/sof-cqd>\n"
 - title: 다음 단계
   durationInMinutes: 1
-  content: "\n이 교육에서는 다음과 같은 주요 학습 내용을 다룹니다.\n-   Teams에서 통화하기는 무엇인가요?\n\n-   Teams에서 통화를 계획하는 방법\n\n-   Teams에서 통화를 구성하는 방법\n\n자세한 내용은 다음을 참조하세요.\n\n-   [통화 플랜을 사용하는 전화 시스템](calling-plan-landing-page.md)\n\n-   [빠른 시작 가이드: Microsoft Teams의 통화 플랜 구성](./configuring-teams-calling-quickstartguide.md)\n\n다음 단계\n\n1.  Teams용 전화 시스템 배포 시작\n2.  의견 보내기:\n    - 이 페이지 하단의 메모 섹션에 게시합니다.\n    - Teams에 대한 피드백 또는 새 기능에 대한 아이디어를 제공하려면 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)를 방문하세요.\n3.  최신 상태로 유지:\n    - [Teams 블로그](https://aka.ms/teamsblog)를 팔로우하세요.\n    - [Teams 로드맵](https://aka.ms/O365Roadmap)읽어 보세요.\n    - [릴리스 정보](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)에서 최근 릴리스된 기능에 대해 자세히 알아보세요.\n4.  [추가 교육 및 자습서](/OfficeDocs-SkypeForBusiness-pr/blob/master/Teams/ITAdmin-readiness#technical-training)를 살펴보세요."
+  content: "\n이 교육에서는 다음과 같은 주요 학습 내용을 다룹니다.\n-   Teams에서 통화하기는 무엇인가요?\n\n-   Teams에서 통화를 계획하는 방법\n\n-   Teams에서 통화를 구성하는 방법\n\n자세한 내용은 다음을 참조하세요.\n\n-   [통화 플랜을 사용하는 전화 시스템](calling-plan-landing-page.md)\n\n-   [빠른 시작 가이드: Microsoft Teams의 통화 플랜 구성](./configuring-teams-calling-quickstartguide.md)\n\n다음 단계\n\n1.  Teams용 전화 시스템 배포 시작\n2.  의견 보내기:\n    - 이 페이지 하단의 메모 섹션에 게시합니다.\n    - 새로운 기능에 대한 의견을 Teams 의견을 보내거나 아이디어를 공유하기 위해 피드백 포털을 Teams [를 방문해 주세요](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).\n3.  최신 상태로 유지:\n    - [Teams 블로그](https://aka.ms/teamsblog)를 팔로우하세요.\n    - [Teams 로드맵](https://aka.ms/O365Roadmap)읽어 보세요.\n    - [릴리스 정보](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)에서 최근 릴리스된 기능에 대해 자세히 알아보세요.\n4.  [추가 교육 및 자습서](/OfficeDocs-SkypeForBusiness-pr/blob/master/Teams/ITAdmin-readiness#technical-training)를 살펴보세요."

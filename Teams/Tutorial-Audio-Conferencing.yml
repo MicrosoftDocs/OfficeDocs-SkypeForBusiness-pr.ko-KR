@@ -22,16 +22,16 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 915cfdc59752821226208ddad2487ce2d6032f60
-  ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
+  ms.openlocfilehash: 667f6964cf5a41992656a59b027e7db93bd9df41
+  ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 02/03/2022
-  ms.locfileid: "62353393"
+  ms.lasthandoff: 03/02/2022
+  ms.locfileid: "63050894"
 items:
 - durationInMinutes: 1
   content: >
-    이 교육에서는 일반 Microsoft Teams 모임에 참가하고 모임에서 전화 Teams 전화로 전화를 걸 수 있는 기능을 Microsoft Teams 오디오 회의를 소개합니다. 오디오 회의에 대한 요구 사항 및 계획 고려 사항 외에도 Teams 오디오 회의의 기능을 Teams.
+    이 교육에서는 일반 Microsoft Teams 모임에 참가하고 모임에서 전화 Teams 전화로 전화를 걸 수 있는 오디오 회의를 소개합니다. 오디오 회의에 대한 요구 사항 및 Teams 고려 사항 외에도 오디오 회의의 기능을 Teams.
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
@@ -55,7 +55,7 @@ items:
     -   보고
 
 
-    오디오 회의는 회의의 모임에 기능과 기능을 Teams. 이 자습서 전에 [Microsoft Teams 모임을](./tutorial-meetings-in-teams.yml) 완료하는 것이 좋습니다.
+    오디오 회의는 회의의 모임에 기능과 Teams. 이 자습서 [전에 모임을](./tutorial-meetings-in-teams.yml) Microsoft Teams 것이 좋습니다.
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
@@ -67,16 +67,16 @@ items:
     -   이 자습서의 "다음 단계" 페이지의 아래쪽에 있는 설명 섹션에 게시
 
 
-    새 기능에 대한 아이디어와 같은 Teams에 대한 제품 피드백을 제공하려면 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)를 방문하세요.
+    새 기능에 대한 아이디어와 같은 Teams 제품 피드백을 제공 Teams [피드백 포털을 방문해 주세요](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 - title: 오디오 회의에서 Teams
   durationInMinutes: 12
-  content: "\n오디오 회의를 사용하여 참가자는 일반 전화를 사용하여 전화로 모임에 Teams 또는 모임 내에서 전화 접속 기능을 사용하여 모임에 참가할 수 있습니다. 오디오 회의에 대한 자세한 내용은 다음 리소스를 검토합니다.\n-   [오디오 회의](https://products.office.com/skype-for-business/audio-conferencing#Features) 기능(예상 읽기 시간 1분)\n-   [모임에 대한 9](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)개 Microsoft Teams (\"\\#1 - 오디오 회의를 통해 모임 참가\"에 대한 예상 읽기 시간은 1분입니다. 전체 문서를 읽는 경우 더 많은 정보)\n-   [오디오 회의 일반적인 질문](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (예상 읽기 시간 7분)\n-   [다른 사람이 모임에](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) 참가할 수 있도록 모임에서 전화 접속(예상 읽기 시간 2분)\n"
+  content: "\n오디오 회의를 사용하여 참가자는 일반 전화를 사용하여 전화로 모임에 Teams 전화 접속 또는 모임 내에서 전화 접속 기능을 사용하여 모임 모임에 참가합니다. 오디오 회의에 대한 자세한 내용은 다음 리소스를 검토합니다.\n-   [오디오 회의](https://products.office.com/skype-for-business/audio-conferencing#Features) 기능(예상 읽기 시간 1분)\n-   [모임을 위한 9](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)개 Microsoft Teams (\"\\#1 - 오디오 회의를 통해 모임 참가\"에 대한 예상 읽기 시간은 1분입니다. 전체 문서를 읽는 경우 더 많은 정보)\n-   [오디오 회의 일반적인 질문](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (예상 읽기 시간 7분)\n-   [다른 사람이 모임에](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) 참가할 수 있도록 모임에서 전화 접속(예상 읽기 시간 2분)\n"
 - title: 시나리오 – 오디오 회의
   durationInMinutes: 1
-  content: "\nGarth는 여러 사무실이 있는 회사인 Contoso에서 작동합니다. Garth는 다른 사무실에 있는 사람들과 연결해야 하는 경우가 잦고, 집에서 일하거나 외출하는 경우가 잦기 때문에 많은 모임을 Teams 있습니다. Garth가 모임 초대를 보내면 오디오 회의에 대한 정보가 자동으로 추가됩니다. 이렇게 하면 다음 시나리오가 가능합니다.\n-   Alice는 Garth의 모임에 참석하기를 원하지만 현재 도로에 있으며 신뢰할 수 있는 네트워크에 액세스할 수 없습니다. 따라서 모임 초대에서 전화 접속 좌표를 사용하여 모임에 참가합니다. 전화 접속 프로세스 중에는 PIN을 사용하여 인증을 하여 시스템에서 \"Alice\"로 인식됩니다.\n-   현재 호텔에 있는 Bob은 PC에서 Teams 모임에 참가합니다. 안타깝게도 호텔의 인터넷 연결을 통한 오디오 품질은 그리 밝지 않습니다. 따라서 Bob은 모임에서 자신의 전화 번호로 전화를 걸고 공용 PSTN(전화 네트워크)을 통해 참가합니다.\n-   모임 참가자가 통화 중에 다른 전화 번호로 사용자를 추가하려는 경우 전화 번호로 전화를 걸고 모임에 추가 사용자를 가져올 수 있습니다.\n-   다른 사용자는 PC, Mac 또는 모바일 Teams 클라이언트에서 참가할 수도 있습니다.\n\nTeams에서 모임 조직자는 모든 모임 참여자에 대한 모임을 종료할 수 있습니다. 이 기능은 다음과 같은 시나리오에서 유용합니다.\n\n-   교육자들은 학생들이 수업이 끝난 후 관리감독 없이 남겨지지 않도록 확인할 수 있습니다.\n-   웹 세미나처럼 녹음/녹화 중인 모임의 경우, 모임 주최자는 모임이 종료될 때 녹음/녹화가 종료되도록 할 수 있습니다.\n-   모든 참가자에 대한 모임을 종료하면 조직의 PSTN 사용량 및 청구를 줄일 수 있습니다. \n\n예를 들어, 미팅이 완료되면 Garth는 팀 내 모임에서 **모임 종료** 를 눌러 모임을 종료하고 모든 참가자를 모임에서 제거할 수 있습니다.\n"
+  content: "\nGarth는 여러 사무실이 있는 회사인 Contoso에서 작동합니다. Garth는 다른 사무실의 다른 사람과 연결해야 하는 경우가 잦고, 집에서 일하거나 외출하는 경우가 잦기 때문에 많은 모임을 Teams 있습니다. Garth가 모임 초대를 보내면 오디오 회의에 대한 정보가 자동으로 추가됩니다. 이렇게 하면 다음 시나리오가 가능합니다.\n-   Alice는 Garth의 모임에 참석하기를 원하지만 현재 도로에 있으며 신뢰할 수 있는 네트워크에 액세스할 수 없습니다. 따라서 모임 초대에서 전화 접속 좌표를 사용하여 모임에 참가합니다. 전화 접속 프로세스 중에는 PIN을 사용하여 인증을 하여 시스템에서 \"Alice\"로 인식됩니다.\n-   현재 호텔에 있는 Bob은 PC에서 Teams 사용하여 모임에 참가합니다. 안타깝게도 호텔의 인터넷 연결을 통한 오디오 품질은 그리 밝지 않습니다. 따라서 Bob은 모임에서 자신의 전화 번호로 전화를 걸고 공용 PSTN(전화 네트워크)을 통해 참가합니다.\n-   모임 참가자가 통화 중에 다른 전화 번호로 사용자를 추가하려는 경우 전화 번호로 전화를 걸고 모임에 추가 사용자를 가져올 수 있습니다.\n-   다른 사용자는 PC, Mac 또는 모바일 Teams 클라이언트에서 참가할 수도 있습니다.\n\nTeams에서 모임 조직자는 모든 모임 참여자에 대한 모임을 종료할 수 있습니다. 이 기능은 다음과 같은 시나리오에서 유용합니다.\n\n-   교육자들은 학생들이 수업이 끝난 후 관리감독 없이 남겨지지 않도록 확인할 수 있습니다.\n-   웹 세미나처럼 녹음/녹화 중인 모임의 경우, 모임 주최자는 모임이 종료될 때 녹음/녹화가 종료되도록 할 수 있습니다.\n-   모든 참가자에 대한 모임을 종료하면 조직의 PSTN 사용량 및 청구를 줄일 수 있습니다. \n\n예를 들어, 미팅이 완료되면 Garth는 팀 내 모임에서 **모임 종료** 를 눌러 모임을 종료하고 모든 참가자를 모임에서 제거할 수 있습니다.\n"
 - title: 고객에 비즈니스용 Skype 고려 사항
   durationInMinutes: 1
-  content: "\n이미 비즈니스용 Skype 경우 다음을 고려해야 합니다.\n\n### <a name=\"skype-for-business-serverhomed-users\"></a>비즈니스용 Skype 서버 사용자\n\n비즈니스용 Skype 서버 Teams 사용자가 예약한 비즈니스용 Skype 모임에는 PSTN 모임 좌표가 포함되어 있지 않습니다. 2019년 3월 1일 이전에 이러한 사용자에게 오디오 회의 라이선스를 할당한 경우 이러한 라이선스의 할당을 해지하고 2시간 기다린 다음 사용자가 PSTN 모임 좌표를 볼 수 있도록 할당해야 할 수 있습니다.\n\n### <a name=\"skype-for-business-onlinehomed-users\"></a>비즈니스용 Skype 홈 사용자\n\n사용자가 온라인에 비즈니스용 Skype 오디오 회의에 이미 사용하도록 설정되어 있는 경우 해당 사용자가 자동으로 오디오 회의에 사용하도록 Teams. 전화 접속 시 모임에서 인증하는 데 사용하는 PIN은 비즈니스용 Skype 및 Teams.\n"
+  content: "\n이미 비즈니스용 Skype 경우 다음을 고려해야 합니다.\n\n### <a name=\"skype-for-business-serverhomed-users\"></a>비즈니스용 Skype 서버 사용자\n\n비즈니스용 Skype 서버 Teams 가정하는 사용자가 예약한 비즈니스용 Skype 모임에는 PSTN 모임 좌표가 포함되어 있지 않습니다. 2019년 3월 1일 이전에 이러한 사용자에게 오디오 회의 라이선스를 할당한 경우 이러한 라이선스의 할당을 해지하고 2시간 기다린 다음 사용자가 PSTN 모임 좌표를 볼 수 있도록 할당해야 할 수 있습니다.\n\n### <a name=\"skype-for-business-onlinehomed-users\"></a>비즈니스용 Skype 홈 사용자\n\n사용자가 온라인에 비즈니스용 Skype 오디오 회의에 이미 사용하도록 설정되어 있는 경우 해당 사용자가 자동으로 오디오 회의에 사용하도록 Teams. 전화 접속 시 모임에서 인증하는 데 사용하는 PIN은 비즈니스용 Skype Teams.\n"
 - title: Envision Audio Conferencing
   durationInMinutes: 48
   content: "\n실용적인 지침에서는 오디오 회의를 계획하고 성공적으로 구현하는 데 필요한 사항을 자세히 다를 수 있습니다. 다음 문서를 검토하여 이러한 기술 계획 단계를 이해합니다.\n\n-   [내 성공 정의 - 오디오](https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice) 회의(예상 읽기 시간 11분)\n-   [내 서비스 의사 결정 - 오디오](./deploy-audio-conferencing-teams-landing-page.md) 회의(예상 읽기 시간 12분)\n-   [내 환경 평가](./3-envision-evaluate-my-environment.md) (예상 읽기 시간 12분)\n-   [내 서비스 관리 계획](./4-envision-plan-my-service-management.md) (예상 읽기 시간 5분)\n-   [사용자 환경 계획(](./5-envision-plan-my-users-experience.md) 예상 읽기 시간 5분)\n-   [성공 계획 문서화](./6-envision-document-my-success-plan.md) (예상 읽기 시간 6분)\n"
@@ -108,7 +108,7 @@ items:
 
     2.  의견 보내기:
         - 이 페이지 하단의 메모 섹션에 게시합니다.
-        - Teams 제품에 대한 피드백을 제공하거나 새로운 기능을 요청하려면 [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)로 이동하세요.
+        - 제품 Teams 피드백을 제공하거나 새 기능을 요청하기 위해 피드백 포털로 [Teams 합니다](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
     3.  최신 상태로 유지:
         - [Teams 블로그](https://aka.ms/teamsblog)를 팔로우하세요.
         - [Teams 로드맵](https://aka.ms/O365Roadmap)읽어 보세요.
