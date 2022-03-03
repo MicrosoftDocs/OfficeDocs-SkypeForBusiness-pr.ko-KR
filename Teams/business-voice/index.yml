@@ -1,9 +1,9 @@
 ### YamlMime:Hub
-title: Microsoft 365 Teams 전화 번들 설명서를 참조하세요.
-summary: '조직에서 호출 계획 번들과 함께 Microsoft 365 Teams 전화 계획, 설정 및 사용하는 방법에 대해 자세히 알아보습니다. 호출 Teams 전화 번들을 사용하면 중소 조직에서 사 내 솔루션의 비용 및 복잡성 없이 강력하고 유연한 전화 시스템을 쉽게 설정할 수 있습니다.'
+title: Microsoft 365 Teams 전화 시스템 설명서를 참조하세요.
+summary: '조직에서 호출 계획에서 Microsoft Teams 전화 시스템 계획, 설정 및 사용하는 방법에 대해 자세히 알아보습니다. Teams 전화 시스템 플랜을 사용하면 중소 조직에서 사 내 솔루션의 비용 및 복잡성 없이 강력하고 유연한 전화 시스템을 쉽게 설정할 수 있습니다.'
 metadata:
-  title: Microsoft 365 Teams 전화 번들 설명서를 참조하세요.
-  description: '호출 계획 번들과 함께 Microsoft 365 Teams 전화 계획, 배포 및 사용하는 방법에 대해 자세히 알아보습니다.'
+  title: Microsoft Teams 전화 시스템 설명서를 참조하세요.
+  description: '통화 계획에서 계획을 세우고, 배포하고, Microsoft Teams 전화 시스템 방법을 배워야 합니다.'
   ms.topic: hub-page
   author: dstrome
   ms.author: dstrome
@@ -14,22 +14,22 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-blue.svg'
       links:
         - url: whats-business-voice.md
-          text: Teams 전화 중소기업에 대한 통화 계획 지침과 함께 제공됩니다.
-        - url: 'https://www.microsoft.com/microsoft-365/business-voice'
-          text: Microsoft 365 Teams 전화 번들로 추가
+          text: Teams 전화 시스템 중소기업에 대한 통화 계획 지침과 함께 제공됩니다.
+        - url: 'https://www.microsoft.com/microsoft-teams/microsoft-teams-phone'
+          text: Microsoft Teams 전화
         - url: /office365/servicedescriptions/teams-service-description
           text: Teams 서비스 설명
     - title: 설정
       imageSrc: 'https://docs.microsoft.com/office/media/icons/deploy-blue.svg'
       links:
-        - url: ./whats-business-voice.md#what-do-i-need-to-buy-to-get-voice-capabilities-for-my-small-or-medium-business
-          text: 통화 계획 번들로 Teams 전화 방법
+        - url: ./whats-business-voice.md#purchase-teams-phone-with-calling-plan-bundle-licenses
+          text: 통화 계획을 Teams 전화 시스템 방법
         - url: get-ready-internet.md
           text: 인터넷 연결 확인
         - url: prepare-users.md
           text: 사용자 준비시키기
         - url: set-up-overview.md
-          text: 통화 Teams 전화 설정
+          text: 통화 Teams 전화 시스템 설정
     - title: 설정을 사용자 지정
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-blue.svg'
       links:
@@ -58,7 +58,7 @@ productDirectory:
         - url: /partner-center/
           text: Partner 센터에서 Microsoft 365 Business 받기
         - url: 'https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook'
-          text: Microsoft 365 Teams 전화 번들 파트너 플레이북과 함께 사용할 수 있습니다.
+          text: Microsoft 365 Teams 전화 시스템 파트너 플레이북을 호출하는 경우
     - title: 도움이 필요하신가요?
       imageSrc: 'https://docs.microsoft.com/office/media/icons/users-people.svg'
       links:
