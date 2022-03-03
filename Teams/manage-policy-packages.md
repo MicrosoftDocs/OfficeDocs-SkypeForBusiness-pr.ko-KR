@@ -20,12 +20,12 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 사용자 그룹에 대한 정책을 관리할 때 Microsoft Teams 간소화하고, 간소화하고, 일관성을 제공하는 데 도움이 되는 정책 패키지를 사용하여 관리하는 방법에 대해 알아보고,
-ms.openlocfilehash: f90febffb5385a3b91859d63db1b4b320e0a94a7
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.openlocfilehash: 173d5d1488196ea048a64ce12916f8115362c572
+ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62425305"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "63055308"
 ---
 # <a name="manage-policy-packages-for-microsoft-teams"></a>정책 패키지 관리 Microsoft Teams
 
@@ -35,16 +35,16 @@ Microsoft Teams의 정책 패키지는 조직에서 유사한 역할을 가진 �
 
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="관리 센터의 정책 패키지 페이지의 스크린샷입니다.":::
 
-사용자의 요구에 맞게 정책 패키지에서 정책 설정을 사용자 지정할 수 있습니다. 패키지의 정책 설정을 변경하면 해당 패키지에 할당된 모든 사용자가 업데이트된 설정을 얻습니다. 관리 센터 또는 PowerShell을 Microsoft Teams 정책 패키지를 관리합니다.
+사용자의 요구에 맞게 정책 패키지에서 정책 설정을 사용자 지정할 수 있습니다. 패키지의 정책 설정을 변경하면 해당 패키지에 할당된 모든 사용자가 업데이트된 설정을 얻습니다. 관리 센터 또는 PowerShell을 사용하여 Microsoft Teams 패키지를 관리합니다.
 
 > [!NOTE]
 > 이 기능은 모든 고객에 대해 공개 미리 보기에서 Microsoft Teams 있습니다. 미리 보기 후 이 기능을 사용하려면 각 사용자에게 고급 통신 추가 기능 라이선스가 필요합니다. 자세한 내용은 [Microsoft Teams를 위한 고급 통신 추가 기능](/microsoftteams/teams-add-on-licensing/advanced-communications)을 참조하세요.
 
 ## <a name="what-is-a-policy-package"></a>정책 패키지란?
 
-정책 패키지를 사용하면 조직의 특정 Teams 허용하거나 제한하려는 기능을 제어할 수 있습니다. 각 정책 패키지는 Teams 사용자 역할을 중심으로 설계되어 있으며 해당 역할에 대한 일반적인 공동 작업 및 통신 활동을 지원하는 미리 정의된 정책 및 정책 설정을 포함합니다.
+정책 패키지를 사용하면 조직 Teams 특정 사용자 집합을 허용하거나 제한하려는 기능을 제어할 수 있습니다. 각 정책 패키지는 Teams 사용자 역할을 중심으로 설계되어 있으며 해당 역할에 대한 일반적인 공동 작업 및 통신 활동을 지원하는 미리 정의된 정책 및 정책 설정을 포함합니다.
 
-정책 패키지는 다음과 같은 Teams 지원합니다.
+정책 패키지는 다음과 같은 Teams 형식을 지원합니다.
 
 - 메시징 정책
 - 모임 정책
@@ -69,12 +69,12 @@ Teams 현재 다음과 같은 정책 패키지가 포함되어 있습니다.
 |의료 임상 연구원  |등록된 간호사, 유료 간호사, 의사 및 사회복지사와 같은 의료진에게 채팅, 통화, 이동 관리 및 회의에 대한 완전한 액세스를 제공하는 정책 및 정책 설정을 만듭니다. |
 |의료 정보 직원  |IT 직원, 정보 전문가, 재무 담당자 및 규정 준수 담당자와 같은 정보 직원에게 채팅, 통화 및 모임에 대한 전체 액세스 권한을 부여하는 정책 및 정책 설정 집합을 만듭니다.|
 |의료 환자실  |의료 조직의 환자실에 적용되는 정책 및 정책 설정 집합을 만듭니다.|
-|중소기업 사용자(Teams 전화 요금제 사용) |통화 계획 환경을 사용하여 앱에 대한 앱을 Teams 전화 설정 정책을 만듭니다.|
-|중소기업 사용자(전화 Teams 전화 사용 안 하여) |중소기업 사용자와 관련된 앱 설정 정책을 Teams(전화 Teams 전화 경험이 없는 경우).
+|중소기업 사용자(Teams 전화 시스템 플랜 번들 포함) |통화 계획 번들 환경을 사용하여 앱에 대한 앱을 Teams 전화 시스템 설정 정책을 만듭니다.|
+|중소기업 사용자(전화 Teams 전화 시스템 번들로 사용 안 하세요) |중소기업 사용자와 관련된 앱 설치 정책을 Teams(통화 계획 번들 환경이 Teams 전화 시스템 아닌 경우).
 |공공 안전 책임자   |조직의 공공 안전 책임자에 적용되는 정책 및 정책 설정 집합을 만듭니다.|
 
 > [!NOTE]
-> 향후 릴리스에서 더 많은 정책 패키지를 추가할 Teams, 최신 정보를 다시 확인하세요.  
+> 향후 릴리스에서 더 많은 정책 패키지를 Teams, 최신 정보를 다시 확인하세요.  
 
 각 개별 정책은 정책 패키지의 이름이 지정되며 정책 패키지에 연결된 정책을 쉽게 식별할 수 있습니다.
 예를 들어 학교의 교사에게 교육(교사) 정책 패키지를 할당하면 패키지의 각 정책에 대해 Education_Teacher 정책이 만들어집니다.
@@ -83,7 +83,7 @@ Teams 현재 다음과 같은 정책 패키지가 포함되어 있습니다.
 
 ## <a name="custom-policy-packages"></a>사용자 지정 정책 패키지
 
-사용자 지정 정책 패키지를 사용하면 조직에서 비슷한 역할을 하는 사용자에 대한 자체 정책 집합을 번들로 만들 수 있습니다. 필요한 정책 유형 및 정책을 추가하여 사용자만의 정책 패키지를 만들 수 있습니다.
+사용자 지정 정책 패키지를 사용하면 조직에서 비슷한 역할을 하는 사용자에 대한 자체 정책 집합을 번들할 수 있습니다. 필요한 정책 유형 및 정책을 추가하여 사용자만의 정책 패키지를 만들 수 있습니다.
 
 새 사용자 지정 정책 패키지를 만들 경우:
 
@@ -120,7 +120,7 @@ Teams 현재 다음과 같은 정책 패키지가 포함되어 있습니다.
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>정책 패키지에서 정책 설정 보기
 
-1. 관리 센터의 Microsoft Teams 탐색에서 정책 패키지를 선택한 다음, 패키지 이름의 왼쪽을 클릭하여 정책 패키지를 선택합니다.
+1. 관리 센터의 왼쪽 Microsoft Teams 정책 패키지를 선택한 다음, 패키지 이름의 왼쪽을 클릭하여 정책 패키지를 선택합니다.
 
 2. 볼 정책을 클릭합니다.
 
@@ -143,6 +143,6 @@ Teams 현재 다음과 같은 정책 패키지가 포함되어 있습니다.
 ## <a name="related-topics"></a>관련 항목
 
 - [정책 패키지 할당](assign-policy-packages.md)
-- [Teams 관리자에 대한 정책 패키지](policy-packages-edu.md)
+- [Teams EDU 관리자에 대한 정책 패키지](policy-packages-edu.md)
 - [의료용 Teams 정책 패키지](policy-packages-healthcare.md)
 - [Teams 정책 패키지](policy-packages-gov.md)
