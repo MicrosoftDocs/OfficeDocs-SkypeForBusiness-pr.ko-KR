@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 이 문서에서는 패널 디바이스를 사용하는 Teams 지침을 제공합니다.
-ms.openlocfilehash: bd1a7a865d6e07cec47838a518d19523afef5134
-ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
+ms.openlocfilehash: e39b54d290ac3c8d4809f9da011c2e28451c2ae7
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63050904"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062542"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>패널을 Microsoft Teams 방법
 
@@ -204,7 +204,7 @@ Teams 패널에서 관리자 자격 증명을 사용하여 로그인합니다.
 
 체크인 및 회의실 릴리스 설정을 통해 사용자는 모임 시작 시 예약한 Teams 패널에서 모임에 체크인할 수 있습니다. 사용자가 모임 시작 시간 이후에 정해진 시간 내에 체크인하지 않는 경우 회의실이 릴리스되어 다른 사용자가 예약할 수 있습니다.
 
-Teams 패널이 Android의 Microsoft Teams 회의실과 페어링되면 모임이 늦게 실행될 때 프런트0of-room 디스플레이에 체크인 알림을 표시할 수 있습니다.
+Teams 패널이 Android의 Microsoft Teams 회의실과 페어링되는 경우 모임이 늦게 실행될 때 회의실 전면 디스플레이에 체크 인 알림을 표시할 수 있습니다.
 
 체크인 및 방 릴리스를 사용하도록 설정하려면 체크 인 및 방 릴리스를 Microsoft Teams [참조합니다](check-in-and-room-release.md).
 

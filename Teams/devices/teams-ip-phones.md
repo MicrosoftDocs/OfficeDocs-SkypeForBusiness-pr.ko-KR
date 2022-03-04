@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 생성하기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: 6ce43dca8c425b65fa1fa4cb1722d656d33b725c
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: 5f6c7701a3bf2979ef2c3541ec51f0f55d5e0a51
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63039916"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062582"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams Android 디바이스
 
@@ -112,6 +112,7 @@ ms.locfileid: "63039916"
 
 | 제품 릴리스 | 릴리스 날짜  | Microsoft Teams 앱 버전 | 회사 포털 버전 | 관리자 에이전트 버전 |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2022 업데이트 #1C  | 2022년 3월 3일  | `1449/1.0.94.2022022305` |`5.0.5304.0` | `322` |
 | 2022 업데이트 #1   | 2022년 2월 7일   | `1449/1.0.94.2022011305` |`5.0.5304.0` | `322` |
 | 2022 업데이트 #1B  | 2022년 2월 7일   | `1449/1.0.94.2022020202` |`5.0.5304.0` | `322` |
 | 2021 업데이트 #3B | 2021년 12월 6일   | `1449/1.0.94.2021112302 ` | `5.0.5304.0` | `298` |

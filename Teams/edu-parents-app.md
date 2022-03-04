@@ -17,18 +17,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af6433cb3e5ca0e1849322bdd128915e826e219b
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: 8d1b84fc78558fcbb1945cbc56b311b5e06234a5
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63040066"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062532"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>상위 연결 설정 교육용 Microsoft Teams
 
 학부모 연결은 교육용 Teams 채팅을 사용하여 수업 팀의 학생의 부모 및 보호자들과 안전하게 연결하고 Teams 수 있도록 하여 교사의 조직 전체에 걸쳐 확장됩니다. 모든 부모 및 보호자 데이터는 학교 데이터 동기화 사용하여 프로비전되므로 IT 직원이 원활하게 설정할 수 있습니다.
 
-부모와 보호자가 설정되어 있는 경우 학생의 교사와 채팅을 사용하여 채팅할 Teams 있습니다. 부모 및 보호자가 교육자에 연결되는 방법에 대한 지침은 커넥트 교사와의 [Teams.](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960)
+교육자 및 보호자가 설정된 후 채팅을 사용하여 서로 채팅할 Teams 있습니다. 
+
+부모 및 보호자가 교육자에 연결되는 방법에 대한 지침은 커넥트 교사와의 [Teams.](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960)
+
+부모 및 보호자와 통신하기 위해 교사를 설정하는 방법에 대한 지침은 보호자 및 보호[자와의 통신을 Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
 
 부모는 감독 채팅에서도 작동합니다. 부모 및 보호자는 모든 권한을 Teams 없습니다. 즉, 학생과의 대화를 시작하거나 채팅에서 전체 사용 권한 사용자(예: 교사)를 제거할 수 없습니다. 감독 채팅에 대한 자세한 내용은 감독 채팅에서 감독 채팅 [사용을 Microsoft Teams](supervise-chats-edu.md).
 
@@ -61,7 +65,7 @@ ms.locfileid: "63040066"
 > [!NOTE]
 >부모 및 보호자는 부모 기능의 외부 사용자로 분류됩니다. 즉, 전체 테넌트 권한은 없습니다. 채팅에서 공유되는 파일, 이미지 및 기타 콘텐츠뿐만 아니라 추가된 채팅 또는 채팅에만 액세스할 수 있습니다.
 >
->또한 외부 사용자는 조직의 사용자의 현재 상태(오프라인, 사용 가능, 사용 중 등)를 볼 수 있지만 PowerShell을 사용하여 사용자의 개인 정보를 보호할 수 있습니다. PowerShell에서 [Set-CsPrivacyConfiguration을 사용하여](/powershell/module/skype/set-csprivacyconfiguration?view=skype-ps) 을 설정합니다 ``EnablePrivacyMode=true``.
+>또한 외부 사용자는 조직의 사용자의 현재 상태(오프라인, 사용 가능, 사용 중 등)를 볼 수 있지만 PowerShell을 사용하여 사용자의 개인 정보를 보호할 수 있습니다. PowerShell에서 [Set-CsPrivacyConfiguration을 사용하여](/powershell/module/skype/set-csprivacyconfiguration) 을 설정합니다 ``EnablePrivacyMode=true``.
 >
 >부모와 보호자가 외부 사용자인 경우에도 채팅에 대한 기여를 검색할 수 있습니다. [eDiscovery Teams eDiscovery 조사 수행을 읽고 eDiscovery](ediscovery-investigation.md) 조사를 Microsoft Teams.
 
