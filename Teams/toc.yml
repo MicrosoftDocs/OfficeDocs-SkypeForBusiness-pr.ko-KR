@@ -1017,7 +1017,7 @@ items:
             href: voice-case-study-call-queues.md
       - name: 중소기업을 위한 지침
         items:
-          - name: 중소기업을 위한 전화 시스템 참고 자료
+          - name: 전화 시스템 지침
             href: business-voice/whats-business-voice.md
           - name: 국가 및 지역 가용성
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
@@ -1025,7 +1025,7 @@ items:
             href: business-voice/get-ready-internet.md
           - name: r리셀러 또는 파트너로부터 도움 받기
             href: business-voice/reseller-partner-support.md
-          - name: 중소기업의 전화 시스템 설정
+          - name: 전화 시스템 설정
             items:
               - name: 개요
                 href: business-voice/set-up-overview.md
@@ -1045,7 +1045,7 @@ items:
                 href: business-voice/port-phone-numbers.md
               - name: 설정 후 리소스
                 href: business-voice/set-up-finish.md
-          - name: 중소기업의 전화 시스템 설정 사용자 지정
+          - name: 전화 시스템 설정 사용자 지정
             items:
               - name: 사용자 지정 옵션
                 href: business-voice/customize-business-voice.md
@@ -1059,7 +1059,7 @@ items:
                 href: business-voice/create-a-phone-system-call-queue-smb.md
               - name: 자동 전화 교환 설정
                 href: business-voice/create-a-phone-system-auto-attendant-smb.md
-          - name: 중소기업의 전화 시스템 설정 관리
+          - name: 전화 시스템 설정 관리
             items:
               - name: 한 명 이상의 사용자를 생성합니다
                 href: business-voice/create-users.md
@@ -1309,6 +1309,10 @@ items:
                 href: rooms/security.md
               - name: 온라인 라이선싱
                 href: rooms/rooms-licensing.md
+              - name: 조건부 액세스 및 Intune 규정 준수에 대한 모범 사례
+                href: rooms/conditional-access-and-compliance-for-devices.md
+              - name: 지원되는 조건부 액세스 및 Intune 준수 정책
+                href: rooms/supported-ca-and-compliance-policies.md
               - name: Azure 모니터를 사용한 계획 관리
                 href: rooms/azure-monitor-plan.md
           - name: 배포
@@ -1413,6 +1417,8 @@ items:
                 href: devices/use-teams-panels.md
               - name: Teams 패널의 앱 지원
                 href: app-support-on-Teams-panels.md
+              - name: 체크 인 및 회의실 릴리스
+                href: devices/check-in-and-room-release.md
           - name: Teams 디스플레이에 Teams 휴대폰 업그레이드
             href: devices/upgrade-phones-to-displays.md
           - name: Intune을 사용하여 Teams 휴대폰 및 Teams 디스플레이 배포
@@ -1564,7 +1570,7 @@ items:
             href: edu-remote-low-bandwidth.md
           - name: 교육용 Teams 정책 마법사
             href: easy-policy-setup-edu.md
-          - name: 교육용 Microsoft Teams의 부모
+          - name: 교육용 Teams의 부모 연결
             href: edu-parents-app.md
           - name: 교육용 Teams의 커리어 코치 앱
             href: career-coach.md
