@@ -9,7 +9,7 @@
       items:
         - name: 비즈니스용 Skype IP 범위
           href: ../certification/devices-ip-phones.md
-        - name: Teams IP 휴대폰
+        - name: Teams Android 디바이스
           href: /microsoftteams/teams-ip-phones
         - name: USB 오디오 및 비디오 디바이스
           href: ../certification/devices-usb-devices.md

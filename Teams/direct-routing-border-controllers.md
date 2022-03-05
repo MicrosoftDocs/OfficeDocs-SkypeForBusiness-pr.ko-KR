@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅에 대해 인증된 SBA(Session Border Controller)에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3805a87171a770298e41337dfdd569c1b7d76985
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: 1c005d97a0d0d570cb362d6c82853e3a3f8e3116
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63039996"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062502"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>직접 라우팅에 대한 인증된 SBC(Session Border Controller)
 
@@ -144,6 +144,7 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 |        | AP 6300 | 8.4.0.0.0 |
 |        | AP 6350 | 8.4.0.0.0 | 
 |        | VME     | 8.4.0.0.0 |
+| [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    ASBCE(기업용 Avaya Session Border Controller)    |  10.1.2 | 
 
 
 

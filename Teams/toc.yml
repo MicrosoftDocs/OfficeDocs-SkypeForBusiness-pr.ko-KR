@@ -1389,6 +1389,8 @@ items:
             href: rooms/multi-tenant-management-customer.md
           - name: 회의실 활동용 감사 로그
             href: rooms/multi-tenant-auditing.md
+          - name: 표준 및 소회의실 플래너
+            href: rooms/standards-and-room-planner.md
       - name: 디바이스
         items:
           - name: Teams에서 디바이스 관리

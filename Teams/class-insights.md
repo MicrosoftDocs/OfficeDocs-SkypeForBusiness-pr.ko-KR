@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01fc283f8787ad659678b4e09ad3f573f34eb66d
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: e5e554672156f70556ebc18625115cd9a1ce8c58
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363034"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062692"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams의 교육 인사이트에 대한 IT 관리자 가이드
 
@@ -135,6 +135,7 @@ Insights는 교육자에 대한 데이터를 *표시하지 않습니다*. 데이
 | **모임** |    출석(모임 콘텐츠 제외)|
 | **[읽기 진행](https://support.microsoft.com/topic/e71705a2-a79a-4d7e-bcef-a1e0aa336017)** |    분당 정확도, 가장 까다로운 단어 및 단어 수입니다.  |
 | **[반영](reflect.md)** |   체크 인(값 포함).|
+| **커리어 코치** | 기술, 기술 흥미, 커리어 흥미, 학습 흥미, 커리어 관련 활동을 포함하는 커리어 코치 앱의 학생 제공 전공(공부 분야) 및 학년, 학생 활동입니다.|
 
 > [!NOTE]
 > 수집된 대부분의 데이터는 몇 분 내에 Insights에 표시됩니다. 수업 모임(수업 채널 중 하나와 연결된 모임) 출석은 모임이 종료된 후 몇 시간 후(일반적으로 최대 24시간 후)에 표시됩니다.
@@ -239,12 +240,24 @@ Insights를 사용하기 위해서는 SDS를 사용할 *필요가 없습니다*.
 
 * 다시 켜려면 [Insights에 SDS를 배포하는 방법](/schooldatasync/how-to-deploy-sds-for-insights)의 지침을 따릅니다.
 
-### <a name="how-to-delete-your-data"></a>데이터 삭제 방법
-Insights는 수업 팀 컨텍스트에서 수행된 학생과 강사 활동을 저장합니다. 이 데이터는 혼합 데이터 세트로 간주되므로 조직에서 학생 또는 교육자 사용자 계정이 삭제되면 서비스에서 자동으로 삭제되지 않습니다.
-참고: 데이터를 삭제하면 시간이 지남에 따라 수업 팀 참여를 분석하는 Insights의 기능에 부정적인 영향을 미칩니다.
-* [지원 티켓을 엽니다](https://aka.ms/edusupport). 지원 티켓은 GDPR 삭제 DSR 작업 요청을 명확하게 명시해야 하며 삭제할 개체 ID를 포함해야 합니다. 삭제의 데이터 집합 또는 시간 창을 제한할 수 없습니다.
-*   일단 제출되면 지원 티켓은 규정 준수 최소 보존 정책을 위해 일주일 동안 큐에서 대기합니다. 이 기간에는 작업을 취소할 수 있습니다.
-*   일주일 후에는 Education Insights 팀에서 사용자 ID와 관련된 모든 데이터를 서비스에서 삭제하는 조치를 취합니다. Microsoft 지원에서는 티켓을 모니터링하고 삭제 프로세스가 완료되면 28일 이내에 공지합니다.
+### <a name="how-to-delete-user-data-from-education-insights"></a>교육 Insights의 사용자 데이터 삭제 방법
+Insights는 교육용 Microsoft Teams에서 수행된 학생 및 강사 활동을 저장합니다.
+
+인사이트에서 수집하는 데이터는 다음 두 가지 유형입니다.
+* **혼합 데이터** – 수업 학습 활동의 일부로 생성되는 데이터입니다.
+* **비 혼합(비공개) 데이터** – 수업 학습 활동의 일부가 아닌 교육용 Teams 학생 활동에서 수집되는 데이터입니다. 
+
+인사이트에서 수집하는 전체 데이터 목록은 [여기](class-insights.md#data-collection)에서 확인하세요.
+
+강사와 교육 지도자에게 과거 데이터에 대한 완전성과 무결성을 제공하기 위해 인사이트는 학생 또는 강사 사용자 계정을 닫을 시 기본적으로 서비스에서 자동으로 데이터를 삭제하지 않습니다. 조직의 IT 관리자는 다음 단계를 수행하여 사용자(강사 또는 학생) 데이터를 수동으로 삭제하도록 요청할 수 있습니다.
+* [지원 티켓](https://aka.ms/edusupport)을 엽니다. 지원 티켓은 GDPR 삭제 DSR 작업 요청을 명확하게 명시해야 하며 삭제할 개체 ID를 포함해야 합니다.
+삭제의 데이터 집합 또는 시간 창을 제한할 수 없습니다.
+* 요청에서 IT 관리자는 다음 옵션을 사용하여 해당 사용자의 어떤 데이터 유형을 삭제하길 원하는지를 분명히 밝혀야 합니다.
+  - 모든 데이터(혼합 및 비공개)
+  - 모든 비공개 데이터 
+  - 커리어 코치 데이터만
+* 일단 제출되면 지원 티켓은 규정 준수 최소 보존 정책을 위해 일주일 동안 큐에서 대기합니다. 이 기간에는 작업을 취소할 수 있습니다.
+* 1주일 후 교육 Insights 팀에서 해당 사용자 ID와 관련된 위에 설명된 특정 유형의 데이터를 모두 서비스에서 삭제합니다. Microsoft 지원에서 티켓을 모니터링하고 28일 이내에 삭제 프로세스가 완료되면 사용자에게 알립니다.
 
 ## <a name="troubleshooting"></a>문제 해결
 ### <a name="why-doesnt-my-institution-see-any-data-in-insights"></a>왜 우리 기관에는 Insight에서 어떤 데이터도 나타나지 않을까요?
