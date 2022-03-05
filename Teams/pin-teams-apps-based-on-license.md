@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4520d34c62829e2db50cc18d0edcc6450a440f25
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 34614a6c1b45ea9660552b77b7c91d87e5c30d5f
+ms.sourcegitcommit: 2d4dab7a6436e53db9475d67695504753896ca86
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062752"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "63065246"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>라이선스에 Teams 앱 맞춤 설정
 
@@ -42,13 +42,13 @@ Teams 기반 앱을 고정하는 방법을 제공합니다. 사용자가 사용�
 
 F 라이선스가 있는 사용자를 위해 고정된 앱:
 
-- 활동
-- 채팅
-- Teams
-- 워키토키
-- 작업
-- 교대 근무
-- 승인
+- [활동](https://support.microsoft.com/office/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56)
+- [채팅](https://support.microsoft.com/office/get-started-with-chat-0b506ce2-eb6d-4fca-9668-e56980ba755e)
+- [Teams](https://support.microsoft.com/office/teams-and-channels-in-microsoft-teams-c6d0e61d-a61e-44a6-a972-04f2a8fa4155)
+- [워키토키](https://support.microsoft.com/office/get-started-with-teams-walkie-talkie-25bdc3d5-bbb2-41b7-89bf-650fae0c8e0c)
+- [작업](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070)
+- [교대 근무](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)
+- [승인](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3)
 
 ## <a name="admin-controls"></a>관리자 컨트롤
 
@@ -66,7 +66,7 @@ F 라이선스가 있는 사용자를 위해 고정된 앱:
 
 ## <a name="scenarios"></a>시나리오
 
-이 표의 정보를 사용하여 기존 앱 설정 정책을 적용한 경우를 포함하여 다양한 시나리오에서 맞춤형 앱 환경 기능이 작동하는 방법을 알아보겠습니다.
+이 표의 정보를 사용하여 기존 앱 설정 정책을 적용한 경우를 포함하여 다양한 시나리오에서 맞춤 앱 환경이 작동하는 방법을 알아보겠습니다.
 
 |경우...  |그런 다음... |
 |---------|---------|
@@ -83,5 +83,9 @@ F 라이선스가 있는 사용자를 위해 고정된 앱:
 
 ## <a name="related-articles"></a>관련 기사
 
+- [에서 Walkie Talkie 앱을 Teams](walkie-talkie.md)
+- [작업 앱 관리 Teams](manage-tasks-app.md)
+- [앱에서 Shifts 앱을 Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+- [승인 앱 관리 Teams](approval-admin.md)
 - [Teams에서 앱 설정 정책 관리](teams-app-setup-policies.md)
 - [Teams에서 앱 사용 권한 정책 관리](teams-app-permission-policies.md)
