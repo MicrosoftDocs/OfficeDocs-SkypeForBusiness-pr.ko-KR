@@ -1127,6 +1127,8 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovakia.md
               - name: 슬로바키아 전화번호 관리
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovenia.md
+              - name: 남아프리카 공화국 전화 번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-south-africa.md
               - name: 스페인의 전화 번호 관리
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
               - name: 네덜란드 전화 번호 관리
@@ -1373,8 +1375,8 @@ items:
             href: rooms/obtaining-assigning-license.md
           - name: MTRP 관리 서비스에 등록
             href: rooms/enrolling-mtrp-managed-service.md
-          - name: 설치
-            href: rooms/monitor-software-installation-guide.md
+          - name: 관리되는 서비스에 디바이스 등록
+            href: rooms/enroll-a-device.md
           - name: 역할 기반 액세스 제어
             href: rooms/microsoft-teams-rooms-premium-rbac.md
           - name: 회의실 모니터링 및 유지 관리
