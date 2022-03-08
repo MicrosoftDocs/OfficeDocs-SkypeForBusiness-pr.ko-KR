@@ -1,14 +1,14 @@
 ---
 title: Teams 사용자에 대한 앱 동작
-author: SerdarSoysal
-ms.author: serdars
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: joglocke
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 비표준 사용자에 대해 Microsoft Teams 앱이 어떻게 행동하는지 알아보습니다.
+description: 표준이 아닌 사용자에 대해 Microsoft Teams 앱이 어떻게 행동하는지 알아보고자 합니다.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -17,16 +17,16 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 621614b9fc3d46d4629ce8b62dbbcc7b579698db
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 4dd2a96b7df3ebcb3ae8659222744ed0f3273fa3
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62390830"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070217"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams 사용자에 대한 앱 동작
 
-이 문서에서는 게스트, 외부 Teams 및 익명 사용자가 특정 컨텍스트에 있을 때 앱의 Teams 설명합니다.
+이 문서에서는 게스트, Teams(페더화), 익명 사용자가 특정 컨텍스트에 있을 때 앱의 Teams 설명합니다.
 
 - 게스트 **사용자는** 직원, 학생 또는 조직의 구성원이 아닌 사용자입니다. 조직에 학교 또는 직장 계정을 가지고 있지 않아야 합니다.
 
@@ -41,7 +41,7 @@ ms.locfileid: "62390830"
 
 ### <a name="install-update-and-delete-for-guest-users"></a>게스트 사용자에 대한 설치, 업데이트 및 삭제
 
-게스트는 채팅, 채널 또는 모임과 같은 공유 컨텍스트에 앱을 설치, 업데이트 또는 삭제할 수 없지만 메시지 확장 및 직접 링크를 사용하여 개인 범위로 보낼 수 있습니다. 게스트는 데스크톱 애플리케이션에서 Teams 앱 스토어에 Teams 없지만 직접 링크로 액세스할 수 있습니다.
+게스트는 채팅, 채널 또는 모임과 같은 공유 컨텍스트에 앱을 설치, 업데이트 또는 삭제할 수 없지만 메시지 확장 및 직접 링크를 사용하여 개인 범위로 보낼 수 있습니다. 게스트는 데스크톱 애플리케이션에서 Teams 앱 스토어에 액세스할 수 Teams 없지만 직접 링크로 액세스할 수 있습니다.
 
 ### <a name="usage-behavior-and-policy-for-guest-users"></a>게스트 사용자에 대한 사용 동작 및 정책
 

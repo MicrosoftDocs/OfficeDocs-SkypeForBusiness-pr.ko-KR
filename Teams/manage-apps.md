@@ -1,8 +1,8 @@
 ---
 title: 관리 센터에서 앱 Microsoft Teams 관리
-author: KarliStites
-ms.author: kastites
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -17,12 +17,12 @@ description: 관리 센터의 앱 관리 페이지에서 Teams 앱을 관리하�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 8e0c475eaf2186c13174d27687a5bd10c2fa1057
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: ad1dd28f4de0bc6db0ab7b2870a1cf7b2dae007a
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062552"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070227"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>관리 센터에서 앱 Microsoft Teams 관리
 
@@ -55,7 +55,7 @@ Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 �
 ![앱에 대한 앱 세부 정보 페이지의 스크린샷입니다.](media/app-detail-page.jpg)
 
 - **이름**: 앱 이름입니다. 앱 세부 정보 페이지로 이동하려면 앱 이름을 선택하여 앱에 대한 자세한 정보를 볼 수 있습니다. 여기에는 앱에 대한 설명, 허용 여부, 버전, 개인 정보 취급 방침, 사용 약관, 앱에 적용되는 범주, 인증 상태, 지원되는 기능 및 앱 ID가 포함됩니다.
-- **인증**: 앱이 인증을 통과한 경우 인증 또는 인증 Microsoft 365 인증 Publisher **표시됩니다**. 링크를 선택하여 앱에 대한 인증 세부 정보를 볼 수 있습니다. ""가 표시 **--** 된 경우 앱에 대한 인증 정보가 없습니다. 인증된 앱에 대해 자세히 알아보 Teams 앱 인증 프로그램을 Microsoft 365[.](/microsoft-365-app-certification/overview)
+- **인증**: 앱이 인증을 통과한 경우 인증 또는 인증 Microsoft 365 인증 Publisher **표시됩니다**. 링크를 선택하여 앱에 대한 인증 세부 정보를 볼 수 있습니다. 을 표시 `--`하는 경우 앱에 대한 인증 정보가 없습니다. 인증된 앱에 대해 자세히 알아보 Teams 앱 인증 프로그램을 Microsoft 365[.](/microsoft-365-app-certification/overview)
 - **Publisher**: 게시자의 이름입니다.
 - **게시 상태**: 사용자 지정 앱의 게시 상태입니다.
 - **상태**: 다음 중 하나일 수 있는 오그 수준에서 앱의 상태입니다.

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 남아프리카 공화국에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: cccc1b801b2627ecb93eafd38b0ab944baac91aa
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 7c56d5bb6fd8ee3449b110b21b00000eda9dac55
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190819"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070577"
 ---
 # <a name="availability-in-south-africa"></a>남아프리카 공화국의 가용성
 
@@ -59,9 +59,10 @@ ms.locfileid: "62190819"
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|통화 플랜을 구매할 수 있나요?  <br/> |아니요  <br/> |
-|통화 플랜에서 사용 가능한 시간(분)  <br/> |해당 사항 없음  <br/> |
-|아웃바운드 통화를 할 수 있나요?  <br/> |해당 사항 없음  <br/> |
+|통화 플랜을 구매할 수 있나요?  <br/> |예  <br/> |
+|통화 요금제에 사용할 수 있는 분입니다. |달력에 사용할 수 있는 4개의 계획 옵션은 다음과 같습니다. <ul><li>120분 국내 통화 계획 </li><li>240분 국내 통화 계획</li></li><li>1200분 국내 통화 계획 </li></li><li>국내 및 국제 통화 계획: 국내 통화 1200분 -OR- 국제 통화 600분(달력 월에 처음 도달)</li></li></ul>|
+|프리미엄 번호로 아웃바운드 호출을 할 수 있나요?  <br/> | 현재 지원되지 않습니다. <br/> |
+|아웃바운드 통화를 할 수 있나요?  <br/> | 이러한 국가를 포함하여 196개 국가 [또는 지역으로](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
 
 통화 요금제를 구입할 수 없는 경우 사용 가능한 모든 옵션에 대한 [PSTN](../pstn-connectivity.md) 연결 옵션을 참조하세요.
    

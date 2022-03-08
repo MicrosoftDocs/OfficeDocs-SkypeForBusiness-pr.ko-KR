@@ -1,8 +1,8 @@
 ---
 title: 에서 Bookings 앱을 Microsoft Teams
-author: dmaguire
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 조직의 사용자를 위해 Teams 예약 앱을 관리하는 방법에 대해 자세히 알아보십시오.
-ms.openlocfilehash: 692cf8500b47d903986542082c328b4a8be2237d
-ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
+ms.openlocfilehash: 3032704fe935f1d4d316741400e8a4b5841f8685
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63050914"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070587"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>에서 Bookings 앱을 Microsoft Teams
 

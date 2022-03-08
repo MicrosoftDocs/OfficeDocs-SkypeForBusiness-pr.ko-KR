@@ -1,9 +1,9 @@
 ---
 title: Teams의 승인 응용 프로그램 가용성
-author: SerdarSoysal
-ms.author: serdars
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: farhazk
-manager: serdars
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea3da24dc0fa3a64d90b38a67b13be0fa4d041ce
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.openlocfilehash: 10adab9046a7cbd8cebccf6167075e38b1204dea
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62421551"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070437"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 승인 앱 가용성
 
@@ -41,7 +41,7 @@ ms.locfileid: "62421551"
 이 자료에서는 승인 앱 요구 사항 및 역할에 대해 설명합니다.
 
 > [!NOTE]
-> 이 기능은 아직 높은(GCCH) 정부 커뮤니티 클라우드 DOD(국방부) 사용자에게 릴리스되지 않았습니다.
+> 이 기능은 아직 GCCH(high) 정부 커뮤니티 클라우드 DOD(국방부) 사용자에게 릴리스되지 않았습니다.
 
 ## <a name="required-permissions-and-licenses"></a>필요한 권한 및 라이선스
 
@@ -99,7 +99,7 @@ Org-scoped 템플릿은 테넌트와 팀 범위 템플릿의 동일한 수명을
 
 - 모든 팀 소유자는 소유한 팀에 대한 승인 템플릿을 만들 수 있습니다.
 
-- 관리자가 처음으로 전체 조직에 대한 템플릿을 만들면 전역 및 서비스 관리자를 포함하여 테넌트의 모든 Azure Active Directory(AAD) 새 Teams 만듭니다. 이러한 관리자는 그룹의 소유자로 추가될 것이기 때문에 조직 템플릿을 공동 관리할 수 있습니다. 팀을 만든 후 조직에 새로운 관리자는 그룹 소유자로 수동으로 추가해야 조직 전체 템플릿을 관리할 수 있는 권한이 동일합니다.
+- 관리자가 처음으로 전체 조직에 대한 템플릿을 만들면 전역 및 AAD 관리자를 포함하여 테넌트의 모든 관리자에 대한 새 Azure Active Directory(AAD) 그룹을 자동으로 Teams 됩니다. 이러한 관리자는 그룹의 소유자로 추가될 것이기 때문에 조직 템플릿을 공동 관리할 수 있습니다. 팀을 만든 후 조직에 새로운 관리자는 그룹 소유자로 수동으로 추가해야 조직 전체 템플릿을 관리할 수 있는 권한이 동일합니다.
 
 > [!Note]
 > 관리자가 그룹을 삭제하는 경우 모든 관련 데이터를 복원하기 위해 Azure Active Directory(AAD) 포털 내에서 복원할 AAD 있습니다. 한 달이 지난 후 또는 관리자가 이 그룹을 리사이즈 bin 내에서 삭제하면 관련된 모든 데이터가 손실됩니다.
@@ -110,7 +110,7 @@ Org-scoped 템플릿은 테넌트와 팀 범위 템플릿의 동일한 수명을
 
   1. Teams 관리 센터에 로그인합니다.
 
-  2. 앱 **Teams 앱** > **으로 이동하세요**.
+  2. **Teams 앱** > **앱 관리** 로 이동합니다.
 
   3. 승인 앱을 검색합니다.
 
@@ -200,11 +200,11 @@ Teams 승인 앱에서 사용자는 새 승인을 만들고 보내고 받은 승
 승인 앱 전자 서명 기능을 사용하려면 사용하려는 특정 전자 서명 공급자에 대한 라이선스가 필요합니다. 조직에 대한 라이선스를 얻게하려면 공급자의 사이트로 이동해야 합니다.
 ### <a name="enable-or-disable-e-signature-providers"></a>전자 서명 공급자 사용 또는 사용 안 하도록 설정
 
-관리 센터를 사용하여 Teams 앱에서 사용자가 사용할 수 있는 타사 전자 서명 공급자를 제어할 수 있습니다. 기본적으로 승인 앱에서 전자 서명 공급자를 사용하도록 설정됩니다. 전자 서명 공급자를 사용하지 않도록 설정하면 사용자가 승인을 만들 때 해당 공급자에 액세스할 수 없습니다. 또한 사용자는 해당 공급자를 사용하여 만든 전자 서명 요청을 볼 수 없습니다.
+관리 센터를 Teams 승인 앱에서 사용자가 사용할 수 있는 타사 전자 서명 공급자를 제어할 수 있습니다. 기본적으로 승인 앱에서 전자 서명 공급자를 사용하도록 설정됩니다. 전자 서명 공급자를 사용하지 않도록 설정하면 사용자가 승인을 만들 때 해당 공급자에 액세스할 수 없습니다. 또한 사용자는 해당 공급자를 사용하여 만든 전자 서명 요청을 볼 수 없습니다.
 
-1. 관리 센터의 왼쪽 탐색에서 Teams **AppsManage** >  앱으로 Teams **이동하세요**.
+1. 관리 센터의 왼쪽 탐색에서 Teams **AppsManage** >  앱으로 **Teams** 합니다.
 2. 승인 앱을 검색한 다음 선택합니다.
-3. 설정 탭으로 **이동** 한 다음 다음 중 하나 이상을 합니다.
+3. 설정 탭으로  이동한 다음 다음 중 하나 이상을 합니다.
 
     - Adobe Sign을 사용하도록 설정하거나 사용하지 않도록 설정하려면 토글을 **켜** 기 또는 끄기로 **전환합니다**.
     - DocuSign을 사용하도록 설정하거나 사용하지 않도록 설정하려면 토글을 **켜** 기 또는 끄기로 **전환합니다**.

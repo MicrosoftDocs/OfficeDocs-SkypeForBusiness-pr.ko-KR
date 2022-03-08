@@ -1,8 +1,8 @@
 ---
 title: 사용자 지정 앱 저장소
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: prem
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -18,21 +18,21 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 사용자 지정 앱 저장소에 대해 Microsoft Teams.
-ms.openlocfilehash: cabfc148edb793ac40b49950b3b92676a0c80bfa
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: f98b91c8a700bfc8ebb560930862e66b38a35a0e
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62399502"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070387"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>사용자 지정 앱 저장소에 Microsoft Teams
 
-이제 최종 사용자에게 더 많은 Teams 로고, 사용자 지정 배경 및 사용자 지정 텍스트 색을 추가하여 회사 브랜디드를 사용하여 조직의 앱 스토어를 사용자 지정할 수 있습니다.
+이제 로고, 사용자 지정 배경 및 사용자 지정 텍스트 Teams 추가하여 회사 브랜디드에서 조직의 앱 스토어를 사용자 지정할 수 있습니다.
 
 > [!Note]
 > 브랜디드를 변경하려면 24시간이 소요됩니다.
 
-앱 **Customize** 저장소를 선택하여 관리 센터에서 사용자 지정 저장소에 **Teams** >  수 있습니다.
+앱 **Customize** 저장소를 선택하여 관리 센터에서 사용자 지정 **저장소** > 에 Teams 수 있습니다.
 
   ![관리자 콘솔은 강조 표시된 저장소 기능을 사용자 지정합니다.](media/customize-app-store.png)
 
@@ -52,7 +52,7 @@ ms.locfileid: "62399502"
 - .png
 - .jpg
 
-로고는 테넌트 앱 카탈로그의 맨 위 오른쪽 모서리에 Teams 표시됩니다.
+로고는 테넌트 앱 카탈로그의 오른쪽 위 모서리에 Teams 표시됩니다.
 
 ## <a name="customize-your-small-logo"></a>작은 로고 사용자 지정
 
@@ -109,7 +109,7 @@ ms.locfileid: "62399502"
 ![사용자 지정 앱 저장소의 미리 보기입니다.](media/PowerAppsInStore650w.png)
 
 > [!Note]
-> 일부 기본 색은 사용자 지정 클라이언트의 사용자 버전에 따라 다르기 때문에 표현은 사용자 지정 앱 저장소의 최종 버전과 다를 Teams 있습니다.
+> 일부 기본 색은 사용자의 버전의 클라이언트를 기반으로 하여 사용자 지정 앱 저장소의 최종 버전과 다를 Teams 있습니다.
 
 ## <a name="related-article"></a>관련 문서
 

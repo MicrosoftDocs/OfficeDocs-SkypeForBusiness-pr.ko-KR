@@ -1,8 +1,8 @@
 ---
 title: 앱 Teams API를 사용하여 사용자 지정 앱을 제출하고 승인합니다.
-author: KarliStites
-ms.author: kastites
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: joglocke, vaibhava
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -17,26 +17,26 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 앱 제출 API를 사용하여 제출된 사용자 지정 앱을 승인하는 Teams 앱 제출 API를 Microsoft Teams.
-ms.openlocfilehash: 17741733f506aefd6fd85f1b821d144961af6158
-ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
+ms.openlocfilehash: a1b6778c79fd389ebfd4b3ce172daa186e92b76e
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62312241"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070407"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>앱 제출 API를 통해 제출된 사용자 Teams 게시
 
 ## <a name="overview"></a>개요
 
 > [!NOTE]
-> 사용자 지정 Teams 게시할 때 조직의 앱 스토어의 사용자가 사용할 수 있습니다. 사용자 지정 앱을 게시하는 방법에는 두 가지가 있으며, 사용하는 방식은 앱을 다운로드하는 방법에 따라 다를 수 있습니다. 이 문서에서는 개발자가 앱 제출 API를 통해 제출하는 사용자 지정 앱을 승인 **하고 게시하는 Teams 중점적으로 다를 수 있습니다**. 사용자 지정 앱을 업로드하는 다른 메서드는 개발자가 사용자 지정 형식으로 앱 패키지를 .zip 사용됩니다. 해당 방법에 대한 자세한 내용은 앱 패키지를 업로드하여 사용자 지정 [앱 게시를 참조하세요](/microsoftteams/upload-custom-apps). 승인 앱 위젯은 테넌트에서 사용할 GCC 없습니다.
+> 사용자 지정 Teams 게시할 때 조직의 앱 스토어의 사용자가 사용할 수 있습니다. 사용자 지정 앱을 게시하는 방법에는 두 가지가 있으며, 사용하는 방식은 앱을 다운로드하는 방법에 따라 다를 수 있습니다. 이 문서에서는 개발자가 앱 제출 API를 통해 제출하는 사용자 지정 앱을 승인하고 게시하는 **Teams 중점적으로 다를 수 있습니다**. 사용자 지정 앱을 업로드하는 다른 방법은 개발자가 사용자 지정 형식으로 앱 패키지를 .zip 사용됩니다. 해당 방법에 대한 자세한 내용은 앱 패키지를 업로드하여 사용자 지정 [앱 게시를 참조하세요](/microsoftteams/upload-custom-apps). 승인 앱 위젯은 테넌트에서 사용할 GCC 없습니다.
 
 > [!IMPORTANT]
 > 이 메서드는 현재 GCC 없습니다. 사용자 지정 앱 업로드 *방법을 사용해야* 합니다.
 
-이 문서에서는 개발에서 배포로 배포에 Teams 앱으로 데려오는 방법에 대한 종단 Teams 지침을 제공합니다. 조직의 앱 스토어에서 사용자 지정 앱을 개발, 배포 및 Teams 간소화하기 위해 앱 수명 주기 전반에 걸쳐 제공하는 연결된 환경의 개요를 확인할 수 있습니다.
+이 문서에서는 개발에서 배포로 Teams 앱으로의 사용 방법에 대한 종단-종단 지침이 제공됩니다. 조직의 앱 스토어에서 사용자 지정 앱을 개발, 배포 및 Teams 간소화하기 위해 앱 수명 주기 전반에 걸쳐 제공하는 연결된 환경의 개요를 확인할 수 있습니다.
 
-개발자가 앱 제출 API를 사용하여 사용자 지정 앱을 Teams 관리 센터에 직접 제출하는 방법Microsoft Teams 조직의 사용자에 대한 앱을 관리하기 위한 정책을 설정하는 방법, 사용자들이 앱을 검색하는 방법을 포함하여 수명 주기의 각 단계를 다 Teams.
+개발자가 앱 제출 API를 사용하여 사용자 지정 앱을 Teams 관리 센터에 직접 제출하는 방법Microsoft Teams 조직의 사용자에 대한 앱을 관리하기 위한 정책을 설정하는 방법, 사용자들이 앱을 검색하는 방법을 포함하여 수명 주기의 각 단계를 Teams.
 
 ![개발에서 배포까지 앱의 개요입니다.](media/custom-app-lifecycle.png)
 
@@ -46,13 +46,13 @@ ms.locfileid: "62312241"
 
 ### <a name="create-the-app"></a>앱 만들기
 
-개발자 Microsoft Teams 플랫폼을 사용하면 개발자가 사용자 자신의 앱 및 서비스를 통합하여 생산성을 향상하고, 더 빠르게 의사 결정을 내릴 수 있으며, 기존 콘텐츠 및 워크플로에 대한 공동 작업을 쉽게 만들 수 있습니다. Teams 플랫폼에 구축된 앱은 Teams 클라이언트와 서비스 및 워크플로 간의 브리지로, 공동 작업 플랫폼의 컨텍스트로 바로 연결됩니다. 자세한 내용은 개발자 설명서를 Teams [참조하세요](/microsoftteams/platform).
+개발자 Microsoft Teams 플랫폼을 사용하면 개발자가 자신만의 앱 및 서비스를 통합하여 생산성을 향상하고, 더 빠르게 의사 결정을 내릴 수 있으며, 기존 콘텐츠 및 워크플로에 대한 공동 작업을 쉽게 만들 수 있습니다. 플랫폼에 Teams 앱은 Teams 클라이언트와 서비스 및 워크플로 간의 브리지로, 공동 작업 플랫폼의 컨텍스트로 바로 연결됩니다. 자세한 내용은 개발자 설명서를 Teams [참조하세요](/microsoftteams/platform).
 
 ### <a name="submit-the-app"></a>앱 제출
 
-앱이 프로덕션 환경에서 사용할 준비가 된 경우 개발자는 Teams API, Graph IDE(통합 개발 환경)에서 호출할 수 있는 앱 제출 [API](/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog) 또는 Visual Studio Code 플랫폼(예: Power Apps 및 Power Virtual Agents.)을 사용하여 앱을 제출할 수 Power Virtual Agents. 이렇게 하면 앱을 검토하고 승인할 수 [](/microsoftteams/manage-apps) 있는 Microsoft Teams 관리 센터의 앱 관리 페이지에서 앱을 사용할 수 있습니다.
+앱이 프로덕션 환경에서 사용할 준비가 된 경우 개발자는 Teams [API](/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog), IDE(통합 개발 환경)Graph(예: 통합 개발 환경) 또는 앱 및 Visual Studio Code 플랫폼에서 호출할 수 있는 앱 제출 API를 사용하여 Power Apps Power Virtual Agents. 이렇게 하면 앱을 검토하고 승인할 수 [](/microsoftteams/manage-apps) 있는 Microsoft Teams 관리 센터의 앱 관리 페이지에서 앱을 사용할 수 있습니다.
 
-Microsoft Teams 기반 Graph 앱 제출 API를 [](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog)사용하면 조직에서 선택한 플랫폼에서 개발할 수 있으며, 사용자 지정 앱에 대한 제출-승인 프로세스를 자동화할 수 Teams.
+Microsoft Teams 기반 Graph 앱 제출 API를 [](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog)사용하면 조직에서 선택한 플랫폼에서 개발할 수 있으며 사용자 지정 앱에 대한 제출-승인 프로세스를 자동화할 수 Teams.
 
 다음은 이 앱 제출 단계의 모양을 예로 Visual Studio Code.
 
@@ -60,11 +60,11 @@ Microsoft Teams 기반 Graph 앱 제출 API를 [](/graph/api/teamsapp-publish?ta
 
 아직 조직의 앱 스토어에 앱을 게시하지 않습니다. 이 단계에서는 조직의 앱 스토어에 Microsoft Teams 승인할 수 있는 관리자 센터에 앱을 제출합니다.
 
-앱 제출에 Graph API를 사용하는 Graph 자세한 내용은 여기를 [참조하세요](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog).
+앱 제출에 Graph API 사용에 대한 자세한 내용은 여기를 [참조하세요](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog).
 
 ## <a name="notify"></a>알림
 
-개발자가 검토 및 승인을 위해 새 애플리케이션을 제출할 때 알림을 끄면 됩니다. 개발자가 앱 업데이트를 제출할 때 알림을 받을 수도 있습니다. 관리 센터에서 앱 Teams 알림을 사용하도록 설정하려면 알림 & [**RulesApp** >  제출으로 이동하고 상태를 Active **로** > ](https://admin.teams.microsoft.com/notifications/rules) 변경하여 규칙을 활성화 **합니다**. 기본적으로 이 설정은 꺼져 잇습니다. 이 설정을 켜기 위해 전역 관리자 또는 Teams 관리자 되어야 합니다.
+개발자가 검토 및 승인을 위해 새 애플리케이션을 제출할 때 알림을 끄면 됩니다. 개발자가 앱 업데이트를 제출할 때 알림을 받을 수도 있습니다. 관리 센터 [ >  에서 앱 Teams 알림을 사용하도록 설정하려면 알림 & **RulesApp** > ](https://admin.teams.microsoft.com/notifications/rules) 제출으로 이동하고 상태를 Active로 변경하여 규칙을 활성화합니다. 기본적으로 이 설정은 꺼져 잇습니다. 이 설정을 켜기 위해 전역 관리자 또는 Teams 관리자 되어야 합니다.
 
 이 설정을 설정하면 앱 제출이라는 새 채널 아래 관리자 경고 및 알림 팀  에 알림 **이 표시됩니다**. 또는 기존 팀 및 채널을 선택하면 지정된 팀 및 채널에 알림을 배달할 수 있습니다. 다음의 단계를 따릅니다:
 
@@ -89,7 +89,7 @@ Microsoft Teams 기반 Graph 앱 제출 API를 [](/graph/api/teamsapp-publish?ta
 
 ## <a name="validate"></a>유효성 검사
 
-관리 [센터](/microsoftteams/manage-apps)의 Microsoft Teams 관리 페이지(왼쪽 탐색에서 Teams [**AppsManage** > ](https://admin.teams.microsoft.com/manage-apps) 앱으로 이동)는 조직의 모든 Teams 보기를 제공합니다. 페이지 **맨** 위에 있는 보류 중인 승인 위젯을 통해 사용자 지정 앱이 승인을 위해 제출된 경우를 알 수 있습니다.
+관리 [센터](/microsoftteams/manage-apps)의 Microsoft Teams 관리 페이지(왼쪽 탐색에서 Teams [**AppsManage** > ](https://admin.teams.microsoft.com/manage-apps) 앱으로 이동)를 사용하면 조직의 모든 Teams 보기가 표시됩니다. 페이지 **맨** 위에 있는 보류 중인 승인 위젯을 통해 사용자 지정 앱이 승인을 위해 제출된 경우를 알 수 있습니다.
 
 표에서 새로 제출된 앱이 자동으로 제출된 게시 상태 및  **차단 상태****가 표시됩니다**. 게시 상태 열을  내선 순서로 정렬하여 앱을 빠르게 찾을 수 있습니다.
 
@@ -140,7 +140,7 @@ Microsoft Teams 기반 Graph 앱 제출 API를 [](/graph/api/teamsapp-publish?ta
 
 앱을 업데이트하기 위해 개발자는 개발 섹션의 단계를 계속 [따라야](#develop) 합니다.
 
-개발자가 게시된 사용자 지정 앱에 대한 업데이트를 제출하면 앱 관리 페이지의 승인 보류 중 위젯에서 [알림을 받을 수](/microsoftteams/manage-apps) 있습니다. 표에서 앱의 게시  상태가 제출된 업데이트로 **설정됩니다**. 앱 제출 알림을 설정한 경우 앱 제출 채널  의 관리자 경고 및 알림 팀에도 알림이  표시됩니다. 알림 카드에는 관리자 센터의 앱으로 바로 연결되는 Teams 있습니다. 앱 제출 알림을 설정하는 방법에 대한 자세한 내용은 알림을 [참조하세요](#notify).
+개발자가 게시된 사용자 지정 앱에 대한 업데이트를 제출하면 앱 관리 페이지의 승인 보류 중 위젯에서 [알림을 받을 수](/microsoftteams/manage-apps) 있습니다. 표에서 앱의 게시  상태가 제출된 업데이트로 **설정됩니다**. 앱 제출 알림을 설정한 경우 앱 제출 채널  의 관리자 경고 및 알림 팀에도 알림이  표시됩니다. 알림 카드에는 관리자 센터의 앱으로 직접 Teams 링크가 있습니다. 앱 제출 알림을 설정하는 방법에 대한 자세한 내용은 알림을 [참조하세요](#notify).
 
 ![보류 중인 요청 및 앱 상태를 표시하는 앱 페이지 관리](media/custom-app-lifecycle-update-submitted.png)
 

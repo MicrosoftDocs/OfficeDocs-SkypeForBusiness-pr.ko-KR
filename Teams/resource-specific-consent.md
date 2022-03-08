@@ -1,9 +1,9 @@
 ---
-title: 리소스별 동의를 Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+title: 리소스 관련 동의를 Microsoft Teams
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: nkramer
-manager: serdars
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -13,20 +13,20 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e2c77e33165bedbb5302a1202f85906a64cea9a
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 9e6e2f0e7827dab36645fec7105a9cbe0c439472
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62400832"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070657"
 ---
-# <a name="resource-specific-consent-in-microsoft-teams"></a>리소스별 동의를 Microsoft Teams
+# <a name="resource-specific-consent-in-microsoft-teams"></a>리소스 관련 동의를 Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 팀의 리소스별 동의를 Microsoft Teams 팀 소유자는 앱에 팀 데이터에 액세스하는 데 동의할 수 있습니다. 이러한 액세스의 예로는 채널 메시지를 읽고, 채널을 만들고 삭제하고, 채널 탭을 만들고 제거할 수 있는 기능을 들 수 있습니다.
 
-관리자는 조직의 팀 소유자가 Azure AD(Azure AD) PowerShell 모듈 또는 Azure Portal 및 Azure Active Directory 관리 센터를 사용하여 구성하는 설정을 통해 동의할 수 Microsoft Teams 제어합니다.  
+Azure Active Directory 관리자는 조직의 팀 소유자가 Azure AD(PowerShell) 모듈 또는 Azure Portal 및 Microsoft Teams 사용하여 구성하는 설정을 통해 동의할 수 있는지 여부를 Microsoft Teams 제어합니다.  
 
 ## <a name="set-whether-team-owners-can-give-consent-to-apps"></a>팀 소유자가 앱에 동의할 수 있는지 여부 설정
 
@@ -43,8 +43,8 @@ ms.locfileid: "62400832"
 
 이 설정은 조직의 사용자가 해당 사용자를 대신하여 앱에 동의할 수 있는지 여부를 제어합니다. 팀 소유자가 동의할 수 있도록 설정하려면 이 설정을 예로 설정해야 **합니다**. 이 설정을 관리하기 위해 다음을 합니다.
 
-1. Azure Portal에서 애플리케이션  >  Enterprise **설정으로 이동합니다**.
-2. Enterprise 애플리케이션 **에서** 사용자를 대신하여 회사  데이터에 액세스하는 앱에 동의할 수 있도록 **설정하거나 아니** 요 또는 예로 설정할 **수 있습니다**.
+1. Azure Portal에서 응용 **프로그램 Enterprise** >  **설정으로 이동합니다**.
+2. **Enterprise 애플리케이션** 에서 사용자를 대신하여 회사  데이터에 액세스하는 앱에 동의하거나 아니요 또는 예로 **설정할 수** **있습니다**.
 
 PowerShell을 사용하여 이 설정을 관리할 수 있습니다. 자세한 내용은 애플리케이션에 [사용자 콘텐츠 구성을 참조하세요](/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications).
 

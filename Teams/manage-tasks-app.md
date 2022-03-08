@@ -1,28 +1,33 @@
 ---
 title: Microsoft Teams에서 조직의 작업 앱 관리
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
 search.appverid: MET150
 searchScope:
-  - Microsoft Teams
-  - Microsoft Cloud for Healthcare
-  - Microsoft Cloud for Retail
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 audience: admin
 description: 조직의 사용자에 대한 작업 앱을 관리하는 방법을 학습합니다.
 ms.localizationpriority: medium
 MS.collection:
-  - Teams_ITAdmin_Help
-  - M365-collaboration
-  - microsoftcloud-healthcare
-  - microsoftcloud-retail
+- Teams_ITAdmin_Help
+- M365-collaboration
+- microsoftcloud-healthcare
+- microsoftcloud-retail
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 2ad0324509849700ea74afe582d4ce7a4934dc3e
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070597"
 ---
-
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 작업 앱 관리
 
 ## <a name="overview-of-tasks"></a>작업 개요
@@ -32,7 +37,7 @@ appliesto:
 > [!NOTE]
 > Teams 데스크톱 클라이언트에 작업 환경을 제공하면, 처음에는 앱 이름이 사용자에게 **Planner** 로 표시됩니다. 그런 다음 **Planner 및 할 일별 작업** 으로 이름이 일시적으로 변경됩니다. 나중에는 **작업** 으로 다시 변경됩니다. Teams 모바일 클라이언트에서 사용자는 항상 앱 이름을 **작업** 으로 보게 됩니다. 데스크톱 환경을 사용할 수 있는 후 모바일 환경의 가용성이 잠시 지연될 수 있습니다.
 
-   ![목록 목록의 작업 목록 보기의 Teams 스크린샷입니다.](media/manage-tasks-app-tasks.png)
+   ![목록 목록의 작업 목록 보기 Teams 스크린샷입니다.](media/manage-tasks-app-tasks.png)
 
 일선 작업자의 작업 관리를 간소화하려는 조직을 위해, 작업에도 일선 작업자 전반에서 작업을 대상으로 비율 관련 지정, 게시 및 추적할 수 있는 기능이 포함되어 있습니다. 예를 들어, 기업 및 지역 리더십은 특정 소매점과 같은 관련 위치를 대상으로 하는 작업 목록을 만들어 게시하고 실시간 보고서를 통해 진행 상황을 추적할 수 있습니다. 관리자는 직원들의 위치 내에서 작업을 할당하고 직접 작업을 할당할 수 있으며, 일선 작업자는 모바일 또는 데스크톱에서 할당된 작업에 대한 우선 순위를 소유합니다. 작업 [게시를 사용하도록 설정](#task-publishing)하려면 먼저 조직의 팀 대상 계층 구조를 설정하여 계층 구조의 모든 팀이 서로 관련되는 방법을 정의합니다.
 
@@ -42,7 +47,7 @@ appliesto:
 
 사용자는 작업을 통해 데스크톱, 웹 및 모바일 환경을 사용할 수 있습니다. Teams 데스크톱 클라이언트에 작업이 설치된 경우, 사용자는 Teams 웹 및 모바일 클라이언트에서도 작업을 보게됩니다. 게스트는 예외입니다. 게스트가 Teams 모바일 클라이언트에서만 작업에 앱으로만 액세스할 수 있음에 유의합니다. 게스트는 Teams 데스크톱 및 웹 클라이언트 모두에서 작업 탭을 보게됩니다.
 
-**내 작업** 에 사용자의 개별 작업이 표시되어 있습니다. **공유 계획** 이 전체 팀이 작업하고 있는 작업을 표시하고 채널에 작업 탭으로 추가된 모든 작업 목록을 포함합니다. 작업, 작업 및 Planner의 작업 To Do 유의하세요.
+**내 작업** 에 사용자의 개별 작업이 표시되어 있습니다. **공유 계획** 이 전체 팀이 작업하고 있는 작업을 표시하고 채널에 작업 탭으로 추가된 모든 작업 목록을 포함합니다. 작업, 작업 및 계획 To Do 관계에 유의합니다.
 
 - 작업 앱에서 사용자가 만든 작업 목록은 해당 사용자의 할 일 클라이언트에도 나타납니다. 마찬가지로 할 일에 사용자가 만든 작업 목록은 해당 사용자 작업의 **내 작업** 에 표시됩니다. 개별 작업도 마찬가지입니다.
 
@@ -72,7 +77,7 @@ appliesto:
 
 ### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>앱 설치 정책을 사용하여 Teams에 작업 고정
 
-앱 설정 정책을 사용하면 Teams를 사용자 지정하여 조직의 사용자에게 가장 중요한 앱을 강조할 수 있습니다. 정책에서 설정한 앱은 앱 표시줄에 고정되어 있으며, 데스크톱 클라이언트의 Teams 아래쪽에 있는 Teams 모바일 클라이언트의 아래쪽에 고정되어 사용자가 빠르고 쉽게 액세스할 수 있습니다.
+앱 설정 정책을 사용하면 Teams를 사용자 지정하여 조직의 사용자에게 가장 중요한 앱을 강조할 수 있습니다. 정책에서 설정한 앱은 앱 표시줄에 고정됩니다. 즉, 데스크톱 Teams 및 모바일 클라이언트의 아래쪽에 Teams 사용자가 빠르고 쉽게 액세스할 수 있습니다.
 
 사용자에 대해 작업 앱을 고정하려면, 전역(Org-wide 기본값) 정책을 편집하거나 사용자 지정 앱 설정 정책을 만들고 할당할 수 있습니다. 자세한 내용은 [Teams에서 앱 설정 정책 관리](teams-app-setup-policies.md)를 참조하세요.
 

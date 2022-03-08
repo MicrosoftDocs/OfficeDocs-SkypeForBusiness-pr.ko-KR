@@ -3,9 +3,9 @@ title: Microsoft Teams의 앱, 봇 및 커넥터
 ms.reviewer: ''
 description: 앱, 인공 지능 및 커넥터에 대해 알아보고 조직의 프로필 및 비즈니스 요구 사항에 따라 Microsoft Teams에서 배포할 대상을 결정하는 방법에 대해 알아봅니다.
 ms.topic: article
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 audience: admin
 ms.date: 02/10/2021
 ms.service: msteams
@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a2789e522e666894ca58c8b22e9d571b35a4fb26
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05d683bbefa9b3cc564e4f97e52f0fad441f2763
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618514"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070397"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams의 앱, 봇 및 커넥터
 
@@ -37,7 +37,7 @@ Teams는 목록, 작업, 칭찬, 승인 등의 기본 제공 앱 집합을 제�
 
 ## <a name="use-third-party-apps"></a>타사 앱 사용
 
-Microsoft에서 제공한 앱 외에도 Microsoft 인증 타사 앱을 사용할 수 있습니다. Microsoft는 Microsoft 365 개발자 파트너와 협력하여 Teams 앱 및 추가 기능을 사용하는 데 필요한 정보를 제공합니다. 자세한 내용은[ Microsoft Teams 앱 보안 및 규정 준수](/microsoft-365-app-certification/teams/teams-apps)를 참조하세요.
+Microsoft에서 제공하는 앱 외에도 Microsoft에서 인증한 타사 앱을 사용할 수 있습니다. Microsoft는 Microsoft 365 개발자 파트너와 협력하여 Teams 앱 및 추가 기능을 사용하는 데 필요한 정보를 제공합니다. 자세한 내용은 [Microsoft Teams 앱 보안 및 규정 준수](/microsoft-365-app-certification/teams/teams-apps)를 참조하세요.
 
 ## <a name="use-teams-templates"></a>Teams 서식 파일 사용
 
@@ -69,7 +69,7 @@ Teams는 사용자를 참여시키고 생산성을 지원하며 일반적으로 
 
 ### <a name="app-permissions-and-other-considerations"></a>앱 사용 권한 및 기타 고려 사항
 
-앱은 사용자가 동의하고 정책을 통해 관리자나 IT 전문가가 관리합니다. 그러나 대부분의 경우 앱의 사용 권한 및 위험 프로필이 앱 자체에 정의됩니다. 
+앱은 사용자가 동의하고 정책을 통해 관리자나 IT 전문가가 관리합니다. 그러나 앱의 사용 권한 및 위험 프로필이 앱 자체에 정의됩니다.
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
