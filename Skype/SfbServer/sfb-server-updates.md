@@ -13,22 +13,22 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 한 장소에서 비즈니스용 Skype 서버 2019 및 2015 및 Lync Server 2013 및 2010에 대한 업데이트를 찾고 관리합니다. 업데이트에 대한 자세한 내용을 알아본 후 업데이트를 다운로드하려면 이 페이지의 링크를 사용하세요.
-ms.openlocfilehash: 68b34b75cf0e671f5927c4e006e5567052be6e4e
-ms.sourcegitcommit: d8dba15c520de3894d1781e17acb2c75fb38ed49
+ms.openlocfilehash: c9a30c0671302f8cc8c3f27927e3a058dc3cfcd7
+ms.sourcegitcommit: 109be23768ae183e07a0833fa9a9e5cb0369cb43
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62921866"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63368403"
 ---
 # <a name="skype-for-business-server-updates"></a>비즈니스용 Skype 서버 업데이트
 
 비즈니스용 Skype 서버 [2019, 비즈니스용 Skype 서버 2015](#skype-for-business-server-2019-update-history), [Lync Server 2013 및 Lync Server 2010](#lync-server-2013-update-history)에 대한 업데이트를 한 장소에서 찾고 관리합니다[](#lync-server-2010-update-history). [](#skype-for-business-server-2015-update-history) 업데이트에 대한 자세한 내용을 알아본 후 업데이트를 다운로드하려면 이 페이지의 링크를 사용하세요.
 
-최신 비즈니스용 Skype 온라인 및 Microsoft 365 내용은 Microsoft 365 [로드맵을 참조하세요](https://go.microsoft.com/fwlink/p/?linkid=529454).
+최신 비즈니스용 Skype Online Microsoft 365 내용은 Microsoft 365 [로드맵을 참조하세요](https://go.microsoft.com/fwlink/p/?linkid=529454).
 
-## <a name="skype-for-business-server-2019-update-history"></a>비즈니스용 Skype 서버 2019 업데이트 기록
+## <a name="skype-for-business-server-2019-update-history"></a>비즈니스용 Skype 서버 업데이트 기록
 
-[KB 4470124](https://support.microsoft.com/kb/4470124) 2019의 마스터 KB입니다비즈니스용 Skype 서버 KB입니다. 여기에는 이 제품에 대해 릴리스된 모든 누적 업데이트 및 핫픽스에 대한 기록 데이터가 포함되어 있습니다. 
+[KB 4470124](https://support.microsoft.com/kb/4470124) 2019의 마스터 K 비즈니스용 Skype 서버B입니다. 여기에는 이 제품에 대해 릴리스된 모든 누적 업데이트 및 핫픽스에 대한 기록 데이터가 포함되어 있습니다. 
 
 |패키지 이름|KB 번호|릴리스 날짜|
 |:--- |:--- |:--- |
@@ -36,10 +36,10 @@ ms.locfileid: "62921866"
 |비즈니스용 Skype 서버 2019년 누적 업데이트 5 |[KB 4470124(MACP3)](https://support.microsoft.com/kb/4470124)| 2021년 3월 |
 |비즈니스용 Skype 서버 2019년 누적 업데이트 4 핫픽스 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020년 11월 |
 |비즈니스용 Skype 서버 2019년 누적 업데이트 4 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020년 9월 |
-|비즈니스용 Skype 서버 2019 누적 업데이트 3 핫픽스 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020년 7월 |
-|비즈니스용 Skype 서버 2019년 누적 업데이트 3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020년 3월 |
+|비즈니스용 Skype 서버 2019년 누적 업데이트 3 핫픽스 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020년 7월 |
+|비즈니스용 Skype 서버 2019 누적 업데이트 3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020년 3월 |
 |비즈니스용 Skype 서버 2019 누적 업데이트 2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019년 12월 |
-|비즈니스용 Skype 서버 2019 누적 업데이트 1 핫픽스 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019년 9월 |
+|비즈니스용 Skype 서버 2019년 누적 업데이트 1 핫픽스 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019년 9월 |
 |비즈니스용 Skype 서버 2019 누적 업데이트 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019년 7월 |
 | | | |
 
@@ -68,7 +68,7 @@ ms.locfileid: "62921866"
 |비즈니스용 Skype 서버 2015 누적 업데이트 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)|2019년 7월 |
 |비즈니스용 Skype 서버 2015, 웹 구성 요소 서버용 누적 업데이트 9|[KB 4487981](https://support.microsoft.com/kb/4487981)|2019년 5월 |
 |비즈니스용 Skype 서버 2015, 프런트 엔드 서버 및 에지 서버용 누적 업데이트 8|[KB 4464355](https://support.microsoft.com/kb/4464355)|2019년 1월|
-|비즈니스용 Skype 서버, 프런트 엔드 서버 및 에지 서버용 누적 업데이트 7 |[KB 4340904](https://support.microsoft.com/kb/4340904) |2018년 7월 |
+|비즈니스용 Skype 서버 2015, 프런트 엔드 서버 및 에지 서버용 누적 업데이트 7 |[KB 4340904](https://support.microsoft.com/kb/4340904) |2018년 7월 |
 |비즈니스용 Skype 서버 2015, 프런트 엔드 서버 및 에지 서버용 누적 업데이트 6 핫픽스 2 |[KB 4086059](https://support.microsoft.com/kb/4086059) |2018년 3월 |
 |비즈니스용 Skype 서버 2015, 프런트 엔드 서버 및 에지 서버용 누적 업데이트 6 핫픽스 1 |[KB 4074701](https://support.microsoft.com/kb/4074701)|2018년 1월 |
 |비즈니스용 Skype 서버 2015, 프런트 엔드 서버 및 에지 서버용 누적 업데이트 6|[KB 4036312](https://support.microsoft.com/kb/4036312) |2017년 12월 |
@@ -78,7 +78,7 @@ ms.locfileid: "62921866"
 |비즈니스용 Skype 서버 2015, 프런트 엔드 서버 및 에지 서버용 누적 업데이트 3 |[KB 3149227](https://support.microsoft.com/kb/3149227) |2016년 6월 |
 |비즈니스용 Skype 서버 2015, 프런트 엔드 서버 및 에지 서버용 누적 업데이트 2 |[KB 3134260](https://support.microsoft.com/kb/3134260) |2016년 3월 |
 |비즈니스용 Skype 서버 2015, 프런트 엔드 서버 및 에지 서버용 누적 업데이트 1 |[KB 3097645](https://support.microsoft.com/kb/3097645) |2015년 11월 |
-|비즈니스용 Skype 서버 핵심 구성 요소에 대한 누적 업데이트 |[KB 3098601](https://support.microsoft.com/kb/3098601) |2015년 9월 |
+|비즈니스용 Skype 서버 2015, 핵심 구성 요소에 대한 누적 업데이트 |[KB 3098601](https://support.microsoft.com/kb/3098601) |2015년 9월 |
 |비즈니스용 Skype 서버, 프런트 엔드 서버 및 에지 서버에 대한 누적 업데이트|[KB 3061059](https://support.microsoft.com/kb/3061059) |2015년 6월 |
 ||||
 
@@ -97,10 +97,11 @@ ms.locfileid: "62921866"
 
 |패키지 이름|KB 번호|릴리스 날짜|
 |:--- |:--- |:--- |
-|Lync Server 2013 누적 업데이트 10 핫픽스 6 |[KB 5003602](https://support.microsoft.com/kb/5003602)|2021년 5월|
-|Lync Server 2013 누적 업데이트 10 핫픽스 5 |[KB 2809243](https://support.microsoft.com/kb/2809243)|2021년 2월|
-|Lync Server 2013 누적 업데이트 10 핫픽스 4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2020년 7월|
-|Lync Server 2013 누적 업데이트 10 핫픽스 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2019년 9월|
+|Lync Server 2013 누적 업데이트 10 핫픽스 7 |[KB 5010850](https://support.microsoft.com/kb/5010850)|2022년 2월|
+|Lync Server 2013 누적 업데이트 10 핫픽스 6 |[KB 5003729](https://support.microsoft.com/kb/5003729)|2021년 5월 11일|
+|Lync Server 2013 누적 업데이트 10 핫픽스 5 |[KB 5000675](https://support.microsoft.com/kb/5000675), [KB 5000688](https://support.microsoft.com/kb/5000688)|2021년 2월 9일|
+|Lync Server 2013 누적 업데이트 10 핫픽스 4 |[KB 4564312](https://support.microsoft.com/kb/4564312)|2020년 7월|
+|Lync Server 2013 누적 업데이트 10 핫픽스 3 |[KB 4518345](https://support.microsoft.com/kb/4518345)|2019년 9월|
 |Lync Server 2013 누적 업데이트 10 핫픽스 2 |[KB 4501392](https://support.microsoft.com/kb/4501392)|2019년 6월|
 |Lync Server 2013 누적 업데이트 10 핫픽스 1 |[KB 4458772](https://support.microsoft.com/kb/4458772)|2019년 1월|
 |Lync Server 2013 누적 업데이트 10 |[KB 4295703](https://support.microsoft.com/kb/4295703)|2018년 7월 |
