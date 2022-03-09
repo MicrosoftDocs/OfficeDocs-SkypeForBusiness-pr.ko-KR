@@ -365,7 +365,7 @@ items:
                 href: guest-access.md
               - name: 게스트 경험
                 href: guest-experience.md
-              - name: 게스트 액세스 설정 또는 해제
+              - name: 게스트 액세스 켜기 또는 끄기
                 href: set-up-guests.md
               - name: 팀에서 게스트 보기
                 href: view-guests.md
