@@ -1,8 +1,8 @@
 ---
 title: 보관 관리 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 63fd56cf-6d40-4db5-96fc-32d813930bcf
-description: '요약: 보관에 대한 보관을 관리하는 비즈니스용 Skype 서버.'
-ms.openlocfilehash: bdb373bf723e586cbc7222cd2559b87f4c72381e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: '요약: 보관에 대한 보관을 관리하는 방법을 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 0849a9fbc3db95579a1711e2934b0bafdc7b6e23
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856795"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392660"
 ---
 # <a name="manage-archiving-in-skype-for-business-server"></a>보관 관리 비즈니스용 Skype 서버
 
@@ -25,10 +25,10 @@ ms.locfileid: "60856795"
   
 조직에 대한 보관을 배포할 때 배포 중에 초기 구성을 지정합니다. 그러나 매일 관리에 대한 보관 지원을 구현하거나 조직의 새로운 요구 사항을 충족하는 방법을 변경하려는 경우도 있습니다. 예를 들어 조직 내의 특정 사이트, 특정 풀 또는 특정 사용자에 대해 보관 지원을 다르게 설정해야 할 수 있습니다. 이 비즈니스용 Skype 서버 보관 구성 옵션 및 사용자 정책을 만들고 사용자 지정하면 됩니다. 
   
-이 항목을 읽기 전에 Plan [for archiving in 비즈니스용 Skype 서버](../../plan-your-deployment/archiving/archiving.md) 및 Deploy [archiving for 비즈니스용 Skype 서버.](../../deploy/deploy-archiving/deploy-archiving.md)
+이 항목을 읽기 전에 Plan [for archiving in 비즈니스용 Skype 서버](../../plan-your-deployment/archiving/archiving.md) [및 Deploy archiving for 비즈니스용 Skype 서버](../../deploy/deploy-archiving/deploy-archiving.md).
   
 > [!NOTE]
-> 배포에 대해 Microsoft Exchange 통합을 사용하도록 설정하면 Exchange 정책은 Exchange 사용자에 대해 보관을 사용하도록 설정할지 여부를 In-Place 제어합니다. 자세한 내용은 [Plan for archiving in 비즈니스용 Skype 서버](../../plan-your-deployment/archiving/archiving.md) and Configure integration with Exchange storage for [비즈니스용 Skype 서버.](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md) 
+> 배포에 대해 Microsoft Exchange 통합을 사용하도록 설정하면 Exchange 정책은 Exchange 사서함을 보류로 설정한 사용자에 대해 보관을 사용할지 여부를 In-Place 제어합니다. 자세한 내용은 [Plan for archiving in 비즈니스용 Skype 서버](../../plan-your-deployment/archiving/archiving.md) [and Configure integration with Exchange storage for 비즈니스용 Skype 서버](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="archiving-configuration-options"></a>보관 구성 옵션
 
@@ -46,7 +46,7 @@ ms.locfileid: "60856795"
     
 - 데이터 제거 및 내보내기 설정
     
-이러한 옵션은 전역, 사이트 또는 풀 수준에서 설정할 수 있습니다. 자세한 내용은 [Manage archiving options in 비즈니스용 Skype 서버.](options.md)
+이러한 옵션은 전역, 사이트 또는 풀 수준에서 설정할 수 있습니다. 자세한 내용은 [Manage archiving options in 비즈니스용 Skype 서버](options.md).
   
 ## <a name="archiving-policies"></a>보관 정책
 
@@ -56,11 +56,11 @@ ms.locfileid: "60856795"
     
 - 외부 통신
     
-이러한 정책은 전역, 사이트 또는 사용자 수준에서 설정할 수 있습니다. 자세한 내용은 [Manage archiving policies in 비즈니스용 Skype 서버.](policies.md)
+이러한 정책은 전역, 사이트 또는 사용자 수준에서 설정할 수 있습니다. 자세한 내용은 [Manage archiving policies in 비즈니스용 Skype 서버](policies.md).
   
 ## <a name="manage-archiving-by-using-the-control-panel-or-by-using-windows-powershell"></a>제어판을 사용하여 또는 제어판을 사용하여 Windows PowerShell
 
-제어판을 사용하여 또는 제어판을 사용하여 보관을 관리할 Windows PowerShell. 다음 표에서는 보관을 관리하는 데 사용할 수 있는 cmdlet을 요약하여 제공합니다. 사용 가능한 모든 매개 변수를 포함하여 구문에 대한 자세한 내용은 비즈니스용 Skype 서버 [관리 셸을 참조합니다.](../management-shell.md) 
+제어판을 사용하여 또는 제어판을 사용하여 보관을 관리할 Windows PowerShell. 다음 표에서는 보관을 관리하는 데 사용할 수 있는 cmdlet을 요약하여 제공합니다. 사용 가능한 모든 매개 변수를 포함하여 구문에 대한 자세한 내용은 비즈니스용 Skype 서버 [관리 셸을 참조합니다](../management-shell.md). 
 
 
 |**Cmdlet**|**설명**|

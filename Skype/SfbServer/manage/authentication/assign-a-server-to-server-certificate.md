@@ -1,8 +1,8 @@
 ---
 title: 서버에 서버 대 서버 인증 인증서를 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,13 +12,13 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
-description: '요약: 서버 간 인증 인증서를 서버 간 인증 비즈니스용 Skype 서버.'
-ms.openlocfilehash: 30d62351d92a53c107e858ce1e0f88239f615208
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: '요약: 서버에 대한 서버 간 인증 인증서를 비즈니스용 Skype 서버.'
+ms.openlocfilehash: fdbfcf7e5708b1992c4e7bb10108a35085607477
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839950"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392620"
 ---
 # <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>서버에 서버 대 서버 인증 인증서를 비즈니스용 Skype 서버
 **요약:** 서버에 대한 서버 대 서버 인증 인증서를 비즈니스용 Skype 서버.
@@ -29,7 +29,7 @@ ms.locfileid: "60839950"
 Get-CsCertificate -Type OAuthTokenIssuer
 ```
 
-반환되는 인증서 정보가 없으면 토큰 발급자 인증서를 먼저 할당해야 서버 간 인증을 사용할 수 있습니다. 일반적으로 모든 비즈니스용 Skype 서버 인증서를 OAuthTokenIssuer 인증서로 사용할 수 있습니다. 예를 들어 기본 비즈니스용 Skype 서버 OAuthTokenIssuer 인증서로 사용할 수도 있습니다. OAUthTokenIssuer 인증서는 주체 필드에 SIP 도메인 이름을 포함하는 모든 웹 서버 인증서일 수도 있습니다. 서버 대 서버 인증에 사용되는 인증서의 기본 두 가지 요구 사항은 1)모든 프런트 엔드 서버에서 OAuthTokenIssuer 인증서로 구성해야 합니다. 2) 인증서가 2048비트 이상 있어야 합니다.
+반환되는 인증서 정보가 없으면 토큰 발급자 인증서를 먼저 할당해야 서버 간 인증을 사용할 수 있습니다. 일반적으로 모든 비즈니스용 Skype 서버 인증서를 OAuthTokenIssuer 인증서로 사용할 수 있습니다. 예를 들어 비즈니스용 Skype 서버 기본 인증서를 OAuthTokenIssuer 인증서로 사용할 수도 있습니다. OAUthTokenIssuer 인증서는 주체 필드에 SIP 도메인 이름을 포함하는 모든 웹 서버 인증서일 수도 있습니다. 서버 대 서버 인증에 사용되는 인증서의 기본 두 가지 요구 사항은 1)모든 프런트 엔드 서버에서 OAuthTokenIssuer 인증서로 구성해야 합니다. 2) 인증서가 2048비트 이상 있어야 합니다.
   
 서버 간 인증에 사용할 수 있는 인증서가 없는 경우 새로운 인증서를 받아 가져온 다음 서버 간 인증의 인증서로 사용해야 합니다. 새 인증서를 요청하여 받으면 새 인증서로 프런트 엔드 서버 중 하나에 로그온할 수 있으며, 다음과 유사한 Windows PowerShell 명령을 사용하여 인증서를 가져오고 할당할 수 있습니다.
   
@@ -48,7 +48,7 @@ Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x
 
 위의 명령에서 검색된 인증서는 전역 서버 대 서버 인증 인증서로 작동하도록 구성됩니다. 즉, 인증서가 모든 프런트 엔드 서버에 복제 및 사용됩니다. 이 명령은 프런트 엔드 서버 중 하나에서만 한 번만 실행해야 합니다. 모든 프런트 엔드 서버에서 동일한 인증서를 사용해야 하지만 각 프런트 엔드 서버에서 OAuthTokenIssuer 인증서를 구성하면 안 됩니다. 대신 인증서를 한 번 구성한 다음 비즈니스용 Skype 서버 복제 서버가 각 서버에 해당 인증서를 복사하도록 합니다.
   
-이 Set-CsCertificate 인증서를 사용하며 현재 OAuthTokenIssuer 인증서로 사용하도록 인증서를 즉시 구성합니다. (비즈니스용 Skype 서버 인증서 유형의 두 복사본, 현재 인증서 및 이전 인증서를 보관합니다.) 새 인증서가 OAuthTokenIssuer 인증서의 역할을 즉시 시작해야 하는 경우 해당 cmdlet을 Set-CsCertificate 합니다.
+이 Set-CsCertificate 인증서를 사용하며 현재 OAuthTokenIssuer 인증서로 사용하도록 인증서를 즉시 구성합니다. (비즈니스용 Skype 서버 인증서 유형의 두 복사본( 현재 인증서 및 이전 인증서)을 보관합니다. 새 인증서가 OAuthTokenIssuer 인증서의 역할을 즉시 시작해야 하는 경우 해당 cmdlet을 Set-CsCertificate 합니다.
   
 또한 Set-CsCertificate cmdlet을 사용하여 새 인증서를 "롤링"할 수 있습니다. 인증서를 "롤링"한다는 것은 단순히, 지정된 시점에 새 인증서를 현재 OAuthTokenIssuer 인증서로 사용하도록 구성한다는 의미입니다. 예를 들어 다음 명령은 기본 인증서를 검색한 다음 2015년 7월 1일을 현재 OAuthTokenIssuer 인증서로 인계하도록 해당 인증서를 구성합니다.
   
@@ -64,13 +64,13 @@ Windows PowerShell을 사용하지 않으려는 경우 인증서 MMC 콘솔을 �
 > [!CAUTION]
 > 이러한 경우 절차는 각 프런트 엔드 서버에서 수행해야 합니다. 이러한 방식으로 인증서를 내보내고 가져올 비즈니스용 Skype 서버 각 프런트 엔드 서버에 해당 인증서를 복제하지 않습니다. 
   
-인증서를 모든 프런트 엔드 서버로 가져온 후 인증서를 할당하지 않고 비즈니스용 Skype 서버 배포 마법사를 사용하여 인증서를 할당할 Windows PowerShell. 배포 마법사를 사용하여 인증서를 할당하려면 배포 마법사가 설치된 컴퓨터에서 다음 단계를 완료하십시오.
+인증서를 모든 프런트 엔드 서버로 가져온 후 인증서를 배포하는 대신 비즈니스용 Skype 서버 배포 마법사를 사용하여 해당 인증서를 할당할 Windows PowerShell. 배포 마법사를 사용하여 인증서를 할당하려면 배포 마법사가 설치된 컴퓨터에서 다음 단계를 완료하십시오.
   
-1. 시작, 모든 프로그램, 비즈니스용 Skype 서버 **를** 클릭한 다음 배포 **마법사 비즈니스용 Skype 서버 클릭합니다.**
+1. 시작, 모든 프로그램, 비즈니스용 Skype 서버, 배포 마법사 비즈니스용 Skype 서버 **클릭합니다**.
     
-2. 배포 마법사에서 시스템 **설치 또는 비즈니스용 Skype 서버 클릭합니다.**
+2. 배포 마법사에서 시스템 **설치 또는 비즈니스용 Skype 서버 클릭합니다**.
     
-3. 비즈니스용 Skype 서버 페이지에서 **3단계:** 인증서  요청, 설치 또는 할당 제목 아래의 실행 단추를 클릭합니다. 참고: 이 컴퓨터에서 인증서를 이미 설치한 경우 **실행** 단추 대신 **다시 실행** 이 나타납니다.
+3. 인증서 비즈니스용 Skype 서버 3단계: 인증서 요청, 설치 또는  할당 제목 아래에서 실행 **단추를 클릭합니다**. 참고: 이 컴퓨터에서 인증서를 이미 설치한 경우 **실행** 단추 대신 **다시 실행** 이 나타납니다.
     
 4. 인증서 마법사에서 **OAuthTokenIssuer** 인증서를 선택한 후 **지정** 을 클릭합니다.
     

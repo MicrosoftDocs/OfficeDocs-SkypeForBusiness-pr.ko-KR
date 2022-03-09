@@ -1,8 +1,8 @@
 ---
 title: 2013의 핵심 인프라에 대한 모범 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,20 +12,20 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 description: 하드웨어 중복성을 보장하거나 전력 손실에 대비하거나 보안 업데이트 및 바이러스 백신 수단을 정기적으로 설치하거나 서버 활동을 모니터링하는 등의 방법을 사용하여 시스템에서 내결함성을 설계하기 위한 조치를 이미 수행했을 수 있습니다. 이러한 사례는 비즈니스용 Skype 서버 인프라뿐만 아니라 전체 네트워크에서도 이점을 제공합니다. 이러한 방법을 구현하지 않은 경우 배포하기 전에 구현하는 비즈니스용 Skype 서버.
-ms.openlocfilehash: 352541cf2dfa91eef24f09c4aebd2788c589a10f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3cd9afbba6014536d146454144456edc91fbf9c0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860945"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400239"
 ---
 # <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>2013의 핵심 인프라에 대한 모범 비즈니스용 Skype 서버
  
 하드웨어 중복성을 보장하거나 전력 손실에 대비하거나 보안 업데이트 및 바이러스 백신 수단을 정기적으로 설치하거나 서버 활동을 모니터링하는 등의 방법을 사용하여 시스템에서 내결함성을 설계하기 위한 조치를 이미 수행했을 수 있습니다. 이러한 사례는 비즈니스용 Skype 서버 인프라뿐만 아니라 전체 네트워크에서도 이점을 제공합니다. 이러한 방법을 구현하지 않은 경우 배포하기 전에 구현하는 비즈니스용 Skype 서버.
   
-서버 배포의 서버를 비즈니스용 Skype 서버 수 있는 실수 또는 고의적인 손상으로부터 보호할 수 있도록 다음 예방 조치를 취하십시오.
+사용자 배포의 서버를 비즈니스용 Skype 서버 또는 의도적인 손상으로 인해 다운타임이 될 수 있는 경우를 방지할 수 있도록 다음 예방 조치를 취하십시오.
   
-- 보안 업데이트를 사용하여 서버를 최신 상태로 유지합니다. Microsoft Security Notification Service를 구독하면 Microsoft 제품의 보안 게시판 릴리스에 대한 알림을 즉각적으로 받을 수 있습니다. 구독을 위해 Microsoft 기술 보안 알림 웹 [사이트로 이동하세요.](https://go.microsoft.com/fwlink/p/?LinkId=145202)
+- 보안 업데이트를 사용하여 서버를 최신 상태로 유지합니다. Microsoft Security Notification Service를 구독하면 Microsoft 제품의 보안 게시판 릴리스에 대한 알림을 즉각적으로 받을 수 있습니다. 구독을 위해 Microsoft 기술 보안 알림 웹 [사이트로 이동하세요](https://go.microsoft.com/fwlink/p/?LinkId=145202).
     
 - 액세스 권한이 올바르게 설정되었는지 확인합니다.
     

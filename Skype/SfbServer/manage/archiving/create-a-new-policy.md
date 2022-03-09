@@ -1,8 +1,8 @@
 ---
 title: 새 보관 정책을 비즈니스용 Skype 서버
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: '요약: 새 보관 정책을 만드는 방법을 비즈니스용 Skype 서버.'
-ms.openlocfilehash: d60ca9399681bf44fadcf7767b7be1499e99cb99
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ffa2821ca4871a0e05d0afe2f162512a60df3897
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836450"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392640"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>새 보관 정책을 비즈니스용 Skype 서버
 
@@ -31,7 +31,7 @@ ms.locfileid: "60836450"
   
 1. CsArchivingAdministrator 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포된 컴퓨터에 로그온합니다. 
     
-2. 브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버 열 수 있습니다. 
+2. 브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버  열 수 있습니다. 
     
 3. 왼쪽 탐색 모음에서 **모니터링 및 보관** 을 클릭하고 **보관 정책** 을 클릭합니다.
     
@@ -54,9 +54,9 @@ ms.locfileid: "60836450"
 6. **커밋** 을 클릭합니다.
     
     > [!IMPORTANT]
-    > 사용자 정책 설정은 관리자가 정책을 적용한 특정 사용자 및 사용자 그룹에만 적용됩니다. 자세한 내용은 [Apply an archiving policy to users in 비즈니스용 Skype 서버.](apply-a-policy-to-users.md) 
+    > 사용자 정책 설정은 관리자가 정책을 적용한 특정 사용자 및 사용자 그룹에만 적용됩니다. 자세한 내용은 [Apply an archiving policy to users in 비즈니스용 Skype 서버](apply-a-policy-to-users.md). 
   
-## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>보관 정책을 사용하여 새 보관 정책을 Windows PowerShell
+## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>새 보관 정책을 사용하여 Windows PowerShell
 
 **New-CsArchivingPolicy** cmdlet을 사용하여 새 보관 정책을 Windows PowerShell 수 있습니다. 자세한 내용은 [New-CsArchivingPolicy](/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) cmdlet에 대한 도움말 항목을 참조하십시오.
   
