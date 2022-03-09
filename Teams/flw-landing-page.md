@@ -14,12 +14,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddcad10c08edbbd6010d5c1c576e4142a1a83383
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: f2ea4c6f1257b0b206d04c4ef8591c1f2d257292
+ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055368"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63388200"
 ---
 # <a name="get-started-with-teams-for-frontline-workers"></a>최전선 직원을 위한 Teams 시작
 
@@ -34,6 +34,8 @@ ms.locfileid: "62055368"
 - [최전방 직원을 위한 대규모 Microsoft Teams 프로비전하는 방법](flw-scripted-deployment.md)
 - [최전선 직원 및 관리자를 위한 정책 패키지](manage-policy-packages.md)
 - [최전방 직원을 위한 맞춤형 Teams 앱](pin-teams-apps-based-on-license.md)(출시 예정)
+- [Teams 로그인](sign-in-teams.md)
+- [Teams 로그아웃](sign-out-of-teams.md)
 - 최전선 직원을 위한 Microsoft의 앱:
   - [교대 근무](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
   - [작업](manage-tasks-app.md)

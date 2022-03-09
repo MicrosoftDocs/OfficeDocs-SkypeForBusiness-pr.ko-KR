@@ -3,7 +3,7 @@ title: Microsoft Teams에 대한 엔드투엔드 암호화
 author: kccross
 ms.author: krowley
 manager: laurawi
-ms.date: 10/23/2021
+ms.date: 03/08/2022
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -19,21 +19,21 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdce0e30c1aaa3b40f362acda47c1a9ffa35161f
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 202aee527896b331a6c8e64e1fc8736fa4942ecb
+ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518940"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63388192"
 ---
-# <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls-public-preview"></a>일대일 Microsoft Teams 통화에 엔드투엔드 암호화 사용(공개 미리 보기)
+# <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>일대일 Microsoft Teams 통화에 엔드투엔드 암호화 사용
 
 > [!IMPORTANT]
 > Teams 서비스 모델 및 암호화 지원은 고객 환경을 개선하기 위해 변경될 수 있습니다. 예를 들어 서비스는 더 이상 안전하지 않은 암호 그룹을 정기적으로 사용하지 않습니다. 그러한 변경 사항은 원칙적으로 Teams를 안전하고 신뢰할 수 있는 상태로 유지하는 것을 목표로 수행됩니다. 또한, Microsoft 데이터 센터의 모든 고객 콘텐츠가 암호화됩니다. Microsoft 365 암호화 계층에 대한 자세한 내용은 [Microsoft 365](/microsoft-365/compliance/encryption) 암호화를 참조하세요.
 
 E2EE(엔드투엔드 암호화)는 콘텐츠가 전송되기 전에 암호화되고 의도된 받는 사람만 암호를 해독하는 경우 발생합니다. 엔드투엔드 암호화를 사용하면 두 엔드포인트 시스템만 호출 데이터를 암호화하고 암호 해독하는 데 관여합니다. Microsoft를 포함한 다른 당사자는 암호가 해독된 대화에 액세스할 수 없습니다.
 
-이 공개 미리 보기 릴리스에서는 예약되지 않은 일대일 통화에 대한 E2EE를 배포합니다. 일대일 Teams 통화에 대한 실시간 미디어 흐름, 즉 비디오 및 음성 데이터만 엔드투엔드 암호화됩니다. 두 당사자 모두 엔드투엔드 암호화를 사용하도록 설정하려면 이 설정을 켜야 합니다. [Microsoft 365 암호화](/microsoft-365/compliance/encryption)는 통화에서 채팅, 파일 공유, 현재 상태 및 기타 콘텐츠를 보호합니다.
+예약되지 않은 일대일 통화에 대한 E2EE를 사용하면 일대일 Teams 통화의 실시간 미디어 흐름, 즉 비디오 및 음성 데이터만 엔드투엔드 암호화됩니다. 두 당사자 모두 엔드투엔드 암호화를 사용하도록 설정하려면 이 설정을 켜야 합니다. [Microsoft 365 암호화](/microsoft-365/compliance/encryption)는 통화에서 채팅, 파일 공유, 현재 상태 및 기타 콘텐츠를 보호합니다.
 
 엔드투엔드 암호화를 사용하도록 설정하지 않으면 Teams는 업계 표준에 따라 암호화를 사용하여 통화 또는 모임을 계속 보호합니다. 통화 중에 교환된 데이터는 전송 중이거나 미사용 상태일 때 항상 안전합니다. 자세한 내용은 [Teams에 대한 미디어 암호화](teams-security-guide.md#media-encryption)를 참조하세요.
 
@@ -109,7 +109,7 @@ Microsoft PowerShell 및 Teams 관리 센터를 사용하여 엔드투엔드 암
 
 #### <a name="to-enable-end-to-end-encryption-for-your-entire-tenant-using-the-global-policy"></a>전역 정책을 사용하여 전체 테넌트에서 엔드투엔드 암호화를 사용하도록 설정하려면
 
-기본적으로 엔드투엔드 암호화는 사용하지 않도록 설정됩니다. 기본 전역 정책을 설정하여 전체 테넌트에 엔드투엔드 암호화를 사용하도록 설정하려면 다음과 같이 [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy) cmdlet을 실행합니다.
+기본적으로 엔드 투 엔드 암호화는 사용하지 않도록 설정됩니다. 기본 전역 정책을 설정하여 전체 테넌트에 엔드투엔드 암호화를 사용하도록 설정하려면 다음과 같이 [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy) cmdlet을 실행합니다.
 
 ```powershell
 Set-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionEnabledType DisabledUserOverride
@@ -149,7 +149,7 @@ Grant-CsTeamsEnhancedEncryptionPolicy -Identity "username" -PolicyName "policyna
 
 - *`policyname`* 은 정책에 사용할 이름입니다. 정책 이름은 공백을 포함할 수 없습니다(예: ContosoE2EEUserPolicy).
 
-사용자는 엔드투엔드 암호화 통화를 하기 전에 Teams 설정에서 엔드투엔드 암호화 통화를 켜야 합니다. 지침은 [Teams 통화에 엔드투엔드 암호화 사용](https://support.microsoft.com/office/1274b4d2-b5c5-4b24-a376-606fa6728a90)을 참조하세요.
+사용자는 엔드투엔드 암호화 통화를 하기 전에 Teams 설정에서 엔드투엔드 암호화 통화를 켜야 합니다. [Teams 통화에 엔두투엔드 암호화 사용](https://support.microsoft.com/office/1274b4d2-b5c5-4b24-a376-606fa6728a90)에서 지침을 확인하세요.
 
 예를 들면 다음과 같습니다.
 
