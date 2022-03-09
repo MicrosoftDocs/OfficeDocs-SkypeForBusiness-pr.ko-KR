@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 생성하기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: 5f6c7701a3bf2979ef2c3541ec51f0f55d5e0a51
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 7a4e84d7f58d8239a5493afffea71878123f47b1
+ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062582"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63388080"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams Android 디바이스
 
@@ -48,7 +48,7 @@ ms.locfileid: "63062582"
 | Crestron UC-P10-T(핸드셋 및 핸드셋이 없는 경우)    | `1.0.0.80`       | 2023년 8월 5일            | 9 |
 | Crestron UC-P8-T(핸드셋 및 핸드셋이 없는 경우)     | `1.0.0.56`       | 2023년 8월 5일            | 9 |
 | Crestron UC-P10-C-T(핸드셋 사용 및 사용 안 하여)  | `1.0.0.80`       | 2023년 8월 5일            | 9 |
-| Crestron UC-P8-C-T(핸드셋 및 핸드셋이 없는 경우)   | `1.0.0.80`       | 2023년 8월 5일            | 9 |
+| Crestron UC-P8-C-T(핸드셋 및 핸드셋이 없는 경우)   | `1.0.0.56`       | 2023년 8월 5일            | 9 |
 | 오디오 코드 C470HD                      | `1.8.293   `                                               | 2023년 8월 5일               | 9 |
 | Yealink MP52                           | `145.15.0.6 `                                              | 2023년 8월 5일               | 9 |
 | AudioCodes C435HD                      | `1.12.33`                                                  | 2023년 8월 5일               | 9 |
@@ -221,6 +221,7 @@ ms.locfileid: "63062582"
 
 | 디바이스 모델  | 펌웨어 버전 | 포함된 제품 릴리스 |
 |:--------------|:-----------------|:-------------------------|
+| EPOS EXPAND Vision 3T |`1.2.4.22042.05`   | 2022 업데이트 #1 |
 | AudioCodes RXV80 | `1.16.164 `   | 2022 업데이트 #1 |
 | Yealink VC210 | `118.15.0.65`   | 2022 업데이트 #1    |
 | Yealink MeetingBar A20 | `133.15.0.80 `   | 2022 업데이트 #1   |
