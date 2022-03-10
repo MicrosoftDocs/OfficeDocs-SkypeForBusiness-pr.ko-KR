@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams의 공개 미리 보기
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ description: Microsoft Teams의 공개 미리 보기에 대해 자세히 알아�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: e4a223431cef73d1fd9ec0578148b9f9d6f1d6d8
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 3c07244e49d0c61986ae6eb2c9c9d8e1f522e37b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959877"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417331"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 공개 미리 보기
 
@@ -46,7 +46,7 @@ Teams 미리 보기에서 사용할 수 있는 항목 목록은 [Microsoft Teams
 
 2. 업데이트 정책 이름을 지정하고 설명을 추가하고 **미리 보기 기능 표시** 설정을 선택합니다.
 
-   -   **Office 미리 보기**(기본): 이 새로운 기본 옵션은 Office 현대 채널(프리뷰)에 등록된 모든 사용자에 대해 Teams 공개 미리보기 기능을 자동으로 활성화합니다. 최종 사용자에게 필요한 작업이 더 이상 없습니다.
+   -   **Office 미리 보기 (기본) 따르기**: 이 새로운 기본 옵션은 Office 현대 채널(프리뷰)에 등록된 모든 사용자에 대해 Teams 공개 미리 보기 기능을 자동으로 사용하도록 설정합니다. 최종 사용자가 더 이상 작업을 수행할 필요가 없습니다.
    -   **사용**: 이 옵션을 사용하면 사용자가 Office 현재 채널(프리뷰)에 등록되었는지 여부에 관계없이 Teams 공개 미리 보기를 사용할 수 있습니다. 또한 최종 사용자는 Teams 앱에서 Teams 공개 미리 보기에 옵트인해야 합니다.
 
    > [!NOTE]  
