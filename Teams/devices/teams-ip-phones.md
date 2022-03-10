@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 생성하기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: d91fb5f4c95fd63fda1d953c73ba26d105f05083
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: 7c33126f02a4a3236fb451e8e9efc0103c68abdd
+ms.sourcegitcommit: 47b14f57bc64544d63aec67b023ead13c71342b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392890"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63418830"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams Android 디바이스
 
@@ -223,22 +223,23 @@ ms.locfileid: "63392890"
 
 | 디바이스 모델  | 펌웨어 버전 | 포함된 제품 릴리스 |
 |:--------------|:-----------------|:-------------------------|
+| Logi Rallybar    |   `1.5.705`   | 2022 업데이트 #1    |
 | EPOS EXPAND Vision 3T |`1.2.4.22042.05`   | 2022 업데이트 #1 |
 | AudioCodes RXV80 | `1.16.164 `   | 2022 업데이트 #1 |
 | Yealink VC210 | `118.15.0.65`   | 2022 업데이트 #1    |
 | Yealink MeetingBar A20 | `133.15.0.80 `   | 2022 업데이트 #1   |
 | Yealink MeetingBar A30 | `133.15.0.80 `   | 2022 업데이트 #1   |
-| Yealink CTP18 | ` 137.15.0.49 `    | 2022 업데이트 #1   |
+| Yealink CTP18 | `137.15.0.49`    | 2022 업데이트 #1   |
 | Poly Studio X30 | `3.9.0` | 2021 업데이트 #2F   |
 | Poly Studio X50 | `3.9.0` | 2021 업데이트 #2F   |
 | Poly TC8        | `3.9.0`          | 2021 업데이트 #2F   |
 | Poly Studio X30 | `3.8.0`          | 2021 업데이트 #2    |
 | Poly Studio X50 | `3.8.0`          | 2021 업데이트 #2    |
 | Poly TC8        | `3.8.0`          | 2021 업데이트 #2    |
-| Logi Rallybar    | 1.3.538         | 2021 업데이트 #2B    |
-| Logi Rallybar Mini | 1.3.538       | 2021 업데이트 #2B    |
-| Logi Rallybar    | 1.4.228         | 2021 업데이트 #2B    |
-| Logi Rallybar Mini | 1.4.228       | 2021 업데이트 #2B    |
+| Logi Rallybar    | `1.3.538`         | 2021 업데이트 #2B    |
+| Logi Rallybar Mini | `1.3.538`       | 2021 업데이트 #2B    |
+| Logi Rallybar    | `1.4.228`         | 2021 업데이트 #2B    |
+| Logi Rallybar Mini | `1.4.228`       | 2021 업데이트 #2B    |
 | Poly Studio X30 | `3.7.0`          | 2021 업데이트 #2A    |
 | Poly Studio X50 | `3.7.0`          | 2021 업데이트 #2A    |
 | Poly TC8        | `3.7.0`          | 2021 업데이트 #2A    |
