@@ -21,12 +21,12 @@ description: Teams 또는 IT 관리자는 다른 도메인(페더레이션)에 �
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 86a1b83ab0eb2d15810f94d61d0f7faccc226aa4
-ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
+ms.openlocfilehash: ec2ee80d2475742380944b2e834b5c7b7cf24275
+ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/09/2022
-ms.locfileid: "63388100"
+ms.locfileid: "63392920"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams에서 외부 액세스 관리
 
@@ -46,10 +46,10 @@ ms.locfileid: "63388100"
 
 외부 액세스 정책에는 조직 및 사용자 수준 모두에서 각 유형의 페더레이션에 대한 제어가 포함됩니다. 조직 수준에서 정책을 끄면 사용자 수준 설정에 관계없이 모든 사용자에 대해 정책이 해제됩니다. 모든 외부 액세스 설정은 기본적으로 사용하도록 설정되어 있습니다.
 
-Teams 관리 센터는 조직 수준에서 외부 액세스를 제어합니다. 사용자 레버에서 외부 접근을 제어하려면 PowerShell을 사용해야 합니다. 자세한 내용은 아래의 [PowerShell 사용](#using-powershell)을 참조하세요.
+Teams 관리 센터는 조직 수준에서 외부 액세스를 제어합니다. 대다수 옵션(도메인 제한 제외)은 PowerShell을 이용하여 사용자 수준에서 사용할 수 있습니다. 자세한 내용은 아래의 [PowerShell 사용](#using-powershell)을 참조하세요.
 
 > [!NOTE]
-> 조직에서 외부 액세스를 끄더라도 조직 외부의 사용자는 여전히 익명 참여를 통해 모임에 참여할 수 있습니다. 자세한 내용은 [Teams에서 모임 정책 관리](meeting-settings-in-teams.md)를 참조하세요.
+> 조직에서 외부 액세스를 끄더라도 조직 외부의 사용자는 여전히 익명 참여를 통해 모임에 참여할 수 있습니다. [Teams 모임 설정 관리](meeting-settings-in-teams.md)에서 자세한 내용을 참조하세요.
 
 > [!NOTE]
 > Teams 사용자는 다른 조직의 사용자와 모임 또는 채팅을 호스트할 때 앱을 추가할 수 있습니다. 또한 해당 조직에서 호스트하는 모임 또는 채팅에 참가할 때 다른 조직의 사용자가 공유하는 앱을 사용할 수도 있습니다. 호스팅 사용자 조직의 데이터 정책과 해당 사용자 조직에서 공유하는 타사 앱의 데이터 공유 사례가 적용됩니다.
@@ -143,13 +143,13 @@ Teams 사용자가 연락처를 시작한 경우 조직의 Teams 사용자가 �
 
 조직 수준 설정은 [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)을 사용하여 구성할 수 있고 사용자 수준 설정은 [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)를 사용하여 구성할 수 있습니다.
 
-다음 표에는 페더레이션 구성에 사용되는 cmdlet 매개 변수가 나와 있습니다. 특정 도메인과의 페더레이션 구성은 사용자 수준이 아닌 조직 수준에서만 수행할 수 있습니다.
+다음 표에는 페더레이션 구성에 사용되는 cmdlet 매개 변수가 나와 있습니다.
 
 |구성|조직 수준(Set-CSTenantFederationConfiguration)|사용자 수준(Set-CsExternalAccessPolicy)|
 |:-------|:--------|:------------------|
 |다른 팀 조직 및 비즈니스용 Skype와의 페더레이션 사용/비활성화|`-AllowFederatedUsers`|`-EnableFederationAccess`|
-|특정 도메인과의 페더레이션 사용|`-AllowedDomains`|해당 없음|
-|특정 도메인과의 페더레이션 비활성화|`-Blocked Domains`|해당 없음|
+|특정 도메인과의 페더레이션 사용|`-AllowedDomains`|사용할 수 없음|
+|특정 도메인과의 페더레이션 비활성화|`-Blocked Domains`|사용할 수 없음|
 |조직에서 관리하지 않는 Teams 사용자와의 페더레이션 사용/비활성화|`-AllowTeamsConsumer`|`-EnableTeamsConsumerAccess`|
 |조직에서 관리하지 않는 Teams 사용자가 대화를 시작하지 못하도록 사용/비활성화|`-AllowTeamsConsumerInbound`|`-EnableTeamsConsumerInbound`|
 |Skype와의 페더레이션 사용/비활성화|`-AllowPublicUsers`|`-EnablePublicCloudAccess`|
@@ -161,11 +161,11 @@ Set-CsTenantFederationConfiguration -AllowFederatedUsers $false
 Set-CsExternalAccessPolicy -EnableFederationAccess $true
 ```
 
-이 예에서는 사용자 수준 정책이 사용하도록 설정되어 있어도 조직 수준에서 이러한 유형의 페더레이션이 해제되어 있으므로 사용자가 관리되는 Teams 사용자 또는 비즈니스용 Skype 사용자와 통신할 수 없습니다. 따라서 일부 사용자에 대해 이러한 제어를 활성화하려면 조직 수준에서 제어를 켜고 두 개의 그룹 정책을 만들어야 합니다. 하나는 제어를 꺼야 하는 사용자에게 적용되고 다른 하나는 컨트롤을 켜야 하는 사용자에게 적용되는 그룹 정책입니다.
+이 예에서는 사용자 수준 정책이 사용하도록 설정되어 있어도 조직 수준에서 이러한 유형의 페더레이션이 해제되어 있으므로 사용자가 관리되는 Teams 사용자 또는 비즈니스용 Skype 사용자와 통신할 수 없습니다. 따라서 일부 사용자에 대해 이러한 제어를 활성화하려면 조직 수준에서 제어를 켜고 두 개의 그룹 정책을 만들어야 합니다. 하나는 제어를 꺼야 하는 사용자에게 적용되고, 다른 하나는 컨트롤을 켜야 하는 사용자에게 적용되는 그룹 정책입니다.
 
 ## <a name="limit-external-access-to-specific-people"></a>특정 사용자에 대한 외부 액세스 제한
 
-조직 수준에서 외부 액세스 제어를 사용하도록 설정한 경우 PowerShell을 사용하여 특정 사용자에 대한 외부 액세스를 제한할 수 있습니다.
+조직 수준에서 외부 액세스 제어를 사용하도록 설정한 경우 PowerShell을 이용하여 특정 사용자에 대한 외부 액세스를 제한할 수 있습니다.
 
 다음 예제 스크립트를 사용할 수 있습니다. 변경하려는 컨트롤은 *Control*, 정책에 부여할 이름은 *PolicyName*, *UserName* 은 외부 액세스를 사용/비활성화하려는 각 사용자.
 
