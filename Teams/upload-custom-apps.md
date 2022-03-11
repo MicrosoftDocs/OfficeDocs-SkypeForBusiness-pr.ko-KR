@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 사용자 지정 앱을 조직의 앱 스토어에 업로드하는 방법을 Microsoft Teams 있습니다.
-ms.openlocfilehash: f9cbbfb60b2bb93cb3f687e6da8c6595f5cc185b
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: b797d8728fba283ccb2f62a46bc6ac00a947c29a
+ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070187"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63435832"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>앱 패키지를 업로드하여 사용자 지정 앱 게시
 
@@ -116,12 +116,10 @@ Microsoft는 이러한 <a href="/microsoftteams/platform/publishing/office-store
 * 봇이 추가되거나 제거되었습니다.
 * 기존 봇의 "botId" 속성이 변경된 경우
 * 기존 봇의 "isNotificationOnly" 속성이 변경된 경우
-* 봇의 "supportsFiles" 속성이 변경된 경우
-* 메시징 확장이 추가되거나 제거되었습니다.
+* 봇의 SupportsCalling, SupportsVideo 및 SupportsFiles 기능이 추가되었습니다.
+* 메시징 확장이 추가되었습니다.
 * 새 커넥터가 추가되었습니다.
-* 새 정적 탭이 추가되었습니다.
-* 새 구성 가능한 탭이 추가되었습니다.
-* "webApplicationInfo" 내부 속성이 변경되었습니다.
+* "권한 부여" 내부 사용 권한이 추가되거나 변경되었습니다.
 
 ![새 버전을 사용할 수 있는 앱을 보여 주며 앱 목록의 스크린샷입니다.](media/manage-your-custom-apps-update1.png)
 
