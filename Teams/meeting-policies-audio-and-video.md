@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: 오디오 및 비디오에 대한 Teams 모임 정책 설정을 관리하는 방법을 학습합니다.
-ms.openlocfilehash: 9513650bf9c177154b45d7bd5dcda85354cf390b
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: a9fc08208d35880637e5f044285a19fb97357157
+ms.sourcegitcommit: 2b858f5e7281705b383522615b6ade6eba347df5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766951"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448811"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>오디오 비디오에 대한 모임 정책 & 설정
 
@@ -39,6 +39,7 @@ ms.locfileid: "61766951"
 - [미디어 비트 전송률(Kb)](#media-bit-rate-kbs)
 - [비디오 필터 모드](#video-filters-mode)
 - [사용자 지정 배경 설정 허용](#allow-custom-background-settings)
+- [지점 기울기 확대/축소(PTZ) 카메라에 대한 FECC(극단 카메라 제어)](#far-end-camera-control-fecc-for-point-tilt-zoom-ptz-cameras)
 
 ### <a name="mode-for-ip-audio"></a>IP 오디오 모드
 
@@ -64,7 +65,7 @@ Microsoft 365 정부 커뮤니티 클라우드(GCC), GCC High 또는 국방부(D
 |설정값 |동작  |
 |---------|---------|
 |**발신 및 수신 비디오 사용**    | 모임에서 내보내기 및 들어오는 비디오가 허용됩니다. 기본 설정입니다. |
-|**사용 안 함**     | 모임에서 발신 및 수신 비디오가 해제되었습니다. Teams 모바일 클라이언트 사용자는 모임에서 비디오나 사진을 공유할 수 없습니다. <br><br>IP 오디오 **모드가** 비활성화된 경우 **IP** 비디오 모드도 비활성화 상태로 유지됩니다.  |
+|**사용 안 함**     | 모임에서 발신 및 수신 비디오가 해제되었습니다. Teams 모바일 클라이언트 사용자는 모임에서 비디오나 사진을 공유할 수 없습니다. <br><br>**IP 오디오 모드가** 비활성화된 경우 **IP** 비디오 모드도 비활성화 상태로 유지됩니다.  |
 
 사용자에 대해 **사용 안 함** 설정되어 있으면 해당 사용자는 비디오를 켜거나 다른 모임 참가자가 공유한 비디오를 볼 수 없습니다. 정책이 할당되지 않은 모임 참가자(예: 익명 참가자)는 기본적으로 **발신 및 수신 비디오 사용** 으로 설정되어 있습니다.
 
@@ -124,16 +125,16 @@ Daniela가 비디오를 켠 채로 Amanda에게 전화하는 경우 Amanda는 �
 |모임 참가자의 오디오 및 비디오 비활성화  |IP 오디오 모드: **사용 안 함**<br> IP 비디오 모드: **사용 안 함**<br>IP 비디오: N/A       |
 |모임 참가자에 대해 수신 비디오 및 오디오만 사용하도록 설정  |IP 오디오 모드: **발신 및 수신 오디오 사용**<br> IP 비디오 모드: **발신 및 수신 비디오 사용**<br>IP 비디오: **끄기**       |
 |모임 참가자에 대해 비디오 비활성화(참가자는 오디오만 사용)|  IP 오디오 모드: **발신 및 수신 오디오 활성화**<br> IP 비디오 모드: **사용 안 함**<br>IP 비디오: N/A
-|모임 참가자의 오디오 및 비디오 활성화    |IP 오디오 모드: **발신 및 수신 오디오 사용**(기본 설정)<br> IP 비디오 모드: **발신 및 수신 비디오 사용**(기본 설정)<br>IP 비디오: **On(기본값)**    |
+|모임 참가자의 오디오 및 비디오 활성화    |IP 오디오 모드: **발신 및 수신 오디오 사용**(기본 설정)<br> IP 비디오 모드: **발신 및 수신 비디오 사용**(기본 설정)<br>IP 비디오: **On** (기본값)    |
 
 모임 이끌이의 정책과 사용자 정책 간의 가장 제한적인 정책이 적용됩니다. 예를 들어 이끌이 정책이 비디오를 제한하고 사용자 정책이 비디오를 제한하지 않는 경우 모임 참가자는 모임 이끌이의 정책을 상속하고 모임에서 비디오에 액세스할 수 없습니다. 즉, 오디오만 켜진 상태에서 모임에 참가할 수 있습니다.
 
 > [!NOTE]
-> 사용자가 전화로 연결하는 그룹 통화를 시작하면 **음성 전화 사용** 화면이 나타나지 않습니다. 이 문제는 알려진 문제이며 현재 해결하기 위해 작업 중입니다. 이 문제를 해결하려면 **다른 참가 옵션** 에서 **음성전화** 를 선택합니다.  
+> 사용자가 전화로 연결하는 그룹 통화를 시작하면 **음성 전화 사용** 화면이 나타나지 않습니다. 이 문제는 알려진 문제이며 현재 해결하기 위해 작업 중입니다. 이 문제를 해결하려면 **다른 참가 옵션** 에서 **음성전화** 를 선택합니다.
 
 #### <a name="teams-mobile-clients"></a>Teams 모바일 클라이언트
 
-모바일 Teams 사용자의 경우 모임 중에 사진 및 비디오를 공유할 수 있는 능력도 IP 비디오 또는 **IP** 비디오 모드 설정에 **따라 결정됩니다.** 우선하는 정책 설정에 따라 비디오 및 사진을 공유하는 기능을 사용할 수 없습니다. 이 설정은 화면 공유에는 영향을 미치지 않으며, 이는 별도로 [화면 공유 모드](meeting-policies-content-sharing.md#screen-sharing-mode) 설정을 사용하여 구성합니다. 또한 휴대폰 사용자가 휴대폰 연결을 통해 IP 비디오를 사용하지 못하도록 [Teams 이동성 정책](/powershell/module/skype/new-csteamsmobilitypolicy)을 설정할 수 있습니다. 이러면 Wi-Fi 연결을 사용해야 합니다.
+모바일 Teams 사용자의 경우 모임 중에 사진 및 비디오를 공유할 수 있는 능력은 IP 비디오 또는 **IP** 비디오 모드 설정에 **따라 결정** 됩니다. 우선하는 정책 설정에 따라 비디오 및 사진을 공유하는 기능을 사용할 수 없습니다. 이 설정은 화면 공유에는 영향을 미치지 않으며, 이는 별도로 [화면 공유 모드](meeting-policies-content-sharing.md#screen-sharing-mode) 설정을 사용하여 구성합니다. 또한 휴대폰 사용자가 휴대폰 연결을 통해 IP 비디오를 사용하지 못하도록 [Teams 이동성 정책](/powershell/module/skype/new-csteamsmobilitypolicy)을 설정할 수 있습니다. 이러면 Wi-Fi 연결을 사용해야 합니다.
 
 ### <a name="media-bit-rate-kbs"></a>미디어 비트 전송률(Kb)
 
@@ -169,15 +170,15 @@ CEO 이사회 모임 및 Teams 라이브 이벤트와 같이 최고 품질의 �
 
 1. Teams 관리 센터에 로그인합니다.
 
-2. 모임 **모임 정책** 사용자 지정 모임 이미지를  >    >  **선택합니다.**
+2. **MeetingsMeeting** >  **PoliciesCustomize** >  모임 이미지를 선택합니다.
 
    ![모임 이미지 사용자 지정 단추가 강조 표시된 모임 정책 선택](media/custom-background-image-button.png)
 
-3. Org **넓은** 배경 **이미지에서 On을 선택합니다.**
+3. Org **넓은** 배경 **이미지에서 On을 선택합니다**.
 
-4. **+ 이미지 추가를 선택합니다.**
+4. **+ 이미지 추가를 선택합니다**.
 
-5. 배경 관리 패널에서 이미지 추가 **를 선택합니다.**
+5. 배경 관리 패널에서 이미지 추가 **를 선택합니다**.
 
 6. 이미지가 다음 요구 사항을 충족하는지 확인합니다.
   
@@ -186,7 +187,7 @@ CEO 이사회 모임 및 Teams 라이브 이벤트와 같이 최고 품질의 �
    - PNG, JPG 또는 BMP의 파일 형식
    - 최대 50개 이미지를 업로드할 수 있습니다.
 
-7. 선택한 이미지를 미리 보고 닫기 를 **선택합니다.**
+7. 선택한 이미지를 미리 보고 닫기 를 **선택합니다**.
 
 8. 이미지를 검토하고 필요한 경우 더 추가합니다.
 
@@ -199,6 +200,27 @@ CEO 이사회 모임 및 Teams 라이브 이벤트와 같이 최고 품질의 �
 
 > [!NOTE]
 > 이 기능은 모든 고객에 대해 공개 미리 보기에서 Microsoft Teams 있습니다. 미리 보기 후 이 기능을 사용하려면 각 사용자에게 고급 통신 추가 기능 라이선스가 필요합니다. 자세한 내용은 [Microsoft Teams를 위한 고급 통신 추가 기능](/microsoftteams/teams-add-on-licensing/advanced-communications)을 참조하세요.
+
+### <a name="far-end-camera-control-fecc-for-point-tilt-zoom-ptz-cameras"></a>지점 기울기 확대/축소(PTZ) 카메라에 대한 FECC(극단 카메라 제어)
+
+극단 카메라 제어는 리소스 계정에 대해 Teams 룸 Windows 정책입니다. 이 기능을 사용하면 모임 중에 Teams 클라이언트 앱의 모임 참가자가 Teams 회의실에 연결된 PTZ 카메라를 제어할 수 있습니다.
+
+멀리 있는 카메라 컨트롤을 사용하려면 모임 참가자가 **PTZ 카메라 컨트롤 앱을 다운로드해야** 합니다.  앱 [허용 및](manage-apps.md#allow-and-block-apps) 차단을 참조하여 조직의 앱 스토어에서 앱을 사용할 수 있도록 하는 방법을 알아보고 있습니다.
+
+모임에서 극단 카메라 컨트롤을 사용할 수 있는 사용자 지정하려면 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy?view=skype-ps) cmdlet을 사용하여 새 정책을 Teams 룸 새 정책을 만들고 할당하거나 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)를 사용하여 기존 정책을 수정합니다. 매개 변수 `TeamsCameraFarEndPTZMode` 를 다음 값 중 하나로 설정합니다.
+
+| 설정값 | 동작 |
+|---------------|----------|
+|사용 안 함 | 기본 설정입니다. '사용하지 않도록 설정'으로 설정하면 아무도 PTZ 카메라 컨트롤을 사용할 수 없습니다. |
+|AutoAcceptAll | PTZ 카메라 컨트롤은 모든 모임 참가자가 자동으로 사용할 수 있습니다. |
+|AutoAcceptInTenant | PTZ 카메라 컨트롤은 룸과 동일한 조직의 참가자만 자동으로 Teams 수 있습니다. |
+
+또는 `TeamsCameraFarEndPTZMode` 로 설정 `AutoAcceptAll` `AutoAcceptInTenant`되어 있는 경우, 모임 중에 언제든 Teams 회의실에서 카메라 컨트롤을 수동으로 해제할 수 있습니다. 카메라가 꺼져 있는 경우에도 카메라 컨트롤을 사용할 수 없습니다.
+
+기계적 PTZ 및 UVC 컨트롤이 있는 모든 카메라가 지원됩니다. PTZ 및 비 PTZ 카메라를 포함하여 Teams 인증된 카메라 목록은 USB 오디오 및 비디오 주변 장치를 위한 인증된 펌웨어 버전을 참조[하세요](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals). 이 기능은 아직 디지털 PTZ 컨트롤이 있는 카메라 또는 Android에서 Teams 룸 지원되지 않습니다.  
+
+> [!NOTE]
+> PTZ 컨트롤을 테스트하기 전에 카메라 펌웨어를 업데이트합니다. 펌웨어를 업데이트하기 위해 원래 OEM(장비 제조업체) 설명서를 참조하세요.
 
 ## <a name="related-topics"></a>관련 항목
 
