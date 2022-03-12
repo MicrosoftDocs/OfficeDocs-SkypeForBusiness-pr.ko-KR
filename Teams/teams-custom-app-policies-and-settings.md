@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 391c852edc1eef06c41277a43661fc1cf15b7cd6
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: b2225429eee73ecd5c6b33b62d4d1be24da306b9
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070357"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442544"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>사용자 지정 앱 정책 및 설정 관리 Microsoft Teams
 
@@ -56,7 +56,7 @@ ms.locfileid: "63070357"
 ### <a name="user-custom-app-policy"></a>사용자 지정 앱 정책
 
 앱 설정 정책의 일부[로 관리자는 사용자](teams-app-setup-policies.md) 지정 앱을 업로드 정책 설정을 사용하여 사용자가 사용자 지정 앱을 업로드할 수 있는지 여부를 Teams.
- 
+
 이 설정이 꺼져 있는 경우:
 
 - 사용자는 조직 또는 개인 컨텍스트에서 사용자 지정 앱을 업로드할 수 없습니다.
@@ -65,7 +65,7 @@ ms.locfileid: "63070357"
 이 설정이 켜져 있는 경우:
 
 - 사용자는 전체 사용자 지정 앱 설정에 따라 사용자 지정 앱을 허용하는 팀과 소유자인 팀에 업로드할 수 있습니다.
-- 사용자는 사용자 지정 앱을 개인 컨텍스트에 업로드할 수 있습니다. 
+- 사용자는 사용자 지정 앱을 개인 컨텍스트에 업로드할 수 있습니다.
 - 사용자는 사용자 지정 앱 설정에 따라 사용자 지정 앱과 상호 작용할 수 있습니다.
 
 전역 앱 설정 정책에서 설정을 편집하여 원하는 앱을 포함할 수 있습니다. 조직의 여러 사용자 Teams 사용자 지정을 사용자 지정하려는 경우 하나 이상의 사용자 지정 앱 설정 정책을 만들고 할당합니다.
@@ -81,7 +81,7 @@ ms.locfileid: "63070357"
 ### <a name="team-custom-app-setting"></a>팀 사용자 지정 앱 설정
 
 관리자 및 팀 소유자는 팀에서 사용자 지정 앱을 추가할 수 있는지 여부를 제어할 수 있습니다. 이 **설정은 사용자** 지정 앱 정책과 함께 구성원이 사용자 지정 앱을 업로드하도록 허용하여 특정 팀에 사용자 지정 앱을 추가할 수 있는 사용자를 결정합니다.
- 
+
 이 설정이 꺼져 있는 경우:
 
 - 사용자 지정 앱 정책에서 허용하는 경우 팀 소유자는 사용자 지정 앱을 추가할 수 있습니다.

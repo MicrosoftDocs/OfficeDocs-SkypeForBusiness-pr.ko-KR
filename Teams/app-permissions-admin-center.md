@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30425631f0f3058d0fe39542b929e01bf0344367
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 54fbd67fffa666e7f07719305075be264f077976
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070367"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442274"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>관리 센터에서 앱 사용 권한 보기 및 Microsoft Teams 동의 부여
 
@@ -30,7 +30,7 @@ ms.locfileid: "63070367"
 
 전역 관리자인 경우 조직의 모든 사용자를 대신하여 권한을 요청하는 앱에 대한 동의를 검토하고 동의할 수 있습니다. 사용자가 앱을 시작할 때 앱에서 요청한 권한을 검토하고 수락할 필요는 없습니다. 또한 Azure AD(Azure AD)의 사용자의 동의 [](/azure/active-directory/manage-apps/configure-user-consent) 설정에 Azure Active Directory 회사 데이터에 액세스하는 앱에 대한 동의를 허용하지 않을 수 있습니다.
 
-앱에서 요청하는 사용 권한의 예로는 팀에 저장된 정보를 읽고, 사용자의 프로필을 읽고, 사용자를 대신하여 전자 메일을 보낼 수 있는 기능을 들 수 있습니다. 자세한 내용은 엔드포인트의 사용 [권한 및 동의를 Microsoft ID 플랫폼 참조합니다](/azure/active-directory/develop/v2-permissions-and-consent). 
+앱에서 요청하는 사용 권한의 예로는 팀에 저장된 정보를 읽고, 사용자의 프로필을 읽고, 사용자를 대신하여 전자 메일을 보낼 수 있는 기능을 들 수 있습니다. 자세한 내용은 엔드포인트의 사용 [권한 및 동의를 Microsoft ID 플랫폼 참조합니다](/azure/active-directory/develop/v2-permissions-and-consent).
 
 사용 **권한 열** 은 앱에 동의가 필요한 권한이 있는지 여부를 나타냅니다. 동의가 필요한 권한이 있는  Azure AD에 등록된 각 앱에 대한 보기 세부 정보 링크가 표시됩니다. 이 기능은 사용자 지정 및 타사 앱에만 적용됩니다. 이 링크가 표시되거나 Microsoft에서 게시한 앱에 대한 관리자 동의를 부여해야 합니다.
 
@@ -64,15 +64,15 @@ ms.locfileid: "63070367"
 조직의 사용자가 동의를 부여할 수 있으며 특정 앱에 대해 하나 이상의 사용자가 동의를 부여한 경우 Azure AD 포털의 앱 페이지에 대한 Azure Active Directory 알 수 있는 동일한 메시지가 표시됩니다.
 
 > [!NOTE]
-> 서비스 관리자에게  는 검토 권한 및 동의 옵션을 사용할 수 Teams 수 있으며 앱에 대한 전체 관리자 동의를 부여할 수 Teams 서비스 관리자는 앱의 사용 권한 탭에서 콘텐츠를 볼 수 있습니다. 예를 들어 Teams 서비스 관리자는 Azure AD 포털에서 앱 Azure Active Directory 세부 정보를  보려면 앱 링크를 클릭할 수 있습니다. 
+> 서비스 관리자에게  는 검토 권한 및 동의 옵션을 사용할 수 Teams 수 있으며 앱에 대한 전체 관리자 동의를 부여할 수 Teams 서비스 관리자는 앱의 사용 권한 탭에서 콘텐츠를 볼 수 있습니다. 예를 들어 Teams 서비스 관리자는 Azure AD 포털에서 앱 Azure Active Directory 세부 정보를  보려면 앱 링크를 클릭할 수 있습니다.
 
 ## <a name="view-resource-specific-consent-permissions-of-an-app"></a>앱의 리소스별 동의 권한 보기
 
-RSC 권한을 통해 팀 소유자는 앱에 대한 동의를 부여하여 팀의 데이터에 액세스하고 수정할 수 있습니다. RSC 권한은 특정 Teams 앱에서 할 수 있는 작업을 정의하는 세분화된 특정 권한입니다. RSC 사용 권한의 예로는 채널을 만들고 삭제하고, 팀에 대한 설정을 구하고, 채널 탭을 만들고 제거할 수 있는 기능을 들 수 있습니다. 
+RSC 권한을 통해 팀 소유자는 앱에 대한 동의를 부여하여 팀의 데이터에 액세스하고 수정할 수 있습니다. RSC 권한은 특정 Teams 앱에서 할 수 있는 작업을 정의하는 세분화된 특정 권한입니다. RSC 사용 권한의 예로는 채널을 만들고 삭제하고, 팀에 대한 설정을 구하고, 채널 탭을 만들고 제거할 수 있는 기능을 들 수 있습니다.
 
 RSC 권한은 Azure AD가 아닌 앱 매니페스트에 정의됩니다. 팀에 앱을 추가할 때 RSC 사용 권한에 대한 동의를 부여합니다. 자세한 내용은 [RSC(리소스별 동의)를 참조하세요](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
 
-전역 관리자 및 Teams 서비스 관리자는 앱 세부 정보 페이지의 사용 권한 탭에서 앱에 대한 RSC 권한을 볼 수  있습니다. 
+전역 관리자 및 Teams 서비스 관리자는 앱 세부 정보 페이지의 사용 권한 탭에서 앱에 대한 RSC 권한을 볼 수  있습니다.
 
 앱에 대한 RSC 권한을 보기 위해 다음 단계를 수행합니다.
 

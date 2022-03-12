@@ -21,12 +21,12 @@ MS.collection:
 - microsoftcloud-retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ad0324509849700ea74afe582d4ce7a4934dc3e
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 90bdf2661432a5d68b8f6a727a272855f1a52173
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070597"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442454"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 작업 앱 관리
 
@@ -91,12 +91,12 @@ ms.locfileid: "63070597"
 
 작업 게시를 통해 조직은 조직 전체의 특정 위치(팀)를 대상으로 하는 작업 목록을 게시하여 해당 위치에서 완료할 작업 계획을 정의하고 공유할 수 있습니다.
 
-- 회사 또는 지역 리더십과 같은 게시 팀의 사람들은 작업 목록을 만들어 특정 팀에 게시할 수 있습니다.<br>
+- 회사 또는 지역 리더십과 같은 게시 팀의 사람들은 작업 목록을 만들어 특정 팀에 게시할 수 있습니다.
     ![작업 게시의 스크린샷입니다.](media/manage-tasks-app-publish.png)
-- 받는 팀의 관리자는 게시된 작업 목록을 검토하고 팀 구성원에게 개별 작업을 할당할 수 있습니다.<br>
+- 받는 팀의 관리자는 게시된 작업 목록을 검토하고 팀 구성원에게 개별 작업을 할당할 수 있습니다.
     ![작업 할당의 스크린샷입니다.](media/manage-tasks-app-assign.png)
 - 일선 작업자는 자신에게 할당된 작업을 모는 간단한 모바일 환경을 소유합니다. 적절한 경우 사진을 첨부하여 작업을 표시하고 작업을 완료로 표시할 수 있습니다.
-- 게시자 및 관리자는 보고서를 보고 위치(팀), 작업 목록, 개별 작업 등 각 수준에서 작업의 배정 및 완료 상태를 확인할 수 있습니다.<br>
+- 게시자 및 관리자는 보고서를 보고 위치(팀), 작업 목록, 개별 작업 등 각 수준에서 작업의 배정 및 완료 상태를 확인할 수 있습니다.
     ![모바일에서 할당된 작업 스크린샷.](media/manage-tasks-app-reporting.png)
 
 사용자는 작업 탭의 **게시된 목록** 탭에서 작업 목록을 만들고 관리하고 게시합니다. 이 탭은 조직에서 [계층 구조 대상 설정하고](#set-up-your-team-targeting-hierarchy) 사용자가 계층 구조에 포합된 팀에 있는 경우 사용자에게만 표시됩니다. 계층 구조에 따라 사용자가 작업 목록을 게시하거나 받을 수 있는지와 받은 목록에 대한 보고를 볼 수 있는지가 결정됩니다.

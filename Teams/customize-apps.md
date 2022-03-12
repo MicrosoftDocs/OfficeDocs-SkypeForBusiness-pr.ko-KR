@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 앱에서 앱을 사용자 지정하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 7fb940ed512c96bd4aa4519bcdabbf9adcbe86a8
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 1f32b7f7d00b6737d959a1687574ce4560bd4725
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070427"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442644"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>앱 사용자 지정 Microsoft Teams
 
@@ -85,19 +85,19 @@ ms.locfileid: "63070427"
 > [!Note]
 > 앱 개발자가 사용자 지정 가능으로 할당한 필드만 표시됩니다.
 
-5. 아이콘 **섹션을 확장** 합니다.
+1. 아이콘 **섹션을 확장** 합니다.
 
-   1. 업로드 아이콘을 표시합니다. PNG 형식으로 하나의 전체 색 아이콘(192x192) 픽셀을 사용 합니다.
+1. 업로드 아이콘을 표시합니다. PNG 형식으로 하나의 전체 색 아이콘(192x192) 픽셀을 사용 합니다.
 
-   1. 아이콘 개요 색을 선택 합니다. 투명한 윤곽선(32x32) 픽셀을 PNG 형식으로 사용
+1. 아이콘 개요 색을 선택 합니다. 투명한 윤곽선(32x32) 픽셀을 PNG 형식으로 사용
 
-   1. 아이콘과 일치하는 앱 악센트 색을 선택합니다.
+1. 아이콘과 일치하는 앱 악센트 색을 선택합니다.
 
-    ![아이콘 패널 색 옵션을 사용자 지정합니다.](media/customize-app-colors.png)
+   ![아이콘 패널 색 옵션을 사용자 지정합니다.](media/customize-app-colors.png)
 
-6. 앱을 사용자 지정한 후 적용을 **선택합니다**.
+1. 앱을 사용자 지정한 후 적용을 **선택합니다**.
 
-7. 게시 **를 선택하여** 사용자 지정된 앱을 게시합니다.
+1. 게시 **를 선택하여** 사용자 지정된 앱을 게시합니다.
 
    이제 사용자 지정된 앱이 앱 관리 페이지에 **나열** 됩니다. 앱 기능을 사용자 지정해도 앱의 복사본을 만들지 않습니다.
 
@@ -110,6 +110,7 @@ ms.locfileid: "63070427"
 다음 노트에는 앱 사용자 지정에 대한 중요한 세부 정보가 포함되어 있습니다.
 
 > [!Note]
+>
 > - 앱 및 앱과 관련된 설명을 사용자 지정할 때 해당 설명서 또는 사용 약관에 앱 게시자가 제공한 사용자 지정 지침을 준수해야 합니다. 또한 사용할 수 있는 타사 이미지와 관련하여 다른 사용자의 권리를 존중할 책임도 있습니다.
 > - 관리자 제공 사용자 지정 데이터는 가장 가까운 지역에 저장됩니다.
 > - 귀하는 사용 약관 또는 개인 정보 취급 방침에 대한 링크가 유효한지 확인해야 합니다.

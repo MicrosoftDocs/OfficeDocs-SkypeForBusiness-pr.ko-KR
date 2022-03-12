@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 관리 센터에서 Microsoft Power Platform을 사용하여 구축된 사용자 지정 앱에 대한 Microsoft Teams 방법을 알아보고 있습니다.
-ms.openlocfilehash: d2ccb100a0d6354b1fca62911b17afdd3479887b
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: c093d432faa8d4977f4d931ac948a35dc6fe6509
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070537"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442674"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>관리 센터에서 Microsoft Power Platform Microsoft Teams 관리
 
@@ -76,7 +76,7 @@ Microsoft Power Platform 앱이 만들어지거나 공유되면 사용자는 동
 
 ### <a name="allow-or-block-microsoft-power-platform-apps-for-specific-users"></a>특정 사용자에 대한 Microsoft Power Platform 앱 허용 또는 차단
 
-조직에서 특정 사용자가 사용자 지정 앱 또는 Power Apps 액세스하지 Power Virtual Agents 허용하거나 차단하려면 하나 이상의 사용자 지정 앱 사용 권한 정책을 만들고 할당[합니다](teams-app-permission-policies.md). 
+조직에서 특정 사용자가 사용자 지정 앱 또는 Power Apps 액세스하지 Power Virtual Agents 허용하거나 차단하려면 하나 이상의 사용자 지정 앱 사용 권한 정책을 만들고 할당[합니다](teams-app-permission-policies.md).
 
 예를 들어 특정 사용자가 만든 앱에 Power Apps 차단하려면 사용자 지정 앱 사용 권한 정책을 만들어 공유 Power Apps 차단한 **다음 해당 사용자에게** 정책을 할당합니다.
 
@@ -84,7 +84,7 @@ Microsoft Power Platform 앱이 만들어지거나 공유되면 사용자는 동
 
 ### <a name="use-audit-logs-to-investigate-microsoft-power-platform-installation-activity"></a>감사 로그를 사용하여 Microsoft Power Platform 설치 활동을 조사합니다.
 
-사용자에 대한 감사 로그를 사용하여 Teams 앱 페이지의 기본 제공 섹션에서 사용자가 Microsoft Power Platform 앱을 설치한 이벤트를 조사할  수 Teams. 이렇게하려면 사용자 또는 [](./audit-log-events.md) 사용자 집합에 대해 설치된 앱  Teams 이벤트(**AppInstalled 작업** 아래)에 대한 감사 로그를 검색합니다. 동료가 작성한 앱을 찾으시 **고,** 주어진 레코드의 세부 정보에서 **AppDistributionMode** 속성의 **TemplatedInstance** 값을 찾아야 합니다. 
+사용자에 대한 감사 로그를 사용하여 Teams 앱 페이지의 기본 제공 섹션에서 사용자가 Microsoft Power Platform 앱을 설치한 이벤트를 조사할  수 Teams. 이렇게하려면 사용자 또는 [](./audit-log-events.md) 사용자 집합에 대해 설치된 앱  Teams 이벤트(**AppInstalled 작업** 아래)에 대한 감사 로그를 검색합니다. 동료가 작성한 앱을 찾으시 **고,** 주어진 레코드의 세부 정보에서 **AppDistributionMode** 속성의 **TemplatedInstance** 값을 찾아야 합니다.
 
 :::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="AppDistributionMode 속성의 TemplatedInstance 값 스크린샷입니다.":::
 

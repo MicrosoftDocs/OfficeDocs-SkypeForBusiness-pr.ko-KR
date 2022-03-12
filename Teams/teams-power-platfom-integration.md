@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Power Platform Teams, Power apps, Power automate 및 Power BI 등의 Microsoft Power Platform 도구와의 통합에 대해 Power Virtual Agents.
-ms.openlocfilehash: a0e0854f5827e1496147ac88123fc91bca600ed8
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: f902e0a137f5a5f996623a9207e9e192b90bb6b7
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070567"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442494"
 ---
 # <a name="teams-integration-with-microsoft-power-platform"></a>Teams Power Platform과 통합
 
@@ -47,7 +47,7 @@ Microsoft Power Platform    **은 Teams 작업 Power BI 보고서, Teams 탭 또
 
 - Power Apps, Power Automate, Power Virtual Agents 및 Dataverse에 대한 라이선스 요구 사항에 대한 자세한 내용은 Teams [참조하세요](/power-platform/admin/about-teams-environment).
 - 라이선스 요구 사항에 대한 자세한 내용은 Power BI [참조하세요](/power-bi/collaborate-share/service-collaborate-microsoft-teams).
- 
+
 ## <a name="how-do-i-get-started"></a>어떻게 시작하나요?
 
 - [Power BI 및 Teams](/power-bi/collaborate-share/service-collaborate-microsoft-teams)

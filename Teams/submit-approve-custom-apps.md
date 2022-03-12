@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 앱 제출 API를 사용하여 제출된 사용자 지정 앱을 승인하는 Teams 앱 제출 API를 Microsoft Teams.
-ms.openlocfilehash: a1b6778c79fd389ebfd4b3ce172daa186e92b76e
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 3a4dfc0b14f20f367cd3580c5366adc26233dde9
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070407"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442334"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>앱 제출 API를 통해 제출된 사용자 Teams 게시
 
@@ -116,17 +116,17 @@ Microsoft Teams 기반 Graph 앱 제출 API를 [](/graph/api/teamsapp-publish?ta
 
 ### <a name="control-access-to-the-app"></a>앱에 대한 액세스 제어
 
-기본적으로 조직의 모든 사용자는 조직의 앱 스토어에서 앱에 액세스할 수 있습니다. 앱을 사용할 권한이 있는 사용자에 대한 제한 및 제어를 위해 앱 사용 권한 정책을 만들고 할당할 수 있습니다. 자세한 내용은 <a href="/microsoftteams/teams-app-permission-policies" target="_blank">Teams에서 앱 권한 정책 관리</a>를 참조하세요.
+기본적으로 조직의 모든 사용자는 조직의 앱 스토어에서 앱에 액세스할 수 있습니다. 앱을 사용할 권한이 있는 사용자에 대한 제한 및 제어를 위해 앱 사용 권한 정책을 만들고 할당할 수 있습니다. 자세한 내용은 [Teams에서 앱 권한 정책 관리](teams-app-permission-policies.md)를 참조하세요.
 
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>사용자가 검색할 앱 고정 및 설치
 
-기본적으로 사용자가 조직의 앱 스토어로 이동하여 찾아보거나 검색해야 하는 앱을 찾으면 됩니다. 사용자가 앱에 쉽게 도착할 수 있도록 앱 표시줄에 앱을 고정할 수 Teams. 이렇게하려면 앱 설정 정책을 만들고 사용자에게 할당합니다. 자세한 내용은 <a href="/microsoftteams/teams-app-setup-policies" target="_blank">Teams에서 앱 설정 정책 관리</a>를 참조하세요.
+기본적으로 사용자가 조직의 앱 스토어로 이동하여 찾아보거나 검색해야 하는 앱을 찾으면 됩니다. 사용자가 앱에 쉽게 도착할 수 있도록 앱 표시줄에 앱을 고정할 수 Teams. 이렇게하려면 앱 설정 정책을 만들고 사용자에게 할당합니다. 자세한 내용은 [Teams에서 앱 설정 정책 관리](teams-app-setup-policies.md)를 참조하세요.
 
 ### <a name="search-the-audit-log-for-teams-app-events"></a>앱 이벤트에 대한 감사 Teams 검색
 
-감사 로그를 검색하여 조직의 앱 Teams 볼 수 있습니다. 감사 로그를 검색하고 감사 로그에 Teams 활동 목록을 보는 방법에 대한 자세한 내용은 감사 로그에서 이벤트에 대한 감사 <a href="/microsoftteams/audit-log-events" target="_blank">로그 검색을 Teams</a>.
+감사 로그를 검색하여 조직의 앱 Teams 볼 수 있습니다. 감사 로그를 검색하고 감사 로그에 Teams 활동 목록을 보는 방법에 대한 자세한 내용은 감사 로그에서 이벤트에 대한 감사 [로그 검색을 Teams](audit-log-events.md).
 
-감사 로그를 검색하려면 먼저 <a href="https://protection.office.com" target="_blank">보안 및 준수 센터</a>에서 감사를 켜야 합니다. 자세한 내용은 <a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">감사 로그 검색 설정 및 해제</a>를 참조하세요. 감사 데이터는 감사가 켜진 시점부터만 사용할 수 있습니다.
+감사 로그를 검색하려면 먼저 [보안 및 준수 센터](https://sip.protection.office.com/)에서 감사를 켜야 합니다. 자세한 내용은 [감사 로그 검색 설정 및 해제](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide)를 참조하세요. 감사 데이터는 감사가 켜진 시점부터만 사용할 수 있습니다.
 
 ## <a name="discover-and-adopt"></a>검색 및 채택
 
@@ -159,7 +159,7 @@ Microsoft Teams 기반 Graph 앱 제출 API를 [](/graph/api/teamsapp-publish?ta
 - 앱이 승인되면 모든 사용자가 앱에 업데이트를 제출할 수 있습니다. 즉, 앱을 처음 제출한 개발자를 포함하여 다른 개발자가 앱에 업데이트를 제출할 수 있습니다.
 - 개발자가 앱을 제출하고 요청이 보류 중인 경우 동일한 개발자만 앱에 업데이트를 제출할 수 있습니다. 다른 개발자는 앱이 승인된 후에만 업데이트를 제출할 수 있습니다.
 
-앱 업데이트에 Graph API 사용에 대한 자세한 내용은 여기를 <a href="/graph/api/teamsapp-update">참조하세요</a>.
+앱 업데이트에 Graph API 사용에 대한 자세한 내용은 여기를 [참조하세요](/graph/api/teamsapp-update?view=graph-rest-1.0&tabs=http).
 
 ## <a name="related-topics"></a>관련 항목
 
@@ -169,4 +169,4 @@ Microsoft Teams 기반 Graph 앱 제출 API를 [](/graph/api/teamsapp-publish?ta
 - [Teams에서 앱 사용 권한 정책 관리](teams-app-permission-policies.md)
 - [Teams에서 앱 설정 정책 관리](teams-app-setup-policies.md)
 - [Teams 모니터링 및 경고](alerts/teams-admin-alerts.md)
-- <a href="/graph/api/resources/teamsapp?view=graph-rest-beta" target="_blank">Microsoft Graph 앱용 Microsoft Teams API</a>
+- [Microsoft Graph 앱용 Microsoft Teams API](alerts/teams-admin-alerts.md)

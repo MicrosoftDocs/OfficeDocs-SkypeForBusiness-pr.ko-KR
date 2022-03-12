@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: adfdfa74dd00314cb0b7fad5524a89619e8772d2
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: b5100bd09b371d90d5bede76b440f423eb527b9c
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070747"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442344"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>앱 설정 정책 관리 Microsoft Teams
 
@@ -51,7 +51,7 @@ ms.locfileid: "63070747"
 
 |Teams 데스크톱 클라이언트  |Teams 모바일 클라이언트 |
 |---------|---------|
-|![Teams 데스크톱 클라이언트입니다.](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![모바일 Teams 클라이언트](media/mobile-app-ui.png)      |
+|![Teams 데스크톱 클라이언트입니다.](media/app-setup-policies-desktop-app-bar.png)<  |   ![모바일 Teams 클라이언트](media/mobile-app-ui.png)      |
 
 > [!NOTE]
 > 할당이 교육용 Teams 경우 할당 앱이 현재 글로벌 정책에 기본적으로 고정되어 있는 경우 전역 정책에 나열되지 않습니다. 클라이언트의 고정된 앱 목록에서 네 번째 Teams 됩니다.
@@ -193,7 +193,7 @@ ms.locfileid: "63070747"
 |Teams 데스크톱 클라이언트 |Teams 모바일 클라이언트 |
 |---------|---------|
 |앱 표시줄의 Teams...를 선택합니다 **. 더 많은 앱**.| 앱 표시줄의 아래쪽에 있는 Teams 위쪽으로 으로 아|
-|![데스크톱 클라이언트의 Teams 더 많은 앱입니다.](media/app-setup-policies-desktop-more-apps.png)<br>   |![모바일 클라이언트의 Teams 앱 수](media/app-setup-policies-mobile-more-apps.png)  
+|![데스크톱 클라이언트의 Teams 더 많은 앱입니다.](media/app-setup-policies-desktop-more-apps.png)   |![모바일 클라이언트의 Teams 앱 수](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>모바일 경험에 대해 알아야 할 Teams
 

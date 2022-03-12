@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: bdc2124da8fb404c289a8e4e5eda962cd66cc9b4
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 2b8eaa4cfc9743ad297c7309769a3195e84cb539
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070377"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442464"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft Teams에서 앱 사용 권한 정책 관리
 
@@ -52,7 +52,7 @@ Microsoft Teams 관리 센터에서 앱 사용 권한 정책을 관리합니다.
 조직에서 서로 다른 사용자 그룹에 사용할 수 있는 앱을 제어하려면 하나 이상의 사용자 지정 앱 사용 권한 정책을 만들어 할당합니다. 앱이 Microsoft, 타사 또는 조직에 의해 게시되는지 여부에 따라 별도의 사용자 지정 정책을 만들고 할당할 수 있습니다. 사용자 지정 정책을 만든 후 조직 전체 앱 설정에서 타사 앱을 사용하지 않도록 설정한 경우 변경할 수 없습니다.
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **권한 정책** 으로 이동합니다.
-2. **추가** 를 클릭합니다.<br>
+2. **추가** 를 클릭합니다.
     ![새 앱 사용 권한 정책 스크린샷.](media/app-permission-policies-new-policy.png)
 3. 정책의 이름과 설명을 입력합니다.
 4. **Microsoft 앱**, **타사 앱** 및 **사용자 지정 앱** 아래에서 다음 중 하나를 선택합니다.
@@ -66,7 +66,7 @@ Microsoft Teams 관리 센터에서 앱 사용 권한 정책을 관리합니다.
 
     1. **앱 허용** 을 선택합니다.
     1. 허용할 앱을 검색한 다음 **추가** 를 클릭합니다.. 검색 결과는 앱 게시자(**Microsoft 앱**, **타사 앱** 또는 **사용자 지정 앱**)로 필터링됩니다.
-    1. 앱 목록을 선택하면 **허용** 을 클릭합니다. 
+    1. 앱 목록을 선택하면 **허용** 을 클릭합니다.
 
 6. 마찬가지로 **특정 앱 차단 및 다른 모든 앱 허용** 을 선택한 경우 차단할 앱을 검색하여 추가한 다음 **차단** 을 클릭합니다.
 7. **저장** 을 클릭합니다.
@@ -97,7 +97,7 @@ GCCH 및 DoD에서는 모든 타사 앱이 기본적으로 차단됩니다. 또�
 1. **사용 권한 정책** 페이지에서 **조직 전체 앱 설정** 을 선택합니다. 그런 다음 패널에서 원하는 설정을 구성할 수 있습니다.
 
     ![전체 앱 설정 스크린샷.](media/app-permission-policies-gcc-org-wide.png)
-    
+
 2. **타사 앱** 에서 이 설정을 끄거나 켜면 타사 앱에 대한 액세스를 제어할 수 있습니다.
 
     - **타사 앱 허용**: 사용자가 타사 앱을 사용할 수 있는지 여부를 제어합니다. 이 설정을 해제하면 사용자는 타사 앱을 설치하거나 사용할 수 없습니다. Microsoft 365 정부 - GCCH 및 DoD 배포에서 Teams 설정은 기본적으로 해제됩니다.
@@ -113,9 +113,11 @@ GCCH 및 DoD에서는 모든 타사 앱이 기본적으로 차단됩니다. 또�
 ### <a name="working-with-app-permission-policies"></a>앱 사용 권한 정책 작업
 
 #### <a name="what-app-interactions-do-permission-policies-affect"></a>사용 권한 정책은 어떤 앱 상호 작용에 영향을 미치나요?
+
 사용 권한 정책은 최종 사용자에 대한 설치, 검색 및 상호 작용을 제어하여 앱 사용을 관리합니다. 관리자는 할당된 사용 권한 정책에 관계없이 Microsoft Teams 관리 센터에서 여전히 앱을 관리할 수 있습니다.
 
 #### <a name="can-i-control-line-of-business-lob-apps"></a>LOB(line of business) 앱을 제어할 수 있나요?
+
 예, 앱 사용 권한 정책을 이용하여 사용자 지정 (LOB) 앱의 출시 및 배포를 제어할 수 있습니다. 사용자 지정 정책을 만들거나 조직의 요구에 따라 사용자 지정 앱을 허용하거나 차단하도록 전역 정책을 편집할 수 있습니다.
 
 #### <a name="how-do-app-permission-policies-relate-to-pinned-apps-and-app-setup-policies"></a>앱 사용 권한 정책은 고정된 앱 및 앱 설정 정책과 어떻게 관련이 있나요?

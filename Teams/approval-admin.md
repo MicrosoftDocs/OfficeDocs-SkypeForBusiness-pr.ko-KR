@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10adab9046a7cbd8cebccf6167075e38b1204dea
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 0c2ec3432a503755ba6164f4a46f7b35f9696271
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070437"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442314"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 승인 앱 가용성
 
@@ -198,6 +198,7 @@ Teams 승인 앱에서 사용자는 새 승인을 만들고 보내고 받은 승
 ## <a name="approvals-e-signature-integration"></a>승인 전자 서명 통합
 
 승인 앱 전자 서명 기능을 사용하려면 사용하려는 특정 전자 서명 공급자에 대한 라이선스가 필요합니다. 조직에 대한 라이선스를 얻게하려면 공급자의 사이트로 이동해야 합니다.
+
 ### <a name="enable-or-disable-e-signature-providers"></a>전자 서명 공급자 사용 또는 사용 안 하도록 설정
 
 관리 센터를 Teams 승인 앱에서 사용자가 사용할 수 있는 타사 전자 서명 공급자를 제어할 수 있습니다. 기본적으로 승인 앱에서 전자 서명 공급자를 사용하도록 설정됩니다. 전자 서명 공급자를 사용하지 않도록 설정하면 사용자가 승인을 만들 때 해당 공급자에 액세스할 수 없습니다. 또한 사용자는 해당 공급자를 사용하여 만든 전자 서명 요청을 볼 수 없습니다.

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 사용자에 대한 클라우드 음성 사서함 방법을 자세히 알아보습니다.
-ms.openlocfilehash: d2bb29130bad312dbd420c0adb8b16558232c258
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: d78942c5cbfc6af8e921c26c806378b45f480835
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392876"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442324"
 ---
 # <a name="set-up-cloud-voicemail"></a>클라우드 음성 사서함 설정
 
@@ -107,7 +107,7 @@ AllowVoicemail 매개 변수를 사용하여 클라우드 음성 사서함 Teams
 
 보호된 음성 메일을 사용하도록 설정하면 사용자는 음성 메일 사서함으로 전화를 걸거나 Android 또는 iOS용 음성 메일에서 메시지를 Outlook 웹용 Outlook 또는 Outlook 수신할 수 있습니다. 보호된 음성 메일 메시지는 Busimess의 경우 Microsoft Teams 또는 Skype 수 없습니다.
 
-음성메일에 대한 민감도 레이블을 만들 경우 민감도 레이블 [사용을 참조합니다](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). **에서 Outlook 다음** 제한 사항 중 하나를 적용한 다음 전달 안 하세요 **옵션을** 선택합니다.
+음성메일에 대한 민감도 레이블을 만들 경우 민감도 레이블 [사용을 참조합니다](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). 암호화 **섹션에서** 사용자가 레이블을 적용할 때 권한을 **할당할 수 있도록 를 선택하세요**. **에서 Outlook 다음** 제한 사항 중 하나를 적용한 다음 전달 안 하세요 **옵션을** 선택합니다.
 
 음성메일에 민감도 레이블을 적용하기 위한 자동 레이블링 정책을 만들하려면 자동 레이블 지정 정책을 구성하는 방법을 참조 [하고 다음 특정](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) 설정을 지정합니다.
 

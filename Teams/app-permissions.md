@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 59d8303943b8912f7ed0578bd911b633b618f113
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 96755d4396e47ea1a6a3c4266a157cce63008372
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070557"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442704"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 앱 사용 권한 및 고려 사항
 
@@ -38,7 +38,6 @@ Microsoft Teams 앱은 설치, 업그레이드 및 제거될 수 있는 하나 �
 앱은 사용자가 동의하고 정책 관점에서 IT에서 관리합니다. 그러나 대부분의 경우 앱의 사용 권한 및 위험 프로필은 앱에 포함된 기능의 사용 권한 및 위험 프로필에 의해 정의됩니다. 따라서 이 문서에서는 기능 수준에서 사용 권한 및 고려 사항을 중점적으로 다를 수 있습니다.
 
 아래 대문자로 나열된 사용 권한(예: RECEIVE_MESSAGE 및 REPLYTO_MESSAGE)은 개발자 설명서 또는 Microsoft Microsoft Teams 권한에 나타나지 [Graph](/graph/permissions-reference).[](/microsoftteams/platform/overview) 이 문서는 이 문서의 목적에 대한 설명적인 짧은 설명입니다.
-
 
 | 제목   | 설명    |
 |-----------|------------|
@@ -71,7 +70,7 @@ Microsoft Teams 앱은 설치, 업그레이드 및 제거될 수 있는 하나 �
 
 - RECEIVE_MESSAGE REPLYTO_MESSAGE. 봇은 사용자로부터 메시지를 받고 회신할 수 있습니다. <sup>1</sup>
 
-- POST_MESSAGE_USER. 사용자가 봇에 메시지를 보낸 후 봇은 사용자 직접 메시지(사전 메시지라고도도)를 *보낼 수 있습니다* .
+- POST_MESSAGE_USER. 사용자가 봇에 메시지를 보낸 후 봇은 사용자 직접 메시지(사전 메시지라고도도)를 _보낼 수 있습니다_ .
 
 - GET_CHANNEL_LIST. 팀에 추가된 봇은 팀의 채널 이름 및 아이디 목록을 얻을 수 있습니다.
 
@@ -82,10 +81,10 @@ Microsoft Teams 앱은 설치, 업그레이드 및 제거될 수 있는 하나 �
 - POST_MESSAGE_TEAM. 사용자가 전에 봇과 대화한 적이 없는 경우에도 앱의 봇이 팀 구성원에게 직접(사전 예방) 메시지를 보낼 수 있습니다.
 
 - 다음은 명시적 사용 권한은 아니지만 매니페스트에서 RECEIVE_MESSAGE REPLYTO_MESSAGE 및 봇을 사용할 수 있는 범위에 의해 암시됩니다.
- 
-    - RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
-    - RECEIVE_MESSAGE_GROUPCHAT REPLYTO_MESSAGE_GROUPCHAT
-    - RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
+
+  - RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
+  - RECEIVE_MESSAGE_GROUPCHAT REPLYTO_MESSAGE_GROUPCHAT
+  - RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM    
 
 - SEND_FILES, RECEIVE_FILES. <sup>2</sup> 봇이 개인 채팅에서 파일을 보내고 받을 수 있는지 여부를 제어합니다(그룹 채팅 또는 채널에 대해 아직 지원되지 않습니다).
 
@@ -105,9 +104,9 @@ Microsoft Teams 앱은 설치, 업그레이드 및 제거될 수 있는 하나 �
 
 - 봇은 팀의 채널 목록을 검색(저장)할 수 있습니다. 이 데이터는 회사 네트워크를 떠날 수 있습니다.
 
-- 파일이 봇에 전송된 경우 파일이 회사 네트워크를 떠날 수 있습니다. 파일을 보내고 받는 경우 각 파일에 대한 사용자 승인이 필요합니다. 
+- 파일이 봇에 전송된 경우 파일이 회사 네트워크를 떠날 수 있습니다. 파일을 보내고 받는 경우 각 파일에 대한 사용자 승인이 필요합니다.
 
-- 기본적으로 봇은 사용자를 대신하여 행동할 수 없지만 봇은 사용자에게 로그인을 요청할 수 있습니다. 사용자가 로그인하면 봇에 추가 작업을 할 수 있는 액세스 토큰이 있습니다. 이러한 추가 작업의 정확한 구성은 봇에 따라 달라지며 사용자가 로그인하는 위치는 봇이 등록된 Azure AD https://apps.dev.microsoft.com/ 앱으로, 자체 사용 권한 집합을 사용할 수 있습니다.
+- 기본적으로 봇은 사용자를 대신하여 행동할 수 없지만 봇은 사용자에게 로그인을 요청할 수 있습니다. 사용자가 로그인하면 봇에 추가 작업을 할 수 있는 액세스 토큰이 있습니다. 이러한 추가 사항의 정확한 구성은 봇에 따라 달라지며, 사용자가 로그인하는 위치는 봇이 애플리케이션 등록 포털에 등록된 Azure AD 앱으로, [](https://apps.dev.microsoft.com/?referrer=https:%2f%2fdocs.microsoft.com%2f#/appList) 자체 사용 권한 집합을 사용할 수 있습니다.
 
 - 봇은 사용자가 팀에 추가되거나 삭제될 때마다 통보됩니다.
 
@@ -140,7 +139,7 @@ SEND_AND_RECEIVE_WEB_DATA
 
 ### <a name="considerations"></a>고려 사항
 
-- 탭의 위험 프로필은 브라우저 탭에서 실행되는 동일한 웹 사이트와 거의 동일합니다. 
+- 탭의 위험 프로필은 브라우저 탭에서 실행되는 동일한 웹 사이트와 거의 동일합니다.
 
 - 또한 탭은 현재 사용자의 로그인 이름 및 UPN, 현재 사용자의 Azure AD 개체 ID, 현재 사용자가 상주하는 Microsoft 365 그룹의 ID, 테넌트 ID 및 사용자의 현재 로일을 포함하여 실행 중인 컨텍스트를 제공합니다. 그러나 이러한 ID를 사용자의 정보에 매핑하기 위해 탭에서 사용자가 Azure AD에 로그인하도록 설정해야 합니다.
 
@@ -177,7 +176,7 @@ REPLYTO_CONNECTOR_MESSAGE. 특정 커넥터는 사용자가 연결선 메시지�
 
 ## <a name="outgoing-webhooks"></a>진행하는 웹후크
 
-*팀 소유자 또는* 팀 구성원이 진행하는 웹후크가 생성됩니다. 앱의 기능은 Teams 없습니다. 이 정보는 완전성을 위해 포함되어 있습니다.
+_팀 소유자 또는_ 팀 구성원이 진행하는 웹후크가 생성됩니다. 앱의 기능은 Teams 없습니다. 이 정보는 완전성을 위해 포함되어 있습니다.
 
 ### <a name="required-permissions"></a>필수 사용 권한
 
