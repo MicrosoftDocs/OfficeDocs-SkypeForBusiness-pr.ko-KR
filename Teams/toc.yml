@@ -1325,12 +1325,6 @@ items:
                 href: rooms/rooms-deploy.md
               - name: 계정 구성
                 href: rooms/rooms-configure-accounts.md
-              - name: Surface Hub
-                items:
-                  - name: 조정된 모임 설정
-                    href: rooms/coordinated-meetings.md
-                  - name: Microsoft Teams 설정 관리
-                    href: rooms/surface-hub-manage-config.md
               - name: Office 365를 사용하면
                 href: rooms/with-office-365.md
               - name: 비즈니스용 Skype 서버를 사용하면
@@ -1339,6 +1333,8 @@ items:
                 href: rooms/with-exchange-online.md
               - name: Exchange 온-프레미스(하이브리드)를 사용하면
                 href: rooms/with-exchange-on-premises.md
+              - name: Android용 Microsoft Teams 룸 배포
+                href: devices/collab-bar-deploy.md
               - name: 콘솔 구성
                 href: rooms/console.md
               - name: 수동으로 장치 업데이트
@@ -1355,6 +1351,12 @@ items:
                 href: rooms/content-camera.md
               - name: 지능형 스피커에 대한 음성 인식 제어
                 href: rooms/voice-recognition.md
+              - name: Surface Hub
+                items:
+                  - name: 조정된 모임 설정
+                    href: rooms/coordinated-meetings.md
+                  - name: Microsoft Teams 설정 관리
+                    href: rooms/surface-hub-manage-config.md
           - name: 관리
             items:
               - name: 관리 개요
@@ -1397,66 +1399,74 @@ items:
             href: rooms/standards-and-room-planner.md
       - name: 디바이스
         items:
-          - name: Teams에서 디바이스 관리
-            href: devices/device-management.md
-          - name: 원격 프로비저닝 및 로그인
-            href: devices/remote-provision-remote-login.md
-          - name: 원격 로그인 및 로그아웃
-            href: devices/remote-sign-in-and-sign-out.md
-          - name: 원격으로 장치 업데이트
-            href: devices/remote-update.md
-          - name: Teams 디바이스 태그 관리
-            href: devices/manage-device-tags.md
-          - name: 휴대폰 및 표시 배포 계획
-            href: devices/plan-device-deployment.md
-          - name: Teams용 전화
-            href: devices/phones-for-teams.md
-          - name: 공통 지역 전화 설정
-            href: set-up-common-area-phones.md
-          - name: Teams 디스플레이
-            href: devices/teams-displays.md
-          - name: Teams 패널
+          - name: 배포
             items:
+              - name: Intune을 사용하여 Teams 휴대폰 및 Teams 디스플레이 배포
+                href: devices/phones-displays-deploy.md
+              - name: 공통 지역 전화 설정
+                href: set-up-common-area-phones.md
+              - name: SIP 게이트웨이
+                items:
+                  - name: SIP 게이트웨이 계획
+                    href: sip-gateway-plan.md
+                  - name: SIP 게이트웨이 구성
+                    href: sip-gateway-configure.md
+              - name: Teams Android 디바이스에 대한 자동 응답 설정
+                href: set-up-auto-answer-on-teams-android.md
+              - name: 원격 프로비저닝 및 로그인
+                href: devices/remote-provision-remote-login.md
+              - name: 원격 로그인 및 로그아웃
+                href: devices/remote-sign-in-and-sign-out.md
+              - name: Android 디바이스에 대한 인증 모범 사례
+                href: devices/authentication-best-practices-for-android-devices.md
+          - name: 관리 및 모니터링
+            items:
+              - name: Teams에서 디바이스 관리
+                href: devices/device-management.md
+              - name: 관리 단위를 사용하여 디바이스 관리
+                href: administrative-unit.md
+              - name: Teams 디바이스 태그 관리
+                href: devices/manage-device-tags.md
+              - name: 원격으로 장치 업데이트
+                href: devices/remote-update.md
+              - name: Teams용 전화
+                href: devices/phones-for-teams.md
+              - name: Teams 디스플레이
+                href: devices/teams-displays.md
+              - name: Teams 디스플레이에 Teams 휴대폰 업그레이드
+                href: devices/upgrade-phones-to-displays.md
               - name: Teams 패널
-                href: devices/teams-panels.md
-              - name: Teams 패널 사용
-                href: devices/use-teams-panels.md
-              - name: Teams 패널의 앱 지원
-                href: app-support-on-Teams-panels.md
-              - name: 체크 인 및 회의실 릴리스
-                href: devices/check-in-and-room-release.md
-          - name: Teams 디스플레이에 Teams 휴대폰 업그레이드
-            href: devices/upgrade-phones-to-displays.md
-          - name: Intune을 사용하여 Teams 휴대폰 및 Teams 디스플레이 배포
-            href: devices/phones-displays-deploy.md
-          - name: USB 오디오 및 비디오 디바이스
-            href: devices/usb-devices.md
-          - name: Android용 Microsoft Teams 룸 배포
-            href: devices/collab-bar-deploy.md
-          - name: Microsoft Teams Android 장치 사용자 인터페이스 설정
-            href: devices/Teams-Android-devices-user-interface.md
-          - name: Android 디바이스에 대한 인증 모범 사례
-            href: devices/authentication-best-practices-for-android-devices.md
-          - name: Teams Android 디바이스에 대한 자동 응답 설정
-            href: set-up-auto-answer-on-teams-android.md
-          - name: 회의실 디바이스 및 솔루션
-            href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+                items:
+                  - name: Teams 패널
+                    href: devices/teams-panels.md
+                  - name: Teams 패널 사용
+                    href: devices/use-teams-panels.md
+                  - name: Teams 패널의 앱 지원
+                    href: app-support-on-Teams-panels.md
+                  - name: 체크 인 및 회의실 릴리스
+                    href: devices/check-in-and-room-release.md
+              - name: Teams 디스플레이에 Teams 휴대폰 업그레이드
+                href: devices/upgrade-phones-to-displays.md
+              - name: Intune을 사용하여 Teams 휴대폰 및 Teams 디스플레이 배포
+                href: devices/phones-displays-deploy.md
+              - name: USB 오디오 및 비디오 디바이스
+                href: devices/usb-devices.md
+              - name: 모니터링
+                items:
+                  - name: Teams 경고 및 모니터링
+                    href: alerts/teams-admin-alerts.md
+                  - name: Teams 장치 상태 모니터링
+                    href: alerts/device-health-status.md
+                  - name: Teams 장치 및 주변 장치
+                    href: teams-device-health.md
+      - name: 참조
+        items:
           - name: Teams 인증 장치
             href: devices/teams-ip-phones.md
-          - name: SIP 게이트웨이
-            items:
-              - name: SIP 게이트웨이 계획
-                href: sip-gateway-plan.md
-              - name: SIP 게이트웨이 구성
-                href: sip-gateway-configure.md
-          - name: Teams 경고 및 모니터링
-            href: alerts/teams-admin-alerts.md
-          - name: Teams 장치 상태 모니터링
-            href: alerts/device-health-status.md
-          - name: Teams 장치 및 주변 장치
-            href: teams-device-health.md
-          - name: 관리 단위를 사용하여 디바이스 관리
-            href: administrative-unit.md
+          - name: 회의실 디바이스 및 솔루션
+            href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: 휴대폰 및 표시 배포 계획
+            href: devices/plan-device-deployment.md
   - name: '앱, 인공 지능 및 커넥터'
     items:
       - name: 개요
@@ -1803,6 +1813,8 @@ items:
             href: teams-powershell-managing-teams.md
           - name: Teams PowerShell 릴리스 노트
             href: teams-powershell-release-notes.md
+          - name: Teams PowerShell 지원 버전
+            href: teams-powershell-supported-versions.md
           - name: 비즈니스용 Skype Online 커넥터에서 Teams PowerShell 모듈로 이동
             href: teams-powershell-move-from-sfbo.md
           - name: Teams용 Cmdlet 참조
