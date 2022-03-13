@@ -18,16 +18,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 05d683bbefa9b3cc564e4f97e52f0fad441f2763
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 3a9566ceb6d99bb7d665efea975ecee048607dc9
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070397"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442504"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams의 앱, 봇 및 커넥터
 
-앱을 사용하여 자주 사용하는 서비스에서 콘텐츠를 찾고 Teams에서 공유할 수 있습니다. 앱을 통해 채널 상단에 있는 서비스를 고정하거나 봇과 채팅하거나 작업을 공유하고 지정하는 등의 작업을 수행 할 수 있습니다. 자세한 내용은 [Teams의 앱 개요](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)를 참조하세요. 
+앱을 사용하여 자주 사용하는 서비스에서 콘텐츠를 찾고 Teams에서 공유할 수 있습니다. 앱을 통해 채널 상단에 있는 서비스를 고정하거나 봇과 채팅하거나 작업을 공유하고 지정하는 등의 작업을 수행 할 수 있습니다. 자세한 내용은 [Teams의 앱 개요](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)를 참조하세요.
 
 Microsoft Teams와 함께 제공되는 앱을 사용하거나, 인증된 타사 앱 및 템플릿을 사용하거나 또는 사용자 지정 앱을 만들어 팀 배포에 앱을 추가할 수 있습니다.
 
@@ -47,7 +47,6 @@ Microsoft에서 제공하는 앱 외에도 Microsoft에서 인증한 타사 앱�
 
 [Microsoft Power Platform](teams-power-platfom-integration.md) 및 Teams 통합을 사용하여 사용자 지정 낮은 코드 솔루션을 빠르게 빌드할 수 있습니다. 비즈니스 요구에 맞게 사용자 지정 앱을 만들 수도 있습니다. 자세한 내용은 [Microsoft Team용 앱 빌드](/microsoftteams/platform/overview)를 참조하세요.  
 
-
 ## <a name="apps-deployment-decisions"></a>앱 배포 결정사항
 
 Teams는 조직에 즉시 사용할 수 있는 우수한 협업 환경을 제공하며, 대부분의 조직에서는 기본 설정이 사용된다는 사실을 알게 됩니다. 이 자료에서는 조직의 프로필 및 비즈니스 요구 사항에 따라 기본 설정을 변경할지 여부를 결정하는 데 도움이 되며, 각 변경 사항을 안내합니다. Microsoft는 설정을 두 그룹으로 나누었고, 첫 번째 그룹은 [사용자가 수행할 가능성이 더 높은 변경사항](#core-deployment-decisions)의 핵심 세트부터 시작합니다. 두 번째 그룹에는 조직의 필요에 따라 구성할 수 있는 [추가 설정](#additional-deployment-decisions)이 포함됩니다.
@@ -56,9 +55,10 @@ Teams는 조직에 즉시 사용할 수 있는 우수한 협업 환경을 제공
 
 대부분의 조직이 변경하려는 앱 설정입니다 (Teams의 기본 설정이 적합하지 않은 경우).
 
-### <a name="app-availability-settings"></a>앱 가용성 설정 
+### <a name="app-availability-settings"></a>앱 가용성 설정
 
-Teams는 사용자를 참여시키고 생산성을 지원하며 일반적으로 사용되는 비즈니스 서비스를 Teams로 통합하기 위한 Microsoft 및 타사에서 게시한 앱을 제공합니다. Teams 스토어에서 앱을 다운로드합니다. 기본적으로 [Teams 스토어 승인 프로세스](/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process)를 통해 제출한 사용자 지정 앱을 포함하여 모든 앱이 모든 사용자에게 설정됩니다. 예를 들어, 사용자는 Planner 앱을 사용하여 Teams에서 팀 작업을 구축하고 관리할 수 있습니다.
+Teams는 사용자를 참여시키고 생산성을 지원하며 일반적으로 사용되는 비즈니스 서비스를 Teams로 통합하기 위한 Microsoft 및 타사에서 게시한 앱을 제공합니다.
+Teams 스토어에서 앱을 다운로드합니다. 기본적으로 [Teams 스토어 승인 프로세스](/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process)를 통해 제출한 사용자 지정 앱을 포함하여 모든 앱이 모든 사용자에게 설정됩니다. 예를 들어, 사용자는 Planner 앱을 사용하여 Teams에서 팀 작업을 구축하고 관리할 수 있습니다.
 
 기본적으로 모든 Microsoft 제공, 타사 및 사용자 지정 앱을 사용할 수 있으며 개별 앱을 설정하거나 해제할 수 있습니다. 전체 조직에 대해 모든 타사 및/또는 사용자 지정 앱을 설정하거나 해제할 수 있는 조직 차원의 설정이 있습니다.
 
@@ -68,6 +68,8 @@ Teams는 사용자를 참여시키고 생산성을 지원하며 일반적으로 
 |||
 
 ### <a name="app-permissions-and-other-considerations"></a>앱 사용 권한 및 기타 고려 사항
+
+앱은 사용자가 동의하고 정책을 통해 관리자나 IT 전문가가 관리합니다. 그러나 전반적으로 앱의 사용 권한 및 위험 프로필이 앱 자체에 정의됩니다.
 
 앱은 사용자가 동의하고 정책을 통해 관리자나 IT 전문가가 관리합니다. 그러나 앱의 사용 권한 및 위험 프로필이 앱 자체에 정의됩니다.
 
@@ -118,7 +120,9 @@ Teams는 사용자를 참여시키고 생산성을 지원하며 일반적으로 
 
 ### <a name="app-templates"></a>앱 서식 파일
 
-앱 서식 파일은 커뮤니티 중심의 오픈 소스이며 GitHub에서 사용할 수 있는 Microsoft Teams용 프로덕션 준비 앱입니다. 각각에는 조직에 해당 앱을 배포 및 설치하는 방법에 대한 자세한 지침이 포함되어 있으며, 즉시 설치하고 사용할 수 있는 바로 사용 가능한 앱을 제공합니다. 전체 소스 코드도 제공되므로 세부 정보를 살펴보고 코드를 포크하여 특정 요구 사항에 맞게 변경할 수 있습니다.
+앱 서식 파일은 커뮤니티 중심의 오픈 소스이며 GitHub에서 사용할 수 있는 Microsoft Teams용 프로덕션 준비 앱입니다. 각각에는 조직에 해당 앱을 배포 및 설치하는 방법에 대한 자세한 지침이 포함되어 있으며, 즉시 설치하고 사용할 수 있는 바로 사용 가능한 앱을 제공합니다.
+
+전체 소스 코드도 제공되므로 세부 정보를 살펴보고 코드를 포크하여 특정 요구 사항에 맞게 변경할 수 있습니다.
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
