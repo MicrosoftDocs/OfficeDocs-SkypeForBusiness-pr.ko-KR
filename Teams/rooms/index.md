@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams 룸
 ms.reviewer: ''
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 이상적인 가상 회의실을 Microsoft Teams 룸 시스템 계획, 배포 및 관리를 포함하여 시스템을 설정하는 방법에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 92c738d9fc036a7757655b0d57a366a0849ca9ea
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 0458513bc75bf352aed1b611895ef918fc621dcc
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015288"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63504115"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams Rooms
 
@@ -52,9 +52,9 @@ ms.locfileid: "62015288"
 > [!NOTE]
 > Microsoft Teams 룸 2019, Microsoft Teams 비즈니스용 Skype 서버 또는 2015년 비즈니스용 Skype 서버 사용할 수 있습니다.
 >
-> Lync Server 2013과 같은 이전 플랫폼은 Lync Server 2013에서 지원되지 Microsoft Teams 룸.
+> Lync Server 2013과 같은 이전 플랫폼은 지원되지 Microsoft Teams 룸.
 
-이러한 문서는 이러한 문서의 계획, 배포 및 관리 작업을 Microsoft Teams 룸. 최종 사용자는 온라인 도움말 에 Microsoft Teams 룸 [관심이 있습니다.](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+이러한 문서는 이러한 문서의 계획, 배포 및 관리 작업을 Microsoft Teams 룸. 최종 사용자는 온라인 도움말에 Microsoft Teams 룸 [있습니다](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
 
 > [!NOTE]
-> [Skype 시스템(이전 Lync](../rooms/lrs-migration.md) Room System)과 Microsoft Teams 룸 다른 종속성 및 배포 절차가 있는 다른 제품입니다.
+> [Skype 시스템](../rooms/lrs-migration.md)(이전 Lync Room System)과 Microsoft Teams 룸 다른 종속성 및 배포 절차가 있는 다른 제품입니다.

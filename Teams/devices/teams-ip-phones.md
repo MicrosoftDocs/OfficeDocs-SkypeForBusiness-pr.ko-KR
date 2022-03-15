@@ -1,7 +1,7 @@
 ---
 title: Teams
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 ms.reviewer: divank
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 생성하기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: 7c33126f02a4a3236fb451e8e9efc0103c68abdd
-ms.sourcegitcommit: 47b14f57bc64544d63aec67b023ead13c71342b4
+ms.openlocfilehash: 1f91af4b299223a2ac0e815f5f84b70cbc04b953
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "63418830"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503565"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams Android 디바이스
 
@@ -47,10 +47,8 @@ ms.locfileid: "63418830"
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
 | AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                                  | 2022년 4월 22일               | 7.1x |
 | AudioCodes C448HD(Cap Mode만 해당)       | `C450HD_TEAMS_0.225`                                                  | 2022년 4월 22일               | 7.1x |
-| Crestron UC-P10-T(핸드셋 및 핸드셋이 없는 경우)    | `1.0.0.80`       | 2023년 8월 5일            | 9 |
-| Crestron UC-P8-T(핸드셋 및 핸드셋이 없는 경우)     | `1.0.0.56`       | 2023년 8월 5일            | 9 |
-| Crestron UC-P10-C-T(핸드셋 사용 및 사용 안 하여)  | `1.0.0.80`       | 2023년 8월 5일            | 9 |
-| Crestron UC-P8-C-T(핸드셋 및 핸드셋이 없는 경우)   | `1.0.0.56`       | 2023년 8월 5일            | 9 |
+| Crestron UC-P10/T/CT                   | `1.0.0.80`       | 2023년 8월 5일            | 9 |
+| Crestron UC-P8/T /CT                   | `1.0.0.56`       | 2023년 8월 5일            | 9 |
 | 오디오 코드 C470HD                      | `1.8.293   `                                               | 2023년 8월 5일               | 9 |
 | Yealink MP52                           | `145.15.0.6 `                                              | 2023년 8월 5일               | 9 |
 | AudioCodes C435HD                      | `1.12.33`                                                  | 2023년 8월 5일               | 9 |
@@ -136,6 +134,8 @@ ms.locfileid: "63418830"
 
 | 디바이스 모델  | 펌웨어 버전  | 포함된 제품 릴리스  |
 |:----------------|:--------------|:----------------------------|
+|Crestron UC-P8/I/C/CI     | `1.0.4.82`    | 2022 업데이트 #1 |
+|Crestron UC-P10/I/C/CI    | `1.0.4.82`    | 2022 업데이트 #1 |
 | Poly Trio C60   | `7.2.1.1831`  | 2022 업데이트 #1                        |
 | Poly CCX400/CCX500/CCX600   | `7.2.1.1826`  | 2022 업데이트 #1                 |
 |Crestron UC-2     | `1.0.4.75`    | 2022 업데이트 #1 |
@@ -308,6 +308,7 @@ ms.locfileid: "63418830"
 
 | 디바이스 모델  | 펌웨어 버전 | 포함된 제품 릴리스|
 |:--------------|:-----------------|:-------------------------|
+|Crestron Touchpanel /770-T/1070-T | `1.006.0046 ` | 2022 업데이트 #1|
 |Yealink RoomPanel | ` 147.15.0.29 ` | 2022 업데이트 #1 |
 |Crestron -TSS770  | `1.004.0115` |2021 업데이트 #1 |
 |Crestron-TSS1070  | `1.004.0115` |2021 업데이트 #1 |

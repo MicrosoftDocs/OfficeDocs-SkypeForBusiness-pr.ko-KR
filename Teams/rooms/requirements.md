@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 룸 요구사항
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 적절한 디바이스, 마이크, Microsoft Teams 룸, 카메라 및 디스플레이를 선택하는 등 지원에 대한 요구 사항에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 83430fd401a601ede397de188d956a61c93ac206
-ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
+ms.openlocfilehash: d479ff31b95acf349bf7e34aaf29bbe64c10309b
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62929233"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503735"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 룸 요구사항
 
@@ -35,7 +35,7 @@ Microsoft Teams 룸 크기로 확장할 수 있습니다. Teams 룸 크기 및 �
 - [계획에 따른 라이선스 옵션: Microsoft Teams 룸](rooms-licensing.md)
 
 > [!NOTE]
-> Microsoft Teams 룸, Microsoft Teams 비즈니스용 Skype 서버 2019 또는 비즈니스용 Skype 서버 2015에 로그인할 수 있으며 이러한 서비스에서 호스팅하는 모임에 참가할 수 있습니다.
+> Microsoft Teams 룸 2019, Microsoft Teams 비즈니스용 Skype 서버 또는 2015년 비즈니스용 Skype 서버 로그인할 수 있으며 이러한 서비스 중 하나에서 호스팅되는 모임에 참가할 수 있습니다.
 >
 > Lync Server 2013 같은 이전 플랫폼은 Microsoft Teams 룸에서 지원하지 않습니다. Microsoft Teams 룸 21Vianet 또는 DoD Microsoft 365 Office 365 환경에서 지원되지 않습니다.
 >
@@ -121,7 +121,7 @@ Microsoft Teams 룸 크기로 확장할 수 있습니다. Teams 룸 크기 및 �
   |Surface Pro </br>(5G) |Core i5 |8 GB 혹은 4 GB |128GB 이상 |
   |Surface Pro 4 |Core i5 |8 GB 혹은 4 GB |128GB 이상 |
 
-- Surface Pro 디바이스에는 다음 도킹 스테이션 옵션 중 하나가 필요합니다.
+- Surface Pro 장치에는 다음 도킹 스테이션 옵션 중 하나가 필요합니다.
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
@@ -142,7 +142,7 @@ Microsoft Teams 룸 크기로 확장할 수 있습니다. Teams 룸 크기 및 �
 |[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7450.02 | &#x2714; |
 |[Aver VB130 카메라 사운드바](https://www.averusa.com/products/conference-camera/vb130) |0.0.7300.71 |
 |[Bose Video Bar VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
-|[Biamp Devio SCR-20CX Web-Based 마이크가 있는 회의 허브](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
+|[Biamp Devio SCR-20CX Web-Based 마이크를 사용하여 회의 허브](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
 |[Tabletop 마이크를 사용하여 Biamp Devio SCR-20TX Web-Based 회의 허브](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | 
 |[Huddly Canvas](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |

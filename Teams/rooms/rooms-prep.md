@@ -1,7 +1,7 @@
 ---
 title: 환경 준비
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,18 +15,18 @@ ms.collection:
 - M365-collaboration
 description: 모든 기능을 활용할 수 있도록 Microsoft Teams 룸 인프라를 준비하는 방법에 대해 자세히 알아보습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b92325fe9c7c43497fd9647306cfb6b218f5fde0
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 5203972feee8276d9d63c19f65965f62386ee7a0
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015038"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503955"
 ---
 # <a name="prepare-your-environment"></a>작업 환경 준비
 
-이 섹션에는 환경을 준비하는 데 필요한 단계에 대한 개요가 포함되어 있으므로 모든 기능을 사용할 수 Microsoft Teams 룸.
+이 섹션에서는 환경을 준비하는 데 필요한 단계에 대한 개요를 Microsoft Teams 룸.
   
-1. 각 콘솔에 대한 리소스 계정을 Microsoft Teams 룸 준비합니다. 자세한 [내용은 Microsoft Teams 룸](rooms-deploy.md) 배포를 참조합니다.
+1. 각 콘솔에 대한 리소스 Microsoft Teams 룸 준비합니다. 자세한 내용은 [Microsoft Teams 룸](rooms-deploy.md) 배포를 참조합니다.
     
 2. 디바이스에서 사용할 네트워크/인터넷 연결이 작동하고 있는지 확인합니다.
   
@@ -37,7 +37,7 @@ ms.locfileid: "62015038"
     
 ### <a name="create-and-test-a-resource-account"></a>리소스 계정 만들기 및 테스트
 
-리소스 *계정은* Microsoft Teams 룸 클라이언트가 일정과 같은 Exchange 기능에 액세스하고 사용자에 연결하기 위해 사용하는 Microsoft Teams. 자세한 [내용은 Microsoft Teams 룸](rooms-deploy.md) 배포를 참조합니다.
+리소스 *계정* 은 Microsoft Teams 룸 클라이언트가 일정과 같은 Exchange 기능에 액세스하고 클라이언트에 연결하기 위해 사용하는 Microsoft Teams. 자세한 내용은 [Microsoft Teams 룸](rooms-deploy.md) 배포를 참조합니다.
   
 ### <a name="check-network-availability"></a>네트워크 가용성 확인
 
@@ -49,12 +49,12 @@ ms.locfileid: "62015038"
 
 - HTTP 포트 80 및 443에 대한 액세스입니다.
 
-- TCP 및 UDP 포트는 프레미스 비즈니스용 Skype 서버 구현을 위한 서버의 포트 및 프로토콜 요구 사항에 설명된 Microsoft 365 및 Office 365 URL 및 [IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) 주소 범위에 Microsoft Teams. [](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)
+- TCP 및 UDP 포트는 프레미스 비즈니스용 Skype 서버 구현을 [](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) 위한 서버의 포트 및 프로토콜 요구 사항에 설명된 Microsoft 365 및 Office 365 URL 및 [IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) 주소 범위에 Microsoft Teams.
 
 네트워크가 프록시를 통해 실행되는 경우 프록시 주소 또는 스크립트 정보도 필요합니다.
     
 > [!IMPORTANT]
-> Microsoft Teams 룸 작업을 방해할 수 있는 프록시 인증을 지원하지 않습니다. 프로덕션에 Microsoft Teams 룸 프록시 인증에서 제외된지 확인
+> Microsoft Teams 룸 작업을 방해할 수 있는 프록시 인증을 지원하지 않습니다. 프로덕션에 Microsoft Teams 룸 프록시 인증에서 제외되어 있는지 확인
 
 > [!IMPORTANT]
 > 필요한 대역폭을 보장하기 위해 유선 1Gbps 네트워크 연결을 사용해야 합니다.
@@ -64,21 +64,21 @@ ms.locfileid: "62015038"
   
 ### <a name="certificates"></a>인증서
 
-사용자 Microsoft Teams 룸 디바이스는 웹 서비스, Exchange, Microsoft Teams 또는 비즈니스용 Skype, 네트워크 사용 및 인증에 대해 인증서를 사용합니다. 관련 서버가 공용 인증서를 사용하는 경우( 온라인 및 일부 프레미스 배포의 경우) 인증서를 설치하기 위해 관리자의 일부에서 추가 작업이 필요하지 않습니다. 반면에 인증서 기관이 개인 CA인 경우 디바이스는 해당 CA를 신뢰해야 합니다. 즉, 디바이스에 CA + CA 체인 인증서가 설치되어 있습니다. 도메인에 디바이스를 추가하면 이 작업이 자동으로 수행될 수 있습니다.
+사용자 Microsoft Teams 룸 디바이스는 웹 서비스, Exchange, Microsoft Teams 또는 비즈니스용 Skype, 네트워크 사용 및 인증에 대한 인증서를 사용합니다. 관련 서버가 공용 인증서를 사용하는 경우( 온라인 및 일부 프레미스 배포의 경우) 인증서를 설치하기 위해 관리자의 일부에서 추가 작업이 필요하지 않습니다. 반면에 인증서 기관이 개인 CA인 경우 디바이스는 해당 CA를 신뢰해야 합니다. 즉, 디바이스에 CA + CA 체인 인증서가 설치되어 있습니다. 도메인에 디바이스를 추가하면 이 작업이 자동으로 수행될 수 있습니다.
   
-다른 클라이언트의 경우와 동일한 방식으로 인증서를 Windows 있습니다. 
+다른 클라이언트에 대해 동일한 방식으로 인증서를 Windows 합니다. 
   
 > [!NOTE]
-> 인증서를 사용하려면 인증서가 Microsoft Teams 룸 비즈니스용 Skype 서버.
+> 인증서를 사용하려면 인증서가 Microsoft Teams 룸 수 비즈니스용 Skype 서버.
   
 ### <a name="proxy"></a>프록시
 
 Microsoft Teams 룸 OS에서 프록시 설정을 상속하도록 Windows 있습니다. 다음과 Windows OS에 액세스합니다.
   
-1. Microsoft Teams 룸 UI에서 디바이스의 로컬 관리자 암호에 대한 메시지가 설정 기어 아이콘을 클릭합니다(기본 암호는 **sfb입니다).**
-2. 다음에  설정 탭한 다음 이동 단추를 Windows 탭한 다음 관리자 로그인 단추로 이동 단추를 탭한  다음 관리자 단추를 클릭합니다(컴퓨터가  도메인에 가입된 경우 다른 사용자를 선택한 다음 .\admin을 사용자 이름으로 사용).  
-3. 검색 **Windows** 왼쪽 아래 형식의 regedit(화면을 길게 누르거나 마우스 오른쪽 단추로 클릭하고 관리자 권한으로 실행을 **선택합니다).**
-4. HKEY_USERS 폴더(컴퓨터 사용자 SID 목록이 표시됩니다)를 클릭하여 루트 폴더가 선택되어 HKEY_USERS 확인합니다.
+1. Microsoft Teams 룸 UI에서 디바이스의 로컬 관리자 암호에 대한 메시지가 설정 기어 아이콘(기본 암호는 **sfb**)을 클릭합니다.
+2. 다음 **에 설정** 탭한 다음 이동 단추를 Windows 탭한 다음  관리자 로그인 단추로 이동 단추를 탭한 다음 관리자 단추  를 클릭합니다(컴퓨터가 도메인에 가입된 경우 다른 사용자를  선택한 다음 .\admin을 사용자 이름으로 사용).
+3. 검색 **Windows 왼쪽** 아래 형식의 regedit(화면을 길게 누르거나 마우스 오른쪽 단추로 클릭하고 관리자 권한으로 실행을 **선택합니다**).
+4. 기본 폴더를 HKEY_USERS(컴퓨터 사용자 SID 목록이 표시됩니다)를 클릭하여 루트 폴더를 HKEY_USERS 확인합니다.
        
 5. 파일을 클릭한 다음 **Hive 로드를 선택하세요.**
 6. **C:\Users\Skype** 폴더로 찾아 파일 이름 상자 NTUSER.dat를 입력하고 열기 단추를 누릅니다.
@@ -105,26 +105,26 @@ Microsoft Teams 룸 OS에서 프록시 설정을 상속하도록 Windows 있습�
     "AutoConfigURL"=http://contosoproxy.corp.net/proxy.pac
     ```
     
-9. 변경이 완료되면 Skype 사용자 키(Skype 루트 폴더)를 강조 표시하고 레지스트리 파일 메뉴에서 Hive 언로드를 선택합니다(확인하라는 메시지가 표시됩니다. **예를 선택합니다).**
+9. 변경이 완료되면 Skype 사용자 키(Skype 루트 폴더)를 강조 표시하고 레지스트리 파일 메뉴에서 Hive 언로드를 선택합니다(확인하라는 메시지가 표시됩니다. 예를 **선택합니다**).
     
 10. 이제 레지스트리 편집기를 닫고 로고프를 검색 상자에 Windows 수 있습니다.
     
-11. 로그인 화면으로 돌아가서 사용자를 Skype **합니다.** 이전 모든 단계가 성공한 경우 Microsoft Teams 룸 디바이스가 성공적으로 로그인됩니다.
+11. 로그인 화면으로 돌아가서 사용자를 **Skype.** 이전 단계가 모두 성공한 경우 Microsoft Teams 룸 디바이스가 성공적으로 로그인됩니다.
     
-FQDNs, 포트 및 IP 주소 범위에 대한 자세한 내용은 네트워크 보안 문서를 참조하여 Microsoft Teams 룸. [](./security.md#network-security)
+FQDNs, 포트 및 IP 주소 범위에 대한 자세한 내용은 네트워크 보안 문서를 참조하여 Microsoft Teams 룸.[](./security.md#network-security)
   
 ### <a name="admin-group-management"></a>관리 그룹 관리
 
-도메인(Azure Active Directory 또는 Active Directory)에 가입하기로 선택한 경우 도메인, 그룹 Microsoft Endpoint Manager 또는 로컬 컴퓨터 관리를 사용하여 도메인의 PC를 사용할 때와 마찬가지로 보안 그룹을 로컬 관리자로 Windows 수 있습니다. 보안 그룹의 구성원인 모든 사람은 자격 증명을 입력하고 자격 증명을 잠금 해제할 설정.
+도메인(Azure Active Directory 또는 Active Directory)에 가입하기로 선택한 경우 도메인, 그룹 Microsoft Endpoint Manager 또는 로컬 컴퓨터 관리를 사용하여 도메인의 PC를 사용할 때와 마찬가지로 보안 그룹을 로컬 관리자로 Windows 수 있습니다. 보안 그룹의 구성원인 모든 사람은 자격 증명을 입력하고 자격 증명을 잠금 해제할 수 설정.
   
 > [!NOTE]
-> Microsoft Teams 룸 디바이스가 도메인에 대한 신뢰를 잃는 경우(예: 도메인에 가입된 Microsoft Teams 룸 도메인에서 해당 도메인을 제거한 경우) 디바이스에 인증하고 도메인을 열 수 설정. 해결은 로컬 관리자 계정으로 로그인하는 것입니다. 
+> Microsoft Teams 룸 디바이스가 도메인에 대한 신뢰를 잃는 경우(예: 도메인에 Microsoft Teams 룸 도메인에서 해당 도메인을 제거한 경우) 디바이스에 인증하고 도메인을 열 수 설정. 해결은 로컬 관리자 계정으로 로그인하는 것입니다. 
   
 ## <a name="local-accounts"></a>로컬 계정
 
 ### <a name="microsoft-teams-rooms-local-user-account"></a>Microsoft Teams 룸 사용자 계정
 
-Teams 룸 "Skype"라는 암호가 없는 로컬 계정이 포함되어 있습니다. 이 계정은 로그인하여 Windows 앱을 Teams 룸 사용됩니다. 이 계정에 암호를 적용하는 것은 지원되지 않습니다. 자세한 [Microsoft Teams 룸 보안](security.md) 정보를 참조하세요.
+Teams 룸 "Skype"라는 암호가 없는 로컬 Skype. 이 계정은 로그인하여 Windows 앱을 Teams 룸 사용됩니다. 이 계정에 암호를 적용하는 것은 지원되지 않습니다. 자세한 [Microsoft Teams 룸 보안](security.md) 정보를 참조하세요.
   
 ### <a name="admin---local-administrator-account"></a>"관리자" - 로컬 관리자 계정
 
@@ -139,9 +139,9 @@ Microsoft Teams 룸 암호는 "sfb"로 설정됩니다. 암호는 관리자 모�
   
 ### <a name="machine-account"></a>컴퓨터 계정
 
-다른 디바이스와 Windows 마찬가지로 PC 이름 변경에 대해 마우스 **오른쪽 단추로 클릭하여** 컴퓨터 이름을 설정 \>  \> **수 있습니다.**
+모든 Windows 마찬가지로 PC 이름 변경 정보를 마우스 오른쪽 단추로 **클릭하여 컴퓨터 이름을** \>  \> 설정 **수 있습니다**.
   
-도메인에 가입한 후 컴퓨터의 이름을 변경하려면 컴퓨터의 새 이름 다음에 PowerShell 명령인 [Rename-Computer를](/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2)사용하여 이름을 변경합니다.
+도메인에 조인한 후 컴퓨터의 이름을 변경하려면 PowerShell 명령인 이름을 변경한 [](/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2)다음 컴퓨터의 새 이름을 사용하여 이름을 변경합니다.
   
 ## <a name="related-topics"></a>관련 항목
 
@@ -155,4 +155,4 @@ Microsoft Teams 룸 암호는 "sfb"로 설정됩니다. 암호는 관리자 모�
   
 [Microsoft Teams 룸 관리](rooms-manage.md)
 
-[교육 및 교육을 위한 비즈니스용 Microsoft Store 전제](/microsoft-store/prerequisites-microsoft-store-for-business)
+[교육 및 교육에 비즈니스용 Microsoft Store 전제](/microsoft-store/prerequisites-microsoft-store-for-business)

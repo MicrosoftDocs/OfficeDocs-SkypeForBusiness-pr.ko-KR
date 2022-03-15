@@ -1,7 +1,7 @@
 ---
 title: PowerShell을 Microsoft Teams 공동 작업용 공동 작업 Microsoft Teams 리소스 계정 만들기
-ms.author: mitressl
-author: flinchbot
+ms.author: czawideh
+author: cazawideh
 manager: ericwe
 audience: ITPro
 ms.reviewer: payurevi
@@ -16,33 +16,33 @@ ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 공동 작업 막대를 배포하는 방법에 대한 자세한 내용은 이 Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3388e2eb1e086cd347769a50bb9603f4a0832402
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0bbafdfbfc9fb7e9b637216aeb9e5a0d6b470533
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605817"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503915"
 ---
 # <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>PowerShell을 사용하여 Microsoft 365 리소스 계정 만들기
 
 PowerShell을 사용하여 공동 작업용 공동 작업 막대에 Microsoft Teams 방법에 대한 자세한 내용은 이 항목을 참조하세요.
 
-리소스 계정을 만드는 가장 쉬운 방법은 Microsoft 365 관리 센터. [이 작업을 하는 방법에 대한 이 문서를 참조하세요.](resource-account-ui.md)
+리소스 계정을 만드는 가장 쉬운 방법은 Microsoft 365 관리 센터. [이 작업을 하는 방법에 대한 이 문서를 참조하세요](resource-account-ui.md).
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
 ## <a name="requirements"></a>요구 사항
 
-Microsoft Teams 룸 배포하기 Office 365 요구 사항을 충족해야 합니다. 자세한 내용은 에 대한 공동 [작업 Microsoft Teams.](collab-bar-deploy.md)
+Microsoft Teams 룸 배포하기 Office 365 요구 사항을 충족해야 합니다. 자세한 내용은 공동 작업용 공동 작업 표시 막대 [배포를 Microsoft Teams](collab-bar-deploy.md).
 
-- 공동 작업 표시줄에 PSTN 기능이 필요한 경우 라이선스가 전화 시스템 합니다.
+- 공동 작업 표시줄에 PSTN 기능이 필요한 경우 라이선스가 전화 시스템 필요합니다.
 
 - 리소스 계정에 사서함이 Exchange 있어야 합니다. 리소스 계정이기 때문에 라이선스가 Exchange 필요하지 않습니다. 리소스 계정에 회의실 라이선스를 사용 하는 것이 좋습니다.
 
 
 ### <a name="add-a-resource-account"></a>리소스 계정 추가
 
-1. 커넥트 PowerShell을 Exchange Online 수 있습니다. 지침은 [PowerShell을 커넥트 Exchange Online 참조하세요.](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module)
+1. 커넥트 PowerShell을 Exchange Online 합니다. 지침은 [PowerShell을 커넥트 Exchange Online 참조하세요](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module).
 
 2. PowerShell에서 새 Exchange Online 사서함을 만들거나 기존 방 사서함을 수정합니다.
 
@@ -72,13 +72,13 @@ Microsoft Teams 룸 배포하기 Office 365 요구 사항을 충족해야 합니
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     이 예제에서는 별칭 값이 HuddleRoom02인 기존 회의실 사서함에 대한 계정을 사용할 수 있으며 암호를 808P@$$W 0rd로 설정합니다. 기존 별칭 값으로 HuddleRoom02@contoso.onmicrosoft.com 계정이 설정됩니다.
+     이 예제에서는 별칭 값이 HuddleRoom02인 기존 회의실 사서함에 대한 계정을 사용할 수 있으며 암호를 808P@$$W 0rd로 설정합니다. 기존 별칭 값으로 HuddleRoom02@contoso.onmicrosoft.com 계정이 삭제됩니다.
 
      ``` PowerShell
      Set-Mailbox -Identity HuddleRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '808P@$$W0rd' -AsPlainText -Force)
      ```
 
-   자세한 구문 및 매개 변수 정보는 [New-사서함](/powershell/module/exchange/mailboxes/new-mailbox) 및 [Set-사서함 을 참조하세요.](/powershell/module/exchange/mailboxes/set-mailbox)
+   자세한 구문 및 매개 변수 정보는 [New-사서함](/powershell/module/exchange/mailboxes/new-mailbox) 및 [Set-사서함을 참조하세요](/powershell/module/exchange/mailboxes/set-mailbox).
 
 
 3. PowerShell의 Exchange Online 회의실 사서함에서 다음 설정을 구성하여 모임 환경을 개선합니다.
@@ -95,7 +95,7 @@ Microsoft Teams 룸 배포하기 Office 365 요구 사항을 충족해야 합니
 
    - AddAdditionalResponse: $true(AdditionalResponse 매개 변수에서 지정한 텍스트가 모임 요청에 추가됩니다.)
 
-   - 추가Response: "이 방에는 공동 작업 표시줄이 Microsoft Teams!" (모임 요청에 추가할 추가 텍스트입니다.)
+   - AdditionalResponse: "이 방에는 공동 작업 표시줄이 Microsoft Teams!" (모임 요청에 추가할 추가 텍스트입니다.)
 
    이 예제에서는 Huddle-Room-01이라는 룸 사서함에서 이러한 설정을 구성합니다.
 
@@ -103,9 +103,9 @@ Microsoft Teams 룸 배포하기 Office 365 요구 사항을 충족해야 합니
    Set-CalendarProcessing -Identity "Huddle-Room-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This room has a collaboration bar for Microsoft Teams!"
    ```
 
-   자세한 구문 및 매개 변수 정보는 [Set-CalendarProcessing 을 참조하세요.](/powershell/module/exchange/mailboxes/set-calendarprocessing)
+   자세한 구문 및 매개 변수 정보는 [Set-CalendarProcesssing을 참조하세요](/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-4. 커넥트 powershell cmdlet을 실행하여 Active Directory 설정을 만들기 위해 MS Online `Connect-MsolService -Credential $cred` PowerShell으로 이동합니다.   Active Directory에 대한 자세한 내용은 [Azure ActiveDirectory(MSOnline) 1.0 을 참조하세요.](/powershell/azure/active-directory/overview?view=azureadps-1.0) 
+4. 커넥트 cmdlet을 실행하여 Active Directory `Connect-MsolService -Credential $cred` 설정을 만들 수 있도록 MS Online PowerShell으로 이동합니다.   Active Directory에 대한 자세한 내용은 [Azure ActiveDirectory(MSOnline) 1.0을 참조하세요](/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0은](/powershell/azure/active-directory/overview?view=azureadps-2.0) 지원되지 않습니다. 
@@ -116,7 +116,7 @@ Microsoft Teams 룸 배포하기 Office 365 요구 사항을 충족해야 합니
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -PasswordNeverExpires $true
       ```
     
-6. 리소스 계정에 유효한 SKU Office 365 라이선스가 미팅룸 필요합니다. 또한 디바이스 계정에 사용 위치를 할당해야 합니다. 그러면 계정에 사용할 수 있는 라이선스 SKUS가 결정됩니다. 테넌트에 사용할 수 있는 SKUS 목록을 검색하는 `Get-MsolAccountSku` 데 Office 365 있습니다.
+6. 리소스 계정에 유효한 SKU 라이선스가 Office 365 있어야 합니다. 미팅룸 있습니다. 또한 디바이스 계정에 사용 위치를 할당해야 합니다. 그러면 계정에 사용할 수 있는 라이선스 SKUS가 결정됩니다. 테넌 `Get-MsolAccountSku` 트에 사용할 수 있는 SKUS 목록을 검색하는 데 Office 365 있습니다.
 
       ``` Powershell
       Get-MsolAccountSku
@@ -128,7 +128,7 @@ Microsoft Teams 룸 배포하기 Office 365 요구 사항을 충족해야 합니
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -UsageLocation "US"
       Set-MsolUserLicense -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -AddLicenses contoso:meeting_room
       ```
-   자세한 지침은 PowerShell을 통해 사용자 계정에 라이선스 [할당을 Office 365 참조하세요.](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
+   자세한 지침은 [PowerShell을 통해 사용자 계정에 라이선스 Office 365 참조하세요](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
 
 
