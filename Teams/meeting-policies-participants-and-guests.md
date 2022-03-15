@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
-description: 참가자 및 게스트의 모임 정책 설정을 Teams 자세히 알아보고
-ms.openlocfilehash: bdff1880104f80e7a5073900087a855202a9a137
-ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
+description: 참가자 및 게스트의 모임 정책 Teams 관리하는 방법을 배워야 합니다.
+ms.openlocfilehash: 8b4015c209f9cb30a773abefa3af4e4300a0dcec
+ms.sourcegitcommit: 2deb76ad222b77a19d43beffc87714204961aa09
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62881533"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63494354"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>모임 정책 설정 - 참가자 및 게스트
 
@@ -74,7 +74,7 @@ ms.locfileid: "62881533"
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>전화 접속 사용자의 대기실 우회 허용
 
-이 설정은 이끌이별 정책입니다. 이 설정으로 전화 접속한 참가자가 **자동으로 사용자 입장** 설정과 관계없이 바로 모임에 참가할지 아니면 대기실에서 기다릴지를 제어합니다. 기본적으로 이 설정은 꺼져 잇습니다. 이 설정을 끄면 전화 접속 사용자는 조직 사용자가 Teams 클라이언트에서 모임에 참가하여 입장을 허락할 때까지 대기실에서 기다립니다. 이 설정이 켜져 있는 경우 전화 접속 사용자는 조직 사용자가 모임에 참가할 때 자동으로 모임에 참가합니다.
+이 설정은 이끌이별 정책입니다. 이 설정으로 전화 접속한 참가자가 **자동으로 사용자 입장** 설정과 관계없이 바로 모임에 참가할지 아니면 대기실에서 기다릴지를 제어합니다. 기본적으로 이 설정은 꺼져 잇습니다. 이 설정을 끄면 전화 접속 사용자는 조직 사용자가 Teams 클라이언트에서 모임에 참가하여 입장을 허락할 때까지 대기실에서 기다립니다. 이 설정이 설정되어 있는 경우 조직 사용자가 모임에 참가할 때 전화 접속 Teams 있습니다.
 
 > [!NOTE]
 > 조직 사용자가 모임에 참가하기 전에 전화 접속 사용자가 모임에 참가하는 경우 조직 사용자가 Teams 클라이언트를 사용하여 모임에 참가한 다음 해당 전화 접속 사용자를 인정할 때까지 대기실에 배치됩니다. 아무 사용자에 대해서든 기본 설정을 변경하는 경우 해당 사용자가 이끄는 모든 새 모임 및 사용자가 모임 옵션을 수정하지 않은 이전 모임에 변경된 설정이 적용됩니다.
@@ -105,7 +105,7 @@ ms.locfileid: "62881533"
 
 ## <a name="enable-meeting-policy-settings"></a>모임 정책 설정 사용
 
-모임 정책 설정을 사용하도록 [설정](https://admin.teams.microsoft.com/policies/meetings)하려면 Teams 관리 센터(Meeting **PolicyEdit** >  **a** **policyParticipants** >  & 게스트) 또는 [PowerShell에서 Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 Teams 있습니다. 
+모임 정책 설정을 사용하도록 [설정](https://admin.teams.microsoft.com/policies/meetings) > 하려면 PowerShell에서 Teams 관리 센터(모임 정책에디트 a **policyParticipants** >  &) 또는 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 Teams 있습니다. 
 
 이 예제에서는 PowerShell을 사용하여 모든 사용자가 모임을 시작하거나 참가할 수 있도록 전역 모임 정책을 수정합니다.
 
