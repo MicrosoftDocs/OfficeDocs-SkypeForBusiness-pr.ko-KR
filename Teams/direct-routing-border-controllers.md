@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅에 대해 인증된 SBA(Session Border Controller)에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a61f7fd80a98f3813a1142aced7c1a65b6fbc157
-ms.sourcegitcommit: 2c8d6183920fd0df7e0491cf4e79b2311503dba7
+ms.openlocfilehash: 15707021292f376e922c4ed1b26bee3f651af41b
+ms.sourcegitcommit: 2deb76ad222b77a19d43beffc87714204961aa09
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63073756"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63494364"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>직접 라우팅에 대한 인증된 SBC(Session Border Controller)
 
@@ -50,7 +50,7 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 직접 라우팅에 대해 인증된 목록 디바이스를 따르는 테이블입니다. (로컬 미디어 최적화를 지원하는 SBC 공급업체에 대한 자세한 내용은 [직접 라우팅을 위한 로컬 미디어 최적화 구성](direct-routing-media-optimization-configure.md)을 참조하세요.)
 
 [직접 라우팅](https://aka.ms/dr)에 대해 자세히 알아보세요.
-직접 라우팅용 SBC 인증 프로그램 관련 질문은 drsbccertification@microsoft.com으로 문의해 주세요. 참고: 추후 공지가 있을 때까지 인증에 대한 새 추천을 수락하지 않습니다.
+직접 라우팅용 SBC 인증 프로그램 관련 질문은 drsbccertification@microsoft.com으로 문의해 주세요. 추후 공지가 있을 때까지 인증에 대한 새 추천을 수락하지 않습니다.
 <br/>
 
 ## <a name="certified-sbc-vendors"></a>인증된 SBC 공급업체
@@ -75,12 +75,14 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.x 또는 9.x    |   &#10004;    |     &#10004;     |
 | | EdgeMarc 시리즈 |  &#10004; | | 15.6.1 | |  
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |           |       1.4       |     |    |
-|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   &#10004;    |  &#10004;  |
-|    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  &#10004;    |  &#10004;  |
-|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  &#10004;    |  &#10004;  |
-|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  &#10004;    |  &#10004;  |
-|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   &#10004;   |  &#10004;  |
-|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |
+|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 지원 및 8.4.x 및 9.x 권장 |   &#10004;    |  &#10004;  |
+|    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1 지원 및 8.4.x 및 9.x 권장  |  &#10004;    |  &#10004;  |
+|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1 지원 및 8.4.x 및 9.x 권장 |  &#10004;    |  &#10004;  |
+|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1 지원 및 8.4.x 및 9.x 권장 |  &#10004;    |  &#10004;  |
+|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1 지원 및 8.4.x 및 9.x 권장  |   &#10004;   |  &#10004;  |
+|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1 지원 및 8.4.x 및 9.x 권장  |   &#10004;   |  &#10004;  |
+|                                                                                                                    |      AP 3950           |    &#10004;    |    &#10004;    |     9.x 지원  |   &#10004;   |  &#10004;  |
+|                                                                                                                    |      AP 4900           |    &#10004;    |    &#10004;    |     9.x 지원  |   &#10004;   |  &#10004;  |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      지원되는 3.20(권장 4.0)        |  &#10004;    |  &#10004;   |
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7(미디어 바이패스용 4.9)      | &#10004; | &#10004; |  
 |                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     1000 시리즈 통합 서비스 라우터용 Cisco CUBE(통합 테두리 구성 요소)        |     &#10004;   | &#10004; |      지원되는 IOS XE 암스테르담 17.2.1r(권장 17.6.1a)         |    &#10004;     |   |  
@@ -139,11 +141,13 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 |               | SBC 2000 | 8.1.5  |
 | [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1+ |
 | [Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
-|        | AP 3900 | 8.4.0.0.0 |
-|        | AP 4600 | 8.4.0.0.0 | 
-|        | AP 6300 | 8.4.0.0.0 |
-|        | AP 6350 | 8.4.0.0.0 | 
-|        | VME     | 8.4.0.0.0 |
+|        | AP 3900 | 8.4.0.0.1 &  9.x |
+|        | AP 4600 | 8.4.0.0.1 &  9.x | 
+|        | AP 6300 | 8.4.0.0.1 &  9.x |
+|        | AP 6350 | 8.4.0.0.1 &  9.x | 
+|        | VME     | 8.4.0.0.1 &  9.x |
+|        | AP 3950     | 9.x |
+|        | AP 4900     | 9.x |
 | [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    ASBCE(기업용 Avaya Session Border Controller)    |  10.1.2 | 
 
 
@@ -158,12 +162,14 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-1](https://www.audiocodes.com/media/2373/mp-1xx-and-mp-124-datasheet.pdf)   |     &#10004;     |
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-2](https://www.audiocodes.com/media/2399/mediapack-20x-mp-20x-analog-telephone-adapters-datasheet.pdf)   |     &#10004;     | 
 | [Cisco](https://www.cisco.com/c/en/us/products/collateral/unified-communications/ata-190-series-analog-telephone-adapters/datasheet-c78-740013.html) |  ATA 191 다중 플랫폼 아날로그 전화 어댑터 |     &#10004;     |
-| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |   AP1100 소프트웨어 버전 8.3.0.1.2 |     &#10004;     |
-| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP3900 소프트웨어 버전 8.3.0.1.2|     &#10004;     |
-| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP4600 소프트웨어 버전 8.3.0.1.2|     &#10004;     |
-| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6300 소프트웨어 버전 8.3.0.1.2|     &#10004;     |
-| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6350 소프트웨어 버전 8.3.0.1.2|     &#10004;     |
-| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  VME 소프트웨어 버전 8.3.0.1.2 |     &#10004;     |
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |   AP 1100 소프트웨어 버전 지원 8.3.0.1.2 및 권장 8.4.x 또는 9.x|     &#10004;     |
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP 3900 소프트웨어 버전 지원 8.3.0.1.2 및 권장 8.4.x 또는 9.x|     &#10004;     |
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP 4600 소프트웨어 버전 지원 8.3.0.1.2 및 권장 8.4.x 또는 9.x|     &#10004;     |
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP 6300 소프트웨어 버전 지원 8.3.0.1.2 및 권장 8.4.x 또는 9.x|     &#10004;     |
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP 6350 소프트웨어 버전 지원 8.3.0.1.2 및 권장 8.4.x 또는 9.x|     &#10004;     |
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  VME 소프트웨어 버전 지원 8.3.0.1.2 및 권장 8.4.x 또는 9.x |     &#10004;     |
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP 3950 소프트웨어 버전 지원 9.x |     &#10004;     |
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP 4900 소프트웨어 버전 지원 9.x |     &#10004;     |
 | [리본 메뉴](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 1000. 소프트웨어 버전: 8.1.1(빌드 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
 | [리본 메뉴](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 2000. 소프트웨어 버전: 8.1.1(빌드 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
 | [리본 메뉴](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 302. 소프트웨어 버전: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)   |     &#10004;     |
