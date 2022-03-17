@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 이 문서에서는 콘솔 및 주변 장치를 설정하고 Microsoft Teams 룸 방법을 설명합니다.
-ms.openlocfilehash: 42f10ffe4ed2b577e91ed13b57ea8efcae67a1a4
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: c13a247f2ce9d7fee7571f7f3a202310b2ce8b41
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63504015"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514723"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>이미지 Microsoft Teams 룸 빌드
 
@@ -117,30 +117,36 @@ CreateSrsMedia.ps1 스크립트는 다음 작업을 자동화합니다.
     
 4. 시간 **언어를 &amp; 선택합니다**.
     
-5. 지역 **언어를 &amp; 선택합니다**.
+5. 언어를 **선택합니다**.
     
 6. 언어 **추가를 선택합니다**.
     
 7. 추가할 언어를 선택합니다.
     
-8. 방금 "언어" 목록에 추가한 언어를 선택합니다.
+8. 언어 기능을 설치합니다.
     
-9. 기본값 **으로 설정을 선택합니다**.
+9. 내 화면 표시 언어로 Windows 선택하지 않습니다.
     
-10. 제거하고자 하는 언어의 경우:
+10. 설치 **를 선택합니다**.
+    
+11. 방금 "언어" 목록에 추가한 언어를 선택합니다.
+    
+12. 기본값으로 설정 - 위쪽 화살표를 기본값으로 설정
+
+13. 제거하고자 하는 언어의 경우:
     
     a. 제거할 언어를 선택합니다.
     
-    b. 제거 **를 선택합니다**.
-    
-11. 상승된 명령 프롬프트를 시작합니다.
-    
-12. 다음 명령을 실행합니다. 
+    b. 제거를 선택합니다.
+
+14. 상승된 명령 프롬프트를 시작합니다.
+
+15. 다음 명령을 실행합니다. 
     ```PowerShell
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
     ```
     
-13. 시스템을 다시 시작합니다.
+16. 시스템을 다시 시작합니다.
     
 이제 원하는 언어가 콘솔에 Microsoft Teams 룸 적용됩니다.
 ## <a name="initial-set-up-of-the-console"></a>콘솔의 초기 설정
@@ -154,12 +160,12 @@ Windows 설치한 후 Microsoft Teams 룸 앱이 초기 설정 프로세스로 �
    
 3. 지원되는 모임 모드(Microsoft Teams 전용, 비즈니스용 Skype 전용) 또는 두 가지 혼합 모드 옵션 중 하나를 선택합니다. 필요한 경우 최신 인증을 사용하도록 설정합니다.
 
-4. 다음 **을 클릭합니다**.
+4. 다음 **을 선택합니다**.
     
 5. 비즈니스용 Skype 및 비즈니스용 Skype SIP 도메인이 사용자의 Exchange 도메인과 다른 경우 고급 섹션에서 비즈니스용 Skype 서버 FQDN을 설정합니다. 도메인을 사용하지 비즈니스용 Skype SIP 도메인이 Exchange 도메인과 일치하는 경우 이 섹션을 비워 두십시오.
-6. 다음 **을 클릭합니다**.
+6. 다음 **을 선택합니다**.
     
-7. **마침** 을 클릭합니다.
+7. 완료를 **선택합니다**.
     
 Microsoft Teams 룸 앱은 위에서 입력한 자격 증명을 사용하여 Microsoft Teams 비즈니스용 Skype 서버 로그인해야 합니다. 또한 동일한 자격 증명을 사용하여 일정을 Exchange 시작해야 합니다. 사용에 대한 자세한 내용은 Teams 룸 도움말을 [Microsoft Teams 룸 참조합니다](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   

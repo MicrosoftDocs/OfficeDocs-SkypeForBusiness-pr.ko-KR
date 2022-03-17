@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 헤드셋, 스피커폰, 웹캠 및 모니터와 같은 USB 주변 장치 및 디바이스가 인증된 USB 주변 장치를 Microsoft Teams.
-ms.openlocfilehash: 0e85a2317ba79bdedeca30dbd566ab84b557ec6f
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: 3fccae62c996e0301e6bbe928cae17ff163c650e
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63503555"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514529"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB 오디오 및 비디오 디바이스 인증을 Microsoft Teams
 
@@ -78,6 +78,9 @@ ms.locfileid: "63503555"
 
 | 제조업체        | 모델                                                     | 적격      | 인증된 프로그램                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |ADAPT 661                                                  |3/11/2022       |인증된 Microsoft Teams                           |
+|EPOS                 |ADAPT 461T                                                 |3/11/2022       |인증된 Microsoft Teams                           |
+|EPOS                 |ADAPT 361                                                  |3/11/2022       |인증된 Microsoft Teams                           |
 |Dell                 |스피커폰 SP3022                                        |2/7/2022        |인증된 Microsoft Teams                           |
 |Dell                 |슬림 회의 사운드바 SB522A                          |1/25/2022       |인증된 Microsoft Teams                           | 
 |Lenovo               |유선 ANC 헤드셋 이동                                       |1/12/2022       |인증된 Microsoft Teams                           |

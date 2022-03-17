@@ -1325,16 +1325,16 @@ items:
                 href: rooms/rooms-deploy.md
               - name: 계정 구성
                 href: rooms/rooms-configure-accounts.md
-              - name: Office 365를 사용하면
+              - name: Surface Hub
+                items:
+                  - name: 조정된 모임 설정
+                    href: rooms/coordinated-meetings.md
+                  - name: Microsoft Teams 설정 관리
+                    href: rooms/surface-hub-manage-config.md
+              - name: 리소스 계정 만들기
                 href: rooms/with-office-365.md
               - name: 비즈니스용 Skype 서버를 사용하면
                 href: rooms/with-skype-for-business-server-2015.md
-              - name: Exchange Online(하이브리드)를 사용하면
-                href: rooms/with-exchange-online.md
-              - name: Exchange 온-프레미스(하이브리드)를 사용하면
-                href: rooms/with-exchange-on-premises.md
-              - name: Android용 Microsoft Teams 룸 배포
-                href: devices/collab-bar-deploy.md
               - name: 콘솔 구성
                 href: rooms/console.md
               - name: 수동으로 장치 업데이트
@@ -1785,8 +1785,6 @@ items:
         items:
           - name: Microsoft 365 그룹 및 Microsoft Teams
             href: office-365-groups.md
-          - name: Microsoft 365 관리 센터를 사용하여 Microsoft 365 리소스 계정 만들기
-            href: devices/resource-account-ui.md
           - name: Teams와 기존 Microsoft 365 그룹 향상
             href: enhance-office-365-groups.md
           - name: Exchange와 Teams의 상호 작용 방법

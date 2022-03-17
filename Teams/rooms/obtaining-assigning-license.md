@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 프리미엄 관리 Microsoft Teams 룸 계정에 액세스하기 위한 라이선스를 Microsoft Teams 룸 방법에 대해 자세히 알아보습니다.
 f1keywords: ''
-ms.openlocfilehash: 2b20895cbd164adde136ae6a1953f59359f9e5aa
-ms.sourcegitcommit: 47b14f57bc64544d63aec67b023ead13c71342b4
+ms.openlocfilehash: a72dd47184487ed9364ceafacadfdc155743c292
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "63418881"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514837"
 ---
 # <a name="getting-started-with-microsoft-teams-rooms-premium-managed-service"></a>관리되는 Microsoft Teams 룸 프리미엄 시작
 
@@ -42,7 +42,7 @@ Microsoft Teams 룸 리소스 계정에는 Microsoft Teams 룸 프리미엄 관�
 2. 왼쪽 **탐색 창에서 >** 라이선스 청구를 선택해야 합니다.
 3. 원하는 **용도에 Teams 룸** 프리미엄 라이선스를 선택합니다(유료 및 평가판 라이선스 사용 가능). SKUS와 SKUS 간의 비교는 [공유](rooms-licensing.md) 통신 디바이스에 대한 Microsoft Teams 룸 스탠더드 Premium 참조하세요.
 4. 청구 계정 **페이지에서** 라이선스 **할당을 선택합니다**. 사용자에게 **라이선스 할당 페이지** 가 나타납니다.
-5. 라이선스 **할당에 Microsoft Teams 룸** **기존 Teams 룸 Premium** 입력합니다. 새 계정 설정 또는 기존 Microsoft Teams 룸 유효성 검사에 대한 자세한 내용은 Microsoft Teams 룸 또는 Microsoft 365 [Office 365.](with-office-365.md)
+5. 라이선스 **할당에 Microsoft Teams 룸** **기존 Teams 룸 Premium** 입력합니다. 새 - 또는 기존 계정의 유효성 검사에 대한 자세한 내용은 Microsoft Teams 룸 및 공유 디바이스에 [대한 리소스 계정 만들기를 Teams 참조하세요](with-office-365.md).
 6. 계정 제출이 완료되면 할당을 **선택한 다음 닫****습니다**. **Microsoft Teams 룸 프리미엄 계정에** 할당된 **Microsoft Teams 룸 있습니다.**
 
 이제 리소스 계정 및 연결된 인증된 Microsoft Teams 룸 디바이스를 관리되는 Microsoft Teams 룸 프리미엄 준비가 완료되었습니다. 자세한 내용은 관리되는 서비스에서 디바이스 [Microsoft Teams 룸 프리미엄 참조하세요](enrolling-mtrp-managed-service.md).

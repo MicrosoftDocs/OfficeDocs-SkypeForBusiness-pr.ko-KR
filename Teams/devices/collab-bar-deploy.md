@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Android에서 배포하는 방법을 알아보 Microsoft Teams 룸 문서를 읽어보아야 합니다.
-ms.openlocfilehash: 55e410b1863effd671f08cba663211b78f76e30f
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: 7b37f03bdecf0bb6b1d3f3545d096836aa81b805
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63503545"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514519"
 ---
 # <a name="deploy-microsoft-teams-rooms-on-android"></a>Android에서 Microsoft Teams 룸 배포
 
@@ -122,6 +122,4 @@ Microsoft 365 리소스 계정을 사용하여 사용자가 공동 작업 표시
 
 ## <a name="related-topics"></a>관련 항목
 
-[관리 센터를 사용하여 Microsoft Teams 룸 계정 Microsoft Teams 구성](resource-account-ui.md)
-
-<!-- [Configure accounts for collaboration bars for Microsoft Teams using PowerShell](resource-account-ps.md) -->
+[회의실 및 공유 디바이스에 Teams 계정 만들기](../rooms/with-office-365.md)
