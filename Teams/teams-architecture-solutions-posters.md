@@ -4,7 +4,7 @@ ms.author: serdars
 author: SerdarSoysal
 manager: serdars
 audience: ITPro
-ms.topic: hub-page
+ms.topic: landing-page
 ms.service: msteams
 ms.localizationpriority: high
 ms.collection:
@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: '요약: Microsoft Teams로 시장을 선도하는 Microsoft 365 생산성 서비스의 논리적 아키텍처에 대해 알아봅니다. Teams용 음성 솔루션에 대해도 알아보세요.'
-ms.openlocfilehash: 1bc157d2b6caad42be1b1cf2e9bfd03fd28d8423
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ec608f192c08a33b9505008eacb6f6549780e7bd
+ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730827"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63564750"
 ---
 # <a name="microsoft-teams-it-architecture-and-voice-solutions-posters"></a>Microsoft Teams IT 아키텍처 및 음성 솔루션 포스터
 

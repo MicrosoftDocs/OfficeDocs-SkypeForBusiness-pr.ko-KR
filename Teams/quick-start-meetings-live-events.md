@@ -1,7 +1,7 @@
 ---
-title: 빠른 시작 - 모임, 웨비나 및 라이브 이벤트
+title: 모임, 웨비나 및 라이브 이벤트
 ms.reviewer: ''
-description: 관리자가 Microsoft Teams에서 모임, 웹 세미나 및 라이브 이벤트를 배포하고 구성하기 위한 빠른 시작 가이드입니다.
+description: 관리자가 Microsoft Teams에서 모임, 웹 세미나 및 라이브 이벤트를 배포하고 구성하기 위한 가이드입니다.
 ms.topic: article
 author: CarolynRowe
 ms.author: crowe
@@ -20,29 +20,29 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed6abe00ac67b6029fdb72178ad09e21ec58e80d
-ms.sourcegitcommit: edf68b7ac4f1861259a0990157ee6ae84f68ca42
+ms.openlocfilehash: ffd0ad9f9b765839a4543dd8600b558000fa164f
+ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "62974455"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63564740"
 ---
-# <a name="quick-start---meetings-webinars-and-live-events"></a>빠른 시작 - 모임, 웨비나 및 라이브 이벤트 
+# <a name="meetings-webinars-and-live-events"></a>모임, 웨비나 및 라이브 이벤트 
 
 Microsoft Teams에서는 모임, 웨비나, 라이브 이벤트 등 여러 가지 방법으로 모임을 할 수 있습니다. 
 
-관리자와 IT 전문가를 대상으로 하는 이 게시물에서는 모임, 웨비나 및 라이브 이벤트 간의 차이점을 간략하게 설명합니다. 그런 다음 사용자를 위해 이 기능을 신속하게 롤아웃하는 데 필요한 정보에 대한 링크를 제공합니다.
+관리자와 IT 전문가를 대상으로 하는 이 문서에서는 모임, 웨비나 및 라이브 이벤트의 차이점에 대해 설명합니다. 그런 다음 사용자를 위해 이 기능을 신속하게 롤아웃하는 데 필요한 정보에 대한 링크를 제공합니다.
 
 > [!Note]
 > 다양한 플랫폼에서 Teams 모임 및 이벤트를 신속하게 구성하는 방법에 대한 자세한 내용은 [플랫폼별 Teams 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)을 참조하세요.
 
-## <a name="meetings-webinars-and-live-events"></a>모임, 웨비나 및 라이브 이벤트
 
-[모임](#meetings), [웹 세미나](#webinars) 및 [라이브 이벤트](#live-events)는 모두 모임 유형이지만 웹 세미나 및 라이브 이벤트는 주최자가 대화 및 참가자에 대한 추가 제어를 제공합니다. 웹 세미나는 양방향 상호 작용을 제공하는 반면 라이브 이벤트는 관리되는 질문 및 답변 환경을 제공합니다. 
+[모임](#meetings), [웹 세미나](#webinars) 및 [실시간 이벤트](#live-events)는 모두 모임 유형이지만 웹 세미나 및 실시간 이벤트는 이끌이가 대화 및 참가자에 대한 추가 제어를 제공합니다. 웨비나는 양방향 상호작용을 제공하는 반면 라이브 이벤트는 관리되는 Q&A 경험을 제공합니다. 
 
 모임 유형에 따라 참가자 제한 및 참가자 기능도 다릅니다. 
 
-다음 표에는 세 가지 유형의 모임, 권장 참가자 수 및 참가자가 모임에서 상호 작용할 수 있는 방법이 간략하게 요약되어 있습니다. 각 모임 유형에 대한 자세한 내용은 표를 따릅니다. <br><br>
+다음 표에는 세 가지 유형의 모임, 권장 참가자 수 및 참가자가 모임에서 상호 작용할 수 있는 방법이 요약되어 있습니다. 각 모임 유형에 대한 자세한 정보가 포함된 섹션은 다음 표를 따릅니다. 이 문서에는 [대규모 모임을 위한 모범 사례](#best-practices-for-large-meetings) 섹션도 포함되어 있습니다.
+<br><br>
 
 | 모임 유형 | 참가자 수 | 상호 작용 | 등록 지원 |
 |----------|--------|--------|-----|
@@ -55,20 +55,9 @@ Microsoft Teams에서는 모임, 웨비나, 라이브 이벤트 등 여러 가�
 
 **2022년 6월 30일까지 기존 10,000명에서 20,000명으로 상향 조정됩니다. Yammer 및/또는 Microsoft Stream의 라이브 이벤트로 더 많은 수를 예약할 수 있습니다. 자세한 내용은 [Microsoft 365의 라이브 이벤트](/stream/live-event-m365)를 참조하세요. 참석자가 20,000명이 넘는 이벤트에는 [라이브 이벤트 지원 프로그램](/stream/live-events-assistance)이 필요합니다. 
 
-**대규모 모임, 웨비나 및 실시간 이벤트에 대한 고려사항** - 대규모 모임을 주최할 때 다음 사항을 고려하세요.
-
-- 대규모 모임, 웨비나 및 실시간 이벤트에서 최상의 경험을 위해 Microsoft는 Teams 데스크톱 클라이언트 또는 Teams 모바일 클라이언트의 최신 버전을 사용할 것을 권장합니다. 
-
-- 대규모 모임, 웨비나 및 라이브 이벤트의 발표자는 Teams 데스크톱 클라이언트를 사용해야 합니다. 
-
-- 대규모 모임을 호스트하는 방법에 대한 자세한 내용은 [대규모 Teams 모임에 대한 모범 사례](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)를 참조하세요.
-
-보기 전용 모임 환경에 대한 자세한 내용은 [Teams 보기 전용 모임 환경](view-only-meeting-experience.md)을 참조하세요.
-
 NDI는 모임, 웨비나 및 라이브 이벤트에서 완벽하게 지원되므로 OBS 및 Wirecast와 같은 도구를 사용하여 방송을 제작할 수 있습니다. 자세한 내용은 [Microsoft Teams에서 NDI® 기술 사용](use-ndi-in-meetings.md)을 참조하세요.
 
-
-### <a name="meetings"></a>모임
+## <a name="meetings"></a>모임
 
 Teams의 **모임** 에는 최대 1,000명을 위한 오디오, 동영상 및 화면 공유와 1,000명 이상의 참가자를 위한 [보기 전용 기능](view-only-meeting-experience.md)이 ​​포함됩니다. 참가자는 Teams 모임에 참가하기 위해 조직의 구성원이거나 Teams 계정이 없어도 됩니다. 모임 참여 링크를 통해 일정 초대에서 직접 참여하거나 가능한 경우 오디오를 통해 전화를 걸 수 있습니다.  
 
@@ -76,7 +65,9 @@ Teams의 **모임** 에는 최대 1,000명을 위한 오디오, 동영상 및 �
 
 정기적으로 예약된 모임 외에도 사용자는 채널 모임을 만들 수 있습니다. 채널 모임을 사용하면 팀의 모든 사람이 모임이 있음을 확인하고 모임에 참여하고 모임 채팅을 사용할 수 있습니다. 채널 모임은 팀의 모든 사람을 모임에 빠르게 초대하는 방법입니다. 최종 사용자가 모임을 예약하는 방법에 대한 자세한 내용은 [모임 예약](https://support.microsoft.com/office/schedule-a-meeting-in-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5)을 참조하세요.
 
-#### <a name="articles-for-administrators"></a>관리자를 위한 게시물
+보기 전용 모임 환경에 대한 자세한 내용은 [Teams 보기 전용 모임 환경](view-only-meeting-experience.md)을 참조하세요.
+
+### <a name="articles-for-administrators"></a>관리자를 위한 게시물
 
 다음 표에는 사용자가 검토할 주요 게시물이 하이라이트되어 있습니다.
 
@@ -89,7 +80,7 @@ Teams의 **모임** 에는 최대 1,000명을 위한 오디오, 동영상 및 �
 | [실시간 원격 분석을 사용하여 모임 품질 저하 문제 해결](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) | RTA(실시간 분석)를 사용하여 개별 사용자를 위해 Microsoft Teams 모임 품질 저하 문제를 해결하는 방법을 설명합니다. 
 |||
 
-#### <a name="key-training-for-end-users"></a>최종 사용자를 위한 핵심 교육
+### <a name="key-training-for-end-users"></a>최종 사용자를 위한 핵심 교육
 
 다음 표에는 조직의 최종 사용자가 사용할 수 있는 교육이 나와 있습니다.
 
@@ -102,12 +93,12 @@ Teams의 **모임** 에는 최대 1,000명을 위한 오디오, 동영상 및 �
 ||
 
 
-### <a name="webinars"></a>웨비나
+## <a name="webinars"></a>웨비나
 
 **웹 세미나** 는 발표자와 참가자가 명확한 역할을 하는 구조화된 모임입니다. 웨비나와 Teams 모임의 주요 차이점은 웨비나가 등록을 지원하고 참석자 참여 데이터를 제공한다는 것입니다. 조직에서 웹 세미나를 활성화하려면 [Teams에서 웹 세미나 설정](set-up-webinars.md)을 참조하세요. 
 
 
-#### <a name="key-training-for-end-users"></a>최종 사용자를 위한 핵심 교육
+### <a name="key-training-for-end-users"></a>최종 사용자를 위한 핵심 교육
 
 다음 표에는 조직의 최종 사용자가 사용할 수 있는 교육이 나와 있습니다.
 
@@ -118,11 +109,11 @@ Teams의 **모임** 에는 최대 1,000명을 위한 오디오, 동영상 및 �
 ||
 
 
-### <a name="live-events"></a>라이브 이벤트
+## <a name="live-events"></a>라이브 이벤트
 
 **라이브 이벤트** 는 조직에서 최대 20,000명까지&mdash;많은 온라인 대상 그룹에게 스트리밍되는 이벤트를 예약하고 제작할 수 있는 구조화된 모임입니다. 라이브 이벤트에서 대상 그룹과의 상호 작용은 관리되는 질문 및 답변 환경입니다.
 
-#### <a name="articles-for-administrators"></a>관리자를 위한 게시물
+### <a name="articles-for-administrators"></a>관리자를 위한 게시물
 
 다음 표에는 사용자가 검토할 주요 게시물이 하이라이트되어 있습니다.
 
@@ -134,7 +125,7 @@ Teams의 **모임** 에는 최대 1,000명을 위한 오디오, 동영상 및 �
 | [라이브 이벤트 구성](teams-live-events/configure-teams-live-events.md) | 라이브 이벤트 구성 단계입니다.
 ||
 
-#### <a name="key-training-for-end-users"></a>최종 사용자를 위한 핵심 교육
+### <a name="key-training-for-end-users"></a>최종 사용자를 위한 핵심 교육
 
 다음 표에는 조직의 최종 사용자가 사용할 수 있는 교육이 나와 있습니다.
 
@@ -163,11 +154,64 @@ Teams와 함께 제공되는 앱을 사용하고, 인증된 타사 앱과 템플
 
 ## <a name="license-requirements-for-meetings-webinars-and-live-events"></a>모임, 웨비나 및 라이브 이벤트에 대한 라이선스 요구 사항
 
-누구나 Teams 모임, 웹 세미나 또는 라이브 이벤트에 &mdash;라이선스 없이 무료로 참석할 수 있습니다. 
+라이선스 없이 누구나 Teams 모임, 웹 세미나 또는 공개 라이브 이벤트에 무료로&mdash;참석할 수 있습니다. 
 
 모임, 웨비나 또는 라이브 이벤트를 조직, 예약 및 주최하는 사용자에게는 [Microsoft Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)에 나열된 Microsoft 365 라이선스 중 하나가 필요합니다. 이미 Teams를 사용하고 있다면 모임, 웨비나 및 라이브 이벤트를 구성하고 주최하는 데 필요한 라이선스가 있을 것입니다.
 
 사람들이 전화로 모임에 전화를 걸 수 있도록 하려면 오디오 회의를 설정해야 합니다. 오디오 회의에 대한 자세한 내용은 [Teams의 오디오 회의](deploy-audio-conferencing-teams-landing-page.md)를 참조하세요.
+
+## <a name="best-practices-for-large-meetings"></a>대규모 모임에 대한 모범 사례
+
+이 섹션에서는 관리자를 위한 지침과 함께 관리자가 발표자 및 이끌이와 공유할 수 있는 팁을 제공합니다.
+
+성공적인 이벤트를 실행하려면 아래에 설명된 방법을 따르세요.
+
+- 대규모 모임, 웨비나 및 실시간 이벤트에서 최상의 경험을 위해 Microsoft는 Teams 데스크톱 클라이언트 또는 Teams 모바일 클라이언트의 최신 버전을 사용할 것을 권장합니다. 
+
+- 온-프레미스와 원격 사용자 모두에 대해 모든 Microsoft [네트워크 연결 원칙](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles)을 준수했는지 확인합니다.
+- [실시간 데이터 원격 분석](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-real-time-call-quality-analytics/ba-p/2912146)을 사용하여 이벤트를 모니터링하고 가능한 문제와 원인을 식별합니다.
+  - 임계값을 초과하는 메트릭으로 인해 사용자 경험이 좋지 않은 사용자를 위해 원격 측정을 [분석](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md)하도록 모임 모니터를 지정합니다.
+  - 모임 모니터를 발표자로 설정하여 불량 비디오 스트림을 비활성화하고, 우발적인 라이브 마이크를 음소거하고, 필요한 경우 참석자를 제거합니다.
+
+### <a name="guidelines-for-your-end-users"></a>최종 사용자를 위한 지침
+
+이끌이와 발표자는 다음 권장 사항을 구현해야 합니다.
+
+- 원활한 모임을 만들기 위해 이벤트 이끌이는 미리 정의된 발표자를 설정할 수 있습니다. 모임이 시작된 후 발표자는 다른 참석자를 발표자 역할로 승격할 수도 있습니다.
+
+- 모임 옵션을 통해 공동 이끌이 정의(공개 미리 보기)
+
+- 참석자의 경험을 제어하기 위해 비디오 및 마이크 설정을 사전 구성합니다.
+  - 방해를 피하기 위해 참석자의 마이크를 비활성화합니다. 누군가가 모임 중에 상호 작용해야 하는 경우 손을 들었을 때 음소거 해제를 허용합니다.
+  - 시각적 방해를 피하기 위해 참석자의 비디오를 비활성화합니다. 모임의 적절한 시간 동안 모든 참석자 또는 특정 개인에게 비디오가 허용될 수 있습니다.
+
+- 모임 중에 설문 조사 및 Q&A를 사용합니다.
+
+- 로비 제어를 사용하여 모임 입장 또는 대기실 보류를 제어합니다.
+
+- 이벤트 며칠 전과 당일에 네트워크 적합성을 확인하려면 [Microsoft 365 네트워크 연결 테스트](https://connectivity.office.com/)를 실행하세요.
+
+- 집에서 발표하는 경우 다른 장치가 고대역폭을 사용하고 있지 않은지 확인하세요(스트리밍 서비스, 온라인 게임, 대용량 다운로드).
+
+- 보다 안정적인 오디오, 비디오 및 화면 공유를 위해 유선 연결을 통해 엔드포인트에서 프레젠테이션하세요.
+
+- 사용자가 데스크톱 또는 모바일 장치에서 최신 Teams 앱을 사용 중인지 확인하세요.
+
+- 노트북을 사용할 때 높은 네트워크 연결과 충분한 전원을 확인하세요.
+
+- 장치, 조명 또는 네트워크 문제를 식별하기 위해 이벤트 전에 테스트 실행을 예약합니다. 이렇게 하면 이끌이/발표자가 사용할 기능에 익숙해질 수도 있습니다.
+  - 문제가 발생한 경우 수정 노력이 성공적으로 수행되었는지 확인하기 위해 추가 연습 실행을 예약합니다.
+  
+- 스포트라이트, PowerPoint Live, 모임 녹음, 캡션 및 텍스트 변환과 같은 기능을 활용하여 참여와 효율성을 높입니다.
+
+- 발표자와 참가자는 최적의 경험을 제공하기 위해 Teams 데스크톱 앱을 사용해야 합니다.
+
+- 참가자는 주의가 산만하지 않도록 대규모 모임 중에 채팅 알림을 꺼야 합니다.
+
+- 대규모 모임을 호스트하는 방법에 대한 자세한 내용은 [대규모 Teams 모임에 대한 모범 사례](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)를 참조하세요.
+
+
+
 
 
 ## <a name="related-topics"></a>관련 항목

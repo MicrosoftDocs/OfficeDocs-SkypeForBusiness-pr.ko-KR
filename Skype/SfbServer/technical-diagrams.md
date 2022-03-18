@@ -1,23 +1,28 @@
 ---
 title: 비즈니스용 Skype 서버 2015용 포스터 | 음성 PSTN
-ms.reviewer: null
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
 audience: ITPro
-ms.topic: hub-page
+ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection:
-  - IT_Skype16
-  - Strat_SB_Admin
-ms.custom: null
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 description: '요약: 포스터를 계획, 구현 또는 관리하는 동안 필요한 경우 이러한 포스터를 비즈니스용 Skype 서버.'
+ms.openlocfilehash: 6d11b9c5cb6eac40d3794af3b0ba3fcd4cfedc74
+ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63564760"
 ---
-
 # <a name="technical-diagrams-for-skype-for-business-server"></a>사용자에 대한 기술 비즈니스용 Skype 서버
 
 **요약:** 포스터를 계획, 구현 또는 관리하는 동안 필요한 경우 이러한 포스터를 비즈니스용 Skype 서버.
@@ -36,18 +41,18 @@ description: '요약: 포스터를 계획, 구현 또는 관리하는 동안 필
 
 이러한 포스터는 특정 기술 영역을 자세히 설명하며 다운로드 센터에서 사용할 수 있는 해당 문서 또는 콘텐츠와 함께 사용할 수 있습니다.
 
-이 기능을 사용하는 Microsoft Teams IT 아키텍처 및 전화 통신 Microsoft Teams 포스터[를 참조하세요](/MicrosoftTeams/teams-architecture-solutions-posters).
+이 기능을 사용하는 Microsoft Teams 자세한 내용은 Microsoft Teams IT 아키텍처 및 전화 통신 솔루션 포[스터를 참조하세요](/MicrosoftTeams/teams-architecture-solutions-posters).
 
 |제목|설명|
 |:---|:---|
-|**비즈니스용 Skype 서버 프로토콜 워크로드** <br/>![SfB 프로토콜 워크로드 포스터.](media/0dccf933-eab3-4793-a8a4-4f6b9b0b4fa0.png)<br/>[PDF 버전](https://go.microsoft.com/fwlink/p/?LinkId=550989) (모바일 장치 또는 태블릿 컴퓨터에 가장 적합한) <br/> [Visio 버전](https://go.microsoft.com/fwlink/p/?LinkId=550991)(Visio) |서비스 복잡성 수준이 서로 다른 비즈니스용 Skype 서버 및 클라이언트의 요구 사항을 보다 잘 이해하려면 이 포스터를 다운로드하세요.<br/> <br/> 크기: 11~17인치(여러 장으로, 대부분의 Office 프린터에서 편리하게 인쇄할 수 있습니다. <br/> <br/> 이 포스터는 Visio 2015를 사용하여 작성되었습니다. 특정 환경에는 수정이 필요하지 않습니다. |
-|**비즈니스용 Skype 품질 방법론** <br/> ![통화 품질 방법론 포스터입니다. ](media/69d33707-8dc4-446a-8d72-0a77be59a64a.png)[PDF 버전](https://go.microsoft.com/fwlink/p/?LinkId=617899) (모바일 장치 또는 태블릿 컴퓨터에 가장 적합한) <br/> [Visio 버전](https://go.microsoft.com/fwlink/p/?LinkId=617900)(Visio) |이 포스터를 다운로드하여 enterprise voice 기능이 포함된 구현의 통화 품질 및 사용자 경험에 영향을 주는 문제를 찾아서 제거하는 데 도움이 되는 비즈니스용 Skype 서버 2015용 통화 품질 방법론인 CQM에 대해 자세히 알아보습니다. <br/> <br/> 보드 [게임으로](https://go.microsoft.com/fwlink/p/?LinkId=617898) 플레이하려면 다운로드 세부 정보 페이지를 사용하여 인쇄 가능한 카드 및 규칙을 다운로드합니다. [CQM Scorecard와 함께 이 포스터를 사용 합니다](https://go.microsoft.com/fwlink/p/?LinkId=617904). <br/><br/> 크기: 34~44인치 <br/> <br/> 이 포스터는 Visio 2015를 사용하여 작성되었습니다. 특정 환경에는 수정이 필요하지 않습니다. |
-|**비즈니스용 Skype 음성 솔루션** <br/> ![음성 솔루션 계획 포스터입니다.](media/1d3371f3-d554-4d6b-ac4f-a927bbe50b26.png) <br/> [PDF 버전](https://go.microsoft.com/fwlink/?linkid=869123) (모바일 장치 또는 태블릿 컴퓨터에 가장 적합한) <br/> [Visio 버전](https://go.microsoft.com/fwlink/?linkid=869124)(Visio) |Microsoft는 사용자가 PSTN(Public Switched Telephone Network)을 통해 전화선 및 휴대폰에 전화를 걸 수 있도록 하는 다양한 옵션을 제공합니다. 즉, 사용자의 계정이 Microsoft 365 Online에 있는지 아니면 비즈니스용 Skype Online 또는 비즈니스용 Skype 서버 2015 배포에 있는지에 따라 사용자의 계정이 Microsoft 365 Office 365 있습니다. 이 포스터는 다양한 Microsoft 음성 서비스를 간략하게 설명한 다음 조직의 현재 상태 및 향후 계획에 따라 가장 적합한 옵션에 대한 지침을 제공합니다. <br/> <br/> 크기: 34~44인치 <br/><br/> 이 포스터는 Visio 2015를 사용하여 작성되었습니다. 특정 환경에는 수정이 필요하지 않습니다. |
-|**비즈니스용 Skype 아키텍처 모델** <br/> ![비즈니스용 Skype 모델.](media/0734153f-af7b-4cf3-b095-96bdd1de3fb0.png) <br/> [PDF 버전](https://go.microsoft.com/fwlink/?linkid=869125) (모바일 장치 또는 태블릿 컴퓨터에 가장 적합한) <br/> [Visio 버전](https://go.microsoft.com/fwlink/?linkid=869126)(Visio) |이 포스터 시리즈는 IT Pro 대상이 비즈니스용 Skype Online 및 비즈니스용 Skype 서버 2015를 사용할 수 있는 다양한 기본 아키텍처 모델에 대한 인식을 높이기 위해 작성되었습니다. 조직의 요구 및 향후 계획에 가장 적합한 구성부터 시작하세요. 그런 후 필요에 따라 다른 구성을 고려하고 사용하세요. 예를 들어 Microsoft의 클라우드 PBX 서비스를 활용하는 Exchange SharePoint 솔루션과의 통합을 고려할 수 있습니다. <br/><br/> 크기: 11~17인치 <br/><br/> 이 포스터는 Visio 2010을 사용하여 작성되었습니다. 특정 환경에는 수정이 필요하지 않습니다. |
+|**비즈니스용 Skype 서버 프로토콜 워크로드** <br/>![SfB 프로토콜 워크로드 포스터.](media/0dccf933-eab3-4793-a8a4-4f6b9b0b4fa0.png)<br/>[PDF 버전](https://go.microsoft.com/fwlink/p/?LinkId=550989) (모바일 장치 또는 태블릿 컴퓨터에 가장 적합한) <br/> [Visio 버전](https://go.microsoft.com/fwlink/p/?LinkId=550991)(Visio) |서비스 복잡성 수준이 서로 다른 비즈니스용 Skype 서버 및 클라이언트의 요구 사항을 보다 잘 이해하려면 이 포스터를 다운로드하세요.<br/> <br/> 크기: 11~17인치(여러 장으로, 대부분의 Office 프린터에서 편리하게 인쇄할 수 있습니다. <br/> <br/> 이 포스터는 2015년 Visio 만들어졌습니다. 특정 환경에는 수정이 필요하지 않습니다. |
+|**비즈니스용 Skype 품질 방법론** <br/> ![통화 품질 방법론 포스터입니다. ](media/69d33707-8dc4-446a-8d72-0a77be59a64a.png)[PDF 버전](https://go.microsoft.com/fwlink/p/?LinkId=617899) (모바일 장치 또는 태블릿 컴퓨터에 가장 적합한) <br/> [Visio 버전](https://go.microsoft.com/fwlink/p/?LinkId=617900)(Visio) |이 포스터를 다운로드하여 enterprise voice 기능이 포함된 구현의 통화 품질 및 사용자 경험에 영향을 주는 문제를 찾아서 제거하는 데 도움이 되는 비즈니스용 Skype 서버 2015용 통화 품질 방법론인 CQM에 대해 자세히 알아보습니다. <br/> <br/> 보드 [게임으로](https://go.microsoft.com/fwlink/p/?LinkId=617898) 플레이하려면 다운로드 세부 정보 페이지를 사용하여 인쇄 가능한 카드 및 규칙을 다운로드합니다. [CQM Scorecard와 함께 이 포스터를 사용 합니다](https://go.microsoft.com/fwlink/p/?LinkId=617904). <br/><br/> 크기: 34~44인치 <br/> <br/> 이 포스터는 2015년 Visio 만들어졌습니다. 특정 환경에는 수정이 필요하지 않습니다. |
+|**비즈니스용 Skype 음성 솔루션** <br/> ![음성 솔루션 계획 포스터입니다.](media/1d3371f3-d554-4d6b-ac4f-a927bbe50b26.png) <br/> [PDF 버전](https://go.microsoft.com/fwlink/?linkid=869123) (모바일 장치 또는 태블릿 컴퓨터에 가장 적합한) <br/> [Visio 버전](https://go.microsoft.com/fwlink/?linkid=869124)(Visio) |Microsoft는 사용자가 PSTN(Public Switched Telephone Network)을 통해 전화선 및 휴대폰에 전화를 걸 수 있도록 하는 다양한 옵션을 제공합니다. 이러한 사용자의 계정이 Microsoft 365 Online 또는 비즈니스용 Skype Office 365 Online 또는 비즈니스용 Skype 비즈니스용 Skype 서버 2015 배포에 있는지 여부에 따라 다양한 옵션을 제공합니다. 이 포스터는 다양한 Microsoft 음성 서비스를 간략하게 설명한 다음 조직의 현재 상태 및 향후 계획에 따라 가장 적합한 옵션에 대한 지침을 제공합니다. <br/> <br/> 크기: 34~44인치 <br/><br/> 이 포스터는 2015년 Visio 만들어졌습니다. 특정 환경에는 수정이 필요하지 않습니다. |
+|**비즈니스용 Skype 아키텍처 모델** <br/> ![비즈니스용 Skype 모델.](media/0734153f-af7b-4cf3-b095-96bdd1de3fb0.png) <br/> [PDF 버전](https://go.microsoft.com/fwlink/?linkid=869125) (모바일 장치 또는 태블릿 컴퓨터에 가장 적합한) <br/> [Visio 버전](https://go.microsoft.com/fwlink/?linkid=869126)(Visio) |이 포스터 시리즈는 IT Pro 비즈니스용 Skype 온라인 및 비즈니스용 Skype 서버 2015를 사용할 수 있는 다양한 기본 아키텍처 모델에 대한 인식을 높이기 위해 작성되었습니다. 조직의 요구 및 향후 계획에 가장 적합한 구성부터 시작하세요. 그런 후 필요에 따라 다른 구성을 고려하고 사용하세요. 예를 들어 Microsoft의 클라우드 PBX 서비스를 활용하는 Exchange SharePoint 통합을 고려할 수 있습니다. <br/><br/> 크기: 11~17인치 <br/><br/> 이 포스터는 Visio 2010을 사용하여 작성되었습니다. 특정 환경에는 수정이 필요하지 않습니다. |
 
 ## <a name="visual-assets"></a>시각적 자산
 
-새 Visio 사용하여 토폴로지 다이어그램을 직접 만들 비즈니스용 Skype 스텐실을 [다운로드합니다](https://go.microsoft.com/fwlink/p/?LinkId=550985).
+새 Visio 사용하여 토폴로지 다이어그램을 직접 만들 비즈니스용 Skype 스텐[실을 다운로드합니다](https://go.microsoft.com/fwlink/p/?LinkId=550985).
 
 ## <a name="tips-for-printing-large-format-posters"></a>팁 포스터 인쇄용
 

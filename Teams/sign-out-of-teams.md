@@ -12,13 +12,18 @@ description: Microsoft Teams에서 로그아웃하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: high
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 f1.keywords:
-  - NOCSH
+- NOCSH
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: b453295c02ef371c06c3adea4c2c8489c0a58468
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514713"
 ---
-
 # <a name="sign-out-of-microsoft-teams"></a>Microsoft Teams에서 로그아웃
 
 채팅, 수신 전화 및 기타 활동을 계속 수신하려면 사용자가 Microsoft Teams 앱에 로그인된 상태를 유지하는 것이 좋습니다. 사용자가 다음과 같은 몇 가지 이유로 Teams 애플리케이션에서 로그아웃하려는 경우가 있음을 이해합니다.
@@ -49,7 +54,7 @@ Teams 데스크톱 클라이언트나 브라우저에서 로그아웃하려면 �
 
 ### <a name="global-sign-in-and-sign-out-for-frontline-workers"></a>일선 근로자를 위한 전체 로그인 및 로그아웃
 
-Teams Android 앱은 이제 전역 로그인 및 로그아웃을 지원하여 최전방 직원에게 번거로움이 없는 로그인 및 로그아웃 환경을 제공합니다. 직원들은 공유 장치 풀에서 장치를 선택하고 근무 시간 동안 단일 로그인을 통해 "내 것으로 만들기"를 수행할 수 있습니다. 교대 근무가 끝나면 장치에서 전역 로그아웃을 수행할 수 있습니다. 이렇게 하면 장치에서 장치의 개인 정보 및 회사 정보를 모두 제거하여 장치 풀에 장치를 반환할 수 있습니다. 이 기능을 사용하려면 장치가 공유 모드에 있어야 합니다. 공유 디바이스 설정 방법에 대한 자세한 내용은 [Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)에서 공유 디바이스 모드를 사용하는 방법을 참조하세요.
+Teams Android 앱은 이제 전역 로그인 및 로그아웃을 지원하여 최전방 직원에게 번거로움이 없는 로그인 및 로그아웃 환경을 제공합니다. 직원들은 공유 장치 풀에서 장치를 선택하고 근무 시간 동안 단일 로그인을 통해 "내 것으로 만들기"를 수행할 수 있습니다. 교대 근무가 끝나면 장치에서 전역 로그아웃을 수행할 수 있습니다. 이렇게 하면 장치에서 장치의 개인 정보 및 회사 정보를 모두 제거하여 장치 풀에 장치를 반환할 수 있습니다. 이 기능을 사용하려면 장치가 공유 모드에 있어야 합니다.  로그아웃하기 전에 장치에서 활성 모임이나 통화를 종료해야 합니다. 공유 장치 설정 방법에 관한 자세한 내용은 [Android에서 공유 장치 모드 사용 방법](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)을 참조하세요.
 
 ## <a name="manual-cleanup"></a>수동 정리
 

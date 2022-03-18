@@ -1,5 +1,5 @@
 ---
-title: Teams에서 메시지 정책 관리
+title: Teams에서 메시징 정책 관리
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -20,24 +20,24 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 메시징 정책 및 메시징 정책을 사용하여 채팅 메시징을 제어하는 방법에 대해 Teams.
-ms.openlocfilehash: b2163e780706a17b7793f8451b1bdb85a1830b2b
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 968e79952381b04f5165f285807cfe3a07237307
+ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205268"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63564770"
 ---
-# <a name="manage-messaging-policies-in-teams"></a>Teams에서 메시지 정책 관리
+# <a name="manage-messaging-policies-in-teams"></a>Teams에서 메시징 정책 관리
 
 <!--- Add zone marker here--->
 
-메시징 정책은 사용자(소유자 및 구성원)가 [](assign-roles-permissions.md) 사용할 수 있는 채팅 및 채널 메시징 기능을 제어하는 데 Microsoft Teams. 자동으로 생성된 전역(Org-wide default) 정책을 사용하거나 사용자 지정 메시징 정책을 만들고 할당할 수 있습니다.
+메시징 정책은 사용자(소유자 및 구성원)가 사용할 수 있는 채팅 및 [](assign-roles-permissions.md) 채널 메시징 기능을 제어하는 데 Microsoft Teams. 자동으로 생성된 전역(Org-wide default) 정책을 사용하거나 사용자 지정 메시징 정책을 만들고 할당할 수 있습니다.
 
 조직의 사용자는 사용자 지정 정책을 만들고 할당하지 않는 한 전역 정책을 자동으로 얻습니다. 전역 정책의 설정을 편집하거나 하나 이상의 사용자 지정 정책을 만들어 할당하여 원하는 기능을 켜거나 해제합니다.
 
 ## <a name="create-a-custom-messaging-policy"></a>사용자 지정 메시징 정책 만들기
 
-1. 관리 센터의 왼쪽 Microsoft Teams 메시징 **정책으로 이동하세요.**
+1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 정책 **으로 이동하세요**.
 2. **추가** 를 선택합니다.
 3. 정책의 이름과 설명을 입력합니다.
 4. 원하는 설정을 선택합니다.
@@ -55,7 +55,7 @@ ms.locfileid: "61205268"
 
 전역 정책 및 직접 만든 사용자 지정 정책을 편집할 수 있습니다.
 
-1. 관리 센터의 왼쪽 Microsoft Teams 메시징 **정책으로 이동하세요.**
+1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 정책 **으로 이동하세요**.
 2. 정책 이름 왼쪽을 클릭하여 정책을 선택한 다음 **편집** 을 선택합니다.
 3. 여기서 원하는 대로 변경합니다.
 4. **저장** 을 선택합니다.
@@ -75,17 +75,17 @@ ms.locfileid: "61205268"
 
 구성할 수 있는 메시징 정책 설정은 다음과 같습니다.
 
-- **소유자가 보낸 메시지를 삭제할 수 있습니다.**  이 설정을 사용하여 소유자가 채팅에서 보낸 메시지를 삭제할 수 있습니다.
+- **소유자가 보낸 메시지를 삭제할 수 있습니다.**  이 설정을 사용하여 소유자가 사용자가 보낸 채널 메시지 또는 게시물을 삭제할 수 있습니다.
 - **보낸 메시지 삭제** 이 설정을 사용하여 사용자가 채팅에서 보낸 메시지를 삭제할 수 있습니다.
 - **보낸 메시지 편집** 이 설정을 사용하여 사용자가 채팅에서 보낸 메시지를 편집할 수 있습니다.
 - **영수증 읽기** 읽기 확인을 사용하면 받는 사람이 메시지를 1:1로 읽거나 그룹 채팅을 20명 이하로 읽은 경우 채팅 메시지 보낸 사람에게 알림을 보낼 수 있습니다. 메시지 읽기 확인은 메시지를 읽은지 여부에 대한 불확실성을 제거하고 팀 통신을 개선합니다. 읽기 확인은 eDiscovery 보고에 캡처되지 않습니다.  
     - **사용자 제어** 즉, 사용자가 확인 확인을 ON 또는 OFF로 읽을지 여부를 결정할 수 있습니다. 앱 내의 기본 설정은 ON입니다. 그런 다음 사용자가 해제할 수 있습니다.
-    - **모든 사람에 대해 켜져 있습니다.** 즉, 테넌트의 모든 사람이 기능을 해제할 수 있는 옵션이 없는 ON 기능이 있습니다. 모든 테넌트에 대한 수신 확인을 설정하는 유일한 방법은 전체 테넌트에 대해 하나의 메시징 정책("전역(Org-wide Default)"이라는 기본 정책)을 설정하거나 테넌트의 모든 메시징 정책이 수신에 대해 동일한 설정을 사용하는 것입니다.  읽음 확인 기능은 **모든 사용자에 대해 사용** 으로 설정된 경우 가장 효과적입니다.
+    - **모든 사람에 대해 켜져 있습니다.** 즉, 테넌트의 모든 사람이 기능을 해제할 수 있는 옵션이 없는 ON 기능이 있습니다. 모든 테넌  트에 대한 수신 확인을 설정하는 유일한 방법은 전체 테넌트에 대해 하나의 메시징 정책("전역(Org-wide Default)"이라는 기본 정책)을 설정하거나 테넌트의 모든 메시징 정책이 수신에 대해 동일한 설정을 사용하는 것입니다. 읽음 확인 기능은 **모든 사용자에 대해 사용** 으로 설정된 경우 가장 효과적입니다.
     - **모든 사람에 대해 해제** 즉, 기능을 사용하지 않도록 설정하고 테넌트의 아무도 읽은 영수증을 읽지 않으며 켜지 않습니다.
 <a name="bkchat"> </a>
 
 - **채팅**  조직의 사용자가 다른 사용자와 채팅할 수 있도록 Teams 설정이 설정됩니다.
-- *대화에서 Giphy* 사용 * Giphys를 설정하면 사용자가 다른 사용자와의 채팅 대화에 Giphys를 포함할 수 있습니다. Giphy는 사용자가 애니메이션 GIF 파일을 검색하고 공유할 수 있는 온라인 데이터베이스 및 검색 엔진입니다. 각 Giphy에는 콘텐츠 등급이 할당됩니다. 이 설정을 켜는 것 외에도 선택적 [](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) 연결된 환경을 사용하도록 설정하여 대화에서 Giphys를 허용해야 합니다.
+- *대화에서 Giphy* 사용* Giphys를 설정하면 사용자가 다른 사용자와의 채팅 대화에 Giphys를 포함할 수 있습니다. Giphy는 사용자가 애니메이션 GIF 파일을 검색하고 공유할 수 있는 온라인 데이터베이스 및 검색 엔진입니다. 각 Giphy에는 콘텐츠 등급이 할당됩니다. 이 설정을 켜는 것 외에도 선택적 연결된 환경을 사용하도록 설정하여 [](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) 대화에서 Giphys를 허용해야 합니다.
 - **Giphy 콘텐츠 등급**
   - **제한 없음** 즉, 사용자가 콘텐츠 등급에 관계없이 채팅에 Giphy를 삽입할 수 있습니다.
   - **보통**  즉, 사용자가 채팅에 Giphys를 삽입할 수 있지만 성인 콘텐츠에서 적당히 제한됩니다.
@@ -95,7 +95,7 @@ ms.locfileid: "61205268"
 - **URL 미리 보기** 이 설정을 사용하여 메시지에서 자동 URL 미리 보기를 켜거나 끄세요.
 - **메시지 번역** 이 설정을 켜면 사용자가 메시지를 Teams 언어 설정에서 지정한 언어로 자동으로 번역할 Microsoft 365 Office 365.
 - **메시지에 대한 몰입형 읽기** 사용자가 Microsoft에서 메시지를 볼 수 있도록 이 설정을 몰입형 리더. 몰입형 리더 텍스트의 가독성을 높이기 위해 전체 화면 읽기 환경을 제공하는 학습 도구입니다.
-- 우선 순위 알림을 **사용하여 긴급 메시지 보내기** 이 기능을 켜면 사용자는 우선 순위 알림을 사용하여 메시지를 [보낼 수 있습니다.](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) 우선 순위 알림은 사용자에게 20분마다 또는 긴급으로 표시된  메시지가 수신자가 선택하고 읽을 때까지 사용자에게 알립니다. 이 기능은 메시지가 시기적절하게 행동할 가능성을 높입니다.
+- **우선 순위 알림을 사용하여 긴급 메시지 보내기** 이 기능을 설정하면 사용자는 우선 순위 알림을 사용하여 메시지를 보낼 [수 있습니다](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). 우선 순위 알림은 사용자에게 20분마다 또는 긴급으로 표시된 메시지가 수신자가 선택하고 읽을 때까지 사용자에게 알립니다. 이 기능은 메시지가 시기적절하게 행동할 가능성을 높입니다.
 - **음성 메시지 만들기**
   > [!Important]
   > 오디오 메시지는 eDiscovery 보고에 캡처되지 않습니다.

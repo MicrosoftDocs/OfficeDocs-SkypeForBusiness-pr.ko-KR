@@ -18,27 +18,30 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-description: 이 문서에서는 게스트가 사용할 Microsoft Teams 기능을 설명합니다.
-ms.openlocfilehash: 5d8bb9ab670da0a4002f69cf5ddec9f245cd9c13
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+description: 이 문서에서는 게스트가 Microsoft Teams 사용할 수 있는 Microsoft Teams 기능을 설명합니다.
+ms.openlocfilehash: c7052eb22a68b146c3ee998b57ba877da82e11b4
+ms.sourcegitcommit: 640f55fe6144ff867b41b57e52f45b8a64cf779e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190699"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63556634"
 ---
 # <a name="guest-experience-in-teams"></a>게스트 경험 Teams
 
-게스트가 팀에 참가할 수 있는 초대를 받으면 환영 전자 메일 메시지를 받게 됩니다. 이 메시지에는 팀에 대한 몇 가지 정보와 구성원이 됐기 때문에 예상할 수 있는 정보가 포함되어 있습니다. 게스트는 팀 및 해당 Microsoft Teams 액세스하기 전에 전자 **메일** 메시지에서 열기 Microsoft Teams 초대를 수락해야 합니다.
+게스트가 팀에 참가할 수 있는 초대를 받으면 환영 전자 메일 메시지를 받게 됩니다. 이 메시지에는 팀에 대한 몇 가지 정보와 구성원이 됐기 때문에 예상할 수 있는 정보가 포함되어 있습니다. 게스트는 팀 및 해당 채널에 액세스하기 **전에 전자 메일** Microsoft Teams 열기 메시지를 선택하여 초대를 수락해야 합니다.
+
+> [!NOTE]
+> 게스트가 팀에 추가된 후 액세스 권한이 있는 데 몇 시간이 걸릴 수 있습니다.
     
 ![환영 전자 메일 메시지의 예를 보여주는 스크린샷입니다.](media/guest-experience-image1.png)
     
-모든 팀 구성원은 팀 소유자가 게스트를 추가하고 게스트의 이름을 제공했다는 메시지를 채널 스레드에 볼 수 있습니다. 팀의 모든 사람이 게스트인 사람을 쉽게 식별할 수 있습니다. 채널 스레드의 오른쪽 위 모서리에 있는 태그는 팀의 게스트 수를 **나타내고(게스트)** 레이블이 각 게스트 이름 옆에 나타납니다.
+모든 팀 구성원은 팀 소유자가 게스트를 추가하고 게스트의 이름을 제공했다는 메시지를 채널 스레드에 볼 수 있습니다. 팀의 모든 사람이 게스트인 사람을 쉽게 식별할 수 있습니다. 채널 스레드의 오른쪽 위 모서리에 있는 태그는 팀의 게스트 수를 나타내고 **(게스트)** 레이블이 각 게스트 이름 옆에 나타납니다.
 
 ![팀의 게스트 수를 나타내는 태그를 보여주는 스크린샷입니다.](media/guest-experience-image2.png)
 
-다음 비디오에서 게스트 경험에 Teams.
+다음 비디오에서 게스트 경험에 대해 Teams.
 - [게스트로 Teams 모임 참가](https://support.microsoft.com/office/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)
-- [모임에서 외부 Teams 작업](https://support.microsoft.com/office/work-with-external-guests-180ed260-d3ef-4247-9f24-1984fc76d5f0)
+- [모임에서 외부 게스트와 Teams 작업](https://support.microsoft.com/office/work-with-external-guests-180ed260-d3ef-4247-9f24-1984fc76d5f0)
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>팀 구성원 및 게스트 기능 비교
 
@@ -100,7 +103,7 @@ ms.locfileid: "62190699"
 <sup>1</sup> 이 기능은 곧 사용할 수 있습니다.
 
 > [!NOTE]
-> Azure  AD(Azure Active Directory)의 게스트 사용자 액세스 제한 정책은 디렉터리의 게스트에 대한 권한을 확인합니다. 세 개의 정책 옵션이 제공됩니다.
+> Azure AD **(** Azure Active Directory)의 게스트 사용자 액세스 제한 정책은 디렉터리의 게스트에 대한 권한을 확인합니다. 세 개의 정책 옵션이 제공됩니다.
 >  - **게스트 사용자는 구성원과 동일한 액세스 권한을 가짐(가장 포괄적)** 설정은 게스트가 디렉토리의 일반 사용자와 동일한 디렉토리 데이터 액세스 권한을 가짐을 의미합니다.
 >  - **게스트 사용자는 디렉터리 개체 설정의 속성 및 구성원에 대한 액세스 권한이 제한되어 있음** 설정은 게스트가 Microsoft Graph를 사용하여 사용자, 그룹 또는 기타 디렉터리 리소스를 열거하는 것과 같은 특정 디렉터리 작업에 대한 권한이 없음을 의미합니다.
 >  - **게스트 사용자 액세스는 자신의 디렉터리 개체의 속성 및 구성원으로 제한됨(가장 제한적)** 설정은 게스트가 자신의 디렉터리 개체에만 액세스 할 수 있음을 의미합니다.

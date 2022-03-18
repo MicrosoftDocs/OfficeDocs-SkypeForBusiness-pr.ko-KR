@@ -629,8 +629,6 @@ items:
                 href: cloud-recording.md
               - name: 모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 Stream 사용
                 href: tmr-meeting-recording-change.md
-              - name: 연락 센터 통합
-                href: teams-contact-center.md
               - name: Outlook에서 Teams 모임 추가 기능 사용
                 href: teams-add-in-for-outlook.md
               - name: Teams에서 작업할 수 있도록 Skype 모임 앱 구성
@@ -1287,6 +1285,8 @@ items:
                 href: add-funds-and-manage-communications-credits.md
           - name: Microsoft Teams 통화 흐름
             href: microsoft-teams-online-call-flows.md
+          - name: 연락 센터 통합
+            href: teams-contact-center.md
   - name: 장치 및 회의실 관리
     items:
       - name: Microsoft Teams 룸

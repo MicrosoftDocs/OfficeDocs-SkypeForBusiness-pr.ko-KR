@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 지속적인 유지 관리 및 작업을 개발하고 실행하는 방법에 대해 알아보고 사용자에 Microsoft Teams 룸 수 있도록 합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 82725093e67b0f7619ea97837b53fd841b965146
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: 12738e544e8bf0f2e46979df0a1d64ea762bfa1f
+ms.sourcegitcommit: 640f55fe6144ff867b41b57e52f45b8a64cf779e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63504105"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63556644"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Microsoft Teams 룸 관리
 
@@ -117,7 +117,7 @@ Microsoft Teams 관리 센터를 사용하면 다음을 할 수 있습니다.
 
 | Teams 디바이스 | 앱 버전 | 방 전면 디스플레이 |
 |--------------|-------------|-----------------------|
-|Microsoft Teams 룸 Windows | 4.11.12.0 이상(최신 버전이 권장) | 단일 및 이중 디스플레이를 지원합니다. 최소 크기: 46인치; 1920*1080 해상도의 화면 비율 16:9 또는 2560x1080 해상도의 21:9; 모든 디스플레이는 설정에서 100% 크기 조정으로 Windows 설정해야 합니다. |
+|Microsoft Teams 룸 Windows | 4.11.12.0 이상(최신 버전이 권장) | 단일 및 이중 디스플레이를 지원합니다. 최소 크기: 46인치; 1920x1080 해상도의 화면 비율 16:9 또는 2560x1080 해상도의 21:9; 모든 디스플레이는 설정에서 100% 크기 조정으로 Windows 설정해야 합니다. |
 
 프런트 [Microsoft Teams 룸](rooms-operations.md#change-scale-and-resolution) 요구 사항을 충족하기 위해 디스플레이 설정을 조정하려면 유지 관리 및 작업을 참조하세요.
 
