@@ -1539,7 +1539,7 @@ items:
             href: non-standard-users.md
           - name: 앱 업데이트 환경
             href: apps-update-experience.md
-          - name: Microsoft 365에서 타사 Teams 앱에 대한 액세스 관리
+          - name: Microsoft 365에서 Teams 앱에 대한 액세스 관리
             href: manage-third-party-teams-apps.md
   - name: 산업 및 정부 지침
     items:
