@@ -973,6 +973,8 @@ items:
             href: cloud-voice-network-settings.md
           - name: 클라우드 음성 기능에 대한 네트워크 토폴로지 관리
             href: manage-your-network-topology.md
+          - name: 비디오 및 미디어 설정 관리
+            href: network-roaming-policy.md
       - name: 비상 전화
         items:
           - name: 개요
@@ -1364,7 +1366,7 @@ items:
               - name: 유지 관리 및 운영
                 href: rooms/rooms-operations.md
               - name: 알려진 문제
-                href: rooms/known-issues.md
+                href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
               - name: Azure 모니터를 사용하는 장치
                 href: rooms/azure-monitor-manage.md
               - name: XML파일을 사용하여 설정

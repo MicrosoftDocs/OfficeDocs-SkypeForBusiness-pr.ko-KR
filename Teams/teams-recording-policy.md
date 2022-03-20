@@ -1,5 +1,5 @@
 ---
-title: 전화 Teams 위한 정책 기반 녹음 & 소개
+title: 전화 회의에 Teams 정책 기반 기록에 대한 & 소개
 author: cabailey
 ms.author: cabailey
 manager: laurawi
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: abybee
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 모임을 Teams 위한 정책 기반 기록에 대해 & 정보
+description: 전화 Teams 정책 기반 기록에 대해 자세히 & 정보
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,28 +21,28 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dc3b2d12295d13de0b5626475891100f7879bd7
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 98c05106ef5d9446d1cf591126eb3cffcb7e8bff
+ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279256"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63660583"
 ---
-# <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>전화 Teams 위한 정책 기반 기록에 대한 & 소개
+# <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>모임에서 Teams 통화에 대한 정책 기반 기록에 대한 & 소개
 
-정책 기반 기록을 사용하면 통화 및 Microsoft Teams 관련 회사 또는 규정 정책에 따라 후속 처리 및 보존을 위해 호출 및 온라인 모임을 자동으로 기록하고 캡처해야 하는 경우 관리 정책을 사용하여 통화 및 모임을 규정할 수 있습니다.
+정책 기반 기록을 사용하면 통화 및 Microsoft Teams 관련 회사 또는 규정 정책에서 요구하는 후속 처리 및 보존을 위해 호출 및 온라인 모임을 자동으로 기록하고 캡처해야 하는 경우 관리 정책을 사용하여 규정할 수 있는 통화 및 모임을 채택하는 조직을 사용할 수 있습니다.
 
-Teams 구성, 관리, 기록, 저장 및 분석을 위한 종단 간 솔루션을 제공하는 데 필요한 플랫폼 기능, 사용자 환경 및 관리 인터페이스를 포함하여 타사 기록 솔루션의 통합을 지원하도록 Teams 향상되었습니다. 향상된 기능으로는 다음과 같은 통신 플랫폼 API 및 기록을 위한 이벤트가 포함됩니다.
+Teams 구성, 관리, 기록, 저장 및 분석에 대한 종단 간 솔루션을 제공하는 데 필요한 플랫폼 기능, 사용자 환경 및 관리 인터페이스를 포함하여 타사 기록 솔루션의 통합을 지원하도록 Teams 향상되었습니다. 향상된 기능으로는 다음과 같은 통신 플랫폼 API 및 기록을 위한 이벤트가 포함됩니다.
 
 - 오디오, 비디오, 화면 공유 및 채팅을 위해 디바이스 및 지원되는 모든 엔드포인트에서 원활하고 고품질 미디어 캡처.
 
-- 사용자 및 지원되는 Teams 엔드포인트 간의 상호 작용 캡처 지원(Teams, Teams Mobile, 비즈니스용 Skype, PSTN)
+- 사용자 및 지원되는 Teams 엔드포인트 간의 상호 작용 캡처에 대한 지원(Teams, Teams, 비즈니스용 Skype, PSTN)
 
-- 기존 관리 호출 및 모임 도구 및 정책과의 Teams 준수 기록을 위한 새 관리 정책
+- 기존 관리 호출 및 모임 도구 및 정책과의 Teams 통합을 포함하여 규정 준수 기록을 위한 새 관리 정책
 
 규정 준수 기록은 Microsoft 365 A3/A5/E3/E5/Business Premium/A5/E3/E5 Office 365 A3 사용할 수 있습니다. 
 
-규정 준수 기록 및 규정 준수 세션에서 Ignite 2019에서 규정 준수 [기록 솔루션 통합 기능도 Microsoft Teams 검토했습니다](https://myignite.microsoft.com/archives/IG19-VCE40).
+준수 기록 및 규정 준수 세션에서 Ignite 2019에서 규정 [준수 기록 솔루션 통합 기능도 Microsoft Teams 검토했습니다](https://myignite.microsoft.com/archives/IG19-VCE40).
 
 ## <a name="teams-interaction-recording-overview"></a>Teams 상호 작용 기록 개요
 
@@ -62,7 +62,7 @@ Teams 구성, 관리, 기록, 저장 및 분석을 위한 종단 간 솔루션�
 | 액세스 소유자           | 사용자               | 규정 준수      |
 | 보존 정책?      | 선택           | 예             |
 
-Teams 및 라이브 이벤트의 편리하고 기능 [](./cloud-recording.md) 적인 기록을 위한 다양한 기능을 제공합니다. 조직 기록은 관련 Teams 규정에 따라 통화 및 모임을 채택하는 조직이 통화 및 온라인 모임을 자동으로 기록하고 관련 회사 또는 규정 정책에서 요구하는 후속 처리 및 보존을 위해 캡처해야 하는 경우를 의미합니다. 이 정책에 따라 사용자는 사용자와의 디지털 상호 작용이 기록되고 Teams 있지만 기록을 사용하지 않도록 설정할 수 없습니다. 상호 작용이 완료되면 기록에 액세스할 수 없습니다. 기록은 eDiscovery, 법적 보존 및 기타 회사 보존 사용에 대한 규정 준수 및 법률 담당자가 사용할 수 있는 조직 보관의 일부가 됩니다.
+Teams 및 라이브 이벤트의 편리하고 기능적인 [](./cloud-recording.md) 기록을 위한 다양한 기능을 제공합니다. 조직 기록은 통화 및 Teams 정책에 따라 통화 및 모임을 규정할 수 있는 기능을 채택하는 조직이 관련 회사 또는 규정 정책에 따라 후속 처리 및 보존을 위해 자동으로 기록되고 캡처될 때를 의미합니다. 이 정책에 따라 사용자는 사용자와의 디지털 상호 Teams 기록되고 있지만 기록을 사용하지 않도록 설정할 수 없습니다. 상호 작용이 완료되면 기록에 액세스할 수 없습니다. 기록은 eDiscovery, 법적 보존 및 기타 회사 보존 사용에 대한 규정 준수 및 법률 담당자가 사용할 수 있는 조직 보관의 일부가 됩니다.
 
 ## <a name="example-user-needs"></a>사용자 요구 예제
 
@@ -86,7 +86,7 @@ Teams 및 라이브 이벤트의 편리하고 기능 [](./cloud-recording.md) �
 <td><ul>
 <li><p>사용자/엔드포인트에 기록 정책을 적용/적용하는 Teams 이해합니다.</p></li>
 <li><p>조직에 Teams 기록 정책을 구성하고 유지 관리합니다.</p></li>
-<li><p>통화 및 모임에서 기록 관련 Teams 모니터링하고 문제 해결합니다.</p></li>
+<li><p>통화 및 모임에서 기록 관련 Teams 모니터링하고 해결합니다.</p></li>
 <li><p>사용 현황, 품질 및 안정성에 대한 운영 분석을 통해 내부 규정 준수 담당자를 지원합니다.</p></li>
 </ul></td>
 </tr>
@@ -108,7 +108,7 @@ Teams 및 라이브 이벤트의 편리하고 기능 [](./cloud-recording.md) �
 
 ## <a name="solution-architecture-overview"></a>솔루션 아키텍처 개요
 
-규정 준수 기록 솔루션은 다음 다이어그램에 Teams 데이터와 통합됩니다.
+규정 준수 기록 솔루션은 다음 다이어그램에 Teams 따라 통합됩니다.
 
 > [!div class="mx-imgBorder"]
 > ![팀 사용자 지정 앱 설정을 보여주는 스크린샷입니다.](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "이미지는 모임 또는 Teams 보내고 수신할 때 흐름을 보여줍니다.")
@@ -126,13 +126,13 @@ Graph API에 대한 자세한 설명서는 [UpdateRecordingStatus](/graph/api/ca
 
 레코더 서비스의 정확한 구현은 파트너에 따라 다르지만 배포의 고가용성 및 지리적 분포를 달성하기 위해 여러 레코더를 지원하도록 설계되어 대기 시간을 Teams 수 있어야 합니다. 또한 레코더 자체는 탄력성 및 중복을 염두에 두어 설계될 것으로 예상됩니다.
 
-파트너는 준수 기록 통합의 모든 요구 사항을 지원하기 위해 인증에 대한 솔루션을 제출하기 전에 Microsoft와의 Graph API 및 SDK의 최소 릴리스 버전을 확인해야 합니다.
+파트너는 인증에 대한 솔루션을 제출하기 전에 Microsoft와의 Graph API 및 SDK의 최소 필수 릴리스 버전을 확인해야 준수 기록 통합의 모든 요구 사항이 지원되도록 합니다.
 
 규정 준수 기록 시나리오에 대한 기본 요구 사항은 두 가지입니다.
 
 - Azure에 레코더 봇을 배포해야 합니다.
 
-- 레코더 봇은 Azure의 Windows VM에서 실행해야 합니다.
+- 기록기 봇은 Azure의 Windows VM에서 실행해야 합니다.
 
 Azure 및 Windows VM 요구 사항은 Teams Bot 구성 요소에만 적용됩니다. 이는 파트너가 규정 준수 기록에 대한 관련 성능 및 기능 요구 사항을 충족할 수 있는 경우 파트너가 선택한 나머지 플랫폼을 구현할 수 있습니다.
 
@@ -215,7 +215,7 @@ IT 관리자는 규정 준수 기록 정책을 만들고 할당하여 각 사용
 
 ## <a name="compliance-recording-for-teams-certification-programs"></a>인증 프로그램에 Teams 준수 기록
 
-파트너가 CCaaS 솔루션을 개발하고 통합할 수 있도록 공개적으로 사용 가능한 API를 Teams 뿐만 아니라, Microsoft 솔루션에서 기대하는 품질, 호환성 및 안정성을 제공하기 위해 각 참여 파트너의 솔루션이 테스트되고 Microsoft Teams 인증 프로그램에 대한 규정 준수 기록을 개발했습니다.  
+파트너가 CCaaS 솔루션을 개발하고 통합할 수 있도록 공개적으로 사용할 수 있는 API를 Teams 뿐만 아니라, Microsoft 솔루션에서 기대하는 품질, 호환성 및 안정성을 제공하기 위해 각 참여 파트너의 솔루션이 테스트되고 Microsoft Teams 인증 프로그램에 대한 규정 준수 기록을 개발했습니다.  
 
 다음 파트너는 솔루션에 대한 인증을 Microsoft Teams.<br/><br/>
 
@@ -231,6 +231,7 @@ IT 관리자는 규정 준수 기록 정책을 만들고 할당하여 각 사용
 |빨간색 상자 |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
 |Theta Lake |[https://thetalake.com/integrations/microsoft/](https://thetalake.com/integrations/microsoft/) |
 |Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
+|Oak Innovation |[https://www.oakinnovate.com/clarify](https://www.oakinnovate.com/clarify) |
 
 <br/>
 다음 파트너는 솔루션에 대한 인증을 Microsoft Teams.<br/><br/>
@@ -239,7 +240,7 @@ IT 관리자는 규정 준수 기록 정책을 만들고 할당하여 각 사용
 |:--|:--|
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
-|Oak Innovation |[https://www.oakinnovate.com/call-recording](https://www.oakinnovate.com/call-recording) |
+
 
 이 목록은 더 많은 파트너가 참가하고 인증 조건을 충족할 때 업데이트됩니다.
 

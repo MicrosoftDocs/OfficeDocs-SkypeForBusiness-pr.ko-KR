@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 조직의 전화 번호 또는 포트(전송) 번호를 받을 때 TNS 서비스 데스크에서 도움말 및 지원을 제공해야 할 수 있습니다.
-ms.openlocfilehash: c32a6ed98cc54d04783025eacd03cb178e7f9120
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: b7ac8edd3c3c740f3b87feedc44535a193280a77
+ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733876"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63660693"
 ---
 # <a name="telephone-number-services-tns---service-desk"></a>TNS(전화 번호 서비스) - 서비스 데스크 
 
@@ -39,11 +39,13 @@ TNS(전화 번호 서비스) 서비스 데스크와 상호 작용하는 새 프�
 
 서비스 데스크에 문의하려면 다음을 수행합니다.
 
-1. Teams 관리 센터 - admin.teams.microsoft.com에 로그인합니다.
+1. 관리자 센터에 [Teams 로그인합니다](https://admin.teams.microsoft.com).
 
-2. 왼쪽 창에서 **전화 번호** 를 선택합니다.
+2. 왼쪽 창에서 **음성** 을 선택한 다음 숫자를 전화 **있습니다**.
 
-3. 페이지 맨 위에서 **전화 번호 지원 받기** 를 선택합니다. 전화 번호 서비스 센터가 표시됩니다.  
+3. 추가 **또는 포트** 를 **선택합니다**.
+
+4. 페이지 맨 위에서 **전화 번호 지원 받기** 를 선택합니다. 전화 번호 서비스 센터가 표시됩니다.  
 
 > [!NOTE]
 > 같은 테넌트의 사용자만 사례를 만들 수 있습니다. 즉, @fabrikam.com 사용자가 @contoso.com 대신 사례를 만들 수 없습니다. 
@@ -192,7 +194,7 @@ TNS(Microsoft 전화 번호 서비스) 서비스 데스크에 대한 질문과 �
 
 - **사례 열기**, **모든 사례** 또는 **종료된 사례** 를 선택하여 **사례를 필터링** 합니다.
 
-- 기존 사례를 열고 아래로 스크롤하고, 주석 추가를 선택하여 **사례와 관련하여 TNS** 서비스 데스크와 **통신합니다.** 새 창이 나타납니다. 메모 상자에 메시지를 입력합니다. 요청에 도움이 될 수 있는 모든 지원 문서(사용 가능한 경우)를 첨부하고 **제출** 을 선택합니다.  
+- 기존 사례를 열고 아래로 스크롤하고, 주석 추가를 선택하여 **사례와 관련하여 TNS** 서비스 데스크와 **통신합니다**. 새 창이 나타납니다. 메모 상자에 메시지를 입력합니다. 요청에 도움이 될 수 있는 모든 지원 문서(사용 가능한 경우)를 첨부하고 **제출** 을 선택합니다.  
 
   **TNS** 서비스 데스크의 응답은 동일한 타임라인 아래에 표시됩니다. 사례에 업데이트가 있으면 업데이트에 대한 자동 전자 메일 알림을 받게 됩니다. 
 
