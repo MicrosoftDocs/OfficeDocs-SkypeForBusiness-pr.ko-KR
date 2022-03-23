@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3260ec894de12b405e0fea8e0d3c75a550d896d4
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 647e5e12f7140abc3da8dc63964d5b94d9785e16
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959917"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711512"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -59,7 +59,10 @@ ms.locfileid: "60959917"
 
 <sup>5</sup> 28 KB는 메시지 자체(텍스트, 이미지 링크 등), @-멘션, 커넥터 수, 반응이 포함되기 때문에 대략적인 한도입니다.
 
-<sup>6</sup> GCC 팀에서는 25,000명을 수용할 수 있지만 GCCH/DoD 팀에서는 2,500명만 수용할 수 있습니다. 또한 팀/채널 멘션은 10,000명이 넘는 구성원이 있는 팀에서 차단됩니다.
+<sup>6</sup> 팀 외부의 공유 채널 구성원 수 제한에 도달했습니다. GCC 팀에서는 25,000명을 수용할 수 있지만 GCCH/DoD 팀에서는 2,500명만 수용할 수 있습니다. 또한 팀/채널 멘션은 10,000명이 넘는 구성원이 있는 팀에서 차단됩니다.
+
+> [!NOTE]
+> 공유 채널 미리 보기에 대한 제한은 [공유 채널(미리 보기)에 대한 제한](/MicrosoftTeams/shared-channels#limits-for-shared-channels-preview)을 참조하세요.
 
 ## <a name="messaging"></a>메시징
 

@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Power Platform Teams, Power apps, Power automate 및 Power BI 등의 Microsoft Power Platform 도구와의 통합에 대해 Power Virtual Agents.
-ms.openlocfilehash: f902e0a137f5a5f996623a9207e9e192b90bb6b7
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: a89068e5e70387275e21e2d5f8167980c57f51ee
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442494"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711272"
 ---
 # <a name="teams-integration-with-microsoft-power-platform"></a>Teams Power Platform과 통합
 
@@ -39,7 +39,10 @@ Microsoft Power Platform    **은 Teams 작업 Power BI 보고서, Teams 탭 또
 - 앱과 서비스 간에 자동화된 워크플로를 만들어 파일을 동기화하고, 알림을 받고, 데이터 **수집** 을 Power Automate.
 - 가이드 및 코드가 없는 그래픽 인터페이스를 사용하여 봇을 빌드하여 Power Virtual Agents 내에서 디지털  도우미를 Teams 동료가 채팅할 수 있도록 합니다.
 
-앱, 봇 및 워크플로를 만드는 새로운 기능은 관계형 데이터 저장소, 풍부한 데이터 Teams, 엔터프라이즈급 거버넌스 및 원 클릭 솔루션 배포를 제공하는 Teams 데이터버[](/powerapps/teams/overview-data-platform)스용 데이터 Teams 새로운 기본 제공 데이터 플랫폼을 통해 지원됩니다. 데이터 Teams [Microsoft Dataverse를 통해 구축됩니다](/powerapps/maker/common-data-service/data-platform-intro). 데이터버스를 사용하여 Teams Teams 일반적인 시나리오를 선보이는 Teams 바로 사용할 수 있는 사용자 지정 솔루션을 찾아 설치할 수 있습니다. 조직의 브랜디드 및 요구 사항에 맞게 이러한 사용자 지정 솔루션을 사용자 지정하고 확장할 수 있습니다.
+앱, 봇 및 워크플로를 만드는 새로운 기능은 관계형 데이터 저장소, 풍부한 데이터 Teams, 엔터프라이즈급 거버넌스 및 원 클릭 솔루션 배포를 제공하는 Teams 데이터버[](/powerapps/teams/overview-data-platform)스용 데이터 Teams 새로운 기본 제공 데이터 플랫폼을 통해 지원됩니다.
+
+데이터 Teams [Microsoft Dataverse를 통해 구축됩니다](/powerapps/maker/common-data-service/data-platform-intro). Teams 여러 산업에서 일반적인 시나리오를 선보이는 Teams 바로 사용할 수 있는 사용자 지정 솔루션을 찾아 설치할 수 있습니다.
+조직의 브랜디드 및 요구 사항에 맞게 이러한 사용자 지정 솔루션을 사용자 지정하고 확장할 수 있습니다.
 
 ## <a name="licensing"></a>라이선싱
 
@@ -54,3 +57,6 @@ Microsoft Power Platform    **은 Teams 작업 Power BI 보고서, Teams 탭 또
 - [Power Apps 및 Teams](/powerapps/teams/overview)
 - [Power Automate 및 Teams](/power-automate/teams/overview)
 - [Power Virtual Agents 및 Teams](/power-virtual-agents/teams/fundamentals-what-is-power-virtual-agents-teams)
+
+<!--- TBD: Remove this article from admin doc set. Belongs in dev doc set.
+--->

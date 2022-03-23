@@ -22,13 +22,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
-description: 인사말 메시지, 음악 Microsoft Teams 리디렉션 및 기타 기능을 제공하는 대규모 조직에 대한 통화 큐를 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: f6ca42b4e954cad8429d545ed8fe1d587127c7d9
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+description: 인사말 메시지를 제공하고, 음악을 보류하고, 리디렉션을 Microsoft Teams 다른 기능을 제공하는 대규모 조직에 대한 통화 큐를 설정하는 방법에 대해 자세히 알아보습니다.
+ms.openlocfilehash: 6b6f143a4fefc90ffabf282814147796d4b3baf3
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457328"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711912"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 
@@ -47,7 +47,9 @@ ms.locfileid: "62457328"
 
 - 큐 오버플로 및 시간 제한에 대한 처리 옵션
 
-이 문서의 절차를 수행 [](plan-auto-attendant-call-queue.md) 하기 전에 자동 Teams 및 호출 큐에 대한 계획을 읽고 시작 단계에 따라야 합니다[](plan-auto-attendant-call-queue.md#getting-started).
+이 문서의 절차를 수행 [](plan-auto-attendant-call-queue.md) 하기 전에 자동 Teams 대기열에 대한 계획을 읽고 시작 단계를 수행해야 합니다.[](plan-auto-attendant-call-queue.md#getting-started)
+
+**자세한 내용은 아래 [큐 기능 호환성 매트릭](#call-queue-feature-compatibility) 스 호출을 참조하세요.**
 
 ## <a name="video-demonstration"></a>비디오 데모
 
@@ -67,17 +69,21 @@ ms.locfileid: "62457328"
 
 **계정 추가** 를 클릭하고 이 통화 큐에 사용할 리소스 계정을 검색하고 **추가** 를 클릭하고 **추가** 를 클릭합니다. (에이전트가 들어오는 호출을 받을 때 리소스 계정 이름이 표시됩니다.)
 
-자세한 내용은 리소스 계정 [Teams 참조하세요](manage-resource-accounts.md).
+자세한 내용은 리소스 계정 Teams [참조하세요](manage-resource-accounts.md).
 
-### <a name="assign-calling-id"></a>호출 ID 할당
+## <a name="dynamic-caller-id"></a>동적 호출자 ID
 
 ![ID 설정을 호출하는 스크린샷.](media/call-queue-assign-calling-id.png)
 
-통화 에이전트에 Teams 채널을 사용할 계획인 경우 전화 번호가 있는 하나 이상의 리소스 계정을 지정하여 에이전트에 대해 아웃바운드 호출자 ID 번호를 할당할 수 있습니다.
+**채널/Teams 전화 걸기 데스크톱 사용자 및 표준 통화 큐를 Teams 모바일 클라이언트 사용자에 사용할 수 있습니다.**
 
-추가 **를** 클릭하고 아웃바운드 호출 시 에이전트가 ID를 호출할 수 있도록 허용할 리소스 계정을 검색하고 추가를 클릭한 **다음 추가를** **클릭합니다**.
+전화 번호가 있는 하나 이상의 리소스 계정을 지정하여 에이전트에 아웃바운드 호출자 ID 번호를 할당할 수 있습니다. 에이전트는 각 아웃바운드 호출에 사용할 아웃바운드 호출 ID 번호를 선택할 수 있습니다.
 
-에이전트 멤버 자격을 제어하기 위해 Teams 채널을 사용하지 않는 경우 호출 큐의 구성원에 대한 발신자 ID를 호출 큐의 서비스 번호 또는 적절한 자동 참석자 번호로 직접 설정하는 것이 고려됩니다. 자세한 내용은 발신자 [ID](caller-id-policies.md) 정책 관리를 Microsoft Teams.
+추가 **를** 클릭하고 아웃바운드 호출 시 에이전트가 발신자 ID 용도로 사용할 수 있도록 허용할 리소스 계정을 검색하고 추가를 클릭한 **다음 추가를** **클릭합니다**.
+
+**표준 통화 큐**
+
+데스크톱 Teams 표준 호출 큐의 경우 호출 큐의 구성원에 대한 발신자 ID를 호출 큐의 서비스 번호 또는 적절한 자동 참석자 번호로 직접 설정하는 것이 고려됩니다. 자세한 내용은 발신자 [ID](caller-id-policies.md) 정책 관리를 Microsoft Teams.
 
 > [!NOTE]
 > ID를 호출하는 데 사용되는 리소스 계정에는 가상 Microsoft Teams 전화 시스템 라이선스가 있어야 합니다.
@@ -102,7 +108,7 @@ ms.locfileid: "62457328"
 Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 제공됩니다. Teams 통화 큐에서 제공하는 기본 음악은 조직에서 지불해야 하는 로열티가 없습니다. 특정 오디오 파일을 재생하려면 **오디오 파일 재생** 을 선택하고 MP3 WAV 또는 WMA 파일을 업로드합니다.
 
 > [!NOTE]
-> 귀하는 음악, 음향 효과, 오디오, 브랜드, 이름 및 기타 콘텐츠의 지적 재산권 및 기타 권리를 포함할 수 있는 Microsoft Teams 서비스에서 음악 또는 오디오 파일을 사용하는 데 필요한 모든 권한 및 권한을 독립적으로 지우고 보호할 책임이 있습니다.  공연자, 음악가, 작곡가, 작곡가, 레코드 레이블, 음악 퍼블리셔, 노조, 길드, 권리 사회, 집단 관리 조직 및 음악 저작권, 음향 효과, 오디오 및 기타 지적 재산권을 소유, 제어 또는 라이선스를 부여하는 다른 당사자.
+> 귀하는 음악, 음향 효과, 오디오, 브랜드, 이름 및 기타 콘텐츠의 지적 재산권 및 기타 권리를 포함할 수 있는 모든 관련 권리 보유자의 음악, 음향 효과, 오디오, 브랜드, 이름 및 기타 콘텐츠에 포함된 모든 음악 또는 오디오 파일을 사용하는 데 필요한 모든 권한 및 권한을 독립적으로 지우고 보호할 Microsoft Teams 책임이 있습니다.  공연자, 음악가, 작곡가, 작곡가, 레코드 레이블, 음악 퍼블리셔, 노조, 길드, 권리 사회, 집단 관리 조직 및 음악 저작권, 음향 효과, 오디오 및 기타 지적 재산권을 소유, 제어 또는 라이선스를 부여하는 다른 당사자.
 
 ## <a name="call-agents"></a>통화 에이전트
 
@@ -158,9 +164,9 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 
 - **참석자 라우팅** 은 큐에 있는 모든 에이전트를 동시에 링합니다. 통화를 받은 첫 번째 통화 에이전트가 통화를 받습니다.
 
-- **직렬 라우팅** 은 모든 **콜 에이전트** 를 콜 에이전트 목록에 지정된 순서대로 하나씩 울립니다. 에이전트가 통화를 취소하거나 통화를 받지 않으면 다음 에이전트가 호출을 울리고 선택되거나 시간이 초과될 때까지 모든 에이전트를 시도합니다.
+- **직렬 라우팅** 은 모든 **콜 에이전트** 를 콜 에이전트 목록에 지정된 순서대로 하나씩 울립니다. 에이전트가 통화를 기각하거나 선택하지 않는 경우 호출이 다음 에이전트에 울리게됩니다. 호출이 선택되거나 시간 외가 될 때까지 반복됩니다.
 
-- **라운드 로빈** 은 각 호출 에이전트가 큐에서 동일한 수의 호출을 수신하도록 수신 호출 라우팅의 균형을 조정합니다. 이는 모든 상담원 간에 동등한 기회를 보장하기 위해 인바운드 영업 환경에서 바람직할 수 있습니다.
+- **라운드 로빈** 은 각 호출 에이전트가 큐에서 동일한 수의 호출을 수신하도록 수신 호출 라우팅의 균형을 조정합니다. 이 라우팅 방법은 인바운드 판매 환경에서 모든 호출 에이전트와 동일한 기회를 보장하는 것이 바람직할 수 있습니다.
 
 - **가장 긴 유휴 상태** 는 각 통화를 가장 오랫동안 유휴 상태인 에이전트로 라우팅합니다. 에이전트의 현재 상태를 사용할 수 있는 경우 에이전트가 유휴 상태로 간주됩니다. 현재 상태를 사용할 수 없는 에이전트는 현재 상태를 사용 가능으로 변경할 때까지 호출을 받을 수 없습니다. 
 
@@ -173,6 +179,9 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 > 가장 **긴 유** 휴을 사용하고 사용 가능한 에이전트보다 큐에서 호출이 적을 경우 처음 두 개의 가장 긴 유휴 에이전트만 큐의 호출로 표시됩니다.
 > 
 > 가장 **긴 유** 휴을 사용하는 경우 에이전트가 사용할 수 없게 되는 직후에 큐에서 호출을 수신하거나 사용할 수 있는 후 큐에서 호출을 받는 데 짧은 지연이 있는 경우가 있을 수 있습니다.
+> 
+> 에이전트에게 큐 호출 프레젠테이션을 호출하면 위치 기반 라우팅 제한과 충돌할 수 있습니다. 이 경우 에이전트는 호출 토스트를 수신하지만 호출에 응답할 수 없습니다. 이 조건은 다른 에이전트가 호출에 응답할 수 있도록, 호출자 중단 또는 호출 큐 시간 제한 조건이 발생할 때까지 계속됩니다.  
+
 
 ![라우팅, 옵트아웃 및 경고 시간 설정 스크린샷.](media/call-queue-presence-agents-time.png)
 
@@ -214,7 +223,7 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 
 **통화 시간 초과: 최대 대기 시간** 은 통화가 리디렉션되거나 연결이 끊어지기 전에 큐에 대기할 수 있는 최대 시간을 지정합니다. 0초에서 45분까지 지정할 수 있습니다.
 
-통화 연결을 끊거나 통화 라우팅 대상로 리디렉션할 수 있습니다. 예를 들어 발신자에 큐에 있는 에이전트에 대한 음성 메일이 남아 있을 수 있습니다. 외부 전송의 경우 [필수 구성 요소](plan-auto-attendant-call-queue.md#prerequisites)와 번호 서식에 대한 [외부 전화 번호 전송 - 기술 세부 정보](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)를 참조하세요.
+통화 연결을 끊거나 통화 라우팅 대상로 리디렉션할 수 있습니다. 예를 들어 발신자에 큐에 있는 에이전트에 대한 음성 메일이 남아 있을 수 있습니다. 외부 전송의 경우 전제 사항 [](plan-auto-attendant-call-queue.md#prerequisites) 및 외부 전화 번호 전송 [-](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 번호 서식에 대한 기술 세부 정보를 참조합니다.
 
 통화 시간 제한 옵션을 선택한 경우 **저장** 을 클릭합니다.
 
@@ -226,6 +235,44 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
 - **라우팅 방법** 은 **라운드 로빈** 또는 **최대 유휴 상태** 로
 - **현재 상태 기반 라우팅** 은 **켬** 으로
 - **에이전트 경고 시간** 은 **20초로**
+
+
+## <a name="call-queue-feature-compatibility"></a>호출 큐 기능 호환성
+
+|기능                          |Teams <sup>Desktop1</sup> |Teams <sup>Mobile2</sup> |Lync |IP 휴대폰 | 표준 통화 큐 |채널 기반 통화 큐 | 주석 |
+|:--------------------------------|:------------------------:|:-----------------------:|:---:|:--------:|:--------------------:|:------------------------:|:-------------|
+|**에이전트 라우팅 방법**        |                          |                         |     |          |                      |                          |              |
+|`Attendant Routing`              |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*기본값*     |
+|`Longest Idle`<sup>3</sup>       |Y                         |Y                        |N    |Y         |Y                     |Y                         |*권장* |
+|`Round Robin`                    |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*권장* |
+|`Serial`                         |Y                         |Y                        |Y    |Y         |Y4<sup></sup>         |Y4<sup></sup>             |              |
+|**전송 모드**               |                          |                         |     |          |                      |                          |              |
+|`Conference Mode`<sup>5</sup>    |Y                         |Y                        |N    |Y6<sup></sup>|Y                  |Y                         |*권장* |
+|`Transfer Mode`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |              |
+|현재 상태 기반 라우팅<sup>3</sup>|Y                        |Y                        |N    |Y         |Y                     |Y                         |*권장* |
+|에이전트는 옵트아웃할 수 있습니다.               |Y                         |Y                        |Y7<sup></sup>|Y7<sup></sup>|Y          |Y                         |*기본값*     |
+|채널 기반 큐             |Y                         |N                        |N    |N         |n/a                   |Y8<sup></sup>             |              |
+|통화 토스트에 리소스 계정 이름이 표시됩니다. |Y9<sup></sup>       |Y                        |Y    |          |Y                     |Y                         |              |
+|**동적 호출자 ID**            |                          |                         |     |          |                      |                          |              |
+|`Standard call queue`            |N                         |N                        |N    |N         |Y                     |n/a                       |              |
+|`Channel based call queue`       |Y                         |n/a                      |n/a  |n/a       |n/a                   |Y                         |              |
+|**PSTN 연결 방법**    |                          |                         |     |          |                      |                          |참고 10 참조   |
+|`Calling Plans`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |              |
+|`Direct Routing`                 |Y                         |Y                        |N    |N         |Y                     |Y                         |              |
+|`Operator Connect`               |Y                         |Y                        |     |          |Y                     |Y                         |              |
+
+참고:
+1. Microsoft Teams Windows 클라이언트, Microsoft Teams Mac 클라이언트, Microsoft Teams 데스크톱 인프라, 웹 Microsoft Teams.
+2. Microsoft Teams iPhone 앱, Microsoft Teams Android 앱입니다.
+3. 에이전트 라우팅 메서드에 대해 가장 긴 유휴을 선택하면 현재 상태 기반 라우팅이 자동으로 활성화됩니다.
+4. 표준 호출 큐의 일부로 개별 사용자를 추가할 때만 순서를 설정할 수 있습니다. 메일 목록 또는 Teams 사용하는 경우 순서는 사전순입니다.
+5. 전화 통화가 위치 기반 라우팅에 사용하도록 설정된 직접 라우팅 게이트웨이에서 큐로 라우팅되는 경우 회의 모드는 지원되지 않습니다.
+6. Microsoft Teams 전화만 사용할 수 있습니다.
+7. 의 사용자 설정 포털 페이지를 통해https://aka.ms/vmsettings
+8. 공용 채널만 지원됩니다.
+9. 웹 클라이언트를 Teams 제외합니다.
+10. 자동 참석자 및 통화 큐는 PSTN 연결 메서드 간에 호출을 전송할 수 없습니다.
+
 
 ## <a name="supported-clients"></a>지원되는 클라이언트
 
@@ -245,7 +292,7 @@ Teams에서 사용자가 큐에 있는 동안 발신자에게 기본 음악이 �
   - Microsoft Teams Android 앱
 
     > [!NOTE]
-    > 직접 라우팅 번호가 할당된 통화 큐는 비즈니스용 Skype 클라이언트, Lync 클라이언트 또는 비즈니스용 Skype IP 통화가 에이전트로 지원되지 않습니다. Teams 클라이언트는 Teams 상용 모드로[만 지원됩니다](/microsoftteams/setting-your-coexistence-and-upgrade-settings).
+    > 직접 라우팅 번호가 할당된 통화 큐는 비즈니스용 Skype 클라이언트, Lync 클라이언트 또는 비즈니스용 Skype IP 통화가 에이전트로 지원되지 않습니다. Teams 클라이언트는 Teams 상용 모드[로만 지원됩니다](/microsoftteams/setting-your-coexistence-and-upgrade-settings).
 
 ## <a name="call-queue-cmdlets"></a>통화 큐 cmdlets
 
@@ -258,7 +305,7 @@ Windows PowerShell 명령줄을 통해 일괄 처리 또는 프로그래밍 방�
 - [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue)
 - [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue)
 
-또한 통화 큐에 사용할 사용자, 리소스 계정, Microsoft Teams 전화, 전화 번호, 오디오 파일 및 지원되는 언어를 관리하는 데도 다음 추가 cmdlet이 필요합니다.
+또한 통화 큐에 사용할 사용자, 리소스 계정, Microsoft Teams 전화 라이선스, 전화 번호, 오디오 파일 및 지원되는 언어를 관리하는 데도 다음 추가 cmdlet이 필요합니다.
 
 사용자/Teams
 
@@ -285,7 +332,7 @@ Windows PowerShell 명령줄을 통해 일괄 처리 또는 프로그래밍 방�
 - [Get-MsolAccountSku](/powershell/module/msonline/get-msolaccountsku)
 - [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
 
-전화 할당:
+전화 번호 할당:
 
 - [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber)
 - [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-csphonenumberassignment)
@@ -316,7 +363,7 @@ PowerShell을 사용하여 호출 큐를 만드는 단계별 가이드는 [Power
 
 3. 테스트는 모든 테넌트, 정책 및 리소스 계정 구성을 해결하기 위한 최상의 다음 단계를 반환하여 호출 큐에서 호출을 받을 수 있는지 유효성을 검사합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [다음은 사용자와 함께 얻을 Microsoft Teams 전화](here-s-what-you-get-with-phone-system.md)
 

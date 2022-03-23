@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a4a05e6dabc3e319171cb71525b6c2175c8235c
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 5ff97fae1fb2483dcddf301715018b6a94f908a7
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893627"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711442"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -36,14 +36,14 @@ Teams 환경에서는 채팅 및 공동 작업을 지원합니다. 또한 Azure 
 
 Teams 환경에서도 여러 구성을 지원합니다. 여기에는 VDI, 전용, 공유, 영구 및 비 영구 모드가 포함됩니다. 기능은 지속적으로 개발되고 정기적으로 추가되고 시간이 지날 때 기능이 확장됩니다.
 
-가상 Teams 환경에서 사용은 가상화되지 않은 환경에서 Teams 다소 다를 수 있습니다. 예를 들어 가상화된 환경에서 일부 고급 기능을 사용할 수 없는 경우 비디오 해상도가 다를 수 있습니다.
+가상 Teams 환경에서는 가상화되지 않은 환경에서 Teams 다소 다를 수 있습니다. 예를 들어 가상화된 환경에서 일부 고급 기능을 사용할 수 없는 경우 비디오 해상도가 다를 수 있습니다.
 
 최적의 사용자 환경을 보장하기 위해 이 문서의 지침을 따르하세요.
 
 > [!Note]
 > 다양한 플랫폼에서 VDI Teams 대한 자세한 내용은 플랫폼 Teams [기능을 참조하세요](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
-## <a name="teams-on-vdi-components"></a>Teams 구성 요소에 대한 구성 요소
+## <a name="teams-on-vdi-components"></a>VDI Teams 구성 요소에 대한 구성 요소
 
 가상 Teams 환경에서는 다음 구성 요소가 필요합니다.
 
@@ -52,15 +52,15 @@ Teams 환경에서도 여러 구성을 지원합니다. 여기에는 VDI, 전용
 - **씬 클라이언트**: 사용자가 물리적으로 인터페이스하는 디바이스
 - **Teams 데스크톱 앱**: Teams 데스크톱 클라이언트 앱
 
-## <a name="teams-on-vdi-requirements"></a>Teams 요구 사항에 대한 요구 사항
+## <a name="teams-on-vdi-requirements"></a>VDI Teams 요구 사항에 대한 요구 사항
 
 ### <a name="virtualization-provider-requirements"></a>가상화 공급자 요구 사항
 
 Teams 데스크톱 앱은 선도적인 가상화 솔루션 공급자를 사용하여 유효성을 검사했습니다. 여러 시장 공급자를 사용하는 경우 최소 요구 사항을 충족하도록 가상화 솔루션 공급자를 문의하는 것이 좋습니다.
   
-현재 Teams AV(오디오/비디오) 최적화를 사용하여 VDI에서 Azure Virtual Desktop, Citrix 및 VMware에 인증됩니다. 이 섹션의 정보를 검토하여 적절한 기능에 대한 모든 요구 사항을 충족하는지 확인합니다.
+현재 Teams AV(오디오/비디오) 최적화가 있는 VDI에서 Azure Virtual Desktop, Citrix 및 VMware로 인증됩니다. 이 섹션의 정보를 검토하여 적절한 기능에 대한 모든 요구 사항을 충족하는지 확인합니다.
 
-### <a name="platforms-certified-for-teams"></a>인증된 플랫폼 Teams
+### <a name="platforms-certified-for-teams"></a>인증된 Teams
 
 다음 플랫폼에는 가상 데스크톱 인프라 솔루션이 Teams.
 
@@ -76,7 +76,7 @@ Azure Virtual Desktop은 VDI에서 Teams AV 최적화를 제공합니다. 요구
 
 ### <a name="windows-365"></a>Windows 365
 
-Windows 365는 Azure Virtual Desktop에서 제공하는 AV 최적화를 사용하여 클라우드 PC에서 최적의 Teams 환경을 보장합니다. 요구 사항 및 설치에 대한 자세한 내용은 클라우드 PC에서 Teams [참조하세요](/windows-365/enterprise/teams-on-cloud-pc).
+Windows 365는 Azure Virtual Desktop에서 제공하는 AV 최적화를 사용하여 클라우드 PC에서 최적의 Teams 환경을 보장합니다. 요구 사항 및 설치에 대한 자세한 내용은 [Cloud PC에서 Teams 참조하세요](/windows-365/enterprise/teams-on-cloud-pc).
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Citrix Virtual Apps 및 Desktops 요구 사항
 
@@ -88,17 +88,17 @@ Citrix 다운로드 사이트에서 최신 버전의 Citrix Virtual Apps 및 데
 
 ### <a name="vmware-horizon-workspace-and-desktop-requirements"></a>VMware Horizon 작업 영역 및 데스크톱 요구 사항
 
-VMware Horizon은 하이브리드 클라우드에서 가상 데스크톱 및 앱을 안전하게 배달하기 위한 최신 플랫폼입니다. 훌륭한 최종 사용자 환경을 제공하도록 VMware Horizon은 사용자에 대한 미디어 최적화를 Teams. 이 최적화는 가상 데스크톱 및 앱 전반에 걸쳐 전반적인 생산성을 향상하고, 가상 데스크톱을 사용하여 전화를 걸고 모임할 때 사용자 환경을 Teams.
+VMware Horizon은 하이브리드 클라우드에서 가상 데스크톱 및 앱을 안전하게 배달하기 위한 최신 플랫폼입니다. 훌륭한 최종 사용자 환경을 제공하도록 VMware Horizon은 사용자에 대한 미디어 최적화를 Teams. 이 최적화는 가상 데스크톱 및 앱 전체의 전반적인 생산성을 향상하고, 가상 데스크톱을 사용하여 전화를 걸고 모임할 때 사용자 환경을 Teams.
 
 [VMware 다운로드 페이지에서 최신 버전의 VMware Horizon을 다운로드할 수](https://customerconnect.vmware.com/downloads/#all_products) 있습니다. 필수 미디어 최적화 구성 요소는 기본적으로 Horizon 에이전트 및 Horizon 클라이언트의 일부로, 추가 플러그 인을 설치할 필요가 Teams.
 
-VMware에 대한 미디어 최적화를 구성하는 방법에 대한 최신 요구 사항 및 지침을 Teams VMware [](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html) 웹 사이트의 Microsoft Teams 미디어 최적화 구성 문서를 참조하세요.
+VMware에 대한 미디어 최적화를 구성하는 방법에 대한 최신 요구 사항 및 지침을 Teams VMware [](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html) 웹 사이트의 Microsoft Teams 문서를 참조하세요.
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>VDI에 Teams 데스크톱 앱 설치 또는 업데이트
 
 MSI 패키지를 사용하여 Teams 설치 또는 사용자당 설치를 사용하여 VDI용 데스크톱 앱을 배포할 수 있습니다. 사용할 방법을 결정하려면 영구적 또는 비영구적 설정을 사용할지 여부와 조직의 관련 기능 요구에 따라 결정됩니다.
 
-전용 영구 설치의 경우 컴퓨터당 및 사용자당 설치가 모두 작동합니다. 그러나 비영구적 설치의 경우 효율적으로 Teams 컴퓨터당 설치가 필요합니다. 영구적이 [지 않은 설정 섹션을 참조](#non-persistent-setup) 하세요.
+전용 영구 설치의 경우 컴퓨터당 및 사용자당 설치가 모두 작동합니다. 그러나 영구적이지 않은 설치의 경우 효율적으로 Teams 컴퓨터당 설치가 필요합니다. 영구적이 [지 않은 설정 섹션을 참조](#non-persistent-setup) 하세요.
 
 컴퓨터당 설치를 통해 자동 업데이트를 사용할 수 없습니다. 즉, 앱을 Teams 최신 버전으로 업데이트하려면 현재 버전을 제거해야 합니다. 사용자당 설치를 사용하면 자동 업데이트가 활성화됩니다.
 
@@ -122,15 +122,15 @@ VDI Teams AV 최적화가 제대로 작동하려면 씬 클라이언트 디바�
 
 영구적이지 않은 설정에서 사용자의 로컬 운영 체제 변경 내용은 사용자가 로그오프한 후에 유지되지 않습니다. 이러한 설정은 일반적으로 공유 다중 사용자 세션입니다. VM 구성은 사용자 수 및 사용 가능한 물리적 서버 리소스에 따라 다릅니다.
 
-영구적이지 않은 설정의 경우 Teams 데스크톱 앱을 골든 이미지에 컴퓨터당 설치해야 합니다. 이렇게 하면 사용자 세션 동안 Teams 앱을 효율적으로 실행합니다. 자세한 내용은 [VDI](#install-or-update-the-teams-desktop-app-on-vdi)에서 Teams 데스크톱 앱 설치 또는 업데이트 섹션을 참조하세요.
+영구적이지 않은 설정의 경우 Teams 데스크톱 앱을 골든 이미지에 컴퓨터당 설치해야 합니다. 이렇게 하면 사용자 세션 동안 Teams 앱을 효율적으로 실행합니다. 자세한 내용은 [VDI](#install-or-update-the-teams-desktop-app-on-vdi)에 Teams 데스크톱 앱 설치 또는 업데이트 섹션을 참조하세요.
 
-비 Teams 설정에서 데이터를 사용하는 경우 런타임 데이터 동기화를 효율적으로 수행하기 위해 프로필 캐싱 Teams 필요합니다. 효율적인 데이터 동기화를 통해 사용자의 세션 중에 적절한 사용자별 정보(예: 사용자의 데이터, 프로필 또는 설정)가 캐시됩니다. 다음 두 폴더의 데이터가 동기화되는지 확인합니다.<br>
+비 Teams 런타임 데이터 동기화를 위해 프로필 캐싱 관리자도 Teams 필요합니다. 효율적인 데이터 동기화를 통해 사용자의 세션 중에 적절한 사용자별 정보(예: 사용자의 데이터, 프로필 또는 설정)가 캐시됩니다. 다음 두 폴더의 데이터가 동기화되는지 확인합니다.<br>
 
 - `C:\Users\username\AppData\Local\Microsoft\IdentityCache (%LocalAppData%\Microsoft\IdentityCache)`
 - `C:\Users\username\AppData\Roaming\Microsoft\Teams (%AppData%\Microsoft\Teams)`
 
 > [!NOTE]
-> 로밍 폴더(또는 폴더 리디렉션을 사용하는 경우 캐싱 관리자)는 애플리케이션을 실행하기 위해 Teams 런타임 데이터와 파일이 있는지 확인해야 합니다. 이 문제는 네트워크 대기 시간 문제 또는 네트워크 문제의 완화를 위해 필요하며, 그렇지 않으면 애플리케이션 오류 및 사용할 수 없는 데이터 및 파일로 인해 환경이 느려질 수 있습니다.
+> 로밍 폴더(또는 폴더 리디렉션을 사용하는 경우 캐싱 관리자)는 애플리케이션을 실행하는 데 Teams 런타임 데이터와 파일이 있는지 확인해야 합니다. 이 문제는 네트워크 대기 시간 문제 또는 네트워크 문제의 완화를 위해 필요하며, 그렇지 않으면 애플리케이션 오류 및 사용할 수 없는 데이터 및 파일로 인해 환경이 느려질 수 있습니다.
 
 FSLogix와 같은 다양한 캐싱 관리자 솔루션을 [사용할 수 있습니다](/fslogix/overview). 특정 구성 지침은 캐싱 관리자 공급자에게 문의하세요.
 
@@ -148,21 +148,21 @@ VDI에서 Teams 배포할 엔터프라이즈용 Microsoft 365 앱 고려합니�
 
 #### <a name="new-deployments-of-teams-through-microsoft-365-apps-for-enterprise"></a>새 배포 Teams 엔터프라이즈용 Microsoft 365 앱
 
-Teams 엔터프라이즈용 Microsoft 365 앱 배포하기 전에 먼저 컴퓨터당 설치를 사용하여 배포된 Teams 기존 앱의 제거를 먼저 제거해야 합니다.
+Teams 엔터프라이즈용 Microsoft 365 앱 배포하기 전에 먼저 컴퓨터당 설치를 사용하여 배포된 기존 Teams 앱을 제거해야 합니다.
 
-Teams 엔터프라이즈용 Microsoft 365 앱 설치됩니다. 자세한 내용은 [VDI](#install-or-update-the-teams-desktop-app-on-vdi)에서 Teams 데스크톱 앱 설치 또는 업데이트 섹션을 참조하세요.
+Teams 엔터프라이즈용 Microsoft 365 앱 설치됩니다. 자세한 내용은 [VDI](#install-or-update-the-teams-desktop-app-on-vdi)에 Teams 데스크톱 앱 설치 또는 업데이트 섹션을 참조하세요.
 
-#### <a name="teams-deployments-through-microsoft-365-apps-for-enterprise-updates"></a>Teams 업데이트를 통한 엔터프라이즈용 Microsoft 365 앱 배포
+#### <a name="teams-deployments-through-microsoft-365-apps-for-enterprise-updates"></a>Teams 업데이트를 통해 엔터프라이즈용 Microsoft 365 앱 배포
 
-Teams 설치에 엔터프라이즈용 Microsoft 365 앱. 사용자 엔터프라이즈용 Microsoft 365 앱 Teams 설치하기 때문에 [VDI](#install-or-update-the-teams-desktop-app-on-vdi)에 Teams 데스크톱 앱 설치 또는 업데이트 섹션을 참조하세요.
+Teams 기존 설치에도 엔터프라이즈용 Microsoft 365 앱. 사용자 엔터프라이즈용 Microsoft 365 앱 Teams 설치하기 때문에 [VDI](#install-or-update-the-teams-desktop-app-on-vdi)에 Teams 데스크톱 앱 설치 또는 업데이트 섹션을 참조하세요.
 
 #### <a name="using-teams-with-per-machine-installation-and-microsoft-365-apps-for-enterprise"></a>컴퓨터 Teams 설치 및 엔터프라이즈용 Microsoft 365 앱
 
 엔터프라이즈용 Microsoft 365 앱 컴퓨터당 설치를 지원하지 Teams. 컴퓨터당 설치를 사용하려면 시스템 Teams 제외해야 엔터프라이즈용 Microsoft 365 앱. VM [](#deploy-the-teams-desktop-app-to-the-vm) 에 Teams 데스크톱 앱 배포 및 Teams 섹션을 통해 배포를 제외하는 [엔터프라이즈용 Microsoft 365 앱](#how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise) 참조하세요.
 
-#### <a name="how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise"></a>배포를 Teams 제외하는 엔터프라이즈용 Microsoft 365 앱
+#### <a name="how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise"></a>Teams 배포를 제외하는 엔터프라이즈용 Microsoft 365 앱
 
-Teams 및 엔터프라이즈용 Microsoft 365 앱 자세한 내용은 Teams 새 설치에서 제외하는 엔터프라이즈용 Microsoft 365 앱 및 그룹 정책 [](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-microsoft-365-apps) 사용 방법을 [참조](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)하여 Teams.
+Teams 및 엔터프라이즈용 Microsoft 365 앱 자세한 내용은 Teams 설치에서 제외하는 방법을 참조하고 그룹 [](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-microsoft-365-apps) 엔터프라이즈용 Microsoft 365 앱 정책을 사용하여 [Teams.](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>VM에 Teams 데스크톱 앱 배포
 
@@ -172,7 +172,7 @@ Teams 및 엔터프라이즈용 Microsoft 365 앱 자세한 내용은 Teams 새 
     - [64비트 버전](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
 
     > [!NOTE]
-    > 정부 클라우드의 경우 MSI 파일로 Teams Windows 설치 관리자([MSI](msi-deployment.md))를 사용하여 대량 설치를 참조하세요.
+    > 정부 클라우드의 경우 MSI 파일로 Teams Windows 설치 관리자([MSI)](msi-deployment.md)를 사용하여 대량 설치를 참조하세요.
 
     필요한 데스크톱 앱의 최소 Teams 버전은 버전 1.3.00.4461입니다. PSTN 보류는 이전 버전에서 지원되지 않습니다.
 
@@ -201,21 +201,21 @@ Teams 및 엔터프라이즈용 Microsoft 365 앱 자세한 내용은 Teams 새 
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
-        이 프로세스는 `%ProgramFiles(x86)%` Teams `%ProgramFiles%` 운영 체제의 폴더 및 32비트 운영 체제의 폴더에 설치합니다. 이 시점에서 골든 이미지 설정이 완료되었습니다.
+        이 프로세스는 `%ProgramFiles(x86)%` Teams `%ProgramFiles%` 운영 체제의 폴더와 32비트 운영 체제의 폴더에 설치합니다. 이 시점에서 골든 이미지 설정이 완료되었습니다.
 
         > [!IMPORTANT]
-        >  비 Teams 설정에 대해 컴퓨터당 Teams 설치해야 합니다.
+        >  비 Teams 경우 컴퓨터당 Teams 설치해야 합니다.
 
         다음 대화형 로그온 세션이 시작되면 Teams 시작하고 자격 증명을 요청합니다.
 
         > [!NOTE]
-        > 또한 이러한 예제에서는 매개 변수를 사용합니다 `ALLUSERS=1` . 이 매개 변수를 설정하면  Teams Machine-Wide 프로그램의 프로그램 및 기능에 설치 관리자를 &  모든 Windows 설정 앱에  표시됩니다.  그런 다음 모든 사용자가 관리자 자격 증명이 있는 Teams 제거할 수 있습니다.
+        > 또한 이러한 예제에서는 매개 변수를 사용합니다 `ALLUSERS=1` . 이 매개 변수를 **설정** 하면 Teams Machine-Wide 프로그램의 프로그램 및 기능에 설치 관리자를  & 모든 Windows 설정 앱  에 표시됩니다.  그런 다음 모든 사용자가 관리자 자격 증명이 있는 Teams 제거할 수 있습니다.
         >
         > 과 의 차이점을 이해하는 것이 `ALLUSERS=1` 중요합니다 `ALLUSER=1`. 매개 `ALLUSERS=1` 변수는 VDI가 아닌 환경에서 사용할 수 있으며, `ALLUSER=1` 매개 변수는 VDI 환경에서만 사용하여 컴퓨터당 설치를 지정합니다.
 
 3. VDI VM에서 MSI를 제거합니다. 두 가지 방법으로 Teams.
 
-    - **PowerShell** 스크립트: 배포 [Teams 정리](scripts/powershell-script-deployment-cleanup.md) PowerShell 스크립트를 사용하여 사용자에 대한 Teams 제거하고 Teams 폴더를 제거할 수 있습니다. 컴퓨터에 설치된 각 사용자 Teams 스크립트를 실행합니다.
+    - **PowerShell** 스크립트: 배포 [Teams 정리](scripts/powershell-script-deployment-cleanup.md) PowerShell 스크립트를 사용하여 사용자에 대한 Teams 제거하고 Teams 제거할 수 있습니다. 컴퓨터에 설치된 각 사용자 Teams 스크립트를 실행합니다.
     - **명령줄**: 다음 명령을 실행합니다.
   
       ```console
@@ -224,19 +224,19 @@ Teams 및 엔터프라이즈용 Microsoft 365 앱 자세한 내용은 Teams 새 
 
       이 프로세스는 `%ProgramFiles(x86)%` `%ProgramFiles%` Teams 환경에 따라 폴더 또는 폴더에서 제거됩니다.
 
-## <a name="teams-on-vdi-performance-considerations"></a>Teams 성능 고려 사항의 설명
+## <a name="teams-on-vdi-performance-considerations"></a>Teams 고려 사항
 
 다양한 가상화된 설정 구성이 있습니다. 각각 최적화에 대한 포커스가 다릅니다. 예를 들어 구성은 사용자 밀도에 집중할 수 있습니다. 계획할 때 조직의 워크로드 요구에 따라 설정을 최적화하는 데 도움이 되는 다음을 고려합니다.
 
 - **최소 요구 사항**: 일부 워크로드에는 최소 요구 사항 이상인 리소스를 사용하여 설정이 필요할 수 있습니다. 예를 들어 더 많은 컴퓨팅 리소스를 요구하는 애플리케이션을 사용하는 개발자를 위한 워크로드입니다.
-- **종속** 성: 데스크톱 앱 외부의 인프라, 워크로드 및 기타 환경 고려 사항의 종속성 Teams 포함됩니다.
-- **VDI** 에서 사용하지 않도록 설정: Teams GPU 집약적 기능을 사용하지 않도록 설정하면 일시적인 CPU 사용률을 개선하는 데 도움이 될 수 있습니다. 다음 기능은 사용하지 않도록 설정됩니다.
+- **종속성**: 데스크톱 앱 외부의 인프라, 워크로드 및 기타 환경 고려 사항에 대한 종속성 Teams 포함됩니다.
+- **VDI** 의 비활성화된 기능: Teams GPU 집약적 기능을 사용하지 않도록 설정하여 일시적인 CPU 사용률을 개선하는 데 도움이 될 수 있습니다. 다음 기능은 사용하지 않도록 설정됩니다.
     - Teams CSS 애니메이션
     - Giphy 자동 시작
 
 ## <a name="teams-on-vdi-with-calling-and-meetings"></a>Teams 및 모임을 통해 VDI에서 사용
 
-채팅 및 공동 작업 외에도 Teams 및 모임을 통해 VDI에서 지원되는 가상화 공급자 플랫폼에서 사용할 수 있습니다. 지원되는 기능은 WebRTC 미디어 스택 및 가상화 공급자 구현을 기반으로 합니다. 다음 다이어그램에서는 아키텍처에 대한 개요를 제공합니다.
+채팅 및 공동 작업 외에도 호출 및 Teams VDI에서 지원되는 가상화 공급자 플랫폼에서 사용할 수 있습니다. 지원되는 기능은 WebRTC 미디어 스택 및 가상화 공급자 구현을 기반으로 합니다. 다음 다이어그램에서는 아키텍처에 대한 개요를 제공합니다.
 
 ![VDI 아키텍처에 Teams 다이어그램입니다.](media/teams-on-vdi-architecture.png)
 
@@ -247,9 +247,9 @@ Teams 및 엔터프라이즈용 Microsoft 365 앱 자세한 내용은 Teams 새 
 
 환경을 평가하여 전체 클라우드 음성 및 비디오 배포에 영향을 줄 수 있는 위험 및 요구 사항을 식별하는 것이 좋습니다. 네트워크 [비즈니스용 Skype](https://www.microsoft.com/download/details.aspx?id=53885) 평가 도구를 사용하여 네트워크가 Teams.
 
-네트워크를 준비하는 방법에 대해 자세히 알아보 Teams 조직의 네트워크 준비를 [Teams](prepare-network.md).
+네트워크에 대한 네트워크를 준비하는 방법에 Teams 자세한 내용은 조직의 네트워크 준비를 [Teams.](prepare-network.md)
 
-### <a name="migrate-from-skype-for-business-on-vdi-to-teams-on-vdi"></a>VDI의 비즈니스용 Skype VDI에서 VDI로 Teams 마이그레이션
+### <a name="migrate-from-skype-for-business-on-vdi-to-teams-on-vdi"></a>VDI의 비즈니스용 Skype VDI에서 VDI에서 Teams 마이그레이션
 
 VDI의 비즈니스용 Skype VDI에서 VDI로 Teams 경우 두 애플리케이션 간의 차이점 외에도 VDI가 구현될 때 몇 가지 차이점이 있습니다. VDI에 있는 VDI에서 현재 지원되지 Teams VDI에 비즈니스용 Skype 기능은 다음과 같습니다.
 
@@ -265,7 +265,7 @@ Teams 브라우저에서 AV 최적화를 사용하여 VDI용 Teams 데스크톱 
 - 오디오 및 비디오 스트리밍 환경이 최적화되지 않을 수 있습니다. 사용자가 지연되거나 품질이 감소할 수 있습니다.
 - 브라우저 설정에서 디바이스 설정을 사용할 수 없습니다.
 - 디바이스 관리는 브라우저를 통해 처리하며 브라우저 사이트 설정에서 여러 설정이 필요합니다.
-- 디바이스 설정은 디바이스 관리에서 Windows 수 있습니다.
+- 디바이스 설정은 디바이스 관리에서 설정해야 Windows 수 있습니다.
 
 ## <a name="teams-on-vdi-with-chat-and-collaboration"></a>Teams 및 공동 작업을 통해 VDI에서 작업
 
@@ -275,7 +275,7 @@ Teams 브라우저에서 AV 최적화를 사용하여 VDI용 Teams 데스크톱 
 
 관리자 센터 또는 PowerShell을 사용하여 정책을 Teams 수 있습니다. 정책이 전파하기 위해 변경된 시간은 최대 몇 시간입니다. 특정 계정에 대한 변경 내용이 즉시 표시되지 않는 경우 몇 시간 후에 다시 시도하세요.
 
-[**호출 경찰**](teams-calling-policy.md): Teams 모든 호출 기능이 꺼져 있는 기본 제공 **DisallowCalling** 호출 정책이 포함되어 있습니다. 가상화된 환경에서 사용자 지정을 사용하는 조직의 모든 Teams **DisallowCalling** 정책을 할당합니다.
+[**호출 경찰**](teams-calling-policy.md): Teams 모든 호출 기능이 꺼져 있는 기본 제공 **DisallowCalling** 호출 정책이 포함되어 있습니다. 가상화된 환경에서 사용자를 사용하는 조직의 모든 Teams **DisallowCalling** 정책을 할당합니다.
 
 [**모임 정책**](meeting-policies-overview.md): Teams 모든 모임 기능을 해제하는 **기본 제공 AllOff** 모임 정책이 포함되어 있습니다. 가상화된 환경에서 모든 사용자를 사용하는 Teams **AllOff** 정책을 할당합니다.
 
@@ -293,7 +293,7 @@ Teams 브라우저에서 AV 최적화를 사용하여 VDI용 Teams 데스크톱 
 한 번에 여러 사용자에게 정책을 할당하려면 다음을 수행합니다.
 
 1. 관리 센터의 Teams 탐색에서 사용자로 이동한 다음 사용자를 검색하거나 보기를 필터링하여 원하는 사용자를 표시합니다.
-2. **&#x2713;**(확인 표시) 열에서 사용자를 선택합니다. 모든 사용자를 선택하려면&#x2713;(확인 **** 표시)를 클릭합니다.
+2. **&#x2713;**(확인 표시) 열에서 사용자를 선택합니다. 모든 사용자를 선택 **하려면**&#x2713;(확인 표시)를 클릭합니다.
 3. **설정 편집** 을 클릭하고 원하는 대로 변경한 다음, **적용** 을 클릭합니다.
 
 또는 다음을 할 수도 있습니다.
@@ -325,15 +325,15 @@ PowerShell을 사용하여 모임 정책을 관리하는 데 대한 자세한 �
 
 ## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-optimize-teams-with-calling-and-meetings"></a>채팅 및 Teams VDI에서 마이그레이션하여 통화 및 Teams 최적화
 
-채팅 및 Teams 및 공동 작업을 사용하여 VDI에 대한 기존 구현이 있는 경우 사용자 수준 정책을 설정하여 통화 및 모임 기능을 해제하고 AV 최적화를 사용하여 Teams VDI 사용자에 대한 호출 및 모임 기능을 설정하도록 정책을 Teams 설정해야 합니다.
+채팅 및 Teams 및 공동 작업으로 VDI에 대한 기존 구현이 있는 경우 사용자 수준 정책을 설정하여 통화 및 모임 기능을 해제하고 AV 최적화를 사용하여 Teams VDI 사용자에 대한 통화 및 모임 기능을 설정하도록 정책을 설정해야 Teams 합니다.
 
 ### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a>통화 및 모임 기능을 켜기 위한 정책 설정
 
 관리자 센터 또는 Teams PowerShell을 사용하여 사용자에게 통화 및 모임 정책을 설정하고 할당할 수 있습니다. 정책 변경이 전파하는 데 다소 시간이 걸릴 수 있습니다(몇 시간). 특정 계정에 대한 변경 내용이 즉시 표시되지 않는 경우 몇 시간 후에 다시 시도하세요.
 
-[**통화 경찰**](teams-calling-policy.md): 사용자가 사용할 수 있는 Teams 정책을 제어합니다. Teams 모든 호출 기능이 켜져 있는 **기본 제공 AllowCalling** 호출 정책이 포함되어 있습니다. 모든 호출 기능을 켜기 위해 **AllowCalling 정책을 할당** 합니다. 또는 사용자 지정 호출 정책을 만들어 원하는 호출 기능을 켜고 사용자에게 할당합니다.
+[**통화 경찰**](teams-calling-policy.md): 사용자가 사용할 수 있는 Teams 통화 정책을 제어합니다. Teams 모든 호출 기능이 켜져 있는 **기본 제공 AllowCalling** 호출 정책이 포함되어 있습니다. 모든 호출 기능을 켜기 위해 **AllowCalling 정책을 할당** 합니다. 또는 사용자 지정 호출 정책을 만들어 원하는 호출 기능을 켜고 사용자에게 할당합니다.
 
-[**모임 정책**](meeting-policies-overview.md): Teams 모임 정책은 사용자가 만들 수 있는 모임 유형과 조직의 사용자가 예약한 모임 참가자에 사용할 수 있는 기능을 제어합니다. Teams 모든 모임 기능이 켜져 있는 기본 제공 **AllOn** 모임 정책이 포함되어 있습니다. 모든 모임 기능을 켜기 위해 **AllOn** 정책을 할당합니다. 또는 사용자 지정 모임 정책을 만들어 원하는 모임 기능을 켜고 사용자를 할당합니다.
+[**모임 정책**](meeting-policies-overview.md): Teams 모임 정책은 사용자가 만들 수 있는 모임 유형과 조직의 사용자가 예약한 모임 참가자에 사용할 수 있는 기능을 제어합니다. Teams 모든 모임 기능이 켜져 있는 **기본 제공 AllOn** 모임 정책이 포함되어 있습니다. 모든 모임 기능을 켜기 위해 **AllOn** 정책을 할당합니다. 또는 사용자 지정 모임 정책을 만들어 원하는 모임 기능을 켜고 사용자를 할당합니다.
 
 #### <a name="assign-policies-using-the-teams-admin-center"></a>관리 센터를 사용하여 Teams 할당
 
@@ -349,7 +349,7 @@ PowerShell을 사용하여 모임 정책을 관리하는 데 대한 자세한 �
 한 번에 여러 사용자에게 정책을 할당하려면 다음을 수행합니다.
 
 1. 관리 센터의 Teams 탐색에서 사용자로 이동한 다음 사용자를 검색하거나 보기를 필터링하여 원하는 사용자를 표시합니다.
-2. **&#x2713;**(확인 표시) 열에서 사용자를 선택합니다. 모든 사용자를 선택하려면&#x2713;(확인 **** 표시)를 클릭합니다.
+2. **&#x2713;**(확인 표시) 열에서 사용자를 선택합니다. 모든 사용자를 선택 **하려면**&#x2713;(확인 표시)를 클릭합니다.
 3. **설정 편집** 을 클릭하고 원하는 대로 변경한 다음, **적용** 을 클릭합니다.
 
 또는 다음을 할 수도 있습니다.
@@ -420,7 +420,7 @@ Get-Command -Noun *VDI*
 
 ### <a name="set-policies-to-limit-calling-features"></a>통화 기능을 제한하기 위해 정책 설정
 
-VDI 정책이 VDI `DisableCallsAndMeetings` `$true` 에서 Teams 설정되어 있는 사용자는 다음을 할 수 없습니다.
+VDI 정책이 VDI `DisableCallsAndMeetings` `$true` 에서 로그인으로 설정된 Teams 다음을 할 수 없습니다.
 
 - 전화를 걸 수 있습니다.
 - 모임에 참가합니다.
@@ -445,7 +445,7 @@ Get-CSOnlineUser -Identity $user | FL UserPrincipalName, *vdi*
 Get-CsTeamsVdiPolicy | FT Iden*, Disable*
 ```
 
-VDI 정책이 VDI에 로그인하여 VDI `DisableAudioVideoInCallsAndMeetings` `$true` 에 로그인할 Teams 경우:
+VDI 정책이 VDI에 로그인하여 VDI `DisableAudioVideoInCallsAndMeetings` `$true` 에 로그인할 Teams 사용자가 다음을 합니다.
 
 - 채팅에서 화면 공유를 할 수 있습니다.
 - 모임에 참가하고 화면을 공유하고 오디오를 휴대폰으로 이동할 수 있습니다.
@@ -482,8 +482,8 @@ if($cleanup){
 
 ### <a name="client-deployment-installation-and-setup"></a>클라이언트 배포, 설치 및 설치
 
-- 컴퓨터당 설치를 Teams VDI가 아닌 클라이언트가 있는 방식으로 VDI의 Teams 없습니다. VDI의 데스크톱 앱 설치 또는 업데이트 섹션에 설명된 [Teams VM](#install-or-update-the-teams-desktop-app-on-vdi) 이미지를 업데이트해야 합니다. 최신 버전으로 업데이트하려면 현재 버전을 제거해야 합니다.
-- Citrix 환경에서 사용자가 가상 머신을 Teams 경우 업데이트가 Teams 다시 연결할 때 사용자가 AV에 대해 최적화되지 않은 상태로 될 수 있습니다. 이 시나리오를 피하기 위해 사용자가 Citrix Virtual Machine에서 Teams 전에 연결을 종료하는 것이 좋습니다.
+- 컴퓨터당 설치를 Teams VDI가 아닌 클라이언트가 있는 방식으로 VDI의 Teams 업데이트되지 않습니다. VDI의 데스크톱 앱 설치 또는 업데이트 섹션에서 [설명한 Teams MSI](#install-or-update-the-teams-desktop-app-on-vdi)를 설치하여 VM 이미지를 업데이트해야 합니다. 최신 버전으로 업데이트하려면 현재 버전을 제거해야 합니다.
+- Citrix 환경에서 사용자가 가상 머신을 Teams 동안 연결을 끊는 경우 Teams 업데이트로 인해 사용자가 다시 연결할 때 AV에 대해 최적화되지 않은 상태로 될 수 있습니다. 이 시나리오를 피하기 위해 사용자가 Citrix Virtual Machine에서 Teams 전에 연결을 종료하는 것이 좋습니다.
 - Teams 사용자당 또는 컴퓨터당 배포해야 합니다. 사용자 Teams 및 컴퓨터당 동시 배포는 지원되지 않습니다. 컴퓨터당 또는 사용자당을 이러한 모드 중 하나로 마이그레이션하려면 제거 프로시저를 따라 두 모드로 다시 재배포합니다.
 - Azure Virtual Desktop은 현재 macOS 및 Linux 기반 클라이언트를 지원하지 않습니다.
 - 빠른 테넌트 스위치는 화면 공유를 사용할 수 없는 등의 VDI에서 호출 관련 문제가 될 수 있습니다. 클라이언트를 다시 시작하면 이러한 문제가 완화됩니다.
@@ -493,8 +493,7 @@ if($cleanup){
 다음 호출 및 모임 기능은 지원되지 않습니다.
 
 - 새 모임 환경 또는 새 모임 환경과 함께 제공된 기능과 같은 모든 다중 창 기능
-- 향상된 응급 서비스
-- 앱과 디바이스 간의 HID Teams LED 컨트롤
+- Citrix 및 VMware용 Teams 앱과 디바이스 간의 HID 단추 및 LED 컨트롤
 - 배경 흐림 및 효과
 - 브로드캐스트 및 라이브 이벤트 생산자 및 발표자 역할
 - Location-Based(LBR)
@@ -508,7 +507,7 @@ if($cleanup){
 
 다음은 호출 및 모임에 대한 알려진 문제 및 제한 사항입니다.
 
-- 비디오와의 상호 비즈니스용 Skype 오디오 통화로 제한됩니다. 비디오 모달리티가 없습니다.
+- 비디오와의 상호 비즈니스용 Skype 오디오 통화로 제한됩니다. 비디오 모달리티는 없습니다.
 - 수신 및 발신 비디오 스트림 해상도는 720p 해상도로 제한됩니다.
 - 들어오는 카메라 또는 화면 공유 스트림에서 하나의 비디오 스트림만 지원됩니다. 들어오는 화면 공유가 있는 경우 주된 스피커의 비디오 대신 화면 공유가 표시됩니다.
 - Teams 연결이 끊어진 경우 사용자가 선택한 마지막 오디오 디바이스를 사용하도록 전환하지 않은 다음 다시 연결합니다.
@@ -537,8 +536,8 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 그런 다음 VDA를 다시 시작합니다. 자세한 내용은 이 Citrix 지원 문서인 [HDX](https://support.citrix.com/article/CTX253754) 최적화 문제 해결을 Microsoft Teams.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-- [MSI(Teams 설치 Windows 대량 설치)](msi-deployment.md)
+- [MSI(Teams 설치 Windows 사용하여 대량 설치](msi-deployment.md)
 - [Teams PowerShell 개요](teams-powershell-overview.md)
 - [Azure Virtual Desktop에서 Microsoft Teams 사용](/azure/virtual-desktop/teams-on-wvd)

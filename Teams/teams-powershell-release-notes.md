@@ -13,12 +13,12 @@ ms.collection:
 description: PowerShell의 최신 변경 Teams 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e45a80f4e16c211ae37579dc7de273c53f64d16
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
+ms.openlocfilehash: dea6b9d93d3950d4a831fdf669a98e28028f3c41
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63435742"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711712"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 릴리스 정보
 
@@ -31,6 +31,7 @@ ms.locfileid: "63435742"
 
 | 날짜 | 버전 | 업데이트 |
 |------- | -------------------- | ------------------------------ |
+| 2022년 3월 | [4.0.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.0.1-preview) |<li>ErrorAction 일반 매개 변수에 대한 문제를 해결합니다.</li>
 | 2022년 3월 | [4.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.0.0) |<li>이 GA 릴리스는 조직에만 관련된 모든 cmdlet의 Teams 완료합니다. 최신 버전은 점진적으로 롤아웃될 것이기 때문에 일부 조직에서는 이전 리모트 버전을 계속 볼 수 있습니다.</li><li>[NewSetRemove\|\|]-CsUserCallingDelegate 및 [GetSet\|]-CsUserCallingSettings cmdlet을 GA에서 릴리스합니다.</li><li>[중단된 변경] New-CsVoiceNormalizationRule 제외; InMemory 스위치는 더 이상 다른 cmdlet에 대해 지원되지 않습니다.</li><li>ConvertTo-JsonForPSWS, Set-CsUserServicesPolicy, [GetSet]-CsNetworkConfiguration, [SetRemove]-CsTenantNetworkConfiguration, New-CsNetworkMediaBypassConfiguration, [GetGrantNewRemoveSet\|\|\|\|]-CsTeamsVerticalPackagePolicy,[GetRemoveSet\|\|]-CsVoiceNorizationRule.\|\|</li>
 | 2022년 2월 | [3.2.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/3.2.0-preview) |<li>이 릴리스는 조직에만 관련된 모든 cmdlet의 Teams 완료합니다. 최신 버전은 점진적으로 롤아웃될 것이기 때문에 일부 조직에서는 이전 리모트 버전을 계속 볼 수 있습니다.</li><li>[중단된 변경] New-CsVoiceNormalizationRule 제외; InMemory 스위치는 더 이상 다른 cmdlet에 대해 지원되지 않습니다.</li><li>Connect-MicrosoftTeams 개선할 수 있습니다.</li><li>도두사로 Import-Module 수정합니다.</li><li>[GetSetRemove\|\|]-CsOnlineLisPort에서 슬래시 문자 "/"로 포트 처리를 수정합니다.</li><li>cmdlet Test-CsTeamsUnassignedNumberTreatment 릴리스합니다.</li><li>ConvertTo-JsonForPSWS, Set-CsUserServicesPolicy, [GetSet]-CsNetworkConfiguration, [SetRemove]-CsTenantNetworkConfiguration, New-CsNetworkMediaBypassConfiguration, [GetGrantNewRemoveSet\|\|\|\|]-CsTeamsVerticalPackagePolicy, [GetRemoveSet\|\|]-CsVoiceNormalizationRule.\|\|</li>
 | 2022년 2월 | [3.1.1](https://www.powershellgallery.com/packages/MicrosoftTeams/3.1.1) |<li>Import-Module의 성능 향상.</li><li>PSListModifier deserialization 문제가 해결되었습니다.</li>
@@ -63,7 +64,7 @@ ms.locfileid: "63435742"
 | 2020년 3월 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>추가된 New-CsBatchPolicyAssignmentOperation</li> |
 | 2020년 2월 | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Get-Team 최적화</li>  |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Teams PowerShell 개요](teams-powershell-overview.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Teams 사용자에 대한 앱 동작
+title: Teams 사용자 유형에 따라 앱 동작 변경
 author: guptaashish
 ms.author: guptaashish
 ms.reviewer: joglocke
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 표준이 아닌 사용자에 대해 Microsoft Teams 앱이 어떻게 행동하는지 알아보고자 합니다.
+description: 다양한 유형의 사용자에 대해 Microsoft Teams 앱이 어떻게 행동하는지 알아보고
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -17,16 +17,16 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4dd2a96b7df3ebcb3ae8659222744ed0f3273fa3
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 765c0b97d5e277bd086ac4b25ee11ac80cb6fc11
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070217"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711482"
 ---
-# <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams 사용자에 대한 앱 동작
+# <a name="microsoft-teams-apps-behavior-based-on-types-of-users"></a>Microsoft Teams 사용자 유형에 따라 앱 동작 변경
 
-이 문서에서는 게스트, Teams(페더화), 익명 사용자가 특정 컨텍스트에 있을 때 앱의 Teams 설명합니다.
+Teams 게스트, 외부(페더러드), 익명 사용자가 컨텍스트에 있을 때 앱이 Teams 있습니다.
 
 - 게스트 **사용자는** 직원, 학생 또는 조직의 구성원이 아닌 사용자입니다. 조직에 학교 또는 직장 계정을 가지고 있지 않아야 합니다.
 
@@ -84,6 +84,6 @@ ms.locfileid: "63070217"
 
 익명 사용자는 사용자 수준 전역 기본 사용 권한 정책을 상속합니다. 사용자 수준 사용 권한 정책이 앱을 사용하도록 설정한 Teams 모임에서 앱과 상호 작용할 수 있습니다. 익명 사용자는 모임에서 이미 사용할 수 있으며 이러한 앱을 획득 및/또는 관리할 수 없는 앱과만 상호 작용할 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [앱 설정 정책 관리 Microsoft Teams](teams-app-setup-policies.md)

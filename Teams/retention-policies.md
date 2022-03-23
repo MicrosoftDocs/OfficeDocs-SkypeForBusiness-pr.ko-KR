@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f1dbd1d7c586c989484fa71b1e0b0e3d1fb47550
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b6c370eee74266d2d24df4fa8e1e95904cd08386
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727407"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711292"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Microsoft Teams를 위한 보존 정책 만들기 및 관리
 
@@ -36,6 +36,9 @@ ms.locfileid: "58727407"
 Microsoft 365의 보존 정책 및 보존 레이블은 조직에서 정보를 더 효과적으로 관리하는 데 도움이 됩니다. 조직의 내부 정책, 산업 규정 또는 법적 요구 사항을 준수하는 데 필요한 데이터를 유지하도록 보존 설정을 구성할 수 있습니다. 또한 보존 정책은 책임으로 간주되거나 더 이상 보관할 필요가 없거나 법적 또는 비즈니스 가치가 없는 데이터를 삭제하도록 보존 설정을 구성할 수도 있습니다.
 
 Teams는 채팅 및 채널 메시지에 대한 보존 정책을 지원하므로 관리자는 이 데이터를 보존할지, 삭제할지 또는 특정 기간 동안 보존할지 여부를 사전에 결정한 다음 삭제할 수 있습니다. 이러한 작업에 대한 보존 기간의 시작은 항상 메시지가 생성되는 시기를 기반으로 합니다. Teams 보존 정책을 전체 조직 또는 특정 사용자 및 Teams에 적용할 수 있습니다. 보존 레이블은 Teams에서 지원되지 않습니다.
+
+> [!NOTE]
+> [현재 미리 보기](shared-channels.md) 상태인 공유 채널은 보존 정책에서 지원됩니다.
 
 Microsoft 365의 보존 솔루션에 대해 자세히 알아보려면 [보존 정책 및 보존 레이블에 대한 자세한 내용](/microsoft-365/compliance/retention)을 참조하세요.
 
@@ -73,7 +76,7 @@ Teams에 대한 보존 정책이 적용되는 사용자는 Office 365 E3 또는 
 
 ## <a name="create-and-manage-retention-policies-for-teams"></a>Teams에 대한 보존 정책 만들기 및 관리
 
-메시지에 대한 보존 정책을 만들거나 편집하려면 Teams 위치에 대한 보존 [정책의 Teams 사용합니다.](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)
+메시지에 대한 보존 정책을 만들거나 편집하려면 Teams 위치에 대한 보존 정책[의 지침을 Teams.](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)
 
 해당 페이지에는 Microsoft 365의 다른 워크로드에 대한 보존 정책을 만들고 관리하는 방법에 대한 추가 정보가 있습니다. 예를 들어 Microsoft 365 그룹에 대한 보존 정책을 만들어 Teams에서 액세스하고 OneDrive 또는 SharePoint에 저장된 파일을 유지하고 삭제할 수도 있습니다.  
 
@@ -81,10 +84,10 @@ Teams에 대한 보존 정책이 적용되는 사용자는 Office 365 E3 또는 
 
 비공개 채팅(1:1 채팅) 또는 그룹 채팅의 경우 사용자는 보존 정책 구성보다 오래된 채팅이 삭제되고 "조직의 보존 정책으로 인해 이전 메시지를 삭제했습니다"라는 자동 생성 메시지가 아직 삭제되지 않은 메시지의 맨 위에 표시된 것을 보게 됩니다. 예제:
 
-:::image type="content" source="media/retention-policies-image1.png" alt-text="채팅 메시지는 Teams 정책으로 Teams 알 수 있습니다.":::
+:::image type="content" source="media/retention-policies-image1.png" alt-text="사용자 Teams 보존 정책으로 채팅 메시지가 Teams 알 수 있습니다.":::
 
 
-:::image type="content" source="media/retention-policies-image2.png" alt-text="메시지를 Teams 설명하는 사용자는 보존 정책의 결과로 Teams 삭제됩니다.":::
+:::image type="content" source="media/retention-policies-image2.png" alt-text="메시지에 Teams 설명하는 사용자는 보존 정책의 결과로 Teams 있습니다.":::
 
 채널 메시지의 경우 사용자(채널 구성원)는 메시지가 만료된 후 삭제된 메시지가 보기에서 사라지는 것을 볼 수 있습니다. 삭제된 메시지가 스레드된 대화의 상위 메시지인 경우 상위 메시지 대신 "보존 정책으로 인해 이 메시지가 삭제되었습니다"라는 메시지가 표시됩니다. 예제:
 

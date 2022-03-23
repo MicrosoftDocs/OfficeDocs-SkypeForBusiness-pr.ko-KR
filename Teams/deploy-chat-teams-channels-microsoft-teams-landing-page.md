@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: 6b1e2fdc31e5f9ece9b1c52f1f0cf5881e29229b
-ms.sourcegitcommit: 47b14f57bc64544d63aec67b023ead13c71342b4
+ms.openlocfilehash: 84c0ef026b16ec19337ef8840b2285a1a98e5193
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "63418840"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711732"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams에서의 채팅, 팀, 채널 & 앱
 
@@ -53,7 +53,6 @@ Teams는 조직에 즉시 사용할 수 있는 우수한 협업 환경을 제공
 |본인에게 질의하기|작업 |
 |------------|-------|
 |조직에서 Teams를 배포할 준비가 되었는가?|이 질문에 답변하려면 다음의 사항을 참조하세요: <ul><li>[Teams에 대한 조직의 네트워크 준비](prepare-network.md)</li><li>[URL 및 IP 주소 범위](office-365-urls-ip-address-ranges.md)</li><li>[팀을 만들 때 Microsoft 365 그룹에 대한 계획](plan-office-365-groups.md)</li></ul>|
-|||
 
 ## <a name="core-deployment-decisions"></a>핵심 배포 결정사항
 
@@ -68,7 +67,6 @@ Teams는 조직의 팀을 관리하는 데 사용할 수 있는 일련의 사용
 |Teams 커뮤니케이션 관리자 역할은 누구에게 할당될 것인가요?|Teams 관리자 역할에 대한 자세한 내용은 [팀을 관리하기 위한 Microsoft Teams 관리 역할의 활용](using-admin-roles.md)을 참조하세요.|
 |Teams 커뮤니케이션 지원 기술자 역할은 누구에게 할당될 것인가요?|관리 역할을 할당하려면 [Azure Active Directory를 사용하여 사용자에게 관리자 및 비관리자 역할 할당](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)을 참조하세요.|
 |Teams 커뮤니케이션 지원 전문가자 역할은 누구에게 할당될 것인가요?||
-|||
 
 ### <a name="teams-owners-and-members"></a>Teams 소유자 및 구성원
 
@@ -88,17 +86,15 @@ Teams에서는 관리자 역할 외에도 소유자 및 구성원 사용자 역�
 |------------|-------|
 |전역 메시징 정책을 사용자 지정해야 하나요?|Microsoft Teams 관리 센터를 사용하여 전역 메시징 정책을 변경하거나 새 정책을 추가하는 방법에 대한 자세한 내용은 [Teams에서 메시징 정책 관리](messaging-policies-in-teams.md)를 참조하세요.|
 |여러개의 메시징 정책이 필요한가요?|PowerShell에서 메시징 정책을 만들고 할당하려면 [PowerShell 스크립트 샘플 - 메시징 정책 만들기 및 할당](scripts/powershell-script-teams-messaging-policy-edu.md)을 참조하세요.|
-|어떠한 사용자 그룹에 어떠한 메시징 정책을 할당할지를 어떻게 결정하나요?|CsTeamsMessagingPolicy cmdlet에 대한 내용은 [설정-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)를 참조하세요.|
-||| 
+|어떠한 사용자 그룹에 어떠한 메시징 정책을 할당할지를 어떻게 결정하나요?|CsTeamsMessagingPolicy cmdlet에 대한 내용은 [설정-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)를 참조하세요.|
 
 ### <a name="external-access"></a>외부 액세스
 
-외부 액세스(이전에는 연합이라고 함)를 통해 팀 및 비즈니스용 Skype 사용자가 조직 외부에 있는 사용자와 통신할 수 있습니다. 이 옵션을 설정하고 허용 목록에 도메인을 추가하면 사용자는 다른 도메인 및 조직의 사용자와 통신할 수 있습니다. 외부 액세스는 개인이 아닌 전체 도메인에 액세스 권한이 부여된다는 점에서 게스트 액세스와 다릅니다. 외부 액세스는 기본적으로 켜져 있습니다.
+외부 액세스(페더레이션)를 통해 사용자는 채팅으로 조직 외부의 사람들과 통신할 수 있습니다. 이 기능을 켜고 도메인을 허용 목록에 추가하면 사용자는 다른 도메인 및 조직의 사용자와 통신할 수 있습니다. 외부 액세스는 기본적으로 켜져 있습니다.
 
 |본인에게 질의하기|작업 |
 |------------|-------|
-|<ul><li>나의 조직의 외부 액세스 기능을 켜야 하나요?</li><li>이 기능을 사용하는 경우 나의 조직에서 통신할 수 있는 도메인을 제한하게 되나요?</li></ul> |<br>외부 액세스 기능을 켜려면 [외부 액세스 계획](manage-external-access.md#plan-for-external-access)을 참조하세요.|
-|||
+|<ul><li>나의 조직의 외부 액세스 기능을 꺼야 하나요?</li><li>이 기능을 사용하는 경우 나의 조직에서 통신할 수 있는 도메인을 제한하게 되나요?</li></ul> |<br>외부 액세스 기능을 켜거나 끄려면 [외부 액세스 계획](manage-external-access.md#plan-for-external-access)을 참조하세요.|
 
 ### <a name="guest-access"></a>게스트 액세스
 
@@ -110,9 +106,25 @@ Teams의 게스트 액세스를 통해 조직 외부의 개인이 팀 및 채널
 
 |본인에게 질의하기|작업 |
 |------------|-------|
-|나의 조직의 Teams 액세스 기능을 켜야 하나요?|게스트 액세스를 켜려면 [Teams에서 게스트 액세스 설정 또는 해제](set-up-guests.md)를 참조하세요.|
+|나의 조직의 Teams 액세스 기능을 꺼야 하나요?|게스트 액세스를 켜거나 끄려면 [Teams에서 게스트 액세스 설정 또는 해제](set-up-guests.md)를 참조하세요.|
 |이 기능을 사용하는 경우 조직의 게스트가 사용할 수 있는 기능을 사용자 지정할 수 있나요?|게스트 액세스 기능의 가용성을 사용자 지정 하려면 [Teams에서 게스트 액세스 권한 부여](teams-dependencies.md)를 참조하세요.|
-|||
+
+### <a name="private-channels"></a>비공개 채널
+
+비공개 채널을 사용하면 팀 구성원의 하위 집합이 다른 팀 구성원이 보거나 액세스할 수 없는 비공개 공간에서 공동 작업할 수 있습니다. 이미 팀 구성원인 경우 게스트를 포함한 모든 사용자가 비공개 채널의 구성원으로 추가될 수 있습니다.
+
+|본인에게 질의하기|작업 |
+|------------|-------|
+|팀 소유자와 구성원이 비공개 채널을 만들 수 있도록 허용해야하나요?|조직에 대한 비공개 채널 정책을 설정하려면 [Microsoft Teams에서 채널 정책 관리](teams-policies.md)를 참조하세요.|
+
+### <a name="shared-channels"></a>공유 채널
+
+공유 채널을 사용하면 팀의 구성원이 아닌 사용자를 채널에 추가할 수 있습니다. 여기에는 조직 외부에 있는 사용자가 포함됩니다. 공유 채널은 외부 사용자가 디렉터리에 게스트 계정을 필요로 하지 않는다는 점에서 게스트 액세스보다 더 많은 이점을 제공합니다.
+
+|본인에게 질의하기|작업 |
+|------------|-------|
+|어떤 상황에서 공유 채널과 게스트 액세스를 사용해야 하나요?|[Microsoft Teams의 공유 채널](shared-channels.md)을 참조하세요.|
+|<ul><li>팀 소유자가 공유 채널을 만들 수 있도록 허용해야 하나요?</li><li>팀 소유자가 조직 외부의 사용자와 채널을 공유할 수 있도록 허용해야 하나요?</li><li>사용자가 조직 외부의 공유 채널에 참여할 수 있도록 허용해야 하나요?</li></ul> |<br>조직에 대한 공유 채널 정책을 설정하려면 [Microsoft Teams에서 채널 정책 관리](teams-policies.md)를 참조하세요.|
 
 ### <a name="teams-settings"></a>Teams 설정
 
@@ -121,7 +133,6 @@ Teams 설정을 사용하여 전자 메일 통합, 클라우드 저장소 옵션
 |본인에게 질의하기|작업 |
 |------------|-------|
 |나의 조직의 Teams 설정을 사용자 지정할 수 있나요? | Teams 설정 및 사용자 지정 방법에 대한 내용은 [Teams 설정](enable-features-office-365.md#teams-settings)을 참조하세요.|
-|||
 
 ### <a name="teams-clients"></a>Teams 클라이언트
 
@@ -131,7 +142,6 @@ Teams는 웹에서 데스크톱, 모바일까지 여러 클라이언트를 지�
 |------------|-------|
 |나의 조직의 Teams 클라이언트 가용성을 사용자 지정할 수 있나요?|[Teams 앱의 하드웨어 요구 사항](hardware-requirements-for-the-teams-app.md)을 참조합니다. |
 |나의 조직의 Teams 클라이언트 설정을 사용자 지정할 수 있나요?|[MSI를 사용하여 Teams를 설치](msi-deployment.md)하는 방법을 학습하세요.|
-|||
 
 ### <a name="teams-usage-reporting"></a>Teams 사용 현황 보고
 
@@ -139,8 +149,7 @@ Teams는 웹에서 데스크톱, 모바일까지 여러 클라이언트를 지�
 
 |본인에게 질의하기|작업 |
 |------------|-------|
-|<br> 팀 사용 현황 보고서를 확인해야 하는 사용자는 누구이고 그들은 보고서를 볼 수 있는 올바른 역할을 보유하고 있나요? |<ul><li>사용자가 관리자가 아닌 경우에는 [보고서 리더 역할을 할당합니다](teams-activity-reports.md#reports-reader-role).</li><li>[역할 및 사용 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)과 [역할 보기 및 지정](/azure/active-directory/users-groups-roles/directory-manage-roles-portal)을 참조하여 Azure Active Directory에서 관리 역할을 할당하는 방법을 알아보세요. |
-|||
+|<br> 팀 사용 현황 보고서를 확인해야 하는 사용자는 누구이고 그들은 보고서를 볼 수 있는 올바른 역할을 보유하고 있나요? |<ul><li>사용자가 관리자가 아닌 경우에는 [보고서 리더 역할을 할당합니다](teams-activity-reports.md#reports-reader-role).</li><li>[역할 및 사용 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)과 [역할 보기 및 지정](/azure/active-directory/users-groups-roles/directory-manage-roles-portal)을 참조하여 Azure Active Directory에서 관리 역할을 할당하는 방법을 알아보세요.|
 
 ### <a name="teams-default-apps"></a>Teams 기본 앱 
 
@@ -154,21 +163,19 @@ Teams에서의 앱의 배포 및 관리에 대한 자세한 내용은 당사의 
 
 ### <a name="teams-licensing"></a>Teams 라이선싱
 
-Teams는 많은 Microsoft 365 또는 Office 365 라이선스의 일부로 제공됩니다. Teams 라이선스에 대한 자세한 내용은 [Microsoft Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)을(를) 참조하시기 바랍니다.
+Teams는 많은 Microsoft 365 라이선스의 일부로 제공됩니다.
 
 |본인에게 질의하기|작업 |
 |------------|-------|
 |사용자는 배포하려는 모든 Teams의 기능을 사용하기 위해 필요한 라이선스가 있나요? | 라이선싱 요구 사항에 대한 자세한 내용은 [Microsoft Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)을 읽어 보세요.|
-|||
 
 ### <a name="exchange-and-sharepoint-interoperability"></a>Exchange 및 SharePoint 상호 운용성
 
-전체 Teams 환경을 사용하려면 Exchange Online, SharePoint Online 및 Microsoft 365 그룹 생성을 위해 모든 사용자가 사용 가능해야 합니다. 다음 기사에서는 다양한 환경에서 호스팅되는 Exchange 메일박스와 관련된 정보, Exchange 및 팀이 상호 작용하는 방식, SharePoint 및 비즈니스용 OneDrive와 유사한 고려사항을 간략히 설명합니다.
+전체 Teams 환경을 사용하려면 Exchange, SharePoint 및 Microsoft 365 그룹 생성을 위해 모든 사용자가 사용 가능해야 합니다. 다음 기사에서는 다양한 환경에서 호스팅되는 Exchange 메일박스와 관련된 정보, Exchange 및 팀이 상호 작용하는 방식, SharePoint 및 OneDrive와 유사한 고려사항을 간략히 설명합니다.
 
 |본인에게 질의하기|작업 |
 |------------|-------|
-| 현재의 Exchange 및 SharePoint 배포에 필요한 Teams의 기능을 배포할 수 있나요? |Teams에서의 Exchange 및 SharePoint에 대한 자세한 내용은 다음을 참조하세요:<ul><li> [Exchange와 Teams의 상호 작용 방법](exchange-teams-interact.md)</li><li>[SharePoint Online 및 비즈니스용 OneDrive가 Teams와 상호 작용하는 방법](sharepoint-onedrive-interact.md)|
-|||
+| 현재의 Exchange 및 SharePoint 배포에 필요한 Teams의 기능을 배포할 수 있나요? |Teams에서의 Exchange 및 SharePoint에 대한 자세한 내용은 다음을 참조하세요:<ul><li> [Exchange와 Teams의 상호 작용 방법](exchange-teams-interact.md)</li><li>[SharePoint Online 및 OneDrive가 Teams와 상호 작용하는 방법](sharepoint-onedrive-interact.md)|
 
 ### <a name="teams-limits-and-specifications"></a>Teams의 제한과 사양 
 
@@ -177,16 +184,14 @@ Teams의 엔터프라이즈 배포를 계획할 때 팀의 최대 구성원 수,
 |본인에게 질의하기|작업 |
 |------------|-------|
 | Teams의 배포 시 나는 어떠한 제한에 걸리기 쉽나요? | 자세한 내용은 [Teams의 제한과 사양](limits-specifications-teams.md)를 참조하세요. |
-|||
 
 ### <a name="urls-and-ports"></a>URL 및 포트
 
-인터넷 트래픽을 세부적으로 제어하는 조직은 Teams에 맞게 올바르게 구성해야 하는 URL, IP 주소, 포트 및 프로토콜의 최신 목록을 보려면 [URL 및 IP 주소 범위](/office365/enterprise/urls-and-ip-address-ranges)를 읽어야 합니다. Microsoft는 Microsoft 365 및 Office 365 서비스를 지속적으로 개선하고 새로운 기능을 추가하고 있습니다. 즉, 필요한 포트, URL 및 IP 주소가 시간이 지남에 따라 변경될 수 있습니다. 이 정보가 업데이트되거나 변경될 때 알림을 받으려면 RSS를 통해 구독하는 것이 좋습니다. 최소한 [Chat 배포 필수 구성 요소](#chat-deployment-prerequisites)에 위에 나열된 포트를 열었는지 확인합니다.
+인터넷 트래픽을 세부적으로 제어하는 조직은 Teams에 맞게 올바르게 구성해야 하는 URL, IP 주소, 포트 및 프로토콜의 최신 목록을 보려면 [URL 및 IP 주소 범위](/office365/enterprise/urls-and-ip-address-ranges)를 읽어야 합니다. Microsoft는 Microsoft 365 서비스를 지속적으로 개선하고 새로운 기능을 추가하고 있습니다. 즉, 필요한 포트, URL 및 IP 주소가 시간이 지남에 따라 변경될 수 있습니다. 이 정보가 업데이트되거나 변경될 때 알림을 받으려면 RSS를 통해 구독하는 것이 좋습니다. 최소한 [Chat 배포 필수 구성 요소](#chat-deployment-prerequisites)에 위에 나열된 포트를 열었는지 확인합니다.
 
 |본인에게 질의하기|작업 |
 |------------|-------|
 | 사용자가 Teams를 사용할 수 있도록 하려면 인터넷 액세스 규칙이 필요한가요 혹은 필요한 최소 포트를 여는 것으로 충분하나요? | 자세한 내용은 [URL 및 IP 주소 범위](office-365-urls-ip-address-ranges.md)를 참조하세요.|
-|||
 
 ### <a name="governance-naming-conventions-who-can-create-teams"></a>거버넌스 (팀을 만들 수 있는 사용자 명명 규칙)
 
@@ -197,7 +202,6 @@ Teams의 엔터프라이즈 배포를 계획할 때 팀의 최대 구성원 수,
 |--------------|--------|
 |팀을 만들 수 있는 사용자에 대한 제어를 수행해야 하나요?| [Teams에서의 거버넌스 계획](plan-teams-governance.md)을 참조하세요.|
 |Teams의 명명 규칙 방식에 대한 제어를 수행해야 하나요?|[Azure AD에서 Microsoft 365 그룹에 대한 명명 정책 적용](/azure/active-directory/users-groups-roles/groups-naming-policy)을 참조하세요.|
-|||
 
 ### <a name="teams-application-policy-side-rail-control"></a>Teams 응용 프로그램 정책(측면 레일 제어)
 
@@ -207,7 +211,6 @@ Teams의 엔터프라이즈 배포를 계획할 때 팀의 최대 구성원 수,
 |--------------|--------|
 |미리 구성된 고정된 Teams 응용 프로그램의 집합을 만들어야 하나요? | [Team에서 앱에 대한 관리 설정](admin-settings.md)을 참조하세요.|
 |어떠한 그룹이 이 앱 그룹화를 적용받을 것인지를 어떻게 결정하나요?|[Teams 앱 사용 권한 및 고려 사항](app-permissions.md)을 참조하세요.|
-|||
 
 ### <a name="archiving-and-compliance"></a>보관 및 규정 준수 
 
@@ -218,17 +221,14 @@ Teams의 엔터프라이즈 배포를 계획할 때 팀의 최대 구성원 수,
 |팀 보존을 구성해야 하나요?|보존 정책을 설정하려면 [Teams 보존 정책 설정](retention-policies.md)을 참조하세요.|
 |팀 보관을 구성해야 하나요?|팀을 보관하거나 복원하려면 [팀의 보관 또는 복원](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)을 참조하세요.|
 |추가적 규정 준수 설정을 구성해야 하나요?|보안 및 규정 준수에 대한 자세한 내용은 [Teams에서의 보안 및 규정 준수 개요](security-compliance-overview.md)를 참조하세요.|
-|||
 
 ### <a name="conditional-access"></a>조건부 액세스 
 
-Teams는 회의, 일정, 상호 대화, 파일 공유 등 핵심 생산성 시나리오에 Exchange Online, SharePoint Online 및 비즈니스용 Skypes Online에 크게 의존합니다. 이러한 클라우드 앱에 대해 설정된 조건부 액세스 정책은 사용자가 모든 클라이언트에서 Teams로 직접 로그인할 때 Teams에 적용됩니다. Teams 클라우드 앱 제어 측면에 대해 설정된 조건부 액세스 정책(예: 사용자가 특정 네트워크에서 팀 서비스에 액세스할 수 있는지 여부)입니다.
+Teams는 회의, 일정, 상호 대화, 파일 공유 등 핵심 생산성 시나리오에 Exchange, SharePoint에 크게 의존합니다. 이러한 클라우드 앱에 대해 설정된 조건부 액세스 정책은 사용자가 모든 클라이언트에서 Teams로 직접 로그인할 때 Teams에 적용됩니다. Teams 클라우드 앱 제어 측면에 대해 설정된 조건부 액세스 정책(예: 사용자가 특정 네트워크에서 팀 서비스에 액세스할 수 있는지 여부)입니다.
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
 |<br>Teams에 대한 조건부 액세스를 구성해야 하나요?|<ul><li>액세스 정책의 작동 방식을 이해하려면 [조건부 액세스 정책이 Teams에서 어떻게 작동하나요?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)를 참조하세요.</li><li>Teams에 대한 다단계 인증(MFA)을 설정하려면 다음을 참조하세요:<ul><li>[빠른 시작: Azure Active Directory 조건부 액세스를 사용하는 특정 앱에 MFA 요구](/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory 조건부 액세스 설정 참조](/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
-|||
-
 
 ### <a name="education-edu"></a>교육(EDU) 
 
@@ -239,7 +239,6 @@ Teams는 회의, 일정, 상호 대화, 파일 공유 등 핵심 생산성 시�
 |EDU 별 Teams 템플릿을 사용해야 되나요? |교육용 Teams에 대한 자세한 내용은 [관리자용 Microsoft 교육 거버넌스 FAQ를 참조하세요](plan-teams-governance-edu.md).|
 |범위 검색을 배포해야 하나요?|EDU용 Teams를 설정하려면 [퀵 스타트 - 교육 관리자용 Teams](teams-quick-start-edu.yml)를 참조하세요.|
 |Teams를 School Data Sync 서비스와 통합하여 사용자 계정을 제공하나요?|[교육 관리자용 Teams 리소스](resources-teams-edu.md)|
-|||
 
 ### <a name="government---gcc-considerations"></a>정부 - GCC 고려사항
 
@@ -248,7 +247,6 @@ Teams는 회의, 일정, 상호 대화, 파일 공유 등 핵심 생산성 시�
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
 | 정부 기관용 Office 365 - GCC 환경에서 Teams를 배포해야 하나요? | 배포 관련 고려 사항은 [Office 365 정부 - GCC 배포 계획](plan-for-government-gcc.md)을 참조하세요.|
-|||
 
 ## <a name="next-steps"></a>다음 단계
 - 채팅, 팀, 채널 & 앱의 [도입을 진행합니다](adopt-microsoft-teams-landing-page.md).

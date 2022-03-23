@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb74dcb92328890b71317818b3230571151fd0a6
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: b02e3f441ad7a4a338c86e89b2740561d3d552d7
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062719"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711572"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>회의실에 대한 Teams
 
@@ -536,11 +536,12 @@ Microsoft Teams 룸 터치 콘솔은 개인 디바이스 또는 문서에 대한
 
 ### <a name="displays"></a>디스플레이
 
--   절전 모드 기능 중에 동기화 및 쿨다운 자동 절전 모드 해제가 있는 단기 투사 고해상도 레이저 프로젝터입니다.
+- 절전 모드로 자동 절전 모드 해제 및 절전 모드 해제 기능이 있는 짧은 투사 또는 초단기 투사, 고해상도 및 고광도 레이저 프로젝터. 주변 광을 거부하는 속성이 있는 낮은 게인 프로젝터 화면은 밝은 방에서 최상의 화질을 제공합니다.
 
-그림과 같이:
+그림과 같이: 
 
-Epson EpiqVision™ Ultra LS500
+- [ELPLX01S Ultra Short Throw 렌즈가 있는 Epson EB-PU1007 프로젝터](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
+- [Da-Lite UTB 컨투어 화면 | HD Progressive 0.6 화면 | Cinemascope 138" 대각선](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
 
 기타 옵션:
 

@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 727425a1dfcd1ea4ebeec27cc79982d996db42fa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 523d35fd1e7981a52e5972232f0c00c276435f7f
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596382"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711882"
 ---
 # <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Microsoft Teams에서 팀을 구성하는 방법에 대한 모범 사례
 
@@ -47,7 +47,7 @@ Teams 처음 배포하는 경우에는 소수의 팀과 팀 구성원으로 시�
 
 모범 사례: 구성원 집합이 크고 채널이 더 많은 팀 만들기 사용자가 참여해야 하는 팀의 수를 최소화합니다. 팀의 채널은 팀이 공동 목표를 달성하기 위해 작업을 구성하는 데 도움이 되는 주제 또는 작업 흐름이라고 생각해야 합니다. 만들어야 하는 채널의 정해진 개수는 없습니다. 각 팀은 작업, 우선 순위 및 스타일을 기반으로 채널을 만들어야 합니다.
 
-팀의 모든 사용자가 참여할 수 있는 대화에는 표준 채널을 사용합니다. 엄선된 구성원 그룹을 포함하는 집중된 공동 작업 공간이 필요한 경우에는 [Teams의 비공개 채널](private-channels.md)을 활용하세요. 
+팀의 모든 사용자가 참여할 수 있는 대화에는 표준 채널을 사용합니다. 선택한 [팀 구성원 그룹을](private-channels.md) 통해 집중적인 공동 작업 공간이 필요한 경우 개인 채널을 활용합니다. 팀 [외부 사용자](shared-channels.md) 와 공동 작업해야 하는 경우 공유 채널을 사용하세요.
 
 규모가 큰 조직에서는 특정 유형의 작업에 대해 캡처한 정보를 표준화하기 위해 팀을 "서식 파일"로 만들려고 할 수 있습니다. 이는 전략적 고객 관리, 교실 관리, 의료 보험 시나리오, 클레임 관리, 인시던트 관리 및 특정 산업에 적합한 기타 시나리오에 유용합니다. 자세한 내용은 [Teams 서식 파일 시작하기](get-started-with-teams-templates.md) 및 [중소기업을 위한 Teams 서식 파일](smb-templates.md)을 참조하세요.
 

@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34c255dab5f2f231735abeba9a03ed091d10c205
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 97af2abe8542a885f8a0056ed90f2a61330ba8a0
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536569"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711932"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams의 Teams 및 채널 개요
 
@@ -42,20 +42,18 @@ Microsoft Teams에서 개별 팀이 비즈니스 시나리오에 전반에 걸�
 
 - **채널** 은 특정 항목, 프로젝트, 분야 등 팀에 필요한 모든 사항을 기준으로 하여 대화를 정리하는 팀의 전용 섹션입니다. 파일 탭에서 채널을 통해 공유되는 파일은 SharePoint에 저장됩니다. 자세한 내용은 [SharePoint Online 및 비즈니스용 OneDrive가 Teams와 상호 작용하는 방법](SharePoint-OneDrive-interact.md)을 참조하세요.
 
-    - 채널은 대화를 진행하고 실제로 작업을 수행하는 장소입니다. 채널은 모든 팀 구성원에게 열 수 있지만 선택 대상이 더 많은 경우 비공개로 열 수도 있습니다. 표준 채널은 팀의 모든 사람이 참여할 수 있는 대화용이며 [비공개 채널](private-channels.md)은 팀의 일부 사람들로 대화를 제한합니다.
+    - 채널은 대화를 진행하고 실제로 작업을 수행하는 장소입니다. 채널은 모든 팀 구성원(표준 채널), 선택한 팀 구성원([비공개 채널](private-channels.md)) 또는 팀 내부 및 외부의 선택한 사용자([공유 채널](shared-channels.md))에게 열려 있을 수 있습니다.
     - 채널은 팀 구성원에 대한 가치를 높이는 탭, 커넥터 및 봇이 포함된 앱으로 확장될 때 가장 가치가 있습니다. 자세한 내용은 [Teams의 앱, 봇 및 커넥터](deploy-apps-microsoft-teams-landing-page.md)를 참조하세요.
     
-팀과 채널 사용에 대한 방법은 [Teams 및 채널](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499)을 확인하세요.
+팀과 채널 사용에 대한 방법은 [Teams 및 채널](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499)을 확인하세요.
 
-이 짧은 비디오를 보고 팀 및 채널 만들기에 대한 모범 사례를 자세히 알아보세요.
-
-- [TechTip: Microsoft Teams에서 비공개 채널을 포함한 Teams 및 채널 만들기 지침](https://youtu.be/WkAVgNKn0hs)(21:08분)
+Teams 사용과 관련된 제한 사항에 대한 자세한 내용은 [Microsoft Teams에 대한 제한 및 사양](/microsoftteams/limits-specifications-teams)을 참조하세요.
 
 ## <a name="membership-roles-and-settings"></a>구성원, 역할 및 설정
 
 **팀 구성원**
 
-전체 조직에 대해 Teams가 활성화되면 팀 소유자는 함께 작업하는 조직의 모든 사람을 팀에 합류하도록 초대할 수 있습니다. 팀 소유자는 Teams를 사용하여 간편하게 이름을 기반으로 조직에 사람들을 추가할 수 있습니다. 조직의 설정에 따라 조직 외부의 사람들을 팀에 게스트로 추가할 수 있습니다. 자세한 내용은 [Microsoft Teams의 게스트 액세스](guest-access.md)를 참조하세요. 
+전체 조직에 대해 Teams가 활성화되면 팀 소유자는 함께 작업하는 조직의 모든 사람을 팀에 합류하도록 초대할 수 있습니다. 팀 소유자는 Teams를 사용하여 간편하게 이름을 기반으로 조직에 사람들을 추가할 수 있습니다. 조직의 설정에 따라 조직 외부의 사용자를 팀에 게스트로 추가하거나 공유 채널에 외부 참가자로 추가할 수 있습니다. 자세한 내용은 [Microsoft Teams의 게스트 액세스](guest-access.md)를 참조하세요. 
 
 팀 소유자는 기존 Microsoft 365 그룹을 기반으로 팀을 만들 수도 있습니다. 그룹 구성원에 대한 모든 변경 사항은 자동으로 Teams와 동기화됩니다.
 
@@ -73,41 +71,38 @@ Teams에는 다음 두 가지 주요 역할이 있습니다.
 
 **팀 설정** 
 
-팀 소유자는 팀에서 직접 팀 전체 설정을 관리할 수 있습니다. 설정에는 표준 및 [비공개 채널](private-channels.md) 만들기, 탭 및 커넥터 추가, 전체 팀 또는 채널 언급, GIF, 스티커, 밈의 사용에 대한 팀 구성원의 권한 설정 기능과 팀 그림 추가 기능이 포함되어 있습니다.
+팀 소유자는 팀에서 직접 팀 전체 설정을 관리할 수 있습니다. 설정에는 표준, 비공개 및 공유 채널 만들기, 탭 및 커넥터 추가, 전체 팀 또는 채널 언급, GIF, 스티커, 밈의 사용에 대한 팀 구성원의 권한 설정 기능과 팀 그림 추가 기능이 포함되어 있습니다.
 
-Microsoft 365의 Teams 관리자인 경우 Teams 관리 센터에서 시스템 전체 설정에 액세스할 수 있습니다. 이러한 설정은 팀 소유자가 팀 설정 아래에서 볼 수 있는 옵션 및 기본값에 영향을 줄 수 있습니다. 예를 들어, 팀 전체에 표시되는 팀 전체 공지, 토론, 리소스에 대해 기본 채널 “일반”을 사용할 수 있습니다.
+Microsoft 365의 Teams 관리자인 경우 Teams 관리 센터에서 시스템 전체 설정에 액세스할 수 있습니다. 이러한 설정은 팀 소유자가 팀 설정 아래에서 볼 수 있는 옵션 및 기본값에 영향을 줄 수 있습니다. 예를 들어, 팀 전체에 표시되는 팀 전체 공지, 토론, 리소스에 대해 기본 채널 "일반"을 사용할 수 있습니다.
 
 기본적으로 모든 사용자는 팀을 만들 수 있는 권한이 있습니다. 이를 수정하려면 [Teams에서 역할 및 권한 할당](assign-roles-permissions.md)을 참조하세요.
 
 사용자를 Teams에 참여시키기 위한 초기 주요 계획 중 한 가지는 사용자가 일상생활에서 Teams가 공동 작업을 향상할 수 있는 방법을 생각하고 이해하도록 돕는 것입니다. 사용자와 대화하고 현재 조각화된 방식으로 공동 작업하는 비즈니스 시나리오를 선택하는 데 도움을 줍니다. 작업을 수행하는 데 도움이 되는 관련 탭이 있는 채널로 함께 모읍니다. Teams의 가장 강력한 사용 사례 중 하나는 조직 간 프로세스입니다.
 
 > [!NOTE]
-> Microsoft Teams에서 새 팀 또는 개인 채널을 만들면 SharePoint의 팀 사이트가 자동으로 만들어집니다. 이 팀 사이트에 대한 사이트 설명 또는 분류를 편집하려면 [Microsoft Teams에서 해당 채널의 설정](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d)으로 이동하세요.
+> Teams에서 새 팀 또는 비공개 또는 공개 채널을 만들면 SharePoint의 팀 사이트가 자동으로 만들어집니다. 이 팀 사이트에 대한 사이트 설명 또는 분류를 편집하려면 [Microsoft Teams에서 해당 채널의 설정](https://support.microsoft.com/office/bf39798f-90d2-44fb-a750-55fa05a56f1d)으로 이동하세요.
 >
 > [Microsoft Teams에 연결된 팀 사이트](/SharePoint/teams-connected-sites) 관리에 대해 자세히 알아보세요.
 
-## <a name="example-teams"></a>팀 예제
+## <a name="channel-feature-comparison"></a>채널 기능 비교
 
-다음은 다양한 유형의 사용자가 팀, 채널 및 앱(탭/커넥터/봇)을 설정하는 방법에 대한 몇 가지 기능적인 예제입니다. 이 예제는 사용자 커뮤니티와 Teams에 대한 대화를 시작하는 데 도움이 될 수 있습니다. 조직에서 Teams를 구현하는 방법에 대해 생각할 때, 사용자가 팀을 구성하는 방법에 대한 지침을 제공할 수 있지만 사용자가 스스로 조직하는 방법을 제어할 수 있다는 사실을 기억하세요. 다음은 팀이 가능성을 고려하여 사고를 시작하도록 돕는 예제일 뿐입니다.
+다음 표에서는 각 채널 유형에 대한 Teams 기능의 비교를 보여 줍니다.
 
-Teams는 조직의 독립적 업무 방식을 타파하고 부서간 팀을 촉진하는 데 유용하므로 사용자가 조직 경계가 아닌 기능적 팀에 대해 생각하도록 장려하세요.
-
-|팀 유형  |가능한 채널  |앱(탭 ![탭이 있는 폴더를 나타내는 아이콘](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Connectors ![연결 블록을 나타내는 아이콘](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![소형 로봇을 나타내는 아이콘](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
-|---------|---------|---------|
-|영업     |연간 영업 모임<br></br> 분기별 비즈니스 검토<br></br> 월간 영업 파이프라인 검토<br></br> 영업 플레이북 |Power BI<br></br>Trello<br></br>CRM<br></br>봇 요약         |
-|홍보     |보도 자료<br></br>뉴스 및 업데이트<br></br>사실 확인         |RSS 피드<br></br>Twitter         |
-|이벤트 계획     |마케팅<br></br>물류 및 일정 예약<br></br>장소<br></br>예산         |Twitter<br></br>Facebook<br></br>Planner<br></br>PDF         |
-|마케팅/시장으로 이동   |시장 리서치<br></br>메시징 기조<br></br>커뮤니케이션 계획<br></br>마케팅 제품 구성 정보(BOM)        |YouTube<br></br>Microsoft Stream<br></br>Twitter<br></br>MailChimp         |
-|기술 운영    |문제 관리<br></br>스프린트 계획<br></br>작업 항목<br></br>인프라 및 운영         |팀 서비스<br></br>Jira<br></br>AzureBot         |
-|제품 팀      |전략<br></br>마케팅<br></br>영업<br></br>운영<br></br>인사이트<br></br>서비스 및 지원         |Power BI<br></br>팀 서비스         |
-|재무    |현재 재무<br></br>회계 계획<br></br>예측<br></br>수취 계정<br></br>지급 계정         |Power BI<br></br>Google Analytics         |
-|물류     |창고 운영<br></br>차량 유지 관리<br></br>드라이버 명단         |날씨 서비스<br></br>여행/도로 붕괴<br></br>Planner<br></br>UPS 봇         |
-|HR     |인재 관리<br></br>채용<br></br>성과 검토 계획<br></br>사기         |HR 도구<br></br>외부 작업 게시 사이트<br></br>Growbot         |
-|부서간 <br></br>가상 팀 |전략<br></br>인력 개발<br></br>경쟁 및 리서치         |Power BI<br></br>Microsoft Stream         |
-
-조직 구조에 맞는 Teams를 만들 수 있습니다. Teams는 사기를 북돋우고, 팀 관련 검토를 하고, 직원 온보딩 프로세스를 명확하게 하며, 인력 계획을 토론하고, 다양한 인력 전체의 가시성을 향상하려는 리더에게 최적화되어 있습니다.  
-
-![Microsoft Teams에서 구성한 팀과 채널의 계층 구조 다이어그램](media/overview-of-teams-and-channels-image1.png)
+|기능|표준 채널|비공개 채널|공유 채널|
+|:-------|:---------------|:--------------|:-------------|
+|팀에 추가하지 않고도 채널에 사용자를 추가할 수 있습니다.|아니요|아니요|예|
+|채널 멤버 자격은 팀의 하위 집합으로 제한될 수 있습니다.|아니요|예|예|
+|채널은 다른 팀과 직접 공유할 수 있습니다.|아니요|아니요|예|
+|채널은 부모 팀과 직접 공유할 수 있습니다.|해당 없음|아니요|예|
+|게스트는 채널에 참여할 수 있습니다.|예|예|아니요|
+|외부 참가자(B2B 직접 연결)가 채널에 참여할 수 있습니다.|아니요|아니요|예|
+|각 채널에는 전용 SharePoint 사이트가 있습니다.|아니요|예|예|
+|예약된 모임|예|아니요|예|
+|Planner|예|아니요|아니요|
+|봇, 커넥터, 메시징 확장|예|아니요|아니요|
+|수업 팀에서 지원됨|예|예|아니요|
+|태그|예|아니요|아니요|
+|분석|예|예|아니요|
 
 ## <a name="org-wide-teams"></a>조직 전체 팀
 

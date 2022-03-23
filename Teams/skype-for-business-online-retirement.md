@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c18871756c8081b7013666d98d1599cfec4117f
-ms.sourcegitcommit: b635f3765498ae23f535a33fa9ffea5068eecb14
+ms.openlocfilehash: f70378e2be1dd47126ee3d83009759c63643ae2f
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63463741"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711762"
 ---
 # <a name="skype-for-business-online-retirement"></a>비즈니스용 Skype Online 단종
 
@@ -31,9 +31,7 @@ ms.locfileid: "63463741"
 
 ## <a name="why-is-skype-for-business-online-retiring"></a>온라인 비즈니스용 Skype 사용 중지되는 이유는 무엇입니까?
 
-소개 이후 비즈니스용 Skype 온라인은 전 세계 수백만의 사용자에게 유용한 도구가 됐습니다. 인스턴트 메시징, 통화 및 비디오를 결합하여 비즈니스용 Skype 비즈니스 통신에 대한 새로운 가능성을 확립했습니다. Teams 비전의 다음 챕터입니다. 
-
-이 기능은 Microsoft Teams 온라인 기능보다 비즈니스용 Skype 있습니다. 지속적인 플랫폼 혁신 및 개발은 사용자가 Teams, 기능, 유연성 및 보안을 이점으로 사용할 수 있도록 합니다. 다음 기능을 단일 환경으로 결합하여 Teams 새로운 작업 방법을 사용할 수 있습니다.
+소개 이후 비즈니스용 Skype 온라인은 전 세계 수백만의 사용자에게 유용한 도구가 됐습니다. 인스턴트 메시징, 통화 및 비디오를 결합하여 비즈니스용 Skype 비즈니스 통신에 대한 새로운 가능성을 확립했습니다. Teams 비전의 다음 챕터입니다.  이 기능은 Microsoft Teams 온라인 기능보다 비즈니스용 Skype 있습니다. 지속적인 플랫폼 혁신 및 개발은 사용자가 Teams, 기능, 유연성 및 보안을 이점으로 사용할 수 있도록 합니다. 다음 기능을 단일 환경으로 결합하여 Teams 새로운 작업 방법을 사용할 수 있습니다.
 
 - 채팅
 - 비디오
@@ -43,15 +41,13 @@ ms.locfileid: "63463741"
 
 Teams 온라인을 업그레이드하는 비즈니스용 Skype 이상입니다. 이 도구는 학교와 조직이 더욱 기민해지고 주요 워크플로의 효율성을 개선할 수 있는 강력한 도구입니다. Forrester[™](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf?rtc=1) 백서인 Teams 경제에 미치는 영향에 대해 자세히 Microsoft Teams.
 
-온라인 사용 중지에 비즈니스용 Skype 대한 자세한 내용은 [FAQ —](FAQ-journey.yml) 업그레이드에서 비즈니스용 Skype Microsoft Teams.
-
 ## <a name="organizations-with-skype-for-business-online"></a>온라인을 비즈니스용 Skype 조직
 
 Microsoft는 조직에서 나머지 온라인 사용자만 사용할 수 있도록 비즈니스용 Skype 업그레이드 프로세스를 Teams 제공합니다. Teams 대부분의 비즈니스 및 Microsoft 365 및 Enterprise 사용할 수 있으며 기존 라이선스 투자는 Teams. 현재 비즈니스용 Skype Online의 프리미엄 작업 인 기능은 Teams에서도 계속해서 프리미엄 작업으로 남습니다. 예를 들어 독립 실행형 오디오 회의를 구입한 경우 또는 E5의 일부로 비즈니스용 Skype 오디오 회의가 Teams.
 
 ## <a name="organizations-with-on-premises-deployments-of-skype-for-business-server"></a>프레미스 배포가 있는 비즈니스용 Skype 서버
 
-온라인 비즈니스용 Skype 사용 중지는 Lync Server 2013의 온-프레미스 배포에 비즈니스용 Skype 서버 영향을 주지 않습니다. 그러나 온라인 및온-프레미스에 사용자가 혼합된 하이브리드 고객은 온라인 사용자를 업그레이드 *해야* 합니다. 이러한 온라인 사용자는 TeamsUpgradePolicy를 Teams 전용 모드로 할당되어야 합니다. Microsoft는 나머지 온라인 사용자 업그레이드를 비즈니스용 Skype 전용 모드로 업그레이드하는 데 도움이 Teams 업그레이드를 제공합니다. 하이브리드 조직은 이 사용 중지  의 결과로 비즈니스용 Skype 사용자와 클라우드로 자신의 비즈니스용 Skype 이동할 필요가 없습니다. Microsoft는 사용자와 온-프레미스 사용자만 Teams 혼합된 하이브리드 조직을 비즈니스용 Skype 합니다. 2013 비즈니스용 Skype 서버 또는 Lync Server 2013의 하이브리드 배포가 있는 고객은 예정된 온라인 사용 중지 시 비즈니스용 Skype 검토[해야 합니다](/skypeforbusiness/hybrid/plan-hybrid-connectivity#implications-of-the-upcoming-retirement-of-skype-for-business-online).
+온라인 비즈니스용 Skype 사용 중지는 Lync Server 2013의 온-프레미스 배포에 비즈니스용 Skype 서버 영향을 주지 않습니다. 그러나 온라인 및온-프레미스에 사용자가 혼합된 하이브리드 고객은 온라인 사용자를 업그레이드 *해야* 합니다. 이러한 온라인 사용자는 TeamsUpgradePolicy를 Teams 전용 모드로 할당되어야 합니다. Microsoft는 나머지 온라인 사용자 업그레이드를 비즈니스용 Skype 전용 모드로 업그레이드하는 데 도움이 Teams 업그레이드를 제공합니다. 하이브리드 조직은 이 사용 중지  의 결과로 비즈니스용 Skype 사용자와 클라우드로 자신의 비즈니스용 Skype 이동할 필요가 없습니다. Microsoft는 사용자와 온-프레미스 사용자만 Teams 혼합된 하이브리드 조직을 비즈니스용 Skype 합니다. 2013 비즈니스용 Skype 서버 또는 Lync Server 2013의 하이브리드 배포를 비즈니스용 Skype 온라인 사용 중지의 의미[를 검토해야 합니다](/skypeforbusiness/hybrid/plan-hybrid-connectivity#implications-of-the-upcoming-retirement-of-skype-for-business-online).
 
 ## <a name="what-to-expect-post-retirement"></a>사후 사용 중지를 예상할 수 있는 것
 
@@ -87,7 +83,8 @@ Microsoft는 조직에서 나머지 온라인 사용자만 사용할 수 있도�
 
 - [Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog) 블로그 – Teams, 채택 및 사용 리소스, Teams 및 다른 비즈니스 애플리케이션과의 통합에 대한 뉴스를 제공합니다.
 
-현재 온라인 고객인 비즈니스용 Skype 지금 업그레이드 계획을 Teams 시작하세요. 강력한 커뮤니케이션 및 공동 작업 기능을 경험할 수 있는 것을 매우 기대하며, 이를 위해 최선을 다하고 있습니다.
+현재 온라인 고객인 비즈니스용 Skype 지금 업그레이드 계획을 Teams 시작하세요. 강력한 커뮤니케이션 및 공동 작업 기능을 경험할 수 있는 것을 매우 기대하며, 이를 위해 최선을 다하고 있습니다.  온라인 사용 중지에 비즈니스용 Skype 대한 자세한 내용은 [FAQ —](FAQ-journey.yml) 업그레이드에서 비즈니스용 Skype Microsoft Teams.
+
 
 
 

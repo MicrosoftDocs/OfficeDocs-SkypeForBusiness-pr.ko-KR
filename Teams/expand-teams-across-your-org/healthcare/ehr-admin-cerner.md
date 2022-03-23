@@ -23,16 +23,14 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: 조직에서 의료 서비스 공급자가 Cerner EHR Teams 직접 환자 또는 다른 공급자와 가상 방문을 수행하도록 Teams EHR 커넥터를 통합하는 방법을 알아보습니다.
-ms.openlocfilehash: d7f34be9729989f7930cc6f478738b43b716f6ac
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
+ms.openlocfilehash: 6c0f0020cbbee5ba6ecbb186681454b8d8b8a103
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63435882"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711752"
 ---
 # <a name="virtual-visits-with-teams---integration-into-cerner-ehr"></a>가상 Teams - Cerner EHR에 통합
-
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 EHR(전자 Microsoft Teams) 커넥터를 사용하면 임상의가 가상 환자 방문을 시작하거나 Cerner EHR 시스템에서 직접 Microsoft Teams 다른 공급자와 상담할 수 있습니다. Microsoft 365 클라우드를 Teams, HIPAA, HITECH 인증 등 준수를 지원하는 단일 허브에서 채팅, 비디오, 음성 및 의료 도구와의 간단하고 안전한 공동 작업 및 통신을 가능하게 합니다.
 

@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 교육 정책 마법사를 사용하여 교육용 Teams 학생 및 교육자에 대한 정책을 쉽게 적용하여 학습 환경을 안전하게 유지하는 방법에 대해 알아보습니다.
+description: 학습 환경 보호를 위해 교육용 Teams 정책 마법사를 사용하여 학생 및 교육자에 대한 정책을 쉽게 적용하는 방법에 대해 자세히 알아보습니다.
 f1keywords: ''
-ms.openlocfilehash: 9834aceeffc6c5604c144e801405cea968df5a69
-ms.sourcegitcommit: 2612020cd932117148440b60be818ba31208b1d1
+ms.openlocfilehash: 4a793baeb725b497310e46db351e12e6c0540477
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "62805459"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711692"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>보안 교육용 Teams 정책 마법사를 사용하여 안전한 학습 환경에 대한 정책을 쉽게 적용할 수 있습니다.
 
@@ -30,7 +30,7 @@ ms.locfileid: "62805459"
 
 교육용 Microsoft Teams 정책 마법사는 학생 및 교육자에 대한 정책을 간소화합니다. 이를 사용하여 안전하고 생산적인 학습 환경을 만드는 데 관련된 가장 중요한 정책 집합을 쉽고 빠르게 적용할 수 있습니다.
 
-이 Teams 정책을 사용하면 사용자 환경에서 Teams 기능과 사용자가 사용할 수 있는 기능을 제어할 수 있습니다. 예를 들어 몇 가지 이름을 지정하는 호출 정책, 모임 정책 및 메시징 정책이 있으며 각 정책 영역을 조직의 요구에 맞게 사용자 지정할 수 있습니다.
+정책의 Teams 사용자 환경에서 Teams 및 사용자가 사용할 수 있는 기능을 제어할 수 있습니다. 예를 들어 몇 가지 이름을 지정하는 호출 정책, 모임 정책 및 메시징 정책이 있으며 각 정책 영역을 조직의 요구에 맞게 사용자 지정할 수 있습니다.
 
 안전하고 집중적인 학습 환경을 유지 관리하기 위해 학생이 학교에서 할 수 있는 작업을 제어하기 위한 정책을 Teams. 예를 들어 정책을 사용하여 개인 채팅 및 개인 통화를 사용할 수 있는 사용자, 모임을 예약할 수 있는 사용자 및 공유할 수 있는 콘텐츠 유형을 제어할 수 있습니다. 또한 정책을 사용하여 학습 환경을 보강하는 Teams 기능을 사용할 수 있습니다.
 
@@ -41,7 +41,7 @@ ms.locfileid: "62805459"
 이 문서에서는 마법사를 실행하는 방법을 안내합니다.
 
 > [!IMPORTANT]
-> 마법사가 적용한 정책은 대부분의 고객사의 요구를 교육용 Teams 있습니다. 마법사는 학생 안전을 위해 권장하는 설정으로 핵심 정책 집합의 전역(Org-wide 기본값) 정의를 조정하고 학생들에게 적용합니다. 또한 마법사는 교육자 및 교직원에게 사용자 지정 정책 집합을 만들고 할당합니다. 대부분의 교육용 Teams 고객은 이 마법사를 실행한 후 다른 정책 할당 방법을 사용할 필요가 없습니다. 학생, 교사 및 교  직원에 대한 정책을 수동으로 만들고 관리하려는 경우만 다른 정책 할당 방법을 사용하세요.
+> 마법사에서 적용한 정책은 대부분의 고객사의 요구를 교육용 Teams 것입니다. 마법사는 학생 안전을 위해 권장하는 설정으로 핵심 정책 집합의 전역(Org-wide 기본값) 정의를 조정하고 학생들에게 적용합니다. 또한 마법사는 교육자 및 교직원에게 사용자 지정 정책 집합을 만들고 할당합니다. 대부분의 교육용 Teams 고객은 이 마법사를 실행한 후 다른 정책 할당 방법을 사용할 필요가 없습니다. 학생, 교사 및 교  직원에 대한 정책을 수동으로 만들고 관리하려는 경우만 다른 정책 할당 방법을 사용하세요.
 
 ## <a name="teams-for-education-policy-wizard"></a>교육용 Teams 정책 마법사
 
@@ -69,7 +69,7 @@ ms.locfileid: "62805459"
 
 다음 단계를 수행하여 마법사를 실행합니다.
 
-1. 새로 시작한 Teams 마법사가 자동으로 시작됩니다. 그렇지 않으면 대시보드에서 마법사를 시작할 수 있습니다. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 홈으로 이동한 다음 안전한 학습 환경 타일에 대한 간편한 정책  설정에서 **빠른 설정을 선택합니다**.
+1. 새로 시작한 Teams 마법사가 자동으로 시작됩니다. 그렇지 않으면 대시보드에서 마법사를 시작할 수 있습니다. 관리 센터의 왼쪽 탐색에서 Microsoft Teams 홈으로 이동한 다음 안전한 학습 환경 타일에 대한 **간편** 한 정책 설정에서 빠른 설정을 **선택합니다**.
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="대시보드의 마법사의 스크린샷입니다.":::
 
@@ -105,7 +105,7 @@ Teams 정책 영역의 경우 다음과 같은 방법으로 사용자에게 정�
 - 사용자가 구성원인 그룹에 할당
 - 사용자가 정책을 직접 할당하지 않은 경우 또는 정책이 할당된 그룹의 구성원이 아닌 경우 사용자는 자동으로 전역(Org-wide default) 정책을 얻습니다.
 
-사용자에 대해 이러한 정책 할당 중 Teams 있는 경우 다음 순서를 사용하여 적용되는 정책 할당을 확인할 수 있습니다. 자세한 [내용은 그룹에 대한](policy-assignment-overview.md#which-policy-takes-precedence) 우선 순위 또는 우선 순위 [규칙을 참조하세요](assign-policies-users-and-groups.md#precedence-rules).
+사용자에 대해 이러한 정책 할당 중 Teams 있는 경우 다음 순서를 사용하여 어떤 정책 할당이 적용되는지 확인할 수 있습니다. 자세한 [내용은 그룹에 대한](policy-assignment-overview.md#which-policy-takes-precedence) 우선 순위 또는 우선 순위 [규칙을 참조하세요](assign-policies-users-and-groups.md#precedence-rules).
 
 |사용자의 정책 할당|적용하는 정책 |
 |---------|---------|
@@ -131,7 +131,7 @@ Teams 정책 영역의 경우 다음과 같은 방법으로 사용자에게 정�
 
 마법사는 이러한 정책을 자동으로 조정하고 [적용합니다](#policies-applied-by-the-wizard). 안전을 위해 교육 기관의 요구에 따라 취할 수 있는 몇 가지 추가 조치가 있습니다.
 
-추가 [안전 권장](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) 사항에 대해 거리 학습을 위해 Teams 동안 학생 안전 유지를 참조하세요.
+추가 [안전 권장](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) 사항에 대한 거리 학습에 Teams 동안 학생 안전 유지를 참조하세요.
 
 <a name="polwiz_mc"> </a>
 
@@ -194,6 +194,9 @@ Teams 정책 영역의 경우 다음과 같은 방법으로 사용자에게 정�
 
 다음은 각 정책 영역에 대한 마법사에서 적용한 설정에 대한 요약입니다.
 
+> [!NOTE]
+> 팀 소유자만 공유 채널을 만들 수 있습니다.<br><br>다른 조직과 공유 채널을 사용하려면 [기본적으로 사용하지 않도록 설정되는 Azure AD B2B 직접](/azure/active-directory/external-identities/b2b-direct-connect-overview) 연결 구성이 필요합니다. 이 [기능을 사용하도록 설정](/microsoft-365/solutions/collaborate-teams-direct-connect) 하려면 채널의 외부 참가자와 공동 작업을 참조하세요.
+
 #### <a name="students"></a>[**학생**](#tab/student-settings/)
 
 다음은 마법사에서 조정하고 학생들에게 적용된 전역(Org-wide default) 정책 정의 목록입니다.
@@ -201,11 +204,14 @@ Teams 정책 영역의 경우 다음과 같은 방법으로 사용자에게 정�
 |정책 영역 |하위 영역  |정책 설정  |기본 또는 보조 |고등 교육 |
 |---------|---------|---------|---------|---------|
 |Teams 정책   |         |개인 채널 만들기         |해제       |설정|
-|모임 정책    |일반         |채널에서 지금 만나기         |해제      |설정|
-|  |        |Outlook 추가 기능         |해제       |설정|
-|  |        |채널 모임일정        |해제      |설정|
-|  |        |비공개 모임일정       |해제      |설정|
-|  |        |모임 등록              |설정       |설정|
+|               |         |공유 채널 만들기         |설정       |설정|
+|               |         |외부 참가자와 채널 공유         |설정       |설정|
+|               |         |외부 공유 채널에 참여         |설정       |설정|
+|모임 정책    |일반         |지금 채널에서 모임 시작 허용         |해제      |설정|
+|  |        |Outlook 추가 기능 허용         |해제       |설정|
+|  |        |채널 모임 예약 허용        |해제      |설정|
+|  |        |비공개 모임 예약 허용       |해제      |설정|
+|  |        |모임 등록 허용              |설정       |설정|
 |  |        |Who 수 있습니다.    |조직의 모든 사용자      |조직의 모든 사용자|
 |  |오디오 & 비디오        |전사        |설정       |설정|
 |  |        |클라우드 녹화         |해제      |설정|
@@ -271,11 +277,14 @@ Teams 정책 영역의 경우 다음과 같은 방법으로 사용자에게 정�
 |정책 영역 |하위 영역  |정책 설정  |기본 또는 보조 |고등 교육 |
 |---------|---------|---------|---------|---------|
 |Teams 정책   |         |개인 채널 만들기         |설정       |설정|
-|모임 정책    |일반         |채널에서 지금 만나기         |설정      |설정|
-|  |        |Outlook 추가 기능         |설정       |설정|
-|  |        |채널 모임일정        |설정      |설정|
-|  |        |비공개 모임일정       |설정      |설정|
-|  |        |모임 등록              |설정       |설정|
+|               |         |공유 채널 만들기         |설정       |설정|
+|               |         |외부 참가자와 채널 공유         |설정       |설정|
+|               |         |외부 공유 채널에 참여         |설정       |설정|
+|모임 정책    |일반         |지금 채널에서 모임 시작 허용         |설정      |설정|
+|  |        |Outlook 추가 기능 허용         |설정       |설정|
+|  |        |채널 모임 예약 허용        |설정      |설정|
+|  |        |비공개 모임 예약 허용       |설정      |설정|
+|  |        |모임 등록 허용              |설정       |설정|
 |  |        |Who 수 있습니다.    |조직의 모든 사용자      |조직의 모든 사용자|
 |  |오디오 & 비디오        |전사        |설정       |설정|
 |  |        |클라우드 녹화         |설정      |설정|
@@ -329,8 +338,8 @@ Teams 정책 영역의 경우 다음과 같은 방법으로 사용자에게 정�
 
 * * *
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [교육용 Teams 정책 및 정책 패키지](policy-packages-edu.md)
 - [학교의 대규모 사용자 집합에 정책 할당](batch-group-policy-assignment-edu.md)
-- [거리 학습에 Teams 학생 안전 유지](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)
+- [거리 학습을 위해 Teams 학생들을 안전하게 보호](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)

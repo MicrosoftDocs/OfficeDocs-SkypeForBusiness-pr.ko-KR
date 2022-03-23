@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 메시징 정책 및 메시징 정책을 사용하여 채팅 메시징을 제어하는 방법에 대해 Teams.
-ms.openlocfilehash: 968e79952381b04f5165f285807cfe3a07237307
-ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
+ms.openlocfilehash: 9716fe3ba9a2162a3c6c85cfa61ef5541f34fb38
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63564770"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711722"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Teams에서 메시징 정책 관리
 
@@ -109,9 +109,9 @@ ms.locfileid: "63564770"
 - **채팅 권한 역할** 이 설정을 사용하여 사용자의 감독된 채팅 역할을 정의합니다.  [감독되는 채팅](supervise-chats-edu.md)에 대해 자세히 알아보세요.
 
 > [!NOTE]
-> Giphys를 사용하는 등 이러한 설정 중 일부는 팀 소유자가 팀 수준에서 구성하고 개인 채널 소유자가 개인 채널 수준에서 구성할 수도 있습니다.
+> 이러한 설정 중 일부(예: Giphys 사용)는 팀 소유자가 팀 수준에서 구성하고 채널 소유자가 개인 또는 공유 채널 수준에서 구성할 수도 있습니다.
 
-### <a name="related-topics"></a>관련 항목
+### <a name="related-topics"></a>관련 주제
 
 - [사용자 및 그룹에 정책을 Teams](assign-policies-users-and-groups.md)
 - [Microsoft Teams에서 팀 소유자 및 구성원 할당](assign-roles-permissions.md)

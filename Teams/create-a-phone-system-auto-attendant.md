@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 대규모 조직에 대해 자동 참석자 설정 및 테스트하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 1b212edfc750210aa7ab66bb0184dfa07541280e
-ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
+ms.openlocfilehash: 3a501ee9cdea0cf04466be1cbbd9c8f4407a9842
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2022
-ms.locfileid: "63660593"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711922"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 참석자 설정
 
@@ -149,6 +149,8 @@ ms.locfileid: "63660593"
 
 > [!NOTE]
 > 전화 걸기 이름과 확장 기능  모두를 사용하려는  경우 기본 자동 전화 접속에 다이얼 키를 할당하여 이름에 따라 다이얼을 사용하도록 설정된 자동 참석자에 도달할 **수 있습니다**. 해당 자동 참석자 내에서 1개 키(해당 키와 연결된 문자가 없는)를 할당하여 확장 자동 전화 걸기 전화 접속  에 도달할 수 있습니다.
+
+자세한 내용은 [다이얼 및 음성 참조](dial-voice-reference.md) 를 참조하세요.
 
 디렉터리 검색 옵션을 **선택한** 후 다음을 **선택합니다**.
 
@@ -323,7 +325,7 @@ PowerShell을 통해 자동 참석자 만들기에 대한 단계별 가이드는
 
 3. 테스트는 자동 수행자가 호출을 수신하지 못하게 하는 테넌트, 정책 또는 리소스 계정 구성을 식별하고 식별된 문제를 해결하기 위한 단계를 제공합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [다음은 사용자와 함께 얻을 Teams 전화](./here-s-what-you-get-with-phone-system.md)
 

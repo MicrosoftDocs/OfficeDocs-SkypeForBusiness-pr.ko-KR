@@ -18,12 +18,12 @@ ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: Slack에서 Microsoft Teams로 마이그레이션하기 위한 완전한 가이드
-ms.openlocfilehash: 9342c7e251cc7466df0d70e8cb699d7e514455b4
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 7879e839c8f5597761827fe42ea75b1f0c8dddf9
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456358"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711892"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Slack에서 Microsoft Teams로 마이그레이션
 
@@ -55,7 +55,7 @@ Slack 내보내기 옵션에 대한 자세한 내용을 알아보려면 Slack �
 ### <a name="assess-your-slack-workspaces"></a>Slack 워크스페이스 평가
 조직의 마이그레이션 계획을 계획하기 전에 사용자의 Slack 워크스페이스에 대한 정보를 수집해야 합니다. 사용자가 Slack 워크스페이스를 어떻게 사용하는지 이해하면 마이그레이션 범위를 결정하는 데 도움이 됩니다. 예를 들어 옮기는 워크스페이스가 몇 개나 있나요? 특정 부서에서 사용되나요, 아니면 전체 조직에서 사용하나요?
 
-마이그레이션할 Slack 워크스페이스의 구성원인 경우 *\<your Slack workspace\>slack.com/stats* 으로 이동하여 직접 사용 현황을 분석할 수 있습니다. 채널 및 구성원 탭을 검토하여 사용 패턴을 찾습니다. 마이그레이션할 워크스페이스(및 어느 것을 남길 것인지)를 결정합니다. 
+마이그레이션할 Slack 워크스페이스의 구성원인 경우 *\<your Slack workspace\>slack.com/stats* 로 이동하여 직접 사용 현황을 분석할 수 있습니다. 채널 및 구성원 탭을 검토하여 사용 패턴을 찾습니다. 어떤 워크스페이스를 마이그레이션하고 어떤 워크스페이스를 남겨 둘지를 결정합니다. 
 
 > [!NOTE]
 > 통계 페이지에 액세스할 수 없는 경우, 사용자는 관리자 또는 소유자가 아닙니다. 
