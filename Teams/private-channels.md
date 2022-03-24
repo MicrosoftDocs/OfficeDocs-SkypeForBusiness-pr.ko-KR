@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams에서 비공개 채널을 사용하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 097c7e4c43c6127b59423cab94b97ac949a2df57
-ms.sourcegitcommit: b635f3765498ae23f535a33fa9ffea5068eecb14
+ms.openlocfilehash: e3b8208f760d2ec549e242d390190fce8acba5fd
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63463751"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711472"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams의 비공개 채널
 
@@ -97,7 +97,7 @@ Teams는 비공개 채널 사이트의 수명 주기를 관리합니다. 사이�
 비공개 채널 또는 비공개 채널을 포함하는 팀이 복원되면 사이트도 함께 복원됩니다. 비공개 채널 사이트가 복원된 상태에서 비공개 채널에 대해 30일의 일시 삭제 기간이 지난 경우 해당 사이트는 독립 실행형 사이트로 작동합니다.
 
 > [!NOTE]
-> Microsoft Teams에서 새 팀 또는 개인 채널을 만들면 SharePoint의 팀 사이트가 자동으로 만들어집니다. 이 팀 사이트에 대한 사이트 설명 또는 분류를 편집하려면 [Microsoft Teams에서 해당 채널의 설정](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d)으로 이동하세요.
+> Microsoft Teams에서 새 팀, 비공개 채널 또는 공유 채널을 만들면 SharePoint의 팀 사이트가 자동으로 만들어집니다. 이 팀 사이트에 대한 사이트 설명 또는 분류를 편집하려면 [Microsoft Teams에서 해당 채널의 설정](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d)으로 이동하세요.
 >
 > [Microsoft Teams에 연결된 팀 사이트](/SharePoint/teams-connected-sites) 관리에 대해 자세히 알아보세요.
 
@@ -105,7 +105,7 @@ Teams는 비공개 채널 사이트의 수명 주기를 관리합니다. 사이�
 
 비공개 채널로 전송된 메시지의 준수 복사본은 그룹 사서함이 아닌 모든 비공개 채널 구성원의 사서함으로 전달됩니다. 준수 복사본의 제목에는 전송된 비공개 채널에서 보냈다는 걸 나타내는 서식이 지정됩니다.
 
-비공개 채널 메시지의 eDiscovery 검색을 수행하는 방법에 대한 자세한 내용은 [비공개 채널의 eDiscovery](ediscovery-investigation.md#ediscovery-of-private-channels)를 참조하세요.
+비공개 채널 메시지의 eDiscovery 검색을 수행하는 방법에 대한 자세한 내용은 [비공개 채널의 eDiscovery](ediscovery-investigation.md#ediscovery-of-private-and-shared-channels)를 참조하세요.
 
 ## <a name="considerations-around-file-access-in-private-channels"></a>비공개 채널의 파일 액세스에 대한 고려 사항
 
@@ -123,11 +123,13 @@ Teams는 비공개 채널 사이트의 수명 주기를 관리합니다. 사이�
 
 기존 팀에서 팀을 만들면 기존 팀의 비공개 채널은 복사되지 않습니다.
 
-현재 비공개 채널의 알림은 누락된 활동 전자 메일에 포함되지 않습니다.
+비공개 채널의 알림은 누락된 활동 전자 메일에 포함되지 않습니다.
 
 채널 모임을 예약할 수 없습니다.
 
 ## <a name="related-topics"></a>관련 항목
+
+[Microsoft Teams의 공유 채널](/MicrosoftTeams/shared-channels)
 
 [Teams의 팀 및 채널 개요](teams-channels-overview.md)
 

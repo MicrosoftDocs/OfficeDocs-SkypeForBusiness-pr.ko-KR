@@ -12,16 +12,16 @@ ms.collection:
 description: 관리에 사용되는 Teams PowerShell 모듈에서 지원되는 버전에 대해 Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9254afde824f072f6015531b90f4cacfb38acafe
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: ea8a755c75c5f91c5dbf3a4cd4dd749ac576557c
+ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63689180"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762012"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell 모듈 - 지원되는 버전
 
-Microsoft Teams 4.x.x 시리즈의 TPM(PowerShell Module) 버전은 앞으로 지원되는 유일한 버전입니다. 이전 버전은 모두 사용 중지 경로에 있습니다.
+Microsoft Teams PowerShell 모듈(TPM) 버전 4.0.0 이상은 앞으로 지원되는 유일한 버전입니다. 이전 버전은 모두 사용 중지 경로에 있습니다.
 
 
 
@@ -39,8 +39,7 @@ Microsoft Teams 4.x.x 시리즈의 TPM(PowerShell Module) 버전은 앞으로 �
 
 ## <a name="current-organizations-tpm-active"></a>현재 조직(TPM 활성)
 
-지난 3개월 동안 TPM을 사용한 조직(1월 22일 – 3월 22일)은 TPM 4.x.x로 업데이트하는 데 더 많은 시간이 있습니다. 자세한 내용은 곧 따라야 합니다.
-
+지난 3개월(1월 22일 – 3월 22일)에 TPM을 사용한 조직은 2022년 6월 15일부터 TPM 4.0.0 이상만 사용할 수 있습니다. PowerShell 모듈을 최신 Teams 업데이트하는 것이 좋습니다.
 
 
 ## <a name="important-notes"></a>중요 노트
@@ -64,7 +63,7 @@ Microsoft Teams 4.x.x 시리즈의 TPM(PowerShell Module) 버전은 앞으로 �
 
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Teams PowerShell 릴리스 정보](teams-powershell-release-notes.md)
 

@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 디버그, 미디어 및 데스크톱 로그를 Microsoft Teams 찾을 수 있는 위치 및 모니터링 및 문제 해결에 도움이 되는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56a665be7f2b647c3133b3dcd0617779b1e4165e
-ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
+ms.openlocfilehash: 3cb6718c88f3b084f8a38f039a7e707e65c344d7
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63047128"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774087"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>로그 파일을 사용하여 로그 파일을 모니터링하고 문제를 Microsoft Teams
 
@@ -107,6 +107,9 @@ Linux에 대한 로그를 수집하려면 다음을 실행합니다.
 데이터 및 Mac에 대한 로 _깅_ Windows 참조하세요. 미디어 로그에는 오디오, 비디오 및 화면 공유에 대한 진단 데이터가 Teams 있습니다. 호출 관련 문제에 연결된 지원 사례에 필요합니다.
 
 미디어 로깅이 기본적으로 해제됩니다. 모임에 대한 진단 Teams 로그하려면 사용자는 클라이언트에서 옵션을 설정해야 Teams 합니다.  >  설정 **General** 로 이동하고 모임 진단에 로깅 사용(**Teams 필요)** 확인란을 선택하고, Teams 재현합니다. 
+
+> [!NOTE]
+> 로그아웃하면 Teams 로깅이 기본값으로 다시 설정됩니다. 
 
 Microsoft 지원에 로그 파일을 보낼 때 로그 파일의 타임스탬프를 확인하여 문제를 재현할 때 로그가 시간 프레임을 커버하는지 확인해야 합니다.
 

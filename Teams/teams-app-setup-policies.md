@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b5100bd09b371d90d5bede76b440f423eb527b9c
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: 677ee2b0d57477ee79a9af7510d0ccf2dfbcae28
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442344"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774017"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>앱 설정 정책 관리 Microsoft Teams
 
@@ -35,6 +35,9 @@ ms.locfileid: "63442344"
 - **업로드 사용자** 지정 앱: 앱 설정 정책을 사용하면 사용자가 사용자 지정 앱을 업로드할 수 Teams. 자세한 내용은 사용자 [지정 업로드 참조하세요](#upload-custom-apps).
 
 ## <a name="pin-apps"></a>앱 고정
+
+> [!NOTE]
+> 조직의 프런트라인 작업자의 경우 맞춤형 프런트라인 앱 환경을 사용하는 것이 좋습니다. 이 기능은 F 라이선스가 있는 Teams 가장 관련성이 높은 앱을 고정[합니다](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt). 자세한 내용은 프런트라인 Teams 앱 맞춤 조정[을 참조하세요](pin-teams-apps-based-on-license.md).
 
 앱을 고정하면 타사 또는 조직의 개발자가 구축한 앱을 포함하여 조직의 사용자가 필요로 하는 앱을 선보일 수 있습니다.
 

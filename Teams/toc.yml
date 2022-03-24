@@ -1529,7 +1529,7 @@ items:
                 href: teams-app-setup-policies.md
               - name: Teams에서 사용자 지정 앱 정책 및 설정 관리
                 href: teams-custom-app-policies-and-settings.md
-          - name: 라이선스에 따라 Teams 앱 조정
+          - name: 최전방 직원을 위한 맞춤형 Teams 앱
             href: pin-teams-apps-based-on-license.md
           - name: Azure AD 권한 검토 및 관리자 동의 부여
             href: app-permissions-admin-center.md

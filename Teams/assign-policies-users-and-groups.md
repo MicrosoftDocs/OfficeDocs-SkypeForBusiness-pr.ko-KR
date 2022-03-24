@@ -18,16 +18,16 @@ description: 사용자 및 그룹에 정책을 할당하는 다양한 방법을 
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 1aabc2472f612e7fff547c73c231a7b6301cc0d9
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 82fa6f1469b0ffc65ec95d057c5e944728209078
+ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518590"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63761942"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>사용자 및 그룹에 정책 할당
 
-이 문서에서는 사용자 및 그룹에 정책을 할당하는 다양한 방법을 Microsoft Teams. 읽기 전에 시작 - Teams 정책 할당[을 읽어야 합니다](policy-assignment-overview.md).
+이 문서에서는 사용자 및 그룹에 정책을 할당하는 다양한 방법을 Microsoft Teams. 읽기 전에 시작 - Teams [정책 할당을 읽어야 합니다](policy-assignment-overview.md).
 
 ## <a name="assign-a-policy-to-individual-users"></a>개별 사용자에게 정책 할당
 
@@ -60,12 +60,12 @@ ms.locfileid: "62518590"
 
 각 정책 유형에는 관리하기 위한 자체 cmdlet 집합이 있습니다. 특정 정책 `Grant-` 유형에 대한 cmdlet을 사용하여 정책을 할당합니다. 예를 들어 cmdlet `Grant-CsTeamsMeetingPolicy` 을 사용하여 사용자에게 Teams 모임 정책을 할당합니다. 이러한 cmdlet은 Teams PowerShell 모듈에 포함되어 있으며 비즈니스용 Skype [cmdlet 참조에 설명되어 있습니다](/powershell/skype).
 
- [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) Teams 다운로드하고 설치한 다음 다음을 실행하여 연결합니다.
+ [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) Teams 릴리스를 다운로드하고 설치한 다음 다음을 실행하여 연결합니다.
 
 > [!NOTE]
 > 비즈니스용 Skype Online Connector는 현재 최신 Teams PowerShell 모듈의 일부입니다.
 >
-> 최신 [PowerShell 공개 Teams 사용하는](https://www.powershellgallery.com/packages/MicrosoftTeams/) 경우 온라인 커넥터를 비즈니스용 Skype 필요가 없습니다.
+> [최신 PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) 공개 Teams 사용하는 경우 온라인 커넥터를 비즈니스용 Skype 필요가 없습니다.
 
 ```powershell
   # When using Teams PowerShell Module
@@ -85,7 +85,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 ## <a name="assign-a-policy-to-a-group"></a>그룹에 정책 할당
 
-그룹에 정책 할당을 사용하면 보안 그룹 또는 메일 그룹과 같은 사용자 그룹에 정책을 할당할 수 있습니다. 정책 할당은 선행 규칙에 따라 그룹의 구성원에게 전파됩니다. 그룹에서 구성원이 추가되거나 제거되면 상속된 정책 할당이 그에 따라 업데이트됩니다.
+그룹에 정책 할당을 사용하면 보안 그룹, 조직 단위 또는 메일 그룹과 같은 사용자 그룹에 정책을 할당할 수 있습니다. 정책 할당은 선행 규칙에 따라 그룹의 구성원에게 전파됩니다. 그룹에서 구성원이 추가되거나 제거되면 상속된 정책 할당이 그에 따라 업데이트됩니다.
 
 그룹에 대한 정책 할당은 최대 50,000명까지의 그룹에 권장되지만 더 큰 그룹에서도 사용할 수 있습니다.
 
@@ -117,7 +117,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 그룹 할당 순위는 동일한 유형의 다른 그룹 할당과 상대적입니다. 예를 들어 두 그룹에 호출 정책을 할당하는 경우 한 할당의 순위를 1로, 다른 할당은 2로, 1은 가장 높은 순위로 설정합니다. 그룹 할당 순위는 상속과 관련하여 다른 그룹 멤버 자격보다 더 중요하거나 더 관련성이 높은 그룹 멤버 자격을 나타냅니다.
 
-예를 들어 직원 저장소 및 스토어 관리자의 두 그룹이 있습니다. 두 그룹 모두 각각 Teams 호출 정책, Store Employees Calling Policy 및 Store Manager 호출 정책이 할당됩니다. 두 그룹에 있는 저장소 관리자의 경우 관리자 역할은 직원 역할보다 관련성이 높기 때문에 Store Managers 그룹에 할당된 호출 정책은 순위가 높아야 합니다.
+예를 들어 직원 저장소 및 스토어 관리자의 두 그룹이 있습니다. 두 그룹은 각각 Teams 호출 정책, Store Employees Calling Policy 및 Store Manager 호출 정책이 할당됩니다. 두 그룹에 있는 저장소 관리자의 경우 관리자 역할은 직원 역할보다 관련성이 높기 때문에 Store Managers 그룹에 할당된 호출 정책은 순위가 높아야 합니다.
 
 |그룹 |Teams 이름 호출  |순위|
 |---------|---------|---|
@@ -129,7 +129,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 ### <a name="in-the-teams-admin-center"></a>관리 Teams 센터에서
 
 > [!NOTE]
-> 현재 Microsoft Teams 관리 센터를 사용하는 그룹에 대한 정책 할당은 Teams 통화 정책, 통화 Teams 정책, Teams 이벤트 정책, Teams 모임 정책 및 Teams 메시지 Teams 사용할 수 있습니다. 다른 정책 형식의 경우 PowerShell을 사용 합니다.
+> 현재 Microsoft Teams 관리 센터를 사용하는 그룹에 대한 정책 할당은 통화 정책, Teams 통화 Teams 정책, Teams 이벤트 정책, Teams 모임 정책 및 Teams 메시징 정책에 Teams 있습니다. 다른 정책 형식의 경우 PowerShell을 사용 합니다.
 
 1. 관리 센터의 왼쪽 Microsoft Teams 정책 유형 페이지로 이동합니다. 예를 들어 **MeetingsMeeting** >  **정책으로 이동합니다**.
 2. 그룹 정책 **할당 탭을** 선택합니다.
@@ -158,7 +158,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment) cmdlet을 사용하여 그룹에 정책을 할당합니다. 개체 ID, SIP 주소 또는 전자 메일 주소를 사용하여 그룹을 지정할 수 있습니다.
 
-이 예제에서는 Teams 할당 순위가 1인 그룹에 Retail Managers 모임 정책이라는 모임 정책을 할당합니다.
+이 예제에서는 할당 순위가 Teams 그룹에 Retail Managers 모임 정책이라는 Teams 모임 정책을 할당합니다.
 
 ```powershell
 New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -PolicyType TeamsMeetingPolicy -PolicyName "Retail Managers Meeting Policy" -Rank 1
@@ -243,7 +243,7 @@ Direct         Employee Events
 Group          Vendor Live Events 566b8d39-5c5c-4aaa-bc07-4f36278a1b38
 ```
 
-이제 사용자에서 Employee Events 정책을 제거합니다. 즉, 사용자에게 직접 할당된 Teams 모임 브로드캐스트 정책이 더 이상 없고 사용자가 속한 그룹에 할당된 공급업체 라이브 이벤트 정책을 상속합니다.
+이제 사용자에서 Employee Events 정책을 제거합니다. 즉, 사용자에게 직접 할당된 모임 Teams 브로드캐스트 정책이 더 이상 없고 사용자가 속한 그룹에 할당된 공급업체 라이브 이벤트 정책을 상속합니다.
 
 이 작업을 위해 비즈니스용 Skype PowerShell 모듈에서 다음 cmdlet을 사용합니다.
 
@@ -251,7 +251,7 @@ Group          Vendor Live Events 566b8d39-5c5c-4aaa-bc07-4f36278a1b38
 Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $null
 ```
 
-다음 cmdlet을 Teams PowerShell 모듈에서 이를 대규모로 수행하면 일괄 처리 정책 할당이 $users 사용자 목록입니다.
+다음 cmdlet을 사용하여 Teams PowerShell 모듈에서 일괄 처리 정책 할당을 수행하고 $users 사용자 목록입니다.
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
@@ -263,7 +263,7 @@ New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -Po
 
 사용자에게 정책을 대량으로 할당하는 경우:
 
-1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams **선택합니다**.
+1. 관리 센터의 왼쪽 Microsoft Teams 사용자를 **선택합니다**.
 2. 정책을 할당할 사용자를 검색하거나 보기를 필터링하여 원하는 사용자를 표시합니다.
 3. **&#x2713;**(확인 표시) 열에서 사용자를 선택합니다. 모든 사용자를 선택하려면 표 맨 위에서 &#x2713;(확인 표시)를 클릭합니다.
 4. 설정 **편집을 선택하고** 원하는 내용을 변경한 다음 적용을 **선택합니다**.
@@ -283,7 +283,7 @@ New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -Po
 
 #### <a name="install-and-connect-to-the-teams-powershell-module"></a>PowerShell 모듈을 Teams 연결
 
-다음을 실행하여 [PowerShell Microsoft Teams 설치합니다](https://www.powershellgallery.com/packages/MicrosoftTeams). 버전 1.0.5 이상을 설치해야 합니다.
+다음을 실행하여 [powerShell Microsoft Teams 설치합니다](https://www.powershellgallery.com/packages/MicrosoftTeams). 버전 1.0.5 이상을 설치해야 합니다.
 
 ```powershell
 Install-Module -Name MicrosoftTeams
@@ -297,7 +297,7 @@ Connect-MicrosoftTeams
 
 메시지가 표시될 때 관리자 자격 증명을 사용하여 로그인합니다.
 
-#### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module-optional"></a>Azure AD PowerShell에 설치 및 Graph 모듈(선택 사항)
+#### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module-optional"></a>Azure AD PowerShell을 설치하고 연결하여 Graph 모듈(선택 사항)
 
 조직의 사용자 목록을 검색할 수 있도록 Azure [AD PowerShell](/powershell/azure/active-directory/install-adv2)을 다운로드하여 Graph 모듈을 다운로드하고 설치하고 Azure AD에 연결할 수도 있습니다.
 
@@ -311,7 +311,7 @@ Connect-AzureAD
 
 #### <a name="assign-a-setup-policy-to-a-batch-of-users"></a>사용자 일괄 처리에 설정 정책 할당
 
-이 예제에서는 [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet을 사용하여 users_ids.text 파일에 나열된 사용자 일괄 처리에 HR 앱 설치 정책이라는 앱 설치 정책을 할당합니다.
+이 예제에서는 [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet을 사용하여 users_ids.text 파일에 나열된 사용자 일괄 처리에 HR 앱 설정 정책이라는 앱 설치 정책을 할당합니다.
 
 ```powershell
 $user_ids = Get-Content .\users_ids.txt
