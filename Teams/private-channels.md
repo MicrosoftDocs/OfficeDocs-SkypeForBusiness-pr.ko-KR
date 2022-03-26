@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams에서 비공개 채널을 사용하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: e3b8208f760d2ec549e242d390190fce8acba5fd
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 908432588c1744027b03efee44b9506ea4388fa2
+ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711472"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63761922"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams의 비공개 채널
 
@@ -122,6 +122,8 @@ Teams는 비공개 채널 사이트의 수명 주기를 관리합니다. 사이�
 각 팀에는 최대 30개의 비공개 채널이 있을 수 있으며 각 비공개 채널은 최대 250명의 구성원을 보유할 수 있습니다. 팀당 표준 채널이 200개로 제한된 데에 더해 비공개 채널도 30개로 제한되는 것입니다. 
 
 기존 팀에서 팀을 만들면 기존 팀의 비공개 채널은 복사되지 않습니다.
+
+비공개 채널은 다른 채널 유형으로 변환할 수 없습니다.
 
 비공개 채널의 알림은 누락된 활동 전자 메일에 포함되지 않습니다.
 

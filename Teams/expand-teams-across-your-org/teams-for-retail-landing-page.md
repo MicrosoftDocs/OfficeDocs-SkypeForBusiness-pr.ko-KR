@@ -20,21 +20,20 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb32190c05dcbe165e203d9e4f097622d60943b8
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: f611afe731bc178759427efff2fe35d925ca0def
+ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763403"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "64403969"
 ---
 # <a name="get-started-with-teams-for-retail"></a>소매용 Teams 시작
 
-교대 근무와 외근 직원이 있는 소매 환경의 필요 사항은 다른 조직과는 매우 다릅니다. 소매 조직을 최대한 효율적으로 운영하려면 일상적인 비즈니스 운영에서 어떤 Teams 시나리오가 도움이 될지를 선택하고, 이러한 시나리오를 지원할 적절한 기본 요소와 팀, 앱으로 Teams 환경을 준비합니다.
+순환 일정과 상근 직원이 있는 소매 환경은 다른 조직과 요구 사항이 매우 다릅니다. 소매 조직에서 최대한의 이점을 얻으려면 먼저 Teams가 일상적인 비즈니스 운영에서 도움을 줄 수 있는 시나리오를 선택한 다음 올바른 기본, 팀 및 앱으로 Teams 환경을 준비하여 이러한 시나리오를 지원하도록 해야 합니다.
 
 1. 비즈니스에 구현할 [시나리오를 선택합니다.](#choose-your-scenarios)
 :::image type="content" source="../media/retail-teams-scenarios.png" alt-text="소매용 Teams 시나리오를 표시하는 다이어그램." lightbox="../media/retail-teams-scenarios.png":::
-1. [기본 요소 설정](#set-up-the-fundamentals) - 계정과 장치를 관리하고 적절한 Teams 정책을 적용하여 인력에 기본 요소를 지원합니다.
-:::image type="content" source="../media/retail-teams-fundamentals.png" alt-text="Teams 정책, 계정, 장치를 비롯한 기본 요소를 표시하는 다이어그램." lightbox="../media/retail-teams-fundamentals.png":::
+1. [기본 요소 설정](#set-up-the-fundamentals) - 계정과 장치를 관리하고 적절한 Teams 정책을 적용하여 인력에 기본 요소를 지원합니다. :::image type="content" source="../media/retail-teams-fundamentals.png" alt-text="Teams 정책, 계정 및 장치를 포함한 기본 사항을 보여주는 다이어그램." lightbox="../media/retail-teams-fundamentals.png":::
 1. [팀 및 앱 설정](#set-up-teams-and-apps) - 팀 템플릿을 사용하여 비즈니스에 필요한 채널과 앱을 비롯하여 필요한 팀을 빠르게 설정합니다. 시나리오를 지원하는 데 필요한 경우 Microsoft의 다른 앱도 추가합니다.
 :::image type="content" source="../media/retail-teams-apps.png" alt-text="포함할 수 있는 팀과 팀 템플릿, 앱을 표시하는 다이어그램." lightbox="../media/retail-teams-apps.png":::
 
@@ -42,7 +41,7 @@ ms.locfileid: "62763403"
 
 ## <a name="choose-your-scenarios"></a>시나리오 선택
 
-Microsoft 365와 Microsoft Teams는 소매 조직의 일상적인 운영과 디지털 변환을 도울 수 있는 여러 기능을 제공합니다. 소매 조직에 권장하는 시나리오는 다음과 같습니다.
+Microsoft 365 및 Microsoft Teams는 소매 조직의 일상적인 운영 및 디지털 혁신을 도울 수 있는 여러 기능을 제공합니다. 소매 조직에는 다음 시나리오를 권장합니다.
 
 [![매장 내 소통 및 공동 작업.](../media/retail-scenarios-in-store.png)](#in-store-communication-and-collaboration) [![매장 간 소통 및 공동 작업.](../media/retail-scenarios-cross-store.png)](#cross-store-communication-and-collaboration) [![가상 피팅 및 상담.](../media/retail-scenarios-virtual-visits.png)](#virtual-fittings-and-consultations) [![비즈니스 프로세스를 간소화.](../media/retail-scenarios-business-processes.png)](#simplify-business-processes) [![기업 소통.](../media/retail-scenarios-corp-comms.png)](#corporate-communications) [![신입 직원 온보딩.](../media/retail-scenarios-onboarding.png)](#onboarding-new-employees)
 
@@ -79,7 +78,7 @@ Microsoft Teams의 Bookings 앱은 조직에 동료 및 고객의 가상 약속�
 
 ### <a name="simplify-business-processes"></a>비즈니스 프로세스 간소화
 
-Teams 앱, Power Apps, Power BI를 사용하여 비즈니스 프로세스를 간소화할 수 있습니다. 수행할 수 있는 작업은 다음과 같습니다.
+Teams 앱, Power Apps 및 Power BI를 사용하여 비즈니스 프로세스를 단순화할 수 있습니다. 예를 들어 다음을 수행할 수 있습니다.
 
 - Shifts로 직원 일정 설정 및 유지 관리
 - Power Apps로 매장 방문 및 재고 관리
@@ -168,7 +167,7 @@ Teams 앱, Power Apps, Power BI를 사용하여 비즈니스 프로세스를 간
 | Microsoft의 더 많은 앱과 서비스 | 설명 | 관리 | 도움말 |
 | ----- | ----- | ----- | ----- |
 | Bookings | 가상 피팅과 상담을 사용을 지원합니다. | [Microsoft Teams 및 Bookings 앱을 가상으로 방문](bookings-virtual-visits.md) | [Bookings 사용](https://support.microsoft.com/en-us/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) |
-| Power Apps 및 Power Platform | 비즈니스 프로세스를 통합하고 매장 재고, 판매 수치, 사고 보고 등 신속한 데이터 업데이트를 지원하세요. | [Microsoft Power Platform과 Teams 통합](../teams-power-platfom-integration.md) 및 [Microsoft Teams 관리 센터에서 Microsoft Power Platform 앱 관리](../manage-power-platform-apps.md) | -  |
+| Power Apps 및 Power Platform | 비즈니스 프로세스를 통합하고 매장 재고, 판매 수치, 사고 보고 등 신속한 데이터 업데이트를 지원하세요. | [Microsoft Power Platform과 Teams 통합](/microsoftteams/platform/samples/teams-low-code-solutions) 및 [Microsoft Teams 관리 센터에서 Microsoft Power Platform 앱 관리](../manage-power-platform-apps.md) | -  |
 | SharePoint | 새 팀을 만들면 새 SharePoint 사이트가 생성되고 팀에 연결됩니다. 위에 명시된 많은 시나리오가 팀 공동 작업을 위한 문서 공유 등 Teams에 이미 포함된 SharePoint 기능에 의존합니다. | [Teams 및 SharePoint 통합](/sharepoint/teams-connected-sites) | [Teams에 탭으로 SharePoint 페이지, 목록, 문서 라이브러리 추가](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b)|
 | Viva Connections | Viva Connections는 Teams에 허브를 만듭니다. 여기서 소매 직원은 조직의 맞춤형 뉴스 피드와 직원에게 필요한 리소스가 포함된 개인 설정 대시보드를 볼 수 있습니다. | [Viva Connections 개요](/sharepoint/viva-connections-overview) | [Microsoft Teams의 Viva connections](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b) |
 | Viva Learning | 필요한 경우 작업 흐름 내에서 바로 트레이닝을 제공하세요. | [Viva Learning 관리](/microsoft-365/learning/) | [Viva Learning(미리 보기) 사용](https://support.microsoft.com/office/viva-learning-preview-01bfed12-c327-41e0-a68f-7fa527dcc98a) |
@@ -190,7 +189,7 @@ Teams 앱, Power Apps, Power BI를 사용하여 비즈니스 프로세스를 간
 
 ## <a name="get-ready-to-roll-out-your-scenarios---identify-roles-and-responsibilities-for-scenarios"></a>시나리오 롤아웃 준비 - 시나리오의 역할 및 책임 식별
 
-구현하려는 시나리오와 이를 지원하기 위해 필요한 부분을 파악했다면 이제 팀을 구성하여 조직에서 팀이 작동하는 방식을 계획하고 롤아웃하고 모니터링할 차례입니다. 예를 들어 조직에서 이러한 시나리오를 롤아웃하는 경우 다음과 같은 역할이 필요할 수 있습니다.
+구현하려는 시나리오와 이를 지원하기 위해 필요한 부분을 파악했다면 이제 팀을 구성하여 조직에서 팀이 작동하는 방식을 계획하고 롤아웃하고 모니터링할 차례입니다. 예를 들어 조직에서 이러한 시나리오를 롤아웃하려면 다음 역할이 필요할 수 있습니다.
 
 | 이미지 | 역할 | 책무 | 부서 |
 | ---- | ---- | ----- | ----- |

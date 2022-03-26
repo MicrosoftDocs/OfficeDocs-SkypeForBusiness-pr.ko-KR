@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 생성하기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: 745252b624f6b64800c91b91a9d1a6ee60f21614
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 3418abb7196e855ab86fff72bc7c1e10eb37bfc0
+ms.sourcegitcommit: d3d3d5a70a69359fc71f072ad6c651556f4eda00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711952"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783917"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams Android 디바이스
 
@@ -102,6 +102,7 @@ ms.locfileid: "63711952"
 
 | 디바이스 모델| 펌웨어 버전 | 현재 인증 종료 날짜 | Android OS 버전 |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
+|깔끔한 막대         | `NFB1.20220211.1158` | 2023년 8월 5일 | 9 |
 |Crestron TSS-770 | `1.003.0082` |2022년 12월 5일  | 8.1 |
 |Crestron TSS-1070 | `1.003.0082`|2022년 12월 5일 | 8.1 |
 |Yealink RoomPanel | `147.15.0.1`|2023년 8월 5일   | 9 |
