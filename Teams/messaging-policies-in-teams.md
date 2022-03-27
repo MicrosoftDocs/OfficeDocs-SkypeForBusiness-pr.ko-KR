@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 메시징 정책 및 메시징 정책을 사용하여 채팅 메시징을 제어하는 방법에 대해 Teams.
-ms.openlocfilehash: 9716fe3ba9a2162a3c6c85cfa61ef5541f34fb38
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 0f4001fc2a646b83f005d9cc48948fbbb314f042
+ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711722"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "64480670"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Teams에서 메시징 정책 관리
 
@@ -34,6 +34,9 @@ ms.locfileid: "63711722"
 메시징 정책은 사용자(소유자 및 구성원)가 사용할 수 있는 채팅 및 [](assign-roles-permissions.md) 채널 메시징 기능을 제어하는 데 Microsoft Teams. 자동으로 생성된 전역(Org-wide default) 정책을 사용하거나 사용자 지정 메시징 정책을 만들고 할당할 수 있습니다.
 
 조직의 사용자는 사용자 지정 정책을 만들고 할당하지 않는 한 전역 정책을 자동으로 얻습니다. 전역 정책의 설정을 편집하거나 하나 이상의 사용자 지정 정책을 만들어 할당하여 원하는 기능을 켜거나 해제합니다.
+
+> [!NOTE]
+> 정책 변경 후 동기화를 보장하기 위해 특정 인스턴스에 대해 다시 부팅해야 할 수 있습니다. 
 
 ## <a name="create-a-custom-messaging-policy"></a>사용자 지정 메시징 정책 만들기
 
@@ -106,12 +109,13 @@ ms.locfileid: "63711722"
 - **그룹 채팅에서 사용자 제거** 이 설정을 켜서 사용자가 그룹 채팅에서 다른 사용자를 제거하도록 합니다. 이 기능을 사용하면 채팅 기록을 잃지 않고 소규모 사용자 그룹과 채팅을 계속할 수 있습니다.
 - **텍스트 예측** 이 설정을 켜서 사용자가 채팅 메시지에 대한 텍스트 예측을 얻을 수 있도록 합니다.
 - **제안된 응답**  채팅 메시지에 대해 제안된 응답을 사용하도록 설정하려면 이 설정을 켜야 합니다.
-- **채팅 권한 역할** 이 설정을 사용하여 사용자의 감독된 채팅 역할을 정의합니다.  [감독되는 채팅](supervise-chats-edu.md)에 대해 자세히 알아보세요.
+- **채팅 권한 역할** 이 설정을 사용하여 사용자의 감독된 채팅 역할을 정의합니다. [감독되는 채팅](supervise-chats-edu.md)에 대해 자세히 알아보세요.
+- **전체 채팅 권한이 있는 사용자는 메시지를 삭제할 수 있습니다.** 이 설정을 사용하여 모든 권한이 있는 사용자가 그룹 또는 모임 채팅 메시지를 삭제할 수 있습니다.
 
 > [!NOTE]
 > 이러한 설정 중 일부(예: Giphys 사용)는 팀 소유자가 팀 수준에서 구성하고 채널 소유자가 개인 또는 공유 채널 수준에서 구성할 수도 있습니다.
 
-### <a name="related-topics"></a>관련 주제
+### <a name="related-topics"></a>관련 항목
 
 - [사용자 및 그룹에 정책을 Teams](assign-policies-users-and-groups.md)
 - [Microsoft Teams에서 팀 소유자 및 구성원 할당](assign-roles-permissions.md)

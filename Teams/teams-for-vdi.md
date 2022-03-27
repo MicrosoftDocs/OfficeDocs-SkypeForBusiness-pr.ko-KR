@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ff97fae1fb2483dcddf301715018b6a94f908a7
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: d0f2364471b3800042e7536d1013b82d76209a02
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711442"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457071"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -488,6 +488,10 @@ if($cleanup){
 - Azure Virtual Desktop은 현재 macOS 및 Linux 기반 클라이언트를 지원하지 않습니다.
 - 빠른 테넌트 스위치는 화면 공유를 사용할 수 없는 등의 VDI에서 호출 관련 문제가 될 수 있습니다. 클라이언트를 다시 시작하면 이러한 문제가 완화됩니다.
 
+### <a name="notifications"></a>알림
+
+- 메시지 수 알림 및 Windows 작업 표시줄의 현재 상태는 해당 Windows Server 2016 지원되지 않습니다.
+
 ### <a name="calling-and-meetings"></a>통화 및 모임
 
 다음 호출 및 모임 기능은 지원되지 않습니다.
@@ -536,7 +540,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 그런 다음 VDA를 다시 시작합니다. 자세한 내용은 이 Citrix 지원 문서인 [HDX](https://support.citrix.com/article/CTX253754) 최적화 문제 해결을 Microsoft Teams.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [MSI(Teams 설치 Windows 사용하여 대량 설치](msi-deployment.md)
 - [Teams PowerShell 개요](teams-powershell-overview.md)

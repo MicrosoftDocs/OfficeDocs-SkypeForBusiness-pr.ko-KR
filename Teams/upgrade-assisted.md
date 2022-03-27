@@ -18,31 +18,31 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8becd4a83bb544747fa59a823bae37461c3642c3
-ms.sourcegitcommit: d3d3d5a70a69359fc71f072ad6c651556f4eda00
+ms.openlocfilehash: a162a9151413137282d80e47f8f2b08c841e171a
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63783897"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456891"
 ---
 # <a name="assisted-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>온라인에서 비즈니스용 Skype 업그레이드를 Microsoft Teams
 
 Microsoft는 비즈니스용 Skype 2021년 7월 31일 온라인을 사용 중지합니다.  Microsoft는 조직에서 나머지 온라인 사용자만 사용할 수 있도록 비즈니스용 Skype 업그레이드 프로세스를 Teams 제공합니다.  Microsoft 지원 업그레이드는 기술 작업의 수를 줄이고 조직이 어떤 조직인지 여부에 비즈니스용 Skype 없이 전 세계로의 전환을 간소화합니다.
  - 순수 온라인 전용으로 비즈니스용 Skype *온라인* 에서 업그레이드해야 하는 순수 Teams 조직 또는
- - 온라인 및 비즈니스용 Skype 사용자와 비즈니스용 Skype 서버 사용자   만 업그레이드해야 하는 비즈니스용 Skype *온라인* 사용자만이 Teams 조직  입니다.
+ - 온라인 사용자와 비즈니스용 Skype 모두에 있는   하이브리드 조직과 비즈니스용 Skype 서버 온라인 사용자만 업그레이드해야 비즈니스용 Skype 전용  으로 업그레이드해야 Teams. 
 
 업그레이드 전에 업그레이드 [지침을 검토하는](https://aka.ms/SkypeToTeams) 것이 좋습니다. 업그레이드 지침에는 온라인에서 온라인으로 업그레이드를 완료하기 위한 권장 비즈니스용 Skype 유용한 리소스가 Teams. 이 지침은 업그레이드의 모든 측면을 관리하거나 보조 프로세스를 Teams 조직에서 업그레이드를 계획하는 모든 조직에 적용됩니다.
 
 ## <a name="the-assisted-upgrade-experience"></a>보조 업그레이드 환경
 비즈니스용 Skype 업그레이드를 예약한 Teams 온라인 고객은 메시지 센터의 게시물 변경 계획, Microsoft 365 관리 센터의 대시보드 알림 업그레이드, 최종 사용자에게 앱 내 Teams  플래그와 같은 다양한 형태의 알림을 받게 됩니다. 메시지 센터 및 Teams 관리 센터의 업그레이드 알림에는 지원된 업그레이드의 예약된 날짜뿐만 아니라 리소스 및 교육을 업그레이드하는 링크가 포함되어 있으며, 이 알림은 지원 센터의 채택 및 사용에 도움이 Teams.
 
-지원되는 업그레이드 환경은 조직에 모든 사용자가 프레미스 환경에 있는지 여부에 따라 약간 비즈니스용 Skype 서버 다릅니다.
-- **순수 온라인 조직** Busineess Server 사용자에 대한 Skype 조직에 대한 지원 업그레이드 프로세스는 조직에 정책을 적용합니다. `TeamsUpgradeOverridePolicy` 이 정책이 적용된 경우 온라인 비즈니스용 Skype 모든 사용자가 Teams 모드로 배치됩니다.
-- **모든** 사용자에 대한 비즈니스용 Skype 하이브리드 조직에는 하이브리드가 구성되어 있는지에 비즈니스용 Skype 서버 사용자가 있는 조직이 포함됩니다. 이러한 조직에는 다음 범주 중 하나에 속하는 사용자가 있을 수 있습니다.
+지원되는 업그레이드 환경은 조직에 모든 사용자가 프레미스 환경이 있는지 여부에 따라 약간 비즈니스용 Skype 서버 다릅니다.
+- **순수 온라인 조직:** Busineess Server 사용자에 대한 Skype 조직에 대한 지원 업그레이드 프로세스는 조직에 정책을 적용합니다. `TeamsUpgradeOverridePolicy` 이 정책이 적용된 경우 모든 비즈니스용 Skype Online 사용자가 TeamsOnly 모드로 배치됩니다.
+- **프레** 미스 사용자와 비즈니스용 Skype 하이브리드 조직: 하이브리드가 구성되어 있는지에 관계없이 비즈니스용 Skype 서버 있는 모든 사용자가 있는 조직을 포함합니다. 이러한 조직에는 다음 범주 중 하나에 속하는 사용자가 있을 수 있습니다.
 
   - 프레미스에 비즈니스용 Skype 서버 사용자(사용자만 사용할 수 Teams 수 있지만 사용자만 Teams)
-  - Teams 온라인에 비즈니스용 Skype 사용자만
-  - 비 Teams 온라인에 비즈니스용 Skype 사용자만
+  - TeamsOnly Online에 비즈니스용 Skype 사용자
+  - 온라인에 있는 비 TeamsOnly 비즈니스용 Skype 사용자
 
 보조 업그레이드 프로세스는 사용자의 마지막 범주에만 영향을 미치게 됩니다. Teams 온라인에 비즈니스용 Skype 사용자만 Teams 모드로 업그레이드됩니다. 프레미스 비즈니스용 Skype TeamsOnly 사용자와 기존 TeamsOnly 사용자는 지원된 업그레이드 프로세스의 영향을 하지 않습니다.
 

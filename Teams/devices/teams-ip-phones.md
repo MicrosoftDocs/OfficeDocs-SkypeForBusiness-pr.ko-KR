@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 생성하기 위해 인증된 Microsoft Teams 전화 회의 전화에 대해 알아보십시오.
-ms.openlocfilehash: 3418abb7196e855ab86fff72bc7c1e10eb37bfc0
-ms.sourcegitcommit: d3d3d5a70a69359fc71f072ad6c651556f4eda00
+ms.openlocfilehash: eef9fc099a3509e946fd7d776dd878423df1cdea
+ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63783917"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "64480680"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams Android 디바이스
 
@@ -71,9 +71,9 @@ ms.locfileid: "63783917"
 
 | 디바이스 모델 | 펌웨어 버전 | 현재 인증 종료 날짜 | 방 크기                                        |  Android OS 버전    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
-| 깔끔한 막대 | `NFB1.20220211.1158`     |2024년 9월 3일|    작은 미팅룸(4.5m x 4.5m) | 10 |
-| 깔끔한 패드 | `NFA1.20220211.1158 `    | 2023년 8월 5일 |    작은 미팅룸(4.5m x 4.5m) | 9 |
-| 깔끔한 보드 | `NFC1.20220211.1158 `  | 2024년 9월 3일 |    작은 미팅룸(4.5m x 4.5m) | 10 |
+| 깔끔한 막대 | `NFB1.20220211.1400` |2024년 9월 3일|    작은 미팅룸(4.5m x 4.5m) | 10 |
+| 깔끔한 패드 터치 콘솔 | `NFA1.20220211.1400`  | 2023년 8월 5일 |  깔끔한 Bar만 호환 | 9 |
+| 깔끔한 보드 | `NFC1.20220211.1400 ` | 2024년 9월 3일 |    작은 미팅룸(4.5m x 4.5m) | 10 |
 | Logitech Roommate | `1.4.71` | 2024년 9월 3일  | 대형 회의실(4.5m x 8.5m)  |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | 2023년 8월 5일 | EPOS Vision 3T와 함께 제공 | 9 |
 | Logitech Tap Device     | `1.2.982`  |   2024년 9월 3일  | Logitech Rally Bar 및 Rally Bar Mini와 호환 | 10 |
@@ -102,7 +102,7 @@ ms.locfileid: "63783917"
 
 | 디바이스 모델| 펌웨어 버전 | 현재 인증 종료 날짜 | Android OS 버전 |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
-|깔끔한 막대         | `NFB1.20220211.1158` | 2023년 8월 5일 | 9 |
+|깔끔한 패드 패널    | `NFA1.20220211.1400` | 2023년 8월 5일 | 9 |
 |Crestron TSS-770 | `1.003.0082` |2022년 12월 5일  | 8.1 |
 |Crestron TSS-1070 | `1.003.0082`|2022년 12월 5일 | 8.1 |
 |Yealink RoomPanel | `147.15.0.1`|2023년 8월 5일   | 9 |

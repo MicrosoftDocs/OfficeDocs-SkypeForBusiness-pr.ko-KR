@@ -16,12 +16,12 @@ search.appverid: MET150
 f1.keywords:
 - CSH
 description: 관리 센터 디바이스 저장소에서 디바이스를 Teams 방법 자세히 알아보기
-ms.openlocfilehash: cf67b4e99dabab45dec5cb46ca3996a15183d66a
-ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
+ms.openlocfilehash: f83fd22192a8145167ff04a2bd73b88746dd3ce7
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "64404076"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457081"
 ---
 # <a name="purchase-devices-in-the-teams-device-store"></a>디바이스 저장소에서 디바이스 Teams 구입
 
@@ -42,7 +42,7 @@ ms.locfileid: "64404076"
 
 ## <a name="purchase-devices"></a>디바이스 구매
 
-디바이스 저장소에서 디바이스를 구입할 때 배송 및 배달을 포함한 결제 및 처리는 Microsoft 타사 UnifiedCommunications.com 처리됩니다.  
+디바이스 저장소에서 디바이스를 구입할 때 배송 및 배송을 포함한 결제 및 처리는 Microsoft 타사 UnifiedCommunications.com 처리됩니다.  
 
 신용 카드 또는 구매 주문으로 결제할 수 있습니다. 구매 주문 결제에는 주문 처리 공급자와 일회성 설정이 필요합니다.
 
@@ -52,7 +52,7 @@ ms.locfileid: "64404076"
 
 Teams 디바이스 저장소는 사용자 및 테넌트 GUID를 포함하여 기본 사용자 및 회사 정보를 공유해야 UnifiedCommunications.com 관리 센터에서 구매를 Teams 수 있습니다.
 
-데이터 공유는 기본적으로 해제됩니다. 이를 사용하도록 설정하려면 Teams 디바이스 저장소로 이동하고 설정 아이콘을 선택하고 데이터 처리 및 공유를  켜십시오.  
+데이터 공유는 기본적으로 해제됩니다. 이를 사용하도록 설정하려면 Teams 디바이스 저장소로 이동하고 설정 아이콘을 선택한 다음 설정을 끈다.  
 
 이 설정이 해제된 경우 데이터는 공유되지 않습니다. Teams 디바이스 저장소를 찾아볼 수 있지만 구매할 수 없습니다. 설정이 설정되어 있는 동안 처리 공급자와 수집 및 공유된 데이터는 해당 개인 정보 취급 방침에 지정된 경우 처리됩니다.
 
@@ -64,6 +64,6 @@ Teams 디바이스 저장소는 사용자 및 테넌트 GUID를 포함하여 기
 
 ## <a name="provision-devices"></a>디바이스 프로비전
 
-원격 프로비전을 지원하는 디바이스를 구매하면 해당 디바이스가 배송될 때 해당 Teams 관리 센터에 자동으로 추가됩니다. 주문 및 배송 시에 따라 MAC 주소가 TAC에 표시되는 데 약 5일이 걸릴 수 있습니다.
+원격 프로비전을 지원하는 디바이스를 구매하면 해당 디바이스가 배송될 때 해당 Teams 관리 센터에 자동으로 추가됩니다. 주문 및 배송 시에 따라 MAC 주소가 관리 센터에 표시되는 데 약 5일이 Teams 수 있습니다.
 
 디바이스가 배달된 후 원격 프로 [](remote-provision-remote-login.md#generate-a-verification-code) 비전 디바이스를 참조하여 프로비전 및 로그인 프로세스를 완료합니다.
