@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 싱가포르에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: df054ab13da4892961a39bf9387eb50faa8f2863
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 4db07ac8e89583bfce2127b2b30de2df08ad064e
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733489"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504208"
 ---
 # <a name="phone-number-management-for-singapore"></a>전화 번호 관리
 
@@ -33,15 +33,15 @@ ms.locfileid: "60733489"
 
 이 표를 사용하여 싱가포르에서 전화 번호를 받고 관리하는 방법을 Microsoft Teams.
   
-자세한 내용은 조직의 [전화 번호 관리를 참조하세요.](manage-phone-numbers-for-your-organization.md)
+자세한 내용은 조직의 [전화 번호 관리를 참조하세요](manage-phone-numbers-for-your-organization.md).
   
 |**무엇을 하고 싶나요?**|**올바른 양식 다운로드**|
 |:-----|:-----|
-|관리 센터에 나열되지 않은 새 사용자 또는 서비스 Microsoft Teams 수 있습니다. |싱가포르에서는 관리 센터를 사용하여 조직의 전화 번호를 Microsoft Teams 수 있습니다. 양식을 다운로드하여 새 전화 번호 요청을 제출하고 [TNS Service Desk에](contact-tns-service-desk.md)문의하여 지침을 요청할 수 있습니다.<br/><br/>싱가포르에 대한 새 전화 번호 [요청(v.1.0) (en-sg)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) <br/><br/>전화 번호를 할당하기 전에 다음 고객 폼 알고 중 하나를 다운로드해야 합니다.<ul><li>[고객 싱가포르 알고 - 중국 v1.0 zn-CN](https://download.microsoft.com/download/1/4/7/147324ac-06a5-4c7b-a38b-7efa0166fdf7/know-your-customer-for-singapore-(v1.0)-(zh-CN).pdf)</li><li>[싱가포르 고객 알고 - Tamil v1.0 ta-IN](https://download.microsoft.com/download/b/4/8/b48457c1-cef1-4bc7-ae44-71c5302e5eb2/know-your-customer-for-singapore-(v1.0)-(ta-IN).pdf)</li><li>[고객 싱가포르 알고 - Malay v1.0 ms-MY](https://download.microsoft.com/download/f/5/9/f597a754-9478-4d5b-88af-a2a2fe5bbd62/know-your-customer-for-singapore-(v1.0)-(ms-MY).pdf)</li></ul> <br>전체를 완료하고 [지침은 TNS 서비스 데스크에 문의하세요.](contact-tns-service-desk.md)<br/><br/>이 시장을 채우는 데 2~3주가 걸릴 수 있습니다.  |
-|우리에게 전송된 전화 번호를 얻습니다.  <br/> | 이 양식을 다운로드합니다. <br/>[싱가포르에 대한 LOA(모든 숫자) (v.1.0) (en-sg)](https://download.microsoft.com/download/e/9/5/e959053a-4b35-49f9-a23e-7085575c46f2/letter-of-authorization-(loa)-for-singapore-(all-numbers)-(v.1.0)-(en-sg).pdf)<br/> <br/>작성하고 [지침은 TNS 서비스 데스크에 문의하세요.](contact-tns-service-desk.md) <br/><br/>포트의 복잡성에 따라 이 시장에서 숫자 전송을 완료하는 데 1~6주가 걸릴 수 있습니다. <br/><br/>이 숫자는 현재 회의에 사용할 수 없습니다.  |
-|전화 번호 게시/게시를 언퍼블리싱합니다.  <br/> |[게시/게시를](contact-tns-service-desk.md) 해지할 전화 번호 목록에 대한 지침은 TNS 서비스 데스크에 문의하세요. <br/> |
+|관리 센터에 나열되지 않은 새 사용자 Microsoft Teams 전화 번호를 얻습니다. |싱가포르에서는 관리 센터를 사용하여 조직의 전화 번호를 Microsoft Teams 수 있습니다. 양식을 다운로드하여 새 전화 번호 요청을 제출하고 [TNS Service Desk](contact-tns-service-desk.md)에 문의하여 지침을 요청할 수 있습니다.<br/><br/>[싱가포르(v.1.0) (en-sg)에 대한 새 전화 번호 요청](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true)입니다. <br/><br/>전화 번호를 할당하기 전에 다음 고객 폼 알고 중 하나를 다운로드해야 합니다.<ul><li>[고객 싱가포르 알고 - 중국 v1.0 zn-CN](https://download.microsoft.com/download/1/4/7/147324ac-06a5-4c7b-a38b-7efa0166fdf7/know-your-customer-for-singapore-(v1.0)-(zh-CN).pdf)</li><li>[싱가포르 고객 알고 - Tamil v1.0 ta-IN](https://download.microsoft.com/download/b/4/8/b48457c1-cef1-4bc7-ae44-71c5302e5eb2/know-your-customer-for-singapore-(v1.0)-(ta-IN).pdf)</li><li>[고객 싱가포르 알고 - Malay v1.0 ms-MY](https://download.microsoft.com/download/f/5/9/f597a754-9478-4d5b-88af-a2a2fe5bbd62/know-your-customer-for-singapore-(v1.0)-(ms-MY).pdf)</li></ul>전체를 완료하고 지침은 [TNS 서비스 데스크에 문의하세요](contact-tns-service-desk.md).<br/><br/>이 시장을 채우는 데 2~3주가 걸릴 수 있습니다.  |
+|우리에게 전송된 전화 번호를 얻습니다.  <br/> | 이 양식을 다운로드합니다. <br/>[싱가포르에 대한 LOA(모든 숫자) (v.2.0) (en-sg)](<https://download.microsoft.com/download/e/9/5/e959053a-4b35-49f9-a23e-7085575c46f2/Letter of Authorization (LOA) for Singapore (all numbers) (v.2.0) (en-sg).pdf>)<br/> <br/>TNS 서비스 데스크에 문의하여 지침을 [입력합니다](contact-tns-service-desk.md). <br/><br/>포트의 복잡성에 따라 이 시장에서 숫자 전송을 완료하는 데 1~6주가 걸릴 수 있습니다. <br/><br/>이 숫자는 현재 회의에 사용할 수 없습니다.  |
+|전화 번호 게시/게시를 언퍼블리싱합니다.  <br/> |[게시/](contact-tns-service-desk.md) 게시를 해지할 전화 번호 목록에 대한 지침은 TNS 서비스 데스크에 문의하세요. <br/> |
 |사용자 번호를 서비스 번호로 변경합니다.  <br/> |[서비스 번호로](contact-tns-service-desk.md) 변환할 사용자 번호 목록에 대한 지침은 TNS 서비스 데스크에 문의하세요. <br/> |
-|큐 또는 자동 참석자 번호를 호출하기 위해 디렉터리 서비스 업데이트 만들기|통화 큐 또는 자동 전화 번호 추가 또는 변경을 위해 [TNS Service Desk에](contact-tns-service-desk.md)문의하세요.|
+|큐 또는 자동 참석자 번호를 호출하기 위해 디렉터리 서비스 업데이트 만들기|통화 큐 또는 자동 참석자 번호를 추가하거나 변경하기 위해 [TNS Service Desk](contact-tns-service-desk.md)에 문의하세요.|
    
 ## <a name="related-topics"></a>관련 항목
 

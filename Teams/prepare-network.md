@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: f9e11a089c75f1060e509dc9895e97176fc30345
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 748380aec60c578ff6c2b7687cd51a8a07a8024c
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456348"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457061"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams를 사용하기 위한 조직의 네트워크 준비 
 
@@ -106,7 +106,7 @@ ms.locfileid: "59456348"
 </tr>
 <tr class="even">
 <td>Microsoft 데이터 센터로 라우팅</td>
-<td><a href="/office365/enterprise/client-connectivity">가장 효율적인 Microsoft 데이터 센터로의 라우팅을 구현합니다</a>. 로컬 또는 국가별 송신 지점을 사용하여 최대한 효율적으로 Microsoft 네트워크에 연결할 수 있는 위치를 식별합니다.</td>
+<td><a href="/office365/enterprise/client-connectivity">Microsoft 데이터 센터에 가장 효율적인 라우팅을 수행</a>합니다. 로컬 또는 지역 송신 지점을 사용하여 Microsoft 네트워크에 최대한 효율적으로 연결할 수 있는 위치를 식별합니다.</td>
 </tr>
 <tr class="odd">
 <td>침입 탐지 및 예방 지침</td>
@@ -153,7 +153,7 @@ Teams는 네트워크 조건과 상관없이 최상의 오디오, 비디오, 콘
       **형식**
    :::column-end:::
    :::column span="3":::
-      **대역폭 요구 사항(비트 Kb/s up/down)**
+      **대역폭 요구 사항(비트 KB/s up/down)**    
    :::column-end:::
 :::row-end:::
 :::row:::

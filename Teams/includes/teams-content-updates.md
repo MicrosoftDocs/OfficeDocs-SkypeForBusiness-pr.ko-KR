@@ -3,6 +3,86 @@
 
 
 
+## <a name="week-of-march-21-2022"></a>2022년 3월 21일 주
+
+
+| 게시 에 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 3/21/2022 | [Microsoft Teams의 공유 채널(미리 보기)](/MicrosoftTeams/shared-channels) | 추가되었습니다. |
+| 3/21/2022 | [Microsoft Teams에서 팀 소유자 및 구성원 할당](/MicrosoftTeams/assign-roles-permissions) | 수정되었습니다. |
+| 3/21/2022 | [감사 로그에서 이벤트에 대한 Microsoft Teams](/MicrosoftTeams/audit-log-events) | 수정되었습니다. |
+| 3/21/2022 | [팀 구성에 대한 모범 사례](/MicrosoftTeams/best-practices-organizing) | 수정되었습니다. |
+| 3/21/2022 | [Microsoft Teams의 채팅, 팀, 채널](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | 수정되었습니다. |
+| 3/21/2022 | [Teams](/MicrosoftTeams/devices/teams-ip-phones) | 수정되었습니다. |
+| 3/21/2022 | [콘텐츠에 대한 eDiscovery 조사 수행](/MicrosoftTeams/ediscovery-investigation) | 수정되었습니다. |
+| 3/21/2022 | [교육용 Teams 정책 마법사를 통해 안전한 학습을 위한 정책을 쉽게 적용할 수 있습니다.](/MicrosoftTeams/easy-policy-setup-edu) | 수정되었습니다. |
+| 3/21/2022 | [가상 Teams - Cerner EHR에 통합](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-cerner) | 수정되었습니다. |
+| 3/21/2022 | [Teams 관리 센터에서 팀 템플릿 시작하기](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 수정되었습니다. |
+| 3/21/2022 | [Microsoft Teams의 게스트 액세스](/MicrosoftTeams/guest-access) | 수정되었습니다. |
+| 3/21/2022 | [법적 Microsoft Teams 사용자 또는 팀을 법적 보류에 두기](/MicrosoftTeams/legal-hold) | 수정되었습니다. |
+| 3/21/2022 | [Microsoft Teams의 제한 사항 및 사양](/MicrosoftTeams/limits-specifications-teams) | 수정되었습니다. |
+| 3/21/2022 | [채널 중재 설정 및 관리](/MicrosoftTeams/manage-channel-moderation-in-teams) | 수정되었습니다. |
+| 3/21/2022 | [태그 관리 Microsoft Teams](/MicrosoftTeams/manage-tags) | 수정되었습니다. |
+| 3/21/2022 | [Teams에서 메시징 정책 관리](/MicrosoftTeams/messaging-policies-in-teams) | 수정되었습니다. |
+| 3/21/2022 | [Slack에서 Microsoft Teams로 마이그레이션](/MicrosoftTeams/migrate-slack-to-teams) | 수정되었습니다. |
+| 3/21/2022 | [Teams 사용자 유형에 따라 앱 동작 변경](/MicrosoftTeams/non-standard-users) | 수정되었습니다. |
+| 3/21/2022 | [Teams 거버넌스 계획 - Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | 수정되었습니다. |
+| 3/21/2022 | [Microsoft Teams의 비공개 채널](/MicrosoftTeams/private-channels) | 수정되었습니다. |
+| 3/21/2022 | [비즈니스용 Skype Online 단종](/MicrosoftTeams/skype-for-business-online-retirement) | 수정되었습니다. |
+| 3/21/2022 | [Microsoft Teams의 Teams 및 채널 개요](/MicrosoftTeams/teams-channels-overview) | 수정되었습니다. |
+| 3/21/2022 | [채널 정책 관리 Microsoft Teams](/MicrosoftTeams/teams-policies) | 수정되었습니다. |
+| 3/21/2022 | [Teams Power Platform과 통합](/MicrosoftTeams/teams-power-platfom-integration) | 수정되었습니다. |
+| 3/21/2022 | [정보 장벽 및 공유 채널(미리 보기)](/MicrosoftTeams/information-barriers-shared-channels) | 추가되었습니다. |
+| 3/21/2022 | [Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | 수정되었습니다. |
+| 3/21/2022 | [CQD Power BI 보고서를 사용하여 큐 기록 자동 전화 교환 & 보기](/MicrosoftTeams/cqd-teams-aa-cq-historical-report) | 수정되었습니다. |
+| 3/21/2022 | [자동 전화 교환 & 큐 기록 보고서 호출](/MicrosoftTeams/aa-cq-cqd-historical-reports) | 수정되었습니다. |
+| 3/21/2022 | [자동 참석자 설정 Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 수정되었습니다. |
+| 3/21/2022 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 수정되었습니다. |
+| 3/21/2022 | [자동 참석자 및 통화 큐 전화 걸기 및 음성 인식 참조](/MicrosoftTeams/dial-voice-reference) | 수정되었습니다. |
+| 3/21/2022 | [Microsoft Teams를 위한 보존 정책 만들기 및 관리](/MicrosoftTeams/retention-policies) | 수정되었습니다. |
+| 3/21/2022 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 수정되었습니다. |
+| 3/21/2022 | [회의실에 대한 Teams](/MicrosoftTeams/teams-meeting-room-guidance) | 수정되었습니다. |
+| 3/22/2022 | [Microsoft Teams 룸 및 방 계획](/MicrosoftTeams/rooms/standards-and-room-planner) | 수정되었습니다. |
+| 3/22/2022 | [Microsoft Teams의 Teams 및 채널 개요](/MicrosoftTeams/teams-channels-overview) | 수정되었습니다. |
+| 3/22/2022 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 수정되었습니다. |
+| 3/22/2022 | [Microsoft Teams PowerShell 릴리스 정보](/MicrosoftTeams/teams-powershell-release-notes) | 수정되었습니다. |
+| 3/22/2022 | [태그 관리 Microsoft Teams](/MicrosoftTeams/manage-tags) | 수정되었습니다. |
+| 3/23/2022 | [사용자 및 그룹에 정책 할당](/MicrosoftTeams/assign-policies-users-and-groups) | 수정되었습니다. |
+| 3/23/2022 | [Microsoft Teams 문서 # < 60개 chars](/MicrosoftTeams/index) | 수정되었습니다. |
+| 3/23/2022 | [Microsoft Teams의 비공개 채널](/MicrosoftTeams/private-channels) | 수정되었습니다. |
+| 3/23/2022 | [Azure monitor를 사용하여 Microsoft Teams 룸 디바이스 모니터링](/MicrosoftTeams/rooms/azure-monitor-manage) | 수정되었습니다. |
+| 3/23/2022 | [Teams PowerShell 모듈 - 지원되는 버전](/MicrosoftTeams/teams-powershell-supported-versions) | 수정되었습니다. |
+| 3/23/2022 | [전화 회의에 Teams 정책 기반 기록에 대한 & 소개](/MicrosoftTeams/teams-recording-policy) | 수정되었습니다. |
+| 3/23/2022 | [직접 라우팅에 대한 인증된 SBC(Session Border Controller)](/MicrosoftTeams/direct-routing-border-controllers) | 수정되었습니다. |
+| 3/23/2022 | [직접 라우팅에 대한 사용자 사용](/MicrosoftTeams/direct-routing-enable-users) | 수정되었습니다. |
+| 3/23/2022 | [전화 시스템 직접 라우팅](/MicrosoftTeams/direct-routing-protocols-sip) | 수정되었습니다. |
+| 3/23/2022 | [로그 파일을 사용하여 문제 해결 Microsoft Teams](/MicrosoftTeams/log-files) | 수정되었습니다. |
+| 3/23/2022 | [관리 센터에서 앱 Microsoft Teams 관리](/MicrosoftTeams/manage-apps) | 수정되었습니다. |
+| 3/23/2022 | [프런트 Teams 앱 맞춤 설정](/MicrosoftTeams/pin-teams-apps-based-on-license) | 수정되었습니다. |
+| 3/23/2022 | [SIP Gateway 구성](/MicrosoftTeams/sip-gateway-configure) | 수정되었습니다. |
+| 3/23/2022 | [앱 설정 정책 관리 Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | 수정되었습니다. |
+| 3/24/2022 | [Teams](/MicrosoftTeams/devices/teams-ip-phones) | 수정되었습니다. |
+| 3/24/2022 | [비즈니스용 Skype Online 단종](/MicrosoftTeams/skype-for-business-online-retirement) | 수정되었습니다. |
+| 3/24/2022 | [Teams PowerShell 모듈 - 지원되는 버전](/MicrosoftTeams/teams-powershell-supported-versions) | 수정되었습니다. |
+| 3/24/2022 | [비즈니스 온라인에서 \| 업그레이드 Skype 업그레이드에 Teams 업그레이드](/MicrosoftTeams/upgrade-assisted) | 수정되었습니다. |
+| 3/24/2022 | [앱, 봇, & 연결선 Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 수정되었습니다. |
+| 3/24/2022 | [크기 및 측정값 - CQD(품질 대시보드 호출)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 수정되었습니다. |
+| 3/24/2022 | [소매용 Teams](/MicrosoftTeams/expand-teams-across-your-org/teams-for-retail-landing-page) | 수정되었습니다. |
+| 3/24/2022 | [콘텐츠 공유를 위한 모임 정책 관리](/MicrosoftTeams/meeting-policies-content-sharing) | 수정되었습니다. |
+| 3/24/2022 | Teams Power Platform과 통합 | 제거됨 |
+| 3/25/2022 | [사용자의 전화 번호 할당, 변경 또는 제거](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 수정되었습니다. |
+| 3/25/2022 | [앱 사용자 지정 Microsoft Teams](/MicrosoftTeams/customize-apps) | 수정되었습니다. |
+| 3/25/2022 | [Teams 디바이스 저장소](/MicrosoftTeams/devices/device-store) | 수정되었습니다. |
+| 3/25/2022 | [Microsoft Teams 관리 센터에서 팀 관리](/MicrosoftTeams/manage-teams-in-modern-portal) | 수정되었습니다. |
+| 3/25/2022 | [Teams에 대한 조직의 네트워크 준비](/MicrosoftTeams/prepare-network) | 수정되었습니다. |
+| 3/25/2022 | [공용 영역 라이선스 전화 설정](/MicrosoftTeams/set-up-common-area-phones) | 수정되었습니다. |
+| 3/25/2022 | [앱 Teams API를 사용하여 사용자 지정 앱을 제출하고 승인합니다.](/MicrosoftTeams/submit-approve-custom-apps) | 수정되었습니다. |
+| 3/25/2022 | [Microsoft Teams에서 앱 사용 권한 정책 관리](/MicrosoftTeams/teams-app-permission-policies) | 수정되었습니다. |
+| 3/25/2022 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 수정되었습니다. |
+| 3/25/2022 | [비즈니스 온라인에서 \| 업그레이드 Skype 업그레이드에 Teams 업그레이드](/MicrosoftTeams/upgrade-assisted) | 수정되었습니다. |
+| 3/25/2022 | [Microsoft Teams 관리자 역할을 사용하여 Teams 관리](/MicrosoftTeams/using-admin-roles) | 수정되었습니다. |
+
+
 ## <a name="week-of-march-14-2022"></a>2022년 3월 14일 주
 
 

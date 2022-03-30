@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b84957e7451b75b804d2c279e160a260dabfbea8
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: d00cc5cd41d0b48f55564894a78f066406288151
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579538"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456951"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 팀 관리
 
@@ -39,11 +39,12 @@ ms.locfileid: "60579538"
 
 [Microsoft Teams 관리자 역할을 사용하여 Teams 관리](using-admin-roles.md)에서 Teams의 관리자 역할에 대해 자세히 알아볼 수 있으며, [Microsoft Teams cmdlet 참조](/powershell/teams/)에서 PowerShell cmdlet을 사용하여 팀을 관리하는 방법에 대해 자세히 알아볼 수 있습니다.
 
-
+> [!NOTE]
+> 비즈니스용 Skype Online 관리자는 PowerShell을 통해 **Teams** 및 **비즈니스용 Skype Online** 앱 정책을 관리할 수 있습니다.
 
 ## <a name="teams-overview-grid"></a>Teams 개요 그리드
 
-팀을 위한 관리 도구는 Microsoft Teams 관리 센터의 **Teams** 노드에 ​​있습니다. (관리 센터에서 **Teams** > **팀 관리** 를 선택합니다.) 각 팀은 Microsoft 365 그룹의 지원을 받으며 이 노드는 귀하의 조직에서 Microsoft Teams를 사용했던 그룹에 대한 보기를 제공합니다.
+팀용 관리 도구는 Microsoft Teams 관리 센터의 **Teams** 노드에 있습니다. (관리 센터에서 **Teams** > **팀 관리** 를 선택합니다.) 각 팀은 Microsoft 365 그룹의 지원을 받으며 이 노드는 조직에서 Microsoft Teams를 사용해 온 그룹의 보기를 제공합니다.
 
 ![Teams 개요 표의 스크린샷.](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -65,7 +66,7 @@ ms.locfileid: "60579538"
 
 ### <a name="add"></a>추가
 
-새 팀을 추가하려면 **추가** 을 클릭합니다. **새 팀 추가** 창에서 팀 이름과 설명을 제공하고 비공개 팀으로 만들지 공개 팀으로 만들지 여부를 설정하고 분류를 설정합니다.
+새 팀을 추가하려면 **추가** 를 클릭합니다. **새 팀 추가** 창에서 팀 이름과 설명을 제공하고 비공개 팀으로 만들지 공개 팀으로 만들지 여부를 설정하고 분류를 설정합니다.
 
 > [!NOTE]
 > Outlook과 같은 다른 클라이언트의 경험과 달리 새로 만든 팀은 Teams 관리 센터에서 바로 관리할 수 있습니다.

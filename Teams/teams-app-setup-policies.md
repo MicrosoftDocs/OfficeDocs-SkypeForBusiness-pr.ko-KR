@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 677ee2b0d57477ee79a9af7510d0ccf2dfbcae28
-ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
+ms.openlocfilehash: 1ed41c595a386607942c81dda8f151435a1d1ac7
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63774017"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504148"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>앱 설정 정책 관리 Microsoft Teams
 
@@ -61,28 +61,30 @@ ms.locfileid: "63774017"
 
 앱을 고정하기 위한 앱 설정 정책을 만들 경우 다음 단계를 수행합니다.
 
-1. 관리 센터의 [왼쪽 탐색](https://www.admin.teams.microsoft.com)에서 Teams **appsSetup** >  정책으로 **Teams** 합니다.
+1. 관리 센터에 [Microsoft Teams 로그인합니다](https://admin.teams.microsoft.com).
 
-2. **추가** 를 선택합니다.
+1. 왼쪽 창에서 Teams **AppsSetup** >  **정책으로 이동하세요**.
 
-3. 정책의 이름과 설명을 입력합니다.
+1. **추가** 를 선택합니다.
 
-4. 사용자 고정 **을 설정합니다**.
+1. 정책의 이름과 설명을 입력합니다.
+
+1. 사용자 고정 **을 설정합니다**.
 
    > [!NOTE]
    > 사용자 **고정** 설정은 Teams(Microsoft 365 정부 커뮤니티 클라우드 GCC) 환경(GCC, GCC 및 DoD)의 관리 센터에서 사용할 수 있지만 현재는 효과가 없습니다.
 
-5. 고정 **된 앱 아래** 에서 앱 **추가를 선택합니다**.
+1. 고정 **된 앱 아래** 에서 앱 **추가를 선택합니다**.
 
-6. 고정 **된 앱** 추가 창에서 추가할 앱을 검색한 다음 추가를 **선택합니다**. 앱 사용 권한 정책에 따라 앱을 필터링할 수 있습니다.
+1. 고정 **된 앱** 추가 창에서 추가할 앱을 검색한 다음 추가를 **선택합니다**. 앱 사용 권한 정책에 따라 앱을 필터링할 수 있습니다.
 
-7. **추가** 를 선택합니다.
+1. **추가** 를 선택합니다.
 
-8. **앱** 표시줄 또는 **메시징** 확장 아래에서 앱에 표시하려는 순서대로 앱을 Teams.
+1. **앱** 표시줄 또는 **메시징** 확장 아래에서 앱에 표시하려는 순서대로 앱을 Teams.
 
    ![고정된 앱 섹션입니다.](media/pin-messaging-extensions.png)
 
-9. **저장** 을 선택합니다.
+1. **저장** 을 선택합니다.
 
 ## <a name="install-apps"></a>앱 설치
 

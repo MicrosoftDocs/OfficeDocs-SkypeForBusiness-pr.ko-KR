@@ -1331,12 +1331,6 @@ items:
                 href: rooms/rooms-deploy.md
               - name: 계정 구성
                 href: rooms/rooms-configure-accounts.md
-              - name: Surface Hub
-                items:
-                  - name: 조정된 모임 설정
-                    href: rooms/coordinated-meetings.md
-                  - name: Microsoft Teams 설정 관리
-                    href: rooms/surface-hub-manage-config.md
               - name: 리소스 계정 만들기
                 href: rooms/with-office-365.md
               - name: 비즈니스용 Skype 서버를 사용하면

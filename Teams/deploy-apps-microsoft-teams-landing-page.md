@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: be7ee83b510096d8d6ffc0c4a0a5984917ad55c5
-ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
+ms.openlocfilehash: bd5ab3395aa870d0be073a0afcd08aafe9110637
+ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "64403979"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "64480660"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>Microsoft Teams의 앱 정보
 
@@ -94,7 +94,7 @@ Teams 스토어에서 앱을 다운로드합니다. 기본적으로 [Teams 스�
 
 ### <a name="custom-connectors"></a>사용자 지정 커넥터
 
-커넥터는 자주 사용하는 서비스의 콘텐츠와 업데이트를 채널에 직접 제공하여 팀을 최신 상태로 유지합니다. 커넥터를 사용하면 Teams 사용자는 Teams 채팅에서 Twitter, Trello, Wunderlist, GitHub 및 Azure DevOps 서비스와 같은 인기 서비스로부터 업데이트를 받을 수 있습니다.
+커넥터는 자주 사용하는 서비스의 콘텐츠와 업데이트를 채널에 직접 제공하여 팀을 최신 상태로 유지합니다. 커넥터를 사용하면 Teams 사용자는 Teams 채팅에서 Trello, Wunderlist, GitHub 및 Azure DevOps Services와 같은 인기 서비스로부터 업데이트를 받을 수 있습니다.
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|

@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 앱에서 앱을 사용자 지정하는 방법을 Microsoft Teams.
-ms.openlocfilehash: a8862e5c8b8d7d63f88274ed47cf647572b54401
-ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
+ms.openlocfilehash: 2696768bbd7ed930652d8671600f9721f15960b7
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64456901"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504128"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>앱 사용자 지정 Microsoft Teams
 
- Microsoft Teams 환경을 향상시키는 앱 사용자 지정을 Teams 제공합니다. 일부 앱 개발자는 앱 관리자에 의해 앱을 사용자 Teams 수 있습니다. 관리자는 관리 센터 관리 페이지를 사용하여 조직 요구에 따라 앱 속성을 사용자 지정하거나 Teams **수** 있습니다. 사용자 지정할 수 있는 세부 정보는 다음을 참조합니다.
+ Microsoft Teams 환경을 향상시키는 앱 사용자 지정을 Teams 제공합니다. 일부 앱 개발자는 앱 관리자에 의해 앱을 사용자 Teams 수 있습니다. 관리자는 관리 센터 관리 페이지를 사용하여 조직 요구에 따라 앱 속성을 사용자 지정하거나 Microsoft Teams **수** 있습니다. 사용자 지정할 수 있는 세부 정보는 다음을 참조합니다.
 
 - 짧은 이름
 - 간략한 설명
@@ -49,7 +49,7 @@ ms.locfileid: "64456901"
 
 앱 사용자 지정을 시작하고 다음 단계를 완료합니다.
 
-1. Teams 관리 센터에 로그인합니다.
+1. 관리 센터에 [Teams 로그인합니다](https://admin.teams.microsoft.com/dashboard).
 
 2. 앱을 **Teams** 앱을 확장하고 **앱 관리를 선택합니다**.
 
@@ -63,7 +63,7 @@ ms.locfileid: "64456901"
 
      ![사용자 지정 선택 옵션 1.](media/select-app-to-customize1.png)
 
-   - 앱 이름을 선택한 다음 **사용자 지정 가능을 선택합니다**.
+   - 앱 이름을 선택한 다음 사용자 지정 가능에서 편집 아이콘 **을 선택합니다**.
 
      ![사용자 지정 선택 옵션 2.](media/app-details-customizable.png)
 

@@ -21,16 +21,16 @@ description: 관리 센터의 Microsoft Teams 관리 교육용 Teams.
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88414131b5ba8fee750efef8d0b6f6f5313e13fd
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: 529240db27824ce8bf872d23636b904198ef7db1
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363144"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504138"
 ---
 # <a name="assignments-in-teams-for-education"></a>교육용 Teams의 과제
 
-과제 및 성적 기능은 교육용 Teams 학생에게 작업, 작업 또는 퀴즈를 할당할 수 있도록 합니다. 교육자는 과제 일정, 지침, 전환할 리소스를 추가하고, 루브릭을 사용하여 채점할 수 있습니다. 성적 탭에서 수업 및 개별 학생 진행률을 추적할 수도 있습니다.
+학생의 과제 및 성적 교육용 Teams 학생에게 작업, 작업 또는 퀴즈를 할당할 수 있습니다. 교육자는 과제 일정, 지침, 전환할 리소스를 추가하고, 루브릭을 사용하여 채점할 수 있습니다. 성적 탭에서 수업 및 개별 학생 진행률을 추적할 수도 있습니다.
 
 [과제 및](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments) 성적에 대해 교육용 Teams.
 
@@ -52,7 +52,7 @@ ms.locfileid: "62363144"
 2. 설정이 기본적으로 꺼져 Microsoft Teams 관리 센터에서 보호자 설정을  켜면 됩니다. 이렇게 하면 교사가 매주 다이제스트를 보낼 수 있습니다.
 
    > [!NOTE]
-   > 교사는 자신의 개인 수업 팀 내에서 설정을 선택 해제하여 다이제스트를 옵트아웃할 수 있습니다 **(학부모/** 보호자 설정 > 할당).
+   > 교사는 자신의 개인 수업 팀 내에서 설정을 선택 해제하여 다이제스트를 옵트아웃할 수 있습니다 **(학부** 모/보호자 설정 > 할당).
 
 부모가 전자 메일을 받을지 확인하려면 다음 세 항목이 true가 되어야 합니다.
 
@@ -74,7 +74,7 @@ MakeCode는 Microsoft 사용 약관 및 개인 정보 취급 방침이 적용 [�
 
 이 기능에 대한 기본 설정은 - **꺼집니다**.
 
-MakeCode 할당을 Teams 관리 센터로 Teams 관리 센터로 이동 **하고 과제 섹션** 으로 이동한 다음 MakeCode 토글 옵션을  켜기로 **설정합니다**. **저장** 을 클릭합니다. 이러한 설정이 적용되는 데 몇 시간을 허용합니다.
+MakeCode 할당을 Teams 관리 센터로 Teams 관리 센터로 이동 **하고 과제 섹션** 으로 이동한 다음 MakeCode 토글 옵션을  켜기로 **설정합니다**. **저장** 을 선택합니다. 이러한 설정이 적용되는 데 몇 시간을 허용합니다.
 
 이 기능의 작동 방식에 대한 자세한 내용은 이 비디오 데모 [를 시청하세요](https://makecode.com/blog/teams/teams-assignments).
 
@@ -86,7 +86,7 @@ MakeCode 할당을 Teams 관리 센터로 Teams 관리 센터로 이동 **하고
 
 [Turnitin](https://www.turnitin.com/) 은 학업 무결성 서비스입니다. 이 서비스는 자체 약관 및 개인 정보 취급 방침을 적용하는 타사 서비스입니다. 귀하는 타사 제품 및 서비스를 사용할 책임이 있습니다.
 
-이 기능에 대한 기본 설정은 - **Off**.입니다.
+이 기능에 대한 기본 설정은 - **꺼집니다**.
 
 조직에 대해 Turnitin을 사용하도록 설정하려면 Turnitin 구독이 필요합니다. 그런 다음 Turnitin 관리 콘솔에서 찾을 수 있는 다음 정보를 입력할 수 있습니다.
 
@@ -113,14 +113,14 @@ API 키를 복사하여 관리 센터에 Microsoft Teams 붙여넣습니다.  �
 
 ## <a name="assignments-data"></a>할당 데이터
 
-과제는 교사와 학생이 모두 생성한 정보를 저장합니다. 모든 데이터는 교사와 수업에서 정보가 의도된 특정 학생 간에 공유됩니다. 이 두 개의 저장소가 있으며, SharePoint 외부에 SharePoint.
+과제는 교사와 학생이 모두 생성한 정보를 저장합니다. 모든 데이터는 교사와 수업에서 정보가 의도된 특정 학생 간에 공유됩니다. 이 데이터의 저장소는 SharePoint 외부에 SharePoint.
 
 >[!NOTE]
 >진행률 읽기와 같은 제1자 통합에도 동일한 규칙이 적용됩니다.
 
-### <a name="assignments-data-in-sharepoint-document-libraries"></a>문서 라이브러리의 SharePoint 할당
+### <a name="assignments-data-in-sharepoint-document-libraries"></a>문서 라이브러리의 할당 SharePoint 데이터
 
-과제 제출과 연결된 학생의 파일은 문서 라이브러리에 저장됩니다(명명: *Student Work).* 교사가 생성하고 학생이 액세스할 수 있는 과제와 연결된 파일은 해당 수업 팀 웹 사이트의 다른 문서 라이브러리(클래스 파일SharePoint 저장됩니다. 또한 과제 데이터를 동일한 클래스 팀 SharePoint 사이트에 저장할 수도 있습니다(명명: 과제 제목 + 타임스탬 *프).*
+과제 제출과 연결된 학생의 파일은 문서 라이브러리에 저장됩니다(명명: *Student Work).* 교사가 생성하고 학생이 액세스할 수 있는 과제와 연결된 파일은 해당 수업 팀 웹 사이트의 다른 문서 라이브러리(수업 파일: 클래스 파일)에 SharePoint. 또한 제1자 통합은 할당 데이터를 동일한 클래스 팀 SharePoint 사이트에 저장할 수 있습니다(명명: 할당 제목 + 타임스탬 *프).*
 
 #### <a name="files-associated-with-the-student"></a>학생과 연결된 파일
 
@@ -128,11 +128,11 @@ IT 관리자는 콘텐츠 검색 도구를 사용하여 과제 제출 및 과제
 
 #### <a name="files-associated-with-the-teacher"></a>교사와 연결된 파일
 
-IT 관리자는 콘텐츠 검색 도구를 사용하여 과제와 관련된 교사 파일(*학생* *작업, 수업* 파일 또는 기타 제1자 통합 파일)을 검색할 수 있습니다. 예를 들어 관리자는 조직의 모든 SharePoint 검색하고 검색 쿼리에서 교사의 이름 및 수업 또는 과제 이름을 사용하여 DSR과 관련된 데이터를 찾을 수 있습니다.
+IT 관리자는 콘텐츠 검색 도구를 사용하여 과제에 대한 수업 내의 교사가 학생들에게 배포한 과제 및 파일과 관련된 교사 파일(*학생* *작업, 수업* 파일 또는 기타 제1자 통합 파일)을 검색할 수 있습니다. 예를 들어 관리자는 조직의 모든 SharePoint 검색하고 검색 쿼리에서 교사의 이름 및 수업 또는 과제 이름을 사용하여 DSR과 관련된 데이터를 찾을 수 있습니다.
 
 ### <a name="assignments-data-outside-of-sharepoint-document-libraries"></a>문서 라이브러리 외부의 SharePoint 할당
 
-할당과 관련된 일부 데이터는 클래스 팀 SharePoint 사이트에 저장되지 않습니다. 즉, Content Search에서 검색할 수 없습니다. 여기에는 다음이 포함됩니다.
+할당과 관련된 일부 데이터는 수업 팀 SharePoint 사이트에 저장되지 않습니다. 즉, Content Search에서 검색할 수 없습니다. 여기에는 다음이 포함됩니다.
 
 - 교사의 학생 성적 및 피드백
 - 각 학생이 과제에 제출한 문서 목록
@@ -156,7 +156,7 @@ IT 관리자는 콘텐츠 검색 도구를 사용하여 과제와 관련된 교�
 
 대량 내보내기 과제 데이터는 학생에게 동일한 방식으로 작동하지만 교사가 액세스할 수 있는 모든 제출은 내보낼 수 있습니다.
 
-### <a name="bulk-delete-assignment-data-outside-of-sharepoint-document-libraries"></a>문서 라이브러리 외부에서 할당 SharePoint 대량 삭제
+### <a name="bulk-delete-assignment-data-outside-of-sharepoint-document-libraries"></a>문서 라이브러리 외부의 할당 SharePoint 대량 삭제
 
 #### <a name="for-a-student"></a>학생용
 
@@ -172,8 +172,41 @@ a를 ``ClassId`` 제공하면 관리자가 특정 수업에서 학생에 대한 
 
 ## <a name="removing-assignments-and-grades"></a>과제 및 성적 제거
 
-또한 특정 사용자 또는 Teams 할당 및 성적을 제거할 수 있습니다.
+또한 특정 사용자 또는 Teams 할당 및 성적을 제거하기 위한 정책도 사용할 수 있습니다.
 
-개별 사용자에 대한 할당 및 성적을 제거하려면 관리 센터로 Teams  관리 센터로 이동하여 Teams > 정책으로 이동하여 새 앱 사용 **권한** 정책 정의를 만들 수 있습니다.  새 정책 정의를 만들 때 Microsoft 앱 정책을 **특정** 앱 차단으로  설정하고 다른 모든 앱을 허용하고 할당을  차단된 애플리케이션 목록에 추가합니다. 새 정책 정의가 저장되고 나면 해당 사용자에게 할당합니다.
+개별 사용자에 대한 할당 및 성적을 제거하려면 관리 센터로 Teams  관리 센터로 이동하여 Teams > 권한 정책으로 이동하여 새 앱 사용 **권한** 정책 정의를 만들 수 있습니다.  새 정책 정의를 만들 때 Microsoft 앱 정책을 **특정** 앱 차단으로  설정하고 다른 모든 앱을 허용하고 할당을  차단된 애플리케이션 목록에 추가합니다. 새 정책 정의가 저장되고 나면 해당 사용자에게 할당합니다.
 
-전체 **테** 넌트에 대한 할당 및 성적을 제거하려면 관리 센터로 Teams 관리 센터로 이동하여 앱 관리 Teams > 앱으로 이동한 다음, 애플리케이션 목록에서 **과제** 를 검색하고 선택합니다. 할당 애플리케이션 설정 페이지에서 상태 설정을 차단으로 _변경합니다_.
+전체 **테** 넌트에 대한 할당 및 성적을 제거하려면 관리 센터로 Teams 관리 센터로 이동하여 앱 Teams > 관리로 이동한 **다음, 애플리케이션** 목록에서 과제를 검색하고 선택합니다. 할당 애플리케이션 설정 페이지에서 상태 설정을 차단으로 _변경합니다_.
+
+## <a name="assignments-diagnostic-tool-for-users"></a>사용자를 위한 과제 진단 도구
+
+Microsoft 지원은 과제 기능과 관련된 문제를 조사하기 위해 Microsoft 엔지니어링 팀에 대한 진단 데이터를 수집하는 도구를 만들었다.
+
+이 도구는 사용자가 문제가 있는 모든 화면에서 할당 내부에 액세스할 수 있습니다.
+
+진단 도구를 끌어오기 위해 Teams 수 있습니다.
+
+- **데스크톱 및 웹에서:**
+  - Select Ctrl+/
+- **모바일 장치에서:**
+  - 두 손가락으로 화면을 터치하고 손가락을 45도 회전하거나
+  - 15초 동안 세 손가락으로 화면을 탭합니다.
+
+진단 도구가 팝업된 후 사용자는 Microsoft 기술 지원에서 필요할 수 있는 데이터 목록을 볼 수 있습니다.
+
+끌어오는 데이터는 다음을 포함할 수 있습니다.
+
+- 그룹 ID
+- 테넌트 ID
+- 세션 ID
+- 할당 ID
+- 제출 ID
+- 사용자 ID
+
+이 데이터는 Microsoft로 자동으로 전송되지 않습니다. 사용자는 지원 티켓과 관련하여 Microsoft 지원 에이전트에 데이터를 복사하여 붙여넣아야 합니다.
+
+사용자가 진단 도구를 끌어오면 닫히면 데이터가 전송되지 않습니다.
+
+데이터가 Microsoft 지원 에이전트로 전송되는 경우 조직의 서비스 계약에 따라 지원 데이터로 Microsoft 365 처리됩니다.
+
+교육자 및 학생과 공유할 수 있는 이 진단 도구를 사용하는 방법에 대한 지침은 진단 데이터 보기를 참조하여 과제 문제를 [해결합니다](https://support.microsoft.com/topic/b40793f5-dbae-4c8a-841a-6baa7f232e2e).
