@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b02e3f441ad7a4a338c86e89b2740561d3d552d7
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: ac7ac28eca8a139d9a7d1ff5a8100af1de772955
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711572"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556279"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>회의실에 대한 Teams
 
@@ -232,7 +232,7 @@ Microsoft의 유연한 작업 지침은 직원에게 작업할 위치와 때에 
 
 울트라와이드 앵글 카메라는 공간의 모든 사람을 캡처하기 위해 디스플레이 아래에 있는 방 앞에 배치됩니다.
 
-울트라와이드 천사 카메라는 모임 참가자를 지능적으로 추적하여 전체 회의실의 큰 이미지 내의 얼굴 대신 큰 보기에서 개별적으로 표현할 수 있습니다.
+초광각 카메라는 모임 참가자를 지능적으로 추적하여 전체 회의실의 큰 이미지 내의 얼굴 대신 큰 보기에서 개별적으로 표현할 수 있습니다.
 
 ![오버헤드 보기에서 향상된 회의실 렌더링.](media/emr5.png)
 
@@ -246,7 +246,7 @@ Microsoft의 유연한 작업 지침은 직원에게 작업할 위치와 때에 
 
 모임 콘텐츠는 의제, 작업 및 노트와 같은 상황에 맞는 유동성 구성 요소로 둘러싸여 있으며, 실시간으로 업데이트하여 참가자가 참여하고 생산성을 유지하게 합니다. 또한 모임 채팅이 명확하게 표시되어 Teams 회의실에서 모임에 참가할 Teams 실시간으로 대화를 쉽게 보고 참여할 수 있습니다. 향상된 Microsoft Teams 회의실에서 이 콘텐츠는 모임 콘텐츠의 크기와 동시에 볼 수 있는 참가자 수를 최대화하기 위해 와이드 측면 비율 화면에 표시됩니다.
 
-이 레이아웃은 단일 및 이중 디스플레이 구성 모두에서 지원될 예정으로, 소프트웨어 업데이트를 통해 Teams 룸 제공됩니다. 앞줄 레이아웃은 향상된 방에서 특히 영향을 미치지만 전면 행은 가구 및 하드웨어 구성에 Teams 실행되는 모든 Windows 사용할 수 있습니다.
+이 레이아웃은 단일 및 이중 디스플레이 구성 모두에서 지원됩니다. 앞줄 레이아웃은 향상된 방에서 특히 영향을 미치지만 전면 행은 가구 및 하드웨어 구성에 Teams 실행되는 모든 Windows 사용할 수 있습니다.
 
 ### <a name="how-do-you-co-create-content"></a>콘텐츠를 공동 만드는 방법
 

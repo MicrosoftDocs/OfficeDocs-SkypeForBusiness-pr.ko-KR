@@ -1,5 +1,5 @@
 ---
-title: 리소스 Microsoft Teams 전화 시스템 설정
+title: 시스템 Microsoft Teams 전화 계정 설정
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 자동 참석자에 사용할 Microsoft Teams 전화 시스템 리소스 계정을 설정하는 방법에 대해 자세히 알아보습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0953ef81ef3128da858733931a43238531e83b6
-ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
+ms.openlocfilehash: 7764d6b7f7d09cd2c5065ab24e73cb0fdec9c5c6
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "63053247"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556549"
 ---
 # <a name="step-4-set-up-a-teams-phone-system-resource-account"></a>4단계: Teams 전화 시스템 계정 설정
 
@@ -34,12 +34,12 @@ ms.locfileid: "63053247"
 
 ## <a name="obtain-virtual-user-licenses"></a>가상 사용자 라이선스 획득
 
-리소스 계정에는 자동 참석자 및 호출 큐를 사용하려면 라이선스가 필요합니다. 표준 - *가상 사용자 Microsoft Teams 전화 무료 라이선스를 사용할 수* 있습니다.
+리소스 계정에는 자동 참석자 및 호출 큐를 사용하려면 라이선스가 필요합니다. 표준 - *가상 Microsoft Teams 전화 무료 라이선스를 사용할 수* 있습니다.
 
 > [!NOTE]
 > 통화 계획 번들 라이선스 평가판 기간에 등록한 Teams 전화 다음 단계만 수행하면 됩니다. 통화 계획 번들 Teams 전화 구매한 경우 가상 라이선스가 계정에 이미 적용되어야 합니다.
 >
-> 가상 라이선스가 이미 있는지 확인하려면 전역 Microsoft 365 계정을 사용하여 로그인합니다. 그런 다음 청구로 > [제품으로 이동합니다](https://admin.microsoft.com/Adminportal/Home#/subscriptions). 가상 라이선스가 있는 경우 표준 Microsoft Teams 전화 **가상 사용자로 표시됩니다**.
+> 가상 라이선스가 이미 있는지 확인하려면 전역 Microsoft 365 계정을 사용하여 로그인합니다. 그런 다음 청구로 > [제품으로 이동합니다](https://admin.microsoft.com/Adminportal/Home#/subscriptions). 가상 라이선스가 있는 경우 표준 Microsoft Teams 전화 가상 사용자로 **표시됩니다**.
 
 1. 전역 Microsoft 365 관리 센터 사용자와 로그인합니다. 일반적으로 이 계정은 등록하는 데 사용한 Microsoft 365.
 2. 왼쪽 탐색 창에서 <a href="https://admin.microsoft.com/Adminportal/Home#/catalog" target="_blank">**BillingPurchase** > </a> **servicesAdd-onsSee** >  >  모든 추가 기능 제품으로 **이동합니다**.
@@ -54,10 +54,10 @@ ms.locfileid: "63053247"
 
 ## <a name="create-a-resource-account"></a>리소스 계정 만들기
 
-표준 - 가상 Microsoft Teams 전화 라이선스를  받은 후 리소스 계정을 만들 수 있습니다.
+표준 - *가상 Microsoft Teams 전화* 라이선스를 받은 후 리소스 계정을 만들 수 있습니다.
 
-1. Microsoft Teams 관리자 센터를 열고 전역 관리자인 사용자와 로그인합니다. 일반적으로 이 계정은 등록하는 데 사용한 Microsoft 365.
-2. 왼쪽 탐색 창에서 <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank">**Org-wide 설정****Resource 계정** > 으로 이동합니다</a>.
+1. Microsoft Teams 관리자 센터를 열고 전역 관리자인 사용자와 로그인합니다(일반적으로 등록하는 데 사용한 계정 Microsoft 365.
+2. 왼쪽 탐색 창에서 <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank">**VoiceResource** >  **계정으로 이동합니다**</a>.
 3. **추가** 를 선택합니다.
 4. 리소스 계정 **추가 창** 에서 표시 이름을 **입력한 다음** 사용자 이름을 **입력합니다**. 리소스 계정의 목적을 설명하기 위해 "기본 줄 자동 참석자"처럼 설명이 있는 표시 이름을 선택하세요.
 5. 리소스 **계정 유형에서** **자동 참석을 선택합니다**.
@@ -65,7 +65,7 @@ ms.locfileid: "63053247"
 
 ## <a name="assign-a-license"></a>라이선스 할당
 
-리소스 계정을 만든 후 표준 - 가상 Microsoft Teams 전화 라이선스 또는 표준 Teams 전화 *할당해야* 합니다.
+리소스 계정을 만든 후 표준 - 가상 *Microsoft Teams 전화* 또는 표준 Teams 전화 *할당해야* 합니다.
 
 1. 전역 Microsoft 365 관리 센터 사용자와 로그인합니다. 일반적으로 이 계정은 등록하는 데 사용한 Microsoft 365.
 1. 왼쪽 탐색 창에서 <a href="https://admin.microsoft.com/Adminportal/Home#/users" target="_blank">**UsersActive 사용자로** >  **이동합니다**</a>.
@@ -75,8 +75,10 @@ ms.locfileid: "63053247"
 
 ## <a name="assign-a-service-number"></a>서비스 번호 할당
 
-1. Microsoft Teams 관리자 센터를 열고 전역 관리자인 사용자와 로그인합니다. 일반적으로 이 계정은 등록하는 데 사용한 Microsoft 365.
-1. 왼쪽 탐색 창에서 <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank">**Org-wide 설정****Resource 계정** > 으로 이동합니다</a>.
+![서비스 번호 사용자 인터페이스 할당 스크린샷.](../media/resource-account-assign-phone-number.png)
+
+1. Microsoft Teams 관리자 센터를 열고 전역 관리자인 사용자와 로그인합니다(일반적으로 등록하는 데 사용한 계정 Microsoft 365.
+1. 왼쪽 탐색 창에서 <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank">**VoiceResource** >  **계정으로 이동합니다**</a>.
 1. 방금 만든 리소스 계정을 선택한 다음 할당 **/할당을 클릭합니다**.
 1. 숫자 **전화 드롭** 다운에서 Online을 **선택하세요**.
 1. 할당된 **전화 번호 상자** 에서 사용할 번호를 검색하고 추가를 **클릭합니다**. 국가 코드(예: **+1** 250 555 0012)를 포함해야 합니다.

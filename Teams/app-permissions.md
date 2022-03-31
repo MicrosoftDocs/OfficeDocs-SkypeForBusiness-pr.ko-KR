@@ -19,32 +19,36 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2b15625ae6e487a54fb5dbad122064148465b0ad
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: c95f5ab273112b29b91a312111000ba2dac76f9e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711702"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556329"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 앱 사용 권한 및 고려 사항
 
-Microsoft Teams 앱은 설치, 업그레이드 및 제거될 수 있는 하나 이상의 기능을 앱 패키지에 집계  하는 방법입니다. 기능에는 다음이 포함됩니다.
+Microsoft Teams 앱은 설치, 업그레이드 및 제거될 수 있는 앱에 하나 이상의 기능을 집계하는 방법입니다. 앱의 기능은 다음과 같습니다.
 
 * 봇
 * 메시징 확장
 * 탭
 * 커넥터
 
-앱은 사용자가 동의하고 정책 관점에서 IT에서 관리합니다. 그러나 앱의 사용 권한 및 위험 프로필은 앱에 포함된 기능의 사용 권한 및 위험 프로필에 의해 정의됩니다. 따라서 이 문서에서는 기능 수준에서 사용 권한 및 고려 사항을 중점적으로 다를 수 있습니다.
+관리자는 앱만 관리합니다. 그러나 이 문서에서는 앱의 기능이 앱의 필요한 사용 권한 및 위험 프로필에 영향을 미치기 위해 기능 수준에서 사용 권한 및 고려 사항을 중점적으로 다를 수 있습니다. 사용의 경우 앱은 사용자에 의해 동의되고 IT 전문가가 정책 관점에서 관리합니다.
 
-아래 대문자로 나열된 사용 권한(예: RECEIVE_MESSAGE 및 REPLYTO_MESSAGE)은 개발자 설명서 또는 Microsoft Microsoft Teams 권한에 나타나지 [Graph](/graph/permissions-reference).[](/microsoftteams/platform/overview)
+아래 대문자로 나열된 사용 권한은 예를 들어 `RECEIVE_MESSAGE` `REPLYTO_MESSAGE` 그림 및 설명 목적으로만 사용됩니다. 이러한 문자열 또는 사용 권한은 개발자 설명서 또는 Microsoft Microsoft Teams 사용 권한의 [](/microsoftteams/platform/overview) 아무 [Graph](/graph/permissions-reference).
 
-| 제목   | 설명    |
+<!--- TBD: What does this table mean? The icons are not used anywhere in this article so commenting this for now.
+
+| Title   | Description    |
 |-----------|------------|
-| ![의사 결정 지점을 묘사하는 아이콘](media/audio_conferencing_image7.png) <br/>결정 지점|<ul><li>아래 표를 가이드로 사용하여 조사하는 앱이 요청하는 권한을 이해합니다.</li></ul> |
-| ![다음 단계를 묘사하는 아이콘](media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>앱 또는 서비스 자체를 조사하여 조직 내에서 액세스 권한을 허용할지 여부를 결정합니다. 예를 들어 봇은 사용자로부터 메시지를 보내고 수신하며 엔터프라이즈 사용자 지정 봇을 제외하고는 규정 준수 경계 외부에 있습니다. 따라서 봇을 포함하는 모든 앱에는 해당 권한이 필요하며 최소 위험 프로필이 있습니다. </li></ul>|
+| ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Use the tables below as a guide to understand which permissions the apps you're investigating are requesting.</li></ul> |
+| ![An icon depicting the next step](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Research the app or service itself to decide whether you want to allow access to it within your organization. For example, bots send and receive messages from users, and—except for enterprise custom bots—they're located outside the compliance boundary. Therefore, any app that includes a bot requires those permissions and has that minimum risk profile. </li></ul>|
 
-탭에 대한 디바이스 사용 [권한 Microsoft Teams 참조하세요](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions).
+See also [Request device permissions for your Microsoft Teams tab](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions).
+
+--->
 
 ## <a name="global-app-permissions-and-considerations"></a>글로벌 앱 사용 권한 및 고려 사항
 
@@ -62,7 +66,7 @@ Microsoft Teams 앱은 설치, 업그레이드 및 제거될 수 있는 하나 �
 
 * [리소스별 동의](resource-specific-consent.md) 는 앱의 설치 화면에 나타나는 앱에 요청할 수 있는 사용 권한 집합을 제공합니다. 리소스별 동의 권한에 대한 자세한 내용은 권한 Graph [참조를 참조합니다](/graph/permissions-reference#teams-resource-specific-consent-permissions).
 
-* 앱에 리소스별 동의 권한 외의 사용 권한이 필요할 수도 있습니다. 앱이 설치되면 앱에서 동의 프롬프트를 통해 Graph 권한을 요청할 수 있습니다. 자세한 내용은 [Azure AD 애플리케이션 동의 환경 이해를 참조하세요](/azure/active-directory/develop/application-consent-experience). Azure Portal에서 API 사용 권한 및 동의를 구성할 수 있습니다. 자세한 내용은 동의 [프레임워크를 Azure Active Directory 참조합니다](/azure/active-directory/develop/consent-framework).
+* 앱에 리소스별 동의 권한 외의 사용 권한이 필요할 수도 있습니다. 앱이 설치되면 앱에서 동의 프롬프트를 통해 Graph 권한을 요청할 수 있습니다. 자세한 내용은 [Azure AD 애플리케이션 동의 환경 이해를 참조하세요](/azure/active-directory/develop/application-consent-experience). API 권한 및 동의를 구성할 수 Azure Portal. 자세한 내용은 동의 [프레임워크를 Azure Active Directory 참조합니다](/azure/active-directory/develop/consent-framework).
 
 ## <a name="bots-and-messaging-extensions"></a>봇 및 메시징 확장
 
@@ -94,8 +98,7 @@ Microsoft Teams 앱은 설치, 업그레이드 및 제거될 수 있는 하나 �
 
   * RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
   * RECEIVE_MESSAGE_GROUPCHAT REPLYTO_MESSAGE_GROUPCHAT
-  * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM    
-
+  * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
 
 * SEND_FILES RECEIVE_FILES:<sup>2</sup> 봇이 개인 채팅에서 파일을 보내고 받을 수 있는지 여부를 제어합니다(그룹 채팅 또는 채널에 대해 아직 지원되지 않습니다).
 

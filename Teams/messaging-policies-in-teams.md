@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 메시징 정책 및 메시징 정책을 사용하여 채팅 메시징을 제어하는 방법에 대해 Teams.
-ms.openlocfilehash: 0f4001fc2a646b83f005d9cc48948fbbb314f042
-ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
+ms.openlocfilehash: 74b9474eda7fd3c6bfe7224f62fbf58f61689743
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "64480670"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556249"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Teams에서 메시징 정책 관리
 
@@ -80,6 +80,7 @@ ms.locfileid: "64480670"
 
 - **소유자가 보낸 메시지를 삭제할 수 있습니다.**  이 설정을 사용하여 소유자가 사용자가 보낸 채널 메시지 또는 게시물을 삭제할 수 있습니다.
 - **보낸 메시지 삭제** 이 설정을 사용하여 사용자가 채팅에서 보낸 메시지를 삭제할 수 있습니다.
+- **채팅 삭제** 이 설정을 사용하여 사용자가 채팅에서 보낸 메시지를 삭제할 수 있습니다.
 - **보낸 메시지 편집** 이 설정을 사용하여 사용자가 채팅에서 보낸 메시지를 편집할 수 있습니다.
 - **영수증 읽기** 읽기 확인을 사용하면 받는 사람이 메시지를 1:1로 읽거나 그룹 채팅을 20명 이하로 읽은 경우 채팅 메시지 보낸 사람에게 알림을 보낼 수 있습니다. 메시지 읽기 확인은 메시지를 읽은지 여부에 대한 불확실성을 제거하고 팀 통신을 개선합니다. 읽기 확인은 eDiscovery 보고에 캡처되지 않습니다.  
     - **사용자 제어** 즉, 사용자가 확인 확인을 ON 또는 OFF로 읽을지 여부를 결정할 수 있습니다. 앱 내의 기본 설정은 ON입니다. 그런 다음 사용자가 해제할 수 있습니다.

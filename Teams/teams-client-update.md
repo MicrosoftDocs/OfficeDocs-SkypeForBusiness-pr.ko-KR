@@ -18,12 +18,12 @@ ms.localizationpriority: high
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 65421d36c0a8c19d8c7118e348222e3b62175a95
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 00b8079a360dbec05b14f1487755e96bfc98b76f
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893527"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556519"
 ---
 # <a name="teams-update-process"></a>Teams 업데이트 프로세스
 
@@ -43,11 +43,6 @@ Teams는 [엔터프라이즈용 Microsoft 365 앱으로 Microsoft Teams 배포](
 
 Teams는 위에 설명된 대로 자체 업데이트 프로세스를 따릅니다. Teams는 Word 및 Excel과 같은 다른 Office 앱에 대한 업데이트 프로세스를 따르지 않습니다. 자세한 내용은 [Microsoft 365 앱의 업데이트 채널 개요](/DeployOffice/overview-update-channels)를 참조하세요.
 
-## <a name="what-about-updates-to-teams-on-vdi"></a>VDI의 Teams 업데이트는 어떤가요?
-
-
-VDI(가상 데스크톱 인프라)의 Teams 클라이언트는 VDI가 아닌 Teams 클라이언트처럼 자동으로 업데이트되지 않습니다. [VDI에 Teams 설치](teams-for-vdi.md) 지침에 설명된 대로 새 MSI를 설치하여 VM 이미지를 업데이트해야 합니다. 최신 버전으로 업데이트하려면 현재 버전을 제거해야 합니다.
-
 ## <a name="can-admins-deploy-updates-instead-of-teams-auto-updating"></a>관리자가 Teams 자동 업데이트 대신 업데이트를 배포할 수 있나요?
 
 Teams는 관리자에게 전달 메커니즘을 통해 업데이트를 배포할 수 있는 기능을 제공하지 않습니다.
@@ -61,3 +56,7 @@ Teams는 관리자에게 전달 메커니즘을 통해 업데이트를 배포할
 정부 클라우드의 Teams 데스크톱 클라이언트에는 현재 추가 공지가 있을 때까지 이 서비스 계약에 대한 예외가 있습니다.
 
 새 버전 릴리스에 대한 정보는 [메시지 센터](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)를 확인하거나 클라이언트의 **도움말** > **새로운 기능** 을 참조하세요.
+
+## <a name="what-about-updates-to-teams-on-vdi"></a>VDI의 Teams 업데이트는 어떤가요?
+
+VDI(가상 데스크톱 인프라)의 Teams 클라이언트는 VDI가 아닌 Teams 클라이언트처럼 자동으로 업데이트되지 않습니다. [VDI에 Teams 설치](teams-for-vdi.md) 지침에 설명된 대로 새 MSI를 설치하여 VM 이미지를 업데이트해야 합니다. 최신 버전으로 업데이트하려면 현재 버전을 제거해야 합니다.

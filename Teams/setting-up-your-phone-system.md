@@ -24,12 +24,12 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-get-started
 description: 조직에서 조직에 대한 Teams 전화 시스템 방법을 자세히 설명하는 단계별 Microsoft 365.
-ms.openlocfilehash: 3a5c275c7d7d881ff770e6e84a3d4fa935d2827f
-ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
+ms.openlocfilehash: 6b56c68e7316c78c7c1881d6e9d6ca39b13823b1
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63043346"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556299"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>조직에서 전화 시스템 설정
 
@@ -50,7 +50,7 @@ ms.locfileid: "63043346"
 
 ## <a name="step-1-buy-and-assign-a-phone-system-license"></a>1단계: 라이선스 전화 시스템 할당
 
-단일 사용자에게 전화 시스템 라이선스를 할당하기 위해 단계는 단일 라이선스를 할당하는 Microsoft 365 동일합니다. 여러 사용자에게 일괄적으로 라이선스를 할당할 수도 있습니다. 사용 가능한 라이선스 및 전화 시스템 라이선스를 획득하고 할당하는 방법에 대한 자세한  [내용은 추가 기능](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) 라이선스Teams 추가 기능 라이선스 할당을 Teams 참조[하세요](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
+단일 사용자에게 전화 시스템 라이선스를 할당하기 위해 단계는 단일 라이선스를 할당하는 Microsoft 365 동일합니다. 여러 사용자에게 일괄적으로 라이선스를 할당할 수도 있습니다. 사용 가능한 라이선스에 대한 전화 시스템 및 라이선스를 획득하고 할당하는 방법에 대한 자세한 내용은 추가 Teams 추가 기능 [](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) 라이선스 및 추가 Microsoft Teams 할당을 [참조하세요](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
 
 ## <a name="step-2-choose-a-pstn-connectivity-option"></a>2단계. PSTN 연결 옵션 선택 
  
@@ -58,7 +58,7 @@ ms.locfileid: "63043346"
 
 - 요금제 호출. PSTN 통신사로 Microsoft를 사용할 수 있는 올인원 클라우드 솔루션입니다. 
 
-- 연산자 커넥트. 기존 통신업체가 Microsoft 운영자 커넥트 프로그램에 참여하는 경우 PSTN 호출 및 SBC(세션 테두리 컨트롤러)를 관리할 수 있습니다. 
+- 운영자 연결. 기존 통신사가 Microsoft 운영자 연결 프로그램에 참여하는 경우 PSTN 호출 및 SBC(세션 테두리 컨트롤러)를 관리할 수 있습니다. 
 
 - 직접 라우팅. SBC를 연결하여 사용자 자신의 PSTN 캐리어를 전화 시스템. 
 
@@ -81,12 +81,12 @@ ms.locfileid: "63043346"
 
 사용자에 대한 전화 번호를 획득하는 것 외에도 자동 참석자 및 통화 큐와 같은 서비스에 대한 무료 전화 번호를 획득할 수 있습니다. 서비스 번호는 수백 개의 통화를 동시에 처리할 수 있는 반면, 사용자의 전화 번호는 몇 개의 호출만 동시에 처리할 수 있습니다.   
 
-라이선스에 포함된 Microsoft의 서비스 번호를 얻을 수 있습니다. 연산자 또는 직접 라우팅을 통해 PSTN 커넥트 경우 자체 통신사 또는 운영자가 제공하는 서비스 번호를 사용할 수 있습니다. 
+라이선스에 포함된 Microsoft의 서비스 번호를 얻을 수 있습니다. 연결 또는 직접 라우팅을 통해 PSTN 운영자 연결 경우 자체 통신사 또는 운영자가 제공하는 서비스 번호를 사용할 수 있습니다. 
 
 자세한 내용은 다음을 참조하세요.
 
 - [조직의 전화](manage-phone-numbers-landing-page.md) 번호 관리 - PSTN 연결 옵션에 따라 숫자를 구하고 관리할 수 있는 특정 문서에 대한 링크가 있는 전화 번호 유형 개요를 제공합니다.  
-라이선스 [에](manage-phone-numbers-landing-page.md#service-telephone-numbers) 포함된 Microsoft에서 사용할 수 있는 서비스 전화 번호를 설명합니다. 연산자 또는 직접 라우팅에서 제공하는 서비스 커넥트 자세한 내용은 공급자에 문의하세요. 
+라이선스 [에](manage-phone-numbers-landing-page.md#service-telephone-numbers) 포함된 Microsoft에서 사용할 수 있는 서비스 전화 번호를 설명합니다. 서비스 번호 또는 직접 라우팅에서 제공하는 서비스 운영자 연결 자세한 내용은 공급자에 문의하세요. 
 
 - [받을 수 있는 전화](how-many-phone-numbers-can-you-get.md) 번호 수 – 구입하고 할당한 라이선스의 유형 및 전화 번호 유형에 따라 얻을 수 있는 전화 번호 수를 설명합니다. 
 

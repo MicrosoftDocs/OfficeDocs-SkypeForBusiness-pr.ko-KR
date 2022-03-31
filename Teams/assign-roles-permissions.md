@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9ca46e3fa967019e674651ea27299b6552144a7
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: b2f14993f47cdea5690413a32c9d286587db7324
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711962"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556349"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Microsoft Teams에서 팀 소유자와 팀 구성원 할당
 
@@ -63,7 +63,7 @@ Microsoft Teams에는 **소유자** 와 **구성원** 이라는 두 가지 사�
 
 ## <a name="moderator-capabilities"></a>중재자 기능
 
-다른 기능 외에도, 팀 소유자와 구성원은 채널에 대한 진행자 기능을 가질 수 있습니다(팀에 대해 조정 기능이 설정되어 있는 경우). 중재자는 채널에서 새 게시물을 시작하고 팀 구성원이 기존 채널 메시지에 회신할 수 있는지 여부를 제어할 수 있습니다. 또한 중재자는 봇과 커넥터가 채널 메시지를 제출할 수 있는지 여부를 제어합니다.
+다른 기능 외에도, 팀 소유자와 구성원은 채널에 대한 진행자 기능을 가질 수 있습니다(팀에 대해 조정 기능이 설정되어 있는 경우). 중재자는 채널에서 새 게시물을 시작하고 팀 구성원이 기존 채널 메시지에 회신할 수 있는지 여부를 제어할 수 있습니다. 중재자는 봇 및 커넥터 기능이 있는 앱이 채널 메시지를 제출할 수 있는지 여부를 제어할 수도 있습니다.
 
 중재자 역량은 채널 수준에서 할당됩니다. 팀 소유자에게는 기본적으로 중재자 역량이 있습니다. 팀 구성원은 기본적으로 중재자 역량이 없지만, 팀 소유자가 채널에 대한 중재자 역량을 팀 구성원에게 부여할 수 있습니다. 채널 내의 중재자는 해당 채널 내에서 다른 중재자를 추가하고 제거할 수 있습니다.
 

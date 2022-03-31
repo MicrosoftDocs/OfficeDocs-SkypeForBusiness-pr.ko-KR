@@ -21,12 +21,12 @@ description: Teams 또는 IT 관리자는 다른 도메인(페더레이션)에 �
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ec2ee80d2475742380944b2e834b5c7b7cf24275
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: 8505a57ff0ab9bb2e79607ffe13768058bab26d6
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392920"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556319"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams에서 외부 액세스 관리
 
@@ -149,7 +149,7 @@ Teams 사용자가 연락처를 시작한 경우 조직의 Teams 사용자가 �
 |:-------|:--------|:------------------|
 |다른 팀 조직 및 비즈니스용 Skype와의 페더레이션 사용/비활성화|`-AllowFederatedUsers`|`-EnableFederationAccess`|
 |특정 도메인과의 페더레이션 사용|`-AllowedDomains`|사용할 수 없음|
-|특정 도메인과의 페더레이션 비활성화|`-Blocked Domains`|사용할 수 없음|
+|특정 도메인과의 페더레이션 비활성화|`-BlockedDomains`|사용할 수 없음|
 |조직에서 관리하지 않는 Teams 사용자와의 페더레이션 사용/비활성화|`-AllowTeamsConsumer`|`-EnableTeamsConsumerAccess`|
 |조직에서 관리하지 않는 Teams 사용자가 대화를 시작하지 못하도록 사용/비활성화|`-AllowTeamsConsumerInbound`|`-EnableTeamsConsumerInbound`|
 |Skype와의 페더레이션 사용/비활성화|`-AllowPublicUsers`|`-EnablePublicCloudAccess`|

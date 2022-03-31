@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf1f393c8f6caf27a53ec45af0f04401f93b6793
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: 8d2863517ae4a147f9ded902dffff40ef315642e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514539"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556339"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 비즈니스용 OneDrive SharePoint 또는 스트림 사용
 
@@ -37,7 +37,7 @@ ms.locfileid: "63514539"
 |2021년 3월 1일부터 배포 중<br> *(완료)*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC-High 및 DoD만 해당**<br> 이제 고객은 Microsoft Teams에서 처음으로 클라우드 모임 녹음/녹화를 활성화할 수 있습니다. 이러한 기록은 기본적으로 저장되고 OneDrive SharePoint 재생됩니다. |
 |2021년 8월 16일부터 점진적으로 배포 중<br> *(완료)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**모든 고객(Enterprise, Education 및 GCC)**<br>새 모임 녹화를 저장할 수 Microsoft Stream(클래식) 없습니다. 모든 고객은 모임 정책을 Stream으로 변경한 경우에도 비즈니스용 OneDrive SharePoint Teams 자동으로 저장됩니다.<br><br> 고객이 조직의 변경 사항을 더 잘 제어할 수 있도록 변경 사항이 발생할 때까지 기다리기보다 편안할 때마다 옵트인하는 것이 좋습니다. |
 
-Microsoft Teams는 모임의 녹음/녹화를 저장하는 새로운 방법이 있습니다. 클래식 Microsoft Stream에서 새 Stream으로 전환하는 첫 번째 단계[로 이 메서드](/stream/streamnew/new-stream)는 비즈니스용 Microsoft OneDrive 및 SharePoint 기록을 Microsoft 365 다양한 이점을 제공합니다.
+Microsoft Teams는 모임의 녹음/녹화를 저장하는 새로운 방법이 있습니다. 클래식 버전에서 새 Stream으로 Microsoft Stream 첫 번째 단계[로 이 메서드](/stream/streamnew/new-stream)는 기록을 Microsoft 비즈니스용 OneDrive SharePoint Microsoft 365 다양한 이점을 제공합니다.
 
 > [!NOTE]
 > 모임 Teams/OneDrive/SharePoint 업로드에 실패하면 "예기치 않게 종료된 기록" 오류 메시지가 표시되고 녹화가 AMS(Azure Media Services)에 일시적으로 저장됩니다. AMS에 저장되고 나면 기록을 자동으로 OneDrive/SharePoint 시도하지 않습니다.
@@ -133,7 +133,7 @@ AMS에 저장된 모임녹음/녹화는 21일 동안 사용 가능하며 자동 
 
 기본적으로 모든 기록 파일은 레코드를 선택한 사용자의 OneDrive 계정으로 **이동됩니다**. 채널 모임의 경우 기록은 항상 채널의 SharePoint 사이트로 이동됩니다. 관리자는 기록이 저장되는 위치를 변경할 수 없습니다.
 
-**이전 직원의 녹음은 어떻게 처리하나요?**
+**어떻게 할까요? 녹음을 처리하나요?**
 
 비디오는 다른 파일과 비즈니스용 OneDrive SharePoint 마찬가지로 직원 퇴직 후 소유권 및 보존을 처리하면 일반적인 비즈니스용 OneDrive SharePoint [됩니다](/onedrive/retention-and-deletion).
 
@@ -171,13 +171,13 @@ Stream과 비교하여 비즈니스용 OneDrive [](/office365/servicedescription
 
 **Stream에 추가를 더 이상 사용할 계획이면 기존 비디오는 현재와 얼마나 오래 유지하나요?**
 
-플랫폼으로 스트림은 가까운 미래에 사용되지 않습니다. 현재 Stream에 있는 비디오는 마이그레이션을 시작할 때까지 계속 유지됩니다. 마이그레이션 시 해당 비디오도 비즈니스용 OneDrive 또는 SharePoint 마이그레이션됩니다. 자세한 [내용은 스트림 클래식 마이그레이션](/stream/streamnew/classic-migration) 을 참조하세요.
+플랫폼으로 스트림은 가까운 미래에 사용되지 않습니다. 현재 Stream에 있는 비디오는 마이그레이션을 시작할 때까지 계속 유지됩니다. 마이그레이션 시 해당 비디오도 비즈니스용 OneDrive 또는 SharePoint 마이그레이션됩니다. 자세한 [내용은 마이그레이션 세부](/stream/streamnew/migration-details) 정보를 참조하세요.
 
-**모임 녹화에 보존 레이블을 적용하는 Microsoft Teams 어떻게 하나요?**
+**어떻게 할까요? 녹음 녹음에 보존 레이블을 Microsoft Teams 적용하나요?**
 
 보존 [레이블을 자동으로 적용하는 방법을 참조합니다](/microsoft-365/compliance/apply-retention-labels-automatically).
 
-**내 사용자에게 정책을 할당하는 Microsoft Teams 우선 순위는 어떻게 하나요?**
+**어떻게 할까요? 사용자에 정책을 할당할 Microsoft Teams 우선하는 정책은 무엇입니까?**
 
 우선 [순위는 어떤 정책인가요?를 참조하세요](./policy-assignment-overview.md#which-policy-takes-precedence).
 

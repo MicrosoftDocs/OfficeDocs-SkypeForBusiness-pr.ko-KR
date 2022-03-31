@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 765c0b97d5e277bd086ac4b25ee11ac80cb6fc11
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: fe3ad067844de3c7a5dda0a042dee837a9638eae
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711482"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556289"
 ---
 # <a name="microsoft-teams-apps-behavior-based-on-types-of-users"></a>Microsoft Teams 사용자 유형에 따라 앱 동작 변경
 
@@ -49,7 +49,7 @@ Teams 게스트, 외부(페더러드), 익명 사용자가 컨텍스트에 있�
 
 #### <a name="bots-installed-to-a-channel"></a>채널에 설치된 봇
 
-봇은 게스트 사용자에게 사전 메시지를 보낼 수 있지만 게스트는 봇과 상호 작용할 수 없습니다. 게스트는 봇에게 일대일 메시지를 보내거나, 봇을 언급하거나, 봇과 통신하는 적응형 카드와 상호 작용할 수 없습니다.
+게스트 사용자는 봇을 언급하고 적응형 카드와 상호 작용할 수 있습니다.
 
 #### <a name="personal-bots-installed-with-policies"></a>정책이 설치된 개인 봇
 
@@ -84,6 +84,6 @@ Teams 게스트, 외부(페더러드), 익명 사용자가 컨텍스트에 있�
 
 익명 사용자는 사용자 수준 전역 기본 사용 권한 정책을 상속합니다. 사용자 수준 사용 권한 정책이 앱을 사용하도록 설정한 Teams 모임에서 앱과 상호 작용할 수 있습니다. 익명 사용자는 모임에서 이미 사용할 수 있으며 이러한 앱을 획득 및/또는 관리할 수 없는 앱과만 상호 작용할 수 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [앱 설정 정책 관리 Microsoft Teams](teams-app-setup-policies.md)

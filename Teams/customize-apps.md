@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 앱에서 앱을 사용자 지정하는 방법을 Microsoft Teams.
-ms.openlocfilehash: 2696768bbd7ed930652d8671600f9721f15960b7
-ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
+ms.openlocfilehash: 927c8abd9458be18661e26daf7686ce791bd6428
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2022
-ms.locfileid: "64504128"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556509"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>앱 사용자 지정 Microsoft Teams
 
@@ -65,7 +65,7 @@ ms.locfileid: "64504128"
 
    - 앱 이름을 선택한 다음 사용자 지정 가능에서 편집 아이콘 **을 선택합니다**.
 
-     ![사용자 지정 선택 옵션 2.](media/app-details-customizable.png)
+     ![사용자 지정 선택 옵션 2.](media/communities-microsoft.png)
 
    - 앱 이름을 선택하고 작업에서 오버플로 **메뉴** 마우스를 클릭 **하고 사용자 지정** 을 선택합니다.
 

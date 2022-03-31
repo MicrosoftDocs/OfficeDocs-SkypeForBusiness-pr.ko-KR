@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18e7b02a52a0ddc7c380ed3fb4c5879b45fe18dc
-ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
+ms.openlocfilehash: 554c2e893272ca8dfca1fde6c746e72f1b462f1e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63761932"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556559"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>모임에서 Teams 통화에 대한 정책 기반 기록에 대한 & 소개
 
@@ -138,7 +138,7 @@ Azure 및 Windows VM 요구 사항은 Teams Bot 구성 요소에만 적용됩니
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>규정 준수 기록 정책 할당 및 프로비전
 
-IT 관리자는 규정 준수 기록 정책을 만들고 할당하여 각 사용자에 대해 기록할 사용자와 어떤 레코더를 사용할지 결정할 수 있습니다. 레코더는 통신 상호 작용이 수행될 때 이러한 정책의 구성에 따라 대화에 자동으로 초대됩니다. 준수 기록 정책은 [Microsoft PowerShell](./teams-powershell-overview.md) 을 사용하여 관리되고 각 조직의 테넌트, 사용자당 및 보안 그룹 수준에서 적용할 수 있습니다. 모임 정책, 통화 [정책 및 그룹](./meeting-policies-overview.md) 정책에 대한 Microsoft Docs [](./teams-calling-policy.md) 에 대한 자세한 [정보를 찾을 수 있습니다](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
+IT 관리자는 규정 준수 기록 정책을 만들고 할당하여 각 사용자에 대해 기록할 사용자와 어떤 레코더를 사용할지 결정할 수 있습니다. 레코더는 통신 상호 작용이 수행될 때 이러한 정책의 구성에 따라 대화에 자동으로 초대됩니다. 준수 기록 정책은 [Microsoft PowerShell](./teams-powershell-overview.md) 을 사용하여 관리되고 각 조직의 테넌트, 사용자당 및 보안 그룹 수준에서 적용할 수 있습니다. 모임 정책, 통화 정책 및 그룹 Microsoft Docs 대한 자세한 [정보를 찾을 수 있습니다](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).[](./meeting-policies-overview.md)[](./teams-calling-policy.md)
 
 1. 테넌트에서 애플리케이션 인스턴스를 생성합니다.
 
@@ -226,7 +226,8 @@ IT 관리자는 규정 준수 기록 정책을 만들고 할당하여 각 사용
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |더버 |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Insightful 기술 |[https://insightfultechnology.com/teams/](https://insightfultechnology.com/teams/) |
-|NICE |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
+|NICE 참여 |[https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage](https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage) |
+|NICE NTR |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 |Oak Innovation |[https://www.oakinnovate.com/clarify](https://www.oakinnovate.com/clarify) |
 |빨간색 상자 |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |

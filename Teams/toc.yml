@@ -855,6 +855,8 @@ items:
                 href: operator-connect-configure.md
           - name: 직접 라우팅
             items:
+              - name: 새로운 기능
+                href: direct-routing-whats-new.md
               - name: 개요
                 href: direct-routing-landing-page.md
               - name: 직접 라우팅 계획

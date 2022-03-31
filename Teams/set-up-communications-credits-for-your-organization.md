@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: '사용자 및 조직의 통신 크레딧(PSTN 소비) 청구 라이선스를 설정하는 방법에 대해 자세히 알아보고 '
-ms.openlocfilehash: 39ee93d35bbcb5055a6c5565df4f92374a18ed2e
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: f13580dcfa6d40802b414999e5fe047f3371b87e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392910"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556469"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>조직에 사용할 통신 크레딧 설정
 
@@ -60,11 +60,13 @@ ms.locfileid: "63392910"
 
 1. 직장 [또는 학교 계정](https://portal.office.com/Adminportal)으로 Microsoft 365 관리 센터 로그인합니다.
     
-2. 왼쪽 탐색에서 Microsoft 365 관리 센터 **BillingPurchase** >  Services로 이동합니다. 아래로 스크롤하고 **추가 기능을 선택합니다**.
+2. 왼쪽 탐색에서 Microsoft 365 관리 센터 **BillingPurchase** >  Services로 이동합니다.
 
-3. 통신 **크레딧을 선택합니다**.
+3. 추가 **기능 범주** 에서 통신 크레딧을  검색하거나 모든 제품 범주 검색 상자에서 "통신 크레딧"을 검색하고  세부 정보를 **선택합니다**.
     
-4. **Communications Credits 구독** 페이지에서 정보를 입력한 다음 다음을 **클릭합니다**.
+4. 서비스 정보를 검토하고 구매를 **선택합니다**. (참고: 정해진 수의 통신 크레딧 라이선스는 모든 순서로 자동으로 선택됩니다.)
+
+5. 체크아웃 페이지에서 결제 정보를 입력하고 필요한 정보를 입력합니다.
     
    - **자금 추가** 계정에 추가할 금액을 입력합니다. 자동 충전을 사용하도록 설정하지 않은 경우 이러한 자금이 고갈되면 통신 크레딧을 사용하여 사용하도록 설정된 호출 기능이 중단됩니다(예: 인바운드 무료 서비스). 잔액이 0(0)에 도달할 때마다 통신 크레딧 잔액을 수동으로 보충하지 않도록하려면 자동 충전 기능을 사용하도록 설정하는 것이 좋습니다.
     
@@ -81,7 +83,7 @@ ms.locfileid: "63392910"
      > 
      > 자동 충전 함수를 사용하는 경우 트리거 양에 도달하고 재충전 트랜잭션이 처리될 때 통신 크레딧에 대한 인보이스가 생성됩니다. 통신 크레딧 금액은 첫 번째 방식으로 사용됩니다. 월별 사용량을 검사하는 방법에 대해 알아보고 [PSTN 사용 Microsoft Teams 읽어보아야 합니다](/microsoftteams/teams-analytics-and-reports/pstn-usage-report).
     
-5. 결제 정보를 입력하고 주문 **을 클릭합니다**.
+6. 순서 **를 선택합니다**.
     >[!IMPORTANT]
     >볼륨 라이선스 고객인 경우 결제를 위해 엔터프라이즈 계약 번호를 선택할 수 있습니다. 엔터프라이즈 계약 번호가 여러 개 있는 경우 결제에 사용할 엔터프라이즈 계약을 선택할 수 있습니다. 또한 기업 계약 번호와 연결될 구매 주문 번호를 지정할 수 있는 기회도 부여됩니다(해당하는 경우).
     

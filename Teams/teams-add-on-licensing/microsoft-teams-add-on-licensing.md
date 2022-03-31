@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 각 라이선스에 대한 추가 Microsoft Teams 및 각 라이선스를 사용할 수 있는 기능에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 47481383c2ea4941eb29675216209e5b98a97e71
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
+ms.openlocfilehash: b5282cfe166a04cd58dbe5042cc2fc3e25e7405f
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63435702"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556309"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams 추가 기능 라이선스
 
@@ -42,9 +42,9 @@ ms.locfileid: "63435702"
 |**Microsoft 365 Business Voice** <br/> |Business Voice는 중소기업용 Microsoft의 음성 기능 번들이지만 2022년 3월 1일부터는 더 이상 구매할 수 없습니다. 현재 Business Voice 구독자는 2022년 6월 30일까지 비즈니스 음성 라이선스를 갱신할 수 있습니다. <br/> <br/> 중소기업 또는 중소기업인 경우 해당 지역에서 사용할 [수](../business-voice/whats-business-voice.md) Teams 전화 전화 요금제 라이선스를 통해 구매하는 것이 좋습니다. <br/> <br/> 또는 기본 타사 PSTN Teams 전화 연결할 수 있는 표준 라이선스를 구입할 수 있습니다. |
 |**Teams 전화 번들을 사용할 수 있습니다.** <br/> |호출 Teams 전화 라이선스 번들로 Teams 전화 시스템 PBX 기능 및 PSTN 연결에 대한 국내 통화 계획이 있습니다. <br/> |
 |**Teams 전화 표준** <br/> |[Teams 전화 시스템](../what-is-phone-system-in-office-365.md) 전화 제어 및 PBX(Private Branch Exchange)를 제공하는 호스팅 전화 서비스입니다. Teams 전화 표준 라이선스를 사용하면 클라우드 음성 메일, Teams 전화 시스템 ID, 통화 공원, 전달, 자동 참석자, 통화 큐, 통화 전송 및 발신자 ID와 같은 모든 기능을 제공합니다. <br/> <br/>자세한 전화 시스템 자세한 내용은 [Teams 전화 시스템](../here-s-what-you-get-with-phone-system.md) 다음을 참조하세요. <br/> |
-|**Microsoft Teams 통화 계획** <br/> |사용자가 조직 외부에서 전화 번호를 호출할 수 있도록 하려는 경우 PSTN 공급자로 Microsoft에서 PSTN [Microsoft Teams](../calling-plans-for-office-365.md) 전화 통화 요금제에 연결할 수 있는 통화 요금제 를 구입할 수 있습니다. 국내 통화 계획 및 국내 및 국제 통화 계획이 있습니다. <br/> <br/> 통화 요금제가 Teams 국가 또는 지역에서 사용할 수 있는지 여부를 확인한 경우 오디오 회의 및 통화 요금제에 대한 국가 및 지역 가용성을 [참조합니다](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
+|**Microsoft Teams 통화 플랜** <br/> |사용자가 조직 외부에서 전화 번호를 호출할 수 있도록 하려는 경우 PSTN 공급자로 Microsoft [](../calling-plans-for-office-365.md) 에서 PSTN Microsoft Teams 통화 플랜 PSTN 전화 번호에 연결할 수 있는 전화 번호를 구입할 수 있습니다. 국내 통화 계획 및 국내 및 국제 통화 계획이 있습니다. <br/> <br/> 통화 요금제가 Teams 국가 또는 지역에서 사용할 수 있는지 여부를 확인한 경우 오디오 회의 및 통화 요금제에 대한 국가 및 지역 가용성을 [참조합니다](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
 |**통신 크레딧** | 통신 크레딧은 다음 달 초 전에 모든 통화 계획 분을 사용하는 경우 PSTN 전화 통화에도 사용할 수 있는 월별 풀을 제공합니다. 오디오 회의, 자동 참석자 또는 통화 큐에 대한 무료 전화 번호를 사용하려면 통신 크레딧을 [설정해야 합니다](../set-up-communications-credits-for-your-organization.md). <br/> |
-|**오디오 회의** <br/> |조직의 사람들이 전화를 사용하여 컴퓨터 대신 Teams 모임에 전화해야 하는 경우도 있습니다. [전화로](../set-up-audio-conferencing-in-teams.md) 전화를 걸 필요가 있는 참석자들과 모임을 예약하거나 리드하는 사용자를 위해 오디오 회의를 설정합니다. <br/> <br/>본인의 국가/지역에서 오디오 회의를 사용할 수 있는지 확인하려면 [오디오 회의 및 통화 플랜에 대한 국가 및 지역의 가용성](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)을 참조하세요. 요금 정보는 [오디오 회의 요금](https://go.microsoft.com/fwlink/?linkid=799762)을 참조하세요.  <br/> <br/>이제 조직에서는 오디오 회의 번호에 타사 연산자를 사용할 수 있습니다. 자세한 내용은 운영자에 대한 계획을 커넥트 [참조하세요](../operator-connect-conferencing-plan.md). <br/>|
+|**오디오 회의** <br/> |조직의 사람들이 전화를 사용하여 컴퓨터 대신 Teams 모임에 전화해야 하는 경우도 있습니다. [전화로](../set-up-audio-conferencing-in-teams.md) 전화를 걸 필요가 있는 참석자들과 모임을 예약하거나 리드하는 사용자를 위해 오디오 회의를 설정합니다. <br/> <br/>본인의 국가/지역에서 오디오 회의를 사용할 수 있는지 확인하려면 [오디오 회의 및 통화 플랜에 대한 국가 및 지역의 가용성](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)을 참조하세요. 요금 정보는 [오디오 회의 요금](https://go.microsoft.com/fwlink/?linkid=799762)을 참조하세요.  <br/> <br/>이제 조직에서는 오디오 회의 번호에 타사 연산자를 사용할 수 있습니다. 자세한 [내용은 에 대한](../operator-connect-conferencing-plan.md) 계획을 운영자 연결 회의. <br/>|
 |**Microsoft Teams Rooms** <br/> | Microsoft Teams 회의실은 비디오, Microsoft Teams 및 콘텐츠 공유를 회의실에 추가하는 추가 제품입니다. 조직은 이러한 Microsoft Teams 룸 독립 실행형 라이선스를 구입할 수 있습니다. 자세한 내용은 라이선스 Teams 미팅룸 [참조하세요](../rooms/rooms-licensing.md). <br/>|
 
 ## <a name="which-microsoft-capabilities-are-available-with-my-plan"></a>내 계획에서 사용할 수 있는 Microsoft 기능은 무엇입니까?
@@ -97,6 +97,12 @@ Microsoft 365 E5/A5/G5 요금제에는 오디오 회의 라이선스가 포함�
 </tr>
 </tbody>
 </table>
+
+## <a name="unassign-licenses-from-users"></a>사용자로부터 라이선스의 부적당하지 않은 라이선스
+
+특정 제품에 대한 사용자의 액세스를 제거하는 방법은 두 가지가 있습니다. 특정 사용자의 제품 라이선스를 부인하지 않습니다. 또는 특정 제품의 사용자 라이선스를 지정하지 않습니다.
+
+라이선스를 배포하지 않는 방법에 대한 지침은 사용자의 라이선스의 배포를 [참조하세요](/microsoft-365/admin/manage/remove-licenses-from-users).
 
 ## <a name="more-guidance-on-microsoft-plans"></a>Microsoft 계획에 대한 자세한 지침
 
