@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6f2ec21ec3e7f4278443d6bcab4b4220db3619f
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 53a1c2730ebf6db06fb92ac2fc4e0873563c98ce
+ms.sourcegitcommit: 9e868a155bcd20dd5dafdedcff091ff77ca7398b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556746"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64584332"
 ---
 # <a name="whats-new-for-direct-routing"></a>직접 라우팅의 새로운 것
 
@@ -62,7 +62,7 @@ Microsoft 신뢰할 수 있는 루트 인증서 프로그램에 대한 자세한
 
 SBC 구성을 확인하고 SIP 요청에서 바꾸기 헤더를 사용하지 않는지 확인합니다.
 
-## <a name="tls10-and-10"></a>TLS1.0 및 1.0
+## <a name="tls10-and-11"></a>TLS1.0 및 1.1
 
 고객에게 최상의 암호화를 제공하기 위해 Microsoft는 TLS(전송 계층 보안) 버전 1.0 및 1.1을 사용되지 않습니다. 2022년 4월 3일부터 Microsoft는 직접 라우팅 SIP 인터페이스에 TLS1.2 사용을 강제로 합니다.
 

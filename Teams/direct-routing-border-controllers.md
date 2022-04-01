@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅에 대해 인증된 SBA(Session Border Controller)에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fb9d411ea98476cc670c7bc2642d643ea39f9f25
-ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
+ms.openlocfilehash: d8a1a3e739188859cf34ea60c0160e9532a9ab3d
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63774027"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556579"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>직접 라우팅에 대한 인증된 SBC(Session Border Controller)
 
@@ -105,6 +105,7 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 |                     [Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|    Ekinops Session Border Controller(ONeSBC)   |     &#10004;     |     &#10004;     |      6.6.1m5ha1      |     |    |
 |                     |    Ekinops Virtual Session Border Controller(ONEvSBC)   |     &#10004;     |    &#10004;      |      6.6.1m5ha1      |     |    |
 |                     [46 Labs BUILDER](https://46labs.com/docs/hcvoice/teams/)|    하이퍼 컨버지드 음성   |     &#10004;     |     &#10004;      |      HCVoice 1.0.6       |     |    |
+|                     [Frafos](https://www.frafos.com/ms-teams-abc-sbc)|    ABC SBC  |     &#10004;     |          |     4.6       |     |    |
 
 <br/>
 

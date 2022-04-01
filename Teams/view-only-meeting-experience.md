@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 104540c047f499f8b82139e0c76c93e4b4625f62
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 032036c6f08dac76cae9ed124ffe7bc8439e4c32
+ms.sourcegitcommit: 9e868a155bcd20dd5dafdedcff091ff77ca7398b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62401142"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64584263"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 보기 전용 모임 환경
 
@@ -119,6 +119,7 @@ Teams 보기 전용 환경 참석자들은 다음을 할 수 있습니다.
 - 모임에서 손 들기
 - 반응 보내기 또는 확인하기
 - 투표를 비롯한 Teams 모임에 통합된 모든 3P 앱과의 상호 작용
+- 모임 녹화에 액세스합니다.
 
 ## <a name="view-only-feature-limitations"></a>보기 전용 기능 제한 사항
 

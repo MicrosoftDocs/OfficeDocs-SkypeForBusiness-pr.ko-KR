@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e02013ddc158e1e64386bc22652404ec387aee1
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 4b922607955d8b825006217bd2fe333eaadbc1ce
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893557"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556569"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams용 클라이언트 다운로드
 
@@ -46,7 +46,7 @@ Teams 데스크톱 클라이언트는 다음 운영 체제에서 독립 실행�
 - Linux(`.deb` 및 `.rpm` 형식)
 - Chrome OS(자세한 내용은 [Chromebook에서 Microsoft Office를 사용하는 방법](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad) 참조)
 
-데스크톱 클라이언트는 적절한 로컬 권한이 있는 경우 최종 사용자가 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)에서 직접 다운로드하고 설치할 수 있습니다. 관리자 권한은 Windows PC에 Teams 클라이언트를 설치하는 데 필요하지 않지만 Mac에는 필요합니다.
+적합한 로컬 권한을 가지고 있는 경우 최종 사용자는 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)에서 직접 데스크톱 클라이언트를 다운로드하고 설치할 수 있습니다. Windows PC에서는 Teams 클라이언트를 설치하는 데 관리 권한이 필요하지 않지만 Mac에서는 필요합니다.
 
 IT 전문가는 선호하는 방법을 선택하여 조직의 컴퓨터에 설치 파일을 배포할 수 있습니다. 예로는 Microsoft Endpoint Configuration Manager(Windows) 또는 Jamf Pro(macOS) 등이 있습니다. Teams 배포에 대한 자세한 내용은 다음을 참조하세요.
 
@@ -205,4 +205,4 @@ Teams 모바일 앱에 지원되는 모바일 플랫폼은 다음과 같습니�
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-브라우저 클라이언트는 [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)에 연결할 때 브라우저 버전 검색을 수행합니다. 지원되지 않는 브라우저 버전이 감지되면 브라우저 인터페이스에 대한 액세스를 차단하고 사용자가 데스크톱 클라이언트 또는 모바일 앱을 다운로드하도록 권장합니다.
+[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)에 연결할 때 브라우저 클라이언트에서 브라우저 버전 검색을 수행합니다. 지원되지 않는 브라우저 버전이 감지되면 브라우저 인터페이스에 대한 액세스를 차단하고 사용자가 데스크톱 클라이언트 또는 모바일 앱을 다운로드하도록 권장합니다.

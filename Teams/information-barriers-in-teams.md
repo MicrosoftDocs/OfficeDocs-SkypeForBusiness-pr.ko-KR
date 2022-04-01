@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4d8ae47e2e9963a6379c6516a6739f8fcf180154
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 41d5cf86085c944e414e1c78e3160f8f2678d0d1
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711942"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592943"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams
 
@@ -110,7 +110,7 @@ IB 정책은 다음 이벤트가 Teams 활성화됩니다.
 
 - **사용자가** 전화 통화를 Teams: 사용자가 VOIP를 통해 다른 사용자 또는 사용자 그룹에 음성 통화를 시작할 때마다 호출이 다른 팀 구성원의 IB 정책을 위반하지 않는지 확인하도록 평가됩니다. 위반이 있는 경우 음성 통화가 차단됩니다.
 
-- **게스트의 Teams**: IB 정책도 Teams 적용됩니다. 조직의 전역 주소 목록에서 게스트를 검색해야 하는 경우 그룹에서 게스트 [액세스 관리를 Microsoft 365 참조하세요](/microsoft-365/admin/create-groups/manage-guest-access-in-groups). 게스트를 검색할 수 있는 경우 [IB 정책을 정의할 수 있습니다](/office365/securitycompliance/information-barriers-policies).
+- **게스트의 Teams**: IB 정책도 Teams 적용됩니다. 조직의 전역 주소 목록에서 게스트를 검색해야 하는 경우 게스트 액세스 관리를 [Microsoft 365 그룹.](/microsoft-365/admin/create-groups/manage-guest-access-in-groups) 게스트를 검색할 수 있는 경우 [IB 정책을 정의할 수 있습니다](/office365/securitycompliance/information-barriers-policies).
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>정책 변경이 기존 채팅에 미치는 영향
 
@@ -188,7 +188,7 @@ IB 정책 관리자가 정책을 변경하거나 사용자의 프로필 변경(�
 
 - **열** 기: 이 구성은 정보 장벽을 사용하도록 설정하기 전에 프로비전된 모든 기존 그룹에 대한 기본 IB 모드입니다. 이 모드에서는 적용할 수 있는 IB 정책이 없습니다.
 - **암시** 적: 이 구성은 팀이 정보 장벽을 사용하도록 설정한 후 프로비전된 경우 기본 IB 모드입니다. 암시적 모드를 사용하면 그룹에서 호환되는 모든 사용자를 추가할 수 있습니다.
-- **소유자 중재(미리 보기)**: 이 모드는 소유자가 중재하는 비호화 세그먼트 사용자 간에 공동 작업을 허용하려는 경우 팀에서 설정됩니다. 팀 소유자는 IB 정책에 따라 새 멤버를 추가할 수 있습니다.
+- **소유자 중재**: 이 모드는 소유자가 중재하는 비호칭 세그먼트 사용자 간에 공동 작업을 허용하려는 경우 팀에서 설정됩니다. 팀 소유자는 IB 정책에 따라 새 멤버를 추가할 수 있습니다.
 
 Teams 테넌트에서 정보 장벽 정책을 활성화하기 전에 만든 설정은 기본적으로 자동으로 열 *기 모드로* 설정됩니다. 테넌트에서 IB 정책을 활성화하면 기존 팀의 모드를 암시적으로 업데이트하여 기존 팀이 IB를  준수하는지 확인해야 합니다.
 
@@ -202,7 +202,7 @@ Set-UnifiedGroup -InformationBarrierMode Implicit
 
 모든 기존 팀에 대해 열기에서 암시적 모드로 모드를 업데이트하기 위해 이 [PowerShell 스크립트를 사용 합니다](information-barriers-mode-script.md).
 
-조직의 규정 준수 요구 사항을 충족하도록 기존 Teams 그룹에서 열기 모드 구성을 변경하는 경우 팀 팀에 연결된 연결된 SharePoint [IB](/sharepoint/information-barriers.md#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) 모드를 업데이트해야 Teams 합니다.
+조직의 규정 준수 요구 사항을 충족하도록 기존 Teams 그룹에서 열기 모드 구성을 변경하는 경우 팀 팀에 연결된 연결된 SharePoint [IB](/sharepoint/information-barriers#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) 모드를 업데이트해야 Teams 합니다.
 
 ## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 
@@ -218,11 +218,10 @@ Set-UnifiedGroup -InformationBarrierMode Implicit
 ## <a name="more-information"></a>추가 정보
 
 - B에 대한 자세한 내용은 정보 장벽 [을 참조하세요](/office365/securitycompliance/information-barriers).
-- IB 정책을 설정하기 위해 정보 장벽 시작을 [참조하세요](/office365/securitycompliance/information-barriers-policies).
+- IB 정책을 설정하기 위해 정보 장벽을 시작 [참조하세요](/office365/securitycompliance/information-barriers-policies).
 - IB 정책을 편집하거나 제거하려면 정보 장벽 정책 [관리를 참조하세요](/microsoft-365/compliance/information-barriers-edit-segments-policies).
 - [정보 장벽 및 공유 채널](information-barriers-shared-channels.md)
 
 ## <a name="availability"></a>가용성
 
-- 이 기능은 공용 클라우드에서 사용할 수 있습니다. 2021년 1월에는 클라우드의 정보 장벽을 GCC 도입했습니다.
-- 이 기능은 하이 및 DOD GCC 아직 사용할 수 없습니다.
+정보 장벽은 Teams, GCC, GCC - High 및 DOD 클라우드에서 사용할 수 있습니다.

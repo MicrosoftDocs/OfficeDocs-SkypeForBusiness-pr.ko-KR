@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 메시징 정책 및 메시징 정책을 사용하여 채팅 메시징을 제어하는 방법에 대해 Teams.
-ms.openlocfilehash: 74b9474eda7fd3c6bfe7224f62fbf58f61689743
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 00146d35faac13ef511a06b6c442341832867bcc
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556249"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592793"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Teams에서 메시징 정책 관리
 
@@ -99,7 +99,7 @@ ms.locfileid: "64556249"
 - **URL 미리 보기** 이 설정을 사용하여 메시지에서 자동 URL 미리 보기를 켜거나 끄세요.
 - **메시지 번역** 이 설정을 켜면 사용자가 메시지를 Teams 언어 설정에서 지정한 언어로 자동으로 번역할 Microsoft 365 Office 365.
 - **메시지에 대한 몰입형 읽기** 사용자가 Microsoft에서 메시지를 볼 수 있도록 이 설정을 몰입형 리더. 몰입형 리더 텍스트의 가독성을 높이기 위해 전체 화면 읽기 환경을 제공하는 학습 도구입니다.
-- **우선 순위 알림을 사용하여 긴급 메시지 보내기** 이 기능을 설정하면 사용자는 우선 순위 알림을 사용하여 메시지를 보낼 [수 있습니다](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). 우선 순위 알림은 사용자에게 20분마다 또는 긴급으로 표시된 메시지가 수신자가 선택하고 읽을 때까지 사용자에게 알립니다. 이 기능은 메시지가 시기적절하게 행동할 가능성을 높입니다.
+- **우선 순위 알림을 사용하여 긴급 메시지 보내기** 이 기능을 설정하면 사용자는 우선 순위 알림을 사용하여 메시지를 보낼 [수 있습니다](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). 우선 순위 알림은 사용자에게 20분마다 또는 긴급으로 표시된 메시지가 수신자가 선택하고 읽을 때까지 사용자에게 알립니다. 이 기능은 메시지가 시기적절하게 행동할 가능성을 높입니다. 긴급 메시지를 보내면 편집할 수 없습니다.
 - **음성 메시지 만들기**
   > [!Important]
   > 오디오 메시지는 eDiscovery 보고에 캡처되지 않습니다.

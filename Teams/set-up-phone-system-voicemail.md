@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 사용자에 대한 클라우드 음성 사서함 방법을 자세히 알아보습니다.
-ms.openlocfilehash: d78942c5cbfc6af8e921c26c806378b45f480835
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: dd98275ac768990337a47f1f4ba6dacbdb385087
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442324"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592723"
 ---
 # <a name="set-up-cloud-voicemail"></a>클라우드 음성 사서함 설정
 
@@ -41,7 +41,7 @@ Teams 사용자의 경우 클라우드 음성 사서함 자동으로 설정되�
 
 Teams 사용자에 대한 프로비전은 온라인 사용자에 대한 프로비전과 비즈니스용 Skype 없습니다. 비즈니스용 Skype 온라인 사용자의 경우 사용자가 클라우드 음성 사서함 라이선스가 할당되고 프로비전 시스템에서 전화 시스템 설정될 때 Enterprise Voice 자동으로 설정되고 프로비전됩니다.
 
-비즈니스용 Skype 서버 사용자에 대해 클라우드 음성 사서함 자동으로 설정 및 프로비전됩니다. 그러나 호출을 라우팅하도록 비즈니스용 Skype 서버 환경을 구성해야 클라우드 음성 사서함. 자세한 내용은 프레미스 클라우드 음성 사서함 서비스 계획 [을 참조하세요](/skypeforbusiness/hybrid/plan-cloud-voicemail.md).
+비즈니스용 Skype 서버 사용자에 대해 클라우드 음성 사서함 자동으로 설정 및 프로비전됩니다. 그러나 호출을 라우팅하도록 비즈니스용 Skype 서버 환경을 구성해야 클라우드 음성 사서함. 자세한 내용은 프레미스 클라우드 음성 사서함 서비스 계획 [을 참조하세요](/skypeforbusiness/hybrid/plan-cloud-voicemail).
 
 ## <a name="cloud-voicemail-storage"></a>클라우드 음성 사서함 저장소
 
@@ -55,7 +55,7 @@ Teams 사용자에 대한 프로비전은 온라인 사용자에 대한 프로�
 
 호출의 기록 및 전사는 클라우드 음성 사서함 Microsoft 365 호출의 원본에서 시작하여 클라우드 음성 사서함. 그러면 메시지는 사용자의 사서함에 Exchange 전달됩니다.
 
-예를 들어 유럽의 SBC(세션 테두리 컨트롤러)를 통해 사용할 수 없는 직접 라우팅 사용자에게 전화를 걸 경우 음성메일 녹음 및 전사는 유럽에서 수행됩니다. 그러면 메시지는 사용자의 사서함에 Exchange 전달됩니다. 다른 예를 들어 북아메리카의 Teams 사용자가 유럽에서 사용할 수 Teams 호출했다고 가정합니다. 이 경우 호출이 북아메리카에서 시작되어 북아메리카에서 처리가 발생하고, 음성 메일이 유럽의 사용자 Exchange 배달됩니다.
+예를 들어 유럽의 SBC(세션 테두리 컨트롤러)를 통해 사용할 수 없는 직접 라우팅 사용자에게 전화를 걸 경우 음성메일 녹음 및 전사는 유럽에서 수행됩니다. 그러면 메시지는 사용자의 사서함에 Exchange 전달됩니다. 다른 예제의 경우 Teams 사용자가 북아메리카 사용할 수 없는 사용자로 Teams 가정합니다. 이 경우 호출이 북아메리카 시작하고 처리가 북아메리카, 음성 메일이 유럽의 사용자 Exchange 배달됩니다.
 
 다른 전자 메일과 Exchange SMTP(간단한 메일 전송 프로토콜)를 사용하여 사서함에 음성 메일 배달이 수행됩니다.
 
@@ -75,7 +75,7 @@ Teams 사용자에 대한 프로비전은 온라인 사용자에 대한 프로�
 
 에 프로비전된 모든 사용자의 기본 설정은 클라우드 음성 사서함 호출 라우팅을 허용하고 사용자가 클라우드 음성 사서함 호출을 전달할 수 있도록 허용하는 클라우드 음성 사서함.
 
-AllowVoicemail 매개 변수를 사용하여 클라우드 음성 사서함 Teams 사용자에 대한 호출 라우팅을 Set-CsTeamsCallingPolicy 제어할 수 있습니다. 자세한 내용은 [Set-CsTeamsCallingPolicy를 참조하세요](/powershell/module/skype/set-csteamscallingpolicy.md).
+AllowVoicemail 매개 변수를 사용하여 클라우드 음성 사서함 Teams 사용자에 대한 호출 라우팅을 Set-CsTeamsCallingPolicy 제어할 수 있습니다. 자세한 내용은 [Set-CsTeamsCallingPolicy를 참조하세요](/powershell/module/skype/set-csteamscallingpolicy).
 
 - AllowVoicemail을 AlwaysDisabled로 설정한 경우 통화가 음성메일로 라우팅되지 않습니다. 사용자에 대한 통화 전달 또는 변경되지 않은 설정에 관계없이 호출이 음성메일로 라우팅되지 않습니다. 음성메일은 통화 전달 또는 지원되지 않는 설정으로 사용할 수 Teams.
 
@@ -105,11 +105,11 @@ AllowVoicemail 매개 변수를 사용하여 클라우드 음성 사서함 Teams
 
 음성 메일 메시지를 암호화하기 위해 민감도 레이블을 만들 수 있습니다. 자동 레이블 지정 기능을 사용하면 들어오는 음성 메일 메시지에 레이블이 자동으로 적용되도록 할 수 있습니다. 
 
-보호된 음성 메일을 사용하도록 설정하면 사용자는 음성 메일 사서함으로 전화를 걸거나 Android 또는 iOS용 음성 메일에서 메시지를 Outlook 웹용 Outlook 또는 Outlook 수신할 수 있습니다. 보호된 음성 메일 메시지는 Busimess의 경우 Microsoft Teams 또는 Skype 수 없습니다.
+보호된 음성 메일을 사용하도록 설정하면 사용자는 음성 메일 사서함으로 전화를 걸거나 Android 또는 iOS용 음성 메일에서 메시지를 Outlook 웹용 Outlook 또는 Outlook 수신할 수 있습니다. 보호된 음성 메일 메시지를 Microsoft Teams 또는 비즈니스용 Skype.
 
 음성메일에 대한 민감도 레이블을 만들 경우 민감도 레이블 [사용을 참조합니다](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). 암호화 **섹션에서** 사용자가 레이블을 적용할 때 권한을 **할당할 수 있도록 를 선택하세요**. **에서 Outlook 다음** 제한 사항 중 하나를 적용한 다음 전달 안 하세요 **옵션을** 선택합니다.
 
-음성메일에 민감도 레이블을 적용하기 위한 자동 레이블링 정책을 만들하려면 자동 레이블 지정 정책을 구성하는 방법을 참조 [하고 다음 특정](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) 설정을 지정합니다.
+음성메일에 민감도 레이블을 적용하기 위한 자동 레이블 지정 정책을 만들하려면 자동 레이블 지정 정책을 구성하는 방법을 참조 [하고 다음 특정](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) 설정을 지정합니다.
 
 -   이 **레이블을 적용할** 정보 선택의 경우 사용자 지정 **정책을 선택합니다**.
 

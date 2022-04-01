@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams의 앱, 봇 및 커넥터
+title: Microsoft Teams의 앱 정보 알기
 ms.reviewer: ''
-description: 앱, 인공 지능 및 커넥터에 대해 알아보고 조직의 프로필 및 비즈니스 요구 사항에 따라 Microsoft Teams에서 배포할 대상을 결정하는 방법에 대해 알아봅니다.
+description: 앱에 대해 알아보고 조직의 프로필 및 비즈니스 요구 사항에 따라 Teams에서 허용할 앱을 결정합니다.
 ms.topic: article
 author: guptaashish
 ms.author: guptaashish
@@ -18,26 +18,26 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd5ab3395aa870d0be073a0afcd08aafe9110637
-ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
+ms.openlocfilehash: b6fd5ef344550cf85420faef1748c34f6e87e88b
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "64480660"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556529"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>Microsoft Teams의 앱 정보
 
-앱을 사용하여 자주 사용하는 서비스에서 콘텐츠를 찾고 Teams에서 공유할 수 있습니다. 앱을 통해 채널 상단에 있는 서비스를 고정하거나 봇과 채팅하거나 작업을 공유하고 지정하는 등의 작업을 수행 할 수 있습니다. 자세한 내용은 [Teams의 앱 개요](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)를 참조하세요.
+앱을 사용하여 자주 사용하는 서비스에서 콘텐츠를 찾고 Teams에서 공유할 수 있습니다. 채널 맨 위에 서비스를 고정하거나, 봇을 사용하여 알림을 자동화하거나, 작업을 공유하고 할당하는 등의 작업을 수행할 수 있습니다. 앱 사용에 대한 자세한 내용은 [최종 사용자용 앱 개요](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)를 참조하세요.
 
-Microsoft Teams와 함께 제공되는 앱을 사용하거나, 인증된 타사 앱 및 템플릿을 사용하거나 또는 사용자 지정 앱을 만들어 팀 배포에 앱을 추가할 수 있습니다.
+최종 사용자가 Teams에서 사용할 수 있는 다양한 유형의 앱은 Microsoft에서 만든 앱, 인증된 타사 앱 및 자체 조직에서 만든 사용자 지정 앱입니다.
 
 ## <a name="use-microsoft-provided-apps"></a>Microsoft 제공 앱 사용
 
-Teams는 목록, 작업, 칭찬, 승인 등의 기본 제공 앱 집합을 제공합니다. 초기 Teams 롤아웃을 진행 시 Planner와 같은 Teams 추천 앱을 포함하는 것이 좋습니다. Teams의 채택을 주도하면서 다른 앱, 봇 및 커넥터를 추가합니다.
+Teams는 목록, 작업, 칭찬, 승인 등의 기본 제공 앱 집합을 제공합니다. 초기 Teams 롤아웃을 진행 시 Planner와 같은 Teams 추천 앱을 포함하는 것이 좋습니다. Teams 채택을 추진할 때 다른 앱을 추가합니다. 활동 스트림, 채팅, 일정 및 통화와 같은 일부 기본 기능은 기본적으로 사용할 수 있으며 최종 사용자가 쉽게 액세스할 수 있도록 고정됩니다.
 
 ## <a name="use-third-party-apps"></a>타사 앱 사용
 
-Microsoft에서 제공하는 앱 외에도 Microsoft에서 인증한 타사 앱을 사용할 수 있습니다. Microsoft는 Microsoft 365 개발자 파트너와 협력하여 Teams 앱 및 추가 기능을 사용하는 데 필요한 정보를 제공합니다. 자세한 내용은 [Microsoft Teams 앱 보안 및 규정 준수](/microsoft-365-app-certification/teams/teams-apps)를 참조하세요.
+Microsoft에서 제공하는 앱 외에도 Microsoft에서 인증한 타사 앱을 사용할 수 있습니다. Microsoft는 Microsoft 365 개발자 파트너와 협력하여 Teams 앱 사용에 대한 결정을 신속하게 처리하는 데 필요한 정보를 제공합니다. 자세한 내용은 [Microsoft Teams 앱 보안 및 규정 준수](/microsoft-365-app-certification/teams/teams-apps)를 참조하세요.
 
 ## <a name="use-open-source-sample-apps-provided-by-microsoft"></a>Microsoft에서 제공하는 오픈 소스 샘플 앱 사용
 
@@ -68,41 +68,43 @@ Teams 스토어에서 앱을 다운로드합니다. 기본적으로 [Teams 스�
 
 ### <a name="app-permissions-and-other-considerations"></a>앱 사용 권한 및 기타 고려 사항
 
-앱은 사용자가 동의하고 정책을 통해 관리자나 IT 전문가가 관리합니다. 그러나 전반적으로 앱의 사용 권한 및 위험 프로필이 앱 자체에 정의됩니다.
-
 앱은 사용자가 동의하고 정책을 통해 관리자나 IT 전문가가 관리합니다. 그러나 앱의 사용 권한 및 위험 프로필이 앱 자체에 정의됩니다.
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
 |<br>액세스를 허용하려는 앱은 무엇인가요? 액세스를 허용하지 않으려는 앱은 무엇인가요?  | <ul><li>앱, 봇, 탭 또는 커넥터에 대한 액세스를 허용할 때 고려해야 할 사항의 목록을 보려면 [Microsoft Teams 앱 사용 권한과 고려 사항](app-permissions.md)을 참조하세요.</li><li>조직의 사용자가 앱을 사용할 수 있도록 하는 방법에 대한 자세한 내용은 [Microsoft Teams 관리 센터에서 앱 관리](manage-apps.md)를 참조하세요.</li></ul>|
 
-### <a name="bots-for-private-chats-and-channels"></a>개인 채팅 및 채널을 위한 봇
+<!--- TBD: Rewrite this to talk about bots and tabs as a capability of apps. Admins do not govern bots, tabs, etc. Admins only govern apps that contain capabilities such as connectors, bots, etc. This writeup gives an impression that admins manage apps + bots + tabs + connectors, etc.
 
-봇은 사용자가 흥미를 느끼거나 정보를 얻고자 하는 세부 정보에 대해 쿼리에 응답하거나 업데이트 및 알림을 제공하는 자동화된 프로그램입니다. 봇은 Teams 채팅을 통해 사용자가 클라우드 서비스(예: 작업 관리, 일정 관리 및 설문조사 등)와 상호 작용할 수 있도록 해줍니다. Teams는 개인 채팅 및 채널을 통해 봇을 지원합니다. 관리자는 Microsoft 365 혹은 Office 365 조직에서 봇의 사용을 허용할지 여부를 제어할 수 있습니다.
+### Bots for private chats and channels
 
-| 본인에게 질의하기 | 작업 |
+Bots are automated programs that respond to queries or give updates and notifications about details users find interesting or want to stay informed about. Bots allow users to interact with cloud services such as task management, scheduling, and polling in a Teams chat. Teams supports bots in private chats and channels. Administrators can control whether the use of bots is allowed in a Microsoft 365 or Office 365 organization.
+
+| Ask yourself | Action |
 |--------------|--------|
-|조직에서 사용자 지정 봇을 허용하고 싶으신가요?|봇 추가에 대한 자세한 내용은 [Microsoft Teams에서 개인 채팅 및 채널을 위한 봇 추가](/microsoftteams/platform/bots/what-are-bots)를 참조하세요. 사용자 지정 봇을 켜거나 끄는 방법에 대한 자세한 내용은 [Microsoft Teams에서 앱 관리 설정](admin-settings.md)을 참조하세요.|
+|Do I want to allow custom bots in my organization?|For more information about adding bots, see [Add bots for private chats and channels in Microsoft Teams](/microsoftteams/platform/bots/what-are-bots). For information about turning custom bots on or off, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
 
-### <a name="built-in-and-custom-tabs"></a>기본 제공 및 사용자 지정 탭
+### Built-in and custom tabs
 
-소유자와 팀 구성원은 채널, 비공개 채팅 및 그룹 채팅에 탭을 추가하여 클라우드 서비스와 통합할 수 있습니다. 사용자가 필요로 하거나 가장 많이 사용하는 데이터에 액세스하고 관리하는 데 도움이 되는 탭을 추가합니다. 채널에서는 대화 및 파일 탭이 기본적으로 생성됩니다. 모든 개인 채팅에서 대화, 파일, 조직 및 활동 탭이 기본적으로 생성됩니다. 이러한 기본 제공 탭 외에도 사용자 지정 탭을 디자인하고 추가할 수 있습니다. 조직에서 Teams 앱을 켜거나 끄는 방법에 대해 알아보려면 [Team에서 앱에 대한 관리 설정](admin-settings.md)을 참조하세요.
+Owners and team members can add tabs to a channel, private chat, and group chat to help integrate their cloud services. Add tabs to help users access and manage the data they need or use the most. In channels, the Conversations and Files tabs are created by default. In every private chat, the Conversations, Files, Organization, and Activity tabs are created by default. In addition to these built-in tabs, you can design and add custom tabs. To learn about turning Teams apps on or off for your organization, read [Admin settings for apps in Teams](admin-settings.md).
 
-| 본인에게 질의하기 | 작업 |
+| Ask yourself | Action |
 |--------------|--------|
-|조직에서 사용자 지정 탭을 허용하고 싶으신가요?|자세한 내용은 [Teams에서 기본 제공 및 사용자 지정 탭 사용](built-in-custom-tabs.md)을 참조하세요.|
+|Do I want to allow custom tabs in my organization?|For more information, see [Use built-in and custom tabs in Teams](built-in-custom-tabs.md).|
 
-### <a name="custom-connectors"></a>사용자 지정 커넥터
+### Custom connectors
 
-커넥터는 자주 사용하는 서비스의 콘텐츠와 업데이트를 채널에 직접 제공하여 팀을 최신 상태로 유지합니다. 커넥터를 사용하면 Teams 사용자는 Teams 채팅에서 Trello, Wunderlist, GitHub 및 Azure DevOps Services와 같은 인기 서비스로부터 업데이트를 받을 수 있습니다.
+Connectors keep your team current by delivering content and updates from services you frequently use directly into a channel. With connectors, your Teams users can receive updates from popular services such as Trello, Wunderlist, GitHub, and Azure DevOps Services in their Teams chats.
 
-| 본인에게 질의하기 | 작업 |
+| Ask yourself | Action |
 |--------------|--------|
-|사용자가 사용자 지정 커넥터를 만들 수 있도록 허용하고 싶나요?|자세한 내용은 [Teams에서 사용자 지정 커넥터 사용](office-365-custom-connectors.md)을 참조하세요.|
+|Do I want to allow users to create custom connectors?|For more information, see [Use custom connectors in Teams](office-365-custom-connectors.md).|
+
+--->
 
 ## <a name="additional-deployment-decisions"></a>추가 배포 결정사항
 
-조직의 요구 사항 및 구성에 따라 이러한 설정을 변경하는 것이 좋습니다.
+조직의 요구 사항 및 구성에 따라 이 설정을 변경할 수 있습니다.
 
 ### <a name="activity-reports"></a>활동 보고서
 
@@ -114,7 +116,7 @@ Teams 스토어에서 앱을 다운로드합니다. 기본적으로 [Teams 스�
 
 ### <a name="app-templates"></a>앱 서식 파일
 
-앱 서식 파일은 커뮤니티 중심의 오픈 소스이며 GitHub에서 사용할 수 있는 Microsoft Teams용 프로덕션 준비 앱입니다. 각각에는 조직에 해당 앱을 배포 및 설치하는 방법에 대한 자세한 지침이 포함되어 있으며, 즉시 설치하고 사용할 수 있는 바로 사용 가능한 앱을 제공합니다.
+앱 서식 파일은 커뮤니티 중심의 오픈 소스이며 GitHub에서 사용할 수 있는 Microsoft용 프로덕션 준비 앱입니다. 각 앱에는 조직에 맞게 배포하고 설치하기 위한 자세한 지침이 포함되어 있으며 즉시 설치하고 사용할 수 있는 바로 사용 가능한 앱입니다.
 
 전체 소스 코드도 제공되므로 세부 정보를 살펴보고 코드를 포크하여 특정 요구 사항에 맞게 변경할 수 있습니다.
 

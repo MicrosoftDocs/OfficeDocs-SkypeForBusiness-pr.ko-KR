@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 모임 정책 설정을 사용하여 모임 만료를 제어하는 Microsoft Teams.
-ms.openlocfilehash: d4752251f65dac0afb41ba357ad03063b3f6dfb0
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: ed76ea0278cdbf8a00bbd0d3e8434103aad2f270
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514691"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592813"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>모임 정책 및 모임 만료 Microsoft Teams
 
@@ -76,9 +76,6 @@ ms.locfileid: "63514691"
 > 관리자와 같은 다른 사람을 대신하여 모임 초대를 보낼 수 있는 권한이 부여된 대리인이 모임을 보낸 경우 모임 정책 설정은 권한을 부여한 사용자(관리자)에게 적용됩니다.
 
 ## <a name="changes-to-meeting-expiration"></a>모임 만료 변경
-
-> [!IMPORTANT]
-> 테넌트에 Teams 모임 만료를 사용하도록 설정하려면 Microsoft Teams 만료 초기 채택[자 프로그램에 적용합니다](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR8YMDA0A9INMv_DZ8yW5uG1URDc3U1VVMklPTzVMS0RLR0pUQTlWU1BEVC4u).
 
 새로 만든 Teams TMRs(모임 녹화)는 기본 만료일이 120일입니다. 기본적으로 모든 테넌트에 대해 설정됩니다. 즉, 기본적으로 이 기능을 켜고 나서 만든 모든  TMRS는 생성 날짜 이후 120일 후에 삭제됩니다. 관리자는 모임을 자동으로 만료하지 못 **하게 설정할 수도 있습니다**. OneDrive 및 SharePoint 시스템은 모든 TMRs에서 설정된 만료 날짜를 모니터링하고 만료 날짜에 TMRs를 자동으로 재활용 쓰레기통으로 이동합니다.
 
@@ -155,7 +152,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 기록이 OneDrive SharePoint 업로드하지 못하면 Teams 서버에서 영구적으로 삭제되기 전에 사용자가 TMR을 다운로드할 수 있는 최대 21일이 있는 메시지를 채팅에 Teams. 실패한 TMR 업로드로 인한 이 기존 만료 환경은 도움말 문서에서 OneDrive SharePoint 자동 만료 기능과 관련이 없습니다.
 
-### <a name="how-do-i-know-the-distribution-of-tmr-playbacks-so-i-know-what-the-optimal-auto-expiration-default-should-be-for-my-tenant"></a>테넌트에 대한 최적의 자동 만료 기본값을 알 수 있도록 TMR 재생의 분포를 어떻게 알 수 있나요?
+### <a name="how-do-i-know-the-distribution-of-tmr-playbacks-so-i-know-what-the-optimal-auto-expiration-default-should-be-for-my-tenant"></a>어떻게 할까요? TMR 재생의 분포를 알고 있으므로 테넌트에 대해 최적의 자동 만료 기본값이 어떤지 알고 있나요?
 
 1. 라이브러리에서 비디오를 찾습니다.
 1. ...를 **선택합니다.** >  **세부 정보**

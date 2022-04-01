@@ -11,18 +11,23 @@ search.appverid: MET150
 description: 관리 단위를 사용하는 방법을 Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 63579e7e9b6b2f7a7456349c489d4f544eb67cc1
+ms.sourcegitcommit: 9e868a155bcd20dd5dafdedcff091ff77ca7398b
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64584313"
 ---
-
 # <a name="manage-devices-in-the-teams-admin-center-with-administrative-units"></a>관리 단위를 사용하여 Teams 관리 센터에서 디바이스 관리
 
-관리 센터의 관리 Teams 디바이스를 관리하기 위한 세부적인 역할 기반 Teams 제공합니다. 관리 단위는 Teams 관리자에게 액세스 권한을 부여하지만 해당 관리자의 다른 리소스에 대한 액세스를 제한합니다. 이는 다른 국가 또는 지역에 Teams 로컬 관리자를 보유하고 있는 경우 특히 유용합니다.
+관리 센터의 관리 Teams 디바이스를 관리하기 위한 자세한 역할 기반 Teams 제공합니다. 관리 단위는 Teams 관리자에게 액세스 권한을 부여하지만 해당 관리자의 다른 리소스에 대한 액세스를 제한합니다. 이는 다른 국가 또는 지역에 Teams 로컬 관리자를 보유하고 있는 경우 특히 유용합니다.
 
-예를 들어 Contoso에는 전 세계 작업이 있습니다. Alice는 런던에 기반을 두는 글로벌 IT 관리자로, Prashant는 인도 방가로에 기반을 두는 로컬 IT 관리자입니다. 현재 Prashant가 디바이스 관리자로 Teams 관리 센터에 로그인하면 전 세계 Teams 볼 수 있습니다. Alice는 Bangalore에서만 Teams 디바이스에 대한 Prashant의 액세스를 제한하려는 것입니다. 관리 단위를 통해 이 작업을 할 수 있습니다. 자세한 내용은 에 있는 관리 [단위를 Azure Active Directory](/azure/active-directory/roles/administrative-units).
+예를 들어 Contoso에는 전 세계 작업이 있습니다. Alice는 런던에 기반을 두는 글로벌 IT 관리자로, Prashant는 인도 방가로에 기반을 두는 로컬 IT 관리자입니다. 현재 Prashant가 디바이스 관리자로 Teams 관리 센터에 로그인하면 전 세계 Teams 볼 수 있습니다. Alice는 Bangalore에서만 Teams 디바이스에 대한 Prashant의 액세스를 제한하려는 것입니다. 관리 단위를 통해 이 작업을 할 수 있습니다. 자세한 내용은 다음의 관리 단위를 [Azure Active Directory](/azure/active-directory/roles/administrative-units).
 
 > [!NOTE]
 > 관리 단위는 현재 Teams 관리자 역할에 Teams 관리 센터에서 사용할 수 있습니다.
@@ -33,11 +38,11 @@ appliesto:
 
 ## <a name="assign-admins-to-administrative-units"></a>관리 단위에 관리자 할당
 
-또한 관리 단위를 할당하려면 전역 관리자로 지정해야 합니다. Azure Portal, PowerShell 또는 Microsoft Graph 있습니다. 자세한 내용은 관리 단위 범위가 [있는 Azure AD 역할 할당을 참조하세요](/azure/active-directory/roles/admin-units-assign-roles).
+또한 관리 단위를 할당하려면 전역 관리자로 지정해야 합니다. Microsoft, PowerShell 또는 Microsoft Azure Portal 사용하여 관리 단위를 할당할 Graph API. 자세한 내용은 관리 단위 범위가 [있는 Azure AD 역할 할당을 참조하세요](/azure/active-directory/roles/admin-units-assign-roles).
 
 ## <a name="select-administrative-units"></a>관리 단위 선택
 
-디바이스 관리자인 Teams 전역 관리자가 관리자 단위에 할당한 후 관리자 센터에 Teams 관리 센터에 로그인하여 디바이스를 관리할 수 있습니다. 하나의 관리 단위에만 할당된 경우 해당 관리 단위에 할당된 디바이스만 표시됩니다. 여러 관리 단위에 할당된 경우 관리 센터에서 로그인하지 않고 관리 단위 간에 전환할 Teams 있습니다. 
+디바이스 관리자인 Teams 전역 관리자가 관리 단위에 할당한 후 관리자 센터에 Teams 관리 센터에 로그인하여 디바이스를 관리할 수 있습니다. 하나의 관리 단위에만 할당된 경우 해당 관리 단위에 할당된 디바이스만 표시됩니다. 여러 관리 단위에 할당된 경우 관리 센터에서 로그인하지 않고 관리 단위 간에 전환할 Teams 있습니다. 
 
 1. 관리 센터에 [Teams 로그인합니다](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
@@ -62,3 +67,7 @@ appliesto:
     - 조직의 **모든** 디바이스를 관리할 수 있는 권한이 있는 경우 모든 디바이스를 선택합니다.
 
 5. **저장** 을 선택합니다.
+
+## <a name="related-topics"></a>관련 항목
+
+- [관리 단위에 사용자 또는 그룹 추가](/azure/active-directory/roles/admin-units-members-add)
