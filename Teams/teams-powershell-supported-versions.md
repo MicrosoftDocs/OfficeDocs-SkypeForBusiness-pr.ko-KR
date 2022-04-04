@@ -12,12 +12,12 @@ ms.collection:
 description: 관리에 사용되는 Teams PowerShell 모듈에서 지원되는 버전에 대해 Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fc980420b53d850c48e680d25bdbf6ec437e8f8
-ms.sourcegitcommit: d3d3d5a70a69359fc71f072ad6c651556f4eda00
+ms.openlocfilehash: e292e3ea5659920bca6fe6f663afc53164da5b49
+ms.sourcegitcommit: e3a4df81721abe83886714a7c3c798e4c0888c35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63783968"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "64617709"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell 모듈 - 지원되는 버전
 
@@ -39,7 +39,7 @@ Microsoft Teams 4.x.x 시리즈 이상의 TPM(PowerShell Module) 버전은 앞�
 
 ## <a name="current-organizations-tpm-active"></a>현재 조직(TPM 활성)
 
-지난 Teams PowerShell 모듈을 사용한 조직은 2022년 6월 15일부터 4.x.x 시리즈 이상에서 Teams PowerShell 모듈만 사용할 수 있습니다. 
+지난 Teams PowerShell 모듈을 사용한 조직은 2022년 6월 15일부터 4.x.x 시리즈 이상에서 Teams PowerShell 모듈만 사용할 수 있습니다. 참조용 메시지 센터 게시물 - MC350371. 
 
 
 
@@ -61,6 +61,8 @@ Microsoft Teams 4.x.x 시리즈 이상의 TPM(PowerShell Module) 버전은 앞�
   * TPM 3.x.x 이상에서 업데이트 - [Get-CsOnlineUserGet-CsOnlineVoiceUser](/powershell/module/skype/get-csonlineuser) & (메시지 센터 게시물 – MC340774)의 자세한 내용을 참조하세요. Get-CsOnlineUser & Get-CsOnlineVoiceUser[](/powershell/module/skype/get-csonlinevoiceuser)
 
   * 번호 할당에 전화 변경 - [Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstanceSet-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) & (메시지 센터 게시물 – MC316139)[](/powershell/module/skype/set-csonlinevoiceapplicationinstance)
+
+  * 사용 Get-CsOnlineDirectoryTenant - [Get-CsOnlineDirectoryTenant](/powershell/module/skype/get-csonlinedirectorytenant) (메시지 센터 게시물 – MC346902)의 자세한 정보입니다.
 
 
 

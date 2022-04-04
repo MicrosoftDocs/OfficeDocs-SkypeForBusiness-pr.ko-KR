@@ -20,12 +20,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 1737461b1eface3038957a862ab2bcb743ca4615
-  ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+  ms.openlocfilehash: 0a8f7affd933fbe8661609e90fa934a8597e4d3a
+  ms.sourcegitcommit: a77116a0b0fd7e3cf14de694c559338bea198851
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 02/25/2022
-  ms.locfileid: "62960060"
+  ms.lasthandoff: 04/03/2022
+  ms.locfileid: "64628342"
 items:
 - durationInMinutes: 1
   content: >
@@ -67,7 +67,7 @@ items:
     -   이 자습서의 "다음 단계" 페이지 하단에 있는 설명 섹션에 게시합니다.
 
 
-    새 기능에 대한 아이디어와 Teams 제품에 대한 제품 피드백을 제공 Teams [피드백 포털을 방문해 주세요](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
+    새 기능에 대한 아이디어와 같은 Teams 제품 피드백을 제공 Teams [피드백 포털을 방문해 주세요](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 - title: Teams에서 모임
   durationInMinutes: 16
   content: "\nTeams 모임을 이해하려면 다음을 참조하세요.\n-   [모임 및 호출](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)의 “모임 갖기”(예상 소요 시간: 6분)\n\n-   [지금 모임](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf) 비디오(1:45분)\n\n-   [예약된 모임](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137) 비디오(1:45분)\n\n-   모임 로비, 익명으로 모임 참여 등에 대한 자세한 내용은 [Microsoft Teams 모임 9가지 팁](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)(예상 소요 시간: 6분)\n"
@@ -113,4 +113,4 @@ items:
         - [Teams 블로그](https://aka.ms/teamsblog)를 팔로우하세요.
         - [Teams 로드맵](https://aka.ms/O365Roadmap)읽어 보세요.
         - [릴리스 정보](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)의 최근 릴리스된 기능에 대한 자세한 정보
-    4.  [추가 교육 및 자습서](/OfficeDocs-SkypeForBusiness-pr/blob/master/Teams/ITAdmin-readiness#technical-training)를 살펴보세요.
+    4.  [추가 교육 및 자습서](/microsoftteams/ITAdmin-readiness#technical-training)를 살펴보세요.

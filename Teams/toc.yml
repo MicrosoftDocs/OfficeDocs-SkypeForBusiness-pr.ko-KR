@@ -415,6 +415,8 @@ items:
                 href: use-call-analytics-to-troubleshoot-poor-call-quality.md
               - name: 실시간 원격 분석을 사용하여 모임 품질 저하 문제 해결
                 href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
+              - name: 보고 레이블 추가 및 업데이트
+                href: learn-more-about-site-upload.md
           - name: QoS(서비스 품질)
             items:
               - name: Teams에 QoS 설정
@@ -839,6 +841,8 @@ items:
             href: pstn-connectivity.md
           - name: 통화 플랜
             items:
+              - name: Microsoft 365의 통화 플랜
+                href: calling-plans-for-office-365.md
               - name: 사용자에게 적합한 통화 플랜은 무엇인가요?
                 href: calling-plan-landing-page.md
               - name: 조직의 통화 플랜 설정
@@ -963,7 +967,7 @@ items:
             href: operator-connect-configure.md#set-up-phone-numbers
           - name: 직접 라우팅을 위한 전화 번호 관리
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
-      - name: 음성 라우팅
+      - name: 다이얼 플랜 및 라우팅
         items:
           - name: 다이얼 플랜이 무엇인가요?
             href: what-are-dial-plans.md
@@ -971,8 +975,6 @@ items:
             href: create-and-manage-dial-plans.md
           - name: 할당되지 않은 번호로 통화 라우팅
             href: routing-calls-to-unassigned-numbers.md
-          - name: 보고 레이블 추가 및 업데이트
-            href: learn-more-about-site-upload.md
       - name: 네트워크 설정 및 토폴로지
         items:
           - name: 클라우드 음성 기능에 대한 네트워크 설정
@@ -1573,6 +1575,12 @@ items:
                 items:
                   - name: 개요
                     href: expand-teams-across-your-org/shifts/shifts-connectors.md
+                  - name: Shifts 커넥터 마법사를 사용하여 Blue Yonder WFM에 대한 연결 설정
+                    href: expand-teams-across-your-org/shifts/shifts-connector-wizard.md
+                  - name: PowerShell을 사용하여 Blue Yonder WFM에 대한 연결 설정
+                    href: expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup.md
+                  - name: PowerShell을 사용하여 Blue Yonder WFM 연결로의 Shifts 관리
+                    href: expand-teams-across-your-org/shifts/shifts-connector-powershell-manage.md
               - name: 데이터 이동 FAQ
                 href: expand-teams-across-your-org/shifts/shifts-data-faq.md
       - name: 교육용 Teams

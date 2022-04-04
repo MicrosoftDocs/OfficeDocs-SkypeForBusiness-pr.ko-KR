@@ -16,12 +16,12 @@ f1.keywords:
 description: 'Teams 다국적 기업에 대한 음성 사례 연구: 전화 시스템'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c83cd07cb8943c19b783658a15db99351d11f995
-ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
+ms.openlocfilehash: abc7c2b3eb8cbbaf98842638526514171a8b23c7
+ms.sourcegitcommit: a77116a0b0fd7e3cf14de694c559338bea198851
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62353373"
+ms.lasthandoff: 04/03/2022
+ms.locfileid: "64628332"
 ---
 # <a name="contoso-case-study-phone-system-for-a-multi-national-corporation"></a>Contoso 사례 연구: 전화 시스템 기업에 대한 지원
 
@@ -31,22 +31,22 @@ ms.locfileid: "62353373"
 
 - 사이트 유형 B: 기존 레거시 전화 통신 시스템
 
-- 사이트 유형 C: 비즈니스용 Skype Enterprise Voice 레거시 전화 통신 시스템 조합
+- 사이트 유형 C: 비즈니스용 Skype Enterprise Voice 기존 레거시 전화 통신 시스템의 조합
 
 
 전체 조직에 Microsoft 전화 시스템 솔루션을 구현하기 위해 Contoso&mdash;&mdash;는 PSTN(공용 전환 전화 네트워크)에 연결하는 데 전화 시스템 각 사이트 유형에 대해 결정해야 합니다.
 
-- 전화 시스템 계획과 함께 사용할 수 있습니다. 
+- 전화 시스템 요금제와 함께 사용 
 
-- 전화 시스템 라우팅을 통해 자체 PSTN 캐리어를 사용할 수 있습니다. 
+- 전화 시스템 라우팅을 통해 자체 PSTN 통신사와 함께 사용할 수 있습니다. 
 
 - 직접 전화 시스템 통해 자체 PSTN 전화 시스템 요금제와 통화 계획의 조합
  
-Contoso는 조직에 적합한 솔루션을 결정하기 위해 음성 Teams [](/SkypeForBusiness/cloud-voice-landing-page) 계획 및 Ignite 2019 세션 통화를 [Microsoft Teams.](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions)  
+Contoso는 조직에 적합한 솔루션을 결정하기 위해 Teams 음성 [](/microsoftteams/cloud-voice-landing-page) 솔루션 계획 및 Ignite 2019 세션 통화를 [Microsoft Teams.](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions)  
 
 ## <a name="site-type-a-skype-for-business-enterprise-voice"></a>사이트 유형 A: 비즈니스용 Skype Enterprise Voice 
 
-Contoso 비즈니스용 Skype Enterprise Voice 허브 및 스포크로 설정됩니다. 국가의 사용자에 대한 PSTN에 대한 연결을 제공하는 지역에서 PSTN 게이트웨이를 비즈니스용 Skype Enterprise Voice 중앙 위치가 있습니다. 종종 이러한 위성 사무실에는 자체 인터넷 수신이 없습니다. 이러한 사용자의 숫자는 기존 SBC에 연결하는 SIP 트렁크에 있습니다. 
+Contoso 비즈니스용 Skype Enterprise Voice 허브 및 스포크로 설정됩니다. 국가의 사용자에 대한 PSTN에 대한 연결을 제공한 지역에서 PSTN 게이트웨이를 비즈니스용 Skype Enterprise Voice 중앙 위치가 있습니다. 종종 이러한 위성 사무실에는 자체 인터넷 수신이 없습니다. 이러한 사용자의 숫자는 기존 SBC에 연결하는 SIP 트렁크에 있습니다. 
 
 이미 배포된 SBC가 직접 라우팅 및 미디어 우회에 대해 인증되어 있는지 확인하기 위해 Contoso는 직접 라우팅에 대해 인증된 세션 테두리 컨트롤러 목록을 [확인했습니다](direct-routing-border-controllers.md).  
 
@@ -70,9 +70,9 @@ Contoso는 질문에 대한 답변에 따라 다음을 결정했습니다.
 
 - PSTN 호출 계획을 사용할 수 있는 지역에 있는 사용자를 전화 시스템 계획으로 이동합니다. 
 
-- PSTN 통화 계획을 사용할 수 있는 지역에 있지 않은 사용자, SBC의 ROI가 아직 충족되지 않은 사이트에 있는 사용자, 직접 라우팅을 통해 전화 통신 규정이 있는 전화 시스템 이동합니다. 
+- PSTN 통화 계획을 사용할 수 있는 지역에 있지 않은 사용자, SBC의 ROI가 아직 충족되지 않은 사이트에 있는 사용자 및 직접 라우팅을 통해 전화 통신 규정이 있는 전화 시스템 이동합니다. 
 
-다음 다이어그램은 초기 배포 비즈니스용 Skype Enterprise Voice 및 이 배포가 Microsoft 호출 계획 및 직접 라우팅으로 마이그레이션된 방법을 보여줍니다.
+다음 다이어그램은 초기 배포 비즈니스용 Skype Enterprise Voice Microsoft 호출 계획 및 직접 라우팅으로 이 배포를 마이그레이션하는 방법을 보여 니다.
 
 ![다이어그램은 상태 전후를 보여줍니다.](media/voice-case-study-1.png)
 
@@ -111,7 +111,7 @@ Contoso는 질문에 대한 답변에 따라 다음을 결정했습니다.
  
 ## <a name="site-type-c-combination-of-skype-for-business-enterprise-voice-and-traditional-legacy-telephony-systems"></a>사이트 유형 C: 비즈니스용 Skype Enterprise Voice 레거시 전화 통신 시스템 조합
 
-Contoso 비즈니스용 Skype Enterprise Voice 사용자의 번호는 통신사에서 SBC로의 SIP 트렁크에 상주합니다. 기존 전화 통신 시스템의 숫자는 PSTN 게이트웨이에 대한 TDM 트렁크에 있습니다.   
+Contoso는 비즈니스용 Skype Enterprise Voice SIP 트렁크에 상주하여 통신사에서 SBC로 이동합니다. 기존 전화 통신 시스템의 숫자는 PSTN 게이트웨이에 대한 TDM 트렁크에 있습니다.   
 
 Contoso는 다음 질문에 대한 결정을 기반으로 합니다.
 
@@ -169,7 +169,7 @@ Contoso는 Ignite에 참석하여 Office 365 시스템 및 직접 라우팅에�
 
 라이선스를 획득하고 사용자에게 전화 번호를 할당하기 위해 Contoso는 통화 계획 설정의 단계를 [따릅니다](set-up-calling-plans.md). 
 
-전화 번호를 할당해야 하는 사용자 수로 인해 Contoso는 PowerShell을 사용하여 전화 번호를 할당하기로 결정했습니다. 다른 설정에 PowerShellin&mdash;&mdash; 추가를 사용하여 숫자를 할당하는 방법을 알아보기 위해Contoso는 [PowerShell Teams 사용했습니다](teams-powershell-overview.md).  
+전화 번호를 할당해야 하는 사용자 수로 인해 Contoso는 PowerShell을 사용하여 전화 번호를 할당하기로 결정했습니다. 다른 설정에 PowerShellin&mdash;&mdash; 추가를 사용하여 숫자를 할당하는 방법을 알아보기 위해Contoso는 [powerShell Teams 사용했습니다](teams-powershell-overview.md).  
 
 ### <a name="direct-routing-sites"></a>직접 라우팅 사이트
 
@@ -196,7 +196,7 @@ Contoso는 전 세계 여러 지역에서 로컬 미디어 최적화를 활용�
 
 ## <a name="networking-considerations"></a>네트워킹 고려 사항
 
-Contoso에는 원격으로 작업해야 하는 사용자 수가 100명 이상으로 설정되어 있는 후 장시간 원격으로 작업해야 전화 시스템. 사용자는 VPN을 사용하여 특정 Line of Business 애플리케이션에 액세스했습니다. VPN을 사용하는 동안 전화 시스템 사용자가 통화 품질 저하를 경험했습니다. 
+Contoso에는 원격으로 작업해야 하는 사용자가 여러 전화 시스템. 사용자는 VPN을 사용하여 특정 Line of Business 애플리케이션에 액세스했습니다. VPN을 사용하는 동안 전화 시스템 사용자가 통화 품질 저하를 경험했습니다. 
 
-품질 문제를 해결하기 위해 Contoso는 내부 앱에 대한 연결이 VPN에 남아 있는 동안 Office 365 트래픽이 인터넷을 트래버스할 수 있도록 VPN 분할 터널링을 구현했습니다. VPN 분할 터널링을 구현하기 위해 Contoso는 VPN 분할 터널[링](/office365/enterprise/office-365-vpn-implement-split-tunnel)을 구현하는 Office 365.  
+품질 문제를 해결하기 위해 Contoso는 내부 앱에 대한 연결이 VPN에 남아 있는 동안 Office 365 트래픽이 인터넷을 트래버스할 수 있도록 VPN 분할 터널링을 구현했습니다. VPN 분할 터널링을 구현하기 위해 Contoso는 VPN 분할 터널링을 구현하는 [Office 365.](/office365/enterprise/office-365-vpn-implement-split-tunnel)  
 

@@ -20,19 +20,19 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fadf6685ada5f0625f7347efe3c1e4d8840af96
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 3e69fad1ab4aeeefba6d357fffd3d10a28139359
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579638"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592733"
 ---
 # <a name="security-and-microsoft-teams"></a>보안 및 Microsoft Teams
 
 > [!IMPORTANT]
 > Teams 서비스는 고객 경험 개선을 위해 변경될 수 있습니다. 예를 들어, 기본 액세스 또는 새로 고침 토큰 만료 시간은 Teams를 사용하는 성능 및 인증 복원을 향상시키기 위해 수정될 수 있습니다. 그러한 변경 사항은 원칙적으로 Teams를 안전하고 신뢰할 수 있는 상태로 유지하는 것을 목표로 수행됩니다.
 
-Microsoft 365 및 Office 365 서비스의 일부인 Microsoft Teams는 심층 방어를 통한 서비스 수준 보안, 서비스 내의 고객 컨트롤, 보안 강화 및 운영 모범 사례 같은 모든 보안 모범 사례 및 절차를 준수합니다. 자세한 내용은 [Microsoft 보안 센터](https://microsoft.com/trustcenter)를 참조하세요.
+Microsoft 365 및 Office 365 서비스의 일부인 Microsoft Teams는 심층 방어를 통한 서비스 수준 보안, 서비스 내의 고객 컨트롤, 보안 강화 및 운영 모범 사례 같은 모든 보안 모범 사례 및 절차를 준수합니다. 전체 세부 내용은 [Microsoft 보안 센터](https://microsoft.com/trustcenter)에서 확인할 수 있습니다.
 
 ## <a name="trustworthy-by-design"></a>신뢰할 수 있는 설계
 
@@ -40,7 +40,7 @@ Teams는 Microsoft 신뢰할 수 있는 컴퓨팅 SDL(Security Development Lifec
 
 ## <a name="trustworthy-by-default"></a>기본적으로 신뢰할 수 있음
 
-Teams의 네트워크 통신은 기본적으로 암호화됩니다. 모든 서버가 인증서를 사용하도록 요구하고 OAUTH, TLS(전송 계층 보안) 및 SRTP(보안 실시간 전송 프로토콜)를 사용하여 모든 Teams 데이터가 네트워크에서 보호됩니다.
+Teams의 네트워크 통신은 기본적으로 암호화됩니다. 모든 서버에서 인증서를 사용하도록 요구하고, OAUTH, TLS(전송 계층 보안), SRTP(보안 실시간 전송 프로토콜)를 사용하여 모든 Teams 데이터가 네트워크에서 보호를 받습니다.
 
 ## <a name="how-teams-handles-common-security-threats"></a>Teams에서 공통 보안 위협을 처리하는 방법
 
@@ -48,11 +48,11 @@ Teams의 네트워크 통신은 기본적으로 암호화됩니다. 모든 서�
 
 ### <a name="compromised-key-attack"></a>노출된 키 공격
 
-Teams는 Windows Server 운영 체제의 PKI 기능을 사용하여 TLS 연결을 위한 암호화에 사용되는 키 데이터를 보호합니다. 미디어 암호화에 사용되는 키는 TLS 연결을 통해 교환됩니다.
+Teams는 Windows Server 운영 체제의 PKI 기능을 사용하여 TLS 연결용 암호화에 사용된 키 데이터를 보호합니다. 미디어 암호화에 사용되는 키는 TLS 연결을 통해 교환됩니다.
 
 ### <a name="network-denial-of-service-attack"></a>네트워크 서비스 거부 공격
 
-분산 서비스 거부(DDOS) 공격은 공격자가 유효한 사용자의 정상적인 네트워크 사용 및 작동을 막을 때 발생합니다. 공격자가 서비스 거부(DoS) 공격을 사용하여 수행할 수 있는 작업은 다음과 같습니다.
+분산 서비스 거부(DDOS) 공격은 공격자가 유효한 사용자의 정상적인 네트워크 사용 및 작동을 막을 때 발생합니다. 서비스 거부 공격을 통해 공격자는 다음과 같이 공격할 수 있습니다.
 
 - 공격하는 네트워크에서 실행되는 응용 프로그램 및 서비스에 유효하지 않은 데이터를 보내정상적인 작동을 막습니다.
 - 많은 양의 트래픽을 보내서 시스템이 정당한 요청에 응답하지 않거나 느리게 응답할 때까지 시스템에 과부하가 걸리게 합니다.
@@ -134,7 +134,7 @@ Microsoft 365 내에는 여러 암호화 계층이 있습니다. Teams의 암호
 
 #### <a name="traffic-encryption"></a>트래픽 암호화
 
-모든 서버 간 트래픽에는 트래픽이 내부 네트워크에 국한되거나 내부 네트워크 경계를 넘는지 여부에 관계없이 MTLS가 필요합니다. 이 표에 Teams에서 사용하는 프로토콜이 요약되어 있습니다.
+모든 서버 간 트래픽에는 트래픽이 내부 네트워크에 국한되거나 내부 네트워크 경계를 넘는지 여부에 관계없이 MTLS가 필요합니다. 이 테이블에는 Teams에서 사용되는 프로토콜이 요약되어 있습니다.
 
 |**트래픽 유형**|**암호화 방법**|
 |:-----|:-----|
@@ -150,7 +150,7 @@ Teams는 TLS 및 MTLS를 사용하여 인스턴트 메시지를 암호화합니�
 
 #### <a name="media-encryption"></a>미디어 암호화
 
-Teams의 통화 흐름은 HTTPS를 통한 [세션 설명 프로토콜(SDP) RFC 4566](https://tools.ietf.org/html/rfc4566) 제안 및 응답 모델을 기반으로 합니다. 수신자가 수신 전화를 수락하면 발신자와 수신자가 세션 매개 변수에 동의합니다.
+Teams의 통화 흐름은 HTTPS를 통한 [세션 설명 프로토콜(SDP) RFC 8866](https://datatracker.ietf.org/doc/html/rfc8866) 제안 및 응답 모델을 기반으로 합니다. 수신자가 수신 전화를 수락하면 발신자와 수신자가 세션 매개 변수에 동의합니다.
 
 미디어 트래픽은 RTP 트래픽에 대한 기밀성, 인증 및 재생 공격 보호를 제공하는 RTP(실시간 전송 프로토콜)의 프로필인 SRTP(보안 RTP)를 사용하여 발신자와 수신자 간에 암호화되고 흐릅니다. SRTP는 보안 난수 생성기에 의해 생성되고 시그널링 TLS 채널을 사용하여 교환되는 세션 키를 사용합니다. 대부분의 경우 클라이언트에서 클라이언트로의 미디어 트래픽은 클라이언트에서 서버로의 연결 신호를 통해 협상되며 클라이언트에서 클라이언트로 직접 이동할 때 SRTP를 사용하여 암호화됩니다.
 
@@ -189,7 +189,7 @@ Teams에서 IT 관리자는 Microsoft 365 관리 센터를 통해 또는 TRPS(�
 
 ### <a name="configuring-access-to-teams-at-your-internet-boundary"></a>인터넷 경계에서 Teams에 대한 액세스 구성
 
-예를 들어 사용자가 모임에 참가할 수 있도록 Teams가 제대로 작동하려면 고객은 Teams 클라우드의 서비스에 대한 아웃바운드 UDP 및 TCP 트래픽이 허용되도록 인터넷 액세스를 구성해야 합니다. 자세한 내용은 [Office 365 URL 및 IP 주소 범위](/office365/enterprise/urls-and-ip-address-ranges)를 참조하세요.
+예를 들어 사용자가 모임에 참가할 수 있도록 Teams가 제대로 작동하려면 고객은 Teams 클라우드의 서비스에 대한 아웃바운드 UDP 및 TCP 트래픽이 허용되도록 인터넷 액세스를 구성해야 합니다. 자세한 내용은 [Office 365 URL 및 IP 주소 범위](/office365/enterprise/urls-and-ip-address-ranges)를 참조합니다.
 
 ### <a name="udp-3478-3481-and-tcp-443"></a>UDP 3478-3481 및 TCP 443
 
@@ -262,13 +262,13 @@ Teams는 엔터프라이즈 사용자가 실시간 모임을 만들고 참석할
 
 모임 참가자 또한 위치 및 자격 증명을 기준으로 분류됩니다. 이러한 특성을 모두 사용하여 특정 모임에 액세스할 수 있는 사용자를 결정할 수 있습니다. 사용자는 대략 다음 범주로 분류됩니다.
 
-- **테넌트에 속한 사용자**. 이러한 사용자는 테넌트에 대한 Azure Active Directory에 자격 증명이 있습니다.
+- **테넌트 소속 사용자**. 테넌트의 Azure Active Directory에 이러한 사용자의 자격 증명이 있습니다.
 
     *조직 내 사용자* 테넌트의 Azure Active Directory에 이러한 사용자의 자격 증명이 있습니다. *조직 내 사용자* 에 초대 받은 게스트 계정이 포함됩니다.
 
     *원격 사용자* - 이러한 사용자는 회사 네트워크 외부에서 참여합니다. 여기에는 가정에서, 또는 이동 중에 작업 하는 직원뿐만 아니라 신뢰할 수 있는 공급업체 직원과 같이 서비스 계약으로 엔터프라이즈 자격 증명을 허가 받은 다른 사용자도 포함될 수 있습니다. 원격 사용자는 모임을 만들고 참여하며 발표자 역할을 수행할 수 있습니다.
 
-- **테넌트에 속하지 않는 사용자**. 이러한 사용자는 테넌트에 대한 Azure AD의 자격 증명이 없습니다.
+- **테넌트 소속이 아닌 사용자**. 테넌트의 Azure AD에 이러한 사용자의 자격 증명이 없습니다.
 
     *페더레이션 사용자* - 페더레이션 사용자는 페더레이션 파트너와 관련된 유효한 자격 증명이 있어 Teams 인증을 받은 것으로 간주되지만 모임 주최자의 테넌트에 대해서는 계속 외부로 처리됩니다. 페더레이션 사용자는 모임에 참가하고 모임에 참석한 후 발표자로 승격할 수 있지만, 해당 사용자가 페더레이션된 다른 기업에서 모임을 만들지는 못합니다.
 
@@ -290,7 +290,7 @@ Teams에서 익명 사용자는 대기실이라는 대기 공간으로 보내질
 기본 설정은 다음과 같습니다.
 
 - *조직 내 사용자* - 조직 외부의 모든 사용자는 입장이 허가될 때까지 대기실에서 기다립니다.
-- *회사 및 신뢰할 수 있는 조직의 사용자* - 외부 액세스 허용 목록에 있는 Teams 및 비즈니스용 Skype 도메인의 인증된 사용자 및 외부 사용자는 대기실을 건너뛸 수 있습니다. 그 외 다른 모든 사용자는 입장을 허가 받을 때까지 대기실에서 대기합니다.
+- *회사 및 신뢰할 수 있는 조직의 사용자* - 외부 액세스 허용 목록에 있는 Teams 및 비즈니스용 Skype 도메인의 인증된 사용자 및 외부 사용자는 대기실을 건너뛸 수 있습니다. 기타 모든 사용자는 입장이 허가될 때까지 대기실에서 기다립니다.
 - *모든 사용자* - 인증된 사용자가 모임에 참여한 후에는 모든 모임 참가자가 대기실을 우회합니다.
 
 ### <a name="presenter-capabilities"></a>발표자 기능
@@ -311,7 +311,7 @@ Teams에서 익명 사용자는 대기실이라는 대기 공간으로 보내질
 
 [Microsoft 보안 센터](https://microsoft.com/trustcenter)
 
-[Microsoft Teams에서 모임 설정 관리](./meeting-settings-in-teams.md)
+[Microsoft Teams에서의 모임 설정 관리](./meeting-settings-in-teams.md)
 
 [VPN 분할 터널링을 사용하여 원격 사용자의 Microsoft 365 혹은 Office 365 연결 최적화](/Office365/Enterprise/office-365-vpn-split-tunnel)
 

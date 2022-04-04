@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams에서 공유 채널을 사용하고 관리하는 방법을 알아봅니다(미리 보기).
-ms.openlocfilehash: 3a5b7f1005af95580f56b87188bc8a67325d440d
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 0c66d308ef5182c6ace69a7bdcd004c865109bec
+ms.sourcegitcommit: 3e7c491d2bb13c86ac8e73b1c6c9735660c673e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63712125"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64590386"
 ---
 # <a name="shared-channels-in-microsoft-teams-preview"></a>Microsoft Teams의 공유 채널(미리 보기)
 
@@ -43,7 +43,7 @@ Microsoft Teams의 공유 채널은 팀에 없는 사용자를 초대할 수 있
 
 ## <a name="getting-started-with-shared-channels"></a>공유 채널 시작
 
-공유 채널은 Teams에서 기본적으로 사용하도록 설정됩니다. [채널 정책을 만들어](/MicrosoftTeams/teams-policies) 사용자가 공유 채널을 만들 수 있는지 여부, 조직 외부 사용자와 공유할 수 있는지 여부, 외부 공유 채널에 참여할 수 있는지 여부를 선택할 수 있습니다.
+공유 채널은 Teams에 기본적으로 활성화되어 있습니다. [채널 정책을 만들어](/MicrosoftTeams/teams-policies) 사용자가 공유 채널을 만들 수 있는지 여부, 조직 외부 사용자와 공유할 수 있는지 여부, 외부 공유 채널에 참여할 수 있는지 여부를 선택할 수 있습니다.
 
 조직 외부 사용자와 채널을 공유하려는 경우 중요한 계획 고려 사항은 [외부 공동 작업 계획](/microsoft-365/solutions/plan-external-collaboration)을 참조하세요.
 
@@ -73,7 +73,7 @@ Microsoft Teams의 공유 채널은 팀에 없는 사용자를 초대할 수 있
 
 공유 채널 소유자가 하나 이상의 공유 채널을 운영하는 마지막 소유자일 경우 Teams 클라이언트를 통해 제거할 수 없습니다.
 
-마지막 공유 채널 소유자가 조직을 떠나거나 팀과 연결된 Microsoft 365 그룹에서 제거될 경우 공유 채널의 구성원이 자동으로 공유 채널 소유자로 승격합니다. 이 상황을 방지하려면 둘 이상의 소유자를 추가하는 것이 좋습니다.
+마지막 공유 채널 소유자가 조직을 떠나거나 팀과 연결된 Microsoft 365 그룹에서 제거될 경우 공유 채널의 구성원이 자동으로 공유 채널 소유자로 승격합니다. 이러한 상황을 피하기 위해 둘 이상의 소유자를 추가하는 것이 좋습니다.
 
 ## <a name="channel-owner-settings"></a>채널 소유자 설정
 
@@ -122,6 +122,22 @@ Teams는 공유 채널 사이트의 수명 주기를 관리합니다. 사이트�
 사용자에게 SharePoint를 통해 공유 채널의 파일, 폴더 또는 전자 필기장에 대한 액세스 권한이 부여된 경우, 팀 또는 공유 채널에서 사용자를 제거해도 파일, 폴더 또는 전자 필기장에 대한 사용자의 액세스 권한은 제거되지 않습니다.
 
 기존 전자 필기장이 공유 채널의 탭으로 추가될 경우 공유 채널에 대한 액세스는 변경되지 않습니다. 전자 필기장은 기존 사용 권한을 보존합니다.
+
+## <a name="resources-for-your-users"></a>사용자에 대한 리소스
+
+다음 문서는 공유 채널을 사용하는 조직의 사용자에게 유용할 수 있습니다.
+
+[Teams에서 공유 채널 만들기](https://support.microsoft.com/office/80712457-579e-42b2-b54f-112329578aaa)
+
+[Teams 구성원들과 채팅 공유](https://support.microsoft.com/office/5f60de2d-0080-4e55-b26f-33a9dafa120e)
+
+[팀과 채널 공유](https://support.microsoft.com/office/b2e89992-2708-4583-b11e-bbb6edb4f1c3)
+
+[Teams에서 공유 채널과 다른 채널 유형을 사용하는 이유는 무엇인가요?](https://support.microsoft.com/office/e6ad61d0-6b3f-4e1b-baac-63e2978bd92e)
+
+[Teams의 게스트 및 공유 채널](https://support.microsoft.com/office/612de4ce-e7a3-4579-b086-bb8ff9f2d11e)
+
+[Teams의 공유 채널 소유자 및 구성원 역할](https://support.microsoft.com/office/75b379f4-8e9c-4202-acf1-6ffc3878a2d7)
 
 ## <a name="limits-for-shared-channels-preview"></a>공유 채널에 대한 제한(미리 보기)
 

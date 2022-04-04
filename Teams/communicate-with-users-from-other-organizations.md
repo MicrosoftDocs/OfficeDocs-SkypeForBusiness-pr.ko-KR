@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: 외부 액세스(페더레이션) 및 게스트 액세스를 사용하여 Microsoft Teams에서 외부 조직의 사용자와 통화, 채팅, 검색 및 추가하는 방법을 알아봅니다.
-ms.openlocfilehash: ab6a15edc1aa8d0de6f77b96ed176171ff5d65ae
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: db5d29a9d7afd121c3cecc47aa3ce717bb815f54
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288436"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592743"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>게스트 액세스 및 외부 액세스를 사용하여 조직 외부 사용자와 공동 작업
 
@@ -97,7 +97,7 @@ Teams에서 게스트 액세스를 구성하려면 [팀에서 게스트와 공�
 <sup>1</sup> 사용자가 게스트로 추가되어 있고 게스트 계정으로 로그인되어 있는 경우 제공됩니다.<br>
 <sup>2</sup> 전자 메일 또는 SIP(Session Initiation Protocol) 주소만 해당됩니다.<br>
 <sup>3</sup> 서로 다른 두 조직의 Teams 전용 사용자에게 Teams 전용 1:1 채팅이 지원됩니다. <br>
-<sup>4</sup> 기본적으로 외부 참가자는 전화 접속 참가자의 전화 번호를 볼 수 없습니다. 이러한 전화 번호의 프라이버시를 유지하려면 **입장/종료** **알림** 유형에 대해 톤을 선택하십시오(이로 인해 Teams가 번호를 읽을 수 없음). 자세한 내용은 [Microsoft Teams에서 모임에 대한 입장 및 퇴장 알림 켜기 혹은 끄기](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)를 읽어보세요. <br>
+<sup>4</sup> 기본적으로 외부 참가자는 전화를 건 참가자의 전화 번호를 볼 수 없습니다. 이러한 전화 번호의 개인 정보를 보호하려면 **입장/퇴장 알림 유형** 에 대해 **음** 을 선택합니다(이렇게 하면 Teams에서 번호를 읽을 수 없음). 자세한 내용은 [Microsoft Teams에서 모임 입장 및 퇴장 알림 켜기 또는 끄기](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)를 참조하세요.<br>
 <sup>5</sup> 기본적으로 허용되지만 Teams 관리자가 해제할 수 있습니다
 
 ## <a name="related-topics"></a>관련 항목

@@ -21,6 +21,6 @@ Teams는 다음과 같은 인터넷 브라우저를 완벽 하게 지원하며 �
 <sup>4</sup> Edge RS2 이상은 HTTP 프록시를 통해 실시간 오디오 및 비디오 트래픽을 전송할 수 없습니다.
 
 > [!NOTE]
-> 운영 체제에서 지원되는 브라우저를 실행할 수 있다면 Teams가 데스크톱 컴퓨터에서 지원됩니다. 예를 들어, Linux 운영 체제에서 Firefox의 실행은 Teams를 사용하기 위한 옵션입니다.
+> 브라우저에서 Teams를 실행하는 기능은 [Microsoft Teams의 최소 하드웨어 요구 사항](../hardware-requirements-for-the-teams-app.md)을 충족하는 PC 및 Mac에서 지원됩니다. 예를 들어, Linux 운영 체제에서 Firefox의 실행은 Teams를 사용하기 위한 옵션입니다.
 >
-> 모바일 운영 체제의 경우, Android 및 iOS 스토어에서 제공되는 Teams 앱을 실행하는 것이 좋습니다. 모바일 운영 체제에서 Teams를 실행할 수 있지만, 많은 기능을 사용할 수 없습니다.
+> 모바일 디바이스에서는 Teams 앱을 사용하는 것이 좋습니다. Teams 앱은 Android 및 iOS 스토어에서 사용할 수 있습니다. 모바일 디바이스에서 브라우저에서 Teams를 실행하는 것은 지원되지만 많은 기능을 사용할 수 없습니다.
