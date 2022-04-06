@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9accce27ded20f8ce78d4d5b80f6aff474213675
-ms.sourcegitcommit: c2a77ef9c1c9e6f00b3a4589bf02b100c37f5801
+ms.openlocfilehash: 384a57abb724ee29feb5f93fa171d0bc5ec96f3d
+ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64649027"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "64686495"
 ---
 # <a name="checks-and-validation-performed-by-microsoft-on-teams-apps"></a>Teams 앱에서 Microsoft가 수행한 검사 및 유효성 검사
 
@@ -31,15 +31,10 @@ Microsoft는 최종 사용을 위해 스토어에 나열되기 전에 모든 앱
 
 모든 앱은 Microsoft 앱 인증 정책을 준수해야 합니다. Teams 스토어 팀은 400개 이상의 테스트를 수행하여 앱이 사용 가능하고 높은 수준의 개인 정보 보호 및 보안을 준수하는지 확인합니다.
 
-앱 개발자가 준수하는 자세한 유효성 검사 지침을 알아보려면 [개발자를 위한 유효성 검사 지침을 참조하세요](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines).
+앱 개발자가 준수하는 자세한 유효성 검사 지침을 알아보려면 [개발자를 위한 유효성 검사 지침을 참조하세요](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines). 이 지침은 [Teams 앱에 대한 인증 정책을](/legal/marketplace/certification-policies#1140-teams) 기반으로 합니다.
 
 > [!NOTE]
 > Microsoft의 유효성 검사 및 검사는 조직 내에서 개발되고 조직의 구성원만 사용할 수 있으므로 사용자 지정 앱에 사용할 수 없습니다.
-
-<!--- TBD: Add the link later. 
-To review the certification policies of any app, see [App certification policies]().
-Is the link /microsoft-365-app-certification/teams/teams-apps
---->
 
 ## <a name="app-validation-and-testing"></a>앱 유효성 검사 및 테스트
 
