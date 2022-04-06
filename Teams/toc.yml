@@ -969,6 +969,8 @@ items:
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
       - name: 다이얼 플랜 및 라우팅
         items:
+          - name: 개요
+            href: dial-plans-routing-overview.md
           - name: 다이얼 플랜이 무엇인가요?
             href: what-are-dial-plans.md
           - name: 다이얼 플랜 만들기 및 관리
@@ -1493,6 +1495,10 @@ items:
             href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
       - name: 타사 앱 관리
         items:
+          - name: 타사 앱 이해
+            href: overview-third-party-apps.md
+          - name: Microsoft의 앱 유효성 검사 이해
+            href: overview-of-app-validation.md
           - name: '타사 앱에 대한 보안, 규정 준수, 개인 정보 보호 및 데이터 처리'
             href: /microsoft-365-app-certification/overview
           - name: Microsoft 365 또는 Office 365 및 사용자 지정 커넥터 사용
