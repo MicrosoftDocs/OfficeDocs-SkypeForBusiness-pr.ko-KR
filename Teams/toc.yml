@@ -1495,6 +1495,8 @@ items:
         items:
           - name: '타사 앱에 대한 보안, 규정 준수, 개인 정보 보호 및 데이터 처리'
             href: /microsoft-365-app-certification/overview
+          - name: Microsoft 365 또는 Office 365 및 사용자 지정 커넥터 사용
+            href: Office-365-custom-connectors.md
           - name: Teams용 타사 앱 구입
             href: purchase-third-party-apps.md
       - name: Teams용 앱 서식 파일
@@ -1511,8 +1513,6 @@ items:
             href: customize-apps.md
           - name: 조직의 앱 스토어 브랜딩
             href: customize-your-app-store.md
-          - name: 기본 제공 및 사용자 지정 탭 사용
-            href: built-in-custom-tabs.md
       - name: 관리자 컨트롤 및 앱 거버넌스
         items:
           - name: 관리자를 위한 앱 관리 개요
@@ -1537,8 +1537,6 @@ items:
             href: app-permissions.md
           - name: Team에서 앱의 관리 설정
             href: admin-settings.md
-          - name: Microsoft 365 또는 Office 365 및 사용자 지정 커넥터 사용
-            href: Office-365-custom-connectors.md
           - name: 사용자 유형에 따른 앱 동작
             href: non-standard-users.md
           - name: 최종 사용자로 앱을 최신 버전으로 업데이트

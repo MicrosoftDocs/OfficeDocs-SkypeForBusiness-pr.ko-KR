@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 이 문서에서는 패널 디바이스를 사용하는 Teams 지침을 제공합니다.
-ms.openlocfilehash: e39b54d290ac3c8d4809f9da011c2e28451c2ae7
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 2928bb64881cad5fb5c6615d26767e963f725dcd
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062542"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64643042"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>패널을 Microsoft Teams 방법
 
@@ -33,7 +33,7 @@ Teams 패널 디바이스는 Microsoft Teams 일정 또는 일정을 통해 예�
 
 패널 디바이스에 대한 개요 및 조직에서 해당 디바이스를 계획, 배달 및 관리하는 방법에 대한 지침은 패널 배포를 [Microsoft Teams 참조하세요](teams-panels.md).
 
-빠른 시작은 패널 시작을 Teams [체크 아웃합니다](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be).
+빠른 시작을 위해 시작 패널을 [Teams 체크 아웃합니다](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be).
 
 ## <a name="teams-panels-end-user-experience"></a>Teams 패널 최종 사용자 환경
 
@@ -158,7 +158,7 @@ Teams 패널 디바이스는 Microsoft Teams 일정 또는 일정을 통해 예�
 
 ## <a name="teams-panels-admin-experience"></a>Teams 관리자 환경
 
-패널의 리소스 Teams 관리자인 경우 [](teams-panels.md\#resource-account-provisioning)디바이스의 패널 앱 관리자도 됩니다. 패널 **앱** 관리자로, 디바이스의 패널 앱 설정을 관리하는 것 외에도 최종 사용자 환경 섹션에 언급된 [](#teams-panels-end-user-experience) 모든 함수를 할 수 있습니다.
+리소스 계정의 관리자인 Teams 패널 디바이스 [](teams-panels.md\#resource-account-provisioning)의 **패널 앱 관리자** 도 됩니다. 패널 **앱** 관리자로, 디바이스의 패널 앱 설정을 관리하는 것 외에도 최종 사용자 환경 섹션에 언급된 [](#teams-panels-end-user-experience) 모든 함수를 할 수 있습니다.
 
 패널 디바이스는 두 가지 유형의 관리자 설정을 제공합니다. 사용 가능한 관리자 설정에 액세스하려면 디바이스 관리자가 되어야 합니다. 최종 사용자는 이러한 설정에 액세스할 수 없습니다.
 
@@ -192,9 +192,11 @@ Teams 패널 디바이스는 Microsoft Teams 일정 또는 일정을 통해 예�
     - [배경 화면](#update-the-wallpaper)
     - [LED 표시기](#change-the-busy-state-led-color)
 
-#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Android의 Teams 룸과 Microsoft Teams 패널 쌍
+#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Android Teams 패널 룸과 Microsoft Teams 쌍
 
-Teams 패널에서 관리자 자격 증명을 사용하여 로그인합니다.  
+Android의 Teams 패널 Teams 룸을 페어링하려면 두 디바이스가 동일한 리소스 계정에 로그인되어야 합니다.
+
+이 Teams 패널 관리자 자격 증명을 사용하여 로그인합니다.
 
 1. 디바이스 설정 > 설정 > 설정 > 패널 설정 > 모임 설정 > 디바이스 > **이동하세요.**
 
@@ -208,6 +210,24 @@ Teams 패널이 Android의 Microsoft Teams 회의실과 페어링되는 경우 �
 
 체크인 및 방 릴리스를 사용하도록 설정하려면 체크 인 및 방 릴리스를 Microsoft Teams [참조합니다](check-in-and-room-release.md).
 
+#### <a name="room-capacity-warning"></a>룸 용량 경고
+
+Teams 회의실과 페어링된 Teams 회의실이 용량 이상일 때 경고 메시지를 표시할 수 있습니다. 이 기능을 사용하려면 Teams 수를 지원하는 카메라가 있어야 합니다. Teams 룸 없이 Android 지원실 용량 경고에서 Teams 패널.
+
+룸 용량 경고는 기본적으로 해제됩니다. 설정에서 설정을 켜면 Teams 패널 Android의 Teams 패널 Microsoft Teams [쌍을 켤 수 있습니다](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android). 패널 및 Teams 룸은 동일한 리소스 계정에 로그인해야 합니다.
+
+ 그런 다음 패널 **앱 설정 >** 관리 > 장치 > 이동합니다. 그런 다음 모임 **에서** 최대 회의실 점유 알림을 **설정합니다**.
+
+#### <a name="view-room-equipment"></a>룸 장비 보기
+
+이 기능이 켜져 있는 경우 최종 사용자는 해당 공간의 공간에서 사용할 수 있는 장비를 볼 수 Teams 패널.
+
+이 기능은 기본적으로 해제되어 있으며 디바이스당 사용할 수 있습니다. 켜기 위해 PowerShell`AudioDeviceName`에서 [Set-Place](/powershell/module/exchange/set-place?view=exchange-ps)를 사용하여 , , `DisplayDeviceName``VideoDeviceName`, 및 `Tags`에 대한 표시 이름을 구성합니다`IsWheelChairAccessible`.
+
+또는 관리 센터에서 이 Exchange 수 있습니다. 자세한 [내용은 리소스 편집](/exchange/recipients-in-exchange-online/manage-resource-mailboxes#edit-a-resource) 을 참조하세요.
+
+
+
 #### <a name="update-the-wallpaper"></a>배경 화면 업데이트
 
 홈 화면 배경 화면 이미지를 변경합니다.
@@ -216,7 +236,7 @@ Teams 패널이 Android의 Microsoft Teams 회의실과 페어링되는 경우 �
 2. 배경 **화면을 탭합니다**.
 3. 이미지 **선택에서** 홈 화면 배경 이미지로 설정할 이미지를 선택합니다. 배경 아래에서 선택한 이미지를 **미리 니다**.
 :::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="이 스크린샷에는 배경 화면 설정 화면이 표시됩니다.":::
-4. 홈 화면으로 돌아가서 배경 화면이 업데이트되어 있는지 확인합니다.
+4. 돌아가기 화면으로 표시하고 배경 화면이 업데이트되어 있는지 확인해야 합니다.
 
 #### <a name="change-the-busy-state-led-color"></a>사용 중 상태 LED 색 변경
 
@@ -226,7 +246,7 @@ Teams 패널이 Android의 Microsoft Teams 회의실과 페어링되는 경우 �
 2. **LED 설정**.
 3. LED **색 선택에서** 원하는 색을 선택합니다.
 :::image type="content" source="../media/panels-led-settings.png" alt-text="이 스크린샷에는 LED 색 사용 중 상태 설정이 표시됩니다.":::
-4. 홈 화면으로 돌아가 사용 중 상태의 LED 색이 업데이트되어 있는지 확인합니다. 모임 공간을 현재 사용할 수 있는 경우 테스트 모임을 예약하여 사용 중인 상태의 LED 색 변경을 확인하려고 합니다.
+4. 돌아가기 화면에 표시하고 사용 중 상태의 LED 색이 업데이트되어 있는지 확인합니다. 모임 공간을 현재 사용할 수 있는 경우 테스트 모임을 예약하여 사용 중인 상태의 LED 색 변경을 확인하려고 합니다.
 
 ## <a name="frequently-asked-questions"></a>자주 묻는 질문
 

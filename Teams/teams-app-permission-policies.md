@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 35246d03fb7611971bd846370413ca0580397647
-ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
+ms.openlocfilehash: e4a09c92fad10f91abad697a92764429deed3bf8
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64457051"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64643082"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft Teams에서 앱 사용 권한 정책 관리
 
@@ -89,9 +89,12 @@ Microsoft Teams 관리 센터에서 앱 사용 권한 정책을 관리합니다.
 
 Microsoft 365 정부 - GCCH 및 DoD 배포에서 Teams GCCH 및 DoD 고유의 타사 앱 설정에 대해 알아야 합니다.
 
-GCCH 및 DoD에서는 모든 타사 앱이 기본적으로 차단됩니다. 또한 Microsoft Teams 관리 센터의 앱 사용 권한 정책 페이지에서 타사 앱 관리에 대한 다음 메모를 볼 수 있습니다.
+GCC에서는 모든 타사 앱이 기본적으로 차단됩니다. 또한 Microsoft Teams 관리 센터의 앱 사용 권한 정책 페이지에서 타사 앱 관리에 대한 다음 메모를 볼 수 있습니다.
 
-![GCCH 및 DoD의 앱 권한 정책 스크린샷.](media/app-permission-policies-gcc.png)
+:::image type="content" source="media/app-permission-policies-gcc-trimmed.png" alt-text="GCCH 및 DoD의 앱 권한 정책 스크린샷." lightbox="media/app-permission-policies-gcc.png":::
+
+> [!NOTE]
+> GCCH 및 DOD 클라우드에서는 타사 앱을 사용할 수 없습니다.
 
 조직 전체 앱 설정을 사용하여 사용자가 타사 앱을 설치할 수 있는지 여부를 제어할 수 있습니다. 조직 전체 앱 설정은 모든 사용자의 동작을 관리하고 사용자에게 할당된 다른 모든 앱 사용 권한 정책을 재정의합니다. 악의적이거나 문제가 있는 앱을 제어하는 데 사용할 수 있습니다.
 

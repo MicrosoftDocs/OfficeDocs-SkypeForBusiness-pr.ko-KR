@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c2ec3432a503755ba6164f4a46f7b35f9696271
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: 37c899c1507a28f51bb881a9e7e66de6d7af0d58
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442314"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64643072"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 승인 앱 가용성
 
@@ -36,7 +36,7 @@ ms.locfileid: "63442314"
 
  ![핀 옵션을 사용하여 승인 앱을 보여줍니다.](media/approvalApp-pin.png)
 
-승인 앱에서 생성된 첫 번째 승인이은 기본 CDS(일반 데이터 서비스) 환경에서 승인 솔루션의 프로비저닝을 트리거합니다. 승인 앱에서 생성된 승인은 기본 CDS 환경에 저장됩니다.
+승인 앱에서 만든 첫 번째 승인은 기본 Microsoft Dataverse 환경에서 승인 솔루션 프로비전을 트리거합니다. 승인 앱에서 만든 승인 기본 Microsoft Dataverse 환경에 저장됩니다.
 
 이 자료에서는 승인 앱 요구 사항 및 역할에 대해 설명합니다.
 
@@ -47,28 +47,28 @@ ms.locfileid: "63442314"
 
 승인 앱을 배포하려면 다음 항목에 대한 권한이 필요합니다.
 
-- Microsoft CDS 데이터베이스를 만들 수 있는 사용 권한입니다.
+- Microsoft Dataverse 데이터베이스를 만드는 권한입니다.
 
-- [flow.microsoft.com](https://flow.microsoft.com/)의 계정
+- powerautomate.microsoft.com [](https://powerautomate.microsoft.com/)
 
 - 대상 환경의 관리자 역할
 
 - Power Automate[, Office 365](/power-automate/get-started-approvals) 또는 Dynamics 365에 대한 라이선스입니다.
 
-- 사용자가 새 승인 템플릿을 설정하려면 Microsoft Forms에 대한 라이선스가 필요합니다.
+- 새 승인 Microsoft Forms 설정하려면 사용자에 대한 라이선스가 필요합니다.
 
-승인 앱을 사용하려면 승인에 대한 라이선스가 Power Automate 계정이 첫 번째 승인 할당의 대상 환경의 승인 사용자 역할에 자동으로 추가됩니다.
+승인 앱을 사용하려면 Power Automate 라이선스가 필요하며, 첫 번째 승인 할당의 대상 환경의 승인 사용자 역할에 계정이 자동으로 추가됩니다.
 
-## <a name="storage-with-cds"></a>CDS가 포함된 저장소
+## <a name="storage-with-microsoft-dataverse"></a>Storage 데이터버스와 함께 사용
 
-일반 데이터 모델(CDM)은 CDS의 비즈니스 및 분석 응용 프로그램에서 사용되는 공유 데이터 언어입니다. Microsoft 및 파트너가 게시한 표준화된, 강화성 데이터 스케마 집합으로 구성되어 애플리케이션 및 비즈니스 프로세스 전반에 걸쳐 데이터의 일관성과 그 의미를 사용할 수 있습니다. [Microsoft Power Platform의 일반 데이터 모델](/power-automate/get-started-approvals)에 대해 자세히 알아보세요.
+CDM(일반 데이터 모델)은 Microsoft Dataverse의 비즈니스 및 분석 애플리케이션에서 사용하는 공유 데이터 언어입니다. Microsoft 및 파트너가 게시한 표준화된, 강화성 데이터 스케마 집합으로 구성되어 애플리케이션 및 비즈니스 프로세스 전반에 걸쳐 데이터의 일관성과 그 의미를 사용할 수 있습니다. [Microsoft Power Platform의 일반 데이터 모델](/power-automate/get-started-approvals)에 대해 자세히 알아보세요.
 
 [승인 워크플로](/power-automate/modern-approvals)에 대해 자세히 알아보세요.
 
-템플릿에서 만든 승인은 여전히 타이틀, 세부 정보, 템플릿 ID 등의 데이터를 CDS에 저장합니다. 승인 요청에 제출된 응답은 양식에 저장됩니다.  [Microsoft Forms용 데이터 저장소에 대해 자세히 알아보면 됩니다](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
+승인 만든 데이터는 여전히 타이틀, 세부 정보, 템플릿 ID 등 Microsoft Dataverse에 데이터를 저장합니다. 승인 요청에 제출된 응답은 양식에 저장됩니다. 데이터 저장소에 대한 자세한  [Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
->Microsoft Forms 사이트에서 양식 서식 파일을 삭제하면 승인 템플릿이 중단되고 사용자가 요청을 시작할 수 없습니다. Microsoft Forms에서 삭제된 승인 템플릿을 열려고 할 때 "CDB TableNotFound"에 오류가 발생합니다.
+>사이트 Microsoft Forms 서식 파일을 삭제하면 승인 템플릿이 중단되고 사용자가 요청을 시작할 수 없습니다. 사용자에 대해 삭제된 승인 템플릿을 열려고 할 때 "CDB TableNotFound"가 Microsoft Forms.
 
 Org-scoped 템플릿은 테넌트와 팀 범위 템플릿의 동일한 수명을 공유하며 팀의 수명이 동일합니다. 따라서 팀을 영구적으로 삭제하면 관련 템플릿이 삭제됩니다.
 
@@ -116,21 +116,27 @@ Org-scoped 템플릿은 테넌트와 팀 범위 템플릿의 동일한 수명을
 
      ![앱 관리가 강조 표시된 Teams 있는 관리 > 표시됩니다.](media/manage-approval-apps.png)
 
-  4. 승인 **을 선택합니다**.
+  4. **승인.**
 
   5. 조직에 대한 앱을 비활성화하려면 토글을 선택합니다.
 
-     :::image type="content" alt-text="승인 앱에 대한 세부 정보를 보여줍니다." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
+     :::image type="content" alt-text="는 앱에 대한 승인 보여줍니다." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
-## <a name="retention-policy"></a>보존 정책
+## <a name="app-policies"></a>앱 정책
 
-승인 앱에서 만든 승인은 현재 백업을 지원하지 않는 기본 CDS 환경에 저장됩니다. [환경을 백업 및 복원하는 방법에 대해 자세히 알아보세요. PowerPlatform \|Microsoft Docs](/power-platform/admin/backup-restore-environments).
+### <a name="retention-policy"></a>보존 정책
 
-양식에 저장된 데이터는 팀 소유자가 Microsoft Forms 웹앱의 삭제된 폼 탭에서 정리할  때까지 삭제되지 않습니다.
+승인 앱에서 만든 승인 기본 Microsoft Dataverse 환경에 저장되어 현재 백업을 지원하지 않습니다. [환경을 백업 및 복원하는 방법에 대해 자세히 알아보세요. PowerPlatform \|Microsoft Docs](/power-platform/admin/backup-restore-environments).
+
+양식에 저장된 데이터는 팀 소유자가 웹앱의 삭제된 폼 탭에서 정리할 때까지 Microsoft Forms  않습니다.
+
+### <a name="conditional-access-policies"></a>조건부 액세스 정책
+
+현재 승인 앱은 Teams 조건부 액세스 정책을 지원하지 Microsoft Teams.
 
 ## <a name="data-limitations"></a>데이터 제한 사항
 
-각 팀은 최대 400개 이상의 승인 템플릿을 포함할 수 있으며, 각 템플릿은 Microsoft Forms의 현재 기능에 따라 최대 50,000개 요청을 수집할 수 있습니다.
+각 팀은 최대 400개 이상의 승인 템플릿을 포함할 수 있으며, 각 템플릿은 각 템플릿의 현재 기능에 따라 최대 50,000개 요청을 수집할 수 Microsoft Forms.
 
 ## <a name="auditing"></a>감사
 
@@ -176,7 +182,7 @@ Org-scoped 템플릿은 테넌트와 팀 범위 템플릿의 동일한 수명을
 
 - 보기 템플릿
 
-Flow 내에서 더 많은 감사 승인에 액세스하려면 기본 승인 엔터티 승인, 승인 요청 및 승인 응답에 대한 기본 환경에서 감사를 사용하도록 설정하고 구성합니다. 생성, 업데이트 및 삭제 작업은 승인 레코드에 대해 감사할 수 있는 이벤트입니다. [보안 및 규정 준수를 위한 감사 데이터 및 사용자 활동 - Power Platform \|Microsoft Docs](/power-platform/admin/audit-data-user-activity)에 대해 자세히 알아보세요.
+추가 감사 승인에 액세스하려면 Power Automate 승인, 승인 요청 및 승인 응답에 대한 기본 환경에서 감사를 사용하도록 설정하고 구성합니다. 생성, 업데이트 및 삭제 작업은 승인 레코드에 대해 감사할 수 있는 이벤트입니다. [보안 및 규정 준수를 위한 감사 데이터 및 사용자 활동 - Power Platform \|Microsoft Docs](/power-platform/admin/audit-data-user-activity)에 대해 자세히 알아보세요.
 
 감사는 [Microsoft 365 보안 및 규정 준수 센터](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US)에서 추가로 사용자 지정할 수 있습니다.
 
@@ -197,18 +203,18 @@ Teams 승인 앱에서 사용자는 새 승인을 만들고 보내고 받은 승
 
 ## <a name="approvals-e-signature-integration"></a>승인 전자 서명 통합
 
-승인 앱 전자 서명 기능을 사용하려면 사용하려는 특정 전자 서명 공급자에 대한 라이선스가 필요합니다. 조직에 대한 라이선스를 얻게하려면 공급자의 사이트로 이동해야 합니다.
+앱 전자 승인 기능을 사용하려면 사용하려는 특정 전자 서명 공급자에 대한 라이선스가 필요합니다. 조직에 대한 라이선스를 얻게하려면 공급자의 사이트로 이동해야 합니다.
 
 ### <a name="enable-or-disable-e-signature-providers"></a>전자 서명 공급자 사용 또는 사용 안 하도록 설정
 
-관리 센터를 Teams 승인 앱에서 사용자가 사용할 수 있는 타사 전자 서명 공급자를 제어할 수 있습니다. 기본적으로 승인 앱에서 전자 서명 공급자를 사용하도록 설정됩니다. 전자 서명 공급자를 사용하지 않도록 설정하면 사용자가 승인을 만들 때 해당 공급자에 액세스할 수 없습니다. 또한 사용자는 해당 공급자를 사용하여 만든 전자 서명 요청을 볼 수 없습니다.
+관리 센터를 Teams 앱에서 사용자가 사용할 수 있는 타사 전자 서명 공급자를 제어할 승인 있습니다. 기본적으로 전자 서명 공급자는 승인 있습니다. 전자 서명 공급자를 사용하지 않도록 설정하면 사용자가 승인을 만들 때 해당 공급자에 액세스할 수 없습니다. 또한 사용자는 해당 공급자를 사용하여 만든 전자 서명 요청을 볼 수 없습니다.
 
 1. 관리 센터의 왼쪽 탐색에서 Teams **AppsManage** >  앱으로 **Teams** 합니다.
-2. 승인 앱을 검색한 다음 선택합니다.
+2. 앱의 승인 검색한 다음 선택합니다.
 3. 설정 탭으로  이동한 다음 다음 중 하나 이상을 합니다.
 
     - Adobe Sign을 사용하도록 설정하거나 사용하지 않도록 설정하려면 토글을 **켜** 기 또는 끄기로 **전환합니다**.
     - DocuSign을 사용하도록 설정하거나 사용하지 않도록 설정하려면 토글을 **켜** 기 또는 끄기로 **전환합니다**.
 4. 제출 **을 선택합니다**.
 
-승인 앱에서 만든 전자 서명 승인은 선택한 공급자의 클라우드 환경에 저장됩니다. 전자 서명에 대한 데이터를 내보내기하려면 공급자의 사이트로 이동해야 합니다. 전자 서명 계약의 저장소, 내보내기 및 보존에 대한 자세한 내용은 공급자의 설명서를 참조하세요.
+앱에서 만든 전자 승인 승인은 선택한 공급자의 클라우드 환경에 저장됩니다. 전자 서명에 대한 데이터를 내보내기하려면 공급자의 사이트로 이동해야 합니다. 전자 서명 계약의 저장소, 내보내기 및 보존에 대한 자세한 내용은 공급자의 설명서를 참조하세요.

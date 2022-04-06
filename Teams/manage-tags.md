@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 조직에서 태그를 사용하는 방법을 관리하는 방법을 Microsoft Teams.
-ms.openlocfilehash: af9855f1ca771cb9f5d4739194e26cba746859ff
-ms.sourcegitcommit: caaed4b48b8f2b05d035c1bdea00a61301bc9f05
+ms.openlocfilehash: 67bbc53b5619c47117ae227396ad8352aa1a382a
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63740205"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64642912"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>태그 관리 Microsoft Teams
 
@@ -61,7 +61,7 @@ ms.locfileid: "63740205"
 
 기본적으로 팀 소유자는 사용자 지정 태그를 추가할 수 있습니다. 팀 소유자 및 팀 구성원이 태그를 만들고 편집, 삭제 및 관리할 수 있도록 이 설정을 변경하거나 조직의 태그를 해제할 수 있습니다.
 
-1. 관리 센터의 왼쪽  >  탐색에서 Microsoft Teams 설정Teams **클릭합니다**.
+1. 관리 센터의 왼쪽 탐색에서 **Microsoft Teams 설정 Teams** >  Teams **클릭합니다**.
 2. 태그 **지정 아래** 에서 **태그** 옆에 있는 관리되는 다음 옵션 중 하나를 선택합니다.
 
     - **팀 소유자 및 구성원**: 팀 소유자 및 구성원이 태그를 관리할 수 있도록 허용합니다.
@@ -72,7 +72,7 @@ ms.locfileid: "63740205"
 
 조직 전체에서 사용자 지정 태그를 사용하는 방법을 제어하도록 다음 태그 설정을 구성할 수 있습니다.
 
-1. 관리 센터의 왼쪽  >  탐색에서 Microsoft Teams 설정Teams **클릭합니다**.
+1. 관리 센터의 왼쪽 탐색에서 **Microsoft Teams 설정 Teams** >  Teams **클릭합니다**.
 2. 태그 **지정에서** 조직의 요구에 따라 다음을 설정합니다.
 
     - **태그를** 관리할 수 있는 팀 소유자를 다시 지정합니다. 이 설정을 설정하면 팀 소유자가 팀 구성원이 팀 내에서 태그를 만들고 관리할 수 있는지 여부를 설정할 수 있으며 태그 값은 각 팀의 기본값  입니다. 이 설정을 해제하면 태그는 팀당  변경할 수 없습니다.

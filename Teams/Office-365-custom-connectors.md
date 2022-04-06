@@ -17,23 +17,23 @@ description: 커넥터는 자주 사용하는 서비스의 콘텐츠와 업데�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e42ef850c089633a6c9145935d6e70a92cdb6801
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: 7fef0b28d9663cdb472f4daf79076c2d4eefcd66
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442694"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64642982"
 ---
 # <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Microsoft 365 및 사용자 지정 커넥터를 Microsoft Teams
 
-커넥터는 자주 사용하는 콘텐츠 및 서비스 업데이트를 채널에 직접 전달하여 팀을 최신으로 유지할 수 있습니다. 커넥터를 사용하여 Microsoft Teams 사용자가 팀의 채팅 스트림 내에서 Trello, Wunderlist, GitHub 및 Azure DevOps Services 업데이트를 받을 수 있습니다.
+팀을 업데이트하기 위해 커넥터는 자주 사용하는 콘텐츠 및 서비스 업데이트를 Teams 제공합니다. 커넥터를 사용하여 Teams 사용자가 Trello, Wunderlist, GitHub 및 Azure DevOps Services. 업데이트는 팀의 채팅 스트림에 직접 게시됩니다.
 
-팀의 모든 구성원은 팀 권한이 허용되는 경우 커넥터를 사용하여 인기 있는 클라우드 서비스에 팀을 연결할 수 있으며, 모든 팀 구성원에게 해당 서비스의 활동에 대한 알림을 제공합니다. 커넥터는 처음에 커넥터를 설정한 멤버가 남아 있는 후에도 계속 작동합니다. \remove를 추가할 수 있는 권한이 있는 모든 팀 구성원은 다른 멤버에 의해 커넥터 설정을 수정할 수 있습니다.
+Microsoft 365 연결선은 모든 Microsoft Teams Microsoft 365 그룹과 함께 사용되어 모든 구성원이 보다 쉽게 동기화하고 관련 정보를 빠르게 받을 수 있습니다. 두 Microsoft Teams Exchange 모두 동일한 커넥터 모델을 사용하며, 두 플랫폼에서 동일한 커넥터를 사용할 수 있습니다. 그러나 팀이 종속된 Microsoft 365 그룹에 대한 커넥터를 사용하지 않도록 설정하면 이 팀에 대한 커넥터를 만들 수 있는 기능을 사용하지 않도록 설정됩니다.
 
-Microsoft 365 연결선은 모든 Microsoft Teams Microsoft 365 그룹과 함께 사용할 수 있어 모든 구성원이 보다 쉽게 동기화하고 관련 정보를 빠르게 받을 수 있습니다. 두 Microsoft Teams Exchange 모두 동일한 커넥터 모델을 사용하며, 두 플랫폼에서 동일한 커넥터를 사용할 수 있습니다. 그러나 팀이 종속된 Microsoft 365 그룹에 대한 커넥터를 사용하지 않도록 설정하면 이 팀에 대한 커넥터를 만드는 기능을 사용하지 않도록 설정됩니다.
+팀의 모든 구성원은 팀 권한이 허용되는 경우 커넥터를 사용하여 인기 있는 클라우드 서비스에 팀을 연결할 수 있으며, 모든 팀 구성원에게 해당 서비스의 활동에 대한 알림을 제공합니다. 커넥터는 처음에 커넥터를 설정한 멤버가 왼쪽으로 떠난 후에도 계속 작동합니다. 추가 또는 제거할 권한이 있는 모든 팀 구성원은 다른 구성원이 커넥터 설정을 수정할 수 있습니다.
 
 > [!NOTE]
-> 커넥터는 기본적으로 Government Cloud Community(GCC) 비활성화됩니다. 이 매개 변수를 사용하도록 설정해야 하는 경우 ConnectorsEnabled 또는 ConnectorsEnabledForTeams 매개 변수를 SetOrganizationConfig cmdlet으로 $true 설정합니다. [PowerShell에 Exchange Online 합니다](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps).
+> 커넥터는 기본적으로 Government Cloud Community(GCC) 비활성화됩니다. 이를 사용하도록 설정하려면 cmdlet을 `ConnectorsEnabled` `ConnectorsEnabledForTeams` 사용하여 또는 매개 변수 `$true` `SetOrganizationConfig` 를 설정합니다. 커넥트 [PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)에 Exchange Online 합니다.
 
 ## <a name="add-a-connector-to-a-channel"></a>채널에 커넥터 추가
 
@@ -59,7 +59,8 @@ Microsoft 365 연결선은 모든 Microsoft Teams Microsoft 365 그룹과 함께
     > [!div class="mx-imgBorder"]
     > ![채널에서 Teams 보여 는 인터페이스의 스크린샷입니다.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
 
-<!---Delete this section after customer migration to new Webhook URL is complete--->
+<!---Delete this section after customer migration to new Webhook URL is complete --->
+
 > [!IMPORTANT]
 > **커넥터 URL 업데이트 알림**
 >
@@ -73,6 +74,6 @@ Microsoft 365 연결선은 모든 Microsoft Teams Microsoft 365 그룹과 함께
 > 4. URL이 성공적으로 업데이트된 후 "URL이 최신입니다"라는 메시지가 표시됩니다.
 > !["URL은 최신" 메시지 스크린샷입니다.](media/Teams_URL_up_to_date.png)
 
-## <a name="develop-custom-connectors"></a>사용자 지정 커넥터 개발
+## <a name="see-also"></a>참고 항목
 
-들어오는 웹후크와 함께 사용자 지정 커넥터를 빌드할 수도 있습니다. 자세한 내용은 [개발자 설명서](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)를 참조하세요.
+* [사용자 지정 커넥터 및 웹후크 빌드](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)

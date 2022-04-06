@@ -19,12 +19,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dfe825f1ab21aab3dad2617236d61859ab6b90d8
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
-ms.translationtype: HT
+ms.openlocfilehash: 6f8f831b3e24018dfc3f5ba3cbf2a7767b66398b
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288886"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64643092"
 ---
 # <a name="simplify-business-processes-in-retail-environments"></a>매장 환경에서 비즈니스 프로세스 간소화
 
@@ -52,7 +52,7 @@ Power Apps를 추가하여 조직을 위한 로우 코드 또는 코드가 없�
 
 ## <a name="track-key-performance-indicators-kpis-with-power-bi-reports"></a>Power BI 보고서로 KPI(핵심 성과 지표) 추적
 
-Microsoft Teams 채널 및 채팅에서 대화형 Power BI 콘텐츠를 공유하고 공동 작업합니다. [Power BI 탭](../built-in-custom-tabs.md)을 Teams에 추가하여 Teams를 통해 보고서에 대화형 보고서와 채팅을 포함하도록 하며, Teams 작업 피드에서 바로 Power BI에서 발생하는 중요한 일에 대해 알림을 받을 수 있습니다.
+Microsoft Teams 채널 및 채팅에서 대화형 Power BI 콘텐츠를 공유하고 공동 작업합니다. [Power BI 탭](/microsoftteams/platform/tabs/what-are-tabs)을 Teams에 추가하여 Teams를 통해 보고서에 대화형 보고서와 채팅을 포함하도록 하며, Teams 작업 피드에서 바로 Power BI에서 발생하는 중요한 일에 대해 알림을 받을 수 있습니다.
 
 자세한 정보: [Power BI를 사용하여 Microsoft Teams에서 공동 작업](/power-bi/collaborate-share/service-collaborate-microsoft-teams).
 

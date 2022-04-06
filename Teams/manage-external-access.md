@@ -21,12 +21,12 @@ description: Teams 또는 IT 관리자는 다른 도메인(페더레이션)에 �
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 8505a57ff0ab9bb2e79607ffe13768058bab26d6
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
-ms.translationtype: HT
+ms.openlocfilehash: 06243ca47e26f66dd4194a9ec9e50cc5a6bfbde7
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556319"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64642852"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams에서 외부 액세스 관리
 
@@ -106,6 +106,9 @@ Teams 관리 센터는 조직 수준에서 외부 액세스를 제어합니다. 
 다른 테넌트와 통신하려면 **모든 외부 도메인 허용** 을 활성화하거나 위의 동일한 단계에 따라 허용된 도메인 목록에 테넌트를 추가해야 합니다.  
 
 ## <a name="manage-contact-with-external-teams-users-not-managed-by-an-organization"></a>조직에서 관리하지 않는 외부 Teams 사용자와의 연락처 관리
+
+> [!NOTE]
+> 이 문서에서 Teams 및 Skype 인터로프 기능을 사용할 수 없습니다. GCC, GCC 또는 DOD 배포 또는 사설 클라우드 환경에서는 사용할 수 없습니다.
 
 관리자는 조직에서 관리하지 않는 외부 Teams 사용자("관리되지 않음")와의 통신을 사용하도록 설정하거나 비활성화하도록 선택할 수 있습니다. 사용하도록 설정된 경우 관리되지 않는 Teams 계정이 있는 사용자가 연락을 시작할 수 있는지 여부를 추가로 제어할 수도 있습니다(다음 이미지 참조). **조직에서 관리하지 않는 Teams 계정이 있는 외부 사용자가 내 조직의 사용자에게 연락할 수 있음** 이 꺼져 있으면 관리되지 않는 Teams 사용자는 전체 이메일 주소를 검색하여 조직 연락처 및 관리되지 않는 Teams와의 모든 커뮤니케이션을 찾을 수 없습니다. 사용자는 조직 사용자가 시작해야 합니다.
 

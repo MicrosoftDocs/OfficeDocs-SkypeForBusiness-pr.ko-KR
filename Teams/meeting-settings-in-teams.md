@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 사용자가 조직에서 예약하는 모든 Teams 모임 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 294bbac570d1f1741449c7c81cb9389b20cdcdc6
-ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
-ms.translationtype: HT
+ms.openlocfilehash: 10afbcc30404122e9e4d497570bf0b69e4ef6fa7
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62960030"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64642922"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams에서의 모임 설정 관리
 
@@ -70,7 +70,7 @@ ms.locfileid: "62960030"
 
 다른 값 조합은 익명 사용자가 모임에 참여하지 못하도록 합니다.
 > [!NOTE]
-> 조직별로 익명 가입이 해제된 조직에 대해 조직자별 정책을 사용하려면 관리자가 정책을 생성한 다음 사용자에게 할당해야 합니다. 방법을 알아보려면 [Microsoft Teams에서 모임 정책 관리](/microsoftteams/meeting-policies-overview)를 참조하세요.
+> 모임 정책 관리에 대한 자세한 내용은 모임 정책 관리를 [Microsoft Teams.](/microsoftteams/meeting-policies-overview)
 
 ### <a name="blocking-anonymous-join-for-specific-client-types"></a>특정 클라이언트 유형에 대한 익명 참가 차단
 
