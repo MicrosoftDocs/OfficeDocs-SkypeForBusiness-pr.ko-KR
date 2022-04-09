@@ -1563,8 +1563,8 @@ items:
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Bookings 앱 관리
                 href: bookings-app-admin.md
-              - name: 모바일 브라우저에서 참가 환경 관리
-                href: expand-teams-across-your-org/mobile-browser-join.md
+              - name: 브라우저에서 참가 환경 관리
+                href: expand-teams-across-your-org/browser-join.md
               - name: 가상 방문 사용 현황 보고서
                 href: teams-analytics-and-reports/virtual-visits-usage-report.md
           - name: Teams의 교대 근무
@@ -1693,8 +1693,8 @@ items:
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: 가상 방문 사용 현황 보고서
                 href: teams-analytics-and-reports/virtual-visits-usage-report.md
-              - name: 모바일 브라우저에서 참가 환경 관리
-                href: expand-teams-across-your-org/mobile-browser-join.md
+              - name: 브라우저에서 참가 환경 관리
+                href: expand-teams-across-your-org/browser-join.md
           - name: 정책 패키지 보기 및 할당
             href: policy-packages-healthcare.md
           - name: 보안 메시징

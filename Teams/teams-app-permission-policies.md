@@ -14,7 +14,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Microsoft Teams의 앱 사용 권한 정책과 이를 사용하여 조직의 사용자가 사용할 수 있는 앱을 제어하는 방법에 대해 알아보세요.
+description: Microsoft Teams 앱 사용 권한 정책 및 최종 사용자의 앱 가용성을 제어하는 방법에 대해 알아봅니다.
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: e4a09c92fad10f91abad697a92764429deed3bf8
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.openlocfilehash: 2a4862b1daedd90dce4d486ed1517efbfeaca336
+ms.sourcegitcommit: f3c380f745af4c3aaa2720234860b45696a0c333
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64643082"
+ms.lasthandoff: 04/09/2022
+ms.locfileid: "64737580"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft Teams에서 앱 사용 권한 정책 관리
 
@@ -35,7 +35,7 @@ ms.locfileid: "64643082"
 
 Microsoft Teams 관리 센터에서 앱 사용 권한 정책을 관리합니다. 전역(조직 전체 기본값) 정책을 사용하거나 사용자 지정 정책을 만들어 사용자에게 할당할 수 있습니다. 사용자 지정 정책을 만들고 할당하지 않으면 조직의 사용자에게 전역 정책이 자동으로 적용됩니다. 정책을 편집하거나 할당한 후 변경 내용을 적용하는 데 몇 시간이 걸릴 수 있습니다.
 
-![앱 사용 권한 정책 스크린샷.](media/app-permission-policies.png)
+![앱 권한 정책의 스크린샷.](media/app-permission-policies.png)
 
 > [!NOTE]
 > 조직 전체 앱 설정은 자신이 만들고 사용자에게 할당하는 모든 사용자 지정 정책과 전역 정책에 대해 재정의합니다.
@@ -45,16 +45,16 @@ Microsoft Teams 관리 센터에서 앱 사용 권한 정책을 관리합니다.
 예를 들어, 모든 타사 앱을 차단하고 조직의 HR 팀에 대해 Microsoft의 특정 앱을 허용하려는 경우를 예로 들겠습니다. 먼저 [앱 관리](manage-apps.md) 페이지로 이동하여 HR 팀에 허용하려는 앱이 조직 수준에서 허용되는지 확인합니다. 그런 다음 HR 앱 사용 권한 정책이라는 사용자 지정 정책을 만들고, 원하는 앱을 차단 및 허용하도록 설정하고, HR 팀의 사용자에게 할당합니다.
 
 > [!NOTE]
-> GCCH Teams Microsoft 365 정부 커뮤니티 클라우드(GCCH) 및 국방부(DoD) 환경에서 배포한 경우 GCCH 및 DoD에 고유한 타사 앱 설정에 대해 자세히 알아보 [Microsoft 365](#manage-org-wide-app-settings-for-microsoft-365-government) 정부에 대한 전체 앱 설정 관리를 참조하세요.
+> GCCH(Microsoft 365 정부 커뮤니티 클라우드 High) 및 국방부(DoD) 환경에 Teams 배포한 경우 [Microsoft 365 Government의 조직 전체 앱 설정 관리를](#manage-org-wide-app-settings-for-microsoft-365-government) 참조하여 GCCH 및 DoD에 고유한 타사 앱 설정에 대해 자세히 알아보세요.
 
 ## <a name="create-a-custom-app-permission-policy"></a>사용자 지정 앱 사용 권한 정책 만들기
 
 조직에서 서로 다른 사용자 그룹에 사용할 수 있는 앱을 제어하려면 하나 이상의 사용자 지정 앱 사용 권한 정책을 만들어 할당합니다. 앱이 Microsoft, 타사 또는 조직에 의해 게시되는지 여부에 따라 별도의 사용자 지정 정책을 만들고 할당할 수 있습니다. 사용자 지정 정책을 만든 후 조직 전체 앱 설정에서 타사 앱을 사용하지 않도록 설정한 경우 변경할 수 없습니다.
 
-1. 관리 센터에 [Teams 로그인](https://admin.teams.microsoft.com/dashboard)
-1. 왼쪽 패널에서  >  앱 Teams **정책으로 이동하세요**.
+1. [Teams 관리 센터에](https://admin.teams.microsoft.com/dashboard) 로그인
+1. 왼쪽 패널에서 **Teams** **appsPermission** >  정책으로 이동합니다.
 1. **추가** 를 선택합니다.
-    ![새 앱 사용 권한 정책 스크린샷.](media/app-permission-policies-new-policy.png)
+    ![새 앱 권한 정책의 스크린샷.](media/app-permission-policies-new-policy.png)
 1. 정책의 이름과 설명을 입력합니다.
 1. **Microsoft 앱**, **타사 앱** 및 **사용자 지정 앱** 아래에서 다음 중 하나를 선택합니다.
 
@@ -69,14 +69,14 @@ Microsoft Teams 관리 센터에서 앱 사용 권한 정책을 관리합니다.
     1. 허용할 앱을 검색한 다음 **추가** 를 클릭합니다.. 검색 결과는 앱 게시자(**Microsoft 앱**, **타사 앱** 또는 **사용자 지정 앱**)로 필터링됩니다.
     1. 앱 목록을 선택하면 **허용** 을 클릭합니다.
 
-1. 마찬가지로 특정 앱 차단을 선택하고 다른 모든 앱을 허용하는 경우 차단할 앱을 검색하고 추가한 다음 차단을 **선택합니다**.
+1. 마찬가지로 **특정 앱 차단을 선택하고 다른 모든 앱을 허용하는** 경우 차단하려는 앱을 검색하여 추가한 다음 **차단** 을 선택합니다.
 1. **저장** 을 선택합니다.
 
 ## <a name="edit-an-app-permission-policy"></a>앱 사용 권한 정책 편집
 
-관리 센터를 사용하여 Teams 글로벌 정책 및 사용자 지정 정책을 포함하여 정책을 편집할 수 있습니다.
+Teams 관리 센터를 사용하여 만든 전역 정책 및 사용자 지정 정책을 포함하여 정책을 편집할 수 있습니다.
 
-1. 관리 센터의 왼쪽 창에서 Microsoft Teams **AppsPermission** >  **정책으로 Teams** 있습니다.
+1. Microsoft Teams 관리 센터의 왼쪽 창에서 **Teams** **appsPermission** >  정책으로 이동합니다.
 1. 정책 이름 왼쪽을 클릭하여 정책을 선택한 다음 **편집** 을 선택합니다.
 1. 여기서 원하는 대로 변경합니다. 앱 게시자를 기반으로 설정을 관리하고 허용/차단 설정에 따라 앱을 추가 및 제거할 수 있습니다.
 1. **저장** 을 선택합니다.
@@ -87,11 +87,11 @@ Microsoft Teams 관리 센터에서 앱 사용 권한 정책을 관리합니다.
 
 ## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>Microsoft 365 Government에 대한 조직 전체 앱 설정 관리  
 
-Microsoft 365 정부 - GCCH 및 DoD 배포에서 Teams GCCH 및 DoD 고유의 타사 앱 설정에 대해 알아야 합니다.
+Microsoft 365 Government - Teams GCCH 및 DoD 배포에서는 GCCH 및 DoD에 고유한 타사 앱 설정에 대해 다음 사항을 알아야 합니다.
 
-GCC에서는 모든 타사 앱이 기본적으로 차단됩니다. 또한 Microsoft Teams 관리 센터의 앱 사용 권한 정책 페이지에서 타사 앱 관리에 대한 다음 메모를 볼 수 있습니다.
+GCC, GCCH 및 DoD 배포에서는 모든 타사 앱이 기본적으로 차단됩니다. 또한 GCC Microsoft Teams 관리 센터의 앱 권한 정책 페이지에서 타사 앱을 관리하는 방법에 대한 다음 메모가 표시됩니다.
 
-:::image type="content" source="media/app-permission-policies-gcc-trimmed.png" alt-text="GCCH 및 DoD의 앱 권한 정책 스크린샷." lightbox="media/app-permission-policies-gcc.png":::
+:::image type="content" source="media/app-permission-policies-gcc-trimmed.png" alt-text="GCCH 및 DoD의 앱 권한 정책 스크린샷" lightbox="media/app-permission-policies-gcc.png":::
 
 > [!NOTE]
 > GCCH 및 DOD 클라우드에서는 타사 앱을 사용할 수 없습니다.
@@ -100,15 +100,15 @@ GCC에서는 모든 타사 앱이 기본적으로 차단됩니다. 또한 Micros
 
 1. **사용 권한 정책** 페이지에서 **조직 전체 앱 설정** 을 선택합니다. 그런 다음 패널에서 원하는 설정을 구성할 수 있습니다.
 
-    ![전체 앱 설정 스크린샷.](media/app-permission-policies-gcc-org-wide.png)
+    ![조직 전체 앱 설정의 스크린샷.](media/app-permission-policies-gcc-org-wide.png)
 
 1. **타사 앱** 에서 이 설정을 끄거나 켜면 타사 앱에 대한 액세스를 제어할 수 있습니다.
 
-    - **타사 앱 허용**: 사용자가 타사 앱을 사용할 수 있는지 여부를 제어합니다. 이 설정을 해제하면 사용자는 타사 앱을 설치하거나 사용할 수 없습니다. Microsoft 365 정부 - GCCH 및 DoD 배포에서 Teams 설정은 기본적으로 해제됩니다.
+    - **타사 앱 허용**: 사용자가 타사 앱을 사용할 수 있는지 여부를 제어합니다. 이 설정을 해제하면 사용자는 타사 앱을 설치하거나 사용할 수 없습니다. Teams Microsoft 365 Government - GCCH 및 DoD 배포에서는 이 설정이 기본적으로 해제되어 있습니다.
     - **기본적으로 스토어에 게시된 새 타사 앱 허용**: Teams 앱 스토어에 게시된 새 타사 앱이 Teams에서 자동으로 제공될지 여부를 제어합니다. 타사 앱을 허용하는 경우에만 이 옵션을 설정할 수 있습니다.
 
-1. **차단된 앱** 아래에서 조직 전체에서 차단하려는 앱을 추가합니다. 정부 Microsoft 365 - GCCH 및 DoD 배포에서 Teams 모든 타사 앱이 기본적으로 이 목록에 추가됩니다. 조직에서 허용하려는 타사 앱의 경우 이 차단된 앱 목록에서 앱을 제거합니다. 앱 전체를 차단하면 앱 사용 권한 정책에서 앱이 허용되는지 여부와 관계없이 모든 사용자에게 앱이 자동으로 차단됩니다.
-1. 적용 **하려면 오그** 전체 앱 설정에 대한 저장을 선택합니다.
+1. **차단된 앱** 아래에서 조직 전체에서 차단하려는 앱을 추가합니다. Microsoft 365 Government - GCCH 및 DoD 배포에서 Teams 모든 타사 앱이 기본적으로 이 목록에 추가됩니다. 조직에서 허용하려는 타사 앱의 경우 이 차단된 앱 목록에서 앱을 제거합니다. 앱 전체를 차단하면 앱 사용 권한 정책에서 앱이 허용되는지 여부와 관계없이 모든 사용자에게 앱이 자동으로 차단됩니다.
+1. 조직 전체 앱 설정에 대해 **저장** 을 선택하여 적용합니다.
 
 앞서 설명한 대로 타사 앱을 허용하기 위해 전역(조직 전체 기본값) 정책을 편집 및 사용하거나 사용자 지정 정책을 만들고 할당할 수 있습니다.
 
