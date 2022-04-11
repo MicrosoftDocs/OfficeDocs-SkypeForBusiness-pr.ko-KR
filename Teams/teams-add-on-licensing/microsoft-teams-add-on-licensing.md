@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Microsoft Teams 대한 추가 기능 라이선스 및 각 라이선스에서 얻을 수 있는 기능에 대해 알아봅니다.
-ms.openlocfilehash: 785ae1495e3a210883f489528ac401ad9442b526
-ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
+ms.openlocfilehash: 000678a0b41e660371de295ae40d2c6359774efe
+ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64686385"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64756954"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>추가 기능 라이선스 Microsoft Teams
 
@@ -50,12 +50,6 @@ ms.locfileid: "64686385"
 ## <a name="which-microsoft-capabilities-are-available-with-my-plan"></a>플랜에서 사용할 수 있는 Microsoft 기능은 무엇인가요?
 
 모든 Microsoft 365 계획을 사용하면 Teams 사용자가 VoIP 기술을 사용하여 조직 내에서 피어 투 피어 호출을 할 수 있습니다. 그러나 PSTN 번호 호출 또는 PBX 설정과 같은 기능에 대해 다른 라이선스를 추가할 수 있습니다.
-
-### <a name="audio-conferencing"></a>오디오 회의
-
-모든 Microsoft 365 구독에 **오디오 회의** 라이선스를 무료로 추가할 수 있습니다.
-
-Microsoft 365 E5/A5/G5 요금제에는 오디오 회의 라이선스가 포함되어 있으므로 이러한 플랜으로 추가 오디오 회의 라이선스를 구입할 필요가 없습니다.
 
 ### <a name="voice-and-pstn-connectivity"></a>음성 및 PSTN 연결
 
