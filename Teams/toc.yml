@@ -1401,8 +1401,12 @@ items:
             href: rooms/multi-tenant-management-customer.md
           - name: 회의실 활동용 감사 로그
             href: rooms/multi-tenant-auditing.md
+          - name: 건강 및 사용 현황 보고서
+            href: rooms/health-and-usage-reports.md
           - name: 표준 및 소회의실 플래너
             href: rooms/standards-and-room-planner.md
+          - name: 고객이 보고한 인시던트
+            href: rooms/customer-reported-incidents.md
       - name: 디바이스
         items:
           - name: Teams 장치 저장소
@@ -1499,8 +1503,8 @@ items:
             href: overview-third-party-apps.md
           - name: Microsoft의 앱 유효성 검사 이해
             href: overview-of-app-validation.md
-          - name: '타사 앱에 대한 보안, 규정 준수, 개인 정보 보호 및 데이터 처리'
-            href: /microsoft-365-app-certification/overview
+          - name: '앱의 보안, 규정 준수 및 개인 정보 취급 방침'
+            href: overview-of-app-certification.md
           - name: Microsoft 365 또는 Office 365 및 사용자 지정 커넥터 사용
             href: Office-365-custom-connectors.md
           - name: Teams용 타사 앱 구입

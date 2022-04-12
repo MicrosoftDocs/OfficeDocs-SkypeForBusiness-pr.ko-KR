@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97af2abe8542a885f8a0056ed90f2a61330ba8a0
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 4bd98159e9e209cba855e1a0f2d0ee853b3ba889
+ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711932"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64756894"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams의 Teams 및 채널 개요
 
@@ -96,6 +96,9 @@ Microsoft 365의 Teams 관리자인 경우 Teams 관리 센터에서 시스템 �
 |채널은 부모 팀과 직접 공유할 수 있습니다.|해당 없음|아니요|예|
 |게스트는 채널에 참여할 수 있습니다.|예|예|아니요|
 |외부 참가자(B2B 직접 연결)가 채널에 참여할 수 있습니다.|아니요|아니요|예|
+|조절|예|아니요|아니요|
+|소규모 회의실|예|아니요|아니요|
+|채널로 링크 복사|예|아니요|아니요|
 |각 채널에는 전용 SharePoint 사이트가 있습니다.|아니요|예|예|
 |예약된 모임|예|아니요|예|
 |Planner|예|아니요|아니요|

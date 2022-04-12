@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d4816f3f05c37fe1a690ffea7f48789c41fd2603
-ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
+ms.openlocfilehash: 95dd3f01d07a2e393414013ab40ca97ec1a63bb6
+ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "61216674"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64756974"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>Teams Exploratory 평가판에서 사용자 업그레이드
 
@@ -37,7 +37,7 @@ ms.locfileid: "61216674"
 
 ## <a name="step-1-when-to-upgrade"></a>1단계: 업그레이드 시기  
 
-조직의 Teams Exploratory 평가판이 만료되는 시기와 활성 사용자 수를 확인하려면 Microsoft 365 관리 센터에서 **청구 >** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b>제품</b></a>으로 이동합니다. Teams Exploratory 평가판이 만료되지 전에 알림을 받게 됩니다.
+조직의 Teams Exploratory 평가판이 만료되는 시기와 활성 사용자 수를 확인하려면 Microsoft 365 관리 센터에서 **청구 >** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b>제품</b></a>으로 이동합니다. Teams Exploratory 평가판 만료 전에는 별도의 알림이 수신됩니다.
 
 > [!IMPORTANT]
 > 사용자가 Teams에 액세스할 수 있도록 만료일 전에 유료 라이선스로 업그레이드하도록 계획해야 합니다.
@@ -45,6 +45,9 @@ ms.locfileid: "61216674"
 > 사용자는 평가판 만료일 30일 후에 Teams에 액세스할 수 없게 됩니다. 만료일 후 60일 이내에 사용자에게 유료 라이선스가 할당되면 다시 Teams에 액세스할 수 있고 모든 콘텐츠는 계속 유지됩니다. 하지만 60일이 지나면 사용자의 데이터가 삭제됩니다. 사용자가 Teams 기능을 사용할 수 있도록 새 라이선스가 할당되고 유예 기간 내에 추가되면 모든 콘텐츠는 유지됩니다. 자세한 내용은 <a href="/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide" target="_blank">구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?</a>를 참조하세요.
 
 ## <a name="step-2-choose-an-upgrade-path"></a>2단계: 업그레이드 경로 선택
+
+> [!TIP]
+> Teams Exploratory 평가판이 만료되어 업그레이드를 고려 중인 고객이라면 Teams Essentials를 사용하는 것이 가장 좋습니다. 자세한 내용은 [Microsoft Teams Essentials과 다른 계획 비교하기](get-started-with-teams-essentials.md#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans)를 참조하세요.
 
 조직이 현재 보유한 구독에 따라 Microsoft Teams Exploratory 평가판에서 유료 라이선스로 업그레이드할 수 있는 세 가지 방법이 있습니다.
 
@@ -67,7 +70,7 @@ ms.locfileid: "61216674"
 
 ### <a name="auto-claim-policies"></a>자동 클레임 정책
 
-다음에 업그레이드할 때 자동 획득 정책을 사용하여 조직에 대한 정책을 생성하여 Teams 라이선스를 획득하지 않은 새 사용자에게 유료 구독에서 라이선스를 자동으로 할당하세요. 자세한 내용은 <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">자동 획득 정책 관리</a>를 참조하세요.
+다음에 업그레이드할 때 자동 획득 정책을 사용하여 조직에 대한 정책을 생성하여 Teams 라이선스를 획득하지 않은 새 사용자에게 유료 구독에서 라이선스를 자동으로 할당하세요. 자세한 내용은 <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">자동 클레임 정책 관리</a>를 참조하세요.
 
 ## <a name="related-topics"></a>관련 항목
 
