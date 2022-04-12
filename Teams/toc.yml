@@ -1503,7 +1503,7 @@ items:
             href: overview-third-party-apps.md
           - name: Microsoft의 앱 유효성 검사 이해
             href: overview-of-app-validation.md
-          - name: '앱의 보안, 규정 준수 및 개인 정보 취급 방침'
+          - name: '타사 앱의 보안, 규정 준수 및 개인 정보 보호'
             href: overview-of-app-certification.md
           - name: Microsoft 365 또는 Office 365 및 사용자 지정 커넥터 사용
             href: Office-365-custom-connectors.md

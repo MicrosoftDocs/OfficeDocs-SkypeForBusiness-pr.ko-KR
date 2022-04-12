@@ -18,16 +18,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 59caf72dbc29c6cc97789a7dc85f8bd7b035274e
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: abb025b43e63ae68b82f49bec06a3fc7533e6f0c
+ms.sourcegitcommit: a31c02892e35babbbcf5e7c303c7f14d7ba5cb52
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64757156"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64784762"
 ---
-# <a name="microsoft-365-app-compliance-program"></a>Microsoft 365 앱 규정 준수 프로그램
+# <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>타사 앱의 보안, 규정 준수 및 개인 정보 보호를 위한 Microsoft 365 앱 준수 프로그램
 
-Microsoft 규정 준수 프로그램은 앱이 업계 최고의 표준 프레임워크에서 파생된 제어에 대해 검증되었으며 고객 데이터를 보호하기 위한 강력한 보안 및 규정 준수 관행이 마련되어 있음을 보여줍니다. 이 프로그램에는 두 단계가 있습니다.
+Microsoft 규정 준수 프로그램은 앱이 업계 최고의 표준 프레임워크에서 파생된 제어에 대해 검증되었으며 고객 데이터를 보호하기 위한 강력한 보안 및 규정 준수 관행이 마련되어 있음을 보여줍니다. 이 프로그램에는 2개의 단계가 있습니다.
 
 * 게시자 증명.
 * Microsoft 365 인증.
