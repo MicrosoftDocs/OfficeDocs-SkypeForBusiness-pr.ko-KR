@@ -1,14 +1,13 @@
 ---
-title: 'Microsoft Teams용 보안 가이드: 공유 컴퓨터에서 Teams를 안전하게 사용'
+title: 'Microsoft Teams용 제로 트러스트 보안 가이드: 공유 컴퓨터에서 Teams 안전하게 사용하기'
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
-ms.date: 08/21/2020
 ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: pawa
-description: 업무 공간의 공유 컴퓨터에서 Microsoft Teams 를 안전하게 사용하기 위한 지침
+description: 작업 공간의 공유 컴퓨터에서 Microsoft Teams를 안전하게 사용하기 위한 제로 트러스트 지침입니다.
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c97ebd8cf9e43ada8d077ffbd33f6b39c8d9c64c
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 83fc071aa50ed076fc2a6798cfaee9d4770a36a5
+ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893547"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64817679"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>공유 컴퓨터에서 Microsoft Teams 를 안전하게 사용
 
@@ -54,17 +53,17 @@ ms.locfileid: "62893547"
 위의 지침을 충족할 수 없는 경우 다른 브라우저 보안 모범 사례를 사용하는 것이 좋습니다.
 
 1. 브라우저 보안 기능을 적용합니다.
-    1. 개인 검색 세션을 사용하여 디스크에 유지되는 데이터 및 기록을 최소화합니다. 예를 들어 [Microsoft Edge의 inPrivate 브라우징](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate), [Google Chrome의 시크릿 브라우징](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en) 또는 비공개 브라우징을위한 특정 브라우저 기능을 사용합니다. 
-    1. 비공개 검색을 *기본값* 으로 사용하도록 시스템 동작을 변경하는 것이 좋습니다. 
+    1. 개인 검색 세션을 사용하여 디스크에 유지되는 데이터 및 기록을 최소화합니다. 예를 들어 [Microsoft Edge의 inPrivate 브라우징](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate), [Google Chrome의 시크릿 브라우징](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en) 또는 비공개 브라우징을위한 특정 브라우저 기능을 사용합니다.
+    1. 비공개 검색을 *기본값* 으로 사용하도록 시스템 동작을 변경하는 것이 좋습니다.
 
 2. 다운로드 가능한 Teams 클라이언트가 아닌 [Teams 웹 앱](https://teams.microsoft.com)(*웹* 클라이언트라고도 함)을 찾아서 사용합니다.
 
-3. 공유 시스템 사용을 마쳤으면 다음을 수행해야 합니다. 
+3. 공유 시스템 사용을 마쳤으면 다음을 수행해야 합니다.
     1. [Teams에서 로그아웃](https://support.microsoft.com/office/sign-out-of-teams-a6d76e69-e1dd-4bc4-8e5f-04ba48384487)
     1. 모든 브라우저 탭과 창을 닫습니다.
     1. 장치에서 로그아웃합니다.
 
-위의 항목은 모든 사례를 다루는 모범 사례 또는 보안 제어의 포괄적인 목록이 아니며 사용자 환경에서 수행할 수 있는 추가 작업이 있을 수 있습니다(예: 보안 관리자는 [Office 365 ATP 플랜 1 또는 2](/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2)가 있습니다). 그러나 이러한 단계는 공유 장치에서 Teams를 사용하기 위한 지침을 작성하기 위한 시작점입니다.
+위의 항목은 모든 사례를 다루는 종합 모범 사례 또는 보안 제어 목록이 아니며, 사용자 환경에서 추가로 작업을 수행해야 할 수 있습니다(예: 보안 관리자는 [Office 365용 Microsoft Defender 플랜 1 또는 2](/microsoft-365/security/office-365-security/overview?view=o365-worldwide)가 있는 경우 Teams에 안전한 링크 또는 안전한 첨부 파일을 사용하도록 선택할 수 있습니다). 하지만 공유 장치에서 Teams를 사용하기 위한 지침을 작성할 때 이러한 지침을 사용하여 시작할 수 있습니다.
 
 ## <a name="more-information"></a>추가 정보
 

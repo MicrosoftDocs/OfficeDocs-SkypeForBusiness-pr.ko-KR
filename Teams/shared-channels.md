@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams에서 공유 채널을 사용하고 관리하는 방법을 알아봅니다(미리 보기).
-ms.openlocfilehash: 0c66d308ef5182c6ace69a7bdcd004c865109bec
-ms.sourcegitcommit: 3e7c491d2bb13c86ac8e73b1c6c9735660c673e3
+ms.openlocfilehash: feecbdfe45e890b1e302d49bfdcaf7b6d3e19157
+ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64590386"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64817849"
 ---
 # <a name="shared-channels-in-microsoft-teams-preview"></a>Microsoft Teams의 공유 채널(미리 보기)
 
@@ -34,6 +34,8 @@ Microsoft Teams의 공유 채널은 팀에 없는 사용자를 초대할 수 있
 공유 채널의 구성원으로 추가된 사용자만 공유 채널을 볼 수 있고 여기에 참여할 수 있습니다. 공유 채널이 연결된 팀의 다른 구성원은 채널을 볼 수 없습니다.
 
 공유 채널이 만들어지면 해당 채널이 상위 팀에 연결되어 다른 팀으로 이동할 수 없습니다. 또한 공유 채널은 표준 채널로 전환할 수 없으며, 그 반대로도 전한할 수 없습니다.
+
+[공유 채널을 다른 유형의 채널과 비교합니다](/microsoftteams/teams-channels-overview#channel-feature-comparison).
 
 ## <a name="best-practices-for-the-shared-channels-preview"></a>공유 채널 미리 보기에 대한 모범 사례
 
