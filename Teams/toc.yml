@@ -369,10 +369,6 @@ items:
                 href: guest-experience.md
               - name: 게스트 액세스 켜기 또는 끄기
                 href: set-up-guests.md
-              - name: 팀에서 게스트 보기
-                href: view-guests.md
-              - name: 게스트 정보 편집
-                href: edit-guests-information.md
       - name: 통화 품질 모니터링 및 관리
         items:
           - name: 통화 품질 모니터링 및 향상

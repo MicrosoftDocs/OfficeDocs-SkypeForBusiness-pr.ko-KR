@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 474c5fc55476e664ba03b9dd82608d8c244b7982
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 8062c4a9b12c067091fcc95f192ac519f680937d
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839189"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64846537"
 ---
 # <a name="set-your-coexistence-and-upgrade-settings"></a>공존 및 업그레이드 설정 지정
 
@@ -84,7 +84,7 @@ Microsoft Teams [이해 및 비즈니스용 Skype 공존 및 상호 운용성](t
 4. **조직 전체 설정 사용** 이외의 **공존 모드** 를 선택하는 경우 Teams 업그레이드가 곧 제공될 사용자의 비즈니스용 Skype 앱에서 알림을 사용하도록 설정하는 옵션이 있습니다. 비즈니스용 Skype 사용자 알림 옵션을 켜면 **사용자에게** 이 알림을 사용하도록 설정할 수 있습니다.
 5. 변경한 후 **저장** 을 클릭합니다.
 
-### <a name="related-topics"></a>관련 주제
+### <a name="related-topics"></a>관련 항목
 [여정 계획](upgrade-plan-journey.md)
 
 [비즈니스용 Skype 및 Teams 대한 공존 및 업그레이드 경험 이해](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
