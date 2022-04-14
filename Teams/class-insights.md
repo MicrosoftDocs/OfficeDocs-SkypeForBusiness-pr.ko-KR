@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5e554672156f70556ebc18625115cd9a1ce8c58
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 234121449025512f8a5ffe37814804cc775b7b37
+ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062692"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64837461"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams의 교육 인사이트에 대한 IT 관리자 가이드
 
@@ -94,7 +94,7 @@ Insights는 수업 팀 내 모든 채널의 활동 데이터를 보여주지만,
 **Teams에서 Insights 앱 추가하기:**
 * “**…**”을 앱 표시줄에서 클릭하세요.
 * **Insights** 를 검색하고 선택합니다.
-* 설명 화면이 열립니다. **추가** 를 클릭합니다.
+* 설명 화면이 열리면 **추가** 를 클릭합니다.
 
 :::image type="content" source="media/insights-add-personal-app.png" alt-text="Teams에 Insights를 추가합니다.":::
 
@@ -106,7 +106,7 @@ Insights는 수업 팀 내 모든 채널의 활동 데이터를 보여주지만,
 > 다음 링크를 통해 Insights 앱을 찾을 수도 있습니다. [https://aka.ms/addInsights](https://aka.ms/addInsights)
 
 ## <a name="when-is-insights-used"></a>Insights는 언제 사용하나요? 
-Insights는 **학습 주기** 동안 학습 커뮤니티를 지원합니다. Insights는 여러 차원의 실시간 매트릭으로 학교 커뮤니티 구성원 사이에서 일어나는 확인, 숙고, 논의 및 실행의 지속적인 순환을 지원합니다.
+Insights는 **학습 주기** 전반에 걸쳐 학습 커뮤니티를 지원합니다. Insights는 여러 차원의 실시간 메트릭으로 학교 커뮤니티 구성원 사이에서 일어나는 확인, 숙고, 논의 및 실행의 지속적인 순환을 지원합니다.
 *   학생들이 어떻게 그리고 언제 교육자, 교육 과정 자료 및 다른 학생들과 참여할 것인지, 그리고 어떻게 과제를 수행할 것인지 **확인합니다**. 
 *   자료가 학생들의 성공과 성장 분야를 결정하는데 어떤 지원을 할 수 있는지 그리고 어느 부분에서 지원이 필요한지 **숙고합니다**.
 *   학생들과 학교 커뮤니티가 관계 강화, 목표 설정, 자체 검토, 공동 작업 추진 및 결과 개선을 위해 조사한 결과들에 대해 **논의합니다**.
@@ -141,15 +141,17 @@ Insights는 교육자에 대한 데이터를 *표시하지 않습니다*. 데이
 > 수집된 대부분의 데이터는 몇 분 내에 Insights에 표시됩니다. 수업 모임(수업 채널 중 하나와 연결된 모임) 출석은 모임이 종료된 후 몇 시간 후(일반적으로 최대 24시간 후)에 표시됩니다.
 
 > [!NOTE]
-> Education Insights에서 수집된 데이터는 IT 관리자가 [Education Analytics 토글](#turn-sds-for-insights-on-or-off)을 끄거나 테넌트에 대한 Office 구독이 종료될 때까지 유지됩니다. Teams에서 특정 기능을 끄더라도 기록 데이터는 삭제되지 않습니다.
+> Education Insights에서 수집된 데이터는 IT 관리자가 [Education Analytics 토글](#turn-sds-for-insights-on-or-off)을 끄거나 테넌트에 대한 Office 구독이 종료될 때까지 유지됩니다. Teams에서 특정 기능을 해제해도 기록 데이터는 삭제되지 않습니다.
 
 ### <a name="privacy-and-security"></a>개인 정보 및 보안
-Insights를 통해 수집 및 표시되는 정보는 [90개가 넘는 규정과 산업 표준](/compliance/regulatory/offering-home)을 충족하며, 학생 및 자녀의 보안 및 기타 유사한 개인 정보 관련 규정에 대한 [GDPR](/compliance/regulatory/gdpr) 및 [FERPA(가족 교육권 및 개인 정보에 관한 법률)](/compliance/regulatory/offering-ferpa)를 포함합니다. 
+Education Insights는 Microsoft 365의 일부로서 [GDPR](/compliance/regulatory/gdpr) 및 학생의 교육 기록 개인 정보를 보호하는 [FERPA(가족 교육 권한 및 개인 정보 보호법)](/compliance/regulatory/offering-ferpa)를 포함하여 데이터 수집 및 사용에 대한 국가, 지역 및 산업별 규정을 충족합니다.
 
 데이터는 기관에 속하며, Microsoft는 데이터를 오로지 수집하고 저장합니다. Microsoft 직원은 데이터 복구와 같은 서비스를 유지하기 위한 감사 방식으로 규정 준수에 의해 허용되는 경우를 제외하고는 데이터에 액세스하거나 데이터를 볼 수 없습니다.
 
-> [!NOTE]
-> [Microsoft 보안 센터](https://www.microsoft.com/trust-center)에 방문하여 Microsoft에서 어떻게 데이터를 보호하는지 자세히 알아보세요.
+> [!TIP]
+> * [Microsoft 보안 센터](https://www.microsoft.com/trust-center)에 방문하여 Microsoft에서 어떻게 데이터를 보호하는지 자세히 알아보세요.
+> * [Microsoft 규정 준수 서비스](/compliance/regulatory/offering-home)에서 조직이 규정 준수 표준을 충족하는 데 있어 Microsoft 365가 어떻게 도움을 주는지 알아보세요.
+
 
 ### <a name="performance-and-reliability"></a>성능과 안정성
 Insights는 Teams에서 수집되는 대량의 데이터를 최적의 성능과 안정성으로 처리하도록 설계되었습니다. 100%의 가용성을 보장할 수는 없지만 가능한 한 100%에 가까운 수치로 제공하도록 노력하고 있습니다.
