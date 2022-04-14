@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams에서 비공개 채널을 사용하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 908432588c1744027b03efee44b9506ea4388fa2
-ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
+ms.openlocfilehash: 775019bc0151215557e7b0962619c4fe8fb8fe85
+ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63761922"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64817829"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams의 비공개 채널
 
@@ -39,6 +39,8 @@ Microsoft Teams의 비공개 채널은 팀 내 공동 작업을 위한 집중적
 비공개 채널을 나타내는 자물쇠 아이콘. 비공개 채널의 구성원으로 추가된 사용자만 비공개 채널을 볼 수 있고 여기에 참여할 수 있습니다.
 
 비공개 채널이 만들어지면 해당 채널이 상위 팀에 연결되어 다른 팀으로 이동할 수 없습니다. 또한 비공개 채널은 표준 채널로 전환할 수 없으며, 그 반대로도 전한할 수 없습니다.
+
+[비공개 채널을 다른 유형의 채널과 비교합니다](/microsoftteams/teams-channels-overview#channel-feature-comparison).
 
 ![팀 내 비공개 채널의 스크린샷.](media/private-channels-in-teams.png)
 

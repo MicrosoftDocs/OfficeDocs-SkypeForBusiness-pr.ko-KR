@@ -1483,7 +1483,7 @@ items:
     items:
       - name: 개요
         href: deploy-apps-microsoft-teams-landing-page.md
-      - name: Microsoft에서 제공하는 샘플 앱 관리
+      - name: Microsoft에서 제공하는 앱 관리
         items:
           - name: Bookings 앱 관리
             href: bookings-app-admin.md
