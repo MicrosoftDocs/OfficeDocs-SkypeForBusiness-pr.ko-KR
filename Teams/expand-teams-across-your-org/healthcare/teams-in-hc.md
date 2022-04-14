@@ -26,26 +26,26 @@ description: Microsoft Teams 원격 헬스, EHR 통합, 최전방 직원 시스�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 9ca90625fc8b3229d282d9f86ba4e12fdfa56f49
-ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
+ms.openlocfilehash: 6332f9fb5020e654401b9802e6d4a9dbe942d3ac
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63050874"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853049"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>의료 조직을 위한 Teams 시작
 
 Microsoft Teams는 병원 및 기타 의료 조직에 유용한 다양한 원격 의료 기능을 제공합니다. 병원을 지원하기 위해 다음과 같은 기능이 포함된 Teams 기능을 개발 중입니다.
 
-- 가상 방문 및 EHR(전자 의료 기록) 통합
+- 가상 약속 및 EHR(전자 의료 기록) 통합
 - Teams 정책 패키지
 - 보안 메시징
 - Teams 서식 파일
 - 케어 코디네이션 및 공동 작업
 
-이 기능은 의료 조직을 위한 Microsoft Cloud. [의료용 Microsoft 클라우드](/industry/healthcare)에서 Azure, Dynamics 365 및 Microsoft 365의 기능을 결합한 이 솔루션 사용에 대해 자세히 알아보세요.
+이 기능은 Microsoft Cloud for Healthcare 일부입니다. [의료용 Microsoft 클라우드](/industry/healthcare)에서 Azure, Dynamics 365 및 Microsoft 365의 기능을 결합한 이 솔루션 사용에 대해 자세히 알아보세요.
 
-다음 비디오를 시청하여 의료 컬렉션을 사용하여 의료 팀 공동 작업을 강화하는 방법을 Teams.
+Teams 의료 팀 협업을 향상시키기 위해 의료 컬렉션을 사용하는 방법에 대해 자세히 알아보려면 다음 비디오를 시청하세요.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
 
@@ -56,8 +56,8 @@ Microsoft Teams는 병원 및 기타 의료 조직에 유용한 다양한 원격
 
 | 시나리오 | 설명 | 요구 사항 |
 | -------- | -------- | -------- |
-| [EHR(Electronic Healthcare Record) 통합을 통해 가상 방문](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | 환자와 가상 약속을 예약, 관리 및 수행합니다. 이 시나리오는 가상 Teams Cerner 또는 Epic 플랫폼을 연결하여 가상 방문을 지원합니다. | EHR 의료 조직을 위한 Microsoft Cloud 독립 실행형 Microsoft Teams 구독 또는 구독에 대한 활성 구독입니다. <br> 사용자는 모임*을 포함하는 Microsoft 365 Office 365 라이선스가 Teams 있어야 합니다. <br> 조직에는 Cerner 버전 2018년 11월 이상 또는 2018년 11월 이후 버전이 있어야 합니다. <br>[Cerner EHR](ehr-admin-cerner.md#before-you-begin) 및 [Epic EHR 요구 사항에 대한 세부 정보](ehr-admin.md#before-you-begin) |
-| [Microsoft Bookings 및 Bookings 앱을 통해 가상 방문](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | 환자와 가상 약속을 예약, 관리 및 수행합니다. 이 시나리오는 가상 방문을 지원하기 위해 Microsoft Bookings에 의존합니다. | 조직에서 Microsoft Bookings가 켜져 있어야 합니다. <br> Bookings 앱의 모든 사용자와 모임에 참여하는 모든 직원에게 Teams 모임 예약*을 지원하는 라이선스가 있어야 합니다. <br>[Bookings 요구 사항에 대한 세부 정보](../../bookings-app-admin.md#prerequisites-to-use-the-bookings-app-in-teams)|
+| [EHR(Electronic Healthcare Record) 통합을 통한 가상 약속](#virtual-appointments-and-electronic-healthcare-record-ehr-integration) | 환자와 가상 약속을 예약, 관리 및 수행합니다. 이 시나리오는 Teams Cerner 또는 Epic 플랫폼을 연결하여 가상 약속을 지원합니다. | Microsoft Teams EHR 커넥터 독립 실행형 제품에 대한 Microsoft Cloud for Healthcare 또는 구독에 대한 활성 구독입니다. <br> 사용자에게는 Teams 모임*을 포함하는 적절한 Microsoft 365 또는 Office 365 라이선스가 있어야 합니다. <br> 조직에는 Cerner 버전 2018년 11월 이상 또는 에픽 버전 2018년 11월 이상이 있어야 합니다. <br>[Cerner EHR](ehr-admin-cerner.md#before-you-begin) 및 [Epic EHR](ehr-admin.md#before-you-begin) 요구 사항에 대한 세부 정보 |
+| [Microsoft Bookings 및 Bookings 앱을 사용하는 가상 약속](#virtual-appointments-and-electronic-healthcare-record-ehr-integration) | 환자와 가상 약속을 예약, 관리 및 수행합니다. 이 시나리오는 Microsoft Bookings 사용하여 가상 약속을 지원합니다. | 조직에서 Microsoft Bookings가 켜져 있어야 합니다. <br> Bookings 앱의 모든 사용자와 모임에 참여하는 모든 직원에게 Teams 모임 예약*을 지원하는 라이선스가 있어야 합니다. <br>[Bookings 요구 사항에 대한 세부 정보](../../bookings-app-admin.md#prerequisites-to-use-the-bookings-app-in-teams)|
 | [Teams 정책 패키지](#teams-policy-packages)| 임상 작업자, 정보 근로자 및 환자실 장치에서 Teams 기능에 적절하게 액세스할 수 있는지 확인합니다.| 사용자에게 적절한 라이선스*가 있어야 합니다. |
 | [보안 메시징](#secure-messaging) | 긴급한 메시지에 빠르게 주의를 기울일 수 있으며 메시지를 받고 읽었다는 것을 신뢰할 수 있습니다. | 사용자에게 적절한 라이선스*가 있어야 합니다.  |
 | [Teams 서식 파일](#teams-templates-for-healthcare-organizations) | 병동, 병실 또는 부서 내에서 또는 병원 내의 여러 병동, 병실 및 부서 간에 통신 및 협업을 위해 미리 정의된 설정, 채널 및 미리 설치된 앱 템플릿을 포함하는 팀을 만듭니다. | 사용자에게 적절한 라이선스*가 있어야 합니다.  |
@@ -65,14 +65,14 @@ Microsoft Teams는 병원 및 기타 의료 조직에 유용한 다양한 원격
 
 *Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3 및 E5, Business Standard가 지원됩니다. 일반 Teams 라이선스에 대한 자세한 내용은 [Teams에 대한 사용자 액세스 관리](../../user-access.md)를 참조하세요.
 
-## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>가상 방문 및 EHR(전자 의료 기록) 통합
+## <a name="virtual-appointments-and-electronic-healthcare-record-ehr-integration"></a>가상 약속 및 EHR(전자 의료 기록) 통합
 
-전체 모임 플랫폼을 사용하여 Teams 가상 약속을 예약, 관리 및 수행합니다.
+Teams 전체 모임 플랫폼을 사용하여 환자와 가상 약속을 예약, 관리 및 수행합니다.
 
-- 조직에서 전자 상태 레코드 또는 EHR을 이미 사용하는 경우 더 원활한 환경을 Teams 통합할 수 있습니다. Teams EHR(Electronic Health Record) 커넥터를 사용하면 임상의가 EHR 시스템에서 직접 가상 환자 방문 또는 상담을 Teams 수 있습니다. 자세한 내용은 [Cerner EHR에 통합 - Cerner EHR](ehr-admin-cerner.md)에 Teams 가상 방문 및 에픽 [EHR](ehr-admin.md)에 Teams 가상 방문을 참조합니다.
-- 지원되는 EHR을 사용하지 않는 경우 Teams에서 Microsoft Bookings 및 Bookings 앱을 사용할 수 있습니다. 자세한 내용은 Teams [Virtual Visits 및 Bookings 앱을 참조하세요](../bookings-virtual-visits.md).
+- 조직에서 이미 전자 상태 레코드 또는 EHR을 사용하는 경우 보다 원활한 환경을 위해 Teams 통합할 수 있습니다. Teams EHR(전자 건강 기록) 커넥터를 사용하면 임상의가 EHR 시스템에서 직접 Teams 있는 다른 공급자와 가상 환자 약속 또는 상담을 쉽게 시작할 수 있습니다. 자세한 내용은 [Teams 가상 약속 - Cerner EHR에 통합](ehr-admin-cerner.md) 및 [Teams 가상 약속 - Epic EHR 통합을](ehr-admin.md) 참조하세요.
+- 지원되는 EHR을 사용하지 않는 경우 Teams에서 Microsoft Bookings 및 Bookings 앱을 사용할 수 있습니다. 자세한 내용은 [Teams 및 Bookings 앱을 사용하여 가상 약속을 참조하세요](../bookings-virtual-visits.md).
 
-![가상 Microsoft Teams.](../../media/virtual-visits-teams.png)
+![Microsoft Teams 가상 약속](../../media/virtual-visits-teams.png)
 
 ## <a name="teams-policy-packages"></a>Teams 정책 패키지
 
@@ -103,11 +103,11 @@ Teams를 만들기 위한 새 서식 파일은 병원 설정에 적용하기 위
 
 ## <a name="care-coordination-and-collaboration"></a>케어 코디네이션 및 공동 작업
 
-의료 팀을 함께 모아 의료를 조정하고 의료진과 Teams.
+의료 팀을 한데 모아 치료를 조정하고 Teams 공동 작업하세요.
 
-![의료: 의료 팀과 공동으로 Teams.](../../media/teams-healthcare-collaborate-in-teams.png)
+![의료: Teams 보건 팀과 협업합니다.](../../media/teams-healthcare-collaborate-in-teams.png)
 
-Teams 의사, 임상의, 간호사 및 기타 직원이 다음과 같은 공동 작업 기능을 사용하여 효율적으로 공동 작업할 Teams 수 있습니다.
+Teams 통해 의사, 임상의, 간호사 및 기타 직원이 다음과 같은 Teams 포함된 공동 작업 기능과 효율적으로 협업할 수 있습니다.
 
 - 의료 팀 및 정보 근로자에 대한 팀 및 채널을 설정할 수 있습니다. 탭이 있는 채널을 사용하여 작업 구조를 구성하고 정보 원본을 고정할 수 있는 탭의 추가 도움말을 확인할 수 있습니다.
 - 채팅, 메시지 개시 및 소통. 팀은 주의가 필요한 여러 환자에 대해 지속적으로 대화를 할 수 있습니다.
@@ -134,7 +134,7 @@ Teams의 목록 앱은 팀이 정보를 추적하고 작업을 구성하는 데 
 
 다음은 환자 라운딩을 위해 설정한 예제 목록입니다.
 
-:::image type="content" source="../../media/lists-patients-example.png" alt-text="환자 반올라운드에 대한 예제 목록의 스크린샷입니다.":::
+:::image type="content" source="../../media/lists-patients-example.png" alt-text="환자 반올림에 대한 예제 목록의 스크린샷":::
 
 자세한 내용은 [Teams 에서 조직의 목록 앱 관리](../../manage-lists-app.md)를 참조하세요.
 
@@ -162,4 +162,4 @@ Teams에서 [작업](https://support.microsoft.com/office/use-the-tasks-app-in-t
 
 - Teams를 이용해 조직의 여정을 시작하거나 Teams를 조직의 더 많은 영역으로 확장하는 경우 Teams 배포에 대한 조언을 구하려면 [Teams 도입 센터](https://adoption.microsoft.com/microsoft-teams/)를 방문하세요.
 - 사용자가 수행해야 하는 작업만 처리할 수 있도록 사용자 지정 [학습 경로](https://adoption.microsoft.com/microsoft-365-learning-pathways/)를 설정하는 것을 고려하세요.
-- 빠른 교육 비디오를 포함하여 Teams 지원 사이트에서 기본 작업을 수행하는 Teams 방법에 대한 사용자에 대한 도움말 및 교육[](https://support.microsoft.com/teams)[을 얻습니다](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7). 이 사이트에는 [목록](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db), [작업](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070), [승인](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3), [Bookings](https://support.microsoft.com/office/overview-of-the-bookings-app-in-teams-7b8569e1-0c8a-444e-b712-d9968b05110b)및 [교대 근무](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)등의 Teams 앱에 대한 도움말 및 교육도 포함되어 있습니다.
+- [빠른 교육 비디오를](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) 포함하여 Teams [지원 사이트에서](https://support.microsoft.com/teams) Teams 기본 작업을 수행하는 방법에 대한 도움말 및 교육을 받으세요. 이 사이트에는 [목록](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db), [작업](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070), [승인](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3), [Bookings](https://support.microsoft.com/office/overview-of-the-bookings-app-in-teams-7b8569e1-0c8a-444e-b712-d9968b05110b)및 [교대 근무](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)등의 Teams 앱에 대한 도움말 및 교육도 포함되어 있습니다.

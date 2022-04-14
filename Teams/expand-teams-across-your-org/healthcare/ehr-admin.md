@@ -1,5 +1,5 @@
 ---
-title: Teams 가상 방문 - Epic EHR에 통합
+title: Teams 가상 약속 - Epic EHR에 통합
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -22,31 +22,31 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: Teams EHR 커넥터를 통합하여 조직의 의료 공급자가 Epic EHR 시스템에서 직접 Teams 환자 또는 다른 공급자와 가상 방문을 수행할 수 있도록 하는 방법을 알아봅니다.
-ms.openlocfilehash: e573c30720383554c9bda8467221ff48a1369e0b
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+description: Teams EHR 커넥터를 통합하여 조직의 의료 공급자가 Epic EHR 시스템에서 직접 Teams 환자 또는 다른 공급자와 가상 약속을 수행할 수 있도록 하는 방법을 알아봅니다.
+ms.openlocfilehash: baef8aeda05413ce2f307a4bbea7259490ecfb83
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/14/2022
-ms.locfileid: "64703604"
+ms.locfileid: "64853059"
 ---
-# <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>Teams 가상 방문 - Epic EHR에 통합
+# <a name="virtual-appointments-with-teams---integration-into-epic-ehr"></a>Teams 가상 약속 - Epic EHR에 통합
 
-Microsoft Teams EHR(전자 건강 기록) 커넥터를 사용하면 임상의가 에픽 EHR 시스템에서 직접 Microsoft Teams 있는 다른 공급자와 가상 환자 방문 또는 상담을 쉽게 시작할 수 있습니다. Microsoft 365 클라우드에서 구축된 Teams HIPAA, HITECH 인증 등을 준수하는 단일 허브에서 채팅, 비디오, 음성 및 의료 도구와의 간단하고 안전한 공동 작업 및 통신을 지원합니다.
+Microsoft Teams EHR(전자 건강 기록) 커넥터를 사용하면 임상의가 에픽 EHR 시스템에서 직접 Microsoft Teams 있는 다른 공급자와 가상 환자 약속 또는 상담을 쉽게 시작할 수 있습니다. Microsoft 365 클라우드에서 구축된 Teams HIPAA, HITECH 인증 등을 준수하는 단일 허브에서 채팅, 비디오, 음성 및 의료 도구와의 간단하고 안전한 공동 작업 및 통신을 지원합니다.
 
 Teams 통신 및 공동 작업 플랫폼을 사용하면 임상의가 조각난 시스템의 혼란을 쉽게 끊어 최상의 치료를 제공하는 데 집중할 수 있습니다. Teams EHR 커넥터를 사용하면 다음을 수행할 수 있습니다.
 
-- 통합 임상 워크플로를 사용하여 Epic EHR 시스템에서 Teams Virtual Visits를 시작합니다.
-- 환자가 환자 포털 내에서 또는 SMS를 통해 Teams 가상 방문에 참여할 수 있도록 합니다.
+- 통합 임상 워크플로를 사용하여 Epic EHR 시스템에서 Teams 가상 약속을 시작합니다.
+- 환자가 환자 포털 내에서 또는 SMS를 통해 Teams 가상 약속에 참여할 수 있도록 합니다.
 - 다중 참가자, 그룹 방문 및 인터프리터 서비스를 비롯한 다른 시나리오를 지원합니다.
-- 참석자가 연결하고, 연결을 끊고, 자동 감사 및 레코드 유지를 사용하도록 설정할 때 기록할 Teams 가상 방문에 대한 메타데이터를 EHR 시스템에 다시 씁니다.
-- EHR 연결 방문에 대한 사용량 데이터 보고서 및 사용자 지정 가능한 통화 품질 정보를 봅니다.
+- 참석자가 연결하고, 연결을 끊고, 자동 감사 및 레코드 유지를 사용하도록 설정할 때 기록할 Teams 가상 약속에 대한 메타데이터를 EHR 시스템에 다시 씁니다.
+- EHR 연결 약속에 대한 사용량 데이터 보고서 및 사용자 지정 가능한 통화 품질 정보를 봅니다.
 
-EHR 포털에서 가상 방문을 관리하는 방법에 대한 개요는 이 비디오를 확인하세요.
+EHR 포털에서 가상 약속을 관리하는 방법에 대한 개요는 이 비디오를 확인하세요.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
 
-이 문서에서는 의료 조직의 Epic 플랫폼과 통합하도록 Teams EHR 커넥터를 설정하고 구성하는 방법을 설명합니다. 또한 Epic EHR 시스템의 Teams Virtual Visits 환경에 대한 개요를 제공합니다.
+이 문서에서는 의료 조직의 Epic 플랫폼과 통합하도록 Teams EHR 커넥터를 설정하고 구성하는 방법을 설명합니다. 또한 Epic EHR 시스템의 Teams 가상 약속 환경에 대한 개요를 제공합니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -130,7 +130,7 @@ Microsoft 365 관리자는 통합을 테스트하도록 단일 조직 또는 여
 > [!NOTE]
 > SMS 알림은 현재 미국만 사용할 수 있습니다. 향후 Teams 릴리스의 다른 지역에서 이 기능을 사용할 수 있도록 노력하고 있으며 사용 가능한 경우 이 문서를 업데이트할 예정입니다.
 
-조직에서 Microsoft가 환자에 대한 SMS 알림을 관리하도록 하려는 경우 이 단계를 완료합니다. SMS 알림을 사용하도록 설정하면 환자는 예약된 방문에 대한 확인 및 미리 알림 메시지를 받게 됩니다.
+조직에서 Microsoft가 환자에 대한 SMS 알림을 관리하도록 하려는 경우 이 단계를 완료합니다. SMS 알림을 사용하도록 설정하면 환자는 예약된 약속에 대한 확인 및 미리 알림 메시지를 받게 됩니다.
 
 SMS 알림을 사용하도록 설정하기 위해 Microsoft 365 관리자는 다음을 수행합니다.
 
@@ -159,8 +159,8 @@ SMS 알림을 사용하도록 설정하기 위해 Microsoft 365 관리자는 다
 
     :::image type="content" source="media/ehr-connector-epic-sms-setup.png" alt-text="SMS 설정 설정을 보여 주는 스크린샷." lightbox="media/ehr-connector-epic-sms-setup.png":::
 
-    - **확인 SMS**: EHR 시스템에서 방문이 예약, 업데이트 또는 취소될 때 환자에게 알림이 전송됩니다.
-    - **미리 알림 SMS**: 지정한 시간 간격 및 방문 예약 시간에 따라 환자에게 알림이 전송됩니다.
+    - **확인 SMS**: EHR 시스템에서 약속이 예약, 업데이트 또는 취소될 때 환자에게 알림이 전송됩니다.
+    - **미리 알림 SMS**: 지정한 시간 간격 및 예약된 시간에 따라 환자에게 알림이 전송됩니다.
 
     **저장** 을 선택합니다.
 
@@ -197,7 +197,7 @@ Epic 관리자가 구성 정보를 승인하면 환자 및 공급자 출시에 �
 - SMS 구성 레코드
 - 디바이스 테스트 구성 레코드
 
-Epic 고객 분석가는 Epic에서 가상 방문 구성을 완료하려면 이러한 레코드를 Epic에 제공해야 합니다. 자세한 내용은 [Epic-Microsoft Teams Telehealth 통합 가이드](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357)를 참조하세요.
+Epic 고객 분석가는 Epic에서 가상 약속 구성을 완료하려면 이러한 레코드를 Epic에 제공해야 합니다. 자세한 내용은 [Epic-Microsoft Teams Telehealth 통합 가이드](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357)를 참조하세요.
 
 > [!Note]  
 > 언제든지 Microsoft 365 또는 Epic 고객 분석가가 구성 포털에 로그인하여 통합 레코드를 보고 필요에 따라 조직 구성을 변경할 수 있습니다.
@@ -207,11 +207,11 @@ Epic 고객 분석가는 Epic에서 가상 방문 구성을 완료하려면 이�
 > [!Note]
 > Epic 고객 분석가는 Microsoft 365 관리자가 구성한 각 FHIR 기본 URL에 대한 승인 프로세스를 완료해야 합니다.
 
-## <a name="launch-teams-virtual-visits"></a>가상 방문 Teams 시작
+## <a name="launch-teams-virtual-appointments"></a>Teams 가상 약속 시작
 
-EHR 커넥터 단계 및 에픽 구성을 완료하면 조직에서 Teams 비디오 방문을 지원할 준비가 된 것입니다.
+EHR 커넥터 단계 및 에픽 구성을 완료하면 조직에서 Teams 비디오 약속을 지원할 준비가 된 것입니다.
 
-### <a name="virtual-visits-prerequisites"></a>가상 방문 필수 구성 요소
+### <a name="virtual-appointments-prerequisites"></a>가상 약속 필수 구성 요소
 
 - 시스템은 Teams 대한 모든 [소프트웨어 및 브라우저 요구 사항을](../../hardware-requirements-for-the-teams-app.md) 충족해야 합니다.
 
@@ -219,53 +219,53 @@ EHR 커넥터 단계 및 에픽 구성을 완료하면 조직에서 Teams 비디
 
 ### <a name="provider-experience"></a>공급자 환경
 
-조직의 의료 공급자는 Epic 공급자 앱(하이퍼스페이스, Haiku, Canto)의 Teams 사용하여 방문에 참여할 수 있습니다. **가상 방문 시작** 단추는 공급자 흐름에 포함되어 있습니다.
+조직의 의료 공급자는 Epic 공급자 앱(하이퍼스페이스, Haiku, Canto)의 Teams 사용하여 약속에 참여할 수 있습니다. **가상 방문 시작** 단추는 공급자 흐름에 포함되어 있습니다.
 
 공급자 환경의 주요 기능:
 
-- 공급자는 지원되는 브라우저 또는 Teams 앱을 사용하여 방문에 참여할 수 있습니다.
+- 공급자는 지원되는 브라우저 또는 Teams 앱을 사용하여 약속을 조인할 수 있습니다.
 
-- 공급자는 처음으로 방문에 참가할 때 Microsoft 365 계정으로 일회성 로그인을 수행해야 합니다.
+- 공급자는 약속에 처음 가입할 때 Microsoft 365 계정으로 일회성 로그인을 수행해야 합니다.
 
 - 일회성 로그인 후 공급자는 Teams 가상 약속으로 직접 이동됩니다. (공급자는 Teams 로그인해야 합니다).
 
-- 공급자는 지정된 약속에 대한 연결 및 연결 해제 참가자의 실시간 업데이트를 볼 수 있습니다. 공급자는 환자가 방문에 연결되는 때를 볼 수 있습니다.
+- 공급자는 지정된 약속에 대한 연결 및 연결 해제 참가자의 실시간 업데이트를 볼 수 있습니다. 공급자는 환자가 약속에 연결된 때를 볼 수 있습니다.
 
-  ![환자와 함께 방문의 공급자 경험.](media/ehc-provider-experience-6.png)
+  ![환자와 약속의 공급자 경험.](media/ehc-provider-experience-6.png)
 
 > [!NOTE]
 > 의료 기록 연속성 또는 보존 목적에 필요한 모임 채팅에 입력된 모든 정보는 의료 공급자가 다운로드, 복사 및 알려야 합니다. 채팅은 법적 의료 기록 또는 지정된 레코드 집합을 구성하지 않습니다. 채팅의 메시지는 Microsoft Teams 관리자가 만든 설정에 따라 저장됩니다.
 
 ### <a name="patient-experience"></a>환자 환경
 
-커넥터는 MyChart 웹 및 모바일을 통해 방문에 참여하는 환자를 지원합니다. 약속 시 환자는 **가상 방문 시작** 단추를 사용하여 MyChart에서 방문을 시작할 수 있습니다.
+커넥터는 MyChart 웹 및 모바일을 통해 약속에 가입하는 환자를 지원합니다. 약속 시 환자는 **가상 방문** 시작 단추를 사용하여 MyChart에서 약속을 시작할 수 있습니다.
 
 환자 환경의 주요 기능:
 
-- 환자는 [Teams 앱을 설치하지 않고도 데스크톱 및 모바일의 최신 웹 브라우저](../browser-join.md)에서 방문에 참여할 수 있습니다.
+- 환자는 [Teams 앱을 설치하지 않고도 데스크톱 및 모바일의 최신 웹 브라우저](../browser-join.md)에서 약속을 조인할 수 있습니다.
 
-- 환자는 한 번의 클릭으로 방문에 참여할 수 있으며 다른 계정이나 로그인이 필요하지 않습니다.
+- 환자는 한 번의 클릭으로 약속에 참여할 수 있으며 다른 계정이나 로그인이 필요하지 않습니다.
 
-- 환자는 Microsoft 계정을 만들거나 로그인하여 방문을 시작할 필요가 없습니다.
+- 환자는 Microsoft 계정을 만들거나 약속을 시작하기 위해 로그인할 필요가 없습니다.
 
 - 환자는 공급자가 가입하고 그(것)들을 인정할 때까지 로비에 배치됩니다.
 
-- 환자는 방문에 참여하기 전에 로비에서 비디오와 마이크를 테스트 할 수 있습니다.
+- 환자는 약속에 참여하기 전에 로비에서 비디오와 마이크를 테스트 할 수 있습니다.
 
-  ![방문의 환자 경험.](media/ehc-virtual-visit-5.png)
+  ![약속의 환자 경험.](media/ehc-virtual-visit-5.png)
 
 > [!Note]
 > Epic, MyChart, Haiku 및 Canto는 Epic Systems Corporation의 상표입니다.
 
-## <a name="get-insight-into-virtual-visits-usage"></a>가상 방문 사용 현황에 대한 인사이트 얻기
+## <a name="get-insight-into-virtual-appointments-usage"></a>가상 약속 사용에 대한 인사이트 가져오기
 
-Microsoft Teams 관리 센터의 [가상 방문 사용 현황 보고서는](../../teams-analytics-and-reports/virtual-visits-usage-report.md) 관리자에게 조직의 Teams Virtual Visits 활동에 대한 개요를 제공합니다. 이 보고서는 EHR 시스템에서 수행된 Teams EHR 통합 모임을 포함하여 가상 약속에 대한 자세한 분석을 보여 줍니다.
+Microsoft Teams 관리 센터의 [가상 방문 사용 현황 보고서는](../../teams-analytics-and-reports/virtual-visits-usage-report.md) 관리자에게 조직의 Teams 가상 약속 활동에 대한 개요를 제공합니다. 이 보고서는 EHR 시스템에서 수행된 Teams EHR 통합 모임을 포함하여 가상 약속에 대한 자세한 분석을 보여 줍니다.
 
-로비 대기 시간 및 방문 기간과 같은 주요 메트릭을 볼 수 있습니다. 이 정보를 사용하여 더 나은 비즈니스 결과를 제공하기 위해 가상 방문을 최적화하는 데 도움이 되는 사용량 추세에 대한 인사이트를 얻을 수 있습니다.
+로비 대기 시간 및 약속 기간과 같은 주요 메트릭을 볼 수 있습니다. 이 정보를 사용하여 사용량 추세에 대한 인사이트를 확보하여 더 나은 비즈니스 결과를 제공하기 위해 가상 약속을 최적화할 수 있습니다.
 
 ### <a name="privacy-and-location-of-data"></a>개인 정보 및 데이터의 위치
 
-EHR 시스템에 Teams 통합은 통합 및 가상 방문 흐름 중에 사용되고 저장되는 데이터의 양을 최적화합니다. 이 솔루션은 전체 Teams 개인 정보 보호 및 데이터 관리 원칙과 Teams 개인 정보에 설명된 지침을 따릅니다.
+EHR 시스템에 Teams 통합은 통합 및 가상 약속 흐름 중에 사용되고 저장되는 데이터의 양을 최적화합니다. 이 솔루션은 전체 Teams 개인 정보 보호 및 데이터 관리 원칙과 Teams 개인 정보에 설명된 지침을 따릅니다.
 
 Teams EHR 커넥터는 식별 가능한 개인 데이터 또는 EHR 시스템에서 환자 또는 의료 제공자의 건강 기록을 저장하거나 전송하지 않습니다. EHR 커넥터에 의해 저장되는 데이터는 팀 모임 설정 중에 사용되는 EHR 사용자의 고유 ID뿐입니다.
 
