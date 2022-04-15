@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62aa82c42acf3ca4477da6da60b1faec6c847be1
-ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
+ms.openlocfilehash: d17409a09cbadc535e3b7971d6224b4e2fcb678b
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/13/2022
-ms.locfileid: "64837451"
+ms.locfileid: "64839039"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Microsoft Teams에 Reflect를 위한 IT 관리자 가이드
 
@@ -31,7 +31,7 @@ ms.locfileid: "64837451"
 
 
 ## <a name="privacy-and-security"></a>개인 정보 및 보안
-Reflect는 학생들의 중요한 정보를 보호하기 위해 [Education Insights](class-insights.md)와 동일한 개인 정보 보호 및 보안 표준을 따릅니다.
+Reflect는 학생들의 중요한 정보를 보호하기 위해 [교육 Insights](class-insights.md)와 동일한 개인 정보 보호 및 보안 표준을 따릅니다.
 
 Microsoft 365의 일부인 Reflect는 [GDPR](/compliance/regulatory/gdpr) 및 학생의 교육 기록의 프라이버시를 보호하는 [FERPA(가족 교육 권한 및 개인 정보 보호법)](/compliance/regulatory/offering-ferpa)를 포함하여 데이터 수집과 사용에 대한 국가, 지역 및 산업별 규정을 충족합니다.
 
@@ -44,7 +44,7 @@ Microsoft 365의 일부인 Reflect는 [GDPR](/compliance/regulatory/gdpr) 및 �
 
 > [!TIP]
 > * [Microsoft 보안 센터](https://www.microsoft.com/trust-center)에 방문하여 Microsoft에서 어떻게 데이터를 보호하는지 자세히 알아보세요.
-> * [Microsoft 규정 준수 제품](/compliance/regulatory/offering-home)에서 Microsoft 365가 교육 기관이 규정 준수 표준을 충족하는 데 도움을 주는 방법을 알아보세요.
+> * [Microsoft 규정 준수 서비스](/compliance/regulatory/offering-home)에서 조직이 규정 준수 표준을 충족하는 데 있어 Microsoft 365가 어떻게 도움을 주는지 알아보세요.
 
 ## <a name="data-collection-and-storage"></a>데이터 수집 및 저장소
 데이터는 교육 기관에 속하며, Microsoft는 데이터를 오로지 수집하고 저장합니다. Microsoft 직원은 데이터 복구와 같은 서비스를 유지하기 위한 감사 방식으로 규정 준수에 의해 허용되는 경우를 제외하고는 데이터에 액세스하거나 데이터를 볼 수 없습니다.
