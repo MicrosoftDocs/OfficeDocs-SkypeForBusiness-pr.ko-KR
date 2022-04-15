@@ -1,5 +1,5 @@
 ---
-title: 브라우저에서 Teams 가상 방문에 대한 조인 환경 관리
+title: 브라우저에서 Teams 가상 약속에 대한 조인 환경 관리
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
@@ -20,15 +20,15 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: hafarmer
-description: 브라우저에서 가상 방문 Teams 조인 환경에 대해 알아봅니다.
-ms.openlocfilehash: 276e33b16972f0543566014adf264fd12e45c4ae
-ms.sourcegitcommit: 1e8cff687b12348d4ecc538084ab57bbba23b523
+description: 브라우저에서 가상 약속을 Teams 조인 환경에 대해 알아봅니다.
+ms.openlocfilehash: 418186734befa66f145ca56f883605715d83aa30
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "64703751"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853309"
 ---
-# <a name="manage-the-join-experience-for-teams-virtual-visits-on-browsers"></a>브라우저에서 Teams 가상 방문에 대한 조인 환경 관리
+# <a name="manage-the-join-experience-for-teams-virtual-appointments-on-browsers"></a>브라우저에서 Teams 가상 약속에 대한 조인 환경 관리
 
 Microsoft Teams 사용하면 사용자가 Teams 다운로드하지 않고도 가상 약속에 쉽게 가입할 수 있습니다. 보다 원활한 환경을 위해 참석자는 데스크톱 또는 모바일 브라우저에서 의료 방문 및 재무 상담과 같은 약속에 참여할 수 있습니다. 참석자는 디바이스에 Teams 앱을 설치할 필요가 없습니다.
 
@@ -68,7 +68,7 @@ Bookings **새 예약** 을 선택한 다음 참석자가 **브라우저에서 �
 
 **Cerner EHR과의 통합**: Teams EHR 커넥터는 SMS 문자 메시지의 링크를 통해 가상 약속에 가입하는 환자를 지원합니다. 약속 시 환자는 SMS 문자 메시지의 링크를 탭하여 참가할 수 있으며 브라우저에서 Teams 열립니다.
 
-**Epic EHR과의 통합**: Teams EHR 커넥터는 MyChart 웹 및 모바일을 통해 가상 약속에 가입하는 환자를 지원합니다. 약속 시 환자는 가상 방문 시작 단추를 사용하여 MyChart에서 **방문을** 시작할 수 있으며 브라우저에서 Teams 열립니다.
+**Epic EHR과의 통합**: Teams EHR 커넥터는 MyChart 웹 및 모바일을 통해 가상 약속에 가입하는 환자를 지원합니다. 약속 시 환자는 **가상 방문** 시작 단추를 사용하여 MyChart에서 약속을 시작할 수 있으며 브라우저에서 Teams 열립니다.
 
 ## <a name="supported-browsers"></a>지원되는 브라우저
 
@@ -88,12 +88,12 @@ Bookings **새 예약** 을 선택한 다음 참석자가 **브라우저에서 �
 
 ## <a name="things-to-consider"></a>고려해야 할 사항
 
-방문을 수행하는 직원은 데스크톱 또는 모바일 브라우저에서 참가하는 참석자와 Teams 데스크톱, 모바일 또는 웹 클라이언트에서 화면을 공유할 수 있습니다. 그러나 참석자는 데스크톱 또는 모바일 브라우저에서 화면을 공유할 수 없습니다.
+약속을 수행하는 직원은 데스크톱 또는 모바일 브라우저에서 참가하는 참석자와 Teams 데스크톱, 모바일 또는 웹 클라이언트에서 화면을 공유할 수 있습니다. 그러나 참석자는 데스크톱 또는 모바일 브라우저에서 화면을 공유할 수 없습니다.
 
 ## <a name="related-articles"></a>관련 기사
 
-- [Teams 및 Bookings 앱을 사용하여 가상 방문](bookings-virtual-visits.md)
+- [Teams 및 Bookings 앱을 사용하여 가상 약속](bookings-virtual-visits.md)
 - [Bookings 약속 유형 만들기](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)
 - [참석자로 Bookings 약속 참가](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
-- [Teams 가상 방문 - Cerner EHR에 통합](healthcare/ehr-admin-cerner.md)
-- [Teams 가상 방문 - Epic EHR에 통합](healthcare/ehr-admin.md)
+- [Teams 가상 약속 - Cerner EHR에 통합](healthcare/ehr-admin-cerner.md)
+- [Teams 가상 약속 - Epic EHR에 통합](healthcare/ehr-admin.md)

@@ -1,5 +1,5 @@
 ---
-title: Teams 가상 방문 - Cerner EHR에 통합
+title: Teams 가상 약속 - Cerner EHR에 통합
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -22,25 +22,25 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: 조직의 의료 공급자가 Cerner EHR 시스템에서 직접 Teams 환자 또는 다른 공급자와 가상 방문을 수행할 수 있도록 Teams EHR 커넥터를 통합하는 방법을 알아봅니다.
-ms.openlocfilehash: b5a5a860036b3b561d5a6e18a13b71e072998aa4
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+description: 조직의 의료 공급자가 Cerner EHR 시스템에서 직접 Teams 환자 또는 다른 공급자와 가상 약속을 수행할 수 있도록 Teams EHR 커넥터를 통합하는 방법을 알아봅니다.
+ms.openlocfilehash: 8caa80bca9a7b8278aff9133f81bfa807e6727ed
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/14/2022
-ms.locfileid: "64703694"
+ms.locfileid: "64853299"
 ---
-# <a name="virtual-visits-with-teams---integration-into-cerner-ehr"></a>Teams 가상 방문 - Cerner EHR에 통합
+# <a name="virtual-appointments-with-teams---integration-into-cerner-ehr"></a>Teams 가상 약속 - Cerner EHR에 통합
 
-Microsoft Teams EHR(전자 건강 기록) 커넥터를 사용하면 임상의가 가상 환자 방문을 시작하거나 Cerner EHR 시스템에서 직접 Microsoft Teams 다른 공급자와 상담할 수 있습니다. Microsoft 365 클라우드에서 구축된 Teams HIPAA, HITECH 인증 등을 준수하는 단일 허브에서 채팅, 비디오, 음성 및 의료 도구와의 간단하고 안전한 공동 작업 및 통신을 지원합니다.
+Microsoft Teams EHR(전자 건강 기록) 커넥터를 사용하면 임상의가 가상 환자 약속을 시작하거나 Cerner EHR 시스템에서 직접 Microsoft Teams 다른 공급자와 상담할 수 있습니다. Microsoft 365 클라우드에서 구축된 Teams HIPAA, HITECH 인증 등을 준수하는 단일 허브에서 채팅, 비디오, 음성 및 의료 도구와의 간단하고 안전한 공동 작업 및 통신을 지원합니다.
 
 Teams 통신 및 공동 작업 플랫폼을 사용하면 임상의가 조각난 시스템의 혼란을 쉽게 끊어 최상의 치료를 제공하는 데 집중할 수 있습니다. Teams EHR 커넥터를 사용하면 다음을 수행할 수 있습니다.
 
-- 통합 임상 워크플로를 사용하여 Cerner EHR 시스템에서 Teams 가상 방문을 수행합니다.
-- 환자가 이메일 또는 SMS 알림에서 Teams 가상 방문에 참여할 수 있도록 합니다.
-- EHR 연결 방문에 대한 사용량 데이터 보고서 및 사용자 지정 가능한 통화 품질 정보를 봅니다.
+- 통합 임상 워크플로를 사용하여 Cerner EHR 시스템에서 Teams 가상 약속을 수행합니다.
+- 환자가 이메일 또는 SMS 알림에서 Teams 가상 약속에 참여할 수 있도록 합니다.
+- EHR 연결 약속에 대한 사용량 데이터 보고서 및 사용자 지정 가능한 통화 품질 정보를 봅니다.
 
-이 문서에서는 Cerner 플랫폼과 통합하도록 Teams EHR 커넥터를 설정하고 구성하는 방법을 설명합니다. 또한 Cerner EHR 시스템의 Teams 가상 방문 환경에 대한 개요를 제공합니다.
+이 문서에서는 Cerner 플랫폼과 통합하도록 Teams EHR 커넥터를 설정하고 구성하는 방법을 설명합니다. 또한 Cerner EHR 시스템의 Teams 가상 약속 환경에 대한 개요를 제공합니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -91,7 +91,7 @@ FHIR 기본 URL의 유효성을 검사하고 환경을 선택한 후 **완료** 
 
 ### <a name="enable-sms-notifications-optional"></a>SMS 알림 사용(선택 사항)
 
-조직에서 Microsoft가 환자에 대한 SMS 알림을 관리하도록 하려는 경우 이 단계를 완료합니다. SMS 알림을 사용하도록 설정하면 환자는 예약된 방문에 대한 확인 및 미리 알림 메시지를 받게 됩니다.
+조직에서 Microsoft가 환자에 대한 SMS 알림을 관리하도록 하려는 경우 이 단계를 완료합니다. SMS 알림을 사용하도록 설정하면 환자는 예약된 약속에 대한 확인 및 미리 알림 메시지를 받게 됩니다.
 
 SMS 알림을 사용하도록 설정하기 위해 Microsoft 365 관리자는 다음을 수행합니다.
 
@@ -120,57 +120,57 @@ SMS 알림을 사용하도록 설정하기 위해 Microsoft 365 관리자는 다
 
 ### <a name="review-and-finish-the-configuration"></a>구성 검토 및 완료
 
-환자 및 공급자 시작에 대한 통합 레코드가 표시됩니다. 이러한 레코드는 Cerner에서 가상 방문 구성을 완료하는 데 필요합니다. 자세한 내용은 Cerner-Microsoft Teams Telehealth 통합 가이드를 참조하세요.
+환자 및 공급자 시작에 대한 통합 레코드가 표시됩니다. 이러한 레코드는 Cerner에서 가상 약속 구성을 완료하는 데 필요합니다. 자세한 내용은 Cerner-Microsoft Teams Telehealth 통합 가이드를 참조하세요.
 
 > [!NOTE]
 > 언제든지 Microsoft 365 관리자가 구성 포털에 로그인하여 통합 레코드를 보고 필요한 경우 구성 설정을 변경할 수 있습니다.
 
-## <a name="launch-teams-virtual-visits"></a>가상 방문 Teams 시작
+## <a name="launch-teams-virtual-appointments"></a>Teams 가상 약속 시작
 
-EHR 커넥터 단계 및 Cerner 구성 단계를 완료한 후 조직은 Teams 비디오 방문을 지원할 준비가 된 것입니다.
+EHR 커넥터 단계 및 Cerner 구성 단계를 완료하면 조직에서 Teams 비디오 약속을 지원할 준비가 된 것입니다.
 
-### <a name="virtual-visits-prerequisites"></a>가상 방문 필수 구성 요소
+### <a name="virtual-appointments-prerequisites"></a>가상 약속 필수 구성 요소
 
 - 시스템은 Teams 대한 모든 [소프트웨어 및 브라우저 요구 사항을](../../hardware-requirements-for-the-teams-app.md) 충족해야 합니다.
 - Cerner 조직과 Microsoft 365 조직 간의 통합 설정을 완료했습니다.
 
 ### <a name="provider-experience"></a>공급자 환경
 
-조직의 의료 공급자는 PowerChart 포털의 Teams 사용하여 방문에 참여할 수 있습니다. 공급자는 Teams 옵션을 사용할 수 있는 환자 보드로 이동해야 합니다.
+조직의 의료 공급자는 PowerChart 포털의 Teams 사용하여 약속에 참여할 수 있습니다. 공급자는 Teams 옵션을 사용할 수 있는 환자 보드로 이동해야 합니다.
 
-여기에서 공급자는 방문 정보를 보고, 방문에 참여하고, 모임 링크를 보낼 수 있습니다. 일회성 로그인 후 공급자는 Teams 가상 약속으로 직접 이동됩니다.
+여기에서 공급자는 약속 정보를 보고, 약속에 참가하고, 모임 링크를 보낼 수 있습니다. 일회성 로그인 후 공급자는 Teams 가상 약속으로 직접 이동됩니다.
 
 공급자 환경의 주요 기능:
 
-- 공급자는 지원되는 브라우저 또는 Teams 앱을 사용하여 방문에 참여할 수 있습니다.
+- 공급자는 지원되는 브라우저 또는 Teams 앱을 사용하여 약속을 조인할 수 있습니다.
 - 공급자는 화면 공유, 사용자 지정 배경 및 녹음/녹화를 포함하여 지원되는 모든 Teams 모임 기능을 사용할 수 있습니다.
-- 공급자는 PowerChart에서 지정된 약속을 위해 방문에 연결하는 환자의 실시간 업데이트를 볼 수 있습니다.
-- 공급자 정보는 방문하는 동안 환자에게 표시되지 않습니다.
+- 공급자는 PowerChart에서 지정된 약속에 대한 약속에 연결하는 환자의 실시간 업데이트를 볼 수 있습니다.
+- 약속 중에는 공급자 정보가 환자에게 표시되지 않습니다.
 
 > [!NOTE]
 > 의료 기록 연속성 또는 보존 목적에 필요한 모임 채팅에 입력된 모든 정보는 의료 공급자가 다운로드, 복사 및 알려야 합니다. 채팅은 법적 의료 기록 또는 지정된 레코드 집합을 구성하지 않습니다. 채팅의 메시지는 Microsoft Teams 관리자가 만든 설정에 따라 저장됩니다.
 
 ### <a name="patient-experience"></a>환자 환경
 
-커넥터는 SMS 문자 메시지의 링크를 통해 방문에 참여하는 환자를 지원합니다. 약속 시 환자는 SMS 문자 메시지의 링크를 탭하여 방문을 시작할 수 있습니다.
+커넥터는 SMS 문자 메시지의 링크를 통해 약속에 가입하는 환자를 지원합니다. 약속 시 환자는 SMS 문자 메시지의 링크를 탭하여 약속을 시작할 수 있습니다.
 
 환자 환경의 주요 기능
 
-- 환자는 [Teams 앱을 설치하지 않고도 데스크톱 및 모바일의 최신 웹 브라우저](../browser-join.md)에서 방문에 참여할 수 있습니다.
-- 환자는 한 번의 클릭으로 방문에 참여할 수 있으며 다른 계정이나 로그인이 필요하지 않습니다.
+- 환자는 [Teams 앱을 설치하지 않고도 데스크톱 및 모바일의 최신 웹 브라우저](../browser-join.md)에서 약속을 조인할 수 있습니다.
+- 환자는 한 번의 클릭으로 약속에 참여할 수 있으며 다른 계정이나 로그인이 필요하지 않습니다.
 - 환자는 Microsoft 계정을 만들거나 로그인하여 방문을 시작할 필요가 없습니다.
 - 환자는 공급자가 가입하고 그(것)들을 인정할 때까지 로비에 배치됩니다.
-- 환자는 방문에 참여하기 전에 로비에서 비디오와 마이크를 테스트 할 수 있습니다.
+- 환자는 약속에 합류하기 전에 로비에서 비디오와 마이크를 테스트 할 수 있습니다.
 
-## <a name="get-insight-into-virtual-visits-usage"></a>가상 방문 사용 현황에 대한 인사이트 얻기
+## <a name="get-insight-into-virtual-appointments-usage"></a>가상 약속 사용에 대한 인사이트 가져오기
 
-Microsoft Teams 관리 센터의 [가상 방문 사용 현황 보고서는](../../teams-analytics-and-reports/virtual-visits-usage-report.md) 관리자에게 조직의 Teams Virtual Visits 활동에 대한 개요를 제공합니다. 이 보고서는 EHR 시스템에서 수행된 Teams EHR 통합 모임을 포함하여 가상 약속에 대한 자세한 분석을 보여 줍니다.
+Microsoft Teams 관리 센터의 [가상 방문 사용 현황 보고서는](../../teams-analytics-and-reports/virtual-visits-usage-report.md) 관리자에게 조직의 Teams 가상 약속 활동에 대한 개요를 제공합니다. 이 보고서는 EHR 시스템에서 수행된 Teams EHR 통합 모임을 포함하여 가상 약속에 대한 자세한 분석을 보여 줍니다.
 
-로비 대기 시간 및 방문 기간과 같은 주요 메트릭을 볼 수 있습니다. 이 정보를 사용하여 더 나은 비즈니스 결과를 제공하기 위해 가상 방문을 최적화하는 데 도움이 되는 사용량 추세에 대한 인사이트를 얻을 수 있습니다.
+로비 대기 시간 및 약속 기간과 같은 주요 메트릭을 볼 수 있습니다. 이 정보를 사용하여 사용량 추세에 대한 인사이트를 확보하여 더 나은 비즈니스 결과를 제공하기 위해 가상 약속을 최적화할 수 있습니다.
 
 ## <a name="privacy-and-location-of-data"></a>개인 정보 및 데이터의 위치
 
-EHR 시스템에 Teams 통합은 통합 및 가상 방문 흐름 중에 사용되고 저장되는 데이터의 양을 최적화합니다. 이 솔루션은 전체 Teams 개인 정보 보호 및 데이터 관리 원칙과 Teams 개인 정보에 설명된 지침을 따릅니다.
+EHR 시스템에 Teams 통합은 통합 및 가상 약속 흐름 중에 사용되고 저장되는 데이터의 양을 최적화합니다. 이 솔루션은 전체 Teams 개인 정보 보호 및 데이터 관리 원칙과 Teams 개인 정보에 설명된 지침을 따릅니다.
 
 Teams EHR 커넥터는 식별 가능한 개인 데이터 또는 EHR 시스템에서 환자 또는 의료 제공자의 건강 기록을 저장하거나 전송하지 않습니다. EHR 커넥터가 저장하는 유일한 데이터는 Teams 모임 설정 중에 사용되는 EHR 사용자의 고유 ID입니다.
 
