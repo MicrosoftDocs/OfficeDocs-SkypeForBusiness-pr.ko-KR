@@ -12,12 +12,12 @@ ms.collection:
 description: Microsoft Teams 관리에 사용되는 Teams PowerShell 모듈에서 지원되는 버전에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e557a8ca4e8dff5489dbf729a137d73f9ca13c85
-ms.sourcegitcommit: 5fe5516f6118ce3fa0449ab194a6fe87bf48c664
+ms.openlocfilehash: 242c7c43b2af31b11e4183fdf3b9ed1b00f4bb1b
+ms.sourcegitcommit: 204e4654f2c3977db260670f3ee1784d1ad6ed17
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64732286"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64866243"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell 모듈 - 지원되는 버전
 
@@ -101,6 +101,7 @@ Teams 새로 온보딩하는 조직은 2022년 4월 1일부터 4.x.x 시리즈 �
   * Get-CsImFilterConfiguration
   * Get-CsAudioConferencingProvider
   * [Get| Set]-CsTenantPublicProvider
+  * Get-CsHostingProvider
   * [Get| 설정| 등록| 등록 취소]-CsHybridPSTNAppliance
   * [Get| 설정| 새로 만들기| Remove]-CsHybridPSTNSite
   * [Get| Set]- CsHybridMediationServer
@@ -115,7 +116,7 @@ Teams 새로 온보딩하는 조직은 2022년 4월 1일부터 4.x.x 시리즈 �
 
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [PowerShell 릴리스 정보 Teams](teams-powershell-release-notes.md)
 

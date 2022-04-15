@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: '요약: Microsoft Teams로 시장을 선도하는 Microsoft 365 생산성 서비스의 논리적 아키텍처에 대해 알아봅니다. Teams용 음성 솔루션에 대해도 알아보세요.'
-ms.openlocfilehash: ec608f192c08a33b9505008eacb6f6549780e7bd
-ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
+ms.openlocfilehash: 6ac6f7f88ec838b445d382dbc6ba8d5ee4ec1bcf
+ms.sourcegitcommit: 204e4654f2c3977db260670f3ee1784d1ad6ed17
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63564750"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64866193"
 ---
 # <a name="microsoft-teams-it-architecture-and-voice-solutions-posters"></a>Microsoft Teams IT 아키텍처 및 음성 솔루션 포스터
 
@@ -37,7 +37,7 @@ Teams는 데이터 거버넌스, 보안 및 규정 준수 기능을 포함한 Mi
 
 IT 설계자가 Microsoft 365의 그룹에 대해 알아야 하는 점입니다. 이러한 일러스트레이션은 다양한 그룹의 종류, 그룹을 만들고 관리하는 방법, 몇 가지 관리 권장 사항에 대해 자세한 설명을 제공합니다.
 
-[![그룹 인포그래픽용 축소판 이미지](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf)  <br/> [PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx)
+[![그룹 인포그래픽용 축소판 이미지](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://download.microsoft.com/download/6/3/0/6309218f-a169-4f2d-af4c-2fe49e30ba17/msft-m365-groups.pdf)  <br/> [PDF](https://download.microsoft.com/download/6/3/0/6309218f-a169-4f2d-af4c-2fe49e30ba17/msft-m365-groups.pdf) | [Visio](https://download.microsoft.com/download/6/3/0/6309218f-a169-4f2d-af4c-2fe49e30ba17/msft-m365-groups.vsdx)
 
 ## <a name="microsoft-voice-solutions"></a>Microsoft 음성 솔루션
 
