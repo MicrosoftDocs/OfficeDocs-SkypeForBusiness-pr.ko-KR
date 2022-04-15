@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b922607955d8b825006217bd2fe333eaadbc1ce
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: b5b67137aa581aae5a27ccc18935f621f51d5093
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556569"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64839019"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams용 클라이언트 다운로드
 
@@ -39,8 +39,8 @@ IT 전문가이고 Teams 설치 환경과 해당 요구 사항에 대해 자세�
 
 Teams 데스크톱 클라이언트는 다음 운영 체제에서 독립 실행형 애플리케이션과 [엔터프라이즈용 Microsoft 365 앱](/deployoffice/teams-install)의 일부로 사용할 수 있습니다.
 
-- 32비트 및 64비트 버전의 Windows(8.1 이상)
-- ARM의 Windows 10용 ARM64
+- 32비트 및 64비트 버전의 Windows(Windows 10 LTSC를 제외한 8.1 이상) 
+- ARM의 Windows 10용 ARM64 
 - Windows 서버(2012 R2 이상)
 - macOS
 - Linux(`.deb` 및 `.rpm` 형식)

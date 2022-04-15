@@ -20,12 +20,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f611afe731bc178759427efff2fe35d925ca0def
-ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
+ms.openlocfilehash: 2c20137aab3299f4151b6ef3ee7906ec39cf4baf
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "64403969"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853189"
 ---
 # <a name="get-started-with-teams-for-retail"></a>소매용 Teams 시작
 
@@ -74,7 +74,7 @@ Microsoft Teams의 Bookings 앱은 조직에 동료 및 고객의 가상 약속�
 
 **주요 기능 및 앱:** 모임, Bookings
 
-자세한 정보: [Microsoft Teams 및 Bookings 앱을 통한 가상 방문](bookings-virtual-visits.md)
+자세한 정보: [Microsoft Teams 및 Bookings 앱을 통한 가상 약속](bookings-virtual-visits.md)
 
 ### <a name="simplify-business-processes"></a>비즈니스 프로세스 간소화
 
@@ -166,7 +166,7 @@ Teams 앱, Power Apps 및 Power BI를 사용하여 비즈니스 프로세스를 
 
 | Microsoft의 더 많은 앱과 서비스 | 설명 | 관리 | 도움말 |
 | ----- | ----- | ----- | ----- |
-| Bookings | 가상 피팅과 상담을 사용을 지원합니다. | [Microsoft Teams 및 Bookings 앱을 가상으로 방문](bookings-virtual-visits.md) | [Bookings 사용](https://support.microsoft.com/en-us/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) |
+| Bookings | 가상 피팅과 상담을 사용을 지원합니다. | [Microsoft Teams 및 Bookings 앱을 통한 가상 약속](bookings-virtual-visits.md) | [Bookings 사용](https://support.microsoft.com/en-us/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) |
 | Power Apps 및 Power Platform | 비즈니스 프로세스를 통합하고 매장 재고, 판매 수치, 사고 보고 등 신속한 데이터 업데이트를 지원하세요. | [Microsoft Power Platform과 Teams 통합](/microsoftteams/platform/samples/teams-low-code-solutions) 및 [Microsoft Teams 관리 센터에서 Microsoft Power Platform 앱 관리](../manage-power-platform-apps.md) | -  |
 | SharePoint | 새 팀을 만들면 새 SharePoint 사이트가 생성되고 팀에 연결됩니다. 위에 명시된 많은 시나리오가 팀 공동 작업을 위한 문서 공유 등 Teams에 이미 포함된 SharePoint 기능에 의존합니다. | [Teams 및 SharePoint 통합](/sharepoint/teams-connected-sites) | [Teams에 탭으로 SharePoint 페이지, 목록, 문서 라이브러리 추가](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b)|
 | Viva Connections | Viva Connections는 Teams에 허브를 만듭니다. 여기서 소매 직원은 조직의 맞춤형 뉴스 피드와 직원에게 필요한 리소스가 포함된 개인 설정 대시보드를 볼 수 있습니다. | [Viva Connections 개요](/sharepoint/viva-connections-overview) | [Microsoft Teams의 Viva connections](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b) |

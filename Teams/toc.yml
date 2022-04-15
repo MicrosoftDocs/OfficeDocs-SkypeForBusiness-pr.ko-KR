@@ -1559,7 +1559,7 @@ items:
         items:
           - name: Teams의 Bookings
             items:
-              - name: Teams 및 Bookings를 사용한 가상 방문
+              - name: Teams 및 Bookings를 사용한 가상 약속
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Bookings 앱 관리
                 href: bookings-app-admin.md
@@ -1567,6 +1567,8 @@ items:
                 href: expand-teams-across-your-org/browser-join.md
               - name: 가상 방문 사용 현황 보고서
                 href: teams-analytics-and-reports/virtual-visits-usage-report.md
+              - name: 클라이언트와 고객이 가상 약속을 사용할 수 있도록 지원
+                href: expand-teams-across-your-org/virtual-appointments-toolkit.md
           - name: Teams의 교대 근무
             items:
               - name: 교대 근무 시작하기
@@ -1681,15 +1683,15 @@ items:
         items:
           - name: 의료 조직을 위한 Teams 시작
             href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-          - name: 가상 방문
+          - name: 가상 약속
             items:
-              - name: Teams를 사용하여 가상 방문 - Cerner EHR에 통합
+              - name: Teams를 사용한 가상 약속 - Cerner EHR에 통합
                 href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
-              - name: Teams를 사용하여 가상 방문 - Epic EHR에 통합
+              - name: Teams를 사용한 가상 약속 - Epic EHR에 통합
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
               - name: EHR 관리자 보고서
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
-              - name: Teams 및 Bookings를 사용한 가상 방문
+              - name: Teams 및 Bookings를 사용한 가상 약속
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: 가상 방문 사용 현황 보고서
                 href: teams-analytics-and-reports/virtual-visits-usage-report.md
