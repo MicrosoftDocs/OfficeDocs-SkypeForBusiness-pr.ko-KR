@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 도출하기 위해 Microsoft Teams 인증된 책상 및 전화 회의 전화기를 알아봅니다.
-ms.openlocfilehash: cd49aaab92f4f665d66b1c12b9d29c20c8d5dff3
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 353b96f1270ac1f7e52d454f76821b321c60a3e9
+ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839029"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "64885016"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>인증된 Android 디바이스 Microsoft Teams
 
@@ -117,7 +117,7 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 | 제품 릴리스 | 릴리스 날짜  | 앱 버전 Microsoft Teams | 회사 포털 버전 | 관리 에이전트 버전 |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
-| 2022년 업데이트 #2A  | 2022년 4월 13일   | `1449/1.0.96.2022041102` |`5.0.5304.0` | `322` |
+| 2022년 업데이트 #2A  | 2022년 4월 13일   | `1449/1.0.94.2022041102` |`5.0.5304.0` | `322` |
 | 2022년 업데이트 #2   | 2022년 3월 21일   | `1449/1.0.94.2022030501` |`5.0.5304.0` | `322` |
 | 2022년 업데이트 #1C  | 2022년 3월 3일  | `1449/1.0.94.2022022305` |`5.0.5304.0` | `322` |
 | 2022년 업데이트 #1B  | 2022년 2월 7일   | `1449/1.0.94.2022020202` |`5.0.5304.0` | `322` |
@@ -339,7 +339,7 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 Microsoft Teams 라이선스는 [Microsoft 365 또는 Office 365 구독](/office365/servicedescriptions/teams-service-description)의 일부로 구매할 수 있습니다. 휴대폰에서 Microsoft Teams 사용하는 데 필요한 라이선스에 대한 자세한 내용은 사용 가능한 [전화 시스템 라이선스를 참조하세요](https://products.office.com/microsoft-teams/voice-calling).
 
-Teams 가져오는 방법에 대한 자세한 내용은 [Microsoft Teams 액세스](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b) 어떻게 할까요? 확인하세요.
+Teams 가져오는 방법에 대한 자세한 내용은 [Microsoft Teams 액세스하려면 어떻게 해야 하나요?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 인증 프로그램에 참여하려는 공급업체인 경우 요구 사항 및 사용 가능한 프로그램에 [참가하는 방법을](/skypeforbusiness/certification/how-to-join) 참조하세요.
 
