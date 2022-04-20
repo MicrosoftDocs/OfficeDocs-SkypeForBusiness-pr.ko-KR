@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa6a03c5408afcd7cce1d3e48b78b3b1ddb3675a
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: a916d6bdd57c2956c076461d7f36df64d5c503d9
+ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64756994"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "64910904"
 ---
 # <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>모든 Teams 앱에 대해 Microsoft에서 수행한 유효성 검사
 
@@ -53,14 +53,6 @@ Microsoft에서는 모든 앱을 Teams 스토어에서 사용하도록 하기 �
 * ISV의 연락처 세부 정보는 스토어 목록 및 앱 각각의 [게시자 증명 페이지](/microsoft-365-app-certification/teams/teams-apps)에서 확인할 수 있습니다.
 
 또한 Microsoft에서는 앱 개발자들이 앱 품질, 보안, 규정 준수의 보장을 위해 두 계층으로 나누어 엄격히 접근되는 규정 준수 프로그램에 참여하도록 권장합니다. Teams 스토어에는 이미 세부적인 유효성 검사 지침을 충족하고 이러한 프로그램을 준수하는 수준을 넘는 앱이 수백 개 있습니다.
-
-## <a name="publisher-verification"></a>게시자 확인
-
-앱 개발자가 Microsoft에 앱을 제출하려면 인증을 받아야 합니다. 게시자는 MPN(Microsoft 파트너 네트워크) 계정을 통해 ID를 확인하고 해당 MPN 계정을 앱 등록에 연결합니다. 게시자 확인은 관리자 및 최종 사용자가 Microsoft ID 플랫폼과 통합하는 앱 개발자의 신뢰성을 파악하는 데 도움이 됩니다. 게시자 인증은 다음과 같은 장점이 있습니다.
-
-* 고객 측면에서 투명성이 증가하고 위험이 감소 - 이 기능은 고객이 자신의 조직에서 사용 중인 앱들을 자신이 신뢰하는 개발자에 의해 게시되었다는 점을 이해할 수 있게 합니다.
-* 향상된 브랜딩 - Azure Active Directory 동의 프롬프트, Enterprise Apps 페이지 및 기타 최종 사용자와 관리자가 사용하는 사용자 인터페이스에 `verified` 배지가 표시됩니다.
-* 더욱 매끄러운 엔터프라이즈 채택 - 관리자가 게시자 확인 상태를 기본 정책 조건으로 지정한 상태로 사용자 동의 정책을 구성할 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 

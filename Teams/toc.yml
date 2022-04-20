@@ -39,8 +39,6 @@ items:
                 href: tutorial-network-planner-example.yml
               - name: Teams 또는 비즈니스용 Skype Online용 프록시 서버
                 href: proxy-servers-for-skype-for-business-online.md
-              - name: Teams에서 팀을 만들 때 Microsoft 365 그룹에 대한 계획
-                href: plan-office-365-groups.md
               - name: Teams에서 수명 주기 관리 계획
                 href: plan-teams-lifecycle.md
               - name: Teams에서 거버넌스 계획

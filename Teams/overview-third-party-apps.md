@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 85171e8125fc4e6cecbfde4a0f6832b48ca7ca84
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: 90395ab4bd9563a6bd9ad12ae6d9c1d164ddc89b
+ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64756964"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "64910874"
 ---
 # <a name="overview-of-third-party-apps-in-microsoft-teams"></a>Microsoft Teams의 타사 앱 개요
 
@@ -34,8 +34,9 @@ Microsoft Teams의 타사 앱은 Microsoft의 제어나 소유 대상이 아니�
 관리자가 타사 앱을 제어할 수 있도록 하는 것 이외에 Microsoft에서는 품질이 높은 앱만 스토어에서 이용할 수 있도록 하기도 합니다. 모든 앱은 의무적으로 기능, 게시자 ID, 앱이 검색하는 권한, 규정 준수, 개인 정보 보호 및 앱에서 수집하는 데이터에 대한 데이터 보안을 확인하기 위한 Microsoft의 유효성 검사를 통과해야 합니다. Microsoft에서는 앱이 보안에 대한 추가적인 관심과 업계 표준에 의한 규정 준수를 표시하기 위해 선택적인 규정 준수 프로그램에 참여하기를 권장합니다. 다음 문서에서 이러한 프로그램에 대해 알아봅니다.
 
 1. [앱 유효성 검사](overview-of-app-validation.md#app-validation-and-testing)
-1. [게시자 확인](overview-of-app-validation.md#publisher-verification)
+
 1. Microsoft 앱 규정 준수 프로그램:
 
+   * [게시자 확인](overview-of-app-certification.md#publisher-verification)
    * [게시자 증명](overview-of-app-certification.md#publisher-attestation)
    * [Microsoft 365 인증](overview-of-app-certification.md#microsoft-365-certification)

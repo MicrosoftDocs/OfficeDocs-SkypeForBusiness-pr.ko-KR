@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4ab8adcbe4a717e62e0dff66ecf00fb1650e31b
-ms.sourcegitcommit: 823ad7fe5f7a27f681c95b2d369ce2cbe71cfdfe
+ms.openlocfilehash: 091fe5eba9d17cefc442978cb3090aaca87844d8
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64691453"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922649"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Microsoft Teams 통신 규정 준수
 
-커뮤니케이션 규정 준수는 Microsoft 365 내부 위험 솔루션으로, 조직에서 부적절한 메시지를 감지, 캡처 및 조치를 수행하여 통신 위험을 최소화하는 데 도움이 됩니다.
+Microsoft Purview 커뮤니케이션 규정 준수는 조직에서 부적절한 메시지를 감지, 캡처 및 조치를 취함으로써 통신 위험을 최소화하는 데 도움이 되는 Microsoft 365 내부 위험 솔루션입니다.
 
 Microsoft Teams 통신 규정 준수는 Teams 채널, 프라이빗 Teams 채널 또는 1:1 및 그룹 채팅에서 [다음과 같은 유형의](/microsoft-365/compliance/communication-compliance-feature-reference) 부적절한 콘텐츠를 식별하는 데 도움이 됩니다.
 
@@ -33,7 +33,7 @@ Microsoft Teams 통신 규정 준수는 Teams 채널, 프라이빗 Teams 채널 
 - 성인, 외설 및 피투성이 이미지
 - 중요한 정보 공유
 
-커뮤니케이션 규정 준수 및 조직에 대한 정책을 구성하는 방법에 대한 자세한 내용은 [Microsoft 365 커뮤니케이션 규정 준수를](/microsoft-365/compliance/communication-compliance) 참조하세요. 통신 규정 준수를 포함하는 Microsoft 365 구독에 대한 자세한 내용은 [참가자 위험 솔루션을 참조하세요](/microsoft-365/compliance/insider-risk-solution-overview#communication-compliance).
+커뮤니케이션 규정 준수 및 조직에 대한 정책을 구성하는 방법에 대한 자세한 내용은 [커뮤니케이션 규정 준수에 대한 자세한 내용을 참조](/microsoft-365/compliance/communication-compliance)하세요.
 
 ## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a>Microsoft Teams 통신 규정 준수를 사용하는 방법
 

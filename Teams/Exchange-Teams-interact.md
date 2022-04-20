@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b04e5937ad737feb39528c06f54ad8890ba32d0
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 52e4a9df0daded1a1091c32790dae2c15294529d
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839060"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922499"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange와 Microsoft Teams의 상호 작용 방법
 
@@ -131,7 +131,7 @@ Microsoft Teams는 다양한 Microsoft 365 및 Office 365 서비스와 작동하
 
 - 조직에서 모든 모임 토론을 검색할 수 있도록 하는 규정 준수 요구 사항이 있는 경우, 이끌이에게 Exchange 온-프레미스 사서함이 있으면 비공개 모임을 사용하지 않도록 설정해야 합니다. 자세한 내용은 [비공개 모임 일정을 참조하세요](./meeting-policies-in-teams-general.md#private-meeting-scheduling).
 
-- Exchange 하이브리드 배포에서는 채팅 참가자가 클라우드 기반 사서함 혹은 온-프레미스 사서함을 보유했는지에 관계 없이 채팅 메시지의 콘텐츠를 검색할 수 있습니다. 자세한 내용은 [온-프레미스 사용자에 대한 클라우드 기반 사서함 검색](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)을 참조하세요. Teams에서 콘텐츠를 검색하는 방법에 대한 자세한 내용은 [Microsoft 365 규정 준수 센터에서 콘텐츠 검색](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)을 참조하세요.
+- Exchange 하이브리드 배포에서는 채팅 참가자가 클라우드 기반 사서함 혹은 온-프레미스 사서함을 보유했는지에 관계 없이 채팅 메시지의 콘텐츠를 검색할 수 있습니다. 자세한 내용은 [온-프레미스 사용자에 대한 클라우드 기반 사서함 검색](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)을 참조하세요. Teams 콘텐츠를 검색하는 방법을 알아보려면 [Microsoft Purview 규정 준수 포털에서 콘텐츠 검색을](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups) 읽어보세요.
 
 - 현재 상태를 확인하려면 Microsoft Teams에서 사서함이 Exchange Online 또는 온-프레미스에 호스트되는지 확인해야 합니다. 그런 다음 서비스는 사서함에 액세스하는 위치를 결정합니다. Teams 서비스에서 Exchange Online 서비스에 대한 REST API 호출을 통해 사서함 위치를 확인할 수 있도록 하려면 [하이브리드 구성 마법사를 사용하여 하이브리드 배포 만들기](/exchange/hybrid-deployment/deploy-hybrid)에 설명 된 대로 Exchange 하이브리드 구성 마법사를 실행하여 Exchange 하이브리드 환경을 배포해야 합니다. 
 

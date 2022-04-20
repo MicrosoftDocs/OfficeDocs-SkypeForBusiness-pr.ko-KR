@@ -16,19 +16,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dcbbc25de23018a66dd807ee47f5486103d8e32d
-ms.sourcegitcommit: c2a77ef9c1c9e6f00b3a4589bf02b100c37f5801
-ms.translationtype: MT
+ms.openlocfilehash: 6d5a9e3318ac0c72360487dbfc08b63bd39dc55e
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64648957"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922429"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>엔터프라이즈에서 Microsoft Teams 설정
 
 이 문서의 정보를 사용하여 조직에서 Teams 배포를 안내합니다.
 
 > [!NOTE]
-> 아직 완료하지 않은 경우, Teams 배포 파일럿을 시작하는 것이 좋습니다. 파일럿을 통해 사용자와 일부 얼리어답터는 계획 및 최종 배포 전에 Teams와 Teams의 기능에 익숙해질 수 있습니다. 파일럿을 시작하는 방법에 대한 자세한 내용은 [Microsoft Teams 시작](get-started-with-teams-quick-start.md)을 참조하세요.
+> 아직 수행하지 않은 경우 파일럿을 사용하여 Teams 배포를 시작하는 것이 좋습니다. 파일럿을 통해 사용자와 일부 얼리어답터는 계획 및 최종 배포 전에 Teams와 Teams의 기능에 익숙해질 수 있습니다. 파일럿을 시작하는 방법에 대한 자세한 내용은 [Microsoft Teams 시작](get-started-with-teams-quick-start.md)을 참조하세요.
 
 Teams를 광범위하게 배포하기 전에 [준비되었는지 확인](get-started-with-teams-quick-start.md#make-sure-youre-ready)에서 항목을 검토하여 조직이 준비되었는지 확인해야 합니다.
 
@@ -78,8 +78,8 @@ Teams를 사용자 지정하는 방법에는 여러 가지가 있습니다. 다�
 
 | 판단 | 설명 |
 |--|--|
-| 외부 액세스를 사용하도록 설정해야 하나요? | 외부 액세스를 사용하면 다른 조직의 모든 사용자가 조직의 사용자와 대화할 수 있습니다. 이는 공급업체와 같은 다른 조직과 긴밀한 관계를 맺고 두 조직의 사용자가 서로 채팅하고 모임을 잡는 등의 작업을 용이하게 하려는 경우 유용합니다.<p>외부 액세스는 게스트 액세스와 다릅니다. 외부 액세스를 사용하면 조직의 모든 사용자가 조직의 사용자와 상호 작용할 수 있습니다. 게스트 액세스는 조직 내 사용자와 상호 작용하기 위해 특정 개인 액세스를 초대합니다.<p>외부 액세스는 기본적으로 **켜** 집니다.<p>[Microsoft Teams에서 외부 액세스 관리](manage-external-access.md)  |
-| 게스트 액세스를 사용하도록 설정해야 하나요? |게스트 액세스를 통해 조직 내부의 사용자가 조직 외부의 사용자를 팀 및 채널에 액세스할 수 있도록 초대할 수 있습니다. 게스트 액세스는 조직 외부 사용자와 공식적인 관계가 없는 사용자와 공동 작업하는 데 주로 사용됩니다. 예를 들어 프로젝트에서 일시적으로 작업할 프로젝트 플래너를 초대할 수 있습니다.<p>게스트 액세스는 외부 액세스와 다릅니다. 게스트 액세스는 조직 내 사용자와 상호 작용하기 위해 특정 개인 액세스를 초대합니다. 외부 액세스를 사용하면 다른 조직의 모든 사용자가 조직의 사용자와 상호 작용할 수 있습니다. <p>게스트 액세스는 기본적으로 **켜** 집니다. <p>[팀에서 게스트와 공동 작업](/microsoft-365/solutions/collaborate-as-team)  |
+| 외부 액세스를 사용하도록 설정해야 하나요? | 외부 액세스를 사용하면 다른 조직의 모든 사용자가 조직의 사용자와 대화할 수 있습니다. 이는 공급업체와 같은 다른 조직과 긴밀한 관계를 맺고 두 조직의 사용자가 서로 채팅하고 모임을 잡는 등의 작업을 용이하게 하려는 경우 유용합니다.<p>외부 액세스는 게스트 액세스와 다릅니다. 외부 액세스를 사용하면 조직의 모든 사용자가 조직의 사용자와 상호 작용할 수 있습니다. 게스트 액세스는 조직 내 사용자와 상호 작용하기 위해 특정 개인 액세스를 초대합니다.<p>외부 액세스는 기본적으로 **켜져** 있습니다.<p>[Microsoft Teams에서 외부 액세스 관리](manage-external-access.md)  |
+| 게스트 액세스를 사용하도록 설정해야 하나요? |게스트 액세스를 통해 조직 내부의 사용자가 조직 외부의 사용자를 팀 및 채널에 액세스할 수 있도록 초대할 수 있습니다. 게스트 액세스는 조직 외부 사용자와 공식적인 관계가 없는 사용자와 공동 작업하는 데 주로 사용됩니다. 예를 들어 프로젝트에서 일시적으로 작업할 프로젝트 플래너를 초대할 수 있습니다.<p>게스트 액세스는 외부 액세스와 다릅니다. 게스트 액세스는 조직 내 사용자와 상호 작용하기 위해 특정 개인 액세스를 초대합니다. 외부 액세스를 사용하면 다른 조직의 모든 사용자가 조직의 사용자와 상호 작용할 수 있습니다. <p>게스트 액세스 기능은 기본적으로 **켜져** 있습니다. <p>[게스트와 팀으로 공동 작업하기](/microsoft-365/solutions/collaborate-as-team)  |
 
 #### <a name="meetings-and-audio-conferencing"></a>[모임 및 오디오 회의](#tab/MeetingsAudioConferencing)
 
@@ -118,7 +118,7 @@ Teams를 사용자 지정하는 방법에는 여러 가지가 있습니다. 다�
 | 모든 온-프레미스 전화 시스템을 교체해 보시겠어요? | 전화 시스템을 설정하고 자동 전화 교환, 통화 플랜, 통화 대기열 등을 구성할 수 있습니다. <p> [조직에서 전화 시스템 설정](setting-up-your-phone-system.md)|
 | 클라우드 음성 사서함 정책을 설정하고 싶나요?| 사용자가 사용할 수 있는 클라우드 음성 사서함 기능과 해당 기능의 작동 방법을 제어할 수 있습니다. 예를 들어 전체 조직에 대해 음성 사서함 전사 기능을 사용하거나 사용하지 않도록 설정하고 특정 사용자에 대해 욕설 필터링을 사용하거나 사용하지 않도록 설정할 수 있습니다.<p> [클라우드 음성 사서함 설정](set-up-phone-system-voicemail.md) |
 | 동적 긴급 통화를 사용하도록 설정하고 싶나요?| 동적 긴급 통화를 사용하면 네트워크 설정 및 기타 메타데이터에 따라 위치 맵을 구성하여 사용자가 긴급 통화를 발신할 경우 비상 인력을 보낼 위치를 결정할 수 있습니다. 네트워크 설정을 구성하고, 위치에 긴급 주소를 할당하는 등 다양한 작업을 수행할 수 있습니다.<p>[동적인 긴급 전화 계획 및 구성](configure-dynamic-emergency-calling.md) |
-| 발신자 ID 동작을 사용자 지정하고 싶나요? | 기본적으로 Teams 사용자가 전화를 걸 때 표시되는 전화 번호는 사용자의 전화 번호입니다. 이를 회사의 주 번호로 변경하거나, 전화번호를 차단하거나, 번호를 익명으로 만들거나, 다른 서비스 번호로 변경할 수 있습니다. Teams에는 모든 사용자에게 적용되는 전역 정책이 있습니다.<p>모든 사용자에 대해 동일한 정책을 적용하려면 이 전역 정책을 변경하기만하면 됩니다. <p>다른 그룹의 사용자들에게 서로 다른 정책(예: 사무실 근로자를 위한 정책 하나 및 임원진용 정책 하나)을 사용하려는 경우 정책을 만들고 할당할 수 있습니다. 사용자에게 정책을 할당하는 경우 전역 정책은 더 이상 해당 사용자에게 적용되지 않습니다.<p> [Microsoft Teams에서 발신자 ID 정책 관리](caller-id-policies.md) |
+| 발신자 ID 동작을 사용자 지정하고 싶나요? | 기본적으로 Teams 사용자가 전화를 걸 때 표시되는 전화번호는 사용자의 전화번호입니다. 이를 회사의 주 번호로 변경하거나, 전화번호를 차단하거나, 번호를 익명으로 만들거나, 다른 서비스 번호로 변경할 수 있습니다. Teams에는 모든 사용자에게 적용되는 전역 정책이 있습니다.<p>모든 사용자에 대해 동일한 정책을 적용하려면 이 전역 정책을 변경하기만하면 됩니다. <p>다른 그룹의 사용자들에게 서로 다른 정책(예: 사무실 근로자를 위한 정책 하나 및 임원진용 정책 하나)을 사용하려는 경우 정책을 만들고 할당할 수 있습니다. 사용자에게 정책을 할당하는 경우 전역 정책은 더 이상 해당 사용자에게 적용되지 않습니다.<p> [Microsoft Teams에서 발신자 ID 정책 관리](caller-id-policies.md) |
 
 ---
 
@@ -145,16 +145,16 @@ Teams 및 Microsoft 365는 회사 및 사용자가 위치한 곳의 규정 요�
 | [커뮤니케이션 규정 준수](communication-compliance.md)| 불쾌감, 욕설 및 괴롭힘이 포함된 언어, 선정적 이미지, 잔인한 이미지, 중요한 정보 공유를 식별하고 조치를 취하여 의사 소통 위험을 줄이는 데 도움이 됩니다. |
 | [통화 및 모임에 대한 정책 기반 레코딩](teams-recording-policy.md)| 나중에 처리, 보존 또는 분석을 위해 통화 및 모임을 자동으로 기록하고 저장해야 하는지 여부를 제어할 수 있습니다.|
 | [민감도 레이블](sensitivity-labels.md)| 선택한 개인 정보 옵션을 적용하는 레이블을 만들어 중요한 정보에 대한 액세스를 보호하고 제어하는 데 도움이 됩니다.|
-| [데이터 손실 방지](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| 주민등급번호, 신용 카드 번호 등의 특정 정보를 처리하는 방법을 결정하는 규칙을 만들 수 있습니다. 특정 정보가 전송되는 것을 방지하고 조직을 외부로 나가지 못하도록 할 수 있습니다.|
+| [Microsoft Purview 데이터 손실 방지](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| 주민등급번호, 신용 카드 번호 등의 특정 정보를 처리하는 방법을 결정하는 규칙을 만들 수 있습니다. 특정 정보가 전송되는 것을 방지하고 조직을 외부로 나가지 못하도록 할 수 있습니다.|
 | [eDiscovery](eDiscovery-investigation.md)| 조직이 법적 절차에 의해 수색 요구를 받았을 때 조직의 콘텐츠를 검색하는 데 도움이 됩니다. |
 | [법적 보존](legal-hold.md)| 사용자가 삭제한 경우를 포함하여 eDiscovery 조사 중에 정보를 검색할 수 있도록 법적 절차 중에 필요한 경우 조직에서 정보를 보존할 수 있습니다. |
 | [콘텐츠 검색](content-search.md)| Exchange, SharePoint Online 및 비즈니스용 OneDrive에 걸쳐 Teams 정보를 쿼리하는 방법을 제공합니다.|
-| [Auditing](audit-log-events.md)| 작업을 수행한 사용자, 작업이 수행된 시간, 사용된 IP 주소 등 지정된 작업에 대한 정보를 볼 수 있습니다. 작업에는 팀 만들기 또는 삭제, 채널 만들기, Teams 변경된 설정 등이 포함됩니다.|
+| [Auditing](audit-log-events.md)| 작업을 수행한 사용자, 작업이 수행된 시간, 사용된 IP 주소 등 지정된 작업에 대한 정보를 볼 수 있습니다. 이러한 작업에는 팀 생성 또는 삭제, 채널 생성, Teams에서 설정 변경 등이 포함됩니다.|
 | [고객 키](/microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| 제공한 암호화 키를 사용하여 데이터 암호화 정책을 만들 수 있습니다.|
 
 ## <a name="clients"></a>클라이언트
 
-Teams를 사용할 준비가 되면 Windows, Mac, Linux PC나Android, iOS 장치에 Teams 클라이언트를 설치할 수 있습니다. <https://teams.microsoft.com/downloads>에서 Teams 클라이언트를 직집 다운로드할 수 있습니다.
+Teams를 사용할 준비가 되면 Windows, Mac, Linux PC나Android, iOS 장치에 Teams 클라이언트를 설치할 수 있습니다. 사용자는 <https://teams.microsoft.com/downloads>에서 Teams 클라이언트를 직접 다운로드할 수 있습니다.
 
 Teams를 사용할 모든 사용자는 Teams 라이선스가 있는지 확인하세요. Teams 라이선스 할당에 대한 자세한 내용은 [Teams에 대한 사용자 액세스 관리](user-access.md#using-the-microsoft-365-admin-center)를 참조하세요.
 

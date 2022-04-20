@@ -12,15 +12,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: Microsoft 365 규정 준수 센터 감사 로그에서 Microsoft Teams 데이터를 검색하는 방법을 알아봅니다.
+description: Microsoft Purview 규정 준수 포털의 감사 로그에서 Microsoft Teams 데이터를 검색하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdca912b77969e4157af641076dc683c3d17921c
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 744a18f2a8f7f2ed406853ef7efbc9842d0096f5
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "63711332"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922639"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams 감사 로그에서 이벤트 검색
 
@@ -42,7 +42,7 @@ ms.locfileid: "63711332"
 
 ## <a name="turn-on-auditing-in-teams"></a>Teams 감사 켜기
 
-감사 데이터를 살펴보려면 먼저 Microsoft 365 규정 준수 센터 감사를 켜야 합니다. 자세한 내용은 [감사 설정 또는 해제를 참조하세요](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
+감사 데이터를 살펴보려면 먼저 Microsoft Purview 규정 준수 포털에서 감사를 켜야 합니다. 자세한 내용은 [감사 설정 또는 해제를 참조하세요](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
 
 > [!IMPORTANT]
 > 감사 데이터는 감사를 설정한 시점부터만 사용할 수 있습니다.
@@ -235,4 +235,4 @@ Teams 이벤트를 변칙 검색 정책에 통합하기 위해 노력하고 있�
 
 ## <a name="related-topics"></a>관련 항목
 
-- [Microsoft 365 규정 준수 센터 감사 로그 검색](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+- [Microsoft Purview 규정 준수 포털에서 감사 로그 검색](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
