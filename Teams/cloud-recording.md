@@ -19,12 +19,12 @@ description: Teams 모임 및 그룹 통화를 녹음하여 오디오, 비디오
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c91e964d9cc0bfc3047ed8413dff15e5aafb0cb8
-ms.sourcegitcommit: 4c608bf06f43e88c844492c262a26dcf3eacb4c3
+ms.openlocfilehash: aab8f71ec8c9eb5ad1e984a68985a8a425e21f16
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63523807"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922669"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -313,7 +313,7 @@ eDiscovery에 대한 자세한 내용은 [Microsoft 365용 eDiscovery 솔루션]
 
 ProgID 속성을 통해 Teams 모임 녹음/녹화 비디오 파일만 대상으로 지정하도록 자동 보존 레이블을 적용할 수 있습니다. 자세한 내용은 [Teams 모임 녹음/녹화에 대한 보존 레이블을 자동으로 적용하는 방법](/microsoft-365/compliance/apply-retention-labels-automatically#microsoft-teams-meeting-recordings)을 참조하세요.
 
-### <a name="data-loss-prevention-dlp-policies"></a>DLP(데이터 손실 방지) 정책
+### <a name="microsoft-purview-data-loss-prevention-dlp-policies"></a>Microsoft Purview DLP(데이터 손실 방지) 정책
 
 ProgID 속성별로 모임 녹음/녹화 파일에 DLP 정책을 적용할 수도 있습니다. SharePoint Online 및 비즈니스용 OneDrive 파일에 대한 DLP 규칙에서 조건을 다음으로 설정합니다.
 
