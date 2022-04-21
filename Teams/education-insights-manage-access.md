@@ -17,10 +17,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f97b2aea15fe626c7780f022e2d024729ad02589
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2022
+ms.lasthandoff: 04/20/2022
 ms.locfileid: "62363184"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Education Insights에 대한 사용자 액세스 관리
@@ -50,7 +50,7 @@ ms.locfileid: "62363184"
 
 ## <a name="role-based-permissions"></a>역할 기반 권한
 
-[SDS V2.1 파일 형식](/schooldatasync/sds-v2.1-csv-file-format) 또는 [SDS V2 파일 형식](/schooldatasync/sds-v2-csv-file-format)을 사용하는 경우 교육 시스템 내에서 학교의 전체 계층 구조 및 모든 역할을 가져올 수 있습니다. 이 전체 매핑을 통해 역할에 권한을 할당할 수 있습니다. 
+[SDS V2.1 파일 형식](/schooldatasync/sds-v2.1-csv-file-format) 또는 [SDS V2 파일 형식](/schooldatasync/sds-v2-csv-file-format)을 사용하는 경우 교육 시스템 내에서 학교의 전체 계층 구조 및 모든 역할을 가져올 수 있습니다. 이 전체 매핑을 사용하면 역할에 권한을 할당할 수 있습니다. 
 
 > [!NOTE]
 > 사용자에게 역할이 할당되면 관련 데이터를 볼 수 있는 올바른 권한이 자동으로 부여됩니다.
@@ -92,14 +92,14 @@ ms.locfileid: "62363184"
 * 화면의 왼쪽 위에서 **Grant individual permission**(개별 권한 부여)를 클릭합니다.
 * 각 사용자의 사용자 이름 또는 전자 메일 주소를 입력합니다.
 * 사용 권한 수준을 선택합니다.
-  * **모두** 사용자가 모든 수준의 모든 조직 단위를 볼 수 있습니다. 이 수준은 거의 사용되지 않습니다.
+  * **모두** 사용자가 모든 수준의 모든 조직 단위를 볼 수 있습니다. 이는 거의 사용되지 않습니다.
   * **특정 조직** 사용자가 선택한 조직 단위와 그 아래의 모든 조직 단위를 볼 수 있습니다. 입력을 시작하고 목록에서 조직 단위를 선택합니다.
 * **권한 부여** 를 클릭하여 저장합니다.
 
 ### <a name="change-the-individual-permission-of-a-user"></a>사용자의 개별 권한 변경
 * 관련 사용자인 경우 연필 아이콘을 클릭하여 개별 권한 수준을 선택합니다.
 * 권한 수준을 선택합니다.
-  * **모두** 사용자가 모든 수준의 모든 조직 단위를 볼 수 있습니다. 이 수준은 거의 사용되지 않습니다.
+  * **모두** 사용자가 모든 수준의 모든 조직 단위를 볼 수 있습니다. 이는 거의 사용되지 않습니다.
   * **특정 조직** 사용자가 선택한 조직 단위와 그 아래의 모든 조직 단위를 볼 수 있습니다. 입력을 시작하고 목록에서 조직 단위를 선택합니다.
   * **없음** 사용자가 역할에 따라 자동으로 할당된 조직 단위만 볼 수 있습니다(있는 경우).
   

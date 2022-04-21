@@ -19,10 +19,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d061fa0cda1620980e7da68a345fc13acb6fc12a
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2022
+ms.lasthandoff: 04/20/2022
 ms.locfileid: "62362984"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>원격 학습을 위해 Microsoft Teams 시작
@@ -42,7 +42,7 @@ ms.locfileid: "62362984"
 > - [**One-Pager 시작하기**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)를 통해 교육 기관 전체에서 Teams를 사용하세요.
 > - [**Teams 시작하는 방법**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true) 다운로드: 보안 및 변경 관리에 도움이 되는 IT 전문가용 가이드입니다.
 > - [**Teams에서 교육하는 데 가장 중요한 첫 단계**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)에 대한 방법 지침을 포함하는 교육자용으로 작성된 문서 모음입니다.
-> - Microsoft 교육자 센터의 1시간 온라인 과정에서는 교육자들이 전문 라이브에서 Teams를 사용하는 방법을 보여줍니다. [**Microsoft Teams를 사용하여 학습하도록 변환**](https://education.microsoft.com/course/9c9f5c11/overview).
+> - Microsoft 교육자 센터의 1시간 온라인 과정은 교육자가 직업 생활에서 Teams를 사용하는 방법을 보여줍니다. [**Microsoft Teams로 학습 혁신**](https://education.microsoft.com/course/9c9f5c11/overview).
 > - Microsoft 교육자 센터의 1시간 온라인 과정은 수업 Teams에서 교육을 통해 교육자들을 주도합니다. [**수업 Teams를 사용하여 공동 학습 환경을 만들기**](https://education.microsoft.com/course/b1e15cfc/overview).
 > - 교육자, 학생 또는 부모나 보호자인 경우, [**Office 365를 사용하여 원격 교육 및 학습**](https://aka.ms/RemoteLearningHelp)에 대한 지침을 참고하세요.
 > - 부모님과 보호자는 [**부모 지원 페이지**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588)에서 원격 학습에 대한 지원을 받을 수 있습니다.
@@ -232,7 +232,7 @@ PowerShell을 사용하여 팀, 채널을 만들고 설정을 자동으로 구�
 
 - 조기 배포하세요! 모든 것이 안정적으로 작동하도록 조기 배포하여 개학 준비를 마칠 수 있습니다.
 - 팀이 50만 개 이상인 경우 [교육자 주도 팀 만들기 방법](#educator-led-team-creation-from-office-365-class-groups)을 사용하는 것을 권장합니다. 관련이 있고 필요한 수업 팀만 만들어 사용되지 않는 팀을 줄여 혼란을 방지할 수 있습니다.  
-- SDS 자동 팀 만들기 및 강사에게 해당하는 문제가 있을 경우(예: 수업이 누락된 경우) [강사 주도 팀 만들기 방법](#educator-led-team-creation-from-office-365-class-groups)을 사용하여 다시 시도할 수 있습니다. [수동 팀 만들기](#manual-team-creation)는 또 다른 솔루션이지만 팀 구성원의 업데이트는 유지되지 않습니다.  
+- SDS 자동 팀 생성에 문제(예: 수업 누락)가 있고 교육자가 즉시 필요한 경우 [교육자가 주도하는 팀 생성 방법](#educator-led-team-creation-from-office-365-class-groups)을 사용하여 다시 시도할 수 있습니다. [수동 팀 생성](#manual-team-creation)은 또 다른 솔루션이지만 팀 멤버십을 업데이트하지 않습니다.  
 - 테넌트 팀 제한은 50만 개입니다. 따라서 관리자는 이러한 제한 팀 수에 도달하지 않고 설정 시간을 연장하지 않도록 사용하지 않는 팀 수를 사전에 줄여야 합니다. 제한에 대한 자세한 내용은 [Microsoft Teams의 제한 사항 및 사양](limits-specifications-teams.md)을 참조하세요.  
 
 #### <a name="early-access-to-class-teams"></a>수업 팀에 빠르게 액세스

@@ -17,10 +17,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 3c80b93ef457048d006fb7a7eb6085b3ed5d8eb4
-ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/17/2022
+ms.lasthandoff: 04/20/2022
 ms.locfileid: "62864031"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>소규모 비즈니스를 위한 Microsoft Teams Essentials 빠른 시작 가이드
@@ -97,7 +97,7 @@ Microsoft 인증 파트너를 통해 Teams Essentials를 구매한 경우 **Micr
 
 
 > [!IMPORTANT] 
-> 향상된 관리 기능과 전체 Teams 기능을 사용하려면 사용자에게 적합한 [Microsoft 365 또는 Office 365 구독 플랜](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options)을 구매하여 전체 버전의 Teams로 업그레이드해야 합니다. 조직에서 공동 작업하는 방식을 보다 유연하게 관리할 수 있으므로 이를 사용하는 것이 좋습니다.
+> 향상된 관리 기능과 전체 Teams 기능을 사용하려면 사용자에게 적합한 [Microsoft 365 또는 Office 365 구독 요금제](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options)을 구매하여 전체 버전의 Teams로 업그레이드해야 합니다. 조직의 공동 작업 방식을 보다 유연하게 관리할 수 있으므로 이를 권장합니다.
 
 ## <a name="administration-limits-and-specifications-for-microsoft-teams-essentials"></a>Microsoft Teams Essentials에 대한 관리 제한 사항 및 사양
 
@@ -111,7 +111,7 @@ Teams Essentials를 시작하려면 다음 단계를 수행하세요.
 
 1. **구독을 구매합니다.** [소규모 비즈니스용 Microsoft Teams Essentials](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options)로 이동하여 Microsoft Teams Essentials에서 **지금 구매** 를 선택합니다.
 2. **기존 전자 메일 주소로 등록합니다.** 기존 전자 메일 주소를 사용하고 지침에 따라 사용자 라이선스를 구매합니다.
-3. **Teams 서비스 설명을 검토합니다.** Microsoft Teams에 대해 자세히 알아보려면 [Microsoft Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)을 방문하세요.
+3. **Teams 서비스 설명을 검토하세요.** Microsoft Teams에 대해 자세히 알아보려면 [Microsoft Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)을 방문하세요.
 
 이러한 작업을 완료하면 Teams 앱을 계획, 배포 및 사용할 준비가 된 것입니다.
 
@@ -166,10 +166,10 @@ Teams에 로그인하는 데 사용하는 현재 전자 메일 주소를 입력�
 
 ### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>Microsoft Teams Essentials에 기존 전자 메일 시스템을 사용할 수 있나요?  
 
-예. 기존 전자 메일 시스템을 유지하고 Teams Essentials를 활용하여 모임, 채팅 및 공동 작업을 수행할 수 있습니다.  
+네. 기존 전자 메일 시스템을 유지하고 Teams Essentials를 활용하여 만나고, 채팅하고, 공동 작업할 수 있습니다.  
 
 ### <a name="can-i-connect-my-existing-calendar-solution-with-teams-essentials"></a>기존 일정 솔루션을 Teams Essentials와 연결할 수 있나요?
-예. Outlook.com과 Google의 기존 일정을 Teams Essentials와 동기화할 수 있습니다.
+네. Outlook.com과 Google의 기존 일정을 Teams Essentials와 동기화할 수 있습니다.
 
 기존 일정 솔루션을 Teams Essentials(AAD ID)와 연결하려면 이 문서의 뒷부분에 있는 지침을 따르세요.
 
