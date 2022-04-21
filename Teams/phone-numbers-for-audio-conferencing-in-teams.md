@@ -22,33 +22,33 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 - seo-marvel-mar2020
-description: 전화 접속 회의 번호가 있는 국가 및 지역 및 해당 국가가 자동으로 할당되는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: c91f555d1ad38071f6e1857f62aeb81bf9baaba8
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: 전화 접속 회의 번호가 있는 국가 및 지역 및 해당 번호가 자동으로 할당되는 방법을 알아봅니다.
+ms.openlocfilehash: 87c343fcb055bb75f23514b4602de0ab70e32bf0
+ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055688"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65016610"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams에서 오디오 회의를 위한 전화 번호
 
-오디오 회의를  설정하는 경우 Microsoft Teams 전화 접속 전화 번호가 조직에 자동으로 할당됩니다. 오디오 회의 브리지에 할당된 전화 번호를 확인하려면 Microsoft Teams 회의 브리지로   >  **이동하세요.** 자세한 내용은 오디오 회의 번호 목록을 [참조하세요.](see-a-list-of-audio-conferencing-numbers-in-teams.md)
+Microsoft Teams **오디오 회의를** 설정하는 경우 전화 접속 전화 번호가 조직에 자동으로 할당됩니다. 오디오 회의 브리지에 할당된 전화 번호를 보려면 Microsoft Teams 관리 센터에서 **MeetingsConference** >  브리지로 이동합니다. 자세한 내용은 [오디오 회의 번호 목록을 참조하세요](see-a-list-of-audio-conferencing-numbers-in-teams.md).
 
-## <a name="audio-conferencing-coverage-and-pricing"></a>오디오 회의 범위 및 가격 책정
+## <a name="audio-conferencing-coverage-and-pricing"></a>오디오 회의 적용 범위 및 가격 책정
 
-오디오 회의를 사용할 수 있는 모든 국가/지역 및 도시의 전체 목록은 오디오 회의 및 통화 계획에 대한 국가 및 지역 가용성을 [참조하세요.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 가격 책정 정보는 오디오 회의에 대한 [가격 책정 을 참조하세요.](https://go.microsoft.com/fwlink/?linkid=799762)
+오디오 회의를 사용할 수 있는 모든 국가/지역 및 도시의 전체 목록은 [오디오 회의 및 통화 플랜의 국가 및 지역 가용성을 참조하세요](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). 가격 정보는 [오디오 회의 가격 책정을 참조하세요](https://go.microsoft.com/fwlink/?linkid=799762).
 
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>모임 초대의 전화 접속 전화 번호
 
-사용자가 Microsoft Teams 모임을 Outlook Outlook Web App 사용자에 대해 설정된 기본 오디오 회의 번호가 모임 초대에 포함됩니다. 하나 이상의 사용자에 대해 다른 기본 번호를 선택하려는 경우 사용자로 이동하여 사용자를 선택하고 사용자의 오디오 회의 설정을 편집하여 변경할 수 있습니다. 초대에 [포함된 전화 번호 설정 을 참조합니다.](set-the-phone-numbers-included-on-invites-in-teams.md)
+Microsoft Teams 사용자가 Outlook 또는 Outlook Web App 모임을 예약할 때 포함된 전화 번호를 관리하려면 Microsoft Teams [초대에 포함된 전화 번호 설정을](set-the-phone-numbers-included-on-invites-in-teams.md) 참조하세요.
 
 ## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>오디오 회의 브리지에 설정된 전화 접속 전화 번호
 
-회의 브리지에 할당할 수 있는 오디오 회의 전화 번호에는 **공유** 및 **전용** 두 가지가 있습니다. 이러한 두 유형의 숫자는 모든 발신자에서 조직에서 개최되는 오디오 모임에 참가하는 데 사용할 수 있습니다.
+회의 브리지에 할당할 수 있는 오디오 회의 전화 번호에는 **공유** 및 **전용** 두 가지가 있습니다. 이러한 숫자의 두 가지 유형은 모든 발신자가 조직에서 개최되는 오디오 모임에 참가하는 데 사용할 수 있습니다.
 
 - **전용 전화 번호** 는 조직 내 사용자만 사용할 수 있는 전화 번호입니다. 누군가 이 번호 중 하나로 전화할 때 사용되는 언어를 변경할 수 있습니다.
 
-- **공유 전화 번호는** 다른 전화 번호와 공유할 수 있는 Microsoft 365 전화 Office 365. 누군가 이 번호 중 하나로 전화할 때 사용되는 언어를 변경할 수 없습니다.
+- **공유 전화 번호는** 다른 Microsoft 365 또는 Office 365 공유할 수 있는 전화 번호입니다. 누군가 이 번호 중 하나로 전화할 때 사용되는 언어를 변경할 수 없습니다.
 
 이끌이에게 할당된 기본 오디오 회의 번호는 모임 초대에만 포함되어 있지만 발신자는 회의 브리지에 할당된 모든 전화 번호를 사용하여 모임에 참가할 수 있습니다. 모임에 참여하는 데 사용할 수 있는 전화 번호 목록은 모든 모임 초대에 포함되는 **현지 번호 찾기** 링크에서 사용할 수 있습니다.
 
@@ -64,14 +64,14 @@ ms.locfileid: "62055688"
 > [!CAUTION]
 > 베네수엘라, 인도네시아 및 아랍에미리트(UAE)에서는 유료 전화 번호의 가용성이 제한되기 때문에 이러한 국가/지역의 조직에는 오디오 회의 유료 번호를 자동으로 할당하지 않습니다. 사용 가능한 재고에 따라 이러한 위치에서 무료 전화 번호를 사용할 수 있습니다.
 
-## <a name="what-else-should-you-know"></a>또 어떤 것을 알아야 하나요?
+## <a name="what-else-should-you-know"></a>그 밖에 무엇을 알아야 할까요?
 
-- 오디오 회의에 지원되는 언어 목록을 참조하세요. 지원되는 오디오 회의 지원 언어 [를 참조하세요.](audio-conferencing-supported-languages.md)
+- 오디오 회의에 지원되는 언어 목록을 보려면 [오디오 회의 지원 언어를 참조하세요](audio-conferencing-supported-languages.md).
 
-- 각 오디오 회의 전화 번호(주 1개 및 보조 3개)에 대해 4개 언어를 설정할 수 있습니다. 또한 전용 오디오 회의 전화 번호에서 언어를 설정할 수 있습니다.
+- 각 오디오 회의 전화 번호(기본 전화 번호 1개 및 보조 3개)에 대해 최대 4개의 언어를 설정할 수 있습니다. 또한 전용 오디오 회의 전화 번호로 언어를 설정할 수도 있습니다.
 
-- 사용자의 전화 접속 전화 번호를 설정하는 경우 초대에 포함된 전화 번호 설정 [을 참조합니다.](set-the-phone-numbers-included-on-invites-in-teams.md)
+- 사용자의 전화 접속 전화 번호를 설정하려면 [초대에 포함된 전화 번호 설정을 참조하세요](set-the-phone-numbers-included-on-invites-in-teams.md).
 
 ## <a name="related-topics"></a>관련 항목
 
-[오디오 회의를 시도하거나 Microsoft 365 또는 Office 365](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Microsoft 365 또는 Office 365 오디오 회의 체험 또는 구매](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

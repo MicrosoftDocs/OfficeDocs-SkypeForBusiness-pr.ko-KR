@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '전화를 사용하여 전화 회의에 참여해야 하는 회사의 사용자를 위해 전화 접속 또는 오디오 회의를 설정하는 방법을 알아봅니다. '
-ms.openlocfilehash: 742393413ccf1a9e8a9d715f4ddfa199a4c4e35c
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: 2098ec90223ec7242f24368f2b6dc7687d3370fd
+ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055158"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65016640"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft Teams용 오디오 회의 설정하기
 
@@ -52,7 +52,7 @@ ms.locfileid: "62055158"
     >[!NOTE]
     > 오디오 회의는 Office 365 Enterprise E5 라이선스에 추가 기능으로 포함되어 있습니다.
 
-2. 오디오 회의 라이선스를 구입한 후에는 모임을 예약하거나 진행할 조직의 사용자에게 라이선스를 할당해야 합니다. [모임을](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) 예약하거나 이끌 Microsoft 365 사용자에 Microsoft 365 Office 365 비즈니스용 라이선스 할당을 참조합니다.
+2. 오디오 회의 라이선스를 구입한 후에는 모임을 예약하거나 진행할 조직의 사용자에게 라이선스를 할당해야 합니다. 모임을 예약하거나 이끌 조직의 사용자에게 구매한 [비즈니스용 Microsoft 365 또는 Office 365 사용자에게 라이선스 할당](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)을 참조하세요.
 
 3. 또한 이전 단계에서 라이선스를 할당한 동일한 사용자에게 통신 크레딧 라이선스(비용 없음)를 할당하는 것이 좋습니다. 통신 크레딧을 설정하는 방법을 확인하려면 [조직에 대한 통신 크레딧 설정하기](set-up-communications-credits-for-your-organization.md)를 참조하세요.
 
@@ -65,7 +65,7 @@ ms.locfileid: "62055158"
   
 - **Microsoft Teams 관리 센터 사용하기** 일부 국가/지역의 경우 Microsoft Teams 관리 센터를 사용하여 회의 브리지의 서비스 전화번호를 받을 수 있습니다. [서비스 전화번호 받기](./getting-service-phone-numbers.md)를 참조하세요.
 
-- **기존 서비스 전화번호 포팅하기** 현재 서비스 공급자 또는 휴대폰 통신사에서 기존 번호를 Microsoft 365 또는 Office 365. 이 작업을 수행 하는 데 도움이 되는 자세한 내용은 [Teams로 전화번호 전송](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 또는 [조직에 대한 전화번호 관리하기](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조하세요.  
+- **기존 서비스 전화번호 포팅하기** 현재 서비스 공급자 또는 전화 통신 사업자에서 Microsoft 365 또는 Office 365 기존 번호를 포팅하거나 전송합니다. 이 작업을 수행 하는 데 도움이 되는 자세한 내용은 [Teams로 전화번호 전송](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 또는 [조직에 대한 전화번호 관리하기](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조하세요.  
   
 - **새 전화 번호를 위한 요청 양식 사용하기** 경우에 따라(국가/지역에 따라) Microsoft Teams 관리 센터를 사용하여 새 서비스 전화번호를 받을 수 없거나 특정 전화번호 또는 지역 코드가 필요합니다. 그럴 경우 양식을 다운로드하여 다시 보내주세요. 자세한 내용은 [조직에서 전화번호 관리하기](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조하세요.
 
@@ -75,9 +75,9 @@ ms.locfileid: "62055158"
 
 다음 단계에 따라 오디오 회의 브리지에 새 전화번호를 할당하세요.
 
- **관리 Microsoft Teams 사용:**
+ **Microsoft Teams 관리 센터 사용**:
 
- 1. 홈에서 **Voice** 전화  >  **로 이동합니다.**
+ 1. 집에서 **음성** > **전화 숫자** 로 이동합니다.
  2. 전화번호를 선택하고, **할당** 을 클릭합니다.
 
 자세한 내용은 [오디오 회의 브리지에서 전화번호 변경하기](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)를 참조하세요.
@@ -86,34 +86,30 @@ ms.locfileid: "62055158"
 
  다음으로, [Microsoft Teams에서 오디오 회의에 대한 자동 전화 교환 언어를 설정](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)하려고 합니다. 이는 회의 자동 전화 교환에서 오디오 회의를 위해 전화번호로 전화를 걸 때 발신자에게 인사하는 데 사용하는 언어입니다.
 
- **관리 Microsoft Teams 사용:**
+ **Microsoft Teams 관리 센터 사용**:
 
-1. 집에서 모임 **회의**  >  **브리지로 이동합니다.**
+1. 집에서 **MeetingsConference** >  **브리지로** 이동합니다.
 2. 회의 브리지 전화번호를 선택하고 **편집** 을 클릭한 다음 기본 언어를 선택합니다.
 
 ## <a name="step-6-set-your-conferencing-bridge-settings"></a>6단계: 회의 브리지 설정 확인하기
 
 회의 브리지를 설정한 후에는 입력/종료 알림과 PIN 길이와 같은 기본 설정이 사용하려는 설정인지 확인합니다. 사용하려는 설정이 아니라면 설정을 변경할 수 있습니다.
 
- **관리 Microsoft Teams 사용:**
+ **Microsoft Teams 관리 센터 사용**:
 
-1. 집에서 모임 **회의**  >  **브리지로 이동합니다.**
+1. 집에서 **MeetingsConference** >  **브리지로** 이동합니다.
 2. **브리지 설정** 을 선택합니다. 그러면 **브리지 설정** 창이 열립니다.
 
 자세한 내용은 [오디오 회의 브리지의 설정 변경하기](change-the-settings-for-an-audio-conferencing-bridge.md)를 참조하세요.
 
 ## <a name="step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings"></a>7단계: 모임을 진행하는 사용자에게 전화 접속 번호 할당하기
 
-오디오 회의 브리지를 만든 후에는 사용자를 위해 유료 및 무료 전화번호를 설정해야 합니다.
-
-모임을 진행하거나 예약하는 조직의 모든 사용자를 위해 이 작업을 수행해야 합니다.
-
- **관리 Microsoft Teams 사용:**
-
-1. 홈에서 **사용자를** 클릭하고 목록에서 사용자를 선택하고 **편집을 선택합니다.**
-2. **오디오 회의** 옆의 **편집** 을 선택한 다음 **오디오 회의** 창에서 **유료 전화번호** 및 **무료** 전화번호 목록에서 번호를 선택합니다.
+[Microsoft Teams 초대에 포함된 전화 번호 설정을](set-the-phone-numbers-included-on-invites-in-teams.md) 참조하세요.
 
 자세한 내용은 [Microsoft를 오디오 회의 공급자로 지정하기](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)를 참조하세요.
+
+> [!NOTE]
+> *TeamsAudioconferencingpolicy* 에 전화 번호를 추가하고 사용자에게 정책을 할당하여 전화 번호를 설정할 수도 있습니다. 정책에 추가된 수신자 및 무료 전화 번호는 오디오 회의 설정 창을 통해 사용자에게 개별적으로 설정된 전화 번호보다 우선합니다. *Teamsaudioconferencingpolicy* 에 전화 번호가 추가되지 않으면 오디오 회의 설정 창을 통해 사용자에 대해 개별적으로 설정된 전화 번호가 Microsoft Teams 모임 요청에 표시됩니다. [유료 및 무료 번호에 대한 오디오 회의 정책 설정에는](audio-conferencing-toll-free-numbers-policy.md) 자세한 정보가 있습니다.
 
 ## <a name="step-8-set-up-meeting-invitations-optional"></a>8단계: 모임 초대 설정하기(선택 사항)
 
