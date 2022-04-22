@@ -295,7 +295,7 @@ items:
             href: legal-hold.md
           - name: 콘텐츠 검색
             href: content-search.md
-          - name: Advanced eDiscovery의 Teams 워크플로
+          - name: eDiscovery의 Teams 워크플로(프리미엄)
             href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
           - name: 감사
             href: audit-log-events.md
@@ -667,90 +667,94 @@ items:
                 href: teams-live-events/live-events-recording-policies.md
       - name: 오디오 회의
         items:
-          - name: 배포 계획
-            href: deploy-audio-conferencing-teams-landing-page.md
-          - name: Microsoft 365의 오디오 회의
+          - name: M365의 오디오 회의
             href: audio-conferencing-in-office-365.md
-          - name: 오디오 회의를 위한 네트워크 회의
-            href: audio-conferencing-on-network.md
-          - name: 오디오 회의 일반적인 질문
-            href: audio-conferencing-common-questions.md
-          - name: Microsoft 365에서 오디오 회의 체험 또는 구매
-            href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+          - name: 계획
+            items:
+              - name: 배포 계획
+                href: deploy-audio-conferencing-teams-landing-page.md
+              - name: 오디오 회의를 위한 네트워크 회의
+                href: audio-conferencing-on-network.md
+              - name: 오디오 회의 일반적인 질문
+                href: audio-conferencing-common-questions.md
+              - name: Microsoft 365에서 오디오 회의 체험 또는 구매
+                href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+          - name: 설정
+            items:
+              - name: 오디오 회의 설정
+                href: set-up-audio-conferencing-in-teams.md
+              - name: 오디오 회의 설정 - 중소기업을 위한 빠른 시작
+                href: audio-conferencing-smb.md
+          - name: 관리
+            items:
+              - name: 오디오 회의 서비스 관리
+                items:
+                  - name: 미국 및 캐나다에 대한 확장 된 전화 접속 시간
+                    href: dial-out-minutes-canada-us.md
+                  - name: 오디오 회의 구독 ‘전화 걸기’/’전화 받기’ 혜택
+                    href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+                  - name: 오디오 회의 분당 요금
+                    href: audio-conferencing-pay-per-minute.md
+              - name: 오디오 회의 브리지 관리
+                items:
+                  - name: 오디오 회의 브리지에서 전화 번호 변경
+                    href: change-the-phone-numbers-on-your-audio-conferencing-bridge.md
+                  - name: 오디오 회의 브리지의 설정 변경
+                    href: change-the-settings-for-an-audio-conferencing-bridge.md
+                  - name: 오디오 회의 번호 목록 보기
+                    href: see-a-list-of-audio-conferencing-numbers-in-teams.md
+                  - name: 오디오 회의의 자동 전화 교환 언어 설정
+                    href: set-auto-attendant-languages-for-audio-conferencing-in-teams.md
+                  - name: 사용자에 대한 모임 전화 접속 확인 설정
+                    href: set-up-meeting-dial-out-confirmation.md
+              - name: 조직의 오디오 회의 설정 관리
+                href: manage-the-audio-conferencing-settings-for-my-organization-in-teams.md
+              - name: 사용자의 오디오 회의 설정 관리
+                items:
+                  - name: 개요
+                    href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
+                  - name: 오디오 회의에 사용되는 사용자 목록 보기
+                    href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
+                  - name: 모임에 참석할 때 사용자가 이름을 녹음/녹화할 수 있습니다.
+                    href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+                  - name: 사용자의 회의 ID 다시 설정
+                    href: reset-a-conference-id-for-a-user-in-teams.md
+                  - name: 사용자의 오디오 회의 PIN 재설정
+                    href: reset-the-audio-conferencing-pin-in-teams.md
+                  - name: 설정이 변경되면 자동으로 사용자에게 전송되는 전자 메일
+                    href: emails-sent-to-users-when-their-settings-change-in-teams.md
+                  - name: 오디오 회의 설정이 변경되면 전자 메일 보내기 사용 또는 사용 안 함
+                    href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
+                  - name: 유료 및 무료 번호에 대한 정책 설정
+                    href: audio-conferencing-toll-free-numbers-policy.md
+                  - name: 특정 사용자의 무료 전화 번호 사용 안 함
+                    href: disabling-toll-free-numbers-for-specific-teams-users.md
+                  - name: 오디오 회의 및 사용자 PSTN 통화의 발신 전화 제한 정책
+                    href: outbound-calling-restriction-policies.md
+                  - name: 사용자에게 할당된 회의 ID 보기 및 재설정
+                    href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
+                  - name: 오디오 회의 정보를 사용하여 사용자에게 전자 메일 보내기
+                    href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
+              - name: 오디오 회의용 모임 설정 관리
+                items:
+                  - name: 다른 사람이 참여할 수 있도록 모임에서 전화 걸기
+                    href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md
+                  - name: 모임의 시작 및 종료 알림 설정 또는 해제
+                    href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+                  - name: 오디오 회의 모임의 PIN 길이 설정
+                    href: set-the-pin-length-for-audio-conferencing-meetings-in-teams.md
+                  - name: 초대에 포함할 전화 번호 설정
+                    href: set-the-phone-numbers-included-on-invites-in-teams.md
+                  - name: 휴대폰에서 PIN 없이 오디오 회의 시작
+                    href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
+                  - name: Teams 모임에서 전화번호 마스크
+                    href: ptsn-mask-phone-numbers.md
           - name: 운영자 연결 회의
             items:
               - name: 개요
                 href: operator-connect-conferencing-plan.md
               - name: 운영자 연결 회의 구성
                 href: operator-connect-conferencing-configure.md
-          - name: 미국 및 캐나다에 대한 확장 된 전화 접속 시간
-            href: dial-out-minutes-canada-us.md
-          - name: 오디오 회의 무료 전화 걸기 기간
-            href: complimentary-dial-out-period.md
-          - name: 오디오 회의 구독 ‘전화 걸기’/’전화 받기’ 혜택
-            href: audio-conferencing-subscription-dial-out.md
-          - name: 오디오 회의 설정
-            href: set-up-audio-conferencing-in-teams.md
-          - name: 오디오 회의 설정 - 중소기업을 위한 빠른 시작
-            href: audio-conferencing-smb.md
-          - name: Microsoft를 오디오 회의 공급자로 지정
-            href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: 오디오 회의 브리지 관리
-            items:
-              - name: 오디오 회의 브리지에서 전화 번호 변경
-                href: change-the-phone-numbers-on-your-audio-conferencing-bridge.md
-              - name: 오디오 회의 브리지의 설정 변경
-                href: change-the-settings-for-an-audio-conferencing-bridge.md
-              - name: 오디오 회의 번호 목록 보기
-                href: see-a-list-of-audio-conferencing-numbers-in-teams.md
-              - name: 오디오 회의의 자동 전화 교환 언어 설정
-                href: set-auto-attendant-languages-for-audio-conferencing-in-teams.md
-              - name: 사용자에 대한 모임 전화 접속 확인 설정
-                href: set-up-meeting-dial-out-confirmation.md
-          - name: 조직의 오디오 회의 설정 관리
-            href: manage-the-audio-conferencing-settings-for-my-organization-in-teams.md
-          - name: 오디오 회의 분당 요금
-            href: audio-conferencing-pay-per-minute.md
-          - name: 사용자의 오디오 회의 설정 관리
-            items:
-              - name: 개요
-                href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
-              - name: 오디오 회의에 사용되는 사용자 목록 보기
-                href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
-              - name: 모임에 참석할 때 사용자가 이름을 녹음/녹화할 수 있습니다.
-                href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-              - name: 사용자의 회의 ID 다시 설정
-                href: reset-a-conference-id-for-a-user-in-teams.md
-              - name: 사용자의 오디오 회의 PIN 재설정
-                href: reset-the-audio-conferencing-pin-in-teams.md
-              - name: 설정이 변경되면 자동으로 사용자에게 전송되는 전자 메일
-                href: emails-sent-to-users-when-their-settings-change-in-teams.md
-              - name: 오디오 회의 설정이 변경되면 전자 메일 보내기 사용 또는 사용 안 함
-                href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
-              - name: 특정 사용자의 무료 전화 번호 사용 안 함
-                href: disabling-toll-free-numbers-for-specific-teams-users.md
-              - name: 오디오 회의 및 사용자 PSTN 통화의 발신 전화 제한 정책
-                href: outbound-calling-restriction-policies.md
-              - name: 사용자에게 할당된 회의 ID 보기 및 재설정
-                href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
-              - name: 오디오 회의 정보를 사용하여 사용자에게 전자 메일 보내기
-                href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
-          - name: 오디오 회의용 모임 설정 관리
-            items:
-              - name: 다른 사람이 참여할 수 있도록 모임에서 전화 걸기
-                href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md
-              - name: 모임의 시작 및 종료 알림 설정 또는 해제
-                href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-              - name: 오디오 회의 모임의 PIN 길이 설정
-                href: set-the-pin-length-for-audio-conferencing-meetings-in-teams.md
-              - name: 초대에 포함할 전화 번호 설정
-                href: set-the-phone-numbers-included-on-invites-in-teams.md
-              - name: 휴대폰에서 PIN 없이 오디오 회의 시작
-                href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
-              - name: Teams 모임에서 전화번호 마스크
-                href: ptsn-mask-phone-numbers.md
-          - name: 오디오 회의의 국가 및 지역 가용성
-            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: 참조
             items:
               - name: 오디오 회의 지원되는 언어
@@ -759,6 +763,10 @@ items:
                 href: phone-numbers-for-audio-conferencing-in-teams.md
               - name: 오디오 회의의 국가 및 지역 가용성
                 href: audio-conferencing-zones.md
+              - name: 오디오 회의의 국가 및 지역 가용성
+                href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+              - name: 오디오 회의 무료 전화 걸기 기간
+                href: complimentary-dial-out-period.md
               - name: 비디오 - Teams의 오디오 회의
                 href: ./audio-conferencing-in-office-365.md
   - name: 음성 - 전화 시스템 및 PSTN 연결
@@ -1539,8 +1547,6 @@ items:
             href: resource-specific-consent.md
           - name: 앱 사용 권한 및 리소스 액세스에 대한 이해
             href: app-permissions.md
-          - name: Team에서 앱의 관리 설정
-            href: admin-settings.md
           - name: 사용자 유형에 따른 앱 동작
             href: non-standard-users.md
           - name: 최종 사용자로 앱을 최신 버전으로 업데이트

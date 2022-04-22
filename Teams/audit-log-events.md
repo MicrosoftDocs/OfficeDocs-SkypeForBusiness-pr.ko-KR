@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 감사 로그에서 이벤트 검색
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 audience: admin
@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft Purview 규정 준수 포털의 감사 로그에서 Microsoft Teams 데이터를 검색하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 744a18f2a8f7f2ed406853ef7efbc9842d0096f5
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 82da7932fb87101ee04759ede3d96b68cbb64aa2
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922639"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031893"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams 감사 로그에서 이벤트 검색
 
@@ -141,7 +141,7 @@ ms.locfileid: "64922639"
 ||||
 
 > [!NOTE]
-> <sup>1</sup> 이 이벤트에 대한 감사 레코드는 Microsoft Graph API 호출하여 작업을 수행할 때만 기록됩니다. 작업이 Teams 클라이언트에서 수행되는 경우 감사 레코드가 기록되지 않습니다.<br/><sup>2</sup> 이 이벤트는 고급 감사에서만 사용할 수 있습니다. 즉, 이러한 이벤트가 감사 로그에 기록되기 전에 사용자에게 적절한 라이선스가 할당되어야 합니다. 고급 감사에서만 사용할 수 있는 활동에 대한 자세한 내용은 [Microsoft 365 고급 감사를](/microsoft-365/compliance/advanced-audit#advanced-audit-events) 참조하세요. 고급 감사 라이선스 요구 사항은 [Microsoft 365 감사 솔루션을](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements) 참조하세요. <br/> <sup>3</sup> 이 이벤트는 공개 미리 보기로 제공됩니다.
+> <sup>1</sup> 이 이벤트에 대한 감사 레코드는 Microsoft Graph API 호출하여 작업을 수행할 때만 기록됩니다. 작업이 Teams 클라이언트에서 수행되는 경우 감사 레코드가 기록되지 않습니다.<br/><sup>2</sup> 이 이벤트는 Audit(Premium)에서만 사용할 수 있습니다. 즉, 이러한 이벤트가 감사 로그에 기록되기 전에 사용자에게 적절한 라이선스가 할당되어야 합니다. 감사(Premium)에서만 사용할 수 있는 활동에 대한 자세한 내용은 [Microsoft Purview의 감사(Premium)](/microsoft-365/compliance/advanced-audit#advanced-audit-events)를 참조하세요. 감사(Premium) 라이선스 요구 사항은 [Microsoft 365 감사 솔루션을](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements) 참조하세요. <br/> <sup>3</sup> 이 이벤트는 공개 미리 보기로 제공됩니다.
 
 ## <a name="shifts-in-teams-activities"></a>Teams 활동의 변화
 

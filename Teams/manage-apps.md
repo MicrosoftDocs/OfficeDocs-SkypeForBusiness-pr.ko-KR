@@ -17,73 +17,95 @@ description: Microsoft Teams 관리 센터의 앱 관리 페이지에서 Teams �
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 830850be078da8086253bbb57bb4a29ce6d7c951
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: a6e6adbfbed5e1b371655ca74aa6ca6c717490c9
+ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "64961241"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65030944"
 ---
-# <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 앱 관리
+# <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 Teams 앱 관리
 
-관리자는 조직의 모든 Teams 앱을 보고 관리할 수 있습니다. Teams 관리 센터의 앱 관리 페이지에서 다음을 수행할 수 있습니다.
+관리 센터의 **Teams 앱** 에서 조직의 앱을 관리합니다. [앱 관리](https://admin.teams.microsoft.com/policies/manage-apps) 페이지를 사용하여 조직의 앱 카탈로그에서 모든 Teams 앱을 보고 관리합니다. 앱 관리 페이지에서는 테넌트 카탈로그에서 사용 가능한 모든 앱에 대한 보기를 제공하여 조직 전체에서 허용하거나 차단할 앱을 결정하는 데 필요한 정보를 제공합니다. 앱의 조직 수준 상태 및 속성을 확인하고, 조직 수준에서 앱을 차단 또는 허용하고, 새 사용자 지정 앱을 테넌트 카탈로그에 업로드하고, 조직 전체 앱 설정을 관리할 수 있습니다.
 
-- [조직 수준에서 앱 허용 또는 차단](#allow-and-block-apps)
-- [게시자에 의해 차단된 앱](#apps-blocked-by-publishers)
-- [팀에 앱 추가](#add-an-app-to-a-team)
-- [조직의 앱 스토어에 새 사용자 지정 앱 승인 또는 업로드](#publish-a-custom-app-to-your-organizations-app-store)
-- [앱에서 요청한 권한 보기](#view-resource-specific-consent-permissions)
-- [앱에 동의 부여](#grant-admin-consent-to-apps)
-- [타사 앱에 대한 서비스 구매](#purchase-services-for-third-party-apps)
-- [앱의 조직 수준 상태 및 속성 보기](#view-apps)
-- [조직 전체 앱 설정 관리](#manage-org-wide-app-settings)
-- [Microsoft 365 인증된 앱에 대한 보안 및 규정 준수 정보 보기](#view-security-and-compliance-information-for-microsoft-365-certified-apps)
+![앱 관리 페이지의 스크린샷.](media/manage-apps.png)
 
-앱 관리 페이지에서는 사용 가능한 모든 앱에 대한 보기를 제공하여 조직 전체에서 허용하거나 차단할 앱을 결정하는 데 필요한 정보를 제공합니다. 그런 다음 [앱 권한 정책](teams-app-permission-policies.md), [앱 설정 정책](teams-app-setup-policies.md) 및 [사용자 지정 앱 정책 및 설정을](teams-custom-app-policies-and-settings.md) 사용하여 조직의 특정 사용자에 대한 앱 환경을 구성할 수 있습니다.
+앱을 관리하려면 다음 정책을 사용하여 사용자에 대한 권한, 앱 설치 및 조직 내에서 만든 사용자 지정 앱 업로드를 제어합니다. 정책을 이해하려면 [앱 정책 개요를](app-policies.md) 참조하세요.
 
-Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 관리** 로 이동합니다. 페이지에 액세스하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다.
-
-![관리되는 앱 페이지의 스크린샷.](media/manage-apps.png)
+관리자 역할 및 권한을 가져오는 방법에 대해 알아보려면 [Teams 관리자 역할을](./using-admin-roles.md) 참조하세요.
 
 > [!NOTE]
-> 앱 관리 페이지는 Teams Microsoft 365 정부 커뮤니티 클라우드 High(GCCH) 또는 국방부(DoD) 배포에서 아직 사용할 수 없습니다.
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="view-apps"></a>앱 보기
+> [!NOTE]
+> 앱 관리 페이지는 Teams Microsoft 365 정부 커뮤니티 클라우드 High(GCCH) 또는 국방부(DoD) 배포에서 사용할 수 없습니다.
 
-각 앱에 대한 다음 정보를 포함하여 모든 앱을 볼 수 있습니다.
+<!--- TBD: This info belongs in the app policy overview article. Title it as mentioned in the spreadsheet.
 
-![앱에 대한 앱 세부 정보 페이지의 스크린샷.](media/app-detail-page.jpg)
+* **App permission policy**: With it, you can control what apps are available to specific users in your organization. You can allow or block all apps or specific apps published by Microsoft, third-parties, and your organization. See [Manage app permission policies in Teams](teams-app-permission-policies.md).
+* **App setup policies**: It lets you customize the app experience for your users. You choose the apps that you want to pin to the app bar in the Teams clients and the order in which they appear, on web, desktop, and mobile clients. See [Manage app setup policies in Teams](teams-app-setup-policies.md).
+* **Custom app policies and settings**: Teams allows developers in your organization to build, test, and deploy custom apps to other users. Custom apps can be added to Teams by uploading an app package in a .zip file directly to a team or in the personal context. You can use app setup policies to control who in your organization can upload custom apps. You can also set org-wide settings to control whether users can interact with specific custom apps. See [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings).
 
-- **이름**: 앱 이름입니다. 앱 이름을 선택하여 앱 세부 정보 페이지로 이동하여 앱에 대한 자세한 정보를 확인합니다. 여기에는 앱의 허용 또는 차단 여부, 버전, 개인 정보 보호 정책, 사용 약관, 앱에 적용되는 범주, 인증 상태, 지원되는 기능 및 앱 ID에 대한 설명이 포함됩니다.
-- **인증**: 앱이 인증을 통과한 경우 **Microsoft 365 인증 또는** **Publisher 증명** 이 표시됩니다. 링크를 선택하여 앱에 대한 인증 세부 정보를 봅니다. 표시되는 `--`경우 앱에 대한 인증 정보가 없습니다. Teams 인증된 앱에 대한 자세한 내용은 [Microsoft 365 앱 인증 프로그램을](/microsoft-365-app-certification/overview) 참조하세요.
-- **Publisher**: 게시자의 이름입니다.
-- **게시 상태**: 사용자 지정 앱의 게시 상태입니다.
-- **상태**: 조직 수준에서 앱의 상태이며 다음 중 하나일 수 있습니다.
-  - **허용** 됨: 조직의 모든 사용자가 앱을 사용할 수 있습니다.
-  - **차단됨**: 앱이 차단되고 조직의 모든 사용자가 사용할 수 없습니다.
-  - **게시자에 의해 차단** 됨: 앱은 게시자에 의해 차단되며 기본적으로 최종 사용자로부터 숨겨집니다. 게시자의 지침을 사용하여 앱을 설정한 후 최종 사용자가 사용할 수 있도록 앱을 허용하거나 차단할 수 있습니다.
-  - **조직 전체 차단**: 조직 전체 앱 설정에서 앱이 차단됩니다.
-      이 열은 이전에 **조직 전체 설정** 창에 있었던 앱의 허용 및 차단 상태를 나타내는 것을 알아야 합니다. 이제 **앱 관리** 페이지의 조직 전체에서 앱을 보고, 차단하고, 허용합니다.
-- **라이선스**: 앱이 구매를 위해 SaaS(Software as a Service) 구독을 제공하는지 여부를 나타냅니다. 이 열은 타사 앱에만 적용됩니다. 각 타사 앱에는 다음 값 중 하나가 있습니다.
-  - **구매**: 앱은 SaaS 구독을 제공하며 구매할 수 있습니다.  
-  - **구매:** 앱은 SaaS 구독을 제공하고 라이선스를 구입했습니다.
-  - **- -**: 앱에서 SaaS 구독을 제공하지 않습니다.
-- **사용자 지정 앱: 앱** 이 사용자 지정 앱인지 여부입니다.
-- **사용 권한**: azure AD(Azure Active Directory)에 등록된 타사 또는 사용자 지정 앱에 동의가 필요한 권한이 있는지 여부를 나타냅니다. 다음 값 중 하나가 표시됩니다.
-  - **세부 정보 보기**: 앱이 데이터에 액세스하기 전에 앱에 동의가 필요한 권한이 있습니다.
-  - **- -**: 앱에 동의가 필요한 권한이 없습니다.
-- **범주**: 앱에 적용되는 범주입니다.
-- **버전**: 앱 버전.
-- **관리자는 모임에 설치할 수 있습니다. 팀 모임** 에서 관리자가 앱을 설치할 수 있는지 여부를 나타냅니다. [더 알아보세요](teams-app-setup-policies.md#install-apps)
+The following are the important use cases you can accomplish via the the Manage apps page:
 
-표에서 원하는 정보를 보려면 오른쪽 위 모서리에서 **열 편집** 을 선택하여 테이블에 열을 추가하거나 제거합니다.
+* [Allow or block apps at the org level](#allow-and-block-apps)
+* [Apps blocked by publishers](#apps-blocked-by-publishers)
+* [Add apps to teams](#add-an-app-to-a-team)
+* [Approve or upload new custom apps to your organization's app store](#publish-a-custom-app-to-your-organizations-app-store)
+* [View permissions requested by apps](#view-resource-specific-consent-permissions)
+* [Grant consent to apps](#grant-admin-consent-to-apps)
+* [Purchase service for third-party apps](#purchase-services-for-third-party-apps)
+* [See org-level status and properties of apps](#view-apps)
+* [Manage org-wide app settings](#manage-org-wide-app-settings)
+* [View security and compliance information for Microsoft 365 Certified apps](#view-security-and-compliance-information-for-microsoft-365-certified-apps)
+
+<!--- TBD: Commenting for now in favor of the definition list above: 
+
+The Manage apps page gives you a view into all available apps, providing you with the information you need to decide which apps to allow or block across your organization. You can then use [app permission policies](teams-app-permission-policies.md), [app setup policies](teams-app-setup-policies.md), and [custom app policies and settings](teams-custom-app-policies-and-settings.md) to configure the app experience for specific users in your organization.
+
+In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
+
+--->
+
+<!--- TBD: Move this view apps section to a new article about navigating and understanding TAC. It is yet to be created.
+
+## View apps
+
+You can view every app including the following information about each app.
+
+![Screenshot of the apps details page for an app.](media/app-detail-page.jpg)
+
+- **Name**: The app name. Select the app name to go to the app details page to see more information about the app. This includes a description of the app, whether it's allowed or blocked, version, privacy policy, terms of use, categories that apply to the app, certification status, supported capabilities, and app ID.
+- **Certification**: If the app has gone through certification, you'll see either **Microsoft 365 certified** or **Publisher attestation**. Select the link to view certification details for the app. If you see `--`, we don't have certification information for the app. To learn more about certified apps in Teams, read [Microsoft 365 App Certification program](/microsoft-365-app-certification/overview).
+- **Publisher**: Name of the publisher.
+- **Publishing status**: Publishing status of custom apps.
+- **Status**: Status of the app at the org level, which can be one of the following:
+  - **Allowed**: The app is available for all users in your organization.
+  - **Blocked**: The app is blocked and not available for any users in your organization.
+  - **Blocked by publisher**: The app is blocked by the publisher and is hidden from end-users by default. After you set up the app using the publisher's guidance, you can allow or block the app to make it available to end-users.
+  - **Blocked org-wide**: The app is blocked in org-wide app settings.
+      It's important to know that this column represents the allowed and blocked status of apps that were formerly on the **Org-wide settings** pane. You now view, block, and allow apps at the org-wide on the **Manage apps** page.
+- **Licenses**: Indicates whether an app offers a Software as a Service (SaaS) subscription for purchase. This column applies only to third-party apps. Each third-party app will have one of the following values:
+  - **Purchase**: The app offers a SaaS subscription and is available to purchase.  
+  - **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
+  - **- -**: The app doesn't offer a SaaS subscription.
+- **Custom app**: Whether the app is a custom app.
+- **Permissions**: Indicates whether a third-party or custom app that's registered in Azure Active Directory (Azure AD) has permissions that need consent. You'll see one of the following values:
+  - **View details**: The app has permissions that require consent before the app can access data.
+  - **- -**: The app doesn't have permissions that need consent.
+- **Categories**: Categories that apply to the app.
+- **Version**: App version.
+- **Admin can install in meetings**: Indicates whether an app can be installed by admins in Team meetings. [Learn more](teams-app-setup-policies.md#install-apps)
+
+To see the information that you want in the table, select **Edit Column** in the upper-right corner to add or remove columns to the table.
+--->
 
 ## <a name="publish-a-custom-app-to-your-organizations-app-store"></a>조직의 앱 스토어에 사용자 지정 앱 게시
 
 앱 관리 페이지를 사용하여 조직을 위해 특별히 빌드된 앱을 게시합니다. 사용자 지정 앱을 게시한 후에는 조직의 앱 스토어에 있는 사용자가 사용할 수 있습니다. 조직의 앱 스토어에 사용자 지정 앱을 게시하는 방법에는 두 가지가 있습니다. 사용하는 방법은 앱을 가져오는 방법에 따라 달라집니다.
 
-- [사용자 지정 앱 승인](#approve-a-custom-app): 개발자가 Teams 앱 제출 API를 사용하여 앱 관리 페이지에 직접 앱을 제출하는 경우 이 메서드를 사용합니다. 그런 다음 앱 세부 정보 페이지에서 직접 앱을 검토하고 게시하거나 거부할 수 있습니다.
-- [앱 패키지 업로드](#upload-an-app-package): 개발자가 .zip 형식으로 앱 패키지를 보내는 경우 이 메서드를 사용합니다. 앱 패키지를 업로드하여 앱을 게시합니다.
+* [사용자 지정 앱 승인](#approve-a-custom-app): 개발자가 Teams 앱 제출 API를 사용하여 앱 관리 페이지에 직접 앱을 제출하는 경우 이 메서드를 사용합니다. 그런 다음 앱 세부 정보 페이지에서 직접 앱을 검토하고 게시하거나 거부할 수 있습니다.
+* [앱 패키지 업로드](#upload-an-app-package): 개발자가 .zip 형식으로 앱 패키지를 보내는 경우 이 메서드를 사용합니다. 앱 패키지를 업로드하여 앱을 게시합니다.
 
 ### <a name="approve-a-custom-app"></a>사용자 지정 앱 승인
 
@@ -129,8 +151,8 @@ ISV가 앱을 글로벌 앱 스토어에 게시하는 경우 관리자가 앱 �
 ![팀에 추가 단추의 스크린샷.](media/manage-apps-add-app-team.png)
 
 1. 원하는 앱을 검색한 다음 앱 이름 왼쪽을 클릭하여 앱을 선택합니다.
-2. **팀에 추가를** 선택합니다.
-3. **팀에 추가** 창에서 앱을 추가할 팀을 검색하고 팀을 선택한 다음 **적용** 을 선택합니다.
+1. **팀에 추가를** 선택합니다.
+1. **팀에 추가** 창에서 앱을 추가할 팀을 검색하고 팀을 선택한 다음 **적용** 을 선택합니다.
 
 ## <a name="customize-an-app"></a>앱 사용자 지정
 
@@ -177,24 +199,23 @@ RSC(리소스별 동의) 권한을 통해 팀 소유자는 앱에 대한 동의�
 1. **사용자 지정 앱에서 사용자 지정 앱****과의 상호 작용 허용** 을 끄거나 켭니다. 이 설정은 사용자가 사용자 지정 앱과 상호 작용할 수 있는지 여부를 제어합니다. 자세한 내용은 [Teams에서 사용자 지정 앱 정책 및 설정 관리](teams-custom-app-policies-and-settings.md)를 참조하세요.
 1. 조직 전체 앱 설정에 대해 **저장** 을 선택하여 적용합니다.
 
-## <a name="view-security-and-compliance-information-for-microsoft-365-certified-apps"></a>Microsoft 365 인증된 앱에 대한 보안 및 규정 준수 정보 보기
+<!--- TBD: Commenting this info for now. Move it later to the new article about compliance program and how/where admins can find info about compliant apps.
 
-조직의 앱을 평가할 때 관리자는 Microsoft Cloud App Security(MCAS)와 같은 CASB(독립 Cloud Access Security Broker)를 사용하여 앱의 보안 및 동작에 대한 정보를 찾을 수 있습니다. Teams 관리 센터에는 Microsoft 365 Certified 앱에 대한 MCAS 보안 및 규정 준수 정보가 포함되어 있으므로 앱이 요구 사항을 충족하는지 여부에 대한 자세한 정보를 확인할 수 있습니다.
+## View security and compliance information for Microsoft 365 Certified apps
+
+When evaluating an app for their organization, admins can use independent Cloud Access Security Brokers (CASB), such as Microsoft Cloud App Security (MCAS), to find information about security and behaviors of an app. The Teams admin center includes security and compliance information from MCAS for Microsoft 365 Certified apps so you'll have more information on whether or not the app meets your needs.
 
 > [!NOTE]
-> 이 기능은 조직에 MCAS 지원하는 라이선스가 있는지 여부에 관계없이 모든 관리자가 사용할 수 있습니다.
+> This feature is available to all admins, whether or not your organization has a license that supports MCAS.
 
-MCAS 정보에 액세스하려면 다음 단계를 수행합니다.
+To access MCAS information, follow these steps:
 
-1. Teams 관리 센터에서 **Teams** **앱에서 앱 관리를** 선택합니다.
-1. **인증** 을 선택하여 앱을 정렬하고 모든 Microsoft 365 Certified 앱을 테이블 맨 위로 푸시합니다.
-1. Microsoft 365 인증된 앱을 선택합니다.
-1. **보안 및 규정 준수** 탭을 선택합니다.
+1. In the Teams admin center, select **Manage apps** under **Teams apps**.
+1. Select **Certification** to sort apps and push all Microsoft 365 Certified apps to the top of the table.
+1. Choose a Microsoft 365 Certified app.
+1. Select the **Security and compliance** tab.
 
-![Teams 관리 센터 보안 및 규정 준수 탭의 스크린샷.](media/mcas.png)
+![Screenshot of Teams admin center security and compliance tab.](media/mcas.png)
 
-이 탭에서 보안, 규정 준수 및 데이터 보호에 대한 정보를 찾을 수 있습니다. 각 드롭다운 목록을 확장하여 선택한 애플리케이션에 대해 지원되는 기능에 대한 자세한 정보를 얻을 수도 있습니다.
-
-## <a name="related-topics"></a>관련 항목
-
-- [Teams의 앱에 대한 관리 설정](admin-settings.md)
+On this tab, you'll find information on security, compliance, and data protection. You can also expand each dropdown list to get more details about which capabilities are supported for the selected application.
+--->

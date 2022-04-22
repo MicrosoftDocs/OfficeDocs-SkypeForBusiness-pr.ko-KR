@@ -1,7 +1,7 @@
 ---
 title: 콘텐츠에 대한 eDiscovery 조사 수행
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: 법적 절차에 대한 모든 전자 저장 정보를 제출해야
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d0906e24cc4bb749779bf432fe27c9c2af6ac0e3
-ms.sourcegitcommit: 204e4654f2c3977db260670f3ee1784d1ad6ed17
+ms.openlocfilehash: 207164f3e16768b7643d2bba2177d52d6b3940f3
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64866203"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031923"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams 콘텐츠에 대한 eDiscovery 조사 수행
 
@@ -82,7 +82,7 @@ ms.locfileid: "64866203"
   > [!div class="mx-imgBorder"]
   > ![규정 준수 복사본의 모임 메타데이터입니다.](media/conversationOption3.png)
 
-eDiscovery 조사를 수행하는 방법에 대한 자세한 내용은 [Core eDiscovery 시작](/microsoft-365/compliance/get-started-core-ediscovery) 항목을 참조하세요.
+eDiscovery 조사를 수행하는 방법에 대한 자세한 내용은 [eDiscovery(표준)를 사용한 시작](/microsoft-365/compliance/get-started-core-ediscovery) 참조하세요.
 
 Microsoft Teams 데이터는 Excel eDiscovery 내보내기 출력에 메신저 대화 또는 대화로 표시됩니다. Outlook 파일을 열어 `.pst` 내보낸 후 해당 메시지를 볼 수 있습니다.
 
@@ -131,7 +131,7 @@ eDiscovery 도구를 사용하여 개인 채널 메시지의 콘텐츠에 대한
     Get-TeamChannelUser -GroupId <parent team GroupId> -DisplayName "Partner Shared Channel"
    ```
 
-4. [Core eDiscovery에서 eDiscovery 검색 쿼리](/microsoft-365/compliance/search-for-content-in-core-ediscovery)의 일부로 또는 [Advanced eDiscovery 보유자 콘텐츠를 식별하고 수집할](/microsoft-365/compliance/add-custodians-to-case) 때 개인 채널의 소유자 및 구성원 사서함을 포함합니다.
+4. [eDiscovery(표준)에서 또는 eDiscovery(Premium)에서](/microsoft-365/compliance/search-for-content-in-core-ediscovery) [보유자 콘텐츠를 식별하고 수집하는](/microsoft-365/compliance/add-custodians-to-case) 경우 eDiscovery 검색 쿼리의 일부로 개인 채널의 소유자 및 구성원 사서함을 포함합니다.
 
 ### <a name="identifying-the-sharepoint-site-for-private-and-shared-channels"></a>비공개 및 공유 채널에 대한 SharePoint 사이트 식별
 
@@ -166,7 +166,7 @@ eDiscovery 도구를 사용하여 개인 채널 메시지의 콘텐츠에 대한
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 
-4. 비공개 또는 공유 채널과 연결된 사이트를 [Core eDiscovery에서 eDiscovery 검색 쿼리](/microsoft-365/compliance/search-for-content-in-core-ediscovery)의 일부로 포함하거나 [Advanced eDiscovery 보유자 콘텐츠를 식별하고 수집할](/microsoft-365/compliance/add-custodians-to-case) 때 포함합니다.
+4. [eDiscovery(표준)에서 또는 eDiscovery(Premium)에서](/microsoft-365/compliance/search-for-content-in-core-ediscovery) [보유자 콘텐츠를 식별하고 수집하는](/microsoft-365/compliance/add-custodians-to-case) 경우 eDiscovery 검색 쿼리의 일부로 개인 또는 공유 채널과 연결된 사이트를 포함합니다.
 
 ## <a name="search-for-content-for-guest-users"></a>게스트 사용자에 대한 콘텐츠 검색
 
@@ -251,6 +251,6 @@ Teams 채널, 1:1 채팅 및 1xN 채팅의 앱에서 생성된 카드 콘텐츠�
 ## <a name="related-topics"></a>관련 항목
 
 - [eDiscovery 솔루션 Microsoft 365](/microsoft-365/compliance/ediscovery)
-- [Core eDiscovery 시작](/microsoft-365/compliance/get-started-core-ediscovery)
-- [Advanced eDiscovery 워크플로 Teams](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
+- [eDiscovery를 사용하여 시작(표준)](/microsoft-365/compliance/get-started-core-ediscovery)
+- [eDiscovery의 워크플로 Teams(Premium)](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
 - [Teams PowerShell 개요](teams-powershell-overview.md)

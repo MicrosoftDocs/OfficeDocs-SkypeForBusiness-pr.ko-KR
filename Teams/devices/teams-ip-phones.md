@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 도출하기 위해 Microsoft Teams 인증된 책상 및 전화 회의 전화기를 알아봅니다.
-ms.openlocfilehash: 353b96f1270ac1f7e52d454f76821b321c60a3e9
-ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
+ms.openlocfilehash: 29cc086cd88ccf801eb1b19e56833f36e6ef86b6
+ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "64885016"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65030894"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>인증된 Android 디바이스 Microsoft Teams
 
@@ -237,6 +237,8 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 | 디바이스 모델  | 펌웨어 버전 | 포함된 제품 릴리스 |
 |:--------------|:-----------------|:-------------------------|
+| 로지 룸메이트 |   `1.5.705`   | 2022년 업데이트 #1    |
+| 로지 랠리바 미니   |   `1.5.705`   | 2022년 업데이트 #1    |
 | 로지 랠리바    |   `1.5.705`   | 2022년 업데이트 #1    |
 | EPOS EXPAND Vision 3T |`1.2.4.22042.05`   | 2022년 업데이트 #1 |
 | AudioCodes RXV80 | `1.16.164 `   | 2022년 업데이트 #1 |
@@ -339,7 +341,7 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 Microsoft Teams 라이선스는 [Microsoft 365 또는 Office 365 구독](/office365/servicedescriptions/teams-service-description)의 일부로 구매할 수 있습니다. 휴대폰에서 Microsoft Teams 사용하는 데 필요한 라이선스에 대한 자세한 내용은 사용 가능한 [전화 시스템 라이선스를 참조하세요](https://products.office.com/microsoft-teams/voice-calling).
 
-Teams 가져오는 방법에 대한 자세한 내용은 [Microsoft Teams 액세스하려면 어떻게 해야 하나요?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+Teams 가져오는 방법에 대한 자세한 내용은 [Microsoft Teams 액세스](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b) 어떻게 할까요? 확인하세요.
 
 인증 프로그램에 참여하려는 공급업체인 경우 요구 사항 및 사용 가능한 프로그램에 [참가하는 방법을](/skypeforbusiness/certification/how-to-join) 참조하세요.
 

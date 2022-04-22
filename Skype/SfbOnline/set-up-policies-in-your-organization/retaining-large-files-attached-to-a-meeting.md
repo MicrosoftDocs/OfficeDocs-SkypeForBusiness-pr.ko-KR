@@ -3,7 +3,7 @@ title: 비즈니스용 Skype 모임에 첨부된 대용량 파일 보존
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: brendonb, markjjo
+ms.reviewer: brendonb, v-tophillips
 ms.topic: article
 ms.assetid: 12203a1a-4a9f-4838-88c5-3740ea16ed8d
 ms.tgt.pltfrm: cloud
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 비즈니스용 Skype 모임에 파일을 첨부할 수 있습니다. 그러면 참가자가 열고 다운로드할 수 있습니다. 비즈니스용 Skype 모임에 첨부된 파일은 사서함이 소송 보존에 배치되거나, Microsoft 365 또는 Office 365 보존 정책이 적용되었거나, Microsoft Purview 규정 준수 포털의 eDiscovery 사례와 연결된 보류에 있는 모든 참가자의 사서함에 보존됩니다. 이 콘텐츠는 사서함에 있는 참가자의 복구 가능한 항목 폴더에 저장됩니다.
-ms.openlocfilehash: 35792e3415d3def0b8ac45ab39e9dec65f2f7725
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: b799c1a471ac3884aa1b22cc1a681e53ee8284e9
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922439"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031873"
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>비즈니스용 Skype 모임에 첨부된 대용량 파일 보존
 

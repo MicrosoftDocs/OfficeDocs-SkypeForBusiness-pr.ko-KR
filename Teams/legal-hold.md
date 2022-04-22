@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 사용자 또는 팀을 법적 보류에 배치
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ f1.keywords:
 description: Microsoft Purview 규정 준수 포털을 사용하여 Microsoft Teams 사용자 또는 팀을 법적 보류에 배치하고 데이터 요구 사항에 따라 법적 보존이 필요한 사항을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d56bece07fe7342c4156abdae73508a1a149864
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 1f0ea852b564ac339ac390994384258cc5d68ea1
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922459"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031913"
 ---
 # <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Microsoft Teams 사용자 또는 팀을 법적 보류에 배치
 
@@ -35,7 +35,7 @@ Microsoft Teams 내에서 전체 팀 또는 선택한 사용자를 법적 보류
 > 사용자를 보류 상태로 두면 그룹이 자동으로 보류되거나 그 반대의 경우도 마찬가지입니다.
 > 활동 피드에서 전송된 알림은 보류할 수 없습니다.
 
-Core eDiscovery 사례에서 사용자 또는 팀을 법적 보류 상태로 유지하려면 다음을 수행합니다.
+eDiscovery(표준) 사례에서 사용자 또는 팀을 법적 보존에 배치하려면 다음을 수행합니다.
 
 1. [Microsoft Purview 규정 준수 포털](https://compliance.microsoft.com)로 이동합니다. 새 사례를 만들 때 사서함 또는 사이트를 보류할 수 있는 옵션이 표시됩니다.
 
@@ -44,7 +44,7 @@ Core eDiscovery 사례에서 사용자 또는 팀을 법적 보류 상태로 유
    ![Microsoft Teams eDiscovery 탭이 선택되어 사례 만들기 단추가 표시됩니다.](media/LegalHold1.png)
 
    > [!NOTE]
-   > Advanced eDiscovery 사례와 연결된 보류에 사용자를 배치할 수도 있습니다. 자세한 내용은 [Advanced eDiscovery 보류 관리를](/microsoft-365/compliance/managing-holds) 참조하세요.
+   > eDiscovery(Premium) 사례와 연결된 보류에 사용자를 배치할 수도 있습니다. 자세한 내용은 [eDiscovery의 보류 관리(Premium)](/microsoft-365/compliance/managing-holds)를 참조하세요.
 
 3. 위쪽 메뉴의 **보류** 탭으로 이동하고 **만들기** 를 클릭하여 보류를 만듭니다. 사용자 또는 팀을 보류하면 해당 사용자가 교환한 모든 메시지가 유지됩니다. 새 사례를 만들 때 사서함 또는 사이트를 보류할 수 있는 옵션이 표시됩니다.
 
