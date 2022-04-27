@@ -17,12 +17,12 @@ description: Microsoft Teams 관리 센터의 앱 관리 페이지에서 Teams �
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: a6e6adbfbed5e1b371655ca74aa6ca6c717490c9
-ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
+ms.openlocfilehash: 2a4062bbf71c3ad112a52a10ad9c1b3ff71f3dad
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65030944"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059079"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 Teams 앱 관리
 
@@ -30,9 +30,9 @@ ms.locfileid: "65030944"
 
 ![앱 관리 페이지의 스크린샷.](media/manage-apps.png)
 
-앱을 관리하려면 다음 정책을 사용하여 사용자에 대한 권한, 앱 설치 및 조직 내에서 만든 사용자 지정 앱 업로드를 제어합니다. 정책을 이해하려면 [앱 정책 개요를](app-policies.md) 참조하세요.
+Teams 관리 센터를 사용하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다. 자세한 내용은 [Teams 관리자 역할을 참조하세요](./using-admin-roles.md).
 
-관리자 역할 및 권한을 가져오는 방법에 대해 알아보려면 [Teams 관리자 역할을](./using-admin-roles.md) 참조하세요.
+앱을 관리하려면 정책을 사용하여 사용자에 대한 사용 권한, 앱 설치 및 조직 내에서 만든 사용자 지정 앱 업로드를 제어합니다. 정책을 이해하려면 [앱 정책 개요를](app-policies.md) 참조하세요.
 
 > [!NOTE]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6afd8cbf6a62665dbdb4c472df9620d623011452
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 95f3b03ddad75cd36bb6dbbfd51eac08d7742aac
+ms.sourcegitcommit: 20d44ce9a62ba2fb60f989d2e7bbc9333055e783
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817709"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65063259"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>지능형 스피커에 대한 음성 인식 기술 컨트롤 관리
 
@@ -44,7 +44,7 @@ ms.locfileid: "64817709"
 Epos, Sennheiser 및 Yealink 인텔리전트 스피커가 지원됩니다.
 
 > [!NOTE]
-> 인텔리전트 스피커는 아직 지원되지 않는 인도를 제외한 모든 국가 및 지역에서 사용할 수 있습니다. 현재 생체 인식 등록 및 모임 내 전사에 지원되는 로캘 목록은 [지원되는 로캘](#supported-locales) 을 참조하세요.
+> 인텔리전트 스피커는 모든 국가 및 지역에서 사용할 수 있습니다. 현재 생체 인식 등록 및 모임 내 전사에 지원되는 로캘 목록은 [지원되는 로캘](#supported-locales) 을 참조하세요.
 
 ## <a name="set-up-an-intelligent-speaker"></a>지능형 스피커 설정
 

@@ -1,5 +1,5 @@
 ---
-title: 일선 작업자를 위한 Teams 앱 조정
+title: 최전방 직원을 위한 맞춤형 Teams 앱
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: aaglick
@@ -15,14 +15,14 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb5bf166d9f7253a5cb72ffc92b674613d959334
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 5c3112740ab2b25b0f0107823d41c5b5e2d68f0f
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "64961291"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059309"
 ---
-# <a name="tailor-teams-apps-for-your-frontline-workers"></a>일선 작업자를 위한 Teams 앱 조정
+# <a name="tailor-teams-apps-for-your-frontline-workers"></a>최전방 직원을 위한 맞춤형 Teams 앱
 
 > [!NOTE]
 > 이 기능은 현재 배포 중이며 조직에서 아직 제공되지 않을 수 있습니다. 예정된 Teams 기능을 계속 활용하려면 [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)을 확인하세요.
@@ -32,6 +32,8 @@ ms.locfileid: "64961291"
 Teams 일선 작업자를 위한 앱을 쉽게 고정할 수 있는 방법을 제공합니다. 이 기능은 라이선스에 따라 앱을 고정하여 일선 작업자에게 요구 사항에 맞는 Teams 기본 제공 환경을 제공합니다.
 
 맞춤형 최전방 앱 환경을 통해 최전방 작업자는 관리자에게 필요한 조치 없이 Teams 가장 관련성이 큰 앱을 얻을 수 있습니다.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4VuCH]
 
 ## <a name="tailored-frontline-app-experience"></a>맞춤형 최전방 앱 환경
 

@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 'Microsoft Teams 위해 인증된 USB 주변 장치 및 장치(예: 헤드셋, 스피커폰, 웹캠 및 모니터)를 확인합니다.'
-ms.openlocfilehash: e9196c52d74d8cdc7b0f511a3310e93228fe1bae
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: ee6f3c2634b44c4c510deb2c7a50818f6bc5ef7c
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817660"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059219"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams 인증된 USB 오디오 및 비디오 장치
 
@@ -75,6 +75,9 @@ Teams 통화 제어 지원에 대한 자세한 내용은 [Teams 헤드셋을 사
 ## <a name="certified-devices"></a>인증된 디바이스
 
 *테이블 업데이트 날짜: 2022년 4월*
+
+> [!NOTE]
+> 날짜 형식은 MMDDYYYY입니다.
 
 | 제조업체        | 모델                                                     | 자격      | 인증된 프로그램                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|

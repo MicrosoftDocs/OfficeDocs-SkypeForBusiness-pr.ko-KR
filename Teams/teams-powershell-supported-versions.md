@@ -12,12 +12,12 @@ ms.collection:
 description: Microsoft Teams 관리에 사용되는 Teams PowerShell 모듈에서 지원되는 버전에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac948022050babeff0c5ea3c0dbde853e0fabc54
-ms.sourcegitcommit: 8cda22925ccddb612f91351a7593b521eee10f0e
+ms.openlocfilehash: c97e3c840452a20be60d6f27e2bf4c3375322be1
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65019330"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059419"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell 모듈 - 지원되는 버전
 
@@ -60,7 +60,9 @@ Teams 새로 온보딩하는 조직은 2022년 4월 1일부터 4.x.x 시리즈 �
 - 관련 변경 내용
   * TPM 3.x.x 이상에서 Get-CsOnlineUser & Get-CsOnlineVoiceUser 업데이트 - [Get-CsOnlineUserGet-CsOnlineVoiceUser](/powershell/module/skype/get-csonlineuser) & (메시지 센터 게시물 – MC340774)의 자세한 내용.[](/powershell/module/skype/get-csonlinevoiceuser)
 
-  * 전화 번호 할당에 대한 변경 내용 - [Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstanceSet-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) & 의 자세한 내용(메시지 센터 게시물 – MC316139)[](/powershell/module/skype/set-csonlinevoiceapplicationinstance)
+  * 전화 번호 할당에 대한 변경 내용 - [Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstanceSet-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) & 에 대한 자세한 내용(메시지 센터 게시물 – MC316139).[](/powershell/module/skype/set-csonlinevoiceapplicationinstance)
+  
+  * Get-CsTenant 매개 변수 변경 - [Get-CsTenant](/powershell/module/skype/get-cstenant)의 자세한 내용  
 
 -   TPM 4.x.x 이상을 사용하는 동안 [아래에](#deprecated-cmdlets) 언급된 사용되지 않거나 지원되지 않는 cmdlet을 사용하지 않는 것이 좋습니다. 
 
@@ -127,4 +129,4 @@ Teams 새로 온보딩하는 조직은 2022년 4월 1일부터 4.x.x 시리즈 �
 
 [Microsoft Teams cmdlet 참조](/powershell/module/teams) 
 
-[Skype for Business cmdlet 참조](/powershell/module/skype) 
+[비즈니스용 Skype cmdlet 참조](/powershell/module/skype) 

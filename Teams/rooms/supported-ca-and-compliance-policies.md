@@ -12,12 +12,12 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 description: Microsoft Teams 룸 대해 지원되고 권장되는 조건부 액세스 및 Intune 디바이스 준수 정책에 대해 알아봅니다.
-ms.openlocfilehash: befe8faae5db204f5e15e307cadcc24f6867a487
-ms.sourcegitcommit: 5fe5516f6118ce3fa0449ab194a6fe87bf48c664
+ms.openlocfilehash: 19e4593a6135c79eb156a1b34847ab518d6e8ea4
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64732296"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059239"
 ---
 # <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms"></a>Microsoft Teams 룸 대해 지원되는 조건부 액세스 및 Intune 디바이스 준수 정책
 
@@ -28,7 +28,10 @@ ms.locfileid: "64732296"
 
 ## <a name="supported-conditional-access-policies"></a>지원되는 조건부 액세스 정책  
 
-다음 목록에는 Windows 및 Android에서 Teams 룸 대해 지원되는 조건부 액세스 정책이 포함되어 있습니다. 지원되는 Android 정책은 공용 영역 전화 및 패널을 포함하여 공유 공간의 모든 Android 디바이스에 적용됩니다.
+다음 목록에는 Windows 및 Android에서 Teams 룸 대해 지원되는 조건부 액세스 정책이 포함되어 있습니다. 
+
+> [!NOTE]
+> 지원되는 Android 정책은 Andourd의 Teams 룸, 공용 영역 전화 및 패널을 포함하여 공유 공간의 모든 Android 디바이스에 적용됩니다.
 
 | 할당 | Windows | Android |
 |------------|---------|---------|

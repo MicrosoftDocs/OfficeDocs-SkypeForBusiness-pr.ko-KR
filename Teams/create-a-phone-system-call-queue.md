@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Microsoft Teams 대규모 조직에서 인사말 메시지를 제공하고, 음악을 누르고, 통화 리디렉션 및 기타 기능을 제공하는 통화 큐를 설정하는 방법을 알아봅니다.
-ms.openlocfilehash: 4e194a315abecdf779a2df48c7fbb7b6412693cc
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 0a62abc27eed0008a337b900f563f8e7e2a75097
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64846547"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059089"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 
@@ -207,6 +207,9 @@ Teams 채널을 통해 최대 200명의 에이전트를 추가할 수 있습니�
 
 > [!TIP]
 > **에이전트 경고 시간을** **20초** 로 설정하는 것이 좋습니다.
+
+> [!NOTE]
+> [호출 시간 제한 처리](#call-timeout-handling) 설정은 에이전트 경고 시간보다 우선합니다. 호출 시간 제한 처리에 대해 구성된 최대 큐 시간에 도달하면 에이전트 경고 시간 제한에 도달하지 않은 경우에도 에이전트에서 호출이 다시 가져옵니다.
 
 ## <a name="call-overflow-handling"></a>통화 오버플로 처리
 
