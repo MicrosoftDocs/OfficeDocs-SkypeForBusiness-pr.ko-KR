@@ -22,13 +22,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Microsoft Teams 단계를 참조하여 사용자에게 전화 접속 회의 라이선스 및 회의 ID를 할당하고 다른 많은 전화 접속 회의 설정을 할당합니다. '
-ms.openlocfilehash: e9a464df1d4c3eb01815a652b2e55c6c269b837d
-ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
+description: Microsoft Teams 단계를 참조하여 사용자에게 전화 접속 회의 라이선스 및 회의 ID를 할당하고 다른 많은 전화 접속 회의 설정을 할당합니다.
+ms.openlocfilehash: 6d8270d21c90d363ebb74089ce0b37e6c558ecb1
+ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65016620"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65106333"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 오디오 회의 설정 관리
 

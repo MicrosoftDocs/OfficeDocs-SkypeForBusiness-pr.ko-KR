@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 뉴질랜드에서 Microsoft Teams 전화 번호를 가져오고 관리하는 방법에 대한 정보를 찾을 수 있습니다.
-ms.openlocfilehash: 7a2ea252b5e3a232e0ff87f1204183411d7207b3
-ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
+ms.openlocfilehash: f451e9cdac172660fcd70a0f200249f0c77337cb
+ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "64884996"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65106293"
 ---
 # <a name="phone-number-management-for-new-zealand"></a>뉴질랜드의 전화 번호 관리
 
@@ -38,7 +38,7 @@ ms.locfileid: "64884996"
 |**무엇을 하고 싶으신가요?**|**올바른 양식 다운로드**|
 |:-----|:-----|
 |Microsoft Teams 관리 센터에 나열되지 않은 새 사용자 또는 서비스 전화 번호를 가져옵니다.|뉴질랜드에서는 Microsoft Teams 관리 센터를 사용하여 조직의 전화 번호를 받을 수 있습니다. 양식을 다운로드하여 새 전화 번호 요청을 제출하고 [TNS 서비스 데스크에 문의하여 지침을 확인할 수도 있습니다](contact-tns-service-desk.md).<br/><br/>[뉴질랜드 (en-nz)에 대한 새로운 전화 번호 요청](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/LNS-EN-NZ-TN.pdf). <br/><br/>[뉴질랜드에 대한 새로운 전화 번호 요청(mi-nz)](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf). <br/><br/> 전화 번호를 할당하려면 먼저 고객 알고 양식을 다운로드하여 전체 양식을 작성하고 [TNS Service Desk에 문의하여 지침을](contact-tns-service-desk.md) 확인해야 합니다.<br/><br/>새로운 주문은이 시장에 채우기 위해 2 ~ 3 주가 걸릴 수 있습니다.  |
-|우리에게 전송 된 전화 번호를 가져옵니다.  <br/> | 이 양식을 다운로드합니다. <br/>[뉴질랜드(모든 숫자)(v.1.0)(en-nz)에 대한 LOA(승인서)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/LOA-EN-NZ-TN.pdf) <br/> <br/>입력하고 [TNS 서비스 데스크에 문의하여 지침을 확인하세요](contact-tns-service-desk.md). <br/><br>포트의 복잡성에 따라 이 시장에서 숫자를 전송하는 데 1~6주가 걸릴 수 있습니다.<br/><br/>이 숫자는 현재 회의에 사용할 수 없습니다.  |
+|우리에게 전송 된 전화 번호를 가져옵니다.  <br/> | 이 양식을 다운로드합니다. <br/>[뉴질랜드에 대한 LOA(권한 부여서)(사용자 및 서비스 번호)(v.1.0)(en-nz)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/LOA-NZ-GEO-EN.pdf) <br/> <br/>입력하고 [TNS 서비스 데스크에 문의하여 지침을 확인하세요](contact-tns-service-desk.md). <br/><br>포트의 복잡성에 따라 이 시장에서 숫자를 전송하는 데 1~6주가 걸릴 수 있습니다.<br/><br/>이 숫자는 현재 회의에 사용할 수 없습니다.  |
 |국가 전화 디렉터리에 전화 번호를 게시/게시 취소합니다.  <br/> |게시/게시 취소하려는 전화 번호 목록에 [대한 지침은 TNS 서비스 데스크에 문의](contact-tns-service-desk.md)하세요. <br/> |
 |사용자의 번호를 서비스 번호로 변경합니다.  <br/> |서비스 번호로 변환하려는 사용자 번호 목록에 [대한 지침은 TNS Service Desk에 문의](contact-tns-service-desk.md)하세요. <br/> |
 |큐 또는 자동 전화 교환 번호를 호출하도록 디렉터리 서비스 업데이트|통화 큐 또는 자동 전화 교환 번호를 추가하거나 변경하려면 [TNS 서비스 데스크에 문의하여 지침을 확인하세요](contact-tns-service-desk.md).|

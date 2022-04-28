@@ -1327,34 +1327,28 @@ items:
                 href: rooms/security.md
               - name: 온라인 라이선싱
                 href: rooms/rooms-licensing.md
-              - name: 조건부 액세스 및 Intune 규정 준수에 대한 모범 사례
-                href: rooms/conditional-access-and-compliance-for-devices.md
-              - name: 지원되는 조건부 액세스 및 Intune 준수 정책
-                href: rooms/supported-ca-and-compliance-policies.md
               - name: Azure 모니터를 사용한 계획 관리
                 href: rooms/azure-monitor-plan.md
           - name: 배포
             items:
               - name: 배포 개요
                 href: rooms/rooms-deploy.md
-              - name: 계정 구성
-                href: rooms/rooms-configure-accounts.md
               - name: 리소스 계정 만들기
                 href: rooms/with-office-365.md
-              - name: 비즈니스용 Skype 서버를 사용하면
-                href: rooms/with-skype-for-business-server-2015.md
               - name: 콘솔 구성
                 href: rooms/console.md
+              - name: 인증
+                items:
+                  - name: 인증 구성
+                    href: rooms/rooms-authentication.md
+                  - name: 조건부 액세스 및 Intune 규정 준수에 대한 모범 사례
+                    href: rooms/conditional-access-and-compliance-for-devices.md
+                  - name: 지원되는 조건부 액세스 및 Intune 준수 정책
+                    href: rooms/supported-ca-and-compliance-policies.md
               - name: 수동으로 장치 업데이트
                 href: rooms/manual-update.md
-              - name: 인증 구성
-                href: rooms/rooms-authentication.md
-              - name: 타사 모임 참가
-                href: rooms/third-party-join.md
               - name: Azure Monitor를 사용한 관리
                 href: rooms/azure-monitor-deploy.md
-              - name: SRS v1 또는 LRS 마이그레이션
-                href: rooms/lrs-migration.md
               - name: 콘텐츠 카메라
                 href: rooms/content-camera.md
               - name: 지능형 스피커에 대한 음성 인식 제어
@@ -1371,11 +1365,13 @@ items:
                 href: rooms/rooms-manage.md
               - name: 유지 관리 및 운영
                 href: rooms/rooms-operations.md
+              - name: 타사 모임 참가
+                href: rooms/third-party-join.md
               - name: 알려진 문제
                 href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
-              - name: Azure 모니터를 사용하는 장치
+              - name: Azure Monitor를 사용하여 디바이스 관리
                 href: rooms/azure-monitor-manage.md
-              - name: XML파일을 사용하여 설정
+              - name: XML 파일을 사용하여 설정 관리
                 href: rooms/xml-config-file.md
               - name: 복구 도구 사용
                 href: rooms/recovery-tool.md
@@ -1481,6 +1477,8 @@ items:
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: 휴대폰 및 표시 배포 계획
             href: devices/plan-device-deployment.md
+          - name: 비즈니스용 Skype 서버의 리소스 계정
+            href: rooms/with-skype-for-business-server-2015.md
   - name: 앱 관리
     items:
       - name: 개요
