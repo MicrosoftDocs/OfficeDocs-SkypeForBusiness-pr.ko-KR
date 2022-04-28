@@ -18,12 +18,12 @@ description: Microsoft Teams의 공개 미리 보기에 대해 자세히 알아�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 3c07244e49d0c61986ae6eb2c9c9d8e1f522e37b
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: e3fdf0901d150df63fded6dc49822ad81f81f7d5
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62417331"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059189"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 공개 미리 보기
 
@@ -46,20 +46,22 @@ Teams 미리 보기에서 사용할 수 있는 항목 목록은 [Microsoft Teams
 
 2. 업데이트 정책 이름을 지정하고 설명을 추가하고 **미리 보기 기능 표시** 설정을 선택합니다.
 
-   -   **Office 미리 보기 (기본) 따르기**: 이 새로운 기본 옵션은 Office 현대 채널(프리뷰)에 등록된 모든 사용자에 대해 Teams 공개 미리 보기 기능을 자동으로 사용하도록 설정합니다. 최종 사용자가 더 이상 작업을 수행할 필요가 없습니다.
-   -   **사용**: 이 옵션을 사용하면 사용자가 Office 현재 채널(프리뷰)에 등록되었는지 여부에 관계없이 Teams 공개 미리 보기를 사용할 수 있습니다. 또한 최종 사용자는 Teams 앱에서 Teams 공개 미리 보기에 옵트인해야 합니다.
+   -   **Office 미리 보기 팔로우**(기본)
+       - 이 새로운 기본 옵션은 Office 현재 채널(프리뷰)에 등록된 모든 사용자에 대해 Teams 공개 미리 보기 기능을 자동으로 활성화합니다. 
+       - 최종 사용자에게 필요한 작업이 더 이상 없습니다.
+   -   **사용**
+       - 이 옵션을 사용하면 사용자가 Office 현재 채널(프리뷰)에 등록되었는지 여부에 관계없이 Teams 공개 미리 보기를 사용할 수 있습니다. 
+       - 또한 최종 사용자는 Teams 앱에서 Teams 공개 미리 보기에 옵트인해야 합니다.
 
    > [!NOTE]  
    > **현재 채널(프리뷰)** 에 있지 않은 Teams 공개 미리 보기의 기존 사용자의 경우 IT 관리자는 기본에서 **Office 미리 보기 허용** 을 **사용** 으로 전환해야 합니다.
  
-   - **사용할 수 없음**: 최종 사용자는 Teams 공개 미리 보기 기능을 사용할 수 없습니다.
+   - **사용 안 함** 
+     - 최종 사용자는 Teams 공개 미리 보기 기능을 사용할 수 없습니다.
 
     ![미리 보기 설정 대화 상자를 표시합니다.](media/public-preview-policy.png)  
 
 `-AllowPublicPreview` 매개 변수와 PowerShell `Set-CsTeamsUpdateManagementPolicy` cmdlet을 사용하여 정책을 설정할 수도 있습니다.
-
-> [!NOTE]   
-> AllowPreview 매개 변수는 곧 사용이 중단됩니다.
 
 ## <a name="enable-public-preview"></a>공개 미리 보기 사용
 
@@ -74,7 +76,7 @@ Teams 미리 보기에서 사용할 수 있는 항목 목록은 [Microsoft Teams
 
 ## <a name="teams-now-follows-office-preview-users"></a>이제 Teams가 Office 미리 보기 사용자를 허용합니다.
 
-새 전역 정책 기본값인 **Office 미리 보기 허용** 을 사용하면 사용자가 Windows용 Office 365 클라이언트에 대한 현재 채널(프리뷰)에 있는 경우 Teams의 공개 미리 보기 채널에 자동으로 포함될 수 있습니다.
+새 전역 정책 기본값인 **Office 미리 보기 팔로우** 를 사용하면 사용자가 Windows 및 Mac용 Office 365 클라이언트에 대한 현재 채널(프리뷰)에 있는 경우 Teams의 공개 미리 보기 채널에 자동으로 포함될 수 있습니다.
 
 Microsoft Office에서 현재 채널(프리뷰)에서 업데이트를 계속 받고 Teams 클라이언트는 공개 미리 보기 채널을 통해 업데이트를 받습니다. 이 정책은 Teams 채널을 기반으로 Office 채널을 전환하지 않습니다. 
 
@@ -85,10 +87,6 @@ Teams 공개 미리 보기를 선택 또는 해제할 수 있으며 현재 양�
 **이 설정을 어떻게 옵트아웃해야 하나요?**
 
 Teams 관리 센터에서 설정을 **Office 미리 보기 허용** 에서 **사용하지 않음**([업데이트 정책 설정](#set-the-update-policy) 참조)으로 설정할 수 있습니다.
-
-## <a name="known-issues"></a>알려진 문제
-
-Office 현재 채널(미리 보기) 사용자는 Teams 클라이언트 정보 메뉴를 통해 Teams 공개 미리 보기를 종료할 수 있으며 업데이트 정책은 **Office 미리 보기 허용** 으로 설정됩니다. 이 기능은 의도된 기능이 아니며 나중에 제거될 예정입니다. 사용자가 Office용 현재 채널(프리뷰)에 있는 경우 다음에 디바이스가 유휴 상태일 때 Teams 클라이언트가 자동으로 공개 미리 보기로 다시 설정될 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 
