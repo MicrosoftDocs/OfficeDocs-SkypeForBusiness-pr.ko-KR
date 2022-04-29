@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5a8edd0afc2adde7a6867242dd0bdc0b406ca682
-ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
+ms.openlocfilehash: 85277e9948dac1e083eb587f9bfc3787be3644a6
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "64910914"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137159"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>타사 앱의 보안, 규정 준수 및 개인 정보 보호를 위한 Microsoft 365 앱 준수 프로그램
 
@@ -80,7 +80,7 @@ Microsoft는 주요 업계 표준 프레임워크에서 파생된 일련의 보�
 
 * 웹에서 앱에 대한 자세한 정보를 수집하는 경우 앱에 대한 Microsoft 설명서의 방패 아이콘을 확인하세요.
 
-  :::image type="content" source="media/attested-app-doc-details.png" alt-text="앱의 보안 및 규정 준수에 관련된 자세한 도움말 문서에서 Microsoft 365 인증 정보를 확인합니다.":::
+  :::image type="content" source="media/attested-app-doc-details.png" alt-text="앱의 보안 및 규정 준수에 관한 자세한 도움말 문서에서 Microsoft 365 인증 정보를 확인합니다.":::
 
 * Teams 관리 센터에서 응용 프로그램을 확인할 때 인증 열을 사용하여 앱 목록을 정렬합니다. 아이콘을 확인하고 필요에 따라 링크를 선택하여 위에서 언급한 앱별 페이지에 액세스합니다.
 
@@ -92,13 +92,35 @@ Microsoft는 주요 업계 표준 프레임워크에서 파생된 일련의 보�
 
 * Teams 관리 센터에서 앱에 권한을 부여할 때 앱 이름 앞의 파란색 체크 표시는 해당 앱이 게시자 증명 앱 또는 Microsoft 365 인증 앱임을 나타냅니다.
 
-   :::image type="content" source="media/attested-app-tac2.png" alt-text="Teams 관리 센터의 권한 부여 대화 상자에서 관리자는 파란색 체크 표시를 선택하여 앱이 Microsoft 365 인증을 받았음을 확인할 수 있습니다.":::
+   :::image type="content" source="media/attested-app-tac2.png" alt-text="Teams 관리 센터의 권한 부여 대화 상자에서 관리자는 파란색 체크 표시를 확인하여 앱이 Microsoft 365 인증됐는지를 확인할 수 있습니다.":::
 
-## <a name="view-security-compliance-and-privacy-information-in-microsoft-documentation"></a>Microsoft 설명서에서 보안, 규정 준수 및 개인 정보 보호 관련 정보 보기
+## <a name="view-security-compliance-and-privacy-information"></a>보안, 규정 준수, 개인 정보 보호 정보 보기
 
-증명 또는 인증된 앱은 각각의 보안, 개인 정보 보호, 규정 준수 등과 관련된 세부 정보가 [Microsoft Teams 앱 보안 및 규정 준수](/microsoft-365-app-certification/teams/teams-apps)에 링크된 각자의 도움말 문서에 표시됩니다.
+Microsoft 문서와 Teams 관리 센터에서 증명되거나 인증된 앱의 보안, 개인 정보 보호, 규정 준수 및 동작에 대한 정보를 찾을 수 있습니다.
+
+### <a name="microsoft-documentation"></a>Microsoft 문서
+
+[Microsoft Teams 앱 보안 및 규정 준수](/microsoft-365-app-certification/teams/teams-apps)의 링크된 앱별 도움말 문서에서 각 앱에 대한 보안, 개인 정보 보호, 규정 준수 등에 관한 세부 정보를 찾을 수 있습니다.
 
 :::image type="content" source="media/attested-app-doc-details.png" alt-text="Microsoft 규정 준수 프로그램을 거치는 앱에 대해 제공되는 세부 정보입니다.":::
+
+### <a name="teams-admin-center"></a>Teams 관리 센터
+
+조직의 앱을 평가할 때 MCAS(Microsoft Cloud App Security)와 같은 CASB(독립형 Cloud Access Security Broker)를 사용하여 앱의 보안 및 동작에 관한 정보를 찾을 수 있습니다. Teams 관리 센터에는 앱이 요구 사항을 충족하는지 확인하기 위한 Microsoft 365 인증된 앱에 대한 MCAS의 보안 및 규정 준수 정보가 포함되어 있습니다.
+
+> [!NOTE]
+> 이 기능은 조직에 MCAS를 지원하는 라이선스가 있는지에 관계없이 모든 관리자가 사용할 수 있습니다.
+
+앱의 MCAS 정보에 액세스하려면 다음을 수행합니다.
+
+1. Teams 관리 센터에서 **Teams 앱** 아래 **앱 관리** 를 선택합니다.
+1. **인증** 을 선택하여 앱을 정렬하고 모든 Microsoft 365 인증 앱을 테이블 맨 위로 올립니다.
+1. Microsoft 365 인증 앱을 선택합니다.
+1. **보안 및 규정 준수** 탭을 선택합니다.
+
+   :::image type="content" source="media/mcas.png" alt-text="Teams 관리 센터 보안 및 규정 준수 탭 스크린샷":::
+
+   앱에 지원되는 기능에 관한 자세한 내용을 보려면 각 범주의 드롭다운 목록을 선택합니다.
 
 <!--- TBD: Move to the permissions article 
 
@@ -119,7 +141,7 @@ After admins grant the org-wide permissions to an app, they can review the Graph
 
 Teams 관리 센터의 각 앱 페이지는 해당 앱의 개인정보처리방침 및 사용 약관으로 연결됩니다.
 
-:::image type="content" source="media/tac-app-tou-privacy-info1.png" alt-text="Teams 관리 센터에서 관리자는 모든 앱의 개인 정보 취급 방침 및 사용 약관에 대한 링크에 액세스할 수 있습니다." lightbox="media/tac-app-tou-privacy-info2.png":::
+:::image type="content" source="media/tac-app-tou-privacy-info1.png" alt-text="Teams 관리 센터에서 관리자는 모든 앱의 개인 정보 취급 방침 및 사용 약관 링크에 액세스할 수 있습니다." lightbox="media/tac-app-tou-privacy-info2.png":::
 
 <!--- TBD: Parking some content for later review. Check if this content needs to be published.
 
