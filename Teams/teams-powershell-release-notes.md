@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell의 최신 변경 내용에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66ed3281b2376810e4a87db8103b4b140e4675bd
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 827f38a2be539583a30d6b94341bbfa76203f8c4
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922449"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125663"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>PowerShell 릴리스 정보 Microsoft Teams
 
@@ -31,6 +31,7 @@ ms.locfileid: "64922449"
 
 | 날짜 | 버전 | 업데이트 |
 |------- | -------------------- | ------------------------------ |
+| 2022년 4월 | [4.2.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.1-preview) |<li>[SetRemove\|]-CsPhoneNumberAssignment cmdlet에 대한 오류 처리를 수정합니다.</li><li>[가져오기\| SetRemove\|]-CsOnlineLisSubnet – 현대화된 cmdlet의 서브넷 매개 변수에 대한 수정입니다.</li><li>[가져오기\| Set]-CsOnlineLisLocation & [GetSet\|]-CsOnlineLisCivicAddress – 현대화된 cmdlet에서 지원되는 매개 변수를 수정합니다.</li>
 | 2022년 4월 | [4.2.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.0) |<li>Teams 관련된 모든 cmdlet에 대한 프록시 지원 지원되는 cmdlet이 점진적으로 롤아웃됩니다.</li><li>PSListModifier 형식 매개 변수와 함께 사용할 때 [NewSet\|]- 현대화된 정책 cmdlet 관련 문제를 해결합니다.</li><li>[호환성이 손상되는 변경] PSListModifier 형식 매개 변수는 추가 또는 제거를 사용하는 해시 테이블만 허용합니다. Replace를 사용한 해시 테이블은 이제 지원되지 않습니다. 대신 매개 변수에서 직접 값을 설정할 수 있습니다.</li><li>[GetNew\|]- 몇 가지 현대화된 정책 cmdlet(CsVideoInteropServiceProvider, CsInboundBlockedNumberPattern, CsTeamsComplianceRecordingApplication, CsTeamsTranslationRule, CsTeamsUnassignedNumberTreatment, CsVoiceNormalizationRule)의 형식 문제를 해결합니다.</li><li>현대화된 cmdlet을 사용하여 파이프라인 입력 처리의 성능이 향상되었습니다.</li><li>파이프라인 입력 결과와 관련된 사소한 문제를 해결합니다.</li><li>Get-CsOnlineUser: Country 특성(3.x.x 이전 버전에서는 CountryOrRegionDisplayName이라고 함)이 추가됩니다.</li><li>[호환성이 손상되는 변경] Get-CsOnlineUser: 이제 -Identity 매개 변수와 함께 사용할 때만 CountryAbbreviation 특성을 사용할 수 있습니다.</li>
 | 2022년 3월 | [4.1.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.1.0) |<li>경고 및 오류 변수 문제를 해결합니다.</li><li>PowerShell Runspaces에서 현대화된 cmdlet을 사용하는 문제를 해결합니다.</li><li>[GetNewSetRemove\|\|\|]-CsTeamsShiftsConnectionInstance Cmdlet을 릴리스합니다.</li><li>릴리스 [GetNewRemove\|\|]-CsTeamsShiftsConnectionTeamMap Cmdlets.</li><li>Get-CsTeamsShiftsConnectionWfm[UserTeam\|] Cmdlet을 릴리스합니다.</li><li>Get-CsTeamsShiftsConnectionConnector, Get-CsTeamsShiftsConnectionSyncResult, New-CsTeamsShiftsConnectionBatchTeamMap, Remove-CsTeamsShiftsScheduleRecord, Test-CsTeamsShiftsConnectionValidate, Get-CsTeamsShiftsConnectionOperation & Get-CsTeamsShiftsConnectionErrorReport Cmdlet을 릴리스합니다.</li>
 | 2022년 3월 | [4.0.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.0.1-preview) |<li>ErrorAction 일반 매개 변수 문제를 해결합니다.</li>

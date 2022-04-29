@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 사용자 지정 테마 적용 및 마스터 설정 파일 만들기를 포함하여 Microsoft Teams 룸 디바이스에서 사용하는 기본 설정의 원격 관리
-ms.openlocfilehash: ae529b99fc2e76aeb6c7f511de533be57b65ac08
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: c363dce55df4d9bdcf125492c2ca92b3b20feba7
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106283"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125463"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>XML 구성 파일을 사용하여 원격으로 Microsoft Teams 룸 콘솔 설정 관리
 
@@ -64,6 +64,8 @@ ms.locfileid: "65106283"
   <DisableTeamsAudioSharing>true</DisableTeamsAudioSharing>
   <FrontRowEnabled>true</FrontRowEnabled>
   <DefaultFoRExperience>0</DefaultFoRExperience>
+  <EnablePublicPreview>false</EnablePublicPreview>
+  <NoiseSuppressionDefault>0</NoiseSuppressionDefault>
   <SendLogs>
     <EmailAddressForLogsAndFeedback>username@microsoft.com</EmailAddressForLogsAndFeedback>
     <SendLogsAndFeedback>True</SendLogsAndFeedback>
@@ -137,6 +139,8 @@ ms.locfileid: "65106283"
 | \<DisableTeamsAudioSharing\>                | 부울 &#x2777;            | 첫 번째 &#x2776; | Teams 모임 참가자에게 HDMI 오디오 공유를 사용하지 않도록 설정하려면 true로 설정합니다. 기본값은 false입니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | \<FrontRowEnabled>                          | 부울 &#x2777;            | 첫 번째 &#x2776; | 기본적으로 사용하도록 설정됩니다. false이면 앞줄을 사용할 수 없습니다.
 | \<DefaultFoRExperience>                     | 부울 &#x2777;            | 첫 번째 &#x2776; | 기본적으로 갤러리 보기입니다. 1을 배치하여 기본 레이아웃을 갤러리 보기에서 앞줄로 변경합니다.
+| \<EnablePublicPreview\>                     | 부울 &#x2777;            | 첫 번째 &#x2776; | 기본적으로 사용하지 않도록 설정됩니다. true이면 공개 미리 보기가 활성화되고 최종 사용자가 사용 가능한 Teams 룸 공개 미리 보기의 기능에 액세스할 수 있습니다. 자세한 내용은 [Windows Microsoft Teams 룸 대한 공개 미리 보기를](../public-preview-doc-updates.md#public-preview-for-microsoft-teams-rooms-on-windows) 참조하세요. |
+| \<NoiseSuppressionDefault\>                 | 부울 &#x2777;            | 첫 번째 &#x2776; | 기본적으로 사용하도록 설정됩니다. 사용하지 않도록 설정하려면 0을 넣습니다. 사용하지 않도록 설정해도 데스크톱 설정에는 영향을 주지 않으며 Teams Room 계정에만 적용됩니다.
 | \<CortanaWakewordEnabled\>                  | 부울 &#x2777;            | 첫 번째 &#x2776; | true로 설정하여 Cortana 절전 모드 해제 단어 "Hey Cortana"를 사용하도록 설정합니다. 이 설정은 Cortana 서비스가 해당 국가 또는 지역에서 지원되고 연결된 오디오 주변 장치에서 Cortana 지원하지 않는 한 아무런 영향을 미치지 않습니다. 기본값은 false입니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | \<SendLogs\>                                | 컨테이너                   | 첫 번째 &#x2776; |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | \<EmailAddressForLogsAndFeedback\>          | 문자열 &#x2778;            |                | "피드백 제공" 창이 나타날 때 로그를 보낼 수 있는 선택적 전자 메일 주소를 설정합니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |

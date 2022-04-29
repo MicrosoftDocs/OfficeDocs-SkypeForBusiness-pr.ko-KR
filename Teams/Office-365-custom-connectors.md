@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 및 사용자 지정 커넥터 사용
+title: Microsoft 365 및 사용자 지정 커넥터 관리
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
@@ -17,63 +17,59 @@ description: 커넥터는 자주 사용하는 서비스의 콘텐츠와 업데�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7fef0b28d9663cdb472f4daf79076c2d4eefcd66
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.openlocfilehash: 100db95adf900a48898515b9bb9a3a753b47de4f
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64642982"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125443"
 ---
-# <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Microsoft 365 및 사용자 지정 커넥터를 Microsoft Teams
+# <a name="manage-microsoft-365-and-custom-connectors"></a>Microsoft 365 및 사용자 지정 커넥터 관리
 
-팀을 업데이트하기 위해 커넥터는 자주 사용하는 콘텐츠 및 서비스 업데이트를 Teams 제공합니다. 커넥터를 사용하여 Teams 사용자가 Trello, Wunderlist, GitHub 및 Azure DevOps Services. 업데이트는 팀의 채팅 스트림에 직접 게시됩니다.
+팀을 계속 업데이트하기 위해 커넥터는 자주 사용하는 콘텐츠 및 서비스 업데이트를 Teams 채널에 직접 제공합니다. 커넥터를 사용하면 Teams 사용자가 Trello, Wunderlist, GitHub 및 Azure DevOps Services 같은 인기 있는 서비스에서 업데이트를 받을 수 있습니다. 업데이트는 팀의 채팅 스트림에 직접 게시됩니다.
 
-Microsoft 365 연결선은 모든 Microsoft Teams Microsoft 365 그룹과 함께 사용되어 모든 구성원이 보다 쉽게 동기화하고 관련 정보를 빠르게 받을 수 있습니다. 두 Microsoft Teams Exchange 모두 동일한 커넥터 모델을 사용하며, 두 플랫폼에서 동일한 커넥터를 사용할 수 있습니다. 그러나 팀이 종속된 Microsoft 365 그룹에 대한 커넥터를 사용하지 않도록 설정하면 이 팀에 대한 커넥터를 만들 수 있는 기능을 사용하지 않도록 설정됩니다.
+Microsoft 365 커넥터는 Microsoft Teams 및 Microsoft 365 그룹에서 모두 사용되므로 모든 구성원이 동기화 상태를 유지하고 관련 정보를 빠르게 받을 수 있습니다. Microsoft Teams 및 Exchange 모두 동일한 커넥터 모델을 사용하므로 두 플랫폼 내에서 동일한 커넥터를 사용할 수 있습니다. 그러나 Microsoft 365 그룹에 대해 구성된 커넥터를 사용하지 않도록 설정하면 Microsoft 365 그룹에서 커넥터를 만드는 기능도 비활성화됩니다.
 
-팀의 모든 구성원은 팀 권한이 허용되는 경우 커넥터를 사용하여 인기 있는 클라우드 서비스에 팀을 연결할 수 있으며, 모든 팀 구성원에게 해당 서비스의 활동에 대한 알림을 제공합니다. 커넥터는 처음에 커넥터를 설정한 멤버가 왼쪽으로 떠난 후에도 계속 작동합니다. 추가 또는 제거할 권한이 있는 모든 팀 구성원은 다른 구성원이 커넥터 설정을 수정할 수 있습니다.
+팀 권한이 허용되고 모든 팀 구성원에게 해당 서비스의 활동에 대한 알림을 받으면 팀의 모든 구성원이 커넥터를 사용하여 인기 있는 클라우드 서비스에 팀을 연결할 수 있습니다. 커넥터를 처음 설치한 멤버가 떠난 후에도 커넥터가 계속 작동합니다. 추가 또는 제거할 수 있는 권한이 있는 모든 팀 구성원은 다른 멤버가 커넥터 설정을 수정할 수 있습니다.
 
-> [!NOTE]
-> 커넥터는 기본적으로 Government Cloud Community(GCC) 비활성화됩니다. 이를 사용하도록 설정하려면 cmdlet을 `ConnectorsEnabled` `ConnectorsEnabledForTeams` 사용하여 또는 매개 변수 `$true` `SetOrganizationConfig` 를 설정합니다. 커넥트 [PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)에 Exchange Online 합니다.
+## <a name="enable-or-disable-connectors-in-teams"></a>Teams 커넥터 사용 또는 사용 안 함
 
-## <a name="add-a-connector-to-a-channel"></a>채널에 커넥터 추가
+Exchange Online PowerShell V2 모듈은 최신 인증을 사용하며 MFA라는 다단계 인증을 사용하여 Microsoft 365 모든 Exchange 관련된 PowerShell 환경에 연결합니다. 관리자는 Exchange Online PowerShell을 사용하여 전체 테넌트 또는 특정 그룹 사서함에 대한 커넥터를 사용하지 않도록 설정하여 해당 테넌트 또는 사서함의 모든 사용자에게 영향을 미칠 수 있습니다. 몇 가지 특정 사용자에 대해 사용하지 않도록 설정할 수 없습니다. 또한 커넥터는 GCC 테넌트라고 하는 정부 커뮤니티 클라우드 대해 기본적으로 사용하지 않도록 설정됩니다.
 
-현재 데스크톱 및 웹 클라이언트를 사용하여 Microsoft Teams 수 있습니다. 그러나 이러한 커넥터에 의해 게시된 정보는 모바일을 비롯한 모든 클라이언트 **에서 볼 수** 있습니다.
+테넌트 설정은 그룹 설정을 재정의합니다. 예를 들어 관리자가 그룹에 대한 커넥터를 사용하도록 설정하고 테넌트에서 사용하지 않도록 설정하면 그룹에 대한 커넥터가 비활성화됩니다. Teams 커넥터를 사용하도록 설정하려면 MFA 사용 여부에 관계없이 최신 인증[을 사용하여 Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps#connect-to-exchange-online-powershell-using-modern-authentication-with-or-without-mfa&preserve-view=true)합니다.
 
-1. 채널에 커넥터를 추가하려면 채널 이름 오른쪽에서 타원( **...** )을 클릭한 다음 커넥터 **를 클릭합니다**.
+### <a name="commands-to-enable-or-disable-connectors"></a>커넥터를 사용하거나 사용하지 않도록 설정하는 명령
 
-    > [!div class="mx-imgBorder"]
-    > ![커넥터 옵션을 Teams 인터페이스의 스크린샷입니다.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
+Exchange Online PowerShell에서 다음 명령을 실행합니다.
 
-2. 사용 가능한 다양한 커넥터에서 선택한 다음 **추가를 클릭합니다**.
+* 테넌트에 대한 커넥터를 사용하지 않도록 설정하려면 : `Set-OrganizationConfig -ConnectorsEnabled:$false`.
+* 테넌트에 대해 실행 가능한 메시지를 사용하지 않도록 설정하려면 : `Set-OrganizationConfig -ConnectorsActionableMessagesEnabled:$false`.
+* Teams 커넥터를 사용하도록 설정하려면 다음 명령을 실행합니다.
+  * `Set-OrganizationConfig -ConnectorsEnabled:$true`
+  * `Set-OrganizationConfig -ConnectorsEnabledForTeams:$true`
+  * `Set-OrganizationConfig -ConnectorsActionableMessagesEnabled:$true`
 
-    > [!div class="mx-imgBorder"]
-    > ![사용 가능한 커넥터를 보여주는 커넥터 대화 상자의 스크린샷입니다.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
+PowerShell 모듈 교환에 대한 자세한 내용은 [Set-OrganizationConfig](/powershell/module/exchange/Set-OrganizationConfig?view=exchange-ps&preserve-view=true)를 참조하세요. Outlook 커넥터를 사용하거나 사용하지 않도록 설정하려면 [Outlook 그룹에 앱을 연결합니다](https://support.microsoft.com/topic/connect-apps-to-your-groups-in-outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab).
 
-3. 선택한 커넥터의 필수 정보를 입력하고 저장을 **클릭합니다**. 각 커넥터에는 다양한 정보 집합이 제대로 작동해야 합니다. 일부는 커넥터 구성 페이지에 제공된 링크를 사용하여 서비스에 로그인해야 할 수 있습니다.
+<!---TBD: Delete this section after customer migration to new Webhook URL is complete --->
 
-    > [!div class="mx-imgBorder"]
-    > ![RSS 커넥터에 대한 구성 페이지의 스크린샷입니다.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
+#### <a name="connector-url-update-notification"></a>커넥터 URL 업데이트 알림
 
-4. 커넥터에서 제공하는 데이터는 채널에 자동으로 게시됩니다.
+Teams 커넥터는 보안을 강화하기 위해 새 URL로 전환되고 있습니다. 전환하는 동안 구성된 커넥터를 업데이트하는 알림을 받게 됩니다. 커넥터 서비스의 중단을 방지하기 위해 커넥터를 가장 일찍 업데이트합니다. 커넥터를 업데이트하려면 다음을 수행합니다.
 
-    > [!div class="mx-imgBorder"]
-    > ![채널에서 Teams 보여 는 인터페이스의 스크린샷입니다.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
+1. 커넥터 구성 페이지에서 구성된 커넥터 옆에 **있는 주의 필요** 메시지를 확인합니다.
 
-<!---Delete this section after customer migration to new Webhook URL is complete --->
+   ![주의 필요 메시지의 스크린샷.](media/Teams_Attention_Required_message.png)
 
-> [!IMPORTANT]
-> **커넥터 URL 업데이트 알림**
->
-> Teams 커넥터가 보안을 강화하기 위해 새 URL로 전환하고 있습니다. 이 전환하는 동안 새 URL을 사용하도록 구성된 커넥터를 업데이트하는 특정 알림을 받게 됩니다. 커넥터 서비스에 대한 중단을 방지하기 위해 커넥터를 즉시 업데이트하는 것이 좋습니다. URL을 업데이트하려면 다음 단계를 따라야 합니다.
->
-> 1. 커넥터 구성 페이지에서 업데이트해야 하는 연결에 대해 "관리" 단추 아래에 "주의가 필요합니다" 메시지가 표시됩니다.
-> !["주의가 필요" 메시지 스크린샷.](media/Teams_Attention_Required_message.png)
-> 2. 들어오는 웹후크 커넥터의 경우 사용자는 업데이트 URL을 선택하고 새로 생성된 웹후크 **URL** 을 사용하여 연결을 다시 할 수 있습니다.
-> !["URL 업데이트" 단추의 스크린샷.](media/Teams_update_URL_button.png)
-> 3. 다른 커넥터 형식의 경우 사용자는 커넥터를 제거하고 커넥터 구성을 다시 구성해야 합니다.
-> 4. URL이 성공적으로 업데이트된 후 "URL이 최신입니다"라는 메시지가 표시됩니다.
-> !["URL은 최신" 메시지 스크린샷입니다.](media/Teams_URL_up_to_date.png)
+1. 들어오는 웹후크 커넥터에 대한 연결을 다시 만들려면 **URL 업데이트를** 선택하고 생성된 웹후크 URL을 사용합니다.
+
+   ![URL 업데이트 단추의 스크린샷.](media/Teams_update_URL_button.png)
+
+1. 다른 커넥터 유형의 경우 커넥터를 제거하고 커넥터 구성을 다시 만듭니다. **URL이 최신** 메시지인 경우 메시지가 나타납니다.
+
+   ![URL의 스크린샷은 최신 메시지입니다.](media/Teams_URL_up_to_date.png)
 
 ## <a name="see-also"></a>참고 항목
 
-* [사용자 지정 커넥터 및 웹후크 빌드](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)
+* [사용자 지정 커넥터 및 웹후크 개요](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)
+* [Office 365 커넥터 만들기](/microsoftteams/platform/webhooks-and-connectors/how-to/connectors-creating)

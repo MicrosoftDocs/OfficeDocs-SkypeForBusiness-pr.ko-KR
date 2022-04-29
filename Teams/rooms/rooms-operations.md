@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Microsoft Teams 룸 관리에 대해 알아봅니다.
-ms.openlocfilehash: e214d0b438ea7dd9b710a7aba8597de6c5b76bdf
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: d57f84aa07c90b6a75693f0cbf739402a6e90a4c
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106263"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125473"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams 룸 유지 관리 및 운영
  
@@ -37,6 +37,15 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ```
 
 로그는 c:\rigel에서 ZIP 파일로 출력됩니다.
+
+### <a name="managing-disk-space"></a>디스크 공간 관리
+<a name="Space"> </a>
+
+디바이스에서 다운로드한 로그는 디스크 공간을 차지할 수 있습니다. 로그가 정기적으로 정리되지 않으면 회의실의 정상적인 기능을 방해할 수 있습니다. Teams 룸 30일 후에 다운로드한 로그를 삭제합니다. IT 관리자는 디바이스 레지스트리 설정을 사용하여 로그 정리를 재정의할 수 있습니다.
+
+|설정|허용|
+|:-----|:-----|
+|HKLM\SOFTWARE\Microsoft\PPI\SkypeSettings\LogCleanupAgeThreshold  <br/> |30일 후에 로그를 정리합니다.  <br/> |
   
 ## <a name="front-of-room-display-settings"></a>방 전면 디스플레이 설정
 <a name="Display"> </a>

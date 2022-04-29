@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 디바이스, 네트워크 및 연결에 대한 세부 정보와 함께 실시간 원격 분석을 사용하여 Microsoft Teams 예약된 모임의 사용자 문제를 해결합니다.
-ms.openlocfilehash: 09c31b7734a849740cf1b0ff5749e4d82c667faf
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 4f56e50ddc8ac861e109bbc4d4a2a74533043d24
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "62518730"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125803"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>실시간 원격 분석을 사용하여 모임 품질 저하 문제 해결
 
@@ -57,11 +57,11 @@ Teams 관리자는 각 사용자에 대한 모든 실시간 원격 분석 데이
 
 디바이스, 네트워크 및 오디오 통계를 포함하여 진행 중인 모임 참가자에 대한 추가 정보를 얻으려면 **최근 모임** 에서 모임을 찾고 **참가자** 열 아래의 링크를 선택합니다.
 
-:::image type="content" alt-text="참가자 세부 정보 테이블의 스크린샷." source="media/participant-details.png" lightbox="media/participant-details.png":::
+:::image type="content" alt-text="참가자 세부 정보 테이블의 스크린샷." source="media/participant-details-edit.png" lightbox="media/participant-details-edit.png":::
 
 디바이스, 네트워크, 오디오, 비디오 및 콘텐츠 공유 세부 정보에 대한 정보를 포함하여 진행 중인 모임에 대해 지정된 사용자의 원격 분석을 보려면 **모임 ID** 를 선택합니다.
 
-:::image type="content" alt-text="통화 분석 사용자 세션 데이터의 스크린샷." source="media/real-time-telemetry.png" lightbox="media/real-time-telemetry.png":::
+:::image type="content" alt-text="통화 분석 사용자 세션 데이터의 스크린샷." source="media/real-time-telemetry-edit.png" lightbox="media/real-time-telemetry-edit.png":::
 
 ## <a name="measures-available-in-real-time-analytics"></a>Real-Time Analytics에서 사용할 수 있는 측정값
 

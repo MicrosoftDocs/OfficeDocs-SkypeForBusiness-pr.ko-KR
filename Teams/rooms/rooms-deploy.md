@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 배포 단계를 포함하여 Microsoft Teams 룸 배포하는 방법에 대해 알아보려면 이 문서를 참조하세요.
-ms.openlocfilehash: 61fce84f9f3737f771e0417443de566444cc2ca2
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 18a5d72fb9c11b34bb994734b8d064c3aaa2cdae
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839079"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125773"
 ---
 # <a name="deployment-overview"></a>배포 개요
 
@@ -53,12 +53,12 @@ Microsoft Teams 룸 배포는 기본적으로 단계로 나뉩니다.
 Microsoft Teams 룸 배포를 준비하려면 다음 키, 중앙 작업을 수행합니다.
 
 -   Microsoft Teams 룸 리소스 계정을 정의합니다.
--   Azure Active Directory Teams Room에 조인하는 경우 모든 Teams 룸 리소스 계정을 보유할 동적 멤버 자격이 있는 Azure AD 그룹을 준비합니다. 이렇게 하면 조건부 액세스 정책 적용과 같은 향후 관리가 간소화됩니다. Azure AD 동적 그룹을 가장 쉽게 활용하려면 Teams 룸 리소스 계정을 고유하게 식별하는 명명 규칙을 결정합니다.
--   Teams Room을 Active Directory에 조인하는 경우 Microsoft Teams 룸 컴퓨터 및 리소스 계정을 보유하도록 조직 구성 단위 및 Active Directory 그룹을 준비하고 필요에 따라 POWERShell 원격을 사용하도록 GPO(그룹 정책 개체)를 준비합니다.
+-   Azure Active Directory Teams 룸 조인하는 경우 동적 멤버 자격이 있는 Azure AD 그룹을 준비하여 모든 Teams 룸 리소스 계정을 보유합니다. 이렇게 하면 조건부 액세스 정책 적용과 같은 향후 관리가 간소화됩니다. Azure AD 동적 그룹을 가장 쉽게 활용하려면 Teams 룸 리소스 계정을 고유하게 식별하는 명명 규칙을 결정합니다.
+-   Teams 룸 Active Directory에 조인하는 경우 Microsoft Teams 룸 컴퓨터 및 리소스 계정을 보유하도록 조직 구성 단위 및 Active Directory 그룹을 준비하고 필요에 따라 PowerShell 원격을 사용하도록 GPO(그룹 정책 개체)를 준비합니다.
 
 ### <a name="define-microsoft-teams-rooms-resource-account-features"></a>Microsoft Teams 룸 리소스 계정 기능 정의 
 
-Microsoft Teams 룸 배포에서 사용하도록 설정하기로 결정한 공동 작업 시나리오에 따라 사용하도록 설정한 각 Microsoft Teams 회의실에 할당하는 기능과 기능을 결정해야 합니다.
+Microsoft Teams 룸 배포에서 사용하도록 설정하기로 결정한 공동 작업 시나리오에 따라 사용하도록 설정하는 각 Microsoft Teams 룸 할당하는 기능과 기능을 결정해야 합니다.
 
 | **시나리오** | **설명** | **Microsoft Teams 룸 서비스 계정 기능** |
 |---------- |------------- | --- |
@@ -85,7 +85,7 @@ _샘플 Microsoft Teams 룸 리소스 계정 계획 테이블_
 
 ### <a name="prepare-to-host-microsoft-teams-rooms-and-resource-accounts-optional"></a>Microsoft Teams 룸 및 리소스 계정 호스트 준비(선택 사항)
 
-Microsoft Teams 룸 및 리소스 계정을 관리하고 보고할 수 있도록 하려면 Azure AD(온-프레미스 Active Directory 또는 Azure Active Directory)를 준비합니다. 
+Microsoft Teams 룸 및 리소스 계정을 관리하고 보고할 수 있도록 하려면 온-프레미스 Active Directory 또는 Azure Active Directory(Azure AD)를 준비합니다. 
 
 모든 Microsoft Teams 룸 리소스 계정을 추가할 온-프레미스 Active Directory 또는 Azure Active Directory 그룹을 정의합니다. Azure Active Directory 사용하는 경우 동적 그룹을 사용하여 그룹에서 리소스 계정을 자동으로 추가하고 제거하는 것이 좋습니다.
 
