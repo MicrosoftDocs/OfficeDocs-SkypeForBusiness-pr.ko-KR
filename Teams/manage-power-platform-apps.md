@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams 관리 센터에서 Microsoft Power Platform에 빌드된 사용자 지정 앱에 대한 액세스를 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: c093d432faa8d4977f4d931ac948a35dc6fe6509
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 9f212cf52ec757fc4860f081fb67da2cb1b4fcd5
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "63442674"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65136999"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 Microsoft Power Platform 앱 관리
 
@@ -66,7 +66,7 @@ Power Apps 및 Power Virtual Agents 만든 모든 앱에 대한 액세스를 제
 
 기본적으로 공유 **Power Apps** 및 **공유 Power Virtual Agent 앱** 은 조직의 모든 Teams 사용자에 대해 허용됩니다. Microsoft Teams 관리 센터의 [앱 관리](manage-apps.md) 페이지에서 조직 수준에서 차단하거나 허용할 수 있습니다.  
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 관리** 로 이동합니다. 페이지에 액세스하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 창에서 **Teams** **appsManage 앱** > 으로 이동합니다. 페이지에 액세스하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다.
 2. 앱 목록에서 다음 중 하나를 수행합니다.
 
     :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="공유 Microsoft Power Platform 앱을 보여 주는 앱 관리 페이지의 스크린샷":::

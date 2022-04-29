@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 1e34911ead5044ca15fa965fa62029a3ad830dd4
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: 9156c54748849c6d510bbb72aa4bbce17c20ba8e
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442304"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65136989"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 Lists 앱 관리
 
@@ -37,13 +37,13 @@ ms.locfileid: "63442304"
 
 Microsoft Teams의 Lists 앱을 사용하면 조직의 사용자가 정보를 추적하고, 작업을 구성하고, 워크플로를 관리할 수 있습니다. Lists를 통해 사용자는 사용자 지정 가능한 보기, 규칙, 알림을 사용하여 문제, 자산, 루틴, 연락처, 재고, 인시던트, 대출, 환자 등의 데이터를 추적하여 모든 사람을 팀에 동기화할 수 있습니다.
 
-Teams에서 사용자는 채널의 탭에서 Lists에 액세스할 수 있습니다. 탭 **+** 갤러리를 열고 채널에 새 목록 앱 탭 인스턴스를 추가하여 시작을 선택합니다.
+Teams에서 사용자는 채널의 탭에서 Lists에 액세스할 수 있습니다. 탭 갤러리를 열고 새 목록 앱 탭 인스턴스를 채널에 추가하여 시작하려면 선택합니다 **+** .
 
-![탭 갤러리에 앱을 나열합니다.](media/lists-tab.png)
+![탭 갤러리에서 앱을 나열합니다.](media/lists-tab.png)
 
 사용자는 새 목록을 만들거나 액세스 권한이 있는 동일한 팀 내에서 또는 다른 SharePoint 사이트에서 기존 목록을 고정할 수 있습니다. 새로운 목록은 처음부터 새로 작성하거나, 기본 제공 서식 파일, 기존 목록 구조에 따라 작성하거나, Excel 통합 문서에서 데이터를 가져와 작성할 수 있습니다. Lists 앱은 Teams 데스크톱, 웹 및 모바일 클라이언트에서 사용할 수 있습니다.
 
-![목록 앱에서 목록을 만드는 방법을 선택합니다.](media/lists-create-list.png)
+![목록 앱에서 목록을 만드는 방법](media/lists-create-list.png)
 
 ## <a name="templates"></a>서식 파일
 
@@ -60,7 +60,7 @@ Lists의 서식 파일은 사용자에 대한 일반적인 정보 추적 시나�
 
 메일 통신사는 메일 주소를 확인한 후 배달 경로를 시작합니다. 사고는 차량 사고, 개 관련 문제 또는 소셜 불안정 시위와 같은 경로를 따라 발생할 수 있습니다. 메일 통신사에서 인시던트가 발생하면 해당 모바일 장치에서 Teams를 사용하여 인시던트 세부 정보를 기록합니다. 인시던트 세부 정보는 팀 채널의 목록에서 추적됩니다. 현장에서 메일 통신 사업자 등 팀의 모든 사람이 이 정보를 보고 정보를 볼 수 있습니다.
 
-메일 Teams 이동하기 전에 우편업체는 다시 우체국으로 돌아가 인시던트를 보고하기 위해 하드 복사 양식을 작성해야 했던 다음, 스프레드시트에 Excel 입력했습니다. Teams는 메일 통신 사업자가 가장 먼저 목록을 사용하여 현장의 인시던트에 대해 보고하고, 팀 구성원과 사고 정보를 공유하고, 채널에서 해당 내용에 대한 대화를 나누고, 인시던트 해결을 위해 인시던트가 발생하게 하는 환경을 메일 통신사에 제공합니다.
+Teams 이동하기 전에 우편 운송업체는 우체국으로 돌아가 인시던트를 보고하기 위해 하드 카피 양식을 작성해야 했고, 그런 다음 Excel 스프레드시트에 입력되었습니다. Teams는 메일 통신 사업자가 가장 먼저 목록을 사용하여 현장의 인시던트에 대해 보고하고, 팀 구성원과 사고 정보를 공유하고, 채널에서 해당 내용에 대한 대화를 나누고, 인시던트 해결을 위해 인시던트가 발생하게 하는 환경을 메일 통신사에 제공합니다.
 
 ## <a name="what-you-need-to-know-about-lists"></a>Lists에 대해 알아야 할 사항
 
@@ -95,11 +95,11 @@ Lists를 통해 사용자는 데스크톱, 웹 및 모바일 환경을 사용할
 
 Lists는 조직의 모든 Teams 사용자에 대해 기본적으로 사용하도록 설정됩니다. Microsoft Teams 관리자 센터의 [앱 관리](manage-apps.md) 페이지에서 조직 수준에서 앱을 끄거나 켤 수 있습니다.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 관리** 로 이동합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 창에서 **Teams** **appsManage 앱** > 으로 이동합니다.
 2. 다음 중 하나를 수행합니다.
 
-    - 조직의 목록을 해제하려면 목록 앱을 검색하고, 선택한 다음 차단을 **선택합니다**.
-    - 조직의 목록을 설정하려면 목록 앱을 검색하고, 선택한 다음 허용을 **선택합니다**.
+    - 조직의 목록을 해제하려면 목록 앱을 검색하고 선택한 다음 **차단** 을 선택합니다.
+    - 조직의 목록을 켜려면 목록 앱을 검색하고 선택한 다음 **허용** 을 선택합니다.
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>조직의 특정 사용자에 대해 Lists를 사용 또는 사용하지 않도록 설정
 
@@ -107,7 +107,7 @@ Lists는 조직의 모든 Teams 사용자에 대해 기본적으로 사용하도
 
 ## <a name="search-the-audit-log-for-list-events"></a>목록 이벤트에 대한 감사 로그 검색
 
-목록은 엔터프라이즈 수준 감사를 사용하여 사용하도록 설정되어 있으므로 보안 준수 센터의 감사 로그에서 목록을 검색하고 항목 이벤트를 나열할 & 있습니다. 자세한 내용은 [보안 및 준수 센터에서 감사 로그 검색](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)을 참조하세요.
+목록은 엔터프라이즈 수준 감사를 통해 사용하도록 설정되므로 보안 & 준수 센터의 감사 로그에서 목록 및 목록 항목 이벤트를 검색할 수 있습니다. 자세한 내용은 [보안 및 준수 센터에서 감사 로그 검색](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)을 참조하세요.
 
 Teams의 Lists 앱과 관련된 감사 이벤트 목록은[SharePoint 목록 활동](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities)을 참조하세요.
 
@@ -119,7 +119,7 @@ Lists는 워크플로용 [Power Automate](/power-automate/flow-types) 및 목록
 
 ## <a name="give-feedback-or-report-an-issue"></a>피드백을 제공하거나 문제 보고
   
-피드백을 보내거나 문제를 보고하려면 왼쪽 탐색의  왼쪽 Teams 근처에서 도움말을 선택한 다음 문제 보고를 **선택합니다**. **Lists** 를 선택하고 현재 발생하는 문제에 대한 피드백이나 세부 정보를 입력합니다.
+피드백을 보내거나 문제를 보고하려면 Teams 왼쪽 창 아래쪽에 있는 **도움말** 을 선택한 다음 **문제 보고를** 선택합니다. **Lists** 를 선택하고 현재 발생하는 문제에 대한 피드백이나 세부 정보를 입력합니다.
 
 ## <a name="related-articles"></a>관련 기사
 

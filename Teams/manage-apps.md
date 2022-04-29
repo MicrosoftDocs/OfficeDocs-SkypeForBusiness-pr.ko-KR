@@ -17,12 +17,12 @@ description: Microsoft Teams 관리 센터의 앱 관리 페이지에서 Teams �
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 2a4062bbf71c3ad112a52a10ad9c1b3ff71f3dad
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: facb10f1ad20482c8760a32ba1319b3ed80100e8
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059079"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137029"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 Teams 앱 관리
 
@@ -164,7 +164,7 @@ ISV가 앱을 글로벌 앱 스토어에 게시하는 경우 관리자가 앱 �
 
 ## <a name="grant-admin-consent-to-apps"></a>앱에 관리자 동의 부여
 
-조직의 모든 사용자를 대신하여 권한을 요청하는 앱에 대한 동의를 검토하고 부여할 수 있습니다. 이렇게 하면 사용자가 앱을 시작할 때 앱에서 요청한 권한을 검토하고 수락할 필요가 없습니다. **권한** 열은 앱에 동의가 필요한 권한이 있는지 여부를 나타냅니다. 동의가 필요한 권한이 있는 Azure AD에 등록된 각 앱에 대한 **세부 정보 보기** 링크가 표시됩니다. 자세한 내용은 [Microsoft Teams 관리 센터에서 앱 권한 보기 및 관리자 동의 부여를](app-permissions-admin-center.md) 참조하세요.
+조직의 모든 사용자를 대신하여 권한을 요청하는 앱에 대한 동의를 검토하고 부여할 수 있습니다. 이렇게 하면 사용자가 앱을 시작할 때 앱에서 요청한 권한을 검토하고 수락할 필요가 없습니다. **권한** 열은 앱에 동의가 필요한 권한이 있는지 여부를 나타냅니다. 동의가 필요한 권한이 있는 Azure AD 등록된 각 앱에 대한 **세부 정보 보기** 링크가 표시됩니다. 자세한 내용은 [Microsoft Teams 관리 센터에서 앱 권한 보기 및 관리자 동의 부여를](app-permissions-admin-center.md) 참조하세요.
 
 ## <a name="view-resource-specific-consent-permissions"></a>리소스별 동의 권한 보기
 
@@ -198,24 +198,3 @@ RSC(리소스별 동의) 권한을 통해 팀 소유자는 앱에 대한 동의�
 
 1. **사용자 지정 앱에서 사용자 지정 앱****과의 상호 작용 허용** 을 끄거나 켭니다. 이 설정은 사용자가 사용자 지정 앱과 상호 작용할 수 있는지 여부를 제어합니다. 자세한 내용은 [Teams에서 사용자 지정 앱 정책 및 설정 관리](teams-custom-app-policies-and-settings.md)를 참조하세요.
 1. 조직 전체 앱 설정에 대해 **저장** 을 선택하여 적용합니다.
-
-<!--- TBD: Commenting this info for now. Move it later to the new article about compliance program and how/where admins can find info about compliant apps.
-
-## View security and compliance information for Microsoft 365 Certified apps
-
-When evaluating an app for their organization, admins can use independent Cloud Access Security Brokers (CASB), such as Microsoft Cloud App Security (MCAS), to find information about security and behaviors of an app. The Teams admin center includes security and compliance information from MCAS for Microsoft 365 Certified apps so you'll have more information on whether or not the app meets your needs.
-
-> [!NOTE]
-> This feature is available to all admins, whether or not your organization has a license that supports MCAS.
-
-To access MCAS information, follow these steps:
-
-1. In the Teams admin center, select **Manage apps** under **Teams apps**.
-1. Select **Certification** to sort apps and push all Microsoft 365 Certified apps to the top of the table.
-1. Choose a Microsoft 365 Certified app.
-1. Select the **Security and compliance** tab.
-
-![Screenshot of Teams admin center security and compliance tab.](media/mcas.png)
-
-On this tab, you'll find information on security, compliance, and data protection. You can also expand each dropdown list to get more details about which capabilities are supported for the selected application.
---->

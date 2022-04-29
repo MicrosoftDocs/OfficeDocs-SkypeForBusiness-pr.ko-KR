@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37c899c1507a28f51bb881a9e7e66de6d7af0d58
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 45f663f2c75d12a21fe38c4bbc71e2b3d93d8247
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64643072"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137129"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 승인 앱 가용성
 
@@ -57,7 +57,7 @@ ms.locfileid: "64643072"
 
 - 사용자가 새 승인 템플릿을 설정하려면 Microsoft Forms 대한 라이선스가 필요합니다.
 
-승인 앱을 사용하려면 Power Automate 라이선스가 필요하며, 첫 번째 승인 할당에서 대상 환경의 승인 사용자 역할에 계정이 자동으로 추가됩니다.
+승인 앱을 사용하려면 Power Automate 대한 라이선스가 필요하며, 첫 번째 승인 할당에서 계정이 대상 환경의 승인 사용자 역할에 자동으로 추가됩니다.
 
 ## <a name="storage-with-microsoft-dataverse"></a>Microsoft Dataverse를 사용하여 Storage
 
@@ -199,7 +199,7 @@ Power Automate 내에서 더 많은 감사 승인에 액세스하려면 기본 �
 Teams 승인 앱에서 사용자는 새 승인을 만들고 보내고 받은 승인을 볼 수 있습니다. 사용자는 요청의 응답자 또는 뷰어가 아니면 다른 사용자가 만든 승인에 액세스할 수 없습니다.
 
 > [!Note]
-> 사용자가 승인이 만들어진 채팅 또는 채널의 일부인 경우 요청의 뷰어 역할이 제공됩니다. 승인이 생성되었을 때 해당 역할이 부여되지 않은 경우 요청에 대한 조치를 취할 수 없습니다.
+> 승인이 만들어진 채팅 또는 채널의 일부인 경우 사용자에게 요청의 뷰어 역할이 부여됩니다. 승인이 생성되었을 때 해당 역할이 부여되지 않은 경우 요청에 대한 조치를 취할 수 없습니다.
 
 ## <a name="approvals-e-signature-integration"></a>승인 전자 서명 통합
 
@@ -209,7 +209,7 @@ Teams 승인 앱에서 사용자는 새 승인을 만들고 보내고 받은 승
 
 Teams 관리 센터를 사용하여 승인 앱에서 사용자가 사용할 수 있는 타사 전자 서명 공급자를 제어할 수 있습니다. 기본적으로 전자 서명 공급자는 승인 앱에서 사용하도록 설정됩니다. 전자 서명 공급자를 사용하지 않도록 설정하면 사용자가 승인을 만들 때 해당 공급자에 액세스할 수 없습니다. 또한 사용자는 해당 공급자를 사용하여 만든 전자 서명 요청을 볼 수 없습니다.
 
-1. Teams 관리 센터의 왼쪽 탐색에서 **Teams** **appsManage 앱** > 으로 이동합니다.
+1. Teams 관리 센터의 왼쪽 창에서 **Teams** **appsManage 앱** > 으로 이동합니다.
 2. 승인 앱을 검색한 다음 선택합니다.
 3. **설정** 탭으로 이동한 다음 다음 중 하나 이상을 수행합니다.
 
