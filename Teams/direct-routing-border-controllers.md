@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅에 대해 인증된 SBA(Session Border Controller)에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d8a1a3e739188859cf34ea60c0160e9532a9ab3d
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 2ebc88b42257ca6f6f6cdce482d042b0dc3b406c
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556579"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125763"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>직접 라우팅에 대한 인증된 SBC(Session Border Controller)
 
@@ -49,9 +49,7 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 
 직접 라우팅에 대해 인증된 목록 디바이스를 따르는 테이블입니다. (로컬 미디어 최적화를 지원하는 SBC 공급업체에 대한 자세한 내용은 [직접 라우팅을 위한 로컬 미디어 최적화 구성](direct-routing-media-optimization-configure.md)을 참조하세요.)
 
-[직접 라우팅](https://aka.ms/dr)에 대해 자세히 알아보세요.
-직접 라우팅용 SBC 인증 프로그램 관련 질문은 drsbccertification@microsoft.com으로 문의해 주세요. 추후 공지가 있을 때까지 인증에 대한 새 추천을 수락하지 않습니다.
-<br/>
+[직접 라우팅에 대해 자세히 알아보기](https://aka.ms/dr) 추후 공지가 있을 때까지 새로운 인증 후보를 수락하지 않습니다. <br/>
 
 ## <a name="certified-sbc-vendors"></a>인증된 SBC 공급업체
 
@@ -91,8 +89,7 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 |                                 |     1000 시리즈 집계 서비스 라우터용 Cisco CUBE(통합 테두리 구성 요소)      |     &#10004;   | &#10004; |      지원되는 IOS XE 암스테르담 17.2.1r(권장 17.6.1a)         |    &#10004;     |    |
 |                                 |     표시 8000 Edge 플랫폼용 Cisco CUBE(통합 테두리 구성 요소)      |     &#10004;   | &#10004; |      지원되는 IOS XE 암스테르담 17.3.2(권장 17.6.1a)      |    &#10004;     |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    ASBCE(기업용 Avaya Session Border Controller)    |     &#10004;     |       &#10004;     |       릴리스 8.1.1(미디어 바이패스용 8.1.2)      |     |    |
-|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia Session Border Controller    |     &#10004;     |           |       19.5(1908)       |     |    |
-|                     |    Nokia Session Border Controller    |     &#10004;     |           |       20.8       |      &#10004;        |    |
+|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia Session Border Controller    |     &#10004;     |      &#10004;     |       22.0       |   &#10004;  |    |
 |                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |      &#10004;     |       지원 대상 5.0, 5.1(권장 5.3)     |     |    |
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Orchid Link    |     &#10004;     |           |      3.1        |     |    |

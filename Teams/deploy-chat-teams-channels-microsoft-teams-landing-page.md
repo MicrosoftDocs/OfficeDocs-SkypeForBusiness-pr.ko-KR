@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: 84c0ef026b16ec19337ef8840b2285a1a98e5193
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: a2d6ee4129128df8acf17906b0bc45140b57f6f4
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711732"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125503"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams에서의 채팅, 팀, 채널 & 앱
 
@@ -94,7 +94,7 @@ Teams에서는 관리자 역할 외에도 소유자 및 구성원 사용자 역�
 
 |본인에게 질의하기|작업 |
 |------------|-------|
-|<ul><li>나의 조직의 외부 액세스 기능을 꺼야 하나요?</li><li>이 기능을 사용하는 경우 나의 조직에서 통신할 수 있는 도메인을 제한하게 되나요?</li></ul> |<br>외부 액세스 기능을 켜거나 끄려면 [외부 액세스 계획](manage-external-access.md#plan-for-external-access)을 참조하세요.|
+|<ul><li>조직에서 외부 모임 및 채팅을 끌까요?</li><li>이 기능을 사용하는 경우 나의 조직에서 통신할 수 있는 도메인을 제한하게 되나요?</li></ul> |<br>외부 모임 및 채팅을 켜거나 끄려면 [외부 모임 및 채팅 관리](manage-external-access.md)를 참조하세요.|
 
 ### <a name="guest-access"></a>게스트 액세스
 

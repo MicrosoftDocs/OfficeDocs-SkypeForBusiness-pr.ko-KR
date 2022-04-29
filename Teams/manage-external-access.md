@@ -1,5 +1,5 @@
 ---
-title: 외부 액세스 관리(페더레이션)
+title: 외부 모임 및 채팅 관리
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -17,20 +17,20 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.externalaccess.overview
 - seo-marvel-mar2020
-description: Teams 또는 IT 관리자는 다른 도메인(페더레이션)에 대한 외부 액세스를 구성하여 해당 도메인의 사용자가 사용자와의 모임을 찾고, 통화하고, 채팅하고, 설정할 수 있도록 할 수 있습니다.
+description: Teams 또는 IT 관리자는 해당 도메인의 사용자가 사용자를 찾고, 전화를 걸고, 채팅하고, 모임을 설정할 수 있도록 다른 도메인에 대한 외부 모임 및 채팅을 구성할 수 있습니다.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 06243ca47e26f66dd4194a9ec9e50cc5a6bfbde7
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
-ms.translationtype: MT
+ms.openlocfilehash: b3b1fb8a51993f0c1510a000e835bbae3098e11b
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64642852"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125723"
 ---
-# <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams에서 외부 액세스 관리
+# <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>Microsoft Teams에서 외부 모임 및 채팅 관리
 
-외부 액세스는 조직 외부의 Teams 사용자가 Teams에서 사용자와 모임을 찾고, 통화하고, 채팅하고, 설정할 수 있는 방법입니다. 외부 액세스를 사용하여 비즈니스용 Skype(온라인 및 온-프레미스) 및 Skype를 계속 사용하는 다른 조직의 사용자와 통신할 수도 있습니다.
+*외부 액세스* 기능을 사용하여 Teams에서 외부 모임 및 채팅을 구성할 수 있습니다. 외부 액세스는 조직 외부의 Teams 사용자가 Teams에서 사용자와 모임을 찾고, 통화하고, 채팅하고, 설정할 수 있는 방법입니다. 외부 액세스를 사용하여 비즈니스용 Skype(온라인 및 온-프레미스) 및 Skype를 계속 사용하는 다른 조직의 사용자와 통신할 수도 있습니다.
 
 다른 조직의 사용자가 팀과 채널에 액세스할 수 있도록 하려면 게스트 액세스를 대신 사용합니다. 외부 액세스와 게스트 액세스 사이의 차이점에 대한 자세한 내용은 [외부 및 게스트 액세스 비교](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)를 참조하세요. 
 
@@ -42,9 +42,9 @@ ms.locfileid: "64642852"
 
 - Teams를 사용하는 전 세계의 모든 사람이 전자 메일 주소를 사용하여 사용자를 찾고 연락할 수 있게 하려고 합니다. 
 
-## <a name="plan-for-external-access"></a>외부 액세스 계획
+## <a name="plan-for-external-meetings-and-chat"></a>외부 모임 및 채팅 계획
 
-외부 액세스 정책에는 조직 및 사용자 수준 모두에서 각 유형의 페더레이션에 대한 제어가 포함됩니다. 조직 수준에서 정책을 끄면 사용자 수준 설정에 관계없이 모든 사용자에 대해 정책이 해제됩니다. 모든 외부 액세스 설정은 기본적으로 사용하도록 설정되어 있습니다.
+외부 액세스 정책에는 조직 및 사용자 수준 모두에 대한 제어가 포함됩니다. 조직 수준에서 정책을 끄면 사용자 수준 설정에 관계없이 모든 사용자에 대해 정책이 해제됩니다. 모든 외부 액세스 설정은 기본적으로 사용하도록 설정되어 있습니다.
 
 Teams 관리 센터는 조직 수준에서 외부 액세스를 제어합니다. 대다수 옵션(도메인 제한 제외)은 PowerShell을 이용하여 사용자 수준에서 사용할 수 있습니다. 자세한 내용은 아래의 [PowerShell 사용](#using-powershell)을 참조하세요.
 
@@ -108,7 +108,7 @@ Teams 관리 센터는 조직 수준에서 외부 액세스를 제어합니다. 
 ## <a name="manage-contact-with-external-teams-users-not-managed-by-an-organization"></a>조직에서 관리하지 않는 외부 Teams 사용자와의 연락처 관리
 
 > [!NOTE]
-> 이 문서에서 Teams 및 Skype 인터로프 기능을 사용할 수 없습니다. GCC, GCC 또는 DOD 배포 또는 사설 클라우드 환경에서는 사용할 수 없습니다.
+> 이 문서에서 설명하는 Teams 및 Skype 상호 운용성 기능은 GCC, GCC High 또는 DOD 배포나 프라이빗 클라우드 환경에서 사용할 수 없습니다.
 
 관리자는 조직에서 관리하지 않는 외부 Teams 사용자("관리되지 않음")와의 통신을 사용하도록 설정하거나 비활성화하도록 선택할 수 있습니다. 사용하도록 설정된 경우 관리되지 않는 Teams 계정이 있는 사용자가 연락을 시작할 수 있는지 여부를 추가로 제어할 수도 있습니다(다음 이미지 참조). **조직에서 관리하지 않는 Teams 계정이 있는 외부 사용자가 내 조직의 사용자에게 연락할 수 있음** 이 꺼져 있으면 관리되지 않는 Teams 사용자는 전체 이메일 주소를 검색하여 조직 연락처 및 관리되지 않는 Teams와의 모든 커뮤니케이션을 찾을 수 없습니다. 사용자는 조직 사용자가 시작해야 합니다.
 
@@ -124,7 +124,7 @@ Teams 사용자가 연락처를 시작한 경우 조직의 Teams 사용자가 �
 1. **내 조직의 사용자는 조직에서 계정을 관리하지 않는 Teams 사용자와 통신할 수 있음** 설정을 켭니다.
 2. **조직에서 관리하지 않는 Teams 계정을 가진 외부 사용자가 내 조직의 사용자에게 연락할 수 있음** 확인란의 선택을 취소합니다.
 
-조직의 Teams 사용자가 조직에서 관리하지 않는 계정을 가진 외부 Teams 사용자와 통신하고 해당 외부 Teams 사용자와 통신하라는 요청을 받도록 하려면:
+내 조직의 Teams 사용자가 조직에서 관리하지 않는 계정을 가진 외부 Teams 사용자와 통신하도록 허용하고 해당 외부 Teams 사용자와 통신하게 해달라는 요청을 받으려면 다음을 수행합니다.
 1. **내 조직의 사용자는 조직에서 계정을 관리하지 않는 Teams 사용자와 통신할 수 있음** 설정을 켭니다.
 2. **조직에서 관리하지 않는 Teams 계정의 외부 사용자가 내 조직의 사용자에게 연락할 수 있음** 확인란을 선택합니다.
 

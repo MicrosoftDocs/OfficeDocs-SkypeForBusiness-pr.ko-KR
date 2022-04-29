@@ -17,24 +17,24 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-description: 외부 액세스(페더레이션) 및 게스트 액세스를 사용하여 Microsoft Teams에서 외부 조직의 사용자와 통화, 채팅, 검색 및 추가하는 방법을 알아봅니다.
-ms.openlocfilehash: db5d29a9d7afd121c3cecc47aa3ce717bb815f54
-ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
+description: 외부 액세스 및 게스트 액세스를 사용하여 Microsoft Teams에서 외부 조직의 사용자와 통화, 채팅, 검색 및 추가하는 방법을 알아봅니다.
+ms.openlocfilehash: c2cf4a3820cceacf1f84401161d130995ecbc98f
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64592743"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125483"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>게스트 액세스 및 외부 액세스를 사용하여 조직 외부 사용자와 공동 작업
 
-조직 외부의 사용자와 의사 소통 및 공동 작업을 해야 하는 경우 Microsoft Teams에서는 다음 두 가지 옵션을 제공합니다.
+이 문서에서는 조직 외부 사용자와 공동 작업하는 두 가지 옵션에 대해 설명합니다.
 
 - **외부 액세스** - 다른 조직의 사용자를 찾고, 통화하고, 채팅할 수 있는 페더레이션 유형입니다. 이러한 사용자는 게스트로 초대되지 않는 한 팀에 추가할 수 없습니다.
 - **게스트 액세스** - 게스트 액세스를 통해 조직 외부의 사용자를 팀에 초대할 수 있습니다. 초대된 사용자는 Azure Active Directory에서 게스트 계정을 갖게 됩니다.
 
-Teams를 사용하면 조직 외부의 사용자들을 모임에 초대할 수 있습니다. 이 경우 외부 또는 게스트 액세스를 구성할 필요가 없습니다.
+Microsoft 365에서의 외부 공동 작업에 대한 전체 개요는 [Microsoft 365의 외부 공동 작업 옵션에 대한 개요](/microsoft-365/enterprise/external-guest-access)를 참조하세요.
 
-## <a name="external-access-federation"></a>외부 액세스(페더레이션)
+## <a name="external-access-external-chat-and-meetings"></a>외부 액세스(외부 채팅 및 회의)
 
 Teams, 비즈니스용 Skype(온라인 또는온-프레미스) 또는 Skype를 사용하는 조직 외부 사용자와의 모임을 검색, 통화, 채팅, 설정해야 하는 경우 외부 액세스를 설정하세요. 
 

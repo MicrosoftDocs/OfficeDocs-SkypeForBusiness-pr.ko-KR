@@ -18,12 +18,12 @@ description: Microsoft Teams의 공개 미리 보기에 대해 자세히 알아�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: e3fdf0901d150df63fded6dc49822ad81f81f7d5
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: f814483cee8941d3fd29d2442d653c444915d1a5
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059189"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125783"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 공개 미리 보기
 
@@ -73,6 +73,14 @@ Teams 미리 보기에서 사용할 수 있는 항목 목록은 [Microsoft Teams
 
 > [!NOTE]  
 > 이 옵션은 **미리 보기 기능 표시** 가 **사용** 으로 설정된 경우에만 사용할 수 있습니다.
+
+### <a name="public-preview-for-microsoft-teams-rooms-on-windows"></a>Windows용 Microsoft Teams 룸에 대한 공개 미리 보기
+
+공개 미리 보기는 기본적으로 꺼져 있습니다. 공개 미리 보기가 켜져 있으면 최종 사용자는 활성화된 Teams 룸에서 공개 미리 보기에 있는 기능에 액세스할 수 있습니다. 공개 미리 보기를 켜려면 XML 구성 파일에 ```<EnablePublicPreview>True</EnablePublicPreview>```을 추가하세요.
+
+공개 미리 보기에 5-10개의 장치를 등록하는 것이 좋습니다. 
+
+모든 공개 미리 보기 기능은 [Microsoft Teams 공개 미리 보기 - Microsoft 기술 커뮤니티](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)에서 발표됩니다.
 
 ## <a name="teams-now-follows-office-preview-users"></a>이제 Teams가 Office 미리 보기 사용자를 허용합니다.
 

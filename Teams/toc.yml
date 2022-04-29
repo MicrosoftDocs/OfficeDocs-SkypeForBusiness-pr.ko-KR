@@ -543,9 +543,9 @@ items:
         items:
           - name: 다른 조직의 사용자와 의사 소통
             href: communicate-with-users-from-other-organizations.md
-          - name: 외부 액세스(페더레이션)
+          - name: 외부 모임 및 채팅
             items:
-              - name: 외부 액세스 관리
+              - name: 외부 모임 및 채팅 관리
                 href: manage-external-access.md
               - name: 기본 Teams 채팅
                 href: native-chat-for-external-users.md

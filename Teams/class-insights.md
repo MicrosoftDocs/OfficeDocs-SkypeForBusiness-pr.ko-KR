@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 234121449025512f8a5ffe37814804cc775b7b37
-ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
+ms.openlocfilehash: 3ce84036102407c31076ea2ec12fb5dc96e6b082
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64837461"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125623"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams의 교육 인사이트에 대한 IT 관리자 가이드
 
@@ -231,6 +231,17 @@ Insights는 기본적으로 켜져 있으므로 Teams 내에서 학생의 활동
 
 > [!NOTE]
 > Insights를 끈 경우 수집된 데이터가 삭제됩니다. 옵트아웃 시 삭제된 데이터는 Insights가 다시 활성화되더라도 나중에 복원할 수 없습니다.
+
+
+### <a name="turn-machine-learning-in-insights-on-or-off"></a>Insights에서 기계 학습 켜기 또는 끄기
+
+기본적으로 Insights의 기계 학습 기반 환경은 꺼져 있습니다. 이러한 인사이트를 허용하려면 **기계 학습 기반 Insights를 허용** 해야 합니다. 이 토글을 켜면 교육 Insights에서 이미 수집한 데이터 이외의 추가 데이터는 수집되지 않습니다.
+
+* 이 설정을 조정하려면 [SDS 관리 센터](https://sds.microsoft.com/)를 열고 **설정** > **교육 Insights 관리** 로 이동합니다. 
+* **기계 학습 기반 Insights 허용** 토글을 끄거나 켭니다.
+
+> [!NOTE]
+> 이 토글은 **Insights를 위한 활동 데이터 수집** 토글에 따라 다릅니다. **Insights를 위한 활동 데이터 수집** 을 끄면 **기계 학습 기반 Insights 허용** 토글도 꺼집니다.
 
 ### <a name="turn-sds-for-insights-on-or-off"></a>Insights용 SDS 켜기 또는 끄기
 
