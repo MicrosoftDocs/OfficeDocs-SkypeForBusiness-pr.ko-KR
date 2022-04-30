@@ -20,12 +20,12 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams 정책 패키지를 사용하고 관리하여 사용자 그룹에 대한 정책을 관리할 때 일관성을 단순화, 간소화 및 제공하는 방법을 알아봅니다.
-ms.openlocfilehash: 173d5d1488196ea048a64ce12916f8115362c572
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: d38384889e48e7d666036675b1a52ae194ea9582
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "63055308"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65145005"
 ---
 # <a name="manage-policy-packages-for-microsoft-teams"></a>Microsoft Teams 대한 정책 패키지 관리
 
@@ -87,7 +87,7 @@ Teams 현재 다음 정책 패키지를 포함합니다.
 
 새 사용자 지정 정책 패키지를 만들려면 다음을 수행합니다.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 영역에서 **정책 패키지를** 선택한 다음 **추가** 를 클릭합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 창에서 **정책 패키지를** 선택한 다음 **추가** 를 클릭합니다.
 
     :::image type="content" source="media/policy-packages-add.png" alt-text="관리 센터의 정책 패키지 페이지에 있는 추가 단추의 스크린샷":::
 
@@ -97,7 +97,7 @@ Teams 현재 다음 정책 패키지를 포함합니다.
 
 3. 패키지에 포함할 정책 유형 및 정책 이름을 선택합니다.
 
-4. **저장** 을 클릭합니다.
+4. **저장** 을 선택합니다.
 
 ## <a name="how-to-use-policy-packages"></a>정책 패키지를 사용하는 방법
 
@@ -120,17 +120,17 @@ Teams 현재 다음 정책 패키지를 포함합니다.
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>정책 패키지에서 정책 설정 보기
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **정책 패키지를** 선택한 다음 패키지 이름 왼쪽을 클릭하여 정책 패키지를 선택합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 창에서 **정책 패키지를** 선택한 다음 패키지 이름 왼쪽을 클릭하여 정책 패키지를 선택합니다.
 
-2. 보려는 정책을 클릭합니다.
+2. 보려는 정책을 선택합니다.
 
 ### <a name="customize-policies-in-a-policy-package"></a>정책 패키지에서 정책 사용자 지정
 
 **정책 패키지** 페이지를 통해 또는 Microsoft Teams 관리 센터의 정책 페이지로 직접 이동하여 정책 설정을 편집할 수 있습니다.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 다음 중 하나를 수행합니다.
-    - **정책 패키지를** 클릭한 다음 패키지 이름 왼쪽을 클릭하여 정책 패키지를 선택합니다.
-    - 정책 유형을 클릭합니다.  예를 들어 **메시징 정책을** 클릭합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 창에서 다음 중 하나를 수행합니다.
+    - **정책 패키지를** 선택한 다음 패키지 이름 왼쪽을 클릭하여 정책 패키지를 선택합니다.
+    - 정책 유형을 선택합니다.  예를 들어 **메시징 정책을** 클릭합니다.
 
 2. 편집할 정책을 선택합니다. 정책 패키지에 연결된 정책은 정책 패키지와 동일한 이름을 갖습니다.
 

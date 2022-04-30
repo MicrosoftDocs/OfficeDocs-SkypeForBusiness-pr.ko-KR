@@ -451,6 +451,8 @@ items:
                 href: teams-analytics-and-reports/pstn-minute-pools-report.md
               - name: PSTN 사용 현황 보고서
                 href: teams-analytics-and-reports/pstn-usage-report.md
+              - name: Teams 오디오 회의 전화 걸기 사용 현황 보고서
+                href: audio-conferencing-dial-out-usage-report.md
               - name: Teams 라이브 이벤트 사용 현황 보고서
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
               - name: Teams 정보 보호 라이선스 보고서
