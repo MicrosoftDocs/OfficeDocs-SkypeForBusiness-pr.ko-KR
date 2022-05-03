@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 328f2676ccec6cd1450166d7032877e176d5f1cd
-ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
+ms.openlocfilehash: 7c00a5e70684a93f31a11d48ac542920fca3b697
+ms.sourcegitcommit: 9f7372f7568b4275169590510d2b7a0c0ad7577b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "64910824"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "65171734"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams 앱 설정 정책 관리
 
@@ -80,7 +80,7 @@ ms.locfileid: "64910824"
 
 1. **앱 바** 또는 **메시징 확장** 에서 Teams 표시할 순서대로 앱을 정렬합니다.
 
-   ![고정된 앱 섹션](media/pin-messaging-extensions.png)
+   :::image type="content" source="media/pin-messaging-extensions.png" alt-text="고정된 앱 섹션"border="true":::
 
 1. **저장** 을 선택합니다.
 

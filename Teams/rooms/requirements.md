@@ -13,31 +13,31 @@ ms.localizationpriority: medium
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
-description: 적절한 디바이스, 마이크, Microsoft Teams 룸, 카메라 및 디스플레이를 선택하는 등 지원에 대한 요구 사항에 대해 자세히 알아보습니다.
+description: 적절한 장치, 마이크, 스피커, 카메라 및 디스플레이 선택을 포함하여 Microsoft Teams 룸 지원하기 위한 요구 사항에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fccfe4561f4cbbd480350a7de4eb2ec85fe82e64
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 56d2eca675a4f7ce092b15c66f9f79b8c28be17f
+ms.sourcegitcommit: 9f7372f7568b4275169590510d2b7a0c0ad7577b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711312"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "65171744"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 룸 요구사항
 
-Microsoft Teams 룸 크기로 확장할 수 있습니다. Teams 룸 크기 및 사용에 따라 다양한 인증된 오디오 및 비디오 주변 장치를 사용할 수 있습니다. 공간에 적합한 마이크, 스피커, 카메라 및 디스플레이와 결합된 올바른 코어 디바이스 및 콘솔을 선택하여 작은 Microsoft Teams 룸 공간에서 큰 회의 공간 및 회의실을 통해 모든 크기의 공간에 Microsoft Teams 룸 배포할 수 있습니다.  룸을 구성 하는데 사용할 수 있는 모든 사용 가능한 인증 오디오 및 비디오 주변 장치는 [장치 보기](https://products.office.com/microsoft-teams/across-devices)에서 볼 수 있습니다.
+Microsoft Teams 룸 크기가 다른 객실 크기로 조정됩니다. Teams 룸 공간의 크기와 사용에 따라 다양한 인증 오디오 및 비디오 주변 장치를 사용합니다. 마이크, 스피커, 카메라 및 디스플레이와 함께 적합한 코어 장치 및 콘솔을 선택하여 공간에 적합한 디스플레이를 선택하면 작은 허들 공간에서 큰 회의 공간 및 회의실까지 모든 크기의 공간에 Microsoft Teams 룸 배포할 수 있습니다.  룸을 구성 하는데 사용할 수 있는 모든 사용 가능한 인증 오디오 및 비디오 주변 장치는 [장치 보기](https://products.office.com/microsoft-teams/across-devices)에서 볼 수 있습니다.
 
 이 문서는 Microsoft Teams 룸을 지원하는데 필요한 장치 배포 및 구성 요구 사항을 간략하게 설명합니다.
 
-배포에는 배포에 설명된 Teams 룸 리소스 계정 생성 및 설정이 [Microsoft Teams 룸](rooms-deploy.md).
+배포에는 배포 Microsoft Teams 룸 설명된 대로 리소스 계정 만들기 및 [Teams 룸](rooms-deploy.md) 설정이 포함됩니다.
 
-참조:
+다음을 참조하세요.
 
 - [계획에 따른 라이선스 옵션: Microsoft Teams 룸](rooms-licensing.md)
 
 > [!NOTE]
-> Microsoft Teams 룸 2019, Microsoft Teams 비즈니스용 Skype 서버 또는 2015년 비즈니스용 Skype 서버 로그인할 수 있으며 이러한 서비스 중 하나에서 호스팅되는 모임에 참가할 수 있습니다.
+> Microsoft Teams 룸 Microsoft Teams, 비즈니스용 Skype 서버 2019 또는 비즈니스용 Skype 서버 2015에 로그인하고 이러한 서비스에서 호스트하는 모임에 참가할 수 있습니다.
 >
-> Lync Server 2013 같은 이전 플랫폼은 Microsoft Teams 룸에서 지원하지 않습니다. Microsoft Teams 룸 21Vianet 또는 DoD Microsoft 365 Office 365 환경에서 지원되지 않습니다.
+> Lync Server 2013 같은 이전 플랫폼은 Microsoft Teams 룸에서 지원하지 않습니다. Microsoft Teams 룸 21Vianet 또는 DoD 환경에서 작동하는 Microsoft 365 또는 Office 365 지원되지 않습니다.
 >
 > 온프레미스 Exchange 서버를 사용하는 경우 Microsoft Teams 룸에서 Exchange Server 2013 SP1이나 이후 버전을 사용해야 합니다.
 
@@ -50,52 +50,52 @@ Microsoft Teams 룸 크기로 확장할 수 있습니다. Teams 룸 크기 및 �
 
   |콘솔|프로세서|RAM|디스크|
   |:-----|:-----|:-----|:-----|
-  |[Intel NUC를 통해 Crestron Flex UC-M130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Core i5|8GB |128GB |
-  |[Intel NUC를 통해 Crestron Flex UC- B130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8GB |128GB |
-  |[Intel NUC를 통해 Crestron Flex UC-B140-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Core i5|8GB |128GB |
-  [Intel NUC를 통해 Crestron Flex UC-C140-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C140-T)|Core i7|8GB |128GB|
-  |Intel NUC  +  를 통해 [Crestron Flex UC-M150-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T) [CCS-UCA-MIC](https://www.crestron.com/Products/Audio/Microphones/Wired-Microphones/CCS-UCA-MIC-KIT)|Core i7|8GB |128GB |
-  |[Intel NUC를 통해 Crestron Flex UC-MX150-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX150-T)|Core i5|8GB |128GB |
-   [Intel NUC를 통해 Crestron Flex UC-B160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8GB |128GB|
-  |[Intel NUC를 통해 Crestron Flex UC-C160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8GB|128GB|
-  |[UC-PR(UC-PR) 및 ASUS PC가 있는 Crestron Flex UC-MMX30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MMX30-T)|코어 i5/i7|8GB |128GB |
-  |[UC-PR(UC-PR) 및 ASUS PC가 있는 Crestron Flex UC-BX30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-BX30-T)|코어 i5/i7|8GB |128GB |
-  |[UC-PR(UC-PR) 및 ASUS PC가 있는 Crestron Flex UC-CX100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T)|코어 i5/i7|8GB |128GB |
-  |[ASUS PC를 통해 Crestron Flex UC-B30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B30-T)|코어 i5/i7|8GB |128GB |
-   |[ASUS PC를 통해 Crestron Flex UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)|코어 i5/i7|8GB |128GB |
-   |[ASUS PC를 통해 Crestron Flex UC-M50-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M50-T)|코어 i5/i7|8GB |128GB |
-   |[ASUS PC를 통해 Crestron Flex UC-M70-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M70-T)|코어 i5/i7|8GB |128GB |
-   |[ASUS PC를 통해 Crestron Flex UC-MX50-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX50-T)|코어 i5/i7|8GB |128GB |
-   |[ASUS PC를 통해 Crestron Flex UC-MX70-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX70-T)|코어 i5/i7|8GB |128GB |
-   |Dell OPTIPLEX를 사용하여 Crestron FLEX UC-B30-T|Core i5|8GB|128GB|
-   |Dell OPTIPLEX를 사용하여 Crestron FLEX UC-Bx30-T|Core i5|8GB|128GB|
-   |Dell OPTIPLEX를 사용하여 Crestron FLEX UC-MM30-T|Core i5|8GB|128GB|
-   |Dell OPTIPLEX를 사용하여 Crestron FLEX UC-MMX30-T|Core i5|8GB|128GB|
-   |Dell OPTIPLEX를 사용하여 Crestron FLEX UC-M50-T|Core i5|8GB|128GB|
-   |Dell OPTIPLEX를 사용하여 Crestron FLEX UC-MX50-T|Core i5|8GB|128GB|
-   |Dell OPTIPLEX를 사용하여 Crestron FLEX UC-M70-T|Core i5|8GB|128GB|
-   |Dell OPTIPLEX를 사용하여 Crestron FLEX UC-MX70-T|Core i5|8GB|128GB|
-   |Dell OPTIPLEX를 사용하여 Crestron FLEX UC-C100-T|Core i5|8GB|128GB|
-   |Dell OPTIPLEX를 사용하여 Crestron FLEX UC-CX100-T|Core i5|8GB|128GB|
-  |[Crestron Mercury Mini UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8GB |128GB |
-  |[Logitech TAP을 사용하여 Dell OptiPlex 7080](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 |16GB |128GB|
+  |[Intel NUC를 사용하는 Crestron Flex UC-M130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Core i5|8GB |128GB |
+  |[Crestron Flex UC- B130-T with Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8GB |128GB |
+  |[Intel NUC를 사용하는 Crestron Flex UC-B140-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Core i5|8GB |128GB |
+  [Intel NUC를 사용하는 Crestron Flex UC-C140-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C140-T)|Core i7|8GB |128GB|
+  |Intel NUC  +  [를 사용하는 Crestron Flex UC-M150-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T) [CCS-UCA-MIC](https://www.crestron.com/Products/Audio/Microphones/Wired-Microphones/CCS-UCA-MIC-KIT)|Core i7|8GB |128GB |
+  |[Intel NUC를 사용하는 Crestron Flex UC-MX150-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX150-T)|Core i5|8GB |128GB |
+   [Intel NUC를 사용하는 Crestron Flex UC-B160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8GB |128GB|
+  |[Intel NUC를 사용하는 Crestron Flex UC-C160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8GB|128GB|
+  |[UC-PR(UC 프레젠테이션 송신기) 및 ASUS PC를 사용하는 Crestron Flex UC-MMX30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MMX30-T)|코어 i5/i7|8GB |128GB |
+  |[UC-PR(UC-PR) 및 ASUS PC를 사용하는 Crestron Flex UC-BX30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-BX30-T)|코어 i5/i7|8GB |128GB |
+  |[UC-PR(UC 프레젠테이션 송신기) 및 ASUS PC를 사용하는 Crestron Flex UC-CX100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T)|코어 i5/i7|8GB |128GB |
+  |[ASUS PC를 사용하는 Crestron Flex UC-B30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B30-T)|코어 i5/i7|8GB |128GB |
+   |[ASUS PC를 사용하는 Crestron Flex UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)|코어 i5/i7|8GB |128GB |
+   |[ASUS PC를 사용하는 Crestron Flex UC-M50-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M50-T)|코어 i5/i7|8GB |128GB |
+   |[ASUS PC를 사용하는 Crestron Flex UC-M70-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M70-T)|코어 i5/i7|8GB |128GB |
+   |[ASUS PC를 사용하는 Crestron Flex UC-MX50-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX50-T)|코어 i5/i7|8GB |128GB |
+   |[ASUS PC를 사용하는 Crestron Flex UC-MX70-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX70-T)|코어 i5/i7|8GB |128GB |
+   |Crestron FLEX UC-B30-T with Dell OPTIPLEX|Core i5|8GB|128GB|
+   |Crestron FLEX UC-Bx30-T with Dell OPTIPLEX|Core i5|8GB|128GB|
+   |Crestron FLEX UC-MM30-T with Dell OPTIPLEX|Core i5|8GB|128GB|
+   |Crestron FLEX UC-MMX30-T with Dell OPTIPLEX|Core i5|8GB|128GB|
+   |Crestron FLEX UC-M50-T with Dell OPTIPLEX|Core i5|8GB|128GB|
+   |Dell OPTIPLEX를 사용하는 Crestron FLEX UC-MX50-T|Core i5|8GB|128GB|
+   |Crestron FLEX UC-M70-T with Dell OPTIPLEX|Core i5|8GB|128GB|
+   |Dell OPTIPLEX를 사용하는 Crestron FLEX UC-MX70-T|Core i5|8GB|128GB|
+   |Crestron FLEX UC-C100-T with Dell OPTIPLEX|Core i5|8GB|128GB|
+   |Dell OPTIPLEX를 사용하는 Crestron FLEX UC-CX100-T|Core i5|8GB|128GB|
+  |[크레스트론 머큐리 미니 UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8GB |128GB |
+  |[Dell OptiPlex 7080 with Logitech TAP](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 |16GB |128GB|
   |[회의실 G2 용 HP Elite Slice](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8GB |128GB |
   |[ Microsoft Teams 룸과 HP Elite Slice G2 오디오 준비](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8GB |128GB |
-  |[Logitech TAP을 사용하여 HP 슬라이스 파트너 준비]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8GB|128GB| 
+  |[Logitech TAP을 사용하여 HP Slice Partner Ready]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8GB|128GB| 
   | Lenovo ThinkSmart Hub 500 |Core i5 |8GB |128GB |
   |[Lenovo ThinkSmart Hub](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8GB |128GB|
   |Lenovo ThinkSmart Core Kit |Core i5|8GB|128GB|
-  |[Intel NUC를 사용하여 Logitech Tap](https://www.logitech.com/product/microsoft-rooms)|Core i5|8GB |128GB |
+  |[Intel NUC를 사용하여 Logitech 탭](https://www.logitech.com/product/microsoft-rooms)|Core i5|8GB |128GB |
   |Logitech Tap 및 Intel Tiger Canyon NUC PC |Core i5|8GB|128GB|
-  |Lenovo Core Compute를 사용하여 Logitech TAP Console |Core i5|8GB|128GB|
-  |[Logitech Tap 및 Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8GB |128GB|
-  |[Lenovo ThinkSmart Tiny이 있는 Poly G10-T](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8GB | 128GB|
-  |Lenovo Thinksmart Core가 있는 Poly GC8 콘솔|Core i5|8GB|128GB|
-  |Dell Optiplex 7080이 있는 Poly GC8 콘솔|Core i5|8GB|128GB|
-  |[Intel NUC를 통해 Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8GB |128GB |
-  |[Intel NUC를 통해 Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8GB |128GB |
-  |[Intel NUC를 통해 Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8GB|128GB|
-  |[Intel NUC를 통해 Yealink MVC900](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|Core i5|8GB|128GB|
+  |Lenovo Core Compute를 사용하여 Logitech TAP 콘솔 |Core i5|8GB|128GB|
+  |[Logitech 탭 및 레노버 ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8GB |128GB|
+  |[Lenovo ThinkSmart Tiny을 사용하는 Poly G10-T](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8GB | 128GB|
+  |Lenovo Thinksmart Core를 사용하는 Poly GC8 콘솔|Core i5|8GB|128GB|
+  |Dell Optiplex 7080을 사용하는 Poly GC8 콘솔|Core i5|8GB|128GB|
+  |[Intel NUC를 사용하는 Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8GB |128GB |
+  |[Intel NUC를 사용하는 Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8GB |128GB |
+  |[Intel NUC를 사용하는 Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8GB|128GB|
+  |[Intel NUC를 사용하는 Yealink MVC900](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|Core i5|8GB|128GB|
   |[Yealink MVC 300 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc300II) |Core i5|8GB | 128GB|
   |[Yealink MVC400](https://www.yealink.com/product/microsoft-teams-room-system-mvc400)        |Core i5|8GB | 128GB|
   |[Yealink MVC 500 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc500II) |Core i5|8GB | 128GB|
@@ -121,7 +121,7 @@ Microsoft Teams 룸 크기로 확장할 수 있습니다. Teams 룸 크기 및 �
   |Surface Pro </br>(5G) |Core i5 |8 GB 혹은 4 GB |128GB 이상 |
   |Surface Pro 4 |Core i5 |8 GB 혹은 4 GB |128GB 이상 |
 
-- Surface Pro 장치에는 다음 도킹 스테이션 옵션 중 하나가 필요합니다.
+- Surface Pro 디바이스에는 다음 도킹 스테이션 옵션 중 하나가 필요합니다.
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
@@ -142,20 +142,20 @@ Microsoft Teams 룸 크기로 확장할 수 있습니다. Teams 룸 크기 및 �
 |[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7450.02 | &#x2714; |
 |[Aver VB130 카메라 사운드바](https://www.averusa.com/products/conference-camera/vb130) |0.0.7300.71 |
 |[Bose Video Bar VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
-|[Biamp Devio SCR-20CX Web-Based 마이크를 사용하여 회의 허브](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
-|[Tabletop 마이크를 사용하여 Biamp Devio SCR-20TX Web-Based 회의 허브](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
+|[천장 마이크를 사용하는 Biamp Devio SCR-20CX Web-Based 회의 허브](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
+|[Biamp Devio SCR-20TX Web-Based 탁상 마이크가 있는 회의 허브](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | 
 |[Huddly Canvas](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |
 |[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
 |[Huddly IQ 카메라](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
-|[Crestron UC-C100-T MTR 키트가 있는 Huddly L1 카메라](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) | Huddly L1 카메라: 1.2.1 </br> ASUS Tek Computer INC 9934 컴퓨팅 1.0.20.246 이상을 사용하여 Crestron UC-C100-T |
-|[Crestron UC-CX100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T) MTR-W 키트가 있는 Huddly L1 카메라 | Huddly L1 카메라: 1.2.9 </br> ASUS Tek Computer INC 9934 1.00.20.246 이상이 있는 Crestron UC-CX100-T |
-|Crestron UC-M70-T MTR 키트가 있는 Huddly L1 카메라 | Huddly L1 카메라: 1.2.1 </br> ASUS Tek Computer INC 9934 계산 1.0.20.246 이상을 사용하여 Crestron UC-M70-T |
-|Crestron UC-MX70-T MTR 키트가 있는 Huddly L1 카메라 | Huddly L1 카메라: 1.2.1 </br> ASUS Tek Computer INC 9934 컴퓨팅 1.0.20.246 이상을 사용하여 Crestron UC-MX70-T |
-|[Jabra Panacast3 카메라](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
-|[Jabra Panacast 50 Video Bar](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|1.13.7| &#x2714; |
-|[Lenovo ThinkSmart Cam Camera](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
+|[Crestron UC-C100-T MTR 키트를 사용하는 Huddly L1](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) 카메라 | 허들 L1 카메라: 1.2.1 </br> ASUS Tek Computer INC 9934 컴퓨팅 1.0.20.246 이상의 Crestron UC-C100-T |
+|[Crestron UC-CX100-T MTR-W](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T) 키트를 사용하는 Huddly L1 카메라 | 허들 L1 카메라: 1.2.9 </br> ASUS Tek Computer INC 9934 1.00.20.246 이상을 사용하는 Crestron UC-CX100-T |
+|Crestron UC-M70-T MTR 키트를 사용하는 Huddly L1 카메라 | 허들 L1 카메라: 1.2.1 </br> ASUS Tek Computer INC 9934 컴퓨팅 1.0.20.246 이상의 Crestron UC-M70-T |
+|Crestron UC-MX70-T MTR 키트를 사용하는 Huddly L1 카메라 | 허들 L1 카메라: 1.2.1 </br> ASUS Tek Computer INC 9934 컴퓨팅 1.0.20.246 이상을 사용하는 Crestron UC-MX70-T |
+|[Jabra Panacast3 Camera](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
+|[Jabra Panacast 50 비디오 바](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|1.13.7| &#x2714; |
+|[Lenovo ThinkSmart Cam 카메라](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
 |[Lenovo ThinkSmart Bar](https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/smart-collaboration/thinksmart/ThinkSmart-Bar/p/11SP1TSSDBR)|0.9.3|
 |Lenovo ThinkSmart Bar Expand XL|5.9.5|
 |[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
@@ -179,56 +179,58 @@ Microsoft Teams 룸 크기로 확장할 수 있습니다. Teams 룸 크기 및 �
 |[Poly Sync 60](https://www.poly.com/us/en/products/phones/sync/sync-60)|0.0.150.1671|
 |[Polycom Trio 8500 / 8800](https://www.polycom.com/voice-conferencing-solutions/conference-phones/trio.html)   |5.7.2.3205|
 |[Poly Trio C60](https://www.poly.com/us/en/products/phones/trio/trio-c60)  |5.9.5.3066|
-|[Poly Studio P15 비디오 표시줄](https://www.poly.com/us/en/products/video-conferencing/studio-p/studio-p15)|1.2.0.000287 |
+|[Poly Studio P15 비디오 모음](https://www.poly.com/us/en/products/video-conferencing/studio-p/studio-p15)|1.2.0.000287 |
 |[Poly Studio E70 카메라](https://www.poly.com/us/en/products/video-conferencing/studio/studio-e70)|1.1|
 |[EPOS SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc)   |2.0.12.0   |
 |[EPOS SP20](https://www.eposaudio.com/en/us/enterprise/products/sp-20-ml-142ee5ca-speakerphone-1000226)   |1.2.15   |
 |[EPOS SP30](https://www.eposaudio.com/en/us/enterprise/products/sp-30-78c0cecc-bluetooth-speakerphone-1000223)   |2.1.52  |
 |[EPOS SP30T](https://www.eposaudio.com/en/us/enterprise/products/sp-30t-b949fe9a-bluetooth-speakerphone-1000225)  |3.2.63  |
-|[EPOS 확장 80T + 2 확장 마이크](https://www.eposaudio.com/en/us/enterprise/products/expand-80t-bluetooth-speakerphone-1000203) |스피커폰 - 4.6.55 <br/> 확장 마이크 — 0.2.314|
+|[EPOS Expand 80T + 2 Extension Mics](https://www.eposaudio.com/en/us/enterprise/products/expand-80t-bluetooth-speakerphone-1000203) |Speakerphone — 4.6.55 <br/> 확장 마이크 — 0.2.314|
 |[EPOS 확장 캡처 5](https://www.eposaudio.com/en/us/enterprise/products/expand-capture-5-speakerphone-1000895)  |1.0.1|
-|[Extron DMP128 PLUS C V AT DSP System(DMP 128 Plus C AT, DMP 128 Plus C, DMP 128 Plus AT, DMP 128 Plus, DMP 128 FlexPlus C AT, DMP 128 FlexPlus C AT, DMP 128 FlexPlus C AT, DMP 128 FlexPlus C V AT)](https://www.extron.com/product/dmp128plus) | 1.08 |
-|[Extron DMP 64 PLUS C V AT DSP System(DMP 64 Plus C V AT, DMP 64 Plus C V, DMP 64 Plus C)](https://www.extron.com/product/dmp64plus) | 1.08|
+|[Extron DMP128 PLUS C V AT DSP System (DMP 128 Plus C V AT, DMP 128 Plus C AT, DMP 128 Plus C V, DMP 128 Plus C, DMP 128 Plus AT, DMP 128 Plus, DMP 128 FlexPlus C AT, DMP 128 FlexPlus C V AT)](https://www.extron.com/product/dmp128plus) | 1.08 |
+|[Extron DMP 64 PLUS C V AT DSP System(DMP 64 Plus C V AT, DMP 64 Plus C AT, DMP 64 Plus C V, DMP 64 Plus C)](https://www.extron.com/product/dmp64plus) | 1.08|
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK&trade;-510_7510-209)   |2.10.0   |
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
 |[Yamaha YVC-1000MS](https://uc.yamaha.com/products/conference-phones/usb-bluetooth/) |1.0.0 |
-|[Yamaha ADECIA 천장 솔루션](https://uc.yamaha.com/products/microphone-systems/adecia/)|1.2.0|
+|[야마하 아데시아 천장 솔루션](https://uc.yamaha.com/products/microphone-systems/adecia/)|1.2.0|
+|[Yamaha ADECIA 탁상 솔루션](https://uc.yamaha.com/products/adecia/adecia-tabletop/)|테이블 마이크의 경우 E1.2.0, 프로세서용 D1.2.0(V1.5.1과 동일한 콘텐츠 모두)|
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Yealink UVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30)| 105.420.0.11 |  &#x2714; |
-|[Yealink UVC34 올인원 비디오 표시줄](https://www.yealink.com/product/usb-videobar-uvc34) | 265.410.0.9 |
-|[Yealink UVC40 올인원 비디오 표시줄](https://www.yealink.com/product/usb-videobar-uvc40) |128.410.0.10|  
+|[Yealink UVC34 올인원 비디오 모음](https://www.yealink.com/product/usb-videobar-uvc34) | 265.410.0.9 |
+|[Yealink UVC40 올인원 비디오 모음](https://www.yealink.com/product/usb-videobar-uvc40) |128.410.0.10|  
 |[Yealink UVC84](https://www.yealink.com/product/camera-uvc84) |262.410.0.10|
 |[Yealink UVC86]( https://www.yealink.com/product/camera-uvc86) |151.410.0.5|
 |[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300)+</br></br> [Shure MXA 310 표 배열 마이크 ](https://www.shure.com/products/microphones/mxa310) | 4.1 |
 |[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) + </br></br> [Shshmxa 910 Intellimix 천장 배열 마이크](https://www.shure.com/products/microphones/mxa910) | 4.1|
-|[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300)+</br></br> [Shure MXA 310 테이블 배열 마이크 ](https://www.shure.com/products/microphones/mxa310) +</br></br> [MXN5W-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA310 테이블 배열 마이크: 4.1.41 </br> MXN5W-C 스피커: 1.0.4 |
-|[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) + </br></br> [Intellimix 천장 배열 마이크가 있는 Shure MXA 910](https://www.shure.com/products/microphones/mxa910) +</br></br> [MXN5W-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA910 천장 배열 마이크: 4.1.41 </br> MXN5W-C 스피커: 1.0.4 |
-|[Shure MXA 710 2ft 테이블 선형 배열 마이크](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) +</br></br> [MXN5-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft 테이블 선형 배열 마이크: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C 스피커: 1.1.1 |
-|[Shure MXA 710 4ft Wall 선형 배열 마이크](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) +</br></br> [MXN5-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft 벽 선형 배열 마이크: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C 스피커: 1.1.1 |
-|[Intellimix 천장 배열 마이크가 있는 Shure MXA 910](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Shure Intellimix Room Software: 3.0.4.14 </br> Intellimix 천장 배열 마이크가 있는 Shure MXA 910: 4.4.11 </br> Shure MXN5-C 스피커: 1.2.1 </br> ASUS Tek Computer INC 9934 계산을 사용하여 Crestron UC-C100-T | 
+|[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300)+</br></br> [Shure MXA 310 Table Array Mic ](https://www.shure.com/products/microphones/mxa310) +</br></br> [MXN5W-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA310 테이블 배열 마이크: 4.1.41 </br> MXN5W-C 스피커: 1.0.4 |
+|[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) + </br></br> [Intellimix Ceiling Array Mic를 사용하는 Shure MXA 910](https://www.shure.com/products/microphones/mxa910) +</br></br> [MXN5W-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA910 천장 배열 마이크: 4.1.41 </br> MXN5W-C 스피커: 1.0.4 |
+|[Shure MXA 710 2ft Table Linear Array 마이크](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) +</br></br> [MXN5-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft 테이블 선형 배열 마이크: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C 스피커: 1.1.1 |
+|[Shure MXA 710 4ft Wall Linear Array 마이크](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) +</br></br> [MXN5-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft 벽 선형 배열 마이크: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C 스피커: 1.1.1 |
+|[Intellimix 천장 배열 마이크가 있는 Shure MXA 910](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br> [크레스트론 UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Shure Intellimix Room Software: 3.0.4.14 </br> Intellimix 천장 배열 마이크가 있는 Shure MXA 910: 4.4.11 </br> Shure MXN5-C 스피커: 1.2.1 </br> ASUS Tek Computer INC 9934 컴퓨팅을 사용하는 Crestron UC-C100-T | 
 |[Intellimix 천장 배열 마이크가 있는 Shure MXA 910](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br>Lenovo ThinkSmart Core | Shure Intellimix Room Software: 3.2.0.52 </br> Intellimix 천장 배열 마이크가 있는 Shure MXA 910: 4.4.11 </br> Shure MXN5-C 스피커: 1.2.1 </br> Lenovo ThinkSmart Core: Windows IoT 19h2/20h2 OS 버전 |
-|[젠하이저 TeamConnect 지능형 스피커/TC ISP(T-Rock)](https://en-us.sennheiser.com/tcisp)|1.0.2|
+|[Sennheiser TeamConnect Intelligent Speaker/TC ISP(T-Rock)](https://en-us.sennheiser.com/tcisp)|1.0.2|
 |[Biamp Tesira Fore AVB VT4 고정 오디오 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect 천장 2 마이크](https://sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
-|[Biamp Tesira FORTÉ AVB VT4 오디오 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Biamp Parlé TCM-XA 천장 마이크](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Biamp Desono C-IC6 천장 탑재 라우드스피커](https://www.biamp.com/products/tesira-speakers)| 오디오 FW 버전: 3.15|
-|[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X(테이블 마이크)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UBT]() |오디오 FW 버전: 3.15|
+|[Biamp Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Biamp Parlé TCM-XA Ceiling 마이크](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Biamp Desono C-IC6 천장 탑재 라우드 스피커](https://www.biamp.com/products/tesira-speakers)| 오디오 FW 버전: 3.15|
+|[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X(Table Mic)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UBT]() |오디오 FW 버전: 3.15|
+|Biamp Tesira FORTE X 시리즈 +</br></br>[Devio SCX 시리즈](https://www.biamp.com/products/product-families/devio/medium-large-room-solutions#devio-scx-400)|Tesira FORTE X 시리즈: 4.2.5 </br> Devio SCX 시리즈: 4.2.5|
 |[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink 증폭기 +</br> Sennheiser TCC2 천장 마이크 + </br> Bose EdgeMax EM180 천장 스피커](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  |  |
 |[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink 증폭기 + 젠하이저 TCC2 천장 마이크 + </br> Bose DesignMax DM2C-P 천장 스피커](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  |  |
-|[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink 증폭기 +</br> [젠하이저 TCC2 천장 마이크](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [DesignMax DM2C -LP 천장 스피커](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  | 
-|[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink Amplifier+</br> [젠하이저 TCC2 천장 마이크](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [EdgeMax EM180 천장 스피커](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/edgemax/edgemax_em180.html#v=edgemax_em180_white) | Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  |
-|QSC Q-SYS Core([110f](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/), [8 Flex](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/), [Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/) 또는 [NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + </br> [젠하이저 TCC2 천장 마이크](https://en-us.sennheiser.com/tcc2) + </br> QSC 증폭기([SPA 시리즈](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/) 또는 [CX-Q 시리즈](https://www.qsc.com/solutions-products/power-amplifiers/installed/network/cx-q-series/)) + </br> [QSC AcousticDesign 시리즈 스피커](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/solutions/acousticdesigntm-series-solutions/) + </br> QSC IP 카메라([PTZ-IP 20x60](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/), [PTZ-IP 12x72](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)) 선택 사항 + </br> [QSC Q-SYS I/O USB Bridge 선택](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) 사항 | QSC Q-SYS Core, PTZ-IP 카메라 및 I/O USB 브리지: QSC Q-SYS Designer 9.0.1-2104.022 </br> 젠하이저 TCC2 천장 마이크: TCC2 - 1.5.1, Dante 1.2.0 </br> QSC 증폭기: N/A </br> QSC AcousticDesign 시리즈 라우드스피커: N/A | 
+|[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink 증폭기 +</br> [젠하이저 TCC2 천장 마이크](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [DesignMax DM2C -LP Ceiling Speaker](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  | 
+|[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink 증폭기+</br> [젠하이저 TCC2 천장 마이크](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [EdgeMax EM180 Ceiling Speaker](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/edgemax/edgemax_em180.html#v=edgemax_em180_white) | Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  |
+|QSC Q-SYS Core([110f](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/), [8 Flex](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/), [Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/) 또는 [NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + </br> [젠하이저 TCC2 천장 마이크](https://en-us.sennheiser.com/tcc2) + </br> QSC 증폭기([SPA 시리즈](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/) 또는 [CX-Q 시리즈](https://www.qsc.com/solutions-products/power-amplifiers/installed/network/cx-q-series/)) + </br> [QSC AcousticDesign 시리즈 스피커](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/solutions/acousticdesigntm-series-solutions/) + </br> QSC IP 카메라([PTZ-IP 20x60](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/), [PTZ-IP 12x72](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)) 선택 사항 + </br> [QSC Q-SYS I/O USB 브리지](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) 선택 사항 | QSC Q-SYS Core, PTZ-IP 카메라 및 I/O USB 브리지: QSC Q-SYS 디자이너 9.0.1-2104.022 </br> 젠하이저 TCC2 천장 마이크: TCC2 - 1.5.1, 단테 1.2.0 </br> QSC 증폭기: N/A </br> QSC AcousticDesign 시리즈 라우드 스피커: 해당 없음 | 
 
 
 &Dagger; 고객은 번들에서 Biamp/Sennheiser에서 권장하는 Dante 인터페이스 혹은 네트워크 스위치를 선택할 수 있습니다.
 
 #### <a name="usb-extenders"></a>USB 확장기
 
-- 태블릿 도킹의 USB 포트는 USB 3.0과 호환됩니다. USB 2.x 익스 연장 장치를 사용할 수 있지만 끝에는 USB 2.x 속도로 제한됩니다. USB 3.0 주변기기에는 확장기를 권장하지 않습니다.
+- 태블릿 도킹의 USB 포트는 USB 3.0과 호환됩니다. USB 2.x 확장기를 사용할 수 있지만 맨 끝에 있는 USB 2.x 속도로 제한됩니다. USB 3.0 주변기기에는 확장기를 권장하지 않습니다.
 - 확장기는 USB 2.0 이상 사양을 충족 해야 합니다.
   - 태블릿 도킹은 최소 두 단계의 외부 USB 허브 확장을 지원합니다. 연속적으로 두개 이상의 USB 허브를 연결하는 경우 도킹 제조사에 확인하여 시리즈 연결을 지원하는지 확인하세요.
   - 룸에 유선 GbE 연결. 충분한 길이의 이더넷 케이블.
-  - HDMI 연결을 사용하여 최대 2개의 1080p 디스플레이 충분한 길이의 HDMI 케이블.
+  - HDMI 연결이 있는 최대 2개의 1080p 디스플레이 충분한 길이의 HDMI 케이블.
 
 > [!NOTE]
 > 룸 전면에 사용되는 소비자의 TV는 대기 모드에서 자동으로 활성 비디오 소스로 전환 될 수 있도록 HDMI의 CEC(Consumer Consumer Control) 기능을 지원/설정 해야 합니다. 이 기능은 모든 TV에서 지원 되지 않습니다.
