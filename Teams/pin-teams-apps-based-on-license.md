@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c3112740ab2b25b0f0107823d41c5b5e2d68f0f
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 4f717672c4cb297d7f3d2e95ceaa038eeceaa2ee
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059309"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65187124"
 ---
 # <a name="tailor-teams-apps-for-your-frontline-workers"></a>최전방 직원을 위한 맞춤형 Teams 앱
 
@@ -29,7 +29,7 @@ ms.locfileid: "65059309"
 
 ## <a name="overview"></a>개요
 
-Teams 일선 작업자를 위한 앱을 쉽게 고정할 수 있는 방법을 제공합니다. 이 기능은 라이선스에 따라 앱을 고정하여 일선 작업자에게 요구 사항에 맞는 Teams 기본 제공 환경을 제공합니다.
+Teams 라이선스에 따라 앱을 고정하여 일선 근로자에게 요구 사항에 맞는 Teams 기본 제공 환경을 제공합니다. 
 
 맞춤형 최전방 앱 환경을 통해 최전방 작업자는 관리자에게 필요한 조치 없이 Teams 가장 관련성이 큰 앱을 얻을 수 있습니다.
 

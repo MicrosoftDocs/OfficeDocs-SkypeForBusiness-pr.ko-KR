@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45f663f2c75d12a21fe38c4bbc71e2b3d93d8247
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 205f0869e699384c9a37590db50e690b5b8bd804
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137129"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65186984"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 승인 앱 가용성
 
@@ -122,15 +122,29 @@ CDM(Common Data Model)은 Microsoft Dataverse의 비즈니스 및 분석 애플�
 
      :::image type="content" alt-text="는 승인 앱에 대한 세부 정보를 표시합니다." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
-## <a name="app-policies"></a>앱 정책
+## <a name="pin-approvals-to-teams"></a>Teams 승인 고정
 
-### <a name="retention-policy"></a>보존 정책
+### <a name="use-the-tailored-frontline-app-experience-to-pin-approvals-and-other-apps-to-teams"></a>맞춤형 최전방 앱 환경을 사용하여 승인 및 기타 앱을 Teams
+
+Teams 맞춤형 최전방 앱 환경은 [F 라이선스](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)가 있는 사용자를 위해 Teams 가장 관련성이 큰 앱을 고정합니다. 고정된 앱에는 승인, Walkie Talkie, 작업 및 교대 근무가 포함됩니다. 기본적으로 이 기능은 최전방 근로자에게 요구 사항에 맞는 기본 제공 환경을 제공합니다.
+
+앱은 사용자가 빠르고 쉽게 액세스할 수 있는 앱 바(Teams 데스크톱 클라이언트의 측면과 Teams 모바일 클라이언트의 아래쪽에 있는 막대)에 고정됩니다.
+
+설정한 앱 정책의 작동 방식을 포함하여 자세한 내용은 [최전방 작업자를 위한 Teams 앱 조정](pin-teams-apps-based-on-license.md)을 참조하세요.
+
+### <a name="use-an-app-setup-policy-to-pin-approvals-to-teams"></a>앱 설정 정책을 사용하여 승인 Teams 고정
+
+앱 설정 정책을 사용하면 사용자의 사용자에게 가장 중요한 앱을 고정하는 Teams 사용자 지정할 수 있습니다.
+
+사용자에 대한 승인 앱을 고정하려면 전역(조직 전체 기본값) 정책을 편집하거나 사용자 지정 앱 설정 정책을 만들고 할당할 수 있습니다. 자세한 내용은 [Teams에서 앱 설정 정책 관리](teams-app-setup-policies.md)를 참조하세요.
+
+## <a name="retention-policy"></a>보존 정책
 
 승인 앱에서 만든 승인 현재 백업을 지원하지 않는 기본 Microsoft Dataverse 환경에 저장됩니다. [환경을 백업 및 복원하는 방법에 대해 자세히 알아보세요. PowerPlatform \|Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
 양식에 저장된 데이터는 팀 소유자가 Microsoft Forms 웹앱의 **삭제된 양식** 탭에서 정리할 때까지 삭제되지 않습니다.
 
-### <a name="conditional-access-policies"></a>조건부 액세스 정책
+## <a name="conditional-access-policies"></a>조건부 액세스 정책
 
 현재 Teams 승인 앱은 Microsoft Teams 대해 설정된 조건부 액세스 정책을 지원하지 않습니다.
 

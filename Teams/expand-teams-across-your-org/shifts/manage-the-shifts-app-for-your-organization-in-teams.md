@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2dcc945795da34ed3045ffadbc55445303b48281
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 2cd0032291054e5a4c7ee8d9204d6173cdcdebdf
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137009"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65187004"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 교대 근무s 앱 관리
 
@@ -71,9 +71,19 @@ Shifts 데이터의 스토리지, 보존, 검색 및 암호화를 비롯한 Shif
 
 조직의 특정 사용자가 Shifts를 사용하도록 허용하거나 차단하려면 [앱 관리](../../manage-apps.md) 페이지에서 조직에 대해 Shifts가 켜져 있는지 확인합니다. 그런 다음 사용자 지정 앱 권한 정책을 만들고 해당 사용자에게 할당합니다. 자세한 내용은 [Teams에서 앱 권한 정책 관리](../../teams-app-permission-policies.md)를 참조하세요.
 
-### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>앱 설정 정책을 사용하여 shifts를 Teams 고정
+### <a name="pin-shifts-to-teams"></a>Teams 고정
 
-앱 설정 정책을 사용하면 Teams를 사용자 지정하여 조직의 사용자에게 가장 중요한 앱을 강조할 수 있습니다. 정책에 설정한 앱은 Teams 데스크톱 클라이언트의 측면&mdash;표시줄에 있는 앱 모음과 Teams 데스크톱 클라이언트의 하단에 고정되어 있어, &mdash;사용자가 빠르고 쉽게 액세스할 수 있습니다.
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-shifts-and-other-apps-to-teams"></a>맞춤형 최전방 앱 환경을 사용하여 Shifts 및 기타 앱을 Teams
+
+Teams 맞춤형 최전방 앱 환경은 [F 라이선스](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)가 있는 사용자를 위해 Teams 가장 관련성이 큰 앱을 고정합니다. 고정된 앱에는 교대 근무, 워키 토키, 작업 및 승인 포함됩니다. 기본적으로 이 기능은 최전방 근로자에게 요구 사항에 맞는 기본 제공 환경을 제공합니다.
+
+앱은 사용자가 빠르고 쉽게 액세스할 수 있는 앱 바(Teams 데스크톱 클라이언트의 측면과 Teams 모바일 클라이언트의 아래쪽에 있는 막대)에 고정됩니다.
+
+설정한 앱 정책의 작동 방식을 포함하여 자세한 내용은 [최전방 작업자를 위한 Teams 앱 조정](../../pin-teams-apps-based-on-license.md)을 참조하세요.  
+
+#### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>앱 설정 정책을 사용하여 shifts를 Teams 고정
+
+앱 설정 정책을 사용하면 Teams 사용자 지정하여 사용자에게 가장 중요한 앱을 고정할 수 있습니다.
 
 Shifts 앱을 추가하여 [사용자 지정 앱 설정 정책을](../../teams-app-setup-policies.md) 만든 다음 사용자에게 [정책을 할당](../../assign-policies-users-and-groups.md) 할 수 있습니다. 또는 Frontline Worker 및 Frontline Manager 정책 패키지의 일부인 앱 설정 정책을 사용할 수 있습니다.
 

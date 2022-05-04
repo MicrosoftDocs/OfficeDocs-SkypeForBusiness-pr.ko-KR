@@ -21,12 +21,12 @@ MS.collection:
 - microsoftcloud-retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4d410d643dcf0c3753e87fa03e4040812dd9a5a
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 051ea9a68cda344cf10bc297c84b3cbda6e61437
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137039"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65186994"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 작업 앱 관리
 
@@ -37,7 +37,7 @@ ms.locfileid: "65137039"
 > [!NOTE]
 > Teams 데스크톱 클라이언트에 작업 환경을 제공하면, 처음에는 앱 이름이 사용자에게 **Planner** 로 표시됩니다. 그런 다음 **Planner 및 할 일별 작업** 으로 이름이 일시적으로 변경됩니다. 나중에는 **작업** 으로 다시 변경됩니다. Teams 모바일 클라이언트에서 사용자는 항상 앱 이름을 **작업** 으로 보게 됩니다. 데스크톱 환경을 사용할 수 있는 후 모바일 환경의 가용성이 잠시 지연될 수 있습니다.
 
-   ![Teams 목록의 작업 목록 보기 스크린샷](media/manage-tasks-app-tasks.png)
+:::image type="content" source="media/manage-tasks-app-tasks.png" alt-text="작업 목록 보기의 스크린샷" lightbox="media/manage-tasks-app-tasks.png":::
 
 일선 작업자의 작업 관리를 간소화하려는 조직을 위해, 작업에도 일선 작업자 전반에서 작업을 대상으로 비율 관련 지정, 게시 및 추적할 수 있는 기능이 포함되어 있습니다. 예를 들어, 기업 및 지역 리더십은 특정 소매점과 같은 관련 위치를 대상으로 하는 작업 목록을 만들어 게시하고 실시간 보고서를 통해 진행 상황을 추적할 수 있습니다. 관리자는 직원들의 위치 내에서 작업을 할당하고 직접 작업을 할당할 수 있으며, 일선 작업자는 모바일 또는 데스크톱에서 할당된 작업에 대한 우선 순위를 소유합니다. [작업 게시](#task-publishing)를 사용하도록 설정하려면 먼저 계층 구조의 모든 팀이 서로 관련되는 방식을 정의하는 조직의 계층 구조를 대상으로 하는 팀을 설정합니다.
 
@@ -75,9 +75,19 @@ ms.locfileid: "65137039"
 
 조직의 특정 사용자가 작업을 사용할 수 있도록 허용하거나 차단하려면, [앱 관리](manage-apps.md) 페이지에서 조직에 대해 작업이 켜져 있는지 확인한 다음 사용자 지정 앱 사용 권한 정책을 만들어 해당 사용자에게 할당합니다. 자세한 내용은 Teams 에서 [앱 사용 권한 정책 관리](teams-app-permission-policies.md)를 참조하세요.
 
-### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>앱 설치 정책을 사용하여 Teams에 작업 고정
+### <a name="pin-tasks-to-teams"></a>작업을 Teams 고정
 
-앱 설정 정책을 사용하면 Teams를 사용자 지정하여 조직의 사용자에게 가장 중요한 앱을 강조할 수 있습니다. 정책에서 설정한 앱은 사용자가 빠르고 쉽게 액세스할 수 있는 앱 바(Teams 데스크톱 클라이언트의 측면과 Teams 모바일 클라이언트의 맨 아래에 있는 막대)에 고정됩니다.
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-tasks-and-other-apps-to-teams"></a>맞춤형 최전방 앱 환경을 사용하여 작업 및 기타 앱을 Teams
+
+Teams 맞춤형 최전방 앱 환경은 [F 라이선스](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)가 있는 사용자를 위해 Teams 가장 관련성이 큰 앱을 고정합니다. 고정된 앱에는 작업, 워키 토키, 교대 근무 및 승인 포함됩니다. 기본적으로 이 기능은 최전방 근로자에게 요구 사항에 맞는 기본 제공 환경을 제공합니다.
+
+앱은 사용자가 빠르고 쉽게 액세스할 수 있는 앱 바(Teams 데스크톱 클라이언트의 측면과 Teams 모바일 클라이언트의 아래쪽에 있는 막대)에 고정됩니다.
+
+설정한 앱 정책의 작동 방식을 포함하여 자세한 내용은 [최전방 작업자를 위한 Teams 앱 조정](pin-teams-apps-based-on-license.md)을 참조하세요.
+
+#### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>앱 설치 정책을 사용하여 Teams에 작업 고정
+
+앱 설정 정책을 사용하면 사용자의 사용자에게 가장 중요한 앱을 고정하는 Teams 사용자 지정할 수 있습니다.
 
 사용자에 대해 작업 앱을 고정하려면, 전역(Org-wide 기본값) 정책을 편집하거나 사용자 지정 앱 설정 정책을 만들고 할당할 수 있습니다. 자세한 내용은 [Teams에서 앱 설정 정책 관리](teams-app-setup-policies.md)를 참조하세요.
 
@@ -92,12 +102,13 @@ ms.locfileid: "65137039"
 작업 게시를 통해 조직은 조직 전체의 특정 위치(팀)를 대상으로 하는 작업 목록을 게시하여 해당 위치에서 완료할 작업 계획을 정의하고 공유할 수 있습니다.
 
 - 회사 또는 지역 리더십과 같은 게시 팀의 사람들은 작업 목록을 만들어 특정 팀에 게시할 수 있습니다.
-    ![작업 게시 스크린샷](media/manage-tasks-app-publish.png)
+
+    :::image type="content" source="media/manage-tasks-app-publish.png" alt-text="작업 게시 스크린샷" lightbox="media/manage-tasks-app-publish.png":::
 - 받는 팀의 관리자는 게시된 작업 목록을 검토하고 팀 구성원에게 개별 작업을 할당할 수 있습니다.
-    ![작업 할당 스크린샷](media/manage-tasks-app-assign.png)
+    :::image type="content" source="media/manage-tasks-app-assign.png" alt-text="작업 할당 스크린샷" lightbox="media/manage-tasks-app-assign.png":::
 - 일선 작업자는 자신에게 할당된 작업을 모는 간단한 모바일 환경을 소유합니다. 적절한 경우 사진을 첨부하여 작업을 표시하고 작업을 완료로 표시할 수 있습니다.
 - 게시자 및 관리자는 보고서를 보고 위치(팀), 작업 목록, 개별 작업 등 각 수준에서 작업의 배정 및 완료 상태를 확인할 수 있습니다.
-    ![모바일에서 할당된 작업의 스크린샷.](media/manage-tasks-app-reporting.png)
+    :::image type="content" source="media/manage-tasks-app-reporting.png" alt-text="게시된 작업의 스크린샷." lightbox="media/manage-tasks-app-reporting.png":::
 
 사용자는 작업 탭의 **게시된 목록** 탭에서 작업 목록을 만들고 관리하고 게시합니다. 이 탭은 조직에서 [계층 구조 대상 설정하고](#set-up-your-team-targeting-hierarchy) 사용자가 계층 구조에 포합된 팀에 있는 경우 사용자에게만 표시됩니다. 계층 구조에 따라 사용자가 작업 목록을 게시하거나 받을 수 있는지와 받은 목록에 대한 보고를 볼 수 있는지가 결정됩니다.
 

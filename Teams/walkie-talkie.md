@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c19894106dfd06c13ec9936657837aa42fcdade0
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 776f0f31d54788fbffd86bbcbedd44e30ada28a3
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "62015018"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65186974"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 워키 토키 앱
 
@@ -35,23 +35,25 @@ Teams 워키 토키(Walkie Talkie)를 통해 일선 직원들은 이제 부피�
 
 ### <a name="deploying-walkie-talkie"></a>워키 토키 배포
 
-Walkie Talkie는 GOOGLE Mobile Services(GMS) 및 iOS 디바이스를 사용하는 Android 디바이스에서 지원됩니다. 
+Walkie Talkie는 GOOGLE Mobile Services(GMS) 및 iOS 디바이스를 사용하는 Android 디바이스에서 지원됩니다.
 
-현재 Walkie Talkie는 사전 설치되어 있지 않습니다. 조직의 사용자에 대해 이 기능을 사용하도록 설정하려면 Teams [관리 센터의](https://admin.teams.microsoft.com/) 사용자에게  [할당된App 설치 정책에](teams-app-setup-policies.md)  Walkie Talkie를 추가해야 합니다. 활성화되면 Walkie Talkie는 48시간 이내에 앱에서 사용할 수 있게 됩니다.
+### <a name="pin-walkie-talkie-to-teams"></a>Teams 워키 토키 고정
 
-### <a name="adding-walkie-talkie-to-your-app-list"></a>앱 목록에 Walkie Talkie 추가
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams"></a>맞춤형 최전방 앱 환경을 사용하여 Walkie Talkie 및 기타 앱을 Teams
 
-Microsoft Teams 관리 센터의 **Teams** **appSetup** >  정책에서 **사용자 고정 허용을** **켜** 기로 설정해야 합니다. 그런 다음 고정된 앱 섹션에서 **+앱 추가** 를 클릭합니다.
+Teams 맞춤형 최전방 앱 환경은 [F 라이선스](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)가 있는 사용자를 위해 Teams 가장 관련성이 큰 앱을 고정합니다. 고정된 앱에는 Walkie Talkie, 교대 근무, 작업 및 승인 포함됩니다. 기본적으로 이 기능은 최전방 근로자에게 요구 사항에 맞는 기본 제공 환경을 제공합니다.
 
-:::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="고정된 앱 섹션 및 선택할 앱 추가 단추를 표시합니다.":::
+앱은 사용자가 빠르고 쉽게 액세스할 수 있는 앱 바(Teams 데스크톱 클라이언트의 측면과 Teams 모바일 클라이언트의 아래쪽에 있는 막대)에 고정됩니다.
 
-오른쪽에 표시되는 **고정된 앱 추가** 패널에서 **검색** 텍스트 상자를 사용하여 Walkie Talkie를 찾습니다. 검색 결과로 표시되면 이름 오른쪽에 있는 **추가** 단추를 선택하여 목록에 추가합니다.
+설정한 앱 정책의 작동 방식을 포함하여 자세한 내용은 [최전방 작업자를 위한 Teams 앱 조정](pin-teams-apps-based-on-license.md)을 참조하세요.
 
-:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="검색 창에 Walkie가 입력된 고정된 앱 추가 사이드바와 그 옆에 추가 단추가 있는 Walkie Talkie 앱이 검색 결과에 표시됩니다.":::
+#### <a name="use-an-app-setup-policy-to-pin-walkie-talkie-to-teams"></a>앱 설정 정책을 사용하여 Walkie Talkie를 Teams 고정
 
-이제 고정된 앱 목록에 Walkie Talkie 앱이 표시되고 **저장** 단추를 클릭하면 사용할 수 있습니다.
+앱 설정 정책을 사용하면 사용자의 사용자에게 가장 중요한 앱을 고정하는 Teams 사용자 지정할 수 있습니다.
 
-:::image type="content" source="media/deploy-walkie-talkie-3.png" alt-text="Walkie Talkie 앱이 추가된 고정된 앱 목록과 목록 아래에 저장 단추를 표시합니다.":::
+사용자를 위해 Walkie Talkie 앱을 고정하려면 전역(조직 전체 기본값) 정책을 편집하거나 사용자 지정 앱 설정 정책을 만들고 할당할 수 있습니다. 자세한 내용은 [Teams에서 앱 설정 정책 관리](teams-app-setup-policies.md)를 참조하세요.
+
+:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="고정된 앱 추가 창의 고정된 앱 목록에 Walkie Talkie를 추가하는 스크린샷" lightbox="media/deploy-walkie-talkie-2.png":::
 
 ### <a name="network-documentation"></a>네트워크 설명서
 

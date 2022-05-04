@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리자는 Microsoft Teams 룸 누적 개선 사항을 나열하는 Microsoft Teams 룸 대한 릴리스 정보를 읽을 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ff29da1f78c39163dbb8262e1a94687dad6c4aac
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: f91c286f08046d1a521d3758f1fc297bf2aa0d59
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125713"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65187024"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 룸 대한 릴리스 정보
 
@@ -230,7 +230,7 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 
 - Teams 모임 참가자에게 HDMI 오디오 공유
 - 음성 기술 Cortana(미리 보기)
-- Teams 회의실이 참석자로 참가할 때 오디오 권한에 따라 음소거 해제를 방지합니다. 자세한 내용은 [Teams 모임에서 참석자 오디오 권한 관리를 참조하세요](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
+- Teams 룸 참석자로 참가할 때 오디오 권한에 따라 음소거 해제를 방지합니다. 자세한 내용은 [Teams 모임에서 참석자 오디오 권한 관리를 참조하세요](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
 - Teams 룸 콘솔에서 다른 사람의 비디오를 조명하고 객실 디스플레이에서 스포트라이트 비디오를 사용합니다.
 
 > [!NOTE]
