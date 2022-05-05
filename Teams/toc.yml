@@ -331,8 +331,6 @@ items:
         href: using-admin-roles.md
       - name: Teams 관리 센터에서 팀 관리
         href: manage-teams-in-modern-portal.md
-      - name: 조직의 Teams 설정 관리
-        href: enable-features-office-365.md
       - name: 정책 관리
         items:
           - name: 개요
@@ -349,6 +347,8 @@ items:
             href: manage-policy-packages.md
       - name: 조직 외부의 사용자와 작업
         items:
+          - name: Teams를 사용하여 파일 공유 및 공동 작업 보호
+            href: /microsoft-365/solutions/setup-secure-collaboration-with-teams?wt.mc_id=TeamsTOCSecureCollab001
           - name: 다른 조직의 사용자와 의사 소통
             href: communicate-with-users-from-other-organizations.md
           - name: 외부 액세스(페더레이션)
