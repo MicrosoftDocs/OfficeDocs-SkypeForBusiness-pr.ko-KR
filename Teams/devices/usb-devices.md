@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 'Microsoft Teams 위해 인증된 USB 주변 장치 및 장치(예: 헤드셋, 스피커폰, 웹캠 및 모니터)를 확인합니다.'
-ms.openlocfilehash: ee6f3c2634b44c4c510deb2c7a50818f6bc5ef7c
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 272d0c0eb1b3885da9a313666c8eac2d7bb09fe0
+ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059219"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65217922"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams 인증된 USB 오디오 및 비디오 장치
 
@@ -74,13 +74,16 @@ Teams 통화 제어 지원에 대한 자세한 내용은 [Teams 헤드셋을 사
 
 ## <a name="certified-devices"></a>인증된 디바이스
 
-*테이블 업데이트 날짜: 2022년 4월*
+*2022년 5월 업데이트된 테이블*
 
 > [!NOTE]
 > 날짜 형식은 MMDDYYYY입니다.
 
 | 제조업체        | 모델                                                     | 자격      | 인증된 프로그램                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Yealink              |UH38 헤드셋                                               |5/2/2022        |Microsoft Teams 인증                           |   
+|Yealink              |BH72 헤드셋                                               |5/2/2022        |Microsoft Teams 인증                           |
+|로지텍             |영역 True 무선 이어버드                                 |5/2/2022        |Microsoft Teams 인증                           |
 |레 노 버               |무선 ANC 헤드셋 이동                                    |4/11/2022       |Microsoft Teams 인증                           |
 |EPOS                 |ADAPT 661                                                  |3/11/2022       |Microsoft Teams 인증                           |
 |EPOS                 |ADAPT 461T                                                 |3/11/2022       |Microsoft Teams 인증                           |

@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 도출하기 위해 Microsoft Teams 인증된 책상 및 전화 회의 전화기를 알아봅니다.
-ms.openlocfilehash: 97be4ba35a480872e36113926c1f45c1ccd955aa
-ms.sourcegitcommit: 9f7372f7568b4275169590510d2b7a0c0ad7577b
+ms.openlocfilehash: 6a17faead9926ea6a7a7475eb867804d974f700e
+ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "65171714"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65217942"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>인증된 Android 디바이스 Microsoft Teams
 
@@ -141,6 +141,7 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 | 디바이스 모델  | 펌웨어 버전  | 포함된 제품 릴리스  |
 |:----------------|:--------------|:----------------------------|
+|Audiocodes C470HD  | `1.17.561` | 2022년 업데이트 #1C |
 |Yealink MP54/MP56/MP58   | `122.15.0.80`     | 2022년 업데이트 #2A  |
 |Yealink MP52 | `145.15.0.28`  | 2022년 업데이트 #2A         |
 |Audiocodes C470HD  | `1.17.558` | 2022년 업데이트 #1C   |
@@ -240,6 +241,8 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 | 디바이스 모델  | 펌웨어 버전 | 포함된 제품 릴리스 |
 |:--------------|:-----------------|:-------------------------|
+| 로지 랠리바 미니   |   `1.6.272`   | 2022년 업데이트 #1  |
+| 로지 랠리바    |   `1.6.272`   | 2022년 업데이트 #1   |
 | 로지 룸메이트 |   `1.5.705`   | 2022년 업데이트 #1    |
 | 로지 랠리바 미니   |   `1.5.705`   | 2022년 업데이트 #1    |
 | 로지 랠리바    |   `1.5.705`   | 2022년 업데이트 #1    |
@@ -328,6 +331,7 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 | 디바이스 모델  | 펌웨어 버전 | 포함된 제품 릴리스|
 |:--------------|:-----------------|:-------------------------|
+|Logitech Tap Scheduler | `1.6.215` |2022년 업데이트 #1A  |
 |크레스트론 터치패널 /770-T/1070-T | `1.006.0046 ` | 2022년 업데이트 #1|
 |Yealink RoomPanel | ` 147.15.0.30 ` | 2022년 업데이트 #1 |
 |Crestron -TSS770  | `1.004.0115` |2021년 업데이트 #1 |

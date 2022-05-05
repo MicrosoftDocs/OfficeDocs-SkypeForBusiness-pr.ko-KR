@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 조직의 사용자에 대한 Teams Bookings 앱을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: aab7ce7a4813d851574f9a5796f5ce21d44774ff
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
+ms.openlocfilehash: 5740da885fb271af212ba755d7db0228a996b429
+ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853069"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65217932"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Microsoft Teams Bookings 앱 관리
 
@@ -41,7 +41,7 @@ Microsoft Teams Bookings 앱은 직접 약속 및 가상 약속을 예약하는 
 
 * Exchange 사서함이 Exchange Online 있습니다. 온-프레미스 Exchange Server 사서함은 지원되지 않습니다.
 * Microsoft Bookings 조직에 사용할 수 있습니다.
-* 사용자에게 적절한 라이선스가 있습니다. Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, E5, F1, F3 및 Business Standard가 지원됩니다.
+* 사용자에게 적절한 라이선스가 있습니다. Office 365 A3, A5, E1, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, E5, F1, F3 및 Business Standard가 지원됩니다.
 * Bookings 앱의 모든 사용자와 모임에 참여하는 모든 직원에게는 Teams 모임 일정을 지원하는 라이선스가 있습니다.
 * [소프트웨어 및 브라우저 필수 구성 요소입니다](hardware-requirements-for-the-teams-app.md).
 
