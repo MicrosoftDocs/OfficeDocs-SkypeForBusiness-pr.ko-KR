@@ -431,34 +431,30 @@ items:
         href: FAQ-support-remote-workforce.md
       - name: 보고서
         items:
-          - name: Microsoft 365 관리 센터의 활동 보고서
-            href: teams-activity-reports.md
-          - name: Teams 관리 센터의 분석 및 보고서
-            items:
-              - name: 개요
-                href: teams-analytics-and-reports/teams-reporting-reference.md
-              - name: Teams 사용 현황 보고서
-                href: teams-analytics-and-reports/teams-usage-report.md
-              - name: Teams 사용자 작업 보고서
-                href: teams-analytics-and-reports/user-activity-report.md
-              - name: Teams 앱 사용 현황 보고서
-                href: teams-analytics-and-reports/app-usage-report.md
-              - name: Teams 장치 사용 현황 보고서
-                href: teams-analytics-and-reports/device-usage-report.md
-              - name: PSTN으로 차단된 사용자 보고서
-                href: teams-analytics-and-reports/pstn-blocked-users-report.md
-              - name: PSTN 통화 시간 풀(분) 보고서
-                href: teams-analytics-and-reports/pstn-minute-pools-report.md
-              - name: PSTN 사용 현황 보고서
-                href: teams-analytics-and-reports/pstn-usage-report.md
-              - name: Teams 오디오 회의 전화 걸기 사용 현황 보고서
-                href: audio-conferencing-dial-out-usage-report.md
-              - name: Teams 라이브 이벤트 사용 현황 보고서
-                href: teams-analytics-and-reports/teams-live-event-usage-report.md
-              - name: Teams 정보 보호 라이선스 보고서
-                href: teams-analytics-and-reports/information-protection-license-report.md
-              - name: Teams 가상 방문 사용 현황 보고서
-                href: teams-analytics-and-reports/virtual-visits-usage-report.md
+          - name: 개요
+            href: teams-analytics-and-reports/teams-reporting-reference.md
+          - name: Teams 사용 현황 보고서
+            href: teams-analytics-and-reports/teams-usage-report.md
+          - name: Teams 사용자 작업 보고서
+            href: teams-analytics-and-reports/user-activity-report.md
+          - name: Teams 앱 사용 현황 보고서
+            href: teams-analytics-and-reports/app-usage-report.md
+          - name: Teams 장치 사용 현황 보고서
+            href: teams-analytics-and-reports/device-usage-report.md
+          - name: PSTN으로 차단된 사용자 보고서
+            href: teams-analytics-and-reports/pstn-blocked-users-report.md
+          - name: PSTN 통화 시간 풀(분) 보고서
+            href: teams-analytics-and-reports/pstn-minute-pools-report.md
+          - name: PSTN 사용 현황 보고서
+            href: teams-analytics-and-reports/pstn-usage-report.md
+          - name: Teams 오디오 회의 전화 걸기 사용 현황 보고서
+            href: audio-conferencing-dial-out-usage-report.md
+          - name: Teams 라이브 이벤트 사용 현황 보고서
+            href: teams-analytics-and-reports/teams-live-event-usage-report.md
+          - name: Teams 정보 보호 라이선스 보고서
+            href: teams-analytics-and-reports/information-protection-license-report.md
+          - name: Teams 가상 방문 사용 현황 보고서
+            href: teams-analytics-and-reports/virtual-visits-usage-report.md
       - name: '로그 파일, 서비스 상태 및 지원'
         items:
           - name: 로그 파일을 사용하여 Teams 모니터링 및 문제 해결
