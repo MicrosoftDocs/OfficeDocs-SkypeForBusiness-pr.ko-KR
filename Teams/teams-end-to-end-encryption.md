@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 202aee527896b331a6c8e64e1fc8736fa4942ecb
-ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
+ms.openlocfilehash: d5865494b94c280295d13e0f99303bc76d1fc274
+ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63388192"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65249010"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>일대일 Microsoft Teams 통화에 엔드투엔드 암호화 사용
 
@@ -79,13 +79,13 @@ E2EE 통화 중에는 다음 고급 기능을 사용할 수 없습니다.
 
 1. Teams 또는 전역 관리자 역할이 할당된 회사 또는 학교 계정을 사용하여 [Teams 관리 센터](https://admin.teams.microsoft.com/)에 로그인합니다.
 
-2. **기타 설정** > **암호화 정책** 으로 이동합니다.
+2. **향상된 암호화 정책** 으로 이동합니다.
 
 3. 기본 정책을 선택하거나 **추가** 를 선택하고 새 정책을 추가한 다음 새 정책의 이름을 지정합니다.
 
-4. 사용자에 대해 엔드투엔드 암호화를 사용하도록 설정하려면 **엔드투엔드 통화 암호화** 에서 **사용자가 켤 수 있음** 을 선택한 다음 **저장** 을 선택합니다.
+4. 사용자가 엔드투엔드 암호화를 사용하도록 하려면 **엔드투엔드 호출 암호화** 에서 **사용자 재정의 사용 안 함** 을 선택한 다음 **저장** 을 선택합니다.
 
-   엔드투엔드 암호화를 사용하지 않도록 설정하려면 **모든 사용자에 대해 끄기** 를 선택합니다.
+   엔드투엔드 암호화를 사용하지 않으려면 **사용 안 함** 을 선택합니다.
 
 정책 설정을 완료한 후에는 다른 Teams 정책을 관리하는 것과 동일한 방식으로 사용자, 그룹 또는 전체 테넌트에게 정책을 할당합니다. Teams에서 정책을 사용하는 방법에 대한 자세한 내용은 [정책으로 Teams 관리](manage-teams-with-policies.md)를 참조하세요.
 
