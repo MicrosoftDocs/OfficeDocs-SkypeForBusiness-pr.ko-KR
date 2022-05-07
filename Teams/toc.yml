@@ -349,11 +349,11 @@ items:
         items:
           - name: Teams를 사용하여 파일 공유 및 공동 작업 보호
             href: /microsoft-365/solutions/setup-secure-collaboration-with-teams?wt.mc_id=TeamsTOCSecureCollab001
-          - name: 다른 조직의 사용자와 의사 소통
+          - name: 조직 외부 사용자와 공동 작업
             href: communicate-with-users-from-other-organizations.md
-          - name: 외부 액세스(페더레이션)
+          - name: 외부 모임 및 채팅
             items:
-              - name: 외부 액세스 관리
+              - name: 외부 모임 및 채팅 관리
                 href: manage-external-access.md
               - name: 기본 Teams 채팅
                 href: native-chat-for-external-users.md
