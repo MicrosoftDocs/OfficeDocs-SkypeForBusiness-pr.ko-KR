@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bcb26d86e9b95ee629c252ea7cec25fc5f3eaf4
-ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
+ms.openlocfilehash: 222ea1852ef4336c21cfb24c977c20665a667ff3
+ms.sourcegitcommit: 9968ef7d58c526e35cb58174db3535fd6b2bd1db
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "64885006"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "65284073"
 ---
 # <a name="configure-operator-connect"></a>운영자 연결 구성
 
@@ -104,52 +104,51 @@ Teams 관리 센터에서 연산자를 사용, 편집 및 제거할 수 있습�
 
 #### <a name="step-1---remove-existing-direct-routing-numbers"></a>1단계 - 기존 직접 라우팅 번호를 제거합니다.
 
-기존 직접 라우팅 번호를 제거하는 방법은 숫자가 온-프레미스 또는 온라인인지에 따라 달라집니다. 확인하려면 다음 명령을 실행합니다.
+기존 직접 라우팅 번호를 제거하는 방법은 숫자가 온-프레미스 또는 온라인인지에 따라 달라집니다. 확인하려면 다음 Teams PowerShell 모듈 명령을 실행합니다.
     
 ```PowerShell
-Get-CsOnlineUser -Identity <user> | fl RegistrarPool,OnPremLineURIManuallySet, OnPremLineURI, LineURI 
+Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
 ```
 
-E.164 전화 번호로 설정 `False` 되고 `LineUri` E.164 전화 번호로 채워진 경우 `OnPremLineUriManuallySet` 전화 번호가 온-프레미스에 할당되고 Office 365 동기화됩니다.
+E.164 전화 번호로 채워진 경우 `OnPremLineUri` 전화 번호가 온-프레미스에 할당되고 Office 365 동기화됩니다.
     
-**온-프레미스에 할당된 직접 라우팅 번호를 제거하려면** 다음 명령을 실행합니다.
+**온-프레미스에 할당된 직접 라우팅 번호를 제거하려면** 다음 비즈니스용 Skype 서버 PowerShell 명령을 실행합니다.
     
 ```PowerShell
 Set-CsUser -Identity <user> -LineURI $null 
 ```
 
-제거가 적용되는 데 걸리는 시간은 구성에 따라 달라집니다. 온-프레미스 번호가 제거되고 변경 내용이 동기화되었는지 확인하려면 다음 PowerShell 명령을 실행합니다. 
+제거가 적용되는 데 걸리는 시간은 구성에 따라 달라집니다. 온-프레미스 번호가 제거되고 변경 내용이 동기화되었는지 확인하려면 다음 Teams PowerShell 모듈 명령을 실행합니다. 
     
 ```PowerShell
-Get-CsOnlineUser -Identity <user> | fl RegistrarPool,OnPremLineURIManuallySet, OnPremLineURI, LineURI 
+Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
 ```
        
 변경 내용이 Office 365 온라인 디렉터리에 동기화된 후 예상되는 출력은 다음과 같습니다. 
        
  ```console
 RegistrarPool                        : pool.infra.lync.com
- OnPremLineURIManuallySet             : True
- OnPremLineURI                        : 
+OnPremLineURI                        : 
 LineURI                              : 
 ```
 
-<br> **온라인으로 할당되는 기존 온라인 직접 라우팅 번호를 제거하려면** 다음 PowerShell 명령을 실행합니다.
+<br> **온라인으로 할당된 기존 온라인 직접 라우팅 번호를 제거하려면** 다음 Teams PowerShell 모듈 명령을 실행합니다.
 
 
 ```PowerShell
 Remove-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <pn> -PhoneNumberType DirectRouting
 ```
 
-전화 번호를 제거하는 데 최대 10분이 걸릴 수 있습니다. 드문 경우이지만 최대 24시간이 걸릴 수 있습니다. 온-프레미스 번호가 제거되고 변경 내용이 동기화되었는지 확인하려면 다음 PowerShell 명령을 실행합니다. 
+전화 번호를 제거하는 데 최대 10분이 걸릴 수 있습니다. 드문 경우이지만 최대 24시간이 걸릴 수 있습니다. 전화 번호가 제거되었는지 확인하려면 다음 Teams PowerShell 모듈 명령을 실행합니다. 
 
 
 ```PowerShell
-Get-CsOnlineUser -Identity <user> | fl Number
+Get-CsOnlineUser -Identity <user> | fl LineUri
 ```
 
 #### <a name="step-2---remove-the-online-voice-routing-policy-associated-with-your-user"></a>2단계 - 사용자와 연결된 온라인 음성 라우팅 정책 제거
 
-번호가 할당되지 않으면 다음 PowerShell 명령을 실행하여 사용자와 연결된 온라인 음성 라우팅 정책을 제거합니다.
+번호가 할당되지 않으면 다음 Teams PowerShell 모듈 명령을 실행하여 사용자와 연결된 온라인 음성 라우팅 정책을 제거합니다.
 
 ```PowerShell
 Grant-CsOnlineVoiceRoutingPolicy -Identity <user> -PolicyName $Null
