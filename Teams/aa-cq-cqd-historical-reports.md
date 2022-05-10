@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 통화 품질 대시보드 Power BI 보고서를 사용하여 자동 전화 교환 및 통화 큐 기록 데이터를 보는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 57552af3a1df108dbbf86172793bb9ea86ed1b10
-ms.sourcegitcommit: f3c380f745af4c3aaa2720234860b45696a0c333
+ms.openlocfilehash: 66394094f51d58344f151b8ebb7059c2e390c089
+ms.sourcegitcommit: 56d529cdbd8d8733350625316082f339ae8d66c9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2022
-ms.locfileid: "63711492"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "65294099"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>자동 전화 교환 & 통화 큐 기록 보고서
 
@@ -99,7 +99,7 @@ Power BI Desktop 설치해야 합니다. [Microsoft Windows Store](https://aka.m
 
 다양한 시각화에 표시할 필드 추가 또는 제거, 차트 종류 변경 등 보고서의 특정 시각화 측면을 사용자 지정할 수 있습니다.
 
-보고서에 데이터 필드를 추가할 수 없습니다.
+보고서에 데이터 필드를 더 추가할 수 없습니다.
 
 ### <a name="change-color-schema"></a>색 스키마 변경 
 
@@ -160,15 +160,15 @@ Power BI Desktop 설치해야 합니다. [Microsoft Windows Store](https://aka.m
 |AA 이름                                 |텍스트                     |자동 전화 교환에 연결된 리소스 계정의 이름<br><br>전체 리소스 계정 이름이 **aa_test@microsoft.com** 경우 이 값은 **aa_test** |
 |AACallerActionCount                     |정수             |요약: 합계<br>통화 중 자동 전화 교환에서 호출자가 선택한 작업 수  |
 |AACallFlow                              |텍스트                     |자동 전화 교환 호출의 다양한 상태(가능한 값)를 캡슐화합니다.<br><br>§ abs_search<br>§ 공지 사항<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
-|AACallResult                            |텍스트                     |최종 호출 결과 -- 가능한 값:<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ 알 수 없음<br>§ user_terminated |
+|AACallResult                            |텍스트                     |최종 호출 결과-가능한 값:<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ 알 수 없음<br>§ user_terminated |
 |AAChainDuration                         |10진수           |요약: 합계<br>자동 전화 교환의 통화 기간                     |
 |AAChainIndex                            |텍스트                     |                                                                         |
-|AAConnectivityType                      |텍스트                     |호출 유형 - 가능한 값:<br><br>§ ExternalCall<br>§ InternalCall |
+|AAConnectivityType                      |텍스트                     |호출 유형- 가능한 값:<br><br>§ ExternalCall<br>§ InternalCall |
 |AACount                                 |텍스트                     |통화에 관련된 자동 전화 교환 수                               |
-|AADirectorySearchMethod                 |텍스트                     |마지막 주소록 검색 방법 -- 가능한 값:<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
+|AADirectorySearchMethod                 |텍스트                     |마지막 주소록 검색 방법- 가능한 값:<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
 |AAStartTime                             |날짜/시간                |자동 전화 교환 통화 시작 시간                                           |
-|AATransferAction                        |텍스트                     |호출 전송 대상 유형 -- 가능한 값:<br><br>***§ 애플리케이션 - 음성 애플리케이션 엔터티**_<br>§ external_pstn<br>_*_§ hunt_group - 통화 큐 엔터티_*_<br>_*_§ orgaa - 조직 자동 전화 교환 엔터티_**<br>§ shared_voicemail<br>§ 알 수 없음<br>§ 사용자 |
-|통화 유형<sup>1</sup>                   |텍스트                     |호출 유형 - 가능한 값:<br><br>§ 외부<br>§ 내부         |
+|AATransferAction                        |텍스트                     |호출 전송 대상 유형-가능한 값:<br><br>***§ 애플리케이션 - 음성 애플리케이션 엔터티**_<br>§ external_pstn<br>_*_§ hunt_group - 통화 큐 엔터티_*_<br>_*_§ orgaa - 조직 자동 전화 교환 엔터티_**<br>§ shared_voicemail<br>§ 알 수 없음<br>§ 사용자 |
+|통화 유형<sup>1</sup>                   |텍스트                     |호출 유형- 가능한 값:<br><br>§ 외부<br>§ 내부         |
 |IsAAInvolved                            |텍스트                     |항상 1                                                                 |
 |PSTNMinutes                             |정수             |요약: 합계<br>총 분 사용량                                     |
 |TotalCallCount                          |정수             |요약: 합계<br>Always 1 - 모든 호출의 합계를 제공하는 데 사용됨            |
@@ -227,11 +227,11 @@ Power BI Desktop 설치해야 합니다. [Microsoft Windows Store](https://aka.m
 |통화 수                              |정수             |요약: 합계<br>호출 수                                          |
 |통화 큐 호출 결과                  |텍스트                     |호출 큐 호출 최종 상태 -- 가능한 값:<br><br>§ agent_joined_conference<br>§ 거부됨<br>§ 연결이 끊김<br>§ 오류<br>§ 실패<br>§ 잘못되었습니다.<br>§ 오버플로<br>§ timed_out<br>§ transferred_to_agent |
 |통화 큐 ID                     |텍스트                     |통화 큐에 연결된 리소스 계정의 이름<br><br>전체 리소스 계정 이름이 **cq_test@microsoft.com** 경우 이 값은 **cq_test** |
-|통화 큐 대상 유형                  |텍스트                     |***호출 리디렉션 대상 유형 - 가능한 값:***<br><br>§ ApplicationEndpoint<br>§ 사서함<br>§ 기타<br>§ 사용자 |
-|통화 유형<sup>1</sup>                   |텍스트                     |호출 유형 - 가능한 값:<br><br>§ 외부<br>§ 내부           |
+|통화 큐 대상 유형                  |텍스트                     |***호출 리디렉션 대상 유형-가능한 값:***<br><br>§ ApplicationEndpoint<br>§ 사서함<br>§ 기타<br>§ 사용자 |
+|통화 유형<sup>1</sup>                   |텍스트                     |호출 유형- 가능한 값:<br><br>§ 외부<br>§ 내부           |
 |날짜                                    |날짜/시간                |통화 큐 호출 시작 날짜 및 시간(시간)(UTC)                           | 
 |IsAbandoned                             |True/false               |에이전트에서 전화를 받지 못한 경우 True입니다.                                   |
-|PSTN 연결 유형                  |텍스트                     |호출 유형 - 가능한 값:<br><br>§ ExternalCall<br>§ InternalCall   |
+|PSTN 연결 유형                  |텍스트                     |호출 유형- 가능한 값:<br><br>§ ExternalCall<br>§ InternalCall   |
 |PSTN 총 시간(분)                      |정수             |요약: 합계<br>PSTN 호출의 총 시간(분)                       |
 
 #### <a name="fcallqueueanalytics-measures-description"></a>fCallQueueAnalytics 측정값 설명
@@ -248,8 +248,8 @@ Power BI Desktop 설치해야 합니다. [Microsoft Windows Store](https://aka.m
 |:---------------------------------------|:------------------------|:--------------------------------------------------|
 |평균 통화 기간(초)         |10진수           |요약: 합계<br>평균 통화 기간(초) |
 |통화 수                              |정수             |요약: 합계<br>호출 수                  |
-|통화 큐 호출 결과                  |텍스트                     |호출 큐 호출 최종 상태 -- 가능한 값:<br><br>§ agent_joined_conference<br>§ 거부됨<br>§ 연결이 끊김<br>§ 오류<br>§ 실패<br>§ 잘못되었습니다.<br>§ 오버플로<br>§ timed_out<br>§ transferred_to_agent |
-|큐 최종 상태 작업 호출           |텍스트                     |큐 최종 작업 호출 - 가능한 값:<br><br>§ 연결 끊기(timed_out 통화)<br>§ disconnect_with_busy(오버플로 호출)<br>§ failed_to_accept_call<br>§ 앞으로<br>§ shared_voicemail<br>§ 기타<br>§ 음성 메일 |
+|통화 큐 호출 결과                  |텍스트                     |호출 큐 호출 최종 상태-가능한 값:<br><br>§ agent_joined_conference<br>§ 거부됨<br>§ 연결이 끊김<br>§ 오류<br>§ 실패<br>§ 잘못되었습니다.<br>§ 오버플로<br>§ timed_out<br>§ transferred_to_agent |
+|큐 최종 상태 작업 호출           |텍스트                     |큐 최종 작업 호출-가능한 값:<br><br>§ 연결 끊기(timed_out 통화)<br>§ disconnect_with_busy(오버플로 호출)<br>§ failed_to_accept_call<br>§ 앞으로<br>§ shared_voicemail<br>§ 기타<br>§ 음성 메일 |
 |통화 큐 ID                     |텍스트                     |통화 큐에 연결된 리소스 계정의 이름<br><br>전체 리소스 계정 이름이 **cq_test@microsoft.com** 경우 이 값은 **cq_test** |
 |날짜                                    |날짜/시간                |통화 큐 호출 시작 날짜 및 시간(시간)(UTC)   |
 |IsAbandoned                             |True/false               |에이전트에서 전화를 받지 못한 경우 True입니다.           |
@@ -290,7 +290,7 @@ Power BI Desktop 설치해야 합니다. [Microsoft Windows Store](https://aka.m
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
 |에이전트 이름                              |텍스트                     |사용자 UPN<br>전체 사용자 이름이 **user@microsoft.com** 경우 이 값은 **사용자** 입니다. |
 |평균 통화 기간(초)          |10진수           |요약: 합계<br>응답된 통화 큐 호출의 평균 기간(초) |
-|통화 수                              |정수             |요약: 합계<br>에이전트가 제시하고 응답한 통화 수     |
+|통화 수                              |정수             |요약: 합계<br>에이전트에 표시되는 호출 수     |
 |통화 기간(분)                  |정수             |요약: 합계<br>응답된 통화 큐 호출의 총 통화 기간(분)(가장 가까운 분으로 반올림)  |
 |통화 큐 이름                         |텍스트                     |통화 큐에 연결된 리소스 계정의 이름<br><br>전체 리소스 계정 이름이 **cq_test@microsoft.com** 경우 이 값은 **cq_test** |
 |날짜                                    |날짜                     |                                                    |
