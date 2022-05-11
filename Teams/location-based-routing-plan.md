@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6361e9454f6df301c0fbf1c91e39158115f2300
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 4f156b287969303edbf195c0054b3bb1eb631db2
+ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817799"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "65304006"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>직접 라우팅으로 전달되는 위치 기반 라우팅 계획
 
@@ -169,11 +169,11 @@ PSTN 게이트웨이에서 Location-Based 라우팅을 적용하려면 다음을
 
   - 전송이 허용되는지 여부는 다음을 기반으로 합니다.
   
-    - 전송된 통화를 수신하는 사용자의 Location-Based 라우팅 설정입니다.
+    - PSTN으로 전송되는 사용자의 Location-Based 라우팅 설정입니다.
     - 엔드포인트 네트워크 사이트 위치입니다.
     - Location-Based 라우팅에 위치를 사용할 수 있는지 여부입니다.
 
-    전송된 호출을 수신하는 사용자가 동일한 PSTN 게이트웨이를 사용하여 현재 위치에서 해당 PSTN 호출을 수행할 수 있는 경우 전송이 허용됩니다.
+    전송 중인 사용자가 동일한 PSTN 게이트웨이를 사용하여 현재 위치에서 해당 PSTN을 호출할 수 있는 경우 전송이 허용됩니다.
 
 - **수신 또는 나가는 PSTN 호출 및 다른 Teams 사용자에게 전송의 경우** 전송이 허용되는지 여부는 다음 사항에 따라 달라집니다.
 
@@ -299,15 +299,15 @@ Location-Based 라우팅에 사용할 수 있는 게이트웨이에서 인바운
 
     - 호출자가 Location-Based 라우팅을 사용하도록 설정된 경우 동일한 네트워크 사이트에 있는 Location-Based 라우팅 사용 게이트웨이로만 전송할 수 있습니다.
  
-다음 표에서는 Location-Based 라우팅이 Site1의 User1에서 PSTN 엔드포인트로 호출을 전송하거나 전달하는 다른 위치의 사용자로 VOIP 호출 라우팅에 영향을 미치는 방법을 보여 줍니다.  
+다음 표에서는 Location-Based 라우팅이 Site1에서 Location-Based 라우팅이 설정된 User1에서 PSTN 엔드포인트로 호출을 전송하거나 전달하는 다른 위치의 사용자로 VOIP 호출 라우팅에 영향을 미치는 방법을 보여 줍니다.  
 
-|통화 전송 또는 전달을 시작하는 사용자  |PSTN으로 전송  |PSTN으로 전달  |
-|---------|---------|---------|
-|동일한 네트워크 사이트, Location-Based 라우팅에 사용하도록 설정된 사이트(User2)   |통화 전송은 User2의 음성 라우팅 정책에 따라 Site1에서 Location-Based 라우팅이 설정된 Gateway1을 통해서만 라우팅할 수 있습니다.         |착신 전환은 User2의 음성 라우팅 정책에 따라 Site1에서 Location-Based 라우팅이 설정된 Gateway1을 통해서만 라우팅할 수 있습니다.         |
-|다른 네트워크 사이트, Location-Based 라우팅에 사용하도록 설정된 사이트(User3)    |통화 전송은 User3의 음성 라우팅 정책에 따라 Site1에서 Location-Based 라우팅이 설정된 Gateway1을 통해서만 라우팅할 수 있습니다.         |착신 전환은 User3의 음성 라우팅 정책에 따라 Site1에서 Location-Based 라우팅이 설정된 Gateway1을 통해서만 라우팅할 수 있습니다.         |
-|다른 네트워크 사이트, Location-Based 라우팅에 사용할 수 없는 사이트(User4)    |통화 전송은 User4의 음성 라우팅 정책에 따라 Site1에서 Location-Based 라우팅이 설정된 Gateway1을 통해서만 라우팅할 수 있습니다.         |착신 전환은 User4의 음성 라우팅 정책에 따라 Site1에서 Location-Based 라우팅이 설정된 Gateway1을 통해서만 라우팅할 수 있습니다.         |
-|알 수 없는 내부 네트워크(User5)     |통화 전송은 User5의 음성 라우팅 정책에 따라 Site1에서 Location-Based 라우팅이 설정된 Gateway1을 통해서만 라우팅할 수 있습니다.         |착신 전환은 User5의 음성 라우팅 정책에 따라 Site1에서 Location-Based 라우팅이 설정된 Gateway1을 통해서만 라우팅할 수 있습니다.         |
-|알 수 없는 외부 네트워크(User6)   |통화 전송은 User6의 음성 라우팅 정책에 따라 Site1에서 Location-Based 라우팅이 설정된 Gateway1을 통해서만 라우팅할 수 있습니다.        |착신 전환은 User6의 음성 라우팅 정책에 따라 Site1에서 Location-Based 라우팅이 설정된 Gateway1을 통해서만 라우팅할 수 있습니다.         |
+|통화 전송 또는 전달을 시작하는 사용자  |PSTN으로 전송 또는 전달  |
+|---------|---------|
+|동일한 네트워크 사이트, Location-Based 라우팅에 사용하도록 설정된 사이트(User2)   |결과 PSTN 호출은 User2의 음성 라우팅 정책에 따라 계산된 경로가 Site1에서 Location-Based 라우팅이 설정된 Gateway1을 통한 경로가 발생하는 경우에만 허용됩니다.         |
+|다른 네트워크 사이트, Location-Based 라우팅에 사용하도록 설정된 사이트(User3)    |결과 PSTN 호출은 User3의 음성 라우팅 정책에 따라 계산된 경로가 Site1에서 Location-Based 라우팅이 설정된 Gateway1을 통한 경로가 발생하는 경우에만 허용됩니다. |
+|다른 네트워크 사이트, Location-Based 라우팅에 사용할 수 없는 사이트(User4)    |결과 PSTN 호출은 User4의 음성 라우팅 정책에 따라 계산된 경로가 Site1에서 Location-Based 라우팅이 설정된 Gateway1을 통한 경로가 발생하는 경우에만 허용됩니다.          |
+|알 수 없는 내부 네트워크(User5)     |결과 PSTN 호출은 User5의 음성 라우팅 정책에 따라 계산된 경로가 Site1에서 Location-Based 라우팅이 설정된 Gateway1을 통한 경로가 발생하는 경우에만 허용됩니다.          |
+|알 수 없는 외부 네트워크(User6)   |결과 PSTN 호출은 User6의 음성 라우팅 정책에 따라 계산된 경로가 Site1에서 Location-Based 라우팅이 설정된 Gateway1을 통한 경로가 발생하는 경우에만 허용됩니다.          |
 
 ### <a name="simultaneous-ringing"></a>동시 연결
 
@@ -328,15 +328,15 @@ Location-Based 라우팅을 사용하도록 설정한 사용자가 전화를 받
 
 #### <a name="simultaneous-ringing-to-a-pstn-endpoint"></a>PSTN 엔드포인트에 동시 울림
 
-다음 표에서는 Site1에 있는 User1에서 PSTN 번호로 설정된 동시 링이 있는 다른 위치의 사용자로의 인바운드 VoIP 호출에 대한 Location-Based 라우팅 동작을 보여줍니다. 
+다음 표에서는 Site1에 있는 Location-Based 라우팅 사용 User1에서 PSTN 번호로 설정된 동시 링이 있는 다른 위치의 사용자에게 인바운드 VoIP 호출에 대한 Location-Based 라우팅 동작을 보여 줍니다. 
 
 |호출된 사용자 엔드포인트 위치  |동시 링 대상은 PSTN 엔드포인트입니다. |
 |---------|---------|
-|동일한 네트워크 사이트, Location-Based 라우팅에 사용하도록 설정된 사이트(User2)    |통화는 User2의 음성 라우팅 정책에 따라 Site1의 Location-Based 라우팅 Gateway1을 통해서만 라우팅할 수 있습니다.       |
-|Location-Based 라우팅에 사용하도록 설정된 다른 네트워크 사이트(User3)    |통화는 User3의 음성 라우팅 정책에 따라 Site1의 Location-Based 라우팅 Gateway1을 통해서만 라우팅할 수 있습니다.        |
-|Location-Based 라우팅에 사용할 수 없는 다른 네트워크 사이트(User4)    |통화는 User4의 음성 라우팅 정책에 따라 Site1의 Location-Based 라우팅 Gateway1을 통해서만 라우팅할 수 있습니다.         |
-|알 수 없는 내부 네트워크(User5)    |통화는 User5의 음성 라우팅 정책에 따라 Site1의 Location-Based 라우팅 Gateway1을 통해서만 라우팅할 수 있습니다.         |
-|알 수 없는 외부 네트워크(User6)   |통화는 User6의 음성 라우팅 정책에 따라 Site1의 Location-Based 라우팅 Gateway1을 통해서만 라우팅할 수 있습니다.         |
+|동일한 네트워크 사이트, Location-Based 라우팅에 사용하도록 설정된 사이트(User2)    |결과 PSTN 호출은 User2의 음성 라우팅 정책에 따라 계산된 경로가 Site1에서 Location-Based 라우팅이 설정된 Gateway1을 통한 경로가 발생하는 경우에만 허용됩니다.        |
+|Location-Based 라우팅에 사용하도록 설정된 다른 네트워크 사이트(User3)    |결과 PSTN 호출은 User3의 음성 라우팅 정책에 따라 계산된 경로가 Site1에서 Location-Based 라우팅이 설정된 Gateway1을 통한 경로가 발생하는 경우에만 허용됩니다.         |
+|Location-Based 라우팅에 사용할 수 없는 다른 네트워크 사이트(User4)    |결과 PSTN 호출은 User4의 음성 라우팅 정책에 따라 계산된 경로가 Site1에서 Location-Based 라우팅이 설정된 Gateway1을 통한 경로가 발생하는 경우에만 허용됩니다.          |
+|알 수 없는 내부 네트워크(User5)    |결과 PSTN 호출은 User5의 음성 라우팅 정책에 따라 계산된 경로가 Site1에서 Location-Based 라우팅이 설정된 Gateway1을 통한 경로가 발생하는 경우에만 허용됩니다.          |
+|알 수 없는 외부 네트워크(User6)   |결과 PSTN 호출은 User6의 음성 라우팅 정책에 따라 계산된 경로가 Site1에서 Location-Based 라우팅이 설정된 Gateway1을 통한 경로가 발생하는 경우에만 허용됩니다.          |
 
 #### <a name="inbound-calls-through-voice-apps-auto-attendant-or-call-queue"></a>음성 앱을 통한 인바운드 통화(자동 전화 교환 또는 통화 큐)
 
@@ -395,7 +395,7 @@ PSTN 통화에서 Location-Based 라우팅이 설정된 사용자는 다른 사�
 
 Location-Based 라우팅을 사용하도록 설정된 사용자가 Location-Based 라우팅에 사용할 수 없는 내부 사이트에서 전화 회의에 참가하는 경우 위의 단락의 제한 사항이 적용되지 않습니다. 
 
-오디오 회의를 위한 온-네트워크 회의는 인도의 전화 통신 장비와 함께 배포되어서는 안 됩니다.
+오디오 회의 대한 네트워크 회의는 인도의 전화 통신 장비와 함께 배포되어서는 안됩니다.
 
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Location-Based 라우팅에 대한 미디어 바이패스 요구 사항

@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Microsoft Teams 관리 센터에서 칭찬하기 앱을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 16f59a8fbe0958a63f824762cfede020dbf54b8e
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 495000af61c2b5d48dfdc30fe3b013a4ca8b8811
+ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65136979"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "65303990"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 칭찬하기 앱 관리
 
@@ -35,6 +35,8 @@ Microsoft Teams 칭찬하기 앱을 사용하면 사용자가 조직 또는 교�
 2. 앱 목록에서 칭찬하기 앱을 검색하고 선택한 다음 **상태** 토글을 **차단** 또는 **허용** 됨으로 전환합니다.
 
 이 설정은 Teams Viva Insights 앱의 칭찬하기 앱과 칭찬하기 기능에 모두 영향을 줍니다.
+
+상태를 차단됨으로 설정하면 몇 분 내에 칭찬하기 앱이 차단됩니다. 그러나 Viva Insights 칭찬은 차단되는 데 7-9일이 걸릴 수 있습니다.
 
 ## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>조직의 특정 사용자에 대해 칭찬하기 사용하거나 사용하지 않도록 설정
 
