@@ -1,5 +1,5 @@
 ---
-title: SIP Gateway 계획
+title: SIP 게이트웨이 계획
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -15,57 +15,57 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: 요구 사항 및 이점과 같은 SIP Gateway에 대해 자세히 알아보습니다.
+description: 요구 사항 및 이점과 같은 SIP 게이트웨이에 대해 자세히 알아봅니다.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 817f3dc7ce7f0b6f407607417c0cadb92b65e943
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: 77d33d29a51fe32fff6901fdcb8ba33ecad107f7
+ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514753"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "65370901"
 ---
-# <a name="plan-for-sip-gateway"></a>SIP Gateway 계획
+# <a name="plan-for-sip-gateway"></a>SIP 게이트웨이 계획
 
-SIP Gateway를 사용하면 조직에서 호환되는 모든 SIP 디바이스를 Microsoft Teams SIP 디바이스에 대한 투자를 보존할 수 있습니다. 이제 회사 자격 증명으로 로그인하여 Teams 호환되는 SIP 디바이스로 전화를 걸고 받을 수 있습니다. 호환되는 디바이스는 표준 SIP 비즈니스용 Skype SIP 펌웨어가 있는 Cisco IP 휴대폰, Multiplatform SIP 펌웨어가 있는 Cisco IP 휴대폰 또는 Poly, Yealink 및 AudioCodes와 같은 공급업체의 SIP 디바이스를 사용할 수 있습니다. SIP Gateway에 대한 SIP 디바이스를 구성하는 방법에 대한 자세한 내용은 [SIP Gateway 구성을 참조합니다](sip-gateway-configure.md).
+SIP 게이트웨이를 사용하면 조직에서 Microsoft Teams 호환되는 모든 SIP 디바이스를 사용하여 SIP 디바이스에 대한 투자를 유지할 수 있습니다. 이제 로그인하여 회사 자격 증명으로 Teams 호환되는 SIP 디바이스를 사용하여 전화를 걸고 받을 수 있습니다. 호환되는 디바이스는 표준 SIP 펌웨어를 사용하는 IP 휴대폰, 다중 플랫폼 SIP 펌웨어가 있는 Cisco IP 휴대폰 또는 Poly, Yealink 및 AudioCodes와 같은 공급업체의 SIP 디바이스를 비즈니스용 Skype 수 있습니다. SIP 게이트웨이에 대한 SIP 디바이스를 구성하는 방법을 알아보려면 [SIP 게이트웨이 구성](sip-gateway-configure.md)을 참조하세요.
 
-## <a name="benefits-of-sip-gateway"></a>SIP Gateway의 이점
+## <a name="benefits-of-sip-gateway"></a>SIP 게이트웨이의 이점
 
-SIP Gateway는 호환되는 SIP 디바이스를 Teams 원격 통신을 원활하게 마이그레이션할 수 있도록 Teams 연결합니다. SIP Gateway를 사용하여 사용자는 다음을 모두 할 수 있습니다.
+SIP 게이트웨이는 호환되는 SIP 디바이스를 Teams 연결하여 사용자가 Teams 전화 통신으로 원활하게 마이그레이션할 수 있도록 지원합니다. 사용자는 SIP 게이트웨이를 사용하여 다음을 모두 수행할 수 있습니다.
 
-- **전화를 걸기:** SIP 디바이스 사용자는 PSTN(공용 전환 전화 네트워크) 및 다른 SIP 디바이스로 전화를 걸고 사용자를 Teams 비즈니스용 Skype 있습니다. SIP 디바이스 사용자는 전화 번호가 있는 사용자만 호출할 수 있습니다.
-- **호출 수신:** SIP 디바이스 사용자는 PSTN에서, SIP 디바이스가 있는 Teams 비즈니스용 Skype 및 클라이언트 애플리케이션에서 Teams 비즈니스용 Skype 수 있습니다. SIP 디바이스는 엔드포인트의 Teams 역할을 합니다. 인바운드 호출도 사용자의 SIP 디바이스에 포크됩니다.
-- **여러 개의 동시 호출:** 통화의 SIP 디바이스 사용자는 통화를 보류하여 다른 전화를 걸거나 받을 수 있습니다. SIP 디바이스 사용자는 두 개의 전화를 걸 수 있습니다.
-- **방해하지 않습니다.** SIP 디바이스 사용자는 디바이스가 들어오는 호출에 대해 벨이 울리지 않도록 디바이스에서 방해 금지를 설정할 수 있습니다. 이로 인하여 다른 모든 엔드포인트에서 사용자의 상태에 Teams 않습니다.
-- **보류/다시 시작 및 음소거/음소거/음소거:** SIP 디바이스 사용자는 디바이스의 해당 작업에 대한 기능을 사용하여 통화를 보류하고 다시 시작하거나 음소거하고 음소거할 수 있습니다.
-- **음성사서:** SIP 디바이스 사용자는 발신자가 남겨두는 전자적으로 저장된 음성 메시지를 수신 수신할 수 있습니다.
-- **메시지 대기 표시기:** SIP 디바이스 사용자는 새 음성 메일 메시지가 있는 경우 알림을 받을 수 있습니다.
-- **로그인 및 로그인:** SIP 디바이스 사용자는 디바이스에서 로그인하고 Teams 수 있습니다.
-- **듀얼 톤 다중 주파수:** SIP 디바이스 사용자는 대화형 음성 응답 통화 중에 숫자 키를 눌러 입력을 제공할 수 있습니다.
-- **Teams 모임:** SIP 디바이스 사용자는 모임 액세스 Teams 전화로 모임에 참가할 수 있습니다. 모임 참가자는 사용자의 전화 번호로 전화를 걸거나 '참가 요청'을 클릭하여 참가자를 추가하여 모임에 SIP 디바이스 사용자를 추가할 수 있습니다. 다른 조직의 게스트 Teams 해당 게스트를 포함하도록 게스트 사용자의 번호에 전화를 걸면 참가자가 모임에 추가할 수 있습니다.
-- **통화 전송:** SIP 디바이스 사용자는 통화를 전송할 수 있습니다. SIP Gateway는 블라인드 및 협의적 전송을 모두 지원합니다.
-- **로컬 통화 전달:** SIP 디바이스 사용자는 디바이스에 대한 전달 규칙(항상, 시간 제한 시 및 사용 중)을 설정할 수 있습니다. 디바이스가 SIP Gateway에 연결되어 있는 경우 디바이스 사용자가 설정한 규칙에 따라 호출이 대상 주소로 리디렉션됩니다. 로컬 통화 전달 작업을 진행하려면 관리자는 에서 특성을 `AllowCallRedirect` 으로 설정해야 `Set-CsTeamsCallingPolicy` 합니다 `Enabled`. 
+- **전화 걸기:** SIP 디바이스 사용자는 PSTN(공중 전화망), 다른 SIP 디바이스 및 Teams 및 비즈니스용 Skype 사용자를 호출할 수 있습니다. SIP 디바이스 사용자는 전화 번호가 있는 사용자만 호출할 수 있습니다.
+- **수신 전화:** SIP 디바이스 사용자는 PSTN, SIP 디바이스가 있는 Teams 또는 비즈니스용 Skype 사용자, Teams 및 비즈니스용 Skype 클라이언트 애플리케이션에서 전화를 받을 수 있습니다. SIP 디바이스는 Teams 엔드포인트 역할을 합니다. 인바운드 호출도 사용자의 SIP 디바이스로 포크됩니다.
+- **여러 동시 호출:** 통화 중인 SIP 디바이스 사용자는 통화를 보류하여 다른 전화를 걸거나 받을 수 있습니다. SIP 디바이스 사용자는 두 번의 호출을 전화 회의할 수도 있습니다.
+- **방해 금지:** SIP 디바이스 사용자는 디바이스가 들어오는 호출에 대해 울리지 않도록 디바이스에서 방해 금지 설정을 할 수 있습니다. 이는 다른 모든 Teams 엔드포인트에서 사용자의 상태에 영향을 주지 않습니다.
+- **보류/다시 시작 및 음소거/음소거 해제:** SIP 디바이스 사용자는 디바이스에서 해당 작업에 대한 기능을 사용하여 통화를 보류 및 다시 시작 또는 음소거 및 음소거 해제할 수 있습니다.
+- **음성:** SIP 디바이스 사용자는 발신자가 보내는 전자적으로 저장된 음성 메시지를 들을 수 있습니다.
+- **메시지 대기 표시기:** SIP 디바이스 사용자는 새 음성 메일 메시지가 있을 때 경고하는 알림을 받을 수 있습니다.
+- **로그인 및 로그아웃:** SIP 디바이스 사용자는 디바이스에서 Teams 로그인하고 로그아웃할 수 있습니다.
+- **이중 톤 다중 주파수:** SIP 디바이스 사용자는 대화형 음성 응답 호출 중에 숫자 키를 눌러 입력을 제공할 수 있습니다.
+- **Teams 모임:** SIP 디바이스 사용자는 모임 액세스 번호로 전화를 걸어 Teams 모임에 참가할 수 있습니다. 모임 참가자는 사용자의 전화 번호로 전화를 걸거나 단순히 '참가 요청'을 클릭하여 참가자를 추가하여 모임에 SIP 디바이스 사용자를 추가할 수 있습니다. 다른 조직의 게스트 사용자를 게스트 사용자 번호로 전화를 걸어 해당 게스트를 포함하는 참가자가 Teams 모임에 추가할 수 있습니다.
+- **통화 전송:** SIP 디바이스 사용자는 호출을 전송할 수 있습니다. SIP 게이트웨이는 블라인드 및 상담 전송을 모두 지원합니다.
+- **로컬 착신 전환:** SIP 디바이스 사용자는 디바이스에 대한 전달 규칙(항상 시간 제한 및 사용 중)을 설정할 수 있습니다. 디바이스가 SIP 게이트웨이에 연결된 경우 디바이스 사용자가 설정한 규칙에 따라 호출이 대상 주소로 리디렉션됩니다. 로컬 착신 전환 작업을 수행하려면 관리자가 `AllowCallRedirect` 특성을 .로 `Set-CsTeamsCallingPolicy` `Enabled`설정해야 합니다. 
 
 
-## <a name="requirements-to-use-sip-gateway"></a>SIP Gateway를 사용하는 요구 사항
+## <a name="requirements-to-use-sip-gateway"></a>SIP 게이트웨이를 사용하기 위한 요구 사항
 
-Teams SIP Gateway를 사용할 수 있도록 PSTN 호출이 설정된 전화 번호가 있어야 합니다.
+Teams 사용자에게는 SIP 게이트웨이를 사용하도록 설정된 PSTN 통화가 있는 전화 번호가 있어야 합니다.
 
 ### <a name="hardware-software-and-licenses"></a>하드웨어, 소프트웨어 및 라이선스
 
 3PIP 또는 SIP 디바이스가 있는 경우 다음이 있어야 합니다. 
-- 라이선스에 대한 전화 시스템(E5 또는 독립 실행형 라이선스를 통해)
-- PSTN 활성화(예: 전화 번호)를 Microsoft Teams, 직접 라우팅 또는 연산자 커넥트
-- 공용 영역 전화 디바이스에 대한 공용 영역 라이선스
+- 전화 시스템 라이선스(E5 또는 독립 실행형 라이선스를 통해)
+- Microsoft Teams 통화 플랜, 직접 라우팅 또는 운영자 연결 통해 PSTN 사용(즉, 전화 번호)
+- 공용 영역 디바이스에 대한 공용 영역 전화 라이선스
 
 ## <a name="compatible-devices"></a>호환되는 디바이스
 
 |공급업체    |모델      |최소 펌웨어 버전|승인된 펌웨어 버전|설명|링크|
 |----------|-----------|------------|-----------|------------|------------|
-|**Cisco** |           |            |           |엔터프라이즈 펌웨어를 실행하는 디바이스는 Multiplatform 펌웨어로 변환해야 합니다. 오른쪽에 있는 가이드를 참조하여 방법을 알아보세요.|[Cisco 펌웨어 변환 가이드](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)|
+|**Cisco** |           |            |           |엔터프라이즈 펌웨어를 실행하는 디바이스는 다중 플랫폼 펌웨어로 변환해야 합니다. 방법을 알아보려면 오른쪽에 있는 가이드를 읽어보세요.|[Cisco 펌웨어 변환 가이드](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)|
 |          |8832       |11.3.5MPP   |11.3.5MPP  |   |   |
 |          |6821       |11.1.1MPP   |11-3-3MPP  |   |   |
 |          |7811       |11.1.1MPP   |11-3-3MPP  |   |   |
@@ -78,9 +78,10 @@ Teams SIP Gateway를 사용할 수 있도록 PSTN 호출이 설정된 전화 번
 |          |8851       |11.1.1MPP   |11-3-3MPP  |   |   |
 |          |8861       |11.1.1MPP   |11-3-3MPP  |   |   |
 |          |8865       |11.1.1MPP   |11-3-3MPP  |   |   |
-|**Poly**  |           |            |           |디바이스는 자동 재부팅하고 선택한 펌웨어를 설치합니다.|   |
-|          |Trio 8500  |5.9.5.3182  |7.1.1.0997 |   |   |
-|          |Trio 8800  |5.9.5.3182  |7.1.1.0997 |   |   |
+|**많은**  |           |            |           |디바이스가 자동으로 다시 부팅되고 선택한 펌웨어가 설치됩니다.|   |
+|          |CCX 500    |7.0.3.0515  |7.2.1.1826 |   |   |
+|          |트리오 8500  |5.9.5.3182  |7.1.1.0997 |   |   |
+|          |트리오 8800  |5.9.5.3182  |7.1.1.0997 |   |   |
 |          |VVX150     |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX201     |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX250     |5.9.5       |6.3.1.8427 |   |   |
@@ -127,7 +128,7 @@ Teams SIP Gateway를 사용할 수 있도록 PSTN 호출이 설정된 전화 번
 |          |T40G       |83          |76.84.0.125|   |   |
 |          |T41P       |83          |36.83.0.120|   |   |
 |          |T46G       |83          |28.83.0.130|   |   |
-|**AudioCodes**|       |            |           |일부 AudioCodes SIP 디바이스에는 프로비전 URL 설정이 필요합니다. 영향을 받는 AudioCodes 디바이스의 업그레이드 파일을 오른쪽에 다운로드하고 설치합니다. |[AudioCodes에서 영향을 받는 디바이스에 대한 다운로드 가능한 파일](https://audiocodes.sharefile.com/share/view/sc9cdf17f9ec45d09/fo7914a2-4f3a-4000-8957-47bd6f35a3a5)|
+|**AudioCodes**|       |            |           |일부 AudioCodes SIP 디바이스에는 프로비저닝 URL 설정이 필요합니다. 오른쪽에 영향을 받는 AudioCodes 디바이스에 대한 업그레이드 파일을 다운로드하고 설치합니다. |[AudioCodes에서 영향을 받는 디바이스에 대한 다운로드 가능한 파일](https://audiocodes.sharefile.com/share/view/sc9cdf17f9ec45d09/fo7914a2-4f3a-4000-8957-47bd6f35a3a5)|
 |          |405         |2.2.8      |2.2.16.570 |   |   |
 |          |405HD       |3.2.1      |2.2.16.570 |   |   |
 |          |420HD       |3.2.1      |2.2.16.570 |   |   |
@@ -139,4 +140,4 @@ Teams SIP Gateway를 사용할 수 있도록 PSTN 호출이 설정된 전화 번
 |          |RX50        |3.2.1      |3.4.6.687  |   |   |
 
 > [!NOTE]
-> 일부 디바이스의 경우 최소 펌웨어 버전이 승인된 펌웨어 버전보다  클 수 있습니다. 이는 3.X 버전이 비즈니스용 Skype 버전이기 때문에입니다. 2.X인 SIP 버전을 업데이트합니다.
+> 일부 디바이스의 경우 최소 펌웨어 버전이 승인된 펌웨어 버전보다 큽 있습니다. 이는 3.X 버전이 비즈니스용 Skype 버전이기 때문입니다. 2.X인 SIP 버전을 업데이트합니다.

@@ -22,16 +22,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Office 365 관리자로서 Microsoft Teams에서 게스트 액세스 기능을 설정하거나 해제하는 방법을 알아보세요.
-ms.openlocfilehash: 1658ef97dd172209a965088caa2842a71e09e4e7
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 935fac44863ef2c3da4a9fc4f07fcd7e34265024
+ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839199"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "65370811"
 ---
 # <a name="turn-guest-access-in-microsoft-teams-on-or-off"></a>Microsoft Teams 게스트 액세스 설정 또는 해제
 
-이 문서에서는 Teams 통화, 모임 및 채팅을 포함한 게스트 액세스 설정을 구성하는 방법을 설명합니다. 또한 Teams 게스트 액세스에는 Azure AD, Microsoft 365 그룹 및 SharePoint 설정을 포함하여 Microsoft 365 다른 설정을 구성해야 합니다. Teams에 게스트를 초대할 준비가 되었다면 다음 중 하나를 읽어 보세요.
+이 문서에서는 Teams 통화, 모임 및 채팅을 포함한 게스트 액세스 설정을 구성하는 방법을 설명합니다. Teams 게스트 액세스에는 Azure AD, Microsoft 365 그룹 및 SharePoint 설정을 포함하여 Microsoft 365 다른 설정을 구성해야 합니다. Teams에 게스트를 초대할 준비가 되었다면 다음 중 하나를 읽어 보세요.
 
 - 일반적인 사용을 위해 Teams에서 게스트 액세스를 구성하려면 [팀에서 게스트와 공동 작업](/microsoft-365/solutions/collaborate-as-team)을 참조하세요.
 - Azure Active Directory를 사용하는 파트너 조직과 공동 작업을 수행하고 게스트가 팀 액세스를 위해 자체 등록할 수 있도록 허용하려면 [관리되는 게스트로 B2B 엑스트라넷 생성](/microsoft-365/solutions/b2b-extranet)을 참조하세요.
@@ -60,6 +60,7 @@ ms.locfileid: "64839199"
       - **지금 모임** – 게스트가 Microsoft Teams 지금 모임 기능을 사용할 수 **있도록 하려면 이** 설정을 켭니다.
       - **보낸 메시지 편집** - 게스트가 이전에 보낸 메시지를 편집할 수 있도록 허용하려면 이를 **켬** 으로 설정합니다.
       - **보낸 메시지 삭제** – 게스트가 이전에 보낸 메시지를 **삭제할 수** 있도록 하려면 이 설정을 켭니다.
+      - **채팅 삭제** - **게스트가 전체** 채팅 대화를 삭제할 수 있도록 이 설정을 켭니다.
       - **채팅** – 게스트가 Teams에서 채팅을 사용할 수 있도록 허용하려면 이를 **켬** 으로 설정합니다.
       - **대화의 Giphy** – 게스트가 대화에서 Giphys **를 사용할** 수 있도록 이 설정을 켭니다. Giphy는 사용자가 애니메이션 GIF 파일을 검색하고 공유할 수 있는 온라인 데이터베이스 및 검색 엔진입니다. 각 Giphy에는 콘텐츠 등급이 할당됩니다.
       - **Giphy 콘텐츠 등급** – 드롭다운 목록에서 등급을 선택합니다.
