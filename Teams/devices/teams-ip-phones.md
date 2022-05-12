@@ -21,18 +21,18 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 도출하기 위해 Microsoft Teams 인증된 책상 및 전화 회의 전화기를 알아봅니다.
-ms.openlocfilehash: 6a17faead9926ea6a7a7475eb867804d974f700e
-ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
+ms.openlocfilehash: e5588662279a1eda0728b57553d0e0a4a473e2da
+ms.sourcegitcommit: 73df40ce6fbd1d305fd381140f293a2feb0d27bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65217942"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "65359788"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>인증된 Android 디바이스 Microsoft Teams
 
 Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 전체 Teams 환경(오디오, 비디오, 사용자 인터페이스)에서 더 높은 성능 목표와 품질 메트릭을 통해 높은 표준을 충족하도록 보장합니다. Microsoft와 OEM 파트너는 디바이스가 보안, 오디오 및 비디오 품질, Teams 환경 및 접근성을 비롯한 모든 인증 요구 사항을 충족하도록 적극적으로 협력하고 있습니다.
 
-인증 프로그램은 모든 인증된 디바이스가 Teams 및 Teams 관리 센터에 필요한 기능 집합으로 Android 버전을 실행하도록 설계되었습니다. 인증 종료 날짜는 인증 프로그램에 들어갈 때 디바이스에서 실행되는 Android OS 버전을 기반으로 합니다. OEM 파트너는 Android OS 버전을 업그레이드하고 다시 인증하거나 최신 모델인 새 모델을 릴리스하여 인증 수명을 연장하기 위해 노력하고 있습니다.
+인증 프로그램은 모든 인증된 디바이스가 Teams 및 Teams 관리 센터에 필요한 기능 집합을 사용하여 Android 버전을 실행하도록 설계되었습니다. 인증 종료 날짜는 인증 프로그램에 들어갈 때 디바이스에서 실행되는 Android OS 버전을 기반으로 합니다. OEM 파트너는 Android OS 버전을 업그레이드하고 다시 인증하거나 최신 모델을 릴리스하여 인증 수명을 연장하기 위해 노력하고 있습니다.
 
 인증 기간 이후 Microsoft는 인증 기간이 끝난 후 2년 동안 이러한 디바이스에서 최신 버전의 Teams 클라이언트를 지원하기 위해 노력하고 있습니다.
 
@@ -43,7 +43,7 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 다음 디바이스는 Microsoft Teams 휴대폰 인증 프로그램에 따라 인증됩니다.
 
-|디바이스 모델    | 펌웨어 버전    | 현재 인증 종료 날짜 | Android OS 버전                               |
+|디바이스 모델    | 펌웨어 버전    | 현재 인증 종료 날짜 | OS 버전 Android                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
 | Yealink CP965    | `143.15.0.7 `          | 2025년 9월 3일     | 11 |
 | AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                                  | 2022년 4월 22일               | 7.1x |
@@ -66,11 +66,11 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 | Yealink MP56 | `122.15.0.6` | 2023년 8월 5일  | 9 |
 | Yealink VP59 | `91.15.0.16` | 2023년 8월 5일  | 9 |
 
-## <a name="certified-teams-rooms-on-android"></a>Android에서 인증된 Teams 룸
+## <a name="certified-teams-rooms-on-android"></a>Android 인증된 Teams 룸
 
 다음 디바이스는 Android 인증 프로그램의 Microsoft Teams 룸 따라 인증됩니다.
 
-| 디바이스 모델 | 펌웨어 버전 | 현재 인증 종료 날짜 | 객실 크기                                        |  Android OS 버전    |
+| 디바이스 모델 | 펌웨어 버전 | 현재 인증 종료 날짜 | 객실 크기                                        |  OS 버전 Android    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
 | 깔끔한 막대 | `NFB1.20220211.1400` |2024년 9월 3일|    소형 미팅룸(4.5m x 4.5m) | 10 |
 | 깔끔한 패드 터치 콘솔 | `NFA1.20220211.1400`  | 2023년 8월 5일 |  깔끔한 막대와만 호환 | 9 |
@@ -92,16 +92,16 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 ## <a name="certified-teams-displays"></a>인증된 Teams 디스플레이
 
-다음 디바이스는 Android 인증 프로그램을 표시하는 Microsoft Teams 따라 인증됩니다.
+다음 디바이스는 Microsoft Teams 표시 Android 인증 프로그램에서 인증됩니다.
 
-| 디바이스 모델 | 펌웨어 버전 | 현재 인증 종료 날짜  | Android OS 버전 |
+| 디바이스 모델 | 펌웨어 버전 | 현재 인증 종료 날짜  | OS 버전 Android |
 |:------------------------|:-----------------|:--------------|----------------------------------|
 |Lenovo ThinkSmart 보기|`CD-18781Y.201006.099`| 2022년 12월 5일 |  8.1  |
 
 ## <a name="certified-teams-panels"></a>인증된 Teams 패널
 다음 디바이스는 Microsoft Teams 패널 인증 프로그램에서 인증됩니다.
 
-| 디바이스 모델| 펌웨어 버전 | 현재 인증 종료 날짜 | Android OS 버전 |                                         
+| 디바이스 모델| 펌웨어 버전 | 현재 인증 종료 날짜 | OS 버전 Android |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
 |깔끔한 패드 패널    | `NFA1.20220211.1400` | 2023년 8월 5일 | 9 |
 |크레스트론 TSS-770 | `1.003.0082` |2022년 12월 5일  | 8.1 |
@@ -218,7 +218,7 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 [Microsoft Teams 표시를 참조하세요](teams-displays.md).
 
-### <a name="product-release-information-for-teams-rooms-on-android"></a>Android에서 Teams 룸 대한 제품 릴리스 정보
+### <a name="product-release-information-for-teams-rooms-on-android"></a>Android Teams 룸 대한 제품 릴리스 정보
 
 다음은 Android 앱 및 펌웨어 버전의 최신 Teams 룸.
 
@@ -241,6 +241,7 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 | 디바이스 모델  | 펌웨어 버전 | 포함된 제품 릴리스 |
 |:--------------|:-----------------|:-------------------------|
+| 로지 룸메이트 |   `1.6.290`   | 2022년 업데이트 #1    |
 | 로지 랠리바 미니   |   `1.6.272`   | 2022년 업데이트 #1  |
 | 로지 랠리바    |   `1.6.272`   | 2022년 업데이트 #1   |
 | 로지 룸메이트 |   `1.5.705`   | 2022년 업데이트 #1    |
