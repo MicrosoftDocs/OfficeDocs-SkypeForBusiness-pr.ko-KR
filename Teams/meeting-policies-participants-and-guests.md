@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 참가자 및 게스트에 대한 Teams 모임 정책 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 05408ade76aa96b64f07899881beb68fa52c74b4
-ms.sourcegitcommit: a31c02892e35babbbcf5e7c303c7f14d7ba5cb52
+ms.openlocfilehash: 6a3c2dda51c40c57cd100eda9c8c959583dfb60b
+ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784702"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393752"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>모임 정책 설정 - 참가자 및 게스트
 
@@ -32,6 +32,7 @@ ms.locfileid: "64784702"
 
 이러한 설정은 참가자가 대기실에서 대기한 후에 모임 입장이 허락되는 모임과 모임에서 참가자에게 허용되는 참여 수준을 제어합니다.
 
+- [익명 사용자가 모임에 참가하도록 허용](#let-anonymous-people-join-a-meeting)
 - [익명 사용자의 모임 시작 허용](#let-anonymous-people-start-a-meeting)
 - [자동으로 사용자 입장](#automatically-admit-people)
 - [전화 접속 사용자의 대기실 우회 허용](#allow-dial-in-users-to-bypass-the-lobby)
@@ -41,6 +42,9 @@ ms.locfileid: "64784702"
 > [!NOTE]
 >모임 참가 옵션은 각 Teams 그룹의 설정 및 연결 방법에 따라 다릅니다. 그룹에 오디오 회의 옵션이 있고 해당 옵션을 사용하여 연결하는 경우 [오디오 회의](/microsoftteams/audio-conferencing-in-office-365)를 참조하세요. Teams 그룹에 오디오 회의 옵션이 없는 경우 [Teams에서 모임 참가](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)를 참조하세요.
 
+## <a name="let-anonymous-people-join-a-meeting"></a>익명 사용자가 모임에 참가하도록 허용
+
+이 이끌이별 설정을 사용하면 누구나 모임 초대에서 링크를 선택하여 익명 사용자로 모임에 참가할 수 있습니다. 자세한 내용은 [Teams 계정 없이 모임에 참가](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)를 참조하세요. 익명 사용자의 모임 참가 기능도 조직 수준에서 제어되므로 더 제한적인 설정이 효과적입니다. 자세한 내용은 [Microsoft Teams 관리 센터를 사용하여 조직 전체 정책 구성을](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings) 참조하세요.
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>익명 사용자의 모임 시작 허용
 
@@ -88,7 +92,7 @@ ms.locfileid: "64784702"
 |설정값 |동작  |
 |---------|---------|
 |**사용하지 않도록 설정되었지만 사용자 재정의 가능**     | 라이브 캡션 기능은 모임 중인 사용자에 대해 자동으로 설정되어 있지 않습니다. 사용자가 기능을 켜도록 넘침 단추(**...**) 메뉴에서 **라이브 캡션 켜기** 옵션이 보입니다. 기본 설정입니다. |
-|**사용할 수 없음**     | 라이브 캡션 기능이 모임 중인 사용자에 대해 비활성화되었습니다. 사용자에게 이 기능을 켜는 옵션이 없습니다.          |
+|**사용 안 함**     | 라이브 캡션 기능이 모임 중인 사용자에 대해 비활성화되었습니다. 사용자에게 이 기능을 켜는 옵션이 없습니다.          |
 
 <a name="bkcontentsharing"> </a>
 
@@ -99,7 +103,7 @@ ms.locfileid: "64784702"
 |설정값 |동작  |
 |---------|---------|
 |**사용**     | 모든 참가자는 채팅 메시지를 작성하고 볼 수 있습니다. |
-|**사용할 수 없음**     | 모든 참가자에 대해 모임 채팅이 해제됩니다.  |
+|**사용 안 함**     | 모든 참가자에 대해 모임 채팅이 해제됩니다.  |
 
 <a name="bkparticipantsandguests"> </a>
 

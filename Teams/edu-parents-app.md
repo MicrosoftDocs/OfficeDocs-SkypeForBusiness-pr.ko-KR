@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d80006e46598d03dd8defffe7baf4ada17415fe2
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 1f08ddd68d036d18e4ea18073dd0711e32e0c91e
+ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187114"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393872"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>교육용 Microsoft Teams 부모 연결 설정
 
@@ -41,7 +41,7 @@ ms.locfileid: "65187114"
 
 부모 연결을 사용하면 교육자와 보호자가 Teams 사용하여 채팅, 전자 메일 및 전화를 걸 수 있습니다.
 
-- Teams 보호 연락처 데이터는 SDS(학교 데이터 동기화)를 사용하여 SIS에서 최신 상태로 유지됩니다.
+- Teams 보호자 연락처 데이터는 학교 데이터 동기화(SDS)를 사용하여 SIS에서 최신 상태로 유지됩니다.
 - 감독된 채팅에서 작동합니다. 자세한 내용은 [Microsoft Teams 감독 채팅 사용을](supervise-chats-edu.md) 참조하세요.
   - 기본적으로 보호자는 권한을 제한하므로 학생과 채팅하거나 채팅에서 사용자를 제거할 수 없습니다.
   - 이 설정은 테넌트 관리자가 변경할 수 있습니다.
@@ -68,14 +68,14 @@ ms.locfileid: "65187114"
 
 ### <a name="school-data-sync"></a>학교 데이터 동기화
 
-- 각 학생의 부모 및 보호자 **관련 연락처** 정보를 채하려면 SDS(학교 데이터 동기화)가 필요합니다.
+- 각 학생의 부모 및 보호자 **관련 연락처** 정보를 채하려면 학교 데이터 동기화(SDS)가 필요합니다.
   - [SDS 배포](/schooldatasync/parents-and-guardians-in-sds)
 
-- SDS를 설정하고 테넌트의 학생에 대한 부모 및 보호자 **관련 연락처를** 채우는 데 도움이 필요한 경우 다음을 수행하여 EDU 고객 성공 팀에 문의하세요.
+- 테넌트에서 학생을 위해 SDS 설정하고 부모 및 보호자 **관련 연락처를** 채우는 데 도움이 필요한 경우 다음을 수행하여 EDU 고객 성공 팀에 문의하세요.
   - [FastTrack](https://www.microsoft.com/fasttrack?rtc=1) RFA 프로세스를 완료합니다.
   - [지원](https://aka.ms/sdssupport)에서 티켓을 엽니다.
 
-- 현재 SDS는 부모 연락처에 대한 CSV 기반 데이터 수집만 지원합니다. 그러나 모든 명단 데이터에 [대해 PowerSchool API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) 또는 [OneRoster API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) 를 사용하고 CSV를 사용하여 부모 연락처를 추가할 수 있습니다.
+- 현재 SDS 부모 연락처에 대한 CSV 기반 데이터 수집만 지원합니다. 그러나 모든 명단 데이터에 [대해 PowerSchool API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) 또는 [OneRoster API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync)를 사용하고 CSV를 사용하여 부모 연락처를 추가할 수 있습니다.
   - [SDS v1 CSV 동기화 형식](/schooldatasync/school-data-sync-format-csv-files-for-sds)을 사용하여 두 번째 동기화 프로필을 만듭니다.
   - 나머지 v1 파일이 비어 있는 채운 부모 [파일](/schooldatasync/parent-contact-sync-file-format) 두 개(헤더만)를 끌어오십시오.
     - User.csv
@@ -84,18 +84,28 @@ ms.locfileid: "65187114"
   - 초기 동기화 후 CSV 파일 가져오기를 자동화하려면 [CSV 파일 동기화 Automation 문서를](/schooldatasync/csv-file-sync-automation) 읽어보세요.
   - SDS 데이터 동기화 설정에 대한 도움말을 보려면 [고객 성공 팀에](https://www.microsoft.com/fasttrack?rtc=1) 문의하거나 [지원 티켓을 엽니다](https://edusupport.microsoft.com/support?product_id=data_sync).
 
-### <a name="teams-admin-center---policies"></a>Teams 관리 센터 - 정책
+### <a name="teams-admin-center-policies"></a>관리 센터 정책 Teams
 
 - 수업 팀 소유자는 Teams 채팅이 켜져 있어야 합니다.
 - 클래스 팀 소유자는 **조직에서 관리하지 않는 Teams 계정** 으로 외부 액세스 권한을 가져야 합니다.
   - 테넌트 수준 및 사용자 수준에서 이 값을 설정해야 합니다. 테넌트 수준 설정은 Teams 관리 센터의 **사용자 > 외부 액세스** 에서 찾을 수 있습니다. 이 설정은 PowerShell을 통해 액세스할 수도 있습니다. 사용자 수준 외부 액세스 정책은 PowerShell을 통해서만 액세스할 수 있습니다. 자세한 지침은 아래 PowerShell 명령을 참조하세요.
 
-> [!NOTE]
->부모 및 보호자는 부모 기능에서 외부 사용자로 분류되므로 전체 테넌트 권한이 없습니다. 추가된 채팅 또는 채팅뿐만 아니라 채팅에서 공유되는 파일, 이미지 및 기타 콘텐츠에만 액세스할 수 있습니다.
->
->또한 외부 사용자는 조직의 사용자의 현재 상태(오프라인, 사용 가능, 사용 중 등)를 볼 수 있지만 PowerShell을 사용하여 사용자의 개인 정보를 보호하기 위해 이 기능을 해제할 수 있습니다. PowerShell에서 [Set-CsPrivacyConfiguration을](/powershell/module/skype/set-csprivacyconfiguration) 사용하고 설정합니다 ``EnablePrivacyMode=true``.
->
->부모와 보호자가 외부 사용자임에도 불구하고 채팅에 대한 기여는 검색할 수 있습니다. Microsoft Teams 콘텐츠에 대한 [eDiscovery 조사 수행을 읽어 Teams eDiscovery 조사를](ediscovery-investigation.md) 수행하는 방법을 알아봅니다.
+#### <a name="parent-and-guardian-restrictions"></a>부모 및 보호자 제한 사항
+부모 및 보호자는 부모 연결에서 외부 사용자로 분류되므로 전체 테넌트 권한이 없습니다. 추가된 채팅 또는 채팅뿐만 아니라 채팅에서 공유되는 파일, 이미지 및 기타 콘텐츠에만 액세스할 수 있습니다.
+
+또한 외부 사용자는 조직의 사용자의 현재 상태(오프라인, 사용 가능, 사용 중 등)를 볼 수 있지만 PowerShell을 사용하여 사용자의 개인 정보를 보호하기 위해 이 기능을 해제할 수 있습니다. PowerShell에서 [Set-CsPrivacyConfiguration을](/powershell/module/skype/set-csprivacyconfiguration) 사용하고 설정합니다 ``EnablePrivacyMode=true``.
+
+부모와 보호자가 외부 사용자임에도 불구하고 채팅에 대한 기여는 검색할 수 있습니다. Microsoft Teams 콘텐츠에 대한 [eDiscovery 조사 수행을 읽어 Teams eDiscovery 조사를](ediscovery-investigation.md) 수행하는 방법을 알아봅니다.
+
+#### <a name="blocking-a-parent-or-guardian-in-a-chat"></a>채팅에서 부모 또는 보호자 차단
+교육자는 부모 연결에서 시작된 채팅에서 보호자를 차단할 수 있습니다.
+
+클래스 소유자는 다음을 수행할 수 있습니다.
+
+1. 보호자의 프로필 카드를 열고 줄임표를 선택하고 **사용자를 차단합니다**. 
+2. 그런 다음 채팅에서 보호자를 제거합니다. 
+
+차단된 사용자는 클래스 소유자와 추가 채팅을 시작할 수 없습니다.
 
 ## <a name="allow-external-access-with-teams-accounts-not-managed-by-an-organization"></a>조직에서 관리하지 않는 Teams 계정으로 외부 액세스 허용
 

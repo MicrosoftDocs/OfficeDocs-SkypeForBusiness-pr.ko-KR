@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: 비즈니스용 Skype 서버 2015 설명서
-summary: 비즈니스용 Skype 서버 2015를 구현하는 방법을 배워야 합니다.
+summary: 비즈니스용 Skype 서버 2015를 구현하는 방법을 알아봅니다.
 metadata:
   title: 비즈니스용 Skype 서버 2015 설명서
-  description: 비즈니스용 Skype 서버 2015를 구현하는 방법을 배워야 합니다.
+  description: 비즈니스용 Skype 서버 2015를 구현하는 방법을 알아봅니다.
   ms.service: skype-for-business-online
   audience: ITPro
   ms.topic: landing-page
@@ -11,14 +11,14 @@ metadata:
   author: lanachin
   ms.author: v-lanac
   ms.date: 06/23/2020
-  ms.openlocfilehash: b4ebe6851e6ee92d5b43fd781a3111fd015ba062
-  ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+  ms.openlocfilehash: feaab2b9acf9fa7d76ae564233930a00fb243006
+  ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/30/2021
-  ms.locfileid: "60014902"
+  ms.lasthandoff: 05/13/2022
+  ms.locfileid: "65393732"
 landingContent:
-- title: 비즈니스용 Skype 서버 2015
+- title: 2015년 비즈니스용 Skype 서버 정보
   linkLists:
   - linkListType: overview
     links:
@@ -30,10 +30,6 @@ landingContent:
       url: https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d
     - text: 기술 다이어그램
       url: ./technical-diagrams.md
-  - linkListType: download
-    links:
-    - text: 지금 다운로드하세요!
-      url: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server
 - title: 계획
   linkLists:
   - linkListType: overview
@@ -42,15 +38,15 @@ landingContent:
       url: ./plan-your-deployment/plan-your-deployment.md
     - text: 하이브리드 연결 계획
       url: /SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity
-    - text: 클라이언트 및 장치 계획
+    - text: 클라이언트 및 디바이스 계획
       url: ./plan-your-deployment/clients-and-devices/clients-and-devices.md
-    - text: 사용자 Enterprise Voice 계획
+    - text: Enterprise Voice 솔루션 계획
       url: ./plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md
 - title: 설치 및 관리
   linkLists:
   - linkListType: deploy
     links:
-    - text: 비즈니스용 Skype 서버 배포
+    - text: 배포 비즈니스용 Skype 서버
       url: ./deploy/deploy.md
     - text: 비즈니스용 Skype 서버 설치
       url: ./deploy/install/install.md
@@ -58,7 +54,7 @@ landingContent:
       url: ./deploy/upgrade-to-skype-for-business-server.md
     - text: Enterprise Voice 배포
       url: ./deploy/deploy-enterprise-voice/deploy-enterprise-voice.md
-    - text: Skype 모임 브로드캐스트에 대한 사내 배포 구성
+    - text: Skype 모임 Broadcast에 대한 온-프레미스 배포 구성
       url: ./deploy/configure-skype-meeting-broadcast.md
   - linkListType: how-to-guide
     links:
