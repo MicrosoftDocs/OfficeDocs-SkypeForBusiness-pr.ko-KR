@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 워키 토키 애플리케이션
+title: Microsoft Teams 워키 토키 앱
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -18,24 +18,27 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 776f0f31d54788fbffd86bbcbedd44e30ada28a3
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 29a632efc433a14d578eff80fdeb74a6f167dfc3
+ms.sourcegitcommit: a388fd72e399f6e205c34707dc92cc309997e737
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65186974"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65400234"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 워키 토키 앱
 
-Teams Walkie Talkie 앱은 팀에 대한 즉각적인 PTT(푸시 투 토크) 통신을 제공하며 이제 Android & iOS에서 사용할 수 있습니다. Walkie Talkie를 사용하면 사용자가 구성원인 것과 동일한 기본 채널을 사용하여 팀과 연결할 수 있습니다. 채널에서 Walkie Talkie에 연결하는 사용자만 참가자가 되고 한 번에 하나씩 푸시 투 토크를 사용하여 서로 통신할 수 있습니다.
+Teams Walkie Talkie 앱은 팀에 대한 즉각적인 PTT(푸시 투 토크) 통신을 제공하며 이제 Android & iOS 사용할 수 있습니다. Walkie Talkie를 사용하면 사용자가 구성원인 것과 동일한 기본 채널을 사용하여 팀과 연결할 수 있습니다. 채널에서 Walkie Talkie에 연결하는 사용자만 참가자가 되고 한 번에 하나씩 푸시 투 토크를 사용하여 서로 통신할 수 있습니다.
 
 Teams 워키 토키(Walkie Talkie)를 통해 일선 직원들은 이제 부피가 큰 라디오를 휴대할 필요 없이 친숙한 PTT 환경과 안전하게 통신할 수 있으며, Walkie Talkie는 WiFi 또는 셀룰러 인터넷 연결을 통해 어디서나 작동합니다.
+
+> [!NOTE]
+> 워키 토키는 현재 중국에서 사용할 수 없습니다.
 
 ## <a name="getting-started"></a>시작
 
 ### <a name="deploying-walkie-talkie"></a>워키 토키 배포
 
-Walkie Talkie는 GOOGLE Mobile Services(GMS) 및 iOS 디바이스를 사용하는 Android 디바이스에서 지원됩니다.
+Walkie Talkie는 GMS(Google Mobile Services) 및 iOS 디바이스를 사용하는 Android 장치에서 지원됩니다.
 
 ### <a name="pin-walkie-talkie-to-teams"></a>Teams 워키 토키 고정
 
@@ -80,7 +83,7 @@ Teams Walkie Talkie는 최적의 환경을 위해 인터넷 연결이 필요하�
 - **헤드셋**
   - 무선 헤드셋(iOS & Android)
     - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
-  - 유선 헤드셋(Android만 해당)
+  - 유선 헤드셋(Android 전용)
     - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
 - **러기드 Android 휴대폰**
   - 삼성 [갤럭시 XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), [갤럭시 XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [갤럭시 탭 활성 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
@@ -98,9 +101,9 @@ Walkie Talkie 앱은 Office 365 구독에서 Teams 모든 유료 라이선스에
 
 ## <a name="further-information"></a>추가 정보
 
-- ITAdmins는 앱 정책을 통해 Walkie Talkie를 사용하는 사용자를 제어할 수 있습니다.
+- IT 관리자는 앱 정책을 통해 Walkie Talkie를 사용하는 사용자를 제어할 수 있습니다.
 - 일선 작업자가 모바일 데이터를 사용하여 Teams 통해 통신하는 경우 Walkie Talkie는 동일한 방법을 사용합니다.
-- 워키 토키는 낮은 대역폭 상황 또는 스마트 폰이 연결되고 작동하는 상황에서 잘 작동해야합니다. Walkie Talkie는 연결이 전혀 없는 경우 작동하지 않습니다.
+- 워키 토키는 낮은 대역폭 상황 또는 스마트 폰이 연결되고 작동하는 상황에서 잘 작동해야합니다. 워키 토키는 연결이 전혀 없을 때 작동하지 않습니다.
 
 최종 사용자 환경에 대한 자세한 내용은 다음을 참조하세요.
 
