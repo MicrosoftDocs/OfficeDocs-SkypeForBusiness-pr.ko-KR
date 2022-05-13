@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3a488d026a0879da29a448381e1f2b800a2d9504
-ms.sourcegitcommit: 56d529cdbd8d8733350625316082f339ae8d66c9
+ms.openlocfilehash: 94d59c27841e873c4e178a1b5c0d09df6942c1fc
+ms.sourcegitcommit: a388fd72e399f6e205c34707dc92cc309997e737
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65294109"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65400244"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -124,9 +124,9 @@ Teams의 채팅 목록의 일부인 대화에 참여하는 사용자는 관리�
 |------------|---------------|
 |모임에 참가 중인 사용자 수(채팅 및 전화를 걸 수 있음)  | 1000에는 GCC, GCCH 및 DoD가 포함되지만 A1(300)은 포함되지 않습니다. **보기 전용** 에서는 주최자가 E3/E5/A3/A5 SKU 및 정부(GCC, GCC High, DoD)에 대한 라이선스를 보유한 모임에 최대 20,000명의 청취자만 참가할 수 있습니다. 웨비나에서도 보기 전용 환경을 곧 사용할 수 있습니다. [보기 전용 환경](view-only-meeting-experience.md)에 대해 자세히 알아보세요.<sup>1,2</sup>|
 |채팅에서 영상 또는 음성 통화 중인 사용자 수 | 20 |
-|동시 활성 호출 수 | 4 |
 |최대 PowerPoint 파일 크기 | 2GB|
 |Teams는 Microsoft Stream에 업로드되지 않은 [모임 녹화](cloud-recording.md)를 보관하며 로컬로 다운로드할 수 있습니다. | 20일 |
+| 모임 녹음/녹화 최대 길이 | 4시간 또는 1.5GB. 이 한도에 도달하면 녹음/녹화가 종료되고 자동으로 다시 시작됩니다.
   
 <sup>1</sup> 대규모 모임, 웨비나 및 실시간 이벤트에서 최상의 경험을 위해 Microsoft는 Teams 데스크톱 클라이언트 또는 Teams 모바일 클라이언트의 최신 버전을 사용할 것을 권장합니다.
 
