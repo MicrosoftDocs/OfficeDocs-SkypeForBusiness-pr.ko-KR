@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 적절한 장치, 마이크, 스피커, 카메라 및 디스플레이 선택을 포함하여 Microsoft Teams 룸 지원하기 위한 요구 사항에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56d2eca675a4f7ce092b15c66f9f79b8c28be17f
-ms.sourcegitcommit: 9f7372f7568b4275169590510d2b7a0c0ad7577b
+ms.openlocfilehash: 8086cfb6ac74e35d95ba45b701e2913d5b0f2ed6
+ms.sourcegitcommit: 4b0bd129af9cd487123ef6a5dc19ace0ec5a6c41
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "65171744"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65406414"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 룸 요구사항
 
@@ -133,7 +133,7 @@ Microsoft Teams 룸 크기가 다른 객실 크기로 조정됩니다. Teams 룸
 
 |Microsoft Teams 룸 주변기기|인증된 펌웨어 버전 | 카메라는 콘텐츠 카메라 사용을 지원 합니다.|
 |:--- |:--- | :--- |
-|[Aver VC520 Pro 카메라 + 스피커폰](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
+|[Aver VC520 Pro 카메라 + Speakerphone](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
 |[Aver VC520 PRO2 회의 시스템](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |
 |[Aver VB342+ 카메라 사운드바](https://www.averusa.com/products/conference-camera/vb342plus) | 사운드바: 0.0.0000.97|
 |[Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
@@ -149,13 +149,14 @@ Microsoft Teams 룸 크기가 다른 객실 크기로 조정됩니다. Teams 룸
 |[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
 |[Huddly IQ 카메라](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
-|[Crestron UC-C100-T MTR 키트를 사용하는 Huddly L1](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) 카메라 | 허들 L1 카메라: 1.2.1 </br> ASUS Tek Computer INC 9934 컴퓨팅 1.0.20.246 이상의 Crestron UC-C100-T |
+|[Huddly L1](https://www.huddly.com/conference-cameras/l1/) | 1.2.9 |
+|[Crestron UC-C100-T MTR](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) 키트를 사용하는 Huddly L1 카메라 | 허들 L1 카메라: 1.2.1 </br> ASUS Tek Computer INC 9934 컴퓨팅 1.0.20.246 이상의 Crestron UC-C100-T |
 |[Crestron UC-CX100-T MTR-W](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T) 키트를 사용하는 Huddly L1 카메라 | 허들 L1 카메라: 1.2.9 </br> ASUS Tek Computer INC 9934 1.00.20.246 이상을 사용하는 Crestron UC-CX100-T |
 |Crestron UC-M70-T MTR 키트를 사용하는 Huddly L1 카메라 | 허들 L1 카메라: 1.2.1 </br> ASUS Tek Computer INC 9934 컴퓨팅 1.0.20.246 이상의 Crestron UC-M70-T |
 |Crestron UC-MX70-T MTR 키트를 사용하는 Huddly L1 카메라 | 허들 L1 카메라: 1.2.1 </br> ASUS Tek Computer INC 9934 컴퓨팅 1.0.20.246 이상을 사용하는 Crestron UC-MX70-T |
-|[Jabra Panacast3 Camera](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
-|[Jabra Panacast 50 비디오 바](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|1.13.7| &#x2714; |
-|[Lenovo ThinkSmart Cam 카메라](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
+|[Jabra Panacast3 카메라](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
+|[Jabra Panacast 50 비디오 바](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|3.4.0| &#x2714; |
+|[레노버 씽크스마트 캠 카메라](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
 |[Lenovo ThinkSmart Bar](https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/smart-collaboration/thinksmart/ThinkSmart-Bar/p/11SP1TSSDBR)|0.9.3|
 |Lenovo ThinkSmart Bar Expand XL|5.9.5|
 |[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
@@ -202,19 +203,19 @@ Microsoft Teams 룸 크기가 다른 객실 크기로 조정됩니다. Teams 룸
 |[Yealink UVC40 올인원 비디오 모음](https://www.yealink.com/product/usb-videobar-uvc40) |128.410.0.10|  
 |[Yealink UVC84](https://www.yealink.com/product/camera-uvc84) |262.410.0.10|
 |[Yealink UVC86]( https://www.yealink.com/product/camera-uvc86) |151.410.0.5|
-|[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300)+</br></br> [Shure MXA 310 표 배열 마이크 ](https://www.shure.com/products/microphones/mxa310) | 4.1 |
-|[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) + </br></br> [Shshmxa 910 Intellimix 천장 배열 마이크](https://www.shure.com/products/microphones/mxa910) | 4.1|
-|[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300)+</br></br> [Shure MXA 310 Table Array Mic ](https://www.shure.com/products/microphones/mxa310) +</br></br> [MXN5W-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA310 테이블 배열 마이크: 4.1.41 </br> MXN5W-C 스피커: 1.0.4 |
-|[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) + </br></br> [Intellimix Ceiling Array Mic를 사용하는 Shure MXA 910](https://www.shure.com/products/microphones/mxa910) +</br></br> [MXN5W-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA910 천장 배열 마이크: 4.1.41 </br> MXN5W-C 스피커: 1.0.4 |
-|[Shure MXA 710 2ft Table Linear Array 마이크](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) +</br></br> [MXN5-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft 테이블 선형 배열 마이크: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C 스피커: 1.1.1 |
-|[Shure MXA 710 4ft Wall Linear Array 마이크](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) +</br></br> [MXN5-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft 벽 선형 배열 마이크: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C 스피커: 1.1.1 |
+|[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300)+</br>[Shure MXA 310 표 배열 마이크 ](https://www.shure.com/products/microphones/mxa310) | 4.1 |
+|[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) +</br>[Shshmxa 910 Intellimix 천장 배열 마이크](https://www.shure.com/products/microphones/mxa910) | 4.1|
+|[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300)+</br>[Shure MXA 310 Table Array Mic ](https://www.shure.com/products/microphones/mxa310) +</br>[MXN5W-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA310 테이블 배열 마이크: 4.1.41 </br> MXN5W-C 스피커: 1.0.4 |
+|[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) + </br>[Intellimix Ceiling Array Mic를 사용하는 Shure MXA 910](https://www.shure.com/products/microphones/mxa910) +</br>[MXN5W-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA910 천장 배열 마이크: 4.1.41 </br> MXN5W-C 스피커: 1.0.4 |
+|[Shure MXA 710 2ft Table Linear Array 마이크](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) +</br>[MXN5-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft 테이블 선형 배열 마이크: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C 스피커: 1.1.1 |
+|[Shure MXA 710 4ft Wall Linear Array 마이크](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) +</br>[MXN5-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft 벽 선형 배열 마이크: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C 스피커: 1.1.1 |
 |[Intellimix 천장 배열 마이크가 있는 Shure MXA 910](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br> [크레스트론 UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Shure Intellimix Room Software: 3.0.4.14 </br> Intellimix 천장 배열 마이크가 있는 Shure MXA 910: 4.4.11 </br> Shure MXN5-C 스피커: 1.2.1 </br> ASUS Tek Computer INC 9934 컴퓨팅을 사용하는 Crestron UC-C100-T | 
 |[Intellimix 천장 배열 마이크가 있는 Shure MXA 910](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br>Lenovo ThinkSmart Core | Shure Intellimix Room Software: 3.2.0.52 </br> Intellimix 천장 배열 마이크가 있는 Shure MXA 910: 4.4.11 </br> Shure MXN5-C 스피커: 1.2.1 </br> Lenovo ThinkSmart Core: Windows IoT 19h2/20h2 OS 버전 |
 |[Sennheiser TeamConnect Intelligent Speaker/TC ISP(T-Rock)](https://en-us.sennheiser.com/tcisp)|1.0.2|
-|[Biamp Tesira Fore AVB VT4 고정 오디오 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect 천장 2 마이크](https://sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
-|[Biamp Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Biamp Parlé TCM-XA Ceiling 마이크](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Biamp Desono C-IC6 천장 탑재 라우드 스피커](https://www.biamp.com/products/tesira-speakers)| 오디오 FW 버전: 3.15|
-|[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X(Table Mic)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UBT]() |오디오 FW 버전: 3.15|
-|Biamp Tesira FORTE X 시리즈 +</br></br>[Devio SCX 시리즈](https://www.biamp.com/products/product-families/devio/medium-large-room-solutions#devio-scx-400)|Tesira FORTE X 시리즈: 4.2.5 </br> Devio SCX 시리즈: 4.2.5|
+|[Biamp Tesira Fore AVB VT4 고정 오디오 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br>[Sennheiser TeamConnect 천장 2 마이크](https://sennheiser.com/tcc2)+ &Dagger;</br>[Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15 </br> TCC2: 1.3.3 </br>EX-UBT: 3.12.0.15 |
+|[Biamp Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+</br>[Biamp Parlé TCM-XA Ceiling 마이크](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br>[Biamp Desono C-IC6 천장 탑재 라우드 스피커](https://www.biamp.com/products/tesira-speakers)| 오디오 FW 버전: 3.15|
+|[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br>[Parle TTM-X(Table Mic)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br>[Ex-UBT]() |오디오 FW 버전: 3.15|
+|Biamp Tesira FORTE X 시리즈 +</br>[Devio SCX 시리즈](https://www.biamp.com/products/product-families/devio/medium-large-room-solutions#devio-scx-400)|Tesira FORTE X 시리즈: 4.2.5 </br> Devio SCX 시리즈: 4.2.5|
 |[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink 증폭기 +</br> Sennheiser TCC2 천장 마이크 + </br> Bose EdgeMax EM180 천장 스피커](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  |  |
 |[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink 증폭기 + 젠하이저 TCC2 천장 마이크 + </br> Bose DesignMax DM2C-P 천장 스피커](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  |  |
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink 증폭기 +</br> [젠하이저 TCC2 천장 마이크](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [DesignMax DM2C -LP Ceiling Speaker](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  | 

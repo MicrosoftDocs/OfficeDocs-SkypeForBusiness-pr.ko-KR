@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 'Microsoft Teams 위해 인증된 USB 주변 장치 및 장치(예: 헤드셋, 스피커폰, 웹캠 및 모니터)를 확인합니다.'
-ms.openlocfilehash: 272d0c0eb1b3885da9a313666c8eac2d7bb09fe0
-ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
+ms.openlocfilehash: 91f7a1a8d3e8ea68b113d98d667aeaae9a90dd4e
+ms.sourcegitcommit: 4b0bd129af9cd487123ef6a5dc19ace0ec5a6c41
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65217922"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65406404"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams 인증된 USB 오디오 및 비디오 장치
 
@@ -81,6 +81,7 @@ Teams 통화 제어 지원에 대한 자세한 내용은 [Teams 헤드셋을 사
 
 | 제조업체        | 모델                                                     | 자격      | 인증된 프로그램                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|많은                 |Studio P21 모니터                                         |5/12/2022       |Microsoft Teams 인증                           |
 |Yealink              |UH38 헤드셋                                               |5/2/2022        |Microsoft Teams 인증                           |   
 |Yealink              |BH72 헤드셋                                               |5/2/2022        |Microsoft Teams 인증                           |
 |로지텍             |영역 True 무선 이어버드                                 |5/2/2022        |Microsoft Teams 인증                           |
