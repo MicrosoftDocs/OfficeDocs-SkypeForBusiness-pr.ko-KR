@@ -13,14 +13,14 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 이 문서에서는 Cisco WebEx 및 Zoom에 대한 타사 모임 참가를 지원하도록 조직 및 Teams 룸 디바이스를 구성하는 방법을 설명합니다.
-ms.openlocfilehash: 6defa9c9287b130eb5534f0aea158a78f2de8b18
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 91b730f998a1c17ed41f42a1e2990c82045d3117
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64846607"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65442004"
 ---
-# <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Teams Room 디바이스가 타사 모임에 참가할 수 있도록 설정
+# <a name="enable-teams-rooms-devices-to-join-third-party-meetings"></a>Teams 룸 디바이스가 타사 모임에 참가하도록 설정
 
 > [!NOTE]
 > 이 기능은 현재 Windows Teams 룸만 사용할 수 있습니다.
@@ -65,8 +65,8 @@ Teams 룸 타사 모임에 참가하려면 다음을 수행해야 합니다.
 
 다음은 Office 365용 Defender 금고 링크 다시 *작성 목록* 또는 타사 URL 다시 쓰기 예외 목록에 추가해야 할 수 있는 몇 가지 예제 항목입니다.
 
-- **Cisco WebEx** `*.webex.com*`
-- **확대/축소** `*.zoom.us*`, `*.zoom.com*``*.zoomgov.com*`
+- **Cisco WebEx** `*.webex.com/*`
+- **확대/축소** `*.zoom.us/*`, `*.zoom.com/*``*.zoomgov.com/*`
 
 Office 365용 Defender 금고 링크 다시 *작성 안 함* 또는 타사 URL 다시 쓰기 예외 목록에 추가할 URL의 전체 목록은 모임 초대를 수락하려는 타사 모임 서비스 공급자에게 문의하세요.
 
