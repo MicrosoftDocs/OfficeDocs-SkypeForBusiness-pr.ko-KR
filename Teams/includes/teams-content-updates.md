@@ -3,6 +3,25 @@
 
 
 
+## <a name="week-of-may-09-2022"></a>2022년 5월 9일 주
+
+
+| 게시 날짜 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 5/9/2022 | [직접 라우팅에 대한 사용자 사용](/MicrosoftTeams/direct-routing-enable-users) | 으로 바뀌었습니다 |
+| 5/9/2022 | [운영자 연결 구성](/MicrosoftTeams/operator-connect-configure) | 으로 바뀌었습니다 |
+| 5/9/2022 | [Teams 정책 할당](/MicrosoftTeams/policy-assignment-overview) | 으로 바뀌었습니다 |
+| 5/9/2022 | [자동 전화 교환 & 통화 큐 기록 보고서](/MicrosoftTeams/aa-cq-cqd-historical-reports) | 으로 바뀌었습니다 |
+| 5/10/2022 | [직접 라우팅으로 전달되는 위치 기반 라우팅 계획](/MicrosoftTeams/location-based-routing-plan) | 으로 바뀌었습니다 |
+| 5/10/2022 | [Microsoft Teams 통화 정책: 통화 및 착신 전환 기능](/MicrosoftTeams/teams-calling-policy) | 으로 바뀌었습니다 |
+| 5/10/2022 | [Microsoft Teams 룸 앱 버전 지원](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 으로 바뀌었습니다 |
+| 5/12/2022 | [음성 메일 정책 관리](/MicrosoftTeams/manage-voicemail-policies) | 으로 바뀌었습니다 |
+| 5/12/2022 | [SIP 게이트웨이 구성](/MicrosoftTeams/sip-gateway-configure) | 으로 바뀌었습니다 |
+| 5/12/2022 | [교육용 Teams 부모 관리자 설정](/MicrosoftTeams/edu-parents-app) | 으로 바뀌었습니다 |
+| 5/13/2022 | [Microsoft Teams 워키 토키 앱](/MicrosoftTeams/walkie-talkie) | 으로 바뀌었습니다 |
+| 5/13/2022 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 으로 바뀌었습니다 |
+
+
 ## <a name="week-of-may-02-2022"></a>2022년 5월 2일 주
 
 
@@ -33,7 +52,7 @@
 | 4/25/2022 | [Microsoft Teams의 공개 미리 보기](/MicrosoftTeams/public-preview-doc-updates) | 으로 바뀌었습니다 |
 | 4/26/2022 | [Teams Loop 구성 요소 개요](/MicrosoftTeams/loop-components-in-teams) | 으로 바뀌었습니다 |
 | 4/26/2022 | 모임 녹음/녹화 만료 기능 | 제거 |
-| 4/27/2022 | [오디오 회의 전화 접속 사용 보고서](/MicrosoftTeams/audio-conferencing-dial-out-usage-report) | 추가 |
+| 4/27/2022 | [오디오 회의 전화 접속 사용 현황 보고서](/MicrosoftTeams/audio-conferencing-dial-out-usage-report) | 추가 |
 | 4/27/2022 | Skype Room System 도메인 가입 고려 사항 | 제거 |
 | 4/27/2022 | Lync Room System 디바이스를 Microsoft Teams 룸 마이그레이션 | 제거 |
 | 4/27/2022 | [Microsoft Teams 룸 인증](/MicrosoftTeams/rooms/rooms-authentication) | 으로 바뀌었습니다 |
@@ -52,7 +71,7 @@
 | 4/25/2022 | [Microsoft Teams의 공개 미리 보기](/MicrosoftTeams/public-preview-doc-updates) | 으로 바뀌었습니다 |
 | 4/26/2022 | [Teams Loop 구성 요소 개요](/MicrosoftTeams/loop-components-in-teams) | 으로 바뀌었습니다 |
 | 4/26/2022 | 모임 녹음/녹화 만료 기능 | 제거 |
-| 4/27/2022 | [오디오 회의 전화 접속 사용 보고서](/MicrosoftTeams/audio-conferencing-dial-out-usage-report) | 추가 |
+| 4/27/2022 | [오디오 회의 전화 접속 사용 현황 보고서](/MicrosoftTeams/audio-conferencing-dial-out-usage-report) | 추가 |
 | 4/27/2022 | Skype Room System 도메인 가입 고려 사항 | 제거 |
 | 4/27/2022 | Lync Room System 디바이스를 Microsoft Teams 룸 마이그레이션 | 제거 |
 | 4/27/2022 | [Microsoft Teams 룸 인증](/MicrosoftTeams/rooms/rooms-authentication) | 으로 바뀌었습니다 |
@@ -81,7 +100,7 @@
 | 4/19/2022 | [보류 중인 음악](/MicrosoftTeams/music-on-hold) | 으로 바뀌었습니다 |
 | 4/19/2022 | [사용자 유형에 따라 앱 동작 Teams](/MicrosoftTeams/non-standard-users) | 으로 바뀌었습니다 |
 | 4/19/2022 | [보안 및 규정 준수 개요](/MicrosoftTeams/security-compliance-overview) | 으로 바뀌었습니다 |
-| 4/20/2022 | [오디오 회의 무료 번호 정책](/MicrosoftTeams/audio-conferencing-toll-free-numbers-policy) | 추가 |
+| 4/20/2022 | [무료 번호 정책 오디오 회의](/MicrosoftTeams/audio-conferencing-toll-free-numbers-policy) | 추가 |
 | 4/20/2022 | [오디오 회의 브리지에서 전화 번호 변경](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | 으로 바뀌었습니다 |
 | 4/20/2022 | [특정 Teams 사용자에 대해 무료 전화 번호 비활성화](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users) | 으로 바뀌었습니다 |
 | 4/20/2022 | [오디오 회의 설정 관리](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | 으로 바뀌었습니다 |
