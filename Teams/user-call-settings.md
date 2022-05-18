@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: 착신 전환 및 위임에 대한 사용자 설정을 구성하는 방법을 알아봅니다.
-ms.openlocfilehash: 46fc88d20efb14ea130f38d9be284f8faad6f80f
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 360be8c46418abba1419b94678dd87666e280269
+ms.sourcegitcommit: 3cb40132e36717dfbdc6dfe83e7ea319f3ec9347
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817779"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "65465489"
 ---
 # <a name="configure-call-settings-for-your-users"></a>사용자에 대한 통화 설정 구성
 
@@ -92,7 +92,7 @@ IsUnansweredEnabled       : True
 UnansweredTarget          :
 UnansweredTargetType      : Voicemail
 UnansweredDelay           : 00:00:20
-Delegates                 : Id:user2@contoso.com
+Delegates                 : Id:sip:user2@contoso.com
 Delegators                : 
 CallGroupOrder            : InOrder
 CallGroupTargets          : {}
@@ -101,7 +101,7 @@ GroupNotificationOverride : Ring
 
 (Get-CsUserCallingSettings -Identity user1@contoso.com).Delegates
 
-Id             : user2@contoso.com
+Id             : sip:user2@contoso.com
 MakeCalls      : True
 ManageSettings : True
 ReceiveCalls   : True
@@ -161,7 +161,7 @@ Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso
 ```
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings?view=teams-ps) 
 
