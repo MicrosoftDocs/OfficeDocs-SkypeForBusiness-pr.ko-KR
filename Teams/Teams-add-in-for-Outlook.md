@@ -19,14 +19,16 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c734fe5d6326d0fc4bfddfbc381d66339303d36e
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: 8415ee8dc79c8c67189ae801b1287c56115e6d72
+ms.sourcegitcommit: 2c3c067cccd7b84064b5619a0b5f87242af52984
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392880"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "65462032"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 Teams 모임 추가 기능 사용
+
+이 문서에서는 최종 사용자를 위해 Outlook에서 Teams 모임 추가 기능의 인증 요구 사항 및 기능을 자세히 설명합니다. 또한 아일랜드 모드에서 비공개 모임을 사용하도록 설정하고 사용자에 대한 정책 설정을 조정하는 방법도 보여줍니다. 추가 기능에 문제가 있는 경우 [최신 문제 해결 지침](/MicrosoftTeams/troubleshoot/meetings/resolve-teams-meeting-add-in-issues)을 참조하세요.
 
 Teams 모임 추가 기능을 사용하면 사용자가 Outlook에서 Teams 모임을 예약할 수 있습니다. 추가 기능은 Windows, Mac, 웹 및 모바일의 Outlook에서 사용할 수 있습니다.
 
@@ -126,59 +128,6 @@ Teams 모임 추가 기능은 아직 기능적으로 빌드하는 중이므로 �
 - 사용자가 Outlook 내에서 라이브 이벤트를 예약할 수 없습니다. Teams로 이동하여 라이브 이벤트를 예약합니다. 자세한 내용은 [Microsoft Teams 라이브 이벤트란?](teams-live-events/what-are-teams-live-events.md)을 참조하세요.
 
 [Microsoft Teams의 모임 및 통화](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)에 대해 자세히 알아보세요.
-
-## <a name="troubleshooting"></a>문제 해결
-
-다음 단계를 사용하여 Teams 모임 추가 기능에 대한 문제를 해결합니다.
-
-> [!NOTE]
-> 이 시나리오는 SaRAcmd.exe -S TeamsAddinScenario -AcceptEula -CloseOutlook과 함께 [명령줄 버전의 Microsoft 지원 및 복구 도우미](/office365/troubleshoot/administration/sara-command-line-version)를 사용하여 관리할 수도 있습니다.
-
-### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>Windows용 Outlook의 Teams 모임 추가 기능이 표시되지 않음
-
-Outlook용 Teams 모임 추가 기능을 설치할 수 없는 경우 다음 문제 해결 단계를 시도해보세요.
-
-[다운로드](https://aka.ms/SaRA-TeamsAddInScenario)하고 [Microsoft 지원 복구 도우미](https://aka.ms/SaRA_Home)를 실행하여 자동 문제 해결 단계 및 수정을 수행하세요.
-
-또는 다음 단계를 수동으로 수행하세요.
-
-- Windows 7 사용자는 Teams 모임 추가 기능을 사용하려면 [Windows에서 유니버셜 C 런타임 업데이트](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)를 설치해야 합니다.
-- 사용자에게 Teams에서 모임을 예약할 수 있는 Teams 업그레이트 정책이 있는지 확인하세요. 자세한 내용은 [비즈니스용 Skype에서 Microsoft Teams로 업그레이트](/microsoftteams/meeting-policies-in-teams-general)를 참조하세요.
-- 사용자에 게 Outlook 추가 기능을 허용하는 Teams 모임 정책이 있는지 확인하세요. 자세한 내용은 [모임 정책 설정 - 일반](./meeting-policies-in-teams-general.md#outlook-add-in)을 참조하세요.
-- 사용자에게 Teams 데스크톱 클라이언트가 설치되어 있는지 확인하세요. 모임 추가 기능은 the 웹 클라이언트만 사용하는 경우에는 설치되지 않습니다.
-- 사용자에게 Outlook 2013 이상이 설치되어 있는지 확인하세요.
-- 사용자에게 regsvr32를 실행할 수 있는 권한이 있는지 확인하세요.
-- Outlook 데스크톱 클라이언트에 대해 사용 가능한 모든 업데이트를 적용했는지 확인하세요.
-- 다음 단계를 따릅니다.
-  - Teams 데스크톱 클라이언트를 다시 시작합니다.
-  - 로그아웃한 후 Teams 데스크톱 클라이언트에 다시 로그인합니다.
-  - Outlook 데스크톱 클라이언트를 다시 시작합니다. (Outlook이 관리자 모드로 실행되고 있지 않은지 확인하세요.)
-
-그래도 추가 기능이 표시되지 않으면 Outlook에서 이 기능을 사용하지 않도록 설정되어 있는지 확인하세요.
-
-- Outlook에서 **파일** 을 선택하고 **옵션** 을 선택하세요.
-- **Outlook 옵션** 대화 상자에서 **추가 기능** 탭을 선택하세요.
-- **Microsoft Office용 Microsoft Teams 모임 추가 기능** 이 **활성 응용 프로그램 추가 기능** 목록에 나열되어 있는지 확인하세요.
-- 모임 추가 기능이 **사용하지 않는 응용 프로그램 추가 기능** 목록에 나열되어 있는 경우, **관리** 에서 **COM 추가 기능** 을 선택하고 **이동...** 을 선택하세요.
-- **Microsoft Office용 Microsoft Teams 모임 추가 기능** 옆 확인란을 설정하세요.
-- 모든 대화 상자에서 **확인** 을 선택하고 Outlook을 다시 시작합니다.
-
-추가 기능을 관리 방법에 대한 일반적인 지침은 [Office 프로그램의 추가 기능 보기, 관리 및 설치](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)를 참조하세요.
-
-그래도 추가 기능이 표시되지 않으면 다음 단계를 따라 레지스트리 설정을 확인하세요.
-
-> [!NOTE]
-> 레지스트리를 잘못 편집하면 시스템에 중대한 손상을 미칠 수 있습니다. 레지스트리를 변경하기 전에 컴퓨터에 있는 중요한 데이터를 백업하세요.
-- Regedit.exe 실행
-- HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\Addins로 이동
-- TeamsAddin.FastConnect가 있는지 확인하세요.
-- TeamsAddin.FastConnect에서 LoadBehavior가 있고 3으로 설정되어 있는지 확인하세요.
-  - LoadBehavior가 3이 아닌 값으로 설정된 경우, 3으로 변경하고 Outlook을 다시 시작하세요.
-
-### <a name="delegate-scheduling-does-not-work"></a>대리인 예약이 작동 하지 않음
-
-관리자가 [EWS(Exchange 웹 서버)에 대한 액세스 권한을 제어](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)하기 위해 Microsoft Exchange를 구성한 경우에는 대리인이 상사를 대신하여 Teams 모임을 예약할 수 없습니다. 이 구성에 대한 해결 방법은 개발 중이며 향후에 출시될 예정입니다. 이 문제를 해결하려면 관리자는 *SchedulingService*" 문자열을 EWS 허용 목록에 추가하세요. 
-
 
 ## <a name="related-topics"></a>관련 항목
 
