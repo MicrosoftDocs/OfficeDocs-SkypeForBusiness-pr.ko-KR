@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Microsoft Teams Bookings 앱을 사용하여 가상 약속을 예약, 관리 및 수행하는 방법을 알아봅니다.
-ms.openlocfilehash: 5693049942d48da8c18e46b05f4a8d0bb2ebae0a
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 3fb6b28b9e9e1b7581ef80d9830bce97f6a7070d
+ms.sourcegitcommit: 02fcd6686a2f7a59c0ad67430c2b85f809c1b662
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64846669"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "65534383"
 ---
 # <a name="help-your-clients-and-customers-use-virtual-appointments"></a>클라이언트와 고객이 가상 약속을 사용하도록 지원
 
@@ -66,7 +66,7 @@ ms.locfileid: "64846669"
 
 **가상 약속에 대한 결제는 어떻게 작동하나요?**
 
-가상 약속에 대해 다양한 유형의 결제를 수락하는지 고객에게 알릴 수 있습니다.
+가상 약속 대해 다양한 유형의 결제를 수락하는지 고객에게 알릴 수 있습니다.
 
 ### <a name="booking-an-appointment"></a>약속 예약
 
@@ -113,6 +113,7 @@ ms.locfileid: "64846669"
 | [![금융 서비스 인포그래픽 이미지](../media/vv-finserv-thumbnail.png)](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pdf) | 금융 서비스 조직을 위한 사용자 지정 가능한 인포그래픽 <br> [PDF로 다운로드](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pdf) <br> [PowerPoint 다운로드](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pptx)
 | [![소매 인포그래픽 이미지](../media/vv-retail-thumbnail.png)](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pdf) | 소매 조직을 위한 사용자 지정 가능한 인포그래픽 <br> [PDF로 다운로드](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pdf) <br> [PowerPoint 다운로드](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pptx) |
 | [![의료 인포그래픽 이미지](../media/vv-healthcare-thumbnail.png)](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pdf) | 의료 조직을 위한 사용자 지정 가능한 인포그래픽 <br> [PDF로 다운로드](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pdf) <br> [PowerPoint 다운로드](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pptx) |
+| [![비산업별 인포그래픽 이미지입니다.](../media/va-generic-thumb.png)](//download.microsoft.com/download/c/6/9/c69d3f29-a8f5-462b-a645-79119beab406/VirtualVisit_Generic_Infographic.pdf) | 특정 산업에만 해당되지 않는 사용자 지정 가능한 인포그래픽 <br> [PDF로 다운로드](//download.microsoft.com/download/c/6/9/c69d3f29-a8f5-462b-a645-79119beab406/VirtualVisit_Generic_Infographic.pdf) <br> [PowerPoint 다운로드](//download.microsoft.com/download/c/6/9/c69d3f29-a8f5-462b-a645-79119beab406/VirtualVisit_Generic_Infographic.pptx) |
 
 ### <a name="customize-your-infographic"></a>인포그래픽 사용자 지정
 
