@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5097586825b231decd220a30bdde85bf258e27fc
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: 6a52b30e1ced457377d7dd1c820192cb856827ba
+ms.sourcegitcommit: 3b86e55787c34da76428d6915964ac4f3c6239fc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65313110"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65601649"
 ---
 # <a name="calling-and-call-forwarding-in-teams"></a>Teams 통화 및 착신 전환
 
@@ -99,7 +99,7 @@ Microsoft Teams 통화 정책은 사용자가 사용할 수 있는 통화 및 �
 
 이 설정을 사용하면 사용자가 Teams 웹 클라이언트를 사용하여 PSTN 번호를 호출할 수 있습니다.
 
-### <a name="incoming-meeting-invites-are-automatically-answered"></a>들어오는 모임 초대가 자동으로 응답됩니다.
+### <a name="automatically-answer-incoming-meeting-invites"></a>들어오는 모임 초대에 자동으로 응답
 
 이 설정은 들어오는 모임 초대가 자동으로 응답되는지 여부를 제어합니다. 이는 기본적으로 해제되어 있습니다. 이 설정은 들어오는 모임 초대에만 적용됩니다. 다른 유형의 호출에는 적용되지 않습니다.
 

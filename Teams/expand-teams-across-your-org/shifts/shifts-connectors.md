@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 930f4b7a311acc7c34e60b7916071d10349c0313
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: a4759bc010367e6531a557e2a5ff951d1b613505
+ms.sourcegitcommit: 3b86e55787c34da76428d6915964ac4f3c6239fc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "64592893"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65598361"
 ---
 # <a name="shifts-connectors"></a>Shifts 커넥터
 
@@ -30,7 +30,7 @@ Shifts 커넥터를 사용하면 Microsoft Teams 일정 관리 도구인 Shifts�
 
 WFM 시스템을 Teams 연결하면 일선 직원이 일정을 보다 효과적으로 관리하고 더 높은 참여와 생산성을 위해 일상적인 프로세스를 간소화할 수 있습니다. 일선 작업자는 모든 장치에서 어디서나 작업을 완료해야 하는 일정, 통신 및 협업을 위한 한 자리를 차지합니다.
 
-관리형 및 오픈 소스 Shifts 커넥터를 제공합니다. 이 문서에서는 Shifts 커넥터 및 작동 방식에 대한 개요를 제공합니다.
+이 문서에서는 Shifts 커넥터 및 작동 방식에 대한 개요를 제공합니다.
 
 ## <a name="how-shifts-connectors-work"></a>Shifts 커넥터 작동 방식
 
@@ -115,17 +115,6 @@ Microsoft Teams 대한 Reflexis Shifts 커넥터는 Zebra에서 호스트되고 
 - 교대 근무를 요청하고 교대 근무를 열고 교대 근무를 교환하고 교대 근무를 제공합니다.
 
 자세한 내용을 보려면 .로 이동하세요 https://connect.zebra.com/microsoft-connectors.
-
-## <a name="open-source-shifts-connectors"></a>오픈 소스 Shifts 커넥터
-
-오픈 소스 Shifts 커넥터는 [Shifts Graph API](/graph/api/resources/shift)를 기반으로 하는 커뮤니티 기반 통합입니다. 사용할 수 있는 오픈 소스 커넥터는 다음과 같습니다.
-
-- Kronos-Teams WFC 온-프레미스
-- JDA-Teams Shifts 커넥터(Blue Yonder 버전 2017~2020.2)
-
-각 커넥터에는 자세한 배포 및 구성 지침이 제공됩니다. 여기에는 Microsoft Azure 필요한 모든 서비스를 호스트할 수 있는 ARM(Azure Resource Manager) 배포 스크립트가 포함됩니다. 소스 코드 및 배포 스크립트는 [GitHub 리포지토리](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)에서 다운로드할 수 있습니다. 필요에 맞게 배포하거나 사용자 지정하거나 확장할 수 있습니다.
-
-자세한 내용은 [프로덕션 지원 Shifts 커넥터를 참조하세요](/microsoftteams/platform/samples/shifts-wfm-connectors).
 
 ## <a name="related-articles"></a>관련 기사
 
