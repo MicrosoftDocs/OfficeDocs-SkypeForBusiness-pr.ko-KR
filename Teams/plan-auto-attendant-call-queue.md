@@ -24,18 +24,18 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 자동 전화 교환 및 통화 큐에 대해 알아보고 이를 사용하여 발신자가 메뉴 시스템을 통해 조직의 사용자 또는 부서에 연결할 수 있도록 돕는 방법을 알아봅니다.
-ms.openlocfilehash: 76755e722abdcde6673baac42681697165921aca
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: e811586a42c113960d61f51cd30ce824646d3b7c
+ms.sourcegitcommit: a867e2cc94adb96eba5e989a4d7ba5fe7a427939
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059279"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65611914"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>자동 전화 교환 및 통화 큐 Teams 계획
 
-자동 전화 교환을 사용하면 호출자 입력에 따라 통화를 라우팅하는 메뉴 옵션을 설정할 수 있습니다. 메뉴 옵션(예: "판매의 경우 1을 누릅니다.)  Services press 2"의 경우 자동 전화 교환의 경우 조직에서 수신 전화를 처리하는 사람 운영자에 의존하지 않고도 발신자를 신속하게 대상으로 안내하는 일련의 선택을 제공할 수 있습니다.
+자동 전화 교환을 사용하면 호출자 입력에 따라 통화를 라우팅하는 메뉴 옵션을 설정할 수 있습니다. 자동 전화 교환에 대한 메뉴 옵션(예: "판매의 경우 1 누르기-서비스 프레스 2")은 조직에서 수신 전화를 처리하는 사람 운영자에 의존하지 않고도 발신자를 신속하게 대상으로 안내하는 일련의 선택 항목을 제공할 수 있습니다.
 
-통화 큐는 발신자를 위한 대기 영역입니다. 발신자가 특정 사람이 아닌 영업 또는 서비스와 같은 특정 전문 분야를 가진 사람에게 연락해야 하는 경우 통화 큐를 사용하여 발신자를 지원할 수 있는 에이전트 그룹에 연결할 수 있습니다. 큐에 할당된 에이전트를 호출할 수 있게 될 때까지 호출자는 보류됩니다.
+통화 큐는 발신자를 위한 대기 영역입니다. 호출자가 특정 담당자가 아닌 영업 또는 서비스와 같은 특정 전문 분야를 가진 사람에게 연락해야 하는 경우 통화 큐를 사용하여 발신자를 지원할 수 있는 에이전트 그룹에 연결할 수 있습니다. 큐에 할당된 에이전트를 호출할 수 있게 될 때까지 호출자는 보류됩니다.
 
 자동 전화 교환 및 통화 큐를 함께 사용하면 발신자를 조직의 적절한 담당자 또는 부서로 쉽게 라우팅할 수 있습니다.
 
@@ -70,8 +70,8 @@ ms.locfileid: "65059279"
 자동 전화 교환 및 통화 큐를 구성하려면 다음 리소스가 필요합니다.
 
 - 각 자동 전화 교환 및 각 통화 큐에 대한 리소스 계정
-- 각 리소스 계정에 대한 무료 Microsoft 전화 시스템 - 가상 사용자 라이선스
-- 직접 전화 걸기를 원하는 각 리소스 계정에 대해 하나 이상의 [Microsoft 서비스 번호](getting-service-phone-numbers.md), 운영자 연결 번호, 직접 라우팅 번호 또는 하이브리드 번호
+- Teams 사용자 또는 외부 전화 번호로 직접 전화를 걸 수 있는 각 리소스 계정에 대한 무료 Microsoft 전화 시스템 - 가상 사용자 라이선스
+- 외부 전화 번호에서 직접 전화를 걸려는 각 리소스 계정에 대해 하나 이상의 [Microsoft 서비스 번호](getting-service-phone-numbers.md), 운영자 연결 번호, 직접 라우팅 번호 또는 하이브리드 번호
  - 서비스 번호는 통행료 또는 무료 번호일 수 있습니다.
 
 > [!NOTE]
@@ -84,11 +84,21 @@ ms.locfileid: "65059279"
 
 에이전트가 통화 큐 호출에 Microsoft Teams 앱을 사용하는 경우 TeamsOnly 모드에 있어야 합니다.
 
-통화 큐에서 회선 ID를 호출하기 위해 리소스 계정을 사용하거나 자동 전화 교환 또는 통화 큐가 외부 전화 번호로 통화를 전송하는 경우 리소스 계정에는 전화 시스템 가상 사용자 라이선스와 다음 중 하나가 할당되어 있어야 합니다.
+통화 큐에서 회선 ID를 호출하기 위해 리소스 계정을 사용하는 경우 리소스 계정에는 전화 시스템 Virtual User 라이선스와 다음 중 하나가 할당되어 있어야 합니다.
 
 - [통화 플랜](calling-plans-for-office-365.md) 라이선스 및 할당된 전화 번호
 - 할당된 [운영자 연결](operator-connect-plan.md) 전화 번호
 - [온라인 음성 라우팅 정책(직접 라우팅을](manage-voice-routing-policies.md) 사용하는 경우 전화 번호 할당은 선택 사항)
+
+자동 전화 교환 또는 통화 큐가 외부 번호로 통화를 전송하는 경우 아래에 설명된 특정 리소스 계정에는 전화 시스템 Virtual User 라이선스와 다음 중 하나가 할당되어 있어야 합니다.
+
+- [통화 플랜](calling-plans-for-office-365.md) 라이선스 및 할당된 전화 번호
+- 할당된 [운영자 연결](operator-connect-plan.md) 전화 번호
+- [온라인 음성 라우팅 정책(직접 라우팅을](manage-voice-routing-policies.md) 사용하는 경우 전화 번호 할당은 선택 사항)
+
+라이선스를 부여할 리소스 계정:
+- 자동 전화 교환이 외부적으로 통화를 전송하는 다른 자동 전화 교환 또는 통화 큐로 전송할 때 첫 번째 자동 전화 교환에서 전화를 받는 첫 번째 자동 전화 교환의 리소스 계정 라이선스
+- 다른 모든 호출 시나리오에서 외부 전송을 수행하는 자동 전화 교환 또는 통화 큐의 리소스 계정에 라이선스를 부여합니다.
 
 > [!NOTE]
 > 리소스 계정에 할당된 통화 플랜이 비활성화되거나 제거되면 테넌트에서 사용할 수 있는 통신 [크레딧](what-are-communications-credits.md)(리소스 계정에 할당되지 않음)이 소비됩니다. 통화 플랜 또는 통신 크레딧이 없으면 호출이 실패합니다.
@@ -226,7 +236,7 @@ ms.locfileid: "65059279"
 - [자동 전화 교환 설정](create-a-phone-system-auto-attendant.md)
 - [통화 큐 만들기](create-a-phone-system-call-queue.md)
 
-워크플로, 봇 및 SMS와의 통합과 같은 보다 광범위한 기능이 필요한 경우 [Azure Communication Services](/azure/communication-services/overview) 고려합니다.
+워크플로, 봇 및 SMS 통합과 같은 보다 광범위한 기능이 필요한 경우 [Azure Communication Services](/azure/communication-services/overview) 고려해 보세요.
 
 ## <a name="related-topics"></a>관련 항목
 
