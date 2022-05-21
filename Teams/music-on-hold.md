@@ -15,18 +15,18 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: 전화 시스템 음악 보류 기능을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 3e3e9c12eb459fdf52506be4577dfea88943ffa7
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 4899ffd2a3b6bfda80164ca2df4a5460a2b005e2
+ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922659"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65624236"
 ---
 # <a name="music-on-hold"></a>보류 중인 음악
 
 Microsoft Teams 사용자가 수신 전화를 보류하면 발신자가 선택한 음악을 들을 수 있습니다.
 
-재생되는 음악은 Microsoft에서 제공하는 기본 음악 또는 업로드하고 구성하는 사용자 지정 음악입니다. 테넌트 관리자는 Teams 통화 정책을 만들고 Teams 사용자에게 정책을 할당하여 보류 중인 음악 사용할 수 있는지 여부를 구성합니다.
+재생되는 음악은 Microsoft에서 제공하는 기본 음악 또는 업로드하고 구성하는 사용자 지정 음악입니다. 테넌트 관리자 Teams 통화 정책을 만들고 Teams 사용자에게 정책을 할당하여 보류 중인 음악 사용할 수 있는지 여부를 구성합니다.
 
 Microsoft Teams 통화 시나리오에서 제공되는 기본 음악은 조직에서 지불하는 모든 로열티가 없습니다.
 
@@ -69,7 +69,7 @@ Teams 사용자에게 음악 사용 안 함으로 설정된 Teams 통화 정책�
 
 대기 중인 사용자 지정 음악 구성은 오디오 파일 업로드로 시작합니다. 이 용도로 PowerShell cmdlet [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile) 을 사용합니다.
 
-PowerShell 인터페이스를 사용하여 MP3 오디오 파일을 업로드하는 예제는 다음과 같습니다.
+Windows PowerShell 5.1을 사용하여 MP3 오디오 파일을 업로드하는 예제는 다음과 같습니다. 다른 예제는 [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)을 참조하세요.
 
 ```PowerShell
 C:\> $content = Get-Content "C:\tmp\customMoH1.mp3" -Encoding byte -ReadCount 0
@@ -132,6 +132,10 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 - [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
+- [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
+
+- [Export-CsOnlineAudioFile](/powershell/module/skype/export-csonlineaudiofile)
+
 - [Get-CsOnlineAudioFile](/powershell/module/skype/get-csonlineaudiofile)
 
 - [Remove-CsOnlineAudioFile](/powershell/module/skype/remove-csonlineaudiofile)
@@ -144,6 +148,3 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 - [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy)
 
-- [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
-
-- [Export-CsOnlineAudioFile](/powershell/module/skype/export-csonlineaudiofile)

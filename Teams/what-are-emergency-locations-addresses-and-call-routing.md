@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: 긴급 주소, 긴급 통화 라우팅 및 동적 긴급 통화에 대한 정보를 포함하여 긴급 통화에 대해 알아봅니다.
-ms.openlocfilehash: f059f55281df2925511b85941fefbb675d781852
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 2806499e81b524168944e6cca2e9a6acb4d0b6a7
+ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125453"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65624132"
 ---
 # <a name="manage-emergency-calling"></a>긴급 통화 관리
 
@@ -148,7 +148,7 @@ Teams 통화 플랜 사용자가 긴급 번호로 전화를 걸면 통화가 PSA
 
 각 운영자 연결 사용자는 긴급 통화에 대해 자동으로 사용하도록 설정됩니다. 긴급 통화는 지정된 번호에 대해 운영자 연결 이동 통신 사업자로 자동으로 라우팅됩니다.
 
-테넌트 관리자가 운영자 연결 사용자의 등록된 주소를 설정하는 기능은 운송업체가 고객 인벤토리에 업로드할 때 번호에 할당된 기능에 따라 달라집니다. 이 설정에 따라 테넌트 관리자는 사용자의 긴급 위치를 설정, 수정 또는 삭제할 수&mdash; 있거나 필요하지 않을&mdash; 수 있습니다. 
+테넌트 관리자가 운영자 연결 사용자의 등록된 주소를 설정하는 기능은 운송업체가 고객 인벤토리에 업로드할 때 번호에 할당된 기능에 따라 달라집니다. 이 설정에 따라 테넌트 관리자 사용자의 긴급 위치를 설정, 수정 또는 삭제할 수&mdash; 있는 필수&mdash; 요소일 수도 있고 그렇지 않을 수도 있습니다. 
 
 ### <a name="dynamic-emergency-calling-for-operator-connect"></a>운영자 연결 대한 동적 긴급 통화
 
@@ -275,9 +275,6 @@ Teams 긴급 통화 정책(TeamsEmergencyCallingPolicy)을 사용하여 긴급 �
 ### <a name="custom-emergency-disclaimer"></a>사용자 지정 긴급 고지 사항
 
 관리자는 사용자가 E911을 사용하도록 설정하기 위해 테넌트에 사용자 지정 배너를 추가할 수 있습니다. 사용자는 주소를 확인하면 배너를 해제할 수 있으며 Teams 다시 시작되면 배너가 다시 나타납니다. 이 기능을 사용하려면 Teams 긴급 통화 정책에 따라 **응급 서비스 고지 사항을** 설정하고 사용자에게 표시할 문자열 메시지를 입력합니다. 이 필드는 사용자 지정 정책을 설정할 때 선택 사항이며 문자열 필드는 250자로 제한됩니다.
-
-> [!NOTE]
-> 현재 EnhancedEmergencyServicesDisclaimer 정책과 함께 PowerShell을 사용하여 구성할 수 있습니다. 나중에 Teams 관리 센터에서도 구성할 수 있습니다.
 
     
 ## <a name="related-topics"></a>관련 항목
