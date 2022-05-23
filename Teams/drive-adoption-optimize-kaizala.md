@@ -1,7 +1,7 @@
 ---
 title: 일선 근로자를 위한 Kaizala Microsoft Teams 채택 추진
-author: Benny-54
-ms.author: v-bshilpa
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: ed0221576b42c01de7a8c3d93188a94af2f74317
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: e531ab60379bc1aadc0601ff4191c9c1c936934d
+ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059289"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65635386"
 ---
 # <a name="microsoft-teams-for-frontline"></a>최전방에 대한 Microsoft Teams
 

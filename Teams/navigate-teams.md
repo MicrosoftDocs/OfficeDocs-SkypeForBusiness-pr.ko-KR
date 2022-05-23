@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 탐색
-author: Benny-54
-ms.author: v-bshilpa
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 5c87bca0eacfdc85ca39d997488a97faedaf0824
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 9bf52e68f8db5ecacfb4683b0a4809437a860d77
+ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922679"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65635246"
 ---
 # <a name="navigate-microsoft-teams"></a>Microsoft Teams 탐색
 
-이제 조직의 고유한 경로와 요구 사항을 명확하게 이해했으므로 이제 Microsoft Teams 강력한 협업으로의 여정을 시작할 차례입니다. 다음 섹션을 사용하여 Teams 내에서 보완된 Kaziala의 기능을 탐색하는 방법을 알아봅니다.
+이제 조직의 고유한 경로와 요구 사항을 명확하게 이해했으므로 이제 Microsoft Teams 강력한 협업으로의 여정을 시작할 차례입니다. 다음 섹션을 사용하여 Teams 내에서 Kaizala 기능을 탐색하는 방법을 알아봅니다.
 
 | Kaizala | Teams |
 |---------|-----------------------|
@@ -42,7 +42,7 @@ ms.locfileid: "64922679"
 | | [최종 사용자용](#end-user-guidance) |
 | Kaizala 그룹 해산| [Kaizala 그룹 해산](#kaizala-group-dissolution) |
 | 테넌트 데이터 내보내기 Kaizala| [Kaizala 테넌트 데이터 내보내기](#export-kaizala-tenant-data)  |
-| 외부 사용자(공급업체/공급업체/파트너)와 공동 작업| [업무용 Teams 사용 및 개인용 상호 운용성을 위해 Teams 사용](#collaborating-with-external-usersvendorssupplierspartners) |
+| 외부 사용자(공급업체/공급업체/파트너)와 공동 작업| [채팅에 Teams 조직 외부의 사용자 추가 또는 초대](#collaborating-with-external-usersvendorssupplierspartners) |
 
 ## <a name="getting-started"></a>시작
 
@@ -185,6 +185,7 @@ Kaizala 브로드캐스트 그룹에서 관리자는 대상 그룹에 메시지�
 - 제목을 입력하거나 배경색을 변경하거나 헤드라인 영역에 대한 배경 이미지를 추가합니다.
 
 - 하위 헤드 추가 영역에 공지의 제목을 입력한 다음 메시지 본문을 입력하고 보내기 단추를 선택합니다.
+
     ![모바일 공지](media/kaizala-to-teams-image10.png)
 
 **3단계**: 메시지 브로드캐스트에 대한 채널을 선택합니다.
@@ -202,7 +203,7 @@ Microsoft Teams Kaizala 기본 실행 카드에 대한 몇 가지 기능과 솔�
 
 ![사용자와 Teams](media/kaizala-to-teams-image12.png)
 
-Teams 플랫폼을 사용하면 즉시 사용할 수 있는 Microsoft 365 애플리케이션 및 타사 앱과 함께 Microsoft Teams 통합을 통해 기존 조직 도구를 사용할 수 있습니다. 현재 Microsoft Teams 300개가 넘는 외부 애플리케이션을 사용할 수 있습니다.
+Teams 플랫폼을 사용하면 즉시 사용할 수 있는 Microsoft 365 애플리케이션 및 타사 앱과 함께 Microsoft Teams 통합을 통해 기존 조직 도구를 사용할 수 있습니다. 현재 Microsoft Teams 800개가 넘는 외부 애플리케이션을 사용할 수 있습니다.
 
 ### <a name="polls-surveys-and-checklists-in-teams"></a>Teams 설문 조사, 설문 조사 및 검사 목록
 
@@ -212,7 +213,7 @@ Teams 플랫폼을 사용하면 즉시 사용할 수 있는 Microsoft 365 애플
 
 ![Teams 앱 템플릿 폴링](media/polltemplatecompose.gif)
 
-**설문 조사를** 통해 사용자는 채팅 또는 채널에서 설문 조사를 만들어 일련의 질문을 하고 실행 가능한 인사이트를 얻을 수 있습니다. 등록, 등록, 피드백, 평가, 잠재 고객 캡처, 보고, 불만 및 평가에 대한 설문 조사를 사용합니다. 설문 조사 앱은 데스크톱, 브라우저, iOS 및 Android 클라이언트를 Teams 모든 플랫폼에서 지원됩니다. 기존 Microsoft 365 구독의 일부로 배포할 준비가 된 것입니다.
+**설문 조사를** 통해 사용자는 채팅 또는 채널에서 설문 조사를 만들어 일련의 질문을 하고 실행 가능한 인사이트를 얻을 수 있습니다. 등록, 등록, 피드백, 평가, 잠재 고객 캡처, 보고, 불만 및 평가에 대한 설문 조사를 사용합니다. 설문 조사 앱은 데스크톱, 브라우저, iOS 및 Android 클라이언트와 Teams 모든 플랫폼에서 지원됩니다. 기존 Microsoft 365 구독의 일부로 배포할 준비가 된 것입니다.
 
 ![Teams 설문 조사 앱 템플릿](media/surveytemplatecompose.gif)
 
@@ -242,7 +243,7 @@ Microsoft Teams 사용하는 동안 팀 채널에 하나 이상의 Planner 탭�
 
 ### <a name="photo-check-ins"></a>사진 체크 인
 
-Teams 스마트 카메라를 사용하여 주석이 추가된 이미지를 캡처하고 팀과 공유합니다. 손쉽게 위치를 정밀하게 공유하여 팀을 파악할 수 있습니다. Kaizala 기능이 Teams 매핑하는 방법을 전달하려면 더 많은 정보가 필요합니다. 확실히 우리가 문서에 할 수있는 슬라이드 데크에서 많은 정보를 가지고있다.
+Teams Smart 카메라 사용하여 주석이 추가된 이미지를 캡처하고 팀과 공유합니다. 손쉽게 위치를 정밀하게 공유하여 팀을 파악할 수 있습니다. Kaizala 기능이 Teams 매핑하는 방법을 전달하려면 더 많은 정보가 필요합니다. 확실히 우리가 문서에 할 수있는 슬라이드 데크에서 많은 정보를 가지고있다.
 
 [직원 체크 인](/microsoftteams/platform/samples/app-templates#staff-check-ins) 앱 템플릿을 사용하여 일선 직원이 Teams 직접 예약 또는 임시로 시간에 중요한 정보 및 상태 업데이트를 쉽게 제공할 수 있습니다. 앱은 실시간 위치, 사진, 메모, 미리 알림 알림 및 자동화된 워크플로를 지원합니다.
 
@@ -258,7 +259,7 @@ Teams 스마트 카메라를 사용하여 주석이 추가된 이미지를 캡�
 
 [직원 체크 인](/microsoftteams/platform/samples/app-templates#staff-check-ins) 앱 템플릿을 사용하여 일선 직원이 Teams 직접 예약 또는 임시로 시간에 중요한 정보 및 상태 업데이트를 쉽게 제공할 수 있습니다. 앱은 실시간 위치, 사진, 메모, 미리 알림 알림 및 자동화된 워크플로를 지원합니다.
 
-Teams 사용하여 조직에서 교육을 쉽게 수행할 수 있습니다. 교육은 사용자가 오프라인 지식 공유 및 업스킬링을 위해 채팅 또는 채널 내에서 교육을 게시할 수 있도록 하는 사용자 지정 [Teams 메시징 확장](/microsoftteams/platform/what-are-messaging-extensions) 앱입니다. 이 앱은 데스크톱, 브라우저, iOS 및 Android와 같은 여러 Teams 플랫폼 클라이언트에서 지원됩니다. 이 앱은 Microsoft 365 구독의 일부로 배포할 준비가 된 것입니다.
+Teams 사용하여 조직에서 교육을 쉽게 수행할 수 있습니다. 교육은 사용자가 오프라인 지식 공유 및 업스킬링을 위해 채팅 또는 채널 내에서 교육을 게시할 수 있도록 하는 사용자 지정 [Teams 메시징 확장](/microsoftteams/platform/what-are-messaging-extensions) 앱입니다. 이 앱은 데스크톱, 브라우저, iOS 및 Android 같은 여러 Teams 플랫폼 클라이언트에서 지원됩니다. 이 앱은 Microsoft 365 구독의 일부로 배포할 준비가 된 것입니다.
 
 [GitHub](https://github.com/OfficeDev/microsoft-teams-apps-training)
 
@@ -282,13 +283,13 @@ Teams 사용하여 조직에서 교육을 쉽게 수행할 수 있습니다. 교
 
 3. 사용 빈도 및 복잡성당 다음 방법을 살펴봅니다.
 
-    - [네이티브 Microsoft Teams 기능을](/microsoftteams/platform/concepts/capabilities-overview) 사용하여 해결 방법 살펴보기
+    - 네이티브 Microsoft Teams 기능 활용
 
-    - [3P 앱 통합](deploy-apps-microsoft-teams-landing-page.md) 사용
+    - [타사 앱 통합 사용 및 앱 스토어 탐색](deploy-apps-microsoft-teams-landing-page.md)
 
     - [앱 템플릿 검색](/microsoftteams/platform/samples/app-templates)
 
-    - [사용자 지정 솔루션 개발](/microsoftteams/platform/overview) 빌드
+    - [Teams 플랫폼을 사용하여 사용자 지정 앱](/microsoftteams/platform/overview) 빌드
 
 ## <a name="management-in-microsoft-teams"></a>Microsoft Teams 관리
 
@@ -300,7 +301,7 @@ Kaizala 관리 포털에서 Microsoft Teams 관리 센터로 관리를 전환합
 
 관리 센터를 탐색하려면 [Microsoft Teams 관리 센터를 방문하세요](https://admin.teams.microsoft.com/).
 
-[Microsoft Purview](/microsoft-365/compliance/microsoft-365-compliance-center) 규정 준수 포털 및 Microsoft [Security Center](/microsoft-365/security/defender/overview-security-center)를 사용하여 Microsoft 365 조직의 보안 및 규정 준수를 모니터링할 수 있습니다.
+Microsoft Purview 규정 준수 포털 및 [Microsoft Security Center](/microsoft-365/security/defender/overview-security-center)를 사용하여 Microsoft 365 조직의 [보안 및 규정](/microsoft-365/compliance/microsoft-365-compliance-center) 준수를 모니터링할 수 있습니다.
 
 Microsoft 365 그룹, ID, 라이선스 및 액세스를 검토할 수 있는 [Azure Active Directory 관리 센터에서](https://aad.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/c7736064-7b28-4f3d-b366-2740a8d48020) 비즈니스를 보호하고 사용자에게 권한을 부여합니다.
 
@@ -315,9 +316,9 @@ Microsoft 365 그룹, ID, 라이선스 및 액세스를 검토할 수 있는 [Az
 | 그룹 만들기(조직에 연결됨) | 데스크톱 또는 모바일 앱을 통해 **팀 만들기** |
 | 대량으로 사용자 추가 | 팀에 사용자를 대량으로 추가하려면 O365 그룹, O365 DL 또는 보안 그룹을 통해 팀을 만드는 것이 좋습니다. |
 | 디렉터리 | 팀의 **검색 표시** 줄을 통해 조직의 모든 사용자를 검색합니다. 검색 결과는 파일, 메시지 및 게시물도 반환합니다. |
-| 분석(작업 카드) | **설문 조사****, 설문 조사 및****Checklistshave는 다운로드 가능한 데이터가 포함된 보고서로 빌드됩니다. Tasksin Planner의 도움을 받아 작업을 할당할 수도 있습니다****. 다른 타사 앱(예:****Trello,Wrike****)도 Microsoft Teams |
+| 분석(작업 카드) | **설문 조사**, **설문 조사** 및 **검사 목록은** 다운로드 가능한 데이터를 사용하여 보고서를 작성했습니다. 사용자가 사용할 수 있는 Teams 작업 앱의 도움으로 작업을 할당할 수도 있습니다. 더 많은 시나리오의 경우 **Trello**, **Asana** 와 같은 타사 앱도 Teams 내에서 사용하도록 탐색할 수 있습니다. |
 | 확장 – 커넥터 | **커넥터** 가 필요한 채널의 메뉴(...)에서 커넥터 옵션을 사용합니다. |
-| 분석(사용량) 채택 보고서, 사용 현황 보고서, 활동 보고서 | 팀 소유자는 메뉴(...)에서 팀 분석 기능을 **관리하여 팀의** >  보고서에 액세스할 수 **있습니다**. |
+| [분석(사용량) 채택 보고서](teams-analytics-and-reports/view-analytics.md), [사용 현황 보고서](teams-analytics-and-reports/teams-usage-report.md), [활동 보고서](teams-analytics-and-reports/user-activity-report.md) | 팀 소유자는 메뉴(...)에서 팀 분석 기능을 **관리하여 팀의** >  보고서에 액세스할 수 **있습니다**. |
 
 > [!NOTE]
 > Teams 최종 사용자는 데스크톱 또는 모바일에서 Teams 사용하여 개별 팀과 채널을 관리할 수 있으며 Teams 관리 센터에 액세스할 필요가 없습니다.
@@ -415,20 +416,27 @@ Teams 사용하는 동안 Kaizala 회사 데이터를 계속 제어할 수 있�
 
 ## <a name="collaborating-with-external-usersvendorssupplierspartners"></a>외부 사용자(공급업체/공급업체/파트너)와 공동 작업
 
-공급업체, 공급업체, 파트너 및 기타 외부 사용자와 협업하는 것이 Microsoft Teams 그 어느 때보다 쉽습니다. Teams 통해 사용자는 전화 번호가 있는 외부 사용자를 추가할 수 있습니다. Microsoft Teams 연결 지원됩니다. 조직 내 사용자는 업무용 Teams 사용하고 개인 계정 상호 운용성을 위해 Teams 사용하여 외부 사용자와 통신할 수 있습니다. Teams 외부 사용자 공동 작업은 개인 또는 공식 전자 메일을 사용하여 게스트 액세스로 수행할 수도 있습니다. 팀과 채널에서 공지 사항 교차 게시는 Teams 지원됩니다. 예를 들어 공급업체와 공급업체는 서로 다른 Teams 채널 또는 팀에 공지 사항을 보낼 수 있습니다. [채널에 알림 보내기를](https://support.microsoft.com/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992) 방문하여 Teams 지원하는 항목에 대해 자세히 알아보세요.
+Microsoft Teams 외부 당사자와 공동 작업할 수 있는 안전한 솔루션을 제공하며, Microsoft Teams 연결 통해 조직 외부의 모든 사용자와 더욱 쉽게 작업할 수 있습니다. Teams 상업용 사용자가 외부 상용 사용자, 즉 다른 조직의 상용 사용자와 채팅할 수 있도록 합니다. 이 권한을 바탕으로 Teams 개인 계정을 사용하는 경우에도 조직 외부의 팀 구성원과 채팅할 수 있습니다. 이러한 계정은 SMB에서 자주 사용되므로 이 새로운 기능은 외부 파트너와의 관계를 강화하는 데 도움이 됩니다.
 
-## <a name="what-is-external-access-in-teams"></a>Teams 외부 액세스란?
+이전에 [Ignite](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-ignite-fall-2021-innovations-coming-to-microsoft-teams/ba-p/2824127)에서 발표한 대로 연결하려는 전체 전자 메일 주소 또는 전화 번호를 입력하여 채팅에 Teams 사용자를 초대하고 테넌트 전환이 필요하지 않은 Microsoft 개인 계정을 가진 모든 사용자와 일대일 또는 그룹 채팅을 시작할 수 있습니다.
 
-외부 액세스는 전체 외부 도메인의 Teams 사용자가 Teams에서 검색, 통화, 채팅 및 사용자와의 모임을 설정할 수 있는 방법입니다. 외부 액세스 관리에 대한 자세한 내용은 [외부 액세스 관리를](/microsoftteams/manage-external-access) 참조하세요.
+테넌트 전환 없이 외부 사용자와 채팅하면 필요한 결과를 더 빠르게 얻을 수 있습니다. 작동 방식을 좀 더 자세히 살펴보겠습니다.
 
-## <a name="what-is-guest-access-in-teams"></a>Teams 게스트 액세스란?
+조직의 관리 설정 및 Teams 개인 계정 사용자의 관리 설정에 따라 외부 Teams 개인 계정 사용자와 대화를 시작할 수 있으며 외부 Teams 개인 계정 사용자는 회사 사용자의 Teams 대화를 시작할 수 있습니다.
 
-[게스트 액세스를](/MicrosoftTeams/guest-access) 사용하면 회사 데이터에 대한 제어를 유지하면서 조직 외부 사용자에게 팀, 채널의 문서, 리소스, 채팅 및 애플리케이션에 대한 액세스를 제공할 수 있습니다. Teams 게스트를 추가하려면 추가 라이선스가 필요하지 않습니다.
+조직에서 관리하는 Teams 사용자는 전체 전자 메일 주소 또는 전화 번호를 입력하여 채팅하려는 Teams 개인 계정 사용자를 초대할 수 있습니다. Teams 개인 사용자는 연결하려는 사용자의 정확한 조직 전자 메일 주소를 입력하고 채팅을 시작할 수 있습니다.
 
-## <a name="who-can-be-a-guest-in-teams"></a>Who Teams 게스트가 될 수 있나요?
+채팅하려는 사용자가 아직 Teams 않은 경우 개인 계정을 사용하여 대화에 참여하도록 초대하는 전자 메일 또는 문자 메시지를 받게 됩니다. Teams 개인 계정에 등록하고 로그인하면 채팅에 참가할 수 있습니다.
 
-게스트는 직원이 아닌 사람 또는 조직의 구성원입니다. 조직에 회사 계정이 없습니다. 예를 들어, 게스트에는 파트너, 공급 업체, 공급자 또는 컨설턴트 등이 포함될 수 있습니다.
-조직의 구성원이 아닌 모든 사용자를 [Teams 게스트로 추가할](/MicrosoftTeams/guest-access#how-a-guest-becomes-a-member-of-a-team) 수 있습니다. 즉, 비즈니스 계정(즉, Azure Active Directory 계정) 또는 소비자 전자 메일 계정(예: outlook.com, gmail.com 등)을 가진 모든 사용자가 팀 및 채널 환경에 액세스할 수 있는 Teams 게스트로 참여할 수 있습니다.
+초대한 사용자가 초대를 수락하면 새로운 일대일 또는 그룹 채팅을 시작하거나 기존 외부 그룹 채팅에 추가할 수도 있습니다. 이 채팅 스레드는 다른 채팅과 함께 표시되며 채팅을 보는 데 테넌트 전환이 필요하지 않습니다.
+
+채팅의 일부로 풍부한 메시지, GIF 및 미디어를 보내고 받아 자신을 표현할 수 있습니다.
+
+원하는 대화에만 남아 있도록 선택할 수 있습니다. 외부 사용자의 메시지를 차단하거나 그룹 채팅을 떠날 수 있습니다.
+
+조직 및 Teams 개인 계정 사용자가 관리하는 Teams 사용자는 외부 초대를 거절할 수 있습니다. 외부 사용자가 수락하기 전에 최대 10번까지 메시지를 보낼 수 있지만, 10개의 메시지 후에 수락하지 않으면 이 사용자에게 추가 메시지를 보낼 수 없습니다.
+
+[지원 페이지를](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57) 보고 [블로그](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832)를 읽어 Teams 신뢰할 수 있는 Teams 작업 영역의 안전 및 보안 내에서 외부 고객 및 파트너와 원활하게 협업할 수 있는 방법에 대해 자세히 알아보세요.
 
 ## <a name="next-steps"></a>다음 단계
 

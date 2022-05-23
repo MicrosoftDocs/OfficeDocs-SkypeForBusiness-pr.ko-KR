@@ -1,7 +1,7 @@
 ---
-title: 관리 Teams 룸 서비스에 Microsoft Teams 룸 프리미엄 디바이스 등록
-author: v-smandalika
-ms.author: v-smandalika
+title: Microsoft Teams 룸 프리미엄 관리되는 서비스에 Teams 룸 디바이스 등록
+author: donnah007
+ms.author: v-donnahill
 manager: serdars
 ms.reviewer: ''
 ms.topic: article
@@ -15,32 +15,32 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 관리되는 서비스에서 Microsoft Teams 룸 계정을 등록하는 Microsoft Teams 룸 프리미엄 대해 자세히 알아보습니다.
+description: Microsoft Teams 룸 프리미엄 관리되는 서비스에 Microsoft Teams 룸 계정을 등록하는 방법에 대해 알아봅니다.
 f1keywords: ''
-ms.openlocfilehash: d00c4f84447e8ba41f0328cca9b907db45e8fdb7
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: c64fcaf6e817eb57be2915f4f7b6d8684f2ae49b
+ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070417"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65635456"
 ---
-# <a name="enroll-a-device-in-the-microsoft-teams-rooms-premium-managed-service"></a>관리되는 Microsoft Teams 룸 프리미엄 디바이스 등록
+# <a name="enroll-a-device-in-the-microsoft-teams-rooms-premium-managed-service"></a>Microsoft Teams 룸 프리미엄 관리되는 서비스에 디바이스 등록
 
-관리되는 Microsoft Teams 룸 디바이스를 Teams 룸 Premium 관리 서비스 관리자에 하나 이상의 사용자를 할당한 다음 해당 사용자를 사용하여 등록 단계를 완료해야 합니다.
+Teams 룸 Premium 관리되는 서비스에 Microsoft Teams 룸 디바이스를 등록하려면 관리 서비스 관리자에게 하나 이상의 사용자를 할당한 다음 해당 사용자를 사용하여 등록 단계를 완료해야 합니다.
 
 ## <a name="assign-users-to-the-managed-service-administrator-role"></a>관리 서비스 관리자 역할에 사용자 할당
 
-다음 단계를 완료하여 Managed Service Administrator 역할에 사용자를 할당합니다.
+다음 단계를 완료하여 사용자를 관리 서비스 관리자 역할에 할당합니다.
 
-1. Teams 룸 Premium 로그인하는 데 [](https://portal.rooms.microsoft.com/) 사용한 관리자 권한과 동일한 관리자 권한으로 Microsoft 365 관리 센터.
-2. 설정 **설정** >  > **Roles** 로 이동한 다음 관리 서비스 관리자 **를 선택합니다**.
-3. **관리 서비스 관리자 아래** 에서 과제 탭 **을** 선택한 다음 추가를 **선택합니다**.
-4. 마법사를 따라 과제의 이름을 지정하고 추가해야 하는 사용자를 선택합니다. 과제는 모든 회의실 및 회의실 그룹에 적용됩니다.
-5. 과제 마법사의 끝에서 과제 추가 **를 선택합니다**.
+1. Microsoft 365 관리 센터 로그인하는 데 사용한 것과 동일한 관리자 권한으로 Teams 룸 Premium [포털](https://portal.rooms.microsoft.com/)에 로그인합니다.
+2. **설정** > **설정** > **로 이동한** 다음 **관리 서비스 관리자** 를 선택합니다.
+3. **관리 서비스 관리자** 에서 **할당 탭을** 선택한 다음 **추가** 를 선택합니다.
+4. 마법사에 따라 할당 이름을 지정하고 할당에 추가할 사용자를 선택합니다. 할당은 모든 회의실 및 회의실 그룹에 적용됩니다.
+5. 할당 마법사의 끝에서 할당 **추가** 를 선택합니다.
 
-관리 서비스 관리자 역할이 할당된 사용자는 관리되는 서비스 포털의 매일 관리 및 모니터링을 Teams 룸 Premium 책임이 있습니다.
+관리 서비스 관리자 역할이 할당된 사용자는 Teams 룸 Premium 관리 서비스 포털의 일상적인 관리 및 모니터링을 담당합니다.
 
-관리 서비스 관리자 역할에 사용자를 할당한 후 관리되는 서비스 Teams 룸 디바이스 등록을 Teams 룸 [](enroll-a-device.md) 디바이스를 추가합니다.
+사용자를 관리 서비스 관리자 역할에 할당한 후 [Teams 룸 디바이스 등록](enroll-a-device.md)을 계속하여 관리되는 서비스 포털에 Teams 룸 디바이스를 추가합니다.
 
 <!-- ## Enroll a Teams Rooms device
 
