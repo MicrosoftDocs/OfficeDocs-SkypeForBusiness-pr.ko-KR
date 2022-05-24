@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 모임 정책 및 모임 만료
-author: KarliStites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 모임 정책 설정을 사용하여 Microsoft Teams 모임 만료를 제어하는 방법을 알아봅니다.
-ms.openlocfilehash: 74b47d296b06d2ef9462dfafec136a99ebff0a34
-ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
+ms.openlocfilehash: 014989cd2fda0ce28ef96ee53c82908f814ee8c7
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "65442024"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646217"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Microsoft Teams 모임 정책 및 모임 만료
 
@@ -172,7 +172,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 > [!NOTE]
 > 만료 날짜에 기록이 휴지통으로 이동되고 만료 날짜 필드가 지워집니다. 휴지통에서 기록을 복구하는 경우 만료 날짜가 지워졌기 때문에 이 기능에서 다시 삭제되지 않습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [모임 만료 날짜 변경 - 최종 사용자 컨트롤](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
 

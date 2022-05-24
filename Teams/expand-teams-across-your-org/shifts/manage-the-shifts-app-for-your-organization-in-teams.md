@@ -1,9 +1,9 @@
 ---
 title: 조직의 교대 근무 앱 관리
-author: LanaChin
-ms.author: v-lanachin
+author: mkbond007
+ms.author: mabond
 ms.reviewer: aaku
-manager: samanro
+manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2cd0032291054e5a4c7ee8d9204d6173cdcdebdf
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 4c4b76bb4f2f63ffadc0a98d00a8f2d10ec8ef91
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187004"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646267"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 교대 근무s 앱 관리
 
