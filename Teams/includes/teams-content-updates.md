@@ -3,6 +3,23 @@
 
 
 
+## <a name="week-of-may-16-2022"></a>2022년 5월 16일 주
+
+
+| 게시 날짜 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 5/17/2022 | [Outlook에서 Microsoft Teams 모임 추가 기능 사용](/MicrosoftTeams/teams-add-in-for-outlook) | 으로 바뀌었습니다 |
+| 5/18/2022 | [대기를 호출하고 Microsoft Teams 검색](/MicrosoftTeams/call-park-and-retrieve) | 으로 바뀌었습니다 |
+| 5/18/2022 | [Teams 가상 약속 - Epic EHR에 통합](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 으로 바뀌었습니다 |
+| 5/19/2022 | [Shifts 커넥터](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connectors) | 으로 바뀌었습니다 |
+| 5/20/2022 | [자동 전화 교환 및 통화 큐 Teams 계획](/MicrosoftTeams/plan-auto-attendant-call-queue) | 으로 바뀌었습니다 |
+| 5/20/2022 | [인사말 및 전자 메일의 기본 언어 변경](/MicrosoftTeams/change-the-default-language-for-greetings-and-emails) | 으로 바뀌었습니다 |
+| 5/20/2022 | [음성 메일 인사말 및 메시지에 대한 Teams 언어](/MicrosoftTeams/languages-for-voicemail-greetings-and-messages) | 으로 바뀌었습니다 |
+| 5/20/2022 | [직접 라우팅에 대한 긴급 통화 라우팅 정책 관리](/MicrosoftTeams/manage-emergency-call-routing-policies) | 으로 바뀌었습니다 |
+| 5/20/2022 | [Microsoft Teams 긴급 통화 정책 관리](/MicrosoftTeams/manage-emergency-calling-policies) | 으로 바뀌었습니다 |
+| 5/20/2022 | [PowerShell 릴리스 정보 Microsoft Teams](/MicrosoftTeams/teams-powershell-release-notes) | 으로 바뀌었습니다 |
+
+
 ## <a name="week-of-may-09-2022"></a>2022년 5월 9일 주
 
 
@@ -17,7 +34,7 @@
 | 5/10/2022 | [Microsoft Teams 룸 앱 버전 지원](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 으로 바뀌었습니다 |
 | 5/12/2022 | [음성 메일 정책 관리](/MicrosoftTeams/manage-voicemail-policies) | 으로 바뀌었습니다 |
 | 5/12/2022 | [SIP 게이트웨이 구성](/MicrosoftTeams/sip-gateway-configure) | 으로 바뀌었습니다 |
-| 5/12/2022 | [교육용 Teams 부모 관리자 설정](/MicrosoftTeams/edu-parents-app) | 으로 바뀌었습니다 |
+| 5/12/2022 | [교육용 Teams 부모의 관리 설정](/MicrosoftTeams/edu-parents-app) | 으로 바뀌었습니다 |
 | 5/13/2022 | [Microsoft Teams 워키 토키 앱](/MicrosoftTeams/walkie-talkie) | 으로 바뀌었습니다 |
 | 5/13/2022 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 으로 바뀌었습니다 |
 
@@ -29,7 +46,7 @@
 |------|------------|--------|
 | 5/2/2022 | [PSTN 사용 현황 보고서 Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | 으로 바뀌었습니다 |
 | 5/3/2022 | [Teams의 승인 응용 프로그램 가용성](/MicrosoftTeams/approval-admin) | 으로 바뀌었습니다 |
-| 5/3/2022 | [교육용 Teams 부모 관리자 설정](/MicrosoftTeams/edu-parents-app) | 으로 바뀌었습니다 |
+| 5/3/2022 | [교육용 Teams 부모의 관리 설정](/MicrosoftTeams/edu-parents-app) | 으로 바뀌었습니다 |
 | 5/3/2022 | [조직의 교대 근무 앱 관리](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 으로 바뀌었습니다 |
 | 5/3/2022 | [Microsoft Teams에서 조직의 작업 앱 관리](/MicrosoftTeams/manage-tasks-app) | 으로 바뀌었습니다 |
 | 5/3/2022 | [Microsoft Teams 워키 토키 애플리케이션](/MicrosoftTeams/walkie-talkie) | 으로 바뀌었습니다 |
@@ -87,28 +104,3 @@
 | 4/29/2022 | [Microsoft Teams 관리 센터에서 앱 관리](/MicrosoftTeams/manage-apps) | 으로 바뀌었습니다 |
 | 4/29/2022 | [Microsoft Teams 정책 패키지 관리](/MicrosoftTeams/manage-policy-packages) | 으로 바뀌었습니다 |
 | 4/29/2022 | [Microsoft의 앱 인증 개요](/MicrosoftTeams/overview-of-app-certification) | 으로 바뀌었습니다 |
-
-
-## <a name="week-of-april-18-2022"></a>2022년 4월 18일 주
-
-
-| 게시 날짜 |토픽 제목 | 변경 |
-|------|------------|--------|
-| 4/18/2022 | [Microsoft의 앱 인증 개요](/MicrosoftTeams/overview-of-app-certification) | 으로 바뀌었습니다 |
-| 4/18/2022 | 팀을 만들 때 Microsoft 365 그룹에 대한 계획 | 제거 |
-| 4/18/2022 | [Microsoft Teams 앱 설정 정책 관리](/MicrosoftTeams/teams-app-setup-policies) | 으로 바뀌었습니다 |
-| 4/19/2022 | [보류 중인 음악](/MicrosoftTeams/music-on-hold) | 으로 바뀌었습니다 |
-| 4/19/2022 | [사용자 유형에 따라 앱 동작 Teams](/MicrosoftTeams/non-standard-users) | 으로 바뀌었습니다 |
-| 4/19/2022 | [보안 및 규정 준수 개요](/MicrosoftTeams/security-compliance-overview) | 으로 바뀌었습니다 |
-| 4/20/2022 | [무료 번호 정책 오디오 회의](/MicrosoftTeams/audio-conferencing-toll-free-numbers-policy) | 추가 |
-| 4/20/2022 | [오디오 회의 브리지에서 전화 번호 변경](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | 으로 바뀌었습니다 |
-| 4/20/2022 | [특정 Teams 사용자에 대해 무료 전화 번호 비활성화](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users) | 으로 바뀌었습니다 |
-| 4/20/2022 | [오디오 회의 설정 관리](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | 으로 바뀌었습니다 |
-| 4/20/2022 | [초대에 포함할 전화 번호 설정](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | 으로 바뀌었습니다 |
-| 4/20/2022 | [Microsoft Teams용 오디오 회의 설정하기](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | 으로 바뀌었습니다 |
-| 4/21/2022 | Microsoft StaffHub가 사용 중지되었습니다. | 제거 |
-| 4/21/2022 | Microsoft Teams 앱에 대한 관리자 설정 | 제거 |
-| 4/21/2022 | [Microsoft Teams 관리 센터에서 앱 관리](/MicrosoftTeams/manage-apps) | 으로 바뀌었습니다 |
-| 4/21/2022 | [콘텐츠에 대한 eDiscovery 조사 수행](/MicrosoftTeams/ediscovery-investigation) | 으로 바뀌었습니다 |
-| 4/22/2022 | [Kaizala 및 Microsoft Teams](/MicrosoftTeams/get-started-kaizala-teams) | 으로 바뀌었습니다 |
-| 4/22/2022 | [Microsoft Teams 탐색](/MicrosoftTeams/navigate-teams) | 으로 바뀌었습니다 |
