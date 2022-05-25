@@ -1,5 +1,5 @@
 ---
-title: 2013에서 위치 데이터베이스 비즈니스용 Skype 서버
+title: 비즈니스용 Skype 서버 위치 데이터베이스 구성
 ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-description: E9-1-1 위치 데이터베이스를 구성, 채우기 및 비즈니스용 Skype 서버 Enterprise Voice.
-ms.openlocfilehash: 5ebace7eabe0db04f06611bc9c11263021733367
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: 비즈니스용 Skype 서버 Enterprise Voice E9-1-1 위치 데이터베이스를 구성, 채우기 및 게시합니다.
+ms.openlocfilehash: fc7f53e1b62ec23e8075a9eac0d1158ee0143a5b
+ms.sourcegitcommit: c53c22069b1babce7a2364de631057ff501ca1c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62400722"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65671564"
 ---
-# <a name="configure-the-location-database-in-skype-for-business-server"></a>2013에서 위치 데이터베이스 비즈니스용 Skype 서버
+# <a name="configure-the-location-database-in-skype-for-business-server"></a>비즈니스용 Skype 서버 위치 데이터베이스 구성
  
-E9-1-1 위치 데이터베이스를 구성, 채우기 및 비즈니스용 Skype 서버 Enterprise Voice. 
+비즈니스용 Skype 서버 Enterprise Voice E9-1-1 위치 데이터베이스를 구성, 채우기 및 게시합니다. 
   
 클라이언트가 네트워크 내에서 자신의 위치를 자동으로 감지하도록 하려면 먼저 위치 데이터베이스를 구성해야 합니다. 
   
 위치 데이터베이스를 구성하려면 다음 작업을 수행합니다.
   
-- 데이터베이스를 위치에 대한 네트워크 요소 매핑으로 채웁니다. ELIN(Emergency Location Identification Number) 게이트웨이를 사용하는 경우 필드에 ELIN을 포함해야 \<CompanyName\> 합니다.
+- 데이터베이스를 위치에 대한 네트워크 요소 매핑으로 채웁니다. ELIN(긴급 위치 식별 번호) 게이트웨이를 사용하는 경우 필드에 ELIN \<CompanyName\> 을 포함해야 합니다.
     
     위치 정책에서 **위치 필요** 가 **예** 나 **고지 사항** 으로 설정되었을 때 위치 데이터베이스를 채우지 않으면 위치를 수동으로 입력하라는 메시지가 클라이언트에 표시됩니다.
     
@@ -47,12 +47,12 @@ E9-1-1 위치 데이터베이스를 구성, 채우기 및 비즈니스용 Skype 
   
 ELIN(Emergency Location Identification Number) 게이트웨이를 사용하는 경우 각 위치의 **CompanyName** 필드에 ELIN을 포함합니다. 각 위치마다 세미콜론으로 구분하여 여러 ELIN을 포함할 수 있습니다.
   
-|**네트워크 요소**|**필수 열**|
+|**Network 요소**|**필수 열**|
 |:-----|:-----|
-|**무선 액세스 지점** <br/> |\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
-|**서브넷** <br/> |\<Subnet\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
-|**포트** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,…  <br/> …\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
-|**Switch** <br/> |\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**무선 액세스 지점** <br/> |\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> ...\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**서브넷** <br/> |\<Subnet\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> ...\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**포트** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,...  <br/> ...\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Switch** <br/> |\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> ...\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
    
 ### <a name="to-add-network-elements-to-the-location-database"></a>위치 데이터베이스에 네트워크 요소를 추가하려면
 
@@ -120,7 +120,7 @@ ELIN(Emergency Location Identification Number) 게이트웨이를 사용하는 �
 
 ### <a name="to-validate-addresses-located-in-the-location-database"></a>위치 데이터베이스에 있는 주소의 유효성을 검사하려면
 
-1.  비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
+1.  비즈니스용 Skype 서버 관리 셸 **을 시작** 합니다. 시작을 클릭하고 **모든 프로그램을** 클릭한 **다음 비즈니스용 Skype 2015** 를 클릭한 다음 **비즈니스용 Skype 서버 관리 셸** 을 클릭합니다.
     
 2. 다음 cmdlet을 실행하여 응급 서비스 공급자 연결을 구성합니다.
     
@@ -129,7 +129,7 @@ ELIN(Emergency Location Identification Number) 게이트웨이를 사용하는 �
    Set-CsLisServiceProvider -ServiceProviderName Provider1 -ValidationServiceUrl <URL provided by provider> -CertFileName <location of certificate provided by provider> -Password $pwd
    ```
 
-3. 다음 cmdlet을 실행하여 위치 데이터베이스의 주소 유효성을 검사합니다.
+3. 다음 cmdlet을 실행하여 위치 데이터베이스의 주소에 대한 유효성을 검사합니다.
     
    ```powershell
    Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
@@ -141,11 +141,11 @@ ELIN(Emergency Location Identification Number) 게이트웨이를 사용하는 �
 
 위치 데이터베이스에 추가한 새 위치는 게시될 때까지 클라이언트에서 사용할 수 없습니다.
   
-ELIN(Emergency Location Identification Number) 게이트웨이를 사용하는 경우 PSTN(Public Switched Telephone Network) 통신 사업자 ALI(자동 위치 식별) 데이터베이스에도 ELIN을 업로드해야 합니다. PSTN 통신 사업자에서 ELIN 레코드에 대해 특정 형식을 사용해야 할 수 있습니다. 자세한 내용은 PSTN 통신 사업자에 문의하십시오. 위치 정보 서비스 데이터베이스에서 레코드를 내보내고 필요한 서식을 지정합니다.
+ELIN(긴급 위치 식별 번호) 게이트웨이를 사용하는 경우 PSTN(공중 전화망) 통신 사업자의 ALI(자동 위치 식별) 데이터베이스에 ELIN을 업로드해야 합니다. PSTN 이동 통신 사업자는 ELIN 레코드에 특정 형식을 사용해야 할 수 있습니다. 자세한 내용은 PSTN 운송업체에 문의하세요. 위치 정보 서비스 데이터베이스에서 레코드를 내보내고 필요에 따라 서식을 지정할 수 있습니다.
   
 ### <a name="to-publish-the-location-database"></a>위치 데이터베이스를 게시하려면
 
--  비즈니스용 Skype 서버 시작 **: 시작,** 모든 **프로그램, 비즈니스용 Skype** **2015** 를 클릭한 다음 관리 **비즈니스용 Skype 서버 클릭합니다**.
+-  비즈니스용 Skype 서버 관리 셸 **을 시작** 합니다. 시작을 클릭하고 **모든 프로그램을** 클릭한 **다음 비즈니스용 Skype 2015** 를 클릭한 다음 **비즈니스용 Skype 서버 관리 셸** 을 클릭합니다.
     
 - 다음 cmdlet을 실행하여 위치 데이터베이스를 게시합니다.
     
