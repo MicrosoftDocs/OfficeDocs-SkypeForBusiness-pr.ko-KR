@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 도출하기 위해 Microsoft Teams 인증된 책상 및 전화 회의 전화기를 알아봅니다.
-ms.openlocfilehash: c5b4ab39768d0485de5fb5f6060d5567d035a343
-ms.sourcegitcommit: de0233e51364b7730c4b307fd41a2166eda3c3fc
+ms.openlocfilehash: 17682a64ee6a5df1c029fdad09307e8fb5789769
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "65741900"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65682129"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>인증된 Android 디바이스 Microsoft Teams
 
@@ -48,6 +48,8 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 | AudioCodes C450HD                      | `1.17.443`                                                  |    2023년 8월 5일              | 9 |
 | AudioCodes C448HD(캡 모드만 해당)       |  `1.17.443`                                                   | 2023년 8월 5일            | 9 |
 | Yealink CP965    | `143.15.0.7 `          | 2025년 9월 3일     | 11 |
+| AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                                  | 2022년 4월 22일               | 7.1.x |
+| AudioCodes C448HD(캡 모드만 해당)       | `C450HD_TEAMS_0.225`                                                  | 2022년 4월 22일               | 7.1.x |
 | 크레스트론 UC-P10/T/CT                   | `1.0.0.80`       | 2023년 8월 5일            | 9 |
 | 크레스트론 UC-P8/T /CT                   | `1.0.0.56`       | 2023년 8월 5일            | 9 |
 | Audiocodes C470HD                      | `1.8.293   `                                               | 2023년 8월 5일               | 9 |

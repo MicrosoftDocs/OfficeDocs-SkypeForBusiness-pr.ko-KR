@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리 Microsoft Teams 룸 누적 개선 사항을 나열하는 Microsoft Teams 룸 대한 릴리스 정보를 읽을 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 03a23ecb47fb0efca19ce3a7085a1fcc41b80dc3
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: eadeea6648da5ef2a5b5210b45bb3c884a1cabe8
+ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674200"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65753061"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 룸 대한 릴리스 정보
 
@@ -39,6 +39,7 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 
 |릴리스 |게시 날짜 <br/> Microsoft Store |
 |--- |--- |
+|4.12.138.0 |5/26/2022 |
 |4.12.126.0 |4/27/2022 |
 |4.11.17.0 |3/3/2022 |
 |4.11.12.0 |1/24/2022 |
@@ -90,6 +91,13 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 |RTM(1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams 룸 기능 소개 및 문제 해결
+
+### <a name="4121380-5262022"></a>4.12.138.0 (5/26/2022)
+
+이 업데이트에 도입된 내용은 다음과 같습니다.
+- Jabra Panacast 50에 대한 버그 수정
+- 클라우드 간 익명 모임 참가에 대한 버그 수정
+- 품질 및 안정성 수정
 
 ### <a name="4121260-4272022"></a>4.12.126.0 (4/27/2022)
 
