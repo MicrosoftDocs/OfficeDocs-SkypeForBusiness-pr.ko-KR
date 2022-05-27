@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: acolonna
 description: 자리 비움 상태 또는 방해 금지 상태의 사용자가 상태 메시지에 명시적으로 다른 사용자를 대리인으로 설정하는 방법을 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fd1b11038d4dbd0f1ea773065628170d7f55a33c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 14f58861074ed8b9291ca725f60ff1612534f4dc
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596192"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674210"
 ---
 # <a name="message-delegation"></a>메시지 위임
 
@@ -62,7 +62,7 @@ ms.locfileid: "58596192"
   
 비즈니스용 Skype에서 설정된 메모라는 시각적 표시가 없습니다.
 
-비즈니스용 Skype에는 상태 메모의 문자 제한이 없습니다. Microsoft Teams는 비즈니스용 Skype에서 설정된 메모의 처음 280자만 표시합니다. 메모 끝에 있는 생략 부호(...)는 메모가 잘렸음을 나타냅니다.
+비즈니스용 Skype에는 상태 메모의 문자 제한이 없습니다. Microsoft Teams는 비즈니스용 Skype에서 설정된 메모의 처음 280자만 표시합니다. 메모 끝에 있는 줄임표(...)는 잘림을 나타냅니다.
   
 비즈니스용 Skype는 메모 만료 시간을 지원하지 않습니다.
 

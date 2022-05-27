@@ -1,5 +1,5 @@
 ---
-title: 관리자 교육 리소스 - Microsoft Teams
+title: 관리 학습 리소스 - Microsoft Teams
 ms.reviewer: jhwang
 author: SerdarSoysal
 ms.author: serdars
@@ -19,12 +19,12 @@ ms.custom:
 description: Microsoft Teams 계획, 배포 및 실행하는 방법에 대한 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5cf197ac9ceca799a7df683e6a655acac1e85b56
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 0bc4841e67606f467bc13940755a7de77038d7b6
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922489"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675590"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams 대한 관리자 교육 시작
 
@@ -79,17 +79,17 @@ ms.locfileid: "64922489"
 | 원터시 조인 지침 |  | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 | Microsoft Teams 룸 Managed Services 소개 |  | [갑판](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
-<h2>Android 디바이스 Teams</h2>
+<h2>Teams Android 디바이스</h2>
 
-<p>다음 표에는 Teams 디스플레이, Teams 휴대폰, android용 Teams 룸 및 Teams 패널이 포함된 Microsoft Teams Android 디바이스에서 PowerPoint 데크(PDF 형식)가 포함된 포괄적인 학습 링크가 포함되어 있습니다.  
+<p>다음 표에는 Teams 디스플레이, Teams 휴대폰, Android Teams 룸 및 Teams 패널이 포함된 Microsoft Teams Android 장치에서 PowerPoint 데크(PDF 형식)가 포함된 포괄적인 학습 링크가 포함되어 있습니다. .  
 
 | 모듈 | PowerPoint 데크(PDF)  |
 | ------------| -------------------- |
-| 모듈 1: android 디바이스 Microsoft Teams 소개  |[갑판](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
-| 모듈 2: Android 디바이스 Microsoft Teams 계획|[갑판](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
+| 모듈 1: Microsoft Teams Android 디바이스 소개  |[갑판](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
+| 모듈 2: Microsoft Teams Android 디바이스 계획|[갑판](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
 |모듈 3: Microsoft Teams Android 디바이스의 기능 |[갑판](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)|
 |모듈 4: Microsoft Teams Android 디바이스 관리|[갑판](https://download.microsoft.com/download/c/e/b/ceb686ff-9be2-495c-9e2e-80047765e5b4/(4)%20Managing%20Microsoft%20Teams%20Android%20Devices.pdf)|
-|모듈 5: android 디바이스 Microsoft Teams - 문제 해결 |[갑판](https://download.microsoft.com/download/d/3/7/d3728209-5caa-4bfb-b46a-3b840e80142a/Microsoft%20Teams%20Android%20Devices%20-%20Troubleshooting.pdf)|
+|모듈 5: Microsoft Teams Android 디바이스 - 문제 해결 |[갑판](https://download.microsoft.com/download/d/3/7/d3728209-5caa-4bfb-b46a-3b840e80142a/Microsoft%20Teams%20Android%20Devices%20-%20Troubleshooting.pdf)|
 
 <h2>대화형 가이드</h2>
 
@@ -98,18 +98,18 @@ ms.locfileid: "64922489"
 | Teams 대한 ID, 액세스 관리 & 위협 방지                   | Microsoft 관리 센터 및 PowerShell을 사용하여 액세스 및 ID 정책을 구성하고 Teams Office 365 Advanced Threat Protection을 사용하도록 설정하는 방법을 알아봅니다.                                                            | [Teams 보안 가이드](https://aka.ms/teamsesecurityinteractiveguide)         |
 | Microsoft Teams 대한 Microsoft Purview DLP(데이터 손실 방지) 정책                     | 기존 DLP 정책에 Microsoft Teams 추가하는 방법과 템플릿을 기반으로 하거나 조직의 데이터 보호 요구 사항에 맞게 완전히 사용자 지정된 새 정책을 만드는 방법을 알아봅니다.                        | [Teams DLP 가이드](https://aka.ms/teamsdlpguide)         |
 | Teams 규정 준수 관리                                                | Microsoft 365 보안, Microsoft 365 규정 준수 및 Microsoft Teams 관리 센터를 사용하고 Windows PowerShell 사용하여 Office 365 조직의 Microsoft Teams 정책을 관리하고 구성합니다. 및 설정입니다. | [Teams 가이드에서 규정 준수 관리](https://aka.ms/complianceinteamsinteractiveguide)      |
-| Teams Advisor: Microsoft Teams 채팅, 팀, 채널 및 앱 배포 | Teams Advisor를 사용하여 환경을 평가하고 채팅, 팀, 채널 및 앱을 배포하기 위한 계획을 수립하는 방법을 알아봅니다.                                                                                         |  [Teams Advisor 가이드](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
+| Teams 어드바이저: Microsoft Teams 채팅, 팀, 채널 및 앱 배포 | Teams Advisor를 사용하여 환경을 평가하고 채팅, 팀, 채널 및 앱을 배포하기 위한 계획을 수립하는 방법을 알아봅니다.                                                                                         |  [Teams 어드바이저 가이드](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | PowerShell 및 동적 그룹을 사용하여 Teams 관리 간소화        | Office 365 그룹을 정적 멤버 자격에서 동적으로 변환하고 Windows PowerShell 사용하여 모든 멤버에게 새 앱 권한 정책을 할당합니다.                                                                         |  [Teams 관리 가이드 간소화](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
 | Microsoft Teams 관리 센터에서 Teams 및 게스트 액세스 관리         | 조직의 Microsoft Teams 및 게스트 액세스를 구성하고 관리하는 방법을 알아봅니다.                                                                                                                              | [Teams 및 게스트 액세스 가이드 관리](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
 | Teams 전화 시스템 구성: 자동 전화 교환 & 통화 큐                   | Microsoft Teams 관리 센터를 사용하여 Microsoft Teams 통화의 일부로 통화 큐 및 자동 전화 교환을 만들고 배포하는 프로세스를 단계별로 수행합니다.                                                          |  [Teams 전화 시스템 가이드 구성](https://aka.ms/TeamsPhoneInteractiveGuide)             |
 | 직접 라우팅 구성: SCC 및 음성 라우팅 연결                 | Microsoft Teams 전화 시스템 직접 라우팅을 사용하여 기존 전화 통신 인프라와 통합합니다.                                                                                                              | [직접 라우팅 가이드 구성](https://aka.ms/DirectRoutingInteractiveGuide)          |
 | Microsoft Teams 거버넌스 구성                                     | 조직에 대한 Teams 메시징 보존 정책을 만드는 방법과 개별 Teams 보관, 삭제 및 복원하는 방법을 알아봅니다.                                                                                   |  [Microsoft Teams 가이드에서 거버넌스 구성](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | Microsoft Teams 모임 구성 및 배포                          | Microsoft Teams 위해 모임 워크로드를 배포하는 프로세스를 단계별로 진행합니다.                                                                                                                                       |  [Microsoft Teams 모임 가이드 구성 및 배포](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
-| Microsoft Teams 대한 오디오 회의 구성                            | Teams 오디오 회의 기능을 알아보고 회의 브리지 및 전화 접속 전화 번호를 할당하는 방법을 알아봅니다.                                                                                          |  [Microsoft Teams 가이드에 대한 오디오 회의 구성](https://aka.ms/AudioConferencingInteractiveGuide)      |
+| Microsoft Teams 대한 오디오 회의 구성                            | Teams 오디오 회의 기능을 알아보고 전화 회의 브리지 및 전화 접속 전화 번호를 할당하는 방법을 알아봅니다.                                                                                          |  [Microsoft Teams 가이드에 대한 오디오 회의 구성](https://aka.ms/AudioConferencingInteractiveGuide)      |
 | 일선 작업자에 대한 Microsoft Teams 구성                           | Firstline Workforce에 적합한 Microsoft Teams 환경을 구성하고 배포하는 방법을 알아봅니다.                                                                                                                  | [일선 작업자용 Microsoft Teams 구성 가이드](https://aka.ms/ConfigFLWInteractiveGuide)              |
 | 일선 인력에 대한 ID: IT, 관리자 및 일선 작업자 권한 부여                    | 기존 HR 시스템과 Microsoft Teams 통합하고, 경량 위임 ID 관리를 구성하고, 공유 디바이스를 사용하는 사용자에 대해 간소화된 로그인 및 원활한 전환을 구성하는 방법을 알아봅니다.                                                                                                                  | [일선 작업자 ID 가이드](https://aka.ms/FLWIdentityIG)              |
 | Microsoft Teams 룸 배포                           | Microsoft Teams 룸 사용할 계정을 만들고 구성하고 Microsoft Teams 관리 센터에서 디바이스를 관리하는 방법을 알아봅니다.                                                                                                                  | [Microsoft Teams 룸 배포](https://aka.ms/teamsroomslab)              |
-|Teams 인증된 Android 디바이스 작업|휴대폰, Microsoft Teams Microsoft Teams 디스플레이, Microsoft Teams 룸 및 Microsoft Teams 패널을 관리하고 업그레이드하는 방법을 알아봅니다.|[Microsoft Teams 인증된 Android 디바이스 작업](https://aka.ms/teamsandroiddeviceslab)|
+|Teams Certified Android 디바이스 작업|휴대폰, Microsoft Teams Microsoft Teams 디스플레이, Microsoft Teams 룸 및 Microsoft Teams 패널을 관리하고 업그레이드하는 방법을 알아봅니다.|[Microsoft Teams Certified Android 디바이스 작업](https://aka.ms/teamsandroiddeviceslab)|
 
 <h2>빠른 시작 가이드</h2>
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d17409a09cbadc535e3b7971d6224b4e2fcb678b
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 5df52ff5de4db994cb049db1dde2b27c2465dce5
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839039"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675760"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Microsoft Teams에 Reflect를 위한 IT 관리자 가이드
 
@@ -69,7 +69,7 @@ Microsoft 365의 일부인 Reflect는 [GDPR](/compliance/regulatory/gdpr) 및 �
 > 자세한 내용은 [앱 허용 방법 또는 수업 팀에 추가하는 방법](manage-apps.md#allow-and-block-apps)을 참조하세요.
 
 ## <a name="where-do-educators-find-reflect"></a>강사는 어디에서 반영을 찾을 수 있나요?
-반영을 사용하도록 설정하면 강사는 수업으로 이동하여 **새 대화** 를 선택합니다. 그런 다음 '**…**'를 선택하여 메시지 확장명을 표시하고 검색 바에서 **Reflect** 를 입력합니다. 이 대화 상자는 질문을 정의하고 누가 무엇을 볼 수 있는지 설명하는 과정을 안내합니다.
+반영을 사용하도록 설정하면 강사는 수업으로 이동하여 **새 대화** 를 선택합니다. 그런 다음 '**...**'를 선택하여 메시지 확장을 표시하고 검색창에 **Reflect** 를 입력합니다. 이 대화 상자는 질문을 정의하고 누가 무엇을 볼 수 있는지 설명하는 과정을 안내합니다.
 
 :::image type="content" source="media/reflect-add-app.png" alt-text="수업 팀에 Reflect 추가.":::
 

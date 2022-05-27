@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d061fa0cda1620980e7da68a345fc13acb6fc12a
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 67be704ae81379a122a9c205305da1c4d4a5dcbd
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "62362984"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675650"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>원격 학습을 위해 Microsoft Teams 시작
 
@@ -106,12 +106,12 @@ Teams 정책에서는 특정 사용자 또는 사용자 그룹에 대해 제공�
 
 ### <a name="create-class-teams-for-secure-classroom-use"></a>안전한 교실 사용을 위한 수업 팀 만들기
 
-교육용 Microsoft Teams는 교육용   [특별 팀 유형](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67) 을 제공합니다. [수업 팀 유형](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)은 교실용으로 설계되었으며, 다음을 포함한 교실 요구 사항을 지원하는 특정 기능을 제공합니다.  
+교육용 Microsoft Teams는 교육용 [특별 팀 유형](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)을 제공합니다. [수업 팀 유형](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)은 교실용으로 설계되었으며, 다음을 포함한 교실 요구 사항을 지원하는 특정 기능을 제공합니다.  
 
 - 과제
 - 성적
 - OneNote 교실 전자 필기장  
-- 학생을 위한 읽기 전용 콘텐츠를 보호하기 위한 [수업 자료 폴더](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988) 
+- 학생의 읽기 전용 콘텐츠를 보호하기 위한 [수업 자료 폴더](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)
 - [Insights](./class-insights.md)에서는 학생의 참여, 과제 및 각 교실의 복지에 대한 실시간 데이터를 제공합니다. 
 - 학생이 추가되기 전에 수업을 설정하기 위한 [사전 강사 액세스](https://support.microsoft.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)  
 - 방해가 되는 학생 음소거 기능 및 기타 특정 권한  
@@ -127,7 +127,7 @@ Teams 정책에서는 특정 사용자 또는 사용자 그룹에 대해 제공�
 
 #### <a name="automatic-team-creation-using-sds"></a>SDS를 사용하여 자동 팀 만들기
 
-팀 만들기 자동화는 IT 관리자와 강사의 시간을 모두 줄여줍니다. 이 기능을 사용해 강사는 모든 수업 팀을 만들고 로그인할 때 설정할 준비가 되었는지 확인할 수 있습니다. [SDS(School Data Sync)](/SchoolDataSync)는 교육 기관의 레코드 시스템(예: SIS(학생 정보 시스템) 또는 LMS(학습 관리 시스템))에서 데이터를 읽는 무료 Office 365 Education 도구입니다. SDS는 Office 365 데이터를 사용하여 대량으로 수업 팀 만들기 및 정보 시스템과의 동기화를 포함하여 여러 가지 방법으로 등록 변경에 따른 강사와 학생 구성원을 업데이트합니다. SDS는 모든 시스템 레코드에서 데이터를 가져올 수 있으며, 전 세계의 여러 기존 [SIS 공급 업체](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support)에 대한 기본 제공 커넥터가 있습니다. SDS를 사용하는 것은 다음과 같은 이점이 있어 좋습니다.  
+팀 만들기 자동화는 IT 관리자와 강사의 시간을 모두 줄여줍니다. 이 기능을 사용해 강사는 모든 수업 팀을 만들고 로그인할 때 설정할 준비가 되었는지 확인할 수 있습니다. [SDS(School Data Sync)](/SchoolDataSync)는 교육 기관의 레코드 시스템(예: SIS(학생 정보 시스템) 또는 LMS(학습 관리 시스템))에서 데이터를 읽는 무료 Office 365 Education 도구입니다. SDS는 Office 365 데이터를 사용하여 대량으로 수업 팀 만들기 및 정보 시스템과의 동기화를 포함하여 여러 가지 방법으로 등록 변경에 따른 강사와 학생 구성원을 업데이트합니다. SDS는 모든 레코드 시스템에서 데이터를 가져올 수 있으며 전 세계의 수많은 기존 [SIS 공급업체](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support)에 대한 기본 제공 커넥터가 있습니다. SDS를 사용하는 것은 다음과 같은 이점이 있어 좋습니다.  
 
 ###### <a name="benefits"></a>이점
 
@@ -215,7 +215,7 @@ PowerShell을 사용하여 팀, 채널을 만들고 설정을 자동으로 구�
 
 #### <a name="manual-team-creation"></a>수동 팀 만들기
 
-학생과 교사는 문제를 최소화하면서 Teams를 사용하고, 필요에 맞게 유연하게 조정할 수 있습니다. Teams 환경을 조정하는 한 가지 방법은 팀을 만들 수 있도록 지원하는 것입니다. 교사는 [여기](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch)에 나와 있는 대로 고유한 수업 유형 팀을 설정하고 학생을 초대합니다. 교사는 [팀에 학생을 추가](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)하거나, [참가 코드를 공유](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)하거나, [팀에 대한 링크를 공유](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)하여 학생을 초대할 수 있습니다. 가능한 경우, 교사가 팀에 학생을 추가하여 학생에게 액세스 권한을 부여하고, 팀에 추가되었음을 알리는 것이 좋습니다.
+학생과 교사는 문제를 최소화하면서 Teams를 사용하고, 필요에 맞게 유연하게 조정할 수 있습니다. Teams 환경을 조정하는 한 가지 방법은 팀을 만들 수 있도록 지원하는 것입니다. 교사는 [여기](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch)에 나와 있는 대로 고유한 수업 유형 팀을 설정하고 학생을 초대합니다. 교사는 [팀에 학생을 추가](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)하거나, [참가 코드를 공유](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)하거나, [팀에 대한 링크를 공유](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)하여 학생을 초대할 수 있습니다. 가능한 경우 교사가 팀에 학생을 추가하여 학생에게 액세스 권한을 부여하고, 팀에 추가되었음을 알리는 것이 좋습니다.
 
 ##### <a name="benefits"></a>이점
 
@@ -241,7 +241,7 @@ PowerShell을 사용하여 팀, 채널을 만들고 설정을 자동으로 구�
 
 ##### <a name="how-do-i-create-class-teams-that-allow-educators-early-access-to-set-up-a-team-before-admitting-students"></a>강사가 학생을 입학하기 전에 팀을 구성할 수 있도록 조기에 액세스 할 수 있는 수업 팀을 만들려면 어떻게 해야 하나요?
 
-그룹(SDS, 강사 주도 또는 그래프 API를 통해)에서 생성된 Teams는 기본적으로 조기 액세스 팀을 자동으로 생성합니다. Graph API를 사용하여 자신만의 조기 액세스 팀을 만들려면 [클래스를 만들고](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true) [그룹에서 팀을 만들어야](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true) 합니다.
+그룹(SDS, 강사 주도 또는 그래프 API를 통해)에서 생성된 Teams는 기본적으로 조기 액세스 팀을 자동으로 생성합니다. Graph API를 사용하여 자신만의 초기 액세스 팀을 만들려면 [클래스를 만들고](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true) [그룹에서 팀을 만들어야](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true) 합니다.
 
 ##### <a name="how-do-i-check-if-a-class-is-activated"></a>클래스가 인증되는지 확인하려면 어떻게 해야 하나요?
 
@@ -249,7 +249,7 @@ PowerShell을 사용하여 팀, 채널을 만들고 설정을 자동으로 구�
 
 ##### <a name="how-do-i-activate-a-class-for-an-educator"></a>강사 수업을 활성화하려면 어떻게 해야 하나요?
 
-[업데이트 팀 API](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true)를 사용하여 ```isMembershipLimitedToOwners``` 속성을 false로 설정하여 강사 대신 팀을 활성화합니다. 팀이 활성화 된 후에는 되돌릴 수 없습니다.
+[팀 API 업데이트](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true)를 사용하고 ```isMembershipLimitedToOwners``` 속성을 false로 설정하여 강사 대신 팀을 활성화합니다. 팀이 활성화 된 후에는 되돌릴 수 없습니다.
 
 ### <a name="create-staff-teams-for-staff-communication-and-collaboration"></a>직원 커뮤니케이션 및 공동 작업을 위한 직원 팀 만들기
 

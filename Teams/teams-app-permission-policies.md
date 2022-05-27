@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: ba84fbfbdcdc6bc6ad1455971a0acec0fd79121f
-ms.sourcegitcommit: 3f046142c40b3b776165e964f2b8718e2fe55df3
+ms.openlocfilehash: 648150f67471f1721a035e2fd19fded274ecd05e
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "65661689"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681599"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft Teams에서 앱 사용 권한 정책 관리
 
@@ -59,11 +59,10 @@ Microsoft Teams 관리 센터에서 앱 사용 권한 정책을 관리합니다.
 
 1. 정책에 대한 이름과 설명을 제공합니다.
 1. **Microsoft 앱**, **타사 앱** 및 **사용자 지정 앱** 아래에서 다음 중 하나를 선택합니다.
-
-    * **모든 앱 허용**
-    * **특정 앱 허용 및 다른 모든 앱 차단**
-    * **특정 앱 차단 및 다른 모든 앱 허용**
-    * **모든 앱 차단**
+   - **모든 앱 허용**
+   - **특정 앱 허용 및 다른 모든 앱 차단**
+   - **특정 앱 차단 및 다른 모든 앱 허용**
+   - **모든 앱 차단**
 
 1. **특정 앱 허용 및 다른 앱 차단** 을 선택한 경우 허용하려는 앱을 추가합니다.
 
@@ -105,9 +104,8 @@ Microsoft 365 Government - GCC, GCCH 및 DoD 배포에서 Teams 모든 타사 �
   ![GCC 조직 전체 앱 설정의 스크린샷](media/app-permission-policies-gcc-org-wide.png)
 
 1. **타사 앱** 에서 이 설정을 끄거나 켜면 타사 앱에 대한 액세스를 제어할 수 있습니다.
-
-    * **타사 앱 허용**: 이 옵션은 사용자가 타사 앱을 사용할 수 있는지 여부를 제어합니다. 이 설정을 해제하면 사용자는 타사 앱을 설치하거나 사용할 수 없습니다. Teams Microsoft 365 Government - GCCH 및 DoD 배포에서는 이 설정이 기본적으로 해제되어 있습니다.
-    * **기본적으로 스토어에 게시된 새 타사 앱** 허용: 이 옵션은 Teams 앱 스토어에 게시된 새 타사 앱을 Teams 자동으로 사용할 수 있는지 여부를 제어합니다. 타사 앱을 허용하는 경우에만 이 옵션을 설정할 수 있습니다.
+   - **타사 앱 허용**: 이 옵션은 사용자가 타사 앱을 사용할 수 있는지 여부를 제어합니다. 이 설정을 해제하면 사용자는 타사 앱을 설치하거나 사용할 수 없습니다. Teams Microsoft 365 Government - GCCH 및 DoD 배포에서는 이 설정이 기본적으로 해제되어 있습니다.
+   - **기본적으로 스토어에 게시된 새 타사 앱** 허용: 이 옵션은 Teams 앱 스토어에 게시된 새 타사 앱을 Teams 자동으로 사용할 수 있는지 여부를 제어합니다. 타사 앱을 허용하는 경우에만 이 옵션을 설정할 수 있습니다.
 
 1. **차단된 앱** 아래에서 조직 전체에서 차단하려는 앱을 추가합니다. Microsoft 365 Government - GCCH 및 DoD 배포에서 Teams 모든 타사 앱이 기본적으로 이 목록에 추가됩니다. 조직에서 허용하려는 타사 앱의 경우 이 차단된 앱 목록에서 앱을 제거합니다. 앱 조직 전체를 차단하면 앱 사용 권한 정책에서 허용되는지 여부에 관계없이 모든 사용자에 대해 앱이 자동으로 차단됩니다.
 
@@ -158,12 +156,12 @@ Microsoft 365 Government - GCC, GCCH 및 DoD 배포에서 Teams 모든 타사 �
 
 예를 들어 앱이 차단되면 사용자는 다음 작업을 수행할 수 없습니다.
 
-* 앱을 개인적으로 추가하거나 채팅 또는 팀에 추가
-* 앱의 봇에 메시지 보내기
-* 실행 가능한 메시지와 같은 정보를 앱으로 다시 보내는 버튼 작업 수행  
-* 앱의 탭 보기
-* 알림을 수신할 커넥터 설정
-* 앱의 메시징 익스텐션 사용
+- 앱을 개인적으로 추가하거나 채팅 또는 팀에 추가
+- 앱의 봇에 메시지 보내기
+- 실행 가능한 메시지와 같은 정보를 앱으로 다시 보내는 버튼 작업 수행  
+- 앱 탭 보기
+- 알림을 수신할 커넥터 설정
+- 앱의 메시징 확장 사용
 
 레거시 포털이 조직 수준에서 앱을 제어할 수 있도록 허용했습니다. 즉, 앱이 차단되면 조직의 모든 사용자에게 차단됩니다. [웹 관리](manage-apps.md) 페이지에서의 앱 차단은 정확히 동일한 방식으로 작동합니다.
 
@@ -171,6 +169,6 @@ Microsoft 365 Government - GCC, GCCH 및 DoD 배포에서 Teams 모든 타사 �
 
 ## <a name="see-also"></a>참고 항목
 
-* [Teams의 앱에 대한 관리 설정](admin-settings.md)
-* [Teams에서 사용자에게 정책 할당](policy-assignment-overview.md)
-* [Teams 기능 가용성 비교](/office365/servicedescriptions/teams-service-description#feature-availability)
+- [Teams의 앱에 대한 관리 설정](admin-settings.md)
+- [Teams에서 사용자에게 정책 할당](policy-assignment-overview.md)
+- [Teams 기능 가용성 비교](/office365/servicedescriptions/teams-service-description#feature-availability)

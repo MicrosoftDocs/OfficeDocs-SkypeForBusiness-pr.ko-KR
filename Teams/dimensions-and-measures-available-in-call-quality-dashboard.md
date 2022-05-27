@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Microsoft Teams 및 비즈니스용 Skype Online용 CQD(통화 품질 대시보드)에서 사용하는 차원 및 측정값에 대한 자세한 정보를 가져옵니다.
-ms.openlocfilehash: 01159d64a1c9fdb48321bdb82b6199d6861c4bfa
-ms.sourcegitcommit: 2c3c067cccd7b84064b5619a0b5f87242af52984
+ms.openlocfilehash: f5614f7f0d14aa0053a613f5f471ae5e5315f1cf
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65462052"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675940"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>CQD(통화 품질 대시보드)에서 사용할 수 있는 차원 및 측정값
 
@@ -753,7 +753,7 @@ CQD에서 사용하는 문자열은 데이터 파일에서 파생되는 경우�
 |P50 패킷 손실률 | 비율 | 요청의 50%는 지정된 패킷 손실률보다 낮아야 합니다.|
 |PSTN 발신 후 전화 걸기 지연| 밀리초 | 발신자 또는 호출된 파티가 울리는 소리가 들릴 때까지 번호가 전화를 거는 시간부터 측정된 발신 통화에서 발생하는 지연입니다.|
 |PSTN 수신 후 전화 걸기 지연 | 밀리초 | 발신자 또는 호출된 파티가 울리는 소리가 들릴 때까지 번호가 전화를 거는 시간부터 측정된 수신 통화에서 발생하는 시간 또는 지연입니다.|
-|PSTN NER 양수 비율 | 비율 | NER는 수신자에게 전달된 통화 수와 보낸 통화 수를 측정하여 네트워크에서 통화를 배달하는 기능을 측정합니다.<br/>NER = (응답된 통화 + 사용자 사용 중 + 응답 없음 링 없음 + 터미널 거부 발작)/ 총 시도 호출 수 x 100.이 측정값에 대해 최대 0.2% 오류가 발생합니다. 자세한 내용은 아래 참고를 참조하세요.|
+|PSTN NER 양수 비율 | 비율 | NER는 수신자에게 전달된 통화 수와 보낸 통화 수를 측정하여 네트워크에서 통화를 배달하는 기능을 측정합니다.<br/>NER = (응답된 통화 + 사용자 사용 중 + 링 없음 응답 없음 + 터미널 거부 발작) / 총 시도 호출 x 100. 이 측정값에 대해 최대 0.2% 오류가 발생합니다. 자세한 내용은 아래 참고를 참조하세요.|
 | 평균 자동 전화 교환 체인 기간(초) | 정수 | 자동 전화 교환에서 사용자가 소비하는 평균 기간(초 단위)입니다. |
 | 평균 통화 큐 기간(초) | 정수 | 사용자가 에이전트가 통화 큐에 응답하기를 기다리는 평균 기간(초)입니다. |
 
@@ -766,7 +766,7 @@ CQD에서 사용하는 문자열은 데이터 파일에서 파생되는 경우�
 
 많은 차원 및 측정값을 필터로 사용할 수도 있습니다. 쿼리에서 필터를 사용하여 차원 또는 측정값을 선택하여 쿼리에 정보를 추가하거나 포함하는 것과 같은 방식으로 정보를 제거할 수 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Teams 대한 통화 품질 개선 및 모니터링](monitor-call-quality-qos.md)
 

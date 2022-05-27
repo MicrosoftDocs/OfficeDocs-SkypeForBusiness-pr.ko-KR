@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 모임 정책 설정을 사용하여 Microsoft Teams 모임 만료를 제어하는 방법을 알아봅니다.
-ms.openlocfilehash: 014989cd2fda0ce28ef96ee53c82908f814ee8c7
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 08cdcd9b7d7f18dafa468bd33ca065dafb5768a6
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646217"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675360"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Microsoft Teams 모임 정책 및 모임 만료
 
@@ -131,7 +131,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 ### <a name="will-this-feature-enforce-file-retention"></a>이 기능으로 파일 보존이 시행되나요?
 
-아니요. 이 기능 또는 해당 설정으로 인해 파일이 보존되지 않습니다. 삭제 권한이 있는 사용자가 만기 설정이 있는 TMR을 삭제하려고 하면 해당 사용자의 삭제 조치가 실행됩니다.
+아니요. 이 기능 또는 해당 설정으로 인해 파일이 보존되지 않습니다. 삭제 권한이 있는 사용자가 만료 설정이 있는 TMR을 삭제하려고 하면 해당 사용자의 삭제 작업이 실행됩니다.
 
 ### <a name="what-skus-are-required-for-this-feature"></a>이 기능에 필요한 SKU는 무엇인가요?
 

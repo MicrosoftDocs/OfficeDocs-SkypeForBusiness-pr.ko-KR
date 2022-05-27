@@ -19,20 +19,20 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 8a8e8b21bb3b224586ef7e74f971059070d0a74c
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: d530cc3947c738753f053d126ded1dd77b815009
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059299"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676400"
 ---
-# <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams를 사용하기 위한 조직의 네트워크 준비 
+# <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams를 사용하기 위한 조직의 네트워크 준비
 
 ## <a name="network-requirements"></a>네트워크 요구 사항
 
 [Microsoft 365 또는 Office 365에 대한 네트워크를 이미 최적화했다면](/Office365/Enterprise/assessing-network-connectivity) Microsoft Teams를 사용할 준비가 된 것입니다. 어떤 경우든, 특히 **원격 작업자** 를 지원하기 위해 첫 Microsoft 365 또는 Office 365 워크로드로서 Teams를 빠르게 배포하는 경우, Teams 배포를 시작하기 전에 다음을 확인하세요.
 
-1.  모든 위치에서 인터넷에 액세스할 수 있나요(Microsoft 365 또는 Office 365에 연결할 수 있도록)? 일반적인 웹 트래픽 외에도 [Office 365 URL 및 IP 주소 범위](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)에 있는 Teams에 대해 나열된 TCP 포트와 IP 주소를 열었는지 확인하세요.
+1. 모든 위치에서 인터넷에 액세스할 수 있나요(Microsoft 365 또는 Office 365에 연결할 수 있도록)? 일반적인 웹 트래픽 외에도 [Office 365 URL 및 IP 주소 범위](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)에 있는 Teams에 대해 나열된 TCP 포트와 IP 주소를 열었는지 확인하세요.
 
     > [!IMPORTANT]
     > 온-프레미스 또는 온라인에서 비즈니스용 Skype와 페더레이션해야 하는 경우 추가 DNS 레코드를 구성해야 합니다.
@@ -40,14 +40,14 @@ ms.locfileid: "65059299"
     >|DNS 레코드  |서비스  |프로토콜  |우선 순위  |가중치  |포트  |대상  |
     >|---------|---------|---------|---------|---------|---------|---------|
     >|SRV     |sipfederationtls     |TCP     |100     |1     |5061     |sipfed.online.lync.com     |
-    
-2.  Microsoft 365 또는 Office 365에 대한 확인된 도메인이 있나요(예: contoso.com)?
-    
+
+2. Microsoft 365 또는 Office 365에 대한 확인된 도메인이 있나요(예: contoso.com)?
+
     - 조직에서 Microsoft 365 또는 Office 365를 배포하지 않은 경우 [시작](/microsoft-365/admin/admin-overview/get-started-with-office-365)을 참조하세요.
     - 조직에서 Microsoft 365 또는 Office 365에 대해 확인된 도메인을 추가하거나 구성하지 않은 경우 [도메인 FAQ](/microsoft-365/admin/setup/domains-faq)를 참조하세요.
 
-3.  조직에서 Exchange Online 및 SharePoint Online을 배포했나요?
-    
+3. 조직에서 Exchange Online 및 SharePoint Online을 배포했나요?
+
     - 조직에 Exchange Online이 없는 경우 [Exchange와 Microsoft Teams의 상호 작용 방법](exchange-teams-interact.md)을 참조하세요. 
     - 조직에 SharePoint Online이 없는 경우 [SharePoint Online 및 비즈니스용 OneDrive가 Microsoft Teams와 상호 작용하는 방법](sharepoint-onedrive-interact.md)을 참조하세요.
 
@@ -55,12 +55,12 @@ ms.locfileid: "65059299"
 
 > [!IMPORTANT]
 > **교육 기관**: 조직이 교육 기관이고 SIS(학생 정보 시스템)를 사용하는 경우 Teams를 배포하기 전에 [학교 데이터 동기화를 배포](/schooldatasync/)합니다.
->  
+>
 > **온-프레미스 비즈니스용 Skype 서버 실행**: 조직에서 온-프레미스 비즈니스용 Skype 서버(또는 Lync Server)를 실행하는 경우 [Azure Active Directory Connect를 구성](/skypeforbusiness/hybrid/configure-azure-ad-connect)하여 온-프레미스 디렉터리를 Microsoft 365 또는 Office 365와 동기화해야 합니다.
 
-### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>모범 사례: CQD 및 통화 분석을 사용하여 네트워크 모니터링 
+### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>모범 사례: CQD 및 통화 분석을 사용하여 네트워크 모니터링
 
-[CQD(통화 품질 대시보드)](turning-on-and-using-call-quality-dashboard.md)를 사용하여 Teams의 통화 및 모임의 품질을 파악할 수 있습니다. CQD를 사용하면 품질, 안정성 및 사용자 환경을 세밀하게 확인하여 네트워크를 최적화하는 데 도움이 될 수 있습니다. CQD는 전체 패턴이 명백해질 수 있는 전체 조직에 대한 집계 원격 분석을 살펴보아 문제를 식별하고 수정을 계획하도록 합니다. 또한, CQD는 전체 품질, 안정성 및 사용자 환경을 파악할 수 있는 풍부한 메트릭 보고서를 제공합니다. 
+[CQD(통화 품질 대시보드)](turning-on-and-using-call-quality-dashboard.md)를 사용하여 Teams의 통화 및 모임의 품질을 파악할 수 있습니다. CQD를 사용하면 품질, 안정성 및 사용자 환경을 세밀하게 확인하여 네트워크를 최적화하는 데 도움이 될 수 있습니다. CQD는 전체 패턴이 명백해질 수 있는 전체 조직에 대한 집계 원격 분석을 살펴보아 문제를 식별하고 수정을 계획하도록 합니다. 또한, CQD는 전체 품질, 안정성 및 사용자 환경을 파악할 수 있는 풍부한 메트릭 보고서를 제공합니다.
 
 [통화 분석](set-up-call-analytics.md)을 사용하여 개별 사용자의 통화 및 모임 문제를 조사합니다.
 
@@ -70,9 +70,9 @@ ms.locfileid: "65059299"
 
 다음의 경우 추가 네트워크 최적화를 수행하는 것이 좋습니다.
 
-  - Teams가 느리게 실행됩니다(대역폭이 부족할 수 있음).
-  - 통화가 계속 끊깁니다(방화벽 또는 프록시 차단 때문일 수 있음).
-  - 통화 중 잡음이 들리고 끊기거나 음성이 로봇처럼 들립니다(지터 또는 패킷 손실일 수 있음).
+- Teams가 느리게 실행됩니다(대역폭이 부족할 수 있음).
+- 통화가 계속 끊깁니다(방화벽 또는 프록시 차단 때문일 수 있음).
+- 통화 중 잡음이 들리고 끊기거나 음성이 로봇처럼 들립니다(지터 또는 패킷 손실일 수 있음).
 
 네트워크 장애를 식별하고 수정하기 위한 지침을 비롯한 네트워크 최적화에 대한 자세한 논의는 [Microsoft 365 및 Office 365 네트워크 연결 원칙](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles)을 참조하세요.
 
@@ -117,9 +117,9 @@ ms.locfileid: "65059299"
 <td><p>일반적으로 <a href="/windows/security/identity-protection/vpn/vpn-routing">분할 터널 VPN</a>이라고 알려진 VPN(가상 사설망)을 우회하는 Teams 트래픽에 대한 대체 경로를 제공하는 것이 좋습니다. 분할 터널링은 Microsoft 365 또는 Office 365의 트래픽이 VPN을 통과하지 않고 대신 Microsoft 365 또는 Office 365로 직접 이동함을 의미합니다. VPN을 우회하면 Teams 품질에 긍정적인 영향을 미치며 VPN 장치와 조직의 네트워크의 부하가 줄어듭니다. 분할 터널 VPN을 구현하기 위해 VPN 공급업체와 협력하세요.</p>
 <p>VPN 우회를 권장하는 다른 이유:
 <ul>
-<li><p>일반적으로 VPN은 실시간 미디어를 지원하도록 설계되거나 구성되지 않습니다.</p></li> 
-<li><p>일부 VPN은 UDP를 지원하지 않을 수도 있습니다(Teams에 필요함).</p></li> 
-<li><p>또한 VPN은 이미 암호화되어 있는 미디어 트래픽 위에 추가 암호화 계층을 도입합니다.</p></li> 
+<li><p>일반적으로 VPN은 실시간 미디어를 지원하도록 설계되거나 구성되지 않습니다.</p></li>
+<li><p>일부 VPN은 UDP를 지원하지 않을 수도 있습니다(Teams에 필요함).</p></li>
+<li><p>또한 VPN은 이미 암호화되어 있는 미디어 트래픽 위에 추가 암호화 계층을 도입합니다.</p></li>
 <li><p>VPN 장치를 통한 헤어핀 트래픽으로 인해 Teams에 대한 연결이 효율적이지 않을 수 있습니다.</p></li></td>
 </tr>
 <tr class="odd">
@@ -144,7 +144,7 @@ ms.locfileid: "65059299"
 
 Teams는 네트워크 조건과 상관없이 최상의 오디오, 비디오, 콘텐츠 공유 환경을 제공하도록 설계되었습니다. 즉, 대역폭이 부족하면 Teams에서는 비디오 품질보다 오디오 품질을 우선합니다.
 
-대역폭이 제한되지 않는 경우, Teams에서는 고해상도 오디오, 최대 1080p 비디오 해상도, 최대 30fps(초당 프레임 수)의 비디오 및 컨텐츠를 포함한 미디어 품질을 최적화합니다.
+대역폭이 제한되지 않는 경우 Teams에서는 비디오와 콘텐츠에 고품질 오디오, 최대 1080p 비디오 해상도, 최대 30fps(초당 프레임)를 포함하여 미디어 품질을 최적화합니다.
 
 이 표는 Teams에서 대역폭을 사용하는 방법에 대해 설명합니다. Teams는 항상 대역폭 사용에 대해 보수적이며 1.5Mbps 미만에서 HD 비디오 품질을 제공할 수 있습니다. 각 오디오/비디오 통화 또는 모임에서 실제 대역폭 소비량은 비디오 레이아웃, 비디오 해상도, 비디오 프레임 등 여러 요인에 따라 달라집니다. 더 많은 대역폭을 사용할 수 있게 되면 최상의 환경을 제공하기 위해 품질이 향상되고 사용량이 늘어납니다.
 
@@ -153,7 +153,7 @@ Teams는 네트워크 조건과 상관없이 최상의 오디오, 비디오, 콘
       **형식**
    :::column-end:::
    :::column span="3":::
-      **대역폭 요구 사항(비트 KB/s up/down)**    
+      **대역폭 요구 사항(비트 KB/s up/down)**
    :::column-end:::
 :::row-end:::
 :::row:::
@@ -304,13 +304,13 @@ Teams는 네트워크 조건과 상관없이 최상의 오디오, 비디오, 콘
 
 **최소**, **권장** 및 **최고의 성능** 대역폭 요구 사항은 엔드포인트별 사용량을 기준으로 합니다. 일반적으로 사용자당 하나의 엔드포인트가 있습니다(예: 컴퓨터 또는 모바일 장치). 그러나 사용자가 시스템 *과* 모바일 장치 *모두* 에서 Teams 모임에 참여하는 경우 두 개의 엔드포인트가 해당 사용자와 연결됩니다.
 
-- 비디오 호출에 필요한 **최소** 대역폭 요구 사항은 최대 240p 해상도, 화면 공유 컨텐츠 프레임률이 적응형 1.875~7.5fps, 함께 모드/대형 갤러리 비디오 해상도가 최대 540p입니다.  
+- 비디오 호출에 필요한 **최소** 대역폭 요구 사항은 최대 240p 해상도, 화면 공유 컨텐츠 프레임률이 적응형 1.875~7.5fps, 함께 모드/대형 갤러리 비디오 해상도가 최대 540p입니다.
 
-- 비디오 호출에 **권장되는** 대역폭 요구 사항은 최대 1080p 해상도 <sup>\*</sup>, 화면 공유 컨텐츠 프레임률 적응형 7.5~30fps 및 함께 모드/대형 갤러리 비디오 해상도 최대 1080p입니다.<sup>\*</sup>  
+- 비디오 호출에 **권장되는** 대역폭 요구 사항은 최대 1080p 해상도 <sup>\*</sup>, 화면 공유 컨텐츠 프레임률 적응형 7.5~30fps 및 함께 모드/대형 갤러리 비디오 해상도 최대 1080p입니다.<sup>\*</sup>
 
 - **최고의 성능** 지침은 15~30fps의 화면 공유 콘텐츠 프레임률을 통해 대규모 참석자 모임, 고손실 환경 및 고 모션 콘텐츠를 보다 충실하게 저장할 수 있도록 지원합니다.
 
-<sup>\*</sup>최대 1080p의 화질을 기대하지만 네트워크 상태에 따라 비디오 해상도와 화질이 최적화됩니다.  
+<sup>\*</sup>최대 1080p의 화질을 기대하지만 네트워크 상태에 따라 비디오 해상도와 화질이 최적화됩니다.
 
 ## <a name="related-topics"></a>관련 항목
 

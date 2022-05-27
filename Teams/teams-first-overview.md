@@ -15,12 +15,12 @@ description: 이 지침을 사용하여 Microsoft Teams 첫 번째 Microsoft 365
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6dba57003aaa58b9d0b72e7e866da261bed578e
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 2621ea94e2a35e7de9eed3dac2994f9b1932b0bb
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922689"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681729"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Microsoft Teams 먼저 롤아웃
 
@@ -39,8 +39,8 @@ Teams First 배포를 시작하려면 최소한 몇 가지 필수 조건을 충�
 
 1.  도메인 이름으로 구성된 Microsoft 365 또는 Office 365 조직
 
-2.  테넌트와 동기화된 모든 필수 특성을 사용하여 연결(AAD 연결) 또는 유사한 클라우드 ID 동기화 솔루션 Azure Active Directory  
-    AAD 동기화와 동기화된 특성을 이해하려면 [Azure AD 커넥트 동기화: Azure Active Directory 동기화된 특성](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
+2.  테넌트와 동기화된 모든 필수 특성을 사용하여 AAD 연결(AAD 연결) 또는 유사한 클라우드 ID 동기화 솔루션 Azure Active Directory  
+    AAD 동기화와 동기화된 특성을 이해하려면 [Azure AD 커넥트 동기화를 읽습니다. Azure Active Directory](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
 
 3.  Teams 할당된 적절한 사용자 라이선스  
     Teams 라이선스를 이해하려면 [Microsoft Teams 서비스 설명을](/office365/servicedescriptions/teams-service-description) 읽어보세요.
@@ -111,7 +111,7 @@ Teams 두 가지 유형의 PSTN 연결을 지원합니다. Microsoft 통화 플�
 <tr class="odd">
 <td>Teams 모임 만들기 및 보기</td>
 <td><p>Outlook 추가 기능을 통해 내부 및 외부 모임을 만들 수 있습니다.</p>
-<p>PSTN 전화 접속 및 전화 걸기 기능은 오디오 회의 라이선스에서 사용할 수 있습니다.</p>
+<p>PSTN Dial in 및 Dial out 기능은 오디오 회의 라이선스에서 사용할 수 있습니다.</p>
 <p>Teams 일정 액세스에는 Exchange 하이브리드를 사용하여 배포된 Exchange 2016 CU3+ 온-프레미스: <a href="/exchange/hybrid-deployment/deploy-hybrid">하이브리드 구성 마법사를 사용하여 하이브리드 배포 만들기가 필요합니다.</a> </p>
 
 Exchange 하이브리드 구성 외에도 Exchange OAuth 인증을 설정합니다. [Exchange 조직과 Exchange Online 조직 간에 OAuth 인증을 구성합니다](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). 
@@ -136,7 +136,7 @@ Teams VoIP/PSTN</td>
 <tr class="odd">
 <td>애플리케이션 플랫폼</td>
 <td>사용자는 회사 정책에 따라 사용할 수 있도록 지정된 앱을 사용할 수 있습니다.<br />
-자세한 내용은 다음을 참조하세요. <a href="/microsoftteams/admin-settings">Teams 앱에 대한 관리자 설정</a></td>
+자세한 내용은 다음을 참조하세요. <a href="/microsoftteams/admin-settings">Teams 앱에 대한 관리 설정</a></td>
 </tr>
 <tr class="even">
 <td>보안 및 규정 준수 기능</td>
@@ -190,7 +190,7 @@ Teams VoIP/PSTN</td>
 <tr class="odd">
 <td>Teams 모임 만들기 및 보기</td>
 <td><p>Outlook 추가 기능을 통해 내부 및 외부 모임을 만들 수 있습니다.</p>
-<p>PSTN 전화 접속 및 전화 걸기 기능은 오디오 회의 라이선스에서 사용할 수 있습니다.</p>
+<p>PSTN Dial in 및 Dial out 기능은 오디오 회의 라이선스에서 사용할 수 있습니다.</p>
 <p>Teams 일정 액세스에는 Exchange 하이브리드가 설정된 Exchange 2016 CU3+ 온-프레미스가 배포되어야 합니다.<br />
 <a href="/exchange/hybrid-deployment/deploy-hybrid">하이브리드 구성 마법사를 사용하여 하이브리드 배포를 만듭니다.</a></p>
 <p>관리자는 Teams 모임 정책의 PreferredMeetingProviderForIslandsMode 특성<a href="/powershell/module/skype/set-csteamsmeetingpolicy">인 set-csteamsmeetingpolicy</a>를 통해 비즈니스용 Skype Outlook 추가 기능을 제어할 수 있습니다.</p> 
@@ -214,7 +214,7 @@ Teams VoIP/PSTN</td>
 <tr class="odd">
 <td>애플리케이션 플랫폼</td>
 <td>사용자는 회사 정책에 따라 사용할 수 있도록 지정된 앱을 사용할 수 있습니다.<br />
-자세한 내용은 다음을 참조하세요. <a href="/microsoftteams/admin-settings">Teams 앱에 대한 관리자 설정</a></td>
+자세한 내용은 다음을 참조하세요. <a href="/microsoftteams/admin-settings">Teams 앱에 대한 관리 설정</a></td>
 </tr>
 <tr class="even">
 <td>보안 및 규정 준수 기능</td>

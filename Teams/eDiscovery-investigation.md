@@ -17,12 +17,12 @@ description: 법적 절차에 대한 모든 전자 저장 정보를 제출해야
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 207164f3e16768b7643d2bba2177d52d6b3940f3
-ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
+ms.openlocfilehash: a89f2ac8fc94505ec0d97bb426bc8fc92901aa52
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2022
-ms.locfileid: "65031923"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675310"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams 콘텐츠에 대한 eDiscovery 조사 수행
 
@@ -36,27 +36,26 @@ ms.locfileid: "65031923"
 
 모든 Teams 콘텐츠가 eDiscover할 수 있는 것은 아닙니다. 다음 표에서는 Microsoft eDiscovery 도구를 사용하여 검색할 수 있는 콘텐츠 형식을 보여줍니다.
 
-| 콘텐츠 형식 | eDiscoverable | 참고 |
-|:--- | :--- |:--- |
-|오디오 녹음 | 아니요 | |
+|콘텐츠 형식|eDiscoverable|참고|
+|---|---|---|
+|오디오 녹음|아니요||
 |카드 콘텐츠|예|자세한 내용은 [카드 콘텐츠 검색](#search-for-card-content) 을 참조하세요.|
-|채팅 링크 | 예 | |
-|채팅 메시지 | 예 |여기에는 표준 Teams 채널의 콘텐츠, 1:1 채팅, 1:N 그룹 채팅 및 게스트 사용자 참가자와의 채팅이 포함됩니다.  |
-|코드 조각 | 아니요 | |
-|편집된 메시지 | 예 | 사용자가 보류 중인 경우 이전 버전의 편집된 메시지도 유지됩니다. |
-|이모지, GIF 및 스티커 | 예 | |
-|피드 알림 | 아니요 | |
-|인라인 이미지 | 예 | |
-|Loop 구성 요소| 예|루프 구성 요소의 콘텐츠는 루프 구성 요소를 보내는 사용자의 비즈니스용 OneDrive 계정에 저장된 .fluid 파일에 저장됩니다. 즉, 루프 구성 요소에서 콘텐츠를 검색할 때 OneDrive 데이터 원본으로 포함해야 합니다. |
-|모임 메신저 대화 | 예 | |
-|모임 메타데이터<sup>1</sup> | 예 |  |
-|채널 이름 | 예 | |
-|비공개 및 공유 채널 채팅 메시지 | 예 | |
-|따옴표 | 예 | 따옴표 붙은 콘텐츠는 검색할 수 있습니다. 그러나 검색 결과는 콘텐츠가 인용되었음을 나타내지 않습니다. |
-|반응(예: 좋아요, 하트 및 기타 반응) | 아니요 | |
-|제목 | 예 | |
-|테이블 | 예 | |
-||||
+|채팅 링크|예||
+|채팅 메시지|예|여기에는 표준 Teams 채널의 콘텐츠, 1:1 채팅, 1:N 그룹 채팅 및 게스트 사용자 참가자와의 채팅이 포함됩니다.|
+|코드 조각|아니요||
+|편집된 메시지|예|사용자가 보류 중인 경우 이전 버전의 편집된 메시지도 유지됩니다.|
+|이모지, GIF 및 스티커|예||
+|피드 알림|아니요||
+|인라인 이미지|예||
+|Loop 구성 요소|예|루프 구성 요소의 콘텐츠는 루프 구성 요소를 보내는 사용자의 비즈니스용 OneDrive 계정에 저장된 .fluid 파일에 저장됩니다. 즉, 루프 구성 요소에서 콘텐츠를 검색할 때 OneDrive 데이터 원본으로 포함해야 합니다.|
+|모임 메신저 대화|예||
+|모임 메타데이터<sup>1</sup>|예||
+|채널 이름|예||
+|비공개 및 공유 채널 채팅 메시지|예||
+|따옴표|예|따옴표 붙은 콘텐츠는 검색할 수 있습니다. 그러나 검색 결과는 콘텐츠가 인용되었음을 나타내지 않습니다.|
+|반응(예: 좋아요, 하트 및 기타 반응)|아니요||
+|제목|예||
+|테이블|예||
 
 <sup>1</sup> 모임(및 통화) 메타데이터에는 다음이 포함됩니다.
 
@@ -174,7 +173,7 @@ eDiscovery 도구를 사용하여 조직의 게스트 사용자와 관련된 Tea
 
 게스트 사용자에 대한 콘텐츠를 검색하려면 다음을 수행합니다.
 
-1. Azure AD PowerShell에 커넥트. 자세한 내용은 [PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)을 사용하여 Microsoft 365 커넥트 "Azure Active Directory PowerShell을 사용한 커넥트" 섹션을 참조하세요. 이전 문서의 1단계 및 2단계를 완료해야 합니다.
+1. PowerShell을 Azure AD 커넥트. 자세한 내용은 [PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)을 사용하여 Microsoft 365 커넥트 "Azure Active Directory PowerShell을 사용한 커넥트" 섹션을 참조하세요. 이전 문서의 1단계 및 2단계를 완료해야 합니다.
 
 2. Azure AD PowerShell에 성공적으로 연결한 후 다음 명령을 실행하여 조직의 모든 게스트 사용자에 대한 UPN(사용자 계정 이름)을 표시합니다. 4단계에서 검색을 만들 때 게스트 사용자의 UPN을 사용해야 합니다.
 
@@ -207,7 +206,7 @@ eDiscovery 도구를 사용하여 조직의 게스트 사용자와 관련된 Tea
    Start-ComplianceSearch <search name>
    ```
 
-6. 이동 [https://compliance.microsoft.com](https://compliance.microsoft.com) 한 다음 **allContent** >  검색 **표시** 를 클릭합니다.
+6. 이동 [https://compliance.microsoft.com](https://compliance.microsoft.com) 한 다음 **모든** > **콘텐츠 검색** 표시를 클릭합니다.
 
 7. 검색 목록에서 4단계에서 만든 검색을 선택하여 플라이아웃 페이지를 표시합니다.
 
@@ -234,11 +233,11 @@ Teams 채널, 1:1 채팅 및 1xN 채팅의 앱에서 생성된 카드 콘텐츠�
 ![Teams 채널 메시지의 카드 콘텐츠입니다.](media/CardContentTeams.png)
 
 ### <a name="card-content-in-search-results"></a>검색 결과의 카드 콘텐츠
-  
+
 ![콘텐츠 검색 결과에서 동일한 카드 콘텐츠입니다.](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
-> 현재 검색 결과에 카드 콘텐츠의 이미지를 표시하려면(예: 이전 스크린샷의 확인 표시) 검색 결과를 보는 데 사용하는 브라우저 세션의 다른 탭에서 https://teams.microsoft.com) Teams 로그인해야 합니다. 그렇지 않으면 이미지 자리 표시자가 표시됩니다.
+> 현재 검색 결과에 카드 콘텐츠의 이미지를 표시하려면(예: 이전 스크린샷의 확인 표시) 검색 결과를 보는 데 사용하는 것과 동일한 브라우저 세션의 다른 탭에서 <https://teams.microsoft.com>Teams 로그인해야 합니다. 그렇지 않으면 이미지 자리 표시자가 표시됩니다.
 
 ## <a name="ediscovery-in-federated-and-non-federated-environments"></a>페더레이션된 환경과 페더레이션되지 않은 환경의 eDiscovery
 

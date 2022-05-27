@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 사용자에 대한 클라우드 음성 사서함 설정하는 방법을 알아봅니다.
-ms.openlocfilehash: 96c96f85625d0cda7e6d7a28a59d6c9415f2bb79
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 6a75856954da509677a1c9ccdb54e34055f171ed
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922629"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681409"
 ---
 # <a name="set-up-cloud-voicemail"></a>클라우드 음성 사서함 설정
 
@@ -67,7 +67,7 @@ Teams 사용자에 대한 프로비저닝은 비즈니스용 Skype Online 사용
 통화 응답 규칙, 음성 메일 전사, 전사 욕설 마스킹, 전사 번역 및 시스템 프롬프트 언어와 같은 기능에 대해 기존 또는 새로운 음성 메일 정책을 구성하고 할당할 수 있습니다. 자세한 내용은 [New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy)를 참조하세요.
 
 개별 사용자에 대한 클라우드 음성 사서함 설정을 관리하려면 [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet을 사용합니다. 개별 사용자에게 적용할 수 있는 클라우드 음성 사서함 설정에는 통화 응답 규칙, 프롬프트 언어, 텍스트 음성 변환 기본값 및 휴가 인사말이 포함됩니다. 자세한 내용은 [Set-CsOnlineVoicemailUserSettings를 참조하세요](/powershell/module/skype/set-csonlinevoicemailusersettings).
-(Note that your end users can also configure these settings in the Teams client by going to **Settings** -> **Calls** -> **Configure Voicemail**.)
+(최종 사용자는 Teams 클라이언트에서 설정전화 **음성 메일 구성****)** -> 으로 이동하여 이러한 설정을 구성할 수도 **있습니다** -> .
 
 [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet을 사용하고 VoicemailEnabled 매개 변수를 $false 설정하여 사용자에 대한 클라우드 음성 사서함 사용하지 않도록 설정할 수도 있습니다. 이 설정은 클라우드 음성 사서함 더 이상 사용자의 음성 메일을 기록할 수 없도록 합니다.
 
@@ -75,7 +75,7 @@ Teams 사용자에 대한 프로비저닝은 비즈니스용 Skype Online 사용
 
 클라우드 음성 사서함 프로비전된 모든 사용자에 대한 기본 설정은 클라우드 음성 사서함 대한 호출 라우팅을 허용하고 사용자가 클라우드 음성 사서함 호출을 전달할 수 있도록 하는 것입니다.
 
-AllowVoicemail 매개 변수와 함께 Set-CsTeamsCallingPolicy cmdlet을 사용하여 Teams 사용자에게 클라우드 음성 사서함 대한 호출 라우팅이 허용되는지 여부를 제어할 수 있습니다. 자세한 내용은  [seeSet-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)를 참조하세요.
+AllowVoicemail 매개 변수와 함께 Set-CsTeamsCallingPolicy cmdlet을 사용하여 Teams 사용자에게 클라우드 음성 사서함 대한 호출 라우팅이 허용되는지 여부를 제어할 수 있습니다. 자세한 내용은 [Set-CsTeamsCallingPolicy를 참조하세요](/powershell/module/skype/set-csteamscallingpolicy).
 
 - AllowVoicemail을 AlwaysDisabled로 설정하면 사용자의 통화 전달 또는 응답되지 않은 설정에 관계없이 통화가 음성 메일로 라우팅되지 않습니다. 음성 메일은 Teams 착신 전환 또는 응답되지 않은 설정으로 사용할 수 없습니다.
 
@@ -99,36 +99,34 @@ AllowVoicemail 매개 변수와 함께 Set-CsTeamsCallingPolicy cmdlet을 사용
 
 ## <a name="enable-protected-voicemail-in-your-organization"></a>조직에서 보호된 음성 메일 사용
 
-조직 내 사용자에 대한 음성 메일 메시지를 남기면 음성 메일이 사용자의 사서함에 전자 메일 메시지 첨부 파일로 전달됩니다. 
+조직 내 사용자에 대한 음성 메일 메시지를 남기면 음성 메일이 사용자의 사서함에 전자 메일 메시지 첨부 파일로 전달됩니다.
 
 Microsoft Purview Information Protection 사용하여 내부 및 외부 발신자가 남긴 음성 메일 메시지를 암호화할 수 있습니다. 사용자가 이러한 메시지를 전달하지 못하도록 방지할 수도 있습니다. 이 기능은 Exchange Online 사서함이 있는 사용자에 대해 지원됩니다.
 
-음성 메일 메시지를 암호화하려면 민감도 레이블을 만들 수 있습니다. 자동 레이블 지정 기능을 사용하면 레이블이 들어오는 음성 메일 메시지에 자동으로 적용되도록 할 수 있습니다. 
+음성 메일 메시지를 암호화하려면 민감도 레이블을 만들 수 있습니다. 자동 레이블 지정 기능을 사용하면 레이블이 들어오는 음성 메일 메시지에 자동으로 적용되도록 할 수 있습니다.
 
-보호된 음성 메일을 사용하도록 설정하면 사용자는 음성 메일 사서함에 전화를 걸거나 Android 또는 iOS용 Outlook, 웹용 Outlook 또는 Outlook 메시지를 열어 보호된 음성 메일 메시지를 들을 수 있습니다. 보호된 음성 메일 메시지는 Microsoft Teams 또는 비즈니스용 Skype 열 수 없습니다.
+보호된 음성 메일을 사용하도록 설정하면 사용자는 음성 메일 사서함에 전화를 걸거나 Outlook, 웹용 Outlook 또는 Android 또는 iOS 대한 Outlook 메시지를 열어 보호된 음성 메일 메시지를 들을 수 있습니다. 보호된 음성 메일 메시지는 Microsoft Teams 또는 비즈니스용 Skype 열 수 없습니다.
 
-음성 메일에 대한 민감도 레이블을 만들려면 [민감도 레이블 사용을 참조하세요](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). **암호화** 섹션에서 **사용자가 레이블을 적용할 때 사용 권한을 할당하도록 허용을** 선택합니다. **Outlook 선택하고 다음 제한 사항 중 하나를 적용** 한 다음 **전달 안 함** 옵션을 선택합니다.
+음성 메일에 대한 민감도 레이블을 만들려면 [민감도 레이블 사용을 참조하세요](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions). **암호화** 섹션에서 **사용자가 레이블을 적용할 때 사용 권한을 할당하도록 허용을** 선택합니다. **Outlook 선택하고 다음 제한 사항 중 하나를 적용** 한 다음 **전달 안 함** 옵션을 선택합니다.
 
-음성 메일에 민감도 레이블을 적용하는 자동 레이블 지정 정책을 만들려면 [자동 레이블 지정 정책을 구성하는 방법을](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) 참조하고 다음 특정 설정을 지정합니다.
+음성 메일에 민감도 레이블을 적용하는 자동 레이블 지정 정책을 만들려면 [자동 레이블 지정 정책을 구성하는 방법을](/microsoft-365/compliance/apply-sensitivity-label-automatically#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) 참조하고 다음 특정 설정을 지정합니다.
 
--   **이 레이블을 적용할 정보 선택** 의 경우 **사용자 지정 정책을** 선택합니다.
+- **이 레이블을 적용할 정보 선택** 의 경우 **사용자 지정 정책을** 선택합니다.
 
--   **레이블을 적용할 위치를 선택하려면** **모든 사용자에 대해 위치: Exchange** 선택합니다.
+- **레이블을 적용할 위치를 선택하려면** **모든 사용자에 대해 위치: Exchange** 선택합니다.
 
--   **일반 또는 고급 규칙을 설정** 하려면 **고급 규칙을** 선택합니다.
+- **일반 또는 고급 규칙을 설정** 하려면 **고급 규칙을** 선택합니다.
 
 - Exchange 규칙:
-    - 조건:<br>
-        - **헤더는 패턴과 일치합니다.**<br>
-              Content-Class = Voice-CA
-       -  **보낸 사람 IP 주소는 다음과 같습니다.**<br>
-               13.107.64.0/18, 52.112.0.0/14, 52.120.0.0/14, 52.238.119.141/32, 52.244.160.207/32
+  - 조건:
+    - **헤더 일치 패턴**: Content-Class = Voice-CA
+    - **보낸 사람 IP 주소:** 13.107.64.0/18, 52.112.0.0/14, 52.120.0.0/14, 52.238.119.141/32, 52.244.160.207/32
 
 - **자동으로 적용할 레이블을 선택하려면** 위의 단계에서 음성 메일에 대해 만든 민감도 레이블을 선택합니다.
 
 - **전자 메일에 대한 추가 설정을** 보려면 **조직 외부에서 받은 전자 메일에 암호화 적용** 을 선택하고 Rights Management 소유자를 지정합니다.
 
-보낸 사람 IP 주소에 지정된 IP V4 범위는 [OFFICE 365 URL 및 IP 주소 범위](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)의 ID 12 목록을 기반으로 합니다.
+보낸 사람 IP 주소에 지정된 IP V4 범위는 [OFFICE 365 URL 및 IP 주소 범위](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)의 ID 12 목록을 기반으로 합니다.
 
 메시지 암호화에 대한 자세한 내용은 [메일 메시지를 암호화하는 메일 흐름 규칙 정의를](/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email) 참조하세요.
 

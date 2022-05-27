@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d4fc6e36c0c78bdf86e1384fe6269f292f20deb7
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 35447b432118737821f578ddaee364e780f18e0d
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922829"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675350"
 ---
 # <a name="shifts-data-faq"></a>데이터 FAQ 이동
 
@@ -45,9 +45,9 @@ Teams 처음 설정할 때 구독 수준에서 설정된 국가 또는 지역을
 
 ## <a name="can-i-access-and-export-or-delete-a-users-personal-data-in-shifts"></a>Shifts에서 사용자의 개인 데이터에 액세스하고 내보내거나 삭제할 수 있나요?
 
-교대 근무는 GDPR(일반 데이터 보호 규정)을 준수합니다.개인 데이터에 대한 작업을 수행하는 사람(데이터 주체라고 함)의 공식적인 요청을 DSR(데이터 주체 요청)이라고 합니다. DSR에 대한 응답으로 Shifts에서 개인 데이터를 찾아서 작업할 수 있습니다.
+교대 근무는 GDPR(일반 데이터 보호 규정)을 준수합니다. 개인 데이터에 대한 작업을 수행하는 사람(데이터 주체라고 함)의 공식적인 요청을 DSR(데이터 주체 요청)이라고 합니다. DSR에 대한 응답으로 Shifts에서 개인 데이터를 찾아서 작업할 수 있습니다.
 
-Microsoft Purview 규정 준수 포털에서 Content Search eDiscovery 도구를 사용하여 일정 및 시간 시계 데이터를 검색하고 내보내서 Excel 수 있습니다. 다른 모든 Shifts 데이터의 경우 데이터의 스크린샷을 만들 수 있습니다.
+Microsoft Purview 규정 준수 포털 Content Search eDiscovery 도구를 사용하여 일정 및 시간 시계 데이터를 검색하고 내보내서 Excel 수 있습니다. 다른 모든 Shifts 데이터의 경우 데이터의 스크린샷을 만들 수 있습니다.
 
 자세한 내용은 [GDPR 및 CCPA에 대한 Office 365 데이터 주체 요청을](/microsoft-365/compliance/gdpr-dsr-office365) 참조하세요.
 
@@ -63,7 +63,7 @@ Shifts 데이터만 삭제하는 옵션은 없습니다. Teams 팀을 삭제하�
 
 삭제된 일정을 백업하는 Microsoft 365 그룹(또는 Teams 팀)이 복원된 경우 삭제된 일정을 복구할 수 있습니다.
 
-기본적으로 삭제된 Microsoft 365 그룹은 30일 동안 유지됩니다. 이 30일 기간은 그룹을 복원할 수 있으므로 "일시 삭제"라고 합니다. 자세한 내용은 [삭제된 Microsoft 365 그룹 복원을](/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&tabs=admin-center) 참조하세요.
+기본적으로 삭제된 Microsoft 365 그룹은 30일 동안 유지됩니다. 이 30일 기간은 그룹을 복원할 수 있으므로 "일시 삭제"라고 합니다. 자세한 내용은 [삭제된 Microsoft 365 그룹 복원을](/microsoft-365/admin/create-groups/restore-deleted-group?tabs=admin-center) 참조하세요.
 
 ## <a name="can-i-use-custom-retention-policies-for-shifts-data"></a>Shifts 데이터에 사용자 지정 보존 정책을 사용할 수 있나요?
 

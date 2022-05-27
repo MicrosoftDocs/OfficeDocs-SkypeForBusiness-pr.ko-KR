@@ -1,5 +1,5 @@
 ---
-title: 일정이 있는 기존 전자 메일 시스템에 커넥트 Microsoft Teams Essentials(AAD ID)
+title: 일정이 있는 기존 전자 메일 시스템에 대한 커넥트 Microsoft Teams Essentials(AAD ID)
 author: adjoseph
 ms.author: adjoseph
 ms.reviewer: jimmyw
@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b05fb30b6e7e4a3f3725ca8e591cc5caf56fdde
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 8bc388f533d39d6e1bc0140bcd975d6354898d5a
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "62279246"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674910"
 ---
-# <a name="connect-microsoft-teams-essentials-aad-identity-to-an-existing-email-system-with-calendar"></a>일정이 있는 기존 전자 메일 시스템에 커넥트 Microsoft Teams Essentials(AAD ID)
+# <a name="connect-microsoft-teams-essentials-aad-identity-to-an-existing-email-system-with-calendar"></a>일정이 있는 기존 전자 메일 시스템에 대한 커넥트 Microsoft Teams Essentials(AAD ID)
 
 이 가이드에서는 일정이 있는 기존 전자 메일 시스템에 Microsoft Teams Essentials(AAD ID)를 연결하기 위한 구성 단계를 제공합니다.
 
-Microsoft Teams Essentials(AAD ID)는 모임, 채팅, 통화 및 공동 작업과 함께 최고의 Teams 제공합니다. Teams Essentials(AAD Identity)는 기존 전자 메일 시스템에 연결하여 기존 전자 메일 받은 편지함에 모든 Teams 알림, Teams 모든 일정 이벤트 및 기존 전자 메일 주소로 Teams 로그인하는 기능과 같은 통합된 환경을 제공할 수 있습니다.
+Microsoft Teams Essentials(AAD ID)는 모임, 채팅, 통화 및 공동 작업과 함께 최고의 Teams 제공합니다. AAD ID(Teams Essentials)는 기존 전자 메일 시스템에 연결하여 기존 전자 메일 받은 편지함에 모든 Teams 알림, Teams 모든 일정 이벤트 및 기존 전자 메일 주소로 Teams 로그인하는 기능과 같은 통합된 환경을 제공할 수 있습니다.
 
 연결되면 사서함 및 Microsoft Teams 공동 작업을 위해 예약된 모임 및 초대에 대한 응답을 볼 수 있습니다. Google Workspace와 같은 Teams 및 타사 모임 소프트웨어를 사용하여 일정에서 들어오는 모임을 보고 상호 작용할 수도 있습니다.
 
@@ -40,7 +40,7 @@ Microsoft Teams Essentials(AAD ID)는 모임, 채팅, 통화 및 공동 작업�
 자동 전달을 사용하도록 설정하려면 다음을 수행합니다.
 
 1. 에서 Microsoft 365 Defender 포털로 이동합니다.<https://security.microsoft.com/>
-2. 왼쪽 탐색 메뉴에서 **Email &** **collaborationPolicies** >  & **rulesThreat** >  **policiesAnti-spam** 으로 이동합니다. > 
+2. 왼쪽 탐색 메뉴에서 **정책 섹션에서 메일 & 협업** > **정책 & 규칙** > **위협 정책** > **스팸 방지** 로 이동합니다.
 3. **스팸 방지 정책** 페이지의 목록에서 **스팸 방지 아웃바운드 정책(기본값)** 을 선택합니다.
 4. 표시되는 정책 세부 정보 플라이아웃에서 **보호 설정 편집** 을 선택하여 자동 전달 규칙을 수정합니다.
 5. **전달 규칙에** 따라 자동 전달 조건을 **켜기 - 전달이 사용하도록 설정됨으로** 변경하고 변경 내용을 저장합니다.
@@ -51,9 +51,9 @@ Microsoft Teams Essentials(AAD ID)는 모임, 채팅, 통화 및 공동 작업�
 
 ## <a name="connect-teams-essentials-to-exchange-online-with-exchange-on-premises"></a>Exchange 온-프레미스로 Exchange Online 커넥트 Teams Essentials
 
-하이브리드 접근 방식을 사용하여 Exchange 온-프레미스에서 Microsoft Teams 및 Exchange Online 간의 연결을 구성함으로써 Teams Essentials(AAD)가 제공하는 모든 것을 즐길 수 있습니다.
+하이브리드 접근 방식을 사용하여 Exchange 온-프레미스와 Microsoft Teams Exchange Online 간의 연결을 구성함으로써 AAD(Teams Essentials)가 제공하는 모든 것을 즐길 수 있습니다.
 
-온-프레미스 사서함에 대해 일정 액세스가 작동하도록 하려면 Exchange [온-프레미스 사서함에 대한 Teams 일정 액세스 구성에 제공된 지침을 따릅니다. Microsoft Tech Community](https://techcommunity.microsoft.com/t5/exchange-team-blog/configuring-teams-calendar-access-for-exchange-on-premises/ba-p/1484009)
+온-프레미스 사서함에 대해 일정 액세스가 작동하도록 하려면 Exchange[온-프레미스 사서함에 대한 Teams 일정 액세스 구성에 제공된 지침을 따릅니다. Microsoft Tech Community](https://techcommunity.microsoft.com/t5/exchange-team-blog/configuring-teams-calendar-access-for-exchange-on-premises/ba-p/1484009)
 
 Exchange 온-프레미스를 사용하여 하이브리드 환경에서 Microsoft Teams 룸 배포하려면 온[-프레미스에서 Exchange Microsoft Teams 룸 배포 - Microsoft Teams | Microsoft Docs](rooms/with-exchange-on-premises.md)
 
@@ -71,11 +71,11 @@ Exchange 온-프레미스를 사용하여 하이브리드 환경에서 Microsoft
 
 이러한 예제는 [Exchange Online](/powershell/module/exchange/connect-exchangeonline?view=exchange-ps&preserve-view=true) [PowerShell V2 모듈의 일부인 커넥트-ExchangeOnline PowerShell](/powershell/exchange/exchange-online-powershell-v2&preserve-view=true) commandlet을 사용합니다. 커넥트-ExchangeOnline을 실행할 때 오류가 발생하는 경우 [EXO V2 모듈 설치](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps&preserve-view=true)를 사용하여 모듈을 설치하기 위한 권장 지침을 따랐는지 확인합니다. Connect-ExchangeOnline 자격 증명을 묻는 메시지가 표시되면 테넌트 관리자 계정을 사용해야 합니다.
 
-**1단계: 새 Microsoft 365 테넌트 도메인 설정**
+#### <a name="step-one-set-up-a-new-microsoft-365-tenant-domain"></a>1단계: 새 Microsoft 365 테넌트 도메인 설정
 
 1. 에서 관리 센터로 <https://admin.microsoft.com>이동합니다.
 
-2. **UpDomains** >  **설정** 으로 이동하고 **도메인 추가** 를 선택하여 기존 도메인을 추가합니다. 도메인을 추가하지 않으면 조직의 사용자는 사용자가 할 때까지 전자 메일 주소에 onmicrosoft.com 도메인을 사용합니다. 사용자를 추가하기 전에 도메인을 추가해야 하므로 두 번 설정할 필요가 없습니다.
+2. **도메인** **설정** > 으로 이동하고 **도메인 추가** 를 선택하여 기존 도메인을 추가합니다. 도메인을 추가하지 않으면 조직의 사용자는 사용자가 할 때까지 전자 메일 주소에 onmicrosoft.com 도메인을 사용합니다. 사용자를 추가하기 전에 도메인을 추가해야 하므로 두 번 설정할 필요가 없습니다.
 
 3. TXT 레코드로 확인의 단계에 따라 [TXT 레코드가 있는 도메인을 확인](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider?view=o365-worldwide&preserve-view=true)합니다.
 
@@ -89,7 +89,7 @@ Exchange 온-프레미스를 사용하여 하이브리드 환경에서 Microsoft
 
 8. DKIM을 사용하도록 설정하려면 Microsoft 365 관리 센터 <https://admin.microsoft.com/AdminPortal/> 다시 로그인합니다.
 
-9. 왼쪽의 탐색 패널에서 **SetupDomains**  >  를 선택합니다.
+9. 왼쪽의 탐색 패널에서 **도메인 설정** >  선택
 
 10. 확인란을 사용하여 현재 도메인 목록에서 기존 비 Microsoft 도메인(예: TomislavK@thephone-company.com)을 선택합니다.
 
@@ -102,11 +102,11 @@ Exchange 온-프레미스를 사용하여 하이브리드 환경에서 Microsoft
 
     Microsoft 365 도메인을 추가하는 방법에 대한 자세한 지침은 Microsoft 365 [도메인 추가](https://support.office.com/article/add-a-domain-to-office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611?ui=en-US&rs=en-US&ad=US)에 설명된 단계를 따르세요.
 
-**2단계: 사용자 추가 및 Teams Essentials 라이선스 할당**
+#### <a name="step-two-add-users-and-assign-teams-essentials-licenses"></a>2단계: 사용자 추가 및 Teams Essentials 라이선스 할당
 
 1. 관리 센터로 <https://admin.microsoft.com> 이동하여 개별 사용자 추가
 
-2. **UsersActive** >  **사용자** 로 이동하고 **사용자 추가를** 선택합니다.
+2. **사용자** > **활성 사용자** 로 이동하고 **사용자 추가를** 선택합니다.
 
 3. **기본 설정** 창에서 기본 사용자 정보를 입력한 다음 다음 **을 선택합니다.**
     - **이름:** 이름과 성, 표시 이름 및 사용자 이름을 입력합니다.
@@ -121,7 +121,7 @@ Exchange 온-프레미스를 사용하여 하이브리드 환경에서 Microsoft
 
 동시에 여러 사용자를 추가하려면 [사용자 추가 및 라이선스 할당의 권장 단계를 수행합니다. Microsoft 365 관리자 | Microsoft Docs](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true)
 
-**3단계: Google 작업 영역 구성**
+#### <a name="step-three-configure-google-workspace"></a>3단계: Google 작업 영역 구성
 
 ***Microsoft 365 및 제거 첨부 파일에 대한 전자 메일 이중 배달을 구성합니다.***
 
@@ -129,7 +129,7 @@ Exchange 온-프레미스를 사용하여 하이브리드 환경에서 Microsoft
 
 2. Office 365 대한 경로 추가
 
-    - 에서 Google 관리 콘솔 <https://admin.google.com>로 이동
+    - 에서 Google 관리 콘솔<https://admin.google.com>로 이동
     - Google Workspace > Gmail > 호스트를 > 앱으로 이동합니다.
     - 경로 이름을 입력합니다. (예: Microsoft 365)
     - '단일 호스트'를 선택하고 Microsoft 365 도메인에 지정된 MX 레코드를 입력합니다(예: ContosoLandscaping2-m365master-com.mail.protection.outlook.com).
@@ -142,9 +142,9 @@ Exchange 온-프레미스를 사용하여 하이브리드 환경에서 Microsoft
 
 3. Office 365 경로 구성
 
-    - 에서 **Google 관리 콘솔** 열기 <https://admin.google.com>
+    - 에서 **Google 관리 콘솔** 열기<https://admin.google.com>
 
-    - **AppsGoogle** >  **WorkspaceGmailRouting** >  > **으로** 이동
+    - **앱** > **Google Workspace** > **Gmail** > **라우팅** 으로 이동
 
     - **라우팅** 탭에서 **구성** 을 선택합니다.
 
@@ -172,7 +172,7 @@ Exchange 온-프레미스를 사용하여 하이브리드 환경에서 Microsoft
 
 1. **Google 관리 콘솔** 에서 시작(admin.google.com)
 
-2. **AccountDomainsManage** >  >  **도메인으로** 이동
+2. **계정** > **도메인 관리** > **도메인으로** 이동
 
 3. **도메인 추가** 선택
 
@@ -200,7 +200,7 @@ Exchange 온-프레미스를 사용하여 하이브리드 환경에서 Microsoft
 
 4. **에서 Google 관리 콘솔** 로 이동<https://admin.google.com>
 
-5. **AppsGoogle** >  **WorkspaceGmailCompliance** >  > 로 이동
+5. **앱** > **Google Workspace** > **Gmail** > **준수** 로 이동
 
 6. **콘텐츠 준수** 로 이동하고 **구성** 을 선택합니다.
 
@@ -224,17 +224,17 @@ Exchange 온-프레미스를 사용하여 하이브리드 환경에서 Microsoft
 
 16. **저장** 선택
 
-**4단계: 통합에 대한 Microsoft 365 설정 구성**
+#### <a name="step-four-configure-microsoft-365-settings-for-the-integration"></a>4단계: 통합에 대한 Microsoft 365 설정 구성
 
 *Microsoft 365 Gmail로 메일을 라우팅하도록 커넥터를 구성합니다.*
 
-1. 에서 **Microsoft 관리 센터로** 이동합니다. <https://admin.microsoft.com/AdminPortal>
+1. **에서 Microsoft 관리 센터로** 이동합니다.<https://admin.microsoft.com/AdminPortal>
 
 2. 왼쪽 탐색 메뉴에서 **모두 표시** 를 선택합니다.
 
-3. **관리 센터에서** **Exchange** 선택하여 새 탭에서 Exchange 관리 센터를 엽니다.
+3. **관리 센터에서 Exchange** 선택하여 새 탭에서  Exchange 관리 센터를 엽니다.
 
-4. **Exchange 관리 센터의** 왼쪽 탐색 메뉴에서 **메일** **flowConnectors** > 를 선택하고 오버플로 메뉴(...)를 열고 커넥터 추가를 선택합니다.
+4. **Exchange 관리 센터의** 왼쪽 탐색 메뉴에서 **메일 흐름** > **커넥터** 를 선택하고 오버플로 메뉴(...)를 열고 커넥터 추가를 선택합니다.
 
 5. 새 커넥터 창의 **연결에서** **Office 365**
 
@@ -256,7 +256,7 @@ Exchange 온-프레미스를 사용하여 하이브리드 환경에서 Microsoft
 
 14. 커넥터에서 만든 알림이 표시되면 완료 키를 누릅니다 **.**
 
-*Microsoft 365 사서함에서 Gmail로 메일 전달*
+*Microsoft 365 사서함에서 Gmail로 메일 전달:*
 
 1. **Microsoft 365 관리 센터를** 사용하여 각 사서함을 업데이트하거나 다음과 같은 **PowerShell** 스크립트를 사용할 수 있습니다.
 
@@ -265,29 +265,29 @@ Exchange 온-프레미스를 사용하여 하이브리드 환경에서 Microsoft
     Connect-ExchangeOnline
     $Mailboxes = Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"}
     Foreach ($mbx in $mailboxes) {
-    
+
     Set-Mailbox $mbx.Identity -DeliverToMailboxAndForward $true -ForwardingSMTPAddress $($mbx.Alias,$forwardingDomain -join "@")
-    } 
+    }
     ```
 
     **커넥트-ExchangeOnline 문제 해결:**
 
-    커넥트-ExchangeOnline을 실행할 때 오류가 발생합니까? 조직의 자동 전자 메일 전달 규칙의 결과일 수 있습니다. 기본적으로 자동 전달은 사용하지 않도록 설정됩니다. Teams Essentials를 Google Workspace에 연결하려면 규칙을 사용하도록 설정해야 합니다.  
+    커넥트-ExchangeOnline을 실행할 때 오류가 발생합니까? 조직의 자동 전자 메일 전달 규칙의 결과일 수 있습니다. 기본적으로 자동 전달은 사용하지 않도록 설정됩니다. Teams Essentials를 Google Workspace에 연결하려면 규칙을 사용하도록 설정해야 합니다.
 
     다음 스크립트를 입력합니다.
 
    ```powershell
-    Set-ExecutionPolicy Unrestricted 
+    Set-ExecutionPolicy Unrestricted
      ```
 
     그런 다음 다음 명령을 실행합니다.
 
     ```powershell
-    Enable-OrganizationCustomization 
+    Enable-OrganizationCustomization
     Get-HostOutboundSpamFilterPolicy | set-HostedOutboundSpamFilterPolicy -AutoForwardingMode On
     ```
 
-*일정 전송 규칙으로 직접 Exchange Online 구성*
+*일정 전송 규칙으로 직접 Exchange Online 구성:*
 
 1. 이 설정을 구성하면 사용자가 Outlook Web App 초대와 상호 작용할 필요 없이 일정 초대가 Teams 일정에 표시되도록 자동으로 수락됩니다.
 
@@ -297,14 +297,14 @@ Exchange 온-프레미스를 사용하여 하이브리드 환경에서 Microsoft
     Connect-ExchangeOnline
     New-TransportRule -Name "Direct to Calendar" -MessageTypeMatches Calendaring -SetHeaderName "X-MS-Exchange-Organization-CalendarBooking-Response" -SetHeaderValue Tentative
     New-TransportRule -Name "Direct to Calendar triage action" -MessageTypeMatches Calendaring -SetHeaderName "X-MS-Exchange-Organization-CalendarBooking-TriageAction" -SetHeaderValue MoveToDeletedItems
-    
+
     ```
 
-*사서함에 대한 웹용 Outlook 사용 안 함*
+*사서함에 대한 웹용 Outlook 사용하지 않도록 설정합니다.*
 
 1. [Exchange Online 사서함에 대한 웹용 Outlook 사용 또는 사용 안 함](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)의 지침에 따라 사서함에 대한 웹용 Outlook 사용하지 않도록 설정합니다.
 
-2. Exchange **관리 센터** 또는 **PowerShell** 을 사용하여 웹용 Outlook 사용하지 않도록 설정할 수 있습니다. 다음 PowerShell 예제를 사용하여 모든 사서함에 웹용 Outlook 사용하지 않도록 설정할 수 있습니다.
+2. Exchange 관리 Center 또는 **PowerShell** 을 사용하여 **웹용 Outlook** 사용하지 않도록 설정할 수 있습니다. 다음 PowerShell 예제를 사용하여 모든 사서함에 웹용 Outlook 사용하지 않도록 설정할 수 있습니다.
 
     ```powershell
     Connect-ExchangeOnline
@@ -314,11 +314,11 @@ Exchange 온-프레미스를 사용하여 하이브리드 환경에서 Microsoft
     }
     ```
 
-**5단계: 내부 릴레이에 대한 Exchange Online 도메인 구성**
+#### <a name="step-five-configure-exchange-online-domain-for-internal-relay"></a>5단계: 내부 릴레이에 대한 Exchange Online 도메인 구성
 
 이 단계에서는 최종 해결을 위해 전자 메일을 타사 시스템으로 보냅니다.
 
-1. 에서 **Microsoft 관리 센터로** 이동합니다. <https://admin.microsoft.com/AdminPortal>
+1. **에서 Microsoft 관리 센터로** 이동합니다.<https://admin.microsoft.com/AdminPortal>
 
 2. 왼쪽 탐색에서 **모두 표시** 를 선택합니다.
 
@@ -334,35 +334,34 @@ Exchange 온-프레미스를 사용하여 하이브리드 환경에서 Microsoft
 
     :::image type="content" source="media/essentials-internalrelay2.png" alt-text="내부 릴레이 설정을 저장하는 동작을 보여 주는 이미지입니다.":::
 
-**6단계: 일정 지정을 제외한 Exchange Online 모든 인바운드 메일을 삭제하는 규칙 만들기**
+#### <a name="step-six-create-a-rule-to-delete-all-inbound-mail-to-exchange-online-except-for-calendaring"></a>6단계: 일정 지정을 제외한 Exchange Online 모든 인바운드 메일을 삭제하는 규칙 만들기
 
-1. **Exchange 관리 센터** 또는 **PowerShell** 에서 이 규칙을 구성할 수 있습니다. 다음 **PowerShell** 예제를 사용하여 규칙을 만들 수 있습니다.
+1. **Exchange 관리 Center** 또는 **PowerShell** 에서 이 규칙을 구성할 수 있습니다. 다음 **PowerShell** 예제를 사용하여 규칙을 만들 수 있습니다.
 
     ```powershell
     Connect-ExchangeOnline
-    New-TransportRule -Name "Delete all except Calendaring" -ExceptIfMessageTypeMatches Calendaring -FromScope NotInOrganization -DeleteMessage:$true 
-    
+    New-TransportRule -Name "Delete all except Calendaring" -ExceptIfMessageTypeMatches Calendaring -FromScope NotInOrganization -DeleteMessage:$true
     ```
 
 ### <a name="connect-teams-essentials-to-third-party-email-not-using-vanity-domain-gmail-example"></a>베니티 도메인을 사용하지 않는 타사 전자 메일에 Essentials 커넥트 Teams(Gmail 예제)
 
-소비자 Gmail 계정을 Teams Essentials에 연결하여 Teams [G Suite 추가](https://support.microsoft.com/en-us/office/install-the-teams-meeting-add-on-for-google-workspace-bba2dfbe-0b2b-4ee7-be10-261ad80ddb60) 기능에 대한 기본 의존도를 사용하여 Google Workspace에서 직접 Teams 모임을 예약하고 참가할 수 있습니다. 이렇게 하면 화면 공유, 모임 채팅, 디지털 화이트보드 등을 사용하여 비디오 및 오디오 회의를 예약할 수 있습니다.
+소비자 Gmail 계정을 Teams Essentials에 연결하여 Teams [G Suite 추가](https://support.microsoft.com/office/install-the-teams-meeting-add-on-for-google-workspace-bba2dfbe-0b2b-4ee7-be10-261ad80ddb60) 기능에 대한 기본 의존도를 사용하여 Google Workspace에서 직접 Teams 모임을 예약하고 참가할 수 있습니다. 이렇게 하면 화면 공유, 모임 채팅, 디지털 화이트보드 등을 사용하여 비디오 및 오디오 회의를 예약할 수 있습니다.
 
 Microsoft 365 생성된 메일이 Gmail에 성공적으로 도착할 Teams 있도록 Exchange Online 전자 메일을 가져오도록 Gmail을 구성합니다. 이 연결을 수행하려면 보안 기본값을 사용하지 않도록 설정해야 할 수 있으므로 강력한 고유 암호를 사용해야 합니다. 이 시나리오에서는 사용자 지정 도메인이 필요하지 않지만 Gmail에서 사용할 수 있도록 Microsoft 365 구성할 수 있습니다.
 
 :::image type="content" source="media/essentials-gmail.png" alt-text="Teams Essentials와 Gmail 간의 메일 흐름을 구분하는 이미지":::
 
-**Gmail 계정이 설정되어 있는지 확인합니다.**
+#### <a name="1-ensure-that-you-have-a-gmail-account-set-up"></a>1. Gmail 계정이 설정되어 있는지 확인
 
 기존 계정이 이미 있는 경우 다음 단계로 진행할 수 있습니다. 그렇지 않은 경우 [새 Google 계정 만들기](https://accounts.google.com/SignUp?hl=en) 를 방문하여 새 Gmail 계정을 설정합니다.
 
-**2. Microsoft 365 테넌트 설정**
+#### <a name="2-set-up-your-microsoft-365-tenant"></a>2. Microsoft 365 테넌트 설정
 
-*Teams AAD 사용자 구성*
+*Teams AAD 사용자 구성:*
 
-1. AtAdd 사용자의 지침에 따라 [라이선스를 할당](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true) 하여 여러 사용자 추가
+1. 사용자 추가의 지침에 따라[라이선스를 할당](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true) 하여 여러 사용자 추가
 
-*ID 보호 구성*
+*ID 보호 구성:*
 
 1. 활성 상태인 경우 보안 기본값을 사용하지 않도록 설정합니다.
 
@@ -370,7 +369,7 @@ Microsoft 365 생성된 메일이 Gmail에 성공적으로 도착할 Teams 있�
 
 3. 조건부 액세스를 사용하는 경우 사서함에 대한 POP 액세스에 대한 예외를 확인해야 합니다.
 
-*Microsoft 365 관리 Center에 도메인 추가(선택 사항)*
+*Microsoft 365 관리 센터에 도메인 추가(선택 사항):*
 
 1. 탐색에서 설정 > 도메인을 선택한 다음, 도메인 추가를 선택합니다.
 
@@ -386,9 +385,9 @@ Microsoft 365 생성된 메일이 Gmail에 성공적으로 도착할 Teams 있�
 
 7. Microsoft 365 DKIM TXT 레코드를 구성하기 위한 지침을 완료합니다.
 
-8. 로그아웃하고 관리 센터에 다시 로그인하여 DKIM이 활성화되었는지 확인
+8. 로그아웃하고 관리 센터에 다시 로그인하여 DKIM이 활성화되었는지 확인합니다.
 
-**3. Gmail 구성**
+#### <a name="3-configure-gmail"></a>3. Gmail 구성
 
 1. 시스템에 Exchange Online 메일을 끌어오도록 Gmail 구성
 

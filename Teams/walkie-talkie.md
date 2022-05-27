@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29a632efc433a14d578eff80fdeb74a6f167dfc3
-ms.sourcegitcommit: a388fd72e399f6e205c34707dc92cc309997e737
+ms.openlocfilehash: 3e311fb94996e1c51bb5f73190539cd0e1f9f127
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65400234"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681899"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 워키 토키 앱
 
@@ -97,7 +97,7 @@ Teams Walkie Talkie는 최적의 환경을 위해 인터넷 연결이 필요하�
 
 ### <a name="license-requirements"></a>라이선스 요구 사항
 
-Walkie Talkie 앱은 Office 365 구독에서 Teams 모든 유료 라이선스에 포함되어 [있습니다](/office365/servicedescriptions/teams-service-description). Teams 가져오는 방법에 대한 자세한 내용은 Microsoft Teams  [액세스](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b) 어떻게 할까요? 확인하세요.
+Walkie Talkie 앱은 Office 365 구독에서 Teams 모든 유료 라이선스에 포함되어 [있습니다](/office365/servicedescriptions/teams-service-description). Teams 가져오는 방법에 대한 자세한 내용은 [Microsoft Teams 액세스](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b) 어떻게 할까요? 확인하세요.
 
 ## <a name="further-information"></a>추가 정보
 

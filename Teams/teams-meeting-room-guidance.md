@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3345cdecbb6b55f1b5dc83693a1caee5b1a6e77f
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 4fb3eb61de1372012f2a530be86d394ca46893a6
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635376"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681749"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>Teams 대한 회의실 지침
 
@@ -37,7 +37,7 @@ ms.locfileid: "65635376"
 
 Microsoft Teams 룸 솔루션은 기존의 회의실에서 사용하지 않는 공간 전체에서 목적의 유연성과 이동의 유연성을 제공합니다. 예를 들어 Teams 룸 디바이스를 사용하면 사용자는 디지털 화이트보드와의 협업을 강화할 수 있으며, 지능형 사람 추적 카메라를 사용하면 회의실에 있는 모든 로컬 참가자를 볼 수 있습니다. 모든 유형의 공간 및 모든 유형의 모임은 Teams 룸 장치 또는 Teams 룸 솔루션으로 최적화할 수 있습니다.
 
-### <a name="presentation-focused-meetings"></a>프레젠테이션 중심 모임 
+### <a name="presentation-focused-meetings"></a>프레젠테이션 중심 모임
 
 모임 및 프레젠테이션 모임은 첫 번째 버킷이며, 이 모임은 일반적으로 더 공식적입니다. 오디오-시각적 개체는 우선 순위이며 콘텐츠를 표시하는 데 중점을  두고 있습니다. 디바이스는 일반적으로 고정되어 사용자가 테이블 중앙 콘솔에서 디바이스와 상호 작용하는 동안 앉은 상태를 유지할 수 있습니다.
 
@@ -60,6 +60,7 @@ Microsoft Teams 룸 솔루션은 기존의 회의실에서 사용하지 않는 �
 **프레젠테이션 및 공동 생성 공간 레이아웃 조합:** 다른 모임 시나리오의 사용 사례를 조합하여 프레젠테이션 중심 모임과 공동 생성 작업을 동시에 동일한 효율성으로 달성할 수 있는 다목적 회의실을 구성할 수 있습니다.
 
 ## <a name="optimizing-the-meeting-experience"></a>모임 환경 최적화
+
 훌륭한 모임 환경은 방해하지 않고 아이디어 교환을 용이하게 하는 방식으로 모임 공간에 최상의 기술을 사용한 결과입니다.
 
 ### <a name="native-teams-rooms-experiences-versus-other-devices"></a>네이티브 Teams 룸 환경과 다른 디바이스 비교
@@ -118,33 +119,33 @@ Teams 룸 솔루션을 설치하거나 해당 공간에 적절한 Teams 룸 장�
 
 오디오 고려 사항은 원격 참가자와 회의실 내 참가자를 모두 명확하게 듣고 이해할 수 있도록 하는 데 중요합니다. 마이크 및 스피커 커버리지는 공백을 남기지 않고 방의 모든 좌석을 포함해야 합니다.
 
-*각 공간에 적합한 오디오 디바이스*
+*각 공간에 적합한 오디오 디바이스*:
 
 회의실에 오디오 문제가 없도록 하려면 공간에 대한 단일 오디오 원본이 필요합니다.
 
 각 공간에 적합한 마이크와 스피커를 페어링하면 방해하지 않고 명확하게 들을 수 있는 최상의 결과를 얻을 수 있습니다.
 
--   공유 공간에서 옵션은 확장되지만 동일한 원칙이 유지됩니다. 모임 참가자는 다른 사람을 명확하게 듣고 들을 수 있어야 합니다.
+- 공유 공간에서 옵션은 확장되지만 동일한 원칙이 유지됩니다. 모임 참가자는 다른 사람을 명확하게 듣고 들을 수 있어야 합니다.
 
-    -   올인원 오디오 장치는 제한된 수의 참가자가 오디오 장치에 상대적으로 가까이 앉을 수 있는 **더 작은 공간을** 위한 배포하기 쉬운 고품질 옵션입니다.
+  - 올인원 오디오 장치는 제한된 수의 참가자가 오디오 장치에 상대적으로 가까이 앉을 수 있는 **더 작은 공간을** 위한 배포하기 쉬운 고품질 옵션입니다.
 
-    -   **더 큰 공간에서** 마이크와 스피커는 분리되어 공간의 모든 참가자에게 최대 범위를 보장합니다. 중대형 회의실에 대한 많은 솔루션은 구성이 필요 없고 마이크와 스피커의 물리적 설치만 필요한 키트의 일부로 사용할 수 있습니다.
+  - **더 큰 공간에서** 마이크와 스피커는 분리되어 공간의 모든 참가자에게 최대 범위를 보장합니다. 중대형 회의실에 대한 많은 솔루션은 구성이 필요 없고 마이크와 스피커의 물리적 설치만 필요한 키트의 일부로 사용할 수 있습니다.
 
-    -   **가장 크고 복잡한 공간에서** 는 큰 홀에서 강사와 청중의 목소리를 캡처하는 동시에 모든 사람에게 전화를 가져오는 등 다양한 마이크와 스피커 유형을 함께 사용할 수 있는 솔루션을 사용할 수 있습니다. 이러한 솔루션은 기술적으로 관련된 솔루션의 설계 및 배포에 대한 전문 지식을 갖춘 Microsoft 파트너와 함께 배포할 때 가장 잘 달성됩니다.
+  - **가장 크고 복잡한 공간에서** 는 큰 홀에서 강사와 청중의 목소리를 캡처하는 동시에 모든 사람에게 전화를 가져오는 등 다양한 마이크와 스피커 유형을 함께 사용할 수 있는 솔루션을 사용할 수 있습니다. 이러한 솔루션은 기술적으로 관련된 솔루션의 설계 및 배포에 대한 전문 지식을 갖춘 Microsoft 파트너와 함께 배포할 때 가장 잘 달성됩니다.
 
 ### <a name="video"></a>비디오
 
 비디오는 오디오와 마찬가지로 중요합니다. 얼굴 표정이나 제스처와 같은 물리적, 비언어적 의사 소통을 캡처하는 것은 최대의 참여와 이해를 보장하기 위해 교실이나 모임 콘텐츠만큼 중요합니다. 회의실이나 원격에서 모든 사용자가 모임을 제대로 경험할 수 있도록 적절한 크기의 디스플레이를 갖추고 있어야 합니다. 이 때문에 회의실에는 원격으로 참가하는 모든 회의실 내 모임 참가자를 효과적으로 캡처하기 위해 적절한 카메라 검사 및 시야(FOV)가 있어야 합니다.
 
-*각 공간에 적합한 카메라*
+*각 공간에 적합한 카메라*:
 
 좋은 오디오만큼 중요한 고품질 비디오는 최신 Teams 협업에 필요합니다. 카메라 기술은 이제 모든 공간에서 사용할 수있는 고품질 카메라로 크게 발전했습니다.
 
--   노트북 및 태블릿과 같은 장치에 포함된 카메라는 모든 사람이 보고 들을 수 있도록 모든 모임에서 사용해야 합니다. 더 풍부한 비디오 환경을  **개인 공간** 으로 가져오려는 사용자의 경우 외부 카메라는 포함된 디바이스에서 한 단계 더 나아가 더 많은 시나리오 및 구성에 사용할 수 있으므로 통화 참가자가 최상의 품질 보기를 공유할 수 있습니다. 이러한 디바이스는 모든 PC에 있는 간단한 USB 연결로 쉽게 설치할 수 있습니다.
+- 노트북 및 태블릿과 같은 장치에 포함된 카메라는 모든 사람이 보고 들을 수 있도록 모든 모임에서 사용해야 합니다. 더 풍부한 비디오 환경을  **개인 공간** 으로 가져오려는 사용자의 경우 외부 카메라는 포함된 디바이스에서 한 단계 더 나아가 더 많은 시나리오 및 구성에 사용할 수 있으므로 통화 참가자가 최상의 품질 보기를 공유할 수 있습니다. 이러한 디바이스는 모든 PC에 있는 간단한 USB 연결로 쉽게 설치할 수 있습니다.
 
--   공유 공간에서 옵션 및 기능이 확장됩니다. **작은 객실** 은 사운드바와 같은 올인원 오디오 장치에 포함된 카메라로 덮여 있을 수 있습니다. 이러한 카메라는 일반적으로 넓은 시야를 갖추고 있어 공간의 모든 참가자를 한 번에 캡처할 수 있습니다. 이러한 카메라의 대부분은 또한 이미지의 지능형 프레이밍과 같은 것들을 특징으로하므로 카메라는 공간 사용률을 추적하고 이해하기 위해 회의 중인 사람들만 표시하고 빈 의자 또는 계산하는 사람들만 보여줍니다.
+- 공유 공간에서 옵션 및 기능이 확장됩니다. **작은 객실** 은 사운드바와 같은 올인원 오디오 장치에 포함된 카메라로 덮여 있을 수 있습니다. 이러한 카메라는 일반적으로 넓은 시야를 갖추고 있어 공간의 모든 참가자를 한 번에 캡처할 수 있습니다. 이러한 카메라의 대부분은 또한 이미지의 지능형 프레이밍과 같은 것들을 특징으로하므로 카메라는 공간 사용률을 추적하고 이해하기 위해 회의 중인 사람들만 표시하고 빈 의자 또는 계산하는 사람들만 보여줍니다.
 
--   **더 큰 방에서** 카메라는 다양한 거리에서 다양한 위치에서 참가자를 캡처하는 데 필요한 기술을 갖추고 있습니다. 이러한 카메라는 뛰어난 시각적 선명도를 유지하면서 그룹을 캡처하거나 특정 개인에 집중할 수 있습니다. 활성 스피커만 추적하고 기능할 수 있는 장치는 더 큰 공간에서 정기적으로 사용되므로 많은 참가자가 자신의 생각을 기여할 때 모임 전체에서 개별적으로 추천될 수 있습니다.
+- **더 큰 방에서** 카메라는 다양한 거리에서 다양한 위치에서 참가자를 캡처하는 데 필요한 기술을 갖추고 있습니다. 이러한 카메라는 뛰어난 시각적 선명도를 유지하면서 그룹을 캡처하거나 특정 개인에 집중할 수 있습니다. 활성 스피커만 추적하고 기능할 수 있는 장치는 더 큰 공간에서 정기적으로 사용되므로 많은 참가자가 자신의 생각을 기여할 때 모임 전체에서 개별적으로 추천될 수 있습니다.
 
 # <a name="enhanced-microsoft-teams-room"></a>[고급 Microsoft Teams 룸](#tab/emtr)
 
@@ -172,25 +173,25 @@ Microsoft의 하이브리드 작업 공간에서 차세대 객실 표준은 원�
 
 디자인 원칙:
 
--   원격 참가자는 방에서 진정한 존재를 확립 할 수 있습니다
+- 원격 참가자는 방에서 진정한 존재를 확립 할 수 있습니다
 
--   회의실 내 참가자는 모임에서 개별 ID를 유지할 수 있습니다.
+- 회의실 내 참가자는 모임에서 개별 ID를 유지할 수 있습니다.
 
--   모든 모임 참가자는 경계 없는 공동 작업을 수행할 수 있습니다.
+- 모든 모임 참가자는 경계 없는 공동 작업을 수행할 수 있습니다.
 
 **목표 2: 연결은 자연스럽고 몰입감 있게 느껴집니다.**
 
 디자인 원칙:
 
--   환경은 사람의 연결을 위해 확장되어 모든 사람이 같은 방에 있는 것처럼 느껴지는 상호 작용을 가능하게 합니다.
+- 환경은 사람의 연결을 위해 확장되어 모든 사람이 같은 방에 있는 것처럼 느껴지는 상호 작용을 가능하게 합니다.
 
 향상된 회의실 환경은 환경을 정의하는 단일 기능 없이 모든 구성 요소와 아이디어를 결합한 것입니다. 향상된 Microsoft Teams 룸 있는 개별 기능 및 개념도 자체 배포할 수 있습니다.
 
 특정 기능 배포의 예:
 
--   이를 지원하는 Microsoft Teams Room 솔루션이 있는 모든 유형의 모임 공간에서 새로운 앞줄 전면 디스플레이 환경을 활용하세요.
+- 이를 지원하는 Microsoft Teams Room 솔루션이 있는 모든 유형의 모임 공간에서 새로운 앞줄 전면 디스플레이 환경을 활용하세요.
 
--   기존의 Microsoft Teams 룸 환경으로 곡선 테이블 및 전면 레이아웃을 구현하여 모든 모임 공간에서 경험의 연속성을 유지하면서 회의실에서 더 나은 인간 연결을 촉진합니다.
+- 기존의 Microsoft Teams 룸 환경으로 곡선 테이블 및 전면 레이아웃을 구현하여 모든 모임 공간에서 경험의 연속성을 유지하면서 회의실에서 더 나은 인간 연결을 촉진합니다.
 
 ## <a name="when-should-you-deploy-this-room-type"></a>이 회의실 유형은 언제 배포해야 하나요?
 
@@ -198,13 +199,13 @@ Microsoft의 하이브리드 작업 공간에서 차세대 객실 표준은 원�
 
 Microsoft Teams 룸 소프트웨어 업데이트를 통해 제공되는 사람 중심 하이브리드 모임 환경을 계속 제공할 것입니다. 그러나 일부 향상된 환경을 최적화하는 데 핵심적인 역할을 하는 하드웨어 기술 및 회의실 구성 지침이 있습니다. 향상된 Microsoft Teams 룸을 구성하는 구성 요소의 조합입니다. 향상된 Microsoft Teams 룸으로 진화하려는 Microsoft Teams 룸 수를 평가할 때는 다음을 고려하세요.
 
--   어떤 하드웨어 업그레이드 및/또는 투자를 해야 합니다.
+- 어떤 하드웨어 업그레이드 및/또는 투자를 해야 합니다.
 
--   대부분의 회의실은 객실 차원과 객실 용량 간의 긴밀한 관계를 통해 귀중한 평방 피트를 최대화하도록 설계되었습니다. 향상된 Microsoft Teams 룸은 평방 피트를 극대화하는 것보다 모임 환경의 우선 순위를 지정합니다. 모든 조직에서 모든 모임 공간에 대해 이러한 방식으로 우선 순위를 지정할 수 있는 것은 아닙니다. 이는 회의실 수를 줄일 수 있기 때문이다.
+- 대부분의 회의실은 객실 차원과 객실 용량 간의 긴밀한 관계를 통해 귀중한 평방 피트를 최대화하도록 설계되었습니다. 향상된 Microsoft Teams 룸은 평방 피트를 극대화하는 것보다 모임 환경의 우선 순위를 지정합니다. 모든 조직에서 모든 모임 공간에 대해 이러한 방식으로 우선 순위를 지정할 수 있는 것은 아닙니다. 이는 회의실 수를 줄일 수 있기 때문이다.
 
-### <a name="understanding-this-space"></a>이 공간 이해 
+### <a name="understanding-this-space"></a>이 공간 이해
 
-*하이브리드 유연성과 포함의 균형 조정*
+*하이브리드 유연성과 포함의 균형 조정*:
 
 Microsoft의 유연한 작업 지침은 직원에게 근무 위치와 시기에 대한 선택과 유연성을 제공하는 데 우선순위를 두고 있습니다. 정책의 근본적인 변화는 우리가 우리의 회의 공간과 기술의 진화를 재고하게했다.
 
@@ -222,7 +223,7 @@ Microsoft의 유연한 작업 지침은 직원에게 근무 위치와 시기에 
 
 레이아웃에는 직접 눈을 마주보고 모든 의자가 디스플레이를 마주보고 있는 원격 참가자에게 방향을 지정하는 곡선 테이블이 있어 참가자가 따라갈 수 있습니다.
 
-### <a name="how-does-the-audio-work"></a>오디오는 어떻게 작동하나요? 
+### <a name="how-does-the-audio-work"></a>오디오는 어떻게 작동하나요?
 
 Microsoft Teams 룸 인증된 오디오 솔루션을 사용하여 사람들은 명확하게 듣고 들을 수 있습니다.
 
@@ -236,9 +237,9 @@ Microsoft Teams 룸 인증된 오디오 솔루션을 사용하여 사람들은 �
 
 ![오버헤드 보기에서 향상된 회의실 렌더링](media/emr5.png)
 
-### <a name="how-do-the-front-of-room-displays-work"></a>방 앞 디스플레이는 어떻게 작동하나요? 
+### <a name="how-do-the-front-of-room-displays-work"></a>방 앞 디스플레이는 어떻게 작동하나요?
 
-이 회의실은 앞줄이라는 Microsoft Teams 룸 레이아웃에 최적화되어 있으며 특수한 짧은 투사 고해상도 프로젝터를 통해 표시되어 Teams 모임을 위해 특별히 설계된 몰입형 회의실 환경을 만듭니다. 
+이 회의실은 앞줄이라는 Microsoft Teams 룸 레이아웃에 최적화되어 있으며 특수한 짧은 투사 고해상도 프로젝터를 통해 표시되어 Teams 모임을 위해 특별히 설계된 몰입형 회의실 환경을 만듭니다.
 
 ### <a name="what-is-front-row"></a>앞줄이란?
 
@@ -254,9 +255,9 @@ Microsoft Teams 룸 사용자는 인텔리전트 캡처 기능을 사용하여 �
 
 ## <a name="enhanced-microsoft-teams-room-design-guidance"></a>향상된 Microsoft Teams 룸 디자인 지침
 
-이 섹션은 회의실을 처음부터 빌드하는 방법을 다룹니다. 
+이 섹션은 회의실을 처음부터 빌드하는 방법을 다룹니다.
 
-### <a name="room-layout"></a>회의실 레이아웃 
+### <a name="room-layout"></a>회의실 레이아웃
 
 #### <a name="room-size"></a>객실 크기
 
@@ -264,9 +265,9 @@ Microsoft Teams 룸 사용자는 인텔리전트 캡처 기능을 사용하여 �
 
 25 ft x 14 ft
 
-#### <a name="room-capacity"></a>객실 용량 
+#### <a name="room-capacity"></a>객실 용량
 
-이 향상된 Microsoft Teams 룸은 6~8명에게 최적화되어 있습니다. 
+이 향상된 Microsoft Teams 룸은 6~8명에게 최적화되어 있습니다.
 
 #### <a name="room-furniture"></a>객실 가구
 
@@ -290,7 +291,7 @@ Microsoft Teams 룸 터치 콘솔은 개인 장치 또는 문서에 대한 테�
 
 많은 참가자가 개인 장치를 통해 Teams 통화에 Teams 모임에 참가하여 이러한 유형의 회의실 내에서 콘텐츠를 공유하도록 선택할 수 있지만, 회의실 내 로컬 비디오 프레젠테이션도 쉽게 액세스할 수 있는 방식으로 테이블에서 사용할 수 있도록 해야 합니다.
 
-## <a name="infrastructure"></a>인프라 
+## <a name="infrastructure"></a>인프라
 
 ### <a name="infrastructure-power"></a>인프라 전원
 
@@ -312,11 +313,11 @@ Microsoft Teams 룸 터치 콘솔은 개인 장치 또는 문서에 대한 테�
 
 이 유형의 방의 바닥은 회의 중에 에코 및 주변 소음 문제를 방지하기 위해 카펫이 깔리거나 음향적으로 처리되어야 합니다.
 
-### <a name="lighting"></a>조명 
+### <a name="lighting"></a>조명
 
 회의실 참가자가 씻겨 나가거나 어두운 공간에 앉아 있지 않은 것처럼 보이면 공간을 균등하게 비추기 위해 오버헤드 조명을 제공해야 합니다. 방 앞 디스플레이, 공동 만들기 장치 또는 공간 내의 다른 반사 표면에서 직접 조명을 최소화하려면 눈부심을 방지하기 위해 노력해야 합니다.
 
-## <a name="technology-guidance"></a>기술 지침 
+## <a name="technology-guidance"></a>기술 지침
 
 ### <a name="microsoft-teams-rooms-solution"></a>Microsoft Teams 룸 솔루션
 
@@ -362,21 +363,21 @@ Microsoft Teams 위한 향상된 회의실에는 Microsoft Windows Microsoft Tea
 
 표시 형식의 예는 다음과 같습니다.
 
--   레이저 프로젝터
+- 레이저 프로젝터
 
--   LED 비디오 벽
+- LED 비디오 벽
 
--   특수 LCD 또는 OLED 평면 패널 디스플레이
+- 특수 LCD 또는 OLED 평면 패널 디스플레이
 
 #### <a name="display-functions"></a>함수 표시
 
 다른 모든 Microsoft Teams 룸 솔루션과 마찬가지로 향상된 Microsoft Teams 룸 적절한 작업을 위해 다음 기능을 수용할 수 있는 디스플레이를 사용해야 합니다.
 
--   HDMI 동기화에 따라 절전 모드에서 절전 모드 해제 및 빠른 절전 모드 해제
+- HDMI 동기화에 따라 절전 모드에서 절전 모드 해제 및 빠른 절전 모드 해제
 
-    -   프로젝터의 경우 사용자 개입 없이 자동 준비 및 대기 기간을 지원해야 합니다.
+  - 프로젝터의 경우 사용자 개입 없이 자동 준비 및 대기 기간을 지원해야 합니다.
 
--   디스플레이는 Microsoft Teams 룸 디자인에 필요한 적절한 EDID 및 해상도를 지원해야 합니다.
+- 디스플레이는 Microsoft Teams 룸 디자인에 필요한 적절한 EDID 및 해상도를 지원해야 합니다.
 
 #### <a name="display-placement"></a>디스플레이 배치
 
@@ -396,7 +397,7 @@ Microsoft Teams 위한 향상된 회의실에는 Microsoft Windows Microsoft Tea
 
 모든 Teams 룸 Microsoft Surface Hub, 터치 스크린 전면 디스플레이와 같은 대화형 공동 작업 장치와 PC, 휴대폰 또는 태블릿과 같은 도우미 장치를 통해 Microsoft Whiteboard 활용할 수 있습니다.
 
-#### <a name="traditional-whiteboard"></a>기존 화이트보드 
+#### <a name="traditional-whiteboard"></a>기존 화이트보드
 
 Windows 모든 Teams 룸 지능형 캡처 기능 및 보조 콘텐츠 카메라를 사용하여 Teams 모임에서 기존 화이트보드를 활용할 수 있습니다.
 
@@ -404,7 +405,7 @@ Windows 모든 Teams 룸 지능형 캡처 기능 및 보조 콘텐츠 카메라�
 
 ### <a name="microsoft-teams-room-console-and-compute"></a>Microsoft Teams 룸 콘솔 및 컴퓨팅
 
--   Windows 기반 Microsoft Teams 룸 솔루션입니다.
+- Windows 기반 Microsoft Teams 룸 솔루션입니다.
 
 표시된 대로:
 
@@ -412,17 +413,17 @@ Windows 모든 Teams 룸 지능형 캡처 기능 및 보조 콘텐츠 카메라�
 
 기타 옵션:
 
--   [Lenovo ThinkSmart Core + Controller](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-core-controller/948)
+- [Lenovo ThinkSmart Core + Controller](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-core-controller/948)
 
--   [Crestron Flex 사용자 지정 회의 시스템](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/crestron-flex-customizable-conference-system/849)
+- [Crestron Flex 사용자 지정 회의 시스템](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/crestron-flex-customizable-conference-system/849)
 
--   [Crestron Flex 사용자 지정 회의 시스템 고급](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/crestron-flex-customizable-conference-system/849)
+- [Crestron Flex 사용자 지정 회의 시스템 고급](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/crestron-flex-customizable-conference-system/849)
 
--   [Poly G10-T](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-g10-t/564)
+- [Poly G10-T](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-g10-t/564)
 
 ### <a name="camera"></a>카메라
 
--   인텔리전트 프레이밍이 있는 초전도 카메라.
+- 인텔리전트 프레이밍이 있는 초전도 카메라.
 
 표시된 대로:
 
@@ -430,27 +431,27 @@ Windows 모든 Teams 룸 지능형 캡처 기능 및 보조 콘텐츠 카메라�
 
 기타 옵션:
 
--   [Jabra PanaCast](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/jabra-panacast/353)
+- [Jabra PanaCast](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/jabra-panacast/353)
 
--   [Yealink UVC30](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc30-room/409)
+- [Yealink UVC30](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc30-room/409)
 
--   [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
+- [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
 
--   [Bose Videobar VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
+- [Bose Videobar VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
 
--   [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
+- [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
 
--   Poly Studio E70
+- Poly Studio E70
 
--   [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)
+- [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)
 
--   [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001308.html)
+- [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001308.html)
 
--   [Logitech Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html)
+- [Logitech Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html)
 
 ### <a name="microphone"></a>마이크
 
--   모든 회의실 내 모임 참가자를 명확하게 캡처하는 인증된 마이크 솔루션입니다.
+- 모든 회의실 내 모임 참가자를 명확하게 캡처하는 인증된 마이크 솔루션입니다.
 
 표시된 대로:
 
@@ -458,45 +459,45 @@ Windows 모든 Teams 룸 지능형 캡처 기능 및 보조 콘텐츠 카메라�
 
 기타 옵션:
 
--   [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
+- [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
 
--   [Bose Videobar VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
+- [Bose Videobar VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
 
--   [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
+- [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
 
--   [Lenovo ThinkSmart Bar](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
+- [Lenovo ThinkSmart Bar](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 
--   [Lenovo ThinkSmart Bar XL](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
+- [Lenovo ThinkSmart Bar XL](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 
--   [Parle Ceiling 마이크를 사용하는 Biamp Devio 회의실 허브](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+- [Parle Ceiling 마이크를 사용하는 Biamp Devio 회의실 허브](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
--   [Parle 테이블 마이크를 사용하는 Biamp Devio 회의실 허브](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+- [Parle 테이블 마이크를 사용하는 Biamp Devio 회의실 허브](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
--   [Shure MXA710-4FT 벽 탑재 오디오 시스템](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-mxa710-audio-systems/967)
+- [Shure MXA710-4FT 벽 탑재 오디오 시스템](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-mxa710-audio-systems/967)
 
--   [Nureva HDL300 오디오 회의 시스템](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
+- [Nureva HDL300 오디오 회의 시스템](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
 
--   [QSC 회의실 오디오: 천장 내 스피커](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
+- [QSC 회의실 오디오: 천장 내 스피커](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
 
--   [QSC 방향 오디오 - 천장 오디오](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-directional-audio/704)
+- [QSC 방향 오디오 - 천장 오디오](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-directional-audio/704)
 
--   [QSC 회의실 오디오: 펜던트 스피커](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
+- [QSC 회의실 오디오: 펜던트 스피커](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
 
--   [Parlé ceiling mic를 사용하여 Biamp 오디오](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
+- [Parlé ceiling mic를 사용하여 Biamp 오디오](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
 
--   [Parlé 탁상 마이크를 사용하는 Biamp 오디오](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
+- [Parlé 탁상 마이크를 사용하는 Biamp 오디오](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
 
--   [Bose DS4 천장 오디오 솔루션](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-ds4-ceiling-audio-solution/694)
+- [Bose DS4 천장 오디오 솔루션](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-ds4-ceiling-audio-solution/694)
 
--   [Bose ES1 천장 오디오 솔루션](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-es1-ceiling-audio-solution/506)
+- [Bose ES1 천장 오디오 솔루션](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-es1-ceiling-audio-solution/506)
 
--   [Shure Microflex Advance MXA910 + IntelliMix P300](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-microflex-advance-mxa910-intellimix-p300/429)
+- [Shure Microflex Advance MXA910 + IntelliMix P300](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-microflex-advance-mxa910-intellimix-p300/429)
 
--   [Biamp Tesira DSP & Sennheiser TeamConnect Ceiling 2](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-tesira-dsp-sennheiser-teamconnect-ceiling-2/359)
+- [Biamp Tesira DSP & Sennheiser TeamConnect Ceiling 2](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-tesira-dsp-sennheiser-teamconnect-ceiling-2/359)
 
 ### <a name="speakers"></a>스피커
 
--   모든 회의실 내 모임 참가자에게 명확하고 이해할 수 있는 오디오를 제공하는 인증된 스피커 솔루션입니다.
+- 모든 회의실 내 모임 참가자에게 명확하고 이해할 수 있는 오디오를 제공하는 인증된 스피커 솔루션입니다.
 
 표시된 대로:
 
@@ -504,47 +505,47 @@ Windows 모든 Teams 룸 지능형 캡처 기능 및 보조 콘텐츠 카메라�
 
 기타 옵션:
 
--   [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
+- [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
 
--   [Bose Videobar VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
+- [Bose Videobar VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
 
--   [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
+- [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
 
--   [Lenovo ThinkSmart Bar](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
+- [Lenovo ThinkSmart Bar](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 
--   [Lenovo ThinkSmart Bar XL](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
+- [Lenovo ThinkSmart Bar XL](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 
--   [Parle Ceiling 마이크를 사용하는 Biamp Devio 회의실 허브](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+- [Parle Ceiling 마이크를 사용하는 Biamp Devio 회의실 허브](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
--   [Parle 테이블 마이크를 사용하는 Biamp Devio 회의실 허브](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+- [Parle 테이블 마이크를 사용하는 Biamp Devio 회의실 허브](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
--   [Shure MXA710-4FT 벽 탑재 오디오 시스템](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-mxa710-audio-systems/967)
+- [Shure MXA710-4FT 벽 탑재 오디오 시스템](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-mxa710-audio-systems/967)
 
--   [Nureva HDL300 오디오 회의 시스템](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
+- [Nureva HDL300 오디오 회의 시스템](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
 
--   [QSC 회의실 오디오: 천장 내 스피커](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
+- [QSC 회의실 오디오: 천장 내 스피커](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
 
--   [QSC 방향 오디오 - 천장 오디오](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-directional-audio/704)
+- [QSC 방향 오디오 - 천장 오디오](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-directional-audio/704)
 
--   [QSC 회의실 오디오: 펜던트 스피커](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
+- [QSC 회의실 오디오: 펜던트 스피커](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
 
--   [Parlé ceiling mic를 사용하여 Biamp 오디오](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
+- [Parlé ceiling mic를 사용하여 Biamp 오디오](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
 
--   [Parlé 탁상 마이크를 사용하는 Biamp 오디오](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
+- [Parlé 탁상 마이크를 사용하는 Biamp 오디오](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
 
--   [Bose DS4 천장 오디오 솔루션](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-ds4-ceiling-audio-solution/694)
+- [Bose DS4 천장 오디오 솔루션](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-ds4-ceiling-audio-solution/694)
 
--   [Bose ES1 천장 오디오 솔루션](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-es1-ceiling-audio-solution/506)
+- [Bose ES1 천장 오디오 솔루션](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-es1-ceiling-audio-solution/506)
 
--   [Shure Microflex Advance MXA910 + IntelliMix P300](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-microflex-advance-mxa910-intellimix-p300/429)
+- [Shure Microflex Advance MXA910 + IntelliMix P300](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-microflex-advance-mxa910-intellimix-p300/429)
 
--   [Biamp Tesira DSP & Sennheiser TeamConnect Ceiling 2](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-tesira-dsp-sennheiser-teamconnect-ceiling-2/359)
+- [Biamp Tesira DSP & Sennheiser TeamConnect Ceiling 2](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-tesira-dsp-sennheiser-teamconnect-ceiling-2/359)
 
 ### <a name="displays"></a>표시
 
 - 짧은 던지기 또는 초단단 투사, 고해상도 및 고 밝기 레이저 프로젝터이며, 절전 모드 작동 중 동기화 시 자동 절전 모드 해제 및 쿨다운이 있습니다. 주변 조명 거부 속성이 있는 낮은 게인 프로젝터 화면은 밝은 객실에서 최고의 화질을 제공합니다.
 
-표시된 대로: 
+표시된 대로:
 
 - [ELPLX01S Ultra Short Throw 렌즈를 사용하는 Epson EB-PU1007 프로젝터](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
 - [Da-Lite UTB 윤곽 화면 | HD 프로그레시브 0.6 화면 | 시네마스코프 138" 대각선](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
@@ -555,9 +556,9 @@ Windows 모든 Teams 룸 지능형 캡처 기능 및 보조 콘텐츠 카메라�
 
 ### <a name="co-create-options"></a>공동 만들기 옵션
 
--   콘텐츠 카메라 OR가 있는 아날로그 화이트보드
+- 콘텐츠 카메라 OR가 있는 아날로그 화이트보드
 
--   호환되는 대화형 터치 디스플레이입니다.
+- 호환되는 대화형 터치 디스플레이입니다.
 
 표시된 대로:
 
@@ -567,11 +568,11 @@ Windows 모든 Teams 룸 지능형 캡처 기능 및 보조 콘텐츠 카메라�
 
 콘텐츠 카메라:
 
--   [Yealink UVC30 콘텐츠 카메라](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc30-content-camera/647)
+- [Yealink UVC30 콘텐츠 카메라](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc30-content-camera/647)
 
--   [Huddly Canvas](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/huddly-canvas/568)
+- [Huddly Canvas](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/huddly-canvas/568)
 
--   [Logitech BRIO 콘텐츠 카메라 키트](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
+- [Logitech BRIO 콘텐츠 카메라 키트](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
 
 대화형 터치 디바이스:
 

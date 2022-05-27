@@ -19,12 +19,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f37e364450104b07adfe6a48c8cc29bab607470
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 7123d45819f6e956ecf562fd321e7762b50e5ae6
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "61545009"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674660"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>최전방 직원을 위한 대규모 Microsoft Teams 프로비저닝하는 방법
 
@@ -215,8 +215,8 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 
 비즈니스 요구에 맞게 다음 설정을 사용자 지정할 수 있습니다. 모범 사례를 기반으로 새로운 사용자를 대규모로 쉽게 등록할 수 있도록 하기 위해 권장 옵션을 선택했습니다. 자세한 내용은 [여기](teams-app-setup-policies.md)를 클릭하세요.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서  **Teams 앱** > **정책 설정** 으로 이동합니다.
-2.  **추가** 를 클릭합니다.  
+1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **Teams 앱** > **설정 정책** 으로 이동합니다.
+2. **추가** 를 클릭합니다.  
 3. 정책의 이름과 설명을 입력합니다. 예: 최전방 관리자 앱 설정 정책
     :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="최전방 관리자 앱 설정 정책에 대한 예제 이름 및 설명 스크린샷.":::
 
@@ -228,7 +228,7 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Shifts 앱에 대한 추가 단추를 보여 주는 고정된 앱 추가 화면의 스크린샷":::
 
 7. 호출 제거. 이 기능이 나타나면 이 기능을 제거해도 사용자에게는 기능이 비활성화되지 않지만 최종 사용자 경험을 단순화하기 위해 앱 표시줄에 기능이 나타나지 않습니다.
-8. 다음 순서대로 앱을 정렬하여 Teams 앱 표시줄에서 순서를 지정한 다음  **저장** 을 클릭합니다.
+8. 다음 순서대로 앱을 정렬하여 Teams 앱 표시줄에서 순서를 지정한 다음 **저장** 을 클릭합니다.
 
     - 활동
     - 채팅
@@ -242,8 +242,8 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 
 비즈니스 요구에 맞게 다음 설정을 사용자 지정할 수 있습니다. 모범 사례를 기반으로 새로운 사용자를 대규모로 쉽게 등록할 수 있도록 하기 위해 권장 옵션을 선택했습니다. 자세한 내용은 [여기](teams-app-setup-policies.md)를 클릭하세요.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서  **Teams 앱** > **정책 설정** 으로 이동합니다.
-2.  **추가** 를 클릭합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **Teams 앱** > **설정 정책** 으로 이동합니다.
+2. **추가** 를 클릭합니다.
 3. 정책의 이름과 설명을 입력합니다. 예: 최전방 직원 앱 설정 정책
     :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="최전방 직원 앱 설정 정책의 예제 이름 및 설명 스크린샷.":::
 
@@ -256,7 +256,7 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Shifts 앱에 대한 추가 단추를 보여 주는 고정된 앱 추가 화면의 스크린샷":::
 
 7. 회의 및 통화가 나타나면 제거합니다. 이러한 기능을 제거해도 사용자가 비활성화되지는 않지만 최종 사용자 경험을 단순화하기 위해 앱 바에 표시되지 않습니다.
-8. 다음 순서대로 앱을 정렬하여 Teams 앱 표시줄에서 순서를 지정한 다음  **저장** 을 클릭합니다.
+8. 다음 순서대로 앱을 정렬하여 Teams 앱 표시줄에서 순서를 지정한 다음 **저장** 을 클릭합니다.
     - 활동
     - 채팅
     - Teams
@@ -274,31 +274,31 @@ Teams는 조직 내 사용자, 콘텐츠 및 도구의 모음입니다. 대부�
 
 비즈니스 요구에 맞게 다음 설정을 사용자 지정할 수 있습니다. 다음은 모범 사례를 기반으로 새로운 사용자를 대규모로 쉽게 등록할 수 있는 권장 옵션입니다. 자세한 내용은 [여기](teams-app-permission-policies.md)를 클릭하세요.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서  **Teams 앱** > **권한 정책** 으로 이동합니다.
-2.  **추가** 를 클릭합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **권한 정책** 으로 이동합니다.
+2. **추가** 를 클릭합니다.
 
     :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="앱 권한 추가 정책 페이지 스크린샷.":::
 
 3. 정책의 이름과 설명을 입력합니다. 예: 최전방 관리자 앱 권한 정책
-4.  **Microsoft 앱** 에서 **모든 앱 허용** 을 선택합니다.
-5.  **타사 앱** 에서 **모든 앱 허용** 을 선택합니다.
+4. **Microsoft 앱** 에서 **모든 앱 허용** 을 선택합니다.
+5. **타사 앱** 에서 **모든 앱 허용** 을 선택합니다.
 6. **사용자 지정 앱** 에서 **모든 앱 허용** 을 선택합니다.
-7.  **저장** 을 클릭합니다.
+7. **저장** 을 클릭합니다.
 
 #### <a name="create-the-frontline-worker-app-permission-policy"></a>최전방 직원 앱 권한 정책 만들기
 
 비즈니스 요구에 맞게 다음 설정을 사용자 지정할 수 있습니다. 다음은 모범 사례를 기반으로 새로운 사용자를 대규모로 쉽게 등록할 수 있는 권장 옵션입니다. 자세한 내용은 [여기](teams-app-permission-policies.md)를 클릭하세요.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서  **Teams 앱** > **권한 정책** 으로 이동합니다.
-2.  **추가** 를 클릭합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **권한 정책** 으로 이동합니다.
+2. **추가** 를 클릭합니다.
 
     :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="앱 권한 추가 정책 페이지 스크린샷.":::
 
 3. 정책의 이름과 설명을 입력합니다. 예: 최전방 직원 앱 권한 정책
-4.  **Microsoft 앱** 에서 **모든 앱 허용** 을 선택합니다.
-5.  **타사 앱** 에서 **모든 앱 차단** 을 선택합니다.
+4. **Microsoft 앱** 에서 **모든 앱 허용** 을 선택합니다.
+5. **타사 앱** 에서 **모든 앱 차단** 을 선택합니다.
 6. **사용자 지정 앱** 에서 **모든 앱 허용** 을 선택합니다.
-7.  **저장** 을 클릭합니다.
+7. **저장** 을 클릭합니다.
 
 ## <a name="users-and-security-groups"></a>사용자 및 보안 그룹
 

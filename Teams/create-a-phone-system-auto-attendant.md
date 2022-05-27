@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams 대규모 조직에 대한 자동 전화 교환을 설정하고 테스트하는 방법을 알아봅니다.
-ms.openlocfilehash: a0b50a83e54059dca68562c2140ece6253448dd0
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 5f4b4f21f2e1cca8c8bbc350541cdd861b1bda3f
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059099"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674370"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 전화 교환 설정
 
@@ -128,7 +128,7 @@ ms.locfileid: "65059099"
 
 **내선 번호로 전화 걸** 기 - 이 옵션을 사용하도록 설정하면 발신자가 전화 확장 프로그램에 전화를 걸어 조직의 사용자와 연결할 수 있습니다. 온라인 사용자 또는 비즈니스용 Skype 서버 사용하여 온-프레미스에서 호스트되는 모든 사용자는 적격 사용자이며 **Dial by Extension** 으로 찾을 수 있습니다. ( [전화 걸기 범위](#dial-scope) 페이지의 디렉터리에 포함되고 포함되지 않은 사용자를 설정할 수 있습니다.)
 
-Dial By Extension에 사용할 수 있도록 하려는 사용자는 Active Directory(Azure AD 커넥트 통해 동기화됨) 또는 Azure Active Directory 정의된 다음 전화 특성 중 하나로 지정된 확장이 있어야 합니다. 자세한 내용은 [개별적으로 또는 대량으로 사용자 추가](/microsoft-365/admin/add-users/add-users) 를 참조하세요.
+Dial By Extension에 사용할 수 있도록 하려는 사용자는 Active Directory에 정의되고 Azure AD 커넥트 통해 동기화된 다음 전화 특성 중 하나로 지정된 확장이 있거나 Azure Active Directory 있어야 합니다. 자세한 내용은 [개별적으로 또는 대량으로 사용자 추가](/microsoft-365/admin/add-users/add-users) 를 참조하세요.
 
 - OfficePhone/TelephoneNumber(AD 및 Azure AD)
 - HomePhone(AD)

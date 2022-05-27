@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams 조직에서 태그를 사용하는 방법을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 0fa615f2bbcdd7965777925b2413717779ad4a7a
-ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
+ms.openlocfilehash: 62ac77c6467a17da10fdc3ba66350383d7c8016c
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "65442014"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675550"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Microsoft Teams 태그 관리
 
@@ -35,7 +35,7 @@ Microsoft Teams 태그를 사용하면 사용자가 팀의 사용자 하위 집�
 - **교대 근무로 태그 지정**: 이 기능을 사용하면 Teams [Shifts 앱](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop)에서 일정 및 교대 근무 그룹 이름과 일치하는 태그가 자동으로 할당됩니다. 예를 들어 "EngineerOnCall" 태그는 채팅 또는 채널 게시물에서 태그를 사용할 때 작동하도록 Shifts에서 예약된 모든 엔지니어에게 도달합니다. 교대 근무로 태그를 지정하면 Teams 사용자가 정보를 신속하게 릴레이해야 할 때 교대 근무 직원의 이름을 알지 못하는 추측을 수행합니다. 교대 근무에 의한 태그 지정은 JDA, Kronos 및 AMiON과 같은 주요 인력 관리 시스템에서 Teams Shifts와 통합하여 지원될 수도 있습니다. 이 기능을 설정하는 방법에 대한 자세한 내용은 [Shift로 태그 지정 설정을](#set-up-tagging-by-shift) 참조하세요.
 
 > [!NOTE]
-> 태그는 비공개 또는 공유 채널에서 지원되지 않습니다.  
+> 태그는 비공개 또는 공유 채널에서 지원되지 않습니다.
 
 ## <a name="how-tags-work"></a>태그 작동 방식
 
@@ -55,7 +55,7 @@ Microsoft Teams 태그를 사용하면 사용자가 팀의 사용자 하위 집�
 
 ![Microsoft Teams 관리 센터의 태그 지정 설정 스크린샷](media/manage-tags-admin-settings.png)
 
-팀에는 최대 100개의 태그가 있고, 태그에 최대 200명의 팀 구성원을 할당할 수 있으며, 동일한 팀의 태그를 최대 25개까지 단일 사용자에게 할당할 수 있습니다. 
+팀에는 최대 100개의 태그가 있고, 태그에 최대 200명의 팀 구성원을 할당할 수 있으며, 동일한 팀의 태그를 최대 25개까지 단일 사용자에게 할당할 수 있습니다.
 
 ### <a name="set-who-can-add-custom-tags"></a>사용자 지정 태그를 추가할 수 있는 사용자 설정
 
@@ -91,15 +91,15 @@ Let 팀 소유자가 Microsoft Teams 관리 센터에서 **태그 설정을 관�
 
 ### <a name="create-and-assign-custom-tags"></a>사용자 지정 태그 만들기 및 할당
 
-사용자 지정 태그를 만들고 할당하려면 앱 왼쪽에서 **Teams** 선택한 다음 목록에서 팀을 찾습니다. **3개의 추가 옵션을** 선택한 다음 **태그 관리를** 선택합니다. 여기서 태그를 만들어 팀의 사용자에게 할당할 수 있습니다.
+사용자 지정 태그를 만들고 할당하려면 앱 왼쪽에서 **Teams** 선택한 다음 목록에서 팀을 찾습니다. ...를 선택합니다 **. 추가 옵션을** 선택한 다음 **태그 관리를** 선택합니다. 여기서 태그를 만들어 팀의 사용자에게 할당할 수 있습니다.
 
 ![Teams 클라이언트에서 태그를 적용하는 방법의 스크린샷.](media/manage-tags-teams.png)
 
-태그를 삭제하려면 태그 옆에 있는 **1개의 추가 옵션을** 선택한 다음, **태그 삭제** 를 선택합니다.
+태그를 삭제하려면 **... 태그 옆에 있는 추가 옵션을** 선택한 다음, **태그 삭제** 를 선택합니다.
 
 ### <a name="set-up-tagging-by-shift"></a>교대 근무로 태그 지정 설정
 
-교대 근무로 태그를 지정하면 사용자가 실시간으로 교대 근무 중인 사용자에게 연결할 수 있습니다. Teams Shifts 앱에서 일정 및 교대 근무 그룹 이름과 일치하는 태그가 있는 사용자를 자동으로 할당하여 동적 역할 기반 메시징을 사용하도록 설정합니다. 알림은 태그를 사용하여 채팅을 시작하거나 채널 게시물에서 교대 근무 중인 사용자에게만 전송됩니다. 
+교대 근무로 태그를 지정하면 사용자가 실시간으로 교대 근무 중인 사용자에게 연결할 수 있습니다. Teams Shifts 앱에서 일정 및 교대 근무 그룹 이름과 일치하는 태그가 있는 사용자를 자동으로 할당하여 동적 역할 기반 메시징을 사용하도록 설정합니다. 알림은 태그를 사용하여 채팅을 시작하거나 채널 게시물에서 교대 근무 중인 사용자에게만 전송됩니다.
 
 1. Teams [Shifts 앱](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop)으로 이동합니다.
 2. [교대 근무 그룹을](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea#bkmk_organizeshiftsbygroup) 만들고 역할과 같은 특성의 이름을 지정합니다. 예를 들어 EngineerOnCall입니다. Shift 그룹 이름은 태그의 이름이 됩니다.
@@ -107,7 +107,7 @@ Let 팀 소유자가 Microsoft Teams 관리 센터에서 **태그 설정을 관�
 4. 예약된 교대 근무가 태그 지정 서비스를 채울 때까지 15분 정도 기다립니다.
 5. Teams 태그를 사용하는 모든 위치에서 태그를 사용합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Teams 태그 사용](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)
 

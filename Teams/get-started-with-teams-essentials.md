@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c80b93ef457048d006fb7a7eb6085b3ed5d8eb4
-ms.sourcegitcommit: 8cda22925ccddb612f91351a7593b521eee10f0e
+ms.openlocfilehash: 46624ff1e1eeeede5066cf6972cc92469cf8979c
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "62864031"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675050"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>소규모 비즈니스를 위한 Microsoft Teams Essentials 빠른 시작 가이드
 
@@ -153,7 +153,7 @@ Teams Essentials를 시작하려면 다음 단계를 수행하세요.
 
 #### <a name="how-do-i-upgrade-my-organization"></a>조직을 업그레이드하려면 어떻게 해야 하나요?
 
-Microsoft Teams Essentials 버전의 Teams로 업그레이드하려면 위쪽 탐색 메뉴에서 **…** 을 선택합니다. 그런 다음 화면에 표시되는 드롭다운 메뉴 맨 아래서 **업그레이드**  단추를 선택합니다.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="업그레이드 단추를 보여주는 스크린샷"::: 
+Microsoft Teams Essentials 버전의 Teams로 업그레이드하려면 상단 탐색 메뉴에서 **...** 를 선택합니다. 그런 다음 표시되는 드롭다운 메뉴 하단에서 **업그레이드** 버튼을 선택합니다.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="업그레이드 단추를 보여주는 스크린샷"::: 
 
 Teams에서 **업그레이드** 단추를 선택하면 [소규모 비즈니스용 Microsoft Teams](https://www.microsoft.com/microsoft-teams/upgrade-teams)로 이동합니다.
 
@@ -164,9 +164,9 @@ Teams에 로그인하는 데 사용하는 현재 전자 메일 주소를 입력�
 
 아니요. AAD ID가 있는 Teams Essentials는 엄선된 Microsoft 클라우드 파트너를 통해서만 구매할 수 있습니다. 파트너와 협력하려면 [Microsoft 파트너 클라우드 솔루션 공급자 찾기](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider)를 방문하세요.
 
-### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>Microsoft Teams Essentials에 기존 전자 메일 시스템을 사용할 수 있나요?  
+### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>Microsoft Teams Essentials에 기존 전자 메일 시스템을 사용할 수 있나요?  
 
-네. 기존 전자 메일 시스템을 유지하고 Teams Essentials를 활용하여 만나고, 채팅하고, 공동 작업할 수 있습니다.  
+네. 기존 전자 메일 시스템을 유지하고 Teams Essentials를 활용하여 만나고, 채팅하고, 공동 작업할 수 있습니다.  
 
 ### <a name="can-i-connect-my-existing-calendar-solution-with-teams-essentials"></a>기존 일정 솔루션을 Teams Essentials와 연결할 수 있나요?
 네. Outlook.com과 Google의 기존 일정을 Teams Essentials와 동기화할 수 있습니다.

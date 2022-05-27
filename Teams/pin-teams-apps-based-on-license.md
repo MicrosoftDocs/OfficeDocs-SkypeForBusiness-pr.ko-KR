@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f717672c4cb297d7f3d2e95ceaa038eeceaa2ee
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: b59753e1ad1e5a0be36ed8a0d924d7fa6d6658a2
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187124"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675520"
 ---
 # <a name="tailor-teams-apps-for-your-frontline-workers"></a>최전방 직원을 위한 맞춤형 Teams 앱
 
@@ -55,7 +55,7 @@ Teams 라이선스에 따라 앱을 고정하여 일선 근로자에게 요구 �
 
 :::image type="content" source="media/tailored-teams-apps-desktop.png" alt-text="Teams 데스크톱의 맞춤형 최전방 앱 환경" lightbox="media/tailored-teams-apps-desktop.png"::: 
 
-## <a name="admin-controls"></a>관리자 컨트롤
+## <a name="admin-controls"></a>관리 컨트롤
 
 > [!NOTE]
 > 이 기능을 적용하려면 전역(조직 전체 기본) [앱 설정 정책](teams-app-setup-policies.md)에서 **사용자 고정** 설정을 설정해야 합니다.
@@ -66,7 +66,7 @@ Teams 라이선스에 따라 앱을 고정하여 일선 근로자에게 요구 �
 
 이 기능은 기본적으로 켜져 있습니다. 그러나 Microsoft에서 제공하는 맞춤형 최전방 앱 환경을 원하지 않는 경우 이 기능을 해제할 수 있습니다. 기능을 끄거나 켜려면:
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 영역에서 **Teams** **appsManage 앱** > 으로 이동한 다음 **조직 전체 앱 설정을** 선택합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **Teams 앱****관리 앱** > 으로 이동한 다음 **조직 전체 앱 설정을** 선택합니다.
 2. **맞춤형 앱** 에서 **맞춤 앱 표시** 토글을 **끄** 거나 켜기로 전환 **합니다**.
 
     :::image type="content" source="media/tailored-teams-apps-admin-center.png" alt-text="Teams 관리 센터의 앱 관리 페이지에 있는 맞춤형 앱 표시 설정 스크린샷" lightbox="media/tailored-teams-apps-admin-center.png":::

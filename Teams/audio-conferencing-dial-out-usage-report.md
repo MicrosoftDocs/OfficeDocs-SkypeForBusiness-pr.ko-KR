@@ -1,5 +1,5 @@
 ---
-title: 오디오 회의 전화 접속 사용 보고서
+title: 오디오 회의 전화 접속 사용 현황 보고서
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -21,24 +21,24 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 전화 접속 회의 번호가 있는 국가 및 지역 및 해당 번호가 자동으로 할당되는 방법을 알아봅니다.
-ms.openlocfilehash: 16cdae3a377d5ce87c218affc4944051f14f2631
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: 067ff702478e6b7bae38db458a7088021386e6ec
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106450"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675430"
 ---
-# <a name="audio-conferencing-dial-out-usage-report"></a>오디오 회의 전화 접속 사용 보고서
+# <a name="audio-conferencing-dial-out-usage-report"></a>오디오 회의 전화 접속 사용 현황 보고서
 
 Teams 관리 센터의 오디오 회의 전화 접속 사용 현황 보고서는 오디오 회의 전화 접속 서비스에 소요된 사용량 및 금액에 대한 개요를 제공합니다. 이 보고서를 통해 관리자는 사용된 통신 크레딧 및 전화 접속 시간(분)을 기준으로 사용자 수준 데이터를 사용할 수 있습니다. 관리자는 언제든지 필요한 향후 통신 크레딧을 결정하는 데 도움이 됩니다.
 
-## <a name="view-the-audio-conferencing-dial-out-usage-report"></a>오디오 회의 전화 접속 사용 보고서 보기
+## <a name="view-the-audio-conferencing-dial-out-usage-report"></a>오디오 회의 전화 접속 사용 현황 보고서 보기
 
-Microsoft Teams 관리 센터의 왼쪽 탐색에서  **reportsUsage** > 보고서를  **& Analytics** 를 선택합니다.  **TheView reportstab** 의  **underReport** 에서 **오디오 회의 전화 접속 사용 보고서를** 선택합니다.
+Microsoft Teams 관리 센터의 왼쪽 탐색 영역에서 **분석 & 보고서** **사용 현황 보고서를**\> 선택합니다. **보고서 보기** 탭의 **보고서** 아래에서 **오디오 회의 전화 접속 사용 현황 보고서를** 선택합니다.
 
- **UnderDate 범위** 는 7일 또는 28일의 미리 정의된 범위를 선택하거나 사용자 지정 범위를 설정할 수 있습니다.
+**날짜 범위** 에서 7일 또는 28일의 미리 정의된 범위를 선택하거나 사용자 지정 범위를 설정할 수 있습니다.
 
- **UnderCountry Previsioned**, 기본 설정 국가를 선택하거나 모두 선택한 다음 보고서  **실행을** 선택합니다.
+**국가 미리 비전에서** 기본 국가를 선택하거나 모두 선택한 다음 **보고서 실행을** 선택합니다.
 
 ## <a name="report-details"></a>보고서 세부 정보
 

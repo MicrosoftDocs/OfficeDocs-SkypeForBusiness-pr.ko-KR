@@ -1,5 +1,5 @@
 ---
-title: 미디어 우회 사용 및 사용 안 하게 설정
+title: 미디어 바이패스 사용 및 사용 안 함
 ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
@@ -10,32 +10,32 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: 이 문서의 절차에 따라 제어판을 사용하여 미디어 우회를 사용하도록 설정하거나 사용하지 않도록 비즈니스용 Skype 서버 합니다.
-ms.openlocfilehash: d312e74c796b9e68558447c5a56fc199e8920d6a
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: 이 문서의 절차를 사용하여 비즈니스용 Skype 서버 제어판 사용하여 미디어 바이패스를 사용하거나 사용하지 않도록 설정합니다.
+ms.openlocfilehash: 38ec29c6e4b51a4c6898b13c4de0172f55947907
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62396490"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675340"
 ---
 # <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>비즈니스용 Skype 서버에서 미디어 바이패스를 사용하도록 설정 및 해제
 
-이 문서의 절차에 따라 제어판을 사용하여 미디어 우회를 사용하도록 설정하거나 사용하지 않도록 비즈니스용 Skype 서버 합니다.
+이 문서의 절차를 사용하여 비즈니스용 Skype 서버 제어판 사용하여 미디어 바이패스를 사용하거나 사용하지 않도록 설정합니다.
 
-## <a name="enable-network-media-bypass"></a>네트워크 미디어 우회 사용 
+## <a name="enable-network-media-bypass"></a>네트워크 미디어 바이패스 사용 
 
-미디어 우회 설정은 배포 전반에 비즈니스용 Skype 서버 적용됩니다. 미디어 바이패스는 통화가 중재 서버를 바이패스하도록 허용합니다. 미디어 우회를 사용하는 경우에 대한 자세한 내용은 [Plan for media bypass을 참조합니다](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
+미디어 바이패스 설정은 비즈니스용 Skype 서버 배포에서 전역적으로 적용됩니다. 미디어 바이패스는 통화가 중재 서버를 바이패스하도록 허용합니다. 미디어 바이패스 사용 시기에 대한 자세한 내용은 [미디어 바이패스 계획을](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md) 참조하세요.
 
-제어판에서 미디어 우회를 사용하도록 설정하고 구성할 비즈니스용 Skype 서버 있습니다.
+비즈니스용 Skype 서버 제어판 미디어 바이패스 사용 및 구성할 수 있습니다.
 
 
 ### <a name="to-enable-and-configure-media-bypass"></a>미디어 바이패스를 사용하도록 설정 및 구성하려면
 
-1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
+1.  RTCUniversalServerAdmins 그룹의 구성원이거나 동일한 사용자 권한이 있거나 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 모든 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판 엽니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭** 한 다음 전역을 **클릭합니다**.
+3.  왼쪽 탐색 모음에서 **네트워크 구성** 을 클릭한 다음 **전역** 을 클릭합니다.
 
 4.  **전역** 페이지에서 **전역** 구성을 클릭합니다. 구성은 항상 하나뿐이며 이름은 항상 전역입니다.
 
@@ -58,18 +58,18 @@ ms.locfileid: "62396490"
 8.  **커밋** 을 클릭하여 변경 내용을 저장합니다.
 
 
-## <a name="disable-network-media-bypass"></a>네트워크 미디어 우회를 사용하지 않도록 설정
+## <a name="disable-network-media-bypass"></a>네트워크 미디어 바이패스 사용 안 함
 
-미디어 우회 설정은 배포 전반에 비즈니스용 Skype 서버 적용됩니다. 미디어 바이패스는 통화가 중재 서버를 바이패스하도록 허용합니다. 미디어 우회를 사용하는 경우에 대한 자세한 내용은 [Plan for media bypass을 참조합니다](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md). 제어판의 미디어 우회를 사용하지 않도록 비즈니스용 Skype 서버 있습니다. 
+미디어 바이패스 설정은 비즈니스용 Skype 서버 배포에서 전역적으로 적용됩니다. 미디어 바이패스는 통화가 중재 서버를 바이패스하도록 허용합니다. 미디어 바이패스 사용 시기에 대한 자세한 내용은 [미디어 바이패스 계획을](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md) 참조하세요. 비즈니스용 Skype 서버 제어판 미디어 바이패스 기능을 사용하지 않도록 설정할 수 있습니다. 
 
 
 ### <a name="to-disable-media-bypass"></a>미디어 바이패스를 사용하지 않도록 설정하려면
 
-1.  RTCUniversalServerAdmins 그룹의 구성원 또는 이와 동등한 사용자 권한을 가졌다는 사용자 계정 또는 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 컴퓨터에 로그온합니다.
+1.  RTCUniversalServerAdmins 그룹의 구성원이거나 동일한 사용자 권한이 있거나 CsAdministrator 역할에 할당된 사용자 계정에서 내부 배포의 모든 컴퓨터에 로그온합니다.
 
-2.  브라우저 창을 열고 관리 URL을 입력하여 관리 비즈니스용 Skype 서버  열 수 있습니다. 
+2.  브라우저 창을 열고 관리 URL을 입력하여 비즈니스용 Skype 서버 제어판 엽니다. 
 
-3.  왼쪽 탐색 모음에서 네트워크 구성을 **클릭** 한 다음 전역을 **클릭합니다**.
+3.  왼쪽 탐색 모음에서 **네트워크 구성** 을 클릭한 다음 **전역** 을 클릭합니다.
 
 4.  **전역** 페이지에서 **전역** 구성을 클릭합니다. 구성은 항상 하나뿐이며 이름은 항상 전역입니다.
 

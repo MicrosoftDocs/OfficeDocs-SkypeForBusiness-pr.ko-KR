@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 9bf52e68f8db5ecacfb4683b0a4809437a860d77
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 2455d386e9bdf297995880f679e5db74b299e64d
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635246"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674840"
 ---
 # <a name="navigate-microsoft-teams"></a>Microsoft Teams 탐색
 
@@ -89,7 +89,7 @@ Kaizala 플랫 그룹을 Teams 이동하는 두 가지 방법이 있습니다.
 
 - 옵션 2: Kaizala 플랫 그룹에서 Teams 팀으로 전환
 
-**옵션 1: Kaizala 플랫 그룹에서 Teams 그룹 채팅으로 전환**
+**옵션 1: Kaizala 플랫 그룹에서 Teams 그룹 채팅으로 전환**:
 
 Teams 그룹 채팅을 만들어 최대 250명의 참가자와 빠른 허들 및 일시적인 대화를 할 수 있습니다. 그룹 채팅을 통해 조직의 사용자는 누구나 채팅에 추가할 수 있는 열린 대화를 위한 중앙 위치를 가질 수 있습니다.
 
@@ -102,23 +102,23 @@ Teams 그룹 채팅을 만들어 최대 250명의 참가자와 빠른 허들 및
 2. 대화에 사람을 추가합니다.
 
     ![대화에 사용자 추가](media/kaizala-to-teams-image5.png)
-    
+
    그룹 채팅에 사용자를 추가할 때(일대일이 아님) 채팅 **기록** 및 공유하려는 **기록 기간을** 포함할 수 있습니다.
 
 3. 그룹 채팅을 관리합니다.
   
     ![그룹 채팅 관리](media/manage-groupchats.png)
-    
+
    그룹 채팅의 사용자를 확인하려면 채팅 헤더의 참가자 수를 마우스로 가리키면 모든 사람의 이름 목록을 표시합니다.
 
-**옵션 2: Kaizala 플랫 그룹에서 Teams 팀으로 전환**
-   
+**옵션 2: Kaizala 플랫 그룹에서 Teams 팀으로 전환**:
+
 대상 그룹 통신의 경우 플랫 그룹에 대한 팀을 만들 수 있습니다. 최대 25,000명의 멤버를 추가하여 스레드 대화와 구조화된 통신을 수행할 수 있습니다. 이러한 유형의 통신을 통해 조정 및 관리 역할이 원활하게 실행되도록 할 수 있습니다.
 
 1. 팀 만들기: Teams 시작하고 실행하려면 팀을 만들고, 사람을 추가하고, 채널을 추가해야 합니다. 자세한 내용은 [첫 번째 팀을 참조하세요](get-started-with-teams-create-your-first-teams-and-channels.md).
 2. 팀 소유자에 대한 가이드를 검토합니다.
 
-[팀 소유자는](https://support.microsoft.com/office/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547?ui=en-us&rs=en-us&ad=us) 새 구성원과 게스트를 추가하고, 구성원을 소유자로 변경하고, 채널 및 설정을 관리하고, 더 이상 사용되지 않는 팀을 보관할 수 있습니다.
+   [팀 소유자는](https://support.microsoft.com/office/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547?ui=en-us&rs=en-us&ad=us) 새 구성원과 게스트를 추가하고, 구성원을 소유자로 변경하고, 채널 및 설정을 관리하고, 더 이상 사용되지 않는 팀을 보관할 수 있습니다.
 
 3. 팀에 대량 멤버를 추가합니다.
 
@@ -318,7 +318,7 @@ Microsoft 365 그룹, ID, 라이선스 및 액세스를 검토할 수 있는 [Az
 | 디렉터리 | 팀의 **검색 표시** 줄을 통해 조직의 모든 사용자를 검색합니다. 검색 결과는 파일, 메시지 및 게시물도 반환합니다. |
 | 분석(작업 카드) | **설문 조사**, **설문 조사** 및 **검사 목록은** 다운로드 가능한 데이터를 사용하여 보고서를 작성했습니다. 사용자가 사용할 수 있는 Teams 작업 앱의 도움으로 작업을 할당할 수도 있습니다. 더 많은 시나리오의 경우 **Trello**, **Asana** 와 같은 타사 앱도 Teams 내에서 사용하도록 탐색할 수 있습니다. |
 | 확장 – 커넥터 | **커넥터** 가 필요한 채널의 메뉴(...)에서 커넥터 옵션을 사용합니다. |
-| [분석(사용량) 채택 보고서](teams-analytics-and-reports/view-analytics.md), [사용 현황 보고서](teams-analytics-and-reports/teams-usage-report.md), [활동 보고서](teams-analytics-and-reports/user-activity-report.md) | 팀 소유자는 메뉴(...)에서 팀 분석 기능을 **관리하여 팀의** >  보고서에 액세스할 수 **있습니다**. |
+| [분석(사용량) 채택 보고서](teams-analytics-and-reports/view-analytics.md), [사용 현황 보고서](teams-analytics-and-reports/teams-usage-report.md), [활동 보고서](teams-analytics-and-reports/user-activity-report.md) | 팀 소유자는 메뉴(...)를 탐색하여 **팀 분석을 관리하여 팀의** >  보고서에 액세스할 수 **있습니다**. |
 
 > [!NOTE]
 > Teams 최종 사용자는 데스크톱 또는 모바일에서 Teams 사용하여 개별 팀과 채널을 관리할 수 있으며 Teams 관리 센터에 액세스할 필요가 없습니다.

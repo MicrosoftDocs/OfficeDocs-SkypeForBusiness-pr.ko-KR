@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 지원되는 언어 호출
+title: Microsoft Teams 통화 큐 지원 언어
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,25 +20,25 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Microsoft Teams 지원되는 언어 호출
-ms.openlocfilehash: 54d9a49dc3671a2b7148ba964c20dcb50def0622
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+description: Microsoft Teams 통화 큐 지원 언어
+ms.openlocfilehash: c33745aaa5a1b0ddbfb3c7438fdc8bf72c8af592
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249550"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674720"
 ---
-# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams 지원되는 언어 호출
+# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams 통화 큐 지원 언어
 
-호출 큐는 TTS(Text to Speech)에 대한 다음 언어를 지원합니다.
+통화 큐는 TTS(Text to Speech)에 대해 다음 언어를 지원합니다.
 
 |언어                                |
 |:---------------------------------------|
 |아랍어(이집트)                          |
-|카탈로니어(카탈로니어)                       |
+|카탈로니아어(카탈로니아어)                       |
 |중국어(간체, 중국어)               |
-|중국어(전통, 홍콩)        |
-|중국어(중국어, 대만)           |
+|중국어(번체, 홍콩)        |
+|중국어(번체, 대만)           |
 |크로아티아어(크로아티아)                      |
 |체코어(체코)                  |
 |덴마크어(덴마크)                        |
@@ -58,14 +58,14 @@ ms.locfileid: "60249550"
 |이탈리아어(이탈리아)                         |
 |일본어(일본)                        |
 |한국어(한국)                          |
-|노르웨이어 Bokmal(노르웨이)               |
+|노르웨이 복말 (노르웨이)               |
 |폴란드어(폴란드)                         |
 |포르투갈어(브라질)                     |
 |포르투갈어(포르투갈)                   |
 |루마니아어(루마니아)                      |
 |러시아어(러시아)                        |
 |슬로바키아어(슬로바키아)                       |
-|Slovenian(Slovenia)                    |
+|슬로베니아어(슬로베니아)                    |
 |스페인어(멕시코)                        |
 |스페인어(스페인, 국제)          |
 |스웨덴어(스웨덴)                        |
@@ -74,4 +74,4 @@ ms.locfileid: "60249550"
 |베트남어(베트남)                    |
 
 > [!NOTE]
-> 텍스트 음성 변환을 사용하는 경우 시스템에서 번역을 수행하지 못하기에 선택한 언어로 텍스트를 입력해야 합니다.
+> Text to Speech를 사용하는 경우 시스템에서 번역을 수행하지 않으므로 선택한 언어로 텍스트를 입력해야 합니다.

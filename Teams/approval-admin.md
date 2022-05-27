@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f31df258558e052e887a679321dd6ed2db48f344
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 93b0a74feb2d9333d634b9a7858ff6136ca5b5ec
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646257"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676500"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 승인 앱 가용성
 
@@ -65,7 +65,7 @@ CDM(Common Data Model)은 Microsoft Dataverse의 비즈니스 및 분석 애플�
 
 [승인 워크플로](/power-automate/modern-approvals)에 대해 자세히 알아보세요.
 
-템플릿에서 만든 승인 제목, 세부 정보, 템플릿 ID 등과 같은 데이터를 Microsoft Dataverse에 저장합니다. 승인 요청에 제출된 응답은 Forms에 저장됩니다.  [Microsoft Forms 데이터 스토리지에](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe) 대해 자세히 알아봅니다.
+템플릿에서 만든 승인 제목, 세부 정보, 템플릿 ID 등과 같은 데이터를 Microsoft Dataverse에 저장합니다. 승인 요청에 제출된 응답은 Forms에 저장됩니다. [Microsoft Forms 데이터 스토리지에](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe) 대해 자세히 알아봅니다.
 
 >[!Note]
 >Microsoft Forms 사이트에서 양식 서식 파일을 삭제하면 승인 템플릿이 중단되고 사용자가 요청을 시작할 수 없습니다. 사용자는 Microsoft Forms 삭제된 승인 템플릿을 열려고 할 때 "CDB TableNotFound" 오류가 발생합니다.
@@ -114,7 +114,7 @@ CDM(Common Data Model)은 Microsoft Dataverse의 비즈니스 및 분석 애플�
 
   3. 승인 앱을 검색합니다.
 
-     ![는 Teams 앱 > 앱 관리가 강조 표시된 관리 센터 탐색을 보여줍니다.](media/manage-approval-apps.png)
+     ![는 Teams 앱 > 앱 관리가 강조 표시된 관리 가운데 탐색을 보여줍니다.](media/manage-approval-apps.png)
 
   4. **승인** 선택합니다.
 
@@ -223,7 +223,7 @@ Teams 승인 앱에서 사용자는 새 승인을 만들고 보내고 받은 승
 
 Teams 관리 센터를 사용하여 승인 앱에서 사용자가 사용할 수 있는 타사 전자 서명 공급자를 제어할 수 있습니다. 기본적으로 전자 서명 공급자는 승인 앱에서 사용하도록 설정됩니다. 전자 서명 공급자를 사용하지 않도록 설정하면 사용자가 승인을 만들 때 해당 공급자에 액세스할 수 없습니다. 또한 사용자는 해당 공급자를 사용하여 만든 전자 서명 요청을 볼 수 없습니다.
 
-1. Teams 관리 센터의 왼쪽 창에서 **Teams** **appsManage 앱** > 으로 이동합니다.
+1. Teams 관리 센터의 왼쪽 창에서 **Teams 앱****관리 앱** > 으로 이동합니다.
 2. 승인 앱을 검색한 다음 선택합니다.
 3. **설정** 탭으로 이동한 다음 다음 중 하나 이상을 수행합니다.
 

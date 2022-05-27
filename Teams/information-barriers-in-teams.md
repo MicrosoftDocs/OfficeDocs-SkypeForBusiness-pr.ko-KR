@@ -16,16 +16,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e57686e2decb5b2d663f75f1ad7884220a9ff4c2
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 38698179e2a3b4c6ca402190c98f89f329820d6e
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922809"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675410"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams 정보 장벽
 
-[Microsoft Purview OB(정보 장벽](/microsoft-365/compliance/information-barriers) )는 관리자가 개인 또는 그룹이 서로 통신하지 못하도록 구성할 수 있는 정책입니다. 예를 들어 한 부서가 다른 부서와 공유해서는 안 되는 정보를 처리하는 경우 IB가 유용합니다. IB는 그룹을 격리하거나 해당 그룹 외부의 사용자와 통신하지 못하도록 해야 하는 경우에도 유용합니다. Microsoft Teams 공유 채널은 정보 장벽에서 지원됩니다. 공유 유형에 따라 정보 장벽 정책은 특정 방식으로 공유를 제한할 수 있습니다. 공유 채널 및 정보 장벽 동작에 대한 자세한 내용은 [정보 장벽 및 공유 채널을 참조하세요](information-barriers-shared-channels.md).
+[Microsoft Purview 정보 장벽](/microsoft-365/compliance/information-barriers)(IB)은 관리자가 개인 또는 그룹이 서로 통신하지 못하도록 구성할 수 있는 정책입니다. 예를 들어 한 부서가 다른 부서와 공유해서는 안 되는 정보를 처리하는 경우 IB가 유용합니다. IB는 그룹을 격리하거나 해당 그룹 외부의 사용자와 통신하지 못하도록 해야 하는 경우에도 유용합니다. Microsoft Teams 공유 채널은 정보 장벽에서 지원됩니다. 공유 유형에 따라 정보 장벽 정책은 특정 방식으로 공유를 제한할 수 있습니다. 공유 채널 및 정보 장벽 동작에 대한 자세한 내용은 [정보 장벽 및 공유 채널을 참조하세요](information-barriers-shared-channels.md).
 
 Microsoft Teams 경우 정보 장벽은 다음과 같은 종류의 무단 협업을 결정하고 방지할 수 있습니다.
 
@@ -67,14 +67,14 @@ LB의 주요 동인은 금융 서비스 산업에서 비롯됩니다. 금융산�
 
 ## <a name="managing-information-barrier-policies"></a>정보 장벽 정책 관리
 
-IB 정책은 PowerShell cmdlet을 사용하여 Microsoft Purview 준수 포털(SCC)에서 관리됩니다. 자세한 내용은 [정보 장벽에 대한 정책 정의를 참조하세요](/office365/securitycompliance/information-barriers-policies).
+IB 정책은 PowerShell cmdlet을 사용하여 SCC(Microsoft Purview 규정 준수 포털)에서 관리됩니다. 자세한 내용은 [정보 장벽에 대한 정책 정의를 참조하세요](/office365/securitycompliance/information-barriers-policies).
 
 >[!IMPORTANT]
 >정책을 설정하거나 정의하기 전에 Microsoft Teams 범위가 지정된 디렉터리 검색을 사용하도록 설정해야 합니다. 정보 장벽에 대한 정책을 설정하거나 정의하기 전에 범위가 지정된 디렉터리 검색을 사용하도록 설정한 후 최소 몇 시간 정도 기다립니다. 자세한 내용은 [정보 장벽 정책 정의를 참조하세요](/office365/securitycompliance/information-barriers-policies#prerequisites).
 
 ## <a name="information-barriers-administrator-role"></a>정보 장벽 관리자 역할
 
-IB 규정 준수 관리 역할은 IB 정책 관리를 담당합니다. 이 역할에 대한 자세한 내용은 [Microsoft Purview 규정 준수 포털의 사용 권한을 참조하세요](/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
+IB 규정 준수 관리 역할은 IB 정책 관리를 담당합니다. 이 역할에 대한 자세한 내용은 [Microsoft Purview 규정 준수 포털 사용 권한을](/office365/securitycompliance/permissions-in-the-security-and-compliance-center) 참조하세요.
 
 ## <a name="information-barrier-triggers"></a>정보 장벽 트리거
 

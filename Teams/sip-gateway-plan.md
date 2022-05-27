@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77d33d29a51fe32fff6901fdcb8ba33ecad107f7
-ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
+ms.openlocfilehash: 0a1a178c279a418c0555f100c48a63c9efe71717
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "65370901"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681789"
 ---
 # <a name="plan-for-sip-gateway"></a>SIP 게이트웨이 계획
 
@@ -47,8 +47,7 @@ SIP 게이트웨이는 호환되는 SIP 디바이스를 Teams 연결하여 사�
 - **이중 톤 다중 주파수:** SIP 디바이스 사용자는 대화형 음성 응답 호출 중에 숫자 키를 눌러 입력을 제공할 수 있습니다.
 - **Teams 모임:** SIP 디바이스 사용자는 모임 액세스 번호로 전화를 걸어 Teams 모임에 참가할 수 있습니다. 모임 참가자는 사용자의 전화 번호로 전화를 걸거나 단순히 '참가 요청'을 클릭하여 참가자를 추가하여 모임에 SIP 디바이스 사용자를 추가할 수 있습니다. 다른 조직의 게스트 사용자를 게스트 사용자 번호로 전화를 걸어 해당 게스트를 포함하는 참가자가 Teams 모임에 추가할 수 있습니다.
 - **통화 전송:** SIP 디바이스 사용자는 호출을 전송할 수 있습니다. SIP 게이트웨이는 블라인드 및 상담 전송을 모두 지원합니다.
-- **로컬 착신 전환:** SIP 디바이스 사용자는 디바이스에 대한 전달 규칙(항상 시간 제한 및 사용 중)을 설정할 수 있습니다. 디바이스가 SIP 게이트웨이에 연결된 경우 디바이스 사용자가 설정한 규칙에 따라 호출이 대상 주소로 리디렉션됩니다. 로컬 착신 전환 작업을 수행하려면 관리자가 `AllowCallRedirect` 특성을 .로 `Set-CsTeamsCallingPolicy` `Enabled`설정해야 합니다. 
-
+- **로컬 착신 전환:** SIP 디바이스 사용자는 디바이스에 대한 전달 규칙(항상 시간 제한 및 사용 중)을 설정할 수 있습니다. 디바이스가 SIP 게이트웨이에 연결된 경우 디바이스 사용자가 설정한 규칙에 따라 호출이 대상 주소로 리디렉션됩니다. 로컬 착신 전환 작업을 수행하려면 관리자가 `AllowCallRedirect` 특성을 .로 `Set-CsTeamsCallingPolicy` `Enabled`설정해야 합니다.
 
 ## <a name="requirements-to-use-sip-gateway"></a>SIP 게이트웨이를 사용하기 위한 요구 사항
 
@@ -56,7 +55,8 @@ Teams 사용자에게는 SIP 게이트웨이를 사용하도록 설정된 PSTN �
 
 ### <a name="hardware-software-and-licenses"></a>하드웨어, 소프트웨어 및 라이선스
 
-3PIP 또는 SIP 디바이스가 있는 경우 다음이 있어야 합니다. 
+3PIP 또는 SIP 디바이스가 있는 경우 다음이 있어야 합니다.
+
 - 전화 시스템 라이선스(E5 또는 독립 실행형 라이선스를 통해)
 - Microsoft Teams 통화 플랜, 직접 라우팅 또는 운영자 연결 통해 PSTN 사용(즉, 전화 번호)
 - 공용 영역 디바이스에 대한 공용 영역 전화 라이선스

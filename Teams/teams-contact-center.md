@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft Teams 위한 CCaaS(통합 컨택 센터 as a Service) 솔루션의 개요
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f3a6e792d4754c064e32035813cbee681607bdb
-ms.sourcegitcommit: bc73017b4a3fe6271830bc8c5044bfd43eec80c0
+ms.openlocfilehash: 97d12974a96afa6c60188a09f66ff885cd30bcb2
+ms.sourcegitcommit: de0233e51364b7730c4b307fd41a2166eda3c3fc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "65266871"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65741890"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams 대한 컨택 센터 통합
 
@@ -82,5 +82,7 @@ Microsoft Teams 인증 프로그램에 대한 연결된 컨택 센터는 각 참
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Puzzel` | https://www.puzzel.com/microsoft-teams                            |
 | `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
+| `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
+| `GuardRec` | https://www.guardrec.com/en/teams-compliance-recording                          |
 
 이 목록은 더 많은 솔루션 공급자가 가입하고 인증 기준을 충족함에 따라 업데이트됩니다.

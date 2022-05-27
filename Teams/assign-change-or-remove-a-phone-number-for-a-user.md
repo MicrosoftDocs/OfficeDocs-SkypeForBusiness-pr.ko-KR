@@ -19,60 +19,60 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: 비즈니스 및 클라이언트 외부에서 전화를 걸 수 있도록 사용자에 대한 회사 Teams 전화 번호를 할당, 변경 또는 제거하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: 6341b6c3242eafad7039b210995ee7c56613442e
-ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
+description: 외부 비즈니스 및 클라이언트가 전화를 걸 수 있도록 Teams 사용자의 회사 전화 번호를 할당, 변경 또는 제거하는 방법을 알아봅니다.
+ms.openlocfilehash: dc616425b4dce35a2a40179e0ee4a56d31bae12b
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64456911"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676490"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>사용자의 전화 번호 할당, 변경 또는 제거
 
-통화 요금제 또는 운영자를 커넥트 사용자에게 전화 번호를 할당합니다. Microsoft Teams 사용자가 통화를 클릭하면 할당한 전화 번호가 나열 **됩니다**. 
+통화 플랜 또는 운영자 연결 설정할 때 사용자에게 전화 번호를 할당합니다. Microsoft Teams 사용자가 **통화를** 클릭하면 할당하는 전화 번호가 나열됩니다.
 
-이 문서는 통화 계획 및 운영자 커넥트. 직접 라우팅 시나리오에서 사용자로부터 전화 번호를 할당, 변경 또는 제거하는 자세한 내용은 직접 라우팅, 음성 및 음성메일에 대한 사용자 사용 을 [참조하세요](./direct-routing-enable-users.md).
+이 문서는 통화 플랜 및 운영자 연결 적용됩니다. 직접 라우팅 시나리오에서 사용자의 전화 번호를 할당, 변경 또는 제거하는 방법에 대한 자세한 내용은 [직접 라우팅, 음성 및 음성 메일에 대한 사용자 사용](./direct-routing-enable-users.md) 설정을 참조하세요.
 
-통화 요금제 또는 운영자 사용자에 대한 번호를 할당하기 커넥트 사용자에 대한 번호를 입력해야 합니다. 자세한 [내용은 전화 요금](getting-phone-numbers-for-your-users.md)제 사용자에 대한 번호 [커넥트 참조하세요](operator-connect-configure.md#set-up-phone-numbers).
-
-  
-> [!NOTE]
-> 사용자에게 할당된 라이선스가 있는지 여부를 확인하는 한 가지 방법은 사용자에 대한 Microsoft Teams 관리 센터로 > **있습니다**. 라이선스가 할당된 경우 페이지에 표시됩니다.  또한 이 Microsoft 365 관리 센터.
+통화 플랜 또는 운영자 연결 사용자에 대한 번호를 할당하기 전에 사용자의 번호를 가져와야 합니다. 자세한 내용은 [통화 플랜 사용자에 대한 번호 가져오기](getting-phone-numbers-for-your-users.md) 또는 [운영자 연결 사용자에 대한 번호 설정을 참조하세요](operator-connect-configure.md#set-up-phone-numbers).
 
 > [!NOTE]
-> 이 참고 사항은 On-프레미스 Active Directory를 통해 하이브리드 배포가 있는 고객에게 적용됩니다. 전화 요금제 또는 운영자 커넥트 전화 번호를 사용자 또는 리소스 계정에 할당하려는 경우 프레미스 Active Directory의 사용자 또는 리소스 계정 개체의 msRTCSIP-Line 특성에 저장된 모든 전화 번호가 제거되고 변경 내용이 Microsoft 365.
-  
+> 사용자에게 할당된 라이선스가 있는지 여부를 확인하는 한 가지 방법은 Microsoft Teams 관리 센터 > **사용자** 로 가는 것입니다. 라이선스가 할당된 경우 페이지에 표시됩니다.  Microsoft 365 관리 센터 사용할 수도 있습니다.
+
+> [!NOTE]
+> 이 메모는 온-프레미스 Active Directory 사용하여 하이브리드 배포를 사용하는 고객에게 적용됩니다. 통화 플랜 또는 운영자 연결 전화 번호를 사용자 또는 리소스 계정에 할당하려면 온-프레미스 Active Directory 사용자 또는 리소스 계정 개체의 msRTCSIP-Line 특성에 저장된 전화 번호가 제거되고 변경 내용이 Microsoft 365 동기화되었는지 확인해야 합니다.
+
 ## <a name="assign-a-phone-number-to-a-user"></a>사용자에게 전화 번호 할당
 
-사용자에게 전화 번호를 할당할 때 사용자의 전화 번호와 사용 현황 위치가 같은 국가에 있는지 확인하세요.
+사용자에게 전화 번호를 할당할 때 사용자의 전화 번호와 사용 위치가 동일한 국가인지 확인합니다.
 
-관리 센터를 사용하여 Teams:
-    
-1. 왼쪽 탐색에서 **Voice** > **전화 숫자를 클릭합니다**.
+Teams 관리 센터를 사용하여 숫자를 할당하려면 다음을 수행합니다.
 
-2. 번호 **전화** 페이지에서 목록에서 부호 없는 번호를 선택한 다음 편집을 **클릭합니다**.  
+1. 왼쪽 탐색 영역에서 **음성** > **전화 숫자를** 클릭합니다.
 
-3. 편집 **창의** 할당에서 표시 이름 또는 사용자 이름으로 사용자를 검색한 다음 할당을 **클릭합니다**.
+2. **전화 번호** 페이지에서 목록에서 할당되지 않은 숫자를 선택한 다음 **편집** 을 클릭합니다.
 
-4. 관련 긴급 위치를 할당하거나 변경하려면 긴급 위치 아래에서 위치를 검색한 다음 위치를 선택합니다.
+3. **편집** 창의 **할당 대상** 에서 표시 이름 또는 사용자 이름으로 사용자를 검색한 다음 **할당** 을 클릭합니다.
+
+4. 연결된 긴급 위치를 할당하거나 변경하려면 **긴급 위치에서** 위치를 검색한 다음 선택합니다.
 
    > [!NOTE]
-   > 연산자 사용자에 번호를 할당하는 경우 커넥트 위치를 할당하거나 변경할 수 없습니다. 이 기능은 운영자에 따라 달라 습니다. 자세한 내용은 운영자에게 문의하세요.
+   > 운영자 연결 사용자에게 숫자를 할당하는 경우 연결된 긴급 위치를 할당하거나 변경할 수 없습니다. 이 기능은 운영자에 따라 달라집니다. 자세한 내용은 운영자에게 문의하세요.
 
-5. 전화 번호 정보를 통해 사용자에게 전자 메일을 보낼지 여부에 따라 전화 번호 정보가 있는 전자 메일 사용자를 끄거나 **끄거나 끄면 됩니다**. 기본적으로 이 설정은 설정되어 있습니다. 
-
+5. 전화 번호 정보를 사용하여 사용자에게 전자 메일을 보낼지 여부에 따라 전화 **번호 정보가 포함된 전자 메일 사용자를** 끄거나 켭니다. 기본적으로 이 기능은 켜집니다.
 6. **저장** 을 클릭합니다.
 
-PowerShell을 사용하여 숫자를 할당하기 위해 다음과 같이 [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet을 사용 합니다.
+PowerShell을 사용하여 숫자를 할당하려면 다음과 같이 [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet을 사용합니다.
 
-통화 계획 번호의 경우
+통화 플랜 번호의 경우:
+
 ```PowerShell
-Set-CsPhoneNumberAssignment -Identity <user>  -PhoneNumber <phone number> -PhoneNumberType CallingPlan
+Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType CallingPlan
 ```
 
-연산자 커넥트 번호의 경우
+운영자 연결 숫자의 경우:
+
 ```PowerShell
-Set-CsPhoneNumberAssignment -Identity <user>  -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
+Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
 ```
 
 예를 들면 다음과 같습니다.
@@ -83,51 +83,50 @@ Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+1425555010
 ```
 
 > [!NOTE]
-> 사용자와 Microsoft 365 Teams 대기 시간이 있기 때문에 사용자가 사용하도록 설정하는 데 최대 24시간이 걸릴 수 있습니다. 24시간 후에 전화 번호가 올바르게 할당되지 않은 경우 번호 [전화 서비스 센터를 참조합니다](https://pstnsd.powerappsportals.com/). 
+> Microsoft 365 Teams 사이의 대기 시간으로 인해 사용자가 사용하도록 설정하는 데 최대 24시간이 걸릴 수 있습니다. 24시간 후에 전화 번호가 올바르게 할당되지 않은 경우 [전화 번호 서비스 센터를 참조하세요](https://pstnsd.powerappsportals.com/).
 
-  
 ## <a name="change-a-phone-number-for-a-user"></a>사용자의 전화 번호 변경
 
-관리자 센터를 사용하여 사용자의 전화 번호를 Teams:
-    
-1. 왼쪽 탐색에서 사용자를 클릭하고 원하는 사용자를 찾아 두 번 클릭한 다음 계정을 클릭한 다음 일반 정보에서 사용자에게 할당된 전화 번호를 메모합니다.
+Teams 관리 센터를 사용하여 사용자의 전화 번호를 변경하려면 다음을 수행합니다.
 
-2. 왼쪽 탐색에서 **Voice** > **전화 숫자를 클릭합니다**.
+1. 왼쪽 탐색 영역에서 **사용자를** 클릭하고, 원하는 사용자를 찾아 두 번 클릭하고, **계정을** 클릭한 다음, **일반 정보** 아래에서 사용자에게 할당된 전화 번호를 적어 둡다.
 
-3. 숫자 **전화** 페이지에서 1단계에서 식별한 번호를 선택한 다음 편집을 **클릭합니다**.  
+2. 왼쪽 탐색 영역에서 **음성** \> **전화 번호를** 클릭합니다.
 
-4. 편집 **창** 에서 할당된 창에서 **X** 를 클릭하여 사용자를 제거합니다.
+3. **전화 숫자** 페이지에서 1단계에서 식별한 번호를 선택한 다음 **편집** 을 클릭합니다.
+
+4. **편집** 창의 **할당 대상** 에서 **X** 를 클릭하여 사용자를 제거합니다.
 
 5. **저장** 을 클릭합니다.
 
-6. 번호 **전화** 페이지에서 목록에서 부호 없는 번호를 선택한 다음 편집을 **클릭합니다**.  
+6. **전화 번호** 페이지에서 목록에서 할당되지 않은 숫자를 선택한 다음 **편집** 을 클릭합니다.
 
-7. 편집 **창의** 할당에서 표시 이름 또는 사용자 이름으로 사용자를 검색한 다음 할당을 **클릭합니다**.
+7. **편집** 창의 **할당 대상** 에서 표시 이름 또는 사용자 이름으로 사용자를 검색한 다음 **할당** 을 클릭합니다.
 
-8. 관련 긴급 위치를 할당하거나 변경하려면 긴급 위치 아래에서 위치를 검색한 다음 위치를 선택합니다.
+8. 연결된 긴급 위치를 할당하거나 변경하려면 **긴급 위치에서** 위치를 검색한 다음 선택합니다.
 
       > [!NOTE]
-      > 연산자 사용자에 대한 번호를 변경하는 커넥트 관련 긴급 위치를 할당하거나 변경할 수 없습니다. 이 기능은 운영자에 따라 달라 습니다. 자세한 내용은 운영자에게 문의하세요.
+      > 운영자 연결 사용자에 대한 번호를 변경하는 경우 연결된 긴급 위치를 할당하거나 변경할 수 없습니다. 이 기능은 운영자에 따라 달라집니다. 자세한 내용은 운영자에게 문의하세요.
 
 9. **저장** 을 클릭합니다.
 
-PowerShell 예제는 [Set-CsPhoneNumberAssignment를 참조합니다](/powershell/module/teams/set-csphonenumberassignment).
+PowerShell 예제는 [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment)를 참조하세요.
 
-## <a name="remove-a-phone-number-from-a-user"></a>사용자에서 전화 번호 제거
+## <a name="remove-a-phone-number-from-a-user"></a>사용자로부터 전화 번호 제거
 
-관리 센터를 사용하여 전화 번호를 Teams:
+Teams 관리 센터를 사용하여 전화 번호를 제거하려면 다음을 수행합니다.
 
-1. 왼쪽 탐색에서 사용자를 클릭하고 원하는 사용자를 찾아 두 번 클릭한 다음 계정을 클릭한 다음 일반 정보에서 사용자에게 할당된 전화 번호를 메모합니다.
+1. 왼쪽 탐색 영역에서 **사용자를** 클릭하고, 원하는 사용자를 찾아 두 번 클릭하고, **계정을** 클릭한 다음, **일반 정보** 아래에서 사용자에게 할당된 전화 번호를 적어 둡다.
 
-2. 왼쪽 탐색에서 **Voice** > **전화 숫자를 클릭합니다**.
+2. 왼쪽 탐색 영역에서 **음성** \> **전화 번호를** 클릭합니다.
 
-3. 숫자 **전화** 페이지에서 2단계에서 식별한 번호를 선택한 다음 편집을 **클릭합니다**.  
+3. **전화 숫자** 페이지에서 2단계에서 식별한 번호를 선택한 다음 **편집** 을 클릭합니다.
 
-4. 편집 **창** 에서 할당된 창에서 **X** 를 클릭하여 사용자를 제거합니다.
+4. **편집** 창의 **할당 대상** 에서 **X** 를 클릭하여 사용자를 제거합니다.
 
 5. **저장** 을 클릭합니다.
 
-PowerShell 예제는 [Remove-CsPhoneNumberAssignment를 참조합니다](/powershell/module/teams/remove-csphonenumberassignment).
+PowerShell 예제는 [Remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment)를 참조하세요.
 
 ## <a name="related-topics"></a>관련 항목
 
@@ -137,9 +136,8 @@ PowerShell 예제는 [Remove-CsPhoneNumberAssignment를 참조합니다](/powers
 
 [긴급 통화 사용 약관](./emergency-calling-terms-and-conditions.md)
 
-[긴급 통화 고지 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[긴급 통화 고지 사항 레이블](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
 [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment)
 
 [Remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment)
-

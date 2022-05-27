@@ -12,55 +12,59 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 47ed4559-fb63-42cd-8ecd-b7d1617e91d3
-description: 이 Backup-CcCertificationAuthority cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 인증 기관 서비스를 파일에 백업하고 사이트 공유 디렉터리의 CA 폴더에 저장합니다.
-ms.openlocfilehash: f7803a1c773ca3561b13ef5a263002cc4b8e049a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Backup-CcCertificationAuthority cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 인증 기관 서비스를 파일에 백업하고 사이트 공유 디렉터리 아래의 CA 폴더에 저장합니다.
+ms.openlocfilehash: 4dc67fa9e1b4a9a52b3e447b09d91a74704be690
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582532"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675460"
 ---
 # <a name="backup-cccertificationauthority"></a>Backup-CcCertificationAuthority
- 
-이 Backup-CcCertificationAuthority cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 인증 기관 서비스를 파일에 백업하고 사이트 공유 디렉터리의 CA 폴더에 저장합니다.
-  
+
+Backup-CcCertificationAuthority cmdlet은 비즈니스용 Skype 클라우드 커넥터 버전 인증 기관 서비스를 파일에 백업합니다. 또한 cmdlet은 사이트 공유 디렉터리 아래의 CA 폴더에 저장합니다.
+
 ```powershell
-Backup-CcCertificationAuthority 
+Backup-CcCertificationAuthority
 ```
 
 ## <a name="parameters"></a>매개 변수
 
 없음
-  
+
 ## <a name="examples"></a>예제
 <a name="Examples"> </a>
 
 ### <a name="example-1"></a>예 1
 
-다음 예에서는 인증 기관 서비스를 파일에 백업하고 사이트 공유 디렉터리의 CA 폴더에 저장합니다.
-  
+다음 예제에서는 인증 기관 서비스를 파일에 백업하고 사이트 공유 디렉터리 아래의 CA 폴더에 저장합니다.
+
 ```powershell
-Backup-CcCertificationAuthority 
+Backup-CcCertificationAuthority
 ```
 
 ## <a name="detailed-description"></a>자세한 정보
 <a name="DetailedDescription"> </a>
 
-인증 기관 백업은 재해 발생 시 동일한 인증서를 사용하여 Cloud Connector 어플라이언스를 다시 설치하려는 경우 또는 어플라이언스를 새 하드웨어로 이동하려는 경우에 유용할 수 있습니다. 이 명령은 클라우드 커넥터 인증 기관 서비스의 복사본을 AD Server의 " \<SiteRootDirectory\> \CA\SfB CCE Root.p12"로 저장합니다.
-  
+동일한 인증서를 사용하여 클라우드 커넥터 어플라이언스 다시 배포하려는 경우 인증 기관 백업이 유용할 수 있습니다. 예:
+
+- 재해 복구.
+- 어플라이언스 새 하드웨어로 이동합니다.
+
+이 명령은 클라우드 커넥터 인증 기관 서비스의 복사본을 AD 서버 `"<SiteRootDirectory>\CA\SfB CCE Root.p12"`에서 .로 저장합니다.
+
 ## <a name="input-types"></a>입력 형식
 <a name="InputTypes"> </a>
 
-없음 이 Backup-CcCertificationAuthority cmdlet은 파이프라인된 입력을 허용하지 않습니다.
-  
+없음 Backup-CcCertificationAuthority cmdlet은 파이프라인된 입력을 허용하지 않습니다.
+
 ## <a name="return-types"></a>반환 형식
 <a name="ReturnTypes"> </a>
 
 없음
-  
+
 ## <a name="see-also"></a>참고 항목
 <a name="ReturnTypes"> </a>
 
 [Remove-CcCertificationAuthorityFile](remove-cccertificationauthorityfile.md)
   
-

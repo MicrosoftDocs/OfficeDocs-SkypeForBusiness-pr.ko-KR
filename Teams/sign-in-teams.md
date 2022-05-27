@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a00561f10e78a18acc146df4ed8a76b103c937c9
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: b6fb93bf7f8e3278ba4fba16604769c6f8f10e36
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514569"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681609"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>Microsoft Teams에 로그인
 
@@ -112,7 +112,7 @@ MDM 공급자에 계정 설정 구성이 설정되고 사용자가 장치를 등
 
 Windows 및 MacOS의 Teams 앱은 조직에 로그인 할 수 있도록 제한하는 장치 정책에 대한 지원을 받을 수 있습니다. 이 정책은 MDM(모바일 장치 관리)나 GPO(그룹 정책 개체)와 같은 일반적인 장치 관리 솔루션을 통해 설정될 수 있습니다. 
 
-이 정책이 장치에서 구성되면 사용자는 정책에 정의된 “테넌트 허용 목록”에 포함된 Azure AD 테넌트에 있는 계정으로만 로그인할 수 있습니다. 정책은 첫 계정과 추가 계정을 포함하여 모든 로그인에 적용됩니다. 조직이 여러 Azure Active Directory 테넌트에 걸친 경우, 허용 모록에 여러 테넌트 ID를 포함할 수 있습니다. 다른 계정에 추가하는 링크는 Teams에 계속 표시될 수 있지만, 작동되지 않습니다.
+이 정책이 장치에서 구성되면 사용자는 정책에 정의된 "테넌트 허용 목록"에 포함된 Azure AD 테넌트에 있는 계정으로만 로그인할 수 있습니다. 정책은 첫 계정과 추가 계정을 포함하여 모든 로그인에 적용됩니다. 조직이 여러 Azure Active Directory 테넌트에 걸친 경우, 허용 모록에 여러 테넌트 ID를 포함할 수 있습니다. 다른 계정에 추가하는 링크는 Teams에 계속 표시될 수 있지만, 작동되지 않습니다.
 
 > [!NOTE]
 > 

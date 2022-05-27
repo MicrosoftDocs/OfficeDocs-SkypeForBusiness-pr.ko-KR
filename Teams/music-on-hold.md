@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: 전화 시스템 음악 보류 기능을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 4899ffd2a3b6bfda80164ca2df4a5460a2b005e2
-ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
+ms.openlocfilehash: 3f5121e72436966a82b38917453bcd21d8efa10f
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65624236"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674420"
 ---
 # <a name="music-on-hold"></a>보류 중인 음악
 
@@ -36,11 +36,11 @@ Microsoft Teams 통화 시나리오에서 제공되는 기본 음악은 조직�
 
 보류에 음악 구성하려면 다음을 수행합니다.
 
-1.  Teams 관리 센터의 왼쪽 탐색 영역에서 **음성 > 통화 정책** 으로 이동합니다.
+1. Teams 관리 센터의 왼쪽 탐색 영역에서 **음성 > 통화 정책** 으로 이동합니다.
 
-2.  **정책 관리** 탭에서 기존 정책 중 하나를 선택하거나 새 정책을 만듭니다.
+2. **정책 관리** 탭에서 기존 정책 중 하나를 선택하거나 새 정책을 만듭니다.
 
-3.  **PSTN 호출자에 대해 보류 중인 음악** 드롭다운 메뉴에서 **[사용]** 을 선택합니다.
+3. **PSTN 호출자에 대해 보류 중인 음악** 드롭다운 메뉴에서 **[사용]** 을 선택합니다.
 
 Teams PowerShell 모듈을 사용하여 보류 중인 음악 구성할 수도 있습니다. TeamsCallingPolicy에서 MusicOnHoldEnabledType 매개 변수를 Enabled로 변경한 다음 해당 정책 인스턴스를 하나 이상의 사용자에게 부여합니다.
 
@@ -57,7 +57,6 @@ Teams 사용자에게 음악 사용 안 함으로 설정된 Teams 통화 정책�
 보류 중인 사용자 지정 음악 구성하려면 PowerShell 모듈 3.0.0 이상 Teams에서 PowerShell cmdlet New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy 및 Import/Get/Remove/Export-CsOnlineAudioFile을 사용합니다.
 
 지원되는 오디오 형식 및 최대 파일 크기는 [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)을 참조하세요.
-
 
 1. Teams 사용자가 Teams 통화 정책에서 사용으로 설정된 PSTN 호출자에 대해 음악 보류 중인지 확인합니다. 
 
@@ -104,7 +103,6 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 다음 표에서는 보류 중인 음악 지원하는 클라이언트 및 디바이스의 기능과 보류 중인 사용자 지정 음악 나타냅니다. Microsoft는 계속해서 기능 지원을 추가하므로 추가 가용성에 대해 자주 다시 확인하세요.
 
-
 | 기능 | 데스크톱 <br> Windows/Mac OS | 브라우저 | 모바일 <br> iOS | 모바일 <br> Android | Teams 전화 |
 | :------------| :------- | :------- | :------- | :------- | :------- |
 | 1:1 PSTN 통화 대기 | -음악 대기 중<br>-사용자 지정 음악 보류 중 | -음악 대기 중<br>-사용자 지정 음악 보류 중 | -음악 대기 중<br>-사용자 지정 음악 보류 중 | -음악 대기 중<br>-사용자 지정 음악 보류 중 | -음악 대기 중<br>-사용자 지정 음악 보류 중 |
@@ -147,4 +145,3 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 - [Grant-CsTeamsCallHoldPolicy](/powershell/module/skype/grant-csteamscallholdpolicy)
 
 - [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy)
-

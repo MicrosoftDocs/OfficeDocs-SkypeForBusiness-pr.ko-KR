@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: 관리자는 Microsoft Teams 룸 누적 개선 사항을 나열하는 Microsoft Teams 룸 대한 릴리스 정보를 읽을 수 있습니다.
+description: 관리 Microsoft Teams 룸 누적 개선 사항을 나열하는 Microsoft Teams 룸 대한 릴리스 정보를 읽을 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f91c286f08046d1a521d3758f1fc297bf2aa0d59
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 03a23ecb47fb0efca19ce3a7085a1fcc41b80dc3
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187024"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674200"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 룸 대한 릴리스 정보
 
@@ -95,9 +95,9 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 
 이 업데이트에 도입된 내용은 다음과 같습니다.
 - IT 관리자는 XML 설정을 통해 공개 미리 보기 기능을 수신하도록 Teams 룸 디바이스를 등록할 수 있습니다. 등록되면 디바이스가 베타 기능을 받기 시작합니다. 베타 테스트로 이동하는 모든 기능은 [Microsoft Teams 공개 미리 보기에서 발표됩니다 - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) <sup>1,2</sup>  
-- IT 관리자는 XML 설정을 통해 회의실 전면 디스플레이 해상도 및 원격으로 크기 조정을 설정할 수 <sup>있습니다2</sup>
-- IT 관리자는 XML 설정을 통해 Microsoft 노이즈 억제를 사용하지 않도록 설정할 수 <sup>있습니다3</sup> 
-- IT 관리자는 레지스트리 키 설정을 통해 디바이스에서 다운로드 폴더 정리를 재정의할 수 <sup>있습니다4</sup>
+- IT 관리자는 XML 설정<sup>2</sup>를 통해 회의실 전면 디스플레이 해상도 및 원격으로 크기 조정을 설정할 수 있습니다.
+- IT 관리자는 XML 설정 3을 통해 Microsoft 노이즈 억제를 사용하지 않도록 설정할 수 있습니다<sup>.</sup> 
+- IT 관리자는 레지스트리 키 설정<sup>4</sup>를 통해 디바이스에서 다운로드 폴더 정리를 재정의할 수 있습니다.
 - 사용자가 다른 클라우드에서 호스트되는 Teams 모임에 참가할 수 있도록 설정(즉, GCCH 고객은 상용 클라우드에서 호스트되는 Teams 모임에 참가할 수 있음). 
 - Teams 룸은 이제 터치 디스플레이가있는 Teams 룸에 대한 추가 보안 조치로 PowerPoint Live URL에서 에지 브라우저를 시작하는 것을 차단합니다. 
 - 이제 모임 환경이 개선되어 사용자가 회의실에 사용자를 초대하는 지침을 추가합니다. 
@@ -125,8 +125,8 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 
 이 업데이트에 도입된 내용은 다음과 같습니다.
 - Windows <sup>1</sup>의 MTR에 대한 앞줄 레이아웃(미리 보기) 
-- 앞줄 레이아웃을 기본값으로 설정하는 관리자 설정  
-- 지금 만나서 기본 클라이언트 모드<sup>1,2</sup>를 Teams Teams만 앱 업데이트를 호출합니다.
+- 앞줄 레이아웃을 기본값으로 설정하는 관리 설정  
+- 지금 만나서 Teams만 앱 업데이트 호출, 기본 클라이언트 모드<sup>Teams 1,2</sup>
 - Teams 모임에서 여러 비디오 카메라 간 전환<sup>1</sup> 
 - 기본 비디오 카메라 설정 
 - MTR 콘솔에서 푸시 투 토크 아이콘 업데이트 Cortana 
@@ -139,7 +139,7 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 > 
 > Microsoft Teams만 또는 비즈니스용 Skype 및 Microsoft Teams(기본값)에서 실행되는 Windows <sup>2</sup>개의 Teams 회의실이 새 모임 및 통화 환경으로 업데이트되지만 다른 모드는 이 업데이트의 영향을 받지 않습니다.
 > 
-> <sup>3</sup> [Teams 룸 대한 AAD 조건부 액세스](../rooms/rooms-authentication.md#azure-ad-conditional-access) 정책 설정에 대한 추가 세부 정보를 참조하세요.
+> <sup>3</sup> Teams 룸 [대한 AAD 조건부 액세스](../rooms/rooms-authentication.md#azure-ad-conditional-access) 정책 설정에 대한 추가 세부 정보를 참조하세요.
 > 
 > <sup>4</sup> 이 기능을 사용하려면 IT 관리자가 Teams 데스크톱 클라이언트 원격 PTZ 컨트롤 앱을 구성해야 합니다.
 > 
@@ -265,7 +265,7 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 이 업데이트에 도입된 내용은 다음과 같습니다.
 
 - 직접 게스트 조인을 사용하여 Teams 룸 Cisco WebEx 모임 참가
-- Teams 관리 센터 사용 및 자동 등록
+- Teams 관리 Center 사용 및 자동 등록
 - Windows 10 1909 릴리스 지원
 - 콘텐츠가 있는 경우에도 비디오 갤러리 레이아웃으로 전환
 - 발표자에 대한 참석자 및 컨트롤에 대한 가상 인상 손 지원
@@ -321,7 +321,7 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 이 업데이트에 도입된 내용은 다음과 같습니다.
 
 - 이를 제어하기 위한 근접 기반 통화 및 관리자 설정 자동 응답
-- 정보 탭에서 디바이스 구성을 추가하여 디바이스 관리자 설정 UI 새로 고침
+- 정보 탭에서 디바이스 구성을 추가하여 디바이스 관리 설정 UI 새로 고침
 - 주 화면으로 다시 방 제어
 - GCC 사용할 수 있는 미팅룸 SKU
 - Surface Pro 기반 시스템에 대한 콘텐츠 카메라 지원(최소 필수 앱 빌드: 4.2.4.0)
@@ -352,7 +352,7 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 - 테마 업데이트: 콘솔 UI 컨트롤이 색 대비(접근성 요구 사항)를 충족하도록 콘솔 배경을 중립 색으로 만드는 동시에 사용자 지정 배경 이미지만 방 디스플레이 앞에 유지
 - Microsoft Teams PC/웹/모바일 클라이언트<sup>1</sup>에서 일관된 환경을 제공하기 위해 Teams 통화/모임에 대한 모임 내 통화 제어를 위한 유니버설 바
 - 통화/모임 Teams 후 통화 품질 피드백 등급<sup>1</sup>
-- PC/웹/모바일 Teams <sup>client1</sup> <sup>2</sup>에서 공유할 때 방 앞 Microsoft Teams 룸 디스플레이의 수신/렌더링 Microsoft Whiteboard
+- PC/웹/모바일 Teams 클라이언트<sup>1</sup> <sup>2</sup>에서 공유할 때 방 앞 Microsoft Teams 룸 디스플레이의 수신/렌더링 Microsoft Whiteboard
 - Microsoft Teams 룸 클라이언트와의 호환성 문제로 인해 Windows 10 버전 1809 업그레이드에 대한 지원이 제거되었습니다. Windows 10 버전 19H1 지원은 향후 릴리스에 추가될 예정입니다.
 
 <sup>Teams</sup> 링을 사용하는 1개의 Microsoft Teams 서비스 롤아웃. 이 기능은 4.0.105.0 클라이언트 업데이트 이전 또는 이후 버전에서 사용할 수 있습니다.
@@ -521,7 +521,7 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 - 공용 빌드에 대한 피드백을 제공하는 기능
 - 모임 참가 안정성과 관련된 향상된 원격 분석
 - 향상된 OMS 보고
-- IT 관리자가 원격으로 디바이스를 구성하는 기능
+- IT 관리 디바이스를 원격으로 구성하는 기능
 
 ### <a name="2020-03152017"></a>2.0.2.0 (03/15/2017)
 

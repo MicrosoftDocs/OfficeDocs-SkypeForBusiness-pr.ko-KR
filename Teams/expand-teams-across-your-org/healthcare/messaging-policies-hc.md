@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: 읽음 확인 및 우선 순위 알림을 포함할 수 있는 Microsoft Teams에 대한 보안 메시징 정책을 사용자 지정하는 방법을 알아보세요.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ededfabcca1ab61ec822f201502658f4d8ac498a
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: c450bb298e0a0e01440442d0813708048005a652
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045525"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674870"
 ---
 # <a name="secure-messaging-for-healthcare-organizations"></a>의료 조직을 위한 메시지 보안
 
@@ -37,11 +37,11 @@ ms.locfileid: "60045525"
 
 [Microsoft Teams 관리 센터](https://admin.teams.microsoft.com)에서 관리자 자격 증명으로 로그인한 후 왼쪽 탐색 창에서 **메시징 정책** 을 선택하여 정책을 쉽게 관리할 수 있습니다.
 
- :::image type="content" source="../../media/hc-messaging-policy-admin-center-new.png" alt-text="메시징 정책 페이지의 스크린샷입니다." lightbox="../../media/hc-messaging-policy-admin-center-new.png":::
+ :::image type="content" source="../../media/hc-messaging-policy-admin-center-new.png" alt-text="메시징 정책 페이지의 스크린샷." lightbox="../../media/hc-messaging-policy-admin-center-new.png":::
  
  조직의 기존 기본 메시징 정책을 편집하려면 **글로벌(조직 전체 기본값)** 을 클릭한 다음 변경하세요. 새로운 사용자 지정 메시징 정책을 생성하려면 **추가** 를 누른 다음 설정을 선택하세요. 완료되면 **저장** 을 선택합니다.
 
-![메시징 정책 설정 스크린샷.](../../media/hc-messaging-policy.png)
+![메시징 정책 설정의 스크린샷.](../../media/hc-messaging-policy.png)
 
 다음 설정은 의료 응용 프로그램에 특히 중요하며, 의료 분야에서 사용되는 맞춤형 정책을 설계할 때 고려해야 합니다.
 

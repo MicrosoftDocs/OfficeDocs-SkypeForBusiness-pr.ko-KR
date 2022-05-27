@@ -1,5 +1,5 @@
 ---
-title: 교육용 Teams 부모 관리자 설정
+title: 교육용 Teams 부모의 관리 설정
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f08ddd68d036d18e4ea18073dd0711e32e0c91e
-ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
+ms.openlocfilehash: ccc69a07d523b046298643ad387e31e25138096f
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393872"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676130"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>교육용 Microsoft Teams 부모 연결 설정
 
@@ -102,8 +102,8 @@ ms.locfileid: "65393872"
 
 클래스 소유자는 다음을 수행할 수 있습니다.
 
-1. 보호자의 프로필 카드를 열고 줄임표를 선택하고 **사용자를 차단합니다**. 
-2. 그런 다음 채팅에서 보호자를 제거합니다. 
+1. 보호자의 프로필 카드를 열고 줄임표를 선택하고 **사용자를 차단합니다**.
+2. 그런 다음 채팅에서 보호자를 제거합니다.
 
 차단된 사용자는 클래스 소유자와 추가 채팅을 시작할 수 없습니다.
 
