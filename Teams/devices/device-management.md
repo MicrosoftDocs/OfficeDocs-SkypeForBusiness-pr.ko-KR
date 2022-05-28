@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 디바이스 관리
-author: cazawideh
-ms.author: czawideh
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4346d82e490d28840e029d257cbeeb4c4e10765
-ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
+ms.openlocfilehash: 576c22d95dbbbb16105eb8e365c717ba7140cfb8
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65220641"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65767244"
 ---
 # <a name="microsoft-teams-managing-your-devices"></a>Microsoft Teams: 디바이스 관리 
 
@@ -66,13 +66,13 @@ Teams 룸 디바이스를 관리하는 방법에 대한 자세한 내용은 [Mic
 | 모임 활동 보기                  | 디바이스 이름을 선택하여 디바이스 세부 정보 > **작업을** 엽니다. **활동** 탭을 열면 디바이스가 참가한 모든 모임을 볼 수 있습니다. 이 요약 보기는 모임 시작 시간, 참가자 수, 해당 기간 및 전체 통화 품질을 보여줍니다.                                                                                        |
 | 모임 세부 정보 보기                   | 디바이스 이름을 선택하여 디바이스 세부 정보 > **활동** > 모임을 선택합니다. 모임의 세부 정보를 열면 모임의 모든 참가자, 통화 기간, Teams 세션 유형 및 개별 통화 품질을 볼 수 있습니다. 참가자의 통화에 대한 기술 정보를 보려면 참가자의 통화 시작 시간을 선택합니다. |
 
-## <a name="manage-phones-teams-rooms-on-android-teams-displays-and-teams-panels"></a>휴대폰 관리, Android에서 Teams 룸, 디스플레이 Teams 및 Teams 패널 
+## <a name="manage-phones-teams-rooms-on-android-teams-displays-and-teams-panels"></a>휴대폰 관리, Android Teams 룸, Teams 디스플레이 및 Teams 패널 
 
-Teams 관리 센터에서 휴대폰, Android에서 Teams 룸, Teams 표시 및 조직의 Teams 등록된 Teams 패널을 보고 관리할 수 있습니다. 각 디바이스에 대해 표시되는 정보에는 디바이스 이름, 제조업체, 모델, 사용자, 상태, 작업, 마지막으로 본 내용 및 기록이 포함됩니다. 보기를 사용자 지정하여 요구 사항에 맞는 정보를 표시할 수 있습니다.
+Teams 관리 센터에서는 조직의 Teams 등록된 휴대폰, Android Teams 룸, Teams 디스플레이 및 Teams 패널을 보고 관리할 수 있습니다. 각 디바이스에 대해 표시되는 정보에는 디바이스 이름, 제조업체, 모델, 사용자, 상태, 작업, 마지막으로 본 내용 및 기록이 포함됩니다. 보기를 사용자 지정하여 요구 사항에 맞는 정보를 표시할 수 있습니다.
 
-휴대폰, android Teams 룸, Teams 디스플레이 및 Teams 패널은 등록한 경우 Microsoft Intune 자동으로 등록됩니다. 디바이스가 등록되면 디바이스 준수가 확인되고 조건부 액세스 정책이 디바이스에 적용됩니다.
+휴대폰, Android Teams 룸, Teams 디스플레이 및 Teams 패널은 등록한 경우 Microsoft Intune 자동으로 등록됩니다. 디바이스가 등록되면 디바이스 준수가 확인되고 조건부 액세스 정책이 디바이스에 적용됩니다.
 
-다음은 휴대폰, Android에서 Teams 룸, Teams 디스플레이 및 조직의 Teams 패널을 관리하는 방법의 몇 가지 예입니다.  
+다음은 조직의 휴대폰, Android Teams 룸, Teams 디스플레이 및 Teams 패널을 관리하는 방법의 몇 가지 예입니다.  
 
 | 이렇게 하려면...                           | 이 작업을 수행합니다.                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -87,13 +87,13 @@ Teams 관리 센터에서 휴대폰, Android에서 Teams 룸, Teams 표시 및 �
 
 ### <a name="use-configuration-profiles-in-teams"></a>Teams 구성 프로필 사용
 
-구성 프로필을 사용하여 Android의 Teams 룸, Teams 디스플레이, Teams 휴대폰 및 Teams 패널을 포함하여 조직의 다양한 Teams 디바이스에 대한 설정 및 기능을 관리할 수 있습니다. 사용하거나 사용하지 않도록 설정하려는 설정 및 기능을 포함하도록 구성 프로필을 만들거나 업로드한 다음 디바이스 또는 디바이스 집합에 프로필을 할당할 수 있습니다. 
+구성 프로필을 사용하여 Android, Teams 디스플레이, Teams 휴대폰 및 Teams 패널의 Teams 룸 포함하여 조직의 다양한 Teams 디바이스에 대한 설정 및 기능을 관리할 수 있습니다. 사용하거나 사용하지 않도록 설정하려는 설정 및 기능을 포함하도록 구성 프로필을 만들거나 업로드한 다음 디바이스 또는 디바이스 집합에 프로필을 할당할 수 있습니다. 
 
 #### <a name="create-a-configuration-profile"></a>구성 프로필 만들기
 
 Teams 디바이스 유형에 대한 구성 프로필을 만들려면 다음을 수행합니다.
 
-1. 왼쪽 탐색 창에서 **Teams 디바이스** 로 이동하여 Teams 디바이스 유형 > **구성 프로필을** > 선택합니다. 예를 들어 **Teams 디바이스** > **Teams panelsConfiguration** >  **프로필을** 선택하여 Teams 패널에 대한 새 구성 프로필을 만듭니다.
+1. 왼쪽 탐색 창에서 **Teams 디바이스** 로 이동하여 Teams 디바이스 유형 > **구성 프로필을** > 선택합니다. 예를 들어 **Teams 디바이스** > **Teams 패널** > **구성 프로필을** 선택하여 Teams 패널에 대한 새 구성 프로필을 만듭니다.
 2. **추가** 를 클릭합니다.
 3. 프로필의 이름을 입력하고 필요에 따라 친숙한 설명을 추가합니다.
 4. 프로필에 대해 원하는 설정을 지정하고 **저장** 을 클릭합니다.
