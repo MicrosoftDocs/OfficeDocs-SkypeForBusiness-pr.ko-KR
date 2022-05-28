@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 룸 릴리스 정보(Windows)
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리 Microsoft Teams 룸 누적 개선 사항을 나열하는 Microsoft Teams 룸 대한 릴리스 정보를 읽을 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eadeea6648da5ef2a5b5210b45bb3c884a1cabe8
-ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
+ms.openlocfilehash: cbf840eb8abc60cbdc53325e41b3d9f95e6b4713
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/27/2022
-ms.locfileid: "65753061"
+ms.locfileid: "65761110"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 룸 대한 릴리스 정보
 
@@ -95,8 +95,8 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 ### <a name="4121380-5262022"></a>4.12.138.0 (5/26/2022)
 
 이 업데이트에 도입된 내용은 다음과 같습니다.
-- Jabra Panacast 50에 대한 버그 수정
-- 클라우드 간 익명 모임 참가에 대한 버그 수정
+- Jabra Panacast 50의 여러 동시 비디오 스트림에 대한 버그 수정(모임 비디오, 콘텐츠 카메라 비디오)
+- 이제 클라우드 간 모임에서 기본 회의 오디오 디바이스를 사용할 수 있습니다.
 - 품질 및 안정성 수정
 
 ### <a name="4121260-4272022"></a>4.12.126.0 (4/27/2022)

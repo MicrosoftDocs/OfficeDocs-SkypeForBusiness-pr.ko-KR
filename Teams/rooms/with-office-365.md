@@ -1,7 +1,7 @@
 ---
 title: 회의실 및 공유 Teams 디바이스에 대한 리소스 계정 만들기
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,16 +15,16 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Microsoft Teams 룸, Surface Hub Teams 룸, Teams 디스플레이의 핫 데스크 등 회의실 및 공유 디바이스에 대한 리소스 계정을 만드는 방법에 대한 자세한 내용은 이 문서를 참조하세요.
-ms.openlocfilehash: e788ca2086faf86f602ef0938d520ea03dce4ef4
-ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
+ms.openlocfilehash: 53d69a5dd91e012bc948bad1b9d7350afcbbb1b2
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "64885026"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760890"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>회의실 및 공유 Teams 디바이스에 대한 리소스 계정 만들기 및 구성
 
-이 문서에서는 공유 공간 및 디바이스에 대한 리소스 계정을 만드는 단계를 제공하며, Windows Microsoft Teams 룸, Android에서 Teams 룸, Surface Hub Teams 룸, Teams 디스플레이의 핫 데스크에 대한 리소스 계정을 구성하는 단계가 포함되어 있습니다.
+이 문서에서는 공유 공간 및 디바이스에 대한 리소스 계정을 만드는 단계를 제공하며, Windows Microsoft Teams 룸, Android Teams 룸, Surface Hub Teams 룸, Teams 핫 데스크에 대한 리소스 계정을 구성하는 단계가 포함되어 있습니다.  표시.
 
 Microsoft 365 리소스 계정은 회의실 또는 프로젝터와 같은 특정 리소스 전용 사서함 및 Teams 계정입니다. 이러한 리소스 계정은 만들 때 정의하는 규칙을 사용하여 모임 초대에 자동으로 응답할 수 있습니다. 예를 들어 회의실과 같은 공통 리소스가 있는 경우 일정 가용성에 따라 모임 초대를 자동으로 수락하거나 거절하는 해당 회의실에 대한 리소스 계정을 설정할 수 있습니다. 
 
@@ -62,7 +62,7 @@ Microsoft 365 리소스 계정을 만들기 전에 필요한 라이선스 종류
 
 - **PSTN 호출** 리소스가 외부 전화 번호(공중 전화망 또는 PSTN 통화라고 함)로부터 전화를 걸거나 받도록 하려면 Microsoft 365 전화 시스템 또는 Microsoft 365 Business Voice 라이선스가 필요합니다. 다음 개요에서 1단계만 완료하면 됩니다. 그런 다음, [자세한 내용은 Microsoft Teams 추가 기능 라이선스를 참조하세요](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-- 리소스 계정만 사용하여 리소스&mdash;를 예약하는 경우 모임에 리소스를 초대하고 초대&mdash;를 자동으로 수락하거나 거절하도록 하면 리소스 계정에 라이선스를 할당할 필요가 없으며 다음 개요의 1단계만 완료하면 됩니다.  
+- 리소스 계정만 사용하여 리소스&mdash;를 예약하는 경우 모임에 리소스를 초대하고 리소스 계정에 라이선스를 할당할 필요가 없는 초대&mdash;를 자동으로 수락하거나 거절하도록 하며 다음 개요의 1단계만 완료하면 됩니다.  
 
 ## <a name="overview"></a>개요
 
@@ -104,9 +104,9 @@ Microsoft 365 리소스 계정을 만들기 전에 필요한 라이선스 종류
       - 최대 기간(시간): 24
     - 모임 요청 자동 수락
 
-    변경하려면 **닫기를** 선택하기 전에 **예약 옵션 설정을** 선택합니다. 나중에 변경하려면 **ResourcesRooms** >  **& 장비** 로 이동하여 리소스 계정을 선택합니다. 그런 다음 **예약 옵션** 에서 **편집** 을 선택합니다.
+    변경하려면 **닫기를** 선택하기 전에 **예약 옵션 설정을** 선택합니다. 나중에 변경하려면 **리소스** > **룸 & 장비** 로 이동하여 리소스 계정을 선택합니다. 그런 다음 **예약 옵션** 에서 **편집** 을 선택합니다.
 
-6. **UsersActive** >  **사용자** 로 이동하고 만든 회의실을 선택하여 속성 패널을 엽니다.
+6. **사용자** > **활성 사용자** 로 이동하고 만든 회의실을 선택하여 속성 패널을 엽니다.
 
 7. 다음으로, 리소스 계정에 암호를 할당합니다. 패널에서 **암호 재설정** 을 선택합니다.
  
@@ -202,7 +202,7 @@ Exchange 하이브리드 구성을 사용하는 경우 온-프레미스 도메�
 > [!IMPORTANT]
 > 이 리소스 계정만 사용하여 공간을 예약하고 초대를 자동으로 수락하거나 거절하는 경우 설정을 완료했습니다. PSTN 통화에 이 리소스 계정을 사용하는 경우 필요한 라이선스를 확인하려면 [Microsoft Teams 추가 기능 라이선스](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)를 참조하세요.
 >
-> 리소스 계정이 Windows Teams 룸, Android에서 Teams 룸, Surface Hub Teams 룸 또는 핫 데스크가 있는 Teams 표시용인 경우에만 다음 섹션으로 계속 진행합니다.
+> 리소스 계정이 Windows Teams 룸, Android Teams 룸, Surface Hub Teams 룸 또는 핫 데스크가 있는 Teams 표시용인 경우에만 다음 섹션으로 계속 진행합니다.
 
 ## <a name="configure-mailbox-properties"></a>사서함 속성 구성
 
@@ -310,12 +310,12 @@ Microsoft Teams 로그인하려면 리소스 계정에 Microsoft 365 또는 Offi
 > [!NOTE]
 > Microsoft Teams 룸 스탠더드 및 Microsoft Teams 룸 프리미엄 Teams 룸 포함하여 공유 회의실 디바이스에 사용할 수 있는 두 가지 SKU입니다. 핫 데스크가 있는 Teams 디스플레이에는 회의실 라이선스가 필요합니다. 자세한 내용은 [Teams 회의실 라이선스를 참조하세요](rooms-licensing.md).
 
-Microsoft 365 관리 센터 사용하여 라이선스를 할당하려면 [사용자에게 라이선스 할당을 참조하세요](/microsoft-365/admin/manage/assign-licenses-to-users). Azure AD를 사용하여 라이선스를 할당하려면 다음 탭 중 하나를 참조하세요.
+Microsoft 365 관리 센터 사용하여 라이선스를 할당하려면 [사용자에게 라이선스 할당을 참조하세요](/microsoft-365/admin/manage/assign-licenses-to-users). Azure AD 사용하여 라이선스를 할당하려면 다음 탭 중 하나를 참조하세요.
 
 #### <a name="active-directory-20"></a>[**Active Directory 2.0**](#tab/active-directory2-license/)
 
 
-1. Azure AD에 커넥트
+1. Azure AD 커넥트
   
     ```PowerShell
     Connect-AzureAD

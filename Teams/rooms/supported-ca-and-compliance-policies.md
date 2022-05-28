@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 룸 대해 지원되는 조건부 액세스 및 Intune 디바이스 준수 정책
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: kspiess
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 description: Microsoft Teams 룸 대해 지원되고 권장되는 조건부 액세스 및 Intune 디바이스 준수 정책에 대해 알아봅니다.
-ms.openlocfilehash: 1c355280622d03cf0a8100f0ee4a23dd17df88a1
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 8492f94106423498c7e301e48c8f4d046d569674
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675240"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761470"
 ---
 # <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms-and-teams-android-devices"></a>Microsoft Teams 룸 및 Teams Android 디바이스에 대해 지원되는 조건부 액세스 및 Intune 디바이스 준수 정책
 

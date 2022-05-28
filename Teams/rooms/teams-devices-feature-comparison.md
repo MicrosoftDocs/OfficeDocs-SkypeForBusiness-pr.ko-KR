@@ -1,7 +1,7 @@
 ---
 title: Windows 및 Android 간의 공유 공간 기능 비교를 위한 Teams 디바이스
-author: cazawideh
-ms.author: czawideh
+author: dstrome
+ms.author: dstrome
 manager: jsarrasin
 ms.date: 10/07/2021
 ms.topic: conceptual
@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30e1bc6043d48ff222963c2794ad5099af9308ca
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: de089e5c87615f039e91832d95310faa8ff41ac6
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676300"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761080"
 ---
 # <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>Windows Android 간의 공유 공간 기능 비교를 위한 Teams 디바이스 
 Microsoft Teams 룸 환경은 고객을 염두에 두고 설계되었습니다. 모든 고객에게는 고유한 요구 사항이 있으므로 Microsoft는 Windows 및 Android Teams 룸 포함하여 다양한 옵션을 제공합니다. 

@@ -1,7 +1,7 @@
 ---
 title: Teams 룸 음성 인식(음성 프로필)에 대한 테넌트 관리 제어
-author: cazawideh
-ms.author: czawideh
+author: dstrome
+ms.author: dstrome
 ms.reviewer: parisataheri
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95f3b03ddad75cd36bb6dbbfd51eac08d7742aac
-ms.sourcegitcommit: 20d44ce9a62ba2fb60f989d2e7bbc9333055e783
+ms.openlocfilehash: 3d5caa402be0ea282d70bfe17cc9d2d728e6ec2c
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65063259"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760930"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>지능형 스피커에 대한 음성 인식 기술 컨트롤 관리
 

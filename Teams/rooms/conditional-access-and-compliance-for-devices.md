@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 룸 대한 조건부 액세스 및 규정 준수 모범 사례
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 description: 권장되는 조건부 액세스 및 Intune 디바이스 준수 정책 및 Microsoft Teams 룸 대한 모범 사례에 대해 알아봅니다.
-ms.openlocfilehash: b4e1d3cb91ff68e664d590c8e180e55211ca93b0
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 1221060121f47154549c6c6fc926415f4feabbe5
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675490"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761310"
 ---
 # <a name="conditional-access-and-intune-compliance-for-microsoft-teams-rooms"></a>Microsoft Teams 룸 대한 조건부 액세스 및 Intune 규정 준수
 

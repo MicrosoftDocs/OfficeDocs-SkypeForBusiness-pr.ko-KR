@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 룸 유지 관리 및 운영
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Microsoft Teams 룸 관리에 대해 알아봅니다.
-ms.openlocfilehash: d57f84aa07c90b6a75693f0cbf739402a6e90a4c
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: df9760694bd8e0c650be25eec7d435efcae02127
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125473"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761060"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams 룸 유지 관리 및 운영
  
@@ -30,7 +30,7 @@ Microsoft Teams 룸 회의실을 풍부하고 공동 작업적인 환경으로 �
 
 Teams 관리 센터에서 로그를 수집하려면 **Windows > Teams 룸 Teams 디바이스로** 이동합니다. 로그를 사용할 디바이스의 표시 이름을 선택합니다. 위쪽 패널에서 "디바이스 로그 다운로드"를 선택합니다. 확인되면 몇 분 후에 기록 탭에서 로그를 다운로드할 준비가 됩니다.
 
-PowerShell을 사용하여 로그를 수집할 수도 있습니다. Microsoft Teams 룸 앱과 함께 제공되는 로그 수집 스크립트를 호출해야 합니다. [관리자 모드](rooms-operations.md)에서 관리자 권한 명령 프롬프트를 시작하고 다음 명령을 실행합니다.
+PowerShell을 사용하여 로그를 수집할 수도 있습니다. Microsoft Teams 룸 앱과 함께 제공되는 로그 수집 스크립트를 호출해야 합니다. [관리 모드](rooms-operations.md)에서 관리자 권한 명령 프롬프트를 시작하고 다음 명령을 실행합니다.
   
 ```PowerShell
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -98,7 +98,7 @@ Microsoft Teams 룸 잘 실행되지 않는 경우 공장 재설정을 수행하
 |:-----|:-----|:-----|
 |다시 시작할  <br/> |Teams 관리 센터  <br/> 원격 데스크톱  <br/> 원격 PowerShell  <br/> | <br/>원격 데스크톱(추가 구성 필요)  <br/> 원격 PowerShell(추가 구성 필요)  <br/> Configuration Manager  <br/> |
 |OS 업데이트  <br/> |Windows 업데이트  <br/> |Windows 업데이트  <br/> WSUS  <br/> |
-|앱 업데이트  <br/> |Windows 스토어  <br/> |Windows 스토어  <br/> Configuration Manager  <br/> |
+|앱 업데이트  <br/> |Windows Microsoft Store  <br/> |Windows Microsoft Store  <br/> Configuration Manager  <br/> |
 |계정 구성  <br/> |Teams 관리 센터  <br/> |Teams 관리 센터  <br/> |
 |액세스 로그  <br/> |Teams 관리 센터  <br/> Powershell  <br/> |Teams 관리 센터 <br/> Powershell  <br/>  |
    
@@ -159,10 +159,10 @@ PowerShell을 사용하여 원격으로 다음 관리 작업을 수행할 수 �
   
 예를 들어 다음과 같이 원격 PowerShell을 사용하도록 설정할 수 있습니다.
   
-1. Microsoft Teams 룸 디바이스에서 관리자로 로그인합니다.
+1. Microsoft Teams 룸 디바이스에서 관리 로그인합니다.
 2. 관리자 권한 PowerShell 명령 프롬프트를 엽니다.
 3. 다음 명령을 입력합니다. `Enable-PSRemoting -SkipNetworkProfileCheck -Force`
-4. 로컬 보안 정책을 열고 *보안* **설정** > **로컬 PoliciesUser** >  **권한 할당** > **에 관리자 보안 그룹을 네트워크에서 이 컴퓨터에 추가합니다**.
+4. 로컬 보안 정책을 열고 보안 **설정** > **로컬 정책** > **사용자 권한 할당** > 에 대한 *관리자* 보안 그룹을 **네트워크에서 이 컴퓨터에** 추가합니다.
 
 관리 작업을 수행하려면 다음을 수행합니다.
   
@@ -221,7 +221,7 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>소프트웨어 업데이트
 <a name="SWupdate"> </a>
 
-기본적으로 Microsoft Teams 룸 최신 버전의 Microsoft Teams 룸 소프트웨어를 얻기 위해 Windows Store에 연결하려고 시도합니다. 따라서 Teams 룸 일반 인터넷 액세스가 필요합니다. 지원 문제로 Microsoft에 문의하기 전에 Microsoft Teams 룸 최신 버전의 앱과 함께 로드되었는지 확인합니다.
+기본적으로 Microsoft Teams 룸 최신 버전의 Microsoft Teams 룸 소프트웨어를 얻기 위해 Windows Microsoft Store 연결하려고 시도합니다. 따라서 Teams 룸 일반 인터넷 액세스가 필요합니다. 지원 문제로 Microsoft에 문의하기 전에 Microsoft Teams 룸 최신 버전의 앱과 함께 로드되었는지 확인합니다.
   
 Microsoft Teams 룸 Windows 업데이트 연결하여 운영 체제 및 주변 장치 펌웨어 업데이트를 검색합니다. 또한 Microsoft Store 연결하여 애플리케이션 업데이트를 검색합니다.
 
@@ -230,14 +230,14 @@ Microsoft Teams 룸 Windows 업데이트 연결하여 운영 체제 및 주변 �
 ## <a name="admin-mode-and-device-management"></a>관리 모드 및 디바이스 관리
 <a name="AdminMode"> </a>
 
-개인 CA 인증서를 수동으로 설치하는 것과 같은 일부 관리 기능을 사용하려면 관리 모드에서 Teams 룸 배치해야 합니다. 
+프라이빗 CA 인증서를 수동으로 설치하는 것과 같은 일부 관리 기능을 사용하려면 관리 모드에서 Teams 룸 배치해야 합니다. 
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Microsoft Teams 룸 앱이 실행 중일 때 관리자 모드로 전환 및 다시 전환
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Microsoft Teams 룸 앱이 실행 중일 때 관리 모드로 전환 및 다시 전환
 
 1. 진행 중인 전화를 끊고 홈 화면으로 돌아갑니다.
 2. 기어 아이콘을 선택하고 메뉴를 표시합니다(옵션은 **설정**, **접근성** 및 **디바이스 다시 시작**).
 3. **설정** 선택합니다.
-4. 관리자 암호를 입력합니다. 설치 화면이 나타납니다.  디바이스가 도메인에 가입되지 않은 경우 로컬 관리 계정(사용자 이름 "관리자")이 기본적으로 사용됩니다. 이 계정의 기본 암호는 'sfb'입니다. 가능한 한 빨리 이 암호를 변경합니다. 컴퓨터가 도메인에 가입된 경우 적절한 권한의 도메인 계정으로 로그인할 수 있습니다.
+4. 관리자 암호를 입력합니다. 설치 화면이 나타납니다.  디바이스가 도메인에 가입되지 않은 경우 로컬 관리 계정(사용자 이름 "관리")이 기본적으로 사용됩니다. 이 계정의 기본 암호는 'sfb'입니다. 가능한 한 빨리 이 암호를 변경합니다. 컴퓨터가 도메인에 가입된 경우 적절한 권한의 도메인 계정으로 로그인할 수 있습니다.
 5. 왼쪽 열에서 **Windows 설정** 선택합니다.
 6. 관리자 자격 증명을 사용하여 데스크톱에 로그인합니다. 디바이스를 관리하는 데 필요한 권한이 있습니다.
 7. 필요한 관리 작업을 수행합니다.
@@ -245,7 +245,7 @@ Microsoft Teams 룸 Windows 업데이트 연결하여 운영 체제 및 주변 �
     
 이제 콘솔이 정상 작동 모드로 돌아왔습니다. 다음 절차에서는 키보드가 아직 연결되지 않은 경우 디바이스에 키보드를 연결해야 합니다. 
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>Microsoft Teams 룸 앱이 충돌할 때 관리자 모드로 전환 및 다시 전환
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>Microsoft Teams 룸 앱이 충돌할 때 관리 모드로 전환 및 다시 전환
 
 1. Windows 키를 5번 연속해서 누릅니다. 그러면 Windows 로그온 화면으로 연결됩니다. 
 2. 관리자 자격 증명을 사용하여 데스크톱에 로그인합니다.

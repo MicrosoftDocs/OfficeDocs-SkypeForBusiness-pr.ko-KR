@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 룸 이미지 빌드
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: Travis-Snoozy
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 이 문서에서는 Microsoft Teams 룸 콘솔 및 해당 주변 장치를 설정하고 구성하는 방법을 설명합니다.
-ms.openlocfilehash: 9c1358b5e9561f197dc1142c40144646b5a11ce4
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: d3c4f534fbd5395c7e0cda8e095b5a6d7a2b8def
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676390"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761260"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>Microsoft Teams 룸 이미지 빌드
 

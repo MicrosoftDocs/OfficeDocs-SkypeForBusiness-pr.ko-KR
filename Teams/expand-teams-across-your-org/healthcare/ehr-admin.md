@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Teams EHR 커넥터를 통합하여 조직의 의료 공급자가 Epic EHR 시스템에서 직접 Teams 환자 또는 다른 공급자와 가상 약속을 수행할 수 있도록 하는 방법을 알아봅니다.
-ms.openlocfilehash: abe826b1e71c37e0932404233c234282ec90b7f9
-ms.sourcegitcommit: 3cb40132e36717dfbdc6dfe83e7ea319f3ec9347
+ms.openlocfilehash: c34c8fbb32d78c1380267ce6876e947b877ce383
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65465439"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760950"
 ---
 # <a name="virtual-appointments-with-teams---integration-into-epic-ehr"></a>Teams 가상 약속 - Epic EHR에 통합
 
@@ -62,7 +62,7 @@ Teams 통신 및 공동 작업 플랫폼을 사용하면 임상의가 조각난 
 
 Teams 앱에 대한 액세스를 요청해야 합니다.
 
-1. [에픽 앱 오차드 마켓플레이스에서 Teams 앱을](https://apporchard.epic.com/Gallery?id=6153) 다운로드하도록 요청합니다. 이렇게 하면 Epic에서 Microsoft EHR 커넥터 팀에 대한 요청이 트리거됩니다.
+1. [에픽 앱 오차드 마켓플레이스에서 Teams 앱을](https://apporchard.epic.com/Gallery?id=16793) 다운로드하도록 요청합니다. 이렇게 하면 Epic에서 Microsoft EHR 커넥터 팀에 대한 요청이 트리거됩니다.
 1. 요청을 수행한 후 에픽 기술 담당자의 조직 이름, 테넌트 ID 및 전자 메일 주소를 사용하여 [TeamsForHealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) 이메일을 보냅니다.
 1. Microsoft EHR 커넥터 팀은 사용 확인을 통해 전자 메일에 응답합니다.
 

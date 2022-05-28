@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 룸 배포
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 배포 단계를 포함하여 Microsoft Teams 룸 배포하는 방법에 대해 알아보려면 이 문서를 참조하세요.
-ms.openlocfilehash: 18a5d72fb9c11b34bb994734b8d064c3aaa2cdae
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 0111e8723d70b753c2d8de64350387252db8f8f7
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125773"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760920"
 ---
 # <a name="deployment-overview"></a>배포 개요
 
@@ -63,7 +63,7 @@ Microsoft Teams 룸 배포에서 사용하도록 설정하기로 결정한 공�
 | **시나리오** | **설명** | **Microsoft Teams 룸 서비스 계정 기능** |
 |---------- |------------- | --- |
 | 대화형 모임            | 음성, 비디오 및 화면 공유 사용 Microsoft Teams 룸 예약 가능한 리소스로 만들기                     | Exchange 사용하도록 설정된 Microsoft Teams 또는 비즈니스용 Skype;에 대해 사용하도록 설정됨(리소스 사서함) |
-| 전화 접속 회의            | 콘솔에서 "새 모임"을 탭할 때 오디오 회의 전화 번호가 있어야 합니다. | 오디오 회의에 사용하도록 설정                                          |
+| 전화 접속 회의            | 콘솔에서 "새 모임"을 탭할 때 오디오 회의 전화 번호가 있어야 합니다. | 오디오 회의 사용하도록 설정                                          |
 | 아웃바운드/인바운드 PSTN 호출 | Microsoft Teams 룸 콘솔에서 PSTN 호출을 만들고 받을 수 있도록 설정                                         | 전화 시스템 사용하도록 설정                                                |
 
 Microsoft Teams 룸 계정에 대한 자세한 내용은 [Microsoft Teams 룸 대한 계정 구성을](rooms-configure-accounts.md) 참조하세요.
@@ -79,8 +79,8 @@ _샘플 Microsoft Teams 룸 리소스 계정 계획 테이블_
 
 | **사이트**  | **방 이름** | **회의실 유형** | **향후 회의실 기능**                                                 | **Microsoft Teams 룸 계정 기능**                                                                                         |
 |-----------|---------------|---------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| 런던 본사 | 퀴리         | 중형        | 화면 1개, 오디오 및 비디오 및 프레젠테이션 <br>전화 접속 회의 액세스<br> PSTN 액세스  | Exchange 사용하도록 설정(리소스 사서함) <br>오디오 회의에 사용하도록 설정 <br>전화 시스템 사용하도록 설정 |
-| 시드니 본사 | 힐          | 대형         | 2 화면, 오디오 및 비디오 플러스 프레젠테이션<br>전화 접속 회의 액세스<br> PSTN 액세스  | 비즈니스용 Skype 사용하도록 설정 <br>Exchange 사용하도록 설정(리소스 사서함)<br> 오디오 회의에 사용하도록 설정 <br>전화 시스템 사용하도록 설정 |
+| 런던 본사 | 퀴리         | 중형        | 화면 1개, 오디오 및 비디오 및 프레젠테이션 <br>전화 접속 회의 액세스<br> PSTN 액세스  | Exchange 사용하도록 설정(리소스 사서함) <br>오디오 회의 사용하도록 설정 <br>전화 시스템 사용하도록 설정 |
+| 시드니 본사 | 힐          | 대형         | 2 화면, 오디오 및 비디오 플러스 프레젠테이션<br>전화 접속 회의 액세스<br> PSTN 액세스  | 비즈니스용 Skype 사용하도록 설정 <br>Exchange 사용하도록 설정(리소스 사서함)<br> 오디오 회의 사용하도록 설정 <br>전화 시스템 사용하도록 설정 |
 
 
 ### <a name="prepare-to-host-microsoft-teams-rooms-and-resource-accounts-optional"></a>Microsoft Teams 룸 및 리소스 계정 호스트 준비(선택 사항)
@@ -115,7 +115,7 @@ PowerShell을 사용하여 구성 정보 가져오기 및 설정을 비롯한 �
 
 각 Microsoft Teams 룸 디바이스에는 Microsoft Teams 또는 비즈니스용 Skype 모두 사용하도록 설정해야 하고 Exchange 전용 리소스 계정이 필요합니다. 이 계정에는 Exchange 호스트되는 회의실 사서함이 있어야 합니다. 디바이스가 들어오는 모임 요청을 자동으로 수락할 수 있도록 일정 처리를 구성해야 합니다. 이러한 계정을 만드는 방법에 대한 자세한 내용은 [Microsoft Teams 룸 대한 계정 구성](rooms-configure-accounts.md)을 참조하세요. 
 
-**Pro 팁** - 각 Microsoft Teams 룸 네트워크에 유효하고 고유한 컴퓨터 이름이 있어야 합니다. 많은 모니터링 및 경고 시스템은 컴퓨터 이름을 키 식별자로 표시하므로 지원 담당자가 작업이 필요한 것으로 플래그가 지정된 Microsoft Teams 룸 쉽게 찾을 수 있도록 Microsoft Teams 룸 배포에 대한 명명 규칙을 개발하는 것이 중요합니다. 예를 들어 *MTR-SiteRoom*- *이름*(MTR-LON-CURIE) 패턴을 사용할 수 있습니다. 
+**Pro 팁** - 각 Microsoft Teams 룸 네트워크에 유효하고 고유한 컴퓨터 이름이 있어야 합니다. 많은 모니터링 및 경고 시스템은 컴퓨터 이름을 키 식별자로 표시하므로 지원 담당자가 작업이 필요한 것으로 플래그가 지정된 Microsoft Teams 룸 쉽게 찾을 수 있도록 Microsoft Teams 룸 배포에 대한 명명 규칙을 개발하는 것이 중요합니다. 예를 들어 MTR-Site- *Room Name*(MTR-LON-CURIE) 패턴을 사용할 수 있습니다. 
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|

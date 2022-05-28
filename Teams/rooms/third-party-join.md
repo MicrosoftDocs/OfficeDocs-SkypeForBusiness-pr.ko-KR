@@ -1,7 +1,7 @@
 ---
 title: Teams 룸 디바이스가 타사 모임에 참가하도록 설정
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: sohailta
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 이 문서에서는 Cisco WebEx 및 Zoom에 대한 타사 모임 참가를 지원하도록 조직 및 Teams 룸 디바이스를 구성하는 방법을 설명합니다.
-ms.openlocfilehash: 91b730f998a1c17ed41f42a1e2990c82045d3117
-ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
+ms.openlocfilehash: a9421d234981343d268e74a2f03a949f3761ae0f
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "65442004"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761420"
 ---
 # <a name="enable-teams-rooms-devices-to-join-third-party-meetings"></a>Teams 룸 디바이스가 타사 모임에 참가하도록 설정
 

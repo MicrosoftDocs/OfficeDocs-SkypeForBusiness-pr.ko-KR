@@ -1,7 +1,7 @@
 ---
 title: Teams Android 디바이스에 대한 원격 프로비저닝 및 로그인
-author: cazawideh
-ms.author: czawideh
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Teams Android 디바이스에 대한 원격 프로비전 및 로그인 방법 알아보기
-ms.openlocfilehash: 4b3831bc42da92939c7aa61ff52a15266dc4a940
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 5a746e3255ce8af9bcf59f8dfcae12854b222a1f
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674340"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761290"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Teams Android 디바이스에 대한 원격 프로비저닝 및 로그인
 
