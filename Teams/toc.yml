@@ -1640,6 +1640,8 @@ items:
         items:
           - name: 최전방 직원을 위한 Teams 시작
             href: flw-landing-page.md
+          - name: 일선 평가판으로 시작
+            href: flw-trial.md
           - name: 최전방 직원을 위한 라이선싱 옵션
             href: flw-licensing-options.md
           - name: 최전방 직원 빠른 시작 가이드
