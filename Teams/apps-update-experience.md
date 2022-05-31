@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams 앱을 업데이트하는 방법을 알아봅니다.
-ms.openlocfilehash: ed9a1de2e182088a20721758c63f8b6d83cc36df
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 7139fb1f1788ff0e9fe093a17fbe08842f47bfd9
+ms.sourcegitcommit: b8098d6ea36f10ee3a630a230ebd84bc2d96e37a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675000"
+ms.lasthandoff: 05/31/2022
+ms.locfileid: "65780614"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Microsoft Teams 앱 업데이트
 
@@ -43,7 +43,3 @@ ms.locfileid: "65675000"
 
 > [!NOTE]
 > 업데이트 프로세스는 Microsoft 앱, 사용자 지정 앱 및 타사 앱에 대한 모든 앱 업데이트에 적용됩니다.
-
-## <a name="related-topics"></a>관련 항목
-
-[앱 관리](manage-apps.md)
