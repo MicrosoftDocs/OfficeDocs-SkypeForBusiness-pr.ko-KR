@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 4872cb6222d8841bb2efe6be0e19fa17d3557e33
-ms.sourcegitcommit: b8098d6ea36f10ee3a630a230ebd84bc2d96e37a
+ms.openlocfilehash: 20993aea7665893d71be1fd1094df9f0d1acdc91
+ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/31/2022
-ms.locfileid: "65780644"
+ms.locfileid: "65785958"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft Teams에서 앱 사용 권한 정책 관리
 
@@ -55,7 +55,7 @@ Microsoft Teams 관리 센터에서 앱 사용 권한 정책을 관리합니다.
 1. 왼쪽 패널에서 **Teams 앱** > **권한 정책** 으로 이동합니다.
 1. **추가** 를 선택합니다.
 
-    ![새 앱 권한 정책의 스크린샷.](media/app-permission-policies-new-policy.png)
+   ![새 앱 권한 정책의 스크린샷.](media/app-permission-policies-new-policy.png)
 
 1. 정책에 대한 이름과 설명을 제공합니다.
 1. **Microsoft 앱**, **타사 앱** 및 **사용자 지정 앱** 아래에서 다음 중 하나를 선택합니다.
@@ -102,7 +102,7 @@ Microsoft 365 Government - GCC, GCCH 및 DoD 배포에서 Teams 모든 타사 �
 
 1. **앱 관리** 페이지에서 **조직 전체 앱 설정을** 선택합니다. 그런 다음 패널에서 원하는 설정을 구성할 수 있습니다.
 
-  ![GCC 조직 전체 앱 설정의 스크린샷](media/app-permission-policies-gcc-org-wide.png)
+   ![GCC 조직 전체 앱 설정의 스크린샷](media/app-permission-policies-gcc-org-wide.png)
 
 1. **타사 앱** 에서 이 설정을 끄거나 켜면 타사 앱에 대한 액세스를 제어할 수 있습니다.
 
@@ -119,7 +119,7 @@ Microsoft 365 Government - GCC, GCCH 및 DoD 배포에서 Teams 모든 타사 �
 
 1. **사용 권한 정책** 페이지에서 **조직 전체 앱 설정** 을 선택합니다. 그런 다음 패널에서 원하는 설정을 구성할 수 있습니다.
 
-  ![GCCH 및 DoD의 조직 전체 앱 설정 스크린샷](media/app-permission-policies-gcch-dod-org-wide.png)
+   ![GCCH 및 DoD의 조직 전체 앱 설정 스크린샷](media/app-permission-policies-gcch-dod-org-wide.png)
 
 1. **차단된 앱** 아래에서 조직 전체에서 차단하려는 앱을 추가합니다. Microsoft 365 Government - GCCH 및 DoD 배포에서 Teams 모든 타사 앱이 기본적으로 이 목록에 추가됩니다. 앱 조직 전체를 차단하면 앱 사용 권한 정책에서 허용되는지 여부에 관계없이 모든 사용자에 대해 앱이 자동으로 차단됩니다.
 1. 조직 전체 앱 설정에 대해 **저장** 을 선택하여 적용합니다.
