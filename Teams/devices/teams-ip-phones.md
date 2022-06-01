@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 도출하기 위해 Microsoft Teams 인증된 책상 및 전화 회의 전화기를 알아봅니다.
-ms.openlocfilehash: 7ad570697609c8e2f6d2cd13cb26c0e147822afa
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 2daf43e3166c70c0947706d3d8f9ce8166fc1e91
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65760940"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823027"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>인증된 Android 디바이스 Microsoft Teams
 
@@ -245,6 +245,8 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 | 디바이스 모델  | 펌웨어 버전 | 포함된 제품 릴리스 |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | `3.11.0.364021`          | 2022년 업데이트 #1    |
+| Poly Studio X50 | `3.11.0.364021`          | 2022년 업데이트 #1    |
 | 로지 룸메이트 |   `1.6.290`   | 2022년 업데이트 #1    |
 | 로지 랠리바 미니   |   `1.6.272`   | 2022년 업데이트 #1  |
 | 로지 랠리바    |   `1.6.272`   | 2022년 업데이트 #1   |

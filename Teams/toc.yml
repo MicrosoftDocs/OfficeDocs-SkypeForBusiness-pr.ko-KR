@@ -228,7 +228,7 @@ items:
                   - name: Teams 전용으로의 마이그레이션을 완료하기 위해 하이브리드 비활성화
                     href: /SkypeForBusiness//hybrid/cloud-consolidation-disabling-hybrid
                   - name: DNS 항목 업데이트
-                    href: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
+                    href: /SkypeForBusiness//hybrid/decommission-manage-dns-entries
                   - name: 제거 후 특성을 관리하는 방법 결정
                     href: /SkypeForBusiness//hybrid/cloud-consolidation-managing-attributes
               - name: 응용 프로그램 끝점을 클라우드로 이동
@@ -1838,7 +1838,7 @@ items:
           - name: 비즈니스용 Skype Online 커넥터에서 Teams PowerShell 모듈로 이동
             href: teams-powershell-move-from-sfbo.md
           - name: Teams용 Cmdlet 참조
-            href: /powershell/module/teams/?view=teams-ps
+            href: /powershell/module/teams
       - name: Teams용 개발자 문서
         href: /microsoftteams/platform
       - name: Teams 콘텐츠 업데이트

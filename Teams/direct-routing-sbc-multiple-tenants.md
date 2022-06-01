@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft 파트너 및/또는 PSTN 통신 사업자를 위해 여러 테넌트에 서비스를 제공하도록 하나의 SBC(세션 테두리 컨트롤러)를 구성하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7a465945a55482c84b9d6373240bc89850b80e3a
-ms.sourcegitcommit: 3f046142c40b3b776165e964f2b8718e2fe55df3
+ms.openlocfilehash: be75743752f34024baf7b2fd017557c2f0044ba6
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "65661679"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823689"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테넌트에 대해 세션 경계 컨트롤러 구성
 
@@ -52,7 +52,7 @@ Microsoft는 이동 통신 사업자를 관리하지 않습니다. Microsoft는 
 2. 하위 도메인 이름을 활성화합니다.
 3. 이동 통신 사업자에서 고객 테넌트로 트렁크를 구성하고 사용자를 프로비전합니다.
 
-*DNS 기본 사항 및 도메인 이름이 Microsoft 365 관리되는 방식을 이해해야 합니다. 계속하기 전에 [Microsoft 365 도메인에 대한 도움말을 참조하세요](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef).*
+*DNS 기본 사항 및 도메인 이름이 Microsoft 365 관리되는 방식을 이해해야 합니다. 계속하기 전에 [Microsoft 365 도메인에 대한 도움말을 참조하세요](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
 
 ## <a name="deploy-and-configure-the-sbc"></a>SBC 배포 및 구성
 
@@ -83,7 +83,7 @@ SBC 호스팅 시나리오에 대해 SBC를 배포하고 구성하는 방법에 
 
 Microsoft 365 직접 라우팅 인터페이스에 호출이 도착하면 인터페이스는 연락처 헤더를 사용하여 사용자를 조회해야 하는 테넌트를 찾습니다. 일부 고객은 여러 테넌트에서 겹칠 수 있는 비 DID 번호가 있을 수 있으므로 직접 라우팅은 초대에서 전화 번호 조회를 사용하지 않습니다. 따라서 연락처 헤더의 FQDN 이름은 전화 번호로 사용자를 조회할 정확한 테넌트 식별이 필요합니다.
 
-*Microsoft 365 조직에서 도메인 이름을 만드는 방법에 대한 자세한 내용은 [Microsoft 365 도메인에 대한 도움말을 참조하세요](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef).*
+*Microsoft 365 조직에서 도메인 이름을 만드는 방법에 대한 자세한 내용은 [Microsoft 365 도메인에 대한 도움말을 참조하세요](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
 
 다음 다이어그램에는 기본 도메인, 하위 도메인 및 연락처 헤더에 대한 요구 사항이 요약되어 있습니다.
 
@@ -139,7 +139,7 @@ SBC는 연결을 인증하기 위해 인증서가 필요합니다. SBC 호스팅
 > [!NOTE]
 > 이동 통신 사업자 테넌트는 비즈니스용 Skype 구성 제거를 방지하기 위해 테넌트에 할당된 하나 이상의 전화 시스템 라이선스를 유지해야 합니다. 
 
-*Microsoft 365 조직에서 사용자를 추가하는 방법에 대한 자세한 내용은 [Microsoft 365 도메인에 대한 도움말을 참조하세요](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef).*
+*Microsoft 365 조직에서 사용자를 추가하는 방법에 대한 자세한 내용은 [Microsoft 365 도메인에 대한 도움말을 참조하세요](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
 
 예: test@customers.adatum.biz
 
@@ -196,7 +196,7 @@ SBC는 연결을 인증하기 위해 인증서가 필요합니다. SBC 호스팅
 
 도메인 이름을 등록한 후에는 하나 이상의 사용자를 추가하여 활성화하고 고객 테넌트에서 만든 하위 도메인과 일치하는 SIP 주소의 FQDN 부분에 SIP 주소를 할당해야 합니다. 
 
-*Microsoft 365 조직에서 사용자를 추가하는 방법에 대한 자세한 내용은 [Microsoft 365 대한 도움말을 참조하세요](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef).*
+*Microsoft 365 조직에서 사용자를 추가하는 방법에 대한 자세한 내용은 [Microsoft 365 대한 도움말을 참조하세요](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
 
 예: test@sbc1.customers.adatum.biz
 

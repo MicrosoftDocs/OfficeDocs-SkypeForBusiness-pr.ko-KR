@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 2455d386e9bdf297995880f679e5db74b299e64d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: cbea53abb94bc3cb591d98781187ac2f4cb68dfd
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674840"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823463"
 ---
 # <a name="navigate-microsoft-teams"></a>Microsoft Teams 탐색
 
@@ -259,7 +259,7 @@ Teams Smart 카메라 사용하여 주석이 추가된 이미지를 캡처하고
 
 [직원 체크 인](/microsoftteams/platform/samples/app-templates#staff-check-ins) 앱 템플릿을 사용하여 일선 직원이 Teams 직접 예약 또는 임시로 시간에 중요한 정보 및 상태 업데이트를 쉽게 제공할 수 있습니다. 앱은 실시간 위치, 사진, 메모, 미리 알림 알림 및 자동화된 워크플로를 지원합니다.
 
-Teams 사용하여 조직에서 교육을 쉽게 수행할 수 있습니다. 교육은 사용자가 오프라인 지식 공유 및 업스킬링을 위해 채팅 또는 채널 내에서 교육을 게시할 수 있도록 하는 사용자 지정 [Teams 메시징 확장](/microsoftteams/platform/what-are-messaging-extensions) 앱입니다. 이 앱은 데스크톱, 브라우저, iOS 및 Android 같은 여러 Teams 플랫폼 클라이언트에서 지원됩니다. 이 앱은 Microsoft 365 구독의 일부로 배포할 준비가 된 것입니다.
+Teams 사용하여 조직에서 교육을 쉽게 수행할 수 있습니다. 교육은 사용자가 오프라인 지식 공유 및 업스킬링을 위해 채팅 또는 채널 내에서 교육을 게시할 수 있도록 하는 사용자 지정 [Teams 메시징 확장](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet) 앱입니다. 이 앱은 데스크톱, 브라우저, iOS 및 Android 같은 여러 Teams 플랫폼 클라이언트에서 지원됩니다. 이 앱은 Microsoft 365 구독의 일부로 배포할 준비가 된 것입니다.
 
 [GitHub](https://github.com/OfficeDev/microsoft-teams-apps-training)
 

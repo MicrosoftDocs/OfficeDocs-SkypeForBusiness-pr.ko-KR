@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8bc388f533d39d6e1bc0140bcd975d6354898d5a
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: dcea261be727c01382d55c4a2861541291fcb343
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674910"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823589"
 ---
 # <a name="connect-microsoft-teams-essentials-aad-identity-to-an-existing-email-system-with-calendar"></a>일정이 있는 기존 전자 메일 시스템에 대한 커넥트 Microsoft Teams Essentials(AAD ID)
 
@@ -69,7 +69,7 @@ Exchange 온-프레미스를 사용하여 하이브리드 환경에서 Microsoft
 
 :::image type="content" source="media/essentials-googleworkspace.png" alt-text="EXO와 Gmail 간의 메일 흐름 다이어그램을 보여 주는 이미지":::
 
-이러한 예제는 [Exchange Online](/powershell/module/exchange/connect-exchangeonline?view=exchange-ps&preserve-view=true) [PowerShell V2 모듈의 일부인 커넥트-ExchangeOnline PowerShell](/powershell/exchange/exchange-online-powershell-v2&preserve-view=true) commandlet을 사용합니다. 커넥트-ExchangeOnline을 실행할 때 오류가 발생하는 경우 [EXO V2 모듈 설치](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps&preserve-view=true)를 사용하여 모듈을 설치하기 위한 권장 지침을 따랐는지 확인합니다. Connect-ExchangeOnline 자격 증명을 묻는 메시지가 표시되면 테넌트 관리자 계정을 사용해야 합니다.
+이러한 예제는 [Exchange Online](/powershell/module/exchange/connect-exchangeonline) [PowerShell V2 모듈의 일부인 커넥트-ExchangeOnline PowerShell](/powershell/exchange/exchange-online-powershell-v2?preserve-view=true&view=exchange-ps) commandlet을 사용합니다. 커넥트-ExchangeOnline을 실행할 때 오류가 발생하는 경우 [EXO V2 모듈 설치](/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-EXO-v2-module)를 사용하여 모듈을 설치하기 위한 권장 지침을 따랐는지 확인합니다. Connect-ExchangeOnline 자격 증명을 묻는 메시지가 표시되면 테넌트 관리자 계정을 사용해야 합니다.
 
 #### <a name="step-one-set-up-a-new-microsoft-365-tenant-domain"></a>1단계: 새 Microsoft 365 테넌트 도메인 설정
 

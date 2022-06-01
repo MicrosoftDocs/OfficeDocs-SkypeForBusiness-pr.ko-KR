@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fb3eb61de1372012f2a530be86d394ca46893a6
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 8df4740d6f5facc427900e7af760b11a9c8cb43f
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681749"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823403"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>Teams 대한 회의실 지침
 
@@ -83,7 +83,7 @@ Teams 룸 원터치 조인, 실제 화이트보드를 지능적인 방식으로 
 
 AV가 아닌 모든 모임 공간 또는 공동 작업이 지원되지 않는 모임 공간을 모두 처리하여 이 계획으로 시작할 수 있습니다. 회의실에 아직 Teams 장치가 설치되지 않았더라도 회의실에서 Teams 활용할 수 있습니다.
 
-*오디오:* 완전한 Teams 룸에 대한 좋은 다리는 작은 방과 그룹에 대한 Teams 인증 된 오디오 장치를 개별 사용자에게 제공하거나 작은 장치가 절단되지 않는 더 큰 그룹에 대한 더 큰 공간에 대한 전체 Teams 룸 솔루션보다 앞서 방에 배포하여 모임 기술을 계획하는 것입니다.
+*오디오:* 전체 Teams 룸 큰 다리는 작은 방과 그룹에 대한 Teams 인증 된 오디오 장치를 개별 사용자에게 제공하거나 작은 장치가 절단되지 않는 더 큰 그룹에 대한 더 큰 공간에 대한 전체 Teams 룸 솔루션보다 앞서 방에 배포하여 회의 기술을 계획하는 것입니다.
 
 *비디오:* 이러한 회의실을 사용하면 개별 사용자가 Teams 모임 콘텐츠에서 공유하고 개별 카메라로 식을 캡처할 수 있는 자체 디바이스를 가져올 수 있습니다. 그런 다음 사용자는 사용자를 로컬 그룹의 단일 오디오 원본으로 지정하여 해당 개인 디바이스를 인증된 오디오 장치에 연결하여 모든 사용자(로컬 및 원격 모두)가 모임 오디오에 대한 긍정적인 경험을 할 수 있도록 할 수 있습니다.
 

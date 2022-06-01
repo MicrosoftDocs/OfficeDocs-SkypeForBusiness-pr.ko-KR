@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 8c538a4de417bcc6b19e579162357e56c444abdb
-ms.sourcegitcommit: b8098d6ea36f10ee3a630a230ebd84bc2d96e37a
+ms.openlocfilehash: 39b0e358e57a8780918c6969a562b28d9e3fe49d
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65781063"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823729"
 ---
 # <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams 조직의 업데이트 앱 관리
 
@@ -53,6 +53,8 @@ Teams 사용자는 Teams 앱 스토어에서 업데이트를 받을 수 있습�
 ![모바일 장치의 주간 안전 연습 템플릿 이미지입니다.](media/updates-mobile.png)
 
 한편, 원격 작업자 팀이 매장의 웹 사이트를 업데이트하고 있습니다. 표준 시간대에 분산되어 있으므로 매일 스탠드업 모임이 편리하지 않습니다. 대신 각 팀 구성원은 진행 상황에 대한 매일 업데이트 보고서를 팀 리더에게 제출합니다.
+
+[Updates lookbook을 다운로드하여 업데이트](https://go.microsoft.com/fwlink/?linkid=2197649&clcid=0x409) 로 수행할 수 있는 작업의 더 많은 예제를 확인합니다.
 
 ## <a name="required-permissions-and-licenses"></a>필요한 권한 및 라이선스
 

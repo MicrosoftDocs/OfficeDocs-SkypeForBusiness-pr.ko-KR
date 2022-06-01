@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 4416fa65f38ad3489d05312382cce55b4a21898f
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: c65b51b34de54f419db341d5e1328a93746f0984
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635396"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823313"
 ---
 # <a name="planning-for-a-successful-transition-from-kaizala-to-microsoft-teams"></a>Kaizala Microsoft Teams 성공적인 전환 계획
 
@@ -70,7 +70,7 @@ Kaizala 성공적인 전환을 계획하기 위한 권장 프레임워크를 수
 
 ### <a name="get-ready"></a>준비해
 
- 1. 모두를 위한 Teams 라이선스가 있는지 확인합니다. [Teams 플랜](/microsoft-teams/compare-microsoft-teams-options?rtc=1)과 [Microsoft Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)을 확인하세요.
+ 1. 모두를 위한 Teams 라이선스가 있는지 확인합니다. [Teams 플랜](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options?activetab=pivot%3aprimaryr1)과 [Microsoft Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)을 확인하세요.
 
  2. [Microsoft Teams 채택](https://adoption.microsoft.com/microsoft-teams/#get-started) 지침을 사용하여 조직 전체에 Teams 배포합니다.
 
@@ -78,7 +78,7 @@ Kaizala 성공적인 전환을 계획하기 위한 권장 프레임워크를 수
 
  4. 이러한 교육 리소스를 사용하여 조직의 사용자가 Teams 학습하고 최대한 활용할 수 있도록 지원합니다.
 
-    - IT 관리자 준비는 [관리자 교육 리소스를 참조하세요](/microsoftteams/itadmin-readiness).
+    - IT 관리 준비 상태의 경우 [관리 교육 리소스를 참조하세요](/microsoftteams/itadmin-readiness).
 
     - 강사 주도 교육의 경우 [Microsoft Teams 대한 강사 주도 교육을](/microsoftteams/instructor-led-training-teams-landing-page) 참조하세요.
   

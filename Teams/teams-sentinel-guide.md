@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 745500dd0ac30d717e37ec9287618342554b26c9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1cf7d4e9670d8ea282105eaa057347fa7e9f6dac
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627030"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65822997"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel 및 Microsoft Teams
 
@@ -220,13 +220,13 @@ SigninLogs
 
 **콘텐츠 공동 작업에 감사드립니다. Pete Bryan, Nicholas DiCola, Matthew Lowe.** Pete Bryan과 그와 협력하는 사람들은 Teams을 위한 탐지 및 쿼리 헌팅을 계속 개발하고 있습니다.
 
-업데이트를 위해 이 [GitHub](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/TeamsLogs) 저장소를 계속 확인하세요.
+업데이트를 위해 이 [GitHub](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/) 저장소를 계속 확인하세요.
 
 이 문서에서 사용되는 [파서](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt) 및 [논리 앱](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Get-O365Data)에 대한 업데이트를 지켜보세요.
 
 또한 [Azure Sentinel 커뮤니티](https://github.com/Azure/Azure-Sentinel/wiki)에 참가하고 기여해야 합니다. 이 기사에 대한 피드백을 적극적으로 찾고 있으므로 아래의 피드백 옵션을 사용하세요. 감사합니다. 헌팅을 즐기세요.
 
-[Azure AD에서 응용 프로그램을 등록하기](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
+[Azure AD에서 응용 프로그램을 등록하기](/skype-sdk/trusted-application-api/docs/registrationinazureactivedirectory)
 
 [감사 로그 검색 켜기 또는 끄기](/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 
