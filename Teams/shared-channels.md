@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams의 공유 채널(미리 보기)
+title: Microsoft Teams의 공유 채널
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
@@ -17,15 +17,15 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: Microsoft Teams에서 공유 채널을 사용하고 관리하는 방법을 알아봅니다(미리 보기).
-ms.openlocfilehash: 1f222d8994c435c315a91deaba77e383b55cba42
-ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
+description: Microsoft Teams에서 공유 채널을 사용하고 관리하는 방법을 알아보세요.
+ms.openlocfilehash: 72701d71712a553c9a02cf9ab41ce0ced0597c3a
+ms.sourcegitcommit: c74c83fdb3fdbf1a5ebc9398bf0379d33f888d1b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393882"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65795640"
 ---
-# <a name="shared-channels-in-microsoft-teams-preview"></a>Microsoft Teams의 공유 채널(미리 보기)
+# <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams의 공유 채널
 
 Microsoft Teams의 공유 채널은 팀에 없는 사용자를 초대할 수 있는 공동 작업 공간을 만듭니다. 공유 채널의 소유자나 구성원인 사용자만 채널에 액세스할 수 있습니다. 게스트(조직의 Azure Active Directory 게스트 계정이 있는 사용자)는 공유 채널에 추가할 수 없지만 Azure AD B2B 직접 연결을 사용하여 조직 외부의 사용자를 공유 채널에 참여하도록 초대할 수 있습니다.
 
@@ -36,12 +36,6 @@ Microsoft Teams의 공유 채널은 팀에 없는 사용자를 초대할 수 있
 공유 채널이 만들어지면 해당 채널이 상위 팀에 연결되어 다른 팀으로 이동할 수 없습니다. 또한 공유 채널은 표준 채널로 전환할 수 없으며, 그 반대로도 전한할 수 없습니다.
 
 [공유 채널을 다른 유형의 채널과 비교합니다](/microsoftteams/teams-channels-overview#channel-feature-comparison).
-
-## <a name="best-practices-for-the-shared-channels-preview"></a>공유 채널 미리 보기에 대한 모범 사례
-
-공유 채널이 미리 보기 상태이므로 [Microsoft Teams 공개 미리보기](/MicrosoftTeams/public-preview-doc-updates)를 구성해야 합니다. 다른 조직과 채널을 공유하려는 경우 Teams 공개 미리 보기도 구성해야 합니다.
-
-모든 사용자에 대해 미리 보기를 사용하도록 설정하는 것이 좋습니다. 미리 보기를 사용하도록 설정하지 않은 사용자는 공유 채널을 만들 수 없지만 공유 채널에 계속 추가될 수 있습니다. 모든 사용자에 대해 미리 보기를 사용하도록 설정하면 일관된 환경을 보장하는 데 도움이 될 수 있습니다.
 
 ## <a name="getting-started-with-shared-channels"></a>공유 채널 시작
 
@@ -141,14 +135,14 @@ Teams는 공유 채널 사이트의 수명 주기를 관리합니다. 사이트�
 
 [Teams의 공유 채널 소유자 및 구성원 역할](https://support.microsoft.com/office/75b379f4-8e9c-4202-acf1-6ffc3878a2d7)
 
-## <a name="limits-for-shared-channels-preview"></a>공유 채널에 대한 제한(미리 보기)
+## <a name="limits-for-shared-channels"></a>공유 채널에 대한 제한
 
 다음 표에서는 최대 채널 및 구성원 수를 설명합니다.
 
 |최대...|값|참고|
 |:---------|:----|:----|
 |팀 구성원|25,000|팀의 모든 사용자와 공유 채널의 직접 구성원을 포함합니다.|
-|팀당 공유 채널|50|팀과 호스트되고 공유됩니다. (30일 복구 기간 동안 삭제된 채널을 포함합니다.)|
+|팀당 공유 채널|200|팀과 호스트되고 공유됩니다. (30일 복구 기간 동안 삭제된 채널을 포함합니다.)|
 |팀과 채널을 공유할 수 있습니다.|50|부모 팀 제외|
 |공유 채널의 구성원|최대 50개 팀을 포함하여 5,000명의 직접 구성원 (각 팀은 이 제한을 위해 채널을 한 명의 구성원으로 카운트하여 공유됩니다.)|실시간 업데이트는 한 번에 25,000명의 사용자만 사용할 수 있으며 25,000명의 사용자만 채널 목록에 표시됩니다.|
 
@@ -156,11 +150,78 @@ Teams는 공유 채널 사이트의 수명 주기를 관리합니다. 사이트�
 
 - 공유 채널은 Stream, Planner, Forms를 제외한 탭을 지원합니다.
 
-- LOB 앱, 봇, 커넥터, 메시지 확장은 공개 미리 보기에서 지원되지 않습니다.
+- LOB 앱, 봇, 커넥터 및 메시지 확장은 지원되지 않습니다.
 
 - 기존 팀에서 팀을 만들면 기존 팀의 공유 채널은 복사되지 않습니다.
 
 - 공유 채널의 알림은 누락된 활동 전자 메일에 포함되지 않습니다.
+
+## <a name="supported-apps-in-shared-channels"></a>공유 채널에서 지원되는 앱
+
+공유 채널용으로 앱을 준비하는 방법에 대한 자세한 내용은 [Microsoft Teams Connect를 사용하여 조직 간 공동 작업을 위해 앱을 여는 방법](https://mybuild.microsoft.com/sessions/4d84d73c-08de-4f56-990b-2a73b2037df1)을 참조하세요.
+
+공유 채널에서 사용할 수 있는 앱은 다음과 같습니다. 
+
+- 활동
+- Adobe Acrobat Sign
+- Asana
+- 일정
+- Calendar Pro
+- 통화
+- 채팅
+- Code by Vivani
+- Conceptboard
+- Excel
+- FileBrowser
+- 파일
+- Flipgrid
+- Freehand by InVision
+- HeyTaco
+- Jira Cloud
+- Kahoot!
+- 목록
+- Lucidchart
+- Lumio
+- MeisterTask
+- MindMeister
+- Mindomo
+- Miro
+- Monday.com
+- MURAL
+- Nearpod
+- OneNote
+- PDF
+- Pear Deck
+- PowerPoint
+- Priority Matrix
+- Quicklinks
+- Quizlet
+- Saved
+- Scrum-Poker
+- 검색
+- SharePoint
+- SharePoint Pages
+- Slido
+- Smartsheet
+- SurveyMonkey
+- Tasks in a Box
+- Teams
+- Teams Manager
+- TeamViewer
+- 팀워크
+- Testportal
+- TrackingTime
+- Trello
+- Vevox
+- Visio
+- VSTS
+- Wakelet
+- Web
+- Wooclap
+- Word
+- YouTube
+- Zendesk
+- Zoho Projects
 
 ## <a name="related-topics"></a>관련 주제
 
