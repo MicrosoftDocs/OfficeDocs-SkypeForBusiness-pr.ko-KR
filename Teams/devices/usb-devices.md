@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 'Microsoft Teams 위해 인증된 USB 주변 장치 및 장치(예: 헤드셋, 스피커폰, 웹캠 및 모니터)를 확인합니다.'
-ms.openlocfilehash: 912d6d3481ba6f9885a79e0600f74c9ecd031c8c
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: ac06ca93423039714de87a5bce036b18becedb27
+ms.sourcegitcommit: 18a26d07a335184dbcda71908452e82a6ddc3158
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65760900"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65840970"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams 인증된 USB 오디오 및 비디오 장치
 
@@ -74,13 +74,14 @@ Teams 통화 제어 지원에 대한 자세한 내용은 [Teams 헤드셋을 사
 
 ## <a name="certified-devices"></a>인증된 디바이스
 
-*2022년 5월 업데이트된 테이블*
+*2022년 6월 업데이트된 테이블*
 
 > [!NOTE]
 > 날짜 형식은 MMDDYYYY입니다.
 
 | 제조업체        | 모델                                                     | 자격      | 인증된 프로그램                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |C10/C20/C50 시리즈 헤드셋                                |5/31/2022       |Microsoft Teams 인증                           |
 |많은                 |Studio P21 모니터                                         |5/12/2022       |Microsoft Teams 인증                           |
 |Yealink              |UH38 헤드셋                                               |5/2/2022        |Microsoft Teams 인증                           |   
 |Yealink              |BH72 헤드셋                                               |5/2/2022        |Microsoft Teams 인증                           |
@@ -146,8 +147,8 @@ Teams 통화 제어 지원에 대한 자세한 내용은 [Teams 헤드셋을 사
 |레 노 버               |유선 VoIP 스테레오 헤드셋 Pro                              |12/21/2020      |Microsoft Teams 업그레이드를 사용하여 비즈니스용 Skype      |
 |많은                 |사비 Office 7320                                           |12/18/2020      |Microsoft Teams 인증                           |
 |많은                 |사비 Office 7310                                           |12/18/2020      |Microsoft Teams 인증                           |
-|Jabra                |Evolve 75e 헤드셋                                         |12/16/2020      |Microsoft Teams 업그레이드를 사용하여 비즈니스용 Skype      |
-|Jabra                |Evolve 65e 헤드셋                                         |12/16/2020      |Microsoft Teams 업그레이드를 사용하여 비즈니스용 Skype      |
+|Jabra                |75e/SE 헤드셋 진화                                         |12/16/2020      |Microsoft Teams 업그레이드를 사용하여 비즈니스용 Skype      |
+|Jabra                |65e/SE 헤드셋 진화                                         |12/16/2020      |Microsoft Teams 업그레이드를 사용하여 비즈니스용 Skype      |
 |Dell                 |C3422WE Monitor                                            |12/11/2020      |Microsoft Teams 인증                           |
 |Dell                 |C2722DE 모니터                                            |12/11/2020      |Microsoft Teams 인증                           |
 |Dell                 |C2422HE 모니터                                            |12/11/2020      |Microsoft Teams 인증                           |

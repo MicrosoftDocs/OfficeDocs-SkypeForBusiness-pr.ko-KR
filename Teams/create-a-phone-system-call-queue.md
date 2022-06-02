@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Microsoft Teams 대규모 조직에서 인사말 메시지를 제공하고, 음악을 누르고, 통화 리디렉션 및 기타 기능을 제공하는 통화 큐를 설정하는 방법을 알아봅니다.
-ms.openlocfilehash: 0a62abc27eed0008a337b900f563f8e7e2a75097
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 7678d132b8711ea828bf643201df5501323ab77e
+ms.sourcegitcommit: 18a26d07a335184dbcda71908452e82a6ddc3158
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059089"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65840990"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 
@@ -156,6 +156,8 @@ Teams 채널을 통해 최대 200명의 에이전트를 추가할 수 있습니�
 
 > [!NOTE]
 > 전화 통화가 위치 기반 라우팅에 사용하도록 설정된 직접 라우팅 게이트웨이에서 큐로 라우팅되는 경우 회의 모드가 지원되지 않습니다.
+>
+> Teams 사용자가 통화 큐를 사용하여 통화를 상담/전송해야 하는 경우 회의 모드가 필요합니다.
 
 > [!TIP]
 > **전화 회의 모드** 를 **켜** 기로 설정하는 것이 좋습니다.
@@ -221,6 +223,9 @@ Teams 채널을 통해 최대 200명의 에이전트를 추가할 수 있습니�
 
 > [!NOTE]
 > 최대 통화 수가 0으로 설정된 경우 인사말 메시지는 재생되지 않습니다.
+>
+> 공유 음성 메일로 리디렉션할 때 **이 조직 외부의 사용자가 이 팀이** Microsoft 365 관리 센터의 팀/그룹에 대해 사용하도록 설정되어 있는지 확인합니다.
+
 
 ## <a name="call-timeout-handling"></a>통화 시간 제한 처리
 
@@ -229,6 +234,9 @@ Teams 채널을 통해 최대 200명의 에이전트를 추가할 수 있습니�
 **통화 시간 초과: 최대 대기 시간** 은 통화가 리디렉션되거나 연결이 끊어지기 전에 큐에 대기할 수 있는 최대 시간을 지정합니다. 0초에서 45분까지 지정할 수 있습니다.
 
 통화 연결을 끊거나 통화 라우팅 대상로 리디렉션할 수 있습니다. 예를 들어 발신자에 큐에 있는 에이전트에 대한 음성 메일이 남아 있을 수 있습니다. 외부 전송의 경우 [필수 구성 요소](plan-auto-attendant-call-queue.md#prerequisites) 및 [외부 전화 번호 전송을 참조하세요.](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 번호 서식에 대한 기술 세부 정보입니다.
+
+> [!NOTE]
+> 공유 음성 메일로 리디렉션할 때 **이 조직 외부의 사용자가 이 팀이** Microsoft 365 관리 센터의 팀/그룹에 대해 사용하도록 설정되어 있는지 확인합니다.
 
 통화 시간 제한 옵션을 선택한 경우 **저장** 을 클릭합니다.
 
@@ -244,20 +252,21 @@ Teams 채널을 통해 최대 200명의 에이전트를 추가할 수 있습니�
 
 ## <a name="call-queue-feature-compatibility"></a>통화 큐 기능 호환성
 
-|기능                          |Teams <sup>Desktop1</sup> |Teams <sup>Mobile2</sup> |Lync |IP 휴대폰 | 표준 호출 큐 |채널 기반 통화 큐 | 코멘트 |
+|기능                          |Teams Desktop<sup>1</sup> |Teams Mobile<sup>2</sup> |Lync |IP 휴대폰 | 표준 호출 큐 |채널 기반 통화 큐 | 코멘트 |
 |:--------------------------------|:------------------------:|:-----------------------:|:---:|:--------:|:--------------------:|:------------------------:|:-------------|
 |**에이전트 라우팅 메서드**        |                          |                         |     |          |                      |                          |              |
 |`Attendant Routing`              |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*기본*     |
 |`Longest Idle`<sup>3</sup>       |Y                         |Y                        |N    |Y         |Y                     |Y                         |*권장* |
 |`Round Robin`                    |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*권장* |
-|`Serial`                         |Y                         |Y                        |Y    |Y         |Y4<sup></sup>         |Y4<sup></sup>             |              |
+|`Serial`                         |Y                         |Y                        |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |              |
+|**에이전트 라우팅 옵션**        |                          |                         |     |          |                      |                          |              |
+|`Presence Based Routing`<sup>3</sup>|Y                        |Y                        |N    |Y         |Y                     |Y                         |*권장* |
+|`Agents can Opt-out`               |Y                         |Y                        |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*기본*     |
 |**전송 모드**               |                          |                         |     |          |                      |                          |              |
-|`Conference Mode`<sup>5</sup>    |Y                         |Y                        |N    |Y6<sup></sup>|Y                  |Y                         |*권장* |
-|`Transfer Mode`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |              |
-|현재 상태 기반 라우팅<sup>3</sup>|Y                        |Y                        |N    |Y         |Y                     |Y                         |*권장* |
-|에이전트는 옵트아웃할 수 있습니다.               |Y                         |Y                        |Y7<sup></sup>|Y7<sup></sup>|Y          |Y                         |*기본*     |
-|채널 기반 큐             |Y                         |N                        |N    |N         |n/a                   |Y8<sup></sup>             |              |
-|통화 알림에 리소스 계정 이름이 표시됩니다. |Y9<sup></sup>       |Y                        |Y    |          |Y                     |Y                         |              |
+|`Conference Mode`<sup>5</sup>    |Y                         |Y                        |N    |Y<sup>6</sup>|Y                  |Y                         |*권장* |
+|`Transfer Mode`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*기본*              |
+|**공동 작업 통화**        |                          |                         |     |          |                      |                          |              |
+|`Channel Based Queues`             |Y                         |N                        |N    |N         |n/a                   |Y<sup>8</sup>             |              |
 |**동적 호출자 ID**            |                          |                         |     |          |                      |                          |              |
 |`Standard call queue`            |N                         |Y                        |N    |N         |Y                     |n/a                       |              |
 |`Channel based call queue`       |Y                         |n/a                      |n/a  |n/a       |n/a                   |Y                         |              |
@@ -265,10 +274,12 @@ Teams 채널을 통해 최대 200명의 에이전트를 추가할 수 있습니�
 |`Calling Plans`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |              |
 |`Direct Routing`                 |Y                         |Y                        |N    |N         |Y                     |Y                         |              |
 |`Operator Connect`               |Y                         |Y                        |     |          |Y                     |Y                         |              |
+|**기타**    |                          |                         |     |          |                      |                          |참고 10 참조   |
+|`Call toast shows Resource Account Name` |Y<sup>9</sup>       |Y                        |Y    |          |Y                     |Y                         |              |
 
 참고:
 1. Microsoft Teams Windows 클라이언트, Microsoft Teams Mac 클라이언트, 가상화된 데스크톱 인프라, Microsoft Teams 웹 클라이언트에서 Microsoft Teams.
-2. Microsoft Teams iPhone 앱, Microsoft Teams Android 앱
+2. 앱, Microsoft Teams Android 앱을 Microsoft Teams iPhone.
 3. 에이전트 라우팅 방법에 대해 가장 긴 유휴 상태를 선택하면 프레즌스 기반 라우팅이 자동으로 활성화됩니다.
 4. 표준 통화 큐의 일부로 개별 사용자를 추가할 때만 주문을 설정할 수 있습니다. 배포 목록 또는 Teams 채널이 사용되는 경우 순서는 사전순입니다.
 5. 전화 통화가 위치 기반 라우팅에 사용하도록 설정된 직접 라우팅 게이트웨이에서 큐로 라우팅되는 경우 회의 모드가 지원되지 않습니다.
@@ -368,7 +379,7 @@ PowerShell을 사용하여 통화 큐를 만드는 단계별 가이드는 [Power
 
 3. 테스트는 모든 테넌트, 정책 및 리소스 계정 구성을 처리하는 최상의 다음 단계를 반환하여 호출 큐가 호출을 받을 수 있는지 확인합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Microsoft Teams 전화](here-s-what-you-get-with-phone-system.md)
 

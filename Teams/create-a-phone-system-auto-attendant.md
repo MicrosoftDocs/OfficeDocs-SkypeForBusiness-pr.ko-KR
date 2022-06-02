@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams 대규모 조직에 대한 자동 전화 교환을 설정하고 테스트하는 방법을 알아봅니다.
-ms.openlocfilehash: 5f4b4f21f2e1cca8c8bbc350541cdd861b1bda3f
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: f177f1dd34f4f8f9497e7800007b5be868230dfe
+ms.sourcegitcommit: 18a26d07a335184dbcda71908452e82a6ddc3158
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674370"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65840980"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 전화 교환 설정
 
@@ -44,6 +44,7 @@ ms.locfileid: "65674370"
 - **조직의 사용자** - 음성 통화를 받을 수 있는 조직의 사용자입니다. 이 사용자는 온라인 사용자 또는 비즈니스용 Skype 서버 사용하여 온-프레미스에서 호스트되는 사용자일 수 있습니다.
 - **음성 앱** - 다른 자동 전화 교환 또는 통화 큐. (이 대상을 선택할 때 자동 전화 교환 또는 통화 큐와 연결된 리소스 계정을 선택합니다.)
 - **음성 메일** - 지정한 Microsoft 365 그룹과 연결된 음성 사서함입니다. 음성 메일 전사를 원하는지, "음색이 나면 메시지를 남겨주세요"를 선택할 수 있습니다. 시스템 프롬프트입니다.
+- - M365 관리 센터에서 특정한 Microsoft 365 그룹에 대해 "조직 외부 사용자가 이 팀에게 전자 메일을 보내도록 허용"을 사용하도록 설정합니다.
 - **외부 전화 번호** - 모든 전화 번호입니다. ( [외부 전송 기술 세부 정보](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 참조).
 - **알림(오디오 파일)** - 오디오 파일을 재생합니다. 오디오로 저장된 업로드한 기록된 알림 메시지입니다. WAV, .MP3 또는 . WMA 형식입니다. 녹음/녹화는 5MB를 초과할 수 없습니다. 시스템에서 알림을 재생한 다음 자동 전화 교환 메뉴로 돌아갑니다.
 - **알림(형식)** - 메시지를 입력합니다. 시스템에서 읽을 텍스트입니다. 최대 1,000자를 입력할 수 있습니다. 시스템에서 알림을 재생한 다음 자동 전화 교환 메뉴로 돌아갑니다.
@@ -327,7 +328,7 @@ PowerShell을 사용하여 자동 전화 교환을 만드는 단계별 가이드
 
 3. 테스트는 자동 전화 교환이 전화를 받을 수 없도록 하는 테넌트, 정책 또는 리소스 계정 구성을 식별하고 식별된 문제를 해결하는 단계를 제공합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Teams 전화](./here-s-what-you-get-with-phone-system.md)
 
