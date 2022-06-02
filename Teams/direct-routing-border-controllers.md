@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅에 대해 인증된 SBA(Session Border Controller)에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2583ec6e2e4eeb8f983d85779c37a91e1abfa646
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: bb4363fec70a7bcf139929541a7dfe3686089937
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675690"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823550"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>직접 라우팅에 대한 인증된 SBC(Session Border Controller)
 
@@ -75,12 +75,12 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 ||SBC SWe Lite|&#10004;|&#10004;|8.x 또는 9.x|&#10004;|&#10004;|
 ||EdgeMarc 시리즈|&#10004;||15.6.1||
 |[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)|Think 365 SBC|&#10004;||1.4|||
-|[Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)|AP 1100|&#10004;|&#10004;|8.3.0.0.1 지원 및 8.4.x 및 9.x 권장|&#10004;|&#10004;|
-||AP 3900|&#10004;|&#10004;|8.3.0.0.1 지원 및 8.4.x 및 9.x 권장|&#10004;|&#10004;|
-||AP 4600|&#10004;|&#10004;|8.3.0.0.1 지원 및 8.4.x 및 9.x 권장|&#10004;|&#10004;|
-||AP 6300|&#10004;|&#10004;|8.3.0.0.1 지원 및 8.4.x 및 9.x 권장|&#10004;|&#10004;|
-||AP 6350|&#10004;|&#10004;|8.3.0.0.1 지원 및 8.4.x 및 9.x 권장|&#10004;|&#10004;|
-||VME|&#10004;|&#10004;|8.3.0.0.1 지원 및 8.4.x 및 9.x 권장|&#10004;|&#10004;|
+|[Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)|AP 1100|&#10004;|&#10004;|지원되는 8.3.0.0.1 및  권장 8.4.x 및 9.x|&#10004;|&#10004;|
+||AP 3900|&#10004;|&#10004;|지원되는 8.3.0.0.1 및  권장 8.4.x 및 9.x|&#10004;|&#10004;|
+||AP 4600|&#10004;|&#10004;|지원되는 8.3.0.0.1 및  권장 8.4.x 및 9.x|&#10004;|&#10004;|
+||AP 6300|&#10004;|&#10004;|지원되는 8.3.0.0.1 및  권장 8.4.x 및 9.x|&#10004;|&#10004;|
+||AP 6350|&#10004;|&#10004;|지원되는 8.3.0.0.1 및  권장 8.4.x 및 9.x|&#10004;|&#10004;|
+||VME|&#10004;|&#10004;|지원되는 8.3.0.0.1 및  권장 8.4.x 및 9.x|&#10004;|&#10004;|
 ||AP 3950|&#10004;|&#10004;|9.x 지원|&#10004;|&#10004;|
 ||AP 4900|&#10004;|&#10004;|9.x 지원|&#10004;|&#10004;|
 |[TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)|anynode|&#10004;|&#10004;|지원되는 3.20(권장 4.0)|&#10004;|&#10004;|
@@ -101,8 +101,8 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 |[Enghouse 네트워크](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|Dialogic BorderNet SBC|&#10004;|&#10004;|3.9.0-786|||
 |[Patton Electronics Co.](https://www.patton.com/microsoft/)|Patton SmartNode eSBC|&#10004;||3.19.x|||
 |[M5 기술(이전의 Media5 Corporation)](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|Mediatrix Sentinel 시리즈|&#10004;||DGW 48.0.2340(권장 DGW 48.1.2503)|||
-|[Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|Ekinops Session Border Controller(ONeSBC)|&#10004;|&#10004;|6.6.1m5ha1|||
-||Ekinops Virtual Session Border Controller(ONEvSBC)|&#10004;|&#10004;|6.6.1m5ha1|||
+|[Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|Ekinops Session Border Controller(ONeSBC)|&#10004;|&#10004;|지원되는 6.6.1m5ha1(권장 6.8.x)|||
+||Ekinops Virtual Session Border Controller(ONEvSBC)|&#10004;|&#10004;|지원되는 6.6.1m5ha1(권장 6.8.x)|||
 |[46 Labs BUILDER](https://46labs.com/docs/hcvoice/teams/)|하이퍼 컨버지드 음성|&#10004;|&#10004;|HCVoice 1.0.6|||
 |[Frafos](https://www.frafos.com/ms-teams-abc-sbc)|ABC SBC|&#10004;||4.6|||
 
