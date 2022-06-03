@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c975abb16b8c131b21733d57463435aa7e643639
-ms.sourcegitcommit: 6e7af2e556526bd8b2bcc8f689192e254d8cb4a3
+ms.openlocfilehash: 39025c0ccd9cb3b7bc02de85719f98f4ec7f3090
+ms.sourcegitcommit: 1788f852508208a01f230f6f68a5a81ec8594c47
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62146255"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65860071"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams의 하드웨어 요구 사항
 
@@ -35,7 +35,7 @@ ms.locfileid: "62146255"
 
 | 구성 요소 | 요구 사항 |
 |---------|---------|
-|컴퓨터 및 프로세서    | 최소 1.1 GHz 이상, 2코어<br><br>참고: Intel 프로세서의 경우 Intel Turbo Boost 기술(최대 터보 빈도)을 사용하여 달성하는 최대 속도를 고려해야 합니다.         |
+|컴퓨터 및 프로세서    | 최소 1.1GHz 이상, 코어 2개<br><br>참고: Intel 프로세서의 경우 Intel Turbo Boost 기술(최대 터보 빈도)을 사용하여 달성하는 최대 속도를 고려해야 합니다.         |
 |메모리     |  4.0GB RAM |
 |하드 디스크    | 3.0GB의 사용 가능한 디스크 공간        |
 |디스플레이    |   화면 해상도 1024x768 |
@@ -44,7 +44,7 @@ ms.locfileid: "62146255"
 |.NET 버전    |  .NET 4.5 CLR 이상 필요       |
 |비디오    |  USB 2.0 비디오 카메라       |
 |장치    |   표준 노트북 카메라, 마이크 및 스피커    |
-|화상 통화 및 모임|<ul><li>2코어 프로세서가 필요합니다. 비디오/화면 공유 해상도 및 프레임 속도를 높이려면 4코어 프로세서 이상을 사용하는 것이 좋습니다.</li> <li>배경 비디오 효과에는 Windows 10 또는 AVX2 명령 집합이 있는 프로세서가 필요합니다.</li> <li>지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조하세요.</li><li>Microsoft Teams 룸에서 주변 검색을 사용하여 모임에 참가하려면 클라이언트 장치에서 Bluetooth의 활성화가 요구되는 Bluetooth LE가 필요하고 Windows 클라이언트의 경우 64비트 Teams 클라이언트도 필요합니다. 이 기능은 32비트 Teams 클라이언트에서는 이용할 수 없습니다.</li></ul> |
+|화상 통화 및 모임|<ul><li>2코어 프로세서가 필요합니다. 비디오/화면 공유 해상도 및 프레임 속도 향상을 위해 4코어 프로세서 이상을 권장합니다.</li> <li>배경 비디오 효과에는 Windows 10 또는 AVX2 명령 집합이 있는 프로세서가 필요합니다.</li> <li>지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조하세요.</li><li>Microsoft Teams 룸에서 주변 검색을 사용하여 모임에 참가하려면 클라이언트 장치에서 Bluetooth의 활성화가 요구되는 Bluetooth LE가 필요하고 Windows 클라이언트의 경우 64비트 Teams 클라이언트도 필요합니다. 이 기능은 32비트 Teams 클라이언트에서는 이용할 수 없습니다.</li></ul> |
 |Teams 라이브 이벤트 | Teams 라이브 이벤트를 생성하는 경우 Core i5 Kaby Lake 프로세서, 4.0GB RAM 이상 및 하드웨어 인코더가 있는 컴퓨터를 사용하는 것이 좋습니다. **지원되지 않는** 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조하세요. |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Mac용 Teams 하드웨어 요구 사항
@@ -58,7 +58,7 @@ ms.locfileid: "62146255"
 |운영 체제  |    가장 최근 세 가지 macOS 버전 중 하나. 최신 macOS 버전에 대한 정보와 macOS 버전을 업그레이드하는 방법에 대한 정보를 찾을 수 있습니다. [여기](https://support.apple.com/en-us/HT201260). 예를 들어 새 버전의 macOS가 릴리스된 경우 새 버전과 바로 이전 두 버전이 지원되는 버전이 됩니다.      |
 |비디오  |    호환되는 웹캠     |
 |음성    |  호환되는 마이크 및 스피커, 마이크가 장착된 헤드셋 또는 동급 장치.       |
-|화상 통화 및 모임 | <ul><li>2코어 프로세서가 필요합니다. 비디오/화면 공유 해상도 및 프레임 속도를 높이려면 4코어 프로세서 이상을 사용하는 것이 좋습니다. </li><li>macOS에서는 Microsoft Teams 룸에서 주변 검색을 사용하여 모임에 참가할 수 없습니다.</li></ul>
+|화상 통화 및 모임 | <ul><li>2코어 프로세서가 필요합니다. 비디오/화면 공유 해상도 및 프레임 속도 향상을 위해 4코어 프로세서 이상을 권장합니다. </li><li>macOS에서는 Microsoft Teams 룸에서 주변 검색을 사용하여 모임에 참가할 수 없습니다.</li></ul>
 |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Linux용 Teams 하드웨어 요구 사항
@@ -74,7 +74,7 @@ ms.locfileid: "62146255"
 |비디오    |  USB 2.0 비디오 카메라       |
 |장치    |   표준 노트북 카메라, 마이크 및 스피커    |
 |음성    |  호환되는 마이크 및 스피커, 마이크가 장착된 헤드셋 또는 동급 장치.       |
-|화상 통화 및 모임 | <ul><li>2코어 프로세서가 필요합니다. 비디오/화면 공유 해상도 및 프레임 속도를 높이려면 4코어 프로세서 이상을 사용하는 것이 좋습니다.</li><li>Linux에서는 Microsoft Teams 대화방에서 주변 검색을 사용하여 모임에 참가할 수 없습니다.</li></ul>
+|화상 통화 및 모임 | <ul><li>2코어 프로세서가 필요합니다. 비디오/화면 공유 해상도 및 프레임 속도 향상을 위해 4코어 프로세서 이상을 권장합니다.</li><li>Linux에서는 Microsoft Teams 대화방에서 주변 검색을 사용하여 모임에 참가할 수 없습니다.</li></ul>
 |지원되는 Linux 배포판 | Ubuntu 18.04 LTS, 20.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8       |
 |지원되는 데스크톱 환경 | GNOME, KDE       |
 |지원되는 디스플레이 서버 | X11       |
@@ -101,6 +101,6 @@ ms.locfileid: "62146255"
 ### <a name="related-topics"></a>관련 항목
 
 - [Teams 앱 받기](get-clients.md)
-- [모바일 장치용 Microsoft Teams](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
+- [모바일 장치용 Microsoft Teams](https://support.microsoft.com/office/set-up-your-teams-mobile-apps-1ba8dce3-1122-47f4-8db6-00a4f93117e8)
 - [MSI를 사용하여 Microsoft Teams 앱 설치](msi-deployment.md)
 - [Microsoft Teams의 제한 사항 및 사양](limits-specifications-teams.md)
