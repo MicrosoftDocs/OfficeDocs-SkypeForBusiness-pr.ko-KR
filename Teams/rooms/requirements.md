@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 적절한 장치, 마이크, 스피커, 카메라 및 디스플레이 선택을 포함하여 Microsoft Teams 룸 지원하기 위한 요구 사항에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 91d9740e987c93dc05ea969b50ecd8e8a12de6b4
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 29b58a57d052acb529bc4c21db184589ed3739d8
+ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823639"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65860609"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 룸 요구사항
 
@@ -206,7 +206,7 @@ Microsoft Teams 룸 크기가 다른 객실 크기로 조정됩니다. Teams 룸
 |[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300)+</br>[Shure MXA 310 표 배열 마이크 ](https://www.shure.com/products/microphones/mxa310) | 4.1 |
 |[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) +</br>[Shshmxa 910 Intellimix 천장 배열 마이크](https://www.shure.com/products/microphones/mxa910) | 4.1|
 |[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300)+</br>[Shure MXA 310 Table Array Mic ](https://www.shure.com/products/microphones/mxa310) +</br>[MXN5W-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA310 테이블 배열 마이크: 4.1.41 </br> MXN5W-C 스피커: 1.0.4 |
-|[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) + </br>[Intellimix Ceiling Array Mic를 사용하는 Shure MXA 910](https://www.shure.com/products/microphones/mxa910) +</br>[MXN5W-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA910 천장 배열 마이크: 4.1.41 </br> MXN5W-C 스피커: 1.0.4 |
+|[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) + </br>[Intellimix Ceiling Array Mic를 사용하는 Shure MXA 920](https://www.shure.com/en-US/products/microphones/mxa920?utm_source=linkedin&utm_medium=social&sfid=&prod=) +</br>[MXN5W-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.7.7 </br> MXA920 천장 배열 마이크: 1.1.56 </br> MXN5W-C 스피커: 1.5.6 |
 |[Shure MXA 710 2ft Table Linear Array 마이크](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) +</br>[MXN5-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft 테이블 선형 배열 마이크: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C 스피커: 1.1.1 |
 |[Shure MXA 710 4ft Wall Linear Array 마이크](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) +</br>[MXN5-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft 벽 선형 배열 마이크: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C 스피커: 1.1.1 |
 |[Intellimix 천장 배열 마이크가 있는 Shure MXA 910](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br> [크레스트론 UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Shure Intellimix Room Software: 3.0.4.14 </br> Intellimix 천장 배열 마이크가 있는 Shure MXA 910: 4.4.11 </br> Shure MXN5-C 스피커: 1.2.1 </br> ASUS Tek Computer INC 9934 컴퓨팅을 사용하는 Crestron UC-C100-T | 

@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccc69a07d523b046298643ad387e31e25138096f
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 7c26f70bb6592c418968b77c9ef2a495cb98648a
+ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676130"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65860799"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>교육용 Microsoft Teams 부모 연결 설정
 
@@ -56,13 +56,13 @@ ms.locfileid: "65676130"
 > - PBX(공용 분기 Exchange) 기능입니다.
 > - PSTN에 연결합니다.
 >
-> Microsoft 365 A1 및 A3 계획에는 PBX 기능이나 PSTN 연결이 포함되지 않습니다. [이러한 각 라이선스에 대한 추가 기능 라이선스를](/teams-add-on-licensing/microsoft-teams-add-on-licensing) 구입할 수 있습니다.
+> Microsoft 365 A1 및 A3 계획에는 PBX 기능이나 PSTN 연결이 포함되지 않습니다. [이러한 각 라이선스에 대한 추가 기능 라이선스를](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) 구입할 수 있습니다.
 >
 > Microsoft 365 A5 계획에는 Teams 전화 시스템 사용하는 PBX 기능만 포함됩니다. 여전히 [Teams 통화 플랜을 구입하거나 타사 솔루션을 사용하여](pstn-connectivity.md) PSTN의 외부 번호에 연결해야 합니다.
 >
 > PSTN 연결을 가져오는 모든 옵션에 대한 자세한 내용은 [PSTN 연결 옵션을](pstn-connectivity.md) 참조하세요.
 >
-> Teams 통화 라이선스에 대한 자세한 내용은 [Teams 추가 기능 라이선스 옵션을 참조하세요](/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+> Teams 통화 라이선스에 대한 자세한 내용은 [Teams 추가 기능 라이선스 옵션을 참조하세요](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 ## <a name="requirements"></a>요구 사항
 
@@ -91,13 +91,20 @@ ms.locfileid: "65676130"
   - 테넌트 수준 및 사용자 수준에서 이 값을 설정해야 합니다. 테넌트 수준 설정은 Teams 관리 센터의 **사용자 > 외부 액세스** 에서 찾을 수 있습니다. 이 설정은 PowerShell을 통해 액세스할 수도 있습니다. 사용자 수준 외부 액세스 정책은 PowerShell을 통해서만 액세스할 수 있습니다. 자세한 지침은 아래 PowerShell 명령을 참조하세요.
 
 #### <a name="parent-and-guardian-restrictions"></a>부모 및 보호자 제한 사항
-부모 및 보호자는 부모 연결에서 외부 사용자로 분류되므로 전체 테넌트 권한이 없습니다. 추가된 채팅 또는 채팅뿐만 아니라 채팅에서 공유되는 파일, 이미지 및 기타 콘텐츠에만 액세스할 수 있습니다.
+
+부모 및 보호자는 부모 연결에서 *외부 사용자* 로 분류되므로 전체 테넌트 권한이 없습니다. 채팅에 속한 채팅 또는 채팅과 채팅에서 공유되는 파일, 이미지 및 기타 콘텐츠에만 액세스할 수 있습니다.
+
+외부 채팅의 경우 내부 및 외부 사용자 모두 채팅에 사용자를 추가할 수 있습니다. 외부 채팅 환경에 대한 자세한 내용은 [Microsoft Teams 외부 모임 및 채팅 관리를](manage-external-access.md) 참조하세요.
 
 또한 외부 사용자는 조직의 사용자의 현재 상태(오프라인, 사용 가능, 사용 중 등)를 볼 수 있지만 PowerShell을 사용하여 사용자의 개인 정보를 보호하기 위해 이 기능을 해제할 수 있습니다. PowerShell에서 [Set-CsPrivacyConfiguration을](/powershell/module/skype/set-csprivacyconfiguration) 사용하고 설정합니다 ``EnablePrivacyMode=true``.
 
-부모와 보호자가 외부 사용자임에도 불구하고 채팅에 대한 기여는 검색할 수 있습니다. Microsoft Teams 콘텐츠에 대한 [eDiscovery 조사 수행을 읽어 Teams eDiscovery 조사를](ediscovery-investigation.md) 수행하는 방법을 알아봅니다.
+부모와 보호자는 외부 사용자이지만 채팅에 대한 기여는 검색할 수 있습니다. Microsoft Teams 콘텐츠에 대한 [eDiscovery 조사 수행을 읽어 Teams eDiscovery 조사를](ediscovery-investigation.md) 수행하는 방법을 알아봅니다.
+
+> [!IMPORTANT]
+> IT 관리자는 학생 개인 정보 보호에 대한 위험을 포함하여 채팅을 통해 학생 정보를 공유하기 위한 모범 사례에 대해 모든 수업 소유자에게 교육해야 합니다.
 
 #### <a name="blocking-a-parent-or-guardian-in-a-chat"></a>채팅에서 부모 또는 보호자 차단
+
 교육자는 부모 연결에서 시작된 채팅에서 보호자를 차단할 수 있습니다.
 
 클래스 소유자는 다음을 수행할 수 있습니다.
