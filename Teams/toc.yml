@@ -1693,7 +1693,7 @@ items:
                 href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
               - name: Teams를 사용한 가상 약속 - Epic EHR에 통합
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
-              - name: EHR 관리자 보고서
+              - name: EHR 커넥터 가상 약속 보고서
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: Teams 및 Bookings를 사용한 가상 약속
                 href: expand-teams-across-your-org/bookings-virtual-visits.md

@@ -13,31 +13,31 @@ ms.localizationpriority: medium
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
-description: 적절한 장치, 마이크, 스피커, 카메라 및 디스플레이 선택을 포함하여 Microsoft Teams 룸 지원하기 위한 요구 사항에 대해 알아봅니다.
+description: 적절한 장치, 마이크, 스피커, 카메라 및 디스플레이 선택을 포함하여 Microsoft Teams 룸을 지원하기 위한 요구 사항에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 29b58a57d052acb529bc4c21db184589ed3739d8
-ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
+ms.openlocfilehash: e2f8ae10f19d59d9eefdc5f4f5fcf0eac4085eb0
+ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65860609"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65886655"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 룸 요구사항
 
-Microsoft Teams 룸 크기가 다른 객실 크기로 조정됩니다. Teams 룸 공간의 크기와 사용에 따라 다양한 인증 오디오 및 비디오 주변 장치를 사용합니다. 마이크, 스피커, 카메라 및 디스플레이와 함께 적합한 코어 장치 및 콘솔을 선택하여 공간에 적합한 디스플레이를 선택하면 작은 허들 공간에서 큰 회의 공간 및 회의실까지 모든 크기의 공간에 Microsoft Teams 룸 배포할 수 있습니다.  룸을 구성 하는데 사용할 수 있는 모든 사용 가능한 인증 오디오 및 비디오 주변 장치는 [장치 보기](https://products.office.com/microsoft-teams/across-devices)에서 볼 수 있습니다.
+Microsoft Teams 룸은 다양한 객실 크기로 확장됩니다. Teams 룸은 회의실의 크기와 사용에 따라 다양한 인증된 오디오 및 비디오 주변 장치를 사용합니다. 마이크, 스피커, 카메라 및 디스플레이와 함께 오른쪽 코어 장치 및 콘솔을 선택하여 공간에 적합한 디스플레이를 선택하면 작은 허들 공간에서 큰 회의 공간 및 회의실까지 모든 크기의 공간에 Microsoft Teams 룸을 배포할 수 있습니다.  룸을 구성 하는데 사용할 수 있는 모든 사용 가능한 인증 오디오 및 비디오 주변 장치는 [장치 보기](https://products.office.com/microsoft-teams/across-devices)에서 볼 수 있습니다.
 
 이 문서는 Microsoft Teams 룸을 지원하는데 필요한 장치 배포 및 구성 요구 사항을 간략하게 설명합니다.
 
-배포에는 배포 Microsoft Teams 룸 설명된 대로 리소스 계정 만들기 및 [Teams 룸](rooms-deploy.md) 설정이 포함됩니다.
+배포에는 [Microsoft Teams 룸 배포](rooms-deploy.md)에 설명된 대로 Teams 룸의 리소스 계정 만들기 및 설정이 포함됩니다.
 
 다음을 참조하세요.
 
 - [계획에 따른 라이선스 옵션: Microsoft Teams 룸](rooms-licensing.md)
 
 > [!NOTE]
-> Microsoft Teams 룸 Microsoft Teams, 비즈니스용 Skype 서버 2019 또는 비즈니스용 Skype 서버 2015에 로그인하고 이러한 서비스에서 호스트하는 모임에 참가할 수 있습니다.
+> Microsoft Teams 룸은 Microsoft Teams, 비즈니스용 Skype Server 2019 또는 비즈니스용 Skype Server 2015에 로그인하고 이러한 서비스에서 호스트하는 모임에 참가할 수 있습니다.
 >
-> Lync Server 2013 같은 이전 플랫폼은 Microsoft Teams 룸에서 지원하지 않습니다. Microsoft Teams 룸 21Vianet 또는 DoD 환경에서 작동하는 Microsoft 365 또는 Office 365 지원되지 않습니다.
+> Lync Server 2013 같은 이전 플랫폼은 Microsoft Teams 룸에서 지원하지 않습니다. Microsoft Teams 룸은 21Vianet 또는 DoD 환경에서 운영하는 Microsoft 365 또는 Office 365에서 지원되지 않습니다.
 >
 > 온프레미스 Exchange 서버를 사용하는 경우 Microsoft Teams 룸에서 Exchange Server 2013 SP1이나 이후 버전을 사용해야 합니다.
 
@@ -133,7 +133,7 @@ Microsoft Teams 룸 크기가 다른 객실 크기로 조정됩니다. Teams 룸
 
 |Microsoft Teams 룸 주변기기|인증된 펌웨어 버전 | 카메라는 콘텐츠 카메라 사용을 지원 합니다.|
 |:--- |:--- | :--- |
-|[Aver VC520 Pro 카메라 + Speakerphone](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
+|[Aver VC520 Pro Camera + Speakerphone](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
 |[Aver VC520 PRO2 회의 시스템](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |
 |[Aver VB342+ 카메라 사운드바](https://www.averusa.com/products/conference-camera/vb342plus) | 사운드바: 0.0.0000.97|
 |[Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
@@ -150,13 +150,13 @@ Microsoft Teams 룸 크기가 다른 객실 크기로 조정됩니다. Teams 룸
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
 |[Huddly IQ 카메라](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
 |[Huddly L1](https://www.huddly.com/conference-cameras/l1/) | 1.2.9 |
-|[Crestron UC-C100-T MTR](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) 키트를 사용하는 Huddly L1 카메라 | 허들 L1 카메라: 1.2.1 </br> ASUS Tek Computer INC 9934 컴퓨팅 1.0.20.246 이상의 Crestron UC-C100-T |
+|[Crestron UC-C100-T MTR 키트를 사용하는 Huddly L1](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) 카메라 | 허들 L1 카메라: 1.2.1 </br> ASUS Tek Computer INC 9934 컴퓨팅 1.0.20.246 이상의 Crestron UC-C100-T |
 |[Crestron UC-CX100-T MTR-W](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T) 키트를 사용하는 Huddly L1 카메라 | 허들 L1 카메라: 1.2.9 </br> ASUS Tek Computer INC 9934 1.00.20.246 이상을 사용하는 Crestron UC-CX100-T |
 |Crestron UC-M70-T MTR 키트를 사용하는 Huddly L1 카메라 | 허들 L1 카메라: 1.2.1 </br> ASUS Tek Computer INC 9934 컴퓨팅 1.0.20.246 이상의 Crestron UC-M70-T |
 |Crestron UC-MX70-T MTR 키트를 사용하는 Huddly L1 카메라 | 허들 L1 카메라: 1.2.1 </br> ASUS Tek Computer INC 9934 컴퓨팅 1.0.20.246 이상을 사용하는 Crestron UC-MX70-T |
-|[Jabra Panacast3 카메라](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
+|[Jabra Panacast3 Camera](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
 |[Jabra Panacast 50 비디오 바](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|3.4.0| &#x2714; |
-|[레노버 씽크스마트 캠 카메라](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
+|[Lenovo ThinkSmart Cam 카메라](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
 |[Lenovo ThinkSmart Bar](https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/smart-collaboration/thinksmart/ThinkSmart-Bar/p/11SP1TSSDBR)|0.9.3|
 |Lenovo ThinkSmart Bar Expand XL|5.9.5|
 |[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
@@ -207,6 +207,7 @@ Microsoft Teams 룸 크기가 다른 객실 크기로 조정됩니다. Teams 룸
 |[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) +</br>[Shshmxa 910 Intellimix 천장 배열 마이크](https://www.shure.com/products/microphones/mxa910) | 4.1|
 |[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300)+</br>[Shure MXA 310 Table Array Mic ](https://www.shure.com/products/microphones/mxa310) +</br>[MXN5W-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA310 테이블 배열 마이크: 4.1.41 </br> MXN5W-C 스피커: 1.0.4 |
 |[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) + </br>[Intellimix Ceiling Array Mic를 사용하는 Shure MXA 920](https://www.shure.com/en-US/products/microphones/mxa920?utm_source=linkedin&utm_medium=social&sfid=&prod=) +</br>[MXN5W-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.7.7 </br> MXA920 천장 배열 마이크: 1.1.56 </br> MXN5W-C 스피커: 1.5.6 |
+|ANIUSB + </br> [Intellimix Ceiling Array Mic를 사용하는 Shure MXA 920](https://www.shure.com/en-US/products/microphones/mxa920?utm_source=linkedin&utm_medium=social&sfid=&prod=) +</br>[MXN5 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| 애니우스B: 4.4.7 </br> MXA920: 1.1.56 </br> MXN5: 1.5.6|
 |[Shure MXA 710 2ft Table Linear Array 마이크](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) +</br>[MXN5-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft 테이블 선형 배열 마이크: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C 스피커: 1.1.1 |
 |[Shure MXA 710 4ft Wall Linear Array 마이크](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 오디오 회의 프로세서](https://www.shure.com/products/mixers/p300) +</br>[MXN5-C 천장 스피커](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft 벽 선형 배열 마이크: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C 스피커: 1.1.1 |
 |[Intellimix 천장 배열 마이크가 있는 Shure MXA 910](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br> [크레스트론 UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Shure Intellimix Room Software: 3.0.4.14 </br> Intellimix 천장 배열 마이크가 있는 Shure MXA 910: 4.4.11 </br> Shure MXN5-C 스피커: 1.2.1 </br> ASUS Tek Computer INC 9934 컴퓨팅을 사용하는 Crestron UC-C100-T | 
