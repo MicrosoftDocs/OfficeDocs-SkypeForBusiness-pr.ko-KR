@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 94d59c27841e873c4e178a1b5c0d09df6942c1fc
-ms.sourcegitcommit: a388fd72e399f6e205c34707dc92cc309997e737
+ms.openlocfilehash: 16ca31652f3b5b9daa0216e683d80e6d9b0c809d
+ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65400244"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65886635"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -97,6 +97,8 @@ Teams의 채팅 목록의 일부인 대화에 참여하는 사용자는 관리�
 |각 첨부 파일의 크기 | 10MB 미만 |
 |인라인 이미지 수<sup>2</sup> |50   |
 
+> [!NOTE]
+> 채널에 보낼 수 있는 전자 메일 수에는 제한이 있습니다. 제한은 사용자당 채널당 10초당 6개의 이메일이고 사용자당 테넌트당 10초당 8개의 이메일입니다.
 <sup>1</sup>메시지가 이 한도를 초과하는 경우 미리 보기 메시지가 생성되고, 사용자에게 제공된 링크에서 원본 전자 메일을 다운로드하여 확인하라는 메시지가 표시됩니다.
 
 <sup>2</sup>첨부 파일이나 이미지 수가 이 제한을 초과하는 경우 오류 메시지가 표시됩니다.
