@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 16ca31652f3b5b9daa0216e683d80e6d9b0c809d
-ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
+ms.openlocfilehash: cdbae6cacd861602baea69ec9682f8069dc720a0
+ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "65886635"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65913436"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -168,7 +168,7 @@ Teams의 채팅 목록의 일부인 대화에 참여하는 사용자는 관리�
 > [!IMPORTANT]
 > **Microsoft 365 라이브 이벤트 한도 증가**
 >
-> **고객의 필요 사항을 계속 지원하기 위해 다음을 포함하여 2022년 6월 30일까지 라이브 이벤트 임시 한도 증가를 연장합니다.**
+> **고객의 요구를 계속해서 지원하기 위해 2022년 12월 31일까지 다음을 포함하여 라이브 이벤트에 대한 임시 기한 연장을 확대할 것입니다**.
 >
 >- 최대 20,000명의 참석자를 위한 이벤트 지원
 >- 한 테넌트에 걸쳐 동시에 50개의 이벤트가 호스트될 수 있습니다.
