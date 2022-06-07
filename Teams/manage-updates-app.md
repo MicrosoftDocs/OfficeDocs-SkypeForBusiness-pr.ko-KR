@@ -10,7 +10,7 @@ ms.service: msteams
 search.appverid: MET150
 searchScope:
 - Microsoft Teams
-description: 조직의 사용자에 대한 Teams 업데이트 앱을 관리하는 방법을 알아봅니다.
+description: 조직의 사용자를 위해 Teams에서 업데이트 앱을 관리하는 방법을 알아봅니다.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -19,26 +19,26 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 39b0e358e57a8780918c6969a562b28d9e3fe49d
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 393793e5c0a5c4a305f26427951968c5614c052f
+ms.sourcegitcommit: 5640e8264b61c1f8cf8eb212315eeba1a794e494
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823729"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65928861"
 ---
-# <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams 조직의 업데이트 앱 관리
+# <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 업데이트 앱 관리
 
 ## <a name="what-is-the-updates-app"></a>업데이트 앱이란?
 
-Microsoft Teams 앱의 업데이트는 조직 구성원이 업데이트를 만들고, 검토하고, 제출할 수 있는 중앙 집중식 위치를 제공합니다. 템플릿을 만들면 Updates 앱을 사용하여 조직에 필요한 모든 항목을 추적할 수 있습니다. 업데이트는 데스크톱과 모바일 모두에서 사용할 수 있습니다.
+Microsoft Teams의 업데이트 앱은 조직 구성원이 업데이트를 만들고, 검토하고, 제출할 수 있는 중앙 집중식 위치를 제공합니다. 템플릿을 만들면 Updates 앱을 사용하여 조직에 필요한 모든 항목을 추적할 수 있습니다. 업데이트는 데스크톱과 모바일 모두에서 사용할 수 있습니다.
 
-Teams 사용자는 Teams 앱 스토어에서 업데이트를 받을 수 있습니다. **제출** 페이지에 제출해야 하는 모든 업데이트가 표시됩니다.
+Teams에서 사용자는 Teams 앱 스토어에서 업데이트를 받을 수 있습니다. **제출** 페이지에 제출해야 하는 모든 업데이트가 표시됩니다.
 
-[![데스크톱용 Teams 제출 페이지의 이미지입니다.](media/updates-submit-small.png)](media/updates-submit.png#lightbox)
+[![데스크톱용 Teams의 제출 페이지 이미지.](media/updates-submit-small.png)](media/updates-submit.png#lightbox)
 
 사용자는 **검토** 페이지에서 할당한 업데이트를 볼 수 있습니다.
 
-[![데스크톱용 Teams 검토 페이지의 이미지입니다.](media/updates-home-small.png)](media/updates-home.png#lightbox)
+[![데스크톱용 Teams의 검토 페이지 이미지.](media/updates-home-small.png)](media/updates-home.png#lightbox)
 
 사용자에게 업데이트가 할당되면 Teams 활동 피드에 표시됩니다. 또한 사용자는 업데이트 앱에서 모든 현재 업데이트 요청 및 이전 제출을 볼 수 있습니다. 또한 누구나 템플릿을 만들고 업데이트 요청을 보낼 수 있습니다.
 
@@ -46,7 +46,7 @@ Teams 사용자는 Teams 앱 스토어에서 업데이트를 받을 수 있습�
 
 ## <a name="example-scenario"></a>시나리오 예
 
-의류 매장의 직원은 매일 매장을 열고 닫을 책임이 있습니다. 매일 아침 Shift 리더는 업데이트 앱에서 기본 제공 템플릿인 Microsoft Store 열기 업데이트를 채웁니다. 이 업데이트에서는 전날 밤 폐점과 관련된 문제를 설명하고, 매장의 청결에 대한 질문에 답하고, 보충이 필요한 모든 물품을 보고합니다. 업데이트를 제출하면 저장소에 대한 요구 사항과 문제를 빠르고 효율적으로 전달할 수 있습니다. 일일 업데이트는 또한 매장 동료에게 잘 진행되고 있는 일을 강조할 수 있는 기회를 제공합니다.
+의류 매장의 직원은 매일 매장을 열고 닫을 책임이 있습니다. 매일 아침 교대 근무 책임자는 업데이트 앱의 기본 템플릿인 스토어 열기 업데이트를 채웁니다. 이 업데이트에서는 전날 밤 폐점과 관련된 문제를 설명하고, 매장의 청결에 대한 질문에 답하고, 보충이 필요한 모든 물품을 보고합니다. 업데이트를 제출하면 저장소에 대한 요구 사항과 문제를 빠르고 효율적으로 전달할 수 있습니다. 일일 업데이트는 또한 매장 동료에게 잘 진행되고 있는 일을 강조할 수 있는 기회를 제공합니다.
 
 매장의 제조 시설에서 직원들은 모바일 장치를 사용하여 업데이트로 안전 검사를 수행합니다.
 
@@ -68,18 +68,18 @@ Teams 사용자는 Teams 앱 스토어에서 업데이트를 받을 수 있습�
 
 - Power Automate, Office 365 또는 Dynamics 365에 대한 라이선스입니다.
 
-- 사용자가 새 템플릿을 설정하려면 Microsoft Forms 대한 라이선스가 필요합니다.
+- 사용자가 새 템플릿을 설정하려면 Microsoft Forms 라이선스가 필요합니다.
 
-## <a name="storage-with-microsoft-dataverse"></a>Microsoft Dataverse를 사용하여 Storage
+## <a name="storage-with-microsoft-dataverse"></a>Microsoft Dataverse를 사용하는 스토리지
 
 CDM(Common Data Model)은 Microsoft Dataverse의 비즈니스 및 분석 애플리케이션에서 사용하는 공유 데이터 언어입니다. Microsoft와 파트너가 게시한 표준화되고 확장 가능한 데이터 스키마 집합으로 구성되며, 이를 통해 애플리케이션 및 비즈니스 프로세스에서 데이터의 일관성과 그 의미를 구현할 수 있습니다. [공통 데이터 모델에](/common-data-model/) 대해 자세히 알아봅니다.
 
-템플릿에서 만든 업데이트는 제목, 세부 정보, 템플릿 ID 등과 같은 데이터를 Microsoft Dataverse에 계속 저장합니다.  [Microsoft Forms 데이터 스토리지에](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe) 대해 자세히 알아봅니다.
+템플릿에서 만든 업데이트는 제목, 세부 정보, 템플릿 ID 등과 같은 데이터를 Microsoft Dataverse에 계속 저장합니다.  [Microsoft Forms용 데이터 스토리지에](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe) 대해 자세히 알아봅니다.
 
 >[!Note]
->Microsoft Forms 사이트에서 양식 서식 파일을 삭제하면 업데이트 템플릿이 중단되고 사용자가 업데이트를 제출할 수 없습니다. 사용자는 Microsoft Forms 삭제된 템플릿을 열려고 할 때 "CDB TableNotFound" 오류가 발생합니다.
+>Microsoft Forms 사이트에서 양식 서식 파일을 삭제하면 업데이트 템플릿이 중단되고 사용자가 업데이트를 제출할 수 없습니다. 사용자가 Microsoft Forms에서 삭제된 템플릿을 열려고 할 때 "CDB TableNotFound" 오류가 발생합니다.
 
-## <a name="updates-teams-app-permissions"></a>앱 권한 Teams 업데이트
+## <a name="updates-teams-app-permissions"></a>Teams 앱 사용 권한 업데이트
 
 업데이트 Teams 앱을 사용하면 다음 기능에 액세스할 수 있습니다.
 
@@ -112,26 +112,16 @@ CDM(Common Data Model)은 Microsoft Dataverse의 비즈니스 및 분석 애플�
 
   3. 업데이트 앱을 검색합니다.
 
-     [![Teams 앱 > 앱 관리가 강조 표시된 관리 가운데 탐색의 스크린샷](media/manage-updates-small.png)](media/manage-updates.png#lightbox)
+     [![Teams 앱 > 앱 관리가 강조 표시된 관리 센터 탐색의 스크린샷](media/manage-updates-small.png)](media/manage-updates.png#lightbox)
 
   4. **업데이트를** 선택합니다.
 
   5. 조직에 대한 앱을 비활성화하려면 토글을 선택합니다.
     ![업데이트를 사용하거나 사용하지 않도록 설정하는 토글 이미지입니다.](media/toggle-updates.png)
 
-## <a name="pin-updates-to-teams"></a>업데이트를 Teams 고정
+## <a name="pin-updates-to-teams"></a>Teams에 업데이트 고정
 
-### <a name="use-the-tailored-frontline-app-experience-to-pin-updates-and-other-apps-to-teams"></a>맞춤형 최전방 앱 환경을 사용하여 업데이트 및 기타 앱을 Teams
-
-Teams 맞춤형 최전방 앱 환경은 [F 라이선스](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)가 있는 사용자를 위해 Teams 가장 관련성이 큰 앱을 고정합니다. 고정된 앱에는 업데이트, 승인, Walkie Talkie, 작업 및 교대 근무가 포함됩니다. 기본적으로 이 기능은 최전방 근로자에게 요구 사항에 맞는 기본 제공 환경을 제공합니다.
-
-앱은 사용자가 빠르고 쉽게 액세스할 수 있는 앱 바(Teams 데스크톱 클라이언트의 측면과 Teams 모바일 클라이언트의 아래쪽에 있는 막대)에 고정됩니다.
-
-설정한 앱 정책의 작동 방식을 포함하여 자세한 내용은 [최전방 작업자를 위한 Teams 앱 조정](pin-teams-apps-based-on-license.md)을 참조하세요.
-
-### <a name="use-an-app-setup-policy-to-pin-updates-to-teams"></a>앱 설정 정책을 사용하여 업데이트를 Teams 고정
-
-앱 설정 정책을 사용하면 사용자의 사용자에게 가장 중요한 앱을 고정하는 Teams 사용자 지정할 수 있습니다.
+앱 설정 정책을 사용하면 Teams를 사용자 지정하여 사용자의 사용자에게 가장 중요한 앱을 고정할 수 있습니다. 앱은 사용자가 빠르고 쉽게 액세스할 수 있는 Teams 데스크톱 클라이언트의 측면과 Teams 모바일 클라이언트 아래쪽에 있는 표시줄인 앱 바에 고정됩니다.
 
 사용자에 대한 업데이트 앱을 고정하려면 전역(조직 전체 기본값) 정책을 편집하거나 사용자 지정 앱 설정 정책을 만들고 할당할 수 있습니다. 자세한 내용은 [Teams에서 앱 설정 정책 관리](teams-app-setup-policies.md)를 참조하세요.
 
@@ -143,11 +133,11 @@ Teams 맞춤형 최전방 앱 환경은 [F 라이선스](https://www.microsoft.c
 
 ## <a name="conditional-access-policies"></a>조건부 액세스 정책
 
-현재 Teams 업데이트 앱은 Microsoft Teams 대해 설정된 조건부 액세스 정책을 지원하지 않습니다.
+현재 Teams의 업데이트 앱은 Microsoft Teams에 대해 설정된 조건부 액세스 정책을 지원하지 않습니다.
 
 ## <a name="data-limitations"></a>데이터 제한 사항
 
-각 사용자는 최대 400개의 업데이트 템플릿을 만들 수 있으며, 각 템플릿은 Microsoft Forms 현재 기능에 따라 최대 50,000개의 요청을 수집할 수 있습니다.
+각 사용자는 최대 400개의 업데이트 템플릿을 만들 수 있으며, 각 템플릿은 Microsoft Forms의 현재 기능에 따라 최대 50,000개의 요청을 수집할 수 있습니다.
 
 ## <a name="security"></a>보안
 
