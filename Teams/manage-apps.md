@@ -17,16 +17,16 @@ description: Microsoft Teams 관리 센터의 앱 관리 페이지에서 Teams �
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: c0ee3c70e4f01aa3931006c3b9d03ae372ddf999
-ms.sourcegitcommit: c53c22069b1babce7a2364de631057ff501ca1c0
+ms.openlocfilehash: c28dfafb4ef895f4eb6b958ba2ef7cca63b825b9
+ms.sourcegitcommit: d54217d3c339fe02f83d86efe50dabe67528a14c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65671614"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "65947207"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 Teams 앱 관리
 
-관리 센터의 **Teams 앱** 에서 조직의 앱을 관리합니다. [앱 관리](https://admin.teams.microsoft.com/policies/manage-apps) 페이지를 사용하여 조직의 앱 카탈로그에서 모든 Teams 앱을 보고 관리합니다. 앱 관리 페이지에서는 테넌트 카탈로그에서 사용 가능한 모든 앱에 대한 보기를 제공하여 조직 전체에서 허용하거나 차단할 앱을 결정하는 데 필요한 정보를 제공합니다. 앱의 조직 수준 상태 및 속성을 확인하고, 조직 수준에서 앱을 차단 또는 허용하고, 새 사용자 지정 앱을 테넌트 카탈로그에 업로드하고, 조직 전체 앱 설정을 관리할 수 있습니다.
+관리 센터의 Teams 앱에서 조직의 **앱을** 관리합니다. [앱 관리](https://admin.teams.microsoft.com/policies/manage-apps) 페이지를 사용하여 조직의 앱 카탈로그에 있는 모든 Teams 앱을 보고 관리합니다. 앱 관리 페이지에서는 테넌트 카탈로그에서 사용 가능한 모든 앱에 대한 보기를 제공하여 조직 전체에서 허용하거나 차단할 앱을 결정하는 데 필요한 정보를 제공합니다. 앱의 조직 수준 상태 및 속성을 확인하고, 조직 수준에서 앱을 차단 또는 허용하고, 새 사용자 지정 앱을 테넌트 카탈로그에 업로드하고, 조직 전체 앱 설정을 관리할 수 있습니다.
 
 ![앱 관리 페이지의 스크린샷.](media/manage-apps.png)
 
@@ -38,7 +38,7 @@ Teams 관리 센터를 사용하려면 전역 관리자 또는 Teams 서비스 �
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 > [!NOTE]
-> 앱 관리 페이지는 Teams Microsoft 365 정부 커뮤니티 클라우드 High(GCCH) 또는 국방부(DoD) 배포에서 사용할 수 없습니다.
+> 앱 관리 페이지는 Teams의 Microsoft 365 Government Community Cloud High(GCCH) 또는 국방부(DoD) 배포에서 사용할 수 없습니다.
 
 ## <a name="publish-a-custom-app-to-your-organizations-app-store"></a>조직의 앱 스토어에 사용자 지정 앱 게시
 
@@ -57,9 +57,9 @@ Teams 관리 센터를 사용하려면 전역 관리자 또는 Teams 서비스 �
 
 ### <a name="upload-an-app-package"></a>앱 패키지 업로드
 
-개발자는 Teams [App Studio를 사용하여 Teams 앱](/microsoftteams/platform/get-started/get-started-app-studio) 패키지를 만든 다음 .zip 형식으로 사용자에게 보냅니다. 앱 패키지가 있는 경우 조직의 앱 스토어에 업로드할 수 있습니다.
+개발자는 [Teams App Studio를 사용하여 Teams 앱](/microsoftteams/platform/get-started/get-started-app-studio) 패키지를 만든 다음 .zip 형식으로 사용자에게 보냅니다. 앱 패키지가 있는 경우 조직의 앱 스토어에 업로드할 수 있습니다.
 
-새 사용자 지정 앱을 업로드하려면 **업로드** 선택하여 앱 패키지를 업로드합니다. 앱이 업로드된 후에는 강조 표시되지 않으므로 앱 관리 페이지에서 앱 목록을 검색하여 찾아야 합니다.
+새 사용자 지정 앱을 업로드하려면 **업로드** 를 선택하여 앱 패키지를 업로드합니다. 앱이 업로드된 후에는 강조 표시되지 않으므로 앱 관리 페이지에서 앱 목록을 검색하여 찾아야 합니다.
 
 앱을 업로드한 후 업데이트하려면 앱 관리 페이지의 앱 목록에서 앱 이름을 선택한 다음 **업데이트를 선택합니다.** 이렇게 하면 기존 앱이 대체되고 모든 앱 권한 정책 및 앱 설정 정책이 업데이트된 앱에 계속 적용됩니다.
 
@@ -75,14 +75,14 @@ Teams 관리 센터를 사용하려면 전역 관리자 또는 Teams 서비스 �
 1. 앱 목록에서 앱을 선택합니다.
 1. **허용** 또는 **차단** 을 선택합니다.
 
-앱 관리 페이지에서 앱을 차단하거나 허용하면 해당 앱이 차단되거나 조직의 모든 사용자에 대해 허용됩니다.  Teams 앱 권한 정책에서 앱을 차단하거나 허용하면 해당 정책이 할당된 사용자에게 차단되거나 허용됩니다. 사용자가 모든 앱을 설치하고 상호 작용할 수 있도록 하려면 앱 관리 페이지의 조직 수준 및 사용자에게 할당된 앱 권한 정책에서 앱을 허용해야 합니다.
+앱 관리 페이지에서 앱을 차단하거나 허용하면 해당 앱이 차단되거나 조직의 모든 사용자에 대해 허용됩니다.  Teams 앱 권한 정책에서 앱을 차단하거나 허용하면 해당 정책이 할당된 사용자가 차단되거나 허용됩니다. 사용자가 모든 앱을 설치하고 상호 작용할 수 있도록 하려면 앱 관리 페이지의 조직 수준 및 사용자에게 할당된 앱 권한 정책에서 앱을 허용해야 합니다.
 
  > [!NOTE]
  > 앱을 제거하려면 앱을 마우스 오른쪽 단추로 클릭한 다음 **제거** 를 클릭하거나 왼쪽의 **추가 앱** 메뉴를 사용합니다.
 
 ## <a name="manage-user-requests-to-unblock-apps"></a>앱 차단을 해제하는 사용자 요청 관리
 
-차단된 앱을 사용할 수 있도록 하는 요청을 볼 수 있습니다. 요청은 IT 관리자에게 전송되며, 사용자는 Teams 관리 센터에서 사용자 요청을 보고 관리할 수 있습니다.
+차단된 앱을 사용할 수 있도록 하는 요청을 볼 수 있습니다. 요청은 TEAMS 관리 센터에서 사용자 요청을 보고 관리할 수 있는 IT 관리자에게 전송됩니다.
 
   :::image type="content" source="media/user-request.png" alt-text="차단된 앱 승인에 대한 요청 배치":::
 
@@ -100,7 +100,7 @@ Teams 관리 센터를 사용하려면 전역 관리자 또는 Teams 서비스 �
     * 앱이 모든 사용자에 대해 차단된 경우 [앱을 허용합니다](#allow-and-block-apps).
     * 모든 사용자에 대해 모든 앱이 차단된 경우 [조직 전체 설정을](#manage-org-wide-app-settings) 수정합니다.
 
- 관리자가 앱을 허용하는 경우 최종 사용자에게 요청이 수행됨을 알리지 않습니다. 사용자는 앱이 차단 해제되었는지 여부를 확인하기 위해 Microsoft Store 앱을 방문해야 합니다.
+ 관리자가 앱을 허용하는 경우 최종 사용자에게 요청이 수행됨을 알리지 않습니다. 사용자는 스토어의 앱을 방문하여 앱이 차단 해제되어 있는지 확인해야 합니다.
 
 ### <a name="dismiss-a-user-request"></a>사용자 요청 해제
 
@@ -110,13 +110,13 @@ Teams 관리 센터를 사용하려면 전역 관리자 또는 Teams 서비스 �
 
   :::image type="content" source="media/reject.png" alt-text="차단된 앱 거부"border="true":::
 
-관리자가 요청을 기각하는 경우 최종 사용자에게 요청이 수행됨을 알리지 않습니다. 사용자는 앱이 차단 해제되었는지 여부를 확인하기 위해 Microsoft Store 앱을 방문해야 합니다.
+관리자가 요청을 기각하는 경우 최종 사용자에게 요청이 수행됨을 알리지 않습니다. 사용자는 스토어의 앱을 방문하여 앱이 차단 해제되어 있는지 확인해야 합니다.
 
 ## <a name="apps-blocked-by-publishers"></a>게시자에 의해 차단된 앱
 
 ISV가 앱을 글로벌 앱 스토어에 게시하는 경우 관리자가 앱 환경을 구성하거나 사용자 지정해야 할 수 있습니다. 관리자는 앱이 완전히 설정되면 최종 사용자가 사용할 수 있도록 할 수 있습니다.
 
-예를 들어 Contoso Electronics는 Microsoft Teams 지원 센터 앱을 만든 ISV입니다. Contoso Electronics는 사용자가 앱과 상호 작용할 때 예상대로 작동하도록 고객이 앱의 특정 속성을 설정하기를 원합니다. 관리자가 애플리케이션을 허용하거나 차단하기 전에 Teams 관리 센터에서 **차단된 게시자로** 표시되고 기본적으로 최종 사용자에게 숨겨집니다. 게시자의 지침에 따라 앱을 설정한 후 상태를 **허용** 됨으로 변경하여 사용자가 사용할 수 있도록 설정하거나 상태를 **차단** 됨으로 변경하여 사용자가 앱을 사용하지 못하도록 차단할 수 있습니다.
+예를 들어 Contoso Electronics는 Microsoft Teams용 지원 센터 앱을 만든 ISV입니다. Contoso Electronics는 사용자가 앱과 상호 작용할 때 예상대로 작동하도록 고객이 앱의 특정 속성을 설정하기를 원합니다. 관리자가 애플리케이션을 허용하거나 차단하기 전에 Teams 관리 센터에서 **차단된 게시자로** 표시되고 기본적으로 최종 사용자에게 숨겨집니다. 게시자의 지침에 따라 앱을 설정한 후 상태를 **허용** 됨으로 변경하여 사용자가 사용할 수 있도록 설정하거나 상태를 **차단** 됨으로 변경하여 사용자가 앱을 사용하지 못하도록 차단할 수 있습니다.
 
 ![Teams 관리 센터의 게시자 상태에 의해 차단된 스크린샷.](media/blocked-by-publisher.png)
 
@@ -132,32 +132,32 @@ ISV가 앱을 글로벌 앱 스토어에 게시하는 경우 관리자가 앱 �
 
 ## <a name="customize-an-app"></a>앱 사용자 지정
 
-이제 조직의 요구에 따라 특정 모양과 느낌을 포함하도록 앱을 사용자 지정할 수 있습니다. [Teams 앱 사용자 지정을](customize-apps.md) 참조하세요.
+이제 조직의 요구에 따라 특정 모양과 느낌을 포함하도록 앱을 사용자 지정할 수 있습니다. [Teams에서 앱 사용자 지정을 참조하세요](customize-apps.md).
 
 ## <a name="purchase-services-for-third-party-apps"></a>타사 앱용 서비스 구매
 
-앱 관리 페이지에서 조직의 사용자를 위해 타사 앱에서 제공하는 서비스에 대한 라이선스를 검색하고 구매할 수 있습니다. 테이블의 **라이선스** 열은 앱이 유료 SaaS 구독을 제공하는지 여부를 나타냅니다. **지금 구매** 를 선택하여 플랜 및 가격 정보를 보고 사용자에 대한 라이선스를 구입합니다. 자세한 내용은 [Microsoft Teams 관리 센터에서 Teams 타사 앱에 대한 서비스 구매를 참조하세요](purchase-third-party-apps.md).
+앱 관리 페이지에서 조직의 사용자를 위해 타사 앱에서 제공하는 서비스에 대한 라이선스를 검색하고 구매할 수 있습니다. 테이블의 **라이선스** 열은 앱이 유료 SaaS 구독을 제공하는지 여부를 나타냅니다. **지금 구매** 를 선택하여 플랜 및 가격 정보를 보고 사용자에 대한 라이선스를 구입합니다. 자세한 내용은 [Microsoft Teams 관리 센터에서 Teams 타사 앱용 구매 서비스를](purchase-third-party-apps.md) 참조하세요.
 
 ## <a name="grant-admin-consent-to-apps"></a>앱에 관리자 동의 부여
 
-조직의 모든 사용자를 대신하여 권한을 요청하는 앱에 대한 동의를 검토하고 부여할 수 있습니다. 이렇게 하면 사용자가 앱을 시작할 때 앱에서 요청한 권한을 검토하고 수락할 필요가 없습니다. **권한** 열은 앱에 동의가 필요한 권한이 있는지 여부를 나타냅니다. 동의가 필요한 권한이 있는 Azure AD 등록된 각 앱에 대한 **세부 정보 보기** 링크가 표시됩니다. 자세한 내용은 [Microsoft Teams 관리 센터에서 앱 권한 보기 및 관리자 동의 부여를](app-permissions-admin-center.md) 참조하세요.
+조직의 모든 사용자를 대신하여 권한을 요청하는 앱에 대한 동의를 검토하고 부여할 수 있습니다. 이렇게 하면 사용자가 앱을 시작할 때 앱에서 요청한 권한을 검토하고 수락할 필요가 없습니다. **권한** 열은 앱에 동의가 필요한 권한이 있는지 여부를 나타냅니다. 동의가 필요한 권한이 있는 Azure AD에 등록된 각 앱에 대한 **세부 정보 보기** 링크가 표시됩니다. 자세한 내용은 [Microsoft Teams 관리 센터에서 앱 사용 권한 보기 및 관리자 동의 부여를](app-permissions-admin-center.md) 참조하세요.
 
 ## <a name="view-resource-specific-consent-permissions"></a>리소스별 동의 권한 보기
 
-RSC(리소스별 동의) 권한을 통해 팀 소유자는 앱에 대한 동의를 부여하여 팀의 데이터에 액세스하고 수정할 수 있습니다. RSC 권한은 앱이 특정 팀에서 수행할 수 있는 작업을 정의하는 세분화된 Teams 특정 권한입니다. 앱에 대한 앱 세부 정보 페이지의 **사용 권한** 탭에서 RSC 권한을 볼 수 있습니다. 자세한 내용은 [Microsoft Teams 관리 센터에서 앱 권한 보기 및 관리자 동의 부여를](app-permissions-admin-center.md) 참조하세요.
+RSC(리소스별 동의) 권한을 통해 팀 소유자는 앱에 대한 동의를 부여하여 팀의 데이터에 액세스하고 수정할 수 있습니다. RSC 권한은 앱이 특정 팀에서 수행할 수 있는 작업을 정의하는 세분화된 Teams별 권한입니다. 앱에 대한 앱 세부 정보 페이지의 **사용 권한** 탭에서 RSC 권한을 볼 수 있습니다. 자세한 내용은 [Microsoft Teams 관리 센터에서 앱 사용 권한 보기 및 관리자 동의 부여를](app-permissions-admin-center.md) 참조하세요.
 
 ## <a name="manage-org-wide-app-settings"></a>조직 전체 앱 설정 관리
 
-조직 전체 앱 설정을 사용하여 [F 라이선스](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) 를 가진 사용자가 맞춤형 최전방 앱 환경을 얻을 수 있는지 여부(곧 제공될 예정), 사용자가 타사 앱을 설치할 수 있는지 여부 및 사용자가 조직에서 사용자 지정 앱을 업로드하거나 상호 작용할 수 있는지 여부를 제어합니다. 조직 전체 앱 설정은 모든 사용자의 동작을 관리하고 사용자에게 할당된 다른 모든 앱 사용 권한 정책을 재정의합니다. 악의적이거나 문제가 있는 앱을 제어하는 데 사용할 수 있습니다.
+조직 전체 앱 설정을 사용하여 [F 라이선스](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) 를 가진 사용자가 맞춤형 최전방 앱 환경을 얻을 수 있는지 여부, 사용자가 타사 앱을 설치할 수 있는지 여부 및 사용자가 조직에서 사용자 지정 앱을 업로드하거나 조작할 수 있는지 여부를 제어합니다. 조직 전체 앱 설정은 모든 사용자의 동작을 관리하고 사용자에게 할당된 다른 모든 앱 사용 권한 정책을 재정의합니다. 악의적이거나 문제가 있는 앱을 제어하는 데 사용할 수 있습니다.
 
 > [!NOTE]
-> Microsoft 365 Government - 정부 커뮤니티 클라우드 High GCCH 및 DoD(국방부) Teams 배포에서 조직 전체 앱 설정을 사용하는 방법을 알아보려면 [Teams 앱 권한 정책 관리를](teams-app-permission-policies.md) 참조하세요.
+> Microsoft 365 Government - Government Community Cloud High GCCH 및 DoD(국방부) Teams 배포에서 조직 전체 앱 설정을 사용하는 방법을 알아보려면 [Teams에서 앱 권한 정책 관리를](teams-app-permission-policies.md) 참조하세요.
 
 1. 앱 관리 페이지에서 **조직 전체 앱 설정을** 선택합니다. 그런 다음 창에서 원하는 설정을 구성할 수 있습니다.
 
     :::image type="content" source="media/manage-apps-org-wide-app-settings.png" alt-text="앱 관리 페이지의 조직 전체 앱 설정 창 스크린샷":::
 
-1. (출시 예정) **맞춤형 앱** 에서 **맞춤형 앱 표시** 를 끄거나 켭니다. 이 설정이 켜지면 [F 라이선스](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) 가 있는 사용자는 맞춤형 최전방 앱 환경을 얻을 수 있습니다. 이 환경은 최전방 작업자를 위해 Teams 가장 관련성이 큰 앱을 고정합니다. 자세한 내용은 [일선 작업자를 위한 Teams 앱 맞춤](pin-teams-apps-based-on-license.md)을 참조하세요.
+1. **맞춤형 앱** 에서 **맞춤형 앱 표시** 를 끄거나 켭니다. 이 설정이 켜지면 [F 라이선스](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) 가 있는 사용자는 맞춤형 최전방 앱 환경을 얻을 수 있습니다. 이 환경은 Teams에서 최전방 작업자를 위해 가장 관련성이 큰 앱을 고정합니다. 자세한 내용은 [일선 작업자를 위한 Teams 앱 조정을 참조하세요](pin-teams-apps-based-on-license.md).
 
     이 기능은 F 라이선스에 사용할 수 있습니다. 다른 라이선스 유형은 나중에 지원될 예정입니다.
 1. **타사 앱** 에서 이 설정을 끄거나 켜면 타사 앱에 대한 액세스를 제어할 수 있습니다.
