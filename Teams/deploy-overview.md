@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 배포 개요
-author: dstrome
-ms.author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6a8323c2d8dfd6023a9e27de9a6f0d47c87ae67
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f4a102cb3b9ca6202ef678704a1c12971c43e5c2
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730897"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045817"
 ---
 # <a name="microsoft-teams-deployment-overview"></a>Microsoft Teams 배포 개요
 

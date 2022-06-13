@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams를 사용하여 원격 작업자 지원하기
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -11,18 +11,18 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 - remotework
 ms.reviewer: dansteve, anmich
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: >
   조직의 원격 작업자가 특히 COVID-19(코로나 바이러스) 발생에 대응하여 재택 근무(WFH)를 하는 경우 이 가이드를 읽고 Microsoft Teams를 사용하여 생산성을 높일 수 있습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72f5f353f09df16512cefa3efc700fb254d8d1b385f76c5b3d3bd9e6030e7999
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ca27b85007c110a61150f89efcc457ab1fdebad0
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328963"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045617"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams를 사용하여 원격 작업자 지원하기
 
@@ -75,7 +75,7 @@ ms.locfileid: "54328963"
    - [Microsoft가 직원들이 Microsoft Teams를 사용해 원격으로 근무 가능하도록 지원하는 방법](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)을 참조하세요.
    - [중소 기업이 Teams와 원격으로 작업할 수 있도록 지원](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
-   - [Microsoft IT가 직원의 원격 작업을 지원하는 9가지 주요 방법](https://www.microsoft.com/ko-KR/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+   - [Microsoft IT가 직원의 원격 작업을 지원하는 9가지 주요 방법](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
 1. 교육용 Teams 

@@ -1,7 +1,7 @@
 ---
 title: Teams 또는 비즈니스용 Skype Online 용 프록시 서버
-ms.author: tonysmit
-author: tonysmit
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: jastark
 ms.topic: reference
@@ -21,29 +21,29 @@ f1.keywords:
 ms.custom:
 - Optimization
 - seo-marvel-apr2020
-description: 이 문서에서는 프록시 서버와 함께 프록시 서버를 사용하는 Microsoft Teams 비즈니스용 Skype.
-ms.openlocfilehash: 559a42c19aa47a9e72a5c0549e80f45de8d50fdf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 이 문서에서는 Microsoft Teams 또는 비즈니스용 Skype 프록시 서버를 사용하는 방법에 대한 정보를 제공합니다.
+ms.openlocfilehash: 61a1878b3c7057de7dddbcd63c480f80c2f16e0f
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582162"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045437"
 ---
 # <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Teams 또는 비즈니스용 Skype Online 용 프록시 서버
 
-이 문서에서는 프록시 서버와 함께 프록시 서버를 사용하는 방법에 Teams 비즈니스용 Skype.
+이 문서에서는 Teams 또는 비즈니스용 Skype 프록시 서버를 사용하는 방법에 대한 지침을 제공합니다.
   
 ## <a name="not-using-a-proxy-server-is-recommended"></a>프록시 서버를 사용하지 않는 것이 좋습니다.
 
-프로시를 통해 트래픽을 Teams 비즈니스용 Skype 경우 Microsoft는 프로시전을 무시하는 것이 좋습니다. Proxies는 트래픽이 이미 암호화되어 Teams 비즈니스용 Skype 보안이 유지되지 않습니다.
+프록시를 통해 트래픽을 Teams 또는 비즈니스용 Skype 경우 프록시를 우회하는 것이 좋습니다. 프록시는 트래픽이 이미 암호화되어 있으므로 Teams 또는 비즈니스용 Skype 더 안전하게 만들지 않습니다.
   
-프록시가 있는 경우 문제가 발생할 수 있습니다. 성능 관련 문제는 대기 시간 및 패킷 손실을 통해 환경에 도입될 수 있습니다. 이러한 문제로 인해 실시간 스트림이 필수인 오디오 Teams 비즈니스용 Skype 시나리오에서 부정적인 환경을 경험할 수 있습니다.
+프록시를 사용하면 문제가 발생할 수 있습니다. 대기 시간 및 패킷 손실을 통해 성능 관련 문제를 환경에 도입할 수 있습니다. 이와 같은 문제로 인해 실시간 스트림이 필수적인 오디오 및 비디오와 같은 Teams 또는 비즈니스용 Skype 시나리오에서 부정적인 환경이 발생합니다.
   
 ## <a name="if-you-need-to-use-a-proxy-server"></a>프록시 서버를 사용해야 하는 경우
 
-일부 조직에서는 트래픽 또는 트래픽에 대한 프록시를 Teams 비즈니스용 Skype 없습니다. 이 경우 위에서 언급한 문제를 염두에 두어야 합니다.
+일부 조직에서는 Teams 또는 비즈니스용 Skype 트래픽에 대한 프록시를 바이패스할 수 있는 옵션이 없습니다. 이 경우 위에서 언급한 문제를 염두에 두어야 합니다.
   
-Microsoft는 또한 강력하게 권장합니다.
+Microsoft는 다음을 강력하게 권장합니다.
   
 - 외부 DNS 확인 사용
     
@@ -51,12 +51,12 @@ Microsoft는 또한 강력하게 권장합니다.
     
 - UDP 트래픽 허용
     
-- 네트워킹 지침의 다른 권장 사항: [](prepare-network.md) 조직의 네트워크 준비를 Teams
+- 네트워킹 지침의 다른 권장 사항에 따라: [조직의 네트워크를 Teams 준비](prepare-network.md)
   
     
-이 지침을 따라 잠재적인 문제를 최소화해야 합니다.
+이 지침에 따라 잠재적인 문제를 최소화해야 합니다.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Microsoft 365 및 Office 365 네트워크 연결 원칙](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles)
 

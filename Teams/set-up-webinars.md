@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams의 웨비나를 위한 설정
-author: mkbond007
-ms.author: mabond
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: sachung, emryan
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Teams 모임에 대한 웨비나 정책을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 2cf3af39b64506fc8802eafd1e2c45f35b7a4d00
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 247d5c560075dfd0498ea76b476d5515d0fc6f07
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646247"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045707"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Microsoft Teams의 웨비나를 위한 설정
 
@@ -41,7 +41,7 @@ ms.locfileid: "65646247"
 
 ## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>사용자가 Teams 관리 센터에서 웨비나를 예약하도록 허용
 
-Teams 관리 센터를 사용하여 조직에 대한 웨비나를 설정할 수 있습니다. Teams 관리 센터에서 **MeetingsMeeting 정책** 아래에 웹 세미나를 설정하는 정책을 찾을 수 **있습니다** > .
+Teams 관리 센터를 사용하여 조직에 대한 웨비나를 설정할 수 있습니다. 모임 정책 아래의 Teams 관리 센터에서 웹 세미나를 설정하는 **정책을** 찾을 수 **있습니다** > .
 
 ### <a name="meeting-registration"></a>모임 등록
 

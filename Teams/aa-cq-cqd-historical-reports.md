@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 통화 품질 대시보드 Power BI 보고서를 사용하여 자동 전화 교환 및 통화 큐 기록 데이터를 보는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 66394094f51d58344f151b8ebb7059c2e390c089
-ms.sourcegitcommit: 56d529cdbd8d8733350625316082f339ae8d66c9
+ms.openlocfilehash: e2d71410d10fb809debd1699afcf452c71a6e088
+ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65294099"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046450"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>자동 전화 교환 & 통화 큐 기록 보고서
 
@@ -42,7 +42,7 @@ Teams 자동 전화 교환 & 통화 큐 기록 보고서 Power BI 템플릿은 �
 ## <a name="prerequisites"></a>필수 구성 요소
 
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-Power BI Desktop 설치해야 합니다. [Microsoft Windows Store](https://aka.ms/pbidesktopstore)에서 설치할 수 있습니다.
+Power BI Desktop 설치해야 합니다. [Microsoft Windows Microsoft Store](https://aka.ms/pbidesktopstore) 설치할 수 있습니다.
 
 무료 버전의 Power BI Desktop 사용할 수 있습니다. 호환되는 최소 버전은 2.85.681.0(2020년 9월)입니다.
 
@@ -160,7 +160,7 @@ Power BI Desktop 설치해야 합니다. [Microsoft Windows Store](https://aka.m
 |AA 이름                                 |텍스트                     |자동 전화 교환에 연결된 리소스 계정의 이름<br><br>전체 리소스 계정 이름이 **aa_test@microsoft.com** 경우 이 값은 **aa_test** |
 |AACallerActionCount                     |정수             |요약: 합계<br>통화 중 자동 전화 교환에서 호출자가 선택한 작업 수  |
 |AACallFlow                              |텍스트                     |자동 전화 교환 호출의 다양한 상태(가능한 값)를 캡슐화합니다.<br><br>§ abs_search<br>§ 공지 사항<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
-|AACallResult                            |텍스트                     |최종 호출 결과-가능한 값:<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ 알 수 없음<br>§ user_terminated |
+|AACallResult                            |텍스트                     |최종 호출 결과-가능한 값:<br><br>§ failed_to_establish_media(통화의 미디어 부분을 설정할 수 없음)<br>§ failover_to_operator(일반적으로 시스템 오류로 인해 운영자에게 전송된 호출)<br>§ oaa_chain_too_long (AA에 너무 많은 다리)<br>§ oaa_session_too_long(AA 세션이 너무 오래 지속됨)<br>§ service_declined(AA가 통화를 수락하지 않음)<br>§ service_terminated(AA 구성에서 호출 연결 끊기)<br>§ terminated_automatic_selection(AA 구성으로 호출 연결 끊기)<br>§ terminated_no_operator(정의된 연산자가 없는 오류로 인해 호출이 종료됨) <br>§ terminated_transfer_failed(전송 실패로 종료된 호출 - 일반적으로 외래 번호로)<br>***§ transferred_to_operator*** (일반적으로 사용자 입력 오류로 인해 호출이 운영자에게 전송됨)<br>§ transferred_to_receptionist(transferred_to_operator 동일)<br>§ transferred_to_self (AA의 시작 부분에 호출이 반환되었습니다 - 일반적으로 메뉴 알림 옵션에서)<br>§ transferred_to_shared_voicemail(통화가 공유 음성 메일로 전송됨)<br>§ transferred_to_user(통화가 사용자에게 전송됨 - 통화 큐 포함)<br>§ 알 수 없음(알 수 없는 오류가 발생했습니다).<br>§ user_terminated(발신자가 전화를 끊었다) |
 |AAChainDuration                         |10진수           |요약: 합계<br>자동 전화 교환의 통화 기간                     |
 |AAChainIndex                            |텍스트                     |                                                                         |
 |AAConnectivityType                      |텍스트                     |호출 유형- 가능한 값:<br><br>§ ExternalCall<br>§ InternalCall |
@@ -225,7 +225,7 @@ Power BI Desktop 설치해야 합니다. [Microsoft Windows Store](https://aka.m
 |이름                                    |데이터 형식                |설명                                                                |
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |통화 수                              |정수             |요약: 합계<br>호출 수                                          |
-|통화 큐 호출 결과                  |텍스트                     |호출 큐 호출 최종 상태 -- 가능한 값:<br><br>§ agent_joined_conference<br>§ 거부됨<br>§ 연결이 끊김<br>§ 오류<br>§ 실패<br>§ 잘못되었습니다.<br>§ 오버플로<br>§ timed_out<br>§ transferred_to_agent |
+|통화 큐 호출 결과                  |텍스트                     |호출 큐 호출 최종 상태 -- 가능한 값:<br><br>§ agent_joined_conference(응답된 전화 회의 모드 통화)<br>§ 거부됨<br>§ 연결이 끊김<br>§ 오류<br>§ 실패<br>§ 잘못되었습니다.<br>§ 오버플로(오버플로 조건이 충족됨)<br>§ timed_out(시간 제한 조건이 충족됨)<br>§ transferred_to_agent(응답된 트랜퍼 모드 호출 {default}) |
 |통화 큐 ID                     |텍스트                     |통화 큐에 연결된 리소스 계정의 이름<br><br>전체 리소스 계정 이름이 **cq_test@microsoft.com** 경우 이 값은 **cq_test** |
 |통화 큐 대상 유형                  |텍스트                     |***호출 리디렉션 대상 유형-가능한 값:***<br><br>§ ApplicationEndpoint<br>§ 사서함<br>§ 기타<br>§ 사용자 |
 |통화 유형<sup>1</sup>                   |텍스트                     |호출 유형- 가능한 값:<br><br>§ 외부<br>§ 내부           |
@@ -248,7 +248,7 @@ Power BI Desktop 설치해야 합니다. [Microsoft Windows Store](https://aka.m
 |:---------------------------------------|:------------------------|:--------------------------------------------------|
 |평균 통화 기간(초)         |10진수           |요약: 합계<br>평균 통화 기간(초) |
 |통화 수                              |정수             |요약: 합계<br>호출 수                  |
-|통화 큐 호출 결과                  |텍스트                     |호출 큐 호출 최종 상태-가능한 값:<br><br>§ agent_joined_conference<br>§ 거부됨<br>§ 연결이 끊김<br>§ 오류<br>§ 실패<br>§ 잘못되었습니다.<br>§ 오버플로<br>§ timed_out<br>§ transferred_to_agent |
+|통화 큐 호출 결과                  |텍스트                     |호출 큐 호출 최종 상태-가능한 값:<br><br>§ agent_joined_conference(응답된 전화 회의 모드 통화)<br>§ 거부됨<br>§ 연결이 끊김<br>§ 오류<br>§ 실패<br>§ 잘못되었습니다.<br>§ 오버플로(오버플로 조건이 충족됨)<br>§ timed_out(시간 제한 조건이 충족됨)<br>§ transferred_to_agent(응답된 전송 모드 호출 {default} |
 |큐 최종 상태 작업 호출           |텍스트                     |큐 최종 작업 호출-가능한 값:<br><br>§ 연결 끊기(timed_out 통화)<br>§ disconnect_with_busy(오버플로 호출)<br>§ failed_to_accept_call<br>§ 앞으로<br>§ shared_voicemail<br>§ 기타<br>§ 음성 메일 |
 |통화 큐 ID                     |텍스트                     |통화 큐에 연결된 리소스 계정의 이름<br><br>전체 리소스 계정 이름이 **cq_test@microsoft.com** 경우 이 값은 **cq_test** |
 |날짜                                    |날짜/시간                |통화 큐 호출 시작 날짜 및 시간(시간)(UTC)   |

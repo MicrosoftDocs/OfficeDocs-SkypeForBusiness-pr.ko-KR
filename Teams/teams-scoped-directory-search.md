@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b073cdd67d89de7d934990abc33cb0586d0fc76
-ms.sourcegitcommit: 5fe5516f6118ce3fa0449ab194a6fe87bf48c664
+ms.openlocfilehash: c20c5acdafff69e5a43f02093b515b456daa8ff7
+ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64732226"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046430"
 ---
 # <a name="limit-who-users-can-see-when-searching-the-directory-in-teams"></a>Teams 디렉터리를 검색할 때 사용자가 볼 수 있는 사용자 제한
 
@@ -50,3 +50,5 @@ Microsoft Teams 조직에서 디렉터리의 사용자 지정 보기를 사용�
 
 > [!Note]
 > 이 변경 내용이 적용되려면 몇 시간이 걸릴 수 있습니다.
+> 
+> 이름으로 검색을 설정하면 Teams **참가 또는 팀 만들기** 에서 **검색 팀** 상자와 공개 팀 목록이 숨겨집니다. 또한 Teams 맨 위에 있는 명령 상자에 입력하여 `/join` 팀 참가를 사용하지 않도록 설정합니다.

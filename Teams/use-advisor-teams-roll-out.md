@@ -1,7 +1,7 @@
 ---
 title: Advisor for Teams를 사용하여 Microsoft Teams 배포
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.reviewer: pkrebs
 manager: serdars
 ms.topic: article
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: 'Advisor for Teams로 Microsoft Teams 사용을 계획하고 성공적으로 배포하세요.  '
-ms.openlocfilehash: 68ac2ec927b1790502a8562c848f1e82f8913668
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b05567eb17d878d297be1900425e51760341389a
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594450"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045597"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Advisor for Teams를 사용하여 Microsoft Teams 배포
 

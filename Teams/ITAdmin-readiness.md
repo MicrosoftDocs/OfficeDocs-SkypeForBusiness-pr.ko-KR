@@ -1,8 +1,8 @@
 ---
-title: 관리 학습 리소스 - Microsoft Teams
+title: 관리자 교육 리소스 - Microsoft Teams
 ms.reviewer: jhwang
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 description: Microsoft Teams 계획, 배포 및 실행하는 방법에 대한 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bc4841e67606f467bc13940755a7de77038d7b6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 3cda81a54bce9310454cd6b0607e943eb7c2bb37
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675590"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045857"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams 대한 관리자 교육 시작
 

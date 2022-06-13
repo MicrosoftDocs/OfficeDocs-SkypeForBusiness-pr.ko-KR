@@ -1,19 +1,19 @@
 ---
 title: Ignite 2020의 Teams 세션
 description: Business Central에 사용 가능한 모든 학습을 찾습니다.
-author: SerdarSoysal
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.date: 09/21/2020
 ms.topic: article
 ms.service: msteams
-ms.author: serdars
 audience: admin
 manager: serdars
-ms.openlocfilehash: 35ec6c883c880543c9d27a18a9af87d3cff7ab6d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: a956af4c9eedf5e9b4c10c61c219651da94f4ffb
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675120"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046017"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Ignite 2020의 Teams 세션
 

@@ -1,7 +1,7 @@
 ---
 title: 중소 기업 Microsoft Teams 설정
-author: dstrome
-ms.author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,19 +18,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bdf55403f807ddb8929da71d082adffcbcb7877d
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: c3afa62cfaca28c0c428c15b44868e7237973955
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767151"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045447"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>중소 기업 Microsoft Teams 설정
 
 Teams를 사용자 지정하는 방법에는 여러 가지가 있습니다. 다음 섹션에서는 각 Teams 워크로드(**채팅, 팀 및 채널**, **모임 및 회의** 및 **음성 솔루션**)를 설정하는 방법을 보여 줍니다. 각 워크로드를 설정하는 순서는 사용자가 결정합니다. 먼저 채팅, 팀 및 채널 워크로드를 먼저 설정하는 것이 좋지만, 모임 및 회의나 Cloud Voice으로 설정할 수 있습니다. 선택은 자유입니다.
 
 > [!NOTE]
-> 아직 완료하지 않은 경우, Teams 배포 파일럿을 시작하는 것이 좋습니다. 파일럿을 통해 사용자와 일부 얼리어답터는 계획 및 최종 배포 전에 Teams와 Teams의 기능에 익숙해질 수 있습니다. 파일럿을 시작하는 방법에 대한 자세한 내용은 [Microsoft Teams 시작](get-started-with-teams-quick-start.md)을 참조하세요.
+> 아직 수행하지 않은 경우 파일럿을 사용하여 Teams 배포를 시작하는 것이 좋습니다. 파일럿을 통해 사용자와 일부 얼리어답터는 계획 및 최종 배포 전에 Teams와 Teams의 기능에 익숙해질 수 있습니다. 파일럿을 시작하는 방법에 대한 자세한 내용은 [Microsoft Teams 시작](get-started-with-teams-quick-start.md)을 참조하세요.
 
 Teams를 광범위하게 배포하기 전에 [준비되었는지 확인](get-started-with-teams-quick-start.md#make-sure-youre-ready)에서 항목을 검토하여 조직이 준비되었는지 확인해야 합니다.
 
@@ -86,7 +86,7 @@ Teams에서는 모임이 기본적으로 활성화되어 있지만, 이끌이 �
 
 ## <a name="deploy-clients"></a>클라이언트 배포
 
-Teams를 사용할 준비가 되면 Windows, Mac, Linux PC나Android, iOS 장치에 Teams 클라이언트를 설치할 수 있습니다. <https://teams.microsoft.com/downloads>에서 Teams 클라이언트를 직집 다운로드할 수 있습니다.
+Teams를 사용할 준비가 되면 Windows, Mac, Linux PC나Android, iOS 장치에 Teams 클라이언트를 설치할 수 있습니다. 사용자는 <https://teams.microsoft.com/downloads>에서 Teams 클라이언트를 직접 다운로드할 수 있습니다.
 
 Teams를 사용할 모든 사람에게 Teams 라이선스가 있는지 확인 Teams 라이선스 할당에 대한 자세한 내용은 [Teams에 대한 사용자 액세스 관리](user-access.md#using-the-microsoft-365-admin-center)를 참조하세요.
 

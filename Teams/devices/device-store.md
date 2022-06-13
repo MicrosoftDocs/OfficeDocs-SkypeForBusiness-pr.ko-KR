@@ -16,12 +16,12 @@ search.appverid: MET150
 f1.keywords:
 - CSH
 description: Teams 관리 센터 디바이스 저장소에서 디바이스를 찾아보고 구매하는 방법 알아보기
-ms.openlocfilehash: da520b6396fa7e47288f4fdaa6b9f028ba16b3dd
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: e5cedb84d50111d90d90d47802f667fb6fdbc106
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761450"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045647"
 ---
 # <a name="purchase-devices-in-the-teams-device-store"></a>Teams 디바이스 저장소에서 디바이스 구매
 
@@ -34,7 +34,7 @@ Teams 관리 센터의 디바이스 저장소를 사용하면 Microsoft Teams �
 
 ## <a name="requirements"></a>요구 사항
 
-디바이스 저장소를 사용하려면 전역 관리자, Teams 관리자 또는 Teams 디바이스 관리자여야 합니다.
+디바이스 저장소를 사용하려면 전역 관리자 또는 Teams 관리자여야 합니다.
 
 ## <a name="browse-the-store"></a>스토어 찾아보기
 
