@@ -1407,6 +1407,8 @@ items:
             href: rooms/standards-and-room-planner.md
           - name: 고객이 보고한 인시던트
             href: rooms/customer-reported-incidents.md
+          - name: 데이터 및 개인 정보 보호 정보
+            href: rooms/data-and-privacy-info.md
           - name: Teams 룸 모바일 애플리케이션 사용
             href: rooms/extended-mobile-app.md
       - name: 디바이스
