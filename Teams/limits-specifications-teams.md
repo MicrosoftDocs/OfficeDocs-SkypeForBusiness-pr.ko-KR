@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cdbae6cacd861602baea69ec9682f8069dc720a0
-ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
+ms.openlocfilehash: 2d31474233057d930ccdbc0bdfea27262cc5dc04
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65913436"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046007"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -45,8 +45,8 @@ ms.locfileid: "65913436"
 |팀당 채널 수    | 200(삭제된 채널 포함)<sup>4</sup>        |
 |팀당 비공개 채널 수    |30(삭제된 채널 포함)<sup>4</sup>        |
 |비공개 채널 회원수    |250|
-|팀으로 가져올 수 있는 전자 메일 그룹, 보안 그룹 또는 Office 365 그룹의 최대 크기입니다.    |3,500|
-|Office 365 그룹에서 팀으로 전환할 수 있는 최대 구성원 수    |10,000<sup>6</sup>     |
+|팀으로 가져올 수 있는 메일 그룹, 보안 그룹 또는 Microsoft 365 그룹의 최대 크기    |3,500|
+|팀으로 변환할 수 있는 Microsoft 365 그룹의 최대 구성원 수    |10,000<sup>6</sup>     |
 |채널 대화 게시 크기 | 게시물당 약 28KB<sup>5</sup> |
 
 <sup>1</sup> Azure Active Directory의 모든 디렉터리 개체는 이 제한에 포함됩니다. 전역 관리자는 [응용 프로그램 사용 권한](/graph/permissions-reference)을 사용하여 Microsoft Graph를 호출하는 앱과 마찬가지로 이 제한에서 제외됩니다.
@@ -62,7 +62,7 @@ ms.locfileid: "65913436"
 <sup>6</sup> 팀 외부의 공유 채널 구성원 수 제한에 도달했습니다. 또한 팀/채널 멘션은 10,000명이 넘는 구성원이 있는 팀에서 차단됩니다.
 
 > [!NOTE]
-> 공유 채널 미리 보기에 대한 제한은 [공유 채널(미리 보기)에 대한 제한](/MicrosoftTeams/shared-channels#limits-for-shared-channels-preview)을 참조하세요.
+> 공유 채널에 대한 제한은 [공유 채널에 대한 제한](/MicrosoftTeams/shared-channels#limits-for-shared-channels)을 참조하세요.
 
 ## <a name="messaging"></a>메시징
 

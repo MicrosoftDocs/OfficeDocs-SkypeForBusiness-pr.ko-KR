@@ -6,23 +6,20 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-f1.keywords:
-- NOCSH
 ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-- m365initiative-voice
 search.appverid: MET150
 description: Business Voice 라이선스를 Teams 전화 라이선스로 변경하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39e374175b4ba0a7613405305c4db3baa0e69171
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: e9e973d00761e62e62a3c749163f9e6dcaa8a636
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046188"
+ms.locfileid: "66057098"
 ---
 # <a name="move-from-business-voice-to-teams-phone-licenses"></a>Business Voice에서 Teams 전화 라이선스로 이동
 
@@ -38,6 +35,11 @@ Business Voice는 다음과 같은 세 가지 Teams 추가 기능 라이선스�
 
 이 문서는 동일한 기능을 유지하면서 Business Voice 라이선스를 Microsoft Teams 전화 및 오디오 회의 라이선스로 변경해야 하는 IT 관리자를 위한 것입니다.
 
+> [!WARNING]
+> 이 문서의 지침을 자세히 따릅니다. 지침에 따라 **저장** 단추를 선택하지 않도록 지시하는 경우 **저장** 단추를 선택하지 마세요.
+>
+> 조기에 저장하면 전화 번호 할당, 전화 걸기 플랜, 자동 전화 교환 및 통화 큐가 손실 될 수 있습니다.
+
 ## <a name="acquire-new-licenses"></a>새 라이선스 획득
 
 Business Voice 라이선스를 교체하기 전에 먼저 사용자를 위한 대체 라이선스를 구매해야 합니다.
@@ -52,15 +54,14 @@ Business Voice 라이선스를 교체하기 전에 먼저 사용자를 위한 �
 
 | 이전 라이선스 계획 | 권장 라이선스 계획 | 설명 |
 | ---------------- | ------------------------ | ----------- |
-| 통화 플랜이 있는 Business Voice | 통화 플랜이 포함된 Teams 전화 | 클라우드 기반 전화 시스템 기능 및 PSTN 공급자로서 Microsoft와 국내 통화 플랜을 제공합니다. |
-| 통화 플랜이 없는 Business Voice | Teams 전화 표준 요금제 | 운영자 연결 [또는 직접 라우팅을 사용하여 타사 PSTN 공급자를 통해 호출 계획](pstn-connectivity.md)과 결합할 수 있는 클라우드 기반 전화 시스템 기능을 제공합니다. |
-| Business Voice(모든 버전) | Microsoft 팀 오디오 회의 전화 걸기 또는 오디오 회의 선택 | 사용이 허가된 사용자가 구성한 모임 참석자에게 전화 접속 및 전화 접속 기능을 제공합니다. |
+| 통화 플랜이 있는 Business Voice | 통화 플랜을 사용하여 Teams 전화 및 미국/CAN으로 전화 접속이 있는 Microsoft Teams 오디오 회의 | 클라우드 기반 전화 시스템 기능, PSTN 공급자로 Microsoft의 국내 통화 플랜, 사용이 허가된 사용자가 구성한 모임 참석자에게 전화 접속 및 전화 접속 기능을 제공합니다. |
+| 통화 플랜이 없는 Business Voice | TEAMS 전화 표준 요금제 및 Microsoft Teams 오디오 회의(미국/CAN으로 전화 걸기) | 사용이 허가된 사용자가 구성한 모임 참석자에게 운영자 연결 또는 직접 라우팅 및 전화 접속 및 전화 접속 기능을 [사용하여 PSTN 공급자와 타사 통화 플랜](pstn-connectivity.md)과 결합할 수 있는 클라우드 기반 전화 시스템 기능을 제공합니다. |
 
 ## <a name="how-to-update-licenses"></a>라이선스를 업데이트하는 방법
 
 라이선스를 업데이트하는 네 가지 방법이 있습니다.
 
-- Microsoft 365 관리 센터 통해 단일 사용자 라이선스 업데이트
+- Microsoft 365 관리 센터 통한 단일 사용자 라이선스 업데이트
 - Microsoft 365 관리 센터 통해 대량 사용자 라이선스 업데이트
 - PowerShell 스크립트를 사용하여 대량 사용자 라이선스 업데이트
 - Azure 그룹 기반 라이선스를 사용하여 대량 사용자 라이선스 업데이트

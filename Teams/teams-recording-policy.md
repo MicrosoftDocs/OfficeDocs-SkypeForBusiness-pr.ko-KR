@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a86535c701b38b65d1610dc3aa8af2b5616d4a3
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: b6fb06062902ee5bb0b3ab3f41f25a712933dd37
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823007"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66056928"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>통화 & 모임에 대한 Teams 정책 기반 녹음/녹화 소개
 
@@ -55,7 +55,7 @@ Teams Teams 통신을 구성, 관리, 기록, 저장 및 분석하기 위한 엔
 
 | 유형                   | 편의성(일반 Teams 기록) | 조직 - 규제(규정 준수 기록) |
 | ---------------------- | ------------------ | --------------- |
-| 초기자              | 사용자               | 관리(시스템)  |
+| 초기자              | 사용자               | 관리자(시스템)  |
 | 대상                 | 통화당/모임 | 사용자별        |
 | Storage 소유자          | 사용자               | 규정 준수      |
 | 알림이 필요합니까? | 예                | 예             |
@@ -240,6 +240,7 @@ IT 관리자는 규정 준수 기록 정책을 만들고 할당하여 기록할 
 
 |파트너|솔루션 웹 사이트 |
 |:--|:--|
+|GuardRec |[https://www.guardrec.com/en/teams-compliance-recording/](https://www.guardrec.com/en/teams-compliance-recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
 

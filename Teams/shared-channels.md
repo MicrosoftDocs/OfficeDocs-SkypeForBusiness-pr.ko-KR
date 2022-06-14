@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams에서 공유 채널을 사용하고 관리하는 방법을 알아보세요.
-ms.openlocfilehash: 72701d71712a553c9a02cf9ab41ce0ced0597c3a
-ms.sourcegitcommit: c74c83fdb3fdbf1a5ebc9398bf0379d33f888d1b
+ms.openlocfilehash: 11abe6245dea7ee72bc2f71b412addbed5aa6e30
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65795640"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66057058"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams의 공유 채널
 
@@ -96,10 +96,12 @@ Microsoft Teams의 공유 채널은 팀에 없는 사용자를 초대할 수 있
 
 각 공유 채널에는 [고유한 SharePoint 사이트](/SharePoint/teams-connected-sites)가 있습니다. 별도의 사이트는 공유 채널 파일에 대한 액세스 권한이 공유 채널의 구성원에게만 제한되도록 하기 위함입니다. 이러한 사이트는 기본적으로 문서 라이브러리를 통해 만들어지며, [사이트 관리 인터페이스](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)를 통해 전체 기능이 적용된 사이트로 손쉽게 업그레이드할 수 있습니다. 각 사이트는 상위 팀의 사이트와 동일한 지역에서 만들어집니다. 이러한 간단한 사이트에는 사용자 지정 템플릿 ID인 "TEAMCHANNEL#0"이 있어 PowerShell 및 Graph API를 통해 더욱 손쉽게 관리할 수 있습니다. 
 
+공유 채널 사이트는 상위 팀의 민감도 레이블을 상속합니다. 이는 채널이 다른 팀과 직접 공유되는 경우에도 마찬가지입니다.
+
 > [!NOTE]
 > 채널의 소유자 또는 구성원 권한이 있는 사용자만 공유 채널 사이트의 콘텐츠에 액세스할 수 있습니다. 부모 팀의 사용자와 관리자도 해당 콘텐츠에 액세스할 수 없습니다(채널 구성원인 경우 제외).
 
-공유 채널 사이트는 부모 팀의 사이트에서 데이터 분류를 동기화합니다. 사이트 소유자와 구성원 그룹의 구성원 자격은 공유 채널의 구성원 자격과 동기화되어 유지됩니다. 공유 채널 사이트에 대한 사이트 사용 권한은 SharePoint를 통해 독립적으로 관리할 수 없습니다. 
+사이트 소유자와 구성원 그룹의 구성원 자격은 공유 채널의 구성원 자격과 동기화되어 유지됩니다. 공유 채널 사이트에 대한 사이트 사용 권한은 SharePoint를 통해 독립적으로 관리할 수 없습니다. 
 
 Teams는 공유 채널 사이트의 수명 주기를 관리합니다. 사이트가 Teams 외부에서 삭제되면 공유 채널이 활성 상태인 경우 4시간 이내에 자동으로 복원됩니다. 사이트가 영구적으로 삭제될 경우 새 사이트가 공유 채널에 대해 프로비전됩니다.
 

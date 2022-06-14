@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams 생성된 디버그, 미디어 및 데스크톱 로그, 찾을 수 있는 위치 및 모니터링 및 문제 해결에 도움이 되는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d8e3ab079498ecfca11a7d2ba48736aaf457329
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 178e89ff91de4638f6a9ff56a4dcb935d18f6f91
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059109"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66056948"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>로그 파일을 사용하여 Microsoft Teams 모니터링 및 문제 해결
 
@@ -73,7 +73,7 @@ ms.locfileid: "65059109"
 
 |클라이언트 |디버그|데스크톱|미디어|
 |---------|---------|---------|---------|
-|웹    |X         |-         |-         |
+|Web    |X         |-         |-         |
 |Windows     |X         |X         |X         |
 |Mac OSX     |X         |X         |X         |
 |Linux     |X         |X         |X         |
@@ -95,12 +95,16 @@ Windows 및 Mac 지침에 대한 _로깅 수집 및 사용_ 섹션을 참조하�
 -   통화/대화
 
 Linux에 대한 로그를 수집하려면 다음을 수행합니다.
-- 바로 가기 키: <kbd>CtrlAltShift1</kbd> + <kbd></kbd> + <kbd></kbd> + <kbd></kbd>  
+- 바로 가기 키: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>  
 - 파일은 다음에서 사용할 수 있습니다. `~/Downloads`
 
 브라우저 및 Windows 대한 로그를 수집하려면 다음을 수행합니다.
-- 바로 가기 키: <kbd>CtrlAltShift1</kbd> + <kbd></kbd> + <kbd></kbd> + <kbd></kbd>  
+- 바로 가기 키: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>  
 - 파일은 다음에서 사용할 수 있습니다. `%userprofile%\Downloads`
+
+Mac용 로그를 수집하려면 다음을 수행합니다.
+- 바로 가기 키: <kbd>옵션</kbd> + <kbd>명령</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>  
+- 파일은 다음에서 사용할 수 있습니다. `~/Downloads`
 
 ## <a name="media-logs"></a>미디어 로그
 
@@ -153,7 +157,11 @@ Windows 및 Mac 지침에 대한 _로깅 수집 및 사용_ 섹션을 참조하�
 Linux에 대한 로그를 수집하려면 다음을 수행합니다.
 - 시스템 트레이에서 Microsoft Teams 아이콘을 클릭하고 **로그 가져오기를** 선택합니다.
 - 파일은 .에서 `~/.config/Microsoft/Microsoft Teams/logs.txt`사용할 수 있습니다.
-  
+
+Mac용 로그를 수집하려면 다음을 수행합니다.
+- Microsoft Teams 도움말 메뉴를 클릭하고 **지원 파일 수집** 을 선택합니다.
+- 파일은 `logs.txt` _MSTeams 진단 로그 \<local date and time>_ 폴더 내의 데스크톱 폴더에 있습니다.
+
 Windows 대한 로그를 수집하려면 다음을 수행합니다.
 - 시스템 트레이에서 Microsoft Teams 아이콘을 클릭하고 **지원 파일 수집** 을 선택합니다.
 - `logs.txt` 파일이 자동으로 메모장 열립니다.

@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft Teams 위한 CCaaS(통합 컨택 센터 as a Service) 솔루션의 개요
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e4df6a7f8fbdc907bb4fc88e95fe119fbbbdf47
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: f441785af609c9336fd03707f9eee334070fb885
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823433"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66056938"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams 대한 컨택 센터 통합
 
@@ -68,6 +68,8 @@ Microsoft Teams 인증 프로그램에 대한 연결된 컨택 센터는 각 참
 
 |  솔루션 공급자                                                                                                                               |  솔루션 웹 사이트                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `CentrePal` | https://www.centrepal.com/                                 |
+| `Cisco` | https://www.cisco.com/c/en/us/products/contact-center/webex-contact-center/index.html                                |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ContactCenter4All` | www.contactcenter4all.com |
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
@@ -84,6 +86,5 @@ Microsoft Teams 인증 프로그램에 대한 연결된 컨택 센터는 각 참
 | `Sikom` | http://www.sikom.de/microsoft-teams/                            |
 | `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
-| `GuardRec` | https://www.guardrec.com/en/teams-compliance-recording                          |
 
 이 목록은 더 많은 솔루션 공급자가 가입하고 인증 기준을 충족함에 따라 업데이트됩니다.
