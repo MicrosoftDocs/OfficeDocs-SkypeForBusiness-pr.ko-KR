@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell의 최신 변경 내용에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55b942cb3bf57c169d0f278a90e94d9792c315eb
-ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
+ms.openlocfilehash: 87f3a65821b243372dcf990071b3bf1a2eb3b484
+ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65785998"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66103225"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>PowerShell 릴리스 정보 Microsoft Teams
 
@@ -31,6 +31,7 @@ ms.locfileid: "65785998"
 
 | 날짜 | 버전 | 업데이트 |
 |------- | -------------------- | ------------------------------ |
+| 2022년 6월 | [4.4.3-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.4.3-preview) |<li>Get-CsAutoAttendantStatus cmdlet에 대해 IncludeResources 매개 변수를 지원합니다.</li><li>Get-CsOnlineUser cmdlet에 대해 SoftDeletedUsers 매개 변수를 지원합니다.</li><li>[Get Grant\|]-CsTeamsMediaLoggingPolicy cmdlet을 릴리스합니다.</li><li>[새 집합]-CsAutoAttendant & [새\|\|집합]-CsCallQueue cmdlet에 대한 AuthorizedUsers 선택적 매개 변수를 지원합니다.</li><li>Set-CsCallQueue cmdlet에 대해 설정된 후 프롬프트 형식을 전환할 수 없는 공유 음성 메일 프롬프트 매개 변수를 수정합니다.</li><li> [새\|집합]-CsOnlineSchedule cmdlet이 유럽 날짜-시간 형식으로 작동하도록 수정합니다.</li>
 | 2022년 5월 | [4.4.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.4.1) |<li>모듈의 크기가 개선되었습니다.</li><li>모든 cmdlet의 현대화된 버전에서 지원되지 않는 매개 변수는 오류가 발생합니다.</li><li>[Get\|Set]-CsOnlineDialInConferencingUser, Get-CsOnlineDialInConferencingBridge, [\|Get Set\|Register\|Unregister]-CsOnlineDialInConferencingServiceNumber & Get-CsOnlineDialInConferencingLanguagesSupported cmdlet에 대한 오류 처리를 수정합니다.</li><li>Test-CsOnlineLisCivicAddress cmdlet은 더 이상 사용되지 않습니다.</li><li>이제 UPN(사용자 계정 이름) & GUID를 현대화된 [제거 가져오기\|]-CsOnlineApplicationInstanceAssociation cmdlet의 ID로 사용할 수 있습니다.</li><li> [호환성이 손상되는 변경] Get-CsOnlineUser - 사용자에게 해당 정책이 할당되지 않은 경우 출력의 정책 특성이 null이 됩니다. 이러한 특성은 이전 버전(3.0.0~4.3.1)의 빈 UserPolicyDefinition 개체로 사용되었습니다.</li><li>입력 매개 변수에서 null 또는 빈 배열 값을 허용하도록 Set-CsCallQueue 수정합니다.</li><li>Get-CsPhoneNumberAssignment - City & IsoSubdivision 특성이 출력에 추가됩니다.</li>
 | 2022년 5월 | [4.3.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.1-preview) |<li>모듈의 크기가 개선되었습니다.</li><li>모든 cmdlet의 현대화된 버전에서 지원되지 않는 매개 변수는 오류가 발생합니다.</li><li>[Get\|Set]-CsOnlineDialInConferencingUser, Get-CsOnlineDialInConferencingBridge, [\|Get Set\|Register\|Unregister]-CsOnlineDialInConferencingServiceNumber & Get-CsOnlineDialInConferencingLanguagesSupported cmdlet에 대한 오류 처리를 수정합니다.</li><li>미리 보기 - New-CsBatchTeamsDeployment & Get-CsBatchTeamsDeploymentStatus의 Scale cmdlet에서 배포를 릴리스합니다.</li><li>이제 UPN(사용자 계정 이름) & GUID를 현대화된 [제거 가져오기\|]-CsOnlineApplicationInstanceAssociation cmdlet의 ID로 사용할 수 있습니다.</li>
 | 2022년 5월 | [4.3.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.0) |<li>[제거 설정\|]-CsPhoneNumberAssignment cmdlet에 대한 오류 처리를 수정합니다.</li><li>[가져오기\| Set\|Remove]-CsOnlineLisSubnet – 현대화된 cmdlet의 서브넷 매개 변수에 대한 수정 사항입니다.</li><li>[가져오기\| Set]-CsOnlineLisLocation & [Get\|Set]-CsOnlineLisCivicAddress – 현대화된 cmdlet에서 지원되는 매개 변수를 수정합니다(해당 공개 설명서의 자세한 내용).</li>
@@ -70,7 +71,7 @@ ms.locfileid: "65785998"
 | 2020년 3월 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>추가된 New-CsBatchPolicyAssignmentOperation</li> |
 | 2020년 2월 | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Get-Team 최적화</li>  |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Teams PowerShell 개요](teams-powershell-overview.md)
 
