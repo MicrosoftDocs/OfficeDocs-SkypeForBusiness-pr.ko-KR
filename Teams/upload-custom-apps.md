@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams 관리 센터에서 조직의 앱 스토어에 사용자 지정 앱을 업로드하는 방법을 알아봅니다.
-ms.openlocfilehash: 586ece26155daa5a1627dc6288cbc5c88ee52f18
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 33f2a1234c041029b44f63f42f224784cc487fdc
+ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681939"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "66124353"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>앱 패키지를 업로드하여 사용자 지정 앱 게시
 
@@ -33,9 +33,7 @@ ms.locfileid: "65681939"
 
 ![개발에서 배포에 이르는 앱의 개요입니다.](media/upload-custom-apps.png)
 
-## <a name="develop"></a>개발
-
-### <a name="create-your-app"></a>앱 만들기
+## <a name="create-your-app"></a>앱 만들기
 
 Microsoft Teams 개발자 플랫폼을 사용하면 개발자가 사용자 고유의 앱과 서비스를 쉽게 통합하여 생산성을 향상시키고, 의사 결정을 더 빠르게 내리고, 기존 콘텐츠 및 워크플로를 중심으로 공동 작업을 만들 수 있습니다. Teams 플랫폼에서 빌드된 앱은 Teams 클라이언트와 서비스 및 워크플로 간의 브리지로, 협업 플랫폼의 컨텍스트로 직접 연결됩니다. 자세한 내용은 [Teams 개발자 설명서를 참조하세요](/microsoftteams/platform/).
 
@@ -43,9 +41,9 @@ Microsoft Teams 개발자 플랫폼을 사용하면 개발자가 사용자 고�
 
 ### <a name="get-the-app-package"></a>앱 패키지 가져오기
 
-앱이 프로덕션 환경에서 사용할 준비가 되면 개발자는 앱 패키지를 생성해야 합니다. [이를 위해 App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview)를 사용할 수 있습니다. 파일을 .zip 형식으로 보냅니다.
+앱이 프로덕션에서 사용할 준비가 되면 개발자는 앱 패키지를 생성합니다. [이를 위해 App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview)를 사용할 수 있습니다. 파일을 .zip 형식으로 보냅니다.
 
-Microsoft는 [이러한 지침을](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines) 사용하여 앱이 글로벌 Teams 앱 스토어의 품질 및 보안 표준을 준수하도록 합니다.
+Teams 스토어의 모든 앱은 글로벌 Teams 앱 스토어의 품질 및 보안 표준을 준수하기 위해 필수 앱 [유효성 검사를](overview-of-app-validation.md) 전달합니다. 또한 Microsoft는 앱 개발자가 향상된 규정 준수, 보안 및 개인 정보 제어를 나타내는 선택적 [앱 준수 프로그램에](overview-of-app-certification.md) 참여하도록 강력히 권장합니다. 자세한 내용은 [Teams 앱 유효성 검사 지침을 참조하세요](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines).
 
 ### <a name="allow-trusted-users-to-upload-custom-apps"></a>신뢰할 수 있는 사용자가 사용자 지정 앱을 업로드하도록 허용
 
@@ -57,25 +55,33 @@ Microsoft는 [이러한 지침을](/microsoftteams/platform/concepts/deploy-and-
 신뢰할 수 있는 사용자가 사용자 지정 앱을 업로드할 수 있도록 하려면 다음 단계를 수행합니다.
 
 1. **사용자 지정 앱 조직 전체 앱 설정과의 상호 작용 허용** 을 켭니다. 이렇게 하려면 다음을 수행합니다.
+
     1. Microsoft Teams 관리 센터의 왼쪽 탐색 영역에서 **Teams 앱****관리 앱** > 으로 이동한 다음 **조직 전체 앱 설정을** 클릭합니다.
+    
     2. **사용자 지정 앱** 에서 **사용자 지정 앱과의 상호 작용 허용을** 켜고 **저장** 을 클릭합니다.
-2. 전역 앱 설정 정책에서 **업로드 사용자 지정** 앱 설정을 해제합니다. 이렇게 하려면 다음을 수행합니다.
+    
+1. 전역 앱 설정 정책에서 **업로드 사용자 지정** 앱 설정을 해제합니다. 이렇게 하려면 다음을 수행합니다.
+
     1. Microsoft Teams 관리 센터의 왼쪽 탐색 영역에서 **Teams 앱** > **설정 정책** 으로 이동한 다음 **전역(조직 전체 기본값)** 정책을 클릭합니다.
+    
     2. **업로드 사용자 지정 앱을** 끄고 **저장** 을 클릭합니다.
-3. 사용자 지정 앱을 업로드하고 신뢰할 수 있는 사용자 집합에 할당할 수 있는 새 앱 설정 정책을 만듭니다. 이렇게 하려면 다음을 수행합니다.
+    
+1. 사용자 지정 앱을 업로드하고 신뢰할 수 있는 사용자 집합에 할당할 수 있는 새 앱 설정 정책을 만듭니다. 이렇게 하려면 다음을 수행합니다.
+
     1. Microsoft Teams 관리 센터의 왼쪽 탐색 영역에서 **Teams 앱** > **설정 정책** 으로 이동한 다음 **추가** 를 클릭합니다. 새 정책에 이름과 설명을 지정하고 **업로드 사용자 지정 앱을** 켜고 **저장** 을 클릭합니다.
+    
     2. 만든 새 정책을 선택한 다음 **사용자 관리를** 클릭합니다. 사용자를 검색하고 **추가** 를 클릭한 다음 **적용** 을 클릭합니다. 이 단계를 반복하여 모든 신뢰할 수 있는 사용자에게 정책을 할당합니다.
 
-        !["앱 설정 정책 추가" 페이지의 스크린샷](media/manage-your-lob-apps-new-app-setup-policy.png)
+       !["앱 설정 정책 추가" 페이지의 스크린샷](media/manage-your-lob-apps-new-app-setup-policy.png)
 
-    이제 이러한 사용자는 앱 매니페스트를 업로드하여 앱이 프로덕션 테넌트에서 올바르게 작동하는지 확인할 수 있습니다.
+이제 이러한 사용자는 앱 매니페스트를 업로드하여 앱이 프로덕션 테넌트에서 올바르게 작동하는지 확인할 수 있습니다.
 
 ## <a name="upload"></a>업로드
 
-조직의 앱 스토어에서 사용자가 앱을 사용할 수 있도록 하려면 앱을 업로드합니다. 이 작업은 Microsoft Teams 관리 센터의 [앱 관리](manage-apps.md) 페이지에서 수행할 수 있습니다.
+조직의 앱 스토어에서 사용자가 앱을 사용할 수 있도록 하려면 앱을 업로드합니다.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 관리** 로 이동합니다.
-2. **업로드 선택하고 업로드** **클릭하고 개발자** 로부터 받은 앱 패키지를 선택한 다음 **열기** 를 선택합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 영역에서 **Teams 앱****[관리 앱](https://admin.teams.microsoft.com/policies/manage-apps)** > 으로 이동합니다.
+1. **업로드 선택하고 업로드** **클릭하고 개발자** 로부터 받은 앱 패키지를 선택한 다음 **열기** 를 선택합니다.
 
    ![관리 센터에서 앱을 업로드하는 스크린샷](media/manage-your-lob-apps-upload-new-app.png)
 
@@ -97,40 +103,26 @@ Microsoft는 [이러한 지침을](/microsoftteams/platform/concepts/deploy-and-
 
 ## <a name="discover-and-adopt"></a>검색 및 채택
 
-앱에 대한 권한이 있는 사용자는 조직의 앱 스토어에서 앱을 찾을 수 있습니다. 앱 페이지에서 ***조직 이름* 에 맞게 빌드** 된 앱으로 이동하여 조직의 사용자 지정 앱을 찾습니다.
+앱에 대한 권한이 있는 최종 사용자는 조직의 앱 스토어에서 찾을 수 있습니다. 앱 페이지에서 ***조직 이름* 에 맞게 빌드** 된 앱으로 이동하여 조직의 사용자 지정 앱을 찾습니다.
 
-![게시된 앱을 보여 주는 앱 페이지의 스크린샷.](media/custom-app-lifecycle-discovery.png)
+:::image type="content" source="media/custom-app-lifecycle-discovery.png" alt-text="조직에 대해 게시된 사용자 지정 앱을 보여 주는 Teams 저장소의 스크린샷" lightbox="media/custom-app-lifecycle-discovery.png":::
 
 앱 설정 정책을 만들고 할당한 경우 정책이 할당된 사용자에게 쉽게 액세스할 수 있도록 앱이 Teams 앱 표시줄에 고정됩니다.
 
 ## <a name="update"></a>업데이트
 
-앱을 업데이트하려면 개발자는 [개발](#develop) 및 [유효성 검사](#validate) 섹션의 단계를 계속 따라야 합니다.
+앱을 업데이트하기 위해 개발자는 [앱 만들기](#create-your-app) 및 [유효성 검사](#validate) 섹션의 단계를 따릅니다.
 
 Microsoft Teams 관리 센터의 앱 관리 페이지에서 앱을 업데이트할 수 있습니다. 이렇게 하려면 Microsoft Teams 관리 센터의 왼쪽 탐색에서 **Teams 앱****관리 앱** > 으로 이동합니다. 앱 이름을 클릭한 다음 **업데이트를** 클릭합니다. 이렇게 하면 기존 앱이 대체되고 모든 앱 권한 정책 및 앱 설정 정책이 업데이트된 앱에 계속 적용됩니다.
 
 ### <a name="end-user-update-experience"></a>최종 사용자 업데이트 환경
 
-대부분의 경우 앱 업데이트를 완료한 후 최종 사용자에 대해 새 버전이 자동으로 표시됩니다. 그러나 사용자 동의를 완료해야 하는 [Microsoft Teams 매니페스트](/microsoftteams/platform/resources/schema/manifest-schema)에 대한 몇 가지 업데이트가 있습니다.
+대부분의 경우 앱 업데이트를 완료한 후 최종 사용자에 대해 새 버전이 자동으로 표시됩니다. 자세한 내용은 [최종 사용자 업데이트 환경을 참조하세요](apps-update-experience.md).
 
-- 봇이 추가되거나 제거됨
-- 기존 봇의 "botId" 속성이 변경됨
-- 기존 봇의 "isNotificationOnly" 속성이 변경됨
-- 봇의 SupportsCalling, SupportsVideo 및 SupportsFiles 기능이 추가되었습니다.
-- 메시징 확장이 추가되었습니다.
-- 새 커넥터가 추가되었습니다.
-- "권한 부여" 내의 사용 권한이 추가되거나 변경되었습니다.
+## <a name="related-topics"></a>관련 주제
 
-![새 버전을 사용할 수 있는 앱을 보여 주는 앱 목록의 스크린샷](media/manage-your-custom-apps-update1.png)
-
-![앱에 대한 업그레이드 옵션의 스크린샷](media/manage-your-custom-apps-update2.png)
-
-## <a name="related-topics"></a>관련 항목
-
-- [Teams 앱 제출 API를 통해 제출된 사용자 지정 앱 게시](submit-approve-custom-apps.md)
-
-- [Microsoft Teams 관리 센터에서 앱 관리](manage-apps.md)
-- [Teams에서 사용자 지정 앱 정책 및 설정 관리](teams-custom-app-policies-and-settings.md)
-
-- [Teams에서 앱 사용 권한 정책 관리](teams-app-permission-policies.md)
-- [Teams에서 앱 설정 정책 관리](teams-app-setup-policies.md)
+* [Teams 앱 제출 API를 통해 제출된 사용자 지정 앱 게시](submit-approve-custom-apps.md)
+* [Microsoft Teams 관리 센터에서 앱 관리](manage-apps.md)
+* [Teams에서 사용자 지정 앱 정책 및 설정 관리](teams-custom-app-policies-and-settings.md)
+* [Teams에서 앱 사용 권한 정책 관리](teams-app-permission-policies.md)
+* [Teams에서 앱 설정 정책 관리](teams-app-setup-policies.md)
