@@ -805,8 +805,10 @@ items:
                 href: more-about-calling-line-id-and-calling-party-name.md
           - name: 자동 전화 교환 및 통화 큐
             items:
-              - name: 계획
+              - name: 자동 전화 교환 및 통화 큐 계획
                 href: plan-auto-attendant-call-queue.md
+              - name: 통화 라우팅 흐름 계획
+                href: plan-your-call-routing-flow.md
               - name: 자동 전화 교환 설정
                 href: create-a-phone-system-auto-attendant.md
               - name: 통화 큐 설정
@@ -819,6 +821,8 @@ items:
                 href: answer-auto-attendant-and-call-queue-calls.md
               - name: 보고서
                 href: aa-cq-cqd-historical-reports.md
+              - name: 자동 전화 교환 및 통화 큐에 대한 PowerShell cmdlet 참조
+                href: call-queue-auto-attendant-cmdlets.md
               - name: 다이얼 및 음성 참조
                 href: dial-voice-reference.md
           - name: 들어오는 호출 차단
@@ -1056,7 +1060,7 @@ items:
               - name: '5단계: 사용자에게 전화번호 할당'
                 href: business-voice/set-up-assign-numbers.md
               - name: '6단계: 자동 전화 교환 설정'
-                href: business-voice/set-up-auto-attendant.md
+                href: create-a-phone-system-auto-attendant.md
               - name: '7단계: 포트 전화 번호(선택 사항)'
                 href: business-voice/port-phone-numbers.md
               - name: 설정 후 리소스
@@ -1072,13 +1076,9 @@ items:
               - name: 더 많은 사용자 만들기
                 href: business-voice/create-users.md
               - name: 통화 큐 설정
-                href: business-voice/create-a-phone-system-call-queue-smb.md
-              - name: 자동 전화 교환 설정
-                href: business-voice/create-a-phone-system-auto-attendant-smb.md
+                href: create-a-phone-system-call-queue.md
           - name: 전화 시스템 설정 관리
             items:
-              - name: 한 명 이상의 사용자를 생성합니다
-                href: business-voice/create-users.md
               - name: 장치 관리
                 href: business-voice/manage-devices.md
               - name: 통화 품질 모니터링
@@ -1793,7 +1793,7 @@ items:
             href: teams-add-on-licensing/advanced-communications.md
           - name: 메시징 정책 라이선스
             href: teams-add-on-licensing/pri-message.md
-          - name: Microsoft 365 전화 시스템 - 가상 사용자 라이선스
+          - name: Microsoft Teams 표준 전화 요금제 – 가상 사용자 라이선스
             href: teams-add-on-licensing/virtual-user.md
           - name: Teams Essentials 시작
             href: get-started-with-teams-essentials.md

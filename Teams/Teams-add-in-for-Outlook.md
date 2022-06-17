@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03a2501236cd8dfa708790e49719d8103a187783
-ms.sourcegitcommit: 5640e8264b61c1f8cf8eb212315eeba1a794e494
+ms.openlocfilehash: 1b7ae345e3d3d94d93bb7ccc0eeb5f284296c2d5
+ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65928831"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66103265"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook에서 Teams 모임 추가 기능 사용
 
@@ -46,7 +46,7 @@ Microsoft Teams를 사용하고 Windows PC에 Office 2013, Office 2016, Office 2
 > - 컴퓨터에 Teams 모임 추가 기능을 설치하려면 적어도 Regsvr32.exe 파일을 실행할 수 있는 사용자 권한이 필요합니다.
 > - 사용자가 Teams 모임 추가 기능을 볼 수 없는 경우 특정 순서에 따라 Outlook 및 Teams를 닫고 먼저 Teams 클라이언트를 다시 시작한 다음 Teams에 로그인하고 Outlook 클라이언트를 다시 시작하도록 안내를 받습니다.
 > - Microsoft Store에서 Office Outlook 설치를 사용하는 경우 Teams 모임 추가 기능은 지원되지 않습니다. 이 추가 기능이 필요한 사용자는 [Windows 10 S 모드의 Office](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) 문서에 설명된 것처럼 Office의 간편 실행 버전을 설치하는 것이 좋습니다.
-> - Teams 모임 추가 기능, 포함된 모임 옵션을 사용하려면 [Webview2](/microsoft-edge/webview2/concepts/distribution)를 설치해야 합니다. WebView2가 설치되어 있지 않으면 사용자가 브라우저로 리디렉션되어 특히 모임 생성 시 경험이 저하될 수 있습니다.
+> - Teams 모임 추가 기능의 성능 저하를 방지하려면 [Webview2](/microsoft-edge/webview2/concepts/distribution) 및 .Net 4.8 설치가 필요합니다.
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Mac용 Outlook의 Teams 모임 추가 기능
 
