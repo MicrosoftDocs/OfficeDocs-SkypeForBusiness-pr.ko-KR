@@ -13,16 +13,16 @@ ms.reviewer: lucarras
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 커넥터는 자주 사용하는 서비스의 콘텐츠와 업데이트를 채널에 직접 제공하여 팀을 최신 상태로 유지합니다.
+description: 커넥터가 사용하는 서비스에 대한 Teams 채널에 콘텐츠 및 업데이트를 자주 전달하여 팀을 업데이트하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2dea5ee50d75ff8913bc88f2f3947d9f665cb4dd
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: de0c0398d511aca05a69220e0e35a28268535c59
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137019"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190448"
 ---
 # <a name="manage-microsoft-365-and-custom-connectors"></a>Microsoft 365 및 사용자 지정 커넥터 관리
 

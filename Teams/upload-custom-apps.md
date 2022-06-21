@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams 관리 센터에서 조직의 앱 스토어에 사용자 지정 앱을 업로드하는 방법을 알아봅니다.
-ms.openlocfilehash: 33f2a1234c041029b44f63f42f224784cc487fdc
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 01a74422ef5bc1f9c63c6ea1c7ecf2e05cc377a4
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124353"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190358"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>앱 패키지를 업로드하여 사용자 지정 앱 게시
 
@@ -41,7 +41,7 @@ Microsoft Teams 개발자 플랫폼을 사용하면 개발자가 사용자 고�
 
 ### <a name="get-the-app-package"></a>앱 패키지 가져오기
 
-앱이 프로덕션에서 사용할 준비가 되면 개발자는 앱 패키지를 생성합니다. [이를 위해 App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview)를 사용할 수 있습니다. 파일을 .zip 형식으로 보냅니다.
+앱이 프로덕션 환경에서 사용할 준비가 되면 개발자는 앱 패키지를 생성해야 합니다. [App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview)를 사용할 수 있습니다. 파일을 .zip 형식으로 보냅니다.
 
 Teams 스토어의 모든 앱은 글로벌 Teams 앱 스토어의 품질 및 보안 표준을 준수하기 위해 필수 앱 [유효성 검사를](overview-of-app-validation.md) 전달합니다. 또한 Microsoft는 앱 개발자가 향상된 규정 준수, 보안 및 개인 정보 제어를 나타내는 선택적 [앱 준수 프로그램에](overview-of-app-certification.md) 참여하도록 강력히 권장합니다. 자세한 내용은 [Teams 앱 유효성 검사 지침을 참조하세요](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines).
 
@@ -119,7 +119,7 @@ Microsoft Teams 관리 센터의 앱 관리 페이지에서 앱을 업데이트�
 
 대부분의 경우 앱 업데이트를 완료한 후 최종 사용자에 대해 새 버전이 자동으로 표시됩니다. 자세한 내용은 [최종 사용자 업데이트 환경을 참조하세요](apps-update-experience.md).
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 * [Teams 앱 제출 API를 통해 제출된 사용자 지정 앱 게시](submit-approve-custom-apps.md)
 * [Microsoft Teams 관리 센터에서 앱 관리](manage-apps.md)

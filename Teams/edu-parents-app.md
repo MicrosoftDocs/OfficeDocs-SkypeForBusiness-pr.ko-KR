@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c26f70bb6592c418968b77c9ef2a495cb98648a
-ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
+ms.openlocfilehash: 6a38bfbcc8ec7de5e9c1535b1a597b534e46d009
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65860799"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190617"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>교육용 Microsoft Teams 부모 연결 설정
 
@@ -41,12 +41,11 @@ ms.locfileid: "65860799"
 
 부모 연결을 사용하면 교육자와 보호자가 Teams 사용하여 채팅, 전자 메일 및 전화를 걸 수 있습니다.
 
-- Teams 보호자 연락처 데이터는 학교 데이터 동기화(SDS)를 사용하여 SIS에서 최신 상태로 유지됩니다.
+- 교육자는 보호자와 채팅을 시작할 수 있습니다.
+  - 보호자에게 Teams 소비자 계정이 없는 경우 교육자로부터 초기 메시지와 Teams 이동하라는 이메일 초대를 받게 됩니다.
 - 감독된 채팅에서 작동합니다. 자세한 내용은 [Microsoft Teams 감독 채팅 사용을](supervise-chats-edu.md) 참조하세요.
   - 기본적으로 보호자는 권한을 제한하므로 학생과 채팅하거나 채팅에서 사용자를 제거할 수 없습니다.
   - 이 설정은 테넌트 관리자가 변경할 수 있습니다.
-- 교육자는 보호자와 채팅을 시작할 수 있습니다.
-  - 보호자에게 Teams 소비자 계정이 없는 경우 교육자로부터 초기 메시지와 Teams 이동하라는 이메일 초대를 받게 됩니다.
 - 교육자는 보호자의 이메일을 클릭하여 네이티브 이메일 클라이언트를 사용하여 전자 메일을 보낼 수 있습니다.
 - 교육자는 보호자의 전화 번호를 클릭하여 Teams 내에서 전화를 걸 수 있습니다.
 
@@ -66,7 +65,17 @@ ms.locfileid: "65860799"
 
 ## <a name="requirements"></a>요구 사항
 
+Microsoft Graph 또는 학교 데이터 동기화(SDS)를 사용하여 각 학생의 부모 및 보호자 관련 연락처 정보를 채워야 합니다.
+
+### <a name="graph-api"></a>그래프 API
+
+[이미 Microsoft Graph PowerShell SDK](/powershell/microsoftgraph/overview)를 사용하여 학생 ID를 만드는 경우 [relatedContact 리소스 유형을](/graph/api/resources/relatedcontact) 쉽게 포함할 수 있습니다.
+
 ### <a name="school-data-sync"></a>학교 데이터 동기화
+
+Teams 보호자 연락처 데이터는 SDS 정기적으로 동기화하도록 설정된 경우 학교 데이터 동기화(SDS)를 사용하여 SIS에서 최신 상태를 유지합니다.
+
+보호자가 *학생의* 레코드에서 제거되면 해당 레코드와 관련된 기존 채팅에는 채팅 소유자가 볼 수 있는 배너가 포함됩니다. 이 배너는 채팅 소유자가 변경 사항을 인식하도록 하여 채팅에서 보호자를 제거하도록 요청합니다. Microsoft는 보호자를 제거하도록 채팅 멤버 자격을 자동으로 업데이트하지 않습니다.
 
 - 각 학생의 부모 및 보호자 **관련 연락처** 정보를 채하려면 학교 데이터 동기화(SDS)가 필요합니다.
   - [SDS 배포](/schooldatasync/parents-and-guardians-in-sds)

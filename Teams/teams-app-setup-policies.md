@@ -14,17 +14,17 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 조직의 사용자에 대한 Microsoft Teams 앱 설정 정책을 사용하고 관리하는 방법을 알아봅니다.
+description: 앱을 고정하고, 앱을 설치하고, 사용자가 사용자 지정 앱을 업로드할 수 있도록 앱 설정 정책을 만들고, 편집하고, 관리하는 방법을 알아봅니다.
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 05e70d9b1e69ff72eda8e984af1cb1228842f5da
-ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
+ms.openlocfilehash: 58a2b8730c4f3d02746aeb0bb3887bcd63d44918
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65786008"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190479"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams 앱 설정 정책 관리
 
