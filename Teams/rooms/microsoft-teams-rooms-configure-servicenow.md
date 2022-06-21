@@ -1,9 +1,9 @@
 ---
 title: serviceNow for Teams 룸 구성
-author: dstrome
-ms.author: dstrome
+author: donnah007
+ms.author: v-donnahill
 manager: serdars
-ms.reviewer: ''
+ms.reviewer: ronmart
 ms.topic: article
 ms.service: msteams
 audience: Admin
@@ -12,18 +12,21 @@ appliesto:
 localization_priority: Normal
 description: Teams 룸 Premium 포털에서 ServiceNow를 구성하는 방법에 대해 알아봅니다.
 f1keywords: ''
-ms.openlocfilehash: c11a4e3cf4f128c8043ad2451f7d0a7a2ffe1c2e
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 6362d0bed4263ce374c1fb5cfd05d4d8815044c2
+ms.sourcegitcommit: 5bb00d639828c744951a39705fefe81ed6698efe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761500"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66167312"
 ---
 # <a name="configure-servicenow-for-teams-rooms"></a>serviceNow for Teams 룸 구성
 
 이 문서에서는 Teams 룸 Premium 포털에서 ServiceNow 환경을 구성하기 위한 필수 구성 요소 및 단계를 설명합니다.
 
-## <a name="before-you-begin"></a>시작하기 전에
+## <a name="watch-microsoft-teams-rooms--managed-services-service-now-integration"></a>조사식: Microsoft Teams 룸 - Managed Services Service Now 통합
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ZK4B]
+
 
 ### <a name="teams-rooms-prerequisites"></a>Teams 룸 필수 구성 요소
 
