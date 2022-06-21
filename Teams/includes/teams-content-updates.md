@@ -3,6 +3,38 @@
 
 
 
+## <a name="week-of-june-13-2022"></a>2022년 6월 13일 주
+
+
+| 게시 날짜 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 6/13/2022 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으로 바뀌었습니다 |
+| 6/13/2022 | [Power BI 사용하여 Microsoft Teams 대한 CQD 데이터 분석](/MicrosoftTeams/cqd-power-bi-query-templates) | 으로 바뀌었습니다 |
+| 6/13/2022 | [Business Voice에서 Teams 전화 라이선스로 이동](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | 으로 바뀌었습니다 |
+| 6/13/2022 | [문제 해결 Microsoft Teams 로그 파일 사용](/MicrosoftTeams/log-files) | 으로 바뀌었습니다 |
+| 6/13/2022 | [데이터 및 개인 정보](/MicrosoftTeams/rooms/data-and-privacy-info) | 으로 바뀌었습니다 |
+| 6/13/2022 | [업데이트 관리 Microsoft Teams 룸](/MicrosoftTeams/rooms/update-management) | 으로 바뀌었습니다 |
+| 6/15/2022 | [Teams PowerShell 모듈 - 지원되는 버전](/MicrosoftTeams/teams-powershell-supported-versions) | 으로 바뀌었습니다 |
+| 6/16/2022 | [자동 전화 교환 및 통화 큐에 대한 PowerShell cmdlet 참조](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | 추가 |
+| 6/16/2022 | [Microsoft Teams 대한 통화 라우팅 흐름 계획](/MicrosoftTeams/plan-your-call-routing-flow) | 추가 |
+| 6/16/2022 | [Microsoft Teams 앱 사용 권한 및 고려 사항](/MicrosoftTeams/app-permissions) | 으로 바뀌었습니다 |
+| 6/16/2022 | [사용자의 전화 번호 할당, 변경 또는 제거](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 으로 바뀌었습니다 |
+| 6/16/2022 | Microsoft Teams 자동 전화 교환 설정 - 소규모 비즈니스 자습서 | 제거 |
+| 6/16/2022 | Microsoft Teams 전화 System에서 통화 큐 만들기 - 소규모 비즈니스 자습서 | 제거 |
+| 6/16/2022 | [사용자에게 Teams 전화 시스템 전화 번호 할당](/MicrosoftTeams/business-voice/set-up-assign-numbers) | 으로 바뀌었습니다 |
+| 6/16/2022 | 회사의 주 전화 번호에 대한 자동 전화 교환 설정 | 제거 |
+| 6/16/2022 | [Microsoft Teams 전화 시스템 리소스 계정 설정](/MicrosoftTeams/business-voice/set-up-resource-account) | 으로 바뀌었습니다 |
+| 6/16/2022 | [중소기업을 위한 Teams 전화 시스템 지침](/MicrosoftTeams/business-voice/whats-business-voice) | 으로 바뀌었습니다 |
+| 6/16/2022 | [Microsoft Teams 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 으로 바뀌었습니다 |
+| 6/16/2022 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으로 바뀌었습니다 |
+| 6/16/2022 | [조직의 Teams 스토어에서 앱 모양 수정](/MicrosoftTeams/customize-apps) | 으로 바뀌었습니다 |
+| 6/16/2022 | [자동 전화 교환 및 통화 큐 전화 걸기 및 음성 인식 참조](/MicrosoftTeams/dial-voice-reference) | 으로 바뀌었습니다 |
+| 6/16/2022 | [Teams 리소스 계정 관리](/MicrosoftTeams/manage-resource-accounts) | 으로 바뀌었습니다 |
+| 6/16/2022 | [자동 전화 교환 및 통화 큐 Teams 계획](/MicrosoftTeams/plan-auto-attendant-call-queue) | 으로 바뀌었습니다 |
+| 6/16/2022 | [Microsoft Teams 관리 센터에서 사용자 지정 앱 업로드](/MicrosoftTeams/upload-custom-apps) | 으로 바뀌었습니다 |
+| 6/16/2022 | [참가자 및 게스트에 대한 모임 정책 관리](/MicrosoftTeams/meeting-policies-participants-and-guests) | 으로 바뀌었습니다 |
+
+
 ## <a name="week-of-june-06-2022"></a>2022년 6월 6일 주
 
 
@@ -37,7 +69,7 @@
 | 6/1/2022 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으로 바뀌었습니다 |
 | 6/2/2022 | [Microsoft Teams의 하드웨어 요구 사항](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 으로 바뀌었습니다 |
 | 6/2/2022 | [Teams 정책의 특수 문자 제한 사항](/MicrosoftTeams/special-character-restrictions-in-policy-names) | 으로 바뀌었습니다 |
-| 6/2/2022 | [교육용 Teams 부모 관리자 설정](/MicrosoftTeams/edu-parents-app) | 으로 바뀌었습니다 |
+| 6/2/2022 | [교육용 Teams 부모의 관리 설정](/MicrosoftTeams/edu-parents-app) | 으로 바뀌었습니다 |
 | 6/3/2022 | [Microsoft Teams EHR 커넥터 가상 약속 보고서](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-reports) | 으로 바뀌었습니다 |
 
 
@@ -77,7 +109,7 @@
 | 5/25/2022 | [PSTN을 사용하는 하이브리드 환경의 사용자 계정](/MicrosoftTeams/direct-routing-user-accounts-in-a-hybrid-environment) | 으로 바뀌었습니다 |
 | 5/25/2022 | [콘텐츠에 대한 eDiscovery 조사 수행](/MicrosoftTeams/ediscovery-investigation) | 으로 바뀌었습니다 |
 | 5/25/2022 | [안전한 학습을 위한 정책을 쉽게 적용하는 교육용 Teams 정책 마법사](/MicrosoftTeams/easy-policy-setup-edu) | 으로 바뀌었습니다 |
-| 5/25/2022 | [교육용 Teams 부모 관리자 설정](/MicrosoftTeams/edu-parents-app) | 으로 바뀌었습니다 |
+| 5/25/2022 | [교육용 Teams 부모의 관리 설정](/MicrosoftTeams/edu-parents-app) | 으로 바뀌었습니다 |
 | 5/25/2022 | [SIS(학생 정보 시스템) 데이터와 Education Insights 동기화](/MicrosoftTeams/education-insights-sis-data-sync) | 으로 바뀌었습니다 |
 | 5/25/2022 | [Teams 할당](/MicrosoftTeams/expand-teams-across-your-org/assignments-in-teams) | 으로 바뀌었습니다 |
 | 5/25/2022 | [PowerShell을 사용하여 Blue Yonder Workforce Management에 교대 근무 연결](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup) | 으로 바뀌었습니다 |
@@ -153,22 +185,3 @@
 | 5/20/2022 | [직접 라우팅에 대한 긴급 통화 라우팅 정책 관리](/MicrosoftTeams/manage-emergency-call-routing-policies) | 으로 바뀌었습니다 |
 | 5/20/2022 | [Microsoft Teams 긴급 통화 정책 관리](/MicrosoftTeams/manage-emergency-calling-policies) | 으로 바뀌었습니다 |
 | 5/20/2022 | [PowerShell 릴리스 정보 Microsoft Teams](/MicrosoftTeams/teams-powershell-release-notes) | 으로 바뀌었습니다 |
-
-
-## <a name="week-of-may-09-2022"></a>2022년 5월 9일 주
-
-
-| 게시 날짜 |토픽 제목 | 변경 |
-|------|------------|--------|
-| 5/9/2022 | [직접 라우팅에 대한 사용자 사용](/MicrosoftTeams/direct-routing-enable-users) | 으로 바뀌었습니다 |
-| 5/9/2022 | [운영자 연결 구성](/MicrosoftTeams/operator-connect-configure) | 으로 바뀌었습니다 |
-| 5/9/2022 | [Teams 정책 할당](/MicrosoftTeams/policy-assignment-overview) | 으로 바뀌었습니다 |
-| 5/9/2022 | [자동 전화 교환 & 통화 큐 기록 보고서](/MicrosoftTeams/aa-cq-cqd-historical-reports) | 으로 바뀌었습니다 |
-| 5/10/2022 | [직접 라우팅으로 전달되는 위치 기반 라우팅 계획](/MicrosoftTeams/location-based-routing-plan) | 으로 바뀌었습니다 |
-| 5/10/2022 | [Microsoft Teams 통화 정책: 통화 및 착신 전환 기능](/MicrosoftTeams/teams-calling-policy) | 으로 바뀌었습니다 |
-| 5/10/2022 | [Microsoft Teams 룸 앱 버전 지원](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 으로 바뀌었습니다 |
-| 5/12/2022 | [음성 메일 정책 관리](/MicrosoftTeams/manage-voicemail-policies) | 으로 바뀌었습니다 |
-| 5/12/2022 | [SIP 게이트웨이 구성](/MicrosoftTeams/sip-gateway-configure) | 으로 바뀌었습니다 |
-| 5/12/2022 | [교육용 Teams 부모 관리자 설정](/MicrosoftTeams/edu-parents-app) | 으로 바뀌었습니다 |
-| 5/13/2022 | [Microsoft Teams 워키 토키 앱](/MicrosoftTeams/walkie-talkie) | 으로 바뀌었습니다 |
-| 5/13/2022 | [Microsoft Teams 룸 요구사항](/MicrosoftTeams/rooms/requirements) | 으로 바뀌었습니다 |
