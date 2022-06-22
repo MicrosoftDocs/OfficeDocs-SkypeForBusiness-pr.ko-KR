@@ -1,7 +1,7 @@
 ---
 title: Microsoft의 앱 유효성 검사 및 앱 테스트 개요
 ms.reviewer: ''
-description: Teams 앱에 대해 수행된 품질 검사 및 앱 유효성 검사에 대해 이해합니다.
+description: 마켓플레이스 인증 정책을 기반으로 하는 Teams 앱 유효성 검사 지침에 대해 알아봅니다. Microsoft가 Teams 앱이 높은 수준의 개인 정보 보호 및 보안을 준수하도록 하는 방법을 이해합니다.
 ms.topic: article
 author: guptaashish
 ms.author: guptaashish
@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a916d6bdd57c2956c076461d7f36df64d5c503d9
-ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
+ms.openlocfilehash: 8172db3e67ad895427e90ed3821e1c6fb61f5df9
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "64910904"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190490"
 ---
 # <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>모든 Teams 앱에 대해 Microsoft에서 수행한 유효성 검사
 
