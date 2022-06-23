@@ -1487,7 +1487,7 @@ items:
             href: rooms/with-skype-for-business-server-2015.md
   - name: 앱 관리
     items:
-      - name: 개요
+      - name: Teams 내 앱 이해
         href: deploy-apps-microsoft-teams-landing-page.md
       - name: Microsoft에서 제공하는 앱 관리
         items:
@@ -1513,7 +1513,7 @@ items:
             href: overview-of-app-validation.md
           - name: '타사 앱의 보안, 규정 준수 및 개인 정보 보호'
             href: overview-of-app-certification.md
-          - name: Microsoft 365 또는 Office 365 및 사용자 지정 커넥터 사용
+          - name: Microsoft 365 및 사용자 지정 커넥터 관리
             href: Office-365-custom-connectors.md
           - name: Teams용 타사 앱 구입
             href: purchase-third-party-apps.md
@@ -1533,7 +1533,7 @@ items:
             href: customize-your-app-store.md
       - name: 앱을 제어하는 관리자 컨트롤
         items:
-          - name: 관리자를 위한 앱 관리 개요
+          - name: 앱 관리 개요
             href: manage-apps.md
           - name: 앱 정책
             items:
@@ -1547,7 +1547,7 @@ items:
                 href: teams-custom-app-policies-and-settings.md
           - name: 최전방 직원을 위한 맞춤형 Teams 앱
             href: pin-teams-apps-based-on-license.md
-          - name: Azure AD 권한 및 관리자 동의 정보
+          - name: Azure AD의 그래프 권한 및 관리자 동의
             href: app-permissions-admin-center.md
           - name: 조직에 대한 리소스별 동의 관리
             href: resource-specific-consent.md
@@ -1555,11 +1555,11 @@ items:
             href: app-permissions.md
           - name: 사용자 유형에 따른 앱 동작
             href: non-standard-users.md
-          - name: 최종 사용자로 앱을 최신 버전으로 업데이트
+          - name: 앱 업데이트 및 관리자 역할
             href: apps-update-experience.md
           - name: Microsoft 365에서 Teams 앱에 대한 액세스 관리
             href: manage-third-party-teams-apps.md
-      - name: 앱 사용 현황 보고서
+      - name: 앱 사용 현황 보고서 및 분석
         href: teams-analytics-and-reports/app-usage-report.md
   - name: 산업 및 정부 지침
     items:
