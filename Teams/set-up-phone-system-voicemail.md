@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 사용자에 대한 클라우드 음성 사서함 설정하는 방법을 알아봅니다.
-ms.openlocfilehash: 6a75856954da509677a1c9ccdb54e34055f171ed
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 259072194dc474d88a979ac3afb591e72eb51248
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681409"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494375"
 ---
 # <a name="set-up-cloud-voicemail"></a>클라우드 음성 사서함 설정
 
@@ -37,15 +37,15 @@ ms.locfileid: "65681409"
 
 ## <a name="cloud-voicemail-provisioning"></a>클라우드 음성 사서함 프로비전
 
-Teams 사용자의 경우 클라우드 음성 사서함 자동으로 설정 및 프로비전됩니다. *클라우드 음성 사서함 Microsoft Teams 전화 라이선스가 필요하지 않습니다.*
+Teams 사용자의 경우 클라우드 음성 사서함 자동으로 설정되고 프로비전됩니다. *클라우드 음성 사서함 Microsoft Teams 전화 라이선스가 필요하지 않습니다.*
 
-Teams 사용자에 대한 프로비저닝은 비즈니스용 Skype Online 사용자와 동일하지 않습니다. 비즈니스용 Skype Online 사용자의 경우 사용자가 전화 시스템 라이선스를 할당하고 프로비저닝 시스템에서 Enterprise Voice 사용하도록 설정되었을 때 클라우드 음성 사서함 자동으로 설정 및 프로비전되었습니다.
+Teams 사용자를 위한 프로비저닝은 비즈니스용 Skype Online 사용자와 동일하지 않습니다. 비즈니스용 Skype Online 사용자의 경우 사용자에게 전화 시스템 라이선스가 할당되고 프로비저닝 시스템에서 Enterprise Voice 사용하도록 설정되었을 때 클라우드 음성 사서함 자동으로 설정 및 프로비전되었습니다.
 
 비즈니스용 Skype 서버 온-프레미스 사용자의 경우 클라우드 음성 사서함 자동으로 설정 및 프로비전됩니다. 그러나 호출을 클라우드 음성 사서함 라우팅하도록 비즈니스용 Skype 서버 환경을 구성해야 합니다. 자세한 내용은 [온-프레미스 사용자에 대한 클라우드 음성 사서함 서비스 계획을 참조하세요](/skypeforbusiness/hybrid/plan-cloud-voicemail).
 
 ## <a name="cloud-voicemail-storage"></a>클라우드 음성 사서함 스토리지
 
-클라우드 음성 사서함 생성된 음성 메일 메시지는 Exchange Online 또는 Exchange Server 사용자의 Exchange 사서함으로 배달되고 저장됩니다. 음성 메일에 대한 특정 또는 추가 스토리지가 없습니다. 음성 메일에 액세스하는 클라이언트(예: Microsoft Outlook, Microsoft Teams 또는 비즈니스용 Skype)는 제공된 Exchange 사서함 및 API를 통해 이 작업을 수행합니다.
+클라우드 음성 사서함 생성된 음성 메일 메시지는 Exchange Online 또는 Exchange Server 사용자의 Exchange 사서함에 배달되고 저장됩니다. 음성 메일에 대한 특정 또는 추가 스토리지가 없습니다. 음성 메일에 액세스하는 클라이언트(예: Microsoft Outlook, Microsoft Teams 또는 비즈니스용 Skype)는 Exchange 사서함 및 제공된 API를 통해 이 작업을 수행합니다.
 
 음성 메일 메시지에는 음성 메시지와 음성 메일 전사가 있는 첨부된 오디오 파일이 포함되어 있습니다(활성화된 경우).
 
@@ -53,39 +53,39 @@ Teams 사용자에 대한 프로비저닝은 비즈니스용 Skype Online 사용
 
 ## <a name="cloud-voicemail-processing"></a>클라우드 음성 사서함 처리
 
-클라우드 음성 사서함 녹음 및 전사는 클라우드 음성 사서함 라우팅되는 호출의 원본에서 Microsoft 365 시작됩니다. 그러면 메시지가 사용자의 Exchange 사서함으로 배달됩니다.
+클라우드 음성 사서함 녹음 및 전사는 클라우드 음성 사서함 라우팅되는 통화의 원본에 있는 Microsoft 365에서 시작됩니다. 그러면 메시지가 사용자의 Exchange 사서함으로 배달됩니다.
 
-예를 들어 유럽의 SBC(세션 테두리 컨트롤러)를 통해 사용할 수 없는 직접 라우팅 사용자에게 전화가 오면 유럽에서 음성 메일 녹음 및 전사가 수행됩니다. 그러면 메시지가 사용자의 Exchange 사서함으로 배달됩니다. 또 다른 예에서는 북아메리카 Teams 사용자가 유럽에서 사용할 수 없는 Teams 사용자를 호출했다고 가정합니다. 이 경우 통화가 북아메리카 시작되고 북아메리카 처리가 수행된 다음, 음성 메일이 유럽의 사용자 Exchange 사서함으로 배달됩니다.
+예를 들어 유럽의 SBC(세션 테두리 컨트롤러)를 통해 사용할 수 없는 직접 라우팅 사용자에게 전화가 오면 유럽에서 음성 메일 녹음 및 전사가 수행됩니다. 그러면 메시지가 사용자의 Exchange 사서함으로 배달됩니다. 또 다른 예에서는 북아메리카 Teams 사용자가 유럽에서 사용할 수 없는 Teams 사용자를 호출했다고 가정합니다. 이 경우 통화가 북아메리카 시작되고 북아메리카 처리가 수행된 다음 음성 메일이 유럽의 사용자 Exchange 사서함으로 배달됩니다.
 
-다른 전자 메일과 마찬가지로 SMTP(Simple Mail Transport Protocol)를 사용하여 Exchange 사서함에 음성 메일을 배달합니다.
+Exchange 사서함에 음성 메일 배달은 다른 전자 메일과 마찬가지로 SMTP(Simple Mail Transport Protocol)를 사용하여 수행됩니다.
 
 ## <a name="manage-cloud-voicemail-for-users"></a>사용자에 대한 클라우드 음성 사서함 관리
 
-사용자의 클라우드 음성 사서함 기능을 관리하려면 다음과 같이 Teams PowerShell 모듈을 사용합니다.
+음성 메일 정책을 지정하고 음성 메일 설정을 구성하여 사용자에 대한 클라우드 음성 사서함 관리할 수 있습니다.  
 
-사용자 그룹에 대한 클라우드 음성 사서함 기능을 관리하려면 [New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy) cmdlet을 사용합니다.
-통화 응답 규칙, 음성 메일 전사, 전사 욕설 마스킹, 전사 번역 및 시스템 프롬프트 언어와 같은 기능에 대해 기존 또는 새로운 음성 메일 정책을 구성하고 할당할 수 있습니다. 자세한 내용은 [New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy)를 참조하세요.
+- **음성 메일 정책을** 사용하면 사용자 그룹에 대한 기능을 관리할 수 있습니다. 통화 응답 규칙, 음성 메일 전사, 전사 욕설 마스킹, 전사 번역 및 시스템 프롬프트 언어와 같은 기능에 대해 기존 또는 새로운 음성 메일 정책을 구성하고 할당할 수 있습니다. 음성 메일 정책 관리에 대한 자세한 내용은 [음성 메일 정책 관리를](manage-voicemail-policies.md) 참조하세요.
 
-개별 사용자에 대한 클라우드 음성 사서함 설정을 관리하려면 [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet을 사용합니다. 개별 사용자에게 적용할 수 있는 클라우드 음성 사서함 설정에는 통화 응답 규칙, 프롬프트 언어, 텍스트 음성 변환 기본값 및 휴가 인사말이 포함됩니다. 자세한 내용은 [Set-CsOnlineVoicemailUserSettings를 참조하세요](/powershell/module/skype/set-csonlinevoicemailusersettings).
-(최종 사용자는 Teams 클라이언트에서 설정전화 **음성 메일 구성****)** -> 으로 이동하여 이러한 설정을 구성할 수도 **있습니다** -> .
-
-[Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet을 사용하고 VoicemailEnabled 매개 변수를 $false 설정하여 사용자에 대한 클라우드 음성 사서함 사용하지 않도록 설정할 수도 있습니다. 이 설정은 클라우드 음성 사서함 더 이상 사용자의 음성 메일을 기록할 수 없도록 합니다.
+- **음성 메일 설정을** 사용하면 개별 사용자에 대한 설정을 구성할 수 있습니다. 통화 응답 규칙, 프롬프트 언어, 텍스트 음성 변환 기본값 및 휴가 인사말과 같은 설정을 구성할 수 있습니다. 개별 사용자에 대한 설정을 구성하는 방법에 대한 자세한 내용은 [음성 메일 설정 관리를 참조하세요](manage-voicemail-settings.md). 최종 사용자는 설정 **-> 통화 -> Voicemail 구성** 으로 이동하여 Teams 클라이언트에서 이러한 설정을 구성할 수도 있습니다.
 
 ## <a name="control-routing-of-calls-to-cloud-voicemail"></a>클라우드 음성 사서함 호출 라우팅 제어
 
 클라우드 음성 사서함 프로비전된 모든 사용자에 대한 기본 설정은 클라우드 음성 사서함 대한 호출 라우팅을 허용하고 사용자가 클라우드 음성 사서함 호출을 전달할 수 있도록 하는 것입니다.
 
-AllowVoicemail 매개 변수와 함께 Set-CsTeamsCallingPolicy cmdlet을 사용하여 Teams 사용자에게 클라우드 음성 사서함 대한 호출 라우팅이 허용되는지 여부를 제어할 수 있습니다. 자세한 내용은 [Set-CsTeamsCallingPolicy를 참조하세요](/powershell/module/skype/set-csteamscallingpolicy).
+Teams 관리 센터를 사용하거나 PowerShell을 사용하여 Teams 사용자에게 클라우드 음성 사서함 대한 통화 라우팅이 허용되는지 여부를 제어할 수 있습니다. 
 
-- AllowVoicemail을 AlwaysDisabled로 설정하면 사용자의 통화 전달 또는 응답되지 않은 설정에 관계없이 통화가 음성 메일로 라우팅되지 않습니다. 음성 메일은 Teams 착신 전환 또는 응답되지 않은 설정으로 사용할 수 없습니다.
+- Teams 관리 센터를 사용하려면 **음성** -> **통화 정책** -> 새 정책을 추가하거나 기존 정책을 편집합니다. > **Voicemail은 인바운드 통화 라우팅에 사용할 수 있습니다**.  
 
-- AllowVoicemail을 AlwaysEnabled로 설정하면 사용자의 응답되지 않은 통화 전달 설정에 관계없이 30초 동안 울린 후 응답이 없는 음성 메일로 통화가 항상 전달됩니다.
+- PowerShell에서 AllowVoicemail 매개 변수와 함께 Set-CsTeamsCallingPolicy cmdlet을 사용합니다. 자세한 내용은 [Set-CsTeamsCallingPolicy를 참조하세요](/powershell/module/skype/set-csteamscallingpolicy).
 
-- AllowVoicemail을 UserOverride로 설정하면 통화 전달 및/또는 사용자에 대한 응답이 없는 설정에 따라 통화가 음성 메일로 전달됩니다.
+  - AllowVoicemail을 AlwaysDisabled로 설정하면 사용자의 통화 전달 또는 응답되지 않은 설정에 관계없이 통화가 음성 메일로 라우팅되지 않습니다. Teams에서는 음성 메일을 착신 전환 또는 응답하지 않는 설정으로 사용할 수 없습니다.
+
+  - AllowVoicemail을 AlwaysEnabled로 설정하면 사용자의 응답되지 않은 통화 전달 설정에 관계없이 30초 동안 울린 후 응답이 없는 음성 메일로 통화가 항상 전달됩니다.
+
+  - AllowVoicemail을 UserOverride로 설정하면 통화 전달 및/또는 사용자에 대한 응답이 없는 설정에 따라 통화가 음성 메일로 전달됩니다.
 
 ## <a name="set-up-cloud-voicemail-to-work-with-on-premises-users"></a>온-프레미스 사용자와 작업하도록 클라우드 음성 사서함 설정
 
-클라우드 음성 사서함 사용하여 Exchange 서버에 사서함이 있는 사용자 또는 비즈니스용 Skype 서버 사용하는 사용자에게 음성 메일 기능을 제공할 수 있습니다.
+클라우드 음성 사서함 사용하여 Exchange Server에 사서함이 있는 사용자 또는 비즈니스용 Skype 서버 사용하는 사용자에게 음성 메일 기능을 제공할 수 있습니다.
 
 이 섹션에서는 Exchange Server 사서함 사용자에 대한 클라우드 음성 사서함 설정하는 방법을 설명합니다. 비즈니스용 Skype 서버 사용자에 대한 클라우드 음성 사서함 구성하는 방법에 대한 자세한 내용은 [온-프레미스 사용자에 대한 클라우드 음성 사서함 서비스 계획을 참조하세요](/skypeforbusiness/hybrid/plan-cloud-voicemail).
 
@@ -93,9 +93,9 @@ AllowVoicemail 매개 변수와 함께 Set-CsTeamsCallingPolicy cmdlet을 사용
 
 다음 정보는 Exchange Server 사서함이 있는 Teams 사용자와 함께 작동하도록 클라우드 음성 사서함 구성하는 방법에 관한 것입니다.
 
-1. 음성 메일 메시지는 Exchange Online Protection 통해 라우팅된 SMTP를 통해 사용자의 Exchange 사서함으로 배달됩니다. 이러한 메시지를 성공적으로 배달하려면 Exchange 서버와 Exchange Online Protection 간에 Exchange 커넥터가 올바르게 구성되어 있는지 확인합니다. 자세한 내용은 [커넥터를 사용하여 메일 Flow 구성을](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) 참조하세요.
+1. 음성 메일 메시지는 Exchange Online Protection 통해 라우팅된 SMTP를 통해 사용자의 Exchange 사서함으로 배달됩니다. 이러한 메시지를 성공적으로 배달하려면 Exchange 서버와 Exchange Online Protection 간에 Exchange Connector가 올바르게 구성되어 있는지 확인합니다. 자세한 내용은 [커넥터를 사용하여 메일 흐름 구성을](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) 참조하세요.
 
-2. Teams 클라이언트에서 인사말 및 시각적 음성 메일 사용자 지정과 같은 음성 메일 기능을 사용하도록 설정하려면 Microsoft 365 Exchange Server 사서함 간에 연결을 설정해야 합니다. 이 연결을 사용하려면 Exchange 조직[과 Exchange Online 조직 간의 OAuth 인증 구성에 설명된 새 Exchange Oauth 인증](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help) 프로토콜을 구성하거나 Exchange 2013 CU5 이상에서 Exchange 하이브리드 마법사를 실행해야 합니다. 또한 Teams Exchange Server [간에 통합 및 OAuth 구성에 설명된 Teams 및 Exchange Server 간에 통합 및 Oauth](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)를 구성해야 합니다.
+2. Teams 클라이언트에서 인사말 및 시각적 음성 메일 사용자 지정과 같은 음성 메일 기능을 사용하도록 설정하려면 Microsoft 365와 Exchange Server 사서함 간의 연결을 설정해야 합니다. 이 연결을 사용하려면 [Exchange와 Exchange Online 조직 간의 OAuth 인증 구성에 설명된 새 Exchange Oauth 인증](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help) 프로토콜을 구성하거나 Exchange 2013 CU5 이상에서 Exchange 하이브리드 마법사를 실행해야 합니다. Teams와 Exchange Server [간의 통합 및 OAuth 구성에 설명된 Exchange Server 간에 통합 및 Oauth를 구성](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)해야 합니다.
 
 ## <a name="enable-protected-voicemail-in-your-organization"></a>조직에서 보호된 음성 메일 사용
 
@@ -105,15 +105,15 @@ Microsoft Purview Information Protection 사용하여 내부 및 외부 발신�
 
 음성 메일 메시지를 암호화하려면 민감도 레이블을 만들 수 있습니다. 자동 레이블 지정 기능을 사용하면 레이블이 들어오는 음성 메일 메시지에 자동으로 적용되도록 할 수 있습니다.
 
-보호된 음성 메일을 사용하도록 설정하면 사용자는 음성 메일 사서함에 전화를 걸거나 Outlook, 웹용 Outlook 또는 Android 또는 iOS 대한 Outlook 메시지를 열어 보호된 음성 메일 메시지를 들을 수 있습니다. 보호된 음성 메일 메시지는 Microsoft Teams 또는 비즈니스용 Skype 열 수 없습니다.
+보호된 음성 메일을 사용하도록 설정하면 사용자는 음성 메일 사서함에 전화를 걸거나 Outlook, 웹용 Outlook 또는 Android 또는 iOS용 Outlook에서 메시지를 열어 보호된 음성 메일 메시지를 들을 수 있습니다. 보호된 음성 메일 메시지는 Microsoft Teams 또는 비즈니스용 Skype 열 수 없습니다.
 
-음성 메일에 대한 민감도 레이블을 만들려면 [민감도 레이블 사용을 참조하세요](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions). **암호화** 섹션에서 **사용자가 레이블을 적용할 때 사용 권한을 할당하도록 허용을** 선택합니다. **Outlook 선택하고 다음 제한 사항 중 하나를 적용** 한 다음 **전달 안 함** 옵션을 선택합니다.
+음성 메일에 대한 민감도 레이블을 만들려면 [민감도 레이블 사용을 참조하세요](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions). **암호화** 섹션에서 **사용자가 레이블을 적용할 때 사용 권한을 할당하도록 허용을** 선택합니다. **Outlook에서 다음 제한 사항 중 하나를 적용** 한 다음 전달 **안 함** 옵션을 선택합니다.
 
 음성 메일에 민감도 레이블을 적용하는 자동 레이블 지정 정책을 만들려면 [자동 레이블 지정 정책을 구성하는 방법을](/microsoft-365/compliance/apply-sensitivity-label-automatically#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) 참조하고 다음 특정 설정을 지정합니다.
 
 - **이 레이블을 적용할 정보 선택** 의 경우 **사용자 지정 정책을** 선택합니다.
 
-- **레이블을 적용할 위치를 선택하려면** **모든 사용자에 대해 위치: Exchange** 선택합니다.
+- **레이블을 적용할 위치를 선택하려면** **위치: 모든 사용자에 대한 Exchange를** 선택합니다.
 
 - **일반 또는 고급 규칙을 설정** 하려면 **고급 규칙을** 선택합니다.
 
@@ -134,5 +134,5 @@ Microsoft Purview Information Protection 사용하여 내부 및 외부 발신�
 
 사용자가 클라우드 음성 사서함 기능을 사용하고 관리하는 방법을 알아보려면 다음 문서를 추천할 수 있습니다.
 
-- [Teams 음성 메일 확인](https://support.microsoft.com/office/check-your-voicemail-in-teams-f8d568ce-7329-4fe2-a6a2-325ec2e2b419)
-- [Teams 통화 설정 관리](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- [Teams에서 음성 메일 확인](https://support.microsoft.com/office/check-your-voicemail-in-teams-f8d568ce-7329-4fe2-a6a2-325ec2e2b419)
+- [Teams에서 통화 설정 관리](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)

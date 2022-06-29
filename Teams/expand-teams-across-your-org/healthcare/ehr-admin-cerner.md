@@ -1,5 +1,5 @@
 ---
-title: Teams 가상 약속 - Cerner EHR에 통합
+title: Teams를 사용하여 가상 약속 - Cerner EHR에 통합
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -22,22 +22,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: 조직의 의료 공급자가 Cerner EHR 시스템에서 직접 Teams 환자 또는 다른 공급자와 가상 약속을 수행할 수 있도록 Teams EHR 커넥터를 통합하는 방법을 알아봅니다.
-ms.openlocfilehash: 8caa80bca9a7b8278aff9133f81bfa807e6727ed
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
+description: Teams EHR 커넥터를 통합하여 조직의 의료 공급자가 Cerner EHR 시스템에서 직접 Teams의 환자 또는 다른 공급자와 가상 약속을 수행할 수 있도록 하는 방법을 알아봅니다.
+ms.openlocfilehash: 990d1816d33fde527195faf81ff6153b6aa9ab8f
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853299"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494825"
 ---
-# <a name="virtual-appointments-with-teams---integration-into-cerner-ehr"></a>Teams 가상 약속 - Cerner EHR에 통합
+# <a name="virtual-appointments-with-teams---integration-into-cerner-ehr"></a>Teams를 사용하여 가상 약속 - Cerner EHR에 통합
 
-Microsoft Teams EHR(전자 건강 기록) 커넥터를 사용하면 임상의가 가상 환자 약속을 시작하거나 Cerner EHR 시스템에서 직접 Microsoft Teams 다른 공급자와 상담할 수 있습니다. Microsoft 365 클라우드에서 구축된 Teams HIPAA, HITECH 인증 등을 준수하는 단일 허브에서 채팅, 비디오, 음성 및 의료 도구와의 간단하고 안전한 공동 작업 및 통신을 지원합니다.
+Microsoft Teams EHR(전자 건강 기록) 커넥터를 사용하면 임상의가 가상 환자 약속을 시작하거나 Cerner EHR 시스템에서 직접 Microsoft Teams의 다른 공급자와 상담할 수 있습니다. Microsoft 365 클라우드를 기반으로 하는 Teams는 HIPAA, HITECH 인증 등을 준수하는 단일 허브에서 채팅, 비디오, 음성 및 의료 도구와의 간단하고 안전한 공동 작업 및 통신을 지원합니다.
 
-Teams 통신 및 공동 작업 플랫폼을 사용하면 임상의가 조각난 시스템의 혼란을 쉽게 끊어 최상의 치료를 제공하는 데 집중할 수 있습니다. Teams EHR 커넥터를 사용하면 다음을 수행할 수 있습니다.
+Teams의 커뮤니케이션 및 공동 작업 플랫폼을 사용하면 임상의가 조각화된 시스템의 혼란을 쉽게 끊어 최상의 치료를 제공하는 데 집중할 수 있습니다. Teams EHR 커넥터를 사용하면 다음을 수행할 수 있습니다.
 
 - 통합 임상 워크플로를 사용하여 Cerner EHR 시스템에서 Teams 가상 약속을 수행합니다.
-- 환자가 이메일 또는 SMS 알림에서 Teams 가상 약속에 참여할 수 있도록 합니다.
+- 환자가 이메일 또는 SMS 알림에서 Teams 가상 약속에 참가할 수 있도록 합니다.
 - EHR 연결 약속에 대한 사용량 데이터 보고서 및 사용자 지정 가능한 통화 품질 정보를 봅니다.
 
 이 문서에서는 Cerner 플랫폼과 통합하도록 Teams EHR 커넥터를 설정하고 구성하는 방법을 설명합니다. 또한 Cerner EHR 시스템의 Teams 가상 약속 환경에 대한 개요를 제공합니다.
@@ -51,10 +51,10 @@ Teams 통신 및 공동 작업 플랫폼을 사용하면 임상의가 조각난 
 
 의료 기관에서 Teams EHR 커넥터를 통합하기 전에 다음이 있어야 합니다.
 
-- Microsoft Teams EHR 커넥터 독립 실행형 제품에 대한 활성 구독입니다(프로덕션 EHR 환경에서 테스트하는 동안에만 적용됨).
-- 사용자에게는 Teams 모임을 포함하는 적절한 Microsoft 365 또는 Office 365 라이선스가 있습니다.
-- Teams 의료 조직에서 채택되고 사용됩니다.
-- 시스템은 Teams 대한 모든 [소프트웨어 및 브라우저 요구 사항을 충족합니다](../../hardware-requirements-for-the-teams-app.md).
+- Microsoft Cloud for Healthcare 대한 활성 구독 또는 Microsoft Teams EHR 커넥터 독립 실행형 제품에 대한 구독
+- 사용자에게 Teams 모임을 포함하는 적절한 Microsoft 365 또는 Office 365 라이선스가 있습니다.
+- Teams는 의료 조직에서 채택되고 사용됩니다.
+- 시스템은 Teams의 모든 [소프트웨어 및 브라우저 요구 사항을 충족합니다](../../hardware-requirements-for-the-teams-app.md) .
 - Cerner 버전 2018년 11월 이상
 
 ## <a name="set-up-the-teams-ehr-connector"></a>Teams EHR 커넥터 설정
@@ -71,7 +71,7 @@ Teams 통신 및 공동 작업 플랫폼을 사용하면 임상의가 조각난 
 
 ### <a name="launch-the-ehr-connector-configuration-portal"></a>EHR 커넥터 구성 포털 시작
 
-시작하려면 Microsoft 365 관리자가 [EHR 커넥터 구성 포털](https://ehrconnector.teams.microsoft.com)을 시작하고 Microsoft 자격 증명을 사용하여 로그인합니다.
+시작하려면 Microsoft 365 관리자가 [EHR 커넥터 구성 포털](https://ehrconnector.teams.microsoft.com) 을 시작하고 Microsoft 자격 증명을 사용하여 로그인합니다.
 
 Microsoft 365 관리자는 통합을 테스트하도록 단일 부서 또는 여러 부서를 구성할 수 있습니다. 구성 포털에서 테스트 및 프로덕션 URL을 구성합니다. 프로덕션으로 이동하기 전에 Cerner 테스트 환경에서 통합을 테스트해야 합니다.
 
@@ -79,7 +79,7 @@ Microsoft 365 관리자는 통합을 테스트하도록 단일 부서 또는 여
 
 다음으로 통합을 설정하기 위해 Microsoft 365 관리자는 Cerner의 FHIR(Fast Health Interoperability Resources) 기본 URL을 추가하고 환경을 지정합니다. 조직의 요구 사항 및 테스트하려는 환경에 따라 필요한 만큼의 FHIR 기본 URL을 구성합니다.
 
-:::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="Teams EHR 커넥터 구성 포털의 구성 정보 페이지 스크린샷" lightbox="media/ehr-admin-cerner-configuration.png":::
+:::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="Teams EHR 커넥터 구성 포털의 구성 정보 페이지 스크린샷." lightbox="media/ehr-admin-cerner-configuration.png":::
 
 - FHIR 기본 URL은 서버 FHIR API 엔드포인트에 해당하는 정적 주소입니다. 예제 URL은 `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST`입니다.
 
@@ -93,7 +93,7 @@ FHIR 기본 URL의 유효성을 검사하고 환경을 선택한 후 **완료** 
 
 조직에서 Microsoft가 환자에 대한 SMS 알림을 관리하도록 하려는 경우 이 단계를 완료합니다. SMS 알림을 사용하도록 설정하면 환자는 예약된 약속에 대한 확인 및 미리 알림 메시지를 받게 됩니다.
 
-SMS 알림을 사용하도록 설정하기 위해 Microsoft 365 관리자는 다음을 수행합니다.
+SMS 알림을 사용하도록 설정하려면 Microsoft 365 관리자가 다음을 수행합니다.
 
 1. SMS 알림 페이지에서 다음을 수행할 두 동의 확인란을 모두 선택합니다.
 
@@ -127,22 +127,22 @@ SMS 알림을 사용하도록 설정하기 위해 Microsoft 365 관리자는 다
 
 ## <a name="launch-teams-virtual-appointments"></a>Teams 가상 약속 시작
 
-EHR 커넥터 단계 및 Cerner 구성 단계를 완료하면 조직에서 Teams 비디오 약속을 지원할 준비가 된 것입니다.
+EHR 커넥터 단계 및 Cerner 구성 단계를 완료하면 조직에서 Teams에서 비디오 약속을 지원할 준비가 된 것입니다.
 
 ### <a name="virtual-appointments-prerequisites"></a>가상 약속 필수 구성 요소
 
-- 시스템은 Teams 대한 모든 [소프트웨어 및 브라우저 요구 사항을](../../hardware-requirements-for-the-teams-app.md) 충족해야 합니다.
+- 시스템은 Teams의 모든 [소프트웨어 및 브라우저 요구 사항을](../../hardware-requirements-for-the-teams-app.md) 충족해야 합니다.
 - Cerner 조직과 Microsoft 365 조직 간의 통합 설정을 완료했습니다.
 
 ### <a name="provider-experience"></a>공급자 환경
 
-조직의 의료 공급자는 PowerChart 포털의 Teams 사용하여 약속에 참여할 수 있습니다. 공급자는 Teams 옵션을 사용할 수 있는 환자 보드로 이동해야 합니다.
+조직의 의료 공급자는 PowerChart 포털에서 Teams를 사용하여 약속에 참여할 수 있습니다. 공급자는 Teams 옵션을 사용할 수 있는 환자 보드로 이동해야 합니다.
 
-여기에서 공급자는 약속 정보를 보고, 약속에 참가하고, 모임 링크를 보낼 수 있습니다. 일회성 로그인 후 공급자는 Teams 가상 약속으로 직접 이동됩니다.
+여기에서 공급자는 약속 정보를 보고, 약속에 참가하고, 모임 링크를 보낼 수 있습니다. 일회성 로그인 후 공급자는 Teams의 가상 약속으로 직접 이동됩니다.
 
 공급자 환경의 주요 기능:
 
-- 공급자는 지원되는 브라우저 또는 Teams 앱을 사용하여 약속을 조인할 수 있습니다.
+- 공급자는 지원되는 브라우저 또는 Teams 앱을 사용하여 약속에 참가할 수 있습니다.
 - 공급자는 화면 공유, 사용자 지정 배경 및 녹음/녹화를 포함하여 지원되는 모든 Teams 모임 기능을 사용할 수 있습니다.
 - 공급자는 PowerChart에서 지정된 약속에 대한 약속에 연결하는 환자의 실시간 업데이트를 볼 수 있습니다.
 - 약속 중에는 공급자 정보가 환자에게 표시되지 않습니다.
@@ -172,12 +172,12 @@ Microsoft Teams 관리 센터의 [가상 방문 사용 현황 보고서는](../.
 
 EHR 시스템에 Teams 통합은 통합 및 가상 약속 흐름 중에 사용되고 저장되는 데이터의 양을 최적화합니다. 이 솔루션은 전체 Teams 개인 정보 보호 및 데이터 관리 원칙과 Teams 개인 정보에 설명된 지침을 따릅니다.
 
-Teams EHR 커넥터는 식별 가능한 개인 데이터 또는 EHR 시스템에서 환자 또는 의료 제공자의 건강 기록을 저장하거나 전송하지 않습니다. EHR 커넥터가 저장하는 유일한 데이터는 Teams 모임 설정 중에 사용되는 EHR 사용자의 고유 ID입니다.
+Teams EHR 커넥터는 식별 가능한 개인 데이터 또는 EHR 시스템에서 환자 또는 의료 공급자의 건강 기록을 저장하거나 전송하지 않습니다. EHR 커넥터가 저장하는 유일한 데이터는 Teams 모임 설정 중에 사용되는 EHR 사용자의 고유 ID입니다.
 
-EHR 사용자의 고유 ID는 [Microsoft 365 고객 데이터가 저장되는 위치](/microsoft-365/enterprise/o365-data-locations)에 설명된 세 가지 지역 중 하나에 저장됩니다. 모임 참가자가 Teams 공유한 모든 채팅, 녹음/녹화 및 기타 데이터는 기존 스토리지 정책에 따라 저장됩니다. Teams 데이터의 위치에 대한 자세한 내용은 [Teams 데이터 위치를](../../location-of-data-in-teams.md) 참조하세요.
+EHR 사용자의 고유 ID는 [Microsoft 365 고객 데이터가 저장되는 위치](/microsoft-365/enterprise/o365-data-locations)에 설명된 세 가지 지역 중 하나에 저장됩니다. 모임 참가자가 Teams에서 공유하는 모든 채팅, 녹음/녹화 및 기타 데이터는 기존 스토리지 정책에 따라 저장됩니다. Teams의 데이터 위치에 대한 자세한 내용은 [Teams의 데이터 위치를 참조하세요](../../location-of-data-in-teams.md).
 
 ## <a name="related-articles"></a>관련 기사
 
-- [가상 방문 사용 현황 보고서 Teams](../../teams-analytics-and-reports/virtual-visits-usage-report.md)
-- [EHR 커넥터 관리자 보고서 Teams](ehr-admin-reports.md)
-- [의료 기관을 위한 Teams 시작](teams-in-hc.md)
+- [Teams 가상 방문 사용 현황 보고서](../../teams-analytics-and-reports/virtual-visits-usage-report.md)
+- [Teams EHR 커넥터 관리자 보고서](ehr-admin-reports.md)
+- [의료 기관용 Teams 시작](teams-in-hc.md)

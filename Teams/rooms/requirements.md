@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 적절한 장치, 마이크, 스피커, 카메라 및 디스플레이 선택을 포함하여 Microsoft Teams 룸 지원하기 위한 요구 사항에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f3bdfc24344f481a2846790ae13b6c964c69d4c2
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 3b725dc6a39ac777e7f15e3fbf2e4389b5f4333b
+ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241027"
+ms.locfileid: "66529720"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 룸 요구사항
 
@@ -90,6 +90,8 @@ Microsoft Teams 룸 크기가 다른 객실 크기로 조정됩니다. Teams 룸
   |Lenovo Core Compute를 사용하여 Logitech TAP 콘솔 |Core i5|8GB|128GB|
   |[Logitech 탭 및 레노버 ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8GB |128GB|
   |[Lenovo ThinkSmart Tiny을 사용하는 Poly G10-T](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8GB | 128GB|
+  |[Poly Studio USB를 사용하는 Poly G40-T 키트, 레노버 사용](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g40) |Core i5| 8GB | 128GB|
+  |[폴리 이글 아이 디렉터 II와 폴리 G85-T 키트, 레노버와](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g85) |Core i5| 8GB | 128GB|
   |Lenovo Thinksmart Core를 사용하는 Poly GC8 콘솔|Core i5|8GB|128GB|
   |Dell Optiplex 7080을 사용하는 Poly GC8 콘솔|Core i5|8GB|128GB|
   |[Intel NUC를 사용하는 Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8GB |128GB |

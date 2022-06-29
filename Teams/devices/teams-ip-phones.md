@@ -1,5 +1,5 @@
 ---
-title: Teams 디바이스
+title: Teams용 디바이스
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -20,19 +20,19 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 - seo-marvel-apr2020
-description: 최상의 결과를 도출하기 위해 Microsoft Teams 인증된 책상 및 전화 회의 전화기를 알아봅니다.
-ms.openlocfilehash: 20edc2195d09d802d2812e207c7d6052195a9945
-ms.sourcegitcommit: 07abd8fdb653e57a839ded72620d0179049f25dc
+description: 최상의 결과를 생성하기 위해 Microsoft Teams에 대해 인증된 책상 및 전화 회의 전화기를 알아봅니다.
+ms.openlocfilehash: 4182487d03b2628553ed9b7fee860a080ad3c6c6
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "66088554"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494355"
 ---
-# <a name="microsoft-teams-certified-android-devices"></a>인증된 Android 디바이스 Microsoft Teams
+# <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 인증 Android 디바이스
 
-Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 전체 Teams 환경(오디오, 비디오, 사용자 인터페이스)에서 더 높은 성능 목표와 품질 메트릭을 통해 높은 표준을 충족하도록 보장합니다. Microsoft와 OEM 파트너는 디바이스가 보안, 오디오 및 비디오 품질, Teams 환경 및 접근성을 비롯한 모든 인증 요구 사항을 충족하도록 적극적으로 협력하고 있습니다.
+Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 전체 Teams 환경(오디오, 비디오, 사용자 인터페이스)에서 더 높은 성능 목표와 품질 메트릭을 통해 높은 표준을 충족하도록 보장합니다. Microsoft와 OEM 파트너는 디바이스가 보안, 오디오 및 비디오 품질, Teams 환경 및 접근성을 비롯한 모든 인증 요구 사항을 충족할 수 있도록 적극적으로 협력하고 있습니다.
 
-인증 프로그램은 모든 인증된 디바이스가 Teams 및 Teams 관리 센터에 필요한 기능 집합을 사용하여 Android 버전을 실행하도록 설계되었습니다. 인증 종료 날짜는 인증 프로그램에 들어갈 때 디바이스에서 실행되는 Android OS 버전을 기반으로 합니다. OEM 파트너는 Android OS 버전을 업그레이드하고 다시 인증하거나 최신 모델을 릴리스하여 인증 수명을 연장하기 위해 노력하고 있습니다.
+인증 프로그램은 모든 인증된 디바이스가 Teams 및 Teams 관리 센터에 필요한 기능 집합으로 Android 버전을 실행하도록 설계되었습니다. 인증 종료 날짜는 인증 프로그램에 들어갈 때 디바이스에서 실행되는 Android OS 버전을 기반으로 합니다. OEM 파트너는 Android OS 버전을 업그레이드하고 다시 인증하거나 최신 모델인 새 모델을 릴리스하여 인증 수명을 연장하기 위해 노력하고 있습니다.
 
 인증 기간 이후 Microsoft는 인증 기간이 끝난 후 2년 동안 이러한 디바이스에서 최신 버전의 Teams 클라이언트를 지원하기 위해 노력하고 있습니다.
 
@@ -43,7 +43,7 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 다음 디바이스는 Microsoft Teams 휴대폰 인증 프로그램에 따라 인증됩니다.
 
-|디바이스 모델    | 펌웨어 버전    | 현재 인증 종료 날짜 | OS 버전 Android                               |
+|디바이스 모델    | 펌웨어 버전    | 현재 인증 종료 날짜 | Android OS 버전                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
 | AudioCodes C450HD                      | `1.17.443`                                                  |    2023년 8월 5일              | 9 |
 | AudioCodes C448HD(캡 모드만 해당)       |  `1.17.443`                                                   | 2023년 8월 5일            | 9 |
@@ -66,19 +66,20 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 | Yealink MP56 | `122.15.0.6` | 2023년 8월 5일  | 9 |
 | Yealink VP59 | `91.15.0.16` | 2023년 8월 5일  | 9 |
 
-## <a name="certified-teams-rooms-on-android"></a>Android 인증된 Teams 룸
+## <a name="certified-teams-rooms-on-android"></a>Android에서 인증된 Teams 룸
 
 다음 디바이스는 Android 인증 프로그램의 Microsoft Teams 룸 따라 인증됩니다.
 
-| 디바이스 모델 | 펌웨어 버전 | 현재 인증 종료 날짜 | 객실 크기                                        |  OS 버전 Android    |
+| 디바이스 모델 | 펌웨어 버전 | 현재 인증 종료 날짜 | 객실 크기                                        |  Android OS 버전    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
-| 깔끔한 막대 | `NFB1.20220211.1400` |2024년 9월 3일|    소형 미팅룸(4.5m x 4.5m) | 10 |
+| Logitech Tap IP VR0029     | `1.6.762`  |   2024년 9월 3일  | Logitech Rally Bar 및 Rally Bar Mini와 호환 | 10 |
+| 깔끔한 막대 | `NFB1.20220211.1400` |2024년 9월 3일|    소규모 회의실(4.5m x 4.5m) | 10 |
 | 깔끔한 패드 터치 콘솔 | `NFA1.20220211.1400`  | 2023년 8월 5일 |  깔끔한 막대와만 호환 | 9 |
-| 깔끔한 보드 | `NFC1.20220211.1400 ` | 2024년 9월 3일 |    소형 미팅룸(4.5m x 4.5m) | 10 |
+| 깔끔한 보드 | `NFC1.20220211.1400 ` | 2024년 9월 3일 |    소규모 회의실(4.5m x 4.5m) | 10 |
 | 로지텍 룸메이트 | `1.4.71` | 2024년 9월 3일  | 대형 회의실(4.5m x 8.5m)  |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | 2023년 8월 5일 | EPOS Vision 3T와 함께 번들됨 | 9 |
 | Logitech 디바이스 탭     | `1.2.982`  |   2024년 9월 3일  | Logitech Rally Bar 및 Rally Bar Mini와 호환 | 10 |
-| Logitech Rally Bar Mini | `1.2.982`     |   2024년 9월 3일  |    소형 미팅룸(4.5m x 4.5m) | 10 |
+| Logitech Rally Bar Mini | `1.2.982`     |   2024년 9월 3일  |    소규모 회의실(4.5m x 4.5m) | 10 |
 | Logitech Rally Bar      | `1.2.788`     |   2024년 9월 3일  |    중간 크기의 객실(4.5 m x 6 m)       | 10 |
 | AudioCodes RXV80 | `1.9.155`        |   2023년 8월 5일  | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5 m x 4.5 m) | 9 |
 | EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | 2023년 8월 5일 | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5 m x 4.5 m) | 9 |
@@ -92,16 +93,16 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 ## <a name="certified-teams-displays"></a>인증된 Teams 디스플레이
 
-다음 디바이스는 Microsoft Teams 표시 Android 인증 프로그램에서 인증됩니다.
+다음 디바이스는 Microsoft Teams에서 Android 인증 프로그램을 표시하여 인증됩니다.
 
-| 디바이스 모델 | 펌웨어 버전 | 현재 인증 종료 날짜  | OS 버전 Android |
+| 디바이스 모델 | 펌웨어 버전 | 현재 인증 종료 날짜  | Android OS 버전 |
 |:------------------------|:-----------------|:--------------|----------------------------------|
 |Lenovo ThinkSmart 보기|`CD-18781Y.201006.099`| 2022년 12월 5일 |  8.1  |
 
 ## <a name="certified-teams-panels"></a>인증된 Teams 패널
 다음 디바이스는 Microsoft Teams 패널 인증 프로그램에서 인증됩니다.
 
-| 디바이스 모델| 펌웨어 버전 | 현재 인증 종료 날짜 | OS 버전 Android |                                         
+| 디바이스 모델| 펌웨어 버전 | 현재 인증 종료 날짜 | Android OS 버전 |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
 |깔끔한 패드 패널    | `NFA1.20220211.1400` | 2023년 8월 5일 | 9 |
 |크레스트론 TSS-770 | `1.003.0082` |2022년 12월 5일  | 8.1 |
@@ -115,7 +116,7 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 #### <a name="app-versions"></a>앱 버전
 
-| 제품 릴리스 | 릴리스 날짜  | 앱 버전 Microsoft Teams | 회사 포털 버전 | 관리 에이전트 버전 |
+| 제품 릴리스 | 릴리스 날짜  | Microsoft Teams 앱 버전 | 회사 포털 버전 | 관리 에이전트 버전 |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
 | 2022년 업데이트 #2A  | 2022년 4월 13일   | `1449/1.0.94.2022041102` |`5.0.5304.0` | `322` |
 | 2022년 업데이트 #2   | 2022년 3월 21일   | `1449/1.0.94.2022030501` |`5.0.5304.0` | `322` |
@@ -217,17 +218,17 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 | Yealink VP59        | `91.15.0.54`         | 2020년 업데이트 #7           |
 | Yealink CP960       | `73.15.0.115`      | 2020년 업데이트 #7           |
 
-이러한 디바이스에서 지원하는 기능에 대한 자세한 내용은 [Microsoft Teams 휴대폰 기능 집합](phones-for-teams.md)을 참조하세요.
+이러한 디바이스에서 지원하는 기능에 대한 자세한 내용은 [Microsoft Teams 휴대폰 기능 집합](phones-for-teams.md) 을 참조하세요.
 
-[Microsoft Teams 표시를 참조하세요](teams-displays.md).
+[Microsoft Teams 디스플레이를 참조하세요](teams-displays.md).
 
-### <a name="product-release-information-for-teams-rooms-on-android"></a>Android Teams 룸 대한 제품 릴리스 정보
+### <a name="product-release-information-for-teams-rooms-on-android"></a>Android에서 Teams 룸 대한 제품 릴리스 정보
 
 다음은 Android 앱 및 펌웨어 버전의 최신 Teams 룸.
 
 #### <a name="app-versions"></a>앱 버전
 
-| 제품 릴리스| 릴리스 날짜 | 앱 버전 Microsoft Teams | 회사 포털 버전 | 관리 에이전트 버전 |
+| 제품 릴리스| 릴리스 날짜 | Microsoft Teams 앱 버전 | 회사 포털 버전 | 관리 에이전트 버전 |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 | 2022년 업데이트 #2  | 2022년 5월 25일 |`1449/1.0.96.2022051102`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | 2022년 업데이트 #1  | 2022년 2월 24일 |`1449/1.0.96.2022011305`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
@@ -311,7 +312,7 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 #### <a name="app-versions"></a>앱 버전
 
-|제품 릴리스| 릴리스 날짜 | 앱 버전 Microsoft Teams | 회사 포털 버전 | 관리 에이전트 버전 |
+|제품 릴리스| 릴리스 날짜 | Microsoft Teams 앱 버전 | 회사 포털 버전 | 관리 에이전트 버전 |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 |2021년 업데이트 #4  |2022년 1월 5일 |`1449/1.0.95.2021736401`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`
 |2021년 업데이트 #3  |2021년 12월 8일 |`1449/1.0.95.2021111203`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`|
@@ -331,11 +332,11 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 ### <a name="product-release-information-for-teams-panels"></a>Teams 패널에 대한 제품 릴리스 정보
 
-다음은 최신 Microsoft Teams Panels 앱 및 펌웨어 버전입니다.
+다음은 최신 Microsoft Teams 패널 앱 및 펌웨어 버전입니다.
 
 #### <a name="app-versions"></a>앱 버전
 
-|제품 릴리스| 릴리스 날짜 | 앱 버전 Microsoft Teams | 회사 포털 버전 | 관리 에이전트 버전 |
+|제품 릴리스| 릴리스 날짜 | Microsoft Teams 앱 버전 | 회사 포털 버전 | 관리 에이전트 버전 |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 |2022년 업데이트 #2  | 2022년 4월 25일 | `1449/1.0.97.2022733702` | `5.0.5304.0`  | `322` |
 |2022년 업데이트 #1A | 2022년 2월 25일 | `1449/1.0.97.2022730007` | `5.0.5304.0`  | `322` |
@@ -348,6 +349,8 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 | 디바이스 모델  | 펌웨어 버전 | 포함된 제품 릴리스|
 |:--------------|:-----------------|:-------------------------|
+|Logitech Tap Scheduler | `1.6.762` |2022년 업데이트 #2  |
+|깔끔한 패드 패널 |NFA1.20220512.2158 | 2022년 업데이트 #2 |
 |Logitech Tap Scheduler | `1.6.215` |2022년 업데이트 #1A  |
 |크레스트론 터치패널 /770-T/1070-T | `1.006.0046 ` | 2022년 업데이트 #1|
 |Yealink RoomPanel | ` 147.15.0.30 ` | 2022년 업데이트 #1 |
@@ -360,13 +363,13 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 ## <a name="more-resources"></a>추가 리소스
 
-이러한 디바이스에서 지원하는 기능에 대한 자세한 내용은 [Microsoft Teams 휴대폰 기능 집합](phones-for-teams.md)을 참조하세요.
+이러한 디바이스에서 지원하는 기능에 대한 자세한 내용은 [Microsoft Teams 휴대폰 기능 집합](phones-for-teams.md) 을 참조하세요.
 
 [모바일 디바이스에서 디바이스 펌웨어 버전을 확인하려면 모바일 디바이스](phones-for-teams.md)에서 펌웨어 버전 찾기를 참조하세요.
 
-Microsoft Teams 라이선스는 [Microsoft 365 또는 Office 365 구독](/office365/servicedescriptions/teams-service-description)의 일부로 구매할 수 있습니다. 휴대폰에서 Microsoft Teams 사용하는 데 필요한 라이선스에 대한 자세한 내용은 사용 가능한 [전화 시스템 라이선스를 참조하세요](https://products.office.com/microsoft-teams/voice-calling).
+Microsoft Teams 라이선스는 [Microsoft 365 또는 Office 365 구독](/office365/servicedescriptions/teams-service-description)의 일부로 구매할 수 있습니다. 휴대폰에서 Microsoft Teams를 사용하는 데 필요한 라이선스에 대한 자세한 내용은 사용 가능한 [전화 시스템 라이선스를 참조하세요](https://products.office.com/microsoft-teams/voice-calling).
 
-Teams 가져오는 방법에 대한 자세한 내용은 [Microsoft Teams 액세스](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b) 어떻게 할까요? 확인하세요.
+Teams를 가져오는 방법에 대한 자세한 내용은 [Microsoft Teams에 대한 액세스 권한을 어떻게 할까요? 확인하세요.](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 인증 프로그램에 참여하려는 공급업체인 경우 요구 사항 및 사용 가능한 프로그램에 [참가하는 방법을](/skypeforbusiness/certification/how-to-join) 참조하세요.
 

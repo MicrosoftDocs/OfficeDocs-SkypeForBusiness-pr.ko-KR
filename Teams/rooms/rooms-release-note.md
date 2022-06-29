@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리 Microsoft Teams 룸 누적 개선 사항을 나열하는 Microsoft Teams 룸 대한 릴리스 정보를 읽을 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cbf840eb8abc60cbdc53325e41b3d9f95e6b4713
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: d4ac16e7214a6340eb74f1c154661f78a50992ee
+ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761110"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66529700"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 룸 대한 릴리스 정보
 
@@ -27,13 +27,13 @@ ms.locfileid: "65761110"
 
 Teams 룸 대한 업데이트에는 Teams 룸 앱 업데이트와 Teams 웹 클라이언트의 두 가지 유형이 있습니다. 
 
-Teams 룸 앱 업데이트는 Microsoft Store 또는 [수동 업데이트를](manual-update.md) 통해 수행됩니다. 그러면 디바이스에 로컬로 설치된 UWP(유니버설 Windows 플랫폼) 애플리케이션이 업데이트됩니다.
+Teams 룸 앱 업데이트는 Microsoft Store를 통해 또는 [수동 업데이트를](manual-update.md) 통해 수행됩니다. 그러면 디바이스에 로컬로 설치된 UWP(유니버설 Windows 플랫폼) 애플리케이션이 업데이트됩니다.
 
 Teams 웹 클라이언트 업데이트는 Teams 웹앱 배달 서비스를 통해 수행됩니다. 디바이스에 설치된 로컬 UWP 애플리케이션에 대한 업데이트가 필요하지 않은 클라우드 기반 서비스입니다.
 
 Teams 업데이트 방법에 대한 자세한 내용은 [Teams 업데이트 프로세스를 참조하세요](../teams-client-update.md).
 
-Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내용은 [Teams 업데이트 프로세스를 참조하세요](../teams-client-update.md#servicing-agreement).
+Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내용은 [Teams 업데이트 프로세스를](../teams-client-update.md#servicing-agreement) 참조하세요.
 
 ## <a name="version-history"></a>버전 기록
 
@@ -102,15 +102,15 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 ### <a name="4121260-4272022"></a>4.12.126.0 (4/27/2022)
 
 이 업데이트에 도입된 내용은 다음과 같습니다.
-- IT 관리자는 XML 설정을 통해 공개 미리 보기 기능을 수신하도록 Teams 룸 디바이스를 등록할 수 있습니다. 등록되면 디바이스가 베타 기능을 받기 시작합니다. 베타 테스트로 이동하는 모든 기능은 [Microsoft Teams 공개 미리 보기에서 발표됩니다 - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) <sup>1,2</sup>  
+- IT 관리자는 XML 설정을 통해 공개 미리 보기 기능을 수신하도록 Teams 룸 디바이스를 등록할 수 있습니다. 등록되면 디바이스가 베타 기능을 받기 시작합니다. 베타 테스트로 이동하는 모든 기능은 [Microsoft Teams 공개 미리 보기 - Microsoft 기술 커뮤니티](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)<sup>1,2</sup>에서 발표됩니다.  
 - IT 관리자는 XML 설정<sup>2</sup>를 통해 회의실 전면 디스플레이 해상도 및 원격으로 크기 조정을 설정할 수 있습니다.
 - IT 관리자는 XML 설정 3을 통해 Microsoft 노이즈 억제를 사용하지 않도록 설정할 수 있습니다<sup>.</sup> 
 - IT 관리자는 레지스트리 키 설정<sup>4</sup>를 통해 디바이스에서 다운로드 폴더 정리를 재정의할 수 있습니다.
-- 사용자가 다른 클라우드에서 호스트되는 Teams 모임에 참가할 수 있도록 설정(즉, GCCH 고객은 상용 클라우드에서 호스트되는 Teams 모임에 참가할 수 있음). 
-- Teams 룸은 이제 터치 디스플레이가있는 Teams 룸에 대한 추가 보안 조치로 PowerPoint Live URL에서 에지 브라우저를 시작하는 것을 차단합니다. 
+- 사용자가 다른 클라우드에서 호스팅되는 Teams 모임에 참가할 수 있도록 설정(즉, GCCH 고객이 상업용 클라우드에서 호스트되는 Teams 모임에 참가할 수 있음) 
+- 이제 Teams 룸은 터치 디스플레이가 있는 Teams 룸에 대한 추가 보안 조치로 PowerPoint Live URL에서 에지 브라우저를 시작하는 것을 차단합니다. 
 - 이제 모임 환경이 개선되어 사용자가 회의실에 사용자를 초대하는 지침을 추가합니다. 
 - Teams 룸에 대한 Windows 10 21H2 기능 릴리스 지원   
-- 홈 화면의 새로운 Cortana 진입점, 공유/현재 단추가 돌아왔습니다. 
+- 홈 화면의 새 Cortana 진입점, 공유/현재 단추가 돌아왔습니다. 
 
 > <sup>1</sup> 공개 미리 보기 MTR Windows 디바이스 등록에 대한 지침은 [여기에서](../public-preview-doc-updates.md#enable-public-preview) 찾을 수 있습니다.
 > 
@@ -122,7 +122,7 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 > 
 > 
 > [!NOTE]
-> Windows 10 21H2 기능 업데이트는 애플리케이션을 설치한 후 7일 후에 업데이트되거나 관리자는 수동 업데이트를 사용하여 더 빠르게 설치할 수 있습니다. 이러한 변경 내용이 포함된 Microsoft Teams 룸 애플리케이션 버전 4.12는 2022년 4월에 출시되고 2~3주 후 출시될 예정입니다. 애플리케이션 업데이트는 Windows 저장소를 통해 전달되며 애플리케이션이 자동으로 설치됩니다. 이는 Windows Microsoft Teams 룸 배포됩니다. 준비해야 할 작업: 이 업데이트된 환경에 대해 사용자에게 알리고 학습 및 설명서를 적절하게 업데이트할 수 있습니다.
+> Windows 10 21H2 기능 업데이트는 애플리케이션을 설치한 후 7일 후에 업데이트되거나 관리자는 수동 업데이트를 사용하여 더 빠르게 설치할 수 있습니다. 이러한 변경 내용이 포함된 Microsoft Teams 룸 애플리케이션 버전 4.12는 2022년 4월에 출시되고 2~3주 후 출시될 예정입니다. 애플리케이션 업데이트는 Windows 스토어를 통해 전달되고 애플리케이션은 자동으로 설치됩니다. 이는 Windows에서만 Microsoft Teams 룸 롤아웃됩니다. 준비해야 할 작업: 이 업데이트된 환경에 대해 사용자에게 알리고 학습 및 설명서를 적절하게 업데이트할 수 있습니다.
 
 ### <a name="411170-332022"></a>4.11.17.0 (3/3/2022)
 
@@ -132,20 +132,20 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 ### <a name="411120-1242022"></a>4.11.12.0 (1/24/2022)
 
 이 업데이트에 도입된 내용은 다음과 같습니다.
-- Windows <sup>1</sup>의 MTR에 대한 앞줄 레이아웃(미리 보기) 
+- Windows<sup>1</sup>의 MTR에 대한 앞줄 레이아웃(미리 보기) 
 - 앞줄 레이아웃을 기본값으로 설정하는 관리 설정  
-- 지금 만나서 Teams만 앱 업데이트 호출, 기본 클라이언트 모드<sup>Teams 1,2</sup>
-- Teams 모임에서 여러 비디오 카메라 간 전환<sup>1</sup> 
+- 지금 만나서 Teams 전용 앱 업데이트 호출, Teams 기본 클라이언트 모드<sup>1,2</sup>
+- Teams 모임<sup>1</sup>에서 여러 비디오 카메라 간 전환 
 - 기본 비디오 카메라 설정 
-- MTR 콘솔에서 푸시 투 토크 아이콘 업데이트 Cortana 
-- Room Standard 및 Premium SKU에 1개 라이선스 포함 Azure AD Premium 
+- MTR 콘솔의 Cortana 푸시 투 토크 아이콘 업데이트 
+- Azure AD Standard 및 Premium SKU에 Premium 1 라이선스 포함 
 - AAD 조건부 액세스 정책 지원<sup>3</sup> 
-- Cortana OOBE에서 기본적으로 활성화된 음성 활성화
+- OOBE에서 기본적으로 사용하도록 설정된 Cortana 음성 활성화
 - 원격 PTZ 컨트롤 지원<sup>4</sup>
 
-> <sup>1</sup> 이러한 기능은 Teams 웹 클라이언트를 사용하여 롤아웃되며 앞으로 몇 주 안에 출시될 예정입니다. 자세한 내용은 [Teams 업데이트에](../teams-client-update.md) 대해 자세히 알아보세요.
+> <sup>1</sup> 이러한 기능은 Teams 웹 클라이언트를 사용하여 출시되며 앞으로 몇 주 안에 출시될 예정입니다. 자세한 내용은 [Teams 업데이트에](../teams-client-update.md) 대해 자세히 알아보세요.
 > 
-> Microsoft Teams만 또는 비즈니스용 Skype 및 Microsoft Teams(기본값)에서 실행되는 Windows <sup>2</sup>개의 Teams 회의실이 새 모임 및 통화 환경으로 업데이트되지만 다른 모드는 이 업데이트의 영향을 받지 않습니다.
+> Microsoft Teams만 또는 비즈니스용 Skype 및 Microsoft Teams(기본값)에서 실행되는 Windows의 <sup>Teams 룸 2</sup>개는 새로운 모임 및 통화 환경으로 업데이트되지만 다른 모드는 이 업데이트의 영향을 받지 않습니다.
 > 
 > <sup>3</sup> Teams 룸 [대한 AAD 조건부 액세스](../rooms/rooms-authentication.md#azure-ad-conditional-access) 정책 설정에 대한 추가 세부 정보를 참조하세요.
 > 
@@ -176,12 +176,12 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 ### <a name="410100-1012021"></a>4.10.10.0 (10/1/2021)
 
 이 업데이트에 도입된 내용은 다음과 같습니다.
-- 회의실 리모컨을 사용하면 사용자가 모바일에서 Teams 사용하여 회의실의 기본 기능을 제어할 수 있습니다. *
+- 회의실 리모컨을 사용하면 사용자가 모바일에서 Teams를 사용하여 회의실의 기본 기능을 제어할 수 있습니다. *
 - 모임에 공유하기 위한 BLE 단추에 대한 Logitech Scribe 콘텐츠 카메라 지원
 - 채팅 거품은 모임 채팅을 사용하여 말하는 내용에 주의를 끌기 위해 모임 채팅에 대한 알림을 제공합니다. *
 - 이제 GCC High에서 대규모 갤러리 및 함께 모드 지원을 사용할 수 있습니다.
-- Cortana 추가된 새 기술, 모임에 이름으로 사람 추가 및 이름으로 통화 
-- Cortana 대화에 푸시는 기본적으로 모든 장치에서 사용하도록 설정됩니다. 자세한 내용은 [Teams Cortana 음성 지원을](../cortana-in-teams.md) 참조하세요.
+- Cortana에 추가된 새 기술, 모임에 이름으로 사람 추가 및 이름으로 통화 
+- Cortana Push to Talk는 기본적으로 모든 디바이스에서 사용하도록 설정됩니다. 자세한 내용은 [Teams에서 Cortana 음성 지원을 참조하세요](../cortana-in-teams.md).
 
 > [!NOTE]
 > 사용되지 않는 19H1 지원. 4.10에서 지원하는 최소 OS 버전은 19H2입니다.
@@ -190,12 +190,12 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 > *이러한 기능은 Teams 서비스를 사용하여 롤아웃되며 4.9보다 큰 모든 애플리케이션 버전에서 작동합니다.
 
 > [!NOTE]
-> Teams Mobile 앱과 MTR-W의 예약된 모임에 참가하려면 Teams Mobile 앱의 명단에서 회의실 계정을 찾고 "이 회의실 제어" 메뉴를 누르면 앱에서 통화 컨트롤을 제어할 수 있습니다.
+> Teams Mobile 앱과 MTR-W에서 예약된 모임에 참가하려면 Teams Mobile 앱의 명단에서 회의실 계정을 찾고 "이 방 제어" 메뉴를 누르면 앱에서 통화 컨트롤을 제어할 수 있습니다.
 
 ### <a name="49120-7282021"></a>4.9.12.0 (7/28/2021)
 
 이 업데이트에 도입된 내용은 다음과 같습니다.
-- Microsoft Teams 모드만 애플리케이션 설정에서 사용할 수 있으므로 더 이상 비즈니스용 Skype 계정을 설정할 필요가 없습니다. 이 모드에서는 Teams 모드에 로그인한 디바이스가 게스트 사용자로 비즈니스용 Skype 모임에 참가합니다.
+- 이제 애플리케이션 설정에서 Microsoft Teams 전용 모드를 사용할 수 있으므로 더 이상 비즈니스용 Skype 계정을 설정할 필요가 없습니다. 이 모드에서는 Teams에 로그인한 디바이스만 게스트 사용자로 비즈니스용 Skype 모임에 참가합니다.
 - HDMI 오디오를 수정하여 통화 볼륨이 낮아집니다. HDMI 오디오 기능은 애플리케이션 빌드 4.9.12.0을 사용하는 모든 디바이스에 대해 자동으로 사용하도록 설정됩니다.
 
 > [!NOTE]
@@ -220,11 +220,11 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 ### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
 
 이 업데이트에 도입된 내용은 다음과 같습니다.
-- Teams 룸 대한 GCCH(정부 커뮤니티 클라우드 High) 지원. 기존 Teams 룸 디바이스를 사용하는 GCCH 고객은 Microsoft Teams 룸 [디바이스를 수동으로 업데이트](manual-update.md)하여 버전 4.8.19.0을 다운로드할 수 있습니다.
+- Teams 룸 대한 GCCH(Government Community Cloud High) 지원. 기존 Teams 룸 디바이스를 사용하는 GCCH 고객은 Microsoft Teams 룸 [디바이스를 수동으로 업데이트](manual-update.md)하여 버전 4.8.19.0을 다운로드할 수 있습니다.
 - 더 나은 비디오 품질(720p 지원)으로 확대/축소 모임에 참가하고 참가자의 비디오 갤러리를 받습니다.
-- Teams 기본 모드에서 비즈니스용 Skype 로그인 실패 배너가 제거되었습니다. 이 변경은 비즈니스용 Skype 인프라를 제거하는 조직을 지원합니다.
-- Teams 모임 참가 링크 구문 분석에서 이제 Microsoft Defender Advanced Threat Protection 금고 링크를 처리하여 외부 Teams 원활하게 조인할 수 있습니다.
-- 공유자의 PC에 Windows 사용자 지정 DPI가 설정된 경우 비즈니스용 Skype 모임에서 공유 콘텐츠 크기 조정 문제 해결
+- 비즈니스용 Skype 기본 모드에서 로그인 실패 배너가 제거되었습니다. 이 변경은 비즈니스용 Skype 인프라를 제거하는 조직을 지원합니다.
+- 이제 Teams 모임 참가 링크 구문 분석에서 Microsoft Defender Advanced Threat Protection 안전한 링크를 처리하여 외부 Teams에 원활하게 참가할 수 있습니다.
+- 공유자의 PC에 Windows에 사용자 지정 DPI가 설정된 경우 비즈니스용 Skype 모임에서 공유 콘텐츠 크기 조정 문제 해결
 - 품질 및 안정성 수정
 
 ### <a name="47190-02032021"></a>4.7.19.0 (02/03/2021)
@@ -236,13 +236,13 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 
 이 업데이트에 도입된 내용은 다음과 같습니다.
 
-- Teams 모임 참가자에게 HDMI 오디오 공유
-- 음성 기술 Cortana(미리 보기)
+- Teams 모임에서 모임 참가자에게 HDMI 오디오 공유
+- Cortana 음성 기술(미리 보기)
 - Teams 룸 참석자로 참가할 때 오디오 권한에 따라 음소거 해제를 방지합니다. 자세한 내용은 [Teams 모임에서 참석자 오디오 권한 관리를 참조하세요](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
-- Teams 룸 콘솔에서 다른 사람의 비디오를 조명하고 객실 디스플레이에서 스포트라이트 비디오를 사용합니다.
+- Teams 룸 콘솔에서 다른 사람의 비디오를 추천하고 객실 디스플레이에서 스포트라이트 비디오를 사용합니다.
 
 > [!NOTE]
-> Cortana 음성 기술은 미국 있는 테넌트에 대한 선택 오디오 주변 장치에서 사용할 수 있습니다. 향후 추가 국가 또는 지역이 추가될 예정입니다. 자세한 내용은 [Teams Cortana 음성 지원을](../cortana-in-teams.md) 참조하세요.
+> Cortana 음성 기술은 미국 있는 테넌트에 대한 선택 오디오 주변 장치에서 사용할 수 있습니다. 향후 추가 국가 또는 지역이 추가될 예정입니다. 자세한 내용은 [Teams의 Cortana 음성 지원을 참조하세요.](../cortana-in-teams.md)
 
 ### <a name="46230-10192020"></a>4.6.23.0 (10/19/2020)
 
@@ -265,14 +265,14 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 
 이 업데이트에 도입된 내용은 다음과 같습니다.
 
-- Microsoft Teams Surface Hub 2S 간의 조정된 모임
-- [Windows 10 업데이트 KB4565351 또는 Windows 10 업데이트 KB4571709](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351)가 설치된 [경우 비즈니스용 Skype](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) 로그인 실패 수정
+- Microsoft Teams와 Surface Hub 2S 간의 조정된 모임
+- [Windows 10 업데이트 KB4565351 또는 Windows 10 업데이트](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) [KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709)가 설치된 경우 비즈니스용 Skype 로그인 실패 수정
 
 ### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020)
 
 이 업데이트에 도입된 내용은 다음과 같습니다.
 
-- 직접 게스트 조인을 사용하여 Teams 룸 Cisco WebEx 모임 참가
+- 직접 게스트 조인을 사용하여 Teams 룸 Cisco Webex 모임 참가
 - Teams 관리 Center 사용 및 자동 등록
 - Windows 10 1909 릴리스 지원
 - 콘텐츠가 있는 경우에도 비디오 갤러리 레이아웃으로 전환
@@ -304,7 +304,7 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 이 업데이트에 도입된 내용은 다음과 같습니다.
 
 - Exchange 및 비즈니스용 Skype 대한 최신 인증 지원
-- Teams 대한 동적 긴급 호출 지원(Teams 클라이언트 링을 사용하여 필수 및 릴리스된 서비스 구성 요소)
+- Teams에 대한 동적 긴급 통화 지원(Teams 클라이언트 링을 사용하여 필수 및 릴리스된 서비스 구성 요소)
 - XML을 사용하여 이중 디스플레이 룸에 대해 모임에서 중복 콘텐츠를 사용하지 않도록 설정하는 기능
 - 애플리케이션 시작 화면
 - 디바이스 설정의 OSS(오픈 소스 소프트웨어) 알림
@@ -331,7 +331,7 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 - 이를 제어하기 위한 근접 기반 통화 및 관리자 설정 자동 응답
 - 정보 탭에서 디바이스 구성을 추가하여 디바이스 관리 설정 UI 새로 고침
 - 주 화면으로 다시 방 제어
-- GCC 사용할 수 있는 미팅룸 SKU
+- GCC에서 회의실 SKU 사용 가능
 - Surface Pro 기반 시스템에 대한 콘텐츠 카메라 지원(최소 필수 앱 빌드: 4.2.4.0)
 
 ### <a name="4240-10072019"></a>4.2.4.0 (10/07/2019)
@@ -346,7 +346,7 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 이 업데이트에 도입된 내용은 다음과 같습니다.
 
 - 사용자가 Teams 모임에 기존 화이트보드를 지능적으로 포함할 수 있는 새로운 콘텐츠 카메라 기능
-- 콘솔 UI에 대한 추가 개선 사항으로 혼란을 줄이고 설정 콘솔에서 자세히를 통해 액세스되는 새 사이드바로 이동
+- 콘솔 UI에 대한 추가 개선 사항으로 혼란을 줄이고 설정을 콘솔에서 자세히를 통해 액세스되는 새 사이드바로 이동
 - 로컬 콘텐츠 케이블이 연결되지 않았거나 콘텐츠 카메라가 연결되지 않은 경우 공유 트레이 단추 사용 안 함
 - MTR 시스템을 다시 시작한 후에만 터치 키보드가 처음으로 나타나지 않는 문제를 해결했습니다.
 - 품질 및 안정성 수정
@@ -355,17 +355,17 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 
 이 업데이트에 도입된 내용은 다음과 같습니다.
 
-- Skype Room System 스토어 앱이 "Microsoft Teams 룸"로 리브랜딩
-- Microsoft Teams 룸 콘솔 사용자 인터페이스가 Microsoft Teams 다시 정렬됨
+- Skype 룸 시스템 스토어 앱이 "Microsoft Teams 룸"로 브랜드를 다시 설정합니다.
+- Microsoft Teams 룸 콘솔 사용자 인터페이스가 Microsoft Teams에 다시 정렬됨
 - 테마 업데이트: 콘솔 UI 컨트롤이 색 대비(접근성 요구 사항)를 충족하도록 콘솔 배경을 중립 색으로 만드는 동시에 사용자 지정 배경 이미지만 방 디스플레이 앞에 유지
-- Microsoft Teams PC/웹/모바일 클라이언트<sup>1</sup>에서 일관된 환경을 제공하기 위해 Teams 통화/모임에 대한 모임 내 통화 제어를 위한 유니버설 바
-- 통화/모임 Teams 후 통화 품질 피드백 등급<sup>1</sup>
-- PC/웹/모바일 Teams 클라이언트<sup>1</sup> <sup>2</sup>에서 공유할 때 방 앞 Microsoft Teams 룸 디스플레이의 수신/렌더링 Microsoft Whiteboard
+- Microsoft Teams PC/웹/모바일 클라이언트<sup>1</sup>에서 일관된 환경을 제공하기 위한 Teams 통화/모임에 대한 모임 내 통화 제어를 위한 유니버설 바
+- Teams 통화/모임 후 통화 품질 피드백 등급<sup>1</sup>
+- PC/웹/모바일 Teams 클라이언트<sup>1</sup> <sup>2</sup>에서 공유될 때 Microsoft Teams 룸 전면 디스플레이에서 Microsoft Whiteboard 받기/렌더링
 - Microsoft Teams 룸 클라이언트와의 호환성 문제로 인해 Windows 10 버전 1809 업그레이드에 대한 지원이 제거되었습니다. Windows 10 버전 19H1 지원은 향후 릴리스에 추가될 예정입니다.
 
-<sup>Teams</sup> 링을 사용하는 1개의 Microsoft Teams 서비스 롤아웃. 이 기능은 4.0.105.0 클라이언트 업데이트 이전 또는 이후 버전에서 사용할 수 있습니다.
+<sup>1</sup> Teams 링을 사용하는 Microsoft Teams 서비스 롤아웃. 이 기능은 4.0.105.0 클라이언트 업데이트 이전 또는 이후 버전에서 사용할 수 있습니다.
 
-<sup>2</sup> IT 관리자가 Microsoft Whiteboard 켜야 합니다. 또한 터치 사용이 가능한 회의실 전면 디스플레이가 있는 경우 디바이스 관리자 로그인과 함께 Windows 설정을 사용하여 여러 터치 디스플레이를 보정하여 Teams 모임에 공유된 회의실 디스플레이에서 공동 작업을 위해 Microsoft Whiteboard 사용하기 시작해야 합니다.
+<sup>2</sup> IT 관리자가 Microsoft Whiteboard를 켜야 합니다. 또한 터치 사용이 가능한 회의실 전면 디스플레이가 있는 경우 장치 관리자 로그인과 함께 Windows 설정을 사용하여 여러 터치 디스플레이를 보정하여 Teams 모임에 공유된 회의실 디스플레이에서 공동 작업을 위해 Microsoft Whiteboard 사용을 시작해야 합니다.
 
 ### <a name="40850-0482019"></a>4.0.85.0 (04/8/2019)
 
@@ -384,7 +384,7 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 
 이 업데이트에 도입된 내용은 다음과 같습니다.
 
-- Microsoft Teams P2P 모임 및 PSTN 호출을 위한 DTMF 키패드입니다. 기본 호출 클라이언트를 Microsoft Teams 관리자가 IsTeamsDefaultClient를 true로 설정해야 합니다.
+- Microsoft Teams P2P 모임 및 PSTN 통화용 DTMF 키패드입니다. Microsoft Teams를 기본 통화 클라이언트로 만들려면 관리자는 IsTeamsDefaultClient를 true로 설정해야 합니다.
 - 회의실 디스플레이 앞의 전체 화면에 원격 참가자의 들어오는 비디오를 고정합니다. 콘솔의 참가자 명단에서 "고정" 명령 사용
 - 회의실 전면 알림이 추가된 로비 알림 개선 사항
 - Microsoft Teams 룸 장치에서 Bluetooth 비콘을 사용할 수 없는 경우 회의실 전면 디스플레이 캐스팅 아이콘이 제거됨
@@ -402,7 +402,7 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 
 이 업데이트에 도입된 내용은 다음과 같습니다.
 
-- Teams 모임에 대한 이중 디스플레이(회의실 전면) 지원
+- Teams 모임에 대한 이중 디스플레이(회의실 앞) 지원
 
 ### <a name="40310-10162018"></a>4.0.31.0 (10/16/2018)
 
@@ -429,7 +429,7 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 이 업데이트에 도입된 내용은 다음과 같습니다.
 
 - Teams 모드의 "문제 보고" 기능 향상(비즈니스용 Skype 모드의 "피드백 제공"과 동일)
-- SIP 호출에 대한 Teams 모드에서 비즈니스용 Skype 모드로 되돌리는 기능 사용
+- SIP 호출에 대해 Teams에서 비즈니스용 Skype 모드로 대체 가능
 - 접근성 향상(내레이터, 돋보기)
 - XML 프로비저닝 변경 내용이 적용된 후 필요한 경우 자동으로 앱 다시 시작
 - 기타 수정 사항
@@ -438,7 +438,7 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 
 이 업데이트에 도입된 내용은 다음과 같습니다.
 
-- 이 업데이트를 통해 룸 시스템 디바이스에서 비즈니스용 Skype *및* Teams 모임을 모두 지원할 수 있습니다. 업데이트가 적용되면 Teams 기본적으로 꺼집니다. 관리자는 디바이스 설정 또는 원격 xml 푸시를 통해 로컬로 Teams 사용하도록 설정할 수 있습니다.
+- 이 업데이트를 통해 룸 시스템 디바이스에서 비즈니스용 Skype *및* Teams 모임을 모두 지원할 수 있습니다. 업데이트가 적용되면 기본적으로 Teams가 꺼집니다. 관리자는 디바이스 설정 또는 원격 xml 푸시를 통해 Teams를 로컬로 사용하도록 설정할 수 있습니다.
 
 ### <a name="311150-06182018"></a>3.1.115.0 (06/18/2018)
 
@@ -450,7 +450,7 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 
 이 업데이트에 도입된 내용은 다음과 같습니다.
 
-- 변경 내용으로 Microsoft에서 Windows 업데이트를 보다 유연하게 관리할 수 있습니다.
+- Microsoft가 Windows 업데이트 보다 유연하게 관리할 수 있도록 하는 변경 내용입니다.
 - 최종 사용자 환경은 변경되지 않습니다.
 
 ### <a name="311120-06052018"></a>3.1.112.0 (06/05/2018)
@@ -550,7 +550,7 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 - 디렉터리에서 사용자의 가용성을 즉시 확인하거나 전화 통화를 통해 사용자를 초대합니다.
 - 회의실에서 독립 실행형 회의 전화를 대체하기 위해 비즈니스용 Skype PSTN 회의 및 PSTN 통화를 지원합니다.
 
- **모든 미팅룸 변환**
+ **회의실 변환**
 
 - 테이블 터치 컨트롤러의 중심과 넓은 전면 디스플레이에 최적화된 전용 Skype 모임 앱
 - 방 앞 디스플레이 또는 프로젝터에 기존 투자 재사용
@@ -564,7 +564,7 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 - UWP(유니버설 Windows 플랫폼) Skype 모임 앱의 간단한 배포 및 업데이트
 - Windows AppLocker는 Skype 모임 앱에 디바이스를 잠글 수 있습니다.
 - MDM(Intune 및 Configuration Manager)을 통해 Windows 10 Enterprise 디바이스로 모니터링 및 관리
-- Enterprise 등급 안정성
+- 엔터프라이즈급 안정성
 - 친숙한 Skype 사용자 인터페이스로 인해 최종 사용자의 학습 노력이 낮음
 - Surface Pro 4 태블릿에서 실행
 
