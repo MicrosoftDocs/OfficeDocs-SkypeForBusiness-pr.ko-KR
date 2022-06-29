@@ -14,12 +14,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad9b66b249bc907071b00e1c2fd9f7b1c2148def
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 378467e9e540754023c4d69a53e50e6b1b403a1b
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "64961301"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66241017"
 ---
 # <a name="get-started-with-teams-for-frontline-workers"></a>최전선 직원을 위한 Teams 시작
 
@@ -31,7 +31,7 @@ ms.locfileid: "64961301"
 
 - [빠른 시작 - 최전방 직원용 Teams](flw-quickstart.yml)
 - [최전선 직원 온보딩 마법사를 사용하여 최전선 인력을 가동하고 실행할 수 있습니다.](flw-onboarding-wizard.md)
-- [최전방 직원을 위한 대규모 Microsoft Teams 프로비전하는 방법](flw-scripted-deployment.md)
+- [최전방 직원을 위해 대규모 Microsoft Teams를 프로비전하는 방법](deploy-teams-at-scale.md)
 - [최전선 직원 및 관리자를 위한 정책 패키지](manage-policy-packages.md)
 - [최전방 직원을 위한 맞춤형 Teams 앱](pin-teams-apps-based-on-license.md)
 - [Teams 로그인](sign-in-teams.md)

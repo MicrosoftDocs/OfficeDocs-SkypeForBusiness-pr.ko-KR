@@ -19,12 +19,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7123d45819f6e956ecf562fd321e7762b50e5ae6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 0c51c0e2225d73d140f424535f3dc1bd7a302afa
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674660"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240417"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>최전방 직원을 위한 대규모 Microsoft Teams 프로비저닝하는 방법
 
@@ -106,7 +107,7 @@ ms.locfileid: "65674660"
 > [!IMPORTANT]
 > 이러한 스크립트에서 자격 증명을 관리하는 방법은 사용에 적합하지 않을 수 있으며 요구 사항에 맞게 쉽게 변경할 수 있습니다. 항상 서비스 계정 및 관리 ID를 보호하기 위한 회사의 표준 및 관행을 따르세요.
 
-스크립트는 $ENV:LOCALAPPDATA\keys, 즉 AppData\Local 폴더에 XML 파일로 저장된 자격 증명을 사용합니다. 이러한 스크립트를 실행하는 데 사용되는 자격 증명을 설정하려면 **BulkAddFunctions.psm1** 모듈의 도우미 함수 **Set-Creds** 를 호출해야합니다. 이 기술을 사용하면 로컬 저장소에서 자격 증명을 유지하면서 다양한 서비스 끝점을 모두 인증할 필요가 없습니다. 각 스크립트 내에서 **Get-Creds** 도우미 함수를 사용하여 적절한 자격 증명을 읽고 해당 자격 증명을 사용하여 다양한 서비스에 연결합니다.
+스크립트는 `$ENV:LOCALAPPDATA\keys`, 즉 AppData\Local 폴더에 XML 파일로 저장된 자격 증명을 사용합니다. 이러한 스크립트를 실행하는 데 사용되는 자격 증명을 설정하려면 **BulkAddFunctions.psm1** 모듈의 도우미 함수 **Set-Creds** 를 호출해야합니다. 이 기술을 사용하면 로컬 저장소에서 자격 증명을 유지하면서 다양한 서비스 끝점을 모두 인증할 필요가 없습니다. 각 스크립트 내에서 **Get-Creds** 도우미 함수를 사용하여 적절한 자격 증명을 읽고 해당 자격 증명을 사용하여 다양한 서비스에 연결합니다.
 
 **Set-Creds** 를 호출하면 $ENV:LOCALAPPDATA\keys에 기록될 XML 파일 이름을 제공하라는 메시지가 표시됩니다. 서비스마다 다른 자격 증명이 있을 수 있습니다. 예를 들어 MicrosoftTeams, AzureAD 및 MSonline에 대해 서로 다른 자격 증명이 있을 수 있습니다. 이 경우 **Set-Creds** 를 두 번 이상 실행하여 각 자격 증명 파일을 고유한 의미있는 이름으로 저장할 수 있습니다.
 

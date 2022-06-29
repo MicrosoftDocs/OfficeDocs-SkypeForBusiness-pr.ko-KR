@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 330faa00c2ba14f03e5219642fa274fc24eb8765
-ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
+ms.openlocfilehash: f33ab77f2b615bcdd08f14512585b653027c38e8
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65913426"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240977"
 ---
 # <a name="meetings-webinars-and-live-events"></a>모임, 웨비나 및 라이브 이벤트 
 
@@ -176,6 +176,8 @@ Teams와 함께 제공되는 앱을 사용하고, 인증된 타사 앱과 템플
 ### <a name="guidelines-for-your-end-users"></a>최종 사용자를 위한 지침
 
 이끌이와 발표자는 다음 권장 사항을 구현해야 합니다.
+
+- 참가자가 10명 이상인 모임의 경우 [Q&A](/MicrosoftTeams/manage-qna-for-teams)를 사용하여 참가자에게 공식적으로 질문하고 질문에 대한 답변을 받을 수 있는 기회를 제공하고 구조화된 토론에 참여할 수 있습니다.
 
 - 원활한 모임을 만들기 위해 이벤트 이끌이는 미리 정의된 발표자를 설정할 수 있습니다. 모임이 시작된 후 발표자는 다른 참석자를 발표자 역할로 승격할 수도 있습니다.
 
