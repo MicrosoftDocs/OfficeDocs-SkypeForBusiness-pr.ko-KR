@@ -13,31 +13,31 @@ ms.localizationpriority: medium
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
-description: 적절한 장치, 마이크, 스피커, 카메라 및 디스플레이 선택을 포함하여 Microsoft Teams 룸을 지원하기 위한 요구 사항에 대해 알아봅니다.
+description: 적절한 장치, 마이크, 스피커, 카메라 및 디스플레이 선택을 포함하여 Microsoft Teams 룸 지원하기 위한 요구 사항에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e2f8ae10f19d59d9eefdc5f4f5fcf0eac4085eb0
-ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
+ms.openlocfilehash: f3bdfc24344f481a2846790ae13b6c964c69d4c2
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "65886655"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66241027"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 룸 요구사항
 
-Microsoft Teams 룸은 다양한 객실 크기로 확장됩니다. Teams 룸은 회의실의 크기와 사용에 따라 다양한 인증된 오디오 및 비디오 주변 장치를 사용합니다. 마이크, 스피커, 카메라 및 디스플레이와 함께 오른쪽 코어 장치 및 콘솔을 선택하여 공간에 적합한 디스플레이를 선택하면 작은 허들 공간에서 큰 회의 공간 및 회의실까지 모든 크기의 공간에 Microsoft Teams 룸을 배포할 수 있습니다.  룸을 구성 하는데 사용할 수 있는 모든 사용 가능한 인증 오디오 및 비디오 주변 장치는 [장치 보기](https://products.office.com/microsoft-teams/across-devices)에서 볼 수 있습니다.
+Microsoft Teams 룸 크기가 다른 객실 크기로 조정됩니다. Teams 룸 공간의 크기와 사용에 따라 다양한 인증 오디오 및 비디오 주변 장치를 사용합니다. 마이크, 스피커, 카메라 및 디스플레이와 함께 적합한 코어 장치 및 콘솔을 선택하여 공간에 적합한 디스플레이를 선택하면 작은 허들 공간에서 큰 회의 공간 및 회의실까지 모든 크기의 공간에 Microsoft Teams 룸 배포할 수 있습니다.  룸을 구성 하는데 사용할 수 있는 모든 사용 가능한 인증 오디오 및 비디오 주변 장치는 [장치 보기](https://products.office.com/microsoft-teams/across-devices)에서 볼 수 있습니다.
 
 이 문서는 Microsoft Teams 룸을 지원하는데 필요한 장치 배포 및 구성 요구 사항을 간략하게 설명합니다.
 
-배포에는 [Microsoft Teams 룸 배포](rooms-deploy.md)에 설명된 대로 Teams 룸의 리소스 계정 만들기 및 설정이 포함됩니다.
+배포에는 배포 Microsoft Teams 룸 설명된 대로 리소스 계정 만들기 및 [Teams 룸](rooms-deploy.md) 설정이 포함됩니다.
 
 다음을 참조하세요.
 
 - [계획에 따른 라이선스 옵션: Microsoft Teams 룸](rooms-licensing.md)
 
 > [!NOTE]
-> Microsoft Teams 룸은 Microsoft Teams, 비즈니스용 Skype Server 2019 또는 비즈니스용 Skype Server 2015에 로그인하고 이러한 서비스에서 호스트하는 모임에 참가할 수 있습니다.
+> Microsoft Teams 룸 Microsoft Teams, 비즈니스용 Skype 서버 2019 또는 비즈니스용 Skype 서버 2015에 로그인하고 이러한 서비스에서 호스트하는 모임에 참가할 수 있습니다.
 >
-> Lync Server 2013 같은 이전 플랫폼은 Microsoft Teams 룸에서 지원하지 않습니다. Microsoft Teams 룸은 21Vianet 또는 DoD 환경에서 운영하는 Microsoft 365 또는 Office 365에서 지원되지 않습니다.
+> Lync Server 2013 같은 이전 플랫폼은 Microsoft Teams 룸에서 지원하지 않습니다. Microsoft Teams 룸 Microsoft 365 또는 21Vianet 또는 DoD 환경에서 작동하는 Office 365 지원되지 않습니다.
 >
 > 온프레미스 Exchange 서버를 사용하는 경우 Microsoft Teams 룸에서 Exchange Server 2013 SP1이나 이후 버전을 사용해야 합니다.
 
@@ -182,6 +182,7 @@ Microsoft Teams 룸은 다양한 객실 크기로 확장됩니다. Teams 룸은 
 |[Poly Trio C60](https://www.poly.com/us/en/products/phones/trio/trio-c60)  |5.9.5.3066|
 |[Poly Studio P15 비디오 모음](https://www.poly.com/us/en/products/video-conferencing/studio-p/studio-p15)|1.2.0.000287 |
 |[Poly Studio E70 카메라](https://www.poly.com/us/en/products/video-conferencing/studio/studio-e70)|1.1|
+|[Poly Studio R30](https://www.poly.com/us/en/products/video-conferencing/studio/studio-r30)|2.0.0.001096|
 |[EPOS SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc)   |2.0.12.0   |
 |[EPOS SP20](https://www.eposaudio.com/en/us/enterprise/products/sp-20-ml-142ee5ca-speakerphone-1000226)   |1.2.15   |
 |[EPOS SP30](https://www.eposaudio.com/en/us/enterprise/products/sp-30-78c0cecc-bluetooth-speakerphone-1000223)   |2.1.52  |

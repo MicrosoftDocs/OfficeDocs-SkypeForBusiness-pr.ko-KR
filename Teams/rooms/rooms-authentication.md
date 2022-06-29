@@ -14,16 +14,16 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Microsoft Teams 룸 최신 인증을 구성하는 방법을 알아봅니다.
-ms.openlocfilehash: 5667b4bc2ab356ff9776282a6142a22abd33caa1
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: c50b197f554605b291e6af51b140fa6a2599e408
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65760880"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240627"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Microsoft Teams 룸 인증
 
-Microsoft Teams 룸 대한 계정 관리는 애플리케이션 수준에서 처리됩니다. 애플리케이션은 Microsoft Teams, 비즈니스용 Skype 및 Exchange 연결하여 통화 및 모임 환경을 사용하도록 리소스 계정에 대한 리소스를 가져옵니다. Teams 룸 전용 리소스 계정을 사용하여 상시 기능, 호출 시나리오(통화 플랜으로 구성된 디바이스의 경우) 및 사용자 지정 잠금 메커니즘을 허용합니다. 즉, Teams 룸 대한 인증은 최종 사용자 디바이스와 다른 방식으로 발생합니다.  
+Microsoft Teams 룸 대한 계정 관리는 애플리케이션 수준에서 처리됩니다. 애플리케이션은 Microsoft Teams, 비즈니스용 Skype 및 Exchange에 연결하여 통화 및 모임 환경을 사용하도록 리소스 계정에 대한 리소스를 가져옵니다. Teams 룸 전용 리소스 계정을 사용하여 상시 기능, 호출 시나리오(통화 플랜으로 구성된 디바이스의 경우) 및 사용자 지정 잠금 메커니즘을 허용합니다. 즉, Teams 룸 대한 인증은 최종 사용자 디바이스와 다른 방식으로 발생합니다.  
 
 최신 인증은 Microsoft 365 또는 Office 365 Microsoft Teams 룸 사용하는 모든 고객에게 권장됩니다. Exchange 서버 또는 비즈니스용 Skype 서버의 온-프레미스 배포가 있는 경우 최신 인증을 사용하도록 Azure Active Directory(Azure AD)를 사용하여 [하이브리드 최신 인증](/office365/enterprise/hybrid-modern-auth-overview)을 구성합니다.
 
@@ -37,7 +37,7 @@ Microsoft Teams 룸 및 최종 사용자 디바이스에서 최신 인증이 작
 
 ## <a name="enable-modern-authentication-on-microsoft-teams-rooms"></a>Microsoft Teams 룸 최신 인증 사용
 
-Microsoft Teams 룸 비즈니스용 Skype 및 Exchange 최신 인증을 사용하려면 Microsoft Teams 룸 최신 인증을 위해 클라이언트 쪽 설정을 사용하도록 설정합니다. 디바이스 설정 또는 XML 구성 파일에서 이 작업을 수행할 수 있습니다.
+Microsoft Teams 룸 비즈니스용 Skype 및 Exchange에서 최신 인증을 사용하려면 Microsoft Teams 룸 최신 인증에 대한 클라이언트 쪽 설정을 사용하도록 설정합니다. 디바이스 설정 또는 XML 구성 파일에서 이 작업을 수행할 수 있습니다.
 
 > [!NOTE]
 > 최신 인증에 클라이언트 쪽 설정을 사용하도록 설정하기 전에 최신 인증을 사용하도록 환경이 올바르게 설정되었는지 확인합니다.
@@ -46,7 +46,7 @@ Microsoft Teams 룸 비즈니스용 Skype 및 Exchange 최신 인증을 사용�
 
 1. Microsoft Teams 룸 **자세히**(**...**)로 이동합니다.
     
-2. **설정** 선택한 다음 디바이스 관리자 사용자 이름 및 암호를 입력합니다.
+2. **설정을** 선택한 다음 디바이스 관리자 사용자 이름 및 암호를 입력합니다.
 3. **계정** 탭으로 이동하여 **최신 인증** 을 켜고 **저장 및 종료** 를 선택합니다.
 
 ### <a name="using-the-xml-config-file"></a>XML 구성 파일 사용
@@ -61,13 +61,13 @@ SkypeSettings.xml 파일에서 다음과 같이 최신 인증 XML 요소를 **Tr
 
 ## <a name="prepare-your-environment-for-modern-authentication"></a>최신 인증을 위한 환경 준비
 
-시작하기 전에 Office 365 및 Azure AD 사용할 ID 모델을 이해해야 합니다. [Office 365 ID 모델 및 Azure Active Directory Microsoft 365 또는 Office 365](/Office365/Enterprise/about-office-365-identity) [대한 하이브리드 ID 및 디렉터리 동기화](/Office365/Enterprise/plan-for-directory-synchronization)에서 자세한 정보를 찾을 수 있습니다.
+시작하기 전에 Office 365 및 Azure AD 사용할 ID 모델을 이해해야 합니다. [자세한 내용은 Office 365 ID 모델 및 Azure Active Directory](/Office365/Enterprise/about-office-365-identity) 및 [Microsoft 365 또는 Office 365 대한 하이브리드 ID 및 디렉터리 동기화](/Office365/Enterprise/plan-for-directory-synchronization)에서 확인할 수 있습니다.
 
 ### <a name="enable-modern-authentication-in-microsoft-365-or-office-365"></a>Microsoft 365 또는 Office 365 최신 인증 사용
 
 Exchange Online 최신 인증을 켜려면 [Exchange Online 최신 인증 사용을](/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online) 참조하세요.
 
-Microsoft Teams 룸 디바이스가 Exchange Online 및 Teams 성공적으로 로그인할 수 있는지 확인할 때까지 Exchange Online 대한 기본 인증 정책을 제거하거나 테넌트에 대한 기본 인증을 사용하지 않도록 설정하는 것이 좋습니다.
+Microsoft Teams 룸 디바이스가 Exchange Online 및 Teams로 성공적으로 로그인할 수 있는지 확인할 때까지 Exchange Online 대한 기본 인증 정책을 제거하거나 테넌트에 대한 기본 인증을 사용하지 않도록 설정하는 것이 좋습니다.
 
 Exchange Online 기본 인증을 사용하지 않도록 설정하는 방법에 대한 자세한 내용은 [Exchange Online 기본 인증 사용 안 함을](/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online) 참조하세요.
 
@@ -75,10 +75,10 @@ Exchange Online 기본 인증을 사용하지 않도록 설정하는 방법에 �
 
 온-프레미스 Exchange 서버 및/또는 비즈니스용 Skype 서버에 대한 성공적인 인증을 보장하려면 Microsoft Teams 룸 사용하는 리소스 계정이 Azure AD 권한 부여를 받도록 구성되어 있는지 확인해야 합니다.
 
-Teams 룸 인증 흐름은 인증 구성에 따라 달라집니다. 관리되는 도메인을 사용하는 고객의 경우 Teams 룸 Azure Active Directory [OAuth 2.0 리소스 소유자 암호 자격 증명](/azure/active-directory/develop/v2-oauth-ropc)을 사용합니다. 그러나 페더레이션된 도메인을 사용하는 고객의 경우 [OAuth 2.0 SAML Bearer Assertion Flow](/azure/active-directory/develop/v2-saml-bearer-assertion) 사용됩니다.
+Teams 룸 인증 흐름은 인증 구성에 따라 달라집니다. 관리되는 도메인을 사용하는 고객의 경우 Teams 룸 Azure Active Directory에서 [OAuth 2.0 리소스 소유자 암호 자격 증명](/azure/active-directory/develop/v2-oauth-ropc)을 사용합니다. 그러나 페더레이션된 도메인을 사용하는 고객의 경우 [OAuth 2.0 SAML 전달자 어설션 흐름](/azure/active-directory/develop/v2-saml-bearer-assertion) 이 사용됩니다.
 
 > [!NOTE]
-> ID 공급자는 Azure Active Directory 또는 Office 365 통합하기 위해 특정 구성 또는 설정이 필요할 수 있습니다. Teams 룸 사용하여 인증을 구성하는 데 도움이 필요한 경우 ID 공급자에게 문의하세요.
+> ID 공급자는 Azure Active Directory 또는 Office 365 통합하기 위한 특정 구성 또는 설정이 필요할 수 있습니다. Teams 룸 사용하여 인증을 구성하는 데 도움이 필요한 경우 ID 공급자에게 문의하세요.
 
 
 ### <a name="prerequisites-specific-to-microsoft-teams-rooms"></a>Microsoft Teams 룸 관련 필수 구성 요소
@@ -102,12 +102,12 @@ Exchange Server 하이브리드 최신 인증을 사용하도록 설정하려면
 
 비즈니스용 Skype 서버 하이브리드 최신 인증을 사용하도록 설정하려면 하이브리드 [최신 인증을 사용하도록 온-프레미스에서 비즈니스용 Skype 구성하는 방법을](/Office365/Enterprise/configure-exchange-server-for-hybrid-modern-authentication) 참조하세요.
 
-### <a name="remove-or-disable-skype-for-business-and-exchange"></a>비즈니스용 Skype 제거하거나 사용하지 않도록 설정하고 Exchange
+### <a name="remove-or-disable-skype-for-business-and-exchange"></a>비즈니스용 Skype 및 Exchange 제거 또는 사용 안 함
 
-설치 프로그램에서 하이브리드 최신 인증을 허용하지 않거나 Exchange 또는 비즈니스용 Skype 하이브리드 최신 인증을 제거하거나 사용하지 않도록 설정해야 하는 경우 비즈니스용 Skype [및 Exchange 하이브리드 최신 인증 제거 또는 비활성화](/Office365/Enterprise/remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha)를 참조하세요.
+설정에서 하이브리드 최신 인증을 허용하지 않거나 Exchange 또는 비즈니스용 Skype 대한 하이브리드 최신 인증을 제거하거나 사용하지 않도록 설정해야 하는 경우 [비즈니스용 Skype 및 Exchange에서 하이브리드 최신 인증 제거 또는 비활성화](/Office365/Enterprise/remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha)를 참조하세요.
 
 ### <a name="azure-ad-conditional-access"></a>조건부 액세스 Azure AD
 
 IP/위치 기반 액세스를 위해 Microsoft Teams 룸 사용하는 리소스 계정을 구성할 수 있습니다. 자세한 내용은 [조건부 액세스: 위치별 액세스 차단](/azure/active-directory/conditional-access/howto-conditional-access-policy-location)을 참조하세요.
 
-다른 조건부 액세스 정책은 지원되지 않습니다. 디바이스 준수에 대한 자세한 내용은 [Microsoft Teams 룸 대해 지원되는 조건부 액세스 및 Intune 준수 정책을](supported-ca-and-compliance-policies.md) 참조하세요.
+디바이스 준수에 대한 자세한 내용은 [Microsoft Teams 룸 대해 지원되는 조건부 액세스 및 Intune 준수 정책을](supported-ca-and-compliance-policies.md) 참조하세요.

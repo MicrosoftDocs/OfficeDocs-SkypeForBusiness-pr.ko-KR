@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 자동 전화 교환 설정
+title: Microsoft Teams에 대한 자동 전화 교환 설정
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -19,13 +19,13 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Phone System
-description: Microsoft Teams 자동 전화 교환을 설정하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 7cfce516946d38f794e9803e5ecfb30c128cb149
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+description: Microsoft Teams에서 자동 전화 교환을 설정하고 관리하는 방법을 알아봅니다.
+ms.openlocfilehash: 37326ec03c22c91de5f4c4edb94aaad67f52bde5
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124173"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240947"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 전화 교환 설정
 
@@ -40,7 +40,7 @@ ms.locfileid: "66124173"
 - **음성 앱** - 다른 자동 전화 교환 또는 통화 큐. (이 대상을 선택할 때 자동 전화 교환 또는 통화 큐와 연결된 리소스 계정을 선택합니다.)
 - **음성 메일** - 지정한 Microsoft 365 그룹과 연결된 음성 사서함입니다. 음성 메일 전사를 원하는지, "음색이 나면 메시지를 남겨주세요"를 선택할 수 있습니다. 시스템 프롬프트입니다.
   - M365 관리 센터에서 지정한 Microsoft 365 그룹에 대해 "조직 외부 사용자가 이 팀에게 전자 메일을 보내도록 허용"을 사용하도록 설정합니다.
-- **외부 전화 번호** - 모든 전화 번호입니다. ( [외부 전송 기술 세부 정보](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 참조).
+- **외부 전화 번호** - 모든 전화 번호입니다. [외부 전송 기술 세부 정보를 참조하세요](create-a-phone-system-auto-attendant.md?tabs=additional-resources).
 - **알림(오디오 파일)** - 오디오 파일을 재생합니다. 오디오로 저장된 업로드한 기록된 알림 메시지입니다. WAV, .MP3 또는 . WMA 형식입니다. 녹음/녹화는 5MB를 초과할 수 없습니다. 시스템에서 알림을 재생한 다음 자동 전화 교환 메뉴로 돌아갑니다.
 - **알림(형식)** - 메시지를 입력합니다. 시스템에서 읽을 텍스트입니다. 최대 1,000자를 입력할 수 있습니다. 시스템에서 알림을 재생한 다음 자동 전화 교환 메뉴로 돌아갑니다.
 
@@ -57,11 +57,11 @@ ms.locfileid: "66124173"
 
 ## <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>다음 단계에 따라 자동 전화 교환을 설정합니다.
 
-자동 전화 교환을 설정하려면 [Teams 관리 센터에서](https://go.microsoft.com/fwlink/p/?linkid=2066851) **음성** 을 확장하고 **자동 전화 교환을** 선택한 다음 **추가** 를 선택합니다.
-
 # <a name="step-1---general-info"></a>[1단계 - 일반 정보](#tab/general-info)
 
 ## <a name="step-1---set-the-auto-attendants-general-information"></a>1단계 - 자동 전화 교환의 일반 정보 설정
+
+자동 전화 교환을 설정하려면 [Teams 관리 센터에서](https://go.microsoft.com/fwlink/p/?linkid=2066851) **음성** 을 확장하고 **자동 전화 교환을** 선택한 다음 **추가** 를 선택합니다.
 
 1. 맨 위에 있는 상자에 자동 전화 교환의 이름을 입력합니다.
 
@@ -78,13 +78,14 @@ ms.locfileid: "66124173"
 
 자동 전화 교환의 일반 정보를 설정했으면 **다음** 을 선택합니다.
 
+
 # <a name="step-2---basic-call-flow"></a>[2단계 - 기본 호출 흐름](#tab/call-flow)
 
 ## <a name="step-2---set-up-the-basic-call-flow"></a>2단계 - 기본 호출 흐름 설정
 
 ### <a name="set-a-greeting"></a>인사말 설정
 
-- **오디오 파일 재생을** 선택하는 경우 **업로드 파일** 단추를 사용하여 오디오로 저장된 기록된 인사말 메시지를 업로드할 수 있습니다. WAV, .MP3 또는 . WMA 형식입니다. 녹음/녹화는 5MB를 초과할 수 없습니다.
+- **오디오 파일 재생을** 선택하는 경우 **파일 업로드** 단추를 사용하여 오디오로 저장된 녹음된 인사말 메시지를 업로드할 수 있습니다. WAV, .MP3 또는 . WMA 형식입니다. 녹음/녹화는 5MB를 초과할 수 없습니다.
 
 - **인사말 입력을** 선택하면 자동 전화 교환이 통화에 응답할 때 시스템에서 입력한 텍스트(최대 1,000자)를 읽습니다.
 
@@ -181,7 +182,7 @@ ms.locfileid: "66124173"
 
 *전화 걸기 범위* 는 호출자가 전화 접속 또는 전화 접속 확장을 사용하는 경우 디렉터리에서 사용할 수 있는 사용자를 정의합니다. **모든 온라인 사용자의** 기본값은 온라인 사용자이거나 비즈니스용 Skype 서버 사용하여 온-프레미스에 호스트된 조직의 모든 사용자를 포함합니다.
 
-**포함** 또는 제외에서 **사용자 지정 사용자 그룹을** 선택하고 하나 이상의 Microsoft 365 그룹, 메일 그룹  또는 보안 그룹을 선택하여 특정 사용자를 포함하거나 제외할 수 있습니다. 예를 들어 전화 걸기 디렉터리에서 조직의 임원을 제외할 수 있습니다.
+**포함** **또는 제외** 에서 **사용자 지정 사용자 그룹을** 선택하고 하나 이상의 Microsoft 365 그룹, 메일 그룹 또는 보안 그룹을 선택하여 특정 사용자를 포함하거나 제외할 수 있습니다. 예를 들어 전화 걸기 디렉터리에서 조직의 임원을 제외할 수 있습니다.
 
 사용자가 두 목록에 모두 있는 경우 디렉터리에서 제외됩니다.
 
@@ -200,7 +201,7 @@ ms.locfileid: "66124173"
 
 리소스 계정을 추가한 후 **다음** 을 선택합니다.
 
-자세한 내용은 [Teams 리소스 계정 관리를 참조하세요](manage-resource-accounts.md).
+자세한 내용은 [Teams 리소스 계정 관리를](manage-resource-accounts.md) 참조하세요.
 
 # <a name="additional-resources"></a>[추가 리소스](#tab/additional-resources)
 
@@ -230,7 +231,7 @@ ms.locfileid: "66124173"
 1. 아래의 **테스트 실행** 을 선택하면 Microsoft 365 관리 센터에서 진단이 채워집니다.
 
    > [!div class="nextstepaction"]
-   > [테스트 실행: 자동 전화 교환 Teams](https://aka.ms/TeamsAADiag)
+   > [테스트 실행: Teams 자동 전화 교환](https://aka.ms/TeamsAADiag)
 
 2. 진단 실행 창의 **사용자 이름 또는 전자 메일** 필드에 리소스 계정을 입력한 다음 **테스트 실행을** 선택합니다.
 
@@ -238,9 +239,9 @@ ms.locfileid: "66124173"
 
 ---
 
-### <a name="related-topics"></a>관련 주제
+### <a name="related-topics"></a>관련 항목
 
-[Teams 전화](./here-s-what-you-get-with-phone-system.md)
+[Teams Phone을 사용하여 얻을 수 있는 항목은 다음과 같습니다.](./here-s-what-you-get-with-phone-system.md)
 
 [서비스 통화 번호 가져오기](./getting-service-phone-numbers.md)
 

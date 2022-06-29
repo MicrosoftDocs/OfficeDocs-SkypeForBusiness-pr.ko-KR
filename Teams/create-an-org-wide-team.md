@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 조직 전체 팀 만들기
+title: Microsoft Teams에서 조직 전체 팀 만들기
 author: SerdarSoysal
 ms.author: serdars
 ms.reviewer: phlouie
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Teams 조직 전체의 팀을 만들고 관리하여 중소 규모의 조직의 모든 사용자가 공동 작업할 수 있는 자동 방법을 제공하는 방법을 알아봅니다.
+description: Teams에서 조직 전체 팀을 만들고 관리하여 중소 규모의 조직의 모든 사용자가 공동 작업할 수 있는 자동 방법을 제공하는 방법을 알아봅니다.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -17,14 +17,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d6cfc36c2f695775940c97441d87dc776619ffd8
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: cfb9cf174488cfc8043cf04ab08f7eadba920bc3
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675970"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240757"
 ---
-# <a name="create-an-organization-wide-team-in-microsoft-teams"></a>Microsoft Teams 조직 전체 팀 만들기
+# <a name="create-an-organization-wide-team-in-microsoft-teams"></a>Microsoft Teams에서 조직 전체 팀 만들기
 
 조직 전체 팀은 중소 규모의 조직의 모든 사용자가 단일 공동 작업 팀의 일원이 될 수 있는 자동 방법을 제공합니다.
 
@@ -36,7 +36,7 @@ ms.locfileid: "65675970"
 
 ![조직 전체 팀을 만드는 조직 전체 옵션의 스크린샷.](media/create-org-wide-team.png "조직 전체 팀을 만드는 조직 전체 옵션의 스크린샷")
 
-조직 전체 팀이 만들어지면 모든 전역 관리자 및 Teams 서비스 관리자가 팀 소유자로 추가되고 모든 활성 사용자가 팀 구성원으로 추가됩니다. 라이선스가 없는 사용자도 팀에 추가됩니다. 허가되지 않은 사용자가 처음으로 Teams 로그인하면 사용자에게 Microsoft Teams Exploratory 라이선스가 할당됩니다. Exploratory 라이선스에 대해 자세히 알아보려면 [Microsoft Teams Exploratory 라이선스 관리를](teams-exploratory.md) 확인하세요.
+조직 전체 팀이 만들어지면 모든 전역 관리자 및 Teams 서비스 관리자가 팀 소유자로 추가되고 모든 활성 사용자가 팀 구성원으로 추가됩니다. 라이선스가 없는 사용자도 팀에 추가됩니다. 허가되지 않은 사용자가 Teams에 처음 로그인하면 사용자에게 Microsoft Teams Exploratory 라이선스가 할당됩니다. Exploratory 라이선스에 대해 자세히 알아보려면 [Microsoft Teams 예비 라이선스 관리를](teams-exploratory.md) 확인하세요.
 
 다음 유형의 계정은 조직 전체 팀에 추가되지 않습니다.
 
@@ -53,7 +53,7 @@ ms.locfileid: "65675970"
 > - 팀을 만들 때 **조직 전체** 옵션이 표시되지 않고 전역 관리자인 경우 조직 전체의 5개 팀 제한에 도달했거나 조직에 현재 10,000명의 구성원으로 구성된 크기 제한을 초과했을 수 있습니다. 향후에는 이 제한을 높이도록 노력하고 있습니다. 조직 전체 팀은 아직 교육용 Teams에서 사용할 수 없습니다.
 > - 회의실 목록, 장비 및 리소스 계정의 일부가 아닌 회의실을 조직 전체 팀에 추가하거나 동기화할 수 있습니다. 팀 소유자는 팀에서 이러한 계정을 쉽게 제거할 수 있습니다.
 > - 시스템에서 구성원을 추가하거나 제거하는 모든 작업이 일반 채널에 게시됩니다. 채널은 또한 Teams 클라이언트에 새 활동이 있는 것으로 표시됩니다.
-> - 조직이 Teams 익숙하지 않고 사용자가 5,000명 이하인 경우 조직 전체의 팀을 자동으로 만듭니다. 팀 이름은 테넌트 이름을 반영하고 일반 채널을 갖게 됩니다. 전역 관리자는 여느 팀처럼 이 팀을 편집할 수 있습니다.
+> - 조직이 Teams를 신규로 사용하고 사용자가 5,000명 이하인 경우 조직 전체의 팀을 자동으로 만듭니다. 팀 이름은 테넌트 이름을 반영하고 일반 채널을 갖게 됩니다. 전역 관리자는 여느 팀처럼 이 팀을 편집할 수 있습니다.
 
 ## <a name="best-practices"></a>모범 사례
 
@@ -90,7 +90,7 @@ ms.locfileid: "65675970"
 
 ### <a name="remove-accounts-that-might-not-belong"></a>소속되지 않은 계정 삭제
 
-구성원이 조직 전체 팀을 떠날 수는 없지만 팀 소유자로서 소속되지 않은 계정을 제거하여 팀 명단을 관리할 수 있습니다. **Teams를 사용하여 조직 전체 팀에서 사용자를 제거하도록 합니다**. Microsoft 365 관리 센터 같은 다른 방법을 사용하거나 Outlook 그룹에서 사용자를 제거하는 경우 사용자가 조직 전체 팀에 다시 추가될 수 있습니다.
+구성원이 조직 전체 팀을 떠날 수는 없지만 팀 소유자로서 소속되지 않은 계정을 제거하여 팀 명단을 관리할 수 있습니다. **Teams를 사용하여 조직 전체 팀에서 사용자를 제거하도록 합니다**. Microsoft 365 관리 센터 또는 Outlook의 그룹에서 사용자를 제거하는 다른 방법을 사용하는 경우 사용자가 조직 전체 팀에 다시 추가될 수 있습니다.
 
 ## <a name="faq"></a>FAQ
 
@@ -115,4 +115,4 @@ ms.locfileid: "65675970"
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft Teams 회사 차원의 팀을 만드는](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3) 방법에 대한 비디오를 시청하세요.
+[Microsoft Teams에서 조직 전체 팀을 만드는 방법에](https://www.youtube.com/watch?v=x3qGlwwCz_w) 대한 비디오를 시청하세요.

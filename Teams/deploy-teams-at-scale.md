@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 일선 근로자를 위한 대규모 팀 배포
+title: Microsoft Teams에서 최전방 작업자를 위한 대규모 팀 배포
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: rahuldey
@@ -15,18 +15,18 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 561eaf310201b99ada9cce4dde49746d58d77088
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: feffd8e6f651b4592e789cd24243f01417f1b966
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046027"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240735"
 ---
-# <a name="deploy-teams-at-scale-for-frontline-workers-in-microsoft-teams"></a>Microsoft Teams 일선 근로자를 위한 대규모 팀 배포
+# <a name="deploy-teams-at-scale-for-frontline-workers-in-microsoft-teams"></a>Microsoft Teams에서 최전방 작업자를 위한 대규모 팀 배포
 
 > [!NOTE]
-> 이 기능은 현재 프라이빗 미리 보기로 제공됩니다. 프라이빗 미리 보기에 참여하려면 [dscale@microsoft.com](mailto:dscale@microsoft.com) 문의하세요.
+> 이 기능은 현재 공개 미리 보기로 제공됩니다. 참여하려면 [dscale@microsoft.com](mailto:dscale@microsoft.com) 문의하세요.
+
 
 ## <a name="overview"></a>개요
  
@@ -66,7 +66,7 @@ ms.locfileid: "66046027"
     |**팀 이름**|팀의 이름입니다.|
     |**기존 팀 ID**|기존 팀에서 사용자를 추가하거나 제거하는 경우 팀의 팀 ID를 지정합니다.|
     |**가시성**|팀이 공개(조직의 모든 사용자가 참가할 수 있음) 또는 비공개(사용자가 참가하려면 팀 소유자의 승인이 필요)인지 여부입니다. 옵션은 **공용** 및 **비공개** 입니다.|
-    |**팀 템플릿 ID**|미리 빌드된 템플릿 또는 사용자 지정 템플릿에서 팀을 만드는 경우 팀 템플릿 ID를 지정합니다. 미리 빌드된 [팀 템플릿 및 ID 목록은 Teams 관리 센터에서](get-started-with-teams-templates-in-the-admin-console.md) 팀 템플릿으로 시작 참조하세요. 표준 기본 팀 템플릿을 사용하려면 비워 둡니다.|
+    |**팀 템플릿 ID**|미리 빌드된 템플릿 또는 사용자 지정 템플릿에서 팀을 만드는 경우 팀 템플릿 ID를 지정합니다. 미리 빌드 [된 팀 템플릿 및 ID 목록은 Teams 관리 센터에서](get-started-with-teams-templates-in-the-admin-console.md) 팀 템플릿 시작을 참조하세요. 표준 기본 팀 템플릿을 사용하려면 비워 둡니다.|
 
 - **각 팀에 추가하는 사용자를 매핑하는 CSV 파일** 입니다. 이 파일에는 첫 번째 열부터 시작하여 다음 순서로 이러한 필수 열이 포함되어야 합니다.
 
@@ -86,31 +86,31 @@ ms.locfileid: "66046027"
 
 |팀 이름|기존 팀 ID|가시성|팀 템플릿 ID|
 |---------|---------|---------|---------|
-|Contoso Microsoft Store 1||공용|com.microsoft.teams.template.retailStore|
-|Contoso Microsoft Store 2||공용|com.microsoft.teams.template.retailStore|
-|Contoso Microsoft Store 3||공용|com.microsoft.teams.template.retailStore|
-|Contoso Microsoft Store 4||공용|com.microsoft.teams.template.retailStore|
-|Contoso Microsoft Store 5||공용|com.microsoft.teams.template.ManageAProject|
-|Contoso Microsoft Store 6||공용|com.microsoft.teams.template.ManageAProject|
-|Contoso Microsoft Store 7||공용||
-|Contoso Microsoft Store 8||개인|com.microsoft.teams.template.OnboardEmployees|
-|Contoso Microsoft Store 9||개인|com.microsoft.teams.template.OnboardEmployees|
-|Contoso Microsoft Store 10||개인|com.microsoft.teams.template.OnboardEmployees|
+|Contoso Store 1||공용|com.microsoft.teams.template.retailStore|
+|Contoso Store 2||공용|com.microsoft.teams.template.retailStore|
+|Contoso Store 3||공용|com.microsoft.teams.template.retailStore|
+|Contoso Store 4||공용|com.microsoft.teams.template.retailStore|
+|Contoso Store 5||공용|com.microsoft.teams.template.ManageAProject|
+|Contoso Store 6||공용|com.microsoft.teams.template.ManageAProject|
+|Contoso Store 7||공용||
+|Contoso Store 8||개인|com.microsoft.teams.template.OnboardEmployees|
+|Contoso Store 9||개인|com.microsoft.teams.template.OnboardEmployees|
+|Contoso Store 10||개인|com.microsoft.teams.template.OnboardEmployees|
 
 **Users.csv**
 
 |사용자 전체 이름 |사용자 UPN 또는 ID|팀 이름|ActionType|소유자 또는 구성원|
 |---------|---------|---------|---------|---------|
-|에이버리 하워드|averyh@contoso.com|Contoso Microsoft Store 1|AddMember|소유자|
-|케이시 젠슨|caseyj@contoso.com|Contoso Microsoft Store 2|AddMember|소유자|
-|제시 어윈|jessiei@contoso.com|Contoso Microsoft Store 3|AddMember|소유자|
-|만지트 바티아|manjeetb@contoso.com|Contoso Microsoft Store 4|AddMember|소유자|
-|미카엘라 리|mikaelal@contoso.com|Contoso Microsoft Store 5|AddMember|소유자|
-|모건 코너스|morganc@contoso.com|Contoso Microsoft Store 6|AddMember|멤버|
-|오스카 워드|oscarw@contoso.com|Contoso Microsoft Store 7|AddMember|멤버|
-|르네 펠레티에|renep@contoso.com|Contoso Microsoft Store 8|AddMember|멤버|
-|시드니 마토스|sydneym@contoso.com|Contoso Microsoft Store 9|AddMember|멤버|
-|바이올렛 마르티네즈|violetm@contoso.com|Contoso Microsoft Store 10|AddMember|멤버|
+|에이버리 하워드|averyh@contoso.com|Contoso Store 1|AddMember|소유자|
+|케이시 젠슨|caseyj@contoso.com|Contoso Store 2|AddMember|소유자|
+|제시 어윈|jessiei@contoso.com|Contoso Store 3|AddMember|소유자|
+|만지트 바티아|manjeetb@contoso.com|Contoso Store 4|AddMember|소유자|
+|미카엘라 리|mikaelal@contoso.com|Contoso Store 5|AddMember|소유자|
+|모건 코너스|morganc@contoso.com|Contoso Store 6|AddMember|멤버|
+|오스카 워드|oscarw@contoso.com|Contoso Store 7|AddMember|멤버|
+|르네 펠레티에|renep@contoso.com|Contoso Store 8|AddMember|멤버|
+|시드니 마토스|sydneym@contoso.com|Contoso Store 9|AddMember|멤버|
+|바이올렛 마르티네즈|violetm@contoso.com|Contoso Store 10|AddMember|멤버|
 
 ### <a name="step-2-deploy-your-teams"></a>2단계: 팀 배포
 
@@ -118,7 +118,7 @@ ms.locfileid: "66046027"
 
 cmdlet을 ```New-CsBatchTeamsDeployment``` 사용하여 만들 팀의 일괄 처리를 제출합니다. 오케스트레이션 ID는 각 일괄 처리에 대해 생성됩니다. 그런 다음 cmdlet을 ```Get-CsBatchTeamsDeployment``` 사용하여 각 일괄 처리의 진행률 및 상태를 추적할 수 있습니다.
 
-1. PowerShell 버전 7 이상을 설치합니다. 단계별 지침은 [Windows PowerShell 설치를](/powershell/scripting/install/installing-powershell-on-windows) 참조하세요.
+1. PowerShell 버전 7 이상을 설치합니다. 단계별 지침은 [Windows에 PowerShell 설치를 참조하세요](/powershell/scripting/install/installing-powershell-on-windows).
 1. 관리자 모드에서 PowerShell을 실행합니다.
 1. 다음을 실행하여 이전에 설치된 Teams PowerShell 모듈을 제거합니다.
 
@@ -129,7 +129,7 @@ cmdlet을 ```New-CsBatchTeamsDeployment``` 사용하여 만들 팀의 일괄 처
     오류 메시지가 표시되면 이미 설정되어 있습니다. 다음 단계로 이동합니다.
 1. [최신 버전의 Teams PowerShell 모듈을](https://www.powershellgallery.com/packages/MicrosoftTeams) 다운로드하여 설치합니다.
 
-1. 다음을 실행하여 Teams 연결합니다.
+1. 다음을 실행하여 Teams에 연결합니다.
 
     ```powershell
     Connect-MicrosoftTeams

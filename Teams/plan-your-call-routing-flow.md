@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 대한 통화 라우팅 흐름 계획
+title: Microsoft Teams에 대한 통화 라우팅 흐름 계획
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -19,13 +19,13 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Phone System
-description: Microsoft Teams 자동 전화 교환 및 통화 큐에 대한 통화 라우팅 흐름을 계획하는 방법을 알아봅니다.
-ms.openlocfilehash: 3be72f17f876eb694d3b46293f039ccc07d65fbb
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+description: Microsoft Teams에서 자동 전화 교환 및 통화 큐에 대한 통화 라우팅 흐름을 계획하는 방법을 알아봅니다.
+ms.openlocfilehash: 7788bbe07b33a133af04c8a7fe8333ba66f7f2df
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124581"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240987"
 ---
 # <a name="plan-your-call-routing-flow"></a>통화 라우팅 흐름 계획
 
@@ -47,7 +47,8 @@ ms.locfileid: "66124581"
 
 - **조직의 사용자** - 음성 통화를 받을 수 있는 조직의 사용자입니다. 온라인 사용자 또는 비즈니스용 Skype 서버 사용하여 온-프레미스에서 호스트되는 사용자일 수 있습니다.
 - **음성 앱** - 다른 자동 전화 교환 또는 통화 큐. 대상과 연결된 리소스 계정을 선택합니다.
-- **외부 전화 번호** - 모든 전화 번호입니다. ( [외부 전송 기술 세부 정보](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 참조).
+- **외부 전화 번호** - 모든 전화 번호입니다. [외부 전송 기술 세부 정보를 참조하세요](create-a-phone-system-auto-attendant.md?tabs=additional-resources).
+
 - **음성 메일** - 지정한 Microsoft 365 그룹과 연결된 음성 사서함입니다. 음성 메일 전사를 원하는지, "음색이 나면 메시지를 남겨주세요"를 선택할 수 있습니다. 시스템 프롬프트입니다.
 - **연산자** (자동 전화 교환만 해당) - 자동 전화 교환에 대해 정의된 연산자입니다. 연산자 정의는 선택 사항입니다. 연산자는 이 목록의 다른 대상일 수 있습니다.
 
