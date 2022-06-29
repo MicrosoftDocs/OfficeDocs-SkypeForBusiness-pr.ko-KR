@@ -637,6 +637,8 @@ items:
                 href: set-up-the-call-me-feature-for-your-users.md
               - name: 모임 참석 보고서 받기
                 href: teams-analytics-and-reports/meeting-attendance-report.md
+              - name: Teams 모임에서 질문 및 답변 관리
+                href: manage-qna-for-teams.md
               - name: Teams에서 화이트보드 관리
                 href: manage-whiteboard.md
               - name: Google Workspace용 Teams 모임 추가 기능 설정
@@ -785,10 +787,12 @@ items:
             href: set-up-common-area-phones.md
           - name: 음성 메일
             items:
-              - name: 클라우드 음성 메일 설정
+              - name: 클라우드 음성 사서함 관리
                 href: set-up-phone-system-voicemail.md
               - name: 음성 메일 정책 관리
                 href: manage-voicemail-policies.md
+              - name: 음성 메일 설정 관리
+                href: manage-voicemail-settings.md
               - name: 음성 메일의 기본 언어 변경
                 href: change-the-default-language-for-greetings-and-emails.md
               - name: 음성 메일 인사말 및 메시지 언어
@@ -1618,7 +1622,7 @@ items:
             href: easy-policy-setup-edu.md
           - name: 교육용 Teams의 부모 연결
             href: edu-parents-app.md
-          - name: 교육용 Teams의 커리어 코치 앱
+          - name: 교육용 Teams의 경력 코치
             href: career-coach.md
           - name: Teams의 채팅 감독
             href: supervise-chats-edu.md
@@ -1658,8 +1662,8 @@ items:
             href: flw-quickstart.yml
           - name: 일선 작업자 온보딩 마법사
             href: flw-onboarding-wizard.md
-          - name: 최전방 직원 스크립팅된 배포
-            href: flw-scripted-deployment.md
+          - name: 최전방 직원을 위해 대규모 Microsoft Teams를 프로비전하는 방법
+            href: deploy-teams-at-scale.md
           - name: 최전방 직원을 위한 맞춤형 Teams 앱
             href: pin-teams-apps-based-on-license.md
           - name: Teams에서 조직의 교대 근무 앱 관리
@@ -1743,8 +1747,8 @@ items:
             href: get-started-with-retail-teams-templates.md
           - name: 일선 작업자 온보딩 마법사
             href: flw-onboarding-wizard.md
-          - name: 최전방 직원 스크립팅된 배포
-            href: flw-scripted-deployment.md
+          - name: 최전방 직원을 위해 대규모 Microsoft Teams를 프로비전하는 방법
+            href: deploy-teams-at-scale.md
           - name: Teams의 교대 근무
             items:
               - name: Teams의 교대 근무
