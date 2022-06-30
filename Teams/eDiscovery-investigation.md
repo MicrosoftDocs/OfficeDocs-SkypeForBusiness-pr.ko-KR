@@ -17,14 +17,14 @@ description: 법적 절차에 대한 모든 전자 저장 정보를 제출해야
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a89f2ac8fc94505ec0d97bb426bc8fc92901aa52
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 6f24c780944bfed6bb10fb8b1cd7634edc1ce850
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675310"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562427"
 ---
-# <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams 콘텐츠에 대한 eDiscovery 조사 수행
+# <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams에서 콘텐츠에 대한 eDiscovery 조사 수행
 
 대기업은 종종 모든 전자 저장 정보 (ESI)의 제출을 요구하는 높은 처벌 법적 절차에 노출됩니다. eDiscovery 조사 중에 Microsoft Teams 콘텐츠를 검색하고 사용할 수 있습니다.
 
@@ -34,7 +34,7 @@ ms.locfileid: "65675310"
 
 [개인 채널](private-channels.md)에서 메시지 및 파일의 eDiscovery는 표준 채널과 다르게 작동합니다. 자세한 내용은 [개인 채널의 eDiscovery를 참조하세요](#ediscovery-of-private-and-shared-channels).
 
-모든 Teams 콘텐츠가 eDiscover할 수 있는 것은 아닙니다. 다음 표에서는 Microsoft eDiscovery 도구를 사용하여 검색할 수 있는 콘텐츠 형식을 보여줍니다.
+모든 Teams 콘텐츠를 검색할 수 있는 것은 아닙니다. 다음 표에서는 Microsoft eDiscovery 도구를 사용하여 검색할 수 있는 콘텐츠 형식을 보여줍니다.
 
 |콘텐츠 형식|eDiscoverable|참고|
 |---|---|---|
@@ -47,13 +47,13 @@ ms.locfileid: "65675310"
 |이모지, GIF 및 스티커|예||
 |피드 알림|아니요||
 |인라인 이미지|예||
-|Loop 구성 요소|예|루프 구성 요소의 콘텐츠는 루프 구성 요소를 보내는 사용자의 비즈니스용 OneDrive 계정에 저장된 .fluid 파일에 저장됩니다. 즉, 루프 구성 요소에서 콘텐츠를 검색할 때 OneDrive 데이터 원본으로 포함해야 합니다.|
+|루프 구성 요소|예|루프 구성 요소의 콘텐츠는 루프 구성 요소를 보내는 사용자의 비즈니스용 OneDrive 계정에 저장된 .fluid 파일에 저장됩니다. 즉, 루프 구성 요소에서 콘텐츠를 검색할 때 OneDrive를 데이터 원본으로 포함해야 합니다.|
 |모임 메신저 대화|예||
 |모임 메타데이터<sup>1</sup>|예||
 |채널 이름|예||
 |비공개 및 공유 채널 채팅 메시지|예||
 |따옴표|예|따옴표 붙은 콘텐츠는 검색할 수 있습니다. 그러나 검색 결과는 콘텐츠가 인용되었음을 나타내지 않습니다.|
-|반응(예: 좋아요, 하트 및 기타 반응)|아니요||
+|반응(예: 좋아요, 하트 및 기타 반응)|예||
 |제목|예||
 |테이블|예||
 
@@ -68,7 +68,7 @@ ms.locfileid: "65675310"
 
 다음은 모임 중에 참가자 간의 채팅 대화의 예입니다.
 
-![Teams 참가자 간의 대화입니다.](media/MeetingIMConversations.png)
+![Teams 참가자 간 대화](media/MeetingIMConversations.png)
 
 [!div class="mx-imgBorder"]
 
@@ -81,13 +81,13 @@ ms.locfileid: "65675310"
   > [!div class="mx-imgBorder"]
   > ![규정 준수 복사본의 모임 메타데이터입니다.](media/conversationOption3.png)
 
-eDiscovery 조사를 수행하는 방법에 대한 자세한 내용은 [eDiscovery(표준)를 사용한 시작](/microsoft-365/compliance/get-started-core-ediscovery) 참조하세요.
+eDiscovery 조사를 수행하는 방법에 대한 자세한 내용은 [eDiscovery 시작(표준)](/microsoft-365/compliance/get-started-core-ediscovery)을 참조하세요.
 
-Microsoft Teams 데이터는 Excel eDiscovery 내보내기 출력에 메신저 대화 또는 대화로 표시됩니다. Outlook 파일을 열어 `.pst` 내보낸 후 해당 메시지를 볼 수 있습니다.
+Microsoft Teams 데이터는 Excel eDiscovery 내보내기 출력에서 메신저 대화 또는 대화로 표시됩니다. Outlook에서 파일을 열어 `.pst` 내보낸 후 해당 메시지를 볼 수 있습니다.
 
 팀의 .pst 파일을 볼 때 모든 대화는 대화 기록 아래의 팀 채팅 폴더에 있습니다. 메시지 제목에는 팀 이름과 채널 이름이 포함됩니다. 예를 들어 아래 이미지는 제조 사양 팀의 Project 7 표준 채널에 메시지를 보낸 Bob의 메시지를 보여 줍니다.
 
-![Outlook 사용자의 사서함에 있는 팀 채팅 폴더의 스크린샷](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
+![Outlook의 사용자 사서함에 있는 팀 채팅 폴더의 스크린샷.](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
 사용자의 사서함에 있는 개인 채팅은 대화 기록 아래의 팀 채팅 폴더에 저장됩니다.
 
@@ -97,9 +97,9 @@ Microsoft Teams 데이터는 Excel eDiscovery 내보내기 출력에 메신저 �
 
 - **비공개 채널.** 준수 복사본은 개인 채널 멤버의 모든 구성원의 사서함으로 전송됩니다. 즉, 개인 채널 메시지에서 콘텐츠를 검색할 때 사용자 사서함을 검색해야 합니다.
 
-- **공유 채널.** 준수 복사본은 부모 팀과 연결된 시스템 사서함으로 전송됩니다. Teams 공유 채널에 대한 단일 시스템 사서함의 eDiscovery 검색을 지원하지 않으므로 공유 채널에서 메시지 콘텐츠를 검색할 때 팀 사서함의 이름을 선택하여 부모 팀의 사서함을 검색해야 합니다.
+- **공유 채널.** 준수 복사본은 부모 팀과 연결된 시스템 사서함으로 전송됩니다. Teams는 공유 채널에 대한 단일 시스템 사서함의 eDiscovery 검색을 지원하지 않으므로 공유 채널에서 메시지 콘텐츠를 검색할 때 부모 팀의 사서함을 검색해야 합니다(팀 사서함의 이름을 선택하여).
 
-각 비공개 및 공유 채널에는 부모 팀 사이트와 별개의 고유한 SharePoint 사이트가 있습니다. 즉, 비공개 및 공유 채널의 파일은 자체 사이트에 저장되고 부모 팀과 독립적으로 관리됩니다. 즉, 파일 및 채널 메시지 첨부 파일에서 콘텐츠를 검색할 때 채널과 연결된 특정 사이트를 식별하고 검색해야 합니다.
+각 비공개 및 공유 채널에는 부모 팀 사이트와 별개의 자체 SharePoint 사이트가 있습니다. 즉, 비공개 및 공유 채널의 파일은 자체 사이트에 저장되고 부모 팀과 독립적으로 관리됩니다. 즉, 파일 및 채널 메시지 첨부 파일에서 콘텐츠를 검색할 때 채널과 연결된 특정 사이트를 식별하고 검색해야 합니다.
 
 다음 섹션을 사용하여 eDiscovery 검색에 포함할 프라이빗 또는 공유 채널을 식별할 수 있습니다.
 
@@ -107,7 +107,7 @@ Microsoft Teams 데이터는 Excel eDiscovery 내보내기 출력에 메신저 �
 
 eDiscovery 도구를 사용하여 개인 채널 메시지의 콘텐츠에 대한 구성원의 사서함을 검색할 수 있도록 이 섹션의 절차를 사용하여 개인 채널의 구성원을 식별합니다.
 
-이러한 단계를 수행하기 전에 [최신 버전의 Teams PowerShell 모듈](teams-powershell-overview.md)이 설치되어 있는지 확인합니다.
+이러한 단계를 수행하기 전에 [최신 버전의 Teams PowerShell 모듈이](teams-powershell-overview.md) 설치되어 있는지 확인합니다.
 
 1. 다음 명령을 실행하여 검색할 공유 채널이 포함된 팀의 그룹 ID를 가져옵니다.
 
@@ -130,13 +130,13 @@ eDiscovery 도구를 사용하여 개인 채널 메시지의 콘텐츠에 대한
     Get-TeamChannelUser -GroupId <parent team GroupId> -DisplayName "Partner Shared Channel"
    ```
 
-4. [eDiscovery(표준)에서 또는 eDiscovery(Premium)에서](/microsoft-365/compliance/search-for-content-in-core-ediscovery) [보유자 콘텐츠를 식별하고 수집하는](/microsoft-365/compliance/add-custodians-to-case) 경우 eDiscovery 검색 쿼리의 일부로 개인 채널의 소유자 및 구성원 사서함을 포함합니다.
+4. [eDiscovery(표준)에서 또는 eDiscovery(](/microsoft-365/compliance/search-for-content-in-core-ediscovery)[프리미엄)에서 보유자 콘텐츠를 식별하고 수집하는](/microsoft-365/compliance/add-custodians-to-case) 경우 eDiscovery 검색 쿼리의 일부로 개인 채널의 소유자 및 구성원 사서함을 포함합니다.
 
 ### <a name="identifying-the-sharepoint-site-for-private-and-shared-channels"></a>비공개 및 공유 채널에 대한 SharePoint 사이트 식별
 
 앞서 설명한 대로 비공개 및 공유 채널에서 공유된 파일(및 채널 메시지에 첨부된 파일)은 채널과 연결된 사이트 모음에 저장됩니다. 이 섹션의 절차를 사용하여 특정 개인 또는 공유 채널과 연결된 사이트의 URL을 식별합니다. 그런 다음 eDiscovery 도구를 사용하여 사이트에서 콘텐츠를 검색할 수 있습니다.
 
-이러한 단계를 수행하기 전에 [SharePoint Online 관리 셸을 설치하고 SharePoint Online에 연결합니다](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+이러한 단계를 수행하기 전에 [SharePoint Online 관리 셸을 설치하고 SharePoint Online에 연결](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)합니다.
 
 1. 필요에 따라 다음을 실행하여 부모 팀의 공유 채널과 연결된 모든 SharePoint 사이트 모음 목록을 가져옵니다.
 
@@ -147,7 +147,7 @@ eDiscovery 도구를 사용하여 개인 채널 메시지의 콘텐츠에 대한
    > [!TIP]
    > 비공개 및 공유 채널과 연결된 사이트에 대한 URL의 명명 규칙은 다음과 같습니다 `[SharePoint domain]/sites/[Name of parent team]-[Name of private or shared channel]`. 예를 들어 Contoso 조직의 "엔지니어 팀" 부모 팀에 있는 "파트너 협업"이라는 공유 채널의 URL은 다음과 같습니다 `https://contoso.sharepoint.com/sites/EngineeringTeam-PartnerCollaboration`.
 
-2. 다음 PowerShell 명령을 실행하여 조직의 개인 및 공유 채널과 연결된 모든 SharePoint 사이트의 URL을 표시합니다. 스크립트의 출력에는 3단계에서 명령을 실행해야 하는 부모 팀의 그룹 ID도 포함됩니다.
+2. 다음 PowerShell 명령을 실행하여 조직의 비공개 및 공유 채널과 연결된 모든 SharePoint 사이트의 URL을 표시합니다. 스크립트의 출력에는 3단계에서 명령을 실행해야 하는 부모 팀의 그룹 ID도 포함됩니다.
 
     ```PowerShell
     $sites = Get-SPOSite -Template "TEAMCHANNEL#1"
@@ -155,7 +155,7 @@ eDiscovery 도구를 사용하여 개인 채널 메시지의 콘텐츠에 대한
     ```
 
    > [!NOTE]
-   > 2021년 6월 28일 이전에 만든 개인 채널에 대한 SharePoint 사이트는 사용자 지정 템플릿 ID의 값을 `"TEAMCHANNEL#0"` 사용합니다. 이 날짜 이후에 만든 비공개 채널을 표시하려면 이전 두 스크립트를 실행할 때 값을 `"TEAMCHANNEL#1"` 사용합니다. 공유 채널은 .의 `"TEAMCHANNEL#1"`값만 사용합니다.
+   > 2021년 6월 28일 이전에 만든 개인 채널용 SharePoint 사이트는 사용자 지정 템플릿 ID의 값을 `"TEAMCHANNEL#0"` 사용합니다. 이 날짜 이후에 만든 비공개 채널을 표시하려면 이전 두 스크립트를 실행할 때 값을 `"TEAMCHANNEL#1"` 사용합니다. 공유 채널은 .의 `"TEAMCHANNEL#1"`값만 사용합니다.
 
 3. 각 부모 팀에 대해 다음 PowerShell 명령을 실행하여 비공개 및 공유 채널 사이트를 식별합니다. 여기서 부모 팀의 그룹 ID는 다음과 `$groupID` 같습니다.
 
@@ -165,15 +165,15 @@ eDiscovery 도구를 사용하여 개인 채널 메시지의 콘텐츠에 대한
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 
-4. [eDiscovery(표준)에서 또는 eDiscovery(Premium)에서](/microsoft-365/compliance/search-for-content-in-core-ediscovery) [보유자 콘텐츠를 식별하고 수집하는](/microsoft-365/compliance/add-custodians-to-case) 경우 eDiscovery 검색 쿼리의 일부로 개인 또는 공유 채널과 연결된 사이트를 포함합니다.
+4. [eDiscovery(표준)에서 또는 eDiscovery(프리미엄)에서](/microsoft-365/compliance/search-for-content-in-core-ediscovery) [보유자 콘텐츠를 식별하고 수집하는](/microsoft-365/compliance/add-custodians-to-case) 경우 eDiscovery 검색 쿼리의 일부로 개인 또는 공유 채널과 연결된 사이트를 포함합니다.
 
 ## <a name="search-for-content-for-guest-users"></a>게스트 사용자에 대한 콘텐츠 검색
 
-eDiscovery 도구를 사용하여 조직의 게스트 사용자와 관련된 Teams 콘텐츠를 검색할 수 있습니다. 게스트 사용자와 연결된 Teams 채팅 콘텐츠는 클라우드 기반 스토리지 위치에 유지되며 eDiscovery 사용을 검색할 수 있습니다. 여기에는 게스트 사용자가 조직의 다른 사용자와 함께 참여하는 1:1 및 1:N 채팅 대화의 콘텐츠 검색이 포함됩니다. 게스트 사용자가 참가자인 비공개 채널 메시지를 검색하고 게스트 *:게스트* 채팅 대화에서 유일한 참가자가 게스트 사용자인 콘텐츠를 검색할 수도 있습니다.
+eDiscovery 도구를 사용하여 조직의 게스트 사용자와 관련된 Teams 콘텐츠를 검색할 수 있습니다. 게스트 사용자와 연결된 Teams 채팅 콘텐츠는 클라우드 기반 스토리지 위치에 유지되며 eDiscovery를 사용하여 검색할 수 있습니다. 여기에는 게스트 사용자가 조직의 다른 사용자와 함께 참여하는 1:1 및 1:N 채팅 대화의 콘텐츠 검색이 포함됩니다. 게스트 사용자가 참가자인 비공개 채널 메시지를 검색하고 게스트 *:게스트* 채팅 대화에서 유일한 참가자가 게스트 사용자인 콘텐츠를 검색할 수도 있습니다.
 
 게스트 사용자에 대한 콘텐츠를 검색하려면 다음을 수행합니다.
 
-1. PowerShell을 Azure AD 커넥트. 자세한 내용은 [PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)을 사용하여 Microsoft 365 커넥트 "Azure Active Directory PowerShell을 사용한 커넥트" 섹션을 참조하세요. 이전 문서의 1단계 및 2단계를 완료해야 합니다.
+1. Azure AD PowerShell에 연결합니다. 자세한 내용은 [PowerShell을 사용하여 Microsoft 365에 연결](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)의 "Azure Active Directory PowerShell로 연결" 섹션을 참조하세요. 이전 문서의 1단계 및 2단계를 완료해야 합니다.
 
 2. Azure AD PowerShell에 성공적으로 연결한 후 다음 명령을 실행하여 조직의 모든 게스트 사용자에 대한 UPN(사용자 계정 이름)을 표시합니다. 4단계에서 검색을 만들 때 게스트 사용자의 UPN을 사용해야 합니다.
 
@@ -184,7 +184,7 @@ eDiscovery 도구를 사용하여 조직의 게스트 사용자와 관련된 Tea
    > [!TIP]
    > 컴퓨터 화면에 사용자 계정 이름 목록을 표시하는 대신 명령의 출력을 텍스트 파일로 리디렉션할 수 있습니다. 이전 명령에 추가하여 `> filename.txt` 이 작업을 수행할 수 있습니다. 사용자 계정 이름이 있는 텍스트 파일은 현재 폴더에 저장됩니다.
 
-3. 다른 Windows PowerShell 창에서 Security & Compliance Center PowerShell에 연결합니다. 자세한 내용은 [Security & Compliance Center PowerShell에 대한 커넥트 참조하세요](/powershell/exchange/connect-to-scc-powershell). 다단계 인증을 사용하거나 사용하지 않고 연결할 수 있습니다.
+3. 다른 Windows PowerShell 창에서 Security & Compliance Center PowerShell에 연결합니다. 자세한 내용은 [보안 & 준수 센터 PowerShell에 연결을 참조하세요](/powershell/exchange/connect-to-scc-powershell). 다단계 인증을 사용하거나 사용하지 않고 연결할 수 있습니다.
 
 4. 다음 명령을 실행하여 지정된 게스트 사용자가 참가자인 모든 콘텐츠(예: 채팅 메시지 및 전자 메일 메시지)를 검색하는 콘텐츠 검색을 만듭니다.
 
@@ -226,9 +226,9 @@ Teams 채널, 1:1 채팅 및 1xN 채팅의 앱에서 생성된 카드 콘텐츠�
 
 카드 콘텐츠를 검색하려면 조건을 사용 `kind:microsoftteams` 하거나 `itemclass:IPM.SkypeTeams.Message` 검색할 수 있습니다. 검색 결과를 검토할 때 Teams 채널의 봇에서 생성된 카드 콘텐츠에는 **보낸 사람/작성자** 전자 메일 속성이 있습니다. 여기서 카드 콘텐츠를 생성한 앱의 이름은 다음과 `appname` 같습니다`<appname>@teams.microsoft.com`. 사용자가 카드 콘텐츠를 생성한 경우 **보낸 사람/작성자의** 값이 사용자를 식별합니다.
 
-콘텐츠 검색 결과에서 카드 콘텐츠를 볼 때 콘텐츠는 메시지에 대한 첨부 파일로 표시됩니다. 첨부 파일의 이름은 `appname.html``appname` 카드 콘텐츠를 생성한 앱의 이름입니다. 다음 스크린샷은 Teams 검색 결과에 카드 콘텐츠(Asana라는 앱의 경우)가 표시되는 방식을 보여 줍니다.
+콘텐츠 검색 결과에서 카드 콘텐츠를 볼 때 콘텐츠는 메시지에 대한 첨부 파일로 표시됩니다. 첨부 파일의 이름은 `appname.html``appname` 카드 콘텐츠를 생성한 앱의 이름입니다. 다음 스크린샷은 Teams 및 검색 결과에 카드 콘텐츠(Asana라는 앱의 경우)가 표시되는 방식을 보여 줍니다.
 
-### <a name="card-content-in-teams"></a>Teams 카드 콘텐츠
+### <a name="card-content-in-teams"></a>Teams의 카드 콘텐츠
 
 ![Teams 채널 메시지의 카드 콘텐츠입니다.](media/CardContentTeams.png)
 
@@ -237,11 +237,11 @@ Teams 채널, 1:1 채팅 및 1xN 채팅의 앱에서 생성된 카드 콘텐츠�
 ![콘텐츠 검색 결과에서 동일한 카드 콘텐츠입니다.](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
-> 현재 검색 결과에 카드 콘텐츠의 이미지를 표시하려면(예: 이전 스크린샷의 확인 표시) 검색 결과를 보는 데 사용하는 것과 동일한 브라우저 세션의 다른 탭에서 <https://teams.microsoft.com>Teams 로그인해야 합니다. 그렇지 않으면 이미지 자리 표시자가 표시됩니다.
+> 현재 검색 결과에 카드 콘텐츠의 이미지를 표시하려면(예: 이전 스크린샷의 확인 표시) 검색 결과를 보는 데 사용하는 동일한 브라우저 세션의 다른 탭에서 <https://teams.microsoft.com>Teams에 로그인해야 합니다. 그렇지 않으면 이미지 자리 표시자가 표시됩니다.
 
 ## <a name="ediscovery-in-federated-and-non-federated-environments"></a>페더레이션된 환경과 페더레이션되지 않은 환경의 eDiscovery
 
-관리자는 eDiscovery를 사용하여 페더레이션된(*외부 액세스* 라고 함) 및 페더레이션되지 않은(*게스트 액세스* 라고 함) 환경의 Teams 모임에서 채팅 메시지의 콘텐츠를 검색할 수 있습니다.
+관리자는 eDiscovery를 사용하여 다음 제한 사항에 따라 페더레이션( *외부 액세스* 라고 함) 및 페더레이션되지 않은( *게스트 액세스* 라고 함) 환경에서 Teams 모임의 채팅 메시지에서 콘텐츠를 검색할 수 있습니다.
 
 - **페더레이션됨**: 조직의 사용자 및 외부 조직의 사용자(조직에 외부 액세스 권한이 있는 사용자)와의 Teams 모임에서 두 조직의 관리자는 모임의 채팅 메시지에서 콘텐츠를 검색할 수 있습니다.
 
@@ -249,7 +249,7 @@ Teams 채널, 1:1 채팅 및 1xN 채팅의 앱에서 생성된 카드 콘텐츠�
 
 ## <a name="related-topics"></a>관련 항목
 
-- [eDiscovery 솔루션 Microsoft 365](/microsoft-365/compliance/ediscovery)
-- [eDiscovery를 사용하여 시작(표준)](/microsoft-365/compliance/get-started-core-ediscovery)
-- [eDiscovery의 워크플로 Teams(Premium)](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
+- [Microsoft 365 eDiscovery 솔루션](/microsoft-365/compliance/ediscovery)
+- [eDiscovery 시작(표준)](/microsoft-365/compliance/get-started-core-ediscovery)
+- [eDiscovery의 Teams 워크플로(프리미엄)](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
 - [Teams PowerShell 개요](teams-powershell-overview.md)

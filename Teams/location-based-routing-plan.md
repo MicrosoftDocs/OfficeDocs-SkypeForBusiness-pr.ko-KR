@@ -1,14 +1,14 @@
 ---
 title: 직접 라우팅으로 전달되는 위치 기반 라우팅 계획
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: roykuntz
 search.appverid: MET150
-description: Teams 전화 직접 라우팅에 대한 Location-Based 라우팅을 계획하는 방법을 알아봅니다.
+description: Teams 휴대폰 직접 라우팅에 대한 Location-Based 라우팅을 계획하는 방법을 알아봅니다.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,18 +16,18 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f156b287969303edbf195c0054b3bb1eb631db2
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: d282a2cd9588c2e7104b3093d03da082e9cf388b
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65304006"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562627"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>직접 라우팅으로 전달되는 위치 기반 라우팅 계획
 
 일부 국가 및 지역에서는 장거리 통화 비용을 줄이기 위해 PSTN(공중 전화망) 공급자를 우회하는 것은 불법입니다. 
 
-이 문서에서는 지리적 위치에 따라 Microsoft Teams 사용자의 통행료 우회를 제한하기 위해 Location-Based 라우팅을 사용하는 데 알아야 할 사항을 설명합니다. 이 문서는 직접 라우팅에만 적용됩니다. Location-Based 라우팅은 통화 플랜 또는 운영자 연결 적용되지 않습니다.
+이 문서에서는 지리적 위치에 따라 Microsoft Teams 사용자의 통행료 우회를 제한하기 위해 Location-Based 라우팅을 사용하는 데 알아야 할 사항을 설명합니다. 이 문서는 직접 라우팅에만 적용됩니다. Location-Based 라우팅은 통화 플랜 또는 운영자 연결에 적용되지 않습니다.
 
 Location-Based 라우팅을 사용하도록 설정할 준비가 되면 다음을 참조하세요.
 
@@ -44,9 +44,9 @@ Location-Based 라우팅을 사용하면 인바운드 또는 아웃바운드 PST
 
 Location-Based 라우팅은 네트워크 지역, 사이트 및 서브넷에 대해 정의하는 네트워크 토폴로지를 사용합니다. 한 위치에 대해 통행료 우회가 제한되면 해당 위치에 대한 각 IP 서브넷과 각 PSTN 게이트웨이를 네트워크 사이트에 연결합니다. 
 
-PSTN 호출 시 사용자의 위치는 사용자의 Teams 엔드포인트가 연결된 IP 서브넷에 의해 결정됩니다. 사용자에게 여러 Teams 클라이언트가 서로 다른 사이트에 있는 경우 Location-Based 라우팅은 Teams 엔드포인트의 위치에 따라 각 클라이언트의 라우팅을 별도로 적용합니다.
+PSTN 호출 시 사용자의 위치는 사용자의 Teams 엔드포인트가 연결된 IP 서브넷에 의해 결정됩니다. 사용자가 여러 사이트에 여러 Teams 클라이언트가 있는 경우 Location-Based 라우팅은 Teams 엔드포인트의 위치에 따라 각 클라이언트의 라우팅을 별도로 적용합니다.
 
-네트워크 설정에 대한 자세한 내용은 [Teams 클라우드 음성 기능에 대한 네트워크 설정을](cloud-voice-network-settings.md) 참조하세요.
+네트워크 설정에 대한 자세한 내용은 [Teams의 클라우드 음성 기능에 대한 네트워크 설정을 참조하세요](cloud-voice-network-settings.md).
 
 이 문서에서는 네트워크 사이트가 다음 상태 중 하나에 있을 수 있다고 가정합니다.
 
@@ -60,7 +60,7 @@ PSTN 호출 시 사용자의 위치는 사용자의 Teams 엔드포인트가 연
 
 Location-Based 라우팅을 사용하는 경우 Teams 사용자와 PSTN 간의 호출이 평가되어 통행료 우회가 제한되는지 확인합니다. 결과에 따라 호출이 완료되거나 완료되지 않습니다. 
 
-사용자가 Location-Based 라우팅을 사용하도록 설정되어 있고 사용자가 Location-Based 라우팅 제한이 적용되는 사이트에 있는 경우 해당 사용자에 대해 통행료 우회가 제한됩니다. Teams 다음 정보를 사용하여 통행료 우회가 제한되는지 여부를 확인합니다. 
+사용자가 Location-Based 라우팅을 사용하도록 설정되어 있고 사용자가 Location-Based 라우팅 제한이 적용되는 사이트에 있는 경우 해당 사용자에 대해 통행료 우회가 제한됩니다. Teams는 다음 정보를 사용하여 통행료 우회가 제한되는지 여부를 확인합니다. 
 
 - Teams 사용자가 사용자의 Teams 통화 정책에 정의된 대로 Location-Based 라우팅을 사용할 수 있는지 여부입니다.
 
@@ -70,15 +70,15 @@ Location-Based 라우팅을 사용하는 경우 Teams 사용자와 PSTN 간의 �
 
 - 호출에서 사용되는 PSTN 게이트웨이가 Location-Based 라우팅에 사용하도록 설정되었는지 여부입니다.
 
-- 전송 시나리오의 경우 PSTN 호출 경로는 통화를 전송하는 사용자의 라우팅 설정과 통화가 전송되는 Teams 사용자의 Location-Based 라우팅 설정을 기반으로 합니다.  
+- 전송 시나리오의 경우 PSTN 통화 경로는 통화를 전송하는 사용자의 라우팅 설정과 통화가 전송되는 Teams 사용자의 Location-Based 라우팅 설정을 기반으로 합니다.  
 
-- 회의 및 그룹 호출 시나리오의 경우 통행료 우회가 제한된 Teams 사용자가 통화의 일부인지 여부입니다.
+- 회의 및 그룹 통화 시나리오의 경우 통행료 우회가 제한된 Teams 사용자가 통화의 일부인지 여부입니다.
 
-호출을 완료할 수 없는 경우 Teams 사용자에게 다음과 같은 알림이 표시됩니다.
+통화를 완료할 수 없는 경우 Teams 사용자에게 다음과 같은 알림이 표시됩니다.
 
 - 아웃바운드 PSTN 호출의 경우 통화 창에 다음과 같은 메시지가 표시됩니다. 조직의 설정으로 인해 통화가 허용되지 않습니다.
 
-- 인바운드 PSTN 호출의 경우 호출된 Teams 사용자의 응답되지 않은 착신 전환 설정(일반적으로 음성 메일)에 따라 통화가 라우팅됩니다. Teams 사용자에게 응답되지 않은 통화 설정이 구성되어 있지 않으면 통화 연결이 끊어집니다.
+- 인바운드 PSTN 통화의 경우 호출은 일반적으로 음성 메일에 대한 Teams 사용자의 응답되지 않은 착신 전환 설정에 따라 라우팅됩니다. Teams 사용자에게 응답되지 않은 통화 설정이 구성되어 있지 않으면 통화 연결이 끊어집니다.
 
 ## <a name="apply-location-based-routing"></a>Location-Based 라우팅 적용
 
@@ -163,7 +163,7 @@ PSTN 게이트웨이에서 Location-Based 라우팅을 적용하려면 다음을
 
    - 사용자가 로밍하는 경우와 같은 다른 시나리오에서는 통화가 허용되지 않으며 사용자의 응답되지 않은 착신 전환 설정(일반적으로 음성 메일)으로 라우팅됩니다.  
    
-- **1:1 Teams VoIP 호출 및 PSTN으로 전송하려면** 다음 사항에 유의하세요.
+- **1:1 Teams VoIP 통화 및 PSTN으로 전송하려면** 다음 사항에 유의하세요.
 
   - 호출을 송신하는 PSTN 게이트웨이인 호출의 라우팅은 호출을 전송하는 사용자의 라우팅 설정을 기반으로 합니다.
 
@@ -175,7 +175,7 @@ PSTN 게이트웨이에서 Location-Based 라우팅을 적용하려면 다음을
 
     전송 중인 사용자가 동일한 PSTN 게이트웨이를 사용하여 현재 위치에서 해당 PSTN을 호출할 수 있는 경우 전송이 허용됩니다.
 
-- **수신 또는 나가는 PSTN 호출 및 다른 Teams 사용자에게 전송의 경우** 전송이 허용되는지 여부는 다음 사항에 따라 달라집니다.
+- **들어오거나 나가는 PSTN 통화 및 다른 Teams 사용자에게 전송의 경우** 전송이 허용되는지 여부는 다음 사항에 따라 달라집니다.
 
    - 전송된 전화를 받는 사용자의 라우팅 설정입니다. 
    - 엔드포인트 네트워크 사이트 위치입니다.
@@ -186,7 +186,7 @@ PSTN 게이트웨이에서 Location-Based 라우팅을 적용하려면 다음을
 
 ### <a name="user-is-not-enabled-for-location-based-routing"></a>사용자가 Location-Based 라우팅에 사용할 수 없습니다.
 
-Teams 사용자가 Location-Based 라우팅에 대해 사용하도록 설정되지 않은 경우 해당 사용자와 주고받은 모든 호출은 Location-Based 라우팅에 대해 사용하도록 설정되지 않은 PSTN 게이트웨이를 통해 라우팅되어야 합니다. Location-Based 라우팅에 사용하도록 설정된 PSTN 게이트웨이를 통해 라우팅된 이러한 사용자에 대한 인바운드 호출은 사용자의 응답되지 않은 착신 전환 설정(일반적으로 음성 메일)으로 라우팅됩니다.
+Teams 사용자가 Location-Based 라우팅을 사용하도록 설정되지 않은 경우 해당 사용자와 주고받은 모든 호출은 Location-Based 라우팅에 대해 사용하도록 설정되지 않은 PSTN 게이트웨이를 통해 라우팅되어야 합니다. Location-Based 라우팅에 사용하도록 설정된 PSTN 게이트웨이를 통해 라우팅된 이러한 사용자에 대한 인바운드 호출은 사용자의 응답되지 않은 착신 전환 설정(일반적으로 음성 메일)으로 라우팅됩니다.
 
 ### <a name="decision-flows-for-inbound-and-outbound-calls"></a>인바운드 및 아웃바운드 호출에 대한 의사 결정 흐름
 
@@ -206,9 +206,9 @@ Teams 사용자가 Location-Based 라우팅에 대해 사용하도록 설정되�
 이 섹션에서는 Location-Based 라우팅을 사용하여 통행료 우회를 제한하는 다양한 시나리오에 대해 설명합니다. 이 시나리오에서는 Location-Based 라우팅에 대해 사용하도록 설정되지 않은 사용자와 Location-Based 라우팅을 사용하도록 설정된 사용자에 대해 호출을 라우팅하는 방법을 비교합니다.
 
 - [Teams 사용자가 PSTN에 아웃바운드 호출을 수행합니다.](#teams-user-places-an-outbound-call-to-the-pstn)
-- [Teams 사용자가 PSTN에서 인바운드 호출을 받습니다.](#teams-user-receives-an-inbound-call-from-the-pstn)
-- [다른 Teams 사용자에게 통화를 전송하거나 전달하는 Teams](#teams-user-transfers-or-forwards-call-to-another-teams-user)
-- [PSTN 엔드포인트에 대한 사용자 전송 또는 전달 호출 Teams](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)
+- [Teams 사용자가 PSTN에서 인바운드 전화를 받습니다.](#teams-user-receives-an-inbound-call-from-the-pstn)
+- [Teams 사용자가 다른 Teams 사용자에게 통화를 전송하거나 전달합니다.](#teams-user-transfers-or-forwards-call-to-another-teams-user)
+- [Teams 사용자가 PSTN 엔드포인트에 대한 호출을 전송하거나 전달합니다.](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)
 - [동시 연결](#simultaneous-ringing)
 - [위임](#delegation)
 
@@ -234,7 +234,7 @@ Location-Based 라우팅을 사용하도록 설정되지 않은 사용자는 할
 |알 수 없는 내부 네트워크(Location4)    |  게이트웨이에 GatewayLbrEnabledUserOverride가 True로 설정되어 있지 않으면 PSTN 호출이 허용되지 않습니다.       |
 |알 수 없는 외부 네트워크(Location5)    | 게이트웨이에 GatewayLbrEnabledUserOverride가 True로 설정되어 있지 않으면 PSTN 호출이 허용되지 않습니다.       |
 
-### <a name="teams-user-receives-an-inbound-call-from-the-pstn"></a>Teams 사용자가 PSTN에서 인바운드 호출을 받습니다.
+### <a name="teams-user-receives-an-inbound-call-from-the-pstn"></a>Teams 사용자가 PSTN에서 인바운드 전화를 받습니다.
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>사용자가 Location-Based 라우팅에 대해 사용하도록 설정되지 않음
 
@@ -252,11 +252,11 @@ Location-Based 라우팅에 대해 사용하도록 설정되지 않은 사용자
 |알 수 없는 내부 네트워크(Location4)   | Location4에서 엔드포인트로 라우팅되지 않은 호출        |
 |알 수 없는 외부 네트워크(Location5)     | Location5에서 엔드포인트로 라우팅되지 않은 호출        |
 
-### <a name="teams-user-transfers-or-forwards-call-to-another-teams-user"></a>다른 Teams 사용자에게 통화를 전송하거나 전달하는 Teams
+### <a name="teams-user-transfers-or-forwards-call-to-another-teams-user"></a>Teams 사용자가 다른 Teams 사용자에게 통화를 전송하거나 전달합니다.
 
 PSTN 엔드포인트가 관련되면 Location-Based 라우팅은 Location-Based 라우팅에 대해 사용자 중 하나 또는 둘 다 사용할 수 있는지 여부를 분석하고 두 엔드포인트의 위치에 따라 호출을 전송할지 또는 전달해야 하는지를 결정합니다. 
  
-통화 전송을 위해서는 통화 전달을 시작할 때 초기 호출에 응답할 필요가 없는 동안 시작 사용자가 통화를 선택해야 합니다. User1이 인바운드 호출을 받을 위치에 있지 않은 경우에도 호출을 전달할 수 있으며([사용자가 PSTN 섹션에서 인바운드 호출을 수신하는 Teams](#teams-user-receives-an-inbound-call-from-the-pstn) 테이블 참조) User1이 인바운드 호출을 받을 수 없는 경우 호출을 전송할 수 없습니다. 
+통화 전송을 위해서는 통화 전달을 시작할 때 초기 호출에 응답할 필요가 없는 동안 시작 사용자가 통화를 선택해야 합니다. User1이 인바운드 호출을 받을 수 있는 위치에 있지 않은 경우( [Teams 사용자가 PSTN 섹션에서 인바운드 통화를 수신하는 테이블](#teams-user-receives-an-inbound-call-from-the-pstn) 참조) User1이 인바운드 전화를 받을 수 없는 경우 통화를 전송할 수 없는 경우에도 통화를 전달할 수 있습니다. 
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>사용자가 Location-Based 라우팅에 대해 사용하도록 설정되지 않음
 
@@ -268,7 +268,7 @@ Location-Based 라우팅을 사용하도록 설정되지 않은 사용자는 Loc
 
 Location-Based 라우팅에 사용할 수 있는 게이트웨이에서 인바운드 PSTN 호출을 전송하고 전달하는 것은 대상 사용자가 Location-Based 라우팅에 대해 사용하도록 설정되어 있고 동일한 사이트에 있는 경우에만 허용됩니다. 그렇지 않으면 호출 전송 및 전달이 허용되지 않습니다. 
 
-다음 표에서는 대상 사용자의 위치에 따라 착신 전환 및 통화 전송이 허용되는지 여부를 보여 줍니다. 이 표에서 Site1에 있는 User1은 Location-Based 라우팅을 사용하도록 설정되고 다른 위치에 있는 다른 Teams 사용자에게 전송 또는 전달을 시작합니다.  
+다음 표에서는 대상 사용자의 위치에 따라 착신 전환 및 통화 전송이 허용되는지 여부를 보여 줍니다. 이 표에서 Site1에 있는 User1은 Location-Based 라우팅에 사용할 수 있고 다른 위치에 있는 다른 Teams 사용자에게 전송 또는 전달을 시작합니다.  
 
 |대상 사용자 엔드포인트 위치|User1이 호출 전송을 시작합니다. |User1이 착신 전환 시작|
 |---------|---------|---------|
@@ -278,7 +278,7 @@ Location-Based 라우팅에 사용할 수 있는 게이트웨이에서 인바운
 |알 수 없는 내부 네트워크(User5)| 허용되지 않음|허용되지 않음|
 |알 수 없는 외부 네트워크(User6)| 허용되지 않음|허용되지 않음|
 
-### <a name="teams-user-transfers-or-forwards-call-to-pstn-endpoint"></a>PSTN 엔드포인트에 대한 사용자 전송 또는 전달 호출 Teams
+### <a name="teams-user-transfers-or-forwards-call-to-pstn-endpoint"></a>Teams 사용자가 PSTN 엔드포인트에 대한 호출을 전송하거나 전달합니다.
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>사용자가 Location-Based 라우팅에 대해 사용하도록 설정되지 않음
 
@@ -350,11 +350,11 @@ Location-Based 라우팅을 사용하도록 설정된 사용자는 인바운드 
 
 ### <a name="delegation"></a>위임
 
-Teams 사용자는 대신 전화를 걸고 받을 수 있는 대리인을 선택할 수 있습니다. Teams 위임 기능은 다음과 같이 Location-Based 라우팅의 영향을 받습니다. 
+Teams 사용자는 대신 전화를 걸고 받을 수 있는 대리인을 선택할 수 있습니다. Teams의 위임 기능은 다음과 같이 Location-Based 라우팅의 영향을 받습니다. 
 
-- 위임자를 대신하여 Location-Based 라우팅 사용 대리자의 아웃바운드 호출의 경우 동일한 규칙이 적용됩니다. 통화 라우팅은 대리자의 통화 권한 부여 정책, 음성 라우팅 정책 및 위치를 기반으로 합니다. 자세한 내용은 [사용자가 PSTN에 아웃바운드 호출을 배치하는 Teams](#teams-user-places-an-outbound-call-to-the-pstn) 참조하세요. 
+- 위임자를 대신하여 Location-Based 라우팅 사용 대리자의 아웃바운드 호출의 경우 동일한 규칙이 적용됩니다. 통화 라우팅은 대리자의 통화 권한 부여 정책, 음성 라우팅 정책 및 위치를 기반으로 합니다. 자세한 내용은 [Teams 사용자가 PSTN에 아웃바운드 호출을 하는 것을](#teams-user-places-an-outbound-call-to-the-pstn) 참조하세요. 
 
-- 위임자에 대한 인바운드 PSTN 호출의 경우 다른 사용자에게 착신 전환 또는 동시에 울리는 데 적용되는 동일한 Location-Based 라우팅 규칙도 대리자에 적용됩니다. 자세한 내용은 [다른 Teams 사용자에게 Teams 사용자 전송 또는 전달 호출](#teams-user-transfers-or-forwards-call-to-another-teams-user), [Teams 사용자 전송 또는 전달 호출을 PSTN 엔드포인트로 전달](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)하고 [동시 벨소리를 참조하세요](#simultaneous-ringing). 대리자가 PSTN 엔드포인트를 동시 링 대상으로 설정하면 대리자의 음성 라우팅 정책이 호출을 PSTN으로 라우팅하는 데 사용됩니다. 
+- 위임자에 대한 인바운드 PSTN 호출의 경우 다른 사용자에게 착신 전환 또는 동시에 울리는 데 적용되는 동일한 Location-Based 라우팅 규칙도 대리자에 적용됩니다. 자세한 내용은 [Teams 사용자 전송 또는 전달 통화를 다른 Teams 사용자에게 전달](#teams-user-transfers-or-forwards-call-to-another-teams-user)하고, [Teams 사용자가 PSTN 엔드포인트로 통화를 전송하거나 전달](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)하고, [동시 울림을 참조하세요](#simultaneous-ringing). 대리자가 PSTN 엔드포인트를 동시 링 대상으로 설정하면 대리자의 음성 라우팅 정책이 호출을 PSTN으로 라우팅하는 데 사용됩니다. 
 
 - 위임의 경우 위임자 및 연결된 대리자를 동일한 네트워크 사이트에 배치하는 것이 좋습니다. 
 
@@ -373,13 +373,13 @@ IPv4 및 IPv6 서브넷이 지원되지만 IPv6은 일치 항목을 확인할 �
 지원되는 Teams 클라이언트는 다음과 같습니다.
 - Teams 데스크톱 클라이언트(Windows 및 Mac)
 - Teams 모바일 클라이언트(iOS 및 Android)
-- IP 휴대폰 Teams
+- Teams IP 휴대폰
 
 Teams 웹 클라이언트 및 비즈니스용 Skype 클라이언트는 지원되지 않습니다.
 
 ### <a name="capabilities-not-supported-by-location-based-routing"></a>위치 기반 라우팅에서 지원하지 않는 기능
 
-Location-Based 라우팅은 다음 유형의 상호 작용에 적용되지 않습니다. Teams 엔드포인트가 다음 시나리오에서 PSTN 엔드포인트와 상호 작용하는 경우 Location-Based 라우팅이 적용되지 않습니다. 
+Location-Based 라우팅은 다음 유형의 상호 작용에 적용되지 않습니다. Location-Based 라우팅은 Teams 엔드포인트가 다음 시나리오에서 PSTN 엔드포인트와 상호 작용할 때 적용되지 않습니다. 
 
 - 통화 대기 또는 통화 대기를 통한 PSTN 통화 검색 
 
@@ -395,7 +395,7 @@ PSTN 통화에서 Location-Based 라우팅이 설정된 사용자는 다른 사�
 
 Location-Based 라우팅을 사용하도록 설정된 사용자가 Location-Based 라우팅에 사용할 수 없는 내부 사이트에서 전화 회의에 참가하는 경우 위의 단락의 제한 사항이 적용되지 않습니다. 
 
-오디오 회의 대한 네트워크 회의는 인도의 전화 통신 장비와 함께 배포되어서는 안됩니다.
+오디오 회의를 위한 온-네트워크 회의는 인도의 전화 통신 장비와 함께 배포되어서는 안 됩니다.
 
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Location-Based 라우팅에 대한 미디어 바이패스 요구 사항
@@ -410,4 +410,4 @@ VoIP(Direct Voice over IP)는 인도의 전화 통신 장비와 함께 배포해
 ## <a name="related-articles"></a>관련 기사
 
 - [직접 라우팅에 위치 기반 라우팅 사용](location-based-routing-enable.md)
-- [Teams 클라우드 음성 기능에 대한 네트워크 설정](cloud-voice-network-settings.md)
+- [Teams의 클라우드 음성 기능에 대한 네트워크 설정](cloud-voice-network-settings.md)

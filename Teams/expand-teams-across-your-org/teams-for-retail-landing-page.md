@@ -22,12 +22,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03b68923ae47324525f192949d442e94e36685c2
-ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
+ms.openlocfilehash: f965e69e3dda921cf5fdf348a728db403fc26a84
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65753051"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494735"
 ---
 # <a name="get-started-with-teams-for-retail"></a>소매용 Teams 시작
 
@@ -127,7 +127,7 @@ Teams 앱, Power Apps 및 Power BI를 사용하여 비즈니스 프로세스를 
 
 회전율이 높기 때문에 빠르게 계정을 추가 및 제거하고, 올바른 정책을 할당하는 능력이 중요합니다. Microsoft 365 관리 센터의 최전방 인력 온보딩 마법사로 시작해 보세요. 마법사는 최전방 인력 팀을 설정하고 각 구성원에게 라이선스와 정책 패키지를 할당합니다. 자세한 내용은 [최전방 인력 온보딩 마법사를 사용해 최전방 인력 활용 준비](../flw-onboarding-wizard.md)를 확인하세요.
 
-추가할 사용자가 100명 이상인 경우 [최전방 인력용으로 스크립팅된 배포](../flw-scripted-deployment.md)를 사용해 사용자와 팀을 빠르게 프로비전하고, 모든 관련 정책을 할당할 수 있습니다.
+배포하려는 팀이 많은 경우 [최전방 작업자를 위한 대규모 팀 배포](../deploy-teams-at-scale.md)를 참조하세요.
 
 보통 최전방 인력의 근무 일정은 매일 바뀌기 때문에 현재 상태를 파악하기가 쉽지 않습니다. 관리자는 교대 근무 기반 액세스(미리 보기)로 Teams를 구성하여 조직의 최전방 인력이 근무 중인지 아닌지를 알 수 있는 최전방 인력용 교대 근무 기반 현재 상태 집합을 표시할 수 있습니다. 최전방 인력이 근무 중이지 않을 때 Teams에 대한 액세스를 관리할 수도 있습니다. 자세한 내용은 [최전방 인력용 교대 근무 기반 액세스 관리](shifts/manage-shift-based-access-flw.md)를 참조하세요.
 
