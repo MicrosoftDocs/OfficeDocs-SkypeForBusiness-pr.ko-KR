@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01b51694b22d44ace9980f2b98fdb89a9150a12d
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: b96108f3bf548475cd19822967ba4e484fb26703
+ms.sourcegitcommit: b383b309dbdf9caac7ad7e4a94df8d89016dc485
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240747"
+ms.locfileid: "66551205"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Microsoft Teams와의 통신 규정 준수
 
@@ -53,7 +53,7 @@ Teams 관리자는 다음 수준에서 커뮤니케이션 규정 준수 정책�
 >[!NOTE]
 >2022년 5월부터 라이선스가 부여되고 [커뮤니케이션 규정 준수](/microsoft-365/compliance/communication-compliance-configure#subscriptions-and-licensing) 및 Microsoft Teams를 사용하는 조직에 대해 사용자가 보고한 메시지의 가용성 이 기능은 2022년 8월 31일까지 사용이 허가되고 2022년 7월까지 통신 규정 준수를 사용하는 모든 조직에 사용할 수 있습니다. 2022년 7월 이후에 통신 규정 준수를 사용하기 시작하는 조직의 경우 사용자가 보고한 메시지 정책 가용성은 라이선스 날짜부터 최대 30일이 소요되고 통신 규정 준수를 처음 사용할 수 있습니다.
 
-Teams 내부 채팅 메시지의 *문제 보고* 옵션은 기본적으로 사용하도록 설정되어 있으며 [Teams 관리 센터의](/microsoftteams/manage-teams-in-modern-portal) Teams 메시징 정책을 통해 제어할 수 있습니다. 이렇게 하면 조직의 사용자가 정책에 대한 커뮤니케이션 규정 준수 검토자가 검토할 부적절한 내부 채팅 메시지를 제출할 수 있습니다. 통신 규정 준수에서 사용자가 보고한 메시지에 대한 자세한 내용은 [통신 준수 정책을](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy) 참조하세요.
+Teams 개인 및 그룹 채팅 메시지에 대한 *문제 보고* 옵션은 기본적으로 사용하도록 설정되며 [Teams 관리 센터의](/microsoftteams/manage-teams-in-modern-portal) Teams 메시징 정책을 통해 제어할 수 있습니다. 이렇게 하면 조직의 사용자가 정책에 대한 커뮤니케이션 규정 준수 검토자가 검토할 부적절한 내부 채팅 메시지를 제출할 수 있습니다. 통신 규정 준수에서 사용자가 보고한 메시지에 대한 자세한 내용은 [통신 준수 정책을](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy) 참조하세요.
 
 ![문제 메뉴를 보고합니다.](./media/communication-compliance-report-a-concern-full-menu.png)
 
