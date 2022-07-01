@@ -1,8 +1,8 @@
 ---
-title: 서비스 상태 확인 Microsoft Teams
+title: Microsoft Teams의 서비스 상태 확인
 ms.reviewer: ''
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
@@ -13,25 +13,25 @@ ms.collection:
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 이 서비스는 Teams 상태인지 확인하여 Microsoft 365 Office 365, Exchange SharePoint 및 비즈니스용 OneDrive.
+description: Teams 서비스가 정상 상태이고 Exchange, SharePoint 및 비즈니스용 OneDrive 같은 다른 Microsoft 365 또는 Office 365 구성 요소인지 확인하는 것이 좋습니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7aebfec6aedd018580ddece9d3d7dac4e30ca731b91decf5d74bc0acf9c3e91
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a3f410a24d77a0ab18d94679896bae96b1fecdd8
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316694"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66563796"
 ---
-# <a name="verify-service-health-for-microsoft-teams"></a>서비스 상태 확인 Microsoft Teams
+# <a name="verify-service-health-for-microsoft-teams"></a>Microsoft Teams의 서비스 상태 확인
 
-Microsoft Teams 서비스 상태는 Microsoft 365 관리 센터. 문제를 해결하기 전에 서비스가 정상 상태인지 Teams 것이 좋습니다. 서비스 <a href=" https://admin.microsoft.com/adminportal/home?ref=servicehealth" target="_blank">Teams 상태</a> 콘솔로 이동하여 서비스 상태 검토
+Microsoft Teams용 서비스 상태 Microsoft 365 관리 센터 표시됩니다. 문제를 해결하기 전에 Teams 서비스가 정상인지 확인하는 것이 좋습니다. <a href=" https://admin.microsoft.com/adminportal/home?ref=servicehealth" target="_blank">Teams Service Health</a> 콘솔로 이동하여 서비스 상태를 검토합니다.
 
-또한 다른 Microsoft Teams 서비스를 Microsoft 365 Office 365 기본 제공되어 있으므로 Service Health를 살펴보면 서비스 상태, Exchange SharePoint 및 비즈니스용 OneDrive. 이러한 다른 서비스에 대한 서비스 상태 문제는 자동으로 Teams(예: 주소 Exchange 다운로드를 사용할 수 없음)를 의미하지는 않지만 영향을 받는 서비스에 대한 권고를 검토하여 해당 서비스에 영향을 미치는지 여부를 Microsoft Teams.
+또한 Microsoft Teams는 다른 Microsoft 365 또는 Office 365 서비스를 기반으로 하므로 Service Health를 볼 때 Exchange, SharePoint 및 비즈니스용 OneDrive 상태도 확인해야 합니다. 이러한 다른 서비스에 대한 서비스 상태 문제는 Teams가 영향을 받는다는 것을 자동으로 의미하지는 않지만(예: Exchange의 주소록 다운로드를 사용할 수 없음) 영향을 받는 서비스에 대한 권고를 검토하여 Microsoft Teams에 영향을 미치는지 확인해야 합니다.
 
-![서비스 상태 페이지의 스크린샷입니다.](media/Verify_service_health_for_Microsoft_Teams_image1.png)
+![Service Health 페이지의 스크린샷.](media/Verify_service_health_for_Microsoft_Teams_image1.png)
 
-![서비스 Microsoft Teams 표시하는 스크린샷이 정상입니다.](media/Verify_service_health_for_Microsoft_Teams_image2.png)
+![Microsoft Teams 서비스가 정상 상태임을 보여 주는 스크린샷](media/Verify_service_health_for_Microsoft_Teams_image2.png)
 
 
 ## <a name="related-topics"></a>관련 항목

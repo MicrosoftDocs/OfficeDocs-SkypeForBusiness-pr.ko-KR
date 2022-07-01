@@ -1,14 +1,14 @@
 ---
-title: 새 Teams 관리 센터로 Teams 전환 관리
-author: SerdarSoysal
-ms.author: serdars
+title: 새 Teams 관리 센터로 전환하는 Teams 관리
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: ''
 ROBOTS: NOINDEX, NOFOLLOW
-description: Microsoft 365 관리 센터 Teams 새 Teams 관리 센터로 전환하는 동안 Teams 대한 테넌트 전체 및 사용자 설정을 관리하는 방법을 알아봅니다.
+description: Microsoft 365 관리 센터 Teams에서 새 Teams 관리 센터로 전환하는 동안 Teams의 테넌트 전체 및 사용자 설정을 관리하는 방법을 알아봅니다.
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 83b65724099aa46bfe1f1719430e70d8da86ce33
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 39566c490a5de37adc699c39c049717525bd5821
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675090"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66563956"
 ---
 # <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>새 Microsoft Teams 관리 센터로 전환하는 동안 팀 관리
 
@@ -35,7 +35,7 @@ ms.locfileid: "65675090"
 
 ## <a name="what-is-the-new-microsoft-teams-admin-center"></a>새로운 Microsoft Teams 관리 센터란?  
 
-새로운 관리 센터 환경을 통해 Teams 및 비즈니스용 Skype 모두 관리할 수 있는 통합된 환경을 제공합니다. 추가 기능, 엔드투엔드 인사이트 및 사용자 수준에서 Teams 설정을 관리하는 기능을 제공하고 있습니다.
+새로운 관리 센터 환경을 통해 Teams와 비즈니스용 Skype 모두 관리할 수 있는 통합된 환경을 제공합니다. 추가 기능, 엔드투엔드 인사이트 및 사용자 수준에서 Teams 설정을 관리하는 기능을 제공하고 있습니다.
 
 ![Microsoft Teams 관리 센터의 스크린샷.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
@@ -46,7 +46,7 @@ ms.locfileid: "65675090"
 |Microsoft 365 관리 센터 Teams 섹션  |설정 이름(테넌트 수준)  |Microsoft Teams 관리 센터 정책   |수준: 테넌트 또는 사용자   |
 |---------|---------|---------|---------|
 |일반     |개인 프로필에 조직도 표시        |  [TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)       |  테 넌 트       |
-|일반     |Teams 없는 받는 사람에게 비즈니스용 Skype 사용         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |테 넌 트         |
+|일반     |Teams가 없는 받는 사람에게 비즈니스용 Skype 사용         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |테 넌 트         |
 |전자 메일 통합     |사용자가 채널에 전자 메일을 보낼 수 있도록 허용         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |테 넌 트         |
 |전자 메일 통합     |보낸 사람 목록 허용         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)        |테 넌 트         |
 |사용자 지정 클라우드 스토리지     |상자         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |테 넌 트         |
@@ -54,8 +54,8 @@ ms.locfileid: "65675090"
 |사용자 지정 클라우드 스토리지     |Egnyte        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |테 넌 트         |
 |사용자 지정 클라우드 스토리지     |Google 드라이브        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |테 넌 트         |
 |사용자 지정 클라우드 스토리지     |ShareFile        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |테 넌 트         |
-|사용자/라이선스 유형별 설정     |모든 사용자에 대해 Microsoft Teams 켜거나 끕니다.          |사용되지 않는<sup>1</sup>        |         |
-|팀 및 채널     |         |Azure Active Directory 그룹 관리로 리디렉션됩니다(현재 환경과 동일).              |사용자         |
+|사용자/라이선스 유형별 설정     |모든 사용자에 대해 Microsoft Teams 켜기 또는 끄기          |사용되지 않는<sup>1</sup>        |         |
+|팀 및 채널     |         |Azure Active Directory 그룹 관리(현재 환경과 동일)로 리디렉션됩니다.              |사용자         |
 |팀 및 채널     |         |AAD 그룹 관리(현재 환경과 동일)로 리디렉션됩니다.             |사용자          |
 |앱|기본적으로 새 외부 앱 사용|조직 전체 앱 설정|테 넌 트|
 |앱|외부 앱 허용|조직 전체 앱 설정|테 넌 트|
@@ -77,7 +77,7 @@ ms.locfileid: "65675090"
 |메시징     |사용자가 자신의 메시지를 삭제할 수 있도록 허용         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |사용자         |
 |메시징     |사용자가 비공개로 채팅할 수 있도록 허용         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |사용자         |
 
-<sup>1</sup> 게스트의 경우 더 이상 사용되지 않습니다. 이제 Microsoft Teams 관리 센터에서 게스트를 사용/사용하지 않도록 설정할 수 있습니다. 비즈니스 Enterprise, Edu Student 및 Edu 교직원용 Teams 사용/사용하지 않도록 설정하면 곧 더 이상 사용되지 않습니다. Microsoft 365 관리 센터 라이선스를 할당하여 관리해야 합니다. [Microsoft Teams 대한 사용자 액세스 관리를](user-access.md) 참조하세요.
+<sup>1</sup> 게스트의 경우 더 이상 사용되지 않습니다. 이제 Microsoft Teams 관리 센터에서 게스트를 사용/사용하지 않도록 설정할 수 있습니다. 비즈니스 엔터프라이즈, Edu Student 및 Edu 교직원용 Teams 사용/사용 안 함은 곧 더 이상 사용되지 않습니다. Microsoft 365 관리 센터 라이선스를 할당하여 관리해야 합니다. [Microsoft Teams에 대한 사용자 액세스 관리를 참조하세요](user-access.md).
 <br><br>
 <sup>2</sup> 사이드로딩은 다음과 같이 분할됩니다.
 
@@ -87,7 +87,7 @@ ms.locfileid: "65675090"
 <sup>3</sup> TeamsAppPermissionPolicy의 사용자 수준에서 기본 앱 및 외부 앱을 사용하도록 설정하고 사용하지 않도록 설정할 수 있습니다. 또한 모든 사용자 및 테넌트 수준 설정을 재정의하는 조직 전체 앱 설정의 테넌트 수준에서 앱을 차단할 수 있습니다.
 
 > [!NOTE]
-> Teams 및 채널과 관련된 구성에는 Microsoft 365 관리 센터 그룹 대시보드를 계속 사용합니다. 앱용 설정 Microsoft 365 관리 센터 Teams 영역에 유지되며 나중에 마이그레이션됩니다.
+> Teams 및 채널과 관련된 구성을 위해 Microsoft 365 관리 센터 그룹 대시보드를 계속 사용합니다. 앱에 대한 설정은 Microsoft 365 관리 센터 Teams 영역에 유지되며 나중에 마이그레이션됩니다.
 
 ## <a name="manage-settings-during-the-migration"></a>마이그레이션하는 동안 설정 관리
 

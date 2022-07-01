@@ -17,12 +17,12 @@ description: 법적 절차에 대한 모든 전자 저장 정보를 제출해야
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6f24c780944bfed6bb10fb8b1cd7634edc1ce850
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 4b5a0ca0cb52c4b444769b7bfc25b17cab80a02b
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562427"
+ms.locfileid: "66563946"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams에서 콘텐츠에 대한 eDiscovery 조사 수행
 
@@ -38,7 +38,7 @@ ms.locfileid: "66562427"
 
 |콘텐츠 형식|eDiscoverable|참고|
 |---|---|---|
-|오디오 녹음|아니요||
+|오디오 녹음|예||
 |카드 콘텐츠|예|자세한 내용은 [카드 콘텐츠 검색](#search-for-card-content) 을 참조하세요.|
 |채팅 링크|예||
 |채팅 메시지|예|여기에는 표준 Teams 채널의 콘텐츠, 1:1 채팅, 1:N 그룹 채팅 및 게스트 사용자 참가자와의 채팅이 포함됩니다.|
@@ -51,7 +51,6 @@ ms.locfileid: "66562427"
 |모임 메신저 대화|예||
 |모임 메타데이터<sup>1</sup>|예||
 |채널 이름|예||
-|비공개 및 공유 채널 채팅 메시지|예||
 |따옴표|예|따옴표 붙은 콘텐츠는 검색할 수 있습니다. 그러나 검색 결과는 콘텐츠가 인용되었음을 나타내지 않습니다.|
 |반응(예: 좋아요, 하트 및 기타 반응)|예||
 |제목|예||

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 관리 센터에서 비즈니스용 Skype 설정 관리
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -22,12 +22,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams 관리 센터에서 비즈니스용 Skype 기능에 대한 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: f3c79e40d55319af9a45063893bed285140c6d7f
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 06c5cc4a199a7b29f2db97159850583d6927fc13
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681339"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66563706"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 비즈니스용 Skype 설정 관리
 
@@ -37,12 +37,12 @@ ms.locfileid: "65681339"
 
 관리자는 Microsoft Teams 관리 센터에서 조직의 비즈니스용 Skype 사용자에 대한 비즈니스용 Skype 기능을 관리합니다. **비즈니스용 Skype** 페이지에서 [조직의](#manage-skype-for-business-settings-for-your-organization) 설정을 관리하고 사용자 세부 정보 페이지의 **비즈니스용 Skype** 탭에서 [개별 사용자에 대한](#manage-skype-for-business-settings-for-individual-users) 설정을 관리할 수 있습니다.
 
-조직의 공존 모드가 **Teams** 설정되지 않은 경우에만 **비즈니스용 Skype** 페이지가 표시됩니다. 마찬가지로 사용자의 공존 모드가 **Teams** 않는 경우에만 사용자에 대한 **비즈니스용 Skype** 탭이 표시됩니다. 공존 모드에 대한 자세한 내용은 [Teams 및 비즈니스용 Skype 공존 및 상호 운용성 이해 및](teams-and-skypeforbusiness-coexistence-and-interoperability.md) [공존 및 업그레이드 설정 설정을 참조하세요](setting-your-coexistence-and-upgrade-settings.md).
+조직의 공존 모드가 **Teams로만** 설정되지 않은 경우에만 **비즈니스용 Skype** 페이지가 표시됩니다. 마찬가지로 사용자의 공존 모드가 **Teams만** 아닌 경우에만 사용자에 대한 **비즈니스용 Skype** 탭이 표시됩니다. 공존 모드에 대한 자세한 내용은 [Teams 및 비즈니스용 Skype 공존 및 상호 운용성 이해 및](teams-and-skypeforbusiness-coexistence-and-interoperability.md) [공존 및 업그레이드 설정 설정을 참조하세요](setting-your-coexistence-and-upgrade-settings.md).
 
 > [!NOTE]
-> 비즈니스용 Skype 설정은 이전에 Microsoft Teams 관리 센터의 **레거시 포털** 에 있었습니다. 레거시 포털이 사용 중지되면 비즈니스용 Skype 관리를 위해 Teams 관리 센터의 이러한 새 위치로 설정을 마이그레이션했습니다.
+> 비즈니스용 Skype 설정은 이전에 Microsoft Teams 관리 센터의 **레거시 포털** 에 있었습니다. 레거시 포털이 사용 중지되면 비즈니스용 Skype 관리를 위해 Teams 관리 센터에서 이러한 새 위치로 설정을 마이그레이션했습니다.
 
-[Microsoft Teams 관리 센터에서 비즈니스용 Skype](/azure/active-directory/roles/permissions-reference) 기능을 관리하려면 전역 관리자 또는 비즈니스용 Skype 관리자의 Azure AD 관리자 역할이 할당되어야 합니다.
+Microsoft Teams [관리 센터에서 비즈니스용 Skype](/azure/active-directory/roles/permissions-reference) 기능을 관리하려면 전역 관리자 또는 비즈니스용 Skype 관리자의 Azure AD 관리자 역할이 할당되어야 합니다.
 
 ## <a name="manage-skype-for-business-settings-for-your-organization"></a>조직의 비즈니스용 Skype 설정 관리
 
@@ -80,7 +80,7 @@ Microsoft Teams 관리 센터의 왼쪽 탐색 영역에서 **조직 전체 설�
 기본적으로 조직의 비즈니스용 Skype 사용자는 다른 비즈니스용 Skype 사용자의 현재 상태(예: 사용 가능, 사용 중 또는 어웨이)를 볼 수 있습니다. 다음 중 하나를 선택하여 비즈니스용 Skype 사용자의 현재 상태를 볼 수 있는 사용자를 설정합니다.
 
 - **자동으로 현재 상태 정보 표시**: 조직의 **외부 또는** **차단된** 목록에 추가되지 않은 모든 비즈니스용 Skype 사용자가 해당 사용자의 현재 상태를 볼 수 있습니다.
-- **사용자의 연락처에만 현재 상태 정보 표시**: **외부 또는** **차단 목록에** 추가되지 않은 사용자의 연락처 목록에 있는 모든 비즈니스용 Skype 사용자는 해당 사용자의 현재 상태를 볼 수 있습니다. 사용자는 비즈니스용 Skype 설정 도구 옵션 **으로 이동하여** 이 설정을 재정 **의** > 할  >  수 **있습니다**.
+- **사용자의 연락처에만 현재 상태 정보 표시**: **외부 또는** **차단 목록에** 추가되지 않은 사용자의 연락처 목록에 있는 모든 비즈니스용 Skype 사용자는 해당 사용자의 현재 상태를 볼 수 있습니다. 사용자는 설정 **도구** >  옵션으로 이동하여 비즈니스용 Skype 이 **설정을** >  재정의할 수 **있습니다**.
 
 #### <a name="mobile-notifications"></a>모바일 알림
 
@@ -101,7 +101,7 @@ Microsoft Teams 관리 센터의 왼쪽 탐색 영역에서 **조직 전체 설�
 <a name="sfb-user-settings"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-개별 사용자에 대한 비즈니스용 Skype 설정을 관리하려면 Teams 관리 센터의 왼쪽 탐색에서 **사용자** 로 이동하여 사용자의 표시 이름을 클릭하여 사용자 세부 정보 페이지를 연 다음 **비즈니스용 Skype 설정** 탭을 선택합니다. 여기에서 사용자에 대한 외부 액세스 및 모임 설정을 구성할 수 있습니다.
+개별 사용자의 비즈니스용 Skype 설정을 관리하려면 Teams 관리 센터의 왼쪽 탐색 영역에서 **사용자** 로 이동하여 사용자의 표시 이름을 클릭하여 사용자 세부 정보 페이지를 연 다음 **비즈니스용 Skype 설정** 탭을 선택합니다. 여기에서 사용자에 대한 외부 액세스 및 모임 설정을 구성할 수 있습니다.
 
 :::image type="content" source="media/skype-for-business-settings-user.png" alt-text="사용자 세부 정보 페이지의 비즈니스용 Skype 탭 스크린샷":::
 
@@ -110,7 +110,7 @@ Microsoft Teams 관리 센터의 왼쪽 탐색 영역에서 **조직 전체 설�
 사용자가 조직 외부의 사용자와 통신할 수 있는지 여부를 선택적으로 허용하거나 차단할 수 있습니다.
 
 - **외부 비즈니스용 Skype 사용자**: 사용자가 페더레이션된 도메인의 비즈니스용 Skype 사용자와 통신할 수 있도록 하려면 이 기능을 켭니다.
-- **외부 Skype 사용자: 사용자가** Skype 사용자와 통신할 수 있도록 허용하려면 이 기능을 켭니다. 
+- **외부 Skype 사용자**: 사용자가 Skype 사용자와 통신할 수 있도록 허용하려면 이 기능을 켭니다. 
 
 ### <a name="meeting-settings"></a>모임 설정
 

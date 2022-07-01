@@ -1,7 +1,7 @@
 ---
 title: Slack에서 Microsoft Teams로 마이그레이션
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.reviewer: brandber
 manager: serdars
 ms.topic: article
@@ -18,12 +18,12 @@ ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: Slack에서 Microsoft Teams로 마이그레이션하기 위한 완전한 가이드
-ms.openlocfilehash: 7879e839c8f5597761827fe42ea75b1f0c8dddf9
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: d0fe795ac5cbf0ab4781ac2a90f79da53bef5833
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711892"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66563936"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Slack에서 Microsoft Teams로 마이그레이션
 
