@@ -1,7 +1,7 @@
 ---
 title: 관리 센터에서 팀 템플릿 관리
-author: serdars
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 관리 센터에서 팀 템플릿을 관리하는 방법 알아보기
-ms.openlocfilehash: 46b59d42ae464a5f09e9f24ecc91378bd6464034
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 9f2044f059414f9afe1ff335f8204cd26861164b
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681399"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605907"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>관리 센터에서 팀 템플릿 관리
 
@@ -38,7 +38,7 @@ ms.locfileid: "65681399"
 
 1. Teams 관리 센터에 로그인합니다.
 
-2. **Teams** >  **정책으로** 이동합니다.
+2. **Teams** > **템플릿 정책으로** 이동합니다.
 
 3. **추가** 를 선택합니다.
 
@@ -70,7 +70,7 @@ ms.locfileid: "65681399"
 > [!Note]
 > 현재 보안 그룹의 모든 사용자와 같은 그룹 멤버 자격에 따라 사용자에게 템플릿 정책을 할당하는 것은 지원되지 않습니다. 이 기능은 나중에 사용할 수 있습니다.
 
-Teams 정책을 할당하는 방법에 대한 개요는 [Teams 정책 할당을](policy-assignment-overview.md) 참조하세요.
+Teams에서 정책을 할당하는 방법에 대한 개요는 [Teams에서 정책 할당을 참조하세요](policy-assignment-overview.md).
 
 ### <a name="assign-a-templates-policy-to-individual-users"></a>개별 사용자에게 템플릿 정책 할당
 
@@ -132,7 +132,7 @@ A: 아니요, EDU에 대한 템플릿 정책은 지원되지 않습니다.
 
 ## <a name="related-articles"></a>관련 기사
 
-- [관리 센터에서 팀 템플릿을 사용하여 시작](./get-started-with-teams-templates-in-the-admin-console.md)
+- [관리 센터에서 팀 템플릿 시작](./get-started-with-teams-templates-in-the-admin-console.md)
 
 - [사용자 지정 팀 템플릿 만들기](./create-a-team-template.md)
 
@@ -140,6 +140,6 @@ A: 아니요, EDU에 대한 템플릿 정책은 지원되지 않습니다.
 
 - [기존 팀 템플릿에서 팀 템플릿 만들기](./create-template-from-existing-template.md)
 
-- [Microsoft Teams 사용자에게 정책 할당 - Microsoft Teams \| Microsoft Docs](./policy-assignment-overview.md)
+- [Microsoft Teams에서 사용자에게 정책 할당 - Microsoft Teams \| Microsoft Docs](./policy-assignment-overview.md)
 
 - [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

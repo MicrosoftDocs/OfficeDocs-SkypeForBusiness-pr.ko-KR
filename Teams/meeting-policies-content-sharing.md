@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
-description: 콘텐츠 공유를 위해 Teams 모임 정책 설정을 관리하는 방법을 알아보겠습니다.
-ms.openlocfilehash: dccf36a257cde5731c140f2000e3d0733d3366c3
-ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
+description: 콘텐츠 공유를 위해 Teams에서 모임 정책 설정을 관리하는 방법을 알아봅니다.
+ms.openlocfilehash: cd493d21b774e260f2188ac8d174d1208cf4eba7
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "64403989"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605847"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>모임 정책 설정 - 콘텐츠 공유
 
@@ -35,13 +35,13 @@ ms.locfileid: "64403989"
 - [화면 공유 모드](#screen-sharing-mode)
 - [참가자가 제어권을 주거나 요청하도록 허용](#allow-a-participant-to-give-or-request-control)
 - [외부 참가자가 제어권을 주거나 요청하도록 허용](#allow-an-external-participant-to-give-or-request-control)
-- [PowerPoint 라이브](#powerpoint-live)
+- [PowerPoint Live](#powerpoint-live)
 - [화이트보드](#whiteboard)
 - [공유 노트](#shared-notes)
 
 ## <a name="screen-sharing-mode"></a>화면 공유 모드
 
-이 설정은 이끌이 및 사용자당 정책의 조합입니다. 이 설정은 사용자의 모임에서 데스크톱 및 창 공유가 허용되는지 여부를 제어합니다. 정책이 할당되지 않은 모임 참가자(예: 익명, 게스트, B2B 및 페더레이션 참가자)는 모임 이끌이의 정책을 이어 받습니다.
+이 설정은 이끌이별 및 사용자별 정책의 조합입니다. 이 설정은 사용자의 모임에서 데스크톱 및 창 공유가 허용되는지 여부를 제어합니다. 정책이 할당되지 않은 모임 참가자(예: 익명, 게스트, B2B 및 페더레이션 참가자)는 모임 이끌이의 정책을 이어 받습니다.
 
 |설정값 |동작  |
 |---------|---------|
@@ -56,13 +56,13 @@ ms.locfileid: "64403989"
 |Daniela  | 전역   | 전체 화면 |
 |Amanda   | Location1MeetingPolicy  | 사용 안 함 |
 
-Daniela가 호스트하는 모임에서는 모임 참가자가 그의 전체 화면 또는 특정 응용 프로그램을 공유할 수 있도록 허용합니다. Amanda가 Daniela의 모임에 참가하더라도 Amanda는 그녀의 정책 설정이 비활성화되어 있으므로 해당 화면이나 특정 응용 프로그램을 공유할 수 없습니다. Amanda가 호스트하는 모임의 경우 화면 공유 모드 정책 할당에 관계없이 누구도 화면 또는 단일 응용 프로그램을 공유할 수 없습니다.  따라서 Daniela는 Amanda의 모임에서 자신의 화면 또는 단일 애플리케이션을 공유할 수 없습니다.  
+Daniela가 호스트하는 모임에서는 모임 참가자가 그의 전체 화면 또는 특정 응용 프로그램을 공유할 수 있도록 허용합니다. Amanda가 Daniela의 모임에 참가하더라도 Amanda는 그녀의 정책 설정이 비활성화되어 있으므로 해당 화면이나 특정 응용 프로그램을 공유할 수 없습니다. Amanda가 호스트하는 모임의 경우 화면 공유 모드 정책 할당에 관계없이 누구도 화면 또는 단일 응용 프로그램을 공유할 수 없습니다.  따라서 Daniela는 Amanda 모임에서 화면 또는 단일 응용 프로그램을 공유할 수 없습니다.  
 
 현재 사용자가 Google Chrome을 사용하는 경우 Teams 모임에서 비디오를 재생하거나 화면을 공유할 수 없습니다.
 
 ## <a name="allow-a-participant-to-give-or-request-control"></a>참가자가 제어권을 주거나 요청하도록 허용
 
-이 설정은 사용자당 정책입니다. 이 설정으로 사용자가 다른 모임 참가자에게 공유 바탕화면 또는 창의 제어권을 줄 수 있는지 여부를 제어합니다. 제어권을 주려면 화면 위쪽으로 마우스를 가져갑니다.
+이 설정은 사용자별 정책입니다. 이 설정으로 사용자가 다른 모임 참가자에게 공유 바탕화면 또는 창의 제어권을 줄 수 있는지 여부를 제어합니다. 제어권을 주려면 화면 위쪽으로 마우스를 가져갑니다.
 
 이 설정이 사용자에 대해 켜져 있는 경우 공유 세션의 위쪽 막대에 **제어권 제공** 옵션이 표시됩니다.
 
@@ -79,7 +79,7 @@ Daniela가 호스트하는 모임에서는 모임 참가자가 그의 전체 화
 |Daniela   | 전역   | 설정       |
 |Babek    | Location1MeetingPolicy        | 해제   |
 
-Daniela는 Babek가 조직한 모임에서 다른 참가자에게 공유 데스크톱 또는 창을 제어할 수 있습니다. 그러나 Babek는 다른 참가자에게 제어를 줄 수 없습니다.
+Daniela는 Babek이 주최하는 모임에서 다른 참가자에게 공유 데스크톱 또는 창을 제어할 수 있습니다. 그러나 Babek은 다른 참가자에게 제어권을 부여할 수 없습니다.
 
 PowerShell을 사용하여 제어권을 주거나 제어권 요청을 수락할 수 있는 사용자를 제어하려면 AllowParticipantGiveRequestControl cmdlet을 사용합니다.
 
@@ -88,7 +88,7 @@ PowerShell을 사용하여 제어권을 주거나 제어권 요청을 수락할 
 
 ## <a name="allow-an-external-participant-to-give-or-request-control"></a>외부 참가자가 제어권을 주거나 요청하도록 허용
 
-이 설정은 사용자당 정책입니다. 조직이 사용자에 대해 이 정책을 설정한지 여부는 모임 이끌이가 설정한 대상에 관계없이 외부 참가자가 할 수 있는 작업을 제어하지 않습니다. 이 매개 변수는 공유자가 소속 조직의 모임 정책 내에서 설정한 정책에 따라 외부 참가자가 공유자 화면의 제어권을 받거나 제어권을 요청할 수 있는지 여부를 제어합니다. Teams 모임의 외부 참가자는 다음과 같이 분류할 수 있습니다.  
+이 설정은 사용자별 정책입니다. 조직에서 사용자에 대해 이 정책을 설정했는지 여부는 모임 이끌이가 설정한 내용에 관계없이 외부 참가자가 수행할 수 있는 작업을 제어하지 않습니다. 이 매개 변수는 공유자가 소속 조직의 모임 정책 내에서 설정한 정책에 따라 외부 참가자가 공유자 화면의 제어권을 받거나 제어권을 요청할 수 있는지 여부를 제어합니다. Teams 모임의 외부 참가자는 다음과 같이 분류할 수 있습니다.  
 
 - 익명 사용자
 - 게스트 사용자  
@@ -99,13 +99,13 @@ PowerShell을 사용하여 제어권을 주거나 제어권 요청을 수락할 
 
 PowerShell을 사용하여 외부 참가자가 제어권을 주거나 제어권 요청을 수락할 수 있는지 여부를 제어하려면 AllowExternalParticipantGiveRequestControl cmdlet을 사용합니다.
 
-### <a name="powerpoint-live"></a>PowerPoint 라이브
+### <a name="powerpoint-live"></a>PowerPoint Live
 
 사용자별 정책에 해당합니다. 이 설정으로 사용자가 모임에서 PowerPoint 슬라이드 데크를 공유할 수 있는지 여부를 제어합니다. 익명, 게스트 및 페더레이션 사용자를 포함한 외부 사용자는 모임 이끌이의 정책을 이어 받습니다.
 
 다음 예를 살펴봅시다.
 
-|사용자 |모임 정책  |PowerPoint 라이브 |
+|사용자 |모임 정책  |PowerPoint Live |
 |---------|---------|---------|
 |Daniela   | 전역   | 설정       |
 |Amanda   | Location1MeetingPolicy        | 해제   |
@@ -114,7 +114,7 @@ Amanda는 본인이 모임 이끌이인 경우에도 모임에서 PowerPoint 슬
 
 ## <a name="whiteboard"></a>화이트보드
 
-이 설정은 사용자당 정책입니다. 이 설정으로 사용자가 모임에서 화이트보드를 공유할 수 있는지 여부를 제어합니다. 익명, B2B 및 페더레이션 사용자를 포함한 외부 사용자는 모임 이끌이의 정책을 이어 받습니다.
+이 설정은 사용자별 정책입니다. 이 설정으로 사용자가 모임에서 화이트보드를 공유할 수 있는지 여부를 제어합니다. 익명, B2B 및 페더레이션 사용자를 포함한 외부 사용자는 모임 이끌이의 정책을 이어 받습니다.
 
 다음 예를 살펴봅시다.
 
@@ -123,11 +123,17 @@ Amanda는 본인이 모임 이끌이인 경우에도 모임에서 PowerPoint 슬
 |Daniela   | 전역   | 설정       |
 |Amanda   | Location1MeetingPolicy        | 해제   |
 
-Amanda는 본인이 모임 이끌이인 경우에도 모임에서 화이트보드를 공유할 수 없습니다. Daniela는 모임을 Amanda가 이끄는 경우에도 화이트보드를 공유할 수 있습니다.  
+Amanda는 본인이 모임 이끌이인 경우에도 모임에서 화이트보드를 공유할 수 없습니다. Daniela는 모임을 Amanda가 이끄는 경우에도 화이트보드를 공유할 수 있습니다.
+
+PowerShell을 사용하여 화이트보드를 사용하도록 설정하려면 IsWBFluidEnabled cmdlet을 [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant)에서 $true 설정합니다.
+
+### <a name="annotation"></a>주석
+
+화이트보드를 사용하도록 설정하면 사용자는 Teams 모임에서 화면을 공유하는 동안 참가자가 공동 작업할 수 있는 기능인 [주석](/office/use-annotation-while-sharing-your-screen-in-teams)을 사용할 수 있습니다. 화이트보드를 사용하지 않도록 설정하면 사용자는 주석에 액세스할 수 없습니다.
 
 ## <a name="shared-notes"></a>공유 노트
 
-이 설정은 사용자당 정책입니다. 이 설정으로 사용자가 모임에서 메모를 작성하고 공유할 수 있는지 여부를 제어합니다. 익명, B2B 및 페더레이션 사용자를 포함한 외부 사용자는 모임 이끌이의 정책을 이어 받습니다. 모임 **노트** 탭은 현재 20명 미만의 참가자가 있는 모임에서만 지원됩니다.
+이 설정은 사용자별 정책입니다. 이 설정으로 사용자가 모임에서 메모를 작성하고 공유할 수 있는지 여부를 제어합니다. 익명, B2B 및 페더레이션 사용자를 포함한 외부 사용자는 모임 이끌이의 정책을 이어 받습니다. **모임 메모** 탭은 현재 참가자가 20명 미만인 모임에서만 지원됩니다.
 
 다음 예를 살펴봅시다.
 

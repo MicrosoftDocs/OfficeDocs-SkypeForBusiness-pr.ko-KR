@@ -1,24 +1,30 @@
 ---
 title: Microsoft Teams 관리자 교육
-ms.reviewer: null
-description: '이 최종 사용자, 관리자, 강사 주도 교육 리소스 및 튜토리얼 비디오를 활용하여 조직에서 Microsoft Teams를 최대한 활용하는 데 도움을 받을 수 있습니다.'
+ms.reviewer: ''
+description: 이 최종 사용자, 관리자, 강사 주도 교육 리소스 및 튜토리얼 비디오를 활용하여 조직에서 Microsoft Teams를 최대한 활용하는 데 도움을 받을 수 있습니다.
 ms.topic: overview
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 audience: admin
 manager: serdars
 ms.service: msteams
 ms.localizationpriority: high
 ms.collection:
-  - M365-collaboration
-  - Teams_ITAdmin_RemoteWorkers
-  - remotework
+- M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
+- remotework
 search.appverid: MET150
 f1.keywords:
-  - NOCSH
+- NOCSH
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-may2020
+ms.openlocfilehash: badd5df4e48892bbb22264f23072618c6c2f1eb8
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66606087"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 교육
 

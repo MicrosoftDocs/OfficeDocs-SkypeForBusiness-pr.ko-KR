@@ -1,7 +1,7 @@
 ---
 title: 얼리어답터 온보딩 및 피드백 수집
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 채택의 실험 단계에 Teams 를 선택한 다음 프로젝트에 대한 피드백을 수집합니다.
+description: Teams 채택의 실험 단계에 대한 얼리 어답터를 선택한 다음 프로젝트에 대한 피드백을 수집합니다.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,32 +21,32 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cbc0f8d77aaa29c7c1d5ba76715840b6a535707
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 31fda9f6b1336181b80491ae7d882f3910e5fd6f
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62390810"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605637"
 ---
-# <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>초기 채택자 온보드 및 사용자에 대한 피드백 Microsoft Teams
+# <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>얼리어답터 온보딩 및 Microsoft Teams에 대한 피드백 수집
 
-Early adopter 프로그램에 관심을 표명한 직원 목록으로 돌아온다. 이러한 개인 중 어떤 개인이 초기 실험에 참여해야 하는지 Teams. 관심 있는 사람 전체 또는 일부일 수 있습니다. 이러한 초기 프로젝트에 대해 선택하지 않은 경우에도 관심 있는 상태로 유지되고 향후에 참여할 수 있도록 계속 의사소통을 진행합니다. 비즈니스 관계자, 기술 팀 및 위에 표시된 우선 순위 지정 연습과의 논의를 기반으로 선택한 프로젝트의 온보드 프로세스의 일부입니다. 
+얼리 어답터 프로그램에 관심을 표명한 직원 목록으로 돌아갑니다. Teams를 사용하여 초기 실험에 참여해야 하는 개인을 결정합니다. 그것은 관심있는 사람들의 전부 또는 일부일 수 있습니다. 이러한 초기 프로젝트에 대해 선택하지 않더라도 계속 통신하여 관심을 유지하고 미래에 기꺼이 참여할 것입니다. 비즈니스 이해 관계자, 기술 팀 및 위에 표시된 우선 순위 지정 연습과의 논의를 기반으로 선택한 프로젝트에 대한 온보딩 프로세스의 일부가 됩니다. 
 
-이러한  Early adopters를 통해 다음 단계를 완료합니다.
+이러한 얼리어답터로 다음 단계를 완료합니다.
 
-1. 초대 전자 메일을 보내 커뮤니티에 초대합니다.
-2. 초기 채택자 프로그램의 목표와 결과를 공유하기 위한 킥오프 호출을 호스트합니다.
-3. 팀워크 챔피언 팀의 피드백 채널 및 사용할 수 있는 다른 내부 소셜 네트워킹 도구에 액세스할 수 있도록 합니다. 
-4. 대상 정보를 수집할 주기적인 설문 조사를 만들어 완료하는 것이 고려됩니다.
+1. 커뮤니티에 초대하기 위해 초대 전자 메일을 보냅니다.
+2. 얼리어답터 프로그램의 목표와 결과를 공유하기 위한 킥오프 콜을 주최합니다.
+3. 팀워크 챔피언 팀과 사용할 수 있는 다른 내부 소셜 네트워킹 도구의 피드백 채널에 액세스해야 합니다. 
+4. 대상 정보를 수집하는 정기적인 설문 조사를 완료하는 것이 좋습니다.
 
 ## <a name="gather-feedback"></a>피드백 수집
 
-프로젝트의 Microsoft 365 또는 Office 365 구성 요소를 사용하여 피드백을 수집합니다.
+Microsoft 365 또는 Office 365 구성 요소를 사용하여 프로젝트에 대한 피드백을 수집합니다.
   
-![결정 지점을 나타내는 아이콘입니다.](media/teams-adoption-decision-icon.png) 결정: 조직에 이미 네트워크 Yammer 있는 경우 초기 채택자 프로그램에 대한 피드백 포럼으로 사용할 수 있습니다. 그렇지 않은 경우 5000명 미만의 구성원이 있는 경우 팀을 Teams 팀을 만들어 피드백을 수집하고 교육을 제공합니다.
+![결정 지점을 나타내는 아이콘입니다.](media/teams-adoption-decision-icon.png) 결정: 조직에 Yammer 네트워크에 대한 투자가 이미 있는 경우 얼리어답터 프로그램에 대한 피드백 포럼으로 사용할 수 있습니다. 그렇지 않은 경우 얼리 어답터 프로그램에 5,000명 미만의 구성원이 있는 경우 Teams에 팀을 만들어 피드백을 수집하고 교육을 제공합니다.
   
 > [!Note]
-> 일부 조직에서는 초기 채택자 피드백을 위한 채널을 팀워크 챔피언 프로그램 팀에 결합합니다. 이 방법은 많은 초기 채택자는 향후 챔피언이 될 수 있으며 더 강력한 커뮤니티를 구축할 수 있기 때문에 좋은 접근 방식입니다. 
+> 일부 조직에서는 얼리어답터 피드백을 위한 채널을 팀워크 챔피언 프로그램 팀에 결합합니다. 많은 얼리 어답터가 미래에 챔피언이 될 수 있고 더 강력한 커뮤니티를 구축할 것이기 때문에 이것은 좋은 접근 방식입니다. 
 
 
-![다음 단계를 나타내는 아이콘입니다.](media/teams-adoption-next-icon.png) 다음: [온보드 지원](teams-adoption-onboard-support.md).
+![다음 단계를 나타내는 아이콘입니다.](media/teams-adoption-next-icon.png) 다음: [지원을 온보딩](teams-adoption-onboard-support.md)합니다.

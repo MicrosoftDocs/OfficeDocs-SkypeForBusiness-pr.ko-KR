@@ -1,7 +1,7 @@
 ---
 title: Windows에서 Microsoft Teams 설치 및 업데이트 문제 해결
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: lenatarhun
 ms.topic: article
@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Windows에서 Teams 데스크톱 클라이언트 앱의 설치 및 문제를 해결하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 832f1d2e06862344c2cbcc85b0a443940e738a33
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: d01c67c58a67ab0c52becdd54f0298ec0196704c
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893577"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605857"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Windows에서 Microsoft Teams 설치 및 업데이트 문제 해결
 

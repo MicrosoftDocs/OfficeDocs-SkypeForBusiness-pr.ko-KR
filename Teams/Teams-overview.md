@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams에 오신 것을 환영합니다.
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.custom:
 - intro-overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57ec8ab827eae0d0c6334e11fa75b068544f8505
-ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
+ms.openlocfilehash: 9b91bff459d93dee392a428e1a141622c8937c70
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/29/2021
-ms.locfileid: "61625929"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66606247"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Teams에 오신 것을 환영합니다.
 조직에서 Microsoft Teams의 관리자인 경우 제대로 찾아오셨습니다. Teams를 시작할 준비가 되었으면 [Teams 배포 방법](./deploy-overview.md) 및 [Microsoft 365 및 Microsoft Teams와 안전한 공동 작업 설정](/microsoft-365/solutions/setup-secure-collaboration-with-teams)부터 시작하세요.
@@ -34,7 +34,7 @@ Teams를 새로 사용하는 사용자로서 자세히 알아보려면 당사의
 
 Teams 관리자를 위한 Teams에 오신 것을 환영합니다 비디오를 놓치지 마세요(3분 조금 초과).
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vkIT]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
 최종 사용자 Teams 도움말을 찾고 있는 경우 앱 왼쪽에서 **도움말** 을 클릭하거나 [Microsoft Teams 도움말 센터](https://support.office.com/teams)로 이동합니다. 교육하려면 [Microsoft Teams 교육](training-microsoft-teams-landing-page.md)으로 이동하세요. 
 
