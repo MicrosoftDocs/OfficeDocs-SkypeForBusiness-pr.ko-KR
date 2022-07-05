@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39025c0ccd9cb3b7bc02de85719f98f4ec7f3090
-ms.sourcegitcommit: 1788f852508208a01f230f6f68a5a81ec8594c47
+ms.openlocfilehash: 449f706b5df8431fae6dda45d0e1412f34a4bd46
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65860071"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615434"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams의 하드웨어 요구 사항
 
@@ -40,7 +40,7 @@ ms.locfileid: "65860071"
 |하드 디스크    | 3.0GB의 사용 가능한 디스크 공간        |
 |디스플레이    |   화면 해상도 1024x768 |
 |그래픽 하드웨어 |  Windows OS: 그래픽 하드웨어 가속화에는 Windows 10용 WDDM 2.0 이상(또는 Windows 10 Fall Creators Update의 경우 WDDM 1.3 이상)을 포함하는 DirectX 9 이상이 필요합니다.
-|운영 체제  |    Windows 11, Windows 10(Windows 10 LTSC 제외), ARM의 Windows 10, Windows 8.1, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2. 참고: 사용 가능한 최신 Windows 버전 및 보안 패치를 사용하는 것이 좋습니다.|
+|운영 체제  |    Windows 11, Windows 10(Teams용 Windows 10 LTSC 데스크톱 응용 프로그램 제외), ARM의 Windows 10, Windows 8.1, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2. 참고: 사용 가능한 최신 Windows 버전 및 보안 패치를 사용하는 것이 좋습니다.|
 |.NET 버전    |  .NET 4.5 CLR 이상 필요       |
 |비디오    |  USB 2.0 비디오 카메라       |
 |장치    |   표준 노트북 카메라, 마이크 및 스피커    |
