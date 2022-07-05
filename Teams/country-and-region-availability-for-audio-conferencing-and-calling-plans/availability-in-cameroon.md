@@ -1,42 +1,47 @@
 ---
-title: Cameroon의 가용성
-author: SerdarSoysal
-ms.author: serdars
+title: 카메룬의 가용성
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-  - M365-collaboration
-  - M365-voice
+- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-  - Skype for Business
-  - Microsoft Teams
+- Skype for Business
+- Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: 'NOINDEX, NOFOLLOW'
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.custom:
-  - Audio Conferencing
-  - Phone System
-  - Calling Plans
-description: 다음은 Cameroon에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
+- Audio Conferencing
+- Phone System
+- Calling Plans
+description: 다음은 카메룬에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
+ms.openlocfilehash: ae899b785172308c71a0b27fa5f1debc41148b08
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615884"
 ---
-
-# <a name="availability-in-cameroon"></a>Cameroon의 가용성
+# <a name="availability-in-cameroon"></a>카메룬의 가용성
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 Cameroon에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
+다음은 카메룬에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|음성 회의를 구매할 수 있나요?  <br/> |예. 분당 지불만 해당됩니다.  <br/> |
+|음성 회의를 구매할 수 있나요?  <br/> |예. 분당 종량제만 가능합니다.  <br/> |
 |전화 번호가 오디오 회의에 자동으로 할당되나요?  <br/> | 아니요 |
 |전화 번호 기능을 사용하는 전화 걸기 기능  <br/> | 통신 크레딧 필요 <br/> |
    
@@ -57,17 +62,17 @@ description: 다음은 Cameroon에서 Microsoft 365 Office 365 및 비즈니스�
 |통화 플랜에서 사용 가능한 시간(분)  <br/> |해당 사항 없음  <br/> |
 |아웃바운드 통화를 할 수 있나요?  <br/> |해당 사항 없음  <br/> |
 
-통화 요금제를 구입할 수 없는 경우 사용 가능한 모든 옵션에 대한 [PSTN](../pstn-connectivity.md) 연결 옵션을 참조하세요.
+통화 플랜을 구매할 수 없는 경우 사용 가능한 모든 옵션에 대한 [PSTN 연결 옵션을](../pstn-connectivity.md) 참조하세요.
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>서비스에 대한 무료 전화 번호 및 무료 전화 번호
+## <a name="toll-and-toll-free-numbers-for-services"></a>서비스에 대한 유료 및 무료 번호
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?   | 지리적이 아닌. 전화 숫자는 특정 도시 또는 위치에 연결되지 않습니다. <br/> |
-|유료 번호를 사용할 수 있나요?  <br/> |비지리([요청 시](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
-|무료 전화 번호를 사용할 수 있나요?  <br/> |아니요  <br/> |
+|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?   | 비지리적. 전화 번호는 특정 도시 또는 위치에 연결되지 않습니다. <br/> |
+|유료 번호를 사용할 수 있나요?  <br/> |비지리적([요청시](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
+|무료 번호를 사용할 수 있나요?  <br/> |아니요  <br/> |
    
- 오디오 회의, 자동 참석자 및 통화 큐에 대한 무료 전화 번호 및 무료 전화 번호를 얻게 하려는 경우 전화 번호 및 전화 통화에 대한 서비스 전화 번호 비즈니스용 Skype [Microsoft Teams.](../getting-service-phone-numbers.md)
+ 오디오 회의, 자동 전화 교환 및 통화 큐에 대한 유료 및 무료 전화 번호를 받으려면 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](../getting-service-phone-numbers.md)를 참조하세요.
   
 ## <a name="communications-credits"></a>통신 크레딧
 

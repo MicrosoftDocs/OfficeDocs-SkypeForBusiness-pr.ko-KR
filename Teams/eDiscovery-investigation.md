@@ -17,12 +17,12 @@ description: 법적 절차에 대한 모든 전자 저장 정보를 제출해야
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4b5a0ca0cb52c4b444769b7bfc25b17cab80a02b
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: ac4aa6e8182342f36da0434aaf78123937d6d8ce
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563946"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616414"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams에서 콘텐츠에 대한 eDiscovery 조사 수행
 
@@ -52,7 +52,7 @@ ms.locfileid: "66563946"
 |모임 메타데이터<sup>1</sup>|예||
 |채널 이름|예||
 |따옴표|예|따옴표 붙은 콘텐츠는 검색할 수 있습니다. 그러나 검색 결과는 콘텐츠가 인용되었음을 나타내지 않습니다.|
-|반응(예: 좋아요, 하트 및 기타 반응)|예||
+|반응(예: 좋아요, 하트 및 기타 반응)|예|반응은 2022년 6월 1일 이후의 모든 상용 고객에 대해 지원됩니다. 이 날짜 이전의 반응은 eDiscovery에 사용할 수 없습니다. 정부 클라우드 지원이 계획되어 있습니다. 반응에 대한 법적 보존 지원은 없습니다.|
 |제목|예||
 |테이블|예||
 

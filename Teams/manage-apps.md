@@ -5,6 +5,8 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-apps
+ms.custom: intro-get-started
 audience: admin
 ms.collection:
 - Teams_ITAdmin_Help
@@ -17,18 +19,18 @@ description: Teams 앱을 관리하는 방법을 알아봅니다. 앱을 허용�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 25e540a7709ab12b73a97cc94b1350630c302197
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: 82ab9372f925e40beac41d4075b49b34118f8851
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529730"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616054"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 Teams 앱 관리
 
 Teams 관리 센터 포털의 **Teams 앱** 페이지에서 조직의 앱을 관리합니다. 앱 관리 페이지를 사용하여 조직의 앱 카탈로그에 있는 모든 Teams 앱을 보고 관리합니다.
 
-![앱 관리 페이지의 스크린샷.](media/manage-apps.png)
+:::image type="content" source="media/manage-apps.png" alt-text="앱 관리 페이지의 스크린샷." lightbox="media/manage-apps.png":::
 
 Teams 관리 센터를 사용하려면 전역 관리 또는 Teams 관리자 역할이 있어야 합니다. 자세한 내용은 다음 도움말 문서를 참조하세요.
 
@@ -156,7 +158,7 @@ ISV가 앱을 글로벌 앱 스토어에 게시하는 경우 관리자가 앱 �
 1. 이름으로 앱을 검색하고 앱을 선택합니다. 앱 세부 정보 페이지를 열지 마세요.
 1. **팀에 추가를** 선택합니다.
 
-   :::image type="content" source="media/manage-apps-add-app-team-trimmed.png" alt-text="팀 범위에 추가할 수 있는 앱에 대한 팀 옵션에 추가 스크린샷." lightbox="media/manage-apps-add-app-team.png":::
+   :::image type="content" source="media/manage-apps-add-app-team-trimmed.png" alt-text="팀 범위에 추가할 수 있는 앱에 대한 팀 옵션에 추가 스크린샷.":::
 
 1. **팀에 추가** 창에서 앱을 추가할 팀을 검색하고 팀을 선택한 다음 **적용** 을 선택합니다.
 

@@ -6,6 +6,7 @@ ms.reviewer: ''
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+ms.subservice: teams-chat
 audience: admin
 search.appverid: MET150
 description: 재무, 이벤트 계획, 판매 등과 같은 다양한 요구 사항에 사용할 수 있는 다른 팀, 채널 및 앱에 대해 알아봅니다.
@@ -18,16 +19,17 @@ ms.custom:
 - ms.teamsadmincenter.teamschannel.overview
 - ms.teamsadmincenter.teamssettings.overview
 - okr_smb
+- intro-overview
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bd98159e9e209cba855e1a0f2d0ee853b3ba889
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: 74f4580eee7ee7ee935b405cfe51c4a3e49ef98c
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64756894"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616284"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams의 Teams 및 채널 개요
 
@@ -75,7 +77,7 @@ Teams에는 다음 두 가지 주요 역할이 있습니다.
 
 Microsoft 365의 Teams 관리자인 경우 Teams 관리 센터에서 시스템 전체 설정에 액세스할 수 있습니다. 이러한 설정은 팀 소유자가 팀 설정 아래에서 볼 수 있는 옵션 및 기본값에 영향을 줄 수 있습니다. 예를 들어, 팀 전체에 표시되는 팀 전체 공지, 토론, 리소스에 대해 기본 채널 "일반"을 사용할 수 있습니다.
 
-기본적으로 모든 사용자는 팀을 만들 수 있는 권한이 있습니다. 이를 수정하려면 [Teams에서 역할 및 권한 할당](assign-roles-permissions.md)을 참조하세요.
+기본적으로 모든 사용자는 팀을 만들 수 있는 권한이 있습니다. 이를 수정하려면 [Teams 역할 및 사용 권한 할당](assign-roles-permissions.md)을 참조하세요.
 
 사용자를 Teams에 참여시키기 위한 초기 주요 계획 중 한 가지는 사용자가 일상생활에서 Teams가 공동 작업을 향상할 수 있는 방법을 생각하고 이해하도록 돕는 것입니다. 사용자와 대화하고 현재 조각화된 방식으로 공동 작업하는 비즈니스 시나리오를 선택하는 데 도움을 줍니다. 작업을 수행하는 데 도움이 되는 관련 탭이 있는 채널로 함께 모읍니다. Teams의 가장 강력한 사용 사례 중 하나는 조직 간 프로세스입니다.
 

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 사용자에 대한 클라우드 음성 사서함 설정하는 방법을 알아봅니다.
-ms.openlocfilehash: 259072194dc474d88a979ac3afb591e72eb51248
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 9d6752098ff9dee6294d53fb24f6b7df6ee8e21c
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494375"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616254"
 ---
 # <a name="set-up-cloud-voicemail"></a>클라우드 음성 사서함 설정
 
@@ -105,7 +105,7 @@ Microsoft Purview Information Protection 사용하여 내부 및 외부 발신�
 
 음성 메일 메시지를 암호화하려면 민감도 레이블을 만들 수 있습니다. 자동 레이블 지정 기능을 사용하면 레이블이 들어오는 음성 메일 메시지에 자동으로 적용되도록 할 수 있습니다.
 
-보호된 음성 메일을 사용하도록 설정하면 사용자는 음성 메일 사서함에 전화를 걸거나 Outlook, 웹용 Outlook 또는 Android 또는 iOS용 Outlook에서 메시지를 열어 보호된 음성 메일 메시지를 들을 수 있습니다. 보호된 음성 메일 메시지는 Microsoft Teams 또는 비즈니스용 Skype 열 수 없습니다.
+보호된 음성 메일을 사용하도록 설정하면 사용자는 Outlook, 웹용 Outlook 또는 Android 또는 iOS용 Outlook에서 메시지를 열어 보호된 음성 메일 메시지를 들을 수 있습니다. 보호된 음성 메일 메시지는 Microsoft Teams 또는 비즈니스용 Skype 열 수 없습니다.
 
 음성 메일에 대한 민감도 레이블을 만들려면 [민감도 레이블 사용을 참조하세요](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions). **암호화** 섹션에서 **사용자가 레이블을 적용할 때 사용 권한을 할당하도록 허용을** 선택합니다. **Outlook에서 다음 제한 사항 중 하나를 적용** 한 다음 전달 **안 함** 옵션을 선택합니다.
 

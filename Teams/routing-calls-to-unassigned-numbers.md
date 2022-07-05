@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 조직에서 할당되지 않은 번호로 통화를 라우팅하는 방법을 알아봅니다.
-ms.openlocfilehash: f092cf5501d723dabb4336d648387833dd376e9b
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: 8874fc5a47ede1c35178cf16c7d3eded6f7826a7
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65304060"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615734"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>할당되지 않은 번호로 호출 라우팅
 
@@ -69,13 +69,13 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - 할당되지 않은 Microsoft 통화 플랜 구독자 번호로 통화를 라우팅하려면 테넌트에 사용 가능한 [통신 크레딧](what-are-communications-credits.md)이 있어야 합니다.
 
-- 할당되지 않은 Microsoft 통화 플랜 서비스 번호로 통화를 라우팅하려면 테넌트에 하나 이상의 전화 시스템 가상 사용자 라이선스가 있어야 합니다.
+- 할당되지 않은 Microsoft 통화 플랜 서비스 번호로 통화를 라우팅하려면 테넌트에 하나 이상의 **Microsoft Teams 전화 리소스 계정** 라이선스가 있어야 합니다.
 
 - 지원되는 사용자 지정 오디오 파일 형식은 WAV(압축되지 않은, 모노 또는 스테레오의 깊이가 8/16/32비트인 선형 PCM), WMA(모노 전용) 및 MP3입니다. 오디오 파일 콘텐츠는 5MB를 초과할 수 없습니다.
 
-- Microsoft Teams 대한 인바운드 호출과 Microsoft Teams 아웃바운드 호출은 할당되지 않은 숫자 범위에 대해 호출된 번호를 확인합니다.
+- Microsoft Teams에 대한 인바운드 통화와 Microsoft Teams의 아웃바운드 통화는 할당되지 않은 번호 범위에 대해 호출된 번호를 확인합니다.
 
-- 지정된 패턴/범위에 테넌트에서 사용자 또는 리소스 계정에 할당된 전화 번호가 포함된 경우 이러한 전화 번호에 대한 호출은 적절한 대상으로 라우팅되고 지정된 할당되지 않은 번호 처리로 라우팅되지 않습니다. 범위에 있는 숫자에 대한 다른 검사는 없습니다. 범위에 유효한 외부 전화 번호가 포함된 경우 Microsoft Teams 해당 전화 번호로의 아웃바운드 통화는 처리에 따라 라우팅됩니다.
+- 지정된 패턴/범위에 테넌트에서 사용자 또는 리소스 계정에 할당된 전화 번호가 포함된 경우 이러한 전화 번호에 대한 호출은 적절한 대상으로 라우팅되고 지정된 할당되지 않은 번호 처리로 라우팅되지 않습니다. 범위에 있는 숫자에 대한 다른 검사는 없습니다. 범위에 유효한 외부 전화 번호가 포함된 경우 Microsoft Teams에서 해당 전화 번호로의 아웃바운드 통화는 처리에 따라 라우팅됩니다.
 
 ## <a name="related-topics"></a>관련 항목
 

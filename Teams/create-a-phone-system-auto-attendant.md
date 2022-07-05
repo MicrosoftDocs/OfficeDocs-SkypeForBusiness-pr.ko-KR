@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Microsoft Teams에서 자동 전화 교환을 설정하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 37326ec03c22c91de5f4c4edb94aaad67f52bde5
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 384c7aae5e11c938a6bf8ab5f82924d0379a83aa
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240947"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616114"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 전화 교환 설정
 
@@ -57,9 +57,9 @@ ms.locfileid: "66240947"
 
 ## <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>다음 단계에 따라 자동 전화 교환을 설정합니다.
 
-# <a name="step-1---general-info"></a>[1단계 - 일반 정보](#tab/general-info)
+# <a name="step-1-general-info"></a>[1단계: 일반 정보](#tab/general-info)
 
-## <a name="step-1---set-the-auto-attendants-general-information"></a>1단계 - 자동 전화 교환의 일반 정보 설정
+## <a name="step-1-set-the-auto-attendants-general-information"></a>1단계: 자동 전화 교환의 일반 정보 설정
 
 자동 전화 교환을 설정하려면 [Teams 관리 센터에서](https://go.microsoft.com/fwlink/p/?linkid=2066851) **음성** 을 확장하고 **자동 전화 교환을** 선택한 다음 **추가** 를 선택합니다.
 
@@ -78,10 +78,9 @@ ms.locfileid: "66240947"
 
 자동 전화 교환의 일반 정보를 설정했으면 **다음** 을 선택합니다.
 
+# <a name="step-2-basic-call-flow"></a>[2단계: 기본 호출 흐름](#tab/call-flow)
 
-# <a name="step-2---basic-call-flow"></a>[2단계 - 기본 호출 흐름](#tab/call-flow)
-
-## <a name="step-2---set-up-the-basic-call-flow"></a>2단계 - 기본 호출 흐름 설정
+## <a name="step-2-set-up-the-basic-call-flow"></a>2단계: 기본 호출 흐름 설정
 
 ### <a name="set-a-greeting"></a>인사말 설정
 
@@ -131,9 +130,9 @@ ms.locfileid: "66240947"
 
 기본 호출 흐름 옵션을 설정했으면 **다음** 을 선택합니다.
 
-# <a name="step-3---after-hours-call-flow"></a>[3단계 - 시간 후 호출 흐름](#tab/after-hours)
+# <a name="step-3-after-hours-call-flow"></a>[3단계: 시간 후 통화 흐름](#tab/after-hours)
 
-## <a name="step-3---set-up-call-flow-for-after-hours-optional"></a>3단계 - 시간 후 호출 흐름 설정(선택 사항)
+## <a name="step-3-set-up-call-flow-for-after-hours-optional"></a>3단계: 시간 후 호출 흐름 설정(선택 사항)
 
 각 자동 전화 교환에 대해 업무 시간을 설정할 수 있습니다.
 
@@ -151,9 +150,9 @@ ms.locfileid: "66240947"
 
 시간 후 통화 흐름을 추가한 후 **다음** 을 선택합니다.
 
-# <a name="step-4---holiday-call-flow"></a>[4단계 - 휴일 호출 흐름](#tab/holidays)
+# <a name="step-4-holiday-call-flow"></a>[4단계: 휴일 통화 흐름](#tab/holidays)
 
-## <a name="step-4---set-up-call-flows-for-holidays-optional"></a>4단계 - 휴일에 대한 통화 흐름 설정(선택 사항)
+## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>4단계: 휴일에 대한 통화 흐름 설정(선택 사항)
 
 자동 전화 교환은 [설정한 각 휴일](set-up-holidays-in-teams.md)에 대한 통화 흐름을 가질 수 있습니다. 각 자동 전화 교환에 최대 20개의 예약된 휴일을 추가할 수 있습니다.
 
@@ -176,9 +175,9 @@ ms.locfileid: "66240947"
 
 모든 휴가 시간을 추가했으면 **다음** 을 선택합니다.
 
-# <a name="step-5---dial-scope"></a>[5단계 - 전화 걸기 범위](#tab/dial-scope)
+# <a name="step-5-dial-scope"></a>[5단계: 전화 걸기 범위](#tab/dial-scope)
 
-## <a name="step-5---set-up-dial-scope-optional"></a>5단계 - 다이얼 범위 설정(선택 사항)
+## <a name="step-5-set-up-dial-scope-optional"></a>5단계: 다이얼 범위 설정(선택 사항)
 
 *전화 걸기 범위* 는 호출자가 전화 접속 또는 전화 접속 확장을 사용하는 경우 디렉터리에서 사용할 수 있는 사용자를 정의합니다. **모든 온라인 사용자의** 기본값은 온라인 사용자이거나 비즈니스용 Skype 서버 사용하여 온-프레미스에 호스트된 조직의 모든 사용자를 포함합니다.
 
@@ -191,9 +190,9 @@ ms.locfileid: "66240947"
 
 **다이얼 범위** 옵션을 선택한 후 **다음** 을 선택합니다.
 
-# <a name="step-6---resource-accounts"></a>[6단계 - 리소스 계정](#tab/resource-accounts)
+# <a name="step-6-resource-accounts"></a>[6단계: 리소스 계정](#tab/resource-accounts)
 
-## <a name="step-6---set-up-resource-accounts-optional"></a>6단계 - 리소스 계정 설정(선택 사항)
+## <a name="step-6-set-up-resource-accounts-optional"></a>6단계: 리소스 계정 설정(선택 사항)
 
 모든 자동 전화 교환에는 연결된 리소스 계정이 있어야 합니다.  첫 번째 수준 자동 전화 교환에는 연결된 서비스 번호가 있는 하나 이상의 리소스 계정이 필요합니다. 원하는 경우 각 리소스 계정을 별도의 서비스 번호로 자동 전화 교환에 할당할 수 있습니다.
 
@@ -203,9 +202,9 @@ ms.locfileid: "66240947"
 
 자세한 내용은 [Teams 리소스 계정 관리를](manage-resource-accounts.md) 참조하세요.
 
-# <a name="additional-resources"></a>[추가 리소스](#tab/additional-resources)
+---
 
-## <a name="resources-for-more-complex-scenarios"></a>더 복잡한 시나리오에 대한 리소스
+## <a name="resources-for-complex-scenarios"></a>복잡한 시나리오에 대한 리소스
 
 ### <a name="external-phone-number-transfers---technical-details"></a>외부 전화 번호 전송 - 기술 세부 정보
 
@@ -236,8 +235,6 @@ ms.locfileid: "66240947"
 2. 진단 실행 창의 **사용자 이름 또는 전자 메일** 필드에 리소스 계정을 입력한 다음 **테스트 실행을** 선택합니다.
 
 3. 테스트는 자동 전화 교환이 전화를 받을 수 없도록 하는 테넌트, 정책 또는 리소스 계정 구성을 식별하고 식별된 문제를 해결하는 단계를 제공합니다.
-
----
 
 ### <a name="related-topics"></a>관련 항목
 

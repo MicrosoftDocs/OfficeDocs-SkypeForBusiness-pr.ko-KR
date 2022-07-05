@@ -1,29 +1,29 @@
-Microsoft Teams 각 자동 전화 교환 또는 통화 큐에 리소스 계정이 필요합니다. 리소스 계정에 서비스 전화 번호가 할당될 수도 있습니다. 자동 전화 교환 및 통화 큐에 전화 번호를 할당하여 외부 Teams 발신자가 자동 전화 교환 또는 통화 큐에 연결할 수 있도록 하는 방법입니다.
+Microsoft Teams에서는 각 자동 전화 교환 또는 통화 큐에 대한 리소스 계정이 필요합니다. 리소스 계정에 서비스 전화 번호가 할당될 수도 있습니다. 자동 전화 교환 및 통화 큐에 전화 번호를 할당하여 Teams 외부의 발신자가 자동 전화 교환 또는 통화 큐에 도달할 수 있도록 하는 방법입니다.
 
 이 문서에서는 리소스 계정을 만들고 자동 전화 교환 및 통화 큐에서 사용할 수 있도록 준비하는 방법을 설명합니다.
 
 이 문서의 절차를 시작하기 전에 다음을 수행했는지 확인합니다.
 
-- [가상 사용자 라이선스 가져오기](#obtain-virtual-user-licenses)
+- [Microsoft Teams 전화 리소스 계정 라이선스 가져오기](#obtain-microsoft-teams-phone-resource-account-licenses)
 - [서비스 번호 가져오기](#obtain-service-numbers)
 
 > [!NOTE]
 > 자동 전화 교환 및 통화 큐에 사용되는 리소스 계정은 로그인에 사용할 수 없으므로 계속 유지되어야 합니다. 이러한 계정에는 채팅 및 현재 상태를 사용할 수 없습니다.
 
-### <a name="obtain-virtual-user-licenses"></a>가상 사용자 라이선스 가져오기
+### <a name="obtain-microsoft-teams-phone-resource-account-licenses"></a>Microsoft Teams 전화 리소스 계정 라이선스 가져오기
 
-각 리소스 계정에는 자동 전화 교환 및 통화 큐 작업을 위해 라이선스가 필요합니다. 무료 *Microsoft Teams 전화 Standard - 가상 사용자* 라이선스를 사용할 수 있습니다. 이러한 라이선스를 얻으려면 [가상 사용자 라이선스](../teams-add-on-licensing/virtual-user.md)를 참조하세요.
+각 리소스 계정에는 자동 전화 교환 및 통화 큐 작업을 위해 라이선스가 필요합니다. 무료 *Microsoft Teams 전화 Resource Account* 라이선스를 사용할 수 있습니다. 이러한 라이선스를 얻으려면 [Microsoft Teams 전화 Resource Account 라이선스를 참조하세요](../teams-add-on-licensing/virtual-user.md).
 
 [이 문서의 뒷부분에서 리소스 계정에 라이선스를 할당하는](#assign-a-license) 방법을 설명합니다.
 
-**통화 플랜** 번들 라이선스로 **Teams 전화 표준 요금제** 또는 Teams 전화 구매한 경우 가상 라이선스가 이미 계정에 있습니다.
+**통화 플랜** 번들 라이선스를 사용하여 **Teams 전화 표준 요금제** 또는 Teams Phone을 구매한 경우 *Teams 전화 리소스 계정* 라이선스는 이미 계정에 있습니다.
 
-가상 라이선스가 이미 있는지 확인하려면 전역 관리자 권한이 있는 계정을 사용하여 Microsoft 365 로그인합니다. 그런 다음 제품 [> 청구로](https://admin.microsoft.com/Adminportal/Home#/subscriptions) 이동합니다. 가상 라이선스가 있는 경우 **Microsoft Teams 전화 Standard - Virtual User** 로 표시됩니다.
+리소스 계정 라이선스가 이미 있는지 확인하려면 전역 관리자 권한이 있는 계정을 사용하여 Microsoft 365에 로그인합니다. 그런 다음 제품 [> 청구로](https://admin.microsoft.com/Adminportal/Home#/subscriptions) 이동합니다. 리소스 계정 라이선스가 있는 경우 Microsoft Teams 전화 **리소스 계정** 으로 표시됩니다.
 
-1. Microsoft 365 관리 센터 열고 전역 관리자인 사용자로 로그인합니다. 일반적으로 Microsoft 365 등록하는 데 사용한 계정입니다.
+1. Microsoft 365 관리 센터 열고 전역 관리자인 사용자로 로그인합니다. 일반적으로 Microsoft 365에 등록하는 데 사용한 계정입니다.
 2. 왼쪽 탐색 창에서 [**청구** > **구매 서비스**](https://admin.microsoft.com/Adminportal/Home#/catalog)**추가 기능** >  >  모든 **추가 기능 제품 보기** 로 이동합니다.
-3. 끝까지 스크롤하여 **Microsoft Teams 전화 Standard – Virtual User** 라이선스를 찾습니다. **세부 정보를** 선택한 다음 **구입** 합니다.
-4. 라이선스 구매 페이지에서 원하는 가상 사용자 라이선스 수를 선택합니다. 설정할 각 자동 전화 교환 및 통화 큐에 대해 하나의 가상 라이선스가 필요합니다. 더 많은 라이선스를 바로 구입하지 않고도 나중에 더 많은 자동 전화 교환을 쉽게 설정하고 큐를 호출할 수 있도록 5개 이상의 라이선스를 선택하는 것이 좋습니다.
+3. 끝까지 스크롤하여 **Microsoft Teams 전화 Resource Account** 라이선스를 찾습니다. **세부 정보를** 선택한 다음 **구입** 합니다.
+4. 라이선스 구매 페이지에서 원하는 리소스 계정 라이선스 수를 선택합니다. 설정할 각 자동 전화 교환 및 통화 큐에 대해 하나의 리소스 계정 라이선스가 필요합니다. 더 많은 라이선스를 바로 구입하지 않고도 나중에 더 많은 자동 전화 교환을 쉽게 설정하고 큐를 호출할 수 있도록 5개 이상의 라이선스를 선택하는 것이 좋습니다.
 5. **라이선스가 없는 모든 사용자에게 자동으로 할당을 선택 취소합니다**.
 6. **지금 체크 아웃을** 선택합니다.
 7. 주문을 확인하고 **다음** 을 선택한 다음 **주문합니다**.
@@ -38,7 +38,7 @@ Microsoft Teams 각 자동 전화 교환 또는 통화 큐에 리소스 계정�
 
 새 서비스 번호를 가져오려면 [서비스 전화 번호 가져오기를 참조하세요](../getting-service-phone-numbers.md).
 
-다른 이동 통신 사업자에서 번호를 이식하려면 [Teams 전화 번호 전송을](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 참조하세요.
+다른 이동 통신 사업자의 번호를 이식하려면 [전화 번호를 Teams로 전송을 참조하세요](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
 ## <a name="create-a-resource-account"></a>리소스 계정 만들기
 
@@ -51,11 +51,11 @@ Teams 관리 센터에서 리소스 계정을 만들 수 있습니다.
 
 ## <a name="assign-a-license"></a>라이선스 할당
 
-각 리소스 계정에 대해 *Microsoft Teams 전화 Standard - Virtual User* 라이선스 또는 *Teams 전화 표준 요금제* 라이선스를 할당해야 합니다.
+각 리소스 계정에 대해 *Microsoft Teams 전화 Resource Account* 라이선스 또는 *Teams 전화 표준 요금제* 라이선스를 할당해야 합니다.
 
 1. Microsoft 365 관리 센터 **사용자를** 확장한 다음 **활성 사용자를** 선택합니다.
 2. 라이선스를 할당할 리소스 계정을 선택합니다. 리소스 계정의 사용자 창이 표시됩니다.
-3. **라이선스 및 앱** 탭의 **라이선스** 에서 **Microsoft Teams 전화 표준 - 가상 사용자를** 선택합니다.
+3. **라이선스 및 앱** 탭의 **라이선스** 에서 **Microsoft Teams 전화 리소스 계정을** 선택합니다.
 4. **변경 내용 저장** 을 선택합니다.
 
 ## <a name="assign-a-service-number"></a>서비스 번호 할당
@@ -63,7 +63,7 @@ Teams 관리 센터에서 리소스 계정을 만들 수 있습니다.
 서비스 번호가 필요한 자동 전화 교환 또는 통화 큐에서 리소스 계정을 사용하려는 경우 리소스 계정에 번호를 할당합니다.
 
 1. Teams 관리 센터의 **리소스 계정** 페이지에서 서비스 번호를 할당할 리소스 계정을 선택한 다음 **할당/할당 취소** 를 선택합니다.
-2. **전화 숫자 형식** 드롭다운에서 사용할 숫자 유형을 선택합니다.
+2. **전화 번호 유형** 드롭다운에서 사용할 번호 유형을 선택합니다.
 3. **할당된 전화 번호** 상자에서 사용할 번호를 검색하고 **추가** 를 선택합니다. 국가 코드(예: +1 250 555 0012)를 포함해야 합니다.
 4. **저장** 을 선택합니다.
 

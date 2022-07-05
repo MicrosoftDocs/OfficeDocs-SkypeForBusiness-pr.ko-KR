@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft 파트너 및/또는 PSTN 통신 사업자를 위해 여러 테넌트에 서비스를 제공하도록 하나의 SBC(세션 테두리 컨트롤러)를 구성하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 48a045ea84cabf34ec6f95b4aa0f605a3155d50e
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 9221414053b0ee92b87553e0f81c23b41b23f0fb
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240667"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616344"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테넌트에 대해 세션 경계 컨트롤러 구성
 
@@ -139,7 +139,7 @@ SBC는 연결을 인증하기 위해 인증서가 필요합니다. SBC 호스팅
 - Office 365 E1/E3/E5/A3/A5 또는 Microsoft 365 E3/E5/A3/A5를 사용하는 사용자 계정
 - Office 365 F1/F3 또는 Microsoft 365 F1/F3이 있는 사용자 계정
 - 공용 영역 전화의 사용자 계정
-- 가상 사용자 라이선스가 있는 리소스 계정
+- **Microsoft Teams 전화 Resource Account 라이선스가 있는 리소스 계정**
 
 또한 계정의 UPN(사용자 계정 이름) 또는 비즈니스용 Skype 온-프레미스 SIP 주소는 새로 만든 도메인과 동일한 FQDN을 사용해야 합니다.
 
@@ -189,22 +189,22 @@ Microsoft 365 조직에서 사용자를 추가하는 방법에 대한 자세한 
 
 10. **DNS 설정 업데이트** 페이지에서 **마침** 을 선택합니다.
 
-11. 상태가 **설치 완료** 되었는지 확인합니다. 
-    
+11. 상태가 **설치 완료** 되었는지 확인합니다.
+
     ![설치 완료 상태를 보여 주는 페이지 스크린샷](media/direct-routing-12-sbc-setup-complete.png)
-    
+
 > [!NOTE]
 > _직접 경로_ 트렁크를 추가할 수 있도록 개별 클라이언트의 기본 URL 및 하위 도메인은 동일한 테넌트에 있어야 합니다.
 
 ### <a name="activate-the-subdomain-name"></a>하위 도메인 이름 활성화
 
 하위 도메인 이름을 등록한 후에는 하나 이상의 Teams 라이선스 사용자 또는 리소스 계정을 추가하여 활성화해야 합니다. 허용되는 계정은 다음 SKU 중 하나로 라이선스가 부여됩니다.
- 
+
 -   Office 365 E1/E3/E5/A3/A5 또는 Microsoft 365 E3/E5/A3/A5를 사용하는 사용자 계정
 -   Office 365 F1/F3 또는 Microsoft 365 F1/F3이 있는 사용자 계정
 -   공용 영역 전화의 사용자 계정
--   가상 사용자 라이선스가 있는 리소스 계정
- 
+-   **Microsoft Teams 전화 Resource Account** 라이선스가 있는 리소스 계정
+
 또한 계정의 UPN(사용자 계정 이름) 또는 비즈니스용 Skype 온-프레미스 SIP 주소는 새로 만든 하위 도메인과 동일한 FQDN을 사용해야 합니다.
 
 Microsoft 365 조직에서 사용자를 추가하는 방법에 대한 자세한 내용은 [Microsoft 365에 대한 도움말을 참조하세요](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).

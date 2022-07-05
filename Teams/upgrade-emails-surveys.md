@@ -1,13 +1,13 @@
 ---
-title: Microsoft Teams 전자 메일 및 설문 조사를 | 기본 업그레이드
-author: SerdarSoysal
-ms.author: serdars
+title: Microsoft Teams 전환 전자 메일 및 설문 조사 | 기본 업그레이드
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 10단계 작업 계획으로 컨준시턴에서 사용할 샘플 전자 메일 및 설문 조사를 비즈니스용 Skype Teams
+description: 비즈니스용 Skype Teams로 업그레이드하기 위한 가속화된 10단계 작업 계획과 함께 conjunciton에서 사용할 샘플 전자 메일 및 설문 조사
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 928ccad80670a140bfe72eaf42c94b145c0134e0
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: bb091735402abf89a7eb20b681252bbb1b681ee3
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62409811"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615634"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>업그레이드 기본 통신에 대한 샘플 전자 메일 및 설문 조사
 
@@ -31,7 +31,7 @@ ms.locfileid: "62409811"
 
 <a name="step-1-email"></a>
 
-### <a name="stakeholder-email-for-step-1"></a>1단계의 이해 관계자 전자 메일
+### <a name="stakeholder-email-for-step-1"></a>1단계 관련자 전자 메일
 
 제목 줄:
 
@@ -53,7 +53,7 @@ Microsoft has provided an upgrade checklist outlining the essential tasks we sho
 
 <a name="step-4-email"></a>
 
-### <a name="notify-users-email-for-step-4"></a>4단계의 경우 사용자에게 전자 메일 알림
+### <a name="notify-users-email-for-step-4"></a>4단계에 대해 사용자에게 전자 메일 알림
 
 제목 줄:
 
@@ -82,9 +82,9 @@ If you have questions or need help, please reach out to <<insert company support
 
 <a name="step-6-email"></a>
 
-### <a name="remind-users-email-for-step-6"></a>6단계의 경우 사용자에게 전자 메일 미리 알림
+### <a name="remind-users-email-for-step-6"></a>6단계에 대해 사용자에게 전자 메일 미리 알림
 
-제목 줄: 미리 알림: 업그레이드할 준비가 Teams
+제목 줄: 미리 알림: Teams로 업그레이드할 준비
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
@@ -113,7 +113,7 @@ Should you have questions about this upgrade, contact <<insert alias or contact 
 
 <a name="step-7-email"></a>
 
-### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>7단계에 대한 임원 스폰서의 사용자 전자 메일 시작
+### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>7단계에 대한 임원 스폰서의 환영 사용자 이메일
 
 제목 줄:
 
@@ -148,7 +148,7 @@ Regards,
 
 <a name="step-9-email"></a>
 
-### <a name="check-in-email-for-step-9"></a>9단계에 대한 체크인 전자 메일
+### <a name="check-in-email-for-step-9"></a>9단계의 체크 인 전자 메일
 
 제목 줄:
 
@@ -170,7 +170,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>10단계에 대해 사용자에게 팀 및 채널을 사용해 보게 요청하는 전자 메일
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>10단계를 위해 팀 및 채널에 사용해 보도록 사용자에게 요청하는 이메일
 
 제목 줄:
 
@@ -201,29 +201,29 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 ## <a name="sample-surveys"></a>샘플 설문 조사
 
-다음 활동을 수행하는 숙련도와 Teams 하나 이상의 활동이 있는 경우를 나타냅니다.
+Teams에서 다음 활동을 수행하는 데 얼마나 숙련된지, 그리고 자세히 알아보려는 활동이 하나 이상 있는지를 나타냅니다.
 
-| &nbsp; | 매우 숙련된 | 다소 숙련된 | 숙련되지 않습니다. | 자세한 내용을 원합니다. | 해당 없음 | 잘 모르는 경우 |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
+| &nbsp; | 매우 숙련 된 | 다소 숙련 된 | 전혀 숙련되지 않음 | 자세히 알아보기 | 해당 없음 | 확실하지 않음/친숙하지 않음 |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 다른 Teams IM/채팅에 사용할 수 있습니다. | | | | | | | | | | |
-| 온라인 Teams 모임에 사용할 수 있습니다. | | | | | | | | | | |
-| 공동 작업에 Teams(팀 및 채널) | | | | | | | | | | |
-| 모바일 Teams 사용 | | | | | | | | | | |
+| 다른 사용자와 메신저 대화/채팅에 Teams 사용 | | | | | | | | | | |
+| 온라인 모임에 Teams 사용 | | | | | | | | | | |
+| Teams를 사용하여 공동 작업(팀 및 채널) | | | | | | | | | | |
+| 내 모바일 장치에서 Teams 사용 | | | | | | | | | | |
 
-| **무엇이 있는 경우 사용자가 데이터를 사용하지 못하게 Microsoft Teams?** | **적용되는 모든 선택** |
+| **Microsoft Teams를 사용하지 못하게 하는 것은 무엇인가요?** | **적용되는 모든 항목 선택** |
 |---|---|
-| 나는 그에 대해 들어 본 적이 없다. | &#9744; |
-| 컴퓨터에 설치되지 않았습니다. | &#9744; |
-| 내게 또는 내가 작업하는 사람들이 어떻게 도움이 될지 이해하지 못합니다. | &#9744; |
-| 내 요구에 따라 평가할 시간이 없습니다. | &#9744; |
-| 통신 및 공동 작업의 요구 사항을 충족하는 다른 애플리케이션을 이미 사용 중입니다. | &#9744; |
-| 사용 전에 교육이 필요합니다. | &#9744; |
-| 사용하려고 했지만 기술적인 문제나 나쁜 환경이 있습니다. | &#9744; |
-| 지원 센터에서 질문하는 데 도움이 안 됐어요. | &#9744; |
-| 아무 것도, 현재 사용 중입니다. | &#9744; |
-| 기타(지정해 주세요) | &#9744; |
+| 나는 그것에 대해 들어 본 적이 없다 | &#9744; |
+| 컴퓨터에 설치되어 있지 않습니다. | &#9744; |
+| 나는 그것이 나 또는 내가 함께 일하는 사람들에게 어떻게 도움이 될지 이해하지 못한다. | &#9744; |
+| 요구 사항에 맞게 평가할 시간이 없었습니다. | &#9744; |
+| 커뮤니케이션 및 공동 작업에 대한 요구 사항을 충족하는 다른 애플리케이션을 이미 사용하고 있습니다. | &#9744; |
+| 사용하기 전에 학습이 필요합니다. | &#9744; |
+| 나는 그것을 사용하려고했지만, 기술적 인 문제 또는 나쁜 경험을했다 | &#9744; |
+| 지원 데스크는 내 질문에 나를 도울 수 없었다 | &#9744; |
+| 아무것도, 나는 현재 그것을 사용 | &#9744; |
+| 기타(지정하세요) | &#9744; |
 
-**친구/동료에게 Microsoft Teams 추천할 가능성이 있나요? (0=Not at all likely... 10=가능성이 매우 높음)**
+**Microsoft Teams를 친구/동료에게 추천할 가능성은 어느 정도인가요? (0=전혀 가능성이 없습니다... 10=매우 가능성)**
 
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|
