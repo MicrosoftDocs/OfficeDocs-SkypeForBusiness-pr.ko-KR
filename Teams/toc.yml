@@ -1797,7 +1797,7 @@ items:
             href: teams-add-on-licensing/advanced-communications.md
           - name: 메시징 정책 라이선스
             href: teams-add-on-licensing/pri-message.md
-          - name: Microsoft Teams 표준 전화 요금제 – 가상 사용자 라이선스
+          - name: Microsoft Teams 전화 리소스 계정 라이선스
             href: teams-add-on-licensing/virtual-user.md
           - name: Teams Essentials 시작
             href: get-started-with-teams-essentials.md
