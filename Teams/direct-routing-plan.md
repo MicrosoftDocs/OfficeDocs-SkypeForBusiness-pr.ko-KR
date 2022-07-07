@@ -17,20 +17,20 @@ appliesto:
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: Microsoft 직접 라우팅을 통해 지원되는 고객 제공 SBC(세션 테두리 컨트롤러)를 전화 시스템 연결하는 방법을 알아봅니다.
-ms.openlocfilehash: dd3b9ef6517c1a4c63fe12f7b7eeba4078df8ddd
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+description: Microsoft 직접 라우팅을 통해 지원되는 고객 제공 SBC(세션 테두리 컨트롤러)를 전화 시스템에 연결할 수 있는 방법을 알아봅니다.
+ms.openlocfilehash: a5ccb8534ed8772124ae6e2506af81e5b63134d0
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823067"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682517"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
 > [!Tip]
-> 직접 라우팅의 이점, 계획 방법 및 배포 방법에 대해 알아보려면 다음 세션을 시청하세요. [Microsoft Teams](https://aka.ms/teams-direct-routing)
+> 직접 라우팅의 이점, 계획 방법 및 배포 방법에 대해 알아보려면 다음 세션을 시청 [하세요. Microsoft Teams의 직접 라우팅](https://aka.ms/teams-direct-routing)
 
-직접 라우팅을 사용하면 지원되는 고객 제공 SBC(세션 테두리 컨트롤러)를 전화 시스템 연결할 수 있습니다. 이 기능을 사용하면 다음 다이어그램과 같이 Microsoft Teams 클라이언트를 사용하여 온-프레미스 PSTN(공중 전화망) 연결을 구성할 수 있습니다. 
+직접 라우팅을 사용하면 지원되는 고객이 제공한 SBC(세션 테두리 컨트롤러)를 전화 시스템에 연결할 수 있습니다. 이 기능을 사용하면 다음 다이어그램과 같이 Microsoft Teams 클라이언트를 사용하여 온-프레미스 PSTN(공중 전화망) 연결을 구성할 수 있습니다. 
 
 ![온-프레미스 PSTN 연결의 구성을 보여 주는 다이어그램](media/PlanDirectRouting1-PSTNwithTeams.png "Microsoft Teams 클라이언트를 사용하여 온-프레미스 PSTN 연결 구성")
 
@@ -38,13 +38,13 @@ ms.locfileid: "65823067"
   > 비즈니스용 Skype Online을 사용하면 고객이 제공한 SBC를 페어링할 수도 있지만, 이를 위해서는 온-프레미스 비즈니스용 Skype 서버 배포 또는 SBC와 Microsoft Cloud 사이에 Cloud Connector라는 특수 버전의 비즈니스용 Skype 필요합니다. 이 시나리오를 하이브리드 음성이라고 합니다. 반면, 직접 라우팅을 사용하면 지원되는 SBC와 Microsoft Cloud 간에 직접 연결할 수 있습니다.
 
 > [!Important]
-> Cloud Connector Edition은 비즈니스용 Skype Online과 함께 2021년 7월 31일 사용 중지됩니다. 조직이 Teams 업그레이드되면 [직접 라우팅](direct-routing-landing-page.md)을 사용하여 온-프레미스 전화 통신 네트워크를 Teams 연결하는 방법을 알아봅니다. 
+> Cloud Connector Edition은 비즈니스용 Skype Online과 함께 2021년 7월 31일 사용 중지됩니다. 조직이 Teams로 업그레이드되면 [직접 라우팅](direct-routing-landing-page.md)을 사용하여 온-프레미스 전화 통신 네트워크를 Teams에 연결하는 방법을 알아봅니다. 
 
 직접 라우팅을 사용하면 SBC를 거의 모든 전화 통신 트렁크에 연결하거나 타사 PSTN 장비와 상호 연결할 수 있습니다. 직접 라우팅을 사용하면 다음을 수행할 수 있습니다. 
 
-- 전화 시스템 거의 모든 PSTN 트렁크를 사용합니다. 
+- 전화 시스템에서 거의 모든 PSTN 트렁크를 사용합니다. 
 
-- 타사 PBX(프라이빗 분기 교환), 아날로그 디바이스 및 Teams 같은 고객 소유 전화 통신 장비 간의 상호 운용성을 구성합니다.
+- 타사 PBX(프라이빗 분기 교환), 아날로그 디바이스 및 Teams와 같은 고객 소유 전화 통신 장비 간의 상호 운용성을 구성합니다.
 
 또한 Microsoft는 통화 플랜과 같은 클라우드 내 음성 솔루션을 제공합니다. 그러나 다음과 같은 경우 하이브리드 음성 솔루션이 조직에 가장 적합할 수 있습니다. 
 
@@ -56,7 +56,7 @@ ms.locfileid: "65823067"
 
 직접 라우팅은 Microsoft 통화 플랜에 대한 추가 라이선스가 있는 사용자를 지원합니다. 자세한 내용은 [전화 시스템 및 통화 플랜](calling-plan-landing-page.md)을 참조하세요. 
 
-직접 라우팅을 사용하면 사용자가 예약된 회의에 참가할 때 Microsoft 오디오 회의 서비스에서 전화 접속 번호를 제공하므로 적절한 라이선스가 필요합니다.  전화를 걸 때 Microsoft 오디오 회의 서비스는 적절한 라이선스가 필요한 온라인 통화 기능을 사용하여 통화를 합니다. (사용자에게 Microsoft 오디오 회의 라이선스가 없는 경우 통화는 직접 라우팅을 통해 라우팅됩니다.) 자세한 내용은 [Teams 온라인 모임을](https://www.microsoft.com/en-us/microsoft-teams/online-meetings) 참조하세요. 
+직접 라우팅을 사용하면 사용자가 예약된 회의에 참여할 때 전화 접속 번호는 적절한 라이선스가 필요한 Microsoft Audio Conferencing Service에서 제공됩니다.  전화를 걸 때 Microsoft 오디오 회의 서비스는 온라인 통화 기능을 사용하여 전화를 걸며 적절한 라이선스가 필요합니다. (사용자에게 Microsoft 오디오 회의 라이선스가 없는 경우 통화는 직접 라우팅을 통해 라우팅됩니다.) 자세한 내용은 [Teams와의 온라인 모임을 참조하세요](https://www.microsoft.com/en-us/microsoft-teams/online-meetings). 
  
 직접 라우팅 배포를 계획하는 것은 성공적인 구현의 핵심입니다. 이 문서에서는 인프라 및 라이선스 요구 사항을 설명하고 SBC 연결에 대한 정보를 제공합니다. 
 
@@ -77,12 +77,12 @@ ms.locfileid: "65823067"
 |인프라 요구 사항|다음이 필요합니다.|
 |:--- |:--- |
 |세션 테두리 컨트롤러(SBC)|지원되는 SBC입니다. 자세한 내용은 [지원되는 SCC를 참조하세요](#supported-session-border-controllers-sbcs).|
-|SBC에 연결된 전화 통신 트렁크|SBC에 연결된 하나 이상의 전화 통신 트렁크입니다. 한쪽 끝에서 SBC는 직접 라우팅을 통해 전화 시스템 연결합니다. 또한 SBC는 PBX, 아날로그 전화 통신 어댑터 등과 같은 타사 전화 통신 엔터티에 연결할 수도 있습니다. SBC에 연결된 모든 PSTN 연결 옵션이 작동합니다. (PSTN 트렁크를 SBC로 구성하려면 SBC 공급업체 또는 트렁크 공급자를 참조하세요.)|
-|Microsoft 365 조직|Microsoft Teams 사용자를 홈으로 사용하는 Microsoft 365 조직 및 SBC에 대한 구성 및 연결입니다.|
-|사용자 등록 기관|사용자는 Microsoft 365 있어야 합니다.<br/>회사에 Microsoft 365 대한 하이브리드 연결이 있는 온-프레미스 비즈니스용 Skype 또는 Lync 환경이 있는 경우 온-프레미스에 있는 사용자에 대해 Teams 음성을 사용하도록 설정할 수 없습니다.<br/><br/>사용자의 등록자를 확인하려면 다음 비즈니스용 Skype Online PowerShell cmdlet을 사용합니다.<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>cmdlet의 출력은 다음을 표시해야 합니다.<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|도메인|Microsoft 365 또는 Office 365 조직에 하나 이상의 도메인이 추가되었습니다.<br/><br/>테넌트에 대해 자동으로 생성되는 기본 도메인인 \*.onmicrosoft.com 사용할 수 없습니다.<br/><br/>도메인을 보려면 다음 비즈니스용 Skype Online PowerShell cmdlet을 사용할 수 있습니다.<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>도메인 및 Microsoft 365 또는 Office 365 조직에 대한 자세한 내용은 [도메인 FAQ를 참조하세요](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
+|SBC에 연결된 전화 통신 트렁크|SBC에 연결된 하나 이상의 전화 통신 트렁크입니다. 한쪽 끝에서 SBC는 직접 라우팅을 통해 전화 시스템에 연결합니다. 또한 SBC는 PBX, 아날로그 전화 통신 어댑터 등과 같은 타사 전화 통신 엔터티에 연결할 수도 있습니다. SBC에 연결된 모든 PSTN 연결 옵션이 작동합니다. (PSTN 트렁크를 SBC로 구성하려면 SBC 공급업체 또는 트렁크 공급자를 참조하세요.)|
+|Microsoft 365 조직|Microsoft Teams 사용자를 홈으로 사용하는 Microsoft 365 조직 및 SBC에 대한 구성 및 연결.|
+|사용자 등록 기관|사용자는 Microsoft 365에 있어야 합니다.<br/>회사에 Microsoft 365에 대한 하이브리드 연결이 있는 온-프레미스 비즈니스용 Skype 또는 Lync 환경이 있는 경우 온-프레미스에 있는 사용자에 대해 Teams에서 음성을 사용하도록 설정할 수 없습니다.<br/><br/>사용자의 등록자를 확인하려면 다음 비즈니스용 Skype Online PowerShell cmdlet을 사용합니다.<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>cmdlet의 출력은 다음을 표시해야 합니다.<br/><code>HostingProvider : sipfed.online.lync.com</code>|
+|도메인|Microsoft 365 또는 Office 365 조직에 추가된 도메인이 하나 이상 있습니다.<br/><br/>테넌트에 대해 자동으로 생성되는 기본 도메인인 \*.onmicrosoft.com 사용할 수 없습니다.<br/><br/>도메인을 보려면 다음 비즈니스용 Skype Online PowerShell cmdlet을 사용할 수 있습니다.<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>도메인 및 Microsoft 365 또는 Office 365 조직에 대한 자세한 내용은 [도메인 FAQ를](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a) 참조하세요.|
 |SBC의 공용 IP 주소|SBC에 연결하는 데 사용할 수 있는 공용 IP 주소입니다. SBC 유형에 따라 SBC는 NAT를 사용할 수 있습니다.|
-|SBC의 FQDN(정규화된 도메인 이름)|FQDN의 도메인 부분이 Microsoft 365 또는 Office 365 조직의 등록된 도메인 중 하나인 SBC용 FQDN입니다. 자세한 내용은 [SBC 도메인 이름을 참조하세요](#sbc-domain-names).|
+|SBC의 FQDN(정규화된 도메인 이름)|SBC용 FQDN입니다. 여기서 FQDN의 도메인 부분은 Microsoft 365 또는 Office 365 조직에 등록된 도메인 중 하나입니다. 자세한 내용은 [SBC 도메인 이름을 참조하세요](#sbc-domain-names).|
 |SBC에 대한 공용 DNS 항목 |SBC FQDN을 공용 IP 주소에 매핑하는 공용 DNS 항목입니다. |
 |SBC에 대한 신뢰할 수 있는 공용 인증서 |직접 라우팅과의 모든 통신에 사용할 SBC에 대한 인증서입니다. 자세한 내용은 [SBC에 대한 신뢰할 수 있는 공용 인증서를](#public-trusted-certificate-for-the-sbc) 참조하세요.|
 |직접 라우팅을 위한 연결점 |직접 라우팅에 대한 연결점은 다음과 같은 세 가지 FQDN입니다.<br/><br/>`sip.pstnhub.microsoft.com` – 전역 FQDN을 먼저 시도해야 합니다.<br/>`sip2.pstnhub.microsoft.com` – 보조 FQDN은 지리적으로 두 번째 우선 순위 지역에 매핑됩니다.<br/>`sip3.pstnhub.microsoft.com` – 3차 FQDN은 지리적으로 세 번째 우선 순위 지역에 매핑됩니다.<br/><br/>구성 요구 사항에 대한 자세한 내용은 [SIP 신호: FQDN을 참조하세요](#sip-signaling-fqdns).|
@@ -93,9 +93,9 @@ Microsoft Teams 미디어의 방화벽 IP 주소 및 포트 |자세한 내용은
 
 ## <a name="licensing-and-other-requirements"></a>라이선스 및 기타 요구 사항 
 
-직접 라우팅 사용자는 Microsoft 365 할당된 다음 라이선스가 있어야 합니다. 
+직접 라우팅 사용자는 Microsoft 365에서 다음 라이선스를 할당해야 합니다. 
 
-- Microsoft 전화 시스템
+- Microsoft Phone System
 - 라이선스에 포함된 경우 Microsoft Teams + 비즈니스용 Skype 플랜 2
 - Microsoft 오디오 회의(이 라이선스가 필요한 시기에 대한 특정 예제를 보려면 아래 노트 및 단락을 읽어보세요.)
 
@@ -103,7 +103,7 @@ Microsoft Teams 미디어의 방화벽 IP 주소 및 포트 |자세한 내용은
 > 비즈니스용 Skype 플랜이 포함된 라이선스 계약에서 제거해서는 안 됩니다. 
 > 
 > [!IMPORTANT]
-> GCC High 및 DoD 사용자는 G5에 포함된 오디오 회의 라이선스를 사용하지 않도록 설정하고 직접 라우팅이 완전히 구성될 때까지 모든 오디오 회의 사용하도록 설정해야 합니다. 사용자는 오디오 회의 라이선스를 사용하도록 설정하기 전에 전화 접속 전화 번호와 작동하는 다이얼 패드를 구성해야 합니다. [자세한 내용은 GCC High 및 DoD에 대한 직접 라우팅 오디오 회의](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md) 참조하세요.
+> GCC High 및 DoD 사용자는 G5에 포함된 오디오 회의 라이선스를 사용하지 않도록 설정하고 직접 라우팅이 완전히 구성될 때까지 오디오 회의를 활성화할 때까지 기다려야 합니다. 사용자는 오디오 회의 라이선스를 사용하도록 설정하기 전에 전화 접속 전화 번호와 작동 다이얼 패드를 구성해야 합니다. 자세한 내용은 [GCC High 및 DoD에 대한 직접 라우팅을 사용한 오디오 회의를](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md) 참조하세요.
 
 
 > [!IMPORTANT]
@@ -113,19 +113,19 @@ Microsoft Teams 미디어의 방화벽 IP 주소 및 포트 |자세한 내용은
 
 ### <a name="ad-hoc-call-escalation-and-audio-conferencing-license"></a>임시 통화 에스컬레이션 및 오디오 회의 라이선스
 
-Teams 사용자는 일대일 Teams-PSTN 또는 Teams-Teams 호출을 시작하고 PSTN 참가자를 추가할 수 있습니다. 이 시나리오를 임시 회의라고 합니다. 호출이 수행되는 경로는 통화를 에스컬레이션하는 사용자에게 Microsoft 오디오 회의 라이선스가 할당되었는지 여부에 따라 달라집니다.
+Teams 사용자는 일대일 Teams-PSTN 또는 Teams-투-Teams 통화를 시작하고 PSTN 참가자를 추가할 수 있습니다. 이 시나리오를 임시 회의라고 합니다. 호출이 수행되는 경로는 호출을 에스컬레이션하는 사용자에게 Microsoft Audio Conferencing 라이선스가 할당되었는지 여부에 따라 달라집니다.
 
-- **통화를 에스컬레이션하는 Teams 사용자에게 Microsoft 오디오 회의 라이선스가 할당된 경우 에스컬레이션은** Microsoft 오디오 회의 서비스를 통해 발생합니다. 기존 통화에 초대된 원격 PSTN 참가자는 수신 통화에 대한 알림을 받고 에스컬레이션을 시작한 Teams 사용자에게 할당된 Microsoft 브리지의 수를 확인합니다.
+- **통화를 에스컬레이션하는 Teams 사용자에게 Microsoft 오디오 회의 라이선스가 할당된 경우 Microsoft 오디오** 회의 서비스를 통해 에스컬레이션이 발생합니다. 기존 통화에 초대된 원격 PSTN 참가자는 수신 통화에 대한 알림을 받고 에스컬레이션을 시작한 Teams 사용자에게 할당된 Microsoft 브리지의 수를 확인합니다.
 
-- **호출을 에스컬레이션하는 Teams 사용자에게 Microsoft 오디오 회의 라이선스가 할당되지 않은 경우** 직접 라우팅 인터페이스에 연결된 세션 테두리 컨트롤러를 통해 에스컬레이션이 발생합니다. 통화에 초대된 원격 PSTN 참가자는 수신 통화에 대한 알림을 받고 에스컬레이션을 시작한 Teams 사용자의 수를 확인합니다. 에스컬레이션에 사용되는 특정 SBC는 사용자의 라우팅 정책에 의해 정의됩니다. 
+- **통화를 에스컬레이션하는 Teams 사용자에게 Microsoft 오디오 회의 라이선스가 할당되지 않은 경우** 직접 라우팅 인터페이스에 연결된 세션 테두리 컨트롤러를 통해 에스컬레이션이 발생합니다. 통화에 초대된 원격 PSTN 참가자는 수신 통화에 대한 알림을 받고 에스컬레이션을 시작한 Teams 사용자의 수를 확인합니다. 에스컬레이션에 사용되는 특정 SBC는 사용자의 라우팅 정책에 의해 정의됩니다. 
 
 다음 사항을 확인해야 합니다.
  
 - CsOnlineVoiceRoutingPolicy가 사용자에게 할당됩니다. 
 
-- 프라이빗 통화 허용은 Microsoft Teams 테넌트 수준에서 사용하도록 설정됩니다. 
+- 프라이빗 통화 허용은 Microsoft Teams의 테넌트 수준에서 사용하도록 설정됩니다. 
 
-직접 라우팅은 Microsoft 통화 플랜에 대한 라이선스가 부여된 사용자도 지원합니다. 통화 플랜을 사용하는 전화 시스템 직접 라우팅 인터페이스를 사용하여 일부 호출을 라우팅할 수 있습니다. 그러나 사용자의 전화 번호는 온라인으로 획득하거나 Microsoft로 이식해야 합니다.  
+직접 라우팅은 Microsoft 통화 플랜에 대한 라이선스가 부여된 사용자도 지원합니다. 통화 플랜이 있는 전화 시스템은 직접 라우팅 인터페이스를 사용하여 일부 통화를 라우팅할 수 있습니다. 그러나 사용자의 전화 번호는 온라인으로 획득하거나 Microsoft로 이식해야 합니다.  
 
 동일한 사용자에 대한 통화 플랜 및 직접 라우팅 연결을 혼합하는 것은 선택 사항이지만 유용할 수 있습니다. 예를 들어 사용자에게 Microsoft 통화 플랜이 할당되었지만 SBC를 사용하여 일부 통화를 라우팅하려는 경우입니다. 가장 일반적인 시나리오 중 하나는 타사 PBX에 대한 호출입니다.  타사 PBX를 사용하면 해당 PBX에 연결된 휴대폰에 대한 호출을 제외한 모든 통화는 Microsoft 통화 플랜을 사용하여 라우팅되지만 타사 PBX에 연결된 휴대폰에 대한 호출은 SBC로 이동하므로 PSTN이 아닌 엔터프라이즈 네트워크 내에 유지됩니다. 
 
@@ -137,9 +137,9 @@ Teams 사용자는 일대일 Teams-PSTN 또는 Teams-Teams 호출을 시작하�
 
 - 모든 Teams 클라이언트. 
 
-- 공용 영역 전화. [Microsoft Teams 대한 공용 영역 전화 설정을](./set-up-common-area-phones.md) 참조하세요. 직접 라우팅을 사용하여 공용 영역 전화 설정할 때 통화 플랜 라이선스가 필요하지 않습니다.
+- 공용 영역 전화. [Microsoft Teams용 공용 영역 전화 설정을 참조하세요](./set-up-common-area-phones.md). 직접 라우팅을 사용하여 공용 영역 전화를 설정할 때 통화 플랜 라이선스가 필요하지 않습니다.
 
-- 3PIP 휴대폰을 비즈니스용 Skype. [Microsoft Teams 비즈니스용 Skype 휴대폰(3PIP) 지원을](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351) 참조하세요.
+- 3PIP 휴대폰을 비즈니스용 Skype. [Microsoft Teams를 사용하여 비즈니스용 Skype 휴대폰(3PIP) 지원](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351) 참조
 
 
 ## <a name="sbc-domain-names"></a>SBC 도메인 이름
@@ -182,18 +182,18 @@ CSR(인증 서명 요청)을 생성하여 SBC에 대한 인증서를 요청하�
 - DigiCert High Assurance EV 루트 CA
 
 > [!NOTE]
-> SBC에서 Teams 연결에 대해 MTLS(상호 TLS) 지원을 사용하도록 설정한 경우 Teams TLS 컨텍스트의 SBC 신뢰할 수 있는 루트 Microsoft Store Baltimore CyberTrust Root 및 DigiCert Global Root G2 인증서를 설치해야 합니다. (Microsoft 서비스 인증서는 이러한 두 루트 인증서 중 하나를 사용하기 때문입니다.) 이러한 루트 인증서를 다운로드하려면 [Office 365 암호화 체인](/microsoft-365/compliance/encryption-office-365-certificate-chains)을 참조하세요. 자세한 내용은 [Office TLS 인증서 변경 내용을 참조하세요](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes).
+> SBC에서 Teams 연결에 대해 MTLS(상호 TLS) 지원을 사용하도록 설정한 경우 Teams TLS 컨텍스트의 SBC 신뢰할 수 있는 루트 저장소에 Baltimore CyberTrust Root 및 DigiCert Global Root G2 인증서를 설치해야 합니다. (Microsoft 서비스 인증서는 이러한 두 루트 인증서 중 하나를 사용하기 때문입니다.) 이러한 루트 인증서를 다운로드하려면 [Office 365 암호화 체인](/microsoft-365/compliance/encryption-office-365-certificate-chains)을 참조하세요. 자세한 내용은 [Office TLS 인증서 변경 내용을](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes) 참조하세요.
 
 ## <a name="sip-signaling-fqdns"></a>SIP 신호: FQDN 
 
 직접 라우팅은 다음 환경에서 제공됩니다.
 
 - Microsoft 365 또는 Office 365
-- Office 365 GCC
-- Office 365 GCC 높음
+- GCC Office 365
+- Office 365 GCC High
 - Office 365 DoD
 
-[GCC, GCC High 및](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) DoD와 같은 Office 365 및 미국 정부 환경에 대해 자세히 알아봅니다.
+GCC, GCC High 및 DoD[와 같은 Office 365 및 미국 정부 환경에](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) 대해 자세히 알아봅니다.
 
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365, Office 365 및 Office 365 GCC 환경
 
@@ -230,11 +230,11 @@ FQDN sip.pstnhub.dod.teams.microsoft.us 다음 서브넷에서 IP 주소로 확�
 
 신호 전송을 위해 주소 간에 들어오고 나가는 트래픽을 허용하려면 방화벽에서 이러한 모든 IP 주소에 대한 포트를 열어야 합니다.
 
-### <a name="office-365-gcc-high-environment"></a>Office 365 GCC 높은 환경
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC High 환경
 
 직접 라우팅에 대한 연결점은 다음과 같은 FQDN입니다.
 
-**sip.pstnhub.gov.teams.microsoft.us** – 전역 FQDN. GCC High 환경은 미국 데이터 센터에만 존재하므로 보조 및 삼차 FQDN이 없습니다.
+**sip.pstnhub.gov.teams.microsoft.us** – 전역 FQDN. GCC High 환경은 미국 데이터 센터에만 존재하므로 보조 및 3차 FQDN이 없습니다.
 
 FQDN sip.pstnhub.gov.teams.microsoft.us 다음 서브넷에서 IP 주소로 확인됩니다.
 
@@ -247,8 +247,8 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 다음 서브넷에서 IP 주소로 확�
 직접 라우팅이 제공되는 Microsoft 365 또는 Office 365 환경에 다음 포트를 사용해야 합니다.
 
 - Microsoft 365 또는 Office 365
-- Office 365 GCC
-- Office 365 GCC 높음
+- GCC Office 365
+- Office 365 GCC High
 - Office 365 DoD
 
 |트래픽을|보낸 사람|받는 사람|원본 포트|대상 포트|
@@ -283,7 +283,7 @@ SBC는 dns 쿼리를 만들어 sip.pstnhub.microsoft.com 확인합니다. SBC �
 
 - 52.127.64.0/21
 
-### <a name="office-365-gcc-high-environment"></a>Office 365 GCC 높은 환경
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC High 환경
 
 - 52.127.88.0/21
 
@@ -320,7 +320,7 @@ SBC는 dns 쿼리를 만들어 sip.pstnhub.microsoft.com 확인합니다. SBC �
 세션 테두리 컨트롤러와 클라우드 미디어 프로세서(미디어 바이패스 제외) 또는 Teams 클라이언트와 SBC 간(미디어 바이패스 사용이 설정된 경우) 다리의 직접 라우팅 인터페이스는 다음 코덱을 사용할 수 있습니다.
 
 - 비미디어 바이패스(SBC에서 클라우드 미디어 프로세서로): SILK, G.711, G.722, G.729
-- 미디어 바이패스(클라이언트에 Teams SBC): SILK, G.711, G.722, G.729
+- 미디어 바이패스(SBC에서 Teams 클라이언트로): SILK, G.711, G.722, G.729
 
 제안에서 바람직하지 않은 코덱을 제외하여 세션 테두리 컨트롤러에서 특정 코덱을 강제로 사용할 수 있습니다.
 
@@ -328,14 +328,16 @@ SBC는 dns 쿼리를 만들어 sip.pstnhub.microsoft.com 확인합니다. SBC �
 
 미디어가 아닌 바이패스 사례에만 적용됩니다. 미디어 바이패스를 사용하면 미디어가 Teams 클라이언트와 SBC 간에 직접 흐릅니다.
 
-클라우드 미디어 프로세서와 Microsoft Teams 클라이언트 사이의 다리에서 SILK 또는 G.722가 사용됩니다. 이 레그에서 코덱 선택은 여러 매개 변수를 고려한 Microsoft 알고리즘을 기반으로 합니다. 
+클라우드 미디어 프로세서와 Microsoft Teams 클라이언트 간의 다리에서 SILK 또는 G.722가 사용됩니다. 이 레그에서 코덱 선택은 여러 매개 변수를 고려한 Microsoft 알고리즘을 기반으로 합니다. 
 
+  > [!NOTE]
+  > 미디어 다시 대상 지정은 지원되지 않습니다. 직접 라우팅 통화 중에 SBC가 Teams 직접 라우팅에 새 미디어 IP를 보내는 경우 SIP 신호에서 협상되지만 미디어는 Teams 직접 라우팅에서 새 IP 주소로 전송되지 않습니다.
 
 ## <a name="supported-session-border-controllers-sbcs"></a>지원되는 SCC(세션 테두리 컨트롤러)
 
 Microsoft는 직접 라우팅과 쌍을 이루는 인증된 SCC만 지원합니다. Enterprise Voice 비즈니스에 중요하기 때문에 Microsoft는 선택한 SBC를 사용하여 집중적인 테스트를 실행하고 SBC 공급업체와 협력하여 두 시스템의 호환성을 보장합니다. 
 
-유효성이 검사된 디바이스는 Teams 직접 라우팅에 대해 인증된 디바이스로 나열됩니다. 인증된 디바이스는 모든 시나리오에서 작동하도록 보장됩니다. 
+유효성이 검사된 디바이스는 Teams 직접 라우팅용 인증으로 나열됩니다. 인증된 디바이스는 모든 시나리오에서 작동하도록 보장됩니다. 
 
 지원되는 SCC에 대한 자세한 내용은 [직접 라우팅에 대해 인증된 세션 테두리 컨트롤러를 참조하세요](direct-routing-border-controllers.md).
 

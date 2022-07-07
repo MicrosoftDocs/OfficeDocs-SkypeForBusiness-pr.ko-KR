@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: SBC를 구성하고 Teams Phone 시스템 직접 라우팅에 연결하는 방법을 알아봅니다.
-ms.openlocfilehash: e33f9538fdf69696e0a87da84dc5aec8e8d304af
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 0423c374e903aab2e283ee45bcabf9ceb31ef869
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241107"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682667"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>SBC(세션 테두리 컨트롤러)를 직접 라우팅에 연결
 
@@ -95,6 +95,8 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
   > 테넌트에 등록된 도메인 외에도 해당 도메인을 가진 사용자와 할당된 E3 또는 E5 라이선스가 있어야 합니다. 그렇지 않으면 다음 오류가 표시됩니다.<br/>
   `Can not use the "sbc.contoso.com" domain as it was not configured for this tenant`.
   > 3. SBC 쪽에서 동일한 FQDN으로 매핑된 여러 IP는 지원되지 않습니다.
+  > 4. 고객에게 동급 최고의 암호화를 제공하기 위해 Microsoft는 직접 라우팅 SIP 인터페이스에 대해 TLS1.2 사용을 강제합니다.
+  > 서비스에 영향을 주지 않으려면 SCC가 TLS1.2를 지원하도록 구성되어 있고 다음 암호 그룹 중 하나를 사용하여 연결할 수 있는지 확인합니다. 즉, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384. ECDHE-RSA-AES256-GCM-SHA384 TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 즉, ECDHE-RSA-AES128-GCM-SHA256 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 즉, ECDHE-RSA-AES256-SHA384 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 예: ECDHE-RSA-AES128-SHA256
 
 예제는 다음과 같습니다.
 
