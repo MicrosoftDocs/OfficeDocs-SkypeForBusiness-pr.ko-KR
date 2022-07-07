@@ -1563,6 +1563,8 @@ items:
             href: apps-update-experience.md
           - name: Microsoft 365에서 Teams 앱에 대한 액세스 관리
             href: manage-third-party-teams-apps.md
+          - name: 앱 관리 활동 및 이벤트에 대한 감사
+            href: audit-app-management-activities.md
       - name: 앱 사용 현황 보고서 및 분석
         href: teams-analytics-and-reports/app-usage-report.md
   - name: 산업 및 정부 지침
