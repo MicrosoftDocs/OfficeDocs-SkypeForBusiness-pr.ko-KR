@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 'Microsoft Teams용으로 인증된 USB 주변 장치 및 장치(예: 헤드셋, 스피커폰, 웹캠 및 모니터)를 확인합니다.'
-ms.openlocfilehash: a2f106b71cc6494594ad34b9aa8dbfb61789a67a
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: 7df6ca32a359931a62935d68257583c4d499aa93
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66605707"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647660"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams용으로 인증된 USB 오디오 및 비디오 장치
 
@@ -149,8 +149,8 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 [Teams에서 헤드�
 |레 노 버               |Pro Wired VoIP 스테레오 헤드셋                              |12/21/2020      |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
 |많은                 |Savi Office 7320                                           |12/18/2020      |Microsoft Teams용 인증                           |
 |많은                 |Savi Office 7310                                           |12/18/2020      |Microsoft Teams용 인증                           |
-|Jabra                |Evolve 75e /SE 헤드셋                                         |12/16/2020      |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
-|Jabra                |Evolve 65e /SE 헤드셋                                         |12/16/2020      |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
+|Jabra                |Evolve 75e 헤드셋                                         |12/16/2020      |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
+|Jabra                |Evolve 65e 헤드셋                                         |12/16/2020      |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
 |Dell                 |C3422WE Monitor                                            |12/11/2020      |Microsoft Teams용 인증                           |
 |Dell                 |C2722DE 모니터                                            |12/11/2020      |Microsoft Teams용 인증                           |
 |Dell                 |C2422HE 모니터                                            |12/11/2020      |Microsoft Teams용 인증                           |
@@ -167,8 +167,8 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 [Teams에서 헤드�
 |EPOS/젠하이저      |USB-ED CC 01 MS 커넥터를 사용하여 SC 660에 미치는 영향               |8/20/2020       |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
 |EPOS/젠하이저      |USB-ED CC 01 MS 커넥터를 사용하는 SC 630에 영향               |8/20/2020       |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
 |EPOS/젠하이저      |USB-ED CC 01 MS 커넥터를 사용하는 SC 260에 영향               |8/20/2020       |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
-|Jabra                |Evolve 75 헤드셋                                          |7/31/2020       |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
-|Jabra                |Evolve 65 헤드셋                                          |7/31/2020       |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
+|Jabra                |Evolve 75 /SE 헤드셋                                          |7/31/2020       |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
+|Jabra                |Evolve 65 /SE 헤드셋                                          |7/31/2020       |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
 |Jabra                |50 헤드셋 참여                                          |7/31/2020       |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
 |Avocor               |WCD- AVW-6555                                              |7/30/2020       |Microsoft Teams용 인증                           |
 |Jabra                |Evolve2 85 헤드셋                                         |7/17/2020       |Microsoft Teams용 인증                           |

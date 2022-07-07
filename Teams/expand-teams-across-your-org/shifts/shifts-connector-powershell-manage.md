@@ -1,5 +1,5 @@
 ---
-title: PowerShell을 사용하여 Blue Yonder Workforce Management에 대한 교대 근무 연결 관리
+title: PowerShell을 사용하여 Blue Yonder Workforce Management 대한 Shifts 연결 관리
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: ''
@@ -8,25 +8,25 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: PowerShell을 사용하여 Blue Yonder Workforce Management에 대한 Shifts 연결을 관리하는 방법을 알아봅니다.
+description: PowerShell을 사용하여 Blue Yonder Workforce Management 대한 Shifts 연결을 관리하는 방법을 알아봅니다.
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a102001c9c35b3d93467a9955329ce9d314532d0
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: c4edf815a3ce21a820fa292a06d41275c97d78a5
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675370"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647814"
 ---
-# <a name="use-powershell-to-manage-your-shifts-connection-to-blue-yonder-workforce-management"></a>PowerShell을 사용하여 Blue Yonder Workforce Management에 대한 교대 근무 연결 관리
+# <a name="use-powershell-to-manage-your-shifts-connection-to-blue-yonder-workforce-management"></a>PowerShell을 사용하여 Blue Yonder Workforce Management 대한 Shifts 연결 관리
 
 ## <a name="overview"></a>개요
 
-[Blue Yonder용 Microsoft Teams Shifts 커넥터](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder)를 사용하면 Microsoft Teams Shifts 앱을 Blue Yonder WFM(Blue Yonder Workforce Management)과 통합할 수 있습니다. 연결을 설정한 후 일선 작업자는 Shifts 내에서 Blue Yonder WFM에서 일정을 원활하게 보고 관리할 수 있습니다.
+[Blue Yonder용 Microsoft Teams Shifts 커넥터](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder)를 사용하면 Microsoft Teams의 Shifts 앱을 Blue Yonder Workforce Management(Blue Yonder WFM)와 통합할 수 있습니다. 연결을 설정한 후 일선 작업자는 Shifts 내에서 Blue Yonder WFM 일정을 원활하게 보고 관리할 수 있습니다.
 
 Microsoft 365 관리 센터 또는 [PowerShell](shifts-connector-blue-yonder-powershell-setup.md)에서 [Shifts 커넥터 마법사](shifts-connector-wizard.md)를 사용하여 연결을 설정할 수 있습니다. 연결이 설정되면 [Shifts 커넥터 PowerShell cmdlet을](#shifts-connector-cmdlets) 사용하여 관리합니다.
 
@@ -40,7 +40,7 @@ Microsoft 365 관리 센터 또는 [PowerShell](shifts-connector-blue-yonder-pow
 - [연결에 동기화 사용 안 함](#disable-sync-for-a-connection)
 
 > [!NOTE]
-> 이 문서에서는 마법사 또는 PowerShell을 사용하여 Blue Yonder WFM에 대한 연결을 이미 설정했음을 가정합니다.
+> 이 문서에서는 마법사 또는 PowerShell을 사용하여 Blue Yonder WFM 대한 연결을 이미 설정했음을 가정합니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -53,7 +53,7 @@ Microsoft 365 관리 센터 또는 [PowerShell](shifts-connector-blue-yonder-pow
 
 [!INCLUDE [shifts-connector-set-up-environment](../../includes/shifts-connector-set-up-environment.md)]
 
-7. Teams 커넥트.
+7. Teams에 연결합니다.
 
     ```powershell
     Connect-MicrosoftTeams
@@ -101,7 +101,7 @@ Microsoft 365 관리 센터 또는 [PowerShell](shifts-connector-blue-yonder-pow
 
 ### <a name="user-mapping-errors"></a>사용자 매핑 오류
 
-Blue Yonder WFM 사이트의 한 명 이상의 사용자가 Teams 매핑된 팀의 구성원이 아닌 경우 사용자 매핑 오류가 발생할 수 있습니다. 이 문제를 해결하려면 매핑된 팀의 사용자가 Blue Yonder WFM 사이트의 사용자와 일치하는지 확인합니다.
+Blue Yonder WFM 인스턴스에 있는 하나 이상의 사용자가 Teams에서 매핑된 팀의 구성원이 아닌 경우 사용자 매핑 오류가 발생할 수 있습니다. 이 문제를 해결하려면 매핑된 팀의 사용자가 Blue Yonder WFM 인스턴스의 사용자와 일치하는지 확인합니다.
 
 매핑되지 않은 사용자의 세부 정보를 보려면 [환경을 설정한](#set-up-your-environment) 다음(아직 없는 경우) 다음 스크립트를 실행합니다.
 
@@ -158,12 +158,12 @@ Blue Yonder WFM 서비스 계정 또는 Microsoft 365 시스템 계정 자격 �
 ## <a name="change-connection-settings"></a>연결 설정 변경
 <a name="change_settings"> </a>
 
-이 스크립트를 사용하여 연결 설정을 변경합니다. 변경할 수 있는 설정 Blue Yonder WFM 서비스 계정 및 암호, Microsoft 365 시스템 계정, 팀 매핑 및 동기화 설정이 포함됩니다.
+이 스크립트를 사용하여 연결 설정을 변경합니다. 변경할 수 있는 설정에는 Blue Yonder WFM 서비스 계정 및 암호, Microsoft 365 시스템 계정, 팀 매핑 및 동기화 설정이 포함됩니다.
 
-동기화 설정에는 동기화 빈도(분)와 Blue Yonder WFM과 Shifts 간에 동기화되는 일정 데이터가 포함됩니다. 일정 데이터는 [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector)를 실행하여 볼 수 있는 다음 매개 변수에 정의되어 있습니다.
+동기화 설정에는 동기화 빈도(분)와 Blue Yonder WFM 및 Shifts 간에 동기화되는 일정 데이터가 포함됩니다. 일정 데이터는 [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector)를 실행하여 볼 수 있는 다음 매개 변수에 정의되어 있습니다.
 
-- **enabledConnectorScenarios** 매개 변수는 Blue Yonder WFM에서 Shifts로 동기화되는 데이터를 정의합니다. 옵션은 ,, `SwapRequest`, `UserShiftPreferences``OpenShift``OpenShiftRequest`, `TimeOff`, `TimeOffRequest`입니다.`Shift`
-- **enabledWfiScenarios** 매개 변수는 Shifts에서 Blue Yonder WFM으로 동기화되는 데이터를 정의합니다. `SwapRequest`옵션은 , `OpenShiftRequest`, `TimeOffRequest``UserShiftPreferences`.
+- **enabledConnectorScenarios** 매개 변수는 Blue Yonder WFM Shifts로 동기화되는 데이터를 정의합니다. 옵션은 ,, `SwapRequest`, `UserShiftPreferences``OpenShift``OpenShiftRequest`, `TimeOff`, `TimeOffRequest`입니다.`Shift`
+- **enabledWfiScenarios** 매개 변수는 Shifts에서 Blue Yonder WFM 동기화되는 데이터를 정의합니다. `SwapRequest`옵션은 , `OpenShiftRequest`, `TimeOffRequest``UserShiftPreferences`.
 
     > [!NOTE]
     > 교대 근무 열기, 교대 근무 요청 열기, 교환 요청 또는 Shifts와 Blue Yonder WFM 간의 시간 쉬는 요청을 동기화하지 않도록 선택하는 경우 Shifts에서 기능을 숨기기 위해 수행해야 하는 또 다른 단계가 있습니다. 이 스크립트를 실행한 후 이 문서의 뒷부분에 있는 [열린 교대 근무 사용 안 함, 교대 근무 요청 열기, 요청 교환 및 시간 끄기 요청](#disable-open-shifts-open-shifts-requests-swap-requests-and-time-off-requests) 섹션의 단계를 수행해야 합니다.
@@ -275,13 +275,13 @@ Write-Host "Success"
 > [!IMPORTANT]
 > 이 문서의 앞부분에 있는 [연결 설정 변경](#change-connection-settings) 섹션의 스크립트를 사용하거나 [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance) cmdlet을 사용하여 열린 교대 근무를 사용하지 않도록 설정하거나, 교대 근무 요청을 열거나, 요청을 교환하거나, 쉬는 시간 요청을 사용하지 않도록 선택한 경우에만 다음 단계를 수행합니다. 이 단계를 완료하면 Shifts의 기능이 숨겨지게 됩니다. 이 두 번째 단계가 없으면 사용자는 Shifts의 기능을 계속 볼 수 있으며 이를 사용하려고 하면 "지원되지 않는 작업" 오류 메시지가 표시됩니다.
 
-Shifts에서 열린 교대 근무, 교환 요청 및 시간 끄기 요청을 숨기려면 Graph API [일정 리소스 유형을](/graph/api/resources/schedule) 사용하여 Blue Yonder WFM 사이트에 매핑한 각 팀에 대해 다음 매개 변수 ```false``` 를 설정합니다.
+Shifts에서 열린 교대 근무, 교환 요청 및 시간 쉬는 요청을 숨기려면 Graph API [일정 리소스 유형을](/graph/api/resources/schedule) 사용하여 Blue Yonder WFM 인스턴스에 매핑한 각 팀에 대해 다음 매개 변수 ```false``` 를 설정합니다.
 
 - 교대 근무 열기: ```openShiftsEnabled```
 - 교환 요청:  ```swapShiftsRequestsEnabled```
 - 시간 제한 요청: ```timeOffRequestsEnabled```
 
-Shifts에서 열린 교대 근무 요청을 숨기려면 Shifts의 **설정** 이동한 다음 **교대 근무 열기** 설정을 끕니다.
+Shifts에서 열린 교대 근무 요청을 숨기려면 Shifts의 **설정** 으로 이동한 다음 **교대 근무 열기** 설정을 해제합니다.
 
 ## <a name="unmap-a-team-from-one-connection-and-map-it-to-another-connection"></a>한 연결에서 팀 매핑 해제 및 다른 연결에 매핑
 
@@ -393,7 +393,7 @@ Shifts 커넥터 cmdlet에 대한 도움말을 보려면 [Teams PowerShell cmdle
 ## <a name="related-articles"></a>관련 기사
 
 - [Shifts 커넥터](shifts-connectors.md)
-- [Shifts 커넥터 마법사를 사용하여 Shifts를 Blue Yonder Workforce Management에 연결](shifts-connector-wizard.md)
-- [PowerShell을 사용하여 Blue Yonder Workforce Management에 교대 근무 연결](shifts-connector-blue-yonder-powershell-setup.md)
+- [Shifts 커넥터 마법사를 사용하여 Shifts를 Blue Yonder Workforce Management 연결](shifts-connector-wizard.md)
+- [PowerShell을 사용하여 Shifts를 Blue Yonder Workforce Management 연결](shifts-connector-blue-yonder-powershell-setup.md)
 - [Shifts 앱 관리](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Teams PowerShell 개요](../../teams-powershell-overview.md)

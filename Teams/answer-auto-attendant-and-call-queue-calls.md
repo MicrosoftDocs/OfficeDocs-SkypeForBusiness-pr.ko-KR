@@ -8,7 +8,7 @@ audience: ITPro
 ms.date: 09/20/2018
 ms.topic: conceptual
 ms.service: msteams
-description: 클라우드 자동 전화 교환 및 통화 큐에 대해 설명하고 Teams 이러한 호출에 응답하는 방법을 설명합니다.
+description: 클라우드 자동 전화 교환 및 통화 큐에 대해 설명하고 Teams에서 이러한 통화에 응답하는 방법을 설명합니다.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 595be9303c0d9732c3e2580b06bf3a0a55a27088
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
+ms.openlocfilehash: 1a9058dbd583c9d795d04f27b43995c75095e80d
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853079"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647670"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>자동 전화 교환에 응답하고 Teams에서 직접 큐에 전화 걸기
 
@@ -48,7 +48,9 @@ Teams 사용자는 클라우드 자동 전화 교환에서 전화를 받고 응�
 
 > [!NOTE] 
 > 통화 큐 호출은 사용자의 통화 응답 규칙 구성에 따라 전달되지 않습니다. 이는 에이전트가 통화에 응답할 수 있고 호출자가 예기치 않게 전달되지 않을 때까지 호출자가 큐에 남아 있도록 하기 위한 것입니다.
-
+>
+> 자동 전화 교환 및 통화 큐에서 전화를 받는 사용자는 PSTN에서 제공된 경우 또는 호출자의 번호가 대상 사용자의 로컬 팀의 클라이언트 연락처와 일치하는 경우에만 호출자의 이름이 표시됩니다.
+>
 > 에이전트는 통화 큐 호출에 대한 부재 중 통화 또는 음성 메일에 대한 알림을 받지 않습니다.
 
 ## <a name="supported-clients"></a>지원되는 클라이언트
@@ -60,11 +62,11 @@ Teams 사용자는 클라우드 자동 전화 교환에서 전화를 받고 응�
 -    Microsoft Teams iPhone 앱
 -    Microsoft Teams Android 앱
 
-Teams 클라이언트는 [Teams 전용의 공존 모드](/microsoftteams/setting-your-coexistence-and-upgrade-settings)에서만 지원됩니다.
+Teams 클라이언트는 [Teams만의 공존 모드](/microsoftteams/setting-your-coexistence-and-upgrade-settings)에서만 지원됩니다.
 
-## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Microsoft Teams 대한 자동 전화 교환 및 통화 큐 지원 구성
+## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Microsoft Teams에 대한 자동 전화 교환 및 통화 큐 지원 구성
 
-Microsoft Teams 자동 전화 교환 및 통화 큐 호출을 받으려면 상호 운용성 정책 및 업그레이드 정책을 구성해야 합니다. [비즈니스용 Skype 함께 Teams 사용하는 조직의 마이그레이션 및 상호 운용성을](migration-interop-guidance-for-teams-with-skype.md) 검토하세요. 자동 전화 교환 및/또는 통화 큐가 구성되어 있지 않고 이렇게 하려면 [클라우드 자동 전화 교환 설정](create-a-phone-system-auto-attendant.md) 및 [클라우드 호출 큐 만들기를](create-a-phone-system-call-queue.md) 참조하세요.
+Microsoft Teams에서 자동 전화 교환 및 통화 큐 호출을 받으려면 상호 운용성 정책 및 업그레이드 정책을 구성해야 합니다. [비즈니스용 Skype 함께 Teams를 사용하는 조직의 마이그레이션 및 상호 운용성을](migration-interop-guidance-for-teams-with-skype.md) 검토하세요. 자동 전화 교환 및/또는 통화 큐가 구성되어 있지 않고 이렇게 하려면 [클라우드 자동 전화 교환 설정](create-a-phone-system-auto-attendant.md) 및 [클라우드 호출 큐 만들기를](create-a-phone-system-call-queue.md) 참조하세요.
 
 ## <a name="known-issues"></a>알려진 문제
 

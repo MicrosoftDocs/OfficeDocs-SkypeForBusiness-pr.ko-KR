@@ -19,12 +19,12 @@ description: Teams 앱을 관리하는 방법을 알아봅니다. 앱을 허용�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 82ab9372f925e40beac41d4075b49b34118f8851
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 92f7c6d69fbc9f680c204f0210aaa80742dd6384
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616054"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647750"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 Teams 앱 관리
 
@@ -62,7 +62,7 @@ Teams 관리 센터를 사용하려면 전역 관리 또는 Teams 관리자 역�
 | 업데이트 정책은 Teams 앱에서 시험판 또는 미리 보기 기능을 볼 수 있는 Teams 및 Office 미리 보기 사용자를 관리하는 데 사용됩니다.  | [Teams 업데이트 정책](https://admin.teams.microsoft.com/policies/updatemanagement) | [Teams 공개 미리 보기](public-preview-doc-updates.md) |
 | **Teams 관리 센터 외부** | | |
 | Microsoft 365 관리 센터 타사 앱의 라이선스 및 구독 관리 | [Microsoft 365 관리 센터](https://admin.microsoft.com/#/licenses) | [타사 앱 구독 관리](/microsoft-365/commerce/manage-saas-apps) |
-| Microsoft Purview 규정 준수 포털 Teams 앱 이벤트를 감사합니다. | [감사](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Teams 활동](audit-log-events.md#teams-activities) |
+| Microsoft Purview 규정 준수 포털 Teams 앱 이벤트를 감사합니다. | [감사](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Teams 활동](audit-app-management-activities.md) |
 | 애플리케이션은 세 가지 방법으로 조직 및 해당 데이터에 대한 권한을 부여할 수 있습니다. 즉, 모든 사용자에 대한 애플리케이션에 대한 관리자 동의, 사용자가 애플리케이션에 동의를 부여하거나, 애플리케이션을 통합하고 셀프 서비스 액세스를 사용하도록 설정하거나 사용자를 애플리케이션에 직접 할당하는 관리자입니다. 앱에 대한 그래프 권한을 확인합니다. 사용자가 제공한 사용 권한 또는 관리자가 위임한 권한을 확인합니다. | [Azure AD 포털](https://aad.portal.azure.com/) | [애플리케이션에 부여된 사용 권한 검토](/azure/active-directory/manage-apps/manage-application-permissions) |
 
 <!---
