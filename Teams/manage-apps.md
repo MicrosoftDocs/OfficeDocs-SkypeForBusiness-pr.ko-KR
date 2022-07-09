@@ -19,12 +19,12 @@ description: Teams 앱을 관리하는 방법을 알아봅니다. 앱을 허용�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 92f7c6d69fbc9f680c204f0210aaa80742dd6384
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: f9bf05364ae990930da89a64643fa86b2b0467c4
+ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647750"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "66695071"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 Teams 앱 관리
 
@@ -119,7 +119,7 @@ Teams 관리 센터를 사용하려면 전역 관리 또는 Teams 관리자 역�
 
  1. Teams 관리 센터에 로그인하고 [앱 관리를](https://admin.teams.microsoft.com/policies/manage-apps) 선택합니다.
 
-    :::image type="content" source="media/requested-apps1.png" alt-text="사용자의 요청" lightbox="media/requested-apps.png" border="true":::
+    :::image type="content" source="media/requested-apps1.png" alt-text="차단된 앱에 대한 최종 사용자 요청은 사용자의 요청이라는 열의 Teams 관리 센터에 표시됩니다." lightbox="media/requested-apps.png":::
 
  1. 각 앱에 대한 요청 수를 보고 확인하려면 사용자 열별로 요청의 요청을 정렬 **합니다** .
  1. 차단을 해제하려는 앱의 이름을 선택하면 앱 세부 정보 페이지가 열립니다.

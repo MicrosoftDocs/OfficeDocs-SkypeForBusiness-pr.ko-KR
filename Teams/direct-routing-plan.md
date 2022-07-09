@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft 직접 라우팅을 통해 지원되는 고객 제공 SBC(세션 테두리 컨트롤러)를 전화 시스템에 연결할 수 있는 방법을 알아봅니다.
-ms.openlocfilehash: a5ccb8534ed8772124ae6e2506af81e5b63134d0
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: fd5f2733fc11511e6cfc2e646c0bb78aff26b522
+ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682517"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "66695061"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -160,6 +160,9 @@ contoso.com|예|**유효한 이름:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.c
 
 SBC에는 하나의 FQDN만 필요하며 쌍을 이루는 테넌트의 모든 주소 공간에서 사용자를 서비스할 수 있습니다. 예를 들어 이름이 sbc1.contoso.com SBC는 주소가 user@contoso.com 사용자에 대해 PSTN 트래픽을 수신하고 보낼 수 있으며, 이러한 SIP 주소 공간이 동일한 테넌트에 등록되어 있는 한 user@fabrikam.com 수 있습니다.  
 
+ > [!NOTE]
+ > Azure Communication Services 직접 라우팅의 SBC FQDN은 Teams 직접 라우팅의 SBC FQDN과 달라야 합니다.
+  
 ## <a name="public-trusted-certificate-for-the-sbc"></a>SBC에 대한 신뢰할 수 있는 공용 인증서
 
 CSR(인증 서명 요청)을 생성하여 SBC에 대한 인증서를 요청하는 것이 좋습니다. SBC용 CSR 생성에 대한 구체적인 지침은 SBC 공급업체에서 제공하는 상호 연결 지침 또는 설명서를 참조하세요. 
