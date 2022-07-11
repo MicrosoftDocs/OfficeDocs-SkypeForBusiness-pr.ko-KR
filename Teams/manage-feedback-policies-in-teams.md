@@ -17,16 +17,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 피드백 정책을 사용하여 조직의 Teams 사용자가 Teams에 대한 피드백을 Microsoft에 제출할 수 있는지 여부를 제어하는 방법을 알아봅니다.
-ms.openlocfilehash: 206533faba3ae7c79c5e6bed54eb738061ed37bb
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 7fcfa1738f7dbbc0f7c70afec86e9e2f181d6d21
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562447"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713346"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Microsoft Teams에서 피드백 정책 관리
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 조직의 사용자는 Microsoft Teams에 대한 피드백을 보내 Teams 데스크톱, 웹 클라이언트 및 모바일 내에서 직접 수행하는 방법을 알려줄 수 있습니다. Teams 환경을 지속적으로 개선하고 있으며 이 피드백을 사용하여 Teams를 개선합니다.
 

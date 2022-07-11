@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52e4a9df0daded1a1091c32790dae2c15294529d
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 3c94b1c7f33de136eea33ec7905e1e37a9ceb0e2
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922499"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713366"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange와 Microsoft Teams의 상호 작용 방법
 
@@ -45,7 +45,7 @@ Exchange Online 전용(레거시)에서 호스트되는 사용자는 Microsoft 3
 
 **지원되는 작업:**
 
-| 사용자의 사서함은 다음에서 호스트됩니다.                                       | eDiscovery         | 법적&nbsp;보존    | 보존        | 팀 및 채널 관리 | Teams에서 모임 만들기 및 보기 | 사용자 프로필 사진 수정 | 통화 기록 | 연락처 관리 | Outlook 연락처 액세스 | 음성 메일        | 커넥터 추가 및 구성 | 탭 추가 및 구성 | 봇 추가 및 구성 | Office 설정 수정 |
+| 사용자의 사서함은 다음에서 호스트됩니다.                                       | eDiscovery         | 법적&nbsp;보존    | 보존        | 팀 및 채널 관리 | Teams에서 모임 만들기 및 보기 | 사용자 프로필 사진 수정 | 통화 기록 | 연락처 관리 | Outlook 연락처 액세스 | 음성 메일        | 커넥터 추가 및 구성 | 탭 추가 및 구성 | 봇 추가 및 구성 | Office 외부 설정 수정 |
 |--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|------------------------|
 | **Exchange Online**                                                | 예 <sup>1</sup>   | 예 <sup>1</sup>   | 예              | 예                   | 예                               | 예<sup>7</sup>             | 예          | 예             | 예 <sup>6</sup>        | 예              | 예                          | 예                    | 예                    | 예                    
 | **Exchange Online 전용 vNext**                                | 예 <sup>1</sup>   | 예 <sup>1</sup>   | 예              | 예                   | 예                               | 예<sup>7</sup>             | 예          | 예             | 예 <sup>6</sup>        | 예              | 예                          | 예                    | 예                    | 예                    
@@ -60,7 +60,7 @@ Exchange Online 전용(레거시)에서 호스트되는 사용자는 Microsoft 3
 
 <sup>4</sup> 온-프레미스 Exchange 사서함이 있는 Teams 사용자는 Teams를 사용하여 음성 사서함을 사용하고 Outlook에서 음성 메일을 받을 수 있지만 음성 메일 메시지는 Teams 클라이언트 내에서 보거나 재생할 수 없습니다.
 
-<sup>5</sup> 팀의 소유자 중 한 명이 커넥터를 추가할 수 있는 경우, 해당 팀의 다른 사용자 모두가 사서함이 온-프레미스 상태에 있더라도 이 작업을 수행할 수 있습니다.
+<sup>5</sup> 팀의 소유자 중 한 명이 커넥터를 추가할 수 있는 경우 사서함이 온-프레미스인지 온라인인지에 관계없이 해당 팀의 다른 모든 사용자가 커넥터를 추가할 수 있습니다.
 
 <sup>6</sup> 기본 연락처 폴더의 연락처만 있습니다. 다른 연락처 폴더 또는 하위 폴더에 대한 액세스는 지원되지 않습니다.
 
@@ -70,9 +70,9 @@ Exchange Online 전용(레거시)에서 호스트되는 사용자는 Microsoft 3
 
 <sup>9</sup> 최소 Exchange Online 플랜 1 라이선스도 필요합니다. 자세한 내용은 [온-프레미스 사용자에 대한 Teams 채팅 데이터 검색을 참조하세요](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users).
 
-<sup>10</sup> 온-프레미스 사용자는 웹 사서함 정책의 Outlook 설정된 경우에도 `SetPhotoEnabled` Teams 사용하여 프로필 사진을 업데이트할 `false`수 있습니다.
+<sup>10</sup> 온-프레미스 사용자는 웹용 Outlook 사서함 정책이 설정된 경우에도 `SetPhotoEnabled` Teams를 사용하여 프로필 사진을 업데이트할 `false`수 있습니다.
  > [!NOTE]
- > Teams 클라이언트를 통한 OOF(Office 설정)는 현재 사서함이 온-프레미스에서 호스트되는 사용자에 대해 지원되지 않습니다. 이러한 사용자는 Outlook 클라이언트를 통해 이 작업을 수행해야 합니다.
+ > Teams 클라이언트를 통한 OOF(부재 중) 설정은 현재 사서함이 온-프레미스에서 호스트되는 사용자에 대해 지원되지 않습니다. 이러한 사용자는 Outlook 클라이언트를 통해 이 작업을 수행해야 합니다.
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Microsoft Teams를 최대한 활용하기 위한 요구 사항
 
 Microsoft Teams는 다양한 Microsoft 365 및 Office 365 서비스와 작동하여 사용자에게 풍부한 환경을 제공합니다. 이 환경을 지원하려면 특정 기능이나 서비스를 사용하도록 설정하고 라이선스를 할당해야 합니다.
@@ -91,7 +91,7 @@ Microsoft Teams는 다양한 Microsoft 365 및 Office 365 서비스와 작동하
 ## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>온-프레미스에서 호스트되는 사서함에 대한 모임 만들기 및 보기 요구 사항
 
   > [!NOTE]
-  > 온-프레미스에서 호스트되는 사서함에 대한 모임 만들기 및 보기는 현재 상업, GCC 및 GCC 높은 환경 내에서만 지원됩니다.
+  > 온-프레미스에서 호스트되는 사서함에 대한 모임 만들기 및 보기는 현재 가상, GCC 및 GCC High 환경 내에서만 지원됩니다.
 
 사서함이 온-프레미스에서 호스트되는 경우 모임을 만들고 보려면 다음 요구 사항을 충족해야 합니다.
 
@@ -101,7 +101,7 @@ Microsoft Teams는 다양한 Microsoft 365 및 Office 365 서비스와 작동하
 
 - 사서함은 Exchange Server 2016 누적 업데이트 3 이상에서 호스트됩니다.
 
-- 자동 검색 및 Exchange 웹 서비스가 외부에 게시됩니다. 온-프레미스 자동 검색 및 Exchange Web Services 엔드포인트에 액세스해야 하는 Microsoft 365 서비스에 대한 자세한 내용은 [Office 365 IP 주소 및 URL 웹 서비스에 포함되지 않은 다른 엔드포인트](/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls)를 참조하세요.
+- 자동 검색 및 Exchange 웹 서비스는 외부에 게시됩니다. 온-프레미스 자동 검색 및 Exchange Web Services 엔드포인트에 액세스해야 하는 Microsoft 365 서비스에 대한 자세한 내용은 [Office 365 IP 주소 및 URL 웹 서비스에 포함되지 않은 다른 엔드포인트](/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls)를 참조하세요.
 
 - OAuth 인증은 전체 하이브리드 구성(클래식 또는 최신)을 실행하는 Exchange 하이브리드 구성 마법사를 통해 구성하는 것이 좋습니다. 하이브리드 구성 마법사를 사용할 수 없는 경우, [Exchange 및 Exchange Online 조직 간의 OAuth 인증 구성](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)에 설명된 대로 OAuth 인증을 구성합니다.
 
@@ -114,12 +114,12 @@ Microsoft Teams는 다양한 Microsoft 365 및 Office 365 서비스와 작동하
 
 이러한 사용자에 대해 일정 위임을 사용하려면 다음을 수행합니다.
 
-- 또한 [비즈니스용 Skype Online과 Exchange Server 간의 통합 및 OAuth 구성](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)에 설명된 대로 단계를 완료해야 합니다. 이러한 단계는 Teams 예약 애플리케이션에 대리자 권한을 확인하는 데 필요한 권한을 제공합니다.
+- 또한 [비즈니스용 Skype Online과 Exchange Server 간의 통합 및 OAuth 구성](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)에 설명된 대로 단계를 완료해야 합니다. 이러한 단계는 Teams 예약 애플리케이션에 위임 권한을 확인하는 데 필요한 권한을 제공합니다.
  
   > [!NOTE]
   > 2단계에는 위임에 필요하지 않은 ArchiveApplication에 대한 역할 할당이 포함됩니다.
 
-- Outlook 대한 Teams 예약 추가 기능을 사용하려면 다른 사람을 대신하여 모임을 예약할 때 Exchange 2013 CU19 이상이 필요합니다. 이는 서비스에서 사서함의 인증되지 않은 검색을 지원하여 위임자 사서함에 대한 대리인 권한을 검사하는 작업입니다. 대리인 및 위임자 위치는 Exchange 2013 이상 또는 Exchange Online일 수 있지만, 자동 검색은 Exchange 2013 CU19 이상으로 확인해야 합니다.
+- Outlook용 Teams 예약 추가 기능을 사용하려면 다른 사람을 대신하여 모임을 예약할 때 Exchange 2013 CU19 이상이 필요합니다. 이는 서비스에서 사서함의 인증되지 않은 검색을 지원하여 위임자 사서함에 대한 대리인 권한을 검사하는 작업입니다. 대리인 및 위임자 위치는 Exchange 2013 이상 또는 Exchange Online일 수 있지만, 자동 검색은 Exchange 2013 CU19 이상으로 확인해야 합니다.
 
 ## <a name="additional-considerations"></a>추가 고려 사항
 
@@ -131,7 +131,7 @@ Microsoft Teams는 다양한 Microsoft 365 및 Office 365 서비스와 작동하
 
 - 조직에서 모든 모임 토론을 검색할 수 있도록 하는 규정 준수 요구 사항이 있는 경우, 이끌이에게 Exchange 온-프레미스 사서함이 있으면 비공개 모임을 사용하지 않도록 설정해야 합니다. 자세한 내용은 [비공개 모임 일정을 참조하세요](./meeting-policies-in-teams-general.md#private-meeting-scheduling).
 
-- Exchange 하이브리드 배포에서는 채팅 참가자가 클라우드 기반 사서함 혹은 온-프레미스 사서함을 보유했는지에 관계 없이 채팅 메시지의 콘텐츠를 검색할 수 있습니다. 자세한 내용은 [온-프레미스 사용자에 대한 클라우드 기반 사서함 검색](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)을 참조하세요. Teams 콘텐츠를 검색하는 방법을 알아보려면 [Microsoft Purview 규정 준수 포털에서 콘텐츠 검색을](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups) 읽어보세요.
+- Exchange 하이브리드 배포에서는 채팅 참가자가 클라우드 기반 사서함 혹은 온-프레미스 사서함을 보유했는지에 관계 없이 채팅 메시지의 콘텐츠를 검색할 수 있습니다. 자세한 내용은 [온-프레미스 사용자에 대한 클라우드 기반 사서함 검색](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)을 참조하세요. Teams에서 콘텐츠를 검색하는 방법을 알아보려면 [Microsoft Purview 규정 준수 포털 콘텐츠 검색을](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups) 읽어보세요.
 
 - 현재 상태를 확인하려면 Microsoft Teams에서 사서함이 Exchange Online 또는 온-프레미스에 호스트되는지 확인해야 합니다. 그런 다음 서비스는 사서함에 액세스하는 위치를 결정합니다. Teams 서비스에서 Exchange Online 서비스에 대한 REST API 호출을 통해 사서함 위치를 확인할 수 있도록 하려면 [하이브리드 구성 마법사를 사용하여 하이브리드 배포 만들기](/exchange/hybrid-deployment/deploy-hybrid)에 설명 된 대로 Exchange 하이브리드 구성 마법사를 실행하여 Exchange 하이브리드 환경을 배포해야 합니다. 
 

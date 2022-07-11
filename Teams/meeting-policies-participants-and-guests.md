@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 참가자 및 게스트에 대한 Teams에서 모임 정책 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 5770c4d998a28edf2b8fc8131650b98420e826f9
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 7f9cb76e12671425ee2b7b0543263195796e04d5
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241137"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713356"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>모임 정책 설정 - 참가자 및 게스트
 
@@ -112,9 +112,11 @@ ms.locfileid: "66241137"
 
 ## <a name="qa-in-meetings"></a>모임의 Q&A
 
-이 설정은 이끌이별 정책입니다. 이 설정은 이끌이가 Q&A 환경을 모임에 추가할 수 있는지 여부를 제어합니다. 기본적으로 이 설정은 꺼져 잇습니다. [Q](/manage-qna-for-meetings)&A에 대해 자세히 알아보세요. 
+이 설정은 이끌이별 정책입니다. 이 설정을 사용하면 Microsoft 365 테넌트 관리자가 질문 & 답변 환경을 사용하거나 사용하지 않도록 설정할 수 있습니다(Q&A).
 
-매개 변수 QnAEngagementMode는 PowerShell 및 Q&A에서 이 정책을 제어하며 관리 포털 내에서도 조정할 수 있습니다.
+이 설정은 모임을 만들거나 이끌이가 업데이트할 때 적용됩니다. 기본적으로 이 설정은 꺼져 잇습니다. [Q](/manage-qna-for-meetings)&A에 대해 자세히 알아보세요.
+
+매개 변수 QnAEngagementMode는 PowerShell에서 이 정책을 제어합니다. Q&A는 관리 포털 내에서도 조정할 수 있습니다.
 
 |설정값 |동작  |
 |---------|---------|

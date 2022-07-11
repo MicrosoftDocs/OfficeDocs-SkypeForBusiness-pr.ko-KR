@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6015c7b7cf1e7be5bc6b9b3e1fe0577a7f707377
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: 5b9c049942808da9b2df97d031ff850949bca211
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564146"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713316"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft Teams에서 QoS(서비스 품질) 구현
 
@@ -151,7 +151,7 @@ _권장되는 초기 포트 범위_
 
 - 모바일 클라이언트 및 Teams 디바이스를 포함한 모든 클라이언트는 이러한 포트 범위를 사용하며 이러한 원본 포트 범위를 사용하는 구현하는 모든 DSCP 정책의 영향을 받습니다. 동적 포트를 계속 사용하는 유일한 클라이언트는 브라우저 기반 클라이언트(참가자가 브라우저를 사용하여 모임에 참가할 수 있도록 하는 클라이언트)입니다.
 
-- Mac 클라이언트는 동일한 포트 범위를 사용하지만 오디오(EF) 및 비디오(AF41)에도 하드 코딩된 값을 사용합니다. 이러한 값은 구성할 수 없습니다.
+- Mac 클라이언트는 동일한 포트 범위를 사용하지만 오디오(EF) 및 AF41(비디오 및 애플리케이션/화면 공유)에도 하드 코딩된 값을 사용합니다. 이러한 값은 구성할 수 없습니다.
 
 - 나중에 사용자 환경을 개선하기 위해 포트 범위를 조정해야 하는 경우 포트 범위는 겹칠 수 없으며 서로 인접해야 합니다.
 

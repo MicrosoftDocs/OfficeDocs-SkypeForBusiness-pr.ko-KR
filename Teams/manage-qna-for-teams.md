@@ -15,16 +15,16 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 description: IT 관리자가 질문 수집, 토론 구성, 개별 메시지 삭제, 사용 가능한 언어 사용, 데이터 보존 및 삭제 정책 이해에 대한 구조화된 접근 방식을 위해 Teams Q&A에서 Q&A를 설정, 사용 및 관리하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 17de45280809ae6c5fffdce64067fe97020965ec
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 387f66967a4448ff15374d6765e10ae25a72d7c0
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494845"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713446"
 ---
 # <a name="manage-qa-in-teams-meetings"></a>Teams 모임에서 Q&A 관리
 
-Q&A는 참가자가 질문에 대한 공식적으로 질문하고 답변을 받고 구조화된 토론에 참여할 수 있는 기회를 제공하는 통합 모임 환경입니다. 이 환경은 10명 이상의 참가자가 있는 모임에 대한 모범 사례입니다.
+Q&A를 사용하면 발표자가 참석자의 질문을 받아 실시간으로 답변할 수 있습니다. 이 기능은 타운 홀, 웨비나, 모든 손, 교육 등 구조화된 대규모 모임에 가장 적합합니다.
 
 이 문서에서는 이끌이가 모임에서 Teams Q&A를 사용하도록 설정할 수 있는지 여부를 결정하는 Q&A 및 사용자 수준 정책을 관리하는 방법을 설명합니다.
 
@@ -46,9 +46,6 @@ Q&A는 다음 사용자 유형에서 사용할 수 있습니다.
 - 일반 사용자 - 테넌트에 Microsoft 365 자격 증명이 있는 사용자입니다.
 - 페더레이션된 사용자 - 다른 테넌트에 대한 Microsoft 365 자격 증명을 사용하는 사용자입니다.
 - 게스트 사용자 - Microsoft Teams, SharePoint 또는 Azure Active Directory에 추가하는 모든 게스트입니다.
-
-> [!NOTE]
-> Q&A는 현재 익명 사용자를 지원하지 않습니다.
 
 관리자가 Q&A를 사용하도록 설정하면 이끌이 역할이 있는 사용자는 모임을 만들거나 업데이트할 때 Q&A를 켤 수 있습니다. Teams 및 Outlook 모임 옵션을 통해 이끌이는 이전에 추가된 모임에서 Q&A를 제거하여 참석자가 이 기능을 사용하지 못하도록 할 수도 있습니다.
 
@@ -113,6 +110,7 @@ q&A용 eDiscovery는 다른 Yammer 콘텐츠에 대한 eDiscovery와 동일하�
 - 테넌트의 Teams 애플리케이션에서 Teams Q&A를 사용하는 경우 이 콘텐츠는 Yammer 네트워크의 구성 또는 존재 여부에 관계없이 eDiscovery에서 사용할 수 있습니다. 표준 Yammer 콘텐츠에 eDiscovery를 사용하려면 Yammer 네트워크가 [기본 모드](/yammer/configure-your-yammer-network/overview-native-mode)여야 합니다.
 - eDiscovery를 수행할 때 Yammer에서 또는 Teams의 Q&A를 통해 메시지가 생성되었는지 여부를 확인할 수 있습니다. 파일 메타데이터 섹션에서 항목 클래스 필드에서 해당 정보를 찾을 수 있습니다.
 - 조직에서 Yammer에서 제공하는 Teams Q&A를 사용하는 경우 Q&A에서 생성된 콘텐츠는 Yammer 콘텐츠로 간주되며 검색할 수 있습니다. Microsoft 365 앱의 eDiscovery에 대한 자세한 내용은 [Microsoft 365의 eDiscovery 솔루션을](/microsoft-365/compliance/ediscovery) 참조하세요.
+- 모임 이끌이가 익명 게시를 사용하도록 설정하면 참석자가 게시하는 질문이 eDiscovery에 대한 이끌이의 사서함에 수집됩니다.
 
 ## <a name="data-storage"></a>데이터 스토리지
 
