@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: cmdlet을 통해 자동 전화 교환을 구성하는 방법 알아보기
-ms.openlocfilehash: a3f669a6540e42cd0ff4a016da0215ca79f3bd22
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 4dccd4e5026d78dada222cedf98659cdcd5ce6e5
+ms.sourcegitcommit: 6fb15729b2ff5ca142cb90605f3c98112cb36804
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676619"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "66744324"
 ---
 # <a name="create-an-auto-attendant-via-cmdlets"></a>cmdlet을 통해 자동 전화 교환 만들기
 
@@ -52,7 +52,7 @@ ms.locfileid: "65676619"
 3. Microsoft Teams 전화 구입했습니다.
 4. [PowerShell cmdlet을 사용하여 통화 큐 만들기](create-a-phone-system-call-queue-via-cmdlets.md) 가이드에 따라 아래에 언급된 호출 큐가 이미 설정되었습니다.
 
-**참고**: 아래에서 참조하는 cmdlet 중 일부는 Teams PowerShell 모듈의 공개 미리 보기 버전에 포함될 수 있습니다. 자세한 내용은 [Teams PowerShell 공개 미리 보기 설치](teams-powershell-install.md)를 참조하고 [Microsoft Teams PowerShell 릴리스 정보를 참조하세요](teams-powershell-release-notes.md).
+**참고**: 아래에서 참조하는 cmdlet 중 일부는 Teams PowerShell 모듈의 공개 미리 보기 버전에 포함될 수 있습니다. 자세한 내용은 [Teams PowerShell 공개 미리 보기 설치](teams-powershell-install.md) 를 참조하고 [Microsoft Teams PowerShell 릴리스 정보](teams-powershell-release-notes.md)도 참조하세요.
 
 MicrosoftTeams 모듈이 이미 설치된 사용자는 최신 버전이 설치되어 있는지 확인해야 합니다 `Update-Module MicrosoftTeams` .
 
@@ -113,7 +113,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>리소스 계정 만들기 및 할당
 
-**참고**: 통화 큐가 자동 전화 교환으로 종료되므로 전화 번호가 필요하지 않습니다.
+**참고**: 전화 큐가 자동 전화 교환으로 종료되므로 여기에 전화 번호가 필요하지 않습니다.
 
 - ApplicationID
   - 자동 전화 교환: ce933385-9390-45d1-9512-c8d228074e07
@@ -211,7 +211,7 @@ $dialbynameAAMenuOption3 = New-CsAutoAttendantMenuOption -Action TransferCallToT
 $afterHoursMenuOption4 = New-CsAutoAttendantMenuOption -Action Announcement -DtmfResponse Tone4 -Prompt $addressPrompt
 ```
 
-### <a name="create-after-hours-menu-and-call-flow"></a>시간 후 만들기 메뉴 및 통화 Flow
+### <a name="create-after-hours-menu-and-call-flow"></a>시간 후 만들기 메뉴 및 통화 흐름
 
 ```PowerShell
 $afterHoursMenu = New-CsAutoAttendantMenu -Name "After Hours Menu" -MenuOptions @($afterHoursMenuOption1, $afterHoursMenuOption2, $dialbynameAAMenuOption3, $afterHoursMenuOption4) -Prompt $afterHoursMenuPrompt
@@ -288,7 +288,7 @@ New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID)
 ### <a name="get-list-of-unassigned-service-numbers"></a>할당되지 않은 서비스 번호 목록 가져오기
 
 ```PowerShell
-Get-CsOnlineTelephoneNumber -IsNotAssigned -InventoryType Service
+Get-CsPhoneNumberAssignment -PstnAssignmentStatus Unassigned -CapabilitiesContain VoiceApplicationAssignment
 ```
 
 #### <a name="assign-available-phone-number"></a>사용 가능한 전화 번호 할당
