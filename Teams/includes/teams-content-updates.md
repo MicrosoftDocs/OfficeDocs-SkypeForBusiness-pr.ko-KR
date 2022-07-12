@@ -3,6 +3,30 @@
 
 
 
+## <a name="week-of-july-04-2022"></a>2022년 7월 4일 주
+
+
+| 게시 날짜 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 7/5/2022 | [자동 전화 교환 및 통화 큐에 대한 PowerShell cmdlet 참조](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | 으로 바뀌었습니다 |
+| 7/5/2022 | [Microsoft Teams에 대한 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 으로 바뀌었습니다 |
+| 7/5/2022 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으로 바뀌었습니다 |
+| 7/5/2022 | [Microsoft Teams에서의 모임 및 회의](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 으로 바뀌었습니다 |
+| 7/5/2022 | [세션 테두리 컨트롤러 구성 - 여러 테넌트](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 으로 바뀌었습니다 |
+| 7/5/2022 | [Teams 자동 전화 교환 및 통화 큐 계획](/MicrosoftTeams/plan-auto-attendant-call-queue) | 으로 바뀌었습니다 |
+| 7/5/2022 | [모임, 웨비나 및 라이브 이벤트](/MicrosoftTeams/quick-start-meetings-live-events) | 으로 바뀌었습니다 |
+| 7/5/2022 | [리소스 계정 라이선스 Microsoft Teams 전화](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | 으로 바뀌었습니다 |
+| 7/5/2022 | [Teams 음성 Contoso 사례 연구: 자동 전화 교환 및 통화 큐](/MicrosoftTeams/voice-case-study-call-queues) | 으로 바뀌었습니다 |
+| 7/5/2022 | [앱 관리 이벤트에 대한 감사 로그 검색](/MicrosoftTeams/audit-app-management-activities) | 추가 |
+| 7/6/2022 | [Microsoft Teams의 교육 인사이트에 대한 IT 관리자 가이드](/MicrosoftTeams/class-insights) | 으로 바뀌었습니다 |
+| 7/6/2022 | [PowerShell을 사용하여 Shifts를 Blue Yonder Workforce Management 연결](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup) | 으로 바뀌었습니다 |
+| 7/6/2022 | [Shifts 커넥터 마법사를 사용하여 Shifts를 Blue Yonder Workforce Management 연결](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-wizard) | 으로 바뀌었습니다 |
+| 7/6/2022 | [조직에서 발신자 ID를 사용하는 방법](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | 으로 바뀌었습니다 |
+| 7/7/2022 | Microsoft Teams에서 통화 이해 | 제거 |
+| 7/7/2022 | [Microsoft 365용 통화 플랜](/MicrosoftTeams/calling-plans-for-office-365) | 으로 바뀌었습니다 |
+| 7/8/2022 | [Microsoft Teams 및 Bookings 앱을 통한 가상 약속](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | 으로 바뀌었습니다 |
+
+
 ## <a name="week-of-june-27-2022"></a>2022년 6월 27일 주
 
 
@@ -85,22 +109,3 @@
 | 6/10/2022 | [Microsoft Teams에서 최전방 작업자를 위한 대규모 팀 배포](/MicrosoftTeams/deploy-teams-at-scale) | 으로 바뀌었습니다 |
 | 6/10/2022 | [Business Voice에서 Teams Phone 라이선스로 이동](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | 추가 |
 | 6/10/2022 | [Teams 룸 디바이스가 타사 모임에 참가하도록 설정](/MicrosoftTeams/rooms/third-party-join) | 으로 바뀌었습니다 |
-
-
-## <a name="week-of-may-30-2022"></a>2022년 5월 30일 주
-
-
-| 게시 날짜 |토픽 제목 | 변경 |
-|------|------------|--------|
-| 5/31/2022 | [조직의 업데이트 앱 관리](/MicrosoftTeams/manage-updates-app) | 추가 |
-| 5/31/2022 | [Teams에서 앱 스토어 사용자 지정](/MicrosoftTeams/customize-your-app-store) | 으로 바뀌었습니다 |
-| 5/31/2022 | [Microsoft Teams에서 앱 사용 권한 정책 관리](/MicrosoftTeams/teams-app-permission-policies) | 으로 바뀌었습니다 |
-| 5/31/2022 | [Microsoft Teams의 공유 채널](/MicrosoftTeams/shared-channels) | 으로 바뀌었습니다 |
-| 5/31/2022 | [Microsoft Teams에서 앱 설정 정책 관리](/MicrosoftTeams/teams-app-setup-policies) | 으로 바뀌었습니다 |
-| 6/1/2022 | [직접 라우팅에 대한 인증된 SBC(Session Border Controller)](/MicrosoftTeams/direct-routing-border-controllers) | 으로 바뀌었습니다 |
-| 6/1/2022 | [원격 위치에 대한 긴급 주소](/MicrosoftTeams/emergency-calling-dispatchable-location) | 으로 바뀌었습니다 |
-| 6/1/2022 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으로 바뀌었습니다 |
-| 6/2/2022 | [Microsoft Teams의 하드웨어 요구 사항](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 으로 바뀌었습니다 |
-| 6/2/2022 | [Teams 정책의 특수 문자 제한 사항](/MicrosoftTeams/special-character-restrictions-in-policy-names) | 으로 바뀌었습니다 |
-| 6/2/2022 | [교육용 Teams 부모의 관리 설정](/MicrosoftTeams/edu-parents-app) | 으로 바뀌었습니다 |
-| 6/3/2022 | [Microsoft Teams EHR 커넥터 가상 약속 보고서](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-reports) | 으로 바뀌었습니다 |
