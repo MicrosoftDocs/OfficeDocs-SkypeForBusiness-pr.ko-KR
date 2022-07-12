@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 디바이스, 네트워크 및 연결에 대한 세부 정보와 함께 실시간 원격 분석을 사용하여 Microsoft Teams 예약 모임의 사용자 문제를 해결합니다.
-ms.openlocfilehash: c7bc5ee0415a289782cad1dd7daa5c13bdaf7364
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 794c0097c3bdcc757e0a469cb0f65b5eb4e6c285
+ms.sourcegitcommit: ce1cbdcfce8c785c66f6a51ef8e84092124f3ef0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494725"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "66716804"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>실시간 원격 분석을 사용하여 모임 품질 저하 문제 해결
 
@@ -153,6 +153,9 @@ Teams 관리자는 각 사용자에 대한 모든 실시간 원격 분석 데이
 - 실시간 원격 분석 데이터는 모임이 종료된 후 24시간 동안 **최근 모임** 에서 모임에 사용할 수 있습니다. 24시간이 지나면 데이터에 액세스할 수 없으며 모임이 **과거 모임** 으로 이동합니다. 모임이 3시간보다 긴 경우 실시간 원격 분석은 *지난 3시간* 동안만 사용할 수 있습니다.
 - 이전 버전의 Teams를 사용하는 경우 원격 분석을 실시간으로 사용할 수 없습니다. 사용할 수 있는 원격 분석이 없는 경우 클라이언트를 업데이트해 보세요.
 - 외부 참가자 또는 익명 사용자가 모임에 참가하는 경우 해당 표시 이름은 테넌트 간 개인 정보를 유지할 **수 없는** 것으로 표시됩니다.
+
+> [!NOTE]
+> 제한된 시간 공개 미리 보기의 일환으로 실시간 원격 분석 데이터는 모임이 종료된 후 **7일 동안** 사용할 수 있습니다. 위의 제한은 공개 미리 보기가 완료되면 적용됩니다.
 
 ## <a name="related-topics"></a>관련 항목
 
