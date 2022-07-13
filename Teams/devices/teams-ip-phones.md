@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 생성하기 위해 Microsoft Teams에 대해 인증된 책상 및 전화 회의 전화기를 알아봅니다.
-ms.openlocfilehash: ad6db1f1766173b8d1e167b912555d85115087e3
-ms.sourcegitcommit: f608811288c82a6348a6af1671246a93ed06e578
+ms.openlocfilehash: f0cfd75ed37937abc988f7f865a1357aec352b3c
+ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66660974"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "66773697"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 인증 Android 디바이스
 
@@ -72,6 +72,7 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 | 디바이스 모델 | 펌웨어 버전 | 현재 인증 종료 날짜 | 객실 크기                                        |  Android OS 버전    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| Yealink MeetingBoard 65" | `155.15.0.6 `   | 2024년 9월 3일 | 중간 크기의 객실(4.5 m x 6 m) | 10|
 | Yealink MeetingBar A20 | `133.15.0.108  `   | 2024년 9월 3일 | 소규모 회의실(4.5 m x 4.5 m)| 10|
 | Yealink MeetingBar A30 | `133.15.0.108  `   | 2024년 9월 3일 | 중간 크기의 객실(4.5 m x 6 m) | 10|
 | Logitech Tap IP VR0029     | `1.6.762`  |   2024년 9월 3일  | Logitech Rally Bar 및 Rally Bar Mini와 호환 | 10 |

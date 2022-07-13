@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8dc80503c2b949fb77cc8d593ba5a8dd71e68654
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 90e577f9d6ef7567387fbc7a26a944d20e976f66
+ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240447"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "66773707"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -176,8 +176,6 @@ Teams 및 엔터프라이즈용 Microsoft 365 앱 대한 자세한 내용은 엔
 
     > [!NOTE]
     > 정부 클라우드의 경우 MSI 파일에 대한 다운로드 링크 [는 MSI(Windows Installer)를 사용하여 Teams 대량 설치](msi-deployment.md) 를 참조하세요.
-
-    필요한 Teams 데스크톱 앱의 최소 버전은 버전 1.3.00.4461입니다. PSTN 보존은 이전 버전에서 지원되지 않습니다.
 
 2. 다음 명령 중 하나를 실행하여 VDI VM에 MSI를 설치합니다.
 
