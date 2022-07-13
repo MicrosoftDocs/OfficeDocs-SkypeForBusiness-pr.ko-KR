@@ -34,7 +34,7 @@ Teams를 새로 사용하는 사용자로서 자세히 알아보려면 당사의
 
 Teams 관리자를 위한 Teams에 오신 것을 환영합니다 비디오를 놓치지 마세요(3분 조금 초과).
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vkIT]
 
 최종 사용자 Teams 도움말을 찾고 있는 경우 앱 왼쪽에서 **도움말** 을 클릭하거나 [Microsoft Teams 도움말 센터](https://support.office.com/teams)로 이동합니다. 교육하려면 [Microsoft Teams 교육](training-microsoft-teams-landing-page.md)으로 이동하세요. 
 
