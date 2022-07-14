@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 디바이스, 네트워크 및 연결에 대한 세부 정보와 함께 실시간 원격 분석을 사용하여 Microsoft Teams 예약 모임의 사용자 문제를 해결합니다.
-ms.openlocfilehash: 794c0097c3bdcc757e0a469cb0f65b5eb4e6c285
-ms.sourcegitcommit: ce1cbdcfce8c785c66f6a51ef8e84092124f3ef0
+ms.openlocfilehash: 26ee7b809d7b18bb07a7f8ae57852c2333b26d94
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "66716804"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789623"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>실시간 원격 분석을 사용하여 모임 품질 저하 문제 해결
 
@@ -155,9 +155,9 @@ Teams 관리자는 각 사용자에 대한 모든 실시간 원격 분석 데이
 - 외부 참가자 또는 익명 사용자가 모임에 참가하는 경우 해당 표시 이름은 테넌트 간 개인 정보를 유지할 **수 없는** 것으로 표시됩니다.
 
 > [!NOTE]
-> 제한된 시간 공개 미리 보기의 일환으로 실시간 원격 분석 데이터는 모임이 종료된 후 **7일 동안** 사용할 수 있습니다. 위의 제한은 공개 미리 보기가 완료되면 적용됩니다.
+> 제한된 시간 공개 미리 보기의 일환으로 실시간 원격 분석 데이터는 모임이 종료된 후 **7일 동안** 사용할 수 있습니다. 미리 보기가 종료된 후 고급 통신 추가 기능 라이선스가 있는 테넌트만 7일 연장된 기간 동안 원격 분석을 사용할 수 있게 됩니다. 다른 모든 테넌트에는 앞서 언급한 제한이 적용됩니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [사용자별 통화 분석 설정](set-up-call-analytics.md)
 

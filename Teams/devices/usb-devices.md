@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 'Microsoft Teams용으로 인증된 USB 주변 장치 및 장치(예: 헤드셋, 스피커폰, 웹캠 및 모니터)를 확인합니다.'
-ms.openlocfilehash: 7df6ca32a359931a62935d68257583c4d499aa93
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: c56b6c50ff9873aa2eace6a790f484065697f855
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647660"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789163"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams용으로 인증된 USB 오디오 및 비디오 장치
 
@@ -84,6 +84,9 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 [Teams에서 헤드�
 |Dell                 |WB5023 카메라                                              |6/29/2022       |Microsoft Teams용 인증                           |
 |EPOS                 |ADAPT 560 II 헤드셋                                       |6/22/2022       |Microsoft Teams용 인증                           |
 |EPOS                 |C10/C20/C50 시리즈 헤드셋                                |5/31/2022       |Microsoft Teams용 인증                           |
+|Jabra                |Engage55 Mono/Stereo 헤드셋                               |5/25/2022       |Microsoft Teams용 인증                           |
+|EPOS                 |EXPAND 40T Speakerphone                                    |5/24/2022       |Microsoft Teams용 인증                           | 
+|Dell                 |U3223QZ 모니터                                            |5/24/2022       |Microsoft Teams용 인증                           |
 |많은                 |Studio P21 모니터                                         |5/12/2022       |Microsoft Teams용 인증                           |
 |Yealink              |UH38 헤드셋                                               |5/2/2022        |Microsoft Teams용 인증                           |   
 |Yealink              |BH72 헤드셋                                               |5/2/2022        |Microsoft Teams용 인증                           |

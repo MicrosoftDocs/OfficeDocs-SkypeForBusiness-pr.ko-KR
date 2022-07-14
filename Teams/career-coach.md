@@ -1,7 +1,7 @@
 ---
 title: 교육용 Microsoft Teams 커리어 코치 구매, 구성 및 사용
-author: SerdarSoysal
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 ms.reviewer: alaina.creager
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d6d3aed02c2f9eb9913a62ed502355590a5df4b
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 9d816ca6a25ce4ab4d57fc8a6cf9a603e6da518e
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494365"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790023"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Microsoft Teams용 커리어 코치 구매, 구성 및 사용
 

@@ -23,4 +23,4 @@ Teams는 다음과 같은 인터넷 브라우저를 완벽 하게 지원하며 �
 > [!NOTE]
 > 브라우저에서 Teams를 실행하는 기능은 [Microsoft Teams의 최소 하드웨어 요구 사항](../hardware-requirements-for-the-teams-app.md)을 충족하는 PC 및 Mac에서 지원됩니다. 예를 들어, Linux 운영 체제에서 Firefox의 실행은 Teams를 사용하기 위한 옵션입니다.
 >
-> 모바일 디바이스에서는 Teams 앱을 사용하는 것이 좋습니다. Teams 앱은 Android 및 iOS 스토어에서 사용할 수 있습니다. 모바일 디바이스에서 브라우저에서 Teams를 실행하는 것은 지원되지만 많은 기능을 사용할 수 없습니다.
+> 모바일 디바이스에서는 Teams 앱을 사용하는 것이 좋습니다. Teams 앱은 Android 및 iOS 스토어에서 사용할 수 있습니다.

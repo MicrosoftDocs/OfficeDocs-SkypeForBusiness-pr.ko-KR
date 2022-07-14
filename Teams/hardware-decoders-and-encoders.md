@@ -1,8 +1,8 @@
 ---
 title: 하드웨어 디코더와 인코더 드라이버 권장 사항
 ms.reviewer: ''
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 06/06/2019
 audience: Admin
@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 282ae2aa177fba42aa35d132f7c5c5d540696526
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: a38078c5e348c41cc15bf350de0abaad7c04b13c
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675130"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789563"
 ---
 # <a name="hardware-decoder-and-encoder-driver-recommendations"></a>하드웨어 디코더와 인코더 드라이버 권장 사항
 
@@ -139,6 +139,6 @@ Microsoft는 이 문서에 나열된 디코더와 인코더를 제외한 모든 
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 모든 | [15.201.1101.0] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 모든 | [21.19.137.1] |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Teams 앱의 하드웨어 요구 사항](hardware-requirements-for-the-teams-app.md)

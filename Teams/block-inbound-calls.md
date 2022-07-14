@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams 인바운드 호출 차단
-ms.author: serdars
-author: SerdarSoysal
+title: Microsoft Teams에서 인바운드 통화 차단
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -15,18 +15,18 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: PowerShell을 사용하여 인바운드 호출 차단을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 25b271cbcf62acd732463e9dd34d4189479d2417
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 217a4fe6770d916e9013acf7f90ebf6a5556b837
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674390"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789603"
 ---
 # <a name="block-inbound-calls"></a>인바운드 호출 차단
 
-Microsoft 통화 플랜, 직접 라우팅 및 운영자 연결 모든 지원은 PSTN(공중 전화망)에서 인바운드 통화를 차단합니다. 이 기능을 사용하면 관리자가 테넌트에 들어오는 모든 PSTN 호출의 호출자 ID를 일치 목록에 대해 확인할 수 있도록 테넌트 전역 수준에서 숫자 패턴 목록을 정의할 수 있습니다. 일치하는 항목이 있으면 들어오는 호출이 거부됩니다.
+Microsoft 통화 플랜, 직접 라우팅 및 운영자 연결은 모두 PSTN(공중 전화망)의 인바운드 통화 차단을 지원합니다. 이 기능을 사용하면 관리자가 테넌트에 들어오는 모든 PSTN 호출의 호출자 ID를 일치 목록에 대해 확인할 수 있도록 테넌트 전역 수준에서 숫자 패턴 목록을 정의할 수 있습니다. 일치하는 항목이 있으면 들어오는 호출이 거부됩니다.
 
-이 인바운드 호출 차단 기능은 PSTN에서 시작된 인바운드 호출에서만 작동하며 테넌트 전역 수준에서만 작동합니다. 개별 Teams 사용자는 이 목록을 조작할 수 없습니다. Teams 클라이언트는 개별 사용자가 PSTN 호출을 차단할 수 있도록 허용합니다. 최종 사용자가 통화 차단을 구현하는 방법에 대한 자세한 내용은 [Teams 통화 설정 관리를](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f) 참조하세요.
+이 인바운드 호출 차단 기능은 PSTN에서 시작된 인바운드 호출에서만 작동하며 테넌트 전역 수준에서만 작동합니다. 개별 Teams 사용자는 이 목록을 조작할 수 없습니다. Teams 클라이언트는 개별 사용자가 PSTN 호출을 차단할 수 있도록 허용합니다. 최종 사용자가 통화 차단을 구현하는 방법에 대한 자세한 내용은 [Teams에서 통화 설정 관리를 참조하세요](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
 
 > [!NOTE]
 > 차단된 호출자는 차단되었을 때 약간 다른 동작이 발생할 수 있습니다. 이 동작은 차단된 호출자의 통신 사업자가 호출을 성공적으로 완료할 수 없다는 알림을 처리하는 방법을 기반으로 합니다. 전화 걸기로 통화를 완료할 수 없거나 단순히 전화를 끊을 수 없다는 통신 사업자 메시지가 예로 포함될 수 있습니다.
@@ -53,13 +53,13 @@ New-, **Get-**, **Set**-및 **Remove-CsInboundBlockedNumberPattern** cmdlet을 �
 
 #### <a name="block-a-number"></a>숫자 차단
 
-다음 예제에서 테넌트 관리자 숫자 범위 1(312) 555-0000에서 1(312) 555-9999로 오는 모든 호출을 차단하려고 합니다. 숫자 패턴은 + 접두사 + 접두사가 있는 범위의 숫자와 + 접두사 없는 범위의 숫자가 모두 일치되도록 만들어집니다. 시스템이 일치하기 전에 이러한 기호를 제거하기 때문에 전화 번호에 기호 및 ()를 포함할 필요가 없습니다.  숫자 패턴을 켜려면 **Enabled** 매개 변수가 True로 설정됩니다. 이 특정 숫자 패턴을 사용하지 않도록 설정하려면 매개 변수를 False로 설정합니다.
+다음 예제에서 테넌트 관리자는 숫자 범위 1(312) 555-0000에서 1(312) 555-9999로 오는 모든 호출을 차단하려고 합니다. 숫자 패턴은 + 접두사 + 접두사가 있는 범위의 숫자와 + 접두사 없는 범위의 숫자가 모두 일치되도록 만들어집니다. 시스템이 일치하기 전에 이러한 기호를 제거하기 때문에 전화 번호에 기호 및 ()를 포함할 필요가 없습니다.  숫자 패턴을 켜려면 **Enabled** 매개 변수가 True로 설정됩니다. 이 특정 숫자 패턴을 사용하지 않도록 설정하려면 매개 변수를 False로 설정합니다.
 
 ```PowerShell
 New-CsInboundBlockedNumberPattern -Name "BlockRange1" -Enabled $True -Description "Block Contoso" -Pattern "^\+?1312555\d{4}$"
 ```
 
-다음 예제에서 테넌트 관리자 번호 1(412) 555-1234에서 오는 모든 호출을 차단하려고 합니다. 숫자 패턴을 켜려면 **Enabled** 매개 변수가 True로 설정됩니다.
+다음 예제에서 테넌트 관리자는 번호 1(412) 555-1234에서 오는 모든 호출을 차단하려고 합니다. 숫자 패턴을 켜려면 **Enabled** 매개 변수가 True로 설정됩니다.
 
 ```PowerShell
 New-CsInboundBlockedNumberPattern -Name "BlockNumber1" -Enabled $True -Description "Block Fabrikam" -Pattern "^\+?14125551234$"
@@ -75,7 +75,7 @@ New-CsInboundBlockedNumberPattern -Name "BlockNumber1" -Enabled $True -Descripti
 
 #### <a name="allow-a-number"></a>숫자 허용
 
-차단된 숫자 패턴을 제거하여 번호를 호출하도록 허용할 수 있습니다. 다음 예제에서 테넌트 관리자 1(412) 555-1234가 다시 호출되도록 허용하려고 합니다.
+차단된 숫자 패턴을 제거하여 번호를 호출하도록 허용할 수 있습니다. 다음 예제에서 테넌트 관리자는 1(412) 555-1234가 다시 호출되도록 허용하려고 합니다.
 
 ```PowerShell
 Remove-CsInboundBlockedNumberPattern -Identity "BlockNumber1"
@@ -108,7 +108,7 @@ New-, **Get**-, **Set**-및 **Remove-CsInboundExemptNumberPattern** cmdlet을 �
 
 #### <a name="add-a-number-exception"></a>숫자 예외 추가
 
-다음 예제에서 테넌트 관리자 위의 예제에서 차단된 범위에 두 전화 번호가 있더라도 전화 번호 1(312) 555-8882 및 1(312) 555-8883으로 테넌트에 전화를 걸 수 있도록 허용하려고 합니다. 이를 사용하도록 설정하려면 다음과 같이 새 숫자 예외 패턴이 만들어집니다.
+다음 예제에서 테넌트 관리자는 위의 예제에서 차단된 범위에 두 전화 번호가 있더라도 전화 번호 1(312) 555-8882 및 1 (312) 555-8883으로 테넌트에 전화를 걸 수 있도록 허용하려고 합니다. 이를 사용하도록 설정하려면 다음과 같이 새 숫자 예외 패턴이 만들어집니다.
 
 ```PowerShell
 New-CsInboundExemptNumberPattern  -Identity "AllowContoso1" -Pattern "^\+?1312555888[2|3]$" -Description "Allow Contoso helpdesk" -Enabled $True

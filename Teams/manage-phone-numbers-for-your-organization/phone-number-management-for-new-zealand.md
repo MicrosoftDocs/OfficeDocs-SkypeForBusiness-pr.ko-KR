@@ -1,7 +1,7 @@
 ---
-title: 뉴질랜드의 전화 번호 관리
-author: SerdarSoysal
-ms.author: serdars
+title: 뉴질랜드 전화 번호 관리
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -19,19 +19,19 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 이 표를 사용하여 뉴질랜드에서 Microsoft Teams 전화 번호를 가져오고 관리하는 방법에 대한 정보를 찾을 수 있습니다.
-ms.openlocfilehash: d1508eebf4e81c61738bfa60b0b28d97720e9efb
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+description: 이 표를 사용하여 Microsoft Teams용 뉴질랜드에서 전화 번호를 가져오고 관리하는 방법에 대한 정보를 찾을 수 있습니다.
+ms.openlocfilehash: e359fa8fe26324cf2ba607b638e3e379549b471c
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124203"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789173"
 ---
-# <a name="phone-number-management-for-new-zealand"></a>뉴질랜드의 전화 번호 관리
+# <a name="phone-number-management-for-new-zealand"></a>뉴질랜드 전화 번호 관리
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-이 표를 사용하여 뉴질랜드에서 Microsoft Teams 전화 번호를 가져오고 관리하는 방법에 대한 정보를 찾을 수 있습니다.
+이 표를 사용하여 Microsoft Teams용 뉴질랜드에서 전화 번호를 가져오고 관리하는 방법에 대한 정보를 찾을 수 있습니다.
   
 자세한 내용은 [조직의 전화 번호 관리를 참조하세요](manage-phone-numbers-for-your-organization.md).
   

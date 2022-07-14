@@ -1,7 +1,7 @@
 ---
-title: Power BI 사용하여 Microsoft Teams 대한 CQD 데이터 분석
-ms.author: serdars
-author: SerdarSoysal
+title: Power BI를 사용하여 Microsoft Teams용 CQD 데이터 분석
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: siunies
 ms.topic: article
@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-description: Power BI 사용하여 Microsoft Teams 대한 CQD 데이터를 분석합니다.
-ms.openlocfilehash: 7d951c0e96f98c343a388e536311bf00890e5302
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+description: Power BI를 사용하여 Microsoft Teams의 CQD 데이터를 분석합니다.
+ms.openlocfilehash: 66ae28125d743c647cd0d18376fb12a2cec7cdfd
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66056958"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789843"
 ---
-# <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Power BI 사용하여 Microsoft Teams 대한 CQD 데이터 분석
+# <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Power BI를 사용하여 Microsoft Teams용 CQD 데이터 분석
 
-2020년 1월의 새로운 [기능: CQD에 대한 Power BI 쿼리 템플릿을 다운로드합니다](https://www.microsoft.com/download/details.aspx?id=102291). CQD 데이터를 분석하고 보고하는 데 사용할 수 있는 사용자 지정 가능한 Power BI 템플릿입니다.
+2020년 1월의 새로운 [기능: CQD용 Power BI 쿼리 템플릿을 다운로드합니다](https://www.microsoft.com/download/details.aspx?id=102291). CQD 데이터를 분석하고 보고하는 데 사용할 수 있는 사용자 지정 가능한 Power BI 템플릿입니다.
 
-Teams CQD(통화 품질 대시보드) 보고서의 경우 Power BI 사용하여 데이터를 쿼리하고 보고하려는 경우 CQD Power BI 템플릿을 다운로드합니다. Power BI 템플릿을 열면 CQD 관리자 자격 증명으로 로그인하라는 메시지가 표시됩니다. 이러한 쿼리 템플릿을 사용자 지정하고 Power BI 라이선스 및 CQD 관리자 권한이 있는 조직의 모든 사용자에게 배포할 수 있습니다.
+Teams의 CQD(통화 품질 대시보드) 보고서의 경우 Power BI를 사용하여 데이터를 쿼리하고 보고하려면 CQD Power BI 템플릿을 다운로드합니다. Power BI에서 템플릿을 열면 CQD 관리자 자격 증명으로 로그인하라는 메시지가 표시됩니다. 이러한 쿼리 템플릿을 사용자 지정하고 Power BI 라이선스 및 CQD 관리자 권한이 있는 조직의 모든 사용자에게 배포할 수 있습니다.
 
 이러한 PBIT 파일을 사용하려면 다운로드에 포함된 *MicrosoftCallQuality.pqx* 파일을 사용하여 [Microsoft CQD용 Power BI 커넥터](CQD-Power-BI-connector.md)[를](https://www.microsoft.com/download/details.aspx?id=102291) 설치해야 합니다. 
 
@@ -42,13 +42,13 @@ Power BI 보고서에 액세스할 수 있는 올바른 [CQD 액세스 역할이
 |CQD 모바일 디바이스 Report.pbit     | 통화 품질, 안정성 및 내 통화 속도 등 모바일 디바이스 사용자를 위해 특별히 조정된 인사이트를 제공합니다. 모바일 네트워크, WiFi 네트워크 및 모바일 운영 체제 보고서(Android, iOS)를 봅니다. |
 |CQD PSTN 직접 라우팅 Report.pbit     |직접 라우팅을 통과하는 PSTN 호출에 대한 인사이트를 제공합니다. 자세한 내용은 [CQD PSTN 직접 라우팅 보고서를 참조](CQD-PSTN-report.md)하세요. |
 |CQD 요약 Report.pbit     |더 나은 시각화, 향상된 프레젠테이션, 향상된 정보 밀도 및 롤링 날짜 이러한 보고서를 사용하면 이상값을 쉽게 식별할 수 있습니다. 사용하기 쉬운 대화형 맵을 사용하여 위치별로 통화 품질을 드릴다운합니다. 9개의 새 보고서:</p>- 전체 품질<br>- 전반적인 안정성<br>- 전체 RMC(내 통화 평가)<br>- 회의 품질<br>- P2P 품질<br>- 회의 안정성<br>- P2P 안정성<br>- 컨퍼런스 RMC<br>- P2P RMC         |
-|CQD Teams 사용률 보고서.pbit     | 조직의 사용자가 Teams 사용하는 방법 및 양을 보여줍니다. 빌드 데이터를 업로드하여 보고 환경을 최대화해야 합니다. 자세한 내용은 [CQD Power BI 보고서를 사용하여 Microsoft Teams 사용률을 확인하세요](CQD-teams-utilization-report.md). |
+|CQD Teams 사용률 보고서.pbit     | 조직의 사용자가 Teams를 사용하는 방법 및 양을 보여줍니다. 빌드 데이터를 업로드하여 보고 환경을 최대화해야 합니다. 자세한 내용은 [CQD Power BI 보고서를 사용하여 Microsoft Teams 사용률을 확인하세요](CQD-teams-utilization-report.md). |
 |CQD 사용자 피드백(내 통화 평가) Report.pbit     | 조직에 대한 통화를 지원하는 데 쉽게 사용할 수 있는 방식으로 내 통화 속도 데이터를 표시합니다. 축자를 상호 참조하여 최종 사용자 교육 기회를 식별합니다. |
 
 > [!TIP]
-> CQD 데이터에 대한 Power BI 보고서를 설정했으면 채널에 탭으로 추가합니다. 채널에서 선택한 **+** 후 **Power BI** 선택한 다음 보고서를 찾습니다. 자세한 내용은 [Teams 대한 Power BI 탭을 사용하여 보고서 포함을](/power-bi/service-embed-report-microsoft-teams) 참조하세요. Power BI 라이선스 및 CQD 관리자 자격 증명을 가진 사용자만 이러한 보고서에 액세스할 수 있습니다.
+> CQD 데이터에 대한 Power BI 보고서를 설정했으면 채널에 탭으로 추가합니다. 채널에서 선택한 **+** 후 **Power BI** 를 선택한 다음 보고서를 찾습니다. 자세한 내용은 [Teams용 Power BI 탭을 사용하여 보고서 포함을 참조하세요](/power-bi/service-embed-report-microsoft-teams). Power BI 라이선스 및 CQD 관리자 자격 증명을 가진 사용자만 이러한 보고서에 액세스할 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [통화 품질 대시보드에서 사용할 수 있는 차원 및 측정값](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

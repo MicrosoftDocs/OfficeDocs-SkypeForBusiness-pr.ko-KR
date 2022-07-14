@@ -1,7 +1,7 @@
 ---
-title: 체코에 대한 전화 번호 관리
-author: SerdarSoysal
-ms.author: serdars
+title: 체코 전화 번호 관리
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -19,19 +19,19 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 이 표를 사용하여 Microsoft Teams 체코에서 전화 번호를 가져오고 관리하는 방법에 대한 정보를 찾을 수 있습니다.
-ms.openlocfilehash: c37e38ddf4f85c39255a9f30e25c70a67e311a38
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+description: 이 표를 사용하여 Microsoft Teams용 체코에서 전화 번호를 가져오고 관리하는 방법에 대한 정보를 찾을 수 있습니다.
+ms.openlocfilehash: 94dafbbcc7969bf70c2b335438982795dc7fb09f
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823473"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790223"
 ---
-# <a name="phone-number-management-for-the-czech-republic"></a>체코에 대한 전화 번호 관리
+# <a name="phone-number-management-for-the-czech-republic"></a>체코 전화 번호 관리
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-이 표를 사용하여 Microsoft Teams 체코에서 전화 번호를 가져오고 관리하는 방법에 대한 정보를 찾을 수 있습니다.
+이 표를 사용하여 Microsoft Teams용 체코에서 전화 번호를 가져오고 관리하는 방법에 대한 정보를 찾을 수 있습니다.
 
 자세한 내용은 [조직의 전화 번호 관리를 참조하세요](manage-phone-numbers-for-your-organization.md).
 

@@ -1,7 +1,7 @@
 ---
 title: 모임 설정 관리
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 사용자가 조직에서 예약하는 모든 Teams 모임 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 10afbcc30404122e9e4d497570bf0b69e4ef6fa7
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
-ms.translationtype: MT
+ms.openlocfilehash: c76267ae5cd9a19cae272d995a24077a58a7ec6f
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64642922"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789793"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams에서의 모임 설정 관리
 
@@ -70,7 +70,7 @@ ms.locfileid: "64642922"
 
 다른 값 조합은 익명 사용자가 모임에 참여하지 못하도록 합니다.
 > [!NOTE]
-> 모임 정책 관리에 대한 자세한 내용은 모임 정책 관리를 [Microsoft Teams.](/microsoftteams/meeting-policies-overview)
+> 모임 정책 관리에 대한 자세한 내용은 [Microsoft Teams에서 모임 정책 관리](/microsoftteams/meeting-policies-overview)를 참조하세요.
 
 ### <a name="blocking-anonymous-join-for-specific-client-types"></a>특정 클라이언트 유형에 대한 익명 참가 차단
 
@@ -179,7 +179,7 @@ QoS(서비스 품질)를 사용하여 네트워크 트래픽의 우선 순위를
 |:---             |:---                         |:---    |:---      |:---      |
 |오디오            | 50,000~50,019               |TCP/UDP |46        |Expedited Forwarding(EF)|
 |비디오            | 50,020~50,039               |TCP/UDP |34        |Assured Forwarding(AF41)|
-|응용 프로그램/화면 공유| 50,040~50,059      |TCP/UDP |18        |Assured Forwarding(AF21)|
+|응용 프로그램/화면 공유| 50,040~50,059      |TCP/UDP |18         |Assured Forwarding(AF21)|
 | | | | |
 
 \* 할당하는 포트 범위는 겹칠 수 없으며 서로 근접해 있어야 합니다.

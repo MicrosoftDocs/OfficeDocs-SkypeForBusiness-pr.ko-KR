@@ -1,7 +1,7 @@
 ---
 title: 차원 및 측정값 - CQD(통화 품질 대시보드)
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: siunies, mikedav, gageames
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Microsoft Teams 및 비즈니스용 Skype Online용 CQD(통화 품질 대시보드)에서 사용하는 차원 및 측정값에 대한 자세한 정보를 가져옵니다.
-ms.openlocfilehash: bc2289f06641e206f3188c865b936962e5f1b1f5
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: d206a4249a086914bb9bf1cf168c03dd1544eb3c
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682537"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790263"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>CQD(통화 품질 대시보드)에서 사용할 수 있는 차원 및 측정값
 
@@ -771,7 +771,7 @@ CQD에서 사용하는 문자열은 데이터 파일에서 파생되는 경우�
 
 많은 차원 및 측정값을 필터로 사용할 수도 있습니다. 쿼리에서 필터를 사용하여 차원 또는 측정값을 선택하여 쿼리에 정보를 추가하거나 포함하는 것과 같은 방식으로 정보를 제거할 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Teams의 통화 품질 개선 및 모니터링](monitor-call-quality-qos.md)
 

@@ -1,7 +1,7 @@
 ---
 title: 포트 순서
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: 포트 주문의 개요와 서비스 공급자에서 Teams로 전화 번호를 전송하는 방법을 알아 보세요.
-ms.openlocfilehash: a4062d6a5c63b590502d5afebc547bd319e2adda
-ms.sourcegitcommit: 9175c6d542dd825ce965d0cb7c67264f22315202
+ms.openlocfilehash: 21a91833956e5d24f0bb6e5895232517f39d8c6a
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66687834"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789403"
 ---
 # <a name="whats-a-port-order"></a>포트 순서
 
@@ -174,7 +174,7 @@ PIN을 추가로 설정해야 하는 경우 [전화 번호 서비스 팀에](../
 
 - 서비스가 활성 상태인지 확인합니다. 계정을 동결하면 계정에서 이동 통신 사업자가 변경되지 않습니다. 계정을 변경할 수 있는 권한이 있는 사람은 현재 운송업체에 주문을 제출하여 동결을 제거해야 합니다. 이 프로세스는 운송업체에 따라 1~3주가 걸릴 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [포트 주문의 상태 확인](port-order-status.md)
 - [통화 플랜에 사용되는 다양한 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

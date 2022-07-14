@@ -1,7 +1,7 @@
 ---
 title: CQD(통화 품질 대시보드) FAQ(질문과 대답)
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
-description: FAQ(질문과 대답) 및 CQD(통화 품질 대시보드)에 대한 Microsoft Teams 답변을 읽습니다.
-ms.openlocfilehash: f320bab549ee322c1254babd0feb49cc24419215
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+description: MICROSOFT Teams CQD(통화 품질 대시보드)에 대한 FAQ(질문과 대답)를 읽어보세요.
+ms.openlocfilehash: 862967138321b1855f2fdc5b0c8b6ce6caca887f
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823207"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789399"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>CQD(통화 품질 대시보드) FAQ(질문과 대답)
 
@@ -40,13 +40,13 @@ ms.locfileid: "65823207"
 
 [사용량 유형 보고서에 CQD를 사용하고 일부 데이터가 불완전하다는 것을 발견하려고 합니다. 왜 그런가요?](#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that)
 
-[Teams 필터링했을 때 CQD에서 비즈니스용 Skype 정보가 표시되는 이유는 무엇인가요?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
+[Teams에 대해서만 필터링했을 때 CQD에서 비즈니스용 Skype 정보가 표시되는 이유는 무엇인가요?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
 [더 많은 항목이 있어야 한다는 것을 알고 있는 경우 사용자 지정 보고서에서 최대 10,000개의 행만 반환하는 이유는 무엇인가요?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
 [Wi-Fi VPN 연결이 Wi-Fi 대신 유선으로 표시되는 이유는 무엇인가요?](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
 
-[Teams 정책 기반 녹음/녹화를 설정했는데 이제 피어 투 피어 통화가 회의로 표시되고 있습니다. 무슨 일이 일어났습니까?](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
+[Teams에서 정책 기반 녹음/녹화를 설정했는데 이제 피어 투 피어 통화가 회의로 표시되고 있습니다. 무슨 일이 일어났습니까?](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
 
 ### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>하나 이상의 모임 참가자가 환경이 좋지 않은 경우 CQD에서 통화를 "양호"로 표시하는 이유는 무엇인가요?
 
@@ -84,7 +84,7 @@ CQD에서 자세한 보고서를 만들고 모임 ID를 필터링하여 모임�
 이러한 관리자 역할은 CQD에 액세스할 수 있지만 EUII(최종 사용자 식별 정보)를 볼 수는 없습니다.
 
 - Microsoft 365 보고서 읽기 권한자
-- Teams 통신 지원 전문가
+- Teams 커뮤니케이션 지원 전문가
 
 EUII를 포함하여 CQD에 액세스할 수 있는 역할에 대해 자세히 알아보려면 [CQD에 액세스하기 위한 역할 할당을](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) 읽어보세요.
 
@@ -94,9 +94,9 @@ CQD, Call Analytics, CallRecord Graph API 및 실시간 분석과 같은 통화 
 
 이 점을 염두에 두고 사용 현황 보고를 위해 통화 품질 관리 도구를 사용할 수 없습니다. 이러한 유형의 보고 시나리오를 수용하거나 사용하도록 설계되지 않았으며, 많은 사용 통계는 이러한 도구 내에서 사용할 수 없으며 사용할 수 없습니다. Teams 관리 Center는 일련의 [사용 현황 보고서를](teams-analytics-and-reports/teams-reporting-reference.md) 제공하며 Teams 클라이언트에서 직접 [모임 참석 보고서를](teams-analytics-and-reports/meeting-attendance-report.md) 사용할 수 있습니다.
 
-### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Teams 필터링했을 때 CQD에서 비즈니스용 Skype 정보가 표시되는 이유는 무엇인가요?
+### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Teams에 대해서만 필터링했을 때 CQD에서 비즈니스용 Skype 정보가 표시되는 이유는 무엇인가요?
 
-CQD 보고서(isTeams = 1)에서만 Teams 필터링하는 경우 *첫 번째 엔드포인트* 가 Teams 모든 호출을 필터링합니다. *두 번째 엔드포인트* 가 비즈니스용 Skype 경우 해당 정보가 CQD 보고서에 표시됩니다. 고객의 시나리오에 따라 [CQD는 통화 데이터 커넥터](/skypeforbusiness/hybrid/plan-call-data-connector)를 구성할 때 비즈니스용 Skype 서버 2019 호출을 포함할 수 있습니다. 또한 Skype 봇 호출(AA, CVI, VDI), 라이브 이벤트 및 PSTN 호출이 포함될 수 있습니다.
+CQD 보고서(isTeams = 1)에서만 Teams를 필터링하는 경우 *첫 번째 엔드포인트* 가 Teams인 모든 호출을 필터링합니다. *두 번째 엔드포인트* 가 비즈니스용 Skype 경우 해당 정보가 CQD 보고서에 표시됩니다. 고객의 시나리오에 따라 [CQD는 통화 데이터 커넥터](/skypeforbusiness/hybrid/plan-call-data-connector)를 구성할 때 비즈니스용 Skype 서버 2019 호출을 포함할 수 있습니다. Skype 봇 호출(AA, CVI, VDI), 라이브 이벤트 및 PSTN 호출도 포함될 수 있습니다.
 
 *첫 번째 사용자 에이전트 범주* 및 *두 번째* 사용자 에이전트 범주와 같은 차원을 필터링하여 쿼리에서 비즈니스용 Skype 정보를 제거할 수 있습니다. 첫 번째 및 두 번째 차원을 단일 필터로 결합하는 *사용자 에이전트 범주 쌍* 을 사용할 수도 있습니다.
 
@@ -108,13 +108,13 @@ CQD는 요약된 데이터 쿼리용으로 설계되었으며 데이터 내보�
 
 이는 정상적인 동작입니다. VPN 공급업체는 유선 연결처럼 처리되는 가상 이더넷 어댑터를 만들었습니다. 제대로 레이블이 지정되지 않았기 때문에 운영 체제는 Wi-Fi 연결인지 모르고 유선으로 보고합니다.
 
-### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>Teams 정책 기반 녹음/녹화를 설정했는데 이제 피어 투 피어 통화가 회의로 표시되고 있습니다. 무슨 일이 일어났습니까?
+### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>Teams에서 정책 기반 녹음/녹화를 설정했는데 이제 피어 투 피어 통화가 회의로 표시되고 있습니다. 무슨 일이 일어났습니까?
 
-이는 Microsoft Teams 정책 기반 녹음/녹화를 사용하는 경우 예상되는 동작입니다. 정책 기반 녹음/녹화는 Microsoft Azure 배포된 Teams 레코더 봇을 사용하여 규정 준수를 위해 모임 콘텐츠를 캡처합니다. 통화 품질 관리에서 "피어 투 피어"는 사용자 간의 상호 작용이 아니라 미디어 트래픽 흐름에 대한 설명입니다. 레코더 봇 자체가 호출의 당사자이기 때문에 호출은 더 이상 피어 투 피어가 아니라 다자간 호출입니다. 다자간 통화는 Microsoft Teams 회의로 분류되므로 CQD 및 기타 통화 품질 도구에서 이러한 호출을 볼 때 이와 같이 표시됩니다.
+이는 Microsoft Teams에서 정책 기반 녹음/녹화를 사용하는 경우 예상되는 동작입니다. 정책 기반 녹음/녹화는 Microsoft Azure에 배포된 Teams 레코더 봇을 사용하여 규정 준수를 위해 모임 콘텐츠를 캡처합니다. 통화 품질 관리에서 "피어 투 피어"는 사용자 간의 상호 작용이 아니라 미디어 트래픽 흐름에 대한 설명입니다. 레코더 봇 자체가 호출의 당사자이기 때문에 호출은 더 이상 피어 투 피어가 아니라 다자간 호출입니다. 다자간 통화는 Microsoft Teams에서 회의로 분류되므로 CQD 및 기타 통화 품질 도구에서 이러한 호출을 볼 때 이와 같이 표시됩니다.
 
 ## <a name="related-articles"></a>관련 기사
 
-[Teams 대한 통화 품질 개선 및 모니터링](monitor-call-quality-qos.md)
+[Teams의 통화 품질 개선 및 모니터링](monitor-call-quality-qos.md)
 
 [CQD란?](CQD-what-is-call-quality-dashboard.md)
 
@@ -130,6 +130,6 @@ CQD는 요약된 데이터 쿼리용으로 설계되었으며 데이터 내보�
 
 [CQD의 스트림 분류](stream-classification-in-call-quality-dashboard.md)
 
-[Power BI 사용하여 CQD 데이터 분석](CQD-Power-BI-query-templates.md)
+[Power BI를 사용하여 CQD 데이터 분석](CQD-Power-BI-query-templates.md)
 
 [Teams 문제 해결](/MicrosoftTeams/troubleshoot/teams)

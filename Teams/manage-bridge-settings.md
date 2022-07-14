@@ -1,7 +1,7 @@
 ---
-title: 브리지 설정 관리 Teams
-author: SerdarSoysal
-ms.author: serdars
+title: Teams에서 브리지 설정 관리
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: ''
 ms.topic: article
@@ -17,19 +17,19 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 브리지 설정을 관리하는 방법을 Microsoft Teams
-ms.openlocfilehash: 4fb6a51b7413f9a4137cda70467003d7c0009498
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Microsoft Teams에서 브리지 설정을 관리하는 방법 알아보기
+ms.openlocfilehash: 2246092be07c68e38534f20e6e370c1a73aaae76
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62401642"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789353"
 ---
-# <a name="manage-bridge-settings-in-teams"></a>브리지 설정 관리 Teams
+# <a name="manage-bridge-settings-in-teams"></a>Teams에서 브리지 설정 관리
 
-모임 또는 전화 Microsoft Teams 전에 모임 이끌이는 브리지 설정을 선택할 수 있는 몇 가지 옵션이 있습니다. 자세한 내용은 다음 문서를 참조하세요.
+Microsoft Teams 모임 또는 전화 통화 전과 중에 모임 이끌이는 브리지 설정을 선택할 수 있는 몇 가지 옵션이 있습니다. 자세한 내용은 다음 문서를 참조하세요.
 
-- [사용자가 설정이 변경될 때 사용자에게 Teams](emails-sent-to-users-when-their-settings-change-in-teams.md)
+- [Teams에서 설정이 변경되면 사용자에게 보낸 전자 메일](emails-sent-to-users-when-their-settings-change-in-teams.md)
 - [사용자가 모임에 참가할 때 자신의 이름을 기록할 수 있도록 설정](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
-- [모임에서 항목 끄기 및 Teams 종료](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
-- [마스크 전화 번호](ptsn-mask-phone-numbers.md)
+- [Teams 모임에서 참가 끄기 및 종료](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+- [전화 번호 마스킹](ptsn-mask-phone-numbers.md)

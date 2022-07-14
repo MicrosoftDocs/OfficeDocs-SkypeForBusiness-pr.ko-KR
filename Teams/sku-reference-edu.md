@@ -1,7 +1,7 @@
 ---
 title: Education SKU 참조
-author: SerdarSoysal
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: karsmith
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 교육 교직원 및 학생 라이선스 계획 및 SKU ID를 나열합니다.
 f1keywords: ''
-ms.openlocfilehash: f91896a23cf69d09ab5ba922d8b893a496737037
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: c6fe915950189dfe3ee46acc6187636fbe34da5a
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494505"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790173"
 ---
 # <a name="education-sku-reference"></a>Education SKU 참조
 
@@ -69,6 +69,6 @@ ms.locfileid: "66494505"
 |학생용 Office 365 A1(디바이스용)     |STANDARDWOFFPACK_STUDENT_DEVICE         |160d609e-ab08-4fce-bc1c-ea13321942ac         |
 |학생용 Office 365 A1 Plus     |STANDARDWOFFPACK_IW_STUDENT         |e82ae690-a2d5-4d76-8d30-7c6e01e6022e         |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [학교의 대규모 사용자 집합에 정책 할당](batch-group-policy-assignment-edu.md)

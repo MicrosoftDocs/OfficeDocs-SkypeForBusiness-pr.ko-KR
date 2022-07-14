@@ -1,7 +1,7 @@
 ---
 title: 클라우드 음성 배포를 위한 운영 위원회
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0aee75ce49734dad37d4e75b77c224fa82301f0b
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 46fc7550e5ee1e29b603d4124ffc5d6fe9b45951
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674680"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789553"
 ---
 # <a name="steering-committee"></a>운영위원회
 
@@ -66,16 +66,16 @@ ms.locfileid: "65674680"
 > [!NOTE]
 > 조직 및 프로젝트 팀 디자인에 따라 역할 및 책임을 조정합니다. 소규모 조직에서는 이러한 역할이 겹칠 수 있습니다.
 
-| 제목 | 역할 | 연락처 | 메일 주소 |
+| 제목 | 역할 | 연락처 | Email |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-----------|
 | 이그제큐티브 스폰서 | 프로젝트를 옹호하고 해당 방향이 조직의 비전과 일치하도록 합니다. 위원회가 합의할 수 없는 결정을 내릴 수 있는 궁극적인 권한으로 작용합니다. | | |
 | 비즈니스 의사 결정자 | 프로젝트를 옹호하고 해당 방향이 조직의 비전과 일치하도록 합니다. | | |
 | 건축가 | 기술 결정이 달성 가능하고 합의된 비즈니스 결과에 부합하는지 확인합니다. | | |
-| 핵심 Project 팀 | 기술 또는 비기술(예: 채택 및 변경 관리)의 특정 구성 요소에 대한 세부 정보를 제공합니다. | | |
+| 핵심 프로젝트 팀 | 기술 또는 비기술(예: 채택 및 변경 관리)의 특정 구성 요소에 대한 세부 정보를 제공합니다. | | |
 | 품질 챔피언 | 품질 메트릭을 결합하는 것에 대한 책임을 져야 합니다. | | |
 | Program/Project Manager | 프로젝트에 통합할 피드백의 프레젠테이션 및 컬렉션에 대한 책임을 져야 합니다. | | |
 | 파트너 계정 팀 | 더 넓은 관점, 다른 파트너 활동에서 파트너의 관점에서 피드백을 제공합니다. | | |
-| 파트너 Project 팀 | 프로젝트 전달에 대한 파트너의 관점에서 피드백 제공 | | |
+| 파트너 프로젝트 팀 | 프로젝트 전달에 대한 파트너의 관점에서 피드백 제공 | | |
 
 ## <a name="schedule-steering-committee-meetings"></a>운영위원회 회의 예약 
 
@@ -128,7 +128,7 @@ ms.locfileid: "65674680"
 
         -   다음 단계와 위원회 위원에게 필요한 지원을 확인합니다.
 
--   품질 개요: [Teams 위해 네트워크 준비](prepare-network.md)의 지침을 사용합니다.
+-   품질 개요: [Teams용 네트워크 준비](prepare-network.md)의 지침을 사용합니다.
 
     -   이러한 품질 보고서의 결과를 심층 분석하고, 언급된 문제를 수정하기 위한 권장 사항을 포함할 준비를 합니다.
 

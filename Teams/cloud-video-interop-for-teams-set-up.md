@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams Cloud Video Interop 설정
-author: SerdarSoysal
-ms.author: serdars
+title: Microsoft Teams용 Cloud Video Interop 설정
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,14 +17,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b76e7c5e79b3928c7fb19ad9c5f5fb8f241b29a
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: f9ae7d59a97989d7f0677bf56b46c0a3d51f3e49
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674740"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789333"
 ---
-# <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams Cloud Video Interop 설정
+# <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams용 Cloud Video Interop 설정
 
 [Cloud Video Interop 파트너를 선택한](cloud-video-interop.md) 후에는 배포를 계획하고, 프로비전 세부 정보 및 파트너 테넌트 키를 사용하여 설정하고, 조직의 비디오 interop 앱에 동의해야 합니다. 다음 다이어그램에서는 프로세스를 간략하게 설명합니다.
 
@@ -32,7 +32,7 @@ ms.locfileid: "65674740"
 
 ## <a name="plan"></a>계획
 
-조직에서 사용할 파트너 또는 파트너를 식별하는 방법에 대한 자세한 내용은 [Microsoft Teams Cloud Video Interop](cloud-video-interop.md)을 참조하세요.
+조직에서 사용할 파트너 또는 파트너를 식별하는 방법에 대한 자세한 내용은 [Microsoft Teams용 Cloud Video Interop](cloud-video-interop.md) 을 참조하세요.
 
 사용자 기반/동시/사이트 전체 사용을 계획하려면 다음을 수행합니다.
 
@@ -89,9 +89,9 @@ Cloud Video Interop을 구성하려면 다음 단계를 수행합니다.
 
 ## <a name="schedule"></a>일정
 
-다음으로 비디오 interop 좌표를 사용하여 Teams 모임을 예약합니다. 사용하도록 설정된 사용자는 다음을 통해 팀 모임을 예약할 수 있습니다.
+다음으로, 비디오 interop 좌표를 사용하여 Teams 모임을 예약합니다. 사용하도록 설정된 사용자는 다음을 통해 팀 모임을 예약할 수 있습니다.
 
-- [Outlook 대한 Teams 모임 추가 기능](teams-add-in-for-outlook.md)
+- [Outlook용 Teams 모임 추가 기능](teams-add-in-for-outlook.md)
 - Teams 클라이언트 데스크톱 및 모바일
 
 ## <a name="join"></a>가입
@@ -102,8 +102,8 @@ Cloud Video Interop을 구성하려면 다음 단계를 수행합니다.
   - tenantkey@domain 사용하여 파트너의 IVR에 전화를 걸 수 있습니다.
   - 파트너 IVR에 있으면 VTC conferenceId를 입력하라는 메시지가 표시됩니다. 그러면 Teams 모임에 연결됩니다.
 - 직통
-  - tenantkey의 전체 문자열을 사용하여 직접 다이얼 기능을 사용하여 파트너의 IVR과 상호 작용하지 않고도 Teams 모임에 직접 전화를 걸 수 있습니다. VTC ConferenceId@domain.
+  - 테넌트 키의 전체 문자열을 사용하여 직접 다이얼 기능을 사용하여 파트너의 IVR과 상호 작용하지 않고 Teams 모임에 직접 전화를 걸 수 있습니다. VTC ConferenceId@domain.
 - 원터시 다이얼
-  - 통합 Teams 룸이 있는 경우 파트너가 제공하는 원터치 다이얼 기능을 사용할 수 있습니다(다이얼 문자열을 입력할 필요 없이).
+  - Teams 룸이 통합되어 있는 경우 파트너가 제공하는 원터치 다이얼 기능을 사용할 수 있습니다(다이얼 문자열을 입력할 필요 없이).
 
 마지막으로 오디오, 비디오 및 콘텐츠 공유를 사용하여 모임에서 Teams 사용자와 소통합니다.
