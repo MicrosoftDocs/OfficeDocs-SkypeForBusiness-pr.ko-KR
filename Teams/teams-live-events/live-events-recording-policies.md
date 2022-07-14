@@ -1,7 +1,7 @@
 ---
 title: 라이브 이벤트 기록 정책
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -13,60 +13,60 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: 라이브 이벤트 기록 정책에 대해 자세히 알아보습니다.
+description: 라이브 이벤트 기록 정책에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3725abe49c72251b8672fb5851177586be8bf871
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 5ae98255edf26843e59839192a9f20096182bfa2
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62386366"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794116"
 ---
-# <a name="live-event-recording-policies-in-microsoft-teams"></a>라이브 이벤트 기록 정책은 Microsoft Teams
+# <a name="live-event-recording-policies-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 기록 정책
 
-라이브 이벤트를 기록하기 위한 몇 가지 Microsoft Teams 있습니다. 기록 옵션은 기록 정책을 사용하여 설정됩니다. 이 문서에서는 다양한 설정을 설명합니다.
+Microsoft Teams 라이브 이벤트를 기록하기 위한 몇 가지 옵션이 있습니다. 녹음/녹화 옵션은 기록 정책을 사용하여 설정됩니다. 이 문서에서는 다양한 설정을 설명합니다.
 
-기록 옵션은 PowerShell 명령 [Set-CsTeamsMeetingBroadcastPolicy를 사용하여 설정됩니다](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy).
+녹음/녹화 옵션은 PowerShell 명령 [Set-CsTeamsMeetingBroadcastPolicy를](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy) 사용하여 설정됩니다.
 
-## <a name="scheduling-and-option-behaviors"></a>설정 및 옵션 동작
+## <a name="scheduling-and-option-behaviors"></a>일정 및 옵션 동작
 
-라이브 이벤트 녹화를 진행하는 동안 두 가지 이끌이 옵션이 있습니다.
+라이브 이벤트 기록을 예약하는 동안 다음 두 가지 이끌이 옵션이 있습니다.
 
-- 생산자 및 발표자에 사용할 수 있는 녹화
+- 프로듀서 및 발표자가 사용할 수 있는 녹음/녹화
 
-  - 녹음 파일: 이벤트가 끝났을 때 생산자 및 발표자가 다운로드할 수 있는 녹음 파일을 제공합니다.
+  - 기록 파일: 이벤트가 끝난 후 생산자와 발표자가 다운로드할 수 있는 녹음 파일을 제공합니다.
 
-- 참석자에 사용할 수 있는 기록
+- 참석자가 사용할 수 있는 녹음/녹화
 
-  - DVR: DVR(디지털 비디오 레코더)을 사용하면 참석자들이 이벤트 중에 되감기 및 일시 중지를 할 수 있습니다.
+  - DVR: DVR(디지털 비디오 레코더)을 사용하면 참석자가 이벤트 중에 되들이고 일시 중지할 수 있습니다.
 
-  - VOD: VOD(VoD) 비디오로 참석자들이 이벤트가 끝났을 때 시청할 수 있습니다.
+  - VOD: VOD(주문형 비디오)를 사용하면 참석자가 이벤트가 끝난 후 시청할 수 있습니다.
 
-## <a name="broadcast-recording-policy-setting"></a>브로드캐스트 녹화 정책 설정
+## <a name="broadcast-recording-policy-setting"></a>브로드캐스트 녹음/녹화 정책 설정
 
-브로드캐스트 정책의 일부로 라이브 이벤트에 대해 녹화를 켜거나 끄기 위해 전환할 수 있는 설정이 있습니다.
+브로드캐스트 정책의 일부로 라이브 이벤트에 대한 녹화를 켜거나 끄도록 토글할 수 있는 설정이 있습니다.
 
-| &nbsp;| 생산자 및 발표자에 사용할 수 있는 녹화 | 참석자에 사용할 수 있는 기록 |
+| &nbsp;| 프로듀서 및 발표자가 사용할 수 있는 녹음/녹화 | 참석자가 사용할 수 있는 녹음/녹화 |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
-| 항상 레코드               | 사용하지 않도록 설정되어 선택되었습니다.                                | 사용 및 선택         |
-| 이끌이가 기록할 수 있습니다. | 기본적으로 사용 및 선택                  | 기본적으로 사용 및 선택   |
-| 기록 안 합니다.               | 사용하지 않도록 설정되어 선택되지 않았습니다.                            | 사용하지 않도록 설정되어 선택되지 않았습니다.      |
+| 항상 레코드               | 사용 안 함 및 선택됨                                | 사용 및 선택됨         |
+| 이끌이는 기록 가능 여부 | 기본적으로 사용하도록 설정 및 선택됨                  | 기본적으로 사용하도록 설정 및 선택됨   |
+| 기록 안 하세요               | 사용 안 함 및 선택 안 함                            | 사용 안 함 및 선택 안 함      |
 
-## <a name="storage-and-persistence-behavior"></a>Storage 및 지속성 동작
+## <a name="storage-and-persistence-behavior"></a>스토리지 및 지속성 동작
 
 | 옵션                                       | 상태   | DVR                                                   | VOD                                                     | 녹음/녹화                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
-| 참석자에 사용할 수 있는 기록 | 선택된     | DVR을 사용할 수 있으며 AMS(Azure Media Services) 자산은 180일 동안 저장됩니다. | 참석자 는 이벤트에 액세스하고 볼 수 있습니다.                     |                              |
-|                                                  | 선택되지 않았습니다. | DVR을 사용할 수 있으며 AMS 자산은 180일 동안 저장됩니다. | 참석자들은 이벤트가 끝났을 때 이벤트에 액세스할 수 없습니다. |                              |
-||사용하지 않도록 설정(선택되지 않았습니다)|DVR을 사용할 수 있으며 이벤트 후 AMS 자산이 삭제됩니다.|참석자들은 이벤트가 끝났을 때 이벤트에 액세스할 수 없습니다.||
-| 생산자 및 발표자가 사용할 수 있는 녹화 | 선택된     |                                                           |                                                             | MP4가 생성되고 180일 동안 저장됩니다. |
-|                                                  | 선택되지 않았습니다. |                                                           |                                                             | 파일이 생성되지 않습니다.           |
+| 참석자가 사용할 수 있는 녹음/녹화 | 선택한     | DVR을 사용할 수 있으며 AMS(Azure Media Services) 자산은 180일 동안 저장됩니다. | 참석자는 이벤트에 액세스하고 볼 수 있습니다.                     |                              |
+|                                                  | 선택되지 않음 | DVR을 사용할 수 있으며 AMS 자산은 180일 동안 저장됩니다. | 참석자는 이벤트가 끝난 후 이벤트에 액세스할 수 없습니다. |                              |
+||사용 안 함(선택되지 않음)|DVR을 사용할 수 있으며 이벤트 후 AMS 자산이 삭제됩니다.|참석자는 이벤트가 끝난 후 이벤트에 액세스할 수 없습니다.||
+| 프로듀서 및 발표자가 사용할 수 있는 녹음/녹화 | 선택한     |                                                           |                                                             | MP4가 만들어지고 180일 동안 저장됩니다. |
+|                                                  | 선택되지 않음 |                                                           |                                                             | 파일이 만들어지지 않음           |
 
 ### <a name="related-topics"></a>관련 항목
 
 - [Teams 라이브 이벤트란?](what-are-teams-live-events.md)
 - [Teams 라이브 이벤트 계획](plan-for-teams-live-events.md)
 - [Teams에서 라이브 이벤트 설정 구성하기](configure-teams-live-events.md)
-- [Teams 클라우드 모임 녹화](../cloud-recording.md)
+- [Teams 클라우드 모임 녹음/녹화](../cloud-recording.md)

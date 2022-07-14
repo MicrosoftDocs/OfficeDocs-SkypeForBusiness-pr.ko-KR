@@ -1,7 +1,7 @@
 ---
-title: 세인트 키츠 및 Nevis의 가용성
-author: SerdarSoysal
-ms.author: serdars
+title: 세인트키츠 네비스의 가용성
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 Microsoft 365 및 Office 365 및 비즈니스용 Skype Microsoft Teams 및 서비스입니다.
-ms.openlocfilehash: 94a70a117cf2cbd592a88de859eaea46e94cfac3
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: 다음은 세인트 키츠 및 네비스에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
+ms.openlocfilehash: 3e61918d2c5676566c4d756265bd6238b0ee864c
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62394630"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794486"
 ---
-# <a name="availability-in-saint-kitts-and-nevis"></a>세인트 키츠 및 Nevis의 가용성
+# <a name="availability-in-saint-kitts-and-nevis"></a>세인트키츠 네비스의 가용성
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 Microsoft 365 및 Office 365 및 비즈니스용 Skype Microsoft Teams 및 서비스입니다.
+다음은 세인트 키츠 및 네비스에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 
@@ -62,17 +62,17 @@ ms.locfileid: "62394630"
 |통화 플랜에서 사용 가능한 시간(분)  <br/> |해당 사항 없음  <br/> |
 |아웃바운드 통화를 할 수 있나요?  <br/> |해당 사항 없음  <br/> |
 
-통화 요금제를 구입할 수 없는 경우 사용 가능한 모든 옵션에 대한 [PSTN](../pstn-connectivity.md) 연결 옵션을 참조하세요.
+통화 플랜을 구매할 수 없는 경우 사용 가능한 모든 옵션에 대한 [PSTN 연결 옵션을](../pstn-connectivity.md) 참조하세요.
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>서비스에 대한 무료 전화 번호 및 무료 전화 번호
+## <a name="toll-and-toll-free-numbers-for-services"></a>서비스에 대한 유료 및 무료 번호
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
 |유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?   | 해당 사항 없음 <br/> |
 |유료 번호를 사용할 수 있나요?  <br/> |아니요 <br/> |
-|무료 전화 번호를 사용할 수 있나요?  <br/> |예  <br/> |
+|무료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
    
- 오디오 회의, 자동 참석자 및 통화 큐에 대한 무료 전화 번호 및 무료 전화 번호를 얻게 하려는 경우 전화 번호 및 전화 통화에 대한 서비스 전화 번호 비즈니스용 Skype [Microsoft Teams.](../getting-service-phone-numbers.md)
+ 오디오 회의, 자동 전화 교환 및 통화 큐에 대한 유료 및 무료 전화 번호를 받으려면 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 가져오기](../getting-service-phone-numbers.md)를 참조하세요.
   
 ## <a name="communications-credits"></a>통신 크레딧
 

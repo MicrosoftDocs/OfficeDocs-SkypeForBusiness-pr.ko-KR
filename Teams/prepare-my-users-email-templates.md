@@ -1,14 +1,14 @@
 ---
-title: 온라인 전화 시스템 롤아웃에 대한 사용자 알림 전자 메일 템플릿
-author: SerdarSoysal
-ms.author: serdars
+title: 온라인 전화 시스템 롤아웃을 위한 사용자 알림 전자 메일 템플릿
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: 템플릿을 사용하여 클라우드 음성 기능을 구현할 때 사용자에게 전자 메일을 Teams 또는 비즈니스용 Skype.
+description: 템플릿을 사용하여 Teams 또는 비즈니스용 Skype 클라우드 음성 기능을 구현할 때 사용자에게 전자 메일을 보냅니다.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -16,20 +16,20 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d709dbbf52746c5eb3a264f6423133ac26b3c744
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 515dcd3438db958eb09554671ad1fd28195c720d
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62393476"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794576"
 ---
-# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>새 온라인 전화 시스템의 사용자 채택 용이성
+# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>새 온라인 전화 시스템의 사용자 채택 촉진
 
-휴대폰은 사용자의 수명선일 수 있습니다. 기존 전화 시스템에서 온라인 전화 시스템으로 전환하면 사용자가 작업하는 방식이 크게 바뀌고 생산성에 부정적인 영향을 줄 수 있습니다. 이 변경을 통해 사용자를 알리고, 안내하고, 지원하기 위해 시간을 내어 긍정적인 사용자 환경을 보장하고 투자 수익을 최대화할 수 있습니다.
+휴대폰은 사용자의 수명선일 수 있습니다. 기존 전화 시스템에서 온라인 전화 시스템으로 전환하는 것은 사용자의 작업 방식에 큰 변화를 나타내며 생산성에 부정적인 영향을 미칠 수 있습니다. 이 변경을 통해 사용자에게 알리고, 안내하고, 지원하는 데 시간이 걸리면 긍정적인 사용자 환경을 보장하고 투자 수익을 극대화할 수 있습니다.
 
-이 문서에는 사용자 지정 가능한 전자 메일 템플릿이 포함되어 새 전화 시스템에 대해 사용자에게 알릴 수 있습니다. 특정 음성 배포에 맞게 적절한 전자 메일을 사용자 지정하고 전송합니다. 괄호를 사용하여 개인 설정이 용이하도록 섹션을 표시했지만, 사용자에게 가장 관련성이 높은 공지를 만들기 위해 조직별 메시징을 추가하는 것이 좋습니다. 배포에 해당하는 경우 모든 참조를 "Teams"로 비즈니스용 Skype.
+이 문서에는 사용자에게 새 전화 시스템에 대해 알리는 데 도움이 되는 사용자 지정 가능한 전자 메일 템플릿이 포함되어 있습니다. 특정 음성 배포에 맞게 적절한 전자 메일을 사용자 지정하고 보냅니다. 대괄호를 사용하여 쉽게 개인 설정할 수 있는 섹션을 표시했지만, 사용자에게 가장 관련성이 있는 알림을 만들기 위해 조직별 메시징을 추가하는 것이 좋습니다. 배포에 해당하는 경우 "Teams"에 대한 모든 참조를 "비즈니스용 Skype"로 대체합니다.
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a>전자 메일 번호 1: 시작 3주 전에 보내기
+## <a name="email-number-1-send-three-weeks-before-launch"></a>Email 번호 1: 시작하기 3주 전에 보내기
 
 제목 줄:
 
@@ -94,7 +94,7 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a>전자 메일 번호 2: 시작 1주일 전에 보내기
+## <a name="email-number-2-send-one-week-before-launch"></a>Email 번호 2: 시작하기 1주일 전에 보내기
 
 제목 줄:
 
@@ -138,7 +138,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a>전자 메일 번호 3: 출시 당일 보내기
+## <a name="email-number-3-send-on-launch-day"></a>Email 번호 3: 시작 날짜에 보내기
 
 제목 줄:
 
@@ -175,7 +175,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a>전자 메일 번호 4: 시작 후 2주 보내기
+## <a name="email-number-4-send-two-weeks-after-launch"></a>Email 번호 4: 시작 후 2주 보내기
 
 제목 줄:
 

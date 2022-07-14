@@ -1,7 +1,7 @@
 ---
 title: 통화 분석을 사용하여 통화 품질 저하 문제 해결
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -22,20 +22,20 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 디바이스, 네트워크 및 연결에 대한 사용자별 통화 분석 세부 정보를 사용하여 Microsoft Teams 통화 및 모임의 사용자 문제를 해결합니다.
-ms.openlocfilehash: 47b60eb979c36508ed1911a70f531695c03533e5
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 38636d911be55648ec17628bcec7d4cee21358c5
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125653"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794316"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>통화 분석을 사용하여 통화 품질 저하 문제 해결
 
-이 문서에서는 Teams 관리자, Teams 통신 지원 전문가 또는 Teams 통신 지원 엔지니어 역할을 보유하고 있는 경우 Call Analytics를 사용하여 개별 사용자의 Microsoft Teams 통화 또는 모임 품질 저하 문제를 해결하는 방법을 설명합니다.
+이 문서에서는 Call Analytics를 사용하여 Teams 관리자, Teams 커뮤니케이션 지원 전문가 또는 Teams 커뮤니케이션 지원 엔지니어 역할을 보유한 경우 개별 사용자의 Microsoft Teams 통화 또는 모임 품질 저하 문제를 해결하는 방법을 설명합니다.
 
 ## <a name="call-analytics-permissions"></a>통화 분석 권한
 
-이 문서에서는 이미 Call Analytics를 설정했음을 가정합니다. 그렇지 않은 경우 [Teams 대한 통화 분석 설정을 읽어봅니다](set-up-call-analytics.md).
+이 문서에서는 이미 Call Analytics를 설정했음을 가정합니다. 아직 설정하지 않은 경우 [Teams에 대한 통화 분석 설정을](set-up-call-analytics.md) 읽어봅니다.
 
 ## <a name="introduction-to-call-analytics"></a>통화 분석 소개
 
@@ -43,7 +43,7 @@ ms.locfileid: "65125653"
 
 통화 분석은 한 참가자에서 두 번째 참가자까지 통화 또는 모임의 각 레그를 보여 줍니다. Teams 관리자는 이러한 세부 정보를 분석하여 문제 영역을 격리하고 품질 저하의 근본 원인을 식별할 수 있습니다.
 
-Teams 관리자는 각 사용자에 대한 모든 Call Analytics 데이터에 대한 모든 권한을 얻습니다. 또한 지원 직원에게 Azure Active Directory 역할을 할당할 수 있습니다. 이러한 역할에 대해 자세히 알아보려면 [지원 권한 부여 및 기술 지원팀 직원을](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff) 읽어보세요. [각 Teams 지원 역할이 수행하는 작업을](#what-does-each-teams-support-role-do) 놓치지 마세요.
+Teams 관리자는 각 사용자에 대한 모든 Call Analytics 데이터에 대한 모든 액세스 권한을 얻습니다. 또한 Azure Active Directory 역할을 할당하여 직원을 지원할 수 있습니다. 이러한 역할에 대해 자세히 알아보려면 [지원 권한 부여 및 기술 지원팀 직원을](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff) 읽어보세요. [아래에서 각 Teams 지원 역할이 수행하는 작업을](#what-does-each-teams-support-role-do) 놓치지 마세요.
 
 ## <a name="where-to-find-per-user-call-analytics"></a>사용자별 통화 분석을 찾을 수 있는 위치
 
@@ -57,7 +57,7 @@ Teams 관리자는 각 사용자에 대한 모든 Call Analytics 데이터에 �
 
 ## <a name="what-does-each-teams-support-role-do"></a>각 Teams 지원 역할은 무엇을 합니까?
 
-**Teams 통신 지원 전문가**(계층 1 지원)는 기본 통화 품질 문제를 처리합니다. 모임 관련 문제는 조사하지 않습니다. 대신 관련 정보를 수집한 다음 Teams 통신 지원 엔지니어에게 에스컬레이션합니다.
+**Teams 커뮤니케이션 지원 전문가**(계층 1 지원)는 기본 통화 품질 문제를 처리합니다. 모임 관련 문제는 조사하지 않습니다. 대신 관련 정보를 수집한 다음 Teams 커뮤니케이션 지원 엔지니어에게 에스컬레이션합니다.
 
 **Teams 통신 지원 엔지니어**(계층 2 지원)는 Teams 통신 지원 전문가에게 숨겨진 자세한 통화 로그에 정보를 표시합니다. 아래 표에는 각 Teams 통신 지원 역할에 사용할 수 있는 정보가 나와 있습니다.
 
@@ -81,7 +81,7 @@ Teams 관리자는 각 사용자에 대한 모든 Call Analytics 데이터에 �
 
 ## <a name="troubleshoot-user-call-quality-problems"></a>사용자 통화 품질 문제 해결
 
-1. Teams 관리 센터(<https://admin.teams.microsoft.com>)를 열고 Teams 통신 지원 또는 Teams 관리자 자격 증명으로 로그인합니다.
+1. Teams 관리 센터(<https://admin.teams.microsoft.com>)를 열고 Teams 커뮤니케이션 지원 또는 Teams 관리자 자격 증명으로 로그인합니다.
 
 2. **대시보드** 의 **사용자 검색** 에서 문제를 해결하려는 사용자의 이름 또는 SIP 주소를 입력하거나 **사용자 보기를** 선택하여 사용자 목록을 표시합니다.
 
@@ -104,6 +104,6 @@ QoE(경험 품질) 데이터가 있는 오디오 세션의 경우 다음 표에�
 |디바이스가 작동하지 않음|장치|디바이스가 제대로 작동하지 않습니다. 디바이스가 작동하지 않는 비율은 다음과 같습니다. <p> DeviceRenderNotFunctioningEventRatio >= 0.005 <br>  DeviceCaptureNotFunctioningEventRatio >= 0.005|
 ||||
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [사용자별 통화 분석 설정](set-up-call-analytics.md)

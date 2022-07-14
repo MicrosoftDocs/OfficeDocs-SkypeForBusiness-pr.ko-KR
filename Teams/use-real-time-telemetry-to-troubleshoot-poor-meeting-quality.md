@@ -1,7 +1,7 @@
 ---
 title: 실시간 원격 분석을 사용하여 모임 품질 저하 문제 해결
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 디바이스, 네트워크 및 연결에 대한 세부 정보와 함께 실시간 원격 분석을 사용하여 Microsoft Teams 예약 모임의 사용자 문제를 해결합니다.
-ms.openlocfilehash: 26ee7b809d7b18bb07a7f8ae57852c2333b26d94
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: e1f9b445917a0bfd8ba06a736444fc532aa1a0b7
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789623"
+ms.locfileid: "66794346"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>실시간 원격 분석을 사용하여 모임 품질 저하 문제 해결
 

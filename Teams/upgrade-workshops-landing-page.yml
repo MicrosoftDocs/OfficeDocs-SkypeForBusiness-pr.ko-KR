@@ -1,45 +1,51 @@
 ### YamlMime:Hub
 title: Teams 업그레이드 계획 워크숍
-summary: 'Teams에 대한 업그레이드를 계획하고 구현하는 데 도움을 주기 위해 설계된 지침, 모범 사례 및 리소스를 공유하는 실시간 대화형 업그레이드 계획 워크숍 시리즈에 참여하세요. 최적의 환경을 위해 아래의 업그레이드 계획 세션을 사용하여 시작하세요. 등록하려면 워크샵 타이틀을 클릭합니다.'
+summary: Teams에 대한 업그레이드를 계획하고 구현하는 데 도움을 주기 위해 설계된 지침, 모범 사례 및 리소스를 공유하는 실시간 대화형 업그레이드 계획 워크숍 시리즈에 참여하세요. 최적의 환경을 위해 아래의 업그레이드 계획 세션을 사용하여 시작하세요. 등록할 워크샵 제목을 클릭합니다.
 brand: teams
 metadata:
   title: Teams 업그레이드 계획 워크숍
-  description: 'Teams에 대한 업그레이드를 계획하고 구현하는 데 도움을 주기 위해 설계된 지침, 모범 사례 및 리소스를 공유하는 실시간 대화형 업그레이드 계획 워크숍 시리즈에 참여하세요. 최적의 환경을 위해 아래의 업그레이드 계획 세션을 사용하여 시작하세요. 등록하려면 워크샵 타이틀을 클릭합니다.'
+  description: Teams에 대한 업그레이드를 계획하고 구현하는 데 도움을 주기 위해 설계된 지침, 모범 사례 및 리소스를 공유하는 실시간 대화형 업그레이드 계획 워크숍 시리즈에 참여하세요. 최적의 환경을 위해 아래의 업그레이드 계획 세션을 사용하여 시작하세요. 등록할 워크샵 제목을 클릭합니다.
   ms.service: msteams
   ms.topic: hub-page
-  author: SerdarSoysal
-  ms.author: serdars
+  ms.author: mikeplum
+  author: MikePlumleyMSFT
   manager: serdars
   ms.date: 01/27/2020
   ms.reviewer: landerl
   audience: admin
   f1.keywords:
-    - NOCSH
+  - NOCSH
   ms.localizationpriority: high
   ms.collection:
-    - Teams_ITAdmin_JourneyFromSfB
-    - M365-collaboration
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
   ms.custom:
-    - seo-marvel-apr2020
+  - seo-marvel-apr2020
   search.appverid: MET150
   appliesto:
-    - Microsoft Teams
+  - Microsoft Teams
+  ms.openlocfilehash: fe5104d2047f734a0ae6df839bb980052ca2607e
+  ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+  ms.translationtype: MT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 07/14/2022
+  ms.locfileid: "66794526"
 productDirectory:
   items:
-    - title: 업그레이드 계획 (여기에서 시작하세요!)
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-teams.svg'
-      summary: 'Teams 온라인 사용 중지(2021년 비즈니스용 Skype 7월 31일)를 앞두고 업그레이드하거나 비즈니스용 Skype 프레미스 환경의 시나리오를 Teams 전환에 성공하면 기술 및 사용자 준비를 모두 해결합니다. 온라인, 비즈니스용 Skype 또는 하이브리드 환경으로의 성공적인 전환을 Teams 수 있도록 비즈니스용 Skype 서버 입증된 프레임워크, 모범 사례 및 리소스를 검색합니다. 대상자 – 모든(비즈니스 스폰서, IT 관리자, 사용자 준비/변경 관리자, 프로젝트 리드)'
-      url: 'https://aka.ms/SfBtoTeamsPlan'
-    - title: 업그레이드 Teams 구현
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/hybrid-teams.svg'
-      summary: '목표 및 현재 환경에 따라 모든 워크로드를 Teams 최상의 기술 접근 방식을 식별하고 실행하기 비즈니스용 Skype 준비하세요. 성공적인 전환을 완료한 대부분의 고객은 현재 Teams 온라인, 비즈니스용 Skype 또는 하이브리드 구현과 비즈니스용 Skype 서버 사용하도록 설정했습니다. 이 세션에서는 조직에 가장 적합한 마이그레이션 전략을 정의하는 데 도움이 되는 주요 고려 사항과 중요한 리소스를 공유합니다. 대상 - IT 관리자'
-      url: 'https://aka.ms/SfBtoTeamsImplement'
+  - title: 업그레이드 계획 (여기에서 시작하세요!)
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+    summary: 비즈니스용 Skype Online 사용 중지(2021년 7월 31일)를 앞두고 Teams로 업그레이드하거나 비즈니스용 Skype 온-프레미스 환경에서 Teams로 시나리오를 이동하든 관계없이 성공적인 전환은 기술 및 사용자 준비 상태를 모두 해결합니다. 비즈니스용 Skype Online, 비즈니스용 Skype 서버 또는 하이브리드 환경에서 Teams로의 성공적인 전환을 용이하게 하는 데 도움이 되도록 설계된 검증된 프레임워크, 모범 사례 및 리소스를 살펴보세요. 대상 그룹 – 모두(비즈니스 스폰서, IT 관리자, 사용자 준비/변경 관리자, 프로젝트 리더)
+    url: https://aka.ms/SfBtoTeamsPlan
+  - title: Teams 업그레이드 구현
+    imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
+    summary: 목표와 현재 비즈니스용 Skype 환경에 따라 모든 워크로드를 Teams로 이동하기 위한 최상의 기술 접근 방식을 파악하고 실행하기 위해 Microsoft와 함께 준비하세요. 성공적인 전환을 완료한 대부분의 고객은 현재 비즈니스용 Skype Online, 비즈니스용 Skype 서버 또는 하이브리드 구현과 함께 Teams를 사용하도록 설정했습니다. 이 세션에서는 조직에 가장 적합한 마이그레이션 전략을 정의하는 데 도움이 되는 주요 고려 사항 및 중요한 리소스를 공유합니다. 대상 그룹 - IT 관리자
+    url: https://aka.ms/SfBtoTeamsImplement
 additionalContent:
   sections:
-    - items:
-        - title: 시나리오를 Teams?
-          summary: IT 프로를 위한 Teams Chalk Talk 워크샵을 확인해 본다.
-          url: ./chalk-talks-landing-page.yml
-        - title: Teams를 처음 사용하시나요?
-          summary: 시작에 대해 자세히 Teams.
-          url: ./teams-overview.md
+  - items:
+    - title: Teams 시나리오를 확장하시겠습니까?
+      summary: IT 전문가를 위한 Teams 분필 토크 워크샵을 확인하세요.
+      url: ./chalk-talks-landing-page.yml
+    - title: Teams를 처음 사용하시나요?
+      summary: Teams 시작에 대해 자세히 알아보세요.
+      url: ./teams-overview.md

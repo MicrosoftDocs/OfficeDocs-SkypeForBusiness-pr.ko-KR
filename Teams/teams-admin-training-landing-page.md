@@ -1,8 +1,9 @@
 ---
-title: 사용자에 대한 관리자 Microsoft Teams
+title: Microsoft Teams용 관리 교육
 ms.reviewer: ''
-description: 조직의 관리자 교육 및 지원을 Microsoft Teams 합니다.
-author: SerdarSoysal
+description: 조직에서 Microsoft Teams를 관리하는 데 필요한 관리자 교육 및 지원을 받습니다.
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: admin
 ms.date: 01/22/2018
@@ -19,17 +20,16 @@ f1.keywords:
 - NOCSH
 search.appverid: MET150
 ms.topic: landing-page
-ms.author: serdars
-ms.openlocfilehash: f784fa8c171a204c58f33a11eda2e48ce234cbf9
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 83185e267f1a3aa44158c5e6252e5b964868af5f
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62387496"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794286"
 ---
-# <a name="admin-training-for-microsoft-teams"></a>사용자에 대한 관리자 Microsoft Teams
+# <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams용 관리 교육
 
-조직에 대한 Teams 방법에 대해 자세히 알아보습니다.
+조직의 Teams를 관리하는 방법을 알아봅니다.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -43,7 +43,7 @@ ms.locfileid: "62387496"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>NEW: 강사 주도 Teams</h3>
+                        <h3>신규: Teams 강사 주도 교육</h3>
                     </div>
                 </div>
             </div>
@@ -61,7 +61,7 @@ ms.locfileid: "62387496"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>도움이 됐습니다.</h3>
+                        <h3>도와드리겠습니다.</h3>
                     </div>
                 </div>
             </div>
@@ -79,7 +79,7 @@ ms.locfileid: "62387496"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>로그인하는 데 도움이 비즈니스용 Skype?</h3>
+                        <h3>비즈니스용 Skype 로그인하는 데 도움이 필요하세요?</h3>
                     </div>
                 </div>
             </div>
@@ -97,7 +97,7 @@ ms.locfileid: "62387496"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>온라인에서 비즈니스용 Skype 문제 해결</h3>
+                        <h3>비즈니스용 Skype Online 문제 해결</h3>
                     </div>
                 </div>
             </div>
@@ -115,7 +115,7 @@ ms.locfileid: "62387496"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>비즈니스용 Skype Teams</h3>
+                        <h3>비즈니스용 Skype Teams로의 여정</h3>
                     </div>
                 </div>
             </div>
@@ -139,7 +139,7 @@ ms.locfileid: "62387496"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>문서</h3>
+                        <h3>기사</h3>
                         <p><a 
                         href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">조직에서 전화 시스템 설정</a></p>
                         <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">오디오 회의와 타사 통합</a></p>
@@ -158,9 +158,9 @@ ms.locfileid: "62387496"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>새 기능</h3>
-                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">캐나다 통화 계획(일반 공급)</a></p>
-                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">오스트레일리아에서 요금제 호출(미리 보기만 해당)</a></p>
+                        <h3>새로운 기능</h3>
+                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">캐나다의 통화 플랜(일반 공급)</a></p>
+                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">오스트레일리아의 통화 플랜(미리 보기에만 해당)</a></p>
                     </div>
                 </div>
             </div>

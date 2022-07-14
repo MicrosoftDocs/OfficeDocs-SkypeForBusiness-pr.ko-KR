@@ -1,7 +1,7 @@
 ---
 title: CQD(통화 품질 대시보드)의 스트림 분류
-ms.author: serdars
-author: lolaj
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: gageames
 ms.topic: article
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Microsoft Teams 및 비즈니스용 Skype Online용 CQD(통화 품질 대시보드)에서 스트림 품질을 분류하는 방법을 알아봅니다.
-ms.openlocfilehash: 5ee2575cf952eb9d7e78f14b2b8ba7693cd3f878
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 9b17cf115759e96edbccdb85369ac42fd5861ff7
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059259"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794296"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>CQD(통화 품질 대시보드)의 스트림 분류
 
@@ -33,7 +33,7 @@ Microsoft Teams 및 비즈니스용 Skype Online용 CQD(통화 품질 대시보�
 
 ## <a name="classifier-definitions"></a>분류자 정의
 
-CQD의 스트림 사용 가능한 주요 품질 메트릭의 값을 기반으로 _Good_, _Poor_ 또는 _Unclassified_ 로 분류됩니다. 스트림을 분류하는 데 사용되는 메트릭 및 조건은 다음 표에 표시됩니다. CQD의 "잘못된 원인" 차원을 사용하여 _분류_ 불량을 담당하는 메트릭을 파악할 수 있습니다. 이러한 차원에 대한 자세한 내용은 [통화 품질 대시보드에서 사용할 수 있는 차원 및 측정값을 참조하세요](dimensions-and-measures-available-in-call-quality-dashboard.md).
+CQD의 스트림은 사용 가능한 키 품질 메트릭의 값에 따라 _Good_, _Poor_ 또는 _Unclassified_ 로 분류됩니다. 스트림을 분류하는 데 사용되는 메트릭 및 조건은 다음 표에 표시됩니다. CQD의 "잘못된 원인" 차원을 사용하여 _분류_ 불량을 담당하는 메트릭을 파악할 수 있습니다. 이러한 차원에 대한 자세한 내용은 [통화 품질 대시보드에서 사용할 수 있는 차원 및 측정값을 참조하세요](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 ### <a name="audio-classifier"></a>오디오 분류자
 
@@ -113,7 +113,7 @@ ICE 연결이 _분류되지 않은_ 스트림에 성공한 경우 키 스트림 
   > "패킷 사용률" 차원 및 "평균 패킷 사용률" 측정값을 사용하여 스트림의 패킷 활동을 확인할 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
-[Teams 대한 통화 품질 개선 및 모니터링](monitor-call-quality-qos.md)
+[Teams의 통화 품질 개선 및 모니터링](monitor-call-quality-qos.md)
 
 [CQD란?](CQD-what-is-call-quality-dashboard.md)
 
@@ -127,4 +127,4 @@ ICE 연결이 _분류되지 않은_ 스트림에 성공한 경우 키 스트림 
 
 [CQD에서 사용할 수 있는 차원 및 측정값](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[Power BI 사용하여 CQD 데이터 분석](CQD-Power-BI-query-templates.md)
+[Power BI를 사용하여 CQD 데이터 분석](CQD-Power-BI-query-templates.md)

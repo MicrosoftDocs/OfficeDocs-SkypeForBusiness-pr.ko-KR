@@ -21,44 +21,44 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a715e913966040c5406901403b90d5a6a421e2e4
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 6bf8e6ab6f2a5ba7303887e9e7d7d72d22c50964
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045877"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794686"
 ---
 # <a name="plan-for-sip-gateway"></a>SIP 게이트웨이 계획
 
-SIP 게이트웨이를 사용하면 조직에서 Microsoft Teams 호환되는 모든 SIP 디바이스를 사용하여 SIP 디바이스에 대한 투자를 유지할 수 있습니다. 이제 로그인하여 회사 자격 증명으로 Teams 호환되는 SIP 디바이스를 사용하여 전화를 걸고 받을 수 있습니다. 호환되는 디바이스는 표준 SIP 펌웨어를 사용하는 IP 휴대폰, 다중 플랫폼 SIP 펌웨어가 있는 Cisco IP 휴대폰 또는 Poly, Yealink 및 AudioCodes와 같은 공급업체의 SIP 디바이스를 비즈니스용 Skype 수 있습니다. SIP 게이트웨이에 대한 SIP 디바이스를 구성하는 방법을 알아보려면 [SIP 게이트웨이 구성](sip-gateway-configure.md)을 참조하세요.
+SIP 게이트웨이를 사용하면 조직에서 Microsoft Teams와 호환되는 모든 SIP 디바이스를 사용하여 SIP 디바이스에 대한 투자를 유지할 수 있습니다. 이제 회사 자격 증명으로 Teams에 로그인하고 호환되는 SIP 디바이스를 사용하여 전화를 걸고 받을 수 있습니다. 호환되는 디바이스는 표준 SIP 펌웨어를 사용하는 IP 휴대폰, 다중 플랫폼 SIP 펌웨어가 있는 Cisco IP 휴대폰 또는 Poly, Yealink 및 AudioCodes와 같은 공급업체의 SIP 디바이스를 비즈니스용 Skype 수 있습니다. SIP 게이트웨이에 대한 SIP 디바이스를 구성하는 방법을 알아보려면 [SIP 게이트웨이 구성](sip-gateway-configure.md)을 참조하세요.
 
 ## <a name="benefits-of-sip-gateway"></a>SIP 게이트웨이의 이점
 
-SIP 게이트웨이는 호환되는 SIP 디바이스를 Teams 연결하여 사용자가 Teams 전화 통신으로 원활하게 마이그레이션할 수 있도록 지원합니다. 사용자는 SIP 게이트웨이를 사용하여 다음을 모두 수행할 수 있습니다.
+SIP 게이트웨이는 호환되는 SIP 디바이스를 Teams에 연결하여 사용자가 Teams 전화 통신으로 원활하게 마이그레이션할 수 있도록 지원합니다. 사용자는 SIP 게이트웨이를 사용하여 다음을 모두 수행할 수 있습니다.
 
-- **전화 걸기:** SIP 디바이스 사용자는 PSTN(공중 전화망), 다른 SIP 디바이스 및 Teams 및 비즈니스용 Skype 사용자를 호출할 수 있습니다. SIP 디바이스 사용자는 전화 번호가 있는 사용자만 호출할 수 있습니다.
-- **수신 전화:** SIP 디바이스 사용자는 PSTN, SIP 디바이스가 있는 Teams 또는 비즈니스용 Skype 사용자, Teams 및 비즈니스용 Skype 클라이언트 애플리케이션에서 전화를 받을 수 있습니다. SIP 디바이스는 Teams 엔드포인트 역할을 합니다. 인바운드 호출도 사용자의 SIP 디바이스로 포크됩니다.
+- **전화 걸기:** SIP 디바이스 사용자는 PSTN(공중 전화망), 다른 SIP 디바이스 및 Teams 및 비즈니스용 Skype 사용자에게 전화를 걸 수 있습니다. SIP 디바이스 사용자는 전화 번호가 있는 사용자만 호출할 수 있습니다.
+- **수신 전화:** SIP 디바이스 사용자는 PSTN, Teams 또는 SIP 디바이스가 있는 비즈니스용 Skype 사용자, Teams 및 비즈니스용 Skype 클라이언트 애플리케이션에서 전화를 받을 수 있습니다. SIP 디바이스는 Teams 엔드포인트 역할을 합니다. 인바운드 호출도 사용자의 SIP 디바이스로 포크됩니다.
 - **여러 동시 호출:** 통화 중인 SIP 디바이스 사용자는 통화를 보류하여 다른 전화를 걸거나 받을 수 있습니다. SIP 디바이스 사용자는 두 번의 호출을 전화 회의할 수도 있습니다.
 - **방해 금지:** SIP 디바이스 사용자는 디바이스가 들어오는 호출에 대해 울리지 않도록 디바이스에서 방해 금지 설정을 할 수 있습니다. 이는 다른 모든 Teams 엔드포인트에서 사용자의 상태에 영향을 주지 않습니다.
 - **보류/다시 시작 및 음소거/음소거 해제:** SIP 디바이스 사용자는 디바이스에서 해당 작업에 대한 기능을 사용하여 통화를 보류 및 다시 시작 또는 음소거 및 음소거 해제할 수 있습니다.
 - **음성:** SIP 디바이스 사용자는 발신자가 보내는 전자적으로 저장된 음성 메시지를 들을 수 있습니다.
 - **메시지 대기 표시기:** SIP 디바이스 사용자는 새 음성 메일 메시지가 있을 때 경고하는 알림을 받을 수 있습니다.
-- **로그인 및 로그아웃:** SIP 디바이스 사용자는 디바이스에서 Teams 로그인하고 로그아웃할 수 있습니다.
+- **로그인 및 로그아웃:** SIP 디바이스 사용자는 디바이스에서 Teams에 로그인하고 로그아웃할 수 있습니다.
 - **이중 톤 다중 주파수:** SIP 디바이스 사용자는 대화형 음성 응답 호출 중에 숫자 키를 눌러 입력을 제공할 수 있습니다.
-- **Teams 모임:** SIP 디바이스 사용자는 모임 액세스 번호로 전화를 걸어 Teams 모임에 참가할 수 있습니다. 모임 참가자는 사용자의 전화 번호로 전화를 걸거나 단순히 '참가 요청'을 클릭하여 참가자를 추가하여 모임에 SIP 디바이스 사용자를 추가할 수 있습니다. 다른 조직의 게스트 사용자를 게스트 사용자 번호로 전화를 걸어 해당 게스트를 포함하는 참가자가 Teams 모임에 추가할 수 있습니다.
+- **Teams 모임:** SIP 디바이스 사용자는 모임 액세스 번호로 전화를 걸어 Teams 모임에 참가할 수 있습니다. 모임 참가자는 사용자의 전화 번호로 전화를 걸거나 단순히 '참가 요청'을 클릭하여 참가자를 추가하여 모임에 SIP 디바이스 사용자를 추가할 수 있습니다. 게스트 사용자의 번호로 전화를 걸어 해당 게스트를 포함하는 참가자가 다른 조직의 게스트 사용자를 Teams 모임에 추가할 수 있습니다.
 - **통화 전송:** SIP 디바이스 사용자는 호출을 전송할 수 있습니다. SIP 게이트웨이는 블라인드 및 상담 전송을 모두 지원합니다.
 - **로컬 착신 전환:** SIP 디바이스 사용자는 디바이스에 대한 전달 규칙(항상 시간 제한 및 사용 중)을 설정할 수 있습니다. 디바이스가 SIP 게이트웨이에 연결된 경우 디바이스 사용자가 설정한 규칙에 따라 호출이 대상 주소로 리디렉션됩니다. 로컬 착신 전환 작업을 수행하려면 관리자가 `AllowCallRedirect` 특성을 .로 `Set-CsTeamsCallingPolicy` `Enabled`설정해야 합니다.
 
 ## <a name="requirements-to-use-sip-gateway"></a>SIP 게이트웨이를 사용하기 위한 요구 사항
 
-Teams 사용자에게는 SIP 게이트웨이를 사용하도록 설정된 PSTN 통화가 있는 전화 번호가 있어야 합니다.
+Teams 사용자는 SIP 게이트웨이를 사용하려면 PSTN 통화가 설정된 전화 번호가 있어야 합니다.
 
 ### <a name="hardware-software-and-licenses"></a>하드웨어, 소프트웨어 및 라이선스
 
 3PIP 또는 SIP 디바이스가 있는 경우 다음이 있어야 합니다.
 
 - 전화 시스템 라이선스(E5 또는 독립 실행형 라이선스를 통해)
-- Microsoft Teams 통화 플랜, 직접 라우팅 또는 운영자 연결 통해 PSTN 사용(즉, 전화 번호)
+- Microsoft Teams 통화 플랜, 직접 라우팅 또는 운영자 연결을 통한 PSTN 사용(즉, 전화 번호)
 - 공용 영역 디바이스에 대한 공용 영역 전화 라이선스
 
 ## <a name="compatible-devices"></a>호환되는 디바이스
@@ -137,6 +137,27 @@ Teams 사용자에게는 SIP 게이트웨이를 사용하도록 설정된 PSTN �
 |          |C450HD      |3.2.1      |3.4.6.687  |   |   |
 |          |445HD       |3.2.1      |3.4.6.687  |   |   |
 |          |RX50        |3.2.1      |3.4.6.687  |   |   |
+|**Spectralink**|       |           |           |   |[Spectralink 지원](https://support.spectralink.com)|
+|          |7202        |PCS22B     |PCS22B     |단말기 |   |
+|          |7212        |PCS22B     |PCS22B     |단말기 |   |
+|          |7502        |PCS22B     |PCS22B     |단말기 |   |
+|          |7522        |PCS22B     |PCS22B     |단말기 |   |
+|          |7532        |PCS22B     |PCS22B     |단말기 |   |
+|          |7622        |PCS22B     |PCS22B     |단말기 |   |
+|          |7642        |PCS22B     |PCS22B     |단말기 |   |
+|          |7722        |PCS22B     |PCS22B     |단말기 |   |
+|          |7742        |PCS22B     |PCS22B     |단말기 |   |
+|          |IP-DECT Server 200 |PCS22Ab |PCS22Ab |IP-DECT 서버 |   |
+|          |IP-DECT Server 400 |PCS22Ab |PCS22Ab |IP-DECT 서버 |   |
+|          |IP-DECT Server 6500 |PCS22Ab |PCS22Ab |IP-DECT 서버 |   |
+|          |가상 IP-DECT 서버 1 |PCS22Ab |PCS22Ab |IP-DECT 서버 |   |
+|          |IP-DECT 기지국 |PCS22Ab |PCS22Ab |IP-DECT 서버 |   |
+
+> [!NOTE]
+> Spectralink 핸드셋은 Spectralink IP-DECT 서버에서 무선으로 펌웨어 업데이트를 받습니다.
+
+> [!NOTE]
+> 지원 쿼리의 경우 Teams SIP Gateway에서 IP-DECT 시스템을 사용하는 고객은 DECT 제조업체 또는 구현 채널 파트너에게 문의해야 합니다.
 
 > [!NOTE]
 > 일부 디바이스의 경우 최소 펌웨어 버전이 승인된 펌웨어 버전보다 큽 있습니다. 이는 3.X 버전이 비즈니스용 Skype 버전이기 때문입니다. 2.X인 SIP 버전을 업데이트합니다.
