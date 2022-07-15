@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 디바이스, 네트워크 및 연결에 대한 세부 정보와 함께 실시간 원격 분석을 사용하여 Microsoft Teams 예약 모임의 사용자 문제를 해결합니다.
-ms.openlocfilehash: e1f9b445917a0bfd8ba06a736444fc532aa1a0b7
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: 203f16d83d211a4a85f3217992d509bccba5dea3
+ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794346"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66810180"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>실시간 원격 분석을 사용하여 모임 품질 저하 문제 해결
 
@@ -137,10 +137,10 @@ Teams 관리자는 각 사용자에 대한 모든 실시간 원격 분석 데이
 
 ## <a name="teams-devices-with-support-for-real-time-telemetry"></a>실시간 원격 분석을 지원하는 Teams 디바이스
 
-- MTR - Surface Hub
-- MTR - Teams 디스플레이
-- MTR - 공동 작업 표시줄
-- IP Phone 디바이스
+- Teams 디스플레이
+- Teams 휴대폰
+- Teams 룸
+- Surface Hub의 Teams 룸
 
 > [!NOTE]
 > CVI(Cloud Video Interop) 솔루션을 사용하여 모임에 참가한 디바이스는 Real-Time Analytics에서 지원되지 않습니다.

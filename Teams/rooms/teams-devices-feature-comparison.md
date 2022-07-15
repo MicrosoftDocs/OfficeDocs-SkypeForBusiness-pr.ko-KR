@@ -20,21 +20,21 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46ea03016b329801b5cdd4b422192ff35496dbdd
-ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
+ms.openlocfilehash: c7b61ebcc5fa650e7282b48d45862b2649783af7
+ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "65886705"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66810170"
 ---
 # <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>Windows와 Android 간의 공유 공간 기능 비교를 위한 Teams 디바이스 
-Microsoft Teams 룸 환경은 고객을 염두에 두고 설계되었습니다. 모든 고객에게는 고유한 요구 사항이 있으므로 Microsoft는 Windows 및 Android의 Teams 룸을 비롯한 다양한 옵션을 제공합니다. 
+Microsoft Teams 룸 환경은 고객을 염두에 두고 설계되었습니다. 모든 고객에게는 고유한 요구 사항이 있으므로 Microsoft는 Windows 및 Android에서 Teams 룸 포함하여 다양한 옵션을 제공합니다. 
 
 핵심 기능은 두 플랫폼에서 모두 사용할 수 있으므로 최종 사용자는 항상 멋진 오디오 및 비디오 환경을 제공하고, 원터치 조인을 사용하여 모임에 참가하고, 라이브 캡션과 같은 포괄 기능에 액세스하고 손을 들 수 있습니다. 
 
-Microsoft는 Teams 및 Teams 룸에 새로운 기능을 제공하므로 모든 플랫폼으로 가져오기 위해 노력하지만, 각 플랫폼에 대한 기술적 타당성 및 고객 피드백과 같은 여러 요인으로 인해 기능이 서로 다른 시간에 출시 될 수 있습니다. 즉, Android 플랫폼에 오기 전에 Windows에서 일부 기능이 출시되는 것을 볼 수 있습니다. 
+Microsoft는 Teams 및 Teams 룸 새로운 기능을 제공하므로 모든 플랫폼으로 가져오기 위해 노력하지만, 각 플랫폼에 대한 기술적 타당성 및 고객 피드백과 같은 여러 요인으로 인해 기능이 서로 다른 시간에 출시 될 수 있습니다. 즉, Android 플랫폼에 오기 전에 Windows에서 일부 기능이 출시되는 것을 볼 수 있습니다. 
 
-다양한 플랫폼에서 사용할 수 있는 기능을 안내하려면 아래 차트를 참조하여 주기적으로 업데이트됩니다. 이 목록에 모든 Teams 룸 기능이 포함되지는 않으므로 [Microsoft 365 로드맵 및 Microsoft](https://www.microsoft.com/en-us/microsoft-365/roadmap) 영업 담당자에게 추가 세부 정보를 계속 문의하세요.    
+다양한 플랫폼에서 사용할 수 있는 기능을 안내하려면 아래 차트를 참조하여 주기적으로 업데이트됩니다. 모든 Teams 룸 기능이 이 목록에 포함되지는 않으므로 [Microsoft 365 로드맵 및 Microsoft](https://www.microsoft.com/en-us/microsoft-365/roadmap) 영업 담당자에게 추가 세부 정보를 계속 문의하세요.    
 
 ## <a name="teams-devices-for-shared-spaces"></a>공유 공간을 위한 Teams 디바이스
 ### <a name="feature-comparison-between-windows-and-android"></a>Windows와 Android 간의 기능 비교
@@ -77,10 +77,11 @@ Microsoft는 Teams 및 Teams 룸에 새로운 기능을 제공하므로 모든 �
 ||연결된 주변 장치 상태 모니터링 |대화 가능  |준비 중 |
 ||원격 구성(다시 시작, 설정, 로그 컬렉션) |대화 가능  |대화 가능 |
 ||자동 Teams 앱 업데이트 |대화 가능  |대화 가능 |
-||디바이스 자동 등록 |대화 가능 |준비 중 |
+||디바이스 자동 등록 |대화 가능 |대화 가능 |
 ||통화 품질 분석 |대화 가능  |대화 가능 |
 |**좋은 용 / 공간**|포커스(2-4명) |대화 가능  |대화 가능 |
 ||작음(4~6명) |대화 가능  |대화 가능 |
 ||중간(6~12명) |대화 가능  |대화 가능 |
 ||대형(12~16명) |대화 가능  |대화 가능 |
 ||다목적 객실(16명 이상) |대화 가능  |사용할 수 없음 |
+

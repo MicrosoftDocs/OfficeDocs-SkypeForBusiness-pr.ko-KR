@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리 Microsoft Teams 룸 누적 개선 사항을 나열하는 Microsoft Teams 룸 대한 릴리스 정보를 읽을 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d4ac16e7214a6340eb74f1c154661f78a50992ee
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: 07b4661df5df7ac766c17a07c2bdd940b3d2cb6b
+ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529700"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66810110"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 룸 대한 릴리스 정보
 
@@ -27,18 +27,19 @@ ms.locfileid: "66529700"
 
 Teams 룸 대한 업데이트에는 Teams 룸 앱 업데이트와 Teams 웹 클라이언트의 두 가지 유형이 있습니다. 
 
-Teams 룸 앱 업데이트는 Microsoft Store를 통해 또는 [수동 업데이트를](manual-update.md) 통해 수행됩니다. 그러면 디바이스에 로컬로 설치된 UWP(유니버설 Windows 플랫폼) 애플리케이션이 업데이트됩니다.
+Teams 룸 앱 업데이트는 Microsoft Store를 통해 또는 [수동 업데이트를](manual-update.md) 통해 수행됩니다. 업데이트 디바이스에 로컬로 설치된 UWP(유니버설 Windows 플랫폼) 애플리케이션에 적용됩니다.
 
-Teams 웹 클라이언트 업데이트는 Teams 웹앱 배달 서비스를 통해 수행됩니다. 디바이스에 설치된 로컬 UWP 애플리케이션에 대한 업데이트가 필요하지 않은 클라우드 기반 서비스입니다.
+Teams 웹 클라이언트 업데이트는 Teams 웹앱 배달 서비스를 통해 수행됩니다. Teams 웹 클라이언트는 디바이스에 설치된 로컬 UWP 애플리케이션에 대한 업데이트가 필요하지 않은 클라우드 기반 서비스입니다.
 
 Teams 업데이트 방법에 대한 자세한 내용은 [Teams 업데이트 프로세스를 참조하세요](../teams-client-update.md).
 
-Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내용은 [Teams 업데이트 프로세스를](../teams-client-update.md#servicing-agreement) 참조하세요.
+Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내용은 [Teams 업데이트 프로세스를 참조하세요](../teams-client-update.md#servicing-agreement).
 
 ## <a name="version-history"></a>버전 기록
 
 |릴리스 |게시 날짜 <br/> Microsoft Store |
 |--- |--- |
+|4.12.139.0 |7/14/2022 |
 |4.12.138.0 |5/26/2022 |
 |4.12.126.0 |4/27/2022 |
 |4.11.17.0 |3/3/2022 |
@@ -92,6 +93,15 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams 룸 기능 소개 및 문제 해결
 
+### <a name="4121390-7142022"></a>4.12.139.0 (7/14/2022)
+
+이 업데이트에 도입된 내용은 다음과 같습니다.
+
+- Windows [KB5013942](https://support.microsoft.com/topic/may-10-2022-kb5013942-os-builds-19042-1706-19043-1706-and-19044-1706-60b51119-85be-4a34-9e21-8954f6749504) 의 영향을 받는 시스템이 앱을 다시 등록하여 시작할 수 있도록 버전 번호를 변경합니다. 이 앱 버전에는 4.1.2.138.0의 기능이 변경되지 않습니다.
+
+> [!NOTE]
+> 자세한 내용은 Teams 룸 [및 디바이스의 알려진 문제](/microsoftteams/troubleshoot/teams-rooms-and-devices/rooms-known-issues)에서 "업데이트 후 Teams 룸 앱이 시작되지 않습니다."를 참조하세요.
+
 ### <a name="4121380-5262022"></a>4.12.138.0 (5/26/2022)
 
 이 업데이트에 도입된 내용은 다음과 같습니다.
@@ -102,7 +112,7 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 ### <a name="4121260-4272022"></a>4.12.126.0 (4/27/2022)
 
 이 업데이트에 도입된 내용은 다음과 같습니다.
-- IT 관리자는 XML 설정을 통해 공개 미리 보기 기능을 수신하도록 Teams 룸 디바이스를 등록할 수 있습니다. 등록되면 디바이스가 베타 기능을 받기 시작합니다. 베타 테스트로 이동하는 모든 기능은 [Microsoft Teams 공개 미리 보기 - Microsoft 기술 커뮤니티](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)<sup>1,2</sup>에서 발표됩니다.  
+- IT 관리자는 XML 설정을 통해 공개 미리 보기 기능을 수신하도록 Teams 룸 디바이스를 등록할 수 있습니다. 등록되면 디바이스가 베타 기능을 받기 시작합니다. 베타 테스트로 이동하는 모든 기능은 [Microsoft Teams 공개 미리 보기 - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) <sup>1,2</sup>에서 발표됩니다.  
 - IT 관리자는 XML 설정<sup>2</sup>를 통해 회의실 전면 디스플레이 해상도 및 원격으로 크기 조정을 설정할 수 있습니다.
 - IT 관리자는 XML 설정 3을 통해 Microsoft 노이즈 억제를 사용하지 않도록 설정할 수 있습니다<sup>.</sup> 
 - IT 관리자는 레지스트리 키 설정<sup>4</sup>를 통해 디바이스에서 다운로드 폴더 정리를 재정의할 수 있습니다.

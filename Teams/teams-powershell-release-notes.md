@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell의 최신 변경 내용에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67a05d19d6996062690d00099aa455b3eb60fd57
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 96f2b119c36b26a0c8805bcce29edc2830e1568f
+ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562357"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66810120"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 릴리스 정보
 
@@ -31,6 +31,7 @@ ms.locfileid: "66562357"
 
 | 날짜 | 버전 | 업데이트 |
 |------- | -------------------- | ------------------------------ |
+| 2022년 7월 | [4.5.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.5.1-preview) |<li>특정 유형의 사용자를 쿼리할 수 있는 Get-CsOnlineUser cmdlet에 대한 AccountType 매개 변수를 해제합니다.</li><li>AccountType 특성은 사용자 유형을 나타내는 Get-CsOnlineUser 출력에 추가됩니다. AccountType에 사용할 수 있는 값은 'User'(사용자 계정), 'ResourceAccount'(앱 엔드포인트 또는 리소스 계정), '게스트'(게스트 계정) & '알 수 없음'(사용자 유형을 알 수 없음)입니다.</li><li>Grant-Cs\<PolicyName\> cmdlet에서 순위 & 그룹 매개 변수와 관련된 문제를 해결합니다.</li>
 | 2022년 6월 | [4.5.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.5.0) |<li>Get-CsAutoAttendantStatus cmdlet에 대해 IncludeResources 매개 변수를 지원합니다.</li><li>Get-CsOnlineUser cmdlet에 대해 SoftDeletedUsers 매개 변수를 지원합니다.</li><li>[Get Grant\|]-CsTeamsMediaLoggingPolicy cmdlet을 릴리스합니다.</li><li>[새 집합]-CsAutoAttendant & [새\|\|집합]-CsCallQueue cmdlet에 대한 AuthorizedUsers 선택적 매개 변수를 지원합니다.</li><li>Set-CsCallQueue cmdlet에 대해 설정된 후 프롬프트 형식을 전환할 수 없는 공유 음성 메일 프롬프트 매개 변수를 수정합니다.</li><li> [새\|집합]-CsOnlineSchedule cmdlet이 유럽 날짜-시간 형식으로 작동하도록 수정합니다.</li><li>릴리스 [New\|Get\|Set\|Remove\|Grant]-CsTeamsVoiceApplicationsPolicy cmdlets.</li><li>Get-CsHybridTelephoneNumber cmdlet을 릴리스합니다.</li><li>현대화된 버전의 [New\|Remove]-CsHybridTelephoneNumber cmdlet을 릴리스합니다.</li><li>New-CsAutoAttendantMenuOption cmdlet에서 DtmfResponse 매개 변수의 값으로 ToneStar 및 TonePound를 지원합니다.</li><li> 현대화된 Set-CsTenantFederationConfiguration cmdlet의 AllowedDomainsAsAList 매개 변수에서 PSListModifier 문제를 해결합니다.</li><li> 모든 Grant-Cs\<PolicyName\> cmdlet에 대한 그룹 및 순위 매개 변수를 지원합니다.</li><li> Test-CsTeamsTranslationRule cmdlet을 릴리스합니다.</li>
 | 2022년 6월 | [4.4.3-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.4.3-preview) |<li>Get-CsAutoAttendantStatus cmdlet에 대해 IncludeResources 매개 변수를 지원합니다.</li><li>Get-CsOnlineUser cmdlet에 대해 SoftDeletedUsers 매개 변수를 지원합니다.</li><li>[Get Grant\|]-CsTeamsMediaLoggingPolicy cmdlet을 릴리스합니다.</li><li>[새 집합]-CsAutoAttendant & [새\|\|집합]-CsCallQueue cmdlet에 대한 AuthorizedUsers 선택적 매개 변수를 지원합니다.</li><li>Set-CsCallQueue cmdlet에 대해 설정된 후 프롬프트 형식을 전환할 수 없는 공유 음성 메일 프롬프트 매개 변수를 수정합니다.</li><li> [새\|집합]-CsOnlineSchedule cmdlet이 유럽 날짜-시간 형식으로 작동하도록 수정합니다.</li>
 | 2022년 5월 | [4.4.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.4.1) |<li>모듈의 크기가 개선되었습니다.</li><li>모든 cmdlet의 현대화된 버전에서 지원되지 않는 매개 변수는 오류가 발생합니다.</li><li>[Get\|Set]-CsOnlineDialInConferencingUser, Get-CsOnlineDialInConferencingBridge, [\|Get Set\|Register\|Unregister]-CsOnlineDialInConferencingServiceNumber & Get-CsOnlineDialInConferencingLanguagesSupported cmdlet에 대한 오류 처리를 수정합니다.</li><li>Test-CsOnlineLisCivicAddress cmdlet은 더 이상 사용되지 않습니다.</li><li>이제 UPN(사용자 계정 이름) & GUID를 현대화된 [제거 가져오기\|]-CsOnlineApplicationInstanceAssociation cmdlet의 ID로 사용할 수 있습니다.</li><li> [호환성이 손상되는 변경] Get-CsOnlineUser - 사용자에게 해당 정책이 할당되지 않은 경우 출력의 정책 특성이 null이 됩니다. 이러한 특성은 이전 버전(3.0.0~4.3.1)의 빈 UserPolicyDefinition 개체로 사용되었습니다.</li><li>입력 매개 변수에서 null 또는 빈 배열 값을 허용하도록 Set-CsCallQueue 수정합니다.</li><li>Get-CsPhoneNumberAssignment - City & IsoSubdivision 특성이 출력에 추가됩니다.</li>
@@ -72,7 +73,7 @@ ms.locfileid: "66562357"
 | 2020년 3월 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>추가된 New-CsBatchPolicyAssignmentOperation</li> |
 | 2020년 2월 | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Get-Team 최적화</li>  |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Teams PowerShell 개요](teams-powershell-overview.md)
 
