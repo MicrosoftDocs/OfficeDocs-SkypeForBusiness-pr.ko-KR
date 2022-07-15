@@ -18,12 +18,12 @@ description: 이 문서에서는 Microsoft Teams 관리 센터에서 사용할 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f0891b9267039d8c07d437cb8e67eb2b982a0016
-ms.sourcegitcommit: cf2f2d23e6dcda0c03f22a5800a210a1c88e583f
+ms.openlocfilehash: ad17bd2932786253f7dd3a925856d46780032204
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "65883551"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819313"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 분석 및 보고
 
@@ -31,12 +31,12 @@ Microsoft Teams에 대한 새로운 분석 및 보고 환경은 Microsoft Teams 
 
 ## <a name="how-to-access-the-reports"></a>보고서에 액세스하는 방법
 
-보고서에 액세스하려면 Microsoft 365 또는 Office 365의 전역 관리자, Microsoft 365 또는 Office 365의 전역 읽기 권한자, Teams 서비스 관리자 또는 비즈니스용 Skype 관리자여야 합니다. Teams 관리자 역할 및 각 관리자 역할이 액세스할 수 있는 보고서를 자세히 알아보려면 [Teams 관리자 역할을 사용하여 Teams를 관리하세요](../using-admin-roles.md).
+보고서에 액세스하려면 Microsoft 365 또는 Office 365 전역 관리자, Microsoft 365 또는 Office 365 전역 읽기 권한자, Teams 서비스 관리자 또는 비즈니스용 Skype 관리자여야 합니다. Teams 관리자 역할 및 각 관리자 역할이 액세스할 수 있는 보고서를 자세히 알아보려면 [Teams 관리자 역할을 사용하여 Teams를 관리하세요](../using-admin-roles.md).
 
 Microsoft Teams 관리 센터로 이동하여 왼쪽 탐색 영역에서 **분석 & 보고서를** 선택한 다음 **보고서 보기** 에서 실행할 보고서를 선택합니다.
 
 > [!NOTE]
-> Microsoft Teams 관리 센터의 보고서는 Microsoft 365 관리 센터의 Microsoft 365 보고서에 포함된 Teams의 활동 보고서와는 별개입니다. Microsoft 365 관리 센터의 활동 보고서에 대한 자세한 내용은 [Microsoft 365 관리 센터의 Teams 활동 보고서를](../teams-activity-reports.md) 참조하세요.
+> Microsoft Teams 관리 센터의 보고서는 Microsoft 365 관리 센터 Microsoft 365 보고서의 일부인 Teams의 활동 보고서와는 별개입니다. Microsoft 365 관리 센터 활동 보고서에 대한 자세한 내용은 Microsoft 365 관리 센터 [Teams 활동 보고서를](../teams-activity-reports.md) 참조하세요.
 
 ## <a name="teams-reporting-reference"></a>Teams 보고 참조
 
@@ -55,17 +55,17 @@ Teams 보고 환경을 지속적으로 개선하고 기능과 기능을 추가�
 |[Teams PSTN 사용 현황 보고서 - 통화 플랜](pstn-usage-report.md#calling-plans)|  타임스탬프를<br>사용자 이름<br>전화 번호<br>호출 유형 <br>다음으로 호출<br>국가 또는 지역으로 <br>에서 호출 <br>국가 또는 지역에서<br>충전<br>통화<br>기간<br>국내/국제<br>통화 ID<br>숫자 형식<br>국가 또는 지역<br>회의 ID<br>기능(라이선스)|
 |[Teams PSTN 사용 현황 보고서 - 직접 라우팅](pstn-usage-report.md#direct-routing)  |  타임스탬프를<br>표시 이름<br>SIP 주소<br>전화 번호 <br>호출 유형<br>다음으로 호출<br>시작 시간<br>초대 시간<br>실패 시간<br>종료 시간<br>기간<br>숫자 형식<br>미디어 바이패스<br>SBC FQDN<br>Azure 지역<br>이벤트 유형<br>최종 SIP 코드<br>최종 Microsoft 하위 코드<br>최종 SIP 구<br>상관 관계 ID  |
 |[Teams 정보 보호 라이선스 보고서](information-protection-license-report.md)  | <br>사용자에게 변경 알림을 통해 메시지를 푸시할 수 있는 유효한 라이선스가 있는지 여부</br><br>사용자가 트리거한 총 변경 알림 이벤트 수<br><br>조직 전체 변경 알림 이벤트를 수신 대기하는 앱<br>|
-|[Teams 가상 방문 사용 현황 보고서](virtual-visits-usage-report.md)  | 가상 약속 수<br>예약 예약 수<br>EHR(Teams 전자 건강 기록) 통합 약속 수<br>약속의 평균 기간<br>참석자의 평균 로비 대기 시간<br>시작 시간<br>모임 ID<br>로비 대기 시간<br>기간<br>상태<br>제품 유형<br>참석자<br>SMS 전송
-|[Teams EHR 커넥터 가상 약속 보고서](../expand-teams-across-your-org/healthcare/ehr-admin-reports.md) | 시작 시간<br>기간<br>기본(모임 이끌이 이름)<br>기본 전자 메일(모임 이끌이의 전자 메일)<br>부서<br>전화 교환<br>로비 대기 시간<br>약속이 할당 한도 내에 있는지 여부
+|[Teams 가상 방문 사용 현황 보고서](/microsoft-365/frontline/virtual-visits-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)  | 가상 약속 수<br>예약 예약 수<br>EHR(Teams 전자 건강 기록) 통합 약속 수<br>약속의 평균 기간<br>참석자의 평균 로비 대기 시간<br>시작 시간<br>모임 ID<br>로비 대기 시간<br>기간<br>상태<br>제품 유형<br>참석자<br>SMS 전송
+|[Teams EHR 커넥터 가상 약속 보고서](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) | 시작 시간<br>기간<br>기본(모임 이끌이 이름)<br>기본 전자 메일(모임 이끌이의 전자 메일)<br>부서<br>전화 교환<br>로비 대기 시간<br>약속이 할당 한도 내에 있는지 여부|
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="make-the-user-specific-data-anonymous"></a>사용자 특정 데이터를 익명으로 만들기
 
-Teams 사용자 활동 및 Teams 디바이스 사용량 보고서를 익명으로 만들려면 전역 관리자여야 합니다. 그러면 보고서 및 내보내기에서 표시 이름, 전자 메일 및 Microsoft Azure Active Directory ID와 같은 식별 가능한 정보가 숨겨질 수 있습니다.
+Teams 사용자 활동 및 Teams 디바이스 사용량 보고서를 익명으로 만들려면 전역 관리자여야 합니다. 이렇게 하면 보고서 및 내보내기에서 표시 이름, 전자 메일 및 Microsoft Azure Active Directory ID와 같은 식별 가능한 정보가 숨겨질 수 있습니다.
 
-1. Microsoft 365 관리 센터에서 **설정** \> **조직 설정** 으로 이동하고 **서비스** 탭에서 **보고서를** 선택합니다.
+1. Microsoft 365 관리 센터 **설정** \> **조직 설정** 으로 이동하고 **서비스** 탭에서 **보고서를** 선택합니다.
     
-2. **보고서를** 선택한 다음 **, 모든 보고서에 숨겨진 사용자, 그룹 및 사이트 이름을 표시** 하도록 선택합니다. 이 설정은 Microsoft 365 관리 센터의 사용 보고서와 Teams 관리 센터에 모두 적용됩니다.
+2. **보고서를** 선택한 다음 **, 모든 보고서에 숨겨진 사용자, 그룹 및 사이트 이름을 표시** 하도록 선택합니다. 이 설정은 Microsoft 365 관리 센터 사용 현황 보고서와 Teams 관리 센터에 모두 적용됩니다.
   
 3. **변경 내용 저장** 을 선택합니다.
 

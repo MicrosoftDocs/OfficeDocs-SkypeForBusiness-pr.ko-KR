@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams에서 Bookings 앱 관리
-author: mkbond007
-ms.author: mabond
-manager: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -21,16 +21,16 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 조직의 사용자를 위해 Teams에서 Bookings 앱을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 45ce6c29cd7bfbaedf53c1b75178142a925157cb
-ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
+ms.openlocfilehash: f11739784dcb9897bf9a3fcbffdadc8aea00d3e0
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "66695041"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819293"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Microsoft Teams에서 Bookings 앱 관리
 
-Microsoft Teams의 Bookings 앱은 직접 약속 및 가상 약속을 예약하는 간단한 방법을 제공합니다. 예를 들어 의료 방문, 재무 상담, 인터뷰, 고객 지원 및 교육 업무 시간 등이 있습니다. 자세한 내용은 [Teams 및 Bookings 앱을 사용하여 가상 약속을 참조하세요](expand-teams-across-your-org/bookings-virtual-visits.md).
+Microsoft Teams의 Bookings 앱은 직접 약속 및 가상 약속을 예약하는 간단한 방법을 제공합니다. 예를 들어 의료 방문, 재무 상담, 인터뷰, 고객 지원 및 교육 업무 시간 등이 있습니다. 자세한 내용은 [Teams 및 Bookings 앱을 사용하여 가상 약속을 참조하세요](/microsoft-365/frontline/bookings-virtual-visits).
 
 스케줄러는 단일 환경에서 여러 부서 및 직원 일정을 관리하고 내부 및 외부 참석자와의 통신을 관리할 수 있습니다. 가상 약속은 강력한 비디오 회의 기능을 제공하는 Microsoft Teams 모임을 통해 진행됩니다.
 
@@ -100,7 +100,7 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
 
 ## <a name="related-articles"></a>관련 기사
 
-[브라우저에서 Teams 가상 약속에 대한 조인 환경 관리](expand-teams-across-your-org/browser-join.md)
+[브라우저에서 Teams 가상 약속에 대한 조인 환경 관리](/microsoft-365/frontline/browser-join)
 
 
   [최종 사용자를 위한 Bookings 설명서](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)

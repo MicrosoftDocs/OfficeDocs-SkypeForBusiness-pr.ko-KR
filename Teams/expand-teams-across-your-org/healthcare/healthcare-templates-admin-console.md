@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: yinchang
 description: Teams 관리 센터와 Microsoft Graph에서 의료 팀 템플릿을 관리하고 사용하여 의료 조직을 위한 팀을 빠르고 쉽게 만드는 방법을 알아보세요.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 78269b393c384af82e48284e3ffefe8785013975
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 831e4e257277ce2fca6dc007ac5f3bfe963bca35
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046004"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819443"
 ---
 # <a name="use-healthcare-team-templates"></a>팀 의료 서식 파일 사용
 
@@ -73,7 +73,7 @@ Teams에는 의료 기관을 위해 특별히 설계된 템플릿이 포함되�
 &sup1;앱이 탭으로 채널에 추가되었습니다.
 ## <a name="use-team-templates-with-microsoft-graph"></a>Microsoft Graph에서 팀 템플릿 사용
 
-개발자는 Microsoft Graph를 사용해 미리 작성된 팀 템플릿을 사용해 팀을 만들 수 있습니다. Microsoft Graph에서 팀 템플릿을 사용하는 방법에 관한 자세한 내용은 [Microsoft Graph를 사용하여 팀 템플릿 시작하기](../../get-started-with-teams-templates.md), [Microsoft Teams API 개요](/graph/teams-concept-overview?view=graph-rest-1.0) 및 [teamsTemplate 리소스 유형](/graph/api/resources/teamstemplate?view=graph-rest-1.0)을 참조하세요.
+개발자는 Microsoft Graph를 사용해 미리 작성된 팀 템플릿을 사용해 팀을 만들 수 있습니다. Microsoft Graph에서 팀 템플릿을 사용하는 방법에 관한 자세한 내용은 [Microsoft Graph를 사용하여 팀 템플릿 시작하기](../../get-started-with-teams-templates.md), [Microsoft Teams API 개요](/graph/teams-concept-overview) 및 [teamsTemplate 리소스 유형](/graph/api/resources/teamstemplate)을 참조하세요.
 
 다음은 미리 빌드된 의료 팀 템플릿입니다.
 ### <a name="ward"></a>병동
@@ -214,4 +214,4 @@ Teams에는 의료 기관을 위해 특별히 설계된 템플릿이 포함되�
 - [템플릿으로 팀 만들기](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Teams 관리 센터에서 팀 템플릿 시작하기](../../get-started-with-teams-templates-in-the-admin-console.md)
 - [Microsoft Graph를 사용하여 팀 템플릿 시작하기](../../get-started-with-teams-templates.md)
-- [의료 조직을 위한 Teams 시작](teams-in-hc.md)
+- [의료 조직을 위한 Teams 시작](/microsoft-365/frontline/teams-in-hc?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)

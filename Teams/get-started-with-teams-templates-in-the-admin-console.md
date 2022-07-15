@@ -11,19 +11,19 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 팀 템플릿에 대해 알아보고 Microsoft Teams 관리 센터에서 팀 템플릿을 관리하는 방법을 알아봅니다.
+description: Microsoft Teams 관리 센터에서 팀 템플릿 및 관리 방법에 대해 알아봅니다.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab184e198c28f4100a224ae17f955ecf73e14cf9
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 0bff3c2c63b94df4c1e19a748d3e9e9912574faa
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676156"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819359"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Teams 관리 센터에서 팀 템플릿 시작하기
 
@@ -36,14 +36,14 @@ ms.locfileid: "65676156"
 
 ## <a name="overview"></a>개요
 
-Microsoft Teams 팀 템플릿은 비즈니스 요구 사항 또는 프로젝트를 중심으로 설계된 팀 구조의 정의입니다. 관리자는 템플릿을 사용하여 조직 전체에 일관된 팀을 쉽게 배포할 수 있습니다. 템플릿을 사용하면 사용자가 미리 정의된 설정, 채널 및 앱을 사용하여 풍부한 공동 작업 공간을 빠르게 만들 수 있습니다.
+Microsoft Teams의 팀 템플릿은 비즈니스 요구 사항 또는 프로젝트를 중심으로 설계된 팀의 구조에 대한 정의입니다. 관리자는 템플릿을 사용하여 조직 전체에 일관된 팀을 쉽게 배포할 수 있습니다. 템플릿을 사용하면 사용자가 미리 정의된 설정, 채널 및 앱을 사용하여 풍부한 공동 작업 공간을 빠르게 만들 수 있습니다.
 
-Microsoft Teams 관리 센터에서 또는 PowerShell을 사용하여 팀 템플릿을 관리할 수 있습니다. Microsoft에서 제공하는 미리 빌드된 템플릿을 사용할 수 있으며 [사용자 지정 템플릿을 직접 만들 수도 있습니다](#create-your-own-team-templates). [템플릿 정책을 적용](#apply-team-template-policies)하여 Teams 사용자가 사용할 수 있는 템플릿을 제어할 수도 있습니다.
+Microsoft Teams 관리 센터에서 또는 PowerShell을 사용하여 팀 템플릿을 관리할 수 있습니다. Microsoft에서 제공하는 미리 빌드된 템플릿을 사용할 수 있으며 [사용자 지정 템플릿을 직접 만들 수도 있습니다](#create-your-own-team-templates). [템플릿 정책을 적용](#apply-team-template-policies)하여 Teams에서 사용자가 사용할 수 있는 템플릿을 제어할 수도 있습니다.
 
 이 문서에서는 Teams 관리 센터에서 팀 템플릿 작업에 대한 개요를 제공합니다. 템플릿에서 지원되는 속성, 제공하는 미리 빌드된 템플릿, 템플릿 크기 제한, 템플릿을 만들고 관리하는 방법 등에 대해 알아봅니다.
 
 > [!NOTE]
-> 사용자는 Teams 앱[에서 미리 빌드되거나 사용자 지정 팀 템플릿으로 팀을 만들](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) 수 있습니다. 개발자는 Microsoft Graph 사용하여 미리 빌드된 팀 템플릿에서 프로그래밍 방식으로 팀을 만들 수도 있습니다. 자세한 내용은 [Microsoft Graph 사용하여 팀 템플릿으로 시작](get-started-with-teams-templates.md) 참조하세요.
+> 사용자는 Teams 앱 [에서 미리 빌드된 팀 또는 사용자 지정 팀 템플릿에서 팀을 만들 수 있습니다](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) . 개발자는 Microsoft Graph를 사용하여 미리 빌드된 팀 템플릿에서 프로그래밍 방식으로 팀을 만들 수도 있습니다. 자세한 내용은 [Microsoft Graph를 사용하여 팀 템플릿 시작](get-started-with-teams-templates.md) 방법을 참조하세요.
 
 ## <a name="team-template-capabilities"></a>팀 템플릿 기능
 
@@ -57,15 +57,15 @@ Microsoft Teams 관리 센터에서 또는 PowerShell을 사용하여 팀 템플
 | 팀 가시성(퍼블릭 또는 프라이빗) | 커넥터 |
 | 팀 설정(예: 멤버, 게스트, @ 멘션) | 파일 및 내용 |
 | Autofavorite 채널 | |
-| 설치된 앱 | |
+| 앱 설치됨 | |
 | 고정된 탭 | |
 
 > [!NOTE]
-> 향후 Microsoft Teams 릴리스에서 더 많은 템플릿 기능을 추가할 예정이므로 지원되는 속성에 대한 최신 정보를 다시 확인하세요.
+> Microsoft Teams의 향후 릴리스에서 더 많은 템플릿 기능을 추가할 예정이므로 지원되는 속성에 대한 최신 정보를 다시 확인하세요.
 
 ## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>Teams 관리 센터에서 미리 빌드된 팀 템플릿
 
-다음은 Teams 관리 센터에서 사용할 수 있는 미리 빌드된 팀 템플릿입니다. 미리 빌드된 템플릿은 특정 산업을 위해 만든 템플릿입니다. 이러한 템플릿을 보려면 Teams 관리 센터의 왼쪽 탐색에서 **Teams** >  **Team 템플릿** 으로 이동합니다.
+Teams 관리 센터에서 사용할 수 있는 미리 빌드된 팀 템플릿은 다음과 같습니다. 미리 빌드된 템플릿은 특정 산업을 위해 만든 템플릿입니다. 이러한 템플릿을 보려면 Teams 관리 센터의 왼쪽 탐색 영역에서 **Teams** > **팀 템플릿** 으로 이동합니다.
 
 미리 빌드된 템플릿을 복제할 수 있지만 편집할 수는 없습니다. 미리 빌드된 템플릿의 속성을 변경하려면 기존 템플릿에서 새 템플릿을 만든 다음 원하는 속성을 추가하거나 제거할 수 있습니다. 일부 템플릿의 특정 속성은 변경할 수 없습니다.
 
@@ -97,7 +97,7 @@ Microsoft Teams 관리 센터에서 또는 PowerShell을 사용하여 팀 템플
 - [의료 팀 템플릿](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 - [제조 팀 템플릿](manufacturing-teams-templates-in-the-admin-console.md)
 - [비영리 팀 템플릿](team-templates-nonprofit.md)
-- [소매 팀 템플릿](retail-teams-templates-in-the-admin-console.md)
+- [소매 팀 템플릿](get-started-with-retail-teams-templates.md)
 
 ## <a name="team-template-size-limits"></a>팀 템플릿 크기 제한
 
@@ -113,7 +113,7 @@ Microsoft Teams 관리 센터에서 또는 PowerShell을 사용하여 팀 템플
 |템플릿당 앱 | 50|
 |||
 
-자세한 내용은 [Teams 제한 및 사양을](limits-specifications-teams.md) 참조하세요.
+자세한 내용은 [Teams의 제한 및 사양을 참조하세요](limits-specifications-teams.md).
 
 ## <a name="manage-team-templates"></a>팀 템플릿 관리
 
@@ -121,7 +121,7 @@ Microsoft Teams 관리 센터에서 또는 PowerShell을 사용하여 팀 템플
 
 #### <a name="view-team-templates"></a>팀 템플릿 보기
 
-팀 템플릿을 보려면 Teams 관리 센터의 왼쪽 탐색에서 **Teams** >  **Team 템플릿** 으로 이동합니다. 포함된 채널 및 앱을 포함하여 자세한 내용을 보려면 템플릿을 선택합니다.
+팀 템플릿을 보려면 Teams 관리 센터의 왼쪽 탐색 영역에서 **Teams** > **팀 템플릿** 으로 이동합니다. 포함된 채널 및 앱을 포함하여 자세한 내용을 보려면 템플릿을 선택합니다.
 
 #### <a name="create-your-own-team-templates"></a>고유한 팀 템플릿 만들기
 
@@ -133,7 +133,7 @@ Microsoft Teams 관리 센터에서 또는 PowerShell을 사용하여 팀 템플
 
 #### <a name="apply-team-template-policies"></a>팀 템플릿 정책 적용
 
-[사용자가 팀을 만들기](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b) 위해 Teams 표시되는 템플릿을 제어하려면 템플릿 정책을 설정하고 조직의 사용자 및 그룹에 할당할 수 있습니다. 자세한 내용은 [Teams 관리 센터에서 팀 템플릿 관리를](templates-policies.md) 참조하세요.
+[Teams에서 팀을 만들기](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b) 위해 표시되는 템플릿을 제어하려면 템플릿 정책을 설정하고 조직의 사용자 및 그룹에 할당할 수 있습니다. 자세한 내용은 [Teams 관리 센터에서 팀 템플릿 관리를](templates-policies.md) 참조하세요.
 
 ### <a name="manage-team-templates-using-powershell"></a>PowerShell을 사용하여 팀 템플릿 관리
 
