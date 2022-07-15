@@ -1,13 +1,13 @@
 ---
 title: PowerShell 스크립트 샘플 - 새 사용자 관리자 팀 만들기
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: 이 PowerShell 스크립트를 사용하여 팀 구성원으로 직접 각 관리자에 대한 팀을 만듭니다.
+description: 이 PowerShell 스크립트를 사용하여 직접 보고서를 팀 구성원으로 사용하여 각 관리자에 대한 팀을 만듭니다.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05f5a53974444341ecc7da8431525b69bc8f1923
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 0b8eb4f60b5bf15e54821181ffedc584d9202669
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681559"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825662"
 ---
 # <a name="powershell-script-sample---create-new-people-manager-teams"></a>PowerShell 스크립트 샘플 - 새 사용자 관리자 팀 만들기
 
-이 PowerShell 스크립트를 사용하여 팀 구성원으로 직접 각 관리자에 대한 팀을 만듭니다. 이 스크립트를 실행하기 전에 [관리자 내보내기](powershell-script-create-teams-from-managers-export-managers.md) 스크립트를 실행하여(Active Directory에서) 관리자 목록과 조직에 대한 관리자의 지시 목록을 내보냅니다.
+이 PowerShell 스크립트를 사용하여 직접 보고서를 팀 구성원으로 사용하여 각 관리자에 대한 팀을 만듭니다. 이 스크립트를 실행하기 전에 [관리자 내보내기](powershell-script-create-teams-from-managers-export-managers.md) 스크립트를 실행하여(Active Directory에서) 관리자 목록과 조직에 대한 직접 보고서를 내보냅니다.
 
 이 PowerShell 스크립트에 대해 알아보려면 [사용자 관리자 팀 만들기](../create-manager-directs-teams.md)를 읽어보세요.
 

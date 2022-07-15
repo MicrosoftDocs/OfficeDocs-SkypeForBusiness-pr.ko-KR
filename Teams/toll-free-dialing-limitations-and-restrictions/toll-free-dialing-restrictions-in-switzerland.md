@@ -1,7 +1,7 @@
 ---
 title: 스위스의 무료 전화 걸기 제한 사항
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -21,31 +21,31 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 이렇게 하면 각 국가/지역에서 무료 전화 번호를 전화하는 방법을 찾는 데 도움이 됩니다. 국가/지역을 선택한 후 무료 서비스를 사용할 수 있는 무료 서비스 가용성에 대한 특정 세부 정보, 제한 및 제한이 포함된 국가별 페이지로 이동합니다. 전화 걸기 형식 또는 형식은 각 국가 또는 지역 내에서 무료 전화 번호를 걸기 위해 필요한 액세스 코드를 보여 주며,
-ms.openlocfilehash: 1de9d614a214727319d11a0540b44977ab9951c7
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: 이렇게 하면 각 국가/지역에서 무료 전화 걸기 방법을 확인할 수 있습니다. 국가/지역을 선택하면 무료 서비스를 사용할 수 있는 무료 서비스 가용성에 대한 특정 세부 정보, 제한 사항 및 제한이 포함된 국가별 페이지로 이동됩니다. 전화 걸기 형식 또는 형식은 무료 전화 번호로 전화를 걸기 위해 각 국가 또는 지역 내에서 필요한 액세스 코드를 보여 줍니다.
+ms.openlocfilehash: dc68a225ee5baf36065dc7b471bc3ee9ba5da979
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62400802"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825492"
 ---
 # <a name="toll-free-dialing-restrictions-in-switzerland"></a>스위스의 무료 전화 걸기 제한 사항
 
-[다른 국가 또는 지역](../toll-free-dialing-limitations-and-restrictions.md)을 찾거나 무료 전화 걸기 제한 및 제한에 대해 자세히 알아보는 것이 가장 까다로워요.
+[다른 국가 또는 지역을 찾](../toll-free-dialing-limitations-and-restrictions.md)거나 무료 전화 걸기 제한 사항 및 제한 사항에 대해 자세히 알아보세요.
 
 
 |**세부 정보**|**설명**|
 |:-----|:-----|
 |무료 통화를 사용할 수 있나요?  <br/> |예  <br/> |
 |전화 걸기 형식  <br/> | 0800 <br>|
-|국가/지역 ISO 코드  <br/> |CH  <br/> |
-|섬/지역 커버  <br/> |해당 사항 없음  <br/> |
-|적용되지 않는 섬/지역  <br/> | 해당 사항 없음  <br/>  |
-|유선/고정된 선 가용성  <br/> |예  <br/> |
-|모바일 네트워크 가용성  <br/> | 예(일부 숫자는 프리미엄일 수 있습니다) <br/> |
+|국가/지역 ISO 코드  <br/> |채널  <br/> |
+|섬/영토 적용  <br/> |해당 사항 없음  <br/> |
+|섬/영토가 적용되지 않음  <br/> | 해당 사항 없음  <br/>  |
+|유선/고정 회선 가용성  <br/> |예  <br/> |
+|모바일 네트워크 가용성  <br/> | 예(일부 숫자는 프리미엄일 수 있음) <br/> |
 |주석, 제한 사항 및 액세스 문제  <br/> |없음  <br/> |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [무료 전화 걸기 제한 사항](../toll-free-dialing-limitations-and-restrictions.md)
 

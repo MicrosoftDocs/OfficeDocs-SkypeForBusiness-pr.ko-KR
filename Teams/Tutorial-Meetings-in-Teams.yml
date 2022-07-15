@@ -7,8 +7,8 @@ metadata:
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  ms.author: serdars
-  author: SerdarSoysal
+  ms.author: mikeplum
+  author: MikePlumleyMSFT
   ms.reviewer: shalenc
   manager: serdars
   ms.service: msteams
@@ -20,16 +20,16 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 3ada1b46f057c4c1f6f7d715c038c78e1e0eecd1
-  ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+  ms.openlocfilehash: 101be689ff6fba7facf7a550d3affd31cf423d5a
+  ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 06/01/2022
-  ms.locfileid: "65823017"
+  ms.lasthandoff: 07/15/2022
+  ms.locfileid: "66825532"
 items:
 - durationInMinutes: 1
   content: >
-    이 교육에서는 Microsoft Teams 회의를 소개합니다.다. Teams 대한 요구 사항 및 계획 고려 사항 외에도 Teams 모임의 기능을 다룹니다.
+    이 교육에서는 Microsoft Teams 회의를 소개합니다.다. Teams에 대한 요구 사항 및 계획 고려 사항 외에도 Teams에서 모임의 기능을 다룹니다.
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
@@ -67,7 +67,7 @@ items:
     -   이 자습서의 "다음 단계" 페이지 아래쪽에 있는 설명 섹션에 게시합니다.
 
 
-    새로운 기능에 대한 아이디어와 같은 Teams 대한 제품 피드백을 제공하려면 [Teams 피드백 포털](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)을 방문하세요.
+    새로운 기능에 대한 아이디어와 같은 Teams에 대한 제품 피드백을 제공하려면 [Teams 피드백 포털을](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472) 방문하세요.
 - title: Teams에서 모임
   durationInMinutes: 16
   content: "\nTeams 모임을 이해하려면 다음을 참조하세요.\n-   [모임 및 통화](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)에서 \"모임 포함\" (예상 읽기 시간 6분)\n\n-   [지금 모임](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf) 비디오(1:45분)\n\n-   [예약된 모임](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137) 비디오(1:45분)\n\n-   모임 로비, 익명으로 모임 참여 등에 대한 자세한 내용은 [Microsoft Teams 모임 9가지 팁](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)(예상 소요 시간: 6분)\n"
@@ -85,7 +85,7 @@ items:
   content: "\nIT 관리자는 모임 환경을 정의하기 위한 모임 정책 및 설정을 설정할 수 있습니다.\n\n### <a name=\"meeting-policies\"></a>모임 정책\n\nTeams 모임 정책을 사용하여 조직의 사용자가 예약한 모임의 참가자를 만날 수 있는 기능을 제어합니다. 자세한 내용은 [Teams에서 모임 정책 관리](meeting-policies-overview.md)(예상 소요 시간: 16분)을 참조하세요. \n\n### <a name=\"meeting-settings\"></a>모임 설정\n\nTeams 모임 설정을 사용하여 익명 사용자가 Teams 모임에 참석하고, 모임 초대를 사용자 정의할 수 있는지 제어하고, QoS(서비스 품질)를 사용 가능으로 설정하려면 실시간 트래픽에 대한 포트 범위를 설정합니다. 이 설정은 사용자가 조직에서 예약하는 모든 Teams 모임에 적용됩니다. 자세한 내용은 [Teams에서 모임 정책 관리](./meeting-settings-in-teams.md)를 참조하세요.\n(예상 소요 시간: 4분).\n"
 - title: 실습 - 모임 구성
   durationInMinutes: 20
-  content: "\n이 연습에서는 Teams 모임을 테스트할 수 있습니다. 모든 작업을 수행하는 방법을 설명하지는 않지만 몇 가지 시나리오를 사용해보는 것이 좋습니다.\n\n### <a name=\"requirements\"></a>요구 사항\n-   Teams를 사용할 수 있는 적절한 라이선스를 보유하고 있는 Office 365 조직\n    -   전용 테스트 테넌트를 사용하는 것이 좋습니다.\n    -   테스트 테넌트가 없는 경우 [Office 365 Enterprise E5 평가](https://go.microsoft.com/fwlink/p/?LinkID=698279)판에서 평가판 테넌트에 등록할 수 있습니다.\n    -   프로덕션 환경에서 테스트를 실행하지 마세요. 설정 또는 정책을 변경하면 모든 사용자에게 부정적인 영향을 미칠 수 있으며 사용자 환경에 영향을 줄 수 있습니다.\n-   두 개 이상의 끝점\n   -   두 대의 PC일 수도 있지만 휴대폰에서 클라이언트를 사용할 수도 있습니다.\n\n### <a name=\"suggested-scenarios-to-test\"></a>테스트 시나리오 제안\n-   팀 클라이언트 내에서 다양한 회의 유형을 예약합니다. 채널 모임, 임시 모임, 개인 모임 등이 있습니다.\n-   [Outlook 추가 기능](./teams-add-in-for-outlook.md)을 사용하여 모임을 예약합니다.\n-   예약된 모임의 경우, 모임팅이 시작되기 전에 대화를 시작합니다(예: 의제 토론).\n-   미팅에 참여하고 다양한 시나리오와 워크로드를 테스트합니다(예: 오디오 전용, 비디오, 데스크톱 공유).\n-   테넌트에 로그인하지 않고 브라우저에서 모임에 참가합니다(\"InPrivate\" 검색을 사용할 수 있음). 익명으로 모임에 참가하는 것이 어떤 것인지 확인합니다.\n-   Microsoft Teams 관리 센터에 로그인하고 일부 모임 설정을 변경합니다(예: 개인 모임 예약 사용 해제). 사용자 환경에 어떤 영향이 있나요?\n-   모임 이끌이로서, 모든 참가자에 대한 모임을 종료합니다.    \n"
+  content: "\n이 연습에서는 Teams에서 모임을 테스트할 수 있습니다. 모든 작업을 수행하는 방법을 설명하지는 않지만 몇 가지 시나리오를 사용해보는 것이 좋습니다.\n\n### <a name=\"requirements\"></a>요구 사항\n-   Teams를 사용할 수 있는 적절한 라이선스를 보유하고 있는 Office 365 조직\n    -   전용 테스트 테넌트를 사용하는 것이 좋습니다.\n    -   테스트 테넌트가 없는 경우 [Office 365 Enterprise E5 평가](https://go.microsoft.com/fwlink/p/?LinkID=698279)판에서 평가판 테넌트에 등록할 수 있습니다.\n    -   프로덕션 환경에서 테스트를 실행하지 마세요. 설정 또는 정책을 변경하면 모든 사용자에게 부정적인 영향을 미칠 수 있으며 사용자 환경에 영향을 줄 수 있습니다.\n-   두 개 이상의 끝점\n   -   두 대의 PC일 수도 있지만 휴대폰에서 클라이언트를 사용할 수도 있습니다.\n\n### <a name=\"suggested-scenarios-to-test\"></a>테스트 시나리오 제안\n-   팀 클라이언트 내에서 다양한 회의 유형을 예약합니다. 채널 모임, 임시 모임, 개인 모임 등이 있습니다.\n-   [Outlook 추가 기능](./teams-add-in-for-outlook.md)을 사용하여 모임을 예약합니다.\n-   예약된 모임의 경우, 모임팅이 시작되기 전에 대화를 시작합니다(예: 의제 토론).\n-   미팅에 참여하고 다양한 시나리오와 워크로드를 테스트합니다(예: 오디오 전용, 비디오, 데스크톱 공유).\n-   테넌트에 로그인하지 않고 브라우저에서 모임에 참가합니다(\"InPrivate\" 검색을 사용할 수 있음). 익명으로 모임에 참가하는 것이 어떤 것인지 확인합니다.\n-   Microsoft Teams 관리 센터에 로그인하고 일부 모임 설정을 변경합니다(예: 개인 모임 예약 사용 해제). 사용자 환경에 어떤 영향이 있나요?\n-   모임 이끌이로서, 모든 참가자에 대한 모임을 종료합니다.    \n"
 - title: 보고
   durationInMinutes: 2
   content: "\n보고 측면에서는 다음 두 가지 영역을 살펴볼 수 있습니다.\n-   사용법: 몇 개의 모임이 생성되나요?\n-   품질: 모임의 품질은 어떤가요?\n\n두 영역을 모두 주의 깊게 모니터링해야 합니다.\n-   사용량이 적다는 것은 사용자가 한 가지 이유 또는 다른 이유로 제품을 사용하지 않는다는 것을 의미합니다. 추가 조사를 통해서만 원인을 파악할 수 있습니다. 모임이 사용자 요구 사항에 미치지 못한다는 인식에서 인지 또는 교육 부족, 품질 문제에 이르기까지 그 원인이 다양할 수 있습니다.\n-   낮은 품질은 사용자 및 Office 365 간 연결에 문제가 있음을 의미합니다. 품질이 낮으면 사용자 경험 악화 및 사용량 감소로 이어질 수 있습니다.\n    사용 현황 보고서에 대한 자세한 내용은 [관리자 센터의 Microsoft 365 보고서 - Microsoft Teams 사용자 활동](https://docs.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-teams-user-activity-preview?view=o365-worldwide)(예상 소요 시간: 5분)을 참조하세요.\n\n품질 관리는 본 교육의 범위를 벗어나지만 다음 교육 자료를 참조하세요.\n\n-   품질 챔피언의 역할에 대한 자세한 내용은 [품질 챔피언](./prepare-network.md)역할을 참조하세요.\n-   통화 품질 대시보드에 대한 자세한 내용은 [CQD를 사용하여 미디어 품질 검사](https://aka.ms/sof-cqd)를 참조하세요.\n"
@@ -104,11 +104,11 @@ items:
     ### <a name="next-steps"></a>다음 단계
 
 
-    1. Teams 모임 사용을 시작합니다.
+    1. Teams에서 모임 사용을 시작합니다.
 
     2.  의견 보내기:
         - 이 페이지 하단의 메모 섹션에 게시합니다.
-        - Teams 제품 피드백을 제공하거나 새 기능을 요청하려면 [Teams 피드백 포털](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)로 이동하세요.
+        - Teams 제품 피드백을 제공하거나 새 기능을 요청하려면 [Teams 피드백 포털](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)로 이동합니다.
     3.  최신 상태로 유지:
         - [Teams 블로그](https://aka.ms/teamsblog)를 팔로우하세요.
         - [Teams 로드맵](https://aka.ms/O365Roadmap)읽어 보세요.

@@ -1,7 +1,7 @@
 ---
-title: PowerShell 스크립트 샘플 - 관리자 및 해당 지시 내보내기
-author: SerdarSoysal
-ms.author: serdars
+title: PowerShell 스크립트 샘플 - 관리자 및 직접 보고서 내보내기
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 436f9566031a2cd9bc3b06a23df7b3b7346d3bec
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: fbd1758c0de6d0cb7751b4a447e21ab386f823ba
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674180"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825672"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a>PowerShell 스크립트 샘플 - 관리자 및 해당 지시 내보내기
+# <a name="powershell-script-sample---export-managers-and-their-direct-reports"></a>PowerShell 스크립트 샘플 - 관리자 및 직접 보고서 내보내기
 
-이 PowerShell 스크립트를 사용하여 조직의 관리자 목록과 관리자의 지시 목록을 내보냅니다. 팀 구성원으로 직접 보고서를 사용하여 각 관리자에 대한 사용자 관리자 팀을 만들기 위한 준비에 이 스크립트를 사용합니다.
+이 PowerShell 스크립트를 사용하여 조직의 관리자 목록과 직접 보고서를 내보냅니다. 팀 구성원으로 직접 보고서를 사용하여 각 관리자에 대한 사용자 관리자 팀을 만들기 위한 준비에 이 스크립트를 사용합니다.
 
 이 PowerShell 스크립트에 대해 알아보려면 [사용자 관리자 팀 만들기](../create-manager-directs-teams.md)를 참조하세요.
 
