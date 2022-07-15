@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d31474233057d930ccdbc0bdfea27262cc5dc04
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 30938e8175c12802339767ba0f2e6324cae3b871
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046007"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789423"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -228,7 +228,7 @@ Teams는 파일 공유를 위해 SharePoint Online 백 엔드에서 실행되므
 |---------|---------|
 |팀당 태그 수    | 100        |
 |팀당 제안된 기본 태그 수    | 25        |
-|태그에 할당되는 팀 구성원 수    |100         |
+|태그에 할당되는 팀 구성원 수    |200         |
 |사용자에게 할당되는 태그 수    |25         |
 
 ## <a name="contacts"></a>연락처
