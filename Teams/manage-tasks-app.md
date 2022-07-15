@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams에서 조직의 작업 앱 관리
-author: mkbond007
-ms.author: mabond
-manager: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
@@ -21,12 +21,12 @@ MS.collection:
 - microsoftcloud-retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cff25b181af1f5280834080bb2308c9ab9bbc8b0
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 1749c4b21c6b67f40eddd437ff0766918b5dc5df
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646397"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819273"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 작업 앱 관리
 
@@ -43,11 +43,11 @@ ms.locfileid: "65646397"
 
 ## <a name="what-you-need-to-know-about-tasks"></a>작업에 대해 알아야 할 작업
 
-작업은 앱과 채널의 탭으로 사용할 수 있습니다. 앱은 To Do 개별 작업과 Planner의 팀 작업을 모두 보여 줍니다. 탭에는 팀 작업만 표시됩니다.
+작업은 앱과 채널의 탭으로 사용할 수 있습니다. 앱은 할 일의 개별 작업과 Planner의 팀 작업을 모두 보여 줍니다. 탭에는 팀 작업만 표시됩니다.
 
 사용자는 작업을 통해 데스크톱, 웹 및 모바일 환경을 사용할 수 있습니다. Teams 데스크톱 클라이언트에 작업이 설치된 경우, 사용자는 Teams 웹 및 모바일 클라이언트에서도 작업을 보게됩니다. 게스트는 예외입니다. 게스트가 Teams 모바일 클라이언트에서만 작업에 앱으로만 액세스할 수 있음에 유의합니다. 게스트는 Teams 데스크톱 및 웹 클라이언트 모두에서 작업 탭을 보게됩니다.
 
-**내 작업** 에 사용자의 개별 작업이 표시되어 있습니다. **공유 계획** 이 전체 팀이 작업하고 있는 작업을 표시하고 채널에 작업 탭으로 추가된 모든 작업 목록을 포함합니다. 작업, To Do 및 Planner의 작업 간에는 다음과 같은 관계가 있습니다.
+**내 작업** 에 사용자의 개별 작업이 표시되어 있습니다. **공유 계획** 이 전체 팀이 작업하고 있는 작업을 표시하고 채널에 작업 탭으로 추가된 모든 작업 목록을 포함합니다. 작업, 할 일 및 Planner의 작업 간 관계는 다음과 같습니다.
 
 - 작업 앱에서 사용자가 만든 작업 목록은 해당 사용자의 할 일 클라이언트에도 나타납니다. 마찬가지로 할 일에 사용자가 만든 작업 목록은 해당 사용자 작업의 **내 작업** 에 표시됩니다. 개별 작업도 마찬가지입니다.
 
@@ -62,7 +62,7 @@ ms.locfileid: "65646397"
 
 작업은 조직의 모든 Teams 사용자에 대해 기본적으로 사용하도록 설정됩니다. Microsoft Teams 관리자 센터의 [앱 관리](manage-apps.md) 페이지에서 조직 수준에서 앱을 끄거나 켤 수 있습니다.
 
-1. Microsoft Teams 관리 센터의 왼쪽 창에서 **Teams** **appsManage 앱** > 으로 이동합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 창에서 **Teams 앱****관리 앱** > 으로 이동합니다.
 2. 앱 목록에서 다음 작업 중 하나를 실행합니다.
 
     - 조직의 작업을 끄려면 작업 앱을 검색하고 선택한 다음 **차단** 을 선택합니다.
@@ -75,19 +75,19 @@ ms.locfileid: "65646397"
 
 조직의 특정 사용자가 작업을 사용할 수 있도록 허용하거나 차단하려면, [앱 관리](manage-apps.md) 페이지에서 조직에 대해 작업이 켜져 있는지 확인한 다음 사용자 지정 앱 사용 권한 정책을 만들어 해당 사용자에게 할당합니다. 자세한 내용은 Teams 에서 [앱 사용 권한 정책 관리](teams-app-permission-policies.md)를 참조하세요.
 
-### <a name="pin-tasks-to-teams"></a>작업을 Teams 고정
+### <a name="pin-tasks-to-teams"></a>Teams에 작업 고정
 
-#### <a name="use-the-tailored-frontline-app-experience-to-pin-tasks-and-other-apps-to-teams"></a>맞춤형 최전방 앱 환경을 사용하여 작업 및 기타 앱을 Teams
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-tasks-and-other-apps-to-teams"></a>맞춤형 최전방 앱 환경을 사용하여 작업 및 기타 앱을 Teams에 고정
 
-Teams 맞춤형 최전방 앱 환경은 [F 라이선스](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)가 있는 사용자를 위해 Teams 가장 관련성이 큰 앱을 고정합니다. 고정된 앱에는 작업, 워키 토키, 교대 근무 및 승인 포함됩니다. 기본적으로 이 기능은 최전방 근로자에게 요구 사항에 맞는 기본 제공 환경을 제공합니다.
+Teams의 맞춤형 최전방 앱 환경은 [F 라이선스](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)가 있는 사용자를 위해 Teams에서 가장 관련성이 큰 앱을 고정합니다. 고정된 앱에는 작업, 워키 토키, 교대 근무 및 승인이 포함됩니다. 기본적으로 이 기능은 최전방 근로자에게 요구 사항에 맞는 기본 제공 환경을 제공합니다.
 
-앱은 사용자가 빠르고 쉽게 액세스할 수 있는 앱 바(Teams 데스크톱 클라이언트의 측면과 Teams 모바일 클라이언트의 아래쪽에 있는 막대)에 고정됩니다.
+앱은 사용자가 빠르고 쉽게 액세스할 수 있는 Teams 데스크톱 클라이언트의 측면과 Teams 모바일 클라이언트 아래쪽에 있는 표시줄인 앱 바에 고정됩니다.
 
-설정한 앱 정책의 작동 방식을 포함하여 자세한 내용은 [최전방 작업자를 위한 Teams 앱 조정](pin-teams-apps-based-on-license.md)을 참조하세요.
+설정한 앱 정책의 작동 방식을 포함하여 자세한 내용은 [최전방 작업자를 위한 Teams 앱 조정](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)을 참조하세요.
 
 #### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>앱 설치 정책을 사용하여 Teams에 작업 고정
 
-앱 설정 정책을 사용하면 사용자의 사용자에게 가장 중요한 앱을 고정하는 Teams 사용자 지정할 수 있습니다.
+앱 설정 정책을 사용하면 Teams를 사용자 지정하여 사용자의 사용자에게 가장 중요한 앱을 고정할 수 있습니다.
 
 사용자에 대해 작업 앱을 고정하려면, 전역(Org-wide 기본값) 정책을 편집하거나 사용자 지정 앱 설정 정책을 만들고 할당할 수 있습니다. 자세한 내용은 [Teams에서 앱 설정 정책 관리](teams-app-setup-policies.md)를 참조하세요.
 

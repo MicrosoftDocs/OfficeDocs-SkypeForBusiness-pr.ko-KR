@@ -1,9 +1,9 @@
 ---
 title: 조직의 교대 근무 앱 관리
-author: mkbond007
-ms.author: mabond
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: aaku
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 - Microsoft Cloud for Retail
-description: 조직의 일선 작업자를 위해 Teams Shifts 앱을 설정하고 관리하는 방법을 알아봅니다.
+description: 조직의 일선 작업자를 위해 Teams에서 Shifts 앱을 설정하고 관리하는 방법을 알아봅니다.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -24,18 +24,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4c4b76bb4f2f63ffadc0a98d00a8f2d10ec8ef91
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: e97e90a3a6e97bd2637d63cf3ee0d0bceb57dc15
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646267"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819413"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 교대 근무s 앱 관리
 
 ## <a name="overview-of-shifts"></a>교대 근무 개요
 
-Microsoft Teams Shifts 앱은 일선 작업자를 연결하고 동기화된 상태로 유지합니다. 팀을 위한 빠르고 효과적인 시간 관리 및 커뮤니케이션을 위해 먼저 모바일을 구축했습니다. 교대 근무를 통해 일선 근로자와 관리자는 모바일 장치를 사용하여 일정을 관리하고 연락을 유지할 수 있습니다.
+Microsoft Teams의 Shifts 앱은 일선 작업자를 연결하고 동기화된 상태로 유지합니다. 팀을 위한 빠르고 효과적인 시간 관리 및 커뮤니케이션을 위해 먼저 모바일을 구축했습니다. 교대 근무를 통해 일선 근로자와 관리자는 모바일 장치를 사용하여 일정을 관리하고 연락을 유지할 수 있습니다.
 
 - 관리자는 팀의 교대 근무 일정을 만들고 업데이트하고 관리합니다. 관리자는 한 사람에게 메시지(“바닥에 액체가 흘러 있네요.”)를 보내거나 전체 팀에 메시지(“지역 GM이 20분 후에 도착합니다.”)를 보낼 수 있습니다. 이뿐만 아니라 정책 문서, 뉴스 게시판 및 비디오를 보낼 수도 있습니다.
 - 직원은 예정된 교대 근무를 보고, 그날에 예정된 다른 사람을 확인하고, 교대 근무를 변경하거나 제안하고, 휴가를 요청합니다.
@@ -50,7 +50,7 @@ Shifts는 현재 게스트를 지원하지 않는다는 것을 알아야 합니�
 교대 근무는 Teams를 사용할 수 있는 모든 엔터프라이즈 SKU에서 사용할 수 있습니다.
 
 > [!NOTE]
-> 교대 근무는 정부 커뮤니티 클라우드(GCC) 환경에서 사용할 수 있지만 GCC High 또는 DoD 환경에서는 사용할 수 없습니다.
+> 교대 근무는 GCC(Government Community Cloud) 환경에서 사용할 수 있지만 GCC High 또는 DoD 환경에서는 사용할 수 없습니다.
 
 ## <a name="location-of-shifts-data"></a>교대 근무 데이터의 위치
 
@@ -71,23 +71,23 @@ Shifts 데이터의 스토리지, 보존, 검색 및 암호화를 비롯한 Shif
 
 조직의 특정 사용자가 Shifts를 사용하도록 허용하거나 차단하려면 [앱 관리](../../manage-apps.md) 페이지에서 조직에 대해 Shifts가 켜져 있는지 확인합니다. 그런 다음 사용자 지정 앱 권한 정책을 만들고 해당 사용자에게 할당합니다. 자세한 내용은 [Teams에서 앱 권한 정책 관리](../../teams-app-permission-policies.md)를 참조하세요.
 
-### <a name="pin-shifts-to-teams"></a>Teams 고정
+### <a name="pin-shifts-to-teams"></a>Teams에 교대 근무 고정
 
-#### <a name="use-the-tailored-frontline-app-experience-to-pin-shifts-and-other-apps-to-teams"></a>맞춤형 최전방 앱 환경을 사용하여 Shifts 및 기타 앱을 Teams
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-shifts-and-other-apps-to-teams"></a>맞춤형 최전방 앱 환경을 사용하여 Shifts 및 기타 앱을 Teams에 고정
 
-Teams 맞춤형 최전방 앱 환경은 [F 라이선스](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)가 있는 사용자를 위해 Teams 가장 관련성이 큰 앱을 고정합니다. 고정된 앱에는 교대 근무, 워키 토키, 작업 및 승인 포함됩니다. 기본적으로 이 기능은 최전방 근로자에게 요구 사항에 맞는 기본 제공 환경을 제공합니다.
+Teams의 맞춤형 최전방 앱 환경은 [F 라이선스](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)가 있는 사용자를 위해 Teams에서 가장 관련성이 큰 앱을 고정합니다. 고정된 앱에는 교대 근무, 워키 토키, 작업 및 승인이 포함됩니다. 기본적으로 이 기능은 최전방 근로자에게 요구 사항에 맞는 기본 제공 환경을 제공합니다.
 
-앱은 사용자가 빠르고 쉽게 액세스할 수 있는 앱 바(Teams 데스크톱 클라이언트의 측면과 Teams 모바일 클라이언트의 아래쪽에 있는 막대)에 고정됩니다.
+앱은 사용자가 빠르고 쉽게 액세스할 수 있는 Teams 데스크톱 클라이언트의 측면과 Teams 모바일 클라이언트 아래쪽에 있는 표시줄인 앱 바에 고정됩니다.
 
-설정한 앱 정책의 작동 방식을 포함하여 자세한 내용은 [최전방 작업자를 위한 Teams 앱 조정](../../pin-teams-apps-based-on-license.md)을 참조하세요.  
+설정한 앱 정책의 작동 방식을 포함하여 자세한 내용은 [최전방 작업자를 위한 Teams 앱 조정](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)을 참조하세요.  
 
-#### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>앱 설정 정책을 사용하여 shifts를 Teams 고정
+#### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>앱 설정 정책을 사용하여 Teams에 교대 근무 고정
 
-앱 설정 정책을 사용하면 Teams 사용자 지정하여 사용자에게 가장 중요한 앱을 고정할 수 있습니다.
+앱 설정 정책을 사용하면 Teams를 사용자 지정하여 사용자에게 가장 중요한 앱을 고정할 수 있습니다.
 
 Shifts 앱을 추가하여 [사용자 지정 앱 설정 정책을](../../teams-app-setup-policies.md) 만든 다음 사용자에게 [정책을 할당](../../assign-policies-users-and-groups.md) 할 수 있습니다. 또는 Frontline Worker 및 Frontline Manager 정책 패키지의 일부인 앱 설정 정책을 사용할 수 있습니다.
 
-Teams [정책 패키지](../../manage-policy-packages.md)는 조직에서 비슷한 역할을 가진 사용자에게 할당할 수 있는 미리 정의된 정책 및 정책 설정의 컬렉션입니다. Frontline Worker 및 Frontline Manager 정책 패키지의 정책 집합에는 Shifts 앱 및 해당 역할에 대한 통신 및 공동 작업 활동을 지원하는 기타 앱을 고정하는 앱 설정 정책이 포함됩니다.
+Teams의 [정책 패키지](../../manage-policy-packages.md) 는 조직에서 비슷한 역할을 가진 사용자에게 할당할 수 있는 미리 정의된 정책 및 정책 설정의 컬렉션입니다. Frontline Worker 및 Frontline Manager 정책 패키지의 정책 집합에는 Shifts 앱 및 해당 역할에 대한 통신 및 공동 작업 활동을 지원하는 기타 앱을 고정하는 앱 설정 정책이 포함됩니다.
 
 최전방 작업자 및 최전방 관리자 정책 패키지를 사용하여 일선 인력에 대한 정책을 관리할 때 단순화, 간소화 및 일관성을 제공하는 것이 좋습니다.
 
@@ -101,8 +101,8 @@ Teams [정책 패키지](../../manage-policy-packages.md)는 조직에서 비슷
 
 ## <a name="related-articles"></a>관련 기사
 
-- [Teams의 교대 근무](../shifts-for-teams-landing-page.md)
+- [Teams의 교대 근무](/microsoft-365/frontline/shifts-for-teams-landing-page)
 - [데이터 FAQ 이동](shifts-data-faq.md)
-- [Shifts 커넥터](shifts-connectors.md)
+- [Shifts 커넥터](/microsoft-365/frontline/shifts-connectors)
 - [일선 근로자를 위한 교대 근무 도움말](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Teams에서 사용자에게 정책 할당](../../policy-assignment-overview.md)

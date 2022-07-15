@@ -12,16 +12,16 @@ ms.collection:
 description: Microsoft Teams 관리에 사용되는 Teams PowerShell 모듈에서 지원되는 버전에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad20cc285a9e882c45d2d158601ebcc90236dbf5
-ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
+ms.openlocfilehash: 175d9785cd32d18db7eebd363d08840538baa0df
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "66103375"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819553"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell 모듈 - 지원되는 버전
 
-Microsoft Teams 4.x.x 시리즈 이상의 TPM(PowerShell 모듈) 버전은 현재 지원되는 유일한 버전입니다. 이전 버전은 모두 2022년 6월 15일 이후 완전히 사용 중지되며 & 작동이 중지됩니다(참조용 메시지 센터 게시물 - MC350371). 
+4.x.x 시리즈 이상의 Microsoft Teams TPM(PowerShell 모듈) 버전은 현재 지원되는 유일한 버전입니다. 이전 버전은 모두 2022년 6월 15일 이후 완전히 사용 중지되며 & 작동이 중지됩니다(참조용 메시지 센터 게시물 - MC350371). 
 
 최신 Teams PowerShell 모듈 버전으로 업데이트하는 것이 좋습니다.
 
@@ -36,18 +36,18 @@ Microsoft Teams 4.x.x 시리즈 이상의 TPM(PowerShell 모듈) 버전은 현�
   Update-Module MicrosoftTeams
   ```
 
-- Teams PowerShell 모듈 버전 1.1.6에서 업데이트하는 경우 대신 사용하도록 `Connect-MicrosoftTeams` `New-CsOnlineSession`스크립트를 업데이트합니다.
+- Teams PowerShell 모듈 버전 1.1.6에서 업데이트하는 경우 대신 `New-CsOnlineSession`사용하도록 `Connect-MicrosoftTeams` 스크립트를 업데이트합니다.
 
 - 업데이트하는 동안 3.0.0 이전 버전과 함께 TPM 4.x.x/3.x.x를 사용하지 않는 것이 좋습니다. 예를 들어 동일한 조직의 다양한 관리 작업에 대해 버전 4.x.x & 2.6.0을 함께 사용하는 것은 권장되지 않습니다.
 
 - 관련 변경 내용
-  - TPM 3.x.x 이상에서 Get-CsOnlineUser & Get-CsOnlineVoiceUser 업데이트 - [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) & [Get-CsOnlineVoiceUser](/powershell/module/skype/get-csonlinevoiceuser) (메시지 센터 게시물 – MC340774)의 자세한 내용.
+  - TPM 3.x.x 이상에서 Get-CsOnlineUser & Get-CsOnlineVoiceUser 업데이트 - [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) & [Get-CsOnlineVoiceUser](/powershell/module/skype/get-csonlinevoiceuser)(메시지 센터 게시물 – MC340774)에서 자세한 내용을 참조하세요.
 
-  - 전화 번호 할당에 대한 변경 내용 - [Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance)[Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlinevoiceapplicationinstance) & 에 대한 자세한 내용(메시지 센터 게시물 – MC316139).
+  - 전화 번호 할당에 대한 변경 내용 - [Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance)[Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlinevoiceapplicationinstance) & 의 자세한 내용(메시지 센터 게시물 – MC316139).
 
   - Get-CsTenant 매개 변수 변경 - [Get-CsTenant](/powershell/module/skype/get-cstenant) 의 자세한 내용(메시지 센터 게시물 – MC365397).
   
-  - 스크립트에서 PSListModifier 형식 매개 변수와 함께 New/Set of Policy 또는 Configuration cmdlet을 사용하는 경우 최신 버전(4.2.0 이상)을 사용하는 것이 좋습니다.
+  - 스크립트에서 PSListModifier 형식 매개 변수와 함께 New/Set of Policy 또는 Configuration cmdlet을 사용하는 경우 최신 버전(4.2.0 이상)을 사용하는 것이 좋습니다. 참조용 메시지 센터 게시물 - MC397428.
 
 - TPM 4.x.x 이상을 사용하는 동안 [아래에](#deprecated-cmdlets) 언급된 사용되지 않거나 지원되지 않는 cmdlet을 사용하지 않는 것이 좋습니다.
 
@@ -58,12 +58,12 @@ Microsoft Teams 4.x.x 시리즈 이상의 TPM(PowerShell 모듈) 버전은 현�
   - [Get-CsOnlineDialInConferencingUserInfo](/powershell/module/skype/get-csonlinedialinconferencinguserinfo), [Get-CsOnlineDialInConferencingUserState](/powershell/module/skype/get-csonlinedialinconferencinguserstate), [Enable-CsOnlineDialInConferencingUser](/powershell/module/skype/enable-csonlinedialinconferencinguser), [Disable-CsOnlineDialInConferencingUser](/powershell/module/skype/disable-csonlinedialinconferencinguser)
   - [Get-CsOnlineDirectoryTenant](/powershell/module/skype/get-csonlinedirectorytenant)
   - [New-CsOnlineAudioFile](/powershell/module/skype/new-csonlineaudiofile)
-  - [Get-CsOnlineApplicationEndpoint](/powershell/module/skype/get-csonlineapplicationendpoint), [Set-CsOnlineApplicationEndpoint](/powershell/module/skype/set-csonlineapplicationendpoint), [New-CsOnlineApplicationEndpoint](/powershell/module/skype/new-csonlineapplicationendpoint), [Remove-CsOnlineApplicationEndpoint](/powershell/module/skype/remove-csonlineapplicationendpoint)
+  - [Get-CsOnlineApplicationEndpoint](/powershell/module/skype/get-csonlineapplicationendpoint), [Set-CsOnlineApplicationEndpoint](/powershell/module/skype/set-csonlineapplicationendpoint), [New-CsOnlineApplicationEndpoint](/powershell/module/skype/new-csonlineapplicationendpoint), [Remove-CsOnlineApplicationEndpoint](/powershell/module/skype/remove-csonlineapplicationendpoint), Switch-CsOnlineApplicationEndpoint
   - [Get-CsOnlineTelephoneNumberInventoryCities](/powershell/module/skype/get-csonlinetelephonenumberinventorycities), [Get-CsOnlineTelephoneNumberInventoryAreas](/powershell/module/skype/get-csonlinetelephonenumberinventoryareas), [Get-CsOnlineTelephoneNumberInventoryCountries](/powershell/module/skype/get-csonlinetelephonenumberinventorycountries), [Get-CsOnlineTelephoneNumberInventoryRegions](/powershell/module/skype/get-csonlinetelephonenumberinventoryregions), [Get-CsOnlineTelephoneNumberInventoryTypes](/powershell/module/skype/get-csonlinetelephonenumberinventorytypes), [Search-CsOnlineTelephoneNumberInventory](/powershell/module/skype/search-csonlinetelephonenumberinventory), [Select-CsOnlineTelephoneNumberInventory](/powershell/module/skype/select-csonlinetelephonenumberinventory), [Get-CsOnlineTelephoneNumberAvailableCount](/powershell/module/skype/get-csonlinetelephonenumberavailablecount), [ Clear-CsOnlineTelephoneNumberReservation](/powershell/module/skype/clear-csonlinetelephonenumberreservation), [Get-CsOnlineTelephoneNumberReservationsInformation](/powershell/module/skype/get-csonlinetelephonenumberreservationsinformation), [Get-CsOnlineDirectoryTenantNumberCities](/powershell/module/skype/get-csonlinedirectorytenantnumbercities)
   - [Set-CsTeamsAppSetupPolicy](/powershell/module/skype/set-csteamsappsetuppolicy), [New-CsTeamsAppSetupPolicy](/powershell/module/skype/new-csteamsappsetuppolicy), [Set-CsTeamsAppPermissionPolicy](/powershell/module/skype/set-csteamsapppermissionpolicy), [New-CsTeamsAppPermissionPolicy](/powershell/module/skype/new-csteamsapppermissionpolicy)
   - [Test-CsOnlineLisCivicAddress](/powershell/module/skype/test-csonlineliscivicaddress)
 
-- Microsoft Teams 시나리오에 대해 지원되지 않거나 관련이 없는 Cmdlet은 아래에 나열되어 있습니다.
+- Microsoft Teams 시나리오에 대해 지원되지 않거나 관련되지 않는 Cmdlet은 아래에 나열되어 있습니다.
   - [Get| Set]-CsUserPstnSettings
   - [Get| 설정| 사용| Disable]-CsMeetingRoom
   - [Grant| 가져오기| 설정| 새로 만들기| Remove]-CsConferencingPolicy
@@ -98,10 +98,14 @@ Microsoft Teams 4.x.x 시리즈 이상의 TPM(PowerShell 모듈) 버전은 현�
   - [Get| 설정| 새로 만들기| Remove]-CsGlobalCatalogApp
   - [Get| 설정| 새로 만들기| Remove]-CsDefaultCatalogApp
   - [Get| 설정| 새로 만들기| Remove]-CsTeamsAppPreset
+  - Invoke-CsUserPreferredDataLocationSync
+  - [Get| Set]-CsTeamsUpgradeStatus
+  - Grant-CsPolicy
+  - Set-CsOnlineDirectoryUser
 
 ## <a name="related-topics"></a>관련 주제
 
-[PowerShell 릴리스 정보 Teams](teams-powershell-release-notes.md)
+[Teams PowerShell 릴리스 정보](teams-powershell-release-notes.md)
 
 [Microsoft Teams PowerShell 설치](teams-powershell-install.md)
 

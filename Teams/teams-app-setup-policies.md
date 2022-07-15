@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b040eb7d595a50b92d69a9722ae1e134cd098ff8
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 9c18d1ce0e7b9d75245dc62a5990c7dfbbad7246
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241117"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819463"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams에서 앱 설정 정책 관리
 
@@ -80,7 +80,7 @@ ms.locfileid: "66241117"
 > 교육용 Teams 할당 앱은 전역 정책에 나열되지 않더라도 기본적으로 전역 정책에 고정됩니다.
 
 > [!NOTE]
-> 조직의 최전방 작업자의 경우 맞춤형 최전방 앱 환경을 사용하는 것이 좋습니다. 이 기능은 [F 라이선스](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt)가 있는 사용자를 위해 Teams에서 가장 관련성이 큰 앱을 고정합니다. 자세한 내용은 [일선 작업자를 위한 Teams 앱 조정을 참조하세요](pin-teams-apps-based-on-license.md).
+> 조직의 최전방 작업자의 경우 맞춤형 최전방 앱 환경을 사용하는 것이 좋습니다. 이 기능은 [F 라이선스](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt)가 있는 사용자를 위해 Teams에서 가장 관련성이 큰 앱을 고정합니다. 자세한 내용은 [일선 작업자를 위한 Teams 앱 조정을 참조하세요](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
 ## <a name="install-apps"></a>앱 설치
 
