@@ -454,9 +454,9 @@ items:
           - name: Teams 정보 보호 라이선스 보고서
             href: teams-analytics-and-reports/information-protection-license-report.md
           - name: Teams 가상 방문 사용 현황 보고서
-            href: teams-analytics-and-reports/virtual-visits-usage-report.md
+            href: /microsoft-365/frontline/virtual-visits-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: Teams EHR 커넥터 가상 약속 보고서
-            href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
+            href: /microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
       - name: '로그 파일, 서비스 상태 및 지원'
         items:
           - name: 로그 파일을 사용하여 Teams 모니터링 및 문제 해결
@@ -1471,6 +1471,8 @@ items:
                 href: devices/phones-displays-deploy.md
               - name: USB 오디오 및 비디오 디바이스
                 href: devices/usb-devices.md
+              - name: Teams용 RealWear
+                href: flw-realwear.md
               - name: 모니터링
                 items:
                   - name: Teams 경고 및 모니터링
@@ -1503,10 +1505,12 @@ items:
             href: manage-tasks-app.md
           - name: 칭찬 앱 관리
             href: manage-praise-app.md
-          - name: Teams 승인 앱 관리
+          - name: 승인 앱 관리
             href: approval-admin.md
           - name: Teams에서 조직의 교대 근무 앱 관리
             href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+          - name: 데이터 이동 FAQ
+            href: expand-teams-across-your-org/shifts/shifts-data-faq.md
           - name: 업데이트 앱 관리
             href: manage-updates-app.md
       - name: 타사 앱 관리
@@ -1550,7 +1554,7 @@ items:
               - name: 사용자 지정 앱 정책 및 설정 관리
                 href: teams-custom-app-policies-and-settings.md
           - name: 최전방 직원을 위한 맞춤형 Teams 앱
-            href: pin-teams-apps-based-on-license.md
+            href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: Azure AD의 그래프 권한 및 관리자 동의
             href: app-permissions-admin-center.md
           - name: 조직에 대한 리소스별 동의 관리
@@ -1571,40 +1575,6 @@ items:
     items:
       - name: 개요
         href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
-      - name: 모든 산업
-        items:
-          - name: Teams의 Bookings
-            items:
-              - name: Teams 및 Bookings를 사용한 가상 약속
-                href: expand-teams-across-your-org/bookings-virtual-visits.md
-              - name: Bookings 앱 관리
-                href: bookings-app-admin.md
-              - name: 브라우저에서 참가 환경 관리
-                href: expand-teams-across-your-org/browser-join.md
-              - name: 가상 방문 사용 현황 보고서
-                href: teams-analytics-and-reports/virtual-visits-usage-report.md
-              - name: 클라이언트와 고객이 가상 약속을 사용할 수 있도록 지원
-                href: expand-teams-across-your-org/virtual-appointments-toolkit.md
-          - name: Teams의 교대 근무
-            items:
-              - name: 교대 근무 시작하기
-                href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-              - name: Teams에서 조직의 교대 근무 앱 관리
-                href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-              - name: 교대 근무 관리를 위한 일정 소유자 관리
-                href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
-              - name: 교대 근무 커넥터
-                items:
-                  - name: 개요
-                    href: expand-teams-across-your-org/shifts/shifts-connectors.md
-                  - name: Shifts 커넥터 마법사를 사용하여 Blue Yonder WFM에 대한 연결 설정
-                    href: expand-teams-across-your-org/shifts/shifts-connector-wizard.md
-                  - name: PowerShell을 사용하여 Blue Yonder WFM에 대한 연결 설정
-                    href: expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup.md
-                  - name: PowerShell을 사용하여 Blue Yonder WFM 연결로의 Shifts 관리
-                    href: expand-teams-across-your-org/shifts/shifts-connector-powershell-manage.md
-              - name: 데이터 이동 FAQ
-                href: expand-teams-across-your-org/shifts/shifts-data-faq.md
       - name: 교육용 Teams
         href: expand-teams-across-your-org/teams-for-education-landing-page.md
         items:
@@ -1656,28 +1626,8 @@ items:
         items:
           - name: 최전방 직원을 위한 Teams 시작
             href: flw-landing-page.md
-          - name: 일선 평가판으로 시작
-            href: flw-trial.md
-          - name: 최전방 직원을 위한 라이선싱 옵션
-            href: flw-licensing-options.md
-          - name: 최전방 직원 빠른 시작 가이드
-            href: flw-quickstart.yml
-          - name: 일선 작업자 온보딩 마법사
-            href: flw-onboarding-wizard.md
-          - name: 최전방 직원을 위해 대규모 Microsoft Teams를 프로비전하는 방법
-            href: deploy-teams-at-scale.md
-          - name: 최전방 직원을 위한 맞춤형 Teams 앱
-            href: pin-teams-apps-based-on-license.md
-          - name: Teams에서 조직의 교대 근무 앱 관리
-            href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-          - name: 최전방 직원에 대한 교대 기반 액세스 관리
-            href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
-          - name: 교대 근무 관리를 위한 일정 소유자 관리
-            href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
-          - name: Teams용 RealWear
-            href: flw-realwear.md
-          - name: Walkie Talkie
-            href: walkie-talkie.md
+          - name: 최전방 작업자를 위한 정책 패키지
+            href: policy-packages-flw.md
       - name: 정부 기관용 Teams
         href: expand-teams-across-your-org/teams-for-government-landing-page.md
         items:
@@ -1700,77 +1650,22 @@ items:
       - name: 의료용 Teams
         items:
           - name: 의료 조직을 위한 Teams 시작
-            href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-          - name: 가상 약속
-            items:
-              - name: Teams를 사용한 가상 약속 - Cerner EHR에 통합
-                href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
-              - name: Teams를 사용한 가상 약속 - Epic EHR에 통합
-                href: expand-teams-across-your-org/healthcare/ehr-admin.md
-              - name: Teams EHR 커넥터 가상 약속 보고서
-                href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
-              - name: Teams 및 Bookings를 사용한 가상 약속
-                href: expand-teams-across-your-org/bookings-virtual-visits.md
-              - name: 가상 방문 사용 현황 보고서
-                href: teams-analytics-and-reports/virtual-visits-usage-report.md
-              - name: 브라우저에서 참가 환경 관리
-                href: expand-teams-across-your-org/browser-join.md
-          - name: 정책 패키지 보기 및 할당
+            href: /microsoft-365/frontline/teams-in-hc?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+          - name: 의료 서비스용 정책 패키지
             href: policy-packages-healthcare.md
-          - name: 보안 메시징
-            items:
-              - name: 보안 메시징
-                href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
-              - name: 메시지 위임
-                href: expand-teams-across-your-org/healthcare/hc-delegates.md
           - name: 팀 의료 서식 파일 사용
             href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-          - name: 승인 앱 관리
-            href: approval-admin.md
-          - name: Teams에서 조직의 목록 앱 관리
-            href: manage-lists-app.md
-          - name: Teams에서 조직의 교대 근무 앱 관리
-            href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-          - name: 조직에 대한 작업 앱 관리
-            href: manage-tasks-app.md
       - name: 비영리 조직용 Teams
         href: expand-teams-across-your-org/teams-for-nonprofit-landing-page.md
         items:
           - name: 비영리 팀 템플릿 사용
             href: team-templates-nonprofit.md
       - name: 소매용 Teams
-        href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
-          - name: 소매 팀 공동 작업
-            href: expand-teams-across-your-org/retail-team-collaboration.md
-          - name: 소매업에서 비즈니스 프로세스 간소화
-            href: expand-teams-across-your-org/retail-business-processes.md
+          - name: 소매용 Teams 시작
+            href: /microsoft-365/frontline/teams-for-retail-landing-page?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: 소매 팀 템플릿 사용
             href: get-started-with-retail-teams-templates.md
-          - name: 일선 작업자 온보딩 마법사
-            href: flw-onboarding-wizard.md
-          - name: 최전방 직원을 위해 대규모 Microsoft Teams를 프로비전하는 방법
-            href: deploy-teams-at-scale.md
-          - name: Teams의 교대 근무
-            items:
-              - name: Teams의 교대 근무
-                href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-              - name: Teams에서 조직의 교대 근무 앱 관리
-                href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-              - name: 교대 근무 기반 액세스 관리
-                href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
-          - name: Walkie Talkie
-            href: walkie-talkie.md
-          - name: RealWear
-            href: flw-realwear.md
-          - name: 칭찬 앱 관리
-            href: manage-praise-app.md
-          - name: 조직에 대한 작업 앱 관리
-            href: manage-tasks-app.md
-          - name: Teams에서 조직의 목록 앱 관리
-            href: manage-lists-app.md
-          - name: 승인 앱 관리
-            href: approval-admin.md
   - name: 참조
     items:
       - name: Teams의 제한과 사양
