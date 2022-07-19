@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅에 대해 인증된 SBA(Session Border Controller)에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bb4363fec70a7bcf139929541a7dfe3686089937
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 3a0db349d1e828a238a6b7a68d8f005e7389182b
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823550"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838853"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>직접 라우팅에 대한 인증된 SBC(Session Border Controller)
 
@@ -178,3 +178,6 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 주 버전에 부여된 인증을 확인합니다. 즉, 주 버전 이후의 SBC 펌웨어에서 임의의 번호를 가진 펌웨어가 지원됩니다.
 
 새 기능에 대한 아이디어 등 Teams 관련 피드백을 제공하려면 [Microsoft 피드백 포털](https://feedbackportal.microsoft.com/)을 방문하세요.
+
+> [!NOTE]
+> 미디어 다시 대상 지정은 지원되지 않습니다. 직접 라우팅 통화 중에 SBC가 Teams 직접 라우팅에 새 미디어 IP를 보내는 경우 SIP 신호에서 협상되지만 미디어는 Teams 직접 라우팅에서 새 IP 주소로 전송되지 않습니다.

@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: f802506ff815745aaf555501e37171ebddfc7f91
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 24115de31c06c38ff1f0217868cf19993aa24555
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615864"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838863"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>Microsoft Teams의 앱 정보
 
@@ -83,9 +83,15 @@ Microsoft에서 제공하는 앱 외에도 Microsoft에서 유효성을 검사�
 
 테스트용 로드를 허용하지 않는 경우 개발자는 [테스트 테넌트](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant)에서 앱을 테스트할 수 있습니다. 사용자 지정 앱 개발이 완료되면 개발자는 관리자에게 최종 사용자에게 사용자 지정 앱을 배포하도록 요청합니다. 자세한 내용은 [사용자 지정 앱을 게시하는 방법](/microsoftteams/upload-custom-apps)을 참조하세요. 관리자는 특정 사용자에 대한 사용자 지정 앱 사용을 허용하거나 허용하지 않을 수 있습니다.
 
-### <a name="about-app-templates"></a>앱 템플릿 정보
+## <a name="about-app-templates"></a>앱 템플릿 정보
 
-Teams용 앱 템플릿은 인기 있는 사용 사례를 설명하고, 앱 개발 모범 사례를 보여주고, 개발자가 사용자 지정 앱을 만들기 위해 확장할 수 있는 오픈 소스 앱을 제공하기 위해 Microsoft에서 만든 기능적인 프로덕션 준비 샘플 앱입니다. 조직 개발자는 GitHub에서 사용할 수 있는 코드를 간단하게 변경하여 조직 요구 사항에 맞게 앱 템플릿을 사용자 지정합니다. 관리자는 이러한 앱을 최종 사용자를 위한 사용자 지정 앱으로 제공합니다.
+Teams용 앱 템플릿은 다음을 달성하기 위해 Microsoft에서 만든 기능 및 프로덕션 지원 샘플 앱입니다.
+
+* 널리 사용되는 사용 사례 설명
+* 앱 개발 모범 사례 소개
+* 개발자가 확장을 통해 사용자 지정 앱을 만들 수 있도록 오픈 소스 앱 제공
+
+조직 개발자는 GitHub에서 사용할 수 있는 코드를 간단하게 변경하여 앱 템플릿을 사용자 지정합니다. 조직의 요구 사항을 충족할 수 있도록 이러한 앱을 최종 사용자를 위한 사용자 지정 앱으로 제공합니다.
 
 자세한 내용은 [Microsoft Teams 앱 템플릿](https://adoption.microsoft.com/microsoft-teams/app-templates/)을 참조하세요.
 
