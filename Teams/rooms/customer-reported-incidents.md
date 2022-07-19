@@ -2,7 +2,7 @@
 title: 고객이 보고한 인시던트 Microsoft Teams 룸
 author: donnah007
 ms.author: v-donnahill
-ms.date: 06/27/2022
+ms.date: 07/08/2022
 manager: serdars
 ms.reviewer: dstrome
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 파트너/고객은 수동으로 인시던트를 닫고 MTRP에서 회의실 상태를 정확하게 보고할 수 있습니다.
-ms.openlocfilehash: 3f765627e2d18d52a6b3db8abbdd2ad59cee7019
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: f28462c6fab02a2a6b8e7db00b1f89ff30b80da1
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494675"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842307"
 ---
 # <a name="customer-reported-incident-tickets"></a>고객이 보고한 인시던트 티켓
 
@@ -31,6 +31,11 @@ Microsoft에서 플래그를 지정하지 않은 인시던트 유형 또는 서�
 ![인시던트 >보고서 인시던트 스크린샷](../media/customer-reported-incidents-001.png)
 
 설명 필드에서 Microsoft의 도움이 필요한 문제를 최대한 잘 설명합니다. 하나 이상의 회의실을 추가할 수 있습니다.
+
+인시던트가 서비스 또는 중요 회의실에 심각한 성능 저하를 일으키는 경우  **높은 영향을** 확인합니다. Microsoft가 요청의 우선 순위를 올바르게 지정하는 데 도움이 되도록 이것이 큰 영향을 미치는 이유를 자세히 설명합니다.
+
+> [!NOTE]
+> 일반적인 질문, 회의실 및/또는 사용 가능한 완화가 없는 문제에는 이 필드를 사용하지 마세요.
 
 ![영향을 받는 인시던트 보고서 룸의 스크린샷](../media/customer-reported-incidents-002.png)
 

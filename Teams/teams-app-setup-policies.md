@@ -19,26 +19,26 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 9c18d1ce0e7b9d75245dc62a5990c7dfbbad7246
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: b97f6c490f562cbd860e6c69a09e3659340dea99
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819463"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838803"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams에서 앱 설정 정책 관리
 
-관리자는 앱 설정 정책을 사용하여 앱을 설치 및 고정하고 사용자가 사용자 지정 앱을 업로드할 수 있도록 허용합니다. 고정은 조직에서 관련 앱의 채택을 촉진하는 데 도움이 됩니다.
+관리자는 앱 설정 정책을 사용하여 앱을 설치 및 고정하고 사용자가 사용자 지정 앱을 업로드할 수 있도록 합니다. 고정은 조직에서 관련 앱의 채택을 촉진하는 데 도움이 됩니다.
 
 * **앱 고정:** 앱 설정 정책을 사용하면 고정할 앱을 선택하고 Teams 앱 표시줄 또는 메시지 작성 영역에서 사용자에게 앱이 표시되는 순서를 설정할 수 있습니다. 관리자는 최종 사용자가 자신의 앱을 고정할 수 있는지 여부를 제어할 수도 있습니다. [앱 고정](#pin-apps)을 참조하세요.
-* **앱 설치:** 앱 설정 정책을 사용하면 Teams를 시작할 때와 모임 중에 사용자를 대신하여 앱을 설치할 수 있습니다. 자세한 내용은 [앱 설치](#install-apps)를 참조하세요.
+* **앱 설치:** 앱 설정 정책을 사용하면 Teams를 시작할 때와 모임 중에 사용자를 대신하여 허용된 앱을 설치할 수 있습니다. 자세한 내용은 [앱 설치](#install-apps)를 참조하세요.
 * **사용자 지정 앱 업로드:** 앱 설정 정책을 사용하면 사용자가 Teams에 사용자 지정 앱을 업로드할 수 있습니다. 자세한 내용은 [사용자 지정 앱 업로드](#upload-custom-apps)를 참조하세요.
 
 ## <a name="pin-apps"></a>앱 고정
 
-앱을 고정하면 조직의 사용자가 가장 필요로 하는 앱을 강조 표시할 수 있습니다. 고정은 Microsoft, ISV 회사 및 조직 내 개발자가 제공하는 앱에서 작동합니다. 앱 설정 정책을 통해 앱을 고정하면 앱도 설치됩니다. 앱 설정 정책을 사용하여 다음 작업을 수행할 수 있습니다.
+앱을 고정하면 조직의 사용자가 가장 필요로 하는 앱을 강조 표시할 수 있습니다. 고정은 Microsoft, ISV 회사 및 조직 내 개발자가 제공하는 앱에서 작동합니다. 앱 설정 정책을 통해 앱을 고정하면 앱이 사용자에게 허용되는 경우에도 앱이 설치됩니다. 앱 설정 정책을 사용하여 다음 작업을 수행할 수 있습니다.
 
-* 팀을 사용자 지정하여 사용자에게 가장 중요한 앱을 강조 표시합니다. 고정할 앱을 선택하고 표시되는 순서를 설정합니다.
+* 최종 사용자를 위해 Microsoft Teams를 사용자 지정하여 가장 중요한 앱을 강조 표시합니다. 고정할 앱과 앱이 표시되는 순서를 선택합니다.
 * 사용자가 앱을 고정할 수 있는지 여부를 제어합니다.
 
 앱은 Teams 데스크톱 클라이언트의 왼쪽과 Teams 모바일 클라이언트의 맨 아래에 있는 앱 바에 고정됩니다.
@@ -88,7 +88,6 @@ ms.locfileid: "66819463"
 
 * 기본적으로 개인 Teams 환경에서 최종 사용자용 앱을 설치합니다.
 * 최종 사용자를 위한 앱을 [메시징 확장](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)으로 설치합니다.
-* 모임 이끌이를 위한 모임에 앱을 설치합니다.
 
 최종 사용자는 앱 [사용 권한 정책](teams-app-permission-policies.md) 에서 허용하는 경우 앱을 직접 설치할 수 있습니다.
 
@@ -201,7 +200,7 @@ Teams 모바일 클라이언트(iOS 및 Android)에 최소 2개의 앱을 고정
 
 Teams 모바일 클라이언트(iOS 및 Android)는 정적 탭이 있는 개인 앱을 지원합니다. Teams 데스크톱 클라이언트에 고정된 앱은 Teams 모바일 클라이언트에 표시됩니다. 개인 봇은 모바일 클라이언트의 채팅에 표시됩니다.
 
-타사 앱(Teams 스토어에서 다운로드할 수 있음)은 모바일에 표시되기 전에 승인해야 합니다. 관리자가 Microsoft for Mobile의 승인되지 않은 앱을 고정하면 Teams 데스크톱에 표시되지만 모바일에는 표시되지 않습니다. 자세한 내용은 [모바일 클라이언트를](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients) 참조하세요.
+타사 앱(Teams 스토어에서 다운로드할 수 있음)은 모바일에 표시되기 전에 승인해야 합니다. 관리자가 Microsoft for Mobile의 승인되지 않은 앱을 고정하면 Teams 데스크톱에 표시되지만 모바일에는 표시되지 않습니다. 자세한 내용은 [모바일 클라이언트를 참조하세요](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients).
 
 Teams 모바일 클라이언트를 사용하면 사용자는 활동, 채팅 및 Teams와 같은 핵심 Teams 앱을 볼 수 있으며, Shifts와 같은 Microsoft의 일부 자사 앱을 고정할 수 있습니다.
 

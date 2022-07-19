@@ -3,6 +3,51 @@
 
 
 
+## <a name="week-of-july-11-2022"></a>2022년 7월 11일 주
+
+
+| 게시 날짜 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 7/13/2022 | [보류 중인 음악](/MicrosoftTeams/music-on-hold) | 으로 바뀌었습니다 |
+| 7/14/2022 | [SIP 게이트웨이 계획](/MicrosoftTeams/sip-gateway-plan) | 으로 바뀌었습니다 |
+| 7/15/2022 | [Microsoft Teams 룸 릴리스 정보(Windows)](/MicrosoftTeams/rooms/rooms-release-note) | 으로 바뀌었습니다 |
+| 7/15/2022 | [최전방 작업자를 위한 Teams 정책 패키지](/MicrosoftTeams/policy-packages-flw) | 추가 |
+| 7/15/2022 | [Microsoft Teams에서 승인 앱 관리](/MicrosoftTeams/approval-admin) | 으로 바뀌었습니다 |
+| 7/15/2022 | [Microsoft Teams에서 Bookings 앱 관리](/MicrosoftTeams/bookings-app-admin) | 으로 바뀌었습니다 |
+| 7/15/2022 | Microsoft Teams에서 최전방 작업자를 위한 대규모 팀 배포 | 제거 |
+| 7/15/2022 | Microsoft Teams 및 Bookings 앱을 통한 가상 약속 | 제거 |
+| 7/15/2022 | 브라우저에서 Teams 가상 약속에 대한 조인 환경 관리 | 제거 |
+| 7/15/2022 | [조직 전체에서 Microsoft Teams 확장](/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page) | 으로 바뀌었습니다 |
+| 7/15/2022 | Teams를 사용하여 가상 약속 - Cerner EHR에 통합 | 제거 |
+| 7/15/2022 | Microsoft Teams EHR 커넥터 가상 약속 보고서 | 제거 |
+| 7/15/2022 | Teams를 사용하여 가상 약속 - Epic EHR에 통합 | 제거 |
+| 7/15/2022 | 메시지 위임 | 제거 |
+| 7/15/2022 | Microsoft Teams를 사용하는 의료 조직을 위한 보안 메시징 | 제거 |
+| 7/15/2022 | 의료 조직을 위한 Teams 시작 | 제거 |
+| 7/15/2022 | 매장 환경에서 비즈니스 프로세스 간소화 | 제거 |
+| 7/15/2022 | 소매 팀 공동 작업 | 제거 |
+| 7/15/2022 | Teams의 교대 근무 | 제거 |
+| 7/15/2022 | Teams에서 일선 작업자에 대한 교대 근무 기반 액세스 관리 | 제거 |
+| 7/15/2022 | [조직의 교대 근무 앱 관리](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 으로 바뀌었습니다 |
+| 7/15/2022 | 교대 근무 관리를 위한 일정 소유자 관리 | 제거 |
+| 7/15/2022 | PowerShell을 사용하여 Shifts를 Blue Yonder Workforce Management 연결 | 제거 |
+| 7/15/2022 | PowerShell을 사용하여 Blue Yonder Workforce Management 대한 Shifts 연결 관리 | 제거 |
+| 7/15/2022 | Shifts 커넥터 마법사를 사용하여 Shifts를 Blue Yonder Workforce Management 연결 | 제거 |
+| 7/15/2022 | Shifts 커넥터 | 제거 |
+| 7/15/2022 | 소매용 Teams | 제거 |
+| 7/15/2022 | 클라이언트와 고객이 가상 약속을 사용하도록 지원 | 제거 |
+| 7/15/2022 | [최전선 직원을 위한 Teams 시작](/MicrosoftTeams/flw-landing-page) | 으로 바뀌었습니다 |
+| 7/15/2022 | 최전방 직원 사용자 유형 및 라이선스 이해 | 제거 |
+| 7/15/2022 | 최전선 직원 온보딩 마법사를 사용하여 최전선 인력을 가동하고 실행할 수 있습니다. | 제거 |
+| 7/15/2022 | 일선 작업자 빠른 시작 가이드 | 제거 |
+| 7/15/2022 | Teams에서 최전방 평가판 관리 | 제거 |
+| 7/15/2022 | 최전방 직원을 위한 맞춤형 Teams 앱 | 제거 |
+| 7/15/2022 | [의료용 Teams 정책 패키지](/MicrosoftTeams/policy-packages-healthcare) | 으로 바뀌었습니다 |
+| 7/15/2022 | Microsoft Teams 가상 방문 사용 현황 보고서 | 제거 |
+| 7/15/2022 | [PowerShell 스크립트 샘플 - 관리자 및 직접 보고서 내보내기](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-export-managers) | 으로 바뀌었습니다 |
+| 7/15/2022 | [PowerShell 스크립트 샘플 - 새 사용자 관리자 팀 만들기](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-new-teams) | 으로 바뀌었습니다 |
+
+
 ## <a name="week-of-july-04-2022"></a>2022년 7월 4일 주
 
 
@@ -90,22 +135,3 @@
 | 6/16/2022 | [Teams 자동 전화 교환 및 통화 큐 계획](/MicrosoftTeams/plan-auto-attendant-call-queue) | 으로 바뀌었습니다 |
 | 6/16/2022 | [Microsoft Teams 관리 센터에서 사용자 지정 앱 업로드](/MicrosoftTeams/upload-custom-apps) | 으로 바뀌었습니다 |
 | 6/16/2022 | [참가자 및 게스트에 대한 모임 정책 관리](/MicrosoftTeams/meeting-policies-participants-and-guests) | 으로 바뀌었습니다 |
-
-
-## <a name="week-of-june-06-2022"></a>2022년 6월 6일 주
-
-
-| 게시 날짜 |토픽 제목 | 변경 |
-|------|------------|--------|
-| 6/6/2022 | [Microsoft 365에서 Teams 앱에 대한 액세스 관리](/MicrosoftTeams/manage-third-party-teams-apps) | 으로 바뀌었습니다 |
-| 6/7/2022 | [조직의 업데이트 앱 관리](/MicrosoftTeams/manage-updates-app) | 으로 바뀌었습니다 |
-| 6/7/2022 | [Microsoft Teams에서 최전방 작업자를 위한 대규모 팀 배포](/MicrosoftTeams/deploy-teams-at-scale) | 추가 |
-| 6/8/2022 | [Teams 룸 디바이스가 타사 모임에 참가하도록 설정](/MicrosoftTeams/rooms/third-party-join) | 으로 바뀌었습니다 |
-| 6/9/2022 | [사용자 유형에 따라 Teams 앱 동작](/MicrosoftTeams/non-standard-users) | 으로 바뀌었습니다 |
-| 6/9/2022 | [공용 영역 전화 라이선스 설정](/MicrosoftTeams/set-up-common-area-phones) | 으로 바뀌었습니다 |
-| 6/9/2022 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으로 바뀌었습니다 |
-| 6/9/2022 | [조직에 사용할 통신 크레딧 설정](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | 으로 바뀌었습니다 |
-| 6/10/2022 | [모바일 앱 확장](/MicrosoftTeams/rooms/extended-mobile-app) | 추가 |
-| 6/10/2022 | [Microsoft Teams에서 최전방 작업자를 위한 대규모 팀 배포](/MicrosoftTeams/deploy-teams-at-scale) | 으로 바뀌었습니다 |
-| 6/10/2022 | [Business Voice에서 Teams Phone 라이선스로 이동](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | 추가 |
-| 6/10/2022 | [Teams 룸 디바이스가 타사 모임에 참가하도록 설정](/MicrosoftTeams/rooms/third-party-join) | 으로 바뀌었습니다 |

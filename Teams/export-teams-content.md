@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b508b368629ce716a1269380eb1fffe2137620c8
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: 0a2af1aae614763432ce0c856c9bad12fc7bceef
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647650"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838813"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Microsoft Teams 내보내기 API를 사용하여 콘텐츠 내보내기
 
@@ -43,7 +43,7 @@ Teams 내보내기 API를 사용하면 Microsoft Teams에서 1:1, 그룹 채팅,
 - **하이브리드 환경:** 내보내기 API는 하이브리드 환경(온-프레미스 Exchange 및 Teams)에서 프로비전된 사용자가 보낸 메시지를 지원합니다. 하이브리드 환경에 대해 구성된 사용자가 보낸 모든 메시지는 내보내기 API를 사용하여 액세스할 수 있습니다.
 - **사용자 삭제된 메시지:** Teams 클라이언트에서 사용자가 삭제한 메시지는 삭제 시점부터 최대 21일까지 내보내기 API를 사용하여 액세스할 수 있습니다.
 - **메시지 첨부 파일:** 내보내기 API에는 메시지의 일부로 전송되는 첨부 파일에 대한 링크가 포함됩니다. 내보내기 API를 사용하여 메시지에 첨부된 파일을 검색할 수 있습니다.
-- **반응:** 내보내기 API는 Teams 메시지에서 사용자가 초기화한 반응을 지원합니다. 현재 지원되는 반응은 심장, 화가, 슬픈, 놀라움, 웃음입니다.
+- **반응:** 내보내기 API는 Teams 메시지에서 사용자가 시작한 반응을 지원합니다. 현재 지원되는 반응은 심장, 화가, 슬픈, 놀라움, 웃음입니다.
 - **채팅 메시지 속성:** Teams Export API에서 지원하는 속성의 전체 목록을 [참조하세요](/graph/api/resources/chatmessage#properties).
 
 

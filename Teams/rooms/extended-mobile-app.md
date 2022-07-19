@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Teams 룸 대한 모바일 애플리케이션 확장
 f1keywords: Microsoft Teams Rooms Managed Service mobile app extension
-ms.openlocfilehash: cfeb5573ce164ea136ba3617fe73661f8ac4ca97
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 939ac7d5bd61f51a229400b2c1aee1bd38047369
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046134"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842324"
 ---
 # <a name="teams-rooms-mobile-client-application-features"></a>모바일 클라이언트 애플리케이션 기능 Teams 룸
 
@@ -52,7 +52,7 @@ Apple App Store 또는 [Google Play 스토어 Teams 룸](https://apps.apple.com/
 
 인시던트 페이지에는 열린 인시던트 유형이 표시됩니다.
 
-![MTMS 모바일 애플리케이션 인시던트 페이지 화면](../media/mtms-extended-app-001.png)<!-- Author.>당Microsoft 승인 이미지
+![MTMS 모바일 애플리케이션 인시던트 페이지 화면](../media/mtms-extended-app-001.png)
 
 ## <a name="managing-tickets"></a>티켓 관리
 다음은 티켓을 관리하기 위해 모바일 앱에 있는 몇 가지 기능입니다.

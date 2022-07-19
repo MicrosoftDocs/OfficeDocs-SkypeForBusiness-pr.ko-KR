@@ -1525,8 +1525,6 @@ items:
             href: purchase-third-party-apps.md
           - name: Microsoft 365 및 사용자 지정 커넥터 관리
             href: Office-365-custom-connectors.md
-      - name: Teams용 앱 서식 파일
-        href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
       - name: 사용자 지정 기간 업무 앱 관리
         items:
           - name: Teams 관리 센터에서 Power Platform 앱 관리

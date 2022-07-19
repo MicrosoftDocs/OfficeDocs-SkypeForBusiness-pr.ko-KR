@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bf8e6ab6f2a5ba7303887e9e7d7d72d22c50964
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: bbb03bcf092d1379065ced1d95e3aa61980febcc
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794686"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66839003"
 ---
 # <a name="plan-for-sip-gateway"></a>SIP 게이트웨이 계획
 
@@ -52,6 +52,9 @@ SIP 게이트웨이는 호환되는 SIP 디바이스를 Teams에 연결하여 �
 ## <a name="requirements-to-use-sip-gateway"></a>SIP 게이트웨이를 사용하기 위한 요구 사항
 
 Teams 사용자는 SIP 게이트웨이를 사용하려면 PSTN 통화가 설정된 전화 번호가 있어야 합니다.
+
+> [!NOTE]
+> 정부 환경(GCC, GCC High 및 DoD)에는 SIP 게이트웨이를 사용할 수 없습니다.
 
 ### <a name="hardware-software-and-licenses"></a>하드웨어, 소프트웨어 및 라이선스
 
