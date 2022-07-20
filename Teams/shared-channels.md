@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams에서 공유 채널을 사용하고 관리하는 방법을 알아보세요.
-ms.openlocfilehash: 9a547963854f981e723d29b1472c2bda808b90c2
-ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
+ms.openlocfilehash: 2c15567c78000de187877477554c233b59c5e58f
+ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "66773767"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66884917"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams의 공유 채널
 
@@ -157,6 +157,8 @@ Teams는 공유 채널 사이트의 수명 주기를 관리합니다. 사이트�
 - 기존 팀에서 팀을 만들면 기존 팀의 공유 채널은 복사되지 않습니다.
 
 - 공유 채널의 알림은 누락된 활동 전자 메일에 포함되지 않습니다.
+
+- 공유 채널은 수업 팀에서 지원되지 않습니다.
 
 ## <a name="supported-apps-in-shared-channels"></a>공유 채널에서 지원되는 앱
 
