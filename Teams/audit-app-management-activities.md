@@ -15,12 +15,12 @@ description: 조직 내 사용자 및 관리자의 Teams 앱 활동을 감사하
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 77c7ac5d80304e82f1309e3a22b21c17d106a58c
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: 54cf634fb8da78081023fad3940daf4ef33450c2
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647840"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880402"
 ---
 # <a name="audit-for-app-management-activities-and-events"></a>앱 관리 활동 및 이벤트에 대한 감사
 
@@ -72,6 +72,7 @@ Teams의 앱 이벤트에 대한 감사 로그는 특정 작업을 조사하는 
 
 ## <a name="see-also"></a>참고 항목
 
+* [Microsoft Power Platform 설치 작업 조사를 위해 감사 로그 사용](manage-power-platform-apps.md#use-audit-logs-to-investigate-microsoft-power-platform-installation-activity)
 * [규정 준수 포털에서 감사 로그 검색](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 * [Microsoft Purview 감사 프리미엄의 개요](/microsoft-365/compliance/advanced-audit).
 * [감사 켜기 또는 끄기](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
