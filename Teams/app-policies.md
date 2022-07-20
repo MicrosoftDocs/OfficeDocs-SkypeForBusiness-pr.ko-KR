@@ -1,5 +1,5 @@
 ---
-title: Teams 앱을 관리하는 앱 정책 개요
+title: Teams에서 앱을 관리하는 앱 정책 개요
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: Microsoft Teams 앱을 관리하는 데 사용되는 앱 권한 정책, 앱 설정 정책 및 사용자 지정 앱 정책에 대해 알아봅니다.
+description: Microsoft Teams에서 앱을 관리하는 데 사용되는 앱 권한 정책, 앱 설정 정책 및 사용자 지정 앱 정책에 대해 알아봅니다.
 audience: admin
 ms.localizationpriority: medium
 MS.collection:
@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bea917ef962d0ba6af80a04c375a95d70bf0dec7
-ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
+ms.openlocfilehash: 7bd8c6c88f9c1c207f0f6d9ebb1f64a626f2bce8
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/21/2022
-ms.locfileid: "66190338"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880222"
 ---
-# <a name="overview-of-app-policies-used-to-manage-apps-in-microsoft-teams"></a>Microsoft Teams 앱을 관리하는 데 사용되는 앱 정책 개요
+# <a name="overview-of-app-policies-used-to-manage-apps"></a>앱을 관리하는 데 사용되는 앱 정책 개요
 
-앱 정책은 Microsoft Teams 애플리케이션을 제어하는 데 사용됩니다.
+앱 정책은 Microsoft Teams에서 앱 액세스 및 설치 동작을 제어하는 데 사용됩니다.
 
 ## <a name="app-permission-policies"></a>앱 사용 권한 정책
 
@@ -40,11 +40,11 @@ ms.locfileid: "66190338"
 
 ## <a name="custom-app-policies"></a>사용자 지정 앱 정책
 
-사용자 지정 앱 정책을 사용하여 Teams 위해 **사용자 지정 앱을** 업로드할 수 있는 사용자를 제어할 수 있습니다. [사용자 지정 앱 설정 및 정책은](teams-custom-app-policies-and-settings.md) Microsoft Teams 관리 센터를 통해 관리됩니다.
+사용자 지정 **앱 정책을** 사용하여 Teams에 사용자 지정 앱을 업로드할 수 있는 사용자를 제어할 수 있습니다. [사용자 지정 앱 설정 및 정책은](teams-custom-app-policies-and-settings.md) Microsoft Teams 관리 센터를 통해 관리됩니다.
 
 ![사용자 지정 앱 정책의 스크린샷.](media/custom-app-policy.png)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-articles"></a>관련 기사
 
 * [Teams에서 사용자 지정 앱 정책 및 설정 관리](teams-custom-app-policies-and-settings.md)
 * [Teams에서 앱 설정 정책 관리](teams-app-setup-policies.md)

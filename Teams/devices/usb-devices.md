@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 'Microsoft Teams용으로 인증된 USB 주변 장치 및 장치(예: 헤드셋, 스피커폰, 웹캠 및 모니터)를 확인합니다.'
-ms.openlocfilehash: c56b6c50ff9873aa2eace6a790f484065697f855
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 956034bff42cdf3694c648306caf218057bca1da
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789163"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880392"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams용으로 인증된 USB 오디오 및 비디오 장치
 
@@ -74,13 +74,14 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 [Teams에서 헤드�
 
 ## <a name="certified-devices"></a>인증된 디바이스
 
-*2022년 6월 업데이트된 테이블*
+*테이블 업데이트 날짜: 2022년 7월*
 
 > [!NOTE]
 > 날짜 형식은 MMDDYYYY입니다.
 
 | 제조업체        | 모델                                                     | 자격      | 인증된 프로그램                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Logi(Logi)                 |도킹 스피커폰                                          |7/13/2022       |Microsoft Teams용 인증                           |
 |Dell                 |WB5023 카메라                                              |6/29/2022       |Microsoft Teams용 인증                           |
 |EPOS                 |ADAPT 560 II 헤드셋                                       |6/22/2022       |Microsoft Teams용 인증                           |
 |EPOS                 |C10/C20/C50 시리즈 헤드셋                                |5/31/2022       |Microsoft Teams용 인증                           |

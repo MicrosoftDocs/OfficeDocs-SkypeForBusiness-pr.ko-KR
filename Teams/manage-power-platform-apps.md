@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Teams 관리 센터에서 Microsoft Power Platform을 사용하여 빌드된 사용자 지정 앱에 대한 액세스를 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: bf75d65f9ebc84ec836dd64839b3e6178d828867
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 85aa9904b22dd03e1056b353bf91904909c11f59
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240527"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880262"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>Teams 관리 센터에서 Microsoft Power Platform 앱 관리
 
@@ -69,10 +69,10 @@ Power Apps 및 Power Virtual Agents에서 만든 모든 앱에 대한 액세스�
 1. Microsoft Teams 관리 센터의 왼쪽 창에서 **Teams 앱****관리 앱** > 으로 이동합니다. 페이지에 액세스하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다.
 2. 앱 목록에서 다음 중 하나를 수행합니다.
 
-    :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="공유 Microsoft Power Platform 앱을 보여 주는 앱 관리 페이지의 스크린샷":::
+    :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="공유 Microsoft Power Platform 앱을 보여 주는 앱 관리 페이지의 스크린샷.":::
 
-    - 조직의 모든 사용자에 대해 Power Apps 또는 Power Virtual Agents에서 만든 앱을 차단하려면 **공유 Power Apps** 또는 **공유 Power Virtual Agent 앱을** 검색하고 선택한 다음 **차단** 을 클릭합니다.
-    - 조직의 모든 사용자에 대해 Power Apps 또는 Power Virtual Agents에서 만든 앱을 허용하려면 **공유 Power Apps** 또는 **공유 Power Virtual Agent 앱을** 검색하고 선택한 다음 **[허용**]을 클릭합니다.
+    * 조직의 모든 사용자에 대해 Power Apps 또는 Power Virtual Agents에서 만든 앱을 차단하려면 **공유 Power Apps** 또는 **공유 Power Virtual Agent 앱을** 검색하고 선택한 다음 **차단** 을 선택합니다.
+    * 조직의 모든 사용자에 대해 Power Apps 또는 Power Virtual Agents에서 만든 앱을 허용하려면 **공유 Power Apps** 또는 **공유 Power Virtual Agent 앱을** 검색하고 선택한 다음 **허용** 을 선택합니다.
 
 ### <a name="allow-or-block-microsoft-power-platform-apps-for-specific-users"></a>특정 사용자에 대한 Microsoft Power Platform 앱 허용 또는 차단
 
@@ -91,10 +91,10 @@ Teams에 대한 감사 로그를 사용하여 사용자가 Teams의 앱 페이�
 > [!NOTE]
 > 보다 쉽게 필터링할 수 있는 CSV 형식으로 감사 레코드를 내보낼 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-articles"></a>관련 기사
 
-- [Power Apps에서 캔버스 앱 공유](/powerapps/maker/canvas-apps/share-app)
-- [다른 사용자와 봇 공유](/power-virtual-agents/admin-share-bots)
-- [Microsoft Teams 관리 센터에서 앱 관리](manage-apps.md)
-- [Teams에서 앱 사용 권한 정책 관리](teams-app-permission-policies.md)
-- [Teams 앱 제출 API를 통해 제출된 사용자 지정 앱 게시](submit-approve-custom-apps.md)
+* [Power Apps에서 캔버스 앱 공유](/powerapps/maker/canvas-apps/share-app)
+* [다른 사용자와 봇 공유](/power-virtual-agents/admin-share-bots)
+* [Microsoft Teams 관리 센터에서 앱 관리](manage-apps.md)
+* [Teams에서 앱 사용 권한 정책 관리](teams-app-permission-policies.md)
+* [Teams 앱 제출 API를 통해 제출된 사용자 지정 앱 게시](submit-approve-custom-apps.md)
