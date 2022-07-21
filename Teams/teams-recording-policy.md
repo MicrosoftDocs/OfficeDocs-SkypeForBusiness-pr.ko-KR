@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da74dcb2203eb43ca5b7174697cbc074f5d50855
-ms.sourcegitcommit: 4be2a5db44972b35bdde5752eea0d74cf831607a
+ms.openlocfilehash: e2e934e0dd9896c507e4d5818a77a1637cdcb2b3
+ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66642753"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66915216"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>통화 & 모임에 대한 Teams 정책 기반 녹음/녹화 소개
 
@@ -206,8 +206,8 @@ IT 관리자는 규정 준수 기록 정책을 만들고 할당하여 기록할 
 **기타 엔드포인트 - 오디오 알림**
 - SIP 휴대폰
 - 비즈니스용 Skype
-- 오디오 회의
-- PSTN 호출자
+- 오디오 회의(전화 접속 번호의 기본 언어 또는 사용자가 선택한 언어의 오디오 알림)
+- PSTN 호출자(Teams 사용자의 기본 언어로 오디오 알림)
 
 > [!NOTE]
 > 규정 준수 녹음은 회의 모드 통화 큐에서 지원되지 않습니다. 전송 모드 호출 큐를 사용하세요.

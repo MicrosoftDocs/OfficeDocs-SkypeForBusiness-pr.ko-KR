@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 생성하기 위해 Microsoft Teams에 대해 인증된 책상 및 전화 회의 전화기를 알아봅니다.
-ms.openlocfilehash: 33be6dce1359637602ee81bcefdb6b4035c22f6c
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 39806bd983bb9cd0f7c35e14bd78a93b185d5b7a
+ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880252"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66915206"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 인증 Android 디바이스
 
@@ -45,6 +45,7 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 |디바이스 모델    | 펌웨어 버전    | 현재 인증 종료 날짜 | Android OS 버전                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| Poly CCX505                            | `7.3.1.0811`                                                  |  2023년 8월 5일              | 9 |
 | AudioCodes C450HD                      | `1.17.443`                                                  |    2023년 8월 5일              | 9 |
 | AudioCodes C448HD(캡 모드만 해당)       |  `1.17.443`                                                   | 2023년 8월 5일            | 9 |
 | Yealink CP965    | `143.15.0.7 `          | 2025년 9월 3일     | 11 |

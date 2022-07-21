@@ -1,7 +1,7 @@
 ---
 title: 연산자 연결 구성
-author: cazawideh
-ms.author: czawideh
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 09/30/2021
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c37c6e52eac53e2cf3e43e45566243a6c83025a7
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: e9a773e7c8767164480374826a2410050681505a
+ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240507"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66915196"
 ---
 # <a name="configure-operator-connect"></a>연산자 연결 구성
 
@@ -91,18 +91,15 @@ Teams 관리 센터에서 운영자를 사용, 편집 및 제거할 수 있습�
 
 1. 운영자에게 문의하여 번호를 Operator Connect로 이식합니다. 운영자의 웹 사이트를 찾으려면 [Microsoft 365 Operator Connect 디렉터리를](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory) 참조하세요.
 
-2. 운영자가 포팅 주문을 완료한 후 사용자의 통화 플랜 전화 번호를 할당 취소하고 통화 플랜 라이선스를 제거할 수 있습니다. 그런 다음 운영자가 테넌트에 숫자를 업로드할 수 있습니다.
+2. 운영자가 포팅 순서를 완료하면 운영자가 테넌트에 숫자를 업로드합니다.
 
 3. Teams 관리 센터를 사용하거나 PowerShell을 사용하여 사용자에게 Operator Connect 번호를 할당합니다. 자세한 내용은 [숫자 할당을 참조하세요](#assign-numbers).
 
 ### <a name="move-numbers-from-direct-routing-to-operator-connect"></a>직접 라우팅에서 운영자 연결로 숫자 이동
 
-직접 라우팅에서 운영자 연결로 숫자를 이동하려면 운영자가 테넌트에 업로드한 기존 직접 라우팅 번호를 할당된 사용자에서 제거해야 합니다. 그런 다음, 번호가 Operator Connect로 마이그레이션된 후 사용자에게 번호를 다시 할당할 수 있습니다. 온-프레미스 또는 온라인 전화 번호를 사용하여 직접 라우팅에서 운영자 연결로 이동하려면 다음 단계를 수행합니다.
+온-프레미스 또는 온라인 전화 번호를 사용하여 직접 라우팅에서 운영자 연결로 이동하려면 다음 단계를 수행합니다.
 
->[!IMPORTANT]
-> 마이그레이션 중에 전화 번호가 서비스가 중단되므로 시작하기 전에 Operator Connect 운영자와 조정합니다.
-
-#### <a name="step-1---remove-existing-direct-routing-numbers"></a>1단계 - 기존 직접 라우팅 번호를 제거합니다.
+#### <a name="step-1---identify-if-the-existing-direct-routing-numbers-are-assigned-online-or-on-premises"></a>1단계 - 기존 직접 라우팅 번호가 온라인 또는 온-프레미스에 할당되었는지 식별합니다.
 
 Teams PowerShell 모듈 명령을 실행하여 사용자에게 직접 라우팅 번호가 할당되어 있는지 확인합니다.
 
@@ -119,9 +116,13 @@ Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI
 ```
 
 E.164 전화 번호로 채워진 경우 `OnPremLineUri` 전화 번호가 온-프레미스에 할당되고 Microsoft 365와 동기화됩니다.
-    
-**온-프레미스에 할당된 직접 라우팅 번호를 제거하려면** 다음 비즈니스용 Skype 서버 PowerShell 명령을 실행합니다.
-    
+
+**온라인으로 할당된 기존 직접 라우팅 번호를 Operator Connect로 마이그레이션하려면 운영자에게** 문의하세요. 운영자의 웹 사이트를 찾으려면 [Microsoft 365 Operator Connect 디렉터리를 참조하세요](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). 합의된 날짜 및 시간에 운영자는 직접 라우팅에서 운영자 연결로 숫자를 마이그레이션합니다.
+
+**온-프레미스에 할당된 직접 라우팅 번호를 Operator Connect로 마이그레이션하려면** 다음 비즈니스용 Skype 서버 PowerShell 명령을 실행합니다.
+>[!IMPORTANT]
+> 마이그레이션 중에 전화 번호가 서비스가 중단되므로 시작하기 전에 Operator Connect 운영자와 조정합니다.
+
 ```PowerShell
 Set-CsUser -Identity <user> -LineURI $null 
 ```
@@ -140,7 +141,7 @@ OnPremLineURI                        :
 LineURI                              : 
 ```
 
-<br> **온라인으로 할당된 기존 온라인 직접 라우팅 번호를 제거하려면** 다음 Teams PowerShell 모듈 명령을 실행합니다.
+
 
 
 ```PowerShell
@@ -193,6 +194,6 @@ Teams 관리 센터에서 전화 번호를 해제하려면 **전화 번호** 페
 
 - 사용자에게 전화 번호가 할당된 경우 번호를 할당 취소해야 합니다. **편집** 을 선택한 다음 **, 사용자를 제거합니다**. 변경 내용을 저장한 후 **릴리스** 를 선택합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [Teams 자동 전화 교환 및 통화 큐 계획](plan-auto-attendant-call-queue.md)
