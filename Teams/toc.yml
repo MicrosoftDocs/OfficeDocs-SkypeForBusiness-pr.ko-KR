@@ -1513,6 +1513,8 @@ items:
             href: expand-teams-across-your-org/shifts/shifts-data-faq.md
           - name: 업데이트 앱 관리
             href: manage-updates-app.md
+          - name: Walkie Talkie 앱 관리
+            href: walkie-talkie.md
       - name: 타사 앱 관리
         items:
           - name: 타사 앱 이해

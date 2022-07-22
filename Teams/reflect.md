@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5df52ff5de4db994cb049db1dde2b27c2465dce5
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 0e6fdb36148f87ce243fff044a08a3bdcdd28d58
+ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675760"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66952772"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Microsoft Teams에 Reflect를 위한 IT 관리자 가이드
 
@@ -29,15 +29,15 @@ ms.locfileid: "65675760"
 
 이 체크인 앱은 이미 바쁜 일상 속에 사회 및 정서적 학습을 추가하는 데 있어 교육자를 지원하기 위해 이모티콘과 연구 지원을 받는 정서적 세분성을 사용합니다.
 
-
 ## <a name="privacy-and-security"></a>개인 정보 및 보안
+
 Reflect는 학생들의 중요한 정보를 보호하기 위해 [교육 Insights](class-insights.md)와 동일한 개인 정보 보호 및 보안 표준을 따릅니다.
 
 Microsoft 365의 일부인 Reflect는 [GDPR](/compliance/regulatory/gdpr) 및 학생의 교육 기록의 프라이버시를 보호하는 [FERPA(가족 교육 권한 및 개인 정보 보호법)](/compliance/regulatory/offering-ferpa)를 포함하여 데이터 수집과 사용에 대한 국가, 지역 및 산업별 규정을 충족합니다.
 
 데이터는 기관에 속하며, Microsoft는 데이터를 오로지 수집하고 저장합니다. Microsoft 직원은 데이터 복구와 같은 서비스를 유지하기 위한 감사 방식으로 규정 준수에 의해 허용되는 경우를 제외하고는 데이터에 액세스하거나 데이터를 볼 수 없습니다.
 
-학생들은 본인이 어떻게 반응했는지만 확인할 수 있고 다른 학생들의 이름을 *절대* 볼 수 없습니다. 반응 분포는 볼 수 있지만 각 반영과 연관된 이름은 *절대* 볼 수 없습니다. 
+학생들은 본인이 어떻게 반응했는지만 확인할 수 있고 다른 학생들의 이름을 *절대* 볼 수 없습니다. 반응 분포는 볼 수 있지만 각 반영과 연관된 이름은 *절대* 볼 수 없습니다.
 
 > [!NOTE]
 > 5명 미만의 학생이 응답하면 데이터는 학생에게 표시되지 않습니다. 이는 학생들이 서로의 반응을 확인할 가능성을 최소화하기 위한 것입니다.
@@ -51,9 +51,9 @@ Microsoft 365의 일부인 Reflect는 [GDPR](/compliance/regulatory/gdpr) 및 �
 
 데이터는 Insights에 저장됩니다. 기본적으로 Insights 활용이 설정되어 있습니다. 옵트아웃하면 반영을 위해 **수집된 정보는 삭제됩니다**. Insights를 다시 설정하면 사용 설정된 이후부터 데이터 수집을 시작됩니다.
 
-[Insights IT 관리자 가이드](class-insights.md)에서 Insights자 작동하는 방식(저장소 위치 포함)과 데이터를 삭제하거나 서비스를 삭제하고 싶을 때 [Insights를 켜고 끄는 방법](class-insights.md#turn-insights-on-or-off)을 알아 볼 수 있습니다.
+[Insights IT 관리자 가이드](class-insights.md)에서 Insights자 작동하는 방식(저장소 위치 포함)과 데이터를 삭제하거나 서비스를 삭제하고 싶을 때 [Insights를 켜고 끄는 방법](class-insights.md#turn-on-and-off-insights)을 알아 볼 수 있습니다.
 
-게스트 데이터는 수집되지 않지만 학생의 반영으로부터 데이터가 수집됩니다. **학생이 게스트로 정의된 경우 해당 데이터는 수집되지 않습니다.** 
+게스트 데이터는 수집되지 않지만 학생의 반영으로부터 데이터가 수집됩니다. **학생이 게스트로 정의된 경우 해당 데이터는 수집되지 않습니다.**
 
 ## <a name="enable-reflect"></a>반영 사용
 기관에 대한 앱 설정 정책을 관리하는 경우 Reflect가 *허용* 될 수 있도록 설정합니다. Teams 관리 센터에서 관련 클래스 팀에 Reflect를 추가할 수도 있습니다.

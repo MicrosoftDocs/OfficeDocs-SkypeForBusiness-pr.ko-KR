@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db4b3adabecf147f5adf9cadb9891892b5a82e5a
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: e2ac9a38e16000829b391e77dffdd718ed349299
+ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66606227"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66952762"
 ---
 # <a name="share-to-teams-from-outlook"></a>Outlook에서 Teams에 공유
 
@@ -30,9 +30,9 @@ Outlook에서 Teams로 공유(Teams로 공유)를 사용하면 사용자가 Outl
 Teams에 공유 기능을 사용하려면 Outlook용 추가 기능이 필요합니다. 이 추가 기능은 사용자가 Teams 웹앱 또는 Teams 데스크톱 클라이언트에 로그온할 때마다 자동으로 설치됩니다.
 
 > [!NOTE]
-> [Exchange Online Outlook용 추가 기능](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) 및 [Exchange Online 클라이언트 액세스 규칙을](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) 검토하여 Outlook용 추가 기능이 제대로 작동하는지 확인해야 합니다. 또한 연결된 환경을 사용하지 않도록 설정하면 Outlook의 추가 기능이 제대로 작동하지 않도록 방지할 수 있습니다. 자세한 내용은 [Office의 연결된 환경을](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) 참조하세요.  
+> [Exchange Online Outlook용 추가 기능](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) 및 [Exchange Online 클라이언트 액세스 규칙을](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) 검토하여 Outlook용 추가 기능이 제대로 작동하는지 확인해야 합니다. 또한 연결된 환경을 사용하지 않도록 설정하면 Outlook의 추가 기능이 제대로 작동하지 않도록 방지할 수 있습니다. 자세한 내용은 [Office의 연결된 환경을](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) 참조하세요. 공유 사서함은 추가 기능에서 지원되지 않습니다. 
 
-Teams에 공유는 사용자가 채널을 전자 메일로 보낼 때와 동일한 전송 메커니즘을 사용합니다. 채팅에 공유하기 위해 전자 메일(전자 메일 첨부 파일 포함)이 보낸 사람의 OneDrive에 복사됩니다. 채널에 공유하기 위해 전자 메일 및 첨부 파일이 SharePoint의 **전자 메일 메시지** 폴더에 복사됩니다.
+Teams에 공유는 사용자가 채널을 전자 메일로 보낼 때와 동일한 전송 메커니즘을 사용합니다. 채팅에 공유하기 위해 전자 메일(전자 메일 첨부 파일 포함)이 보낸 사람의 OneDrive에 복사됩니다. 채널에 공유하려면 전자 메일 및 첨부 파일이 SharePoint의 **Email 메시지** 폴더에 복사됩니다.
 
 Teams에 대한 Share용 Outlook 추가 기능은 [Outlook 추가 기능에 대한 세부 정보, Outlook 추가 기능에](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) 대한 환경 요구 사항 및 요구 사항 집합 1.7에서 지원되는 특정 Outlook 클라이언트를 포함하는 Outlook 추가 기능 설명서에 설명된 대로 요구 사항 집합 1.7을 사용합니다.
 
