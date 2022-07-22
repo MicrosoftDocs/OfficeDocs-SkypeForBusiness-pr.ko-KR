@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2694981d18bfbee7f75ea8157fb656d77675a71d
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: 02a425d325721dc732e0bd06aa3aee8fd3973dda
+ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647690"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66952782"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams의 교육 인사이트에 대한 IT 관리자 가이드
 
@@ -43,7 +43,7 @@ Insights는 학급 내 학업 진행 및 활동에 대한 실시간 분석을 �
 
 교육자는 학급 팀을 소유한 모든 사람입니다. 교육자는 교사, 강사 및 교수를 포함할 수 있습니다.
 
-교육자는 수업 수준에서 Insights에 액세스합니다. 교육자는 수업과 관련된 학생의 활동을 볼 수 있지만 다른 수업의 데이터에 액세스할 수 없습니다. Insights를 통해 교육자는 학생을 이해하고 지원할 수 있습니다.
+교육자는 수업 수준에서 Insights에 액세스합니다. 수업에 할당된 학생의 활동을 볼 수 있지만 다른 수업의 데이터에 액세스할 수는 없습니다. Insights를 통해 교육자는 학생을 이해하고 지원할 수 있습니다.
 
 Insights 사용을 위한 사전 요건은 없으며, 교육자는 Insights를 왼쪽 앱 표시줄 또는 Teams에서 각 수업의 탭으로 추가하면 됩니다.
 
@@ -57,7 +57,7 @@ Insights 사용을 위한 사전 요건은 없으며, 교육자는 Insights를 �
 
 교육 리더는 IT 관리자가 할당한 사용 권한에 따라 조직 전체의 뷰를 갖게 됩니다. 예를 들어 학군 관리자는 액세스하는 모든 학교를 볼 수 있습니다. 이와 달리 학교 교장 또는 감독자는 해당 학교의 성적 수준과 수업만 볼 수 있습니다.
 
-감독자도 교사라고 가정할 때, 교육자 및 교육 리더로 간주되며 Insights의 두 가지 뷰 모두 액세스할 수 있습니다(교육자 및 교육 리더용). 여기, Insights는 교육 리더가 교육자들과 학생들을 지원하도록 돕습니다.
+감독자도 강의한다고 가정하면 교육자 및 교육 리더로 간주되며 Insights의 두 가지 보기(교육자 및 교육 리더용)에 모두 액세스할 수 있습니다. 여기, Insights는 교육 리더가 교육자들과 학생들을 지원하도록 돕습니다.
 조직 수준에서 IT 관리자는 학생 정보 시스템을 연결하고 관련 학교 또는 부서에 액세스하도록 각 역할에 사용 권한을 부여해야 합니다.
 
 교육 리더는 교직원용 라이선스로 식별되지만, 조직의 Insights 보고서를 보려면 IT 전역 관리자로부터 *명백한 권한* 을 받아야 합니다.
@@ -99,13 +99,13 @@ Insights는 수업 팀 내 모든 채널의 활동 데이터를 보여주지만,
 
 **Teams에서 Insights 앱 추가하기:**
 
-- 앱 바에서 "**...**"를 클릭합니다.
+- 앱 바에서 "**...**"을(를) 선택합니다.
 - **Insights** 를 검색하고 선택합니다.
-- 설명 화면이 열리면 **추가** 를 클릭합니다.
+- 설명 화면이 열립니다. **추가** 를 선택합니다.
 
   :::image type="content" source="media/insights-add-personal-app.png" alt-text="Teams에 Insights를 추가합니다.":::
 
-- Insights 아이콘을 마우스 오른쪽 단추로 클릭하고 **고정** 을 선택합니다.
+- Insights 아이콘을 마우스 오른쪽 버튼으로 선택하고 **고정** 을 선택합니다.
 
   :::image type="content" source="media/insights-pin-app.png" alt-text="Insights 앱을 고정합니다.":::
 
@@ -119,21 +119,21 @@ Insights는 **학습 주기** 전반에 걸쳐 학습 커뮤니티를 지원합�
 - 학생들이 어떻게 그리고 언제 교육자, 교육 과정 자료 및 다른 학생들과 참여할 것인지, 그리고 어떻게 과제를 수행할 것인지 **확인합니다**.
 - 자료가 학생들의 성공과 성장 분야를 결정하는데 어떤 지원을 할 수 있는지 그리고 어느 부분에서 지원이 필요한지 **숙고합니다**.
 - 학생들과 학교 커뮤니티가 관계 강화, 목표 설정, 자체 검토, 공동 작업 추진 및 결과 개선을 위해 조사한 결과들에 대해 **논의합니다**.
-- 개입하고, 성장 분야에 대한 피드백을 제공하고, 교육 전략을 수정하고, 추가 지원이 필요한지 파악하도록 **실행합니다**.
+- 중재를 개발하고, 성장 영역에 대한 피드백을 제공하고, 교육 전략을 수정하고, 필요한 추가 지원을 식별하기 위해 **조치를 취하세요**.
 
 :::image type="content" source="media/insights-learning-cycle.png" alt-text="Insights는 학습 주기 동안 학습 커뮤니티를 지원합니다.":::
 
 ## <a name="how-insights-works"></a>Insights의 방식
 
-Insights는 강사가 더 나은 학습 결과를 제공하는 데 도움이 되는 강력한 분석을 생성합니다. Teams 내 학생 활동을 분석하고 선택적으로 해당 활동을 맥락화 및 그룹화하는 데 도움이 되는 SIS(학생 정보 시스템) 데이터를 활용하여 이 기능을 실행합니다.
+Insights는 교육자가 더 나은 학습 결과를 낼 수 있도록 도와주는 강력한 분석을 제공합니다. Teams 내에서 학생 활동을 분석하고 선택적으로 해당 활동을 컨텍스트화하고 그룹화하는 데 도움이 되도록 제공하는 학생 정보 시스템(SIS) 데이터를 사용하여 이를 수행합니다.
 
-교육 기관에 Insights를 배포하기 전에 Insights의 작동 방식, 데이터 윤리를 따르기 위한 노력, 필수 라이선스를 잠시 살펴보시기 바랍니다.
+기관에 Insights 배포를 시작하기 전에 Insights의 작동 방식, 데이터 윤리에 대한 Microsoft의 약속 및 필요한 라이선스를 간단히 살펴보세요.
 
 ### <a name="data-collection"></a>데이터 수집
 
 Teams의 학생 및 교육자 활동으로부터 인사이트를 얻기 위해 데이터가 수집됩니다. 게스트 데이터는 수집되지 않습니다.
 
-Insights는 교육자에 대한 데이터를 *표시하지 않습니다*. 데이터를 분석하면 교육과 학습에 도움이 되는 실행 가능한 인사이트가 제공됩니다.
+Insights는 교육자에 대한 데이터를 표시하지 *않습니다*. 데이터를 분석하면 교육과 학습에 도움이 되는 실행 가능한 인사이트가 제공됩니다.
 
 현재 수업 팀의 다음과 같은 영역에서 데이터가 수집됩니다.
 
@@ -158,7 +158,7 @@ Insights는 교육자에 대한 데이터를 *표시하지 않습니다*. 데이
 
 Education Insights는 Microsoft 365의 일부로서 [GDPR](/compliance/regulatory/gdpr) 및 학생의 교육 기록 개인 정보를 보호하는 [FERPA(가족 교육 권한 및 개인 정보 보호법)](/compliance/regulatory/offering-ferpa)를 포함하여 데이터 수집 및 사용에 대한 국가, 지역 및 산업별 규정을 충족합니다.
 
-데이터는 기관에 속하며, Microsoft는 데이터를 오로지 수집하고 저장합니다. Microsoft 직원은 데이터 복구와 같은 서비스를 유지하기 위한 감사 방식으로 규정 준수에 의해 허용되는 경우를 제외하고는 데이터에 액세스하거나 데이터를 볼 수 없습니다.
+데이터는 기관에 속하며, Microsoft는 데이터를 오로지 수집하고 저장합니다. Microsoft 직원은 데이터 복구와 같이 서비스를 유지 관리하기 위해 감사 방식으로 규정 준수가 허용하는 경우를 제외하고 데이터에 액세스하거나 데이터를 볼 수 없습니다.
 
 > [!TIP]
 >
@@ -166,9 +166,10 @@ Education Insights는 Microsoft 365의 일부로서 [GDPR](/compliance/regulator
 > - [Microsoft 규정 준수 서비스](/compliance/regulatory/offering-home)에서 조직이 규정 준수 표준을 충족하는 데 있어 Microsoft 365가 어떻게 도움을 주는지 알아보세요.
 
 ### <a name="performance-and-reliability"></a>성능과 안정성
-Insights는 Teams에서 수집되는 대량의 데이터를 최적의 성능과 안정성으로 처리하도록 설계되었습니다. 100%의 가용성을 보장할 수는 없지만 가능한 한 100%에 가까운 수치로 제공하도록 노력하고 있습니다.
 
-데이터 수집 프로세스는 Teams의 Insights 탭 설치와는 관계 없이 별도의 서버에서 이루어집니다. Insights 탭 또는 개인 앱은 나머지 Teams의 기능을 사용하는 교육자와 학생의 응용 프로그램 성능이나 네트워크 대역폭에 영향을 미치지 않습니다.
+Insights는 Teams에서 수집되는 대량의 데이터를 최적의 성능과 안정성으로 처리하도록 설계되었습니다. 100% 가용성을 보장할 수는 없지만 해당 목표에 최대한 가깝게 사용할 수 있도록 노력합니다.
+
+데이터 수집 프로세스는 Teams의 Insights 탭 설치와는 관계 없이 별도의 서버에서 이루어집니다. Insights 탭 또는 개인 앱은 나머지 Teams 기능을 사용하는 교육자와 학생의 응용 프로그램 성능이나 네트워크 대역폭에 영향을 주지 않습니다.
 
 > [!TIP]
 > 자세한 내용은 [EDU용 Teams의 낮은 대역폭 상황을 위한 지원](edu-remote-low-bandwidth.md)을 참조하세요.
@@ -179,15 +180,15 @@ Insights는 Teams에서 수집되는 대량의 데이터를 최적의 성능과 
 
 ### <a name="using-data-ethically"></a>데이터를 윤리적으로 사용하기
 
-당사는 데이터를 윤리적으로 책임감있게 사용할 것을 약속합니다. Insights는 Microsoft의 책임 있는 데이터 및 AI 원칙을 따릅니다. 즉, 데이터가 사용되는 방식이 투명하게 공개되고 교육자들과 학생들의 관심사가 가장 우선이라는 뜻입니다.  당사는 가장 높은 보안 및 개인 정보 표준을 따르며, 지속적인 안정성과 정확도를 모니터링하고 기관의 지속적인 규정 준수를 보장합니다.
+Microsoft는 책임감 있고 윤리적으로 데이터를 사용하기 위해 최선을 다하고 있습니다. Insights는 Microsoft의 책임 있는 데이터 및 AI 원칙을 따릅니다. 즉, 데이터 사용 방법에 대해 투명하게 설명하고 교육자와 학생의 관심사를 우선 적용합니다.  당사는 가장 높은 보안 및 개인 정보 표준을 따르며, 지속적인 안정성과 정확도를 모니터링하고 기관의 지속적인 규정 준수를 보장합니다.
 
-Microsoft는 Insights를 만드는 출발점부터 데이터 보호를 보장합니다. 저희는 이 데이터가 어떻게 사용될 수 있는지에 대한 잠재적인 민감성을 인지하고 있으며, 귀하의 데이터와 개인 정보를 소중히 여깁니다.
+Microsoft는 Insights를 만드는 출발점부터 데이터 보호를 보장합니다. Microsoft는 이 데이터를 사용하는 방법에 대한 잠재적 민감도를 알고 있으며, 사용자의 데이터와 개인 정보 보호에 관심이 있습니다.
 
 #### <a name="data-to-support-learning"></a>학습을 지원하는 데이터
 
 Insights는 학생의 학습 및 디지털 참여를 집중 조명합니다. 해당 데이터는 학습을 지원하고 디지털 학습 플랫폼에서 학생 참여 수준을 보여줍니다. 귀하는 수업 활동에 대한 개별 수준으로 드릴다운 할 수 있는 반면, Microsoft는 이런 작업에 **어떤 긍적적 또는 부정적 가치도 부여하지 않습니다**. 데이터 수집의 목적은 학생들과 교육자들이 최상의 성과를 내도록 지원하는 것입니다.
 
-교육자는 학생들을 가장 잘 알고 이해합니다. Insights에서 제공되는 정보는 디지털 학습 시나리오에서 교육자들이 **학생들을 잘 지원하기 위해** 존재합니다. 일반적으로 대면 환경에서 사용할 수 있는 인사이트를 모사합니다. 예를 들어 특정 기간 동안 학생이 활동을 하지 않나 지난 주 정시에 모든 과제를 완료하지 않았다고 가정합시다. 교육자에게 데이터를 보여주어 학생에게 올바른 행동을 유도하거나 학생을 체크할 수 있도록 합니다. 학생 또는 학생의 가족이나 보호자와 소통하고, 발견한 활동 또는 비활동의 근본적인 이유를 파악하는 것은 교육자의 책임입니다.
+교육자는 학생들을 가장 잘 알고 이해합니다. Insights에서 제공되는 정보는 디지털 학습 시나리오에서 교육자들이 **학생들을 잘 지원하기 위해** 존재합니다. 직접 경험에서 사용할 수 있는 인사이트를 복제합니다. 예를 들어 학생이 특정 기간 동안 활성화되지 않았거나 지난주에 정시에 모든 과제를 완료하지 않았다고 가정합니다. 교육자에게 데이터를 보여주어 학생에게 올바른 행동을 유도하거나 학생을 체크할 수 있도록 합니다. 학생 또는 학생의 가족이나 보호자와 소통하고, 발견한 활동 또는 비활동의 근본적인 이유를 파악하는 것은 교육자의 책임입니다.
 
 Insights는 디지털 학습 환경 프레임워크에서 학생과 교육자 모두를 지원하도록 설계되었습니다. Insights는 **교육자에 대한 데이터를 직접 표시하지 않습니다**. 개별 학생의 데이터 외에도, 특정 교육자에게 학생의 활동과 결과의 종합을 제공하여 교육 리더가 학생들과 교육자들을 지원할 수 있도록 합니다.
 
@@ -195,7 +196,7 @@ Insights는 디지털 학습 환경 프레임워크에서 학생과 교육자 �
 
 Insights에 액세스하려면 사용자에게 Microsoft 365용 A1, A3 또는 A5 교직원 라이선스가 있어야 합니다.
 
-*교육 Insights Premium* 은(는) 교육 책임자에게 조직 수준의 Education Insights 데이터 보기와 교육자를 위한 이전 데이터 보기에 대한 확장된 액세스를 제공하는 유료 업그레이드입니다. 자격을 갖춘 교육 기관은 EES(Enrollment for Education Solutions), CSP(Cloud Service Providers) 및 Microsoft 365 관리 센터(웹 직접)를 통해 *교육 Insights Premium* 추가 기능 라이선스를 구입할 수 있습니다.
+*교육 Insights Premium* 은 교육 리더에게 교육 Insights 데이터의 조직 수준 보기 및 교육자를 위한 기록 데이터 뷰에 대한 확장된 액세스를 제공하는 유료 업그레이드입니다. 자격을 갖춘 교육 기관은 EES(Enrollment for Education Solutions), CSP(Cloud Service Providers) 및 Microsoft 365 관리 센터(웹 직접)를 통해 *교육 Insights Premium* 추가 기능 라이선스를 구입할 수 있습니다.
 
 교육 Insights Premium 추가 기능은 테넌트에서 모든 디지털 활성 학생 라이선스 구매를 기반으로 하는 조직에서 사용할 수 있습니다.
 
@@ -233,22 +234,35 @@ Insights 사용에 대해 교육 기관에 알리세요.
 다음 자료를 **교육자에게** 마음껏 나눠주세요.
 
 - [Insights 지원 페이지](https://support.microsoft.com/office/27b56255-90c0-47aa-bac3-1c9f50157181)를 확인하여 도움을 받으세요.
-- 빠르게 시작하고 실행하세요 - [Insights의 1 페이지 PDF](https://aka.ms/insights/start).
+- 빠른 시작 및 실행 – [Insights 다운로드 요약 문서 PDF](https://aka.ms/insights/start)
 - [완벽한 가이드 PDF 파일](https://aka.ms/insights/guide)을 읽어보세요.
 - Insights 사용법에 관한 [단계별 자습 영상](https://aka.ms/insights/resources)을 시청합니다.
 - Microsoft 교육자 센터에서 [무료 Insights 과정](https://aka.ms/insights/course)을 이수하세요.
 - 마지막으로, Insights에 관한 [이 블로그](https://techcommunity.microsoft.com/t5/education-blog/6-ways-to-be-insight-ful-and-support-student-engagement/ba-p/1903091)를 참조하세요.
 
 **교육 리더** 를 위한 자료:
+
 - [교육 조직을 위한 지원 페이지용 Insights](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347).
 
-### <a name="turn-insights-on-or-off"></a>Insights 켜기 또는 끄기
+### <a name="turn-on-and-off-insights"></a>Insights 켜고 끄기
 
-Insights는 기본적으로 켜져 있으므로 Teams 내에서 학생의 활동에 대한 분석을 수집하여 인사이트에 사용할 수 있습니다. Insights에서 옵트아웃하기로 결정할 수 있습니다. 이 경우 당사는 Insights에 *수집된 모든 데이터를 삭제* 하고 향후 데이터 수집을 중지합니다. Insights를 다시 켜면 다시 활성화된 시점부터 데이터 수집을 시작합니다.
+기본적으로 Insights는 켜져 있으므로 Teams 내에서 학생의 활동에 대한 분석을 Insights에서 사용할 수 있습니다. Insights를 선택 해제할 수 있습니다. 이 경우 Insights에 대해 *수집된 모든 데이터를 삭제* 하고 향후 데이터 수집을 중지합니다. Insights를 다시 켜면 다시 활성화된 시점부터 데이터 수집을 시작합니다.
 
-- Insights를 켜거나 끄려면 [SDS 관리 센터](https://sds.microsoft.com/)를 열고 **설정** > **Education Insights 관리** 로 이동합니다. **Insights를 위한 데이터 수집** 을 끄거나 켜서 Insights 사용을 해제하거나 설정합니다.
+*Education Insights* 를 제어할 수 있는 곳은 두 곳입니다. 두 옵션 모두 동일한 결과를 가집니다. *SDS(기본)* 에서 *프로비전용 SDS* 로 전환한 고객의 경우 Teams 클라이언트 옵션만 사용할 수 있습니다.
 
-:::image type="content" source="media/insights-settings.png" alt-text="Insights를 켜거나 끄는 설정 옵션이 있는 SDS 관리 센터 페이지의 스크린샷.":::
+#### <a name="turn-on-and-off-insights-from-the-sds-admin-center"></a>SDS 관리 센터에서 Insights 켜고 끄기
+
+1. [SDS 관리 센터](https://sds.microsoft.com/)를 엽니다.
+1. **설정** > **교육 Insights 관리** 로 이동합니다.
+1. **Insights에 대한 활동 데이터 수집** 토글을 켜기 또는 끄기로 조정합니다.
+
+![SDS 관리 센터의 스크린샷을 토글하여 Insights를 켜고 끕니다.](media/manage-insights-toggles.png)
+
+#### <a name="turn-on-and-off-insights-from-the-teams-client"></a>Teams 클라이언트에서 Insights 켜기 및 끄기
+
+1. *교육 Insights* 개인 앱을 고정하지 않은 경우 [이 안내](class-insights.md#education-leaders)에 따라 추가하세요.
+1. Microsoft 365 관리자 계정으로 *교육 Insights* 의 오른쪽 상단에 있는 줄임표 아이콘을 사용하여 **관리자 설정** 페이지를 엽니다.
+1. **Insights에 대한 활동 데이터 수집** 토글을 켜기 또는 끄기로 조정합니다.
 
 > [!NOTE]
 > Insights를 끈 경우 수집된 데이터가 삭제됩니다. 옵트아웃 시 삭제된 데이터는 Insights가 다시 활성화되더라도 나중에 복원할 수 없습니다.
@@ -257,10 +271,21 @@ Insights는 기본적으로 켜져 있으므로 Teams 내에서 학생의 활동
 
 교육 Insights에 대한 **고급 유추 허용** 토글이 켜져 있으면 Education Insights에서 학생, 교육자 및 교육 리더에게 학습에 대한 고급 유추(예: 참여 경고)를 제시할 수 있습니다. 이러한 유추를 통해 교육자는 학생에게 보다 맞춤화된 지원을 제공할 수 있습니다. 또한 토글은 모델링에 테넌트 데이터를 사용하여 제어합니다.
 
-이 토글을 켜면 교육 Insights에서 이미 수집한 데이터 이외의 추가 데이터는 수집되지 않습니다.
+이 토글을 켜면 교육 Insights에서 이미 수집한 데이터 이외의 추가 데이터는 수집하지 않습니다.
 
-- 이 설정을 조정하려면 [SDS 관리 센터](https://sds.microsoft.com/)를 열고 **설정** > **교육 Insights 관리** 로 이동합니다.
-- **고급 유추 허용** 토글이 꺼지거나 켜지도록 조정합니다.
+*고급 추론* 을 제어할 수 있는 두 곳이 있습니다. 두 옵션 모두 동일한 결과를 가집니다. *SDS(기본)* 에서 *프로비전용 SDS* 로 전환한 고객의 경우 Teams 클라이언트 옵션만 사용할 수 있습니다.  
+
+#### <a name="turn-on-and-off-advanced-inferences-from-the-sds-admin-center"></a>SDS 관리 센터에서 고급 추론 켜기 및 끄기
+
+1. [SDS 관리 센터](https://sds.microsoft.com/)를 엽니다.
+1. **설정** > **교육 Insights 관리** 로 이동합니다.
+1. **고급 추론 허용** 토글을 켜기 또는 끄기로 조정합니다.
+
+#### <a name="turn-on-and-off-advanced-inferences-from-the-teams-client"></a>Teams 클라이언트에서 고급 추론 켜기 및 끄기
+
+1. *교육 Insights* 개인 앱을 고정하지 않은 경우 [이 안내](class-insights.md#education-leaders)에 따라 추가하세요.
+1. Microsoft 365 관리자 계정으로 *교육 Insights* 의 오른쪽 상단에 있는 줄임표 아이콘을 사용하여 **관리자 설정** 페이지를 엽니다.
+1. **고급 추론 허용** 토글을 켜기 또는 끄기로 조정합니다.
 
 > [!NOTE]
 > 이 토글은 **Insights를 위한 활동 데이터 수집** 토글에 따라 다릅니다. **Insights를 위한 활동 데이터 수집** 을 끄면 **고급 유추 허용** 토글도 꺼집니다.
@@ -269,26 +294,27 @@ Insights는 기본적으로 켜져 있으므로 Teams 내에서 학생의 활동
 
 SDS(학교 데이터 동기화)는 Teams 내에서 SIS(학생 정보 시스템) 자동으로 데이터를 가져오고 동기화하도록 돕습니다.
 
-Insights를 사용하기 위해서는 SDS를 사용할 *필요가 없습니다*. 하지만 Insights를 언제든지 옵트아웃할 수 있습니다.
+Insights를 사용할 때 SDS를 사용할 필요가 *없습니다*. 그러나 언제든지 Insights에서 선택 해제할 수 있습니다.
 
-- 학교 데이터 동기화 Insights 사용을 해제하려면 [Insights에 SDS를 사용하지 않도록 설정](/schooldatasync/how-to-deploy-sds-for-insights#disabling-sds-for-insights)의 지침을 따르세요.
+- 학교 데이터 동기화의 Insights 사용을 끄려면 [Insights용 SDS활성화](/schooldatasync/how-to-deploy-sds-for-insights#disabling-sds-for-insights)의 지침을 따르세요.
 
-- 다시 켜려면 [Insights에 SDS를 배포하는 방법](/schooldatasync/how-to-deploy-sds-for-insights)의 지침을 따릅니다.
+- 다시 켜려면 [Insights용 SDS 배포 방법](/schooldatasync/how-to-deploy-sds-for-insights)의 지침을 따르세요.
 
 ### <a name="how-to-delete-user-data-from-education-insights"></a>교육 Insights의 사용자 데이터 삭제 방법
+
 Insights는 교육용 Microsoft Teams에서 수행된 학생 및 강사 활동을 저장합니다.
 
 인사이트에서 수집하는 데이터는 다음 두 가지 유형입니다.
 
-- **혼합 데이터** – 수업 학습 활동의 일부로 생성되는 데이터입니다.
-- **비 혼합(비공개) 데이터** – 수업 학습 활동의 일부가 아닌 교육용 Teams 학생 활동에서 수집되는 데이터입니다.
+- **통합 데이터** – 수업 학습 활동의 일부로 생성되는 데이터입니다.
+- **비혼합(비공개) 데이터** – 수업 학습 활동의 일부가 아닌 교육용 Teams의 학생 활동에 의해 수집된 데이터입니다.
 
 인사이트에서 수집하는 전체 데이터 목록은 [여기](class-insights.md#data-collection)에서 확인하세요.
 
-강사와 교육 지도자에게 과거 데이터에 대한 완전성과 무결성을 제공하기 위해 인사이트는 학생 또는 강사 사용자 계정을 닫을 시 기본적으로 서비스에서 자동으로 데이터를 삭제하지 않습니다. 조직의 IT 관리자는 다음 단계를 수행하여 사용자(강사 또는 학생) 데이터를 수동으로 삭제하도록 요청할 수 있습니다.
+과거 기간에 대한 데이터의 완전성과 무결성을 교육자 및 교육 기관 리더에게 제공하기 위해 기본적으로 Insights는 학생 또는 교육자 사용자 계정이 닫힐 때 서비스에서 데이터를 자동으로 삭제하지 않습니다. 조직의 IT 관리자는 다음 단계를 수행하여 사용자(강사 또는 학생) 데이터를 수동으로 삭제하도록 요청할 수 있습니다.
 
 - [지원 티켓](https://aka.ms/edusupport)을 엽니다. 지원 티켓은 GDPR 삭제 DSR 작업 요청을 명확하게 명시해야 하며 삭제할 개체 ID를 포함해야 합니다.
-삭제의 데이터 집합 또는 시간 창을 제한할 수 없습니다.
+삭제의 데이터 집합 또는 기간을 제한할 수 없습니다.
 - 요청에서 IT 관리자는 다음 옵션을 사용하여 해당 사용자의 어떤 데이터 유형을 삭제하길 원하는지를 분명히 밝혀야 합니다.
   - 모든 데이터(혼합 및 비공개)
   - 모든 비공개 데이터
@@ -302,7 +328,7 @@ Insights는 교육용 Microsoft Teams에서 수행된 학생 및 강사 활동�
 
 *새로운* 테넌트가 있고 데이터가 Insights에서 *한 번도* 나타나지 않는 경우 테넌트가 **교육 테넌트(Insights)로 검증** 되어 Insights에 액세스하는지 확인합니다. Microsoft 계정 관리자에게 문의하여 테넌트가 올바르게 구성되었는지 확인하도록 요청합니다.
 
-계정 관리자가 없다면, 티켓을 여세요. [Office 365 관리 센터](https://admin.microsoft.com/AdminPortal/) > **지원** > **새 서비스 요청** 으로 이동합니다.  티켓 제목에 "교육 검증에 도움이 필요합니다"라고 쓰십시오.
+계정 관리자가 없는 경우 티켓을 엽니다. [Microsoft 365 관리 센터](https://admin.microsoft.com/AdminPortal/) > **지원** > **새 서비스 요청** 으로 이동합니다.  티켓 제목에 "교육 검증에 도움이 필요합니다"라고 쓰십시오.
 
 또한 Insight에 대한 데이터 수집이 활성화되어 있는지 확인합니다. 기본적으로 켜져 있는 동안 IT 관리자는 이 기능을 해제하여 Insight에서 보유한 모든 데이터를 삭제했을 수 있습니다.
 
@@ -312,7 +338,7 @@ Insights는 교육용 Microsoft Teams에서 수행된 학생 및 강사 활동�
 
 ### <a name="why-do-i-see-data-for-some-students-or-classes-not-all"></a>전부가 아닌 일부 학생 또는 강의에 대한 데이터가 표시되는 이유는 무엇입니까?
 
-Microsoft는 *라이선스가 있는* 학생에 대한 데이터만 수집합니다. 따라서 가장 가능성이 높은 이유는 게스트 학생이 수업에 참석하고 데이터가 수집되지 않기 때문입니다. 이름은 표시되지만 데이터는 표시되지 않습니다.
+*허가를 받은* 학생에 대한 데이터만 수집하므로 가장 가능성이 높은 이유는 수업에 참석하는 게스트 학생이 있고 해당 학생의 데이터는 수집되지 않기 때문입니다. 이름은 표시되지만 데이터는 표시되지 않습니다.
 
 학생의 상태를 확인하여 모든 학생이 학생 라이선스를 갖고 있는지 확인합니다.
 
@@ -320,7 +346,7 @@ Microsoft는 *라이선스가 있는* 학생에 대한 데이터만 수집합니
 
 Insights 보고서에서 모임 데이터를 보는 데 최대 24시간이 걸립니다. 충분한 시간이 흘렀는지 확인해보세요.
 
-또한 학생이 [Teams 계정 없이 수업 모임에 참가 *하지* 않았는지](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508) 확인합니다. 이러한 시나리오에서는 학생 활동이 수집되지 않습니다.
+또한 학생들이 [Teams 계정 없이 수업 모임에 참여](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)하지 않았는지 확인합니다. 이러한 시나리오에서는 학생 활동이 수집되지 않습니다.
 
 > [!TIP]
 > 학생 출석률을 추적하려는 교육자의 경우, 모임 중에 학생에게 회신하도록 요청하는 메시지를 보내는 것이 좋습니다. 그러면 몇 분 내에 참석자가 등록됩니다.

@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams 관리 센터에서 조직의 앱 스토어에 사용자 지정 앱을 업로드하는 방법을 알아봅니다.
-ms.openlocfilehash: 5ef5992e01b5de4e2f4feaed51b50e2d0f16c0d8
-ms.sourcegitcommit: 4be2a5db44972b35bdde5752eea0d74cf831607a
+ms.openlocfilehash: 8f7968a53b70ac8ffa871d03adacd648ec047c52
+ms.sourcegitcommit: 70185cd963c5a9d539e65e302d4230018209ecae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66642763"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66958053"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>앱 패키지를 업로드하여 사용자 지정 앱 게시
 
@@ -57,20 +57,20 @@ Teams 스토어의 모든 앱은 글로벌 Teams 앱 스토어의 품질 및 보
 1. **사용자 지정 앱 조직 전체 앱 설정과의 상호 작용 허용** 을 켭니다. 이렇게 하려면 다음을 수행합니다.
 
     1. Microsoft Teams 관리 센터의 왼쪽 탐색 영역에서 **Teams 앱****관리 앱** > 으로 이동한 다음 **조직 전체 앱 설정을** 클릭합니다.
-    
-    2. **사용자 지정 앱** 에서 **사용자 지정 앱과의 상호 작용 허용을** 켜고 **저장** 을 클릭합니다.
-    
+
+    1. **사용자 지정 앱** 에서 **사용자 지정 앱과의 상호 작용 허용을** 켜고 **저장** 을 클릭합니다.
+
 1. 전역 앱 설정 정책에서 **사용자 지정 앱 업로드** 설정을 해제합니다. 이렇게 하려면 다음을 수행합니다.
 
     1. Microsoft Teams 관리 센터의 왼쪽 탐색 영역에서 **Teams 앱** > **설정 정책** 으로 이동한 다음 **전역(조직 전체 기본값)** 정책을 클릭합니다.
-    
-    2. **사용자 지정 앱 업로드** 를 끄고 **저장** 을 클릭합니다.
-    
+
+    1. **사용자 지정 앱 업로드** 를 끄고 **저장** 을 클릭합니다.
+
 1. 사용자 지정 앱을 업로드하고 신뢰할 수 있는 사용자 집합에 할당할 수 있는 새 앱 설정 정책을 만듭니다. 이렇게 하려면 다음을 수행합니다.
 
     1. Microsoft Teams 관리 센터의 왼쪽 탐색 영역에서 **Teams 앱** > **설정 정책** 으로 이동한 다음 **추가** 를 클릭합니다. 새 정책에 이름과 설명을 지정하고 **사용자 지정 앱 업로드** 를 켜고 **저장** 을 클릭합니다.
-    
-    2. 만든 새 정책을 선택한 다음 **사용자 관리를** 클릭합니다. 사용자를 검색하고 **추가** 를 클릭한 다음 **적용** 을 클릭합니다. 이 단계를 반복하여 모든 신뢰할 수 있는 사용자에게 정책을 할당합니다.
+
+    1. 만든 새 정책을 선택한 다음 **사용자 관리를** 클릭합니다. 사용자를 검색하고 **추가** 를 클릭한 다음 **적용** 을 클릭합니다. 이 단계를 반복하여 모든 신뢰할 수 있는 사용자에게 정책을 할당합니다.
 
        !["앱 설정 정책 추가" 페이지의 스크린샷](media/manage-your-lob-apps-new-app-setup-policy.png)
 
@@ -119,7 +119,17 @@ Microsoft Teams 관리 센터의 앱 관리 페이지에서 앱을 업데이트�
 
 대부분의 경우 앱 업데이트를 완료한 후 최종 사용자에 대해 새 버전이 자동으로 표시됩니다. 자세한 내용은 [최종 사용자 업데이트 환경을 참조하세요](apps-update-experience.md).
 
-## <a name="related-topics"></a>관련 항목
+## <a name="remove"></a>제거
+
+앱을 제거하려면 다음 단계를 수행합니다.
+
+1. Teams 관리 센터에 로그인합니다.
+1. **Teams 앱** > **[관리](https://admin.teams.microsoft.com/policies/manage-apps)** 페이지에 액세스합니다.
+1. 앱의 이름을 클릭하여 앱 세부 정보 페이지를 엽니다.
+1. 앱 배너 옆에 있는 **작업** > **삭제** 를 선택합니다.
+1. 대화 상자에서 **삭제** 를 선택합니다.
+
+## <a name="related-articles"></a>관련 기사
 
 * [Teams 앱 제출 API를 통해 제출된 사용자 지정 앱 게시](submit-approve-custom-apps.md)
 * [Microsoft Teams 관리 센터에서 앱 관리](manage-apps.md)

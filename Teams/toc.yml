@@ -1535,10 +1535,6 @@ items:
             href: submit-approve-custom-apps.md
           - name: 앱 패키지를 업로드하여 사용자 지정 앱 게시
             href: upload-custom-apps.md
-          - name: 앱의 디자인 및 메타데이터 사용자 지정
-            href: customize-apps.md
-          - name: 조직의 앱 스토어 브랜딩
-            href: customize-your-app-store.md
       - name: 앱을 제어하는 관리자 컨트롤
         items:
           - name: 앱 관리 개요
@@ -1561,16 +1557,20 @@ items:
             href: resource-specific-consent.md
           - name: 앱 사용 권한 및 리소스에 대한 액세스 이해
             href: app-permissions.md
+          - name: 앱의 디자인 및 메타데이터 사용자 지정
+            href: customize-apps.md
+          - name: 조직의 앱 스토어 브랜딩
+            href: customize-your-app-store.md
           - name: Microsoft 365에서 앱에 대한 액세스 관리
             href: manage-third-party-teams-apps.md
-          - name: 앱 관리 활동 감사
-            href: audit-app-management-activities.md
-          - name: 앱 사용 현황 보고서 및 분석
-            href: teams-analytics-and-reports/app-usage-report.md
           - name: 사용자 유형에 따른 앱 동작
             href: non-standard-users.md
           - name: 앱 업데이트 및 관리자 역할
             href: apps-update-experience.md
+          - name: 앱 관리 활동 감사
+            href: audit-app-management-activities.md
+          - name: 앱 사용 현황 보고서 및 분석
+            href: teams-analytics-and-reports/app-usage-report.md
   - name: 산업 및 정부 지침
     items:
       - name: 개요
