@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams에서 공유 채널을 사용하고 관리하는 방법을 알아보세요.
-ms.openlocfilehash: 2c15567c78000de187877477554c233b59c5e58f
-ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
+ms.openlocfilehash: 8bd0fe39031fdae6d47e7c738a1c883b6b066f7d
+ms.sourcegitcommit: 1398570f56d5918d309f95fb734a2e8c5b4981b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66884917"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66968909"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams의 공유 채널
 
@@ -149,6 +149,8 @@ Teams는 공유 채널 사이트의 수명 주기를 관리합니다. 사이트�
 |공유 채널의 구성원|최대 50개 팀을 포함하여 5,000명의 직접 구성원 (각 팀은 이 제한을 위해 채널을 한 명의 구성원으로 카운트하여 공유됩니다.)|실시간 업데이트는 한 번에 25,000명의 사용자만 사용할 수 있으며 25,000명의 사용자만 채널 목록에 표시됩니다.|
 
 다음 제한 사항도 적용됩니다.
+
+- Azure AD 회사 또는 학교 계정만 외부 참가자를 지원합니다.
 
 - 공유 채널은 Stream, Planner, Forms를 제외한 탭을 지원합니다.
 
