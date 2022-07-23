@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 'Microsoft Teams용으로 인증된 USB 주변 장치 및 장치(예: 헤드셋, 스피커폰, 웹캠 및 모니터)를 확인합니다.'
-ms.openlocfilehash: 956034bff42cdf3694c648306caf218057bca1da
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 63813ca51626ae16903b57e56de9b47345f44c10
+ms.sourcegitcommit: 911fdb6df0511b4a4d9e4705799877045a09113c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880392"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66972783"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams용으로 인증된 USB 오디오 및 비디오 장치
 
@@ -42,7 +42,13 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 [Teams에서 헤드�
 
 ### <a name="special-usage-designations"></a>특별 사용 현황 지정
 
-- **Open Office용 프리미엄 마이크** 모든 헤드셋은 명확한 오디오를 제공하도록 테스트되지만, 개방형 사무실 및 기타 시끄러운 환경은 더 큰 어려움을 야기합니다. 이 지정이 있는 헤드셋은 헤드셋 사용자의 음성을 선택하지만 이웃의 소리를 전달하지는 않습니다.
+- **네이티브 Bluetooth 인증 오디오 주변 장치**  Microsoft Teams용으로 인증된 대부분의 Bluetooth 헤드셋 및 스피커폰은 PC 및 Mac 호스트에 연결하기 위해 USB 동글과 함께 사용하도록 설계되었습니다. 많은 사용자가 충분한 USB 포트가 없거나 다른 위치에서 작업할 때 USB 동글을 가지고 오는 것을 기억하지 않기 때문에 디바이스를 호스트와 직접 페어링하는 옵션을 요구해 왔습니다.
+
+    헤드셋 및 스피커폰을 포함한 네이티브 Bluetooth 인증 디바이스는 Windows PC에서 지원됩니다(MacOS는 나중에 지원될 수 있음). 디바이스는 USB 동글을 사용 및 사용하지 않고 오디오 성능, 통화 제어 및 Teams 단추 통합을 테스트합니다.
+
+    기본 Bluetooth 모드의 성능은 호스트 PC의 Bluetooth 라디오에 의해 영향을 받으므로 디바이스와 Bluetooth 라디오 모두에 대한 최신 펌웨어 업데이트를 설치하는 것이 좋습니다. 사용자의 작은 부분은 USB 동글을 계속 사용 해야 할 수 있습니다., 고밀도 라디오 환경에서 작업 하는 경우 등, 그들의 PC Bluetooth 많이 여러 쌍된 장치에 의해 사용 되는 경우, 또는 성능이 좋지 않은 Bluetooth 라디오를 가진 특정 PC와.
+
+- **Open Office용 프리미엄 마이크** 모든 헤드셋은 명확한 오디오를 제공하도록 테스트되지만, 개방형 사무실 및 기타 시끄러운 환경은 더 큰 어려움을 야기합니다. 이 지정이 있는 헤드셋은 헤드셋 사용자의 음성을 선택하지만 이웃의 소리를 전송하지 않습니다.
 - **회의실 크기** 스피커폰 및 카메라와 같은 공유 디바이스에는 지원되는 사용 거리가 있습니다. 권장 거리는 제조업체에 따라 다를 수 있습니다. 고객에게 명확한 지침을 제공하기 위해 모든 공유 디바이스는 잘 정의된 객실 크기 및 노이즈 환경에 대해 인증 시 테스트됩니다.
 
 [Microsoft Teams용으로 인증된 디바이스를](https://products.office.com/microsoft-teams/across-devices/devices) 찾아봅니다.
