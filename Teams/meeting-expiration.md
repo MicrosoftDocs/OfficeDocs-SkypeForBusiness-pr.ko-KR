@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 모임 정책 설정을 사용하여 Microsoft Teams에서 모임 만료를 제어하는 방법을 알아봅니다.
-ms.openlocfilehash: 08ca5a75b8dd470b006d44e562eb795f814faba6
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: 3d79041cf6e8e16ed4ebd680cf5f4370e04cd62a
+ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529690"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67005338"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Microsoft Teams의 모임 정책 및 모임 만료
 
@@ -101,8 +101,8 @@ Microsoft Teams의 [모임 정책은](meeting-policies-overview.md) 조직의 �
 만료 날짜 값은 다음과 같이 설정할 수 있습니다.
 
 - 최소값: **1일**
-- 최대값: **99,999일**
-- 녹음/녹화가 만료되지 않도록 만료 날짜를 **-1** 로 설정할 수도 있습니다.
+- 최대값: **99999일**
+- PowerShell에서 만료 날짜를 **-1** 로 설정하여 기록이 만료되지 않도록 할 수도 있습니다.
 
 예제 PowerShell 명령:
 
@@ -114,24 +114,19 @@ Teams 관리 센터에서 **모임 정책에** 따라 만료 날짜를 설정할
 
 ![모임 만료 정책의 관리 센터 스크린샷](media/meeting-expiration-policy.jpg)
 
-### <a name="security-and-compliance"></a>보안 및 규정 준수
+### <a name="compliance"></a>규정 준수
 
-#### <a name="should-i-rely-on-this-feature-for-strict-security-and-compliance-adherence"></a>엄격한 보안 및 규정 준수를 위해 이 기능을 사용해야 하나요?
+최종 사용자가 제어하는 모든 녹음/녹화의 만료 날짜를 수정할 수 있으므로 법적 보호를 위해 TMR 만료 설정을 사용하면 안 됩니다.
 
-아니요, 최종 사용자가 제어하는 모든 녹음/녹화의 만료 날짜를 수정할 수 있으므로 법적 보호를 위해 이를 사용하지 않아야 합니다.
+#### <a name="teams-meeting-recording-expiration-settings-and-microsoft-365-retention-policies-in-microsoft-purview"></a>Microsoft Purview의 Teams 모임 녹음/녹화 만료 설정 및 Microsoft 365 보존 정책
 
-#### <a name="will-a-retention-andor-deletion-policy-ive-set-in-the-security--compliance-center-override-the-teams-meeting-recording-expiration-setting"></a>보안 & 규정 준수 센터에서 설정한 보존 및/또는 삭제 정책이 Teams 모임 녹음/녹화 만료 설정을 재정의합니까?
+파일 보존은 파일 삭제보다 우선합니다. Purview 보존 정책을 사용하는 모임 녹음/녹화는 보존 기간이 완료될 때까지 TMR 만료 정책에 의해 삭제할 수 없습니다. 예를 들어 파일이 5년 동안 유지되고 TMR 만료 정책이 60일 동안 설정된다는 Purview 임대 정책이 있는 경우 TMR 만료 정책은 5년 후에 기록을 삭제합니다.  
 
-예, 규정 준수 센터에서 설정한 모든 정책이 전체 우선 순위를 갖습니다.
+TMR 만료 정책과 삭제 날짜가 다른 Purview 삭제 정책이 있는 경우 파일은 두 날짜 중 가장 빠른 시간에 삭제됩니다. 예를 들어 1년 후에 파일이 삭제되고 TMR 만료가 120일 동안 설정된다는 Purview 삭제 정책이 있는 경우 TMR 만료 설정은 120일 후에 파일을 삭제합니다.
 
-예를 들면 다음과 같습니다.
+### <a name="enforcement-of-file-retention-with-the-teams-meeting-recording-expiration-setting"></a>Teams 모임 녹음/녹화 만료 설정을 사용하여 파일 보존 적용
 
-- 사이트의 모든 파일을 100일 동안 보존해야 한다는 정책이 있고 Teams 모임 녹음/녹화의 만료 설정이 30일인 경우 녹음/녹화는 전체 100일 동안 보존됩니다.
-- 모든 Teams 모임 녹음/녹화가 5일 후에 삭제되고 Teams 모임 녹음/녹화에 대한 만료 설정이 30일인 경우 5일 후에 녹음/녹화가 삭제됩니다.
-
-### <a name="will-this-feature-enforce-file-retention"></a>이 기능으로 파일 보존이 시행되나요?
-
-아니요. 이 기능 또는 해당 설정으로 인해 파일이 보존되지 않습니다. 삭제 권한이 있는 사용자가 만료 설정이 있는 TMR을 삭제하려고 하면 해당 사용자의 삭제 작업이 실행됩니다.
+이 기능 또는 해당 설정으로 인해 파일이 보존되지 않습니다. 삭제 권한이 있는 사용자가 만료 설정이 있는 TMR을 삭제하려고 하면 해당 사용자의 삭제 작업이 실행됩니다.
 
 ### <a name="what-skus-are-required-for-this-feature"></a>이 기능에 필요한 SKU는 무엇인가요?
 
@@ -172,7 +167,7 @@ Teams 관리 센터에서 **모임 정책에** 따라 만료 날짜를 설정할
 > [!NOTE]
 > 만료 날짜에 기록이 휴지통으로 이동되고 만료 날짜 필드가 지워집니다. 휴지통에서 기록을 복구하는 경우 만료 날짜가 지워졌기 때문에 이 기능에서 다시 삭제되지 않습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [모임 만료 날짜 변경 - 최종 사용자 컨트롤](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
 

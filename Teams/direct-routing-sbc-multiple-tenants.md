@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft 파트너 및/또는 PSTN 통신 사업자를 위해 여러 테넌트에 서비스를 제공하도록 하나의 SBC(세션 테두리 컨트롤러)를 구성하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9221414053b0ee92b87553e0f81c23b41b23f0fb
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 8880f912ae21af3bf269e86469241f345bc33f74
+ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616344"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67005358"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테넌트에 대해 세션 경계 컨트롤러 구성
 
@@ -60,7 +60,7 @@ SBC 호스팅 시나리오에 대해 SBC를 배포하고 구성하는 방법에 
 
 - **AudioCodes:** "AudioCodes SBC를 Microsoft Teams [직접 라우팅 호스팅 모델 구성 노트](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams) 에 연결"에 설명된 대로 SBC 호스팅 시나리오의 구성에 대한 직접 라우팅 구성 참고를 참조하세요. 
 - **오라클:** "Microsoft" 섹션에 설명된 대로 SBC 호스팅 시나리오의 구성에 대한 [직접 라우팅 구성 정보를](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html) 참조하세요. 
-- **리본 통신:** Ribbon Core 시리즈 SBC를 구성하는 방법에 대한 설명서는 [리본 통신 SBC Core Microsoft Teams 구성 가이드](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) 를 참조하세요. [리본 메뉴 모범 사례 참조 - Microsoft Teams 직접 라우팅 SBC Edge에 대한 이동 통신 사업자 구성](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
+- **리본 통신:** Ribbon Core 시리즈 SBC를 구성하는 방법에 대한 설명서는 [리본 통신 SBC Core Microsoft Teams 구성 가이드](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+MS+Teams+Solution+Guide) 를 참조하세요. [리본 메뉴 모범 사례 참조 - Microsoft Teams 직접 라우팅 SBC Edge에 대한 이동 통신 사업자 구성](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
 - **TE-Systems(anynode):** 여러 테넌트에 대해 모든 노드 SBC를 구성하는 방법에 대한 설명서 및 예제를 보려면 [TE-Systems 커뮤니티 페이지](https://community.te-systems.de/) 사이트에 등록합니다.
 - **Metaswitch:** 여러 테넌트에 Perimeta SBC를 사용하도록 설정하는 방법에 대한 설명서는 [Metaswitch 커뮤니티 페이지](https://manuals.metaswitch.com/MAN39555) 사이트에 등록합니다.
 
