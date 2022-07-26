@@ -3,6 +3,28 @@
 
 
 
+## <a name="week-of-july-18-2022"></a>2022년 7월 18일 주
+
+
+| 게시 날짜 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 7/18/2022 | [Microsoft Teams의 앱 정보 알기](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 으로 바뀌었습니다 |
+| 7/18/2022 | [Microsoft Teams에서 앱 설정 정책 관리](/MicrosoftTeams/teams-app-setup-policies) | 으로 바뀌었습니다 |
+| 7/18/2022 | 최전방 직원을 위한 대규모 Microsoft Teams 프로비저닝 | 제거 |
+| 7/19/2022 | [Microsoft 365 및 사용자 지정 커넥터 관리](/MicrosoftTeams/office-365-custom-connectors) | 으로 바뀌었습니다 |
+| 7/19/2022 | [Microsoft Teams의 앱 정보 알기](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 으로 바뀌었습니다 |
+| 7/19/2022 | [Microsoft Teams 관리 센터에서 Microsoft Power Platform 앱 관리](/MicrosoftTeams/manage-power-platform-apps) | 으로 바뀌었습니다 |
+| 7/19/2022 | [Teams 모임에서 Q&A 관리](/MicrosoftTeams/manage-qna-for-teams) | 으로 바뀌었습니다 |
+| 7/19/2022 | [Microsoft의 앱 인증 개요](/MicrosoftTeams/overview-of-app-certification) | 으로 바뀌었습니다 |
+| 7/19/2022 | [Teams용 타사 앱 구매](/MicrosoftTeams/purchase-third-party-apps) | 으로 바뀌었습니다 |
+| 7/20/2022 | [연산자 연결 구성](/MicrosoftTeams/operator-connect-configure) | 으로 바뀌었습니다 |
+| 7/21/2022 | [Microsoft Teams의 교육 인사이트에 대한 IT 관리자 가이드](/MicrosoftTeams/class-insights) | 으로 바뀌었습니다 |
+| 7/21/2022 | [Microsoft Teams의 앱 업데이트 환경](/MicrosoftTeams/apps-update-experience) | 으로 바뀌었습니다 |
+| 7/21/2022 | [Microsoft Teams 관리 센터에서 앱 관리](/MicrosoftTeams/manage-apps) | 으로 바뀌었습니다 |
+| 7/21/2022 | [Teams 앱 제출 API를 사용하여 사용자 지정 앱 제출 및 승인](/MicrosoftTeams/submit-approve-custom-apps) | 으로 바뀌었습니다 |
+| 7/21/2022 | [Microsoft Teams 관리 센터에서 사용자 지정 앱 업로드](/MicrosoftTeams/upload-custom-apps) | 으로 바뀌었습니다 |
+
+
 ## <a name="week-of-july-11-2022"></a>2022년 7월 11일 주
 
 
@@ -103,35 +125,3 @@
 | 6/23/2022 | [교육용 Microsoft Teams 커리어 코치 구매, 구성 및 사용](/MicrosoftTeams/career-coach) | 으로 바뀌었습니다 |
 | 6/23/2022 | [연산자 연결 구성](/MicrosoftTeams/operator-connect-configure) | 으로 바뀌었습니다 |
 | 6/24/2022 | [Microsoft Teams 관리 센터에서 앱 관리](/MicrosoftTeams/manage-apps) | 으로 바뀌었습니다 |
-
-
-## <a name="week-of-june-13-2022"></a>2022년 6월 13일 주
-
-
-| 게시 날짜 |토픽 제목 | 변경 |
-|------|------------|--------|
-| 6/13/2022 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으로 바뀌었습니다 |
-| 6/13/2022 | [Power BI를 사용하여 Microsoft Teams용 CQD 데이터 분석](/MicrosoftTeams/cqd-power-bi-query-templates) | 으로 바뀌었습니다 |
-| 6/13/2022 | [Business Voice에서 Teams Phone 라이선스로 이동](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | 으로 바뀌었습니다 |
-| 6/13/2022 | [Microsoft Teams 문제 해결에 로그 파일 사용](/MicrosoftTeams/log-files) | 으로 바뀌었습니다 |
-| 6/13/2022 | [데이터 및 개인 정보](/MicrosoftTeams/rooms/data-and-privacy-info) | 으로 바뀌었습니다 |
-| 6/13/2022 | [업데이트 관리 Microsoft Teams 룸](/MicrosoftTeams/rooms/update-management) | 으로 바뀌었습니다 |
-| 6/15/2022 | [Teams PowerShell 모듈 - 지원되는 버전](/MicrosoftTeams/teams-powershell-supported-versions) | 으로 바뀌었습니다 |
-| 6/16/2022 | [자동 전화 교환 및 통화 큐에 대한 PowerShell cmdlet 참조](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | 추가 |
-| 6/16/2022 | [Microsoft Teams에 대한 통화 라우팅 흐름 계획](/MicrosoftTeams/plan-your-call-routing-flow) | 추가 |
-| 6/16/2022 | [Microsoft Teams 앱 사용 권한 및 고려 사항](/MicrosoftTeams/app-permissions) | 으로 바뀌었습니다 |
-| 6/16/2022 | [사용자의 전화 번호 할당, 변경 또는 제거](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 으로 바뀌었습니다 |
-| 6/16/2022 | Microsoft Teams 자동 전화 교환 설정 - 소규모 비즈니스 자습서 | 제거 |
-| 6/16/2022 | Microsoft Teams 전화 System에서 통화 큐 만들기 - 소규모 비즈니스 자습서 | 제거 |
-| 6/16/2022 | [사용자에게 Teams 전화 시스템 전화 번호 할당](/MicrosoftTeams/business-voice/set-up-assign-numbers) | 으로 바뀌었습니다 |
-| 6/16/2022 | 회사의 주 전화 번호에 대한 자동 전화 교환 설정 | 제거 |
-| 6/16/2022 | [Microsoft Teams 전화 시스템 리소스 계정 설정](/MicrosoftTeams/business-voice/set-up-resource-account) | 으로 바뀌었습니다 |
-| 6/16/2022 | [중소기업을 위한 Teams 전화 시스템 지침](/MicrosoftTeams/business-voice/whats-business-voice) | 으로 바뀌었습니다 |
-| 6/16/2022 | [Microsoft Teams에 대한 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 으로 바뀌었습니다 |
-| 6/16/2022 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으로 바뀌었습니다 |
-| 6/16/2022 | [조직의 Teams 스토어에서 앱의 모양 수정](/MicrosoftTeams/customize-apps) | 으로 바뀌었습니다 |
-| 6/16/2022 | [자동 전화 교환 및 통화 큐 전화 걸기 및 음성 인식 참조](/MicrosoftTeams/dial-voice-reference) | 으로 바뀌었습니다 |
-| 6/16/2022 | [Teams에서 리소스 계정 관리](/MicrosoftTeams/manage-resource-accounts) | 으로 바뀌었습니다 |
-| 6/16/2022 | [Teams 자동 전화 교환 및 통화 큐 계획](/MicrosoftTeams/plan-auto-attendant-call-queue) | 으로 바뀌었습니다 |
-| 6/16/2022 | [Microsoft Teams 관리 센터에서 사용자 지정 앱 업로드](/MicrosoftTeams/upload-custom-apps) | 으로 바뀌었습니다 |
-| 6/16/2022 | [참가자 및 게스트에 대한 모임 정책 관리](/MicrosoftTeams/meeting-policies-participants-and-guests) | 으로 바뀌었습니다 |
