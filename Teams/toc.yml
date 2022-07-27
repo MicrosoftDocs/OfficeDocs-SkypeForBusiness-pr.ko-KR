@@ -1600,8 +1600,16 @@ items:
             href: easy-policy-setup-edu.md
           - name: 교육용 Teams의 부모 연결
             href: edu-parents-app.md
-          - name: 교육용 Teams의 경력 코치
-            href: career-coach.md
+          - name: 경력 코치
+            items:
+              - name: 경력 코치 시작
+                href: career-coach.md
+              - name: 경력 코치 설정 및 구성
+                href: career-coach-set-up-steps.md
+              - name: 경력 코치 문제 해결
+                href: career-coach-troubleshoot.md
+              - name: 경력 코치를 위한 리소스
+                href: career-coach-resources.md
           - name: Teams의 채팅 감독
             href: supervise-chats-edu.md
           - name: Insights 교육
@@ -1998,6 +2006,8 @@ items:
             href: complaint-handling-code-for-the-united-kingdom-u-k.md
           - name: 긴급 통화 사용 약관
             href: emergency-calling-terms-and-conditions.md
+      - name: 공유 채널 오류
+        href: shared-channels-errors.md
       - name: 업그레이드 검색 질문
         href: upgrade-plan-journey-discovery-questionnaire.md
       - name: Teams 관리자 기능 릴리즈 노트

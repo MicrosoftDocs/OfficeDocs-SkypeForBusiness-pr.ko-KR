@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 통화 품질 대시보드 Power BI 보고서를 사용하여 자동 전화 교환 및 통화 큐 기록 데이터를 보는 방법에 대해 알아봅니다.
-ms.openlocfilehash: e2d71410d10fb809debd1699afcf452c71a6e088
-ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
+ms.openlocfilehash: b9bb3cf0990058cd16ed35d52d07f63be6cd90fb
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046450"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67024011"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>자동 전화 교환 & 통화 큐 기록 보고서
 
@@ -39,10 +39,12 @@ Teams 자동 전화 교환 & 통화 큐 기록 보고서 Power BI 템플릿은 �
 
 이러한 보고서는 [통화 품질 대시보드](CQD-Power-BI-query-templates.md) 데이터 저장소의 데이터를 사용합니다. 보고서를 통해 조직은 자동 전화 교환 및 통화 큐에서 처리되는 통화 수를 보고할 수 있습니다.  또한 보고서는 호출 큐의 에이전트 성능에 대한 인사이트를 제공합니다.
 
+### <a name="v160-published-on-july-22-2022"></a>2022년 7월 22일에 게시된 V1.60
+
 ## <a name="prerequisites"></a>필수 구성 요소
 
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-Power BI Desktop 설치해야 합니다. [Microsoft Windows Microsoft Store](https://aka.ms/pbidesktopstore) 설치할 수 있습니다.
+Power BI Desktop 설치해야 합니다. [Microsoft Windows 스토어](https://aka.ms/pbidesktopstore)에서 설치할 수 있습니다.
 
 무료 버전의 Power BI Desktop 사용할 수 있습니다. 호환되는 최소 버전은 2.85.681.0(2020년 9월)입니다.
 
@@ -60,7 +62,7 @@ Power BI Desktop 설치해야 합니다. [Microsoft Windows Microsoft Store](htt
 
 - zip 파일을 두 번 클릭하여 엽니다.
 
-- "CQ 및 AA 결합 분석 20201105.pbit" 템플릿 파일을 두 번 클릭합니다. Power BI Desktop 시작되어야 합니다.
+- "CQD Teams 자동 전화 교환 & 통화 큐 기록 보고서 V1.60.pbit" 템플릿 파일을 두 번 클릭합니다. Power BI Desktop 시작되어야 합니다.
 
 - CQD 데이터 파이프라인 지역을 선택하라는 메시지가 표시됩니다. 테넌트가 있는 지역을 선택합니다.
 
@@ -83,23 +85,23 @@ Power BI Desktop 설치해야 합니다. [Microsoft Windows Microsoft Store](htt
 
    :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="새로 고침 옵션을 선택하는 스크린샷":::
 
-- 그러면 로그인하라는 메시지가 표시됩니다. **조직 계정을** 선택한 다음 **, 로그인을** 선택합니다.
+- 로그인하라는 메시지가 표시됩니다. **조직 계정을** 선택한 다음 **, 로그인을** 선택합니다.
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="로그인을 보여 주는 스크린샷":::
 
-- **커넥트** 선택하고 데이터 새로 고침을 확인합니다.
+- **연결을** 선택하고 데이터 새로 고침을 확인합니다.
 
 ## <a name="data-latency-and-aa--cq-analytics"></a>데이터 대기 시간 및 AA & CQ 분석
 
-데이터는 30분 이내에 CQD 데이터 파이프라인에서 사용할 수 있습니다.
+데이터는 일반적으로 호출이 완료된 후 30분 이내에 사용할 수 있습니다. 그러나 데이터가 표시되는 데 몇 시간이 걸릴 수 있는 경우가 있습니다. 
 
-새 분석 데이터를 보려면 데이터를 새로 고쳐야 합니다. 
+새 데이터를 보려면 데이터를 새로 고쳐야 합니다.
 
 ## <a name="customization"></a>사용자화 
 
 다양한 시각화에 표시할 필드 추가 또는 제거, 차트 종류 변경 등 보고서의 특정 시각화 측면을 사용자 지정할 수 있습니다.
 
-보고서에 데이터 필드를 더 추가할 수 없습니다.
+보고서에는 현재 사용할 수 있는 모든 데이터 메트릭이 포함되어 있습니다.
 
 ### <a name="change-color-schema"></a>색 스키마 변경 
 
@@ -225,7 +227,7 @@ Power BI Desktop 설치해야 합니다. [Microsoft Windows Microsoft Store](htt
 |이름                                    |데이터 형식                |설명                                                                |
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |통화 수                              |정수             |요약: 합계<br>호출 수                                          |
-|통화 큐 호출 결과                  |텍스트                     |호출 큐 호출 최종 상태 -- 가능한 값:<br><br>§ agent_joined_conference(응답된 전화 회의 모드 통화)<br>§ 거부됨<br>§ 연결이 끊김<br>§ 오류<br>§ 실패<br>§ 잘못되었습니다.<br>§ 오버플로(오버플로 조건이 충족됨)<br>§ timed_out(시간 제한 조건이 충족됨)<br>§ transferred_to_agent(응답된 트랜퍼 모드 호출 {default}) |
+|통화 큐 호출 결과                  |텍스트                     |호출 큐 호출 최종 상태-가능한 값:<br><br>§ agent_joined_conference(응답된 전화 회의 모드 통화)<br>§ 거부됨<br>§ 연결이 끊김<br>§ 오류<br>§ 실패<br>§ 잘못되었습니다.<br>§ 오버플로(오버플로 조건이 충족됨)<br>§ timed_out(시간 제한 조건이 충족됨)<br>§ transferred_to_agent(응답된 트랜퍼 모드 호출 {default}) |
 |통화 큐 ID                     |텍스트                     |통화 큐에 연결된 리소스 계정의 이름<br><br>전체 리소스 계정 이름이 **cq_test@microsoft.com** 경우 이 값은 **cq_test** |
 |통화 큐 대상 유형                  |텍스트                     |***호출 리디렉션 대상 유형-가능한 값:***<br><br>§ ApplicationEndpoint<br>§ 사서함<br>§ 기타<br>§ 사용자 |
 |통화 유형<sup>1</sup>                   |텍스트                     |호출 유형- 가능한 값:<br><br>§ 외부<br>§ 내부           |
@@ -306,6 +308,15 @@ Power BI Desktop 설치해야 합니다. [Microsoft Windows Microsoft Store](htt
 
 - 통화 큐/자동 전화 교환 데이터가 개인 데이터로 간주되고 데이터 개인 정보 보존 정책이 적용되므로 대시보드에서 28일의 기록만 사용할 수 있습니다.
 
-- 일부 시나리오에서는 클라우드 통화 큐 에이전트 타임라인 보고서에 대한 에이전트 응답 통화 수가 Teams 클라이언트 호출 기록에 표시된 호출 수와 다를 수 있습니다. Teams 클라이언트 호출 기록이 정확합니다. 지원은 조사 중이지만 현재 복구할 수 있는 예상 시간은 없습니다.
+- 일부 시나리오에서는 클라우드 통화 큐 에이전트 타임라인 보고서의 에이전트 응답 통화 수가 Teams 클라이언트 통화 기록에 표시된 통화 수와 다를 수 있습니다. Teams 클라이언트 통화 기록이 정확합니다. 지원은 조사 중이지만 현재 복구할 수 있는 예상 시간은 없습니다.
 
 - <sup>1</sup> 자동 전화 교환 및 통화 큐 그래프에서 **들어오는 호출 원본** 은 초기 호출 레그 원본이 아닌 최종 통화 레그 원본을 표시합니다. 예를 들어 자동 전화 교환이 외부 전화를 받고 다른 자동 전화 교환 또는 통화 큐로 통화를 전송하는 경우 **수신 전화 원본** 은 내부로 보고됩니다.
+
+## <a name="version-history"></a>버전 기록
+|버전  |게시된 날짜     |파일                                                           |설명                                         |
+|:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
+|1.60     |2022년 7월 22일      |CQD Teams 자동 전화 교환 & 통화 큐 기록 보고서 V1.60.pbit |다음을 참조하세요.<br>CQD Teams 자동 전화 교환 & 통화 큐 기록 보고서 - 변경 내용 목록에 대해 다운로드한 zip 파일의 변경 Log.docx                                                                             |
+|1.00     |2020년 11월 5일   |CQ 및 AA 결합 분석 20201105.pbit                         |초기 릴리스                                     |
+
+
+

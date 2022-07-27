@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 오디오 회의, 전화 시스템 및 통화 플랜과 같은 기능을 위해 사용자에게 Teams 추가 기능 라이선스를 할당하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 380abec55466d831722c76c9e552055378ecf1df
-ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
+ms.openlocfilehash: 07196e26f38042b6046d6761bd60dfad64f89c7d
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "66838823"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023679"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>사용자에게 Teams 추가 기능 라이선스 할당
 
@@ -64,18 +64,10 @@ PowerShell을 사용하여 사용자에게 라이선스를 대량으로 할당�
 
 다음은 스크립트를 사용하여 사용자에게 라이선스를 할당하는 방법의 예입니다.
 
-1. [IT 전문가용 Microsoft Online Services 로그인 도우미 RTW](/collaborate/connect-redirect?DownloadID=59185)의 64비트 버전을 설치합니다.
-2. Windows PowerShell Microsoft Azure Active Directory 모듈을 설치합니다.
-    1. 관리자 권한 Windows PowerShell 명령 프롬프트를 엽니다(관리자 권한으로 Windows PowerShell 실행).
-    2. 다음 명령을 실행합니다.
-        ```powershell
-        Install-Module MSOnline
-        ```
-    3. NuGet 공급자를 설치하라는 메시지가 표시되면 **Y** 를 입력한 다음 Enter 키를 누릅니다.
-    4. PSGallery에서 모듈을 설치하라는 메시지가 표시되면 **Y** 를 입력한 다음 Enter 키를 누릅니다.
-3. Windows PowerShell 명령 프롬프트에서 다음 스크립트를 실행하여 사용자에게 라이선스를 할당합니다. 여기서 조직 이름과 할당하려는 라이선스의 식별자는 어디에 \<CompanyName:License> 있나요? 예를 들어 litwareinc:MCOMEETADV입니다.
+1. [Windows PowerShell Microsoft Azure Active Directory 모듈을 설치](/powershell/azure/active-directory/install-msonlinev1)합니다.
+2. Windows PowerShell 명령 프롬프트에서 다음 스크립트를 실행하여 사용자에게 라이선스를 할당합니다. 여기서 조직 이름과 할당하려는 라이선스의 식별자는 어디에 `CompanyName:License` 있나요? 예를 들면 다음과 같습니다 `litwareinc:MCOMEETADV`.
 
-    식별자는 라이선스의 식별 이름과 다릅니다. 예를 들어 오디오 회의의 식별자는 MCOMEETADV입니다. 자세한 내용은 [라이선스에 대한 제품 이름 및 SKU 식별자를](#product-names-and-sku-identifiers-for-licensing) 참조하세요.
+    식별자는 라이선스의 식별 이름과 다릅니다. 예를 들어 오디오 회의의 식별자는 다음과 같습니다 `MCOMEETADV`. 자세한 내용은 [라이선스에 대한 제품 이름 및 SKU 식별자를](#product-names-and-sku-identifiers-for-licensing) 참조하세요.
 
     ```powershell
     #Create a text file with a single column that lists the user principal names (UPNs) of users to assign licenses to. The MSOL service uses the UPN to license user accounts.

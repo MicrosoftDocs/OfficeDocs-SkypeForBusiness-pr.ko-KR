@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 조직의 사용자를 위해 Teams에서 Bookings 앱을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: f11739784dcb9897bf9a3fcbffdadc8aea00d3e0
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: e7b8cbabd7c013c47d0d3d75982eb879ccc23e98
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819293"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023789"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Microsoft Teams에서 Bookings 앱 관리
 
@@ -75,7 +75,7 @@ Bookings가 일정 가용성 정보를 공유하기 전과 다른 사용자가 �
 
 Bookings 사서함을 설정할 때 Microsoft 365 또는 Office 365 조직의 기본 전자 메일 도메인이 사용됩니다. 그러나 기본 도메인은 외부 받는 사람에게 모임 초대를 보낼 때 문제가 발생할 수 있습니다. 예를 들어 초대에 스팸 플래그가 지정되고 받는 사람의 정크 폴더로 이동될 수 있으므로 받는 사람이 초대를 볼 수 없습니다.
 
-Bookings 사서함을 만들기 전에 기본 도메인을 변경하는 것이 좋습니다. [도메인 FAQ를 참조하세요](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-office-365).
+Bookings 사서함을 만들기 전에 기본 도메인을 변경하는 것이 좋습니다. [도메인 FAQ를 참조하세요](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-microsoft-365).
 
 Bookings 사서함을 만든 후 기본 도메인을 변경해야 하는 경우 PowerShell을 사용합니다.
 

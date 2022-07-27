@@ -18,12 +18,12 @@ description: Microsoft 통화 플랜 및 전화 시스템 직접 라우팅 동�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9da8f8f082812063de7d2fb81c7d5b716ad1e07a
-ms.sourcegitcommit: 911fdb6df0511b4a4d9e4705799877045a09113c
+ms.openlocfilehash: bc7fb0ae87cda84dfbf7b164d38b709b7ef2eef9
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66972793"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023699"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>동적인 긴급 전화 계획 및 구성 
 
@@ -156,7 +156,7 @@ Microsoft Teams 관리 센터에서 또는 PowerShell을 사용하여 네트워�
 
 - 긴급 통화의 동적 사용 또는 보안 데스크 알림의 동적 구성이 필요한 경우 신뢰할 수 있는 IP 주소와 네트워크 사이트를 모두 구성해야 합니다.
 
-- 동적 위치만 필요한 경우 신뢰할 수 있는 IP 주소만 구성해야 합니다. 메트워크 설정을 구성할 필요는 없습니다.
+- 동적 위치만 필요한 경우 신뢰할 수 있는 IP 주소만 구성해야 합니다. 네트워크 설정을 구성할 필요는 없습니다.
 
 - 둘 다 필요하지 않은 경우 네트워크 설정을 구성할 필요가 없습니다.
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft 파트너 및/또는 PSTN 통신 사업자를 위해 여러 테넌트에 서비스를 제공하도록 하나의 SBC(세션 테두리 컨트롤러)를 구성하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8880f912ae21af3bf269e86469241f345bc33f74
-ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
+ms.openlocfilehash: 9d7ee3960f88b1c6ed4ee140b4f291162e37da30
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/26/2022
-ms.locfileid: "67005358"
+ms.locfileid: "67024021"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테넌트에 대해 세션 경계 컨트롤러 구성
 
@@ -246,7 +246,7 @@ Microsoft 365 조직에서 사용자를 추가하는 방법에 대한 자세한 
 예제:
 - Customers.adatum.biz – 운송업체 테넌트에서 만들어야 하는 운송업체 트렁크입니다.
 
-- Sbc1.customers.adatum.biz – 고객 테넌트에서 파생된 트렁크입니다. 파생 트렁크의 이름을 만들지 않고 온라인 음성 라우팅 정책의 고객 테넌트에 추가할 수 있습니다.
+- Sbc1.customers.adatum.biz – 고객 테넌트에서 파생된 트렁크입니다. 고객 테넌트에서 파생 트렁크의 이름을 만들지 않고 음성 경로에 추가할 수 있습니다.
 
 - 이동 통신 사업자는 파생 트렁크 FQDN을 통신 사업자 SBC IP 주소로 확인하는 DNS 레코드를 설정해야 합니다.
 
