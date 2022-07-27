@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: 외부 액세스 및 게스트 액세스를 사용하여 Microsoft Teams에서 외부 조직의 사용자와 통화, 채팅, 검색 및 추가하는 방법을 알아봅니다.
-ms.openlocfilehash: c2cf4a3820cceacf1f84401161d130995ecbc98f
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 829f763c77578fdc9e17a29386ebad30e52f4986
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125483"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023991"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>게스트 액세스 및 외부 액세스를 사용하여 조직 외부 사용자와 공동 작업
 
@@ -42,6 +42,11 @@ Teams, 비즈니스용 Skype(온라인 또는온-프레미스) 또는 Skype를 �
 
 ![외부 액세스 설정 스크린샷](media/external-access-federation-settings.png)
 
+외부 액세스는 다음 테넌트에서 사용할 수 있습니다.
+
+- 상업용, GCC, GCC 높음 사이 및 전체에서
+- DOD 사이에서만
+
 외부 액세스를 구성하는 경우 [외부 액세스 관리](manage-external-access.md)를 참조하세요. 
 
 >[!NOTE]
@@ -52,6 +57,12 @@ Teams, 비즈니스용 Skype(온라인 또는온-프레미스) 또는 Skype를 �
 게스트 액세스를 사용하여 조직 외부의 사람을 팀에 추가하여 채팅, 통화, 미팅, 파일 공동 작업을 할 수 있습니다. 게스트는 기본 팀 구성원과 거의 동일한 모든 Teams 기능을 제공받을 수 있습니다. 자세한 내용은 [Teams의 게스트 환경](guest-experience.md)을 참조하세요.
 
 게스트는 조직의 Azure Active Directory에 B2B 사용자로 추가되며 게스트 계정을 사용하여 Teams에 로그인해야 합니다. 즉, 조직에 로그인하기 위해 자신의 조직에서 로그아웃해야 할 수 있습니다.
+
+게스트 액세스는 다음 테넌트에서 사용할 수 있습니다.
+
+- 상업용 및 GCC 사이 및 전체에서
+- GCC 높음 사이에서만
+- DOD 사이에서만
 
 Teams에서 게스트 액세스를 구성하려면 [팀에서 게스트와 공동 작업](/microsoft-365/solutions/collaborate-as-team)을 참조하세요.
 

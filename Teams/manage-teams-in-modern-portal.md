@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 735fc17c7e82c1c2362b235508b28b9b4a392439
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: d99dacdd0580d2ee9eaf775d843c5c46a0960259
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563976"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67024001"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 팀 관리
 
@@ -58,7 +58,7 @@ ms.locfileid: "66563976"
 - **개인 정보** - 지원 Microsoft 365 그룹의 가시성/액세스 유형입니다.
 - **상태** - 이 팀의 보관됨 또는 활성 상태입니다. [팀 보관 또는 복원](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)에서 팀 보관에 대해 자세히 알아보세요.
 - **설명** - 지원 Microsoft 365 그룹에 대한 설명입니다.
-- **분류** - 지원 Microsoft 365 그룹에 할당된 분류(조직에서 사용되는 경우)입니다. [조직의 Office 그룹에 대한 분류 만들기](/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)에서 분류에 대해 자세히 알아보세요.
+- **분류** - 지원 Microsoft 365 그룹에 할당된 분류(조직에서 사용되는 경우)입니다. [조직의 Microsoft 365 그룹에 대한 분류 만들기](/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell#create-classifications-for-microsoft-365-groups-in-your-organization)에서 분류에 대해 자세히 알아보세요.
 - **GroupID** - 지원하는 Microsoft 365 그룹의 고유한 GroupID입니다.
 
 > [!NOTE]

@@ -19,20 +19,20 @@ description: Teams 모임 및 그룹 통화를 녹음하여 오디오, 비디오
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 72ad8b9349681dbb10c3df848f99cc0250711543
-ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
+ms.openlocfilehash: 7e68c0563420ad2c4e2d53421dc8dfaecfc23cd1
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "65370821"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023981"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
-Microsoft Teams에서 사용자는 Teams 모임 및 그룹 통화를 녹음/녹화하여 오디오, 비디오 및 화면 공유 활동을 캡처할 수 있습니다. 사용자가 선택 캡션을 사용하여 모임을 녹음/녹화한 것을 재생하고 대화 내용에서 중요한 토론 항목을 검토할 수 있도록 녹음/녹화를 위한 자동 기록 옵션도 제공됩니다. 녹음/녹화는 클라우드에서 발생하고 Microsoft 비즈니스용 OneDrive 및 Microsoft SharePoint Online에 저장되므로, 조직 전체에서 안전하게 공유할 수 있습니다.
+Microsoft Teams에서 사용자는 Teams 모임 및 그룹 통화를 녹음/녹화하여 오디오, 비디오 및 화면 공유 활동을 캡처할 수 있습니다. 사용자가 선택 캡션을 사용하여 모임을 녹음/녹화한 것을 재생하고 대화 내용에서 중요한 토론 항목을 검토할 수 있도록 녹음/녹화를 위한 자동 기록 옵션도 제공됩니다. 녹음/녹화는 클라우드에서 발생하고 OneDrive와 SharePoint에 저장되므로 조직 전체에서 안전하게 공유할 수 있습니다.
 
 모임이 기록되면 자동으로 다음이 수행됩니다.
 
-- 비즈니스용 OneDrive 또는 SharePoint Online에 업로드됨
+- OneDrive 또는 SharePoint에 업로드됨
 - 모임에 초대된 사용자에게 사용 권한이 부여됨
 - 모임에 대한 채팅에 연결됨
 - Teams 일정에서 모임에 대한 녹음/녹화 및 기록 탭에 표시됨
@@ -42,18 +42,18 @@ Microsoft Teams에서 사용자는 Teams 모임 및 그룹 통화를 녹음/녹�
 관련: [Teams 모임 녹음/녹화 최종 사용자 문서](https://support.microsoft.com/en-us/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)
 
 >[!Note]
-> 모임 녹음/녹화에 사용하는 방법에 대해 Microsoft Stream(클래식)에서 비즈니스용 OneDrive 및 SharePoint Online으로의 변경은 2021년 8월에 자동으로 수행됩니다. 자세한 정보는 [모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 Stream 사용](tmr-meeting-recording-change.md)을 참조하세요.
+> 모임 녹음/녹화에 Microsoft Stream(클래식) 대신 OneDrive 및 SharePoint를 사용하는 변경 내용은 2021년 8월에 자동으로 적용됩니다. 자세한 내용은 [모임 녹음/녹화에 OneDrive와 SharePoint 또는 Stream 사용](tmr-meeting-recording-change.md)을 참조하세요.
 
 > [!NOTE]
 > Teams 모임의 역할 사용 및 사용자 역할 변경 방법에 대한 자세한 내용은 [Teams 모임의 역할](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019)을 참조하세요. 실시간 이벤트 기록 옵션은 [Teams의 실시간 이벤트 기록 정책](teams-live-events/live-events-recording-policies.md)을 참조하세요.
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화 필수 구성 요소
 
-Teams 사용자의 모임을 녹음/녹화하려면 테넌트에서 비즈니스용 OneDrive 및 SharePoint Online을 사용하도록 설정해야 합니다. 또한 모임 이끌이 및 녹음/녹화를 시작하는 사용자 모두는 다음과 같은 필수 조건을 충족해야 합니다.
+Teams 사용자의 모임을 녹음/녹화하려면 테넌트의 OneDrive와 SharePoint를 사용하도록 설정해야 합니다. 또한 모임 이끌이 및 녹음/녹화를 시작하는 사용자 모두는 다음과 같은 필수 조건을 충족해야 합니다.
 
-- 비 채널 모임 녹음/녹화를 저장할 수 있도록 비즈니스용 OneDrive에 충분한 저장 공간이 있어야 합니다.
+- 비 채널 모임 녹음/녹화를 저장할 수 있도록 사용자에게 충분한 OneDrive 저장 공간이 있어야 합니다.
 
-- 채널 모임 녹음/녹화를 저장할 수 있도록 Teams 채널에는 SharePoint Online에 충분한 저장 공간이 있습니다.
+- 모임 녹음/녹화를 저장할 수 있도록 Teams 채널에 충분한 SharePoint 저장 공간이 있어야 합니다.
 
 - 사용자가 모임 및 그룹 통화를 녹음/녹화하기 위해 `CsTeamsMeetingPolicy -AllowCloudRecording` 설정을 true로 설정했습니다.
 
@@ -67,7 +67,7 @@ Teams 사용자의 모임을 녹음/녹화하려면 테넌트에서 비즈니스
 
 > [!IMPORTANT]
 >
-> 녹음/녹화만 기록하고 다운로드하도록 설정하려면 비즈니스용 OneDrive 또는 SharePoint Online을 사용하도록 설정할 필요가 없습니다. 이는 녹음/녹화가 비즈니스용 OneDrive 또는 SharePoint Online에 저장되지 않지만, 삭제되기 전에 21일 제한으로 임시 Teams 저장소에 저장됨을 의미합니다. 관리자가 현재 제어, 관리 또는 삭제할 수 있는 것은 아닙니다.
+> 사용자가 녹음/녹화만 기록하고 다운로드하도록 설정하려면 OneDrive 또는 SharePoint를 사용하도록 설정할 필요가 없습니다. 이렇게 하면 녹음/녹화를 OneDrive나 SharePoint에 저장하는 대신 삭제하기 전까지 21일이라는 제한된 시간 동안 임시 Teams 저장소에 저장합니다. 관리자가 현재 제어, 관리 또는 삭제할 수 있는 것은 아닙니다.
 >
 > [임시 모임 녹음/녹화 저장소가 작동하는 방식에 대한 자세한 내용](#temp-storage)은 아래를 참조하세요.  
 
@@ -115,7 +115,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 
 이 설정의 두 값은 다음과 같습니다.
 
-- **허용**(기본값) - 채널의 "녹음/ 녹화" 폴더에 채널 모임 녹음/녹화를 저장합니다. 녹음/ 녹화 파일에 대한 사용 권한은 채널 SharePoint Online 사용 권한을 기반으로 합니다. 이는 채널에 대해 업로드된 다른 파일과 동일합니다.
+- **허용**(기본값) - 채널의 "녹음/ 녹화" 폴더에 채널 모임 녹음/녹화를 저장합니다. 녹음/녹화 파일에 대한 사용 권한은 채널 SharePoint 사용 권한을 기반으로 합니다. 이는 채널에 대해 업로드된 다른 파일과 동일합니다.
 
 - **차단** - 채널의 "녹음/녹화\보기 전용" 폴더에 채널 모임 녹음/녹화를 저장합니다. 채널 소유자는 이 폴더의 녹음/녹화에 대한 모든 권한을 가지지만, 채널 멤버는 다운로드할 수 없는 읽기 권한을 갖습니다.
 
@@ -149,7 +149,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 
 
 > [!NOTE]
-> 녹음된 모임에 대한 해당 텍스트 변환은 현재 영어(미국), 영어(캐나다), 영어(인도), 영어(영국), 영어(호주), 영어(뉴질랜드), 아랍어(아랍에미리트), 아랍어(사우디아라비아), 중국어(광둥어, 번체), 중국어(북경어, 간체), 체코어(체코), 덴마크어(덴마크), 네덜란드어(벨기에), 네덜란드어(네덜란드), 프랑스어(캐나다), 프랑스어(프랑스), 핀란드어(핀란드), 독일어(독일), 히브리어(이스라엘), 힌디어(인도), 이탈리아어(이탈리아), 일본어(일본), 한국어(한국), 노르웨이어(노르웨이), 폴란드어(폴란드), 포르투갈어(브라질), 포르투갈어(포르투갈), 러시아어(러시아), 스페인어(멕시코), 스페인어(스페인), 스웨덴어(스웨덴), 태국어(태국), 터키어(터키), 베트남어(베트남)에 대해서만 지원됩니다. 비즈니스용 OneDrive 및 SharePoint Online 클라우드 저장소에 모임 녹음/녹화와 함께 저장됩니다.
+> 녹음/녹화된 모임에 대한 기록은 현재 영어(미국), 영어(캐나다), 영어(인도), 영어(영국), 영어(오스트레일리아), 영어(뉴질랜드), 아랍어(아랍에미리트), 아랍어(사우디아라비아), 중국어(간체, 중국) 중국어(번체, 중국), 중국어(번체, 홍콩 특별 행정구), 중국어(번체, 대만), 체코어(체코), 덴마크어(덴마크), 네덜란드어(벨기에), 네덜란드어(네덜란드), 프랑스어(캐나다), 프랑스어(프랑스), 핀란드어(핀란드), 독일어(독일), 그리스어(그리스), 히브리어(이스라엘), 힌디어(인도), 헝가리어(헝가리), 이탈리아어(이탈리아), 일본어(일본), 한국어(한국), 노르웨이어(노르웨이), 폴란드어(폴란드), 포르투갈어(브라질), 포르투갈어(포르투갈), 루마니아어(루마니아), 러시아어(러시아), 슬로바키아어(슬로바키아), 스페인어(멕시코), 스페인어(스페인), 스웨덴어(스웨덴), 태국어(태국), 터키어(터키), 우크라이나어(베트남), 베트남어(베트남)으로만 지원됩니다. OneDrive와 SharePoint 클라우드 저장소에 모임 녹음/녹화와 함께 저장됩니다.
 
 Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 녹음/녹화 개시자에게 모임 녹음/녹화를 기록할 수 있는 선택권이 있는지 여부를 제어하는 Teams 모임 정책을 설정할 수 있습니다.
 
@@ -202,15 +202,15 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 ## <a name="permissions-and-storage"></a>사용 권한 및 저장소
 
-모임 녹음/녹화는 비즈니스용 OneDrive 및 SharePoint Online 클라우드 저장소에 저장됩니다. 위치 및 사용 권한은 모임 유형과 모임에서 사용자의 역할에 따라 달라집니다. 녹화에 적용되는 기본 사용 권한은 아래에 나열되어 있습니다. 비디오 녹화 파일에 대한 전체 편집 권한이 있는 사용자는 사용 권한을 변경하고 필요에 따라 나중에 다른 사용자와 공유할 수 있습니다.
+모임 녹음/녹화는 OneDrive와 SharePoint 클라우드 저장소에 저장됩니다. 위치 및 사용 권한은 모임 유형과 모임에서 사용자의 역할에 따라 달라집니다. 녹화에 적용되는 기본 사용 권한은 아래에 나열되어 있습니다. 비디오 녹화 파일에 대한 전체 편집 권한이 있는 사용자는 사용 권한을 변경하고 필요에 따라 나중에 다른 사용자와 공유할 수 있습니다.
 
 ### <a name="non-channel-meetings"></a>비 채널 모임
 
-- 녹음/녹화는 레코드를 클릭한 사용자의 비즈니스용 OneDrive에 있는 **녹음/녹화** 폴더에 저장됩니다. 
+- 녹음/녹화는 녹음/녹화를 클릭한 사용자의 OneDrive에 있는 **녹음/녹화** 폴더에 저장됩니다. 
 
-  예: <i>레코더의 비즈니스용 OneDrive</i>/**녹음/녹화**
+  예: <i>레코더의 OneDrive</i>/**녹음/녹화**
 
-- 외부 사용자를 제외하고 모임에 초대된 사용자에게는 다운로드할 수 없는 보기 액세스 권한이 있는 녹음/녹화 파일에 대한 사용 권한이 자동으로 부여됩니다.
+- 외부 참가자를 제외하고 모임에 초대된 사용자에게는 다운로드는 할 수 없는 보기 전용 액세스 권한이 있는 녹음/녹화 파일에 대한 사용 권한이 자동으로 부여됩니다.
 
 - 모임 소유자와 레코드를 클릭한 사람은 사용 권한을 변경하고 다른 사용자와 공유할 수 있는 모든 편집 권한을 얻습니다.
 
@@ -224,7 +224,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 - 레코드를 클릭한 멤버에게 녹음/녹화에 대한 편집 권한이 있습니다.
 
-- 다른 모든 구성원의 권한은 채널 SharePoint Online 권한을 기반으로 합니다.
+- 다른 모든 구성원의 권한은 채널 SharePoint 권한을 기반으로 합니다.
 
 `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload`이(가) 차단으로 설정된 경우:
 
@@ -240,27 +240,27 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 | 모임 유형  | 누가 레코드를 클릭했나요?| 녹음은 어디에 있나요? | 액세스 가능한 사용자 R/W, R 또는 공유  |
 |-------------|-----------------------|------------------------|------------------------|
-|내부 파티와의 1:1 통화             |발신자                 |발신자의 비즈니스용 OneDrive 계정                        |발신자는 소유자이며 전체 권한을 가집니다. <br /><br />수신자(동일한 테넌트에 있는 경우)는 읽기 전용 액세스 권한이 있지만, 공유 액세스 권한은 없습니다. <br /><br /> 수신자(다른 테넌트에 있는 경우)에게 액세스 권한이 없습니다. 발신자는 이를 호출 수신자와 공유해야 합니다.|
-|내부 파티와의 1:1 통화             |수신자                 |수신자의 비즈니스용 OneDrive 계정                        |수신자는 소유자이며 모든 권한을 가집니다. <br /><br />호출자(동일한 테넌트에 있는 경우)는 읽기 전용 액세스 권한이 있지만, 공유 액세스 권한은 없습니다. <br /><br />발신자(다른 테넌트에 있는 경우)에게 액세스 권한이 없습니다. 수신자는 이를 발신자와 공유해야 합니다.|
-|외부 통화로 1:1 통화             |발신자                 |발신자의 비즈니스용 OneDrive 계정                        |발신자는 소유자이며 전체 권한을 가집니다.<br /> <br />수신자에게 액세스 권한이 없습니다. 발신자는 이를 호출 수신자와 공유해야 합니다.|
-|외부 통화로 1:1 통화             |수신자                 |수신자의 비즈니스용 OneDrive 계정                        |수신자는 소유자이며 모든 권한을 가집니다.<br /><br />발신자에게 액세스 권한이 없습니다. 수신자는 이를 발신자와 공유해야 합니다.|
-|그룹 통화                                 |통화의 모든 구성원 |레코드의 비즈니스용 OneDrive 계정을 클릭한 그룹 구성원  |레코드를 클릭한 구성원은 모든 권한이 있습니다. <br /><br /> 동일한 테넌트에 있는 다른 멤버는 읽기 권한을 갖습니다. <br /><br /> 다른 테넌트에 있는 다른 그룹 구성원은 이 그룹에 대한 권한이 없습니다.|
-|임시/예약된 모임                    |이끌이              |이끌이의 비즈니스용 OneDrive 계정                     |이끌이는 녹음/녹화에 대한 모든 권한을 가집니다. <br /><br /> 모임의 다른 모든 구성원은 다운로드할 수 없는 읽기 권한이 있습니다.|
+|내부 파티와의 1:1 통화             |발신자                 |발신자의 OneDrive 계정                        |발신자는 소유자이며 전체 권한을 가집니다. <br /><br />수신자(동일한 테넌트에 있는 경우)는 읽기 전용 액세스 권한이 있지만, 공유 액세스 권한은 없습니다. <br /><br /> 수신자(다른 테넌트에 있는 경우)에게 액세스 권한이 없습니다. 발신자는 이를 호출 수신자와 공유해야 합니다.|
+|내부 파티와의 1:1 통화             |수신자                 |수신자의 OneDrive 계정                        |수신자는 소유자이며 모든 권한을 가집니다. <br /><br />호출자(동일한 테넌트에 있는 경우)는 읽기 전용 액세스 권한이 있지만, 공유 액세스 권한은 없습니다. <br /><br />발신자(다른 테넌트에 있는 경우)에게 액세스 권한이 없습니다. 수신자는 이를 발신자와 공유해야 합니다.|
+|외부 통화로 1:1 통화             |발신자                 |발신자의 OneDrive 계정                        |발신자는 소유자이며 전체 권한을 가집니다.<br /> <br />수신자에게 액세스 권한이 없습니다. 발신자는 이를 호출 수신자와 공유해야 합니다.|
+|외부 통화로 1:1 통화             |수신자                 |수신자의 OneDrive 계정                        |수신자는 소유자이며 모든 권한을 가집니다.<br /><br />발신자에게 액세스 권한이 없습니다. 수신자는 이를 발신자와 공유해야 합니다.|
+|그룹 통화                                 |통화의 모든 구성원 |녹음/녹화의 OneDrive 계정을 클릭한 그룹 구성원  |레코드를 클릭한 구성원은 모든 권한이 있습니다. <br /><br /> 동일한 테넌트에 있는 다른 멤버는 읽기 권한을 갖습니다. <br /><br /> 다른 테넌트에 있는 다른 그룹 구성원은 이 그룹에 대한 권한이 없습니다.|
+|임시/예약된 모임                    |이끌이              |모임 이끌이의 OneDrive 계정                     |이끌이는 녹음/녹화에 대한 모든 권한을 가집니다. <br /><br /> 모임의 다른 모든 구성원은 다운로드할 수 없는 읽기 권한이 있습니다.|
 |임시/예약된 모임                    |다른 모임 구성원   |레코드를 클릭한 모임 구성원                                  |레코드를 클릭한 멤버에게는 녹음/녹화에 대한 모든 권한이 있습니다. <br /><br />이끌이는 편집 권한이 있으며 공유할 수 있습니다.<br /><br /> 다른 모든 모임 구성원은 다운로드할 수 없는 읽기 권한이 있습니다.|
-|외부 사용자와 임시/예약된 모임|이끌이              |이끌이의 비즈니스용 OneDrive 계정                     |이끌이는 녹음/녹화에 대한 모든 권한을 가집니다.<br /> <br /> 이끌이와 동일한 테넌트에 있는 모임의 다른 모든 구성원은 다운로드할 수 없는 읽기 권한을 갖습니다. <br /><br /> 다른 모든 외부 구성원은 액세스 권한이 없으며, 이끌이는 해당 구성원과 공유해야 합니다.|
-|외부 사용자와 임시/예약된 모임|다른 모임 구성원   |레코드를 클릭한 구성원                                  |레코드를 클릭한 멤버에게는 녹음/녹화에 대한 모든 권한이 있습니다. 이끌이는 편집 권한이 있으며 공유할 수 있습니다. <br /><br /> 이끌이와 동일한 테넌트에 있는 모임의 다른 모든 구성원은 다운로드할 수 없는 읽기 권한을 갖습니다. <br /><br />다른 모든 외부 구성원은 액세스 권한이 없으며, 이끌이는 해당 구성원과 공유해야 합니다.|
-|채널 모임                            |채널 구성원         |해당 채널에 대한 Teams의 SharePoint Online 위치                   |Set-CsTeamsMeetingPolicy -ChannelRecordingDownload가 허용(기본값)으로 설정된 경우, 레코드를 클릭한 구성원은 녹음/녹화에 대한 편집 권한을 가집니다. 다른 모든 구성원의 권한은 채널 SharePoint Online 권한을 기반으로 합니다.<Br><Br>Set-CsTeamsMeetingPolicy -ChannelRecordingDownload가 차단으로 설정된 경우, 채널 소유자는 녹음/녹화에 대한 모든 권한이 있지만 채널 멤버는 다운로드할 수 없는 읽기 권한을 갖습니다.|
+|외부 참가자와 임시/예약된 모임|이끌이              |모임 이끌이의 OneDrive 계정                     |이끌이는 녹음/녹화에 대한 모든 권한을 가집니다.<br /> <br /> 이끌이와 동일한 테넌트에 있는 모임의 다른 모든 구성원은 다운로드할 수 없는 읽기 권한을 갖습니다. <br /><br /> 다른 모든 외부 구성원은 액세스 권한이 없으며, 이끌이는 해당 구성원과 공유해야 합니다.|
+|외부 참가자와 임시/예약된 모임|다른 모임 구성원   |레코드를 클릭한 구성원                                  |레코드를 클릭한 멤버에게는 녹음/녹화에 대한 모든 권한이 있습니다. 이끌이는 편집 권한이 있으며 공유할 수 있습니다. <br /><br /> 이끌이와 동일한 테넌트에 있는 모임의 다른 모든 구성원은 다운로드할 수 없는 읽기 권한을 갖습니다. <br /><br />다른 모든 외부 구성원은 액세스 권한이 없으며, 이끌이는 해당 구성원과 공유해야 합니다.|
+|채널 모임                            |채널 구성원         |해당 채널에 대한 Teams의 SharePoint 위치                   |Set-CsTeamsMeetingPolicy -ChannelRecordingDownload가 허용(기본값)으로 설정된 경우, 레코드를 클릭한 구성원은 녹음/녹화에 대한 편집 권한을 가집니다. 다른 모든 구성원의 권한은 채널 SharePoint 권한을 기반으로 합니다.<Br><Br>Set-CsTeamsMeetingPolicy -ChannelRecordingDownload가 차단으로 설정된 경우, 채널 소유자는 녹음/녹화에 대한 모든 권한이 있지만 채널 멤버는 다운로드할 수 없는 읽기 권한을 갖습니다.|
 
 <a name="temp-storage"></a>
-### <a name="temporary-storage-when-unable-to-upload-to-onedrive-for-business-and-sharepoint-online"></a>비즈니스용 OneDrive 및 SharePoint Online에 업로드할 수 없는 경우 임시 저장소
+### <a name="temporary-storage-when-unable-to-upload-to-onedrive-and-sharepoint"></a>OneDrive와 SharePoint에 업로드할 수 없는 경우 임시 저장소
 
-모임 녹음/녹화를 비즈니스용 OneDrive 및 SharePoint Online에 업로드할 수 없는 경우, 삭제되기 전에 21일 동안 Teams에서 일시적으로 다운로드할 수 있습니다. 이는 이 시점에서 관리자가 삭제하는 기능을 포함하도록 제어하거나 관리할 수 있는 것이 아닙니다.
+모임 녹음/녹화를 OneDrive와 SharePoint에 업로드할 수 없는 경우, 삭제되기 전에 21일 동안 Teams에서 일시적으로 다운로드할 수 있습니다. 이는 이 시점에서 관리자가 삭제하는 기능을 포함하도록 제어하거나 관리할 수 있는 것이 아닙니다.
 
 모임 녹음/녹화는 다음과 같은 이유로 이 임시 저장소에 저장될 수 있습니다.
 
-- 비 채널 모임에서 사용자 녹음/녹화에 비즈니스용 OneDrive 설정이 없거나 비즈니스용 OneDrive가 저장소 할당량에 도달한 경우
-- 채널 모임에서 SharePoint Online 사이트가 저장소 할당량에 도달했거나 사이트가 아직 프로비저닝되지 않은 경우
-- 특정 비즈니스용 OneDrive 및 SharePoint Online 정책을 사용하도록 설정하면 특정 IP 범위 등에 없는 경우 사용자가 파일을 업로드하지 못하도록 제한할 수 있습니다.
+- 비 채널 모임에서 녹음/녹화 중인 사용자에게 OneDrive가 없거나 OneDrive가 저장소 할당량에 도달한 경우
+- 채널 모임에서 SharePoint 사이트가 저장소 할당량에 도달했거나 사이트가 아직 프로비전되지 않은 경우
+- 특정 OneDrive와 SharePoint 정책을 사용하도록 설정하면 특정 IP 범위 등에 없는 경우 사용자가 파일을 업로드하지 못하도록 제한할 수 있습니다.
 
 이에 대한 녹음/녹화 보존은 임시 스토리지이며 채팅 메시지 자체의 영향을 받습니다. 따라서 녹음/녹화에 대한 원래 채팅 메시지를 삭제하면 사용자가 녹음/녹화에 액세스할 수 없게 됩니다. 다음과 같은 두 가지 시나리오가 있습니다.
 
@@ -270,7 +270,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 ### <a name="planning-for-storage"></a>저장소 계획
 
-1시간 녹음/녹화 크기는 400MB입니다. 녹음/녹화된 파일에 대한 필요한 용량을 알고 있어야 하며 비즈니스용 OneDrive 및 SharePoint Online에서 충분한 저장소를 사용할 수 있는지 확인합니다.  구독에 포함된 기본 저장소 및 추가 저장소를 구입하는 방법을 이해하려면 [비즈니스용 OneDrive의 기본 저장 공간 설정](/onedrive/set-default-storage-space) 및 [SharePoint Online 사이트 저장소 제한 관리](/sharepoint/manage-site-collection-storage-limits)를 참조하세요.
+1시간 녹음/녹화 크기는 400MB입니다. 녹음/녹화된 파일에 필요한 용량을 이해하고 OneDrive와 SharePoint에 사용 가능한 저장소가 충분한지 확인합니다.  구독에 포함된 기본 저장소 및 추가 저장소를 구입하는 방법을 이해하려면 [OneDrive의 기본 저장 공간 설정](/onedrive/set-default-storage-space) 및 [SharePoint 사이트 저장소 제한 관리](/sharepoint/manage-site-collection-storage-limits)를 읽어 보세요.
 
  <a name="auto-expiration"></a>
 ### <a name="auto-expiration-of-teams-meeting-recordings"></a>Teams 모임 녹음/녹화 자동 만료
@@ -283,9 +283,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
   
 ## <a name="manage-meeting-recordings"></a>모임 녹음/녹화 관리
 
-모임 녹음/녹화는 비즈니스용 OneDrive 및 SharePoint Online에 비디오 파일로 저장되며 해당 플랫폼에서 사용할 수 있는 관리 및 거버넌스 옵션을 따릅니다. 자세한 내용은 [SharePoint Online 거버넌스 개요](/sharepoint/governance-overview), [엔터프라이즈용 비즈니스용 OneDrive 가이드](/onedrive/plan-onedrive-enterprise) 또는 [중소기업용 비즈니스용 OneDrive 가이드](/onedrive/one-drive-quickstart-small-business)를 참조하세요.
+모임 녹음/녹화는 OneDrive와 SharePoint에 비디오 파일로 저장되며 해당 플랫폼에서 사용할 수 있는 관리 및 거버넌스 옵션을 따릅니다. 자세한 내용은 [SharePoint 거버넌스 개요](/sharepoint/governance-overview)를 참조하세요.
 
-비 채널 모임의 경우, 녹음/녹화는 레코더의 비즈니스용 OneDrive 저장되므로 직원이 퇴사한 후 소유권 및 보존에 대한 처리는 일반적인 [비즈니스용 OneDrive 및 SharePoint Online 프로세스](/onedrive/retention-and-deletion#the-onedrive-deletion-process)를 따릅니다.
+비 채널 모임의 경우 녹음/녹화는 레코더의 OneDrive에 저장되므로 직원이 퇴사한 후 소유권 및 보존을 처리하는 작업은 일반적인 [OneDrive와 SharePoint 프로세스](/onedrive/retention-and-deletion#the-onedrive-deletion-process)를 따릅니다.
 
 ## <a name="closed-captions-for-recordings"></a>녹음/녹화를 위한 선택 자막
 
@@ -293,7 +293,7 @@ Teams 모임 녹음/녹화에 대한 선택 자막은 사용자가 녹음/녹화
 
 캡션은 모든 기능을 갖춘 뷰어를 위한 포괄적인 콘텐츠를 만드는 데 도움이 됩니다. 소유자는 모임 기록의 캡션을 숨길 수 있습니다. 단, 모임 스크립트를 삭제하지 않으면 Teams에서 계속 사용할 수 있습니다.
 
-오늘 녹화 비디오 파일의 선택 자막은 Teams 모임 대본에 연결됩니다. 이 링크는 대부분의 경우 파일의 수명 동안 유지되지만, 비디오 파일이 동일한 비즈니스용 OneDrive 또는 SharePoint Online 사이트 내에서 복사되면 끊어질 수 있으며, 이로 인해 복사된 비디오 파일에서 캡션을 사용할 수 없게 됩니다.
+오늘 녹화 비디오 파일의 선택 자막은 Teams 모임 대본에 연결됩니다. 이 연결은 대부분 파일의 수명 동안 유지되지만 동일한 OneDrive 또는 SharePoint 사이트 내에서 비디오 파일을 복사하면 끊어질 수 있으며, 이 경우 복사된 비디오 파일에서 자막을 사용할 수 없게 됩니다.
 
 Teams의 대본과 녹음/녹화 간의 링크에 대한 향후 변경 사항은 여기와 메시지 센터 알림에서 명확히 설명됩니다. 나중에 변경하면 60일이 안 된 녹음/녹화 파일에 모임의 대본이 캡션으로 표시됩니다.
 
@@ -304,9 +304,9 @@ Teams의 대본과 녹음/녹화 간의 링크에 대한 향후 변경 사항은
 
 ### <a name="ediscovery"></a>eDiscovery
 
-모임 녹음/녹화는 비즈니스용 OneDrive 및 SharePoint Online에 저장되며 Microsoft 365 Office 365 Tier-D를 준수합니다. 모임 또는 통화 녹음/녹화에 관심이 있는 규정 준수 관리자에 대한 e-Discovery 요청을 지원하기 위해, Microsoft Teams의 준수 콘텐츠 검색 기능에서는 녹음/녹화 완료 메시지를 제공합니다. 준수 관리자는 준수 콘텐츠 검색 미리 보기에서 항목의 제목 줄에서 “녹음/녹화” 키워드를 찾을 수 있으며 조직에서 모임 및 통화 녹음/녹화를 검색할 수 있습니다.
+모임 녹음/녹화는 OneDrive와 SharePoint에 저장되며, 이는 Microsoft 365와 Office 365 D 계층을 준수합니다. 모임 또는 통화 녹음/녹화에 관심이 있는 규정 준수 관리자에 대한 e-Discovery 요청을 지원하기 위해, Microsoft Teams의 준수 콘텐츠 검색 기능에서는 녹음/녹화 완료 메시지를 제공합니다. 준수 관리자는 준수 콘텐츠 검색 미리 보기에서 항목의 제목 줄에서 “녹음/녹화” 키워드를 찾을 수 있으며 조직에서 모임 및 통화 녹음/녹화를 검색할 수 있습니다.
 
-또한 eDiscovery를 통해 SharePoint Online 및 비즈니스용 OneDrive에서 파일을 검색하여 모임 녹음/녹화 비디오 파일을 찾을 수 있습니다.
+또한 eDiscovery를 통해 SharePoint 및 OneDrive에서 파일을 검색하여 모임 녹음/녹화 비디오 파일을 찾을 수도 있습니다.
 
 eDiscovery에 대한 자세한 내용은 [Microsoft 365용 eDiscovery 솔루션](/microsoft-365/compliance/ediscovery) 문서를 참조하세요.
 
@@ -316,7 +316,7 @@ ProgID 속성을 통해 Teams 모임 녹음/녹화 비디오 파일만 대상으
 
 ### <a name="microsoft-purview-data-loss-prevention-dlp-policies"></a>Microsoft Purview DLP(데이터 손실 방지) 정책
 
-ProgID 속성별로 모임 녹음/녹화 파일에 DLP 정책을 적용할 수도 있습니다. SharePoint Online 및 비즈니스용 OneDrive 파일에 대한 DLP 규칙에서 조건을 다음으로 설정합니다.
+ProgID 속성별로 모임 녹음/녹화 파일에 DLP 정책을 적용할 수도 있습니다. SharePoint와 OneDrive 파일에 대한 DLP 규칙에서 조건을 다음으로 설정합니다.
 
 - 문서 속성 = *ProgID*
 - 값 = *Media.Meeting*
