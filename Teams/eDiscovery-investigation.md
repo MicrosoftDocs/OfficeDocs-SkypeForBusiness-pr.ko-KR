@@ -17,12 +17,12 @@ description: 법적 절차에 대한 모든 전자 저장 정보를 제출해야
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ac4aa6e8182342f36da0434aaf78123937d6d8ce
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 1d548149f978764bbfbe3d0cd3475704ad6a76c2
+ms.sourcegitcommit: 9b08e2826b5b210abd9daa2ef40d4693a5000e33
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616414"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67039645"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams에서 콘텐츠에 대한 eDiscovery 조사 수행
 
@@ -69,16 +69,13 @@ ms.locfileid: "66616414"
 
 ![Teams 참가자 간 대화](media/MeetingIMConversations.png)
 
-[!div class="mx-imgBorder"]
-
 다음은 eDiscovery 도구에서 볼 수 있는 동일한 채팅 대화의 규정 준수 복사본 예입니다.
 
 ![eDiscovery 검색 결과의 참가자 간 대화입니다.](media/MeetingImConversation2.png)
 
 다음은 모임 메타데이터의 예입니다.
 
-  > [!div class="mx-imgBorder"]
-  > ![규정 준수 복사본의 모임 메타데이터입니다.](media/conversationOption3.png)
+![규정 준수 복사본의 모임 메타데이터입니다.](media/conversationOption3.png)
 
 eDiscovery 조사를 수행하는 방법에 대한 자세한 내용은 [eDiscovery 시작(표준)](/microsoft-365/compliance/get-started-core-ediscovery)을 참조하세요.
 
