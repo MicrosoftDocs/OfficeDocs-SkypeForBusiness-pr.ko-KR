@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 508f10c07a25bb2dc3cef7af84d7dacc62989f28
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 000c279c32237fd7477a375bf9968db03ec5376d
+ms.sourcegitcommit: 644374fcad6372494e87d729de690af4c060f635
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023689"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "67054929"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Microsoft Teams를 위한 보존 정책 만들기 및 관리
 
@@ -42,7 +42,7 @@ Teams는 채팅 및 채널 메시지에 대한 보존 정책을 지원하므로 
 
 Microsoft 365의 보존 솔루션에 대해 자세히 알아보려면 [보존 정책 및 보존 레이블에 대한 자세한 내용](/microsoft-365/compliance/retention)을 참조하세요.
 
-Teams에 대한 보존 정책이 적용되는 사용자는 Office 365 E3 또는 Office 365 A3과 같은 적절한 라이선스가 있어야 합니다. 이러한 보존 정책에 대한 기타 라이선스 옵션은 [보안 및 규정 준수 대한 Microsoft 365 라이선싱 지침](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance)의 [정보 거버넌스](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance) 섹션을 참조하세요. Teams를 위한 라이선싱에 대한 자세한 내용은 [Microsoft Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)을 참조하세요.
+Teams에 대한 보존 정책이 적용되는 사용자는 Office 365 E3 또는 Office 365 A3과 같은 적절한 라이선스가 있어야 합니다. 이러한 보존 정책에 대한 다른 라이선스 옵션은 보안 [&](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#microsoft-purview-data-lifecycle-management) [규정 준수에 대한 Microsoft 365 라이선스 지침의 Microsoft Purview 데이터 수명 주기 관리 섹션을 참조하세요](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance). Teams를 위한 라이선싱에 대한 자세한 내용은 [Microsoft Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)을 참조하세요.
 
 ## <a name="how-teams-retention-policies-support-retain-and-delete-actions"></a>Teams 보존 정책이 보존 및 삭제 작업을 지원하는 방법
 
