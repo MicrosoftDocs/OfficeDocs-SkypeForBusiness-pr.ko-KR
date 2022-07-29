@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 자동 전화 교환 및 통화 큐에 대해 알아보고 이를 사용하여 발신자가 메뉴 시스템을 통해 조직의 사용자 또는 부서에 연결할 수 있도록 돕는 방법을 알아봅니다.
-ms.openlocfilehash: 1f439ca0a6eb9ff3487582253cdd0aad7b2fad6c
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 218377b2082d1a057f503abbf83d37ff78686986
+ms.sourcegitcommit: 55ba3ed53421da6619724a360d15e80262241079
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616084"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "67070739"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Teams 자동 전화 교환 및 통화 큐 계획
 
@@ -69,7 +69,7 @@ ms.locfileid: "66616084"
 
 자동 전화 교환 및 통화 큐를 구성하려면 다음 리소스가 필요합니다.
 
-- 각 자동 전화 교환 및 각 통화 큐에 대한 리소스 계정
+- 각 자동 전화 교환 및 각 통화 큐에 대한 [리소스 계정](manage-resource-accounts.md)
 - Teams 사용자 또는 외부 전화 번호로 직접 전화를 걸 수 있는 각 리소스 계정에 대한 무료 Microsoft Teams 전화 Resource Account 라이선스
 - 외부 전화 번호에서 직접 전화를 걸려는 각 리소스 계정에 대해 하나 이상의 [Microsoft 서비스 번호](getting-service-phone-numbers.md), 운영자 연결 번호, 직접 라우팅 번호 또는 하이브리드 번호
   - 서비스 번호는 통행료 또는 무료 번호일 수 있습니다.
