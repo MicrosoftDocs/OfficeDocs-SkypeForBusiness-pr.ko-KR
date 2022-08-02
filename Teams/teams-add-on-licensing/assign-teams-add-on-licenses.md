@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 오디오 회의, 전화 시스템 및 통화 플랜과 같은 기능을 위해 사용자에게 Teams 추가 기능 라이선스를 할당하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07196e26f38042b6046d6761bd60dfad64f89c7d
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 1bef1464b94f736a10cc184a2bdb88e2cdf6df88
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023679"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156976"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>사용자에게 Teams 추가 기능 라이선스 할당
 
@@ -54,7 +54,7 @@ Microsoft 365 관리 센터 사용하여 개별 사용자 또는 소규모 사�
 
 단계별 지침은 [사용자에게 라이선스 할당을 참조하세요](/microsoft-365/admin/manage/assign-licenses-to-users).
 
-수백 또는 수천 명의 사용자와 같은 많은 수의 사용자에게 라이선스를 할당해야 하는 경우 [Azure Active Directory(Azure AD)에서](/azure/active-directory/users-groups-roles/licensing-groups-assign) Powershell 또는 그룹 기반 라이선스를 사용합니다.
+수백 또는 수천 명의 사용자와 같은 많은 수의 사용자에게 라이선스를 할당해야 하는 경우 [Azure Active Directory(Azure AD)에서](/azure/active-directory/users-groups-roles/licensing-groups-assign) PowerShell 또는 그룹 기반 라이선스를 사용합니다.
 
 ## <a name="using-powershell"></a>PowerShell 사용
 
@@ -142,6 +142,8 @@ PowerShell을 사용하여 사용자에게 라이선스를 대량으로 할당�
 | 국내 통화 플랜(각 국가의 사용자/월당 120분) </br>*이 플랜은 미국 사용할 수 없습니다.* | MCOPSTN5 |
 | 국내 통화 플랜(각 국가의 사용자/월당 240분) </br>*이 플랜은 미국 사용할 수 없습니다.* | MCOPSTN6 |
 | 통신 크레딧 | MCOPSTNPP |
+| 종량제 통화 플랜(영역 1 국가) | MCOPSTN_PAYG_1 |
+| 종량제 통화 플랜(영역-2 국가) | MCOPSTN_PAYG_2 |
 
 ## <a name="related-content"></a>관련 콘텐츠
 

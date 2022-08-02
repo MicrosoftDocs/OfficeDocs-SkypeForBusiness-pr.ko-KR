@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 'Microsoft Teams용으로 인증된 USB 주변 장치 및 장치(예: 헤드셋, 스피커폰, 웹캠 및 모니터)를 확인합니다.'
-ms.openlocfilehash: 63813ca51626ae16903b57e56de9b47345f44c10
-ms.sourcegitcommit: 911fdb6df0511b4a4d9e4705799877045a09113c
+ms.openlocfilehash: 003a532331ad7a1c3e88addad3f2f73a8b5b1f61
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66972783"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156946"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams용으로 인증된 USB 오디오 및 비디오 장치
 
@@ -44,7 +44,7 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 [Teams에서 헤드�
 
 - **네이티브 Bluetooth 인증 오디오 주변 장치**  Microsoft Teams용으로 인증된 대부분의 Bluetooth 헤드셋 및 스피커폰은 PC 및 Mac 호스트에 연결하기 위해 USB 동글과 함께 사용하도록 설계되었습니다. 많은 사용자가 충분한 USB 포트가 없거나 다른 위치에서 작업할 때 USB 동글을 가지고 오는 것을 기억하지 않기 때문에 디바이스를 호스트와 직접 페어링하는 옵션을 요구해 왔습니다.
 
-    헤드셋 및 스피커폰을 포함한 네이티브 Bluetooth 인증 디바이스는 Windows PC에서 지원됩니다(MacOS는 나중에 지원될 수 있음). 디바이스는 USB 동글을 사용 및 사용하지 않고 오디오 성능, 통화 제어 및 Teams 단추 통합을 테스트합니다.
+    헤드셋 및 스피커폰을 포함한 네이티브 Bluetooth 인증 디바이스는 Windows PC에서 지원됩니다(macOS는 나중에 지원될 수 있음). 디바이스는 USB 동글을 사용 및 사용하지 않고 오디오 성능, 통화 제어 및 Teams 단추 통합을 테스트합니다.
 
     기본 Bluetooth 모드의 성능은 호스트 PC의 Bluetooth 라디오에 의해 영향을 받으므로 디바이스와 Bluetooth 라디오 모두에 대한 최신 펌웨어 업데이트를 설치하는 것이 좋습니다. 사용자의 작은 부분은 USB 동글을 계속 사용 해야 할 수 있습니다., 고밀도 라디오 환경에서 작업 하는 경우 등, 그들의 PC Bluetooth 많이 여러 쌍된 장치에 의해 사용 되는 경우, 또는 성능이 좋지 않은 Bluetooth 라디오를 가진 특정 PC와.
 
@@ -85,27 +85,28 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 [Teams에서 헤드�
 > [!NOTE]
 > 날짜 형식은 MMDDYYYY입니다.
 
-| 제조업체        | 모델                                                     | 자격      | 인증된 프로그램                                      |
+| 생산자        | 모델                                                     | 자격      | 인증된 프로그램                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
 |Logi(Logi)                 |도킹 스피커폰                                          |7/13/2022       |Microsoft Teams용 인증                           |
-|Dell                 |WB5023 카메라                                              |6/29/2022       |Microsoft Teams용 인증                           |
+|작은 골짜기                 |WB5023 카메라                                              |6/29/2022       |Microsoft Teams용 인증                           |
 |EPOS                 |ADAPT 560 II 헤드셋                                       |6/22/2022       |Microsoft Teams용 인증                           |
 |EPOS                 |C10/C20/C50 시리즈 헤드셋                                |5/31/2022       |Microsoft Teams용 인증                           |
 |Jabra                |Engage55 Mono/Stereo 헤드셋                               |5/25/2022       |Microsoft Teams용 인증                           |
 |EPOS                 |EXPAND 40T Speakerphone                                    |5/24/2022       |Microsoft Teams용 인증                           | 
-|Dell                 |U3223QZ 모니터                                            |5/24/2022       |Microsoft Teams용 인증                           |
+|작은 골짜기                 |U3223QZ 모니터                                            |5/24/2022       |Microsoft Teams용 인증                           |
 |많은                 |Studio P21 모니터                                         |5/12/2022       |Microsoft Teams용 인증                           |
 |Yealink              |UH38 헤드셋                                               |5/2/2022        |Microsoft Teams용 인증                           |   
 |Yealink              |BH72 헤드셋                                               |5/2/2022        |Microsoft Teams용 인증                           |
-|로지텍             |영역 True 무선 이어버드                                 |5/2/2022        |Microsoft Teams용 인증                           |
-|레 노 버               |무선 ANC 헤드셋 이동                                    |4/11/2022       |Microsoft Teams용 인증                           |
+|Logitech             |영역 True 무선 이어버드                                 |5/2/2022        |Microsoft Teams용 인증                           |
+|Lenovo               |무선 ANC 헤드셋 이동                                    |4/11/2022       |Microsoft Teams용 인증                           |
 |EPOS                 |ADAPT 661                                                  |3/11/2022       |Microsoft Teams용 인증                           |
 |EPOS                 |ADAPT 461T                                                 |3/11/2022       |Microsoft Teams용 인증                           |
 |EPOS                 |ADAPT 361                                                  |3/11/2022       |Microsoft Teams용 인증                           |
-|Dell                 |Speakerphone SP3022                                        |2/7/2022        |Microsoft Teams용 인증                           |
-|Dell                 |슬림 회의 사운드바 SB522A                          |1/25/2022       |Microsoft Teams용 인증                           | 
-|레 노 버               |유선 ANC 헤드셋 이동                                       |1/12/2022       |Microsoft Teams용 인증                           |
-|레 노 버               |유선 스피커폰 이동                                      |1/10/2022       |Microsoft Teams용 인증                           |
+|작은 골짜기                 |Speakerphone SP3022                                        |2/7/2022        |Microsoft Teams용 인증                           |
+|작은 골짜기                 |슬림 회의 사운드바 SB522A                          |1/25/2022       |Microsoft Teams용 인증                           |
+|많은                 |동기화 10                                                    |1/18/2022       |Microsoft Teams용 인증                           |
+|Lenovo               |유선 ANC 헤드셋 이동                                       |1/12/2022       |Microsoft Teams용 인증                           |
+|Lenovo               |유선 스피커폰 이동                                      |1/10/2022       |Microsoft Teams용 인증                           |
 |EPOS                 |IMPACT SDW 5066T                                           |12/1/2021       |Microsoft Teams용 인증                           |
 |EPOS                 |IMPACT SDW 5063T                                           |12/1/2021       |Microsoft Teams용 인증                           |
 |EPOS                 |IMPACT SDW 5036T                                           |12/1/2021       |Microsoft Teams용 인증                           |
@@ -117,21 +118,21 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 [Teams에서 헤드�
 |많은                 |보이저 4320 및 보이저 오피스 베이스                       |10/20/2021      |Microsoft Teams용 인증                           |
 |많은                 |보이저 4310 및 보이저 오피스 베이스                       |10/20/2021      |Microsoft Teams용 인증                           |
 |Jabra                |Evolve 2 75 헤드셋                                        |10/8/2021       |Microsoft Teams용 인증                           |
-|로지텍             |영역 유선 이어버드                                         |9/2/2021        |Microsoft Teams용 인증                           |
+|Logitech             |영역 유선 이어버드                                         |9/2/2021        |Microsoft Teams용 인증                           |
 |AudioCodes           |RXVCam10                                                   |8/26/2021       |Microsoft Teams용 인증                           |
 |많은                 |보이저 4320                                               |8/6/2021        |Microsoft Teams용 인증                           |
 |많은                 |보이저 4310                                               |8/6/2021        |Microsoft Teams용 인증                           |
 |EPOS/젠하이저      |ADAPT 160T ANC                                             |6/24/2021       |Microsoft Teams용 인증                           |
-|Dell                 |Ultrasharp 웹캠 WB7022                                   |6/16/2021       |Microsoft Teams용 인증                           |
+|작은 골짜기                 |Ultrasharp 웹캠 WB7022                                   |6/16/2021       |Microsoft Teams용 인증                           |
 |NEC                  |WD551 Windows 공동 작업 표시                        |5/21/2021       |Microsoft Teams용 인증                           |
 |많은                 |EncorePro 520 및 DA85-M                                   |4/26/2021       |Microsoft Teams용 인증                           |
 |많은                 |EncorePro 510 및 DA85-M                                   |4/26/2021       |Microsoft Teams용 인증                           |
 |많은                 |EncorePro 525-M                                            |4/26/2021       |Microsoft Teams용 인증                           |
 |많은                 |EncorePro 515-M                                            |4/26/2021       |Microsoft Teams용 인증                           |
-|Dell                 |WL7022 프리미어 무선 ANC 헤드셋                        |4/22/2021       |Microsoft Teams용 인증                           |
-|Dell                 |WL5022 Pro 무선 헤드셋                                |4/22/2021       |Microsoft Teams용 인증                           |
-|Dell                 |WH3022 Pro 유선 헤드셋                                   |4/22/2021       |Microsoft Teams용 인증                           |
-|로지텍             |C920e 웹캠                                               |4/22/2021       |Microsoft Teams용 인증                           |
+|작은 골짜기                 |WL7022 프리미어 무선 ANC 헤드셋                        |4/22/2021       |Microsoft Teams용 인증                           |
+|작은 골짜기                 |WL5022 Pro 무선 헤드셋                                |4/22/2021       |Microsoft Teams용 인증                           |
+|작은 골짜기                 |WH3022 Pro 유선 헤드셋                                   |4/22/2021       |Microsoft Teams용 인증                           |
+|Logitech             |C920e 웹캠                                               |4/22/2021       |Microsoft Teams용 인증                           |
 |많은                 |Studio P5 웹캠                                           |4/22/2021       |Microsoft Teams용 인증                           |
 |Jabra                |Biz 2400 II                                                |4/22/2021       |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
 |Jabra                |Biz 2300                                                   |4/22/2021       |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
@@ -154,16 +155,16 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 [Teams에서 헤드�
 |Yealink              |WH63 DECT 헤드셋                                          |12/23/2020      |Microsoft Teams용 인증                           |
 |Yealink              |WH62 듀얼/모노 DECT 헤드셋                                |12/23/2020      |Microsoft Teams용 인증                           |
 |EPOS/젠하이저      |100 시리즈 헤드셋 적응                                  |12/22/2020      |Microsoft Teams용 인증                           |
-|Dell                 |Pro 스테레오 헤드셋 - UC350                                 |12/21/2020      |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
-|Dell                 |Pro 스테레오 헤드셋 - UC150                                 |12/21/2020      |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
-|레 노 버               |Pro Wired VoIP 스테레오 헤드셋                              |12/21/2020      |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
+|작은 골짜기                 |Pro 스테레오 헤드셋 - UC350                                 |12/21/2020      |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
+|작은 골짜기                 |Pro 스테레오 헤드셋 - UC150                                 |12/21/2020      |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
+|Lenovo               |Pro Wired VoIP 스테레오 헤드셋                              |12/21/2020      |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
 |많은                 |Savi Office 7320                                           |12/18/2020      |Microsoft Teams용 인증                           |
 |많은                 |Savi Office 7310                                           |12/18/2020      |Microsoft Teams용 인증                           |
 |Jabra                |Evolve 75e 헤드셋                                         |12/16/2020      |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
 |Jabra                |Evolve 65e 헤드셋                                         |12/16/2020      |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
-|Dell                 |C3422WE Monitor                                            |12/11/2020      |Microsoft Teams용 인증                           |
-|Dell                 |C2722DE 모니터                                            |12/11/2020      |Microsoft Teams용 인증                           |
-|Dell                 |C2422HE 모니터                                            |12/11/2020      |Microsoft Teams용 인증                           |
+|작은 골짜기                 |C3422WE Monitor                                            |12/11/2020      |Microsoft Teams용 인증                           |
+|작은 골짜기                 |C2722DE 모니터                                            |12/11/2020      |Microsoft Teams용 인증                           |
+|작은 골짜기                 |C2422HE 모니터                                            |12/11/2020      |Microsoft Teams용 인증                           |
 |많은                 |Poly BT600 USB 동글과 20 + 스피커폰 동기화          |11/9/2020       |Microsoft Teams용 인증                           |
 |많은                 |20개 스피커폰 동기화                                       |11/9/2020       |Microsoft Teams용 인증                           |
 |Jabra                |65t 헤드셋 진화                                         |10/31/2020      |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
@@ -182,7 +183,7 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 [Teams에서 헤드�
 |Jabra                |50 헤드셋 참여                                          |7/31/2020       |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
 |Avocor               |WCD- AVW-6555                                              |7/30/2020       |Microsoft Teams용 인증                           |
 |Jabra                |Evolve2 85 헤드셋                                         |7/17/2020       |Microsoft Teams용 인증                           |
-|Bose                 |NC 700 헤드셋                                             |6/8/2020        |Microsoft Teams용 인증                           |
+|보스(Bose)                 |NC 700 헤드셋                                             |6/8/2020        |Microsoft Teams용 인증                           |
 |Jabra                | Jabra Link 370 USB 동글로 750 스피커폰 말하기     | 5/21/2020       | Microsoft Teams용 인증                         |
 | EPOS                | 젠하이저 적응 660 헤드셋                              | 5/15/2020      | Microsoft Teams용 인증                          |
 | EPOS                | 젠하이저 적응 560 헤드셋                              | 5/15/2020      | Microsoft Teams용 인증                          |
@@ -215,9 +216,9 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 [Teams에서 헤드�
 | EPOS/젠하이저     | 영향 SC 660 USB MS                                      | 4/9/2020       | Microsoft Teams로 업그레이드한 비즈니스용 Skype     |
 | EPOS/젠하이저     | 영향 SC 660 ANC USB                                     | 4/9/2020       | Microsoft Teams로 업그레이드한 비즈니스용 Skype     |
 | EPOS/젠하이저     | 영향 SC 665 USB                                         | 4/9/2020       | Microsoft Teams로 업그레이드한 비즈니스용 Skype     |
-| 로지텍            | 영역 무선                                             | 4/8/2020       | Microsoft Teams용 인증                          |
+| Logitech            | 영역 무선                                             | 4/8/2020       | Microsoft Teams용 인증                          |
 | 많은                | 보이저 8200 헤드셋                                      | 3/26/2020      | Microsoft Teams로 업그레이드한 비즈니스용 Skype     |
-| 로지텍            | 영역 유선                                                | 3/26/2020      | Microsoft Teams용 인증                          |
+| Logitech            | 영역 유선                                                | 3/26/2020      | Microsoft Teams용 인증                          |
 | Jabra               | Evolve2 40 헤드셋                                        | 3/26/2020      | Microsoft Teams용 인증                          |
 | 많은                | 보이저 6200 헤드셋                                      | 3/23/2020      | Microsoft Teams로 업그레이드한 비즈니스용 Skype     |
 | 많은                | 보이저 4245 Office                                       | 3/23/2020      | Microsoft Teams용 인증                          |
@@ -235,7 +236,7 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 [Teams에서 헤드�
 | 많은                | Blackwire 3325-M                                          | 03/05/2020     | Microsoft Teams용 인증                          |
 | 많은                | 칼리스토 3200-M                                            | 01/27/2020     | Microsoft Teams용 인증                          |
 | 크레스트론 (동음이의)            | CCS-UCA-MIC                                               | 12/18/2019     | Microsoft Teams용 인증                          |
-| Sennheiser          | SP 30T                                                    | 12/05/2019     | Microsoft Teams용 인증                          |
+| 젠하이저(Sennheiser)          | SP 30T                                                    | 12/05/2019     | Microsoft Teams용 인증                          |
 | Polycom             | 엘라라                                                     | 11/06/2019     | Microsoft Teams용 인증                          |
 | Polycom             | 스튜디오 사운드바                                           | 10/18/2019     | Microsoft Teams용 인증                          |
 | Yealink             | UVC30                                                     | 10/18/2019     | Microsoft Teams용 인증                          |

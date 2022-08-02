@@ -23,19 +23,19 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 - intro-get-started
-description: Microsoft 365 조직에 대한 Teams 전화 시스템 설정하는 방법을 자세히 설명하는 단계별 가이드입니다.
-ms.openlocfilehash: 12e202fed6ad63835c364662194be2eabf872b31
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+description: Microsoft 365에서 조직에 대한 Teams 전화 시스템을 설정하는 방법을 자세히 설명하는 단계별 가이드입니다.
+ms.openlocfilehash: 7f5a29bc5d57d59cf8d63dbe1f61db18a906e110
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681929"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156903"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>조직에서 전화 시스템 설정
 
-이 문서에서는 Microsoft 365 클라우드에서 통화 제어 및 PBX(Private Branch Exchange) 기능을 사용하도록 설정하는 Microsoft의 기술인 전화 시스템 설정하기 위한 콘텐츠에 대한 로드맵을 제공합니다. 자세한 정보에 대한 링크는 각 단계의 끝에서 사용할 수 있습니다.
+이 문서에서는 Microsoft 365 클라우드에서 통화 제어 및 PBX(Private Branch Exchange) 기능을 사용하도록 설정하는 Microsoft의 기술인 Phone System을 설정하기 위한 콘텐츠에 대한 로드맵을 제공합니다. 자세한 정보에 대한 링크는 각 단계의 끝에서 사용할 수 있습니다.
 
-이 문서를 읽기 전에 [전화 시스템 내용을](what-is-phone-system-in-office-365.md) 읽었는지 확인하고 [전화 시스템](here-s-what-you-get-with-phone-system.md). 후자의 두 문서에서는 전화 시스템 요구 사항 및 기능에 대해 설명합니다.
+이 문서를 읽기 전에 [전화 시스템이란 무엇이며 전화 시스템을](what-is-phone-system-in-office-365.md) 사용하여 [얻을 수](here-s-what-you-get-with-phone-system.md) 있는지 확인합니다. 후자의 두 문서에서는 전화 시스템 요구 사항 및 기능을 설명합니다.
 
 이 문서에서는 다음 단계를 설명합니다.
 
@@ -49,17 +49,17 @@ ms.locfileid: "65681929"
 
 ## <a name="step-1-buy-and-assign-a-phone-system-license"></a>1단계: 전화 시스템 라이선스 구입 및 할당
 
-단일 사용자에게 전화 시스템 라이선스를 할당하기 위해 단계는 Microsoft 365 라이선스를 할당하는 것과 동일합니다. 여러 사용자에게 라이선스를 대량으로 할당할 수도 있습니다. 사용 가능한 전화 시스템 라이선스 및 라이선스 획득 및 할당 방법에 대한 자세한 내용은 [Teams 추가 기능 라이선스](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) 및 [Microsoft Teams 추가 기능 라이선스 할당을 참조하세요](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
+단일 사용자에게 전화 시스템 라이선스를 할당하려면 단계는 Microsoft 365 라이선스를 할당하는 것과 동일합니다. 여러 사용자에게 라이선스를 대량으로 할당할 수도 있습니다. 사용 가능한 전화 시스템 라이선스 및 라이선스 획득 및 할당 방법에 대한 자세한 내용은 [Teams 추가 기능 라이선스](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) 및 [Microsoft Teams 추가 기능 라이선스 할당](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)을 참조하세요.
 
 ## <a name="step-2-choose-a-pstn-connectivity-option"></a>2단계. PSTN 연결 옵션 선택
 
-사용자가 외부 전화를 걸고 받을 수 있도록 하려면 전화 시스템 PSTN(공중 전화망)에 연결해야 합니다. Microsoft는 다음을 포함하여 PSTN에 연결하기 위한 여러 옵션을 제공합니다.
+사용자가 외부 전화를 걸고 받을 수 있도록 하려면 전화 시스템을 PSTN(공중 전화망)에 연결해야 합니다. Microsoft는 다음을 포함하여 PSTN에 연결하기 위한 여러 옵션을 제공합니다.
 
 - 통화 플랜. Microsoft를 PSTN 이동 통신 사업자로 사용하는 클라우드 전체 솔루션입니다.
 
-- 운영자 연결. 기존 이동 통신 사업자가 Microsoft 운영자 연결 프로그램에 참여하는 경우 PSTN 통화 및 SCC(세션 테두리 컨트롤러)를 관리할 수 있습니다.
+- 연산자 연결입니다. 기존 이동 통신 사업자가 Microsoft Operator Connect 프로그램에 참여하는 경우 PSTN 통화 및 SCC(세션 테두리 컨트롤러)를 관리할 수 있습니다.
 
-- 직접 라우팅. SCC를 연결하여 전화 시스템 자체 PSTN 이동 통신 사업자를 사용합니다.
+- 직접 라우팅. SCC를 전화 시스템에 연결하여 사용자 고유의 PSTN 이동 통신 사업자를 사용합니다.
 
 모든 연결 옵션에 대한 자세한 내용은 [PSTN 연결 옵션을 참조하세요](pstn-connectivity.md).
 
@@ -80,7 +80,7 @@ ms.locfileid: "65681929"
 
 사용자의 전화 번호를 받는 것 외에도 자동 전화 교환 및 통화 큐와 같은 서비스에 대한 유료 또는 무료 전화 번호를 얻을 수 있습니다. 서비스 번호는 수백 건의 통화를 동시에 처리할 수 있는 반면, 사용자의 전화 번호는 몇 번의 통화만 동시에 처리할 수 있습니다.
 
-라이선스에 포함된 Microsoft에서 서비스 번호를 가져올 수 있습니다. 운영자 연결 또는 직접 라우팅을 통해 PSTN을 연결한 경우 자체 통신 사업자 또는 운영자가 제공하는 서비스 번호를 사용할 수 있습니다.
+라이선스에 포함된 Microsoft에서 서비스 번호를 가져올 수 있습니다. 운영자 연결 또는 직접 라우팅을 통해 PSTN 연결이 있는 경우 자체 통신 사업자 또는 운영자가 제공하는 서비스 번호를 사용할 수 있습니다.
 
 자세한 내용은 다음을 참조하세요.
 
@@ -103,7 +103,7 @@ ms.locfileid: "65681929"
 
 ## <a name="step-7-set-up-communications-credits-for-toll-free-numbers"></a>7단계: 무료 번호에 대한 통신 크레딧 설정
 
-Microsoft Teams 무료 번호를 사용하려면 Communications Credits를 설정해야 합니다. 무료 통화는 분당 요금이 청구되며 긍정적인 통신 크레딧 잔액이 필요합니다.
+Microsoft Teams에서 무료 번호를 사용하려면 Communications Credits를 설정해야 합니다. 무료 통화는 분당 요금이 청구되며 긍정적인 통신 크레딧 잔액이 필요합니다.
 
 통신 크레딧은 다음과 같이 사용할 무료 번호를 추가하는 편리한 방법입니다.
 
@@ -113,9 +113,11 @@ Microsoft Teams 무료 번호를 사용하려면 Communications Credits를 설�
 
 - 매월 분 할당을 모두 소진한 후 전화 걸기 및 분당 지불
 
+- 종량제 통화 플랜이 있는 경우 모든 발신 통화에 대해 분당 전화 걸기 및 결제를 수행합니다.
+
 자세한 내용은 [커뮤니케이션 크레딧이란?](what-are-communications-credits.md) 을 참조하고 [조직에 대한 통신 크레딧을 설정합니다](set-up-communications-credits-for-your-organization.md).
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-articles"></a>관련 기사
 
 - [전화 시스템이란?](what-is-phone-system-in-office-365.md)
 

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 적절한 장치, 마이크, 스피커, 카메라 및 디스플레이 선택을 포함하여 Microsoft Teams 룸 지원하기 위한 요구 사항에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fc7c56ff41eb5d5cab01162468acf6b4dd11b344
-ms.sourcegitcommit: 3f6ae7946b64e857f6358019be2f0fdf19a207ad
+ms.openlocfilehash: 271e75787c9659dc453eeb1d6f3260aa7bd0dd3b
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2022
-ms.locfileid: "67074646"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156816"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 룸 요구사항
 
@@ -82,6 +82,8 @@ Microsoft Teams 룸 크기가 다른 객실 크기로 조정됩니다. Teams 룸
   |[회의실 G2 용 HP Elite Slice](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8GB |128GB |
   |[ Microsoft Teams 룸과 HP Elite Slice G2 오디오 준비](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8GB |128GB |
   |[Logitech TAP을 사용하여 HP Slice Partner Ready]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8GB|128GB| 
+  |[Microsoft Teams 룸 포함된 HP 프레즌스 소형 공간 솔루션](https://www.hp.com/us-en/solutions/presence.html)|Core i5|8GB|128GB|
+  |[HP 프레즌스 소형 공간 솔루션과 Microsoft Teams 룸 AI 카메라](https://www.hp.com/us-en/solutions/presence.html)|Core i5|8GB|128GB|
   | Lenovo ThinkSmart Hub 500 |Core i5 |8GB |128GB |
   |[Lenovo ThinkSmart Hub](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8GB |128GB|
   |Lenovo ThinkSmart Core Kit |Core i5|8GB|128GB|
@@ -148,6 +150,7 @@ Microsoft Teams 룸 크기가 다른 객실 크기로 조정됩니다. Teams 룸
 |[천장 마이크를 사용하는 Biamp Devio SCR-20CX Web-Based 회의 허브](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
 |[Biamp Devio SCR-20TX Web-Based 탁상 마이크가 있는 회의 허브](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | 
+|HP 현재 상태 카메라 보기| 1.0.23.0 |
 |[Huddly Canvas](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |
 |[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
