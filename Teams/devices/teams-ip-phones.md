@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 생성하기 위해 Microsoft Teams에 대해 인증된 책상 및 전화 회의 전화기를 알아봅니다.
-ms.openlocfilehash: 0fd39009285f411fce3719cac3b8e6f2b0673c59
-ms.sourcegitcommit: 08fe98cc6760028bdd1946ecc5d4ec61ce65e096
+ms.openlocfilehash: 346ef66bf0c042024f897d30b97fd5afed12d7f7
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67058929"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156706"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 인증 Android 디바이스
 
@@ -149,6 +149,8 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 | 디바이스 모델  | 펌웨어 버전  | 포함된 제품 릴리스  |
 |:----------------|:--------------|:----------------------------|
+|Poly Trio C60 | `7.3.1.0813` | 2022년 업데이트 #1C |
+|Poly CCX400/CCX500/CCX600/CCX505 | `7.3.1.0811` | 2022년 업데이트 #1C
 |Yealink T55A/T56A/T58A   | `58.15.0.157`     | 2022년 업데이트 #2A  |
 |Yealink VP59             | `91.15.0.90`      | 2022년 업데이트 #2A  |
 |Yealink CP960            | `73.15.0.153`     | 2022년 업데이트 #2A  |

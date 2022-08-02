@@ -19,17 +19,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3c4ff65fb87bed077e1020764382314d5d15c62
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 78aaad6506a7130d336d3847c55e0c0ec08c4450
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562437"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156787"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Teams의 Cortana 음성 지원
 
 > [!NOTE]
-> Cortana 음성 지원은 iOS 및 Android용 Microsoft Teams 모바일 앱 및 미국, 영국, 캐나다, 인도 및 오스트레일리아의 사용자를 위한 Microsoft Teams 디스플레이에서 지원됩니다. Windows의 Microsoft Teams 룸 로캘이 en-us로 설정된 디바이스에서만 지원됩니다. Cortana 음성 지원은 현재 GCC, GCC-High, DoD 및 미국 이외의 EDU 테넌트에 사용할 수 없습니다. Teams 모바일 앱의 Cortana 음성 지원은 이제 en-US의 EDU 고객에게 제공됩니다. 추가 언어 및 지역으로의 확장은 향후 릴리스의 일부로 수행됩니다.
+> Cortana 음성 지원은 iOS 및 Android용 Microsoft Teams 모바일 앱, Microsoft Teams 디스플레이 및 미국, 영국, 캐나다, 인도 및 오스트레일리아의 사용자를 위해 Windows의 Microsoft Teams 룸 지원됩니다. Teams 모바일 앱의 Cortana 음성 지원은 이제 en-US의 EDU 고객에게 제공됩니다. 추가 언어 및 지역으로의 확장은 향후 릴리스의 일부로 수행됩니다. Cortana 음성 지원은 현재 GCC, GCC-High, DoD 및 미국 이외의 EDU 테넌트에 사용할 수 없습니다.
 
 Teams 모바일 앱, Windows의 Microsoft Teams 룸 및 Microsoft Teams 디스플레이 디바이스에서 Cortana 음성 지원을 사용하면 Microsoft 365 Enterprise 사용자가 음성 자연어를 사용하여 커뮤니케이션, 공동 작업 및 모임 관련 작업을 간소화할 수 있습니다. 사용자는 Teams 모바일 앱의 오른쪽 위에 있는 마이크 단추를 선택하거나 Microsoft Teams 룸에서 또는 Microsoft Teams 디스플레이를 사용할 때 "Cortana"라고 말하여 Cortana와 대화할 수 있습니다. 핸즈프리로 팀과 빠르게 연결하고 이동 중에 사용자는 "Megan에게 전화" 또는 "다음 모임에 메시지 보내기"와 같은 쿼리를 말할 수 있습니다. 사용자는 "다음 모임에 참가"라고 말하고 음성 지원을 사용하여 파일을 공유하고 일정을 확인하는 등의 작업을 통해 모임에 참가할 수도 있습니다. 이러한 음성 지원 환경은 [온라인 서비스 약관(OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1&preserve-view=true)에 반영된 Office 365 개인 정보 보호, 보안 및 규정 준수 약속을 완전히 준수하는 [Cortana 엔터프라이즈급 서비스를](/microsoft-365/admin/misc/cortana-integration) 사용하여 제공됩니다.
 
@@ -125,7 +125,7 @@ Cortana가 디바이스 수준에서 사용하도록 설정된 경우 모임 수
 Lenovo Hub 500을 사용하거나 채팅방에 연결된 디바이스가 있는 경우 Cortana _음성 활성화_ 를 사용하도록 설정할 수 있습니다.
 
 - 자브라 파나캐스트 50
-- 랠리 마이크
+- Logi Rally Plus 회의 시스템
 - Bose Video Bar VB1
 - EPOS EXPAND Capture 5
 - Yealink MSpeech

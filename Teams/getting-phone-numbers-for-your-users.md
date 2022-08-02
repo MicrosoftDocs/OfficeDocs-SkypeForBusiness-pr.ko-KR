@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Teams의 기존 번호를 새로 얻거나, 포팅하거나, 전송하는 방법과 변경 내용을 사용자에게 표시하는 방법을 알아봅니다.
-ms.openlocfilehash: 18dd5a84110dc25721d9f8c027dffe861d29cbd1
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: b0ed990cd16a7e4878c2819a95fac29f46a9d770
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682547"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156546"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>사용자의 전화 번호 가져오기
 
@@ -42,31 +42,34 @@ ms.locfileid: "66682547"
   
 > [!NOTE]
 > 조직의 전화 번호를 설정하는 데 도움이 필요한 경우 [고객 지원 고객사 제품 - 관리 도움말에 문의](/microsoft-365/admin/contact-support-for-business-products)하세요.
+
 ## <a name="get-new-phone-numbers-for-your-users"></a>사용자의 새 전화 번호 가져오기
 
- **Microsoft Teams 관리 센터 사용**
+**Microsoft Teams 관리 센터 사용**
 
 이러한 정책을 관리하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다. 관리 역할 및 사용 권한 가져오기에 대한 내용은 [Teams 관리자 역할 사용](./using-admin-roles.md)을 참조하세요.
 
 1. Microsoft Teams 관리 센터로 이동합니다.
 
-2. 왼쪽 탐색 영역에서 **음성** > **전화 번호** 로 이동한 다음 **추가** 를 클릭합니다.
+2. 왼쪽 탐색 영역에서 **음성** > **전화 번호** 로 이동한 다음 **추가** 를 선택합니다.
 
 3. 주문 이름을 입력하고 설명을 추가합니다.
 
 4. 위치 및 수량 페이지에서 다음을 수행합니다.
     1. **국가 또는 지역에서** 국가 또는 지역을 선택합니다.
     2. **번호 유형** 에서 **사용자(구독자)** 를 선택합니다.
-    3. **위치** 아래에서 위치를 선택합니다. 새 위치를 만들어야 하는 경우 **위치 추가를** 클릭합니다.
+    3. **위치** 아래에서 위치를 선택합니다. 새 위치를 만들어야 하는 경우 **위치 추가를** 선택합니다.
     4. **영역 코드** 에서 지역 코드를 선택합니다.
-    5. **수량** 에서 조직에 대해 원하는 숫자 수를 입력한 다음 **다음** 을 클릭하여 번호를 선택합니다.
+    5. **수량** 에서 조직에 대해 원하는 숫자 수를 입력한 다음 **다음** 을 선택하여 숫자를 선택합니다.
 
 5. 원하는 숫자를 선택합니다. 전화 번호를 선택하고 주문을 하는 데 10분이 걸립니다. 10분 이상 걸리면 전화 번호가 숫자 풀로 반환됩니다.
 
-6. 주문할 준비가 되면 **주문 배치** 를 클릭합니다.
+6. 주문할 준비가 되면 **주문 순서** 를 선택합니다.
 
     > [!IMPORTANT]
-    > 사용자(구독자)의 전화 번호 수는 할당한 **국내 통화 플랜** 및 **국제 통화 플랜** 라이선스의 총 수에 1.1과 10개의 추가 전화 번호를 곱한 것과 같습니다. 예를 들어 총 50명의 사용자가 국내 통화 플랜 및/또는 국제 통화 플랜을 사용하는 경우 **65** 개의 전화 번호 **(50 x 1.1 + 10)** 를 획득할 수 있습니다. 자세한 내용은 [얼마나 많은 전화 번호를 받을 수 있나요?](./how-many-phone-numbers-can-you-get.md)를 참조하세요. 이보다 더 많은 전화 번호를 받아야 하는 경우 [고객 지원 고객사 제품 - 관리 도움말에 문의](/microsoft-365/admin/contact-support-for-business-products)하세요.
+    > 사용자(구독자)의 전화 번호 수는 할당한 **국내 통화 플랜** 및 **국제 통화 플랜** 라이선스의 총 수에 1.1과 10개의 추가 전화 번호를 곱한 것과 같습니다. 예를 들어 총 50명의 사용자가 국내 통화 플랜 및/또는 국제 통화 플랜을 사용하는 경우 **65** 개의 전화 번호 **(50 x 1.1 + 10)** 를 획득할 수 있습니다. 종량제 통화 플랜이 있는 경우 할당된 라이선스당 1개의 전화 번호만 획득할 수 있습니다.
+    >
+    > 자세한 내용은 [얼마나 많은 전화 번호를 받을 수 있나요?](./how-many-phone-numbers-can-you-get.md)를 참조하세요. 이보다 더 많은 전화 번호를 받아야 하는 경우 [고객 지원 고객사 제품 - 관리 도움말에 문의](/microsoft-365/admin/contact-support-for-business-products)하세요.
   
 ## <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>서비스 공급자 또는 전화 통신 사업자의 전화 번호 포트 또는 전송
   
@@ -76,7 +79,7 @@ ms.locfileid: "66682547"
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>조직의 전화 번호 보기
 
- **Microsoft Teams 관리 센터 사용**
+**Microsoft Teams 관리 센터 사용**
 
 관리 센터의 왼쪽 탐색 영역에서 **음성** > **전화 번호** 로 이동하여 위치, 번호 유형 및 상태 정보를 포함하여 조직의 번호를 확인합니다.
   
@@ -87,7 +90,7 @@ ms.locfileid: "66682547"
 > [!NOTE]
 > 이보다 더 많은 전화 번호를 받아야 하는 경우 [고객 지원 고객사 제품 - 관리 도움말에 문의](/microsoft-365/admin/contact-support-for-business-products)하세요.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-articles"></a>관련 기사
 
 [전화 번호 전송 자주 묻는 질문](./phone-number-calling-plans/port-order-overview.md)
 

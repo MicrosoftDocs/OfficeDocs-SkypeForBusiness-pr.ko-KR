@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 피드백 정책을 사용하여 조직의 Teams 사용자가 Teams에 대한 피드백을 Microsoft에 제출할 수 있는지 여부를 제어하는 방법을 알아봅니다.
-ms.openlocfilehash: 7fcfa1738f7dbbc0f7c70afec86e9e2f181d6d21
-ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
+ms.openlocfilehash: f9d001fba9503f6d5f2e482a437bc8f38c8ffc7d
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "66713346"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156526"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Microsoft Teams에서 피드백 정책 관리
 
@@ -60,7 +60,7 @@ ms.locfileid: "66713346"
 
 예를 들어 조직의 모든 사용자가 피드백을 보내고 교육에서 신입 사원을 제외한 설문 조사를 받을 수 있도록 허용하려고 합니다. 이 시나리오에서는 두 기능을 모두 끄고 신규 채용 담당자에게 할당하는 사용자 지정 정책을 만듭니다. 조직의 다른 모든 사용자는 기능이 켜져 있는 전역 정책을 받습니다.  
 
-PowerShell을 사용하여 피드백 정책을 관리합니다. [**New-CsTeamsFeedbackPolicy** cmdlet](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)을 사용하여 사용자 지정 정책을 만듭니다. **Grant-CsTeamsFeedbackPolicy** cmdlet을 사용하여 보안 그룹 또는 메일 그룹과 같은 하나 이상의 사용자 또는 사용자 그룹에 할당합니다. **Set-CsTeamsFeedbackPolicy** 를 사용하여 특정 플래그를 설정합니다.
+PowerShell을 사용하여 피드백 정책을 관리합니다. [**New-CsTeamsFeedbackPolicy** cmdlet](/powershell/module/skype/new-csteamsfeedbackpolicy)을 사용하여 사용자 지정 정책을 만듭니다. **Grant-CsTeamsFeedbackPolicy** cmdlet을 사용하여 보안 그룹 또는 메일 그룹과 같은 하나 이상의 사용자 또는 사용자 그룹에 할당합니다. **Set-CsTeamsFeedbackPolicy** 를 사용하여 특정 플래그를 설정합니다.
 
 기능을 끄고 켜려면 다음 매개 변수를 설정합니다.
 
@@ -68,7 +68,7 @@ PowerShell을 사용하여 피드백 정책을 관리합니다. [**New-CsTeamsFe
 
  - **설문 조사**: 정책이 할당된 사용자가 설문 조사를 받을 수 있도록 **receiveSurveysMode** 매개 변수를 **사용하도록** 설정합니다. 사용자가 설문 조사를 받고 옵트아웃하도록 허용하려면 매개 변수를 **enabledUserOverride** 로 설정합니다. Teams에서 사용자는 **설정** > **개인 정보 보호** 로 이동하여 설문 조사에 참여할지 여부를 선택할 수 있습니다. 매개 변수를 **사용하지 않도록** 설정하면 기능이 해제되고 정책이 할당된 사용자는 설문 조사를 받지 못합니다.
 
- - **전자 메일**: **AllowEmailCollection** 플래그를 사용하여 전자 메일 필드를 추가합니다.
+ - **Email**: **AllowEmailCollection** 플래그를 사용하여 전자 메일 필드를 추가합니다.
  - **로그 컬렉션**: **AllowLogCollection** 플래그를 사용하여 사용자에 대한 로그 컬렉션 옵트인을 추가합니다. 로그 수집은 현재 모바일에서만 사용하도록 설정되어 있습니다. 로그를 통해 공유되는 데이터에 대한 자세한 내용은 [자세히 알아보세요](https://go.microsoft.com/fwlink/?linkid=2168178).
 
 ## <a name="create-a-custom-feedback-policy"></a>사용자 지정 피드백 정책 만들기
