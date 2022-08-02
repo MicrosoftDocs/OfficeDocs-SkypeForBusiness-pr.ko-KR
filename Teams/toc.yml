@@ -865,6 +865,8 @@ items:
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: 운영자 연결
             items:
+              - name: 새로운 기능
+                href: operator-connect-whats-new.md
               - name: 운영자 연결 계획
                 href: operator-connect-plan.md
               - name: 운영자 연결 구성
@@ -1622,6 +1624,8 @@ items:
                 href: education-insights-manage-access.md
               - name: Reflect 시작하기
                 href: reflect.md
+              - name: 읽기 진행에 대한 인사이트 이해
+                href: insights-for-reading-progress.md
           - name: 교육용 Teams의 과제
             href: expand-teams-across-your-org/assignments-in-teams.md
           - name: 교육 관리자용 Teams 리소스

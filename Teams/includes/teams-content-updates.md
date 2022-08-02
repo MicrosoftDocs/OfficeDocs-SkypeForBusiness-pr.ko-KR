@@ -3,10 +3,33 @@
 
 
 
+## <a name="week-of-july-25-2022"></a>2022년 7월 25일 주
+
+
+| 게시 날짜 |토픽 제목 | 잔돈 |
+|------|------------|--------|
+| 7/25/2022 | [전화 번호 및 라이선스 변경](/MicrosoftTeams/phone-numbers-licensing-changes) | 추가 |
+| 7/25/2022 | [Microsoft Teams의 모임 정책 및 모임 만료](/MicrosoftTeams/meeting-expiration) | 으로 바뀌었습니다 |
+| 7/25/2022 | [Managed Services에 Teams 룸 디바이스 등록](/MicrosoftTeams/rooms/enroll-a-device) | 으로 바뀌었습니다 |
+| 7/25/2022 | [Teams용 브라우저 로그 및 추적](/MicrosoftTeams/browser-logs-and-tracing-for-teams) | 추가 |
+| 7/25/2022 | [Teams에서 모니터링 및 문제 해결을 위한 로그 파일 구성](/MicrosoftTeams/log-files) | 으로 바뀌었습니다 |
+| 7/26/2022 | [Microsoft Teams에서 커리어 코치 통합을 위한 리소스](/MicrosoftTeams/career-coach-resources) | 추가 |
+| 7/26/2022 | [Microsoft Teams용 커리어 코치 설정 및 구성](/MicrosoftTeams/career-coach-set-up-steps) | 추가 |
+| 7/26/2022 | [Microsoft Teams용 경력 코치 문제 해결](/MicrosoftTeams/career-coach-troubleshoot) | 추가 |
+| 7/26/2022 | [Microsoft Teams의 공유 채널 오류](/MicrosoftTeams/shared-channels-errors) | 추가 |
+| 7/26/2022 | [Microsoft Teams용 커리어 코치 시작](/MicrosoftTeams/career-coach) | 으로 바뀌었습니다 |
+| 7/26/2022 | [Microsoft Teams용 커리어 코치 시작](/MicrosoftTeams/cloud-recording) | 으로 바뀌었습니다 |
+| 7/26/2022 | [게스트 액세스 및 외부 액세스를 사용하여 조직 외부 사용자와 공동 작업](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 으로 바뀌었습니다 |
+| 7/26/2022 | [고객을 위한 파트너 관리](/MicrosoftTeams/rooms/multi-tenant-management-customer) | 으로 바뀌었습니다 |
+| 7/26/2022 | [파트너를 위한 다중 테넌트 고객 관리](/MicrosoftTeams/rooms/multi-tenant-management-partner) | 으로 바뀌었습니다 |
+| 7/26/2022 | [사용자에게 Teams 추가 기능 라이선스 할당](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | 으로 바뀌었습니다 |
+| 7/29/2022 | [조직의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-landing-page) | 으로 바뀌었습니다 |
+
+
 ## <a name="week-of-july-18-2022"></a>2022년 7월 18일 주
 
 
-| 게시 날짜 |토픽 제목 | 변경 |
+| 게시 날짜 |토픽 제목 | 잔돈 |
 |------|------------|--------|
 | 7/18/2022 | [Microsoft Teams의 앱 정보 알기](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 으로 바뀌었습니다 |
 | 7/18/2022 | [Microsoft Teams에서 앱 설정 정책 관리](/MicrosoftTeams/teams-app-setup-policies) | 으로 바뀌었습니다 |
@@ -28,7 +51,7 @@
 ## <a name="week-of-july-11-2022"></a>2022년 7월 11일 주
 
 
-| 게시 날짜 |토픽 제목 | 변경 |
+| 게시 날짜 |토픽 제목 | 잔돈 |
 |------|------------|--------|
 | 7/13/2022 | [보류 중인 음악](/MicrosoftTeams/music-on-hold) | 으로 바뀌었습니다 |
 | 7/14/2022 | [SIP 게이트웨이 계획](/MicrosoftTeams/sip-gateway-plan) | 으로 바뀌었습니다 |
@@ -73,7 +96,7 @@
 ## <a name="week-of-july-04-2022"></a>2022년 7월 4일 주
 
 
-| 게시 날짜 |토픽 제목 | 변경 |
+| 게시 날짜 |토픽 제목 | 잔돈 |
 |------|------------|--------|
 | 7/5/2022 | [자동 전화 교환 및 통화 큐에 대한 PowerShell cmdlet 참조](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | 으로 바뀌었습니다 |
 | 7/5/2022 | [Microsoft Teams에 대한 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 으로 바뀌었습니다 |
@@ -97,7 +120,7 @@
 ## <a name="week-of-june-27-2022"></a>2022년 6월 27일 주
 
 
-| 게시 날짜 |토픽 제목 | 변경 |
+| 게시 날짜 |토픽 제목 | 잔돈 |
 |------|------------|--------|
 | 6/27/2022 | [클라우드 음성 사서함 설정 관리](/MicrosoftTeams/manage-voicemail-settings) | 추가 |
 | 6/27/2022 | [전화 번호 서비스 팀에 문의](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | 으로 바뀌었습니다 |
@@ -108,20 +131,3 @@
 | 6/27/2022 | [참가자 및 게스트에 대한 모임 정책 관리](/MicrosoftTeams/meeting-policies-participants-and-guests) | 으로 바뀌었습니다 |
 | 6/28/2022 | [세션 테두리 컨트롤러 구성 - 여러 테넌트](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 으로 바뀌었습니다 |
 | 6/29/2022 | [원격으로 Microsoft Teams 룸 디바이스 설정 관리](/MicrosoftTeams/rooms/xml-config-file) | 으로 바뀌었습니다 |
-
-
-## <a name="week-of-june-20-2022"></a>2022년 6월 20일 주
-
-
-| 게시 날짜 |토픽 제목 | 변경 |
-|------|------------|--------|
-| 6/20/2022 | [serviceNow for Teams 룸 구성](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | 으로 바뀌었습니다 |
-| 6/21/2022 | [교육용 Teams 부모의 관리 설정](/MicrosoftTeams/edu-parents-app) | 으로 바뀌었습니다 |
-| 6/21/2022 | [자동 전화 교환 및 통화 큐에 대한 PowerShell cmdlet 참조](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | 으로 바뀌었습니다 |
-| 6/21/2022 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으로 바뀌었습니다 |
-| 6/21/2022 | [Microsoft Teams 관리 센터에서 Microsoft Power Platform 앱 관리](/MicrosoftTeams/manage-power-platform-apps) | 으로 바뀌었습니다 |
-| 6/22/2022 | [실시간 원격 분석을 사용하여 모임 품질 저하 문제 해결](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | 으로 바뀌었습니다 |
-| 6/23/2022 | [Microsoft Teams 관리 센터에서 Microsoft Power Platform 앱 관리](/MicrosoftTeams/manage-power-platform-apps) | 으로 바뀌었습니다 |
-| 6/23/2022 | [교육용 Microsoft Teams 커리어 코치 구매, 구성 및 사용](/MicrosoftTeams/career-coach) | 으로 바뀌었습니다 |
-| 6/23/2022 | [연산자 연결 구성](/MicrosoftTeams/operator-connect-configure) | 으로 바뀌었습니다 |
-| 6/24/2022 | [Microsoft Teams 관리 센터에서 앱 관리](/MicrosoftTeams/manage-apps) | 으로 바뀌었습니다 |
