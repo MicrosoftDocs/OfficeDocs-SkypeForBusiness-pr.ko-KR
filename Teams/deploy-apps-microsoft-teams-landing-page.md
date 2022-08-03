@@ -19,26 +19,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: a74128c7732d649c33ee50c73255eee956053260
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 8fa6763641edf1b4eff29e16fb7ecdeaa4111edf
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880382"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156686"
 ---
-# <a name="about-apps-in-microsoft-teams"></a>Microsoft Teams의 앱 정보
+# <a name="understand-microsoft-teams-apps"></a>Microsoft Teams 앱 이해하기
 
 앱은 작업 공간 도구와 서비스를 통합하고 다른 사용자와 공동 작업할 수 있는 좋은 방법입니다. 앱을 사용하면 최종 사용자가 일상적인 작업에서 생산성을 향상하고 공동 작업하며 효과적으로 작업할 수 있습니다. 조직은 앱을 사용하여 고객과 연결하고, 서비스를 제공하고, 정보를 공유합니다. 예를 들어 Teams에서 고정된 일정 앱을 사용하여 다른 사용자와 빠르게 공동 작업하는 최종 사용자, 사용자에게 Teams 채널의 웹 서비스 품질을 알려주는 봇 기능이 있는 앱, 채널에서 다양한 최종 사용자에게 작업을 공유하고 할당하는 앱이 있습니다.
 
-스토어에서 유효성이 검사되고 안전한 앱을 광범위하게 선택하면 최종 사용자가 조직에 매일 필요한 도구와 서비스에 액세스할 수 있습니다. Microsoft Teams 앱은 배포할 필요가 없는 웹 기반 SaaS 앱입니다. 최종 사용자는 사용자가 제공한 [권한](https://admin.teams.microsoft.com/policies/app-permission)에 따라 Teams에서 앱을 사용할 수 있습니다. 관리자는 조직의 사용자에 대한 앱 사용을 승인하거나 차단합니다. 모임, 채팅 및 채널에서 모든 사용자의 앱 가용성을 제어합니다.
+Teams 스토어의 유효성이 검사되고 안전한 앱이 포함된 광범위한 카탈로그를 통해 최종 사용자는 조직에 매일 필요한 도구와 서비스에 액세스할 수 있습니다. Microsoft Teams 앱은 배포할 필요가 없는 웹 기반 SaaS 앱입니다. 최종 사용자는 오직 [관리자가 제공한 권한](app-policies.md)에 따라 Teams에서 앱을 사용할 수 있습니다. 관리자는 엔터프라이즈급 정책을 사용하여 조직의 사용자를 대상으로 앱을 허용하거나 차단합니다. 모임, 채팅 및 채널과 같은 다양한 컨텍스트에서 각 사용자에 대해 앱의 사용 가능성을 제어합니다.
 
-최종 사용자에게 필요한 앱을 제공하려면 계속 읽어서 앱 유형과 사용자가 해당 앱에 액세스하는 위치를 이해하세요. 앱 사용에 대한 자세한 내용은 [최종 사용자용 앱 개요](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)를 참조하세요.
-
-<!--- Commenting the previous content as part of this article revamp.
-
-Apps let users find content from their favorite services and share it in Teams. They let you do tasks such as pin services at the top of a channel, automate notifications using bots, or share and assign tasks.
-
---->
+이 문서는 앱 유형 및 사용자가 해당 앱에 액세스하는 위치를 이해하는 데 도움이 됩니다. 앱 사용에 대한 자세한 내용은 [최종 사용자 대상 앱 개요](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)를 참조하세요.
 
 최종 사용자가 Teams에서 사용할 수 있는 다양한 유형의 앱은 다음과 같습니다.
 
@@ -49,7 +43,7 @@ Apps let users find content from their favorite services and share it in Teams. 
 
 ## <a name="core-apps"></a>핵심 앱
 
-활동 피드, Teams 채널, 채팅, 일정 및 통화와 같은 일부 기본 기능을 사용할 수 있으며 최종 사용자가 쉽게 액세스할 수 있도록 기본적으로 고정됩니다. 관리자는 [설정 정책](/microsoftteams/teams-app-setup-policies)을 사용하여 기본 동작을 수정할 수 있습니다.
+활동 피드, 채널, 채팅, 일정, 통화와 같은 일부 Teams 기능이 기본 제공되며, 이러한 기능들은 최종 사용자가 쉽게 액세스할 수 있도록 기본적으로 고정되어 있습니다. 관리자는 [정책 설정](/microsoftteams/teams-app-setup-policies)을 사용하여 이러한 기본 동작을 수정할 수 있습니다.
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="핵심 앱은 기본적으로 Teams에 고정된 앱입니다." lightbox="media/core-apps-pinned2.png":::
 
@@ -69,15 +63,17 @@ Microsoft에서 제공하는 앱 외에도 Microsoft에서 유효성을 검사�
 
 ## <a name="custom-apps"></a>사용자 지정 앱
 
-조직의 개발자가 만든 앱을 사용자 지정 앱이라고 합니다. 이러한 앱의 개발은 조직의 특정 요구 사항에 대한 위임을 받고 이러한 앱을 허용하거나 허용하지 않도록 제어할 수 있습니다. 조직의 개발자는 [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions)와 Teams의 통합 기능을 사용하여 사용자 지정 로우 코드 솔루션을 빠르게 빌드할 수 있습니다.
+조직의 개발자가 만든 앱을 사용자 지정 앱(또는 기간 업무 앱)이라고 합니다. 조직에서 조직 관련 요구 사항에 맞는 사용자 지정 앱 생성을 의뢰할 수도 있습니다. 조직 전체 또는 특정 사용자를 대상으로 이러한 앱에 대한 허용 또는 차단 여부를 제어할 수 있습니다. 조직의 개발자는 [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions)과 Teams의 통합을 사용하여 사용자 지정 로우 코드 솔루션을 빌드할 수 있습니다.
 
 관리자가 사용자 지정 앱의 사용을 허용한 후 최종 사용자는 Teams 스토어의 왼쪽 탐색에서 **조직용으로 빌드** 를 클릭하여 이러한 앱을 찾습니다.
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Teams 데스크톱 앱의 Teams 스토어에 있는 사용자 지정 앱 스크린샷" lightbox="media/built-for-your-org2.png":::
 
+<!--- TBD - new article on custom app overview and sideloading. --->
+
 ### <a name="understand-sideloading-of-custom-apps"></a>사용자 지정 앱의 테스트용 로드 이해
 
-사용자 지정 앱을 개발할 때 최종 사용자에게 해당 앱을 배포하기 전에 개발자는 앱을 스토어에 추가하여 자체적으로 테스트하거나 앱을 사이드로드하는 팀과 함께 테스트하는 방식으로 앱을 테스트합니다. 이 메서드는 앱의 테스트용 로드라고 하며 사용자 지정 앱에만 적용됩니다.
+사용자 지정 앱을 개발할 때, 최종 사용자에게 해당 앱을 배포하기 전에 개발자는 테스트할 Teams 스토어에 앱을 추가하여 앱을 테스트합니다. 개발자는 자체적으로 테스트하거나 지정된 사용자 그룹을 통해 테스트할 수 있습니다. 그러나 조직의 다른 최종 사용자는 앱을 사용할 수 없습니다. 이 메서드는 앱의 테스트용 로드라고 하며 사용자 지정 앱에만 적용됩니다.
 
 개발자는 일반적으로 개발 중인 앱을 테스트하기 위해 특정 팀의 구성원이 사용할 수 있도록 앱을 사이드로드할 수 있습니다. 이러한 방식으로 앱을 사용하면 앱 개발자에게만 사용이 제한되며 관리자가 Teams에서 테스트용 로드를 허용하는 한 관리자 승인이 필요하지 않습니다. 관리자는 모든 개발자의 앱 사이드로드를 허용하지 않을 수 있습니다.
 
