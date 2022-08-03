@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Microsoft Teams에서 자동 전화 교환을 설정하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 384c7aae5e11c938a6bf8ab5f82924d0379a83aa
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: e54ffdeac8db21ebcc6cc00f51893769e0d194bb
+ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616114"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67176102"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 전화 교환 설정
 
@@ -33,16 +33,19 @@ ms.locfileid: "66616114"
 
 이 문서의 절차를 따르기 전에 [Teams 자동 전화 교환 및 통화 큐에 대한 계획을](plan-auto-attendant-call-queue.md) 읽고 [시작 단계를](plan-auto-attendant-call-queue.md#getting-started) 수행했는지 확인합니다.
 
-자동 전화 교환은 호출자의 입력에 따라 다음 대상 중 하나로 통화를 보낼 수 있습니다.
+자동 전화 교환은 호출자의 입력에 따라 다음 대상 중 하나로 통화를 리디렉션할 수 있습니다.
 
 - **연산자** - 자동 전화 교환에 대해 정의된 연산자입니다. 연산자 정의는 선택 사항입니다. 연산자는 이 목록의 다른 대상으로 정의할 수 있습니다.
 - **조직의 사용자** - 음성 통화를 받을 수 있는 조직의 사용자입니다. 이 사용자는 온라인 사용자 또는 비즈니스용 Skype 서버 사용하여 온-프레미스에서 호스트되는 사용자일 수 있습니다.
 - **음성 앱** - 다른 자동 전화 교환 또는 통화 큐. (이 대상을 선택할 때 자동 전화 교환 또는 통화 큐와 연결된 리소스 계정을 선택합니다.)
 - **음성 메일** - 지정한 Microsoft 365 그룹과 연결된 음성 사서함입니다. 음성 메일 전사를 원하는지, "음색이 나면 메시지를 남겨주세요"를 선택할 수 있습니다. 시스템 프롬프트입니다.
   - M365 관리 센터에서 지정한 Microsoft 365 그룹에 대해 "조직 외부 사용자가 이 팀에게 전자 메일을 보내도록 허용"을 사용하도록 설정합니다.
-- **외부 전화 번호** - 모든 전화 번호입니다. [외부 전송 기술 세부 정보를 참조하세요](create-a-phone-system-auto-attendant.md?tabs=additional-resources).
+- **외부 전화 번호** - 모든 전화 번호입니다. [외부 전송 기술 세부 정보를 참조하세요](create-a-phone-system-auto-attendant.md?tabs=general-info#external-phone-number-transfers---technical-details).
 - **알림(오디오 파일)** - 오디오 파일을 재생합니다. 오디오로 저장된 업로드한 기록된 알림 메시지입니다. WAV, .MP3 또는 . WMA 형식입니다. 녹음/녹화는 5MB를 초과할 수 없습니다. 시스템에서 알림을 재생한 다음 자동 전화 교환 메뉴로 돌아갑니다.
 - **알림(형식)** - 메시지를 입력합니다. 시스템에서 읽을 텍스트입니다. 최대 1,000자를 입력할 수 있습니다. 시스템에서 알림을 재생한 다음 자동 전화 교환 메뉴로 돌아갑니다.
+
+> [!NOTE]
+> **조직의 사용자** 로 통화를 리디렉션할 때 해당 사용자는 음성을 사용하도록 설정해야 합니다. 음성 사용 설정에 대한 자세한 내용은 [사용자에게 Teams 추가 기능 라이선스 할당을 참조하세요](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 자동 전화 교환을 추가하는 단계는 다음과 같습니다.
 
@@ -232,7 +235,7 @@ ms.locfileid: "66616114"
    > [!div class="nextstepaction"]
    > [테스트 실행: Teams 자동 전화 교환](https://aka.ms/TeamsAADiag)
 
-2. 진단 실행 창의 **사용자 이름 또는 전자 메일** 필드에 리소스 계정을 입력한 다음 **테스트 실행을** 선택합니다.
+2. 진단 실행 창의 **사용자 이름 또는 Email** 필드에 리소스 계정을 입력한 다음 **테스트 실행을** 선택합니다.
 
 3. 테스트는 자동 전화 교환이 전화를 받을 수 없도록 하는 테넌트, 정책 또는 리소스 계정 구성을 식별하고 식별된 문제를 해결하는 단계를 제공합니다.
 

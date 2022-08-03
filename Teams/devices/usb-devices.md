@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 'Microsoft Teams용으로 인증된 USB 주변 장치 및 장치(예: 헤드셋, 스피커폰, 웹캠 및 모니터)를 확인합니다.'
-ms.openlocfilehash: 003a532331ad7a1c3e88addad3f2f73a8b5b1f61
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 3df5c2e8a9b3ce27967a8b061c444daccd4cace5
+ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156946"
+ms.locfileid: "67176092"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams용으로 인증된 USB 오디오 및 비디오 장치
 
@@ -80,13 +80,15 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 [Teams에서 헤드�
 
 ## <a name="certified-devices"></a>인증된 디바이스
 
-*테이블 업데이트 날짜: 2022년 7월*
+*테이블 업데이트 날짜: 2022년 8월*
 
 > [!NOTE]
 > 날짜 형식은 MMDDYYYY입니다.
 
 | 생산자        | 모델                                                     | 자격      | 인증된 프로그램                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |50 II 참여                                               |7/29/2022       |Microsoft Teams용 인증                           | 
+|Jabra                |참여 40                                                  |7/29/2022       |Microsoft Teams용 인증                           |
 |Logi(Logi)                 |도킹 스피커폰                                          |7/13/2022       |Microsoft Teams용 인증                           |
 |작은 골짜기                 |WB5023 카메라                                              |6/29/2022       |Microsoft Teams용 인증                           |
 |EPOS                 |ADAPT 560 II 헤드셋                                       |6/22/2022       |Microsoft Teams용 인증                           |

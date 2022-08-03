@@ -117,8 +117,6 @@ items:
         items:
           - name: Teams에 대한 관리자 교육
             href: itadmin-readiness.md
-          - name: Ignite의 팀 세션
-            href: ignite-2020-landing-page.md
           - name: Teams에 대한 최종 사용자 교육
             href: instructor-led-training-teams-landing-page.yml
   - name: 비즈니스용 Skype에서 업그레이드

@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 관리 Microsoft Teams 룸 누적 개선 사항을 나열하는 Microsoft Teams 룸 대한 릴리스 정보를 읽을 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 07b4661df5df7ac766c17a07c2bdd940b3d2cb6b
-ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
+ms.openlocfilehash: b5630636ce5dc8f26d430e6d883bff0dc2bcc71f
+ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66810110"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67175852"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 룸 대한 릴리스 정보
 
@@ -37,8 +37,9 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 
 ## <a name="version-history"></a>버전 기록
 
-|릴리스 |게시 날짜 <br/> Microsoft Store |
+|석방 |게시 날짜 <br/> Microsoft Store |
 |--- |--- |
+|4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
 |4.12.138.0 |5/26/2022 |
 |4.12.126.0 |4/27/2022 |
@@ -92,6 +93,29 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 |RTM(1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams 룸 기능 소개 및 문제 해결
+
+### <a name="4131320-822022"></a>4.13.132.0 (8/2/2022)
+
+이 업데이트에 도입된 내용은 다음과 같습니다.
+
+- 모임 ID를 사용하여 Teams 모임 참가
+- 일대일 Teams 호출에 대한 엔드 투 엔드 암호화<sup>1</sup> 
+- Teams 모임의 노이즈 억제<sup>2</sup>
+- 공유 트레이 환경 업데이트
+- 채팅방 비디오에서 상태 음소거 및 음소거 해제
+- 콘텐츠 전용 레이아웃 기본값에 대한 관리 설정  
+- 최신 인증은 기본적으로 켜집니다.
+
+ <sup>1</sup> Teams 룸 디바이스의 통화에 대해 엔드 투 엔드 암호화를 설정하려면 디바이스의 사용자 계정에 대한 정책을 구성해야 합니다. Teams 관리 센터에서 또는 Teams PowerShell을 사용하여 사용자의 정책을 업데이트할 수 있습니다. 자세한 내용은 [Teams 룸 사용자 계정에 대한 정책 구성을 참조하세요.](../teams-end-to-end-encryption.md)
+
+ <sup>2</sup> Teams 룸 관리자 재정의를 사용하여 릴리스 4.12에서 노이즈 억제에 대한 지원을 추가했습니다.
+
+> [!IMPORTANT]
+> 이 업데이트를 통해 새 Teams 룸 디바이스는 이제 Microsoft Teams 및 Exchange Online 연결할 때 최신 인증을 기본적으로 사용합니다.
+>
+> 회의실 계정에 대한 최신 인증을 설정하여 8월 말 이전에 Teams 룸 디바이스를 테스트하는 것이 좋습니다.
+>
+> 이 변경은 2022년 10월 1일부터 기본 인증을 해제하도록 Exchange Online 예정된 업데이트를 준비하는 데 도움이 됩니다. 자세한 내용은 [Exchange Online – 2022년 5월 업데이트의 기본 인증 사용 중단](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-deprecation-in-exchange-online-may-2022/ba-p/3301866)을 참조하세요.  
 
 ### <a name="4121390-7142022"></a>4.12.139.0 (7/14/2022)
 
