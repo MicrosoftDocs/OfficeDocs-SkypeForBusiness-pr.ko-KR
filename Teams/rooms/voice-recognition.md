@@ -14,18 +14,19 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d5caa402be0ea282d70bfe17cc9d2d728e6ec2c
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 9052812a669a808536cbd0179d6c16b9228296c4
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65760930"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270043"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>지능형 스피커에 대한 음성 인식 기술 컨트롤 관리
 
-지능형 스피커는 음성 프로필 정보를 사용하여 라이브 전사에서 누가 말한지 인식합니다. Windows 회의실 Microsoft Teams 룸 인텔리전트 스피커가 장착된 경우 모임 중에 라이브 전사를 사용할 수 있습니다. 이 문서에서는 테넌트 관리자가 음성 인식에 사용되는 음성 프로파일링을 제어하여 라이브 전사를 생성하는 방법을 설명합니다. 조직에서 음성 인식 및 다음 기능을 사용하는 정도를 제어할 수 있습니다.
+지능형 스피커는 음성 프로필 정보를 사용하여 라이브 전사에서 누가 말한지 인식합니다. Windows용 Microsoft Teams 룸 인텔리전트 스피커가 장착된 경우 모임 중에 라이브 전사를 사용할 수 있습니다. 이 문서에서는 테넌트 관리자가 음성 인식에 사용되는 음성 프로파일링을 제어하여 라이브 전사를 생성하는 방법을 설명합니다. 조직에서 음성 인식 및 다음 기능을 사용하는 정도를 제어할 수 있습니다.
 
 - 대본에서 화자의 이름을 편집합니다.
 - 대본에서 단일 발화의 화자를 변경하거나 대본의 모든 발화에서 화자를 변경합니다(이후의 대본에는 적용되지 않음).
@@ -59,7 +60,7 @@ Epos, Sennheiser 및 Yealink 인텔리전트 스피커가 지원됩니다.
 인텔리전트 스피커는 벽과 노트북과 같은 대형 물체에서 8인치(20cm) 이상 떨어져 있어야 합니다. 인텔리전트 스피커 USB 케이블이 설치하기에 충분하지 않은 경우 케이블 확장기를 사용합니다.
 
 1. 관리자 권한으로 콘솔에 로그인합니다.
-2. 인텔리전트 스피커 마이크 및 스피커와 일치하도록 Teams 디바이스 설정을 지정합니다.
+2. 지능형 스피커 마이크 및 스피커와 일치하도록 Teams 디바이스 설정을 지정합니다.
    회의실 콘솔 대신 TAC 포털을 통해 이 작업을 수행할 수도 있습니다.
 
    이 다이어그램은 디바이스에 데이터 상자가 포함된 경우 지능형 스피커가 디바이스에 연결되는 방법을 보여줍니다.
@@ -75,7 +76,7 @@ Epos, Sennheiser 및 Yealink 인텔리전트 스피커가 지원됩니다.
 
 ## <a name="enable-an-intelligent-speaker-user-recognition"></a>인텔리전트 스피커 사용자 인식 사용
 
-음성 프로필 데이터는 인텔리전트 스피커와의 모든 모임에서 사용할 수 있습니다. 모임 설정에 대한 자세한 내용은 [Teams 모임 정책](../meetings-policies-recording-and-transcription.md#allow-transcription) 및 [PowerShell 모임 cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy)을 참조하세요.
+음성 프로필 데이터는 인텔리전트 스피커와의 모든 모임에서 사용할 수 있습니다. [모임 설정에 대한 자세한 내용은 Teams 모임 정책](../meetings-policies-recording-and-transcription.md#allow-transcription) 및 [PowerShell 모임 cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy)을 참조하세요.
 
 사용자의 음성 프로필 데이터는 정책을 구분하도록 설정되거나 모임 중에 모임이 아닌 초대 대상자가 들어갈 때 만들어집니다. 음성 프로필 데이터는 모임이 끝날 때 해제됩니다.
 
@@ -88,7 +89,7 @@ Epos, Sennheiser 및 Yealink 인텔리전트 스피커가 지원됩니다.
 |AllowTranscription|사용자 및 Teams 룸 계정에 필요합니다.|**True** 및 **False**|
 ||||
 
-Teams 관리 센터에서 **전사** 정책을 설정합니다. 설정 기본적으로 **꺼져** 있습니다.
+Teams 관리 센터에서 **전사** 정책을 설정합니다. 설정은 기본적으로 **꺼져** 있습니다.
 
 ![모임 정책이 강조 표시된 관리 센터에서 전사 허용이 선택되었습니다.](../media/allow-transcription1.png)
   
@@ -105,9 +106,9 @@ Teams 관리 센터에서 **전사** 정책을 설정합니다. 설정 기본적
 
 일반 보존 정책은 [데이터 보존 개요](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)에 설명되어 있습니다. 또한 사용자가 해당 1년 기간 내에 지능형 스피커를 사용하는 모임에 초대되지 않은 경우 사용자의 음성 프로필 데이터는 1년 후에 삭제됩니다. 데이터는 기존 직원의 모임에서 사용되지 않습니다. 직원이 퇴사한 경우 음성 프로필 데이터는 사용자 콘텐츠로 간주되며 데이터 [보존 개요](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)에 설명된 Office 365 데이터 보존 정책에 따라 처리됩니다.
 
-**음성 프로필 데이터는 Microsoft 서비스 걸쳐 사용합니까?**
+**음성 프로필 데이터는 Microsoft 서비스에서 사용합니까?**
 
-아니요, 음성 프로필 데이터는 사용자가 동의한 용도로만 사용됩니다. Microsoft는 Teams 음성 인식 시나리오 내에서만 음성 프로필 데이터를 사용하지 않습니다.
+아니요, 음성 프로필 데이터는 사용자가 동의한 용도로만 사용됩니다. Microsoft는 Teams 음성 인식 시나리오를 제외하고 음성 프로필 데이터를 사용하지 않습니다.
 
 예를 들어 Microsoft는 다음과 같은 상황에서 데이터를 사용하지 않습니다.
 

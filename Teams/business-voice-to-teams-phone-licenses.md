@@ -1,5 +1,5 @@
 ---
-title: Business Voice에서 Teams 전화 라이선스로 이동
+title: Business Voice에서 Teams Phone 라이선스로 이동
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -7,28 +7,27 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 search.appverid: MET150
-description: Business Voice 라이선스를 Teams 전화 라이선스로 변경하는 방법을 알아봅니다.
+description: Business Voice 라이선스를 Teams Phone 라이선스로 변경하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9e973d00761e62e62a3c749163f9e6dcaa8a636
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 6e7622e4b78e57f45209b90a525eb5fefbe8cd66
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66057098"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271233"
 ---
-# <a name="move-from-business-voice-to-teams-phone-licenses"></a>Business Voice에서 Teams 전화 라이선스로 이동
+# <a name="move-from-business-voice-to-teams-phone-licenses"></a>Business Voice에서 Teams Phone 라이선스로 이동
 
 2022년 6월 말까지 Business Voice가 사용 중지되므로 [기업은 Microsoft Teams 전화 및 통화 플랜 패키지 번들 라이선스로 전환하는 것이 좋습니다](https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/teams-phone-with-calling-plan-available-in-33-markets-on-january/ba-p/2967643).
 
-Business Voice는 다음과 같은 세 가지 Teams 추가 기능 라이선스를 번들로 제공했습니다.
+Business Voice는 다음 세 가지 Teams 추가 기능 라이선스를 번들로 제공했습니다.
 
-- **Microsoft Teams** 클라우드 기반 전화 시스템 대한 Microsoft Teams 전화.
-- 모임에 대한 전화 접속 및 전화 접속 회의를 위한 **오디오 회의**.
+- Microsoft Teams의 클라우드 기반 전화 시스템에 대한 **Microsoft Teams 전화**.
+- 모임에 대한 전화 접속 및 전화 접속 회의를 위한 **오디오** 회의입니다.
 - PSTN(공중 전화망) 연결에 대한 국내 통화 **요금제** 입니다.
 
 기존 Business Voice 고객은 새 라이선스 모델로 자동으로 전환되지 않습니다.
@@ -54,8 +53,8 @@ Business Voice 라이선스를 교체하기 전에 먼저 사용자를 위한 �
 
 | 이전 라이선스 계획 | 권장 라이선스 계획 | 설명 |
 | ---------------- | ------------------------ | ----------- |
-| 통화 플랜이 있는 Business Voice | 통화 플랜을 사용하여 Teams 전화 및 미국/CAN으로 전화 접속이 있는 Microsoft Teams 오디오 회의 | 클라우드 기반 전화 시스템 기능, PSTN 공급자로 Microsoft의 국내 통화 플랜, 사용이 허가된 사용자가 구성한 모임 참석자에게 전화 접속 및 전화 접속 기능을 제공합니다. |
-| 통화 플랜이 없는 Business Voice | TEAMS 전화 표준 요금제 및 Microsoft Teams 오디오 회의(미국/CAN으로 전화 걸기) | 사용이 허가된 사용자가 구성한 모임 참석자에게 운영자 연결 또는 직접 라우팅 및 전화 접속 및 전화 접속 기능을 [사용하여 PSTN 공급자와 타사 통화 플랜](pstn-connectivity.md)과 결합할 수 있는 클라우드 기반 전화 시스템 기능을 제공합니다. |
+| 통화 플랜이 있는 Business Voice | 통화 플랜이 있는 Teams 전화 및 미국/CAN으로 전화 접속이 있는 Microsoft Teams 오디오 회의 | 클라우드 기반 전화 시스템 기능, PSTN 공급자로 Microsoft의 국내 통화 플랜, 사용이 허가된 사용자가 구성한 모임 참석자에게 전화 접속 및 전화 접속 기능을 제공합니다. |
+| 통화 플랜이 없는 Business Voice | TEAMS 전화 표준 요금제 및 Microsoft Teams 오디오 회의(미국/CAN으로 전화 걸기) | [운영자 연결 또는 직접 라우팅을 사용하여 PSTN 공급자와 타사 통화 플랜과](pstn-connectivity.md) 결합할 수 있는 클라우드 기반 전화 시스템 기능을 제공하며, 전화 접속 및 전화 접속 기능을 사용하여 사용이 허가된 사용자가 구성한 참석자를 만날 수 있습니다. |
 
 ## <a name="how-to-update-licenses"></a>라이선스를 업데이트하는 방법
 
@@ -78,7 +77,7 @@ Business Voice 라이선스를 교체하기 전에 먼저 사용자를 위한 �
 1. **라이선스 및 앱** 화면에서 Business Voice 라이선스의 선택을 취소합니다.
     > [!IMPORTANT]
     > 변경 내용을 아직 저장하지 마세요. 새 라이선스를 추가하지 않고 변경 내용을 저장하면 사용자 계정이 프로비전 해제되고 전화 번호가 할당되지 않습니다.
-1. Business Voice를 선택 취소한 후 새 Teams 전화 확인하고 라이선스를 오디오 회의.
+1. Business Voice를 선택 취소한 후 새 Teams 전화 및 오디오 회의 라이선스를 확인합니다.
 1. 이제 변경 내용 저장을 선택하여 변경 내용을 안전하게 **저장할** 수 있습니다.
 
 사용자의 라이선스가 업데이트되며 서비스 가용성에 영향을 주지 않아야 합니다.
@@ -96,13 +95,13 @@ Business Voice 라이선스를 교체하기 전에 먼저 사용자를 위한 �
     > [!IMPORTANT]
     > **바꾸기** 옵션은 선택한 사용자에 대한 모든 기존 라이선스를 제거합니다.  따라서 사용 중인 다른 라이선스(예: Microsoft 365 Business Premium)를 포함하여 사용자에게 원하는 라이선스 상태를 선택해야 합니다.
     >
-    > 또한 선택한 사용자에게 다른 기본 라이선스 구성이 있는 경우 선택한 라이선스로 덮어쓰여 다른 Microsoft 365 영역에 영향을 줄 수 있습니다.
+    > 또한 선택한 사용자에게 다른 기본 라이선스 구성이 있는 경우 선택한 라이선스로 덮어쓰여 Microsoft 365의 다른 영역에 영향을 줄 수 있습니다.
     >
     > 혼합 라이선스 설정이 있는 테넌트에는 [PowerShell 스크립트와 함께 대량 업데이트 옵션을](#option-3-bulk-user-license-update-using-a-powershell-script) 사용하는 것이 좋습니다.
 1. **라이선스 및 앱** 화면에서 Business Voice 라이선스의 선택을 취소합니다.
     > [!IMPORTANT]
     > 변경 내용을 아직 저장하지 마세요. 새 라이선스를 추가하지 않고 변경 내용을 저장하면 선택한 사용자의 계정이 프로비전 해제되고 전화 번호가 할당되지 않습니다.
-1. Business Voice를 선택 취소한 후 새 Teams 전화 확인하고 라이선스를 오디오 회의.
+1. Business Voice를 선택 취소한 후 새 Teams 전화 및 오디오 회의 라이선스를 확인합니다.
 1. 이제 변경 내용 저장을 선택하여 변경 내용을 안전하게 **저장할** 수 있습니다.
   사용자의 라이선스가 업데이트되며 서비스 가용성에 영향을 주지 않아야 합니다.
 
@@ -115,10 +114,10 @@ PowerShell 스크립트를 사용하여 Business Voice 라이선스 계획을 �
 이 메서드를 사용하려면 다음 일반 단계를 수행합니다.
 
 1. 현재 Business Voice 라이선스의 테넌트별 라이선스 계획 식별자를 가져옵니다.
-1. 새 Teams 전화 및 오디오 회의 라이선스 계획의 테넌트별 식별자를 가져옵니다.
+1. 새 Teams Phone 및 오디오 회의 라이선스 계획의 테넌트별 식별자를 가져옵니다.
 1. 새 라이선스 계획에 현재 Business Voice 라이선스와 동일한 서비스 계획이 있는지 확인합니다.
 1. Business Voice에 대한 라이선스가 부여된 테넌트 사용자를 찾거나 원하는 경우 필터를 포함하도록 스크립트를 수정하여 사용자 하위 집합을 선택합니다.
-1. Teams 전화 및 오디오 회의 계획으로 사용자의 라이선스 구성을 업데이트합니다.
+1. Teams Phone 및 오디오 회의 계획을 사용하여 사용자의 라이선스 구성을 업데이트합니다.
 
 > [!IMPORTANT]
 > 제공된 스크립트는 코드 샘플입니다. 스크립트를 있는 그대로 복사하고 특정 환경에 대한 테스트, 유효성 검사 및 사용자 지정 없이 프로덕션 테넌트에서 실행하면 안 됩니다.
@@ -132,7 +131,7 @@ PowerShell 스크립트를 사용하여 Business Voice 라이선스 계획을 �
     Import-Module AzureAD
     ```
 
-1. Microsoft 365 테넌트에 커넥트 테넌트 관리자 자격 증명을 제공합니다.
+1. Microsoft 365 테넌트에 연결하고 테넌트 관리자 자격 증명을 제공합니다.
 
     ```powershell
     Connect-AzureAD
@@ -176,7 +175,7 @@ PowerShell 스크립트를 사용하여 Business Voice 라이선스 계획을 �
     | MCOMEETADV | 오디오 회의 |
     | Microsoft_Teams_Audio_Conferencing_select_dial_out | Microsoft Teams 오디오 회의 전화 걸기 선택 |
 
-1. 고유한 Teams 전화 저장하고 SKU 코드를 오디오 회의 PowerShell 변수를 만듭니다.
+1. 고유한 Teams Phone 및 오디오 회의 SKU 코드를 저장하는 PowerShell 변수를 만듭니다.
     1. 레이블을 `SkuPartNumber` 테넌트에서 사용할 수 있는 SKU 코드로 바꿔야 합니다.
     1. 이 예제에서는 SKU 코드와 `MCOMEETADV` SKU 코드를 사용합니다`MCOTEAM_ESSENTIALS`.
 
@@ -193,7 +192,7 @@ PowerShell 스크립트를 사용하여 Business Voice 라이선스 계획을 �
     $servicePlan_CP = $skuSourceBV.ServicePlans | where {$_.ServicePlanName.ToString() -like "*PSTN*"}
     ```
 
-1. 계속 진행하기 전에 원본 SKU(Business Voice)와 대상 SKU(Teams 전화 및 오디오 회의)에 동일한 서비스 계획이 포함되어 있는지 확인합니다.
+1. 계속 진행하기 전에 원본 SKU(Business Voice) 및 대상 SKU(Teams 전화 및 오디오 회의)에 동일한 서비스 계획이 포함되어 있는지 확인합니다.
     1. 불일치는 사용자의 음성 및 오디오 회의 서비스를 방해할 수 있는 라이선스 변경을 트리거할 수 있습니다.
     2. 원본 SKU의 모든 서비스 계획이 동일한 대상 서비스 계획으로 대체될지 유효성을 검사하는 변수를 만듭니다.
 
@@ -249,14 +248,14 @@ PowerShell 스크립트를 사용하여 Business Voice 라이선스 계획을 �
     Get-AzureAdUser | ForEach { $BVlicensed=$False ; For ($i=0; $i -le ($_.AssignedLicenses | Measure).Count ; $i++) { If($_.AssignedLicenses[$i].SkuId -eq $skuSourceBV.SkuId) { $BVlicensed=$true } } ; If( $BVlicensed -eq $true) { $usersLicensedOldSKU.Add($_)} }
     ```
 
-1. 이제 새 사용자 목록을 사용하여 업데이트 작업을 수행하여 Business Voice 라이선스를 제거하고 이전에 만든 개체를 사용하여 ``$LicensesToUpdate`` Teams 전화 및 오디오 회의 라이선스를 추가합니다.
+1. 이제 새 사용자 목록을 사용하여 업데이트 작업을 수행하여 이전에 만든 개체를 사용하여 ``$LicensesToUpdate`` Business Voice 라이선스를 제거하고 Teams 전화 및 오디오 회의 라이선스를 추가합니다.
 
     ```powershell
     $usersLicensedOldSKU | ForEach { Set-AzureADUserLicense -ObjectId $_.ObjectId -AssignedLicenses $LicensesToUpdate; Write-Host "Completed Update of user " $_.UserPrincipalName;  }
     ```
 
 > [!NOTE]
-> Business Voice를 대체할 수 있는 사용 가능한 Teams 전화 및/또는 오디오 회의 라이선스가 충분하지 않은 경우 라이선스 풀이 고갈되는 즉시 사용자 할당 중에 **SKU guid가 있는 구독에 사용 가능한 라이선스가 없다는** 오류가 발생합니다.
+> Business Voice를 대체할 수 있는 Teams Phone 및/또는 오디오 회의 라이선스가 충분하지 않은 경우 라이선스 풀이 고갈되는 즉시 사용자 할당 중에 **SKU GUID가 있는 구독에 사용 가능한 라이선스가 없다는** 오류가 표시됩니다.
 
 ### <a name="full-script"></a>전체 스크립트
 
@@ -341,7 +340,7 @@ Azure 그룹 기반 라이선스 관리를 사용하면 그룹에 구독 및 서
 ### <a name="how-to-bulk-update-licenses-using-group-based-licensing"></a>그룹 기반 라이선스를 사용하여 라이선스를 대량 업데이트하는 방법
 
 1. [portal.azure.com](https://portal.azure.com) 이동하여 관리자 자격 증명으로 로그인합니다.
-1. **Azure Active Directory** 이동하고 왼쪽 메뉴에서 **라이선스를** 선택합니다.
+1. **Azure Active Directory** 로 이동하고 왼쪽 메뉴에서 **라이선스를** 선택합니다.
 1. Business Voice 라이선스가 할당된 그룹을 확인하려면 **모든 제품을** 선택하고 Business Voice 계획을 선택합니다.
 1. **사용이 허가된 그룹** 또는 **사용이 허가된 사용자를** 선택합니다. 오른쪽 창에서 사용이 허가된 그룹 목록을 찾을 수 있습니다.
 1. 그룹 이름을 선택하여 그룹 할당 세부 정보를 엽니다.
@@ -363,4 +362,4 @@ Azure 그룹 기반 라이선스 관리를 사용하면 그룹에 구독 및 서
 1. 도구 모음에서 **제품 라이선스 관리를** 선택합니다.
 1. **라이선스 및 앱** 화면에서 할당한 라이선스를 검토합니다.
 
-모든 대상 사용자에게 올바른 라이선스가 할당된 경우 Business Voice 라이선스를 Teams 전화 및 오디오 회의 라이선스로 업데이트하는 작업을 완료했습니다.
+모든 대상 사용자에게 올바른 라이선스가 할당된 경우 Business Voice 라이선스를 Teams Phone 및 오디오 회의 라이선스로 업데이트하는 작업을 완료했습니다.

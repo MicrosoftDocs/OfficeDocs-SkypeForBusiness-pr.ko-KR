@@ -17,12 +17,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 통화 플랜에 대해 지원되는 요금 센터 및 적용 범위를 나열합니다.
-ms.openlocfilehash: cd991c55c62eeba620d7a8d7f9f75cb7344507a9
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.collection:
+- M365-voice
+ms.openlocfilehash: eb40c3adf77aed6d88363986f3ab01fc7191b9f2
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794106"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270863"
 ---
 # <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>통화 플랜에 지원되는 요금 센터 및 적용 범위
 
@@ -33,7 +35,7 @@ ms.locfileid: "66794106"
 
 새 숫자를 가져오고 요청한 숫자가 없는 경우 동일한 요금 센터의 번호를 제공합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [조직의 전화 번호 관리](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [통화 플랜에 사용되는 다양한 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

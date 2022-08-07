@@ -21,22 +21,22 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72fdabd1ba25254876bc3d4506c889d50cbc6613
-ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
+ms.openlocfilehash: d33573d86f2bcb485f6a7e7cfc550ea1f3184223
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "65370891"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270493"
 ---
 # <a name="configure-sip-gateway"></a>SIP 게이트웨이 구성
 
-이 문서에서는 조직에서 Microsoft Teams 호환되는 SIP 디바이스를 사용할 수 있도록 SIP 게이트웨이를 구성하는 방법을 설명합니다. 조직에 대해 SIP 게이트웨이가 수행할 수 있는 작업과 조직에 필요한 하드웨어, 소프트웨어 및 라이선스를 확인하려면 [SIP 게이트웨이 계획을](sip-gateway-plan.md) 읽어보세요.
+이 문서에서는 조직에서 Microsoft Teams와 호환되는 SIP 디바이스를 사용할 수 있도록 SIP 게이트웨이를 구성하는 방법을 설명합니다. 조직에 대해 SIP 게이트웨이가 수행할 수 있는 작업과 조직에 필요한 하드웨어, 소프트웨어 및 라이선스를 확인하려면 [SIP 게이트웨이 계획을](sip-gateway-plan.md) 읽어보세요.
 
 SIP 게이트웨이를 구성하려면 다음을 수행합니다.
 
 - **SIP 디바이스를 공장 기본 설정으로 다시 설정합니다.** 사용자 또는 조직의 사용자는 SIP 게이트웨이와 함께 사용되는 각 SIP 디바이스를 공장 기본 설정으로 다시 설정해야 합니다. 이 작업을 수행하는 방법을 알아보려면 제조업체의 지침을 참조하세요.
 
-- **방화벽을 열어 Microsoft 365 Teams.** Office 365 [URL 및 IP 주소 범위에](/microsoft-365/enterprise/urls-and-ip-address-ranges) 설명된 대로 트래픽을 Microsoft 365 Teams 네트워크의 방화벽을 엽니다. 방화벽 규칙은 아웃바운드 트래픽에만 필요합니다.
+- **Microsoft 365 및 Teams에 대한 방화벽을 엽니다.** Office 365 [URL 및 IP 주소 범위에](/microsoft-365/enterprise/urls-and-ip-address-ranges) 설명된 대로 네트워크의 방화벽을 Microsoft 365 및 Teams 트래픽으로 엽니다. 방화벽 규칙은 아웃바운드 트래픽에만 필요합니다.
 
 - **SIP 디바이스가 프록시 뒤에 있지 않은지 확인합니다.** http/s 트래픽이 회사 http/s 프록시를 바이패스하는지 확인합니다.
 
@@ -60,7 +60,6 @@ SIP 게이트웨이를 구성하려면 다음을 수행합니다.
   - https://httpblobsdgnoam.blob.core.windows.net
 
 
-
 다음 섹션에서는 SIP 게이트웨이를 구성하기 위해 관리자 권한으로 수행해야 하는 작업을 설명합니다.
 
 - [조직에 SIP 게이트웨이를 사용할 수 있는지 확인합니다](#verify-that-sip-gateway-is-available-for-your-organization).
@@ -73,14 +72,13 @@ SIP 게이트웨이를 구성하려면 다음을 수행합니다.
 
 - [편의를 위해 개별적으로 또는 일괄 처리로 SIP 디바이스를 등록합니다](#provision-and-enroll-sip-devices-as-common-area-phones).  
 
-
 - [SIP 디바이스를 보고 모니터링합니다.](#view-and-monitor-sip-devices)
 
 - [다국어 사용자 인터페이스에 대한 지원을 사용하도록 설정합니다.](#set-a-sip-devices-ui-language)
 
 ## <a name="verify-that-sip-gateway-is-available-for-your-organization"></a>조직에 SIP 게이트웨이를 사용할 수 있는지 확인
 
-1. [Teams 관리 센터에](https://admin.teams.microsoft.com/) 로그인합니다.
+1. [Teams 관리 센터에 로그인합니다](https://admin.teams.microsoft.com/).
 
 2. 왼쪽에서 **Teams 디바이스** 를 선택하고 **SIP 디바이스** 탭이 표시되는지 확인합니다. 이 경우 조직에 대해 SIP 게이트웨이 서비스를 사용할 수 있습니다.
 
@@ -118,9 +116,9 @@ DHCP(동적 호스트 구성 프로토콜) 서버에서 SIP 게이트웨이 프�
 
 각 SIP 디바이스에 대해 다음 SIP 게이트웨이 프로비저닝 서버 URL 중 하나를 설정합니다. 
 
-- EMEA: `http://emea.ipp.sdg.teams.microsoft.com`
+- Emea: `http://emea.ipp.sdg.teams.microsoft.com`
 - 아메리카: `http://noam.ipp.sdg.teams.microsoft.com`
-- APAC: `http://apac.ipp.sdg.teams.microsoft.com`
+- Apac: `http://apac.ipp.sdg.teams.microsoft.com`
 
 DHCP 서버에서 위의 SIP 게이트웨이 프로비저닝 서버 URL을 구성하여 Teams 조직에 SIP 디바이스를 추가합니다. DHCP 서버에 대한 자세한 내용은 [DHCP 배포 및 관리를](/learn/modules/deploy-manage-dynamic-host-configuration-protocol) 참조하세요. 또한 DHCP 옵션 42를 사용하여 NTP(네트워크 시간 프로토콜) 서버를 지정하고 DHCP 옵션 2를 사용하여 UTC(협정 세계시)의 오프셋을 초 단위로 지정할 수 있습니다. 조직의 디바이스는 SIP 게이트웨이 프로비저닝 서버로 라우팅됩니다. 성공적으로 프로비전된 SIP 휴대폰은 Teams 로고와 로그인을 위한 소프트 단추를 표시합니다.
 
@@ -130,7 +128,7 @@ SIP 디바이스가 온보딩에 대해 지원되는 최소 펌웨어 버전인�
 
 원격으로 작업하는 사용자는 다음 단계를 사용하여 SIP 디바이스에 프로비저닝 서버 URL을 수동으로 구성해야 합니다.
 
-1. 디바이스에서 **설정** 열고 디바이스의 IP 주소를 가져옵니다.
+1. 디바이스에서 **설정을** 열고 디바이스의 IP 주소를 가져옵니다.
 
 2. 브라우저 창을 열고, 디바이스의 IP 주소를 입력하고, 로그인(필요한 경우)하고, 디바이스의 웹 유틸리티에서 프로비저닝 서버의 URL을 구성합니다.
 
@@ -146,7 +144,7 @@ SIP 디바이스가 온보딩에 대해 지원되는 최소 펌웨어 버전인�
 
 ## <a name="configure-conditional-access"></a>조건부 액세스 구성
 
-조건부 액세스는 Microsoft 365 리소스에 액세스하는 디바이스가 제대로 관리되고 안전하게 관리되도록 하는 데 도움이 되는 Azure Active Directory(Azure AD) 기능입니다. SIP 게이트웨이는 Azure AD 사용하여 SIP 디바이스를 인증하므로 조직에서 회사 네트워크의 디바이스에 조건부 액세스를 사용하는 경우 다음 IP 주소를 제외해야 합니다.
+조건부 액세스는 Microsoft 365 리소스에 액세스하는 디바이스가 제대로 관리되고 안전한지 확인하는 데 도움이 되는 Azure Azure AD(Active Directory) 기능입니다. SIP 게이트웨이는 Azure AD 사용하여 SIP 디바이스를 인증하므로 조직에서 회사 네트워크의 디바이스에 조건부 액세스를 사용하는 경우 다음 IP 주소를 제외해야 합니다.
 
 - 북아메리카:
     - 미국 동부: 52.170.38.140
@@ -160,18 +158,18 @@ SIP 디바이스가 온보딩에 대해 지원되는 최소 펌웨어 버전인�
 
 자세한 내용은 [IP 주소 범위를 참조하세요](/azure/active-directory/conditional-access/location-condition#ip-address-ranges).
 
-
 ## <a name="provision-and-enroll-sip-devices-as-common-area-phones"></a>공용 영역 전화로 SIP 디바이스 프로비전 및 등록
+
 > [!NOTE]
 > SIP 디바이스를 등록하려면 먼저 SIP 게이트웨이에 온보딩해야 합니다.
 
 작업을 간소화하기 위해 한 번에 하나씩 또는 일괄 처리로 Teams 관리 센터에 SIP 디바이스를 등록할 수 있습니다. 방법은 다음과 같습니다.
 
-1. [**Teams 관리 센터에**](https://admin.teams.microsoft.com) 로그인합니다.
+1. [**Teams 관리 센터에 로그인합니다**](https://admin.teams.microsoft.com).
 
-2. **Teams 디바이스** > **SIP 디바이스를** 선택합니다.
+2. **Teams 디바이스** > **SIP 디바이스** 를 선택합니다.
 
-3. 오른쪽 위에서 **ActionsProvision**  >  디바이스를 선택하고 다음 단계 중 하나를 수행합니다.
+3. 오른쪽 위에서 **작업****프로비전** >  디바이스를 선택하고 다음 단계 중 하나를 수행합니다.
 
   - **하나의 디바이스를 프로비전하려면 다음을 수행합니다.**
 
@@ -187,17 +185,17 @@ SIP 디바이스가 온보딩에 대해 지원되는 최소 펌웨어 버전인�
 
      a. **활성화 대기 중** 아래 오른쪽에서 **내보내기**(Microsoft Excel 아이콘)를 선택합니다.
      
-     b. **디바이스 프로비전** 창의 **여러 MAC 주소에 업로드** 템플릿 **다운로드를** 선택합니다.
+     b. **디바이스 프로비전** 창의 **여러 MAC 주소 업로드** 에서 **템플릿 다운로드를** 선택합니다.
      
      C. **컴퓨터에Template_Provisioning.csv** 저장하고 **MAC ID** 및 **위치** 필드를 입력합니다.
     
-     D. **디바이스 프로비전** 창에서 **여러 MAC 주소를 업로드** 선택합니다. 
+     D. **디바이스 프로비전** 창에서 **여러 MAC 주소 업로드를** 선택합니다. 
 
-     전자. **업로드 MAC 주소** 창의 오른쪽에서 **파일 선택을** 선택하고 데이터가 포함된 **Template_Provisioning.csv** 파일을 선택합니다.
+     전자. **MAC 주소 업로드** 창의 오른쪽에서 **파일 선택을** 선택하고 데이터가 포함된 **Template_Provisioning.csv** 파일을 선택합니다.
 
      F. **디바이스 프로비전** 창의 **활성화 대기** 중에서 디바이스를 선택한 다음 **확인 코드 생성** 을 선택하여 프로비전된 각 디바이스에 대해 일회성 확인 코드를 생성합니다. 각 SIP 디바이스에 대한 확인 코드를 확인합니다.
 
-4. SIP 디바이스에서 등록 기능 코드와 확인 코드로 전화를 거는 것입니다. SIP 디바이스에서 등록 기능 코드 55*(등록 일회성 확인 코드 \*유효성 검사를 위해 SIP 게이트웨이에서 사용됨)와 이 특정 디바이스에 대한 Teams 관리 센터에서 생성된 확인 코드로 전화를 거는 것입니다. 예를 들어 확인 코드가 123456 경우 55\* 123456 전화하여 \*디바이스를 등록합니다.
+4. SIP 디바이스에서 등록 기능 코드와 확인 코드로 전화를 거는 것입니다. SIP 디바이스에서 등록 기능 코드 55*(등록 일회성 확인 코드 \*유효성 검사를 위해 SIP 게이트웨이에서 사용됨)와 이 특정 디바이스에 대한 Teams 관리 센터에서 생성된 확인 코드로 전화를 거는 것입니다. 예를 들어 확인 코드가 123456 경우 123456 55\*번으로 전화를 걸어 \*디바이스를 등록합니다.
 
 5.  **디바이스 프로비전** 창의 **로그인 대기 중에서** **로그아웃** 을 선택합니다.
 
@@ -205,19 +203,19 @@ SIP 디바이스가 온보딩에 대해 지원되는 최소 펌웨어 버전인�
 
 7. 로 [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin)이동하고 **코드 입력** 에서 SIP 디바이스의 페어링 코드를 입력한 다음 다음 **을 선택합니다.**
 
-8. Microsoft **로그인** 페이지의 **전자 메일 또는 전화** 필드에 SIP 디바이스의 전자 메일 주소를 입력한 다음 다음 **을 선택합니다.**
+8. Microsoft **로그인** 페이지의 **Email 또는 전화** 필드에 SIP 디바이스의 전자 메일 주소를 입력하고 **다음** 을 선택합니다.
 
 9. **암호** 페이지에서 SIP 디바이스의 전자 메일 주소에 대한 암호를 입력한 다음 **, 로그인** 을 선택합니다.
 
-10. **Teams SIP 디바이스 게이트웨이 페이지에 로그인하려는** 경우 **계속** 을 선택합니다.
+10. **Teams SIP 디바이스 게이트웨이에 로그인하려는 경우 페이지에서** **계속** 을 선택합니다.
 
 ## <a name="how-to-sign-in-and-sign-out"></a>로그인 및 로그아웃하는 방법
 
 사용자의 개인 디바이스에는 로컬 로그인만 지원됩니다. 관리 센터에서 디바이스를 로그아웃하려면 다음 단계를 수행합니다.
 
-1. [**Teams 관리 센터에**](https://admin.teams.microsoft.com) 로그인합니다.
+1. [**Teams 관리 센터에 로그인합니다**](https://admin.teams.microsoft.com).
 
-2. **Teams 디바이스** > **SIP 디바이스를** 선택합니다.
+2. **Teams 디바이스** > **SIP 디바이스** 를 선택합니다.
 
 3. 오른쪽에서 SIP 디바이스를 선택한 다음 **로그아웃** 을 선택합니다.
 
@@ -233,7 +231,7 @@ SIP 디바이스가 온보딩에 대해 지원되는 최소 펌웨어 버전인�
 3. SIP 휴대폰에 표시되는 페어링 코드를 웹 인증 앱에 입력하여 SIP 휴대폰을 사용자 계정과 페어링합니다. 로그인에 성공하면 시간이 걸릴 수 있으며 디바이스에서 지원하는 경우 SIP 휴대폰에 전화 번호와 사용자 이름이 표시됩니다.
 
 > [!NOTE]
-> Azure Active Directory 웹 인증 앱에 표시된 디바이스의 위치는 디바이스가 연결된 SIP 게이트웨이 데이터 센터입니다. 범위의 SIP 전화는 OAuth를 수행할 수 없으므로 SIP 게이트웨이는 웹 인증 앱을 통해 사용자를 인증한 다음 디바이스를 사용자의 자격 증명과 페어링합니다. [Microsoft ID 플랫폼 및 OAuth 2.0 디바이스 권한 부여 흐름](/azure/active-directory/develop/v2-oauth2-device-code)에 대해 자세히 알아보세요.
+> Azure Active Directory 웹 인증 앱에 표시되는 디바이스의 위치는 디바이스가 연결된 SIP 게이트웨이 데이터 센터입니다. 범위의 SIP 전화는 OAuth를 수행할 수 없으므로 SIP 게이트웨이는 웹 인증 앱을 통해 사용자를 인증한 다음 디바이스를 사용자의 자격 증명과 페어링합니다. [Microsoft ID 플랫폼 및 OAuth 2.0 디바이스 권한 부여 흐름](/azure/active-directory/develop/v2-oauth2-device-code)에 대해 자세히 알아보세요.
 
 ### <a name="sign-out"></a>로그아웃
 
@@ -243,9 +241,9 @@ SIP 디바이스가 온보딩에 대해 지원되는 최소 펌웨어 버전인�
 
 Teams 관리 센터에서 디바이스를 로그아웃하려면 다음을 수행합니다.
 
-1. [**Teams 관리 센터에**](https://admin.teams.microsoft.com) 로그인합니다.
+1. [**Teams 관리 센터에 로그인합니다**](https://admin.teams.microsoft.com).
 
-2. **Teams 디바이스** > **SIP 디바이스를** 선택합니다.
+2. **Teams 디바이스** > **SIP 디바이스** 를 선택합니다.
 
 3. 오른쪽의 **SIP 디바이스** 창에서 디바이스를 선택합니다.
 
@@ -255,15 +253,15 @@ Teams 관리 센터에서 디바이스를 로그아웃하려면 다음을 수행
 
 디바이스 사용자가 한 번 이상 로그인한 후 Teams 관리 센터에서 SIP 디바이스 인벤토리를 보고 모니터링할 수 있습니다. 방법은 다음과 같습니다.
 
-1. [Teams 관리 센터에](https://admin.teams.microsoft.com/) 로그인합니다.
+1. [Teams 관리 센터에 로그인합니다](https://admin.teams.microsoft.com/).
 
-2. **Teams 디바이스** > **SIP 디바이스를** 선택합니다. 로그인한 모든 SIP 디바이스가 오른쪽에 나열됩니다.
+2. **Teams 디바이스** > **SIP 디바이스** 를 선택합니다. 로그인한 모든 SIP 디바이스가 오른쪽에 나열됩니다.
 
 ## <a name="restart-a-sip-device"></a>SIP 디바이스 다시 시작
 
-1. [Teams 관리 센터에](https://admin.teams.microsoft.com) 로그인합니다.
+1. [Teams 관리 센터에 로그인합니다](https://admin.teams.microsoft.com).
 
-2. **Teams 디바이스** > **SIP 디바이스를** 선택합니다. 
+2. **Teams 디바이스** > **SIP 디바이스** 를 선택합니다. 
 
 3. 오른쪽에서 다시 시작하려는 SIP 디바이스를 선택한 다음 다시 **시작을** 선택합니다.
 
@@ -310,11 +308,11 @@ Cisco 휴대폰용 일본어 설정 방법:
 
 ## <a name="microsoft-teams-and-ipv6"></a>Microsoft Teams 및 IPv6
 
-SIP 게이트웨이는 IPv4만 지원합니다. Microsoft Teams 서비스 및 클라이언트는 IPv4 및 IPv6을 모두 지원합니다. Microsoft Teams 통신을 제어하려면 Microsoft 365 [URL 및 IP 주소 범위의 IP 주소 범위를](/microsoft-365/enterprise/urls-and-ip-address-ranges) 사용합니다.
+SIP 게이트웨이는 IPv4만 지원합니다. Microsoft Teams 서비스 및 클라이언트는 IPv4 및 IPv6을 모두 지원합니다. Microsoft Teams에 대한 통신을 제어하려면 Microsoft [365 URL 및 IP 주소 범위의 IP 주소 범위를](/microsoft-365/enterprise/urls-and-ip-address-ranges) 사용합니다.
 
 ## <a name="emergency-calling"></a>비상 전화
 
-SIP 게이트웨이는 등록된 긴급 주소라고도 하는 정적 주소만 지원합니다. 현재 등록된 주소는 직접 라우팅 시나리오에서 지원되지 않습니다. 긴급 통화에 대한 자세한 내용은 [긴급 통화 계획 및 관리를](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) 참조하세요.
+SIP 게이트웨이는 네트워크를 통해 네트워크 특성을 공유하는 호환되는 SIP 디바이스에 대해 동적 긴급 통화(동적 E911)를 지원합니다. 이러한 특성은 Teams 관리 센터에서 프로비전되며 로컬 IP 및 서브넷 길이, 섀시 ID 및 네트워크 포트 번호의 조합일 수 있습니다. 위치 특성을 공유하지 않거나 위치가 어떤 이유로든 동적으로 확인되지 않는 디바이스의 경우 SIP 게이트웨이는 등록된 주소를 기반으로 긴급 통화를 계속 지원합니다. 현재 등록된 주소는 직접 라우팅 시나리오에서 지원되지 않습니다. 긴급 통화에 대한 자세한 내용은 [긴급 통화 계획 및 관리를](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) 참조하세요.
 
 ## <a name="report-problems-to-microsoft"></a>Microsoft에 문제 보고
 

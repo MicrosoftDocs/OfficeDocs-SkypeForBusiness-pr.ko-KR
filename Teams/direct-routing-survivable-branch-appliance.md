@@ -9,7 +9,6 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
-- m365initiative-voice
 ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
@@ -21,21 +20,21 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f087498d3a9d679ea10ba2c8cc9505ab772d85ab
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: cc250b0506614ef658ade9a491c5561a65b98800
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823649"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269673"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>직접 라우팅을 위한 SBA(Survivable Branch Appliance)
 
 
-경우에 따라 직접 라우팅을 사용하여 Microsoft 전화 시스템에 연결하는 고객 사이트에서 인터넷 중단이 발생할 수 있습니다.
+경우에 따라 직접 라우팅을 사용하여 Microsoft Phone 시스템에 연결하는 고객 사이트에서 인터넷 중단이 발생할 수 있습니다.
 
 분기라고 하는 고객 사이트가 직접 라우팅을 통해 일시적으로 Microsoft 클라우드에 연결할 수 없다고 가정합니다. 그러나 분기 내의 인트라넷은 여전히 완벽하게 작동하며 사용자는 PSTN 연결을 제공하는 SBC(세션 테두리 컨트롤러)에 연결할 수 있습니다.
 
-이 문서에서는 SBA(Survivable Branch Appliance)를 사용하여 가동 중단 시 Microsoft 전화 System이 PSTN(공중 전화망) 통화를 계속 만들고 받을 수 있도록 하는 방법을 설명합니다.
+이 문서에서는 SBA(Survivable Branch Appliance)를 사용하여 가동 중단 시 Microsoft Phone System이 PSTN(공중 전화망) 통화를 계속 만들고 받을 수 있도록 하는 방법을 설명합니다.
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
@@ -43,20 +42,20 @@ SBA는 Microsoft에서 SBC 공급업체에 제공한 배포 가능 코드로, �
 
 포함된 Survivable Branch Appliance를 사용하여 최신 세션 테두리 컨트롤러 펌웨어를 얻으려면 SBC 공급업체에 문의하세요. 또한 다음이 필요합니다.
 
-- 분기 사이트의 Microsoft Teams 클라이언트에서 미디어가 SBC와 직접 전달되도록 미디어 바이패스용 SBC를 구성해야 합니다. 
+- SBC는 분기 사이트의 Microsoft Teams 클라이언트가 SBC를 통해 직접 미디어가 흐르도록 미디어 바이패스용으로 구성해야 합니다. 
 
 - SBA VM OS에서 TLS1.2를 사용하도록 설정해야 합니다.
-- 포트 3443, 4444 및 8443은 Microsoft SBA Server에서 Teams 클라이언트와 통신하는 데 사용되며 방화벽에서 허용되어야 합니다. 
+- 포트 3443, 4444 및 8443은 Microsoft SBA 서버에서 Teams 클라이언트와 통신하는 데 사용되며 방화벽에서 허용되어야 합니다. 
 - 포트 5061(또는 SBC에 구성된 포트)은 Microsoft SBA 서버에서 SBC와 통신하는 데 사용되며 방화벽에서 허용되어야 합니다. 
 - UDP 포트 123은 Microsoft SBA 서버에서 NTP 서버와 통신하는 데 사용되며 방화벽에서 허용되어야 합니다.
-- 포트 443은 Microsoft SBA Server에서 Microsoft 365 통신하는 데 사용되며 방화벽에서 허용되어야 합니다.
+- 포트 443은 Microsoft SBA 서버에서 Microsoft 365와 통신하는 데 사용되며 방화벽에서 허용되어야 합니다.
 - 퍼블릭 클라우드에 대한 Azure IP 범위 및 서비스 태그는 다음에 설명된 지침에 따라 정의되어야 합니다. https://www.microsoft.com/download/details.aspx?id=56519
 
 ## <a name="supported-teams-clients"></a>지원되는 Teams 클라이언트
 
 SBA 기능은 다음 Microsoft Teams 클라이언트에서 지원됩니다. 
 
-- 데스크톱 Microsoft Teams Windows 
+- Microsoft Teams Windows 데스크톱 
 
 - Microsoft Teams macOS 데스크톱
 - 모바일용 Teams 
@@ -64,9 +63,9 @@ SBA 기능은 다음 Microsoft Teams 클라이언트에서 지원됩니다.
 
 ## <a name="how-it-works"></a>작동 방식
 
-인터넷이 중단되는 동안 Teams 클라이언트는 자동으로 SBA로 전환해야 하며 진행 중인 호출은 중단 없이 계속되어야 합니다. 사용자로부터 아무 작업도 필요하지 않습니다. Teams 클라이언트가 인터넷이 작동되고 나가는 호출이 완료된 것을 감지하는 즉시 클라이언트는 정상 작업 모드로 대체되고 다른 Teams 서비스에 연결됩니다. SBA는 수집된 통화 데이터 레코드를 클라우드에 업로드하고 테넌트 관리자 이 정보를 검토할 수 있도록 통화 기록이 업데이트됩니다. 
+인터넷 중단 시 Teams 클라이언트는 자동으로 SBA로 전환해야 하며 지속적인 통화는 중단 없이 계속되어야 합니다. 사용자로부터 아무 작업도 필요하지 않습니다. Teams 클라이언트가 인터넷이 작동 중이고 발신 통화가 완료된 것을 감지하는 즉시 클라이언트는 정상 작동 모드로 대체되고 다른 Teams 서비스에 연결됩니다. SBA는 수집된 통화 데이터 레코드를 클라우드에 업로드하고, 테넌트 관리자가 이 정보를 검토할 수 있도록 통화 기록이 업데이트됩니다. 
 
-Microsoft Teams 클라이언트가 오프라인 모드인 경우 다음과 같은 호출 관련 기능을 사용할 수 있습니다. 
+Microsoft Teams 클라이언트가 오프라인 모드인 경우 다음과 같은 통화 관련 기능을 사용할 수 있습니다. 
 
 - SBC를 통해 미디어가 흐르는 로컬 SBA/SBC를 통해 PSTN을 호출합니다.
 
@@ -81,7 +80,7 @@ SBA 기능이 작동하려면 Teams 클라이언트는 각 분기 사이트에�
 1. SBA를 만듭니다.
 2. Teams 분기 생존 정책을 만듭니다.
 3. 사용자에게 정책을 할당합니다.
-4. Azure Active Directory SBA에 대한 애플리케이션을 등록합니다.
+4. Azure Active Directory에 SBA에 대한 애플리케이션을 등록합니다.
 
 모든 구성은 비즈니스용 Skype Online PowerShell cmdlet을 사용하여 수행됩니다. (Teams 관리 센터는 아직 직접 라우팅 SBA 기능을 지원하지 않습니다.) 
 
@@ -156,13 +155,13 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName CPH -Identity user
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity user@contoso.com 
 ```
 
-### <a name="register-an-application-for-the-sba-with-azure-active-directory"></a>Azure Active Directory SBA에 대한 애플리케이션 등록
+### <a name="register-an-application-for-the-sba-with-azure-active-directory"></a>Azure Active Directory를 사용하여 SBA에 대한 애플리케이션 등록
 
-테넌트 내에서 사용되는 여러 SBA가 Microsoft 365 필요한 데이터를 읽을 수 있도록 하려면 Azure Active Directory SBA에 대한 애플리케이션을 등록해야 합니다. 
+테넌트 내에서 사용되는 여러 SBA가 Microsoft 365에서 필요한 데이터를 읽을 수 있도록 하려면 Azure Active Directory에 SBA에 대한 애플리케이션을 등록해야 합니다. 
 
 애플리케이션 등록에 대한 자세한 내용은 다음을 참조하세요.
 
-- [Azure Active Directory 위한 LOB(기간 업무) 앱 개발](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
+- [Azure Active Directory용 기간 업무 앱 개발](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
 
 - [Microsoft ID 플랫폼 애플리케이션을 등록](/azure/active-directory/develop/quickstart-register-app)합니다.  
 

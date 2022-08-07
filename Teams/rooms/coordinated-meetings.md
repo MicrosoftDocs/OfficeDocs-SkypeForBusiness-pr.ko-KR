@@ -9,16 +9,17 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 한 장치 또는 다른 디바이스가 모임에 참가할 때 모임에 참가하도록 Teams 룸 디바이스 및 Surface Hub를 구성합니다.
-ms.openlocfilehash: 1f249e9bd0321c9e8afd984aca90f902ad80d444
-ms.sourcegitcommit: 644374fcad6372494e87d729de690af4c060f635
+ms.openlocfilehash: f34e3637c9c9716c6f8ec87865c3c570820a0357
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67054939"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270483"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Microsoft Teams 룸 및 Surface Hub를 사용하여 조정된 모임 설정
 

@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 사용자에 대한 음성 메일 정책을 관리합니다.
-ms.openlocfilehash: 7af4fa89dd495679a3ec755dd2e902012ad1ef77
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: da5909a1d460373be60bf26de08e414ca6470c8a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240517"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267753"
 ---
 # <a name="manage-cloud-voicemail-policies-for-your-users"></a>사용자에 대한 클라우드 음성 사서함 정책 관리
 

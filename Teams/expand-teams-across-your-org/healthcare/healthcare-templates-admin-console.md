@@ -15,19 +15,18 @@ f1.keywords:
 ms.localizationpriority: high
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Healthcare
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: yinchang
 description: Teams 관리 센터와 Microsoft Graph에서 의료 팀 템플릿을 관리하고 사용하여 의료 조직을 위한 팀을 빠르고 쉽게 만드는 방법을 알아보세요.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 831e4e257277ce2fca6dc007ac5f3bfe963bca35
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: 015b752b6cfeeae64c7e4713059a7d7344b97dac
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819443"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271613"
 ---
 # <a name="use-healthcare-team-templates"></a>팀 의료 서식 파일 사용
 

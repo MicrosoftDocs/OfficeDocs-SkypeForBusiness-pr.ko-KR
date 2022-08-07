@@ -9,7 +9,7 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_Devices
 f1.keywords:
 - NOCSH
 appliesto:
@@ -17,16 +17,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Teams Android 디바이스에 대한 원격 프로비전 및 로그인 방법 알아보기
-ms.openlocfilehash: 5a746e3255ce8af9bcf59f8dfcae12854b222a1f
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 566f7428d03a16082a37ff7a8896cffbb27b85ec
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761290"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267793"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Teams Android 디바이스에 대한 원격 프로비저닝 및 로그인
 
-IT 관리자는 원격으로 프로비전하고 Teams Android 디바이스에 로그인할 수 있습니다. 디바이스를 원격으로 프로비전하려면 관리자가 프로비전 중인 디바이스의 MAC ID를 업로드하고 확인 코드를 만들어야 합니다. 전체 프로세스는 Teams 관리 센터에서 원격으로 완료할 수 있습니다.
+IT 관리자는 Teams Android 디바이스를 원격으로 프로비전하고 로그인할 수 있습니다. 디바이스를 원격으로 프로비전하려면 관리자가 프로비전 중인 디바이스의 MAC ID를 업로드하고 확인 코드를 만들어야 합니다. 전체 프로세스는 Teams 관리 센터에서 원격으로 완료할 수 있습니다.
 
 ## <a name="review-the-supported-devices"></a>지원되는 디바이스 검토
 
@@ -34,26 +34,26 @@ IT 관리자는 원격으로 프로비전하고 Teams Android 디바이스에 �
 
 |디바이스 범주|디바이스 모델|펌웨어 버전|
 |---|---|---|
-|휴대폰 Teams|Yealink T55/T56/T58|58.15.0.124|
-|휴대폰 Teams|Yealink VP59|91.15.0.58|
-|휴대폰 Teams|Yealink CP960|73.15.0.117|
-|휴대폰 Teams|Yealink MP56/MP54/MP58|122.15.0.36|
-|휴대폰 Teams|크레스트론 UC-2|1.0.3.52|
-|휴대폰 Teams|Poly Trio C60|7.0.2.1071|
-|휴대폰 Teams|CCX400/CCX500/CCX600 |7.0.2.1072|
-|휴대폰 Teams|오디오 코드 C448HD/C450HD/C470HD|1.10.120|
+|Teams 휴대폰|Yealink T55/T56/T58|58.15.0.124|
+|Teams 휴대폰|Yealink VP59|91.15.0.58|
+|Teams 휴대폰|Yealink CP960|73.15.0.117|
+|Teams 휴대폰|Yealink MP56/MP54/MP58|122.15.0.36|
+|Teams 휴대폰|크레스트론 UC-2|1.0.3.52|
+|Teams 휴대폰|Poly Trio C60|7.0.2.1071|
+|Teams 휴대폰|CCX400/CCX500/CCX600 |7.0.2.1072|
+|Teams 휴대폰|오디오 코드 C448HD/C450HD/C470HD|1.10.120|
 |Teams 패널|크레스트론 770/1070|1.004.0115|
-|Android Teams 룸|Logitech Rally Bar Mini|1.2.982|
-|Android Teams 룸|Logitech Rally Bar|1.2.982|
-|Android Teams 룸|AudioCodes RXV80|1.13.361|
-|Android Teams 룸|EPOS EXPAND Vision 3T|1.2.2.21182.10|
-|Android Teams 룸|Yealink MeetingBar A30|133.15.0.60|
-|Android Teams 룸|Yealink MeetingBar A20|133.15.0.60|
-|Android Teams 룸|Yealink CTP18 터치 콘솔|137.15.0.37|
-|Android Teams 룸|Poly Studio X30|3.5.0.344025|
-|Android Teams 룸|Poly Studio X50|3.5.0.344025|
-|Android Teams 룸|Poly TC8 터치 콘솔 |3.5.0.210489|
-|Android Teams 룸|Yealink VC210|118.15.0.54|
+|Android에서 Teams 룸|Logitech Rally Bar Mini|1.2.982|
+|Android에서 Teams 룸|Logitech Rally Bar|1.2.982|
+|Android에서 Teams 룸|AudioCodes RXV80|1.13.361|
+|Android에서 Teams 룸|EPOS EXPAND Vision 3T|1.2.2.21182.10|
+|Android에서 Teams 룸|Yealink MeetingBar A30|133.15.0.60|
+|Android에서 Teams 룸|Yealink MeetingBar A20|133.15.0.60|
+|Android에서 Teams 룸|Yealink CTP18 터치 콘솔|137.15.0.37|
+|Android에서 Teams 룸|Poly Studio X30|3.5.0.344025|
+|Android에서 Teams 룸|Poly Studio X50|3.5.0.344025|
+|Android에서 Teams 룸|Poly TC8 터치 콘솔 |3.5.0.210489|
+|Android에서 Teams 룸|Yealink VC210|118.15.0.54|
 
 ## <a name="add-a-device-mac-address"></a>디바이스 MAC 주소 추가
 
@@ -75,12 +75,12 @@ IT 관리자는 원격으로 프로비전하고 Teams Android 디바이스에 �
 1. 기술자가 디바이스를 설치할 위치를 식별하는 데 도움이 되는 위치를 입력합니다.
 1. 완료되면 **적용** 을 선택합니다.
 
-### <a name="upload-a-file-to-add-a-device-mac-address"></a>디바이스 MAC 주소를 추가하는 파일 업로드
+### <a name="upload-a-file-to-add-a-device-mac-address"></a>파일을 업로드하여 디바이스 MAC 주소 추가
 
-1. **활성화 대기** 중 탭에서 **업로드 MAC ID를** 선택합니다.
+1. **활성화 대기** 중 탭에서 **MAC ID 업로드를** 선택합니다.
 2. 파일 템플릿을 다운로드합니다.
 3. MAC ID 및 위치를 입력한 다음 파일을 저장합니다.
-4. **파일을 선택한** 다음 **, 업로드** 선택합니다.
+4. **파일을 선택한** 다음 **업로드** 를 선택합니다.
 
 ## <a name="generate-a-verification-code"></a>확인 코드 생성
 
@@ -95,7 +95,7 @@ IT 관리자는 원격으로 프로비전하고 Teams Android 디바이스에 �
 
 디바이스가 켜지고 네트워크에 연결되면 기술자가 디바이스를 프로비전합니다. 이러한 단계는 Teams 디바이스에서 완료됩니다.
 
-1. 기술자는 **설정** **디바이스 프로비저닝** 을 선택합니다.  
+1. 기술자가 **설정** 에서 **디바이스 프로비저닝** 을 선택합니다.  
 
    ![작업 탭에서 새 디바이스 옵션을 프로비전합니다.](../media/provision-device1.png)
   

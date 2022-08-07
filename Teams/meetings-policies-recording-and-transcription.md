@@ -17,13 +17,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
-description: Teams 녹음/녹화를 위한 모임 정책 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: da7a5d43231abcb00339f2ffc2c57c7e90ff2d2e
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+description: 기록 및 전사를 위해 Teams에서 모임 정책 설정을 관리하는 방법을 알아봅니다.
+ms.openlocfilehash: 12f8be910c713a9ce023ac17c956ef50f5889792
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646367"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268983"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>& 기록 기록을 위한 모임 정책 설정
 
@@ -31,7 +31,7 @@ ms.locfileid: "65646367"
 
 - [기록 허용](#allow-transcription)
 - [클라우드 녹음/녹화 허용](#allow-cloud-recording)
-- [국가 또는 지역 외부의 녹음/녹화 Microsoft Store](#store-recordings-outside-of-your-country-or-region)
+- [국가 또는 지역 외부에 녹음/녹화 저장](#store-recordings-outside-of-your-country-or-region)
 
 ## <a name="allow-transcription"></a>기록 허용
 
@@ -39,7 +39,7 @@ ms.locfileid: "65646367"
 
 이 설정을 켜면 모임 기록에서 **검색**, **참조** 및 **대본** 을 사용하는 모임 기록과 함께 저장된 대본의 사본이 생성됩니다.
 
-녹음된 모임에 대한 전사는 현재 Teams 모임에서 자신의 언어를 영어로 설정하거나 영어를 구사하는 사용자만 지원됩니다.
+기록된 모임에 대한 전사는 현재 Teams 모임에서 영어로 언어를 설정하거나 영어를 사용하는 사용자에 대해서만 지원됩니다.
 
 ## <a name="allow-cloud-recording"></a>클라우드 녹음/녹화 허용
 
@@ -65,11 +65,12 @@ ms.locfileid: "65646367"
 
 클라우드 모임 녹음/녹화에 대해 자세히 알아보려면 [Teams 클라우드 모임 녹음/녹화](cloud-recording.md)를 참조하세요.
 
-## <a name="store-recordings-outside-of-your-country-or-region"></a>국가 또는 지역 외부의 녹음/녹화 Microsoft Store
+## <a name="store-recordings-outside-of-your-country-or-region"></a>국가 또는 지역 외부에 녹음/녹화 저장
 
 이 정책은 모임 레코드를 다른 국가 또는 지역에 영구적으로 저장할 수 있는지 여부를 제어합니다. 이 기능을 사용하도록 설정하면 기록을 마이그레이션할 수 없습니다. 클라우드 모임 및 녹음/녹화가 저장되는 위치에 대한 자세한 내용은 [Teams 클라우드 모임 녹음/녹화](cloud-recording.md)를 참조하세요.
 
 ## <a name="related-topics"></a>관련 항목
 
-- [Teams 사용자에게 정책 할당](policy-assignment-overview.md)
+- [Teams에서 사용자에게 정책 할당](policy-assignment-overview.md)
 - [클라우드 모임 녹음/녹화](cloud-recording.md)
+- [Microsoft Teams의 모임 정책 및 모임 만료](meeting-expiration.md)

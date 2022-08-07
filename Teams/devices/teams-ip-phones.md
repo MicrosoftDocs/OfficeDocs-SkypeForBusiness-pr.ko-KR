@@ -9,6 +9,7 @@ ms.tgt.pltfrm: lync
 ms.service: msteams
 ms.collection:
 - M365-voice
+- Teams_ITAdmin_Devices
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 생성하기 위해 Microsoft Teams에 대해 인증된 책상 및 전화 회의 전화기를 알아봅니다.
-ms.openlocfilehash: 4c2426b2a63feadfc9fc1569efaffbca99771e16
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: f78ef3b4d637f166ac3c20d50e16532eff9db790
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175702"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271333"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 인증 Android 디바이스
 
@@ -101,6 +102,8 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 | 디바이스 모델 | 펌웨어 버전 | 현재 인증 종료 날짜  | Android OS 버전 |
 |:------------------------|:-----------------|:--------------|----------------------------------|
+| 크레스트론 UC-P8-TD |`1.0.0.42`| 2023년 8월 5일 |  9  |
+| Crestron UC-P10-TD |`1.0.0.42`| 2023년 8월 5일 |  9  |
 |Lenovo ThinkSmart 보기|`CD-18781Y.201006.099`| 2022년 12월 5일 |  8.1  |
 
 ## <a name="certified-teams-panels"></a>인증된 Teams 패널

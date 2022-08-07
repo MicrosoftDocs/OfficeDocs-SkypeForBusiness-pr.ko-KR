@@ -9,16 +9,17 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Microsoft Teams 룸 관리에 대해 알아봅니다.
-ms.openlocfilehash: df9760694bd8e0c650be25eec7d435efcae02127
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 93a4c2ff7d9c6a1f982a06ec8df6dabf790f8739
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761060"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272223"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams 룸 유지 관리 및 운영
  
@@ -28,7 +29,7 @@ Microsoft Teams 룸 회의실을 풍부하고 공동 작업적인 환경으로 �
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Microsoft Teams 룸 로그 수집
 <a name="Logs"> </a>
 
-Teams 관리 센터에서 로그를 수집하려면 **Windows > Teams 룸 Teams 디바이스로** 이동합니다. 로그를 사용할 디바이스의 표시 이름을 선택합니다. 위쪽 패널에서 "디바이스 로그 다운로드"를 선택합니다. 확인되면 몇 분 후에 기록 탭에서 로그를 다운로드할 준비가 됩니다.
+Teams 관리 센터에서 로그를 수집하려면 **Windows에서 > Teams 룸 Teams 디바이스로** 이동합니다. 로그를 사용할 디바이스의 표시 이름을 선택합니다. 위쪽 패널에서 "디바이스 로그 다운로드"를 선택합니다. 확인되면 몇 분 후에 기록 탭에서 로그를 다운로드할 준비가 됩니다.
 
 PowerShell을 사용하여 로그를 수집할 수도 있습니다. Microsoft Teams 룸 앱과 함께 제공되는 로그 수집 스크립트를 호출해야 합니다. [관리 모드](rooms-operations.md)에서 관리자 권한 명령 프롬프트를 시작하고 다음 명령을 실행합니다.
   
@@ -60,11 +61,11 @@ Teams 룸 디자인된 환경을 얻으려면 회의실 전면 디스플레이�
 
 프런트 오브 룸의 크기 조정 및 해상도를 원격으로 설정하려면 [XML 구성 파일을 사용하여 원격으로 Microsoft Teams 룸 콘솔 설정 관리를](xml-config-file.md#set-front-of-room-scale-and-resolution) 참조하세요.
 
-Teams Room 관리자 설정에서 크기 조정 및 해상도를 수동으로 설정하려면 다음을 수행합니다.
+Teams 룸 관리자 설정에서 크기 조정 및 해상도를 수동으로 설정하려면 다음을 수행합니다.
 
 1. Teams 룸에서 [관리자 모드](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)로 전환
 
-2. 시작 아이콘을 선택합니다. 그런 다음 **시스템 > 표시를 설정 >**
+2. 시작 아이콘을 선택합니다. 그런 다음 **설정 > 시스템 > 표시**
 
 3. **크기 조정 및 레이아웃** 으로 이동한 다음 **텍스트, 앱 및 기타 항목의 크기를 변경하고** 크기 조정을 100%로 설정합니다.
 
@@ -97,8 +98,8 @@ Microsoft Teams 룸 잘 실행되지 않는 경우 공장 재설정을 수행하
 |작업|도메인에 가입되지 않음|도메인에 가입됨|
 |:-----|:-----|:-----|
 |다시 시작할  <br/> |Teams 관리 센터  <br/> 원격 데스크톱  <br/> 원격 PowerShell  <br/> | <br/>원격 데스크톱(추가 구성 필요)  <br/> 원격 PowerShell(추가 구성 필요)  <br/> Configuration Manager  <br/> |
-|OS 업데이트  <br/> |Windows 업데이트  <br/> |Windows 업데이트  <br/> WSUS  <br/> |
-|앱 업데이트  <br/> |Windows Microsoft Store  <br/> |Windows Microsoft Store  <br/> Configuration Manager  <br/> |
+|OS 업데이트  <br/> |Windows 업데이트  <br/> |Windows 업데이트  <br/> Wsus  <br/> |
+|앱 업데이트  <br/> |Windows 스토어  <br/> |Windows 스토어  <br/> Configuration Manager  <br/> |
 |계정 구성  <br/> |Teams 관리 센터  <br/> |Teams 관리 센터  <br/> |
 |액세스 로그  <br/> |Teams 관리 센터  <br/> Powershell  <br/> |Teams 관리 센터 <br/> Powershell  <br/>  |
    
@@ -137,10 +138,10 @@ Teams 룸 도메인에 가입하는 경우 모든 Teams 룸 개체가 있는 OU�
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Microsoft Teams 룸 부팅할 수 있습니다.  <br/> |
 |전원 관리 -\> AC에서 10분 후 화면 끄기  <br/> 전원 관리 -\> AC에서 시스템을 절전 모드로 설정하지 마세요.  <br/> |Microsoft Teams 룸 연결된 디스플레이를 끄고 자동으로 절전 모드 해제할 수 있습니다.  <br/> |
-|net accounts /maxpwage:unlimited  <br/> 또는 로컬 계정에서 암호 만료를 사용하지 않도록 설정하는 동등한 수단입니다. 이 작업을 수행하지 않으면 결국 Skype 계정이 만료된 암호에 대해 불평하는 로그온에 실패하게 됩니다. 이는 컴퓨터의 모든 로컬 계정에 영향을 주므로 이를 설정하지 않으면 상자의 관리 계정도 결국 만료됩니다.  <br/> |Skype 계정이 항상 로그인하도록 설정  <br/> |
+|net accounts /maxpwage:unlimited  <br/> 또는 로컬 계정에서 암호 만료를 사용하지 않도록 설정하는 동등한 수단입니다. 이렇게 하지 않으면 결국 Skype 계정이 만료된 암호에 대해 불평하는 로그온에 실패하게 됩니다. 이는 컴퓨터의 모든 로컬 계정에 영향을 주므로 이를 설정하지 않으면 상자의 관리 계정도 결국 만료됩니다.  <br/> |Skype 계정이 항상 로그인할 수 있도록 설정  <br/> |
 
 > [!NOTE]
-> Microsoft Teams 룸 다음 버전의 Windows 10 OS와 호환되는 경우 Teams 룸 Windows 업데이트 통해 자동으로 다음 버전으로 업데이트됩니다. Microsoft Teams 룸 수동으로 Windows 10 다음 릴리스로 업그레이드하거나 WUFB(비즈니스용 Windows 업데이트) 그룹 정책 "수신하려는 업데이트에 대한 Windows 준비 수준 선택" 및 GPO를 통해 "미리 보기 빌드 및 기능 업데이트를 받을 때 선택"을 통해 업그레이드해서는 안 됩니다. 이러한 그룹 정책을 사용하는 Teams 룸 Windows 10 OS 업데이트와 관련된 문제가 발생하는 것으로 알려져 있습니다.
+> Microsoft Teams 룸 다음 버전의 Windows 10 OS와 호환되는 경우 Teams 룸 Windows 업데이트 통해 자동으로 다음 버전으로 업데이트됩니다. Microsoft Teams 룸 수동으로 Windows 10 다음 릴리스로 업그레이드하거나 WUFB(비즈니스용 Windows 업데이트) 그룹 정책 "수신하려는 업데이트에 대한 Windows 준비 수준 선택" 및 GPO를 통해 "빌드 및 기능 업데이트 미리 보기가 수신되는 경우 선택" 그룹 정책을 통해 업그레이드해서는 안 됩니다. 이러한 그룹 정책을 사용하는 Teams 룸 Windows 10 OS 업데이트와 관련된 문제가 발생하는 것으로 알려져 있습니다.
 
 ## <a name="remote-management-using-powershell"></a>PowerShell을 사용한 원격 관리
 <a name="RemotePS"> </a>
@@ -162,7 +163,7 @@ PowerShell을 사용하여 원격으로 다음 관리 작업을 수행할 수 �
 1. Microsoft Teams 룸 디바이스에서 관리 로그인합니다.
 2. 관리자 권한 PowerShell 명령 프롬프트를 엽니다.
 3. 다음 명령을 입력합니다. `Enable-PSRemoting -SkipNetworkProfileCheck -Force`
-4. 로컬 보안 정책을 열고 보안 **설정** > **로컬 정책** > **사용자 권한 할당** > 에 대한 *관리자* 보안 그룹을 **네트워크에서 이 컴퓨터에** 추가합니다.
+4. 로컬 보안 정책을 열고 보안 **설정** > **로컬 정책** > **사용자 권한 할당** > 에 *관리자* 보안 그룹을 **네트워크에서 이 컴퓨터에** 추가합니다.
 
 관리 작업을 수행하려면 다음을 수행합니다.
   
@@ -221,9 +222,9 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>소프트웨어 업데이트
 <a name="SWupdate"> </a>
 
-기본적으로 Microsoft Teams 룸 최신 버전의 Microsoft Teams 룸 소프트웨어를 얻기 위해 Windows Microsoft Store 연결하려고 시도합니다. 따라서 Teams 룸 일반 인터넷 액세스가 필요합니다. 지원 문제로 Microsoft에 문의하기 전에 Microsoft Teams 룸 최신 버전의 앱과 함께 로드되었는지 확인합니다.
+기본적으로 Microsoft Teams 룸 최신 버전의 Microsoft Teams 룸 소프트웨어를 얻기 위해 Windows 스토어에 연결하려고 시도합니다. 따라서 Teams 룸 일반 인터넷 액세스가 필요합니다. 지원 문제로 Microsoft에 문의하기 전에 Microsoft Teams 룸 최신 버전의 앱과 함께 로드되었는지 확인합니다.
   
-Microsoft Teams 룸 Windows 업데이트 연결하여 운영 체제 및 주변 장치 펌웨어 업데이트를 검색합니다. 또한 Microsoft Store 연결하여 애플리케이션 업데이트를 검색합니다.
+Microsoft Teams 룸 Windows 업데이트 연결하여 운영 체제 및 주변 장치 펌웨어 업데이트를 검색합니다. 또한 Microsoft Store에 연결하여 애플리케이션 업데이트를 검색합니다.
 
 애플리케이션 업데이트를 수동으로 관리해야 하지만 [오프라인 앱을 배포](/microsoft-store/distribute-offline-apps)하는 [비즈니스용 Microsoft Store](https://businessstore.microsoft.com/store) 일반적인 절차를 따를 수 없는 경우 Teams 룸 업데이트 패키지를 획득하여 지원되는 운영 체제에서 앱 업데이트를 수행할 수 있습니다. 업데이트 릴리스는 스토어 릴리스보다 뒤쳐질 수 있으며 항상 사용 가능한 최신 빌드와 일치하지 않을 수 있습니다. 자세한 내용은 [Microsoft Teams 룸 디바이스 수동 업데이트를](manual-update.md) 참조하세요.
 
@@ -235,10 +236,10 @@ Microsoft Teams 룸 Windows 업데이트 연결하여 운영 체제 및 주변 �
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Microsoft Teams 룸 앱이 실행 중일 때 관리 모드로 전환 및 다시 전환
 
 1. 진행 중인 전화를 끊고 홈 화면으로 돌아갑니다.
-2. 기어 아이콘을 선택하고 메뉴를 표시합니다(옵션은 **설정**, **접근성** 및 **디바이스 다시 시작**).
-3. **설정** 선택합니다.
+2. 기어 아이콘을 선택하고 메뉴를 표시합니다( **설정,** **접근성** 및 **디바이스 다시 시작** 옵션).
+3. **설정을** 선택합니다.
 4. 관리자 암호를 입력합니다. 설치 화면이 나타납니다.  디바이스가 도메인에 가입되지 않은 경우 로컬 관리 계정(사용자 이름 "관리")이 기본적으로 사용됩니다. 이 계정의 기본 암호는 'sfb'입니다. 가능한 한 빨리 이 암호를 변경합니다. 컴퓨터가 도메인에 가입된 경우 적절한 권한의 도메인 계정으로 로그인할 수 있습니다.
-5. 왼쪽 열에서 **Windows 설정** 선택합니다.
+5. 왼쪽 열에서 **Windows 설정을** 선택합니다.
 6. 관리자 자격 증명을 사용하여 데스크톱에 로그인합니다. 디바이스를 관리하는 데 필요한 권한이 있습니다.
 7. 필요한 관리 작업을 수행합니다.
 8.  완료되면 컴퓨터를 다시 시작합니다.
@@ -247,7 +248,7 @@ Microsoft Teams 룸 Windows 업데이트 연결하여 운영 체제 및 주변 �
   
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>Microsoft Teams 룸 앱이 충돌할 때 관리 모드로 전환 및 다시 전환
 
-1. Windows 키를 5번 연속해서 누릅니다. 그러면 Windows 로그온 화면으로 연결됩니다. 
+1. Windows 키를 연속해서 5번 누릅니다. 그러면 Windows 로그온 화면으로 연결됩니다. 
 2. 관리자 자격 증명을 사용하여 데스크톱에 로그인합니다.
 3. 필요한 관리 작업을 수행합니다.
 4. 완료되면 컴퓨터를 다시 시작합니다.

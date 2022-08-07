@@ -16,12 +16,14 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a2e2eebf6c1b0ffd89f0fbcac22e462be1023c09
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: 256e9d672b51cadf31afa4a7febc053cba4effcb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563986"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267653"
 ---
 # <a name="user-feedback-surveys"></a>사용자 피드백 설문 조사 
 

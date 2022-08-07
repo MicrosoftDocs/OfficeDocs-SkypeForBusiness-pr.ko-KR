@@ -14,16 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95dd3f01d07a2e393414013ab40ca97ec1a63bb6
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: 7137114ffd47e19faaf8ba74f0d0625f74bc6d89
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64756974"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269543"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>Teams Exploratory 평가판에서 사용자 업그레이드
 

@@ -15,12 +15,14 @@ description: 주요 이해 관계자, 비즈니스 결과, 성공 조치 및 캠
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 589294402d093afef8686dd7a376f0d88d7025cb
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: f9ed4b0a2ac694b13054818f53bcf64a628d4dd3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562377"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268789"
 ---
 # <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Microsoft Teams에 대한 변경 관리 전략 만들기
 
@@ -149,4 +151,4 @@ Microsoft 365 관리 센터 Microsoft Teams 사용 현황 보고서를 Microsoft
 
 조직의 변화를 유도하는 것은 이벤트가 아닌 지속적인 활동입니다. 킥오프 모임은 사람들이 보다 효과적으로 공동 작업할 수 있도록 하는 시작에 불과합니다. IT 부서에서 만들 전체 Microsoft 365 또는 Office 365 서비스 전략과 연결하여 성공을 강조하고, 새로운 기능을 소개하고, 연결하는 이 여정의 순간을 계획하는 것이 중요합니다. 사용자가 과부하가 아닌 참여를 보장하면 변경 피로를 줄이고 첨부 파일 전자 메일링과 같은 오래된 습관을 클라우드에 저장하는 것과 같은 새로운 것을 수용할 수 있도록 지원합니다.
 
-Microsoft 기술 커뮤니티 사이트의 [채택 유도 커뮤니티](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption)에서 Teams 및 Microsoft 365 또는 Office 365 서비스 채택에 대한 질문을 공유하세요. 우리는 항상 여러분의 의견을 듣고 채택 여정에 도움을 주고 싶습니다.
+Teams 및 Microsoft 365의 서비스 채택에 대한 질문을 공유하거나 Microsoft Technical Community 사이트의 [운전 채택 커뮤니티](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption)에서 Office 365. 우리는 항상 여러분의 의견을 듣고 채택 여정에 도움을 주고 싶습니다.

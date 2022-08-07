@@ -16,12 +16,14 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 032da118795cf37d93616892a98dd6bad08ad1ce
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: b4464b2c2500657fcdcd86e9e1b1d800b7d62df5
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563746"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269873"
 ---
 # <a name="enable-microsoft-365-or-office-365"></a>Microsoft 365 또는 Office 365 사용
  

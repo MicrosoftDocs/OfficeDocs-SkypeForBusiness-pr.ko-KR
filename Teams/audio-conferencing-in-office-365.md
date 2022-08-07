@@ -1,5 +1,5 @@
 ---
-title: 오디오 회의에서 Microsoft 365
+title: Microsoft 365의 오디오 회의
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -11,7 +11,6 @@ ms.service: msteams
 ms.collection:
 - M365-voice
 - M365-collaboration
-- m365initiative-meetings
 search.appverid: MET150
 audience: admin
 appliesto:
@@ -24,17 +23,17 @@ ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
-description: 사용자가 휴대폰에서 모임에 Microsoft 365 Office 365 오디오 회의를 허용하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: b75d7c7fe50d658390a760b998a49a02ba2a0e84
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: Microsoft 365 또는 Office 365 오디오 회의를 통해 사용자가 휴대폰에서 모임에 전화를 걸 수 있는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 1a8ed17474bc3fbcf2a9f227be4010df70d6da64
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055678"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272033"
 ---
-# <a name="audio-conferencing-in-microsoft-365"></a>오디오 회의에서 Microsoft 365
+# <a name="audio-conferencing-in-microsoft-365"></a>Microsoft 365의 오디오 회의
 
-오디오 회의 및 Microsoft 365 Office 365 사용자가 휴대폰에서 모임에 전화를 걸 수 있습니다. 오디오 회의를 사용하면 최대 1,000명까지 전화 참석할 수 있습니다.
+Microsoft 365 및 Office 365 오디오 회의를 통해 사용자는 휴대폰에서 모임에 전화할 수 있습니다. 오디오 회의를 통해 최대 1,000명의 전화 참석자를 허용합니다.
 
 ## <a name="what-is-audio-conferencing"></a>오디오 회의는 무엇인가요?
 
@@ -76,7 +75,7 @@ ms.locfileid: "62055678"
   
  **전용 전화 번호** 는 조직 내 사용자만 사용할 수 있는 전화 번호입니다. 누군가 이 번호 중 하나로 전화할 때 사용되는 언어를 변경할 수 있습니다. 이에 대한 서비스 전화 번호를 받아야 합니다.
   
- **공유 전화 번호는** 다른 전화 번호 또는 365s와 공유할 수 Microsoft 365 Office 번호입니다. 누군가 이 번호 중 하나로 전화할 때 사용되는 언어를 변경할 수 없습니다.
+ **공유 전화 번호는** 다른 Microsoft 365 또는 Office 365s와 공유할 수 있는 전화 번호입니다. 누군가 이 번호 중 하나로 전화할 때 사용되는 언어를 변경할 수 없습니다.
   
 이끌이에게 할당된 기본 오디오 회의 번호는 모임 초대에만 포함되어 있지만 발신자는 회의 브리지에 할당된 모든 전화 번호를 사용하여 모임에 참가할 수 있습니다. 모임에 참여하는 데 사용할 수 있는 전화 번호 목록은 모든 모임 초대에 포함되는 **현지 번호 찾기** 링크에서 사용할 수 있습니다.
 
@@ -100,7 +99,7 @@ ms.locfileid: "62055678"
 
 - **비즈니스용 Skype 관리 센터 사용하기** 일부 국가/지역의 경우 비즈니스용 Skype 관리 센터를 사용하여 회의 브리지 번호를 얻을 수 있습니다. [서비스 전화 번호 받기](./getting-service-phone-numbers.md)를 참조하세요.
 
-- **기존 서비스 전화 번호 포팅하기** 현재 서비스 공급자 또는 휴대폰 통신사에서 기존 번호를 포트 또는 전송할 수 Microsoft 365 또는 Office 365. 이 작업을 수행하는 데 도움이 되는 자세한 내용은 [Teams로 전화 번호 이전](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 또는 [조직에 대한 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조하세요.  
+- **기존 서비스 전화 번호 포팅하기** 현재 서비스 공급자 또는 전화 통신 사업자에서 Microsoft 365 또는 Office 365 기존 번호를 포팅하거나 전송할 수 있습니다. 이 작업을 수행하는 데 도움이 되는 자세한 내용은 [Teams로 전화 번호 이전](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 또는 [조직에 대한 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조하세요.  
   
 - **새 전화 번호를 위한 요청 양식 사용하기** 경우에 따라(국가/지역에 따라) 비즈니스용 Skype 관리 센터를 사용하여 새 전화 번호를 받을 수 없거나 특정 전화 번호 또는 지역 코드가 필요할 수 있습니다. 그럴 경우 양식을 다운로드하여 다시 보내주세요. 자세한 내용은 [조직에서 전화번호 관리하기](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)를 참조하세요.
 

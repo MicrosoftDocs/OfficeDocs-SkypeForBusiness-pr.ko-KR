@@ -11,19 +11,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 보고서 상태 및 사용량에 대한 노드 데이터 보고
 f1keywords: ''
-ms.openlocfilehash: f3c8ceec383d801c5992b0e8275cfe5360ef5bfe
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 87a04860a69799bf00492691dc24498076bd4924
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674820"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271433"
 ---
 # <a name="health-and-usage-reports"></a>상태 및 사용 현황 보고서
 
@@ -132,7 +132,7 @@ ms.locfileid: "65674820"
 |열|설명|
 |---|---|
 |사용률|선택한 기간 동안 업무 시간 동안 객실을 예약한 시간의 백분율입니다. 전. 7일로 설정된 기간입니다. 32/40시간 동안 객실을 예약한 평균 사용률 80%|
-|온라인 예약|예약된 모임 중 Teams 사용하도록 설정된 비율입니다. 전. 모임 10개가 예약되었습니다. 그 중 8개는 Teams 링크를 가지고 있었습니다. 온라인 예약 = 80%|
+|온라인 예약|예약된 모임 중 Teams에서 사용하도록 설정된 비율입니다. 전. 모임 10개가 예약되었습니다. 그 중 8개에는 Teams 링크가 있었습니다. 온라인 예약 = 80%|
 |예약된 모임|회의실에서 예약된 모임의 절대 수|
 |총 호출 수|회의실을 참가자로 사용하는 절대 통화 수입니다.|
 통화 성능|"양수" 등급의 통화 비율입니다. 각 호출이 평가되고 양수, 불량, 알 수 없는 등급을 받습니다. 이 메트릭은 양수 호출/총 호출에서 계산됩니다.|
@@ -141,7 +141,7 @@ ms.locfileid: "65674820"
 
 ## <a name="usage-details-of-a-room"></a>회의실의 사용량 세부 정보
 
-목록 보기에서 회의실을 클릭하면 자세한 정보가 포함된 플라이아웃이 표시됩니다. 플라이아웃의 사용률 탭 아래에는 지난 5일의 사용 시간을 보여 주는 그래프가 있습니다. 매일 두 개의 막대가 있습니다. 파란색은 예약된 모임 시간을 나타냅니다. purple은 Teams/Skype 설정된 모임의 예약된 시간을 나타냅니다. 맨 아래에는 지난 5일 동안의 평균 모임 예약 및 기간이 계산됩니다.
+목록 보기에서 회의실을 클릭하면 자세한 정보가 포함된 플라이아웃이 표시됩니다. 플라이아웃의 사용률 탭 아래에는 지난 5일의 사용 시간을 보여 주는 그래프가 있습니다. 매일 두 개의 막대가 있습니다. 파란색은 예약된 모임 시간을 나타냅니다. purple은 Teams/Skype 사용 모임의 예약된 시간을 나타냅니다. 맨 아래에는 지난 5일 동안의 평균 모임 예약 및 기간이 계산됩니다.
 
 <!--![A screenshot of utilization by hours per day](../media/health-and-usage-012.png)-->
 

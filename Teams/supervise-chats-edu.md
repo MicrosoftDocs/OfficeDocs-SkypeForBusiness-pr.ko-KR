@@ -15,12 +15,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams 모임에서 감독된 채팅에 대해 알아봅니다.
-ms.openlocfilehash: c355730424ec164c2853d4f4dc55956fb7554ce2
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: 5cee0678e48a0fcdeb340b90e95981c3b1759f83
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789983"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271473"
 ---
 # <a name="supervised-chats-in-microsoft-teams"></a>Microsoft Teams의 감독된 채팅
 
@@ -84,6 +86,6 @@ Teams 관리 센터에서 사용할 수 있는 기존 채팅 정책을 사용하
 
 - 모든 권한이 있는 사용자가 테넌트에서 나가거나 제거되면 감독하던 채팅은 무인 상태로 남게 됩니다. 원래 사용자를 제거하기 전에 채팅을 감독된 상태로 유지할 수 있도록 전체 권한이 있는 다른 사용자가 이러한 대화에 추가되었는지 확인합니다. 원래 감독자가 제거되면 새 참가자를 대화에 추가할 수 없지만 현재 참가자는 계속 통신할 수 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [교육용 Teams에 대한 감독 채팅](https://support.microsoft.com/topic/supervised-chats-in-microsoft-teams-for-education-ad3aaafc-c85a-416f-95f9-d691f419cbb8?storagetype=live)

@@ -10,7 +10,6 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 f1.keywords:
 - NOCSH
 appliesto:
@@ -18,12 +17,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft 365에서 Teams 앱에 대한 액세스를 관리하는 방법을 알아보세요.
-ms.openlocfilehash: 4c6f12d6895bd9c11d240f460285d2aa8cf27cb4
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 114b16dad2a574b217ebc9bf815f42e579b740e8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175872"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271413"
 ---
 # <a name="manage-access-to-teams-apps-across-microsoft-365"></a>Microsoft 365에서 Teams 앱에 대한 액세스 관리
 

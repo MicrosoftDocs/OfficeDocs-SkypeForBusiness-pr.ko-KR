@@ -12,14 +12,15 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 description: 관리 Microsoft Teams 룸 누적 개선 사항을 나열하는 Microsoft Teams 룸 대한 릴리스 정보를 읽을 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b5630636ce5dc8f26d430e6d883bff0dc2bcc71f
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 9460694aec7a6b7f7c7f1648d8f9512ded4c01f7
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175852"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270083"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 룸 대한 릴리스 정보
 
@@ -37,7 +38,7 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 
 ## <a name="version-history"></a>버전 기록
 
-|석방 |게시 날짜 <br/> Microsoft Store |
+|릴리스 |게시 날짜 <br/> Microsoft Store |
 |--- |--- |
 |4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |

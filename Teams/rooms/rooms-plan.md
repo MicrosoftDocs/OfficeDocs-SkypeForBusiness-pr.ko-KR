@@ -14,13 +14,14 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- Teams_ITAdmin_Rooms
 description: 이 문서에서는 차세대 Skype 룸 시스템인 Microsoft Teams 룸 배포하기 위한 관련 계획 고려 사항을 설명합니다.
-ms.openlocfilehash: 392a14e3a72d60903db88b34d9b72152e1a8ec81
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: fe973e7e6f3f6d84a4ddf1721ccc8c73fb5da928
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761370"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269753"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>계획 Microsoft Teams 룸
 
@@ -48,7 +49,7 @@ Microsoft Teams 룸 훌륭한 사용자 환경을 제공하기 위한 다음과 
 
 이러한 구성 요소를 여러 공급업체에서 미리 설치된 번들로 조달하거나 [이 문서에 설명된 요구 사항에](requirements.md) 따라 지원되는 구성 요소를 개별적으로 구매할 수 있습니다.
 
-Microsoft Teams 또는 비즈니스용 Skype 온-프레미스 배포를 사용하여 Microsoft Teams 룸 배포할 수 있습니다.  필요한 라이선스에 대한 자세한 내용은 [Teams 미팅룸 라이선스 업데이트를](rooms-licensing.md) 참조하세요.
+Microsoft Teams를 사용하여 Microsoft Teams 룸 배포하거나 온-프레미스 배포를 비즈니스용 Skype 수 있습니다.  필요한 라이선스에 대한 자세한 내용은 [Teams 회의실 라이선스 업데이트를](rooms-licensing.md) 참조하세요.
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
@@ -66,18 +67,18 @@ Microsoft Teams 또는 비즈니스용 Skype 온-프레미스 배포를 사용�
 
 여러 팀에서 이러한 활동을 조정해야 할 수도 있습니다. 사용자가 처리해야 하는 주요 활동에 대한 개략적인 보기와 일반적으로 회의실 시스템 배포 및 관리에 참여하는 팀에 대한 제안을 제공하여 작업해야 할 사용자를 결정하는 데 도움을 줍니다.
 
-| 작업                        | Who 작업을 수행할 수 있습니다.           | 할당 대상 | 이 콘텐츠에 대한 링크 |
+| 작업                        | 작업을 수행할 수 있는 사람           | 할당 대상 | 이 콘텐츠에 대한 링크 |
 |----------------------------|----------------------------------------|-------------|-----------------------|
-| 인벤토리 룸            | 시설 / AV 팀 / IT Project 팀 |             | [회의실 인벤토리 및 기능 계획](#room-inventory-and-capability-planning) |
-| 계획 기능          | IT Project 팀                        |             | [회의실 인벤토리 및 기능 계획](#room-inventory-and-capability-planning) |
-| 디바이스 선택           | IT Project 팀/AV 팀              |             | [디바이스 선택](#device-selection) |
-| 조달                | IT Project 팀/AV 팀              |             | [조달](#procurement) |
-| 사이트 준비 상태             | 시설 / AV 팀 / IT Project 팀 |             | [사이트 준비 상태](rooms-deploy.md#site-readiness) |
-| 서비스 준비          | IT Project 팀                        |             | [서비스 준비](rooms-deploy.md#service-readiness) |
-| 구성              | IT Project 팀                        |             | [구성 및 배포](rooms-deploy.md#configuration-and-deployment) |
-| Deployment                 | 시설 / AV 팀 / IT Project 팀 |             | [배포 검사 목록](console.md#microsoft-teams-rooms-deployment-checklist) |
-| 채택                   | 시설 / AV 팀 / IT Project 팀 |             | [채택](#plan-for-adoption-and-change-management) |
-| 유지 관리 및 운영 | AV 팀 /IT Project 팀              |             | [관리 개요](rooms-manage.md) |
+| 인벤토리 룸            | 시설/AV 팀/IT 프로젝트 팀 |             | [회의실 인벤토리 및 기능 계획](#room-inventory-and-capability-planning) |
+| 계획 기능          | IT 프로젝트 팀                        |             | [회의실 인벤토리 및 기능 계획](#room-inventory-and-capability-planning) |
+| 디바이스 선택           | IT 프로젝트 팀/AV 팀              |             | [디바이스 선택](#device-selection) |
+| 조달                | IT 프로젝트 팀/AV 팀              |             | [조달](#procurement) |
+| 사이트 준비 상태             | 시설/AV 팀/IT 프로젝트 팀 |             | [사이트 준비 상태](rooms-deploy.md#site-readiness) |
+| 서비스 준비          | IT 프로젝트 팀                        |             | [서비스 준비](rooms-deploy.md#service-readiness) |
+| 구성              | IT 프로젝트 팀                        |             | [구성 및 배포](rooms-deploy.md#configuration-and-deployment) |
+| Deployment                 | 시설/AV 팀/IT 프로젝트 팀 |             | [배포 검사 목록](console.md#microsoft-teams-rooms-deployment-checklist) |
+| 채택                   | 시설/AV 팀/IT 프로젝트 팀 |             | [채택](#plan-for-adoption-and-change-management) |
+| 유지 관리 및 운영 | AV 팀/IT 프로젝트 팀              |             | [관리 개요](rooms-manage.md) |
 
 ## <a name="room-inventory-and-capability-planning"></a>회의실 인벤토리 및 기능 계획
 
@@ -122,7 +123,7 @@ _조직에 대한 샘플 Microsoft Teams 룸 배포 템플릿_
 | 중간 18' by 20'  | 6&ndash;12       |                              |                    |                 |
 | 대형 15' by 32'   | 12&ndash;16      |                              |                    |                 |
 
-**Pro 팁 –** 이제 선택한 Microsoft Teams 룸 솔루션에 대한 정보 수집을 시작할 수 있습니다.
+**Pro Tip –** 이제 선택한 Microsoft Teams 룸 솔루션에 대한 정보 수집을 시작할 수 있습니다.
 
 ## <a name="procurement"></a>조달
 
@@ -134,7 +135,7 @@ _조직에 대한 샘플 Microsoft Teams 룸 배포 템플릿_
 
 | &nbsp; | &nbsp; |
 |---|---|
-| ![배송 구성 요소입니다.](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>구성 요소를 사이트 또는 스테이징 시설로 직접 배송하시겠습니까?</li><li>Who 스테이징 기능을 관리합니다(사용하려는 경우)?</li></ul> |
+| ![배송 구성 요소입니다.](../media/audio_conferencing_image7.png) <br/>의사 결정 지점|<ul><li>구성 요소를 사이트 또는 스테이징 시설로 직접 배송하시겠습니까?</li><li>스테이징 기능을 사용하기로 결정한 경우 누가 관리할까요?</li></ul> |
 | ![계획 작업.](../media/audio_conferencing_image9.png)<br/>다음 단계|<ul><li>작업을 계획합니다.</li><li>채택 및 변경 관리를 계획합니다.</li></ul> |
 
 ## <a name="plan-for-operations"></a>작업 계획

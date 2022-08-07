@@ -10,7 +10,6 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 f1.keywords:
 - NOCSH
 appliesto:
@@ -18,12 +17,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 앱 세부 정보 및 메타데이터를 편집하여 앱의 모양을 변경하고 앱 브랜드를 변경하는 방법을 알아보세요.
-ms.openlocfilehash: 21ab770aba8281cfd602ef4eab21853ac1498b6b
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 32c526e2cbbb4ef464e0daa777228e0a17dd391b
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175692"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269083"
 ---
 # <a name="customize-appearance-of-apps-in-your-organizations-teams-store"></a>조직의 Teams 스토어에서 앱 모양 사용자 지정
 

@@ -1,5 +1,5 @@
 ---
-title: Teams 모임 스트리밍
+title: Stream Teams 모임
 author: mkbond007
 ms.author: mabond
 manager: serdars
@@ -17,22 +17,21 @@ f1.keywords:
 ms.custom: ''
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
 description: Teams 모임에 대한 스트리밍을 설정하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 352a0c2e7a0584640e466b5e46456906e4912d00
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 5e1e84fc3b0b4ed2f81b3f3a8c84450dc3cee56c
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646347"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270183"
 ---
-# <a name="stream-teams-meetings"></a>Teams 모임 스트리밍
+# <a name="stream-teams-meetings"></a>Stream Teams 모임
 
 이 문서는 Teams 모임에 대한 스트리밍을 설정하는 데 도움이 됩니다.
 
 ## <a name="what-is-streaming-and-how-does-it-work"></a>스트리밍이란 무엇이며 어떻게 작동하나요?
 
-스트리밍을 사용하면 조직에서 도달 범위를 확장하고 모임 참석자에게 더 많은 모임 옵션을 제공할 수 있습니다. 스트리밍을 사용하도록 설정하면 이끌이는 Teams 기본 제공 사용자 지정 스트리밍 앱에 RTMP(Real-Time Messaging Protocol) URL 및 키를 제공하여 모임 및 웨비나를 외부 엔드포인트로 스트리밍할 수 있습니다.
+스트리밍을 사용하면 조직에서 도달 범위를 확장하고 모임 참석자에게 더 많은 모임 옵션을 제공할 수 있습니다. 스트리밍을 사용하도록 설정하면 이끌이는 Teams의 기본 제공 사용자 지정 스트리밍 앱에 rtMP(Real-Time Messaging Protocol) URL 및 키를 제공하여 모임 및 웨비나를 외부 엔드포인트로 스트리밍할 수 있습니다.
 
 > [!NOTE]
 > 라이브 이벤트를 스트리밍할 수 없습니다.
@@ -52,10 +51,10 @@ PowerShell을 사용하여 스트리밍하도록 조직을 설정할 수 있습�
 
 ### <a name="assign-the-policy"></a>정책 할당
 
-PowerShell을 사용하여 정책을 할당하는 방법에 대한 자세한 내용은 [Teams 정책 할당을](policy-assignment-overview.md) 참조하세요.
+PowerShell을 사용하여 정책을 할당하는 방법에 대한 자세한 내용은 [Teams에서 정책 할당을 참조하세요](policy-assignment-overview.md).
 
 ## <a name="related-topics"></a>관련 항목
 
-- [Teams 정책 할당](policy-assignment-overview.md)
+- [Teams에서 정책 할당](policy-assignment-overview.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 - [빠른 시작 - 모임, 웨비나 및 라이브 이벤트](quick-start-meetings-live-events.md)

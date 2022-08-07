@@ -1,5 +1,5 @@
 ---
-title: 관리자 교육 리소스 - Microsoft Teams
+title: 관리 교육 리소스 - Microsoft Teams
 ms.reviewer: jhwang
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -9,26 +9,25 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
 - seo-marvel-mar2020
-description: Microsoft Teams 계획, 배포 및 실행하는 방법에 대한 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스.
+description: Microsoft Teams를 계획, 배포 및 실행하는 방법에 대한 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3cda81a54bce9310454cd6b0607e943eb7c2bb37
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: e4dc2bb1055853bdd5b06b85303ea6dceda934dc
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045857"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269303"
 ---
-# <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams 대한 관리자 교육 시작
+# <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams용 관리자 교육 시작
 
-교육 리소스를 사용하여 Teams 대해 교육하거나, 다른 사람을 가르치거나, 워크샵을 운영합니다. 새 콘텐츠는 여기에서 자주 확인하세요.
+교육 리소스를 사용하여 Teams에 대해 직접 교육하거나, 다른 사람을 가르치거나, 워크샵을 운영합니다. 새 콘텐츠는 여기에서 자주 확인하세요.
 
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 | :------------ | :------------ | :------------ | :------------ |
@@ -40,16 +39,16 @@ ms.locfileid: "66045857"
 
 |&nbsp; |&nbsp; |&nbsp;  |
 |---------|---------|---------|
-|[**IT에 대한 Teams 필수 사항**](https://aka.ms/MicrosoftTeamsforIT) - Microsoft Mechanics "it용 Teams" 비디오 시리즈에서는 관리자가 Teams 롤아웃, 구성 및 관리하는 방법을 보여 줍니다.     |[**Microsoft Teams 사용하여 원격 작업자 지원**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - 집에서 일하는 사용자를 지원하기 위해 필요한 지침(교육 링크 포함)을 가져옵니다.         |[**IT를 위한 팀 공동 작업 관리**](/learn/paths/m365-manage-team-collaboration) - Teams 사용하여 애플리케이션 및 디바이스에서 조직 내에서 팀워크와 통신을 용이하게 하는 방법을 알아봅니다.         |
-|[**서비스 채택 전문가 인증**](/learn/paths/m365-service-adoption) - Microsoft 서비스 채택 전문가 인증 과정 기능 Teams. 조직에서 Microsoft 서비스 채택률을 높일 수 있는 방법에 대해 알아보세요.     |[**Microsoft 365 팀워크 소개**](/learn/modules/intro-to-teamwork-in-m365/index) - Microsoft 서비스 채택 전문가 인증 과정 기능 Teams. 조직에서 Microsoft 서비스 채택률을 높일 수 있는 방법에 대해 알아보세요.        |[**Microsoft 365 인증: 팀워크 관리자 연결**](/learn/certifications/m365-teamwork-administrator) - Microsoft 365 Teamwork Administrators가 SharePoint(온라인, 온-프레미스 및 하이브리드)와 같은 Microsoft 365 또는 Office 365 워크로드를 구성, 배포 및 관리하는 OneDrive 및 Teams.        |
+|[**IT에 대한 Teams 필수 사항**](https://aka.ms/MicrosoftTeamsforIT) - Microsoft Mechanics "IT용 Teams" 비디오 시리즈에서는 관리자가 Teams를 롤아웃, 구성 및 관리하는 방법을 보여 줍니다.     |[**Microsoft Teams를 사용하여 원격 작업자 지원**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - 집에서 일하는 사용자를 지원하기 위해 필요한 지침(교육 링크 포함)을 가져옵니다.         |[**IT에 대한 팀 공동 작업 관리**](/learn/paths/m365-manage-team-collaboration) - Teams를 사용하여 애플리케이션 및 장치에서 조직 내에서 팀워크와 통신을 용이하게 하는 방법을 알아봅니다.         |
+|[**서비스 채택 전문가 인증**](/learn/paths/m365-service-adoption) - Microsoft 서비스 채택 전문가 인증 과정에는 Teams가 있습니다. 조직에서 Microsoft 서비스 채택률을 높일 수 있는 방법에 대해 알아보세요.     |[**Microsoft 365의 팀워크 소개**](/learn/modules/intro-to-teamwork-in-m365/index) - Microsoft 서비스 채택 전문가 인증 과정에는 Teams가 있습니다. 조직에서 Microsoft 서비스 채택률을 높일 수 있는 방법에 대해 알아보세요.        |[**Microsoft 365 Certified: Teamwork Administrator Associate**](/learn/certifications/m365-teamwork-administrator) - Microsoft 365 Teamwork Administrators는 SharePoint(온라인, 온-프레미스 및 하이브리드), OneDrive 및 Teams와 같은 Microsoft 365 또는 Office 365 워크로드를 구성, 배포 및 관리합니다.        |
 
 <h2>기술 교육</h2>
 
 | 모듈 | 비디오 | PowerPoint 데크  |
 | ------------ | -------------------- | -------------------- |
-| [Microsoft Mechanics - Teams Essentials for IT YouTube 채널](https://aka.ms/MicrosoftTeamsforIT) | [비디오: IT용 Teams Essentials](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn)(10:13 분)<br>[비디오: 배포 & 구성 Teams - 소개](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2)(8:22 분)  <br>[비디오: 보안 및 규정 준수](https://youtu.be/91lHNKVVvQ4) (12:42분)<br>[비디오: 보안 및 규정 준수를 위한 Teams 컨트롤](https://www.youtube.com/watch?v=Km4T4hMM__k)(10:54 분)||
+| [Microsoft Mechanics - IT YouTube 채널용 Teams Essentials](https://aka.ms/MicrosoftTeamsforIT) | [비디오: IT용 Teams Essentials](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 분)<br>[비디오: Teams 구성 & 배포 - 소개](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22분)  <br>[비디오: 보안 및 규정 준수](https://youtu.be/91lHNKVVvQ4) (12:42분)<br>[비디오: 보안 및 규정 준수를 위한 Teams 컨트롤](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54분)||
 | 기초 - 핵심 구성 요소 | [비디오](https://aka.ms/teams-foundations) | [갑판](https://aka.ms/teams-foundations-deck) |
-| 데스크톱 클라이언트 Windows | [비디오](https://aka.ms/teams-clients) | [갑판](https://aka.ms/teams-clients-deck) |
+| Windows 데스크톱 클라이언트 | [비디오](https://aka.ms/teams-clients) | [갑판](https://aka.ms/teams-clients-deck) |
 | 거버넌스, 관리 및 수명 주기 | [비디오](https://aka.ms/teams-governance) | [갑판](https://aka.ms/teams-governance-deck) |
 | 보안 & 규정 준수 | [비디오](https://aka.ms/teams-security-compliance) | [갑판](https://aka.ms/teams-security-compliance-deck) |
 | 통화 품질 개요 | [비디오](https://aka.ms/teams-quality) | [갑판](https://aka.ms/teams-quality-deck) |
@@ -59,7 +58,7 @@ ms.locfileid: "66045857"
 | 동적 긴급 통화 | [비디오](https://aka.ms/teams-dec) |  [갑판](https://aka.ms/teams-dec-deck) |
 | 라이브 이벤트 | [비디오](https://aka.ms/teams-live-events-session) | [갑판](https://aka.ms/teams-live-events-deck) |
 | 전화 시스템 소개 | [비디오](https://aka.ms/teams-phone-system) | [갑판](https://aka.ms/teams-phone-system-deck) |
-| 직접 라우팅 | [비디오 1: Teams 직접 라우팅 계획](https://aka.ms/teams-dr-plan)<br>[비디오 2: Teams 직접 라우팅 구성 및 관리](https://aka.ms/teams-dr-config)<br>[비디오 3: Teams 직접 라우팅으로 마이그레이션](https://aka.ms/teams-dr-migrate)  | [갑판](https://aka.ms/teams-direct-routing-deck) |
+| 직접 라우팅 | [비디오 1: Teams에서 직접 라우팅 계획](https://aka.ms/teams-dr-plan)<br>[비디오 2: Teams에서 직접 라우팅 구성 및 관리](https://aka.ms/teams-dr-config)<br>[비디오 3: Teams에서 직접 라우팅으로 마이그레이션](https://aka.ms/teams-dr-migrate)  | [갑판](https://aka.ms/teams-direct-routing-deck) |
 | 비즈니스용 Skype에서 Teams로 업그레이드 | [비디오 1: 업그레이드 소개](https://aka.ms/teams-upgrade-intro)</br>[비디오 2: 업그레이드 계획](https://aka.ms/teams-upgrade-plan)</br>[비디오 3: 공존 및 상호 운용성](https://aka.ms/teams-upgrade-coexistence-interop)</br>[비디오 4: 관리자 환경](https://aka.ms/teams-upgrade-admin) | [갑판](https://aka.ms/teams-upgrade-deck)|
 
 <h2>TEAMS 룸 Foundations for IT & AV Pros</h2>
@@ -81,7 +80,7 @@ ms.locfileid: "66045857"
 
 <h2>Teams Android 디바이스</h2>
 
-<p>다음 표에는 Teams 디스플레이, Teams 휴대폰, Android Teams 룸 및 Teams 패널이 포함된 Microsoft Teams Android 장치에서 PowerPoint 데크(PDF 형식)가 포함된 포괄적인 학습 링크가 포함되어 있습니다. .  
+<p>다음 표에는 Teams 디스플레이, Teams 휴대폰, android용 Teams 룸 및 Teams 패널이 포함된 Microsoft Teams Android 장치에서 PowerPoint 데크(PDF 형식)를 사용하는 포괄적인 학습에 대한 링크가 포함되어 있습니다.  
 
 | 모듈 | PowerPoint 데크(PDF)  |
 | ------------| -------------------- |
@@ -95,29 +94,29 @@ ms.locfileid: "66045857"
 
 | 제목                                                                       | 추상                                                                                                                                                                                                               |  가이드에 연결                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| Teams 대한 ID, 액세스 관리 & 위협 방지                   | Microsoft 관리 센터 및 PowerShell을 사용하여 액세스 및 ID 정책을 구성하고 Teams Office 365 Advanced Threat Protection을 사용하도록 설정하는 방법을 알아봅니다.                                                            | [Teams 보안 가이드](https://aka.ms/teamsesecurityinteractiveguide)         |
-| Microsoft Teams 대한 Microsoft Purview DLP(데이터 손실 방지) 정책                     | 기존 DLP 정책에 Microsoft Teams 추가하는 방법과 템플릿을 기반으로 하거나 조직의 데이터 보호 요구 사항에 맞게 완전히 사용자 지정된 새 정책을 만드는 방법을 알아봅니다.                        | [Teams DLP 가이드](https://aka.ms/teamsdlpguide)         |
-| Teams 규정 준수 관리                                                | Microsoft 365 보안, Microsoft 365 규정 준수 및 Microsoft Teams 관리 센터를 사용하고 Windows PowerShell 사용하여 Office 365 조직의 Microsoft Teams 정책을 관리하고 구성합니다. 및 설정입니다. | [Teams 가이드에서 규정 준수 관리](https://aka.ms/complianceinteamsinteractiveguide)      |
-| Teams 어드바이저: Microsoft Teams 채팅, 팀, 채널 및 앱 배포 | Teams Advisor를 사용하여 환경을 평가하고 채팅, 팀, 채널 및 앱을 배포하기 위한 계획을 수립하는 방법을 알아봅니다.                                                                                         |  [Teams 어드바이저 가이드](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
+| Teams용 ID, 액세스 관리 & 위협 방지                   | Microsoft 관리 센터 및 PowerShell을 사용하여 액세스 및 ID 정책을 구성하고 Teams에 Office 365 Advanced Threat Protection을 사용하도록 설정하는 방법을 알아봅니다.                                                            | [Teams 보안 가이드](https://aka.ms/teamsesecurityinteractiveguide)         |
+| Microsoft Teams용 Microsoft Purview DLP(데이터 손실 방지) 정책                     | 기존 DLP 정책에 Microsoft Teams를 추가하는 방법과 템플릿을 기반으로 하든 조직의 데이터 보호 요구 사항에 맞게 완전히 사용자 지정되었는지에 관계없이 새 정책을 만드는 방법을 알아봅니다.                        | [Teams DLP 가이드](https://aka.ms/teamsdlpguide)         |
+| Teams에서 규정 준수 관리                                                | Microsoft 365 보안, Microsoft 365 규정 준수 및 Microsoft Teams 관리 센터뿐만 아니라 Windows PowerShell 사용하여 Office 365 조직의 Microsoft Teams 정책 및 설정을 관리하고 구성합니다. | [Teams에서 규정 준수 관리 가이드](https://aka.ms/complianceinteamsinteractiveguide)      |
+| Teams Advisor: Microsoft Teams에서 채팅, 팀, 채널 및 앱 배포 | Teams Advisor를 사용하여 환경을 평가하고 채팅, 팀, 채널 및 앱을 배포하기 위한 계획을 수립하는 방법을 알아봅니다.                                                                                         |  [Teams Advisor 가이드](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | PowerShell 및 동적 그룹을 사용하여 Teams 관리 간소화        | Office 365 그룹을 정적 멤버 자격에서 동적으로 변환하고 Windows PowerShell 사용하여 모든 멤버에게 새 앱 권한 정책을 할당합니다.                                                                         |  [Teams 관리 가이드 간소화](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
-| Microsoft Teams 관리 센터에서 Teams 및 게스트 액세스 관리         | 조직의 Microsoft Teams 및 게스트 액세스를 구성하고 관리하는 방법을 알아봅니다.                                                                                                                              | [Teams 및 게스트 액세스 가이드 관리](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
-| Teams 전화 시스템 구성: 자동 전화 교환 & 통화 큐                   | Microsoft Teams 관리 센터를 사용하여 Microsoft Teams 통화의 일부로 통화 큐 및 자동 전화 교환을 만들고 배포하는 프로세스를 단계별로 수행합니다.                                                          |  [Teams 전화 시스템 가이드 구성](https://aka.ms/TeamsPhoneInteractiveGuide)             |
+| Microsoft Teams 관리 센터에서 Teams 및 게스트 액세스 관리         | 조직에 대한 Microsoft Teams 및 게스트 액세스를 구성하고 관리하는 방법을 알아봅니다.                                                                                                                              | [Teams 및 게스트 액세스 관리 가이드](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
+| Teams 전화 시스템 구성: 자동 전화 교환 & 통화 큐                   | Microsoft Teams 관리 센터를 사용하여 Microsoft Teams 통화의 일부로 통화 큐 및 자동 전화 교환을 만들고 배포하는 프로세스를 단계별로 진행합니다.                                                          |  [Teams 전화 시스템 구성 가이드](https://aka.ms/TeamsPhoneInteractiveGuide)             |
 | 직접 라우팅 구성: SCC 및 음성 라우팅 연결                 | Microsoft Teams 전화 시스템 직접 라우팅을 사용하여 기존 전화 통신 인프라와 통합합니다.                                                                                                              | [직접 라우팅 가이드 구성](https://aka.ms/DirectRoutingInteractiveGuide)          |
-| Microsoft Teams 거버넌스 구성                                     | 조직에 대한 Teams 메시징 보존 정책을 만드는 방법과 개별 Teams 보관, 삭제 및 복원하는 방법을 알아봅니다.                                                                                   |  [Microsoft Teams 가이드에서 거버넌스 구성](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
-| Microsoft Teams 모임 구성 및 배포                          | Microsoft Teams 위해 모임 워크로드를 배포하는 프로세스를 단계별로 진행합니다.                                                                                                                                       |  [Microsoft Teams 모임 가이드 구성 및 배포](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
-| Microsoft Teams 대한 오디오 회의 구성                            | Teams 오디오 회의 기능을 알아보고 전화 회의 브리지 및 전화 접속 전화 번호를 할당하는 방법을 알아봅니다.                                                                                          |  [Microsoft Teams 가이드에 대한 오디오 회의 구성](https://aka.ms/AudioConferencingInteractiveGuide)      |
-| 일선 작업자에 대한 Microsoft Teams 구성                           | Firstline Workforce에 적합한 Microsoft Teams 환경을 구성하고 배포하는 방법을 알아봅니다.                                                                                                                  | [일선 작업자용 Microsoft Teams 구성 가이드](https://aka.ms/ConfigFLWInteractiveGuide)              |
-| 일선 인력에 대한 ID: IT, 관리자 및 일선 작업자 권한 부여                    | 기존 HR 시스템과 Microsoft Teams 통합하고, 경량 위임 ID 관리를 구성하고, 공유 디바이스를 사용하는 사용자에 대해 간소화된 로그인 및 원활한 전환을 구성하는 방법을 알아봅니다.                                                                                                                  | [일선 작업자 ID 가이드](https://aka.ms/FLWIdentityIG)              |
-| Microsoft Teams 룸 배포                           | Microsoft Teams 룸 사용할 계정을 만들고 구성하고 Microsoft Teams 관리 센터에서 디바이스를 관리하는 방법을 알아봅니다.                                                                                                                  | [Microsoft Teams 룸 배포](https://aka.ms/teamsroomslab)              |
-|Teams Certified Android 디바이스 작업|휴대폰, Microsoft Teams Microsoft Teams 디스플레이, Microsoft Teams 룸 및 Microsoft Teams 패널을 관리하고 업그레이드하는 방법을 알아봅니다.|[Microsoft Teams Certified Android 디바이스 작업](https://aka.ms/teamsandroiddeviceslab)|
+| Microsoft Teams에서 거버넌스 구성                                     | 조직에 대한 Teams 메시징 보존 정책을 만드는 방법 및 개별 Teams를 보관, 삭제 및 복원하는 방법을 알아봅니다.                                                                                   |  [Microsoft Teams에서 거버넌스 구성 가이드](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
+| Microsoft Teams 모임 구성 및 배포                          | Microsoft Teams에 대한 모임 워크로드를 배포하는 프로세스를 단계별로 진행합니다.                                                                                                                                       |  [Microsoft Teams 모임 구성 및 배포 가이드](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
+| Microsoft Teams에 대한 오디오 회의 구성                            | Teams에서 오디오 회의의 기능을 알아보고 전화 회의 브리지 및 전화 접속 전화 번호를 할당하는 방법을 알아봅니다.                                                                                          |  [Microsoft Teams용 오디오 회의 구성 가이드](https://aka.ms/AudioConferencingInteractiveGuide)      |
+| 일선 작업자용 Microsoft Teams 구성                           | Firstline Workforce에 적합한 Microsoft Teams 환경을 구성하고 배포하는 방법을 알아봅니다.                                                                                                                  | [일선 작업자용 Microsoft Teams 구성 가이드](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| 일선 인력에 대한 ID: IT, 관리자 및 일선 작업자 권한 부여                    | Microsoft Teams를 기존 HR 시스템과 통합하고, 경량 위임 ID 관리를 구성하고, 공유 디바이스를 사용하는 사용자에 대해 간소화된 로그인 및 원활한 전환을 구성하는 방법을 알아봅니다.                                                                                                                  | [일선 작업자 ID 가이드](https://aka.ms/FLWIdentityIG)              |
+| Microsoft Teams 룸 배포                           | Microsoft Teams 관리 센터에서 Microsoft Teams 룸 사용하여 디바이스를 관리하고 사용할 계정을 만들고 구성하는 방법을 알아봅니다.                                                                                                                  | [Microsoft Teams 룸 배포](https://aka.ms/teamsroomslab)              |
+|Teams 인증 Android 디바이스 작업|Microsoft Teams 휴대폰, Microsoft Teams 디스플레이, Microsoft Teams 룸 및 Microsoft Teams 패널을 관리하고 업그레이드하는 방법을 알아봅니다.|[Microsoft Teams 인증 Android 디바이스 작업](https://aka.ms/teamsandroiddeviceslab)|
 
 <h2>빠른 시작 가이드</h2>
 
 - [빠른 시작: 관리자 교육용 Teams](teams-quick-start-edu.yml)
-- [빠른 시작: Teams 통화 플랜 구성](configuring-teams-calling-quickstartguide.md)
+- [빠른 시작: Teams에서 통화 플랜 구성](configuring-teams-calling-quickstartguide.md)
 
 <h2>자습서</h2>
 
 - [자습서: Teams에서의 모임](tutorial-meetings-in-teams.yml)
 - [자습서: Teams의 오디오 회의](tutorial-audio-conferencing.yml)
-- [자습서: Teams 호출 이해](tutorial-calling-in-teams.yml)
+- [자습서: Teams에서 통화 이해](tutorial-calling-in-teams.yml)

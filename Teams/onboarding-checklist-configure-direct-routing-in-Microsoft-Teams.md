@@ -16,12 +16,14 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b25bea2fb2b3e6994259f9f9d606b8bda6fa22c8
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.collection:
+- M365-voice
+ms.openlocfilehash: b61e2f348a11df5003a1eaf4dd53897b0c72b027
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563906"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270913"
 ---
 # <a name="configure-direct-routing-in-microsoft-teams"></a>Microsoft Teams에서 직접 라우팅 구성
 

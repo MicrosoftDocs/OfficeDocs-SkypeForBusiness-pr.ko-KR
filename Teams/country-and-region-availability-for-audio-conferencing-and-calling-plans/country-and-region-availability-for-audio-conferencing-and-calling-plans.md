@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 국가 또는 지역에서 오디오 회의, 전화 시스템, 통화 플랜, 통신 크레딧, 유료 및 무료 전화 번호를 사용할 수 있는지 알아봅니다.
-ms.openlocfilehash: 7693ae0421d186d1ac230d48bf4df2369aa4e3f8
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: 0bc0013f27e890e56224dcc1c645afbaf94b699a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682467"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269183"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>오디오 회의 및 통화 플랜의 국가 및 지역 가용성
 
@@ -205,6 +205,11 @@ ms.locfileid: "66682467"
 페이지 맨 위에 있는 드롭다운 목록을 사용하여 국가 또는 지역 및 사용 가능한 서비스를 검색합니다.
 
 ### <a name="calling-plans"></a>통화 플랜
+
+|기능     |세부 정보  |
+|----------|-----------|
+|통화 플랜을 구매할 수 있나요?  |예          |   
+|통화 플랜에 사용할 수 있는 시간(분)입니다.    |월당 5가지 플랜 옵션을 사용할 수 있습니다. <ul><li>종량제 통화 플랜 </li><li> 120분 국내 통화 플랜 </li><li> 240분 국내 통화 플랜 </li><li> 1200분 국내 통화 플랜 </li><li> 국제 통화 플랜: 국내 1200분 또는 국제 통화 600분(해당 월 중 첫 번째 통화)</li></ul>|
 
 전화 시스템과 함께 통화 플랜을 사용하면 사용자가 전화를 걸고 받을 수 있습니다. 먼저 사용자에게 할당할 사용자(구독자) 전화 번호(서비스 번호 아님)를 받고 통화 플랜을 할당합니다. 통화 플랜에는 국내 및 **국제** 통화 플랜의 두 가지 유형 **이** 있습니다. 자세한 내용은 [전화 시스템 및 통화 플랜](../calling-plan-landing-page.md)을 참조하세요.
 

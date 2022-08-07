@@ -8,7 +8,6 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
-- SPO_Content
 ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +16,12 @@ description: 법적 절차에 대한 모든 전자 저장 정보를 제출해야
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1d548149f978764bbfbe3d0cd3475704ad6a76c2
-ms.sourcegitcommit: 9b08e2826b5b210abd9daa2ef40d4693a5000e33
+ms.openlocfilehash: 28605ac0f691083151fbb84c73c2ffcfa92ca3b4
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "67039645"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269063"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams에서 콘텐츠에 대한 eDiscovery 조사 수행
 

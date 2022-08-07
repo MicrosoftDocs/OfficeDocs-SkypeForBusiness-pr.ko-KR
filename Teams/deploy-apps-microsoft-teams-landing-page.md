@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 8fa6763641edf1b4eff29e16fb7ecdeaa4111edf
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 77d33fc464ab67945c8d3c588c4ce47366c2ba2d
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156686"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270263"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Microsoft Teams 앱 이해하기
 
@@ -43,7 +43,7 @@ Teams 스토어의 유효성이 검사되고 안전한 앱이 포함된 광범�
 
 ## <a name="core-apps"></a>핵심 앱
 
-활동 피드, 채널, 채팅, 일정, 통화와 같은 일부 Teams 기능이 기본 제공되며, 이러한 기능들은 최종 사용자가 쉽게 액세스할 수 있도록 기본적으로 고정되어 있습니다. 관리자는 [정책 설정](/microsoftteams/teams-app-setup-policies)을 사용하여 이러한 기본 동작을 수정할 수 있습니다.
+활동 피드, 팀, 채팅, 일정, 통화, 파일 및 할당(교육 테넌트)과 같은 일부 Teams 기능은 기본적으로 사용 가능하며 최종 사용자가 쉽게 액세스할 수 있도록 기본적으로 고정됩니다. 최전방 작업자의 경우 활동, 교대 근무, 채팅 및 통화만 사용할 수 있고 고정됩니다. 관리자는 [정책 설정](/microsoftteams/teams-app-setup-policies)을 사용하여 이러한 기본 동작을 수정할 수 있습니다.
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="핵심 앱은 기본적으로 Teams에 고정된 앱입니다." lightbox="media/core-apps-pinned2.png":::
 

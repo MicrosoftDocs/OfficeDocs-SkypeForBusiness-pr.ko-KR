@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -20,12 +19,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Microsoft Teams에서 자동 전화 교환 및 통화 큐에 대한 통화 라우팅 흐름을 계획하는 방법을 알아봅니다.
-ms.openlocfilehash: 7788bbe07b33a133af04c8a7fe8333ba66f7f2df
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: c883d6e104d73bf4082f69128af141f489d7cf89
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240987"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270533"
 ---
 # <a name="plan-your-call-routing-flow"></a>통화 라우팅 흐름 계획
 

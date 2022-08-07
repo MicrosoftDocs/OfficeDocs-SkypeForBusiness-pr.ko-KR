@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft 직접 라우팅을 통해 지원되는 고객 제공 SBC(세션 테두리 컨트롤러)를 전화 시스템에 연결할 수 있는 방법을 알아봅니다.
-ms.openlocfilehash: fd5f2733fc11511e6cfc2e646c0bb78aff26b522
-ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
+ms.openlocfilehash: f3fe1e9f6f2244c7d33528488f07e66797509d2a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "66695061"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267783"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -256,8 +256,8 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 다음 서브넷에서 IP 주소로 확�
 
 |트래픽을|보낸 사람|받는 사람|원본 포트|대상 포트|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|SIP 프록시|SBC|1024 – 65535|SBC에 정의됨(Office 365 GCC High/DoD의 경우 포트 5061만 사용해야 함)|
-SIP/TLS|SBC|SIP 프록시|SBC에 정의됨|5061|
+|SIP/TLS|SIP 프록시|Sbc|1024 – 65535|SBC에 정의됨(Office 365 GCC High/DoD의 경우 포트 5061만 사용해야 함)|
+SIP/TLS|Sbc|SIP 프록시|SBC에 정의됨|5061|
 ||||||
 
 ### <a name="failover-mechanism-for-sip-signaling"></a>SIP 신호에 대한 장애 조치(failover) 메커니즘
@@ -266,10 +266,10 @@ SBC는 dns 쿼리를 만들어 sip.pstnhub.microsoft.com 확인합니다. SBC �
 
 아래 표에는 기본 데이터 센터, 보조 데이터 센터 및 3차 데이터 센터 간의 관계가 요약되어 있습니다.
 
-|기본 데이터 센터가 인 경우|EMEA|NOAM|아시아|
+|기본 데이터 센터가 인 경우|Emea|Noam|아시아|
 |:--- |:--- |:--- |:--- |
-|보조 데이터 센터(sip2.pstnhub.microsoft.com)|우리|EU|우리|
-|3차 데이터 센터(sip3.pstnhub.microsoft.com)|아시아|아시아|EU|
+|보조 데이터 센터(sip2.pstnhub.microsoft.com)|우리|Eu|우리|
+|3차 데이터 센터(sip3.pstnhub.microsoft.com)|아시아|아시아|Eu|
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>미디어 트래픽: 포트 범위
@@ -295,8 +295,8 @@ SBC는 dns 쿼리를 만들어 sip.pstnhub.microsoft.com 확인합니다. SBC �
 
 |트래픽을|보낸 사람|받는 사람|원본 포트|대상 포트|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|미디어 프로세서|SBC|3478-3481 및 49152 – 53247|SBC에 정의됨|
-|UDP/SRTP|SBC|미디어 프로세서|SBC에 정의됨|3478-3481 및 49152 – 53247|
+|UDP/SRTP|미디어 프로세서|Sbc|3478-3481 및 49152 – 53247|SBC에 정의됨|
+|UDP/SRTP|Sbc|미디어 프로세서|SBC에 정의됨|3478-3481 및 49152 – 53247|
 
   > [!NOTE]
   > Microsoft는 SBC에서 동시 호출당 두 개 이상의 포트를 권장합니다.
@@ -344,6 +344,8 @@ Microsoft는 직접 라우팅과 쌍을 이루는 인증된 SCC만 지원합니�
 
 지원되는 SCC에 대한 자세한 내용은 [직접 라우팅에 대해 인증된 세션 테두리 컨트롤러를 참조하세요](direct-routing-border-controllers.md).
 
+## <a name="support-boundaries"></a>지원 경계
+Microsoft는 인증 디바이스로 사용하는 경우에만 직접 라우팅을 사용하는 전화 시스템을 지원합니다. 문제가 있는 경우 SBC 공급업체의 고객 지원에 먼저 문의해야 합니다. 필요한 경우 SBC 공급업체에서 내부 채널을 통해 Microsoft로 문제를 에스컬레이션합니다. Microsoft에는 인증되지 않은 디바이스에서 직접 라우팅을 통해 전화 시스템에 연결할 경우 지원을 거부할 권리가 있습니다. Microsoft에서 고객의 직접 라우팅 문제가 공급업체의 SBC 장치와 관련된 것으로 판단되면 고객은 SBC 공급업체에 다시 참여를 요청해야 합니다.
  
 ## <a name="see-also"></a>참고 항목
 

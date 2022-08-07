@@ -9,20 +9,19 @@ audience: admin
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
 description: 통화 플랜을 사용하여 기존 전화 번호를 현재 공급자에서 Microsoft Teams 전화 System으로 이동하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed1771ac73d5e5c738d229f031a156fe7b9c4dcf
-ms.sourcegitcommit: f608811288c82a6348a6af1671246a93ed06e578
+ms.collection:
+- M365-voice
+- M365initiative-voice
+ms.openlocfilehash: a7ff0b8c1e84700d9a4370cda615a02f95f57222
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66660954"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268113"
 ---
 # <a name="step-7-port-phone-numbers-to-teams-phone-system-with-calling-plan-optional"></a>7단계: 통화 플랜을 사용하여 Teams 전화 시스템에 전화 번호 이식(선택 사항)
 
@@ -50,7 +49,7 @@ ms.locfileid: "66660954"
 - 계정 승인자
 - 보유하고 있는 문제 또는 질문에 대한 설명
 
-전화 번호에 대한 도움말은 [TNS(전화 번호 서비스) - 서비스 데스크](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) 확인하세요.
+전화 번호에 대한 도움말은 [TNS(전화 번호 서비스) - Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)를 확인하세요.
 
 > [!div class="nextstepaction"]
 > [다음 단계: 통화 플랜 설정으로 Teams 전화 시스템 완료](set-up-finish.md)

@@ -9,7 +9,6 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
-- m365initiative-voice
 f1.keywords:
 - NOCSH
 ms.reviewer: crowe
@@ -18,12 +17,12 @@ description: Teams의 Cloud Voice에서 조직에 가장 적합한 Microsoft 전
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0040814b12e98c4f44d1dff5939651938580fa4d
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: ebe826b55d043c7f8ae8fea76c2d8e59ae5543bd
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156556"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268793"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>사용자에게 적합한 통화 플랜은 무엇인가요?
 

@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -20,16 +19,16 @@ ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
-- ms.teamsadmincenter.callqueues.overview"
+- ms.teamsadmincenter.callqueues.overview
 - Phone System
 - seo-marvel-apr2020
 description: cmdlet을 통해 통화 큐를 구성하는 방법 알아보기
-ms.openlocfilehash: 8d62d3648d35cc302e333c2efa552bb2094cb14d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: b2439bf6b71fc7381494030c326db88660fa5eaf
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674580"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268803"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>cmdlet을 통해 통화 큐 만들기
 
@@ -53,7 +52,7 @@ ms.locfileid: "65674580"
 3. Microsoft Teams 전화 구입했습니다.
 4. 아래에 언급된 에이전트, 메일 그룹 및 Teams 채널이 이미 생성되었습니다.
 
-참고: 아래에 사용된 Teams Channel cmdlet은 Teams PowerShell 모듈의 공개 미리 보기 버전의 일부입니다.  자세한 내용은 [Teams PowerShell 공개 미리 보기 설치](teams-powershell-install.md)를 참조하고 [Microsoft Teams PowerShell 릴리스 정보를 참조하세요](teams-powershell-release-notes.md).
+참고: 아래에 사용된 Teams 채널 cmdlet은 Teams PowerShell 모듈의 공개 미리 보기 버전의 일부입니다.  자세한 내용은 [Teams PowerShell 공개 미리 보기 설치](teams-powershell-install.md) 를 참조하고 [Microsoft Teams PowerShell 릴리스 정보](teams-powershell-release-notes.md)도 참조하세요.
 
 MicrosoftTeams 모듈이 이미 설치된 사용자는 최신 버전이 설치되어 있는지 확인해야 합니다 `Update-Module MicrosoftTeams` .
 
@@ -176,7 +175,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>리소스 계정 만들기 및 할당
 
-참고: 전화 큐가 자동 전화 교환으로 종료되므로 전화 번호가 필요하지 않습니다.
+참고: 전화 큐가 자동 전화 교환으로 종료되므로 여기에 전화 번호가 필요하지 않습니다.
 
 - ApplicationID
   - 자동 전화 교환: ce933385-9390-45d1-9512-c8d228074e07
@@ -240,7 +239,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>리소스 계정 만들기 및 할당
 
-참고: 전화 큐가 자동 전화 교환에 의해 프런트 엔드이므로 전화 번호는 여기에 필요하지 않습니다.
+참고: 전화 큐는 자동 전화 교환에 의해 프런트 엔드이므로 여기에 전화 번호가 필요하지 않습니다.
 
 - ApplicationID
   - 자동 전화 교환: ce933385-9390-45d1-9512-c8d228074e07
@@ -308,7 +307,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>리소스 계정 만들기 및 할당
 
-**참고**: 전화 큐가 자동 전화 교환에 의해 프런트 엔드이므로 전화 번호는 여기에 필요하지 않습니다.
+**참고**: 전화 큐는 자동 전화 교환에 의해 프런트 엔드이므로 여기에 전화 번호가 필요하지 않습니다.
 
 - ApplicationID
   - 자동 전화 교환: ce933385-9390-45d1-9512-c8d228074e07

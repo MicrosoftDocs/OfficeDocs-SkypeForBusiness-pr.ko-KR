@@ -11,7 +11,6 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - M365-collaboration
-- m365initiative-meetings
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,13 +19,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: '전화를 사용하여 모임에 전화해야 하는 사람들을 위해 중소기업에서 오디오 회의를 설정하는 방법을 알아봅니다. '
-ms.openlocfilehash: b7b5fbc958c67aa966619c961e011cda9450faf3
-ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
+description: 전화를 사용하여 모임에 전화해야 하는 사람들을 위해 중소기업에서 오디오 회의를 설정하는 방법을 알아봅니다.
+ms.openlocfilehash: b3b3514e2d33abe53da940759ddacefea29b961a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66884827"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270663"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>중소 기업을 위한 오디오 회의 설정
 

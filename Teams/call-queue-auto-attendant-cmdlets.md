@@ -11,21 +11,21 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom:
-- Phone System - seo-marvel-apr2020
+- Phone System
+- seo-marvel-apr2020
 description: Microsoft Teams에서 자동 전화 교환 및 통화 큐를 만들고 관리하려면 PowerShell cmdlet에 대한 이 문서를 참조하세요.
-ms.openlocfilehash: bbe8f85cdd2e75693cf71e784cb75274f85d7b9b
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 7970a3c8199060d73d68e5f94c28dfe836688189
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615894"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269411"
 ---
 # <a name="powershell-cmdlet-reference-for-auto-attendants-and-call-queues"></a>자동 전화 교환 및 통화 큐에 대한 PowerShell cmdlet 참조
 

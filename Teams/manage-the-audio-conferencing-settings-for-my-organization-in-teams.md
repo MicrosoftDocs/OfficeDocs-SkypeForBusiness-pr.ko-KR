@@ -12,7 +12,6 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - M365-collaboration
-- m365initiative-meetings
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -22,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Microsoft Teams 단계를 참조하여 사용자에게 전화 접속 회의 라이선스 및 회의 ID를 할당하고 다른 많은 전화 접속 회의 설정을 할당합니다.
-ms.openlocfilehash: 6d8270d21c90d363ebb74089ce0b37e6c558ecb1
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+description: 사용자 및 기타 여러 전화 접속 회의 설정에 전화 접속 회의 라이선스 및 회의 ID를 할당하려면 Microsoft Teams 단계를 참조하세요.
+ms.openlocfilehash: 4bfb813b6e7b472ad7a9ab58e6403b92f60fd039
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106333"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271223"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 오디오 회의 설정 관리
 
-한 곳에서 Microsoft Teams 대한 모든 오디오 회의 설정을 보는 것이 더 쉬울 수 있습니다.
+Microsoft Teams에 대한 모든 오디오 회의 설정을 한 곳에서 보는 것이 더 쉬울 수 있습니다.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -40,20 +39,20 @@ ms.locfileid: "65106333"
 ## <a name="assign-an-audio-conferencing-license"></a>오디오 회의 라이선스 할당
 
 > [!NOTE]
-> Teams 사용하여 라이선스를 할당할 수 없습니다. Microsoft 365 관리 센터 사용해야 합니다. [Microsoft Teams 추가 기능 라이선스 할당을 참조하세요](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+> Teams를 사용하여 라이선스를 할당할 수 없습니다. Microsoft 365 관리 센터 사용해야 합니다. [Microsoft Teams 추가 기능 라이선스 할당을 참조하세요](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ### <a name="to-assign-a-license-for-a-user"></a>사용자에 대한 라이선스를 할당하려면
 
-1. 회사 또는 학교 계정으로 Microsoft 365 로그인합니다.
+1. 회사 또는 학교 계정으로 Microsoft 365에 로그인합니다.
 
-2. **Microsoft 365 관리 센터** 왼쪽 탐색 영역에서 **UsersActive** >  사용자로 이동한 다음 사용 가능한 사용자 목록에서 사용자 또는 사용자를 선택합니다.
+2. **Microsoft 365 관리 센터** 왼쪽 탐색에서 **사용자** > **활성 사용자** 로 이동한 다음 사용 가능한 사용자 목록에서 사용자 또는 사용자를 선택합니다.
 
     > [!NOTE]
     > 동시에 최대 20명의 사용자에게 라이선스를 할당하는 경우 **보기 선택** 드롭다운을 사용한 다음 옵션 중 하나를 선택하거나 고유한 보기를 만들 수 있습니다. 그런 다음 **편집**, **다음** 을 두 번 클릭한 다음 라이선스를 선택하고 **제출** 을 클릭합니다.  
   
 3. **제품 라이선스** 아래의 작업 창에서 **편집** 을 클릭합니다.
 
-4. **제품 라이선스** 페이지에서 **오디오 회의를** 켜고 **저장** 을 클릭합니다. 라이선스에 대한 자세한 내용은 [Microsoft Teams 추가 기능 라이선스를 참조하세요](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+4. **제품 라이선스** 페이지에서 **오디오 회의를** 켜고 **저장** 을 클릭합니다. 라이선스에 대한 자세한 내용은 [Microsoft Teams 추가 기능 라이선스를](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 참조하세요.
 
    > [!NOTE]
    > 라이선스를 할당한 후에는 Microsoft가 처음에 오디오 회의 공급자로 목록에 표시되지 않을 수 있습니다. 이 경우 관리 센터에서 로그아웃하거나 Ctrl+F5를 눌러 브라우저 창을 새로 고칩니다.
@@ -62,7 +61,7 @@ ms.locfileid: "65106333"
 
 ### <a name="enable-or-disable-using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터를 사용하여 사용하거나 사용하지 않도록 설정
 
-1. 왼쪽 탐색 영역에서 **MeetingsConference Bridges** > 로 이동합니다.
+1. 왼쪽 탐색 창에서 **모임** > **회의 브리지** 로 이동합니다.
 
 2. **컨퍼런스 브리지** 페이지 위쪽에서 **브리지 설정을** 클릭합니다.
 
@@ -72,7 +71,7 @@ ms.locfileid: "65106333"
 
 ### <a name="enable-or-disable-using-windows-powershell"></a>Windows PowerShell 사용하여 사용 또는 사용 안 함
 
-자세한 내용은 [Microsoft Teams PowerShell 참조](/powershell/module/teams/?view=teams-ps)를 참조하세요.
+자세한 내용은 [Microsoft Teams PowerShell 참조](/powershell/module/teams/?view=teams-ps) 를 참조하세요.
   
 ## <a name="reset-the-meeting-conference-id"></a>모임 회의 ID 다시 설정
 
@@ -117,7 +116,7 @@ ms.locfileid: "65106333"
 
 ### <a name="set-invite-phone-numbers-using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터를 사용하여 초대 전화 번호 설정
 
-[Microsoft Teams 초대에 포함된 전화 번호 설정을](set-the-phone-numbers-included-on-invites-in-teams.md) 참조하세요.
+[Microsoft Teams의 초대에 포함된 전화 번호 설정을 참조하세요](set-the-phone-numbers-included-on-invites-in-teams.md).
 
 > [!NOTE]
 > *TeamsAudioconferencingpolicy* 에 전화 번호를 추가하고 사용자에게 정책을 할당하여 전화 번호를 설정할 수도 있습니다. 정책에 추가된 수신자 및 무료 전화 번호는 오디오 회의 설정 창을 통해 사용자에게 개별적으로 설정된 전화 번호보다 우선합니다. *Teamsaudioconferencingpolicy* 에 전화 번호가 추가되지 않으면 오디오 회의 설정 창을 통해 사용자에 대해 개별적으로 설정된 전화 번호가 Microsoft Teams 모임 요청에 표시됩니다. [유료 및 무료 번호에 대한 오디오 회의 정책 설정에는](audio-conferencing-toll-free-numbers-policy.md) 자세한 정보가 있습니다.
@@ -126,7 +125,7 @@ ms.locfileid: "65106333"
 
 ### <a name="set-the-meeting-experience-when-callers-join-a-meeting-using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터를 사용하여 발신자가 모임에 참가할 때 모임 환경 설정
 
-1. 왼쪽 탐색 영역에서 **MeetingsConference Bridges** > 로 이동합니다.
+1. 왼쪽 탐색 창에서 **모임** > **회의 브리지** 로 이동합니다.
 
 2. **컨퍼런스 브리지** 페이지 위쪽에서 **브리지 설정을** 클릭합니다.
 
@@ -145,7 +144,7 @@ ms.locfileid: "65106333"
   
 ### <a name="set-the-pin-length-for-meetings"></a>모임의 PIN 길이 설정
 
-1. 왼쪽 탐색 영역에서 **MeetingsConference Bridges** > 로 이동합니다.
+1. 왼쪽 탐색 창에서 **모임** > **회의 브리지** 로 이동합니다.
 
 2. **컨퍼런스 브리지** 페이지 위쪽에서 **브리지 설정을** 클릭합니다.
 
@@ -157,7 +156,7 @@ ms.locfileid: "65106333"
 
 ### <a name="enable-or-disable-email-from-being-sent-to-audio-users"></a>전자 메일이 오디오 사용자에게 전송되지 않도록 설정하거나 사용하지 않도록 설정
 
-1. 왼쪽 탐색 영역에서 **MeetingsConference Bridges** > 로 이동합니다.
+1. 왼쪽 탐색 창에서 **모임** > **회의 브리지** 로 이동합니다.
 
 2. **컨퍼런스 브리지** 페이지 위쪽에서 **브리지 설정을** 클릭합니다.
 
@@ -175,7 +174,7 @@ ms.locfileid: "65106333"
 
 ### <a name="see-primary-and-secondary-languages-using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터를 사용하여 기본 및 보조 언어 보기
 
-1. 왼쪽 탐색 영역에서 **MeetingsConference Bridges** > 로 이동합니다.
+1. 왼쪽 탐색 창에서 **모임** > **회의 브리지** 로 이동합니다.
 
 2. 목록에서 전화 번호를 선택하고 **편집** 을 클릭합니다.
 
@@ -187,7 +186,7 @@ ms.locfileid: "65106333"
   
 ## <a name="see-audio-conferencing-dial-in-numbers-using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터를 사용하여 오디오 회의 전화 접속 번호 보기
 
-1. 왼쪽 탐색 영역에서 **MeetingsConference Bridges** > 로 이동합니다.
+1. 왼쪽 탐색 창에서 **모임** > **회의 브리지** 로 이동합니다.
 
 2. 목록에서 전화 번호를 선택하고 **편집** 을 클릭합니다. 여기에서 다음을 수행할 수 있습니다.
 

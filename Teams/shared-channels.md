@@ -10,7 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
+- m365initiative-securecollab
 f1.keywords:
 - NOCSH
 appliesto:
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams에서 공유 채널을 사용하고 관리하는 방법을 알아보세요.
-ms.openlocfilehash: 8bd0fe39031fdae6d47e7c738a1c883b6b066f7d
-ms.sourcegitcommit: 1398570f56d5918d309f95fb734a2e8c5b4981b5
+ms.openlocfilehash: 55d1956b1f112e0f1685ac6c4126f564cf40bdb1
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66968909"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272263"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams의 공유 채널
 
@@ -211,7 +211,6 @@ Teams는 공유 채널 사이트의 수명 주기를 관리합니다. 사이트�
 - Smartsheet
 - SurveyMonkey
 - Tasks in a Box
-- Teams
 - Teams Manager
 - TeamViewer
 - 팀워크

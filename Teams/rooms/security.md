@@ -14,13 +14,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 description: Microsoft Teams 룸 디바이스를 보호하는 방법을 알아봅니다.
-ms.openlocfilehash: 135e286ce255f097dc3751bc509c05fc94f2ffb2
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 4814bd5930bd311bf79fc749a1e736d1c3645165
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761100"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270053"
 ---
 # <a name="microsoft-teams-rooms-security"></a>Microsoft Teams 룸 보안
 
@@ -28,7 +29,7 @@ Microsoft는 파트너와 협력하여 보안이 유지되고 Microsoft Teams �
 
 > [!NOTE]
 > Microsoft Teams 룸 일반적인 최종 사용자 워크스테이션처럼 취급해서는 안 됩니다. 사용 사례는 크게 다를 뿐만 아니라 기본 보안 프로필도 크게 다릅니다.
-> 이 문서는 Windows 실행되는 Microsoft Teams 룸 디바이스에 적용됩니다.
+> 이 문서는 Windows에서 실행되는 Microsoft Teams 룸 디바이스에 적용됩니다.
 
 제한된 최종 사용자 데이터는 Teams 룸 저장됩니다. 최종 사용자 데이터는 문제 해결 및 지원만을 위해 로그 파일에 저장될 수 있습니다. 어떤 시점에서도 하드 드라이브에 파일을 복사하거나 직접 로그인할 Teams 룸 사용하여 모임에 참석할 수 없습니다. 최종 사용자 데이터는 Microsoft Teams 룸 디바이스로 전송되거나 액세스할 수 없습니다.
 
@@ -60,16 +61,16 @@ Teams 룸 HVCI(하이퍼바이저로 보호되는 코드 무결성)도 사용하
 
 ## <a name="software-security"></a>소프트웨어 보안
 
-Microsoft Windows 부팅한 후 Teams 룸 Skype 로컬 Windows 사용자 계정에 자동으로 로그인합니다. Skype 계정에 암호가 없습니다. Skype 계정 세션을 안전하게 만들려면 다음 단계를 수행합니다.
+Microsoft Windows가 부팅되면 Teams 룸 Skype라는 로컬 Windows 사용자 계정에 자동으로 로그인합니다. Skype 계정에 암호가 없습니다. Skype 계정 세션을 안전하게 만들려면 다음 단계를 수행합니다.
 
 > [!IMPORTANT]
 > 암호를 변경하거나 로컬 Skype 사용자 계정을 편집하지 마세요. 이렇게 하면 Teams 룸 자동으로 로그인하지 못할 수 있습니다.
 
-Microsoft Teams 룸 앱은 Windows 10 1903 이상에서 찾은 할당된 액세스 기능을 사용하여 실행됩니다. 할당된 액세스는 사용자에게 노출되는 애플리케이션 진입점을 제한하는 Windows 10 기능입니다. 이것이 바로 단일 앱 키오스크 모드를 사용하도록 설정하는 것입니다. 셸 시작 관리자 사용하여 Teams 룸 사용자 인터페이스로 Windows 데스크톱 애플리케이션을 실행하는 키오스크 디바이스로 구성됩니다. Microsoft Teams 룸 앱은 사용자가 로그온할 때 일반적으로 실행되는 기본 셸(explorer.exe)을 대체합니다. 즉, 기존 탐색기 셸이 전혀 시작되지 않습니다. 이렇게 하면 Windows 내의 Microsoft Teams 룸 취약성 표면이 크게 줄어듭니다. 자세한 내용은 [Windows 데스크톱 버전에서 키오스크 및 디지털 기호 구성을 참조하세요](/windows/configuration/kiosk-methods).
+Microsoft Teams 룸 앱은 Windows 10 1903 이상에서 찾은 할당된 액세스 기능을 사용하여 실행됩니다. 할당된 액세스는 사용자에게 노출되는 애플리케이션 진입점을 제한하는 Windows 10 기능입니다. 이것이 바로 단일 앱 키오스크 모드를 사용하도록 설정하는 것입니다. 셸 시작 관리자를 사용하여 Teams 룸 사용자 인터페이스로 Windows 데스크톱 애플리케이션을 실행하는 키오스크 디바이스로 구성됩니다. Microsoft Teams 룸 앱은 사용자가 로그온할 때 일반적으로 실행되는 기본 셸(explorer.exe)을 대체합니다. 즉, 기존 탐색기 셸이 전혀 시작되지 않습니다. 이렇게 하면 Windows 내에서 Microsoft Teams 룸 취약성 표면이 크게 줄어듭니다. 자세한 내용은 [Windows 데스크톱 버전에서 키오스크 및 디지털 기호 구성을 참조하세요](/windows/configuration/kiosk-methods).
 
-Teams 룸 보안 검사 또는 CIS(Center for Internet Security) 벤치마크를 실행하기로 결정한 경우 Skype 사용자 계정이 Teams 룸 앱 이외의 애플리케이션 실행을 지원하지 않으므로 로컬 관리자 계정의 컨텍스트에서만 검색을 실행할 수 있습니다. Skype 사용자 컨텍스트에 적용되는 대부분의 보안 기능은 다른 로컬 사용자에게 적용되지 않으므로 이러한 보안 검사에서 Skype 계정에 적용되는 전체 보안 잠금이 표시되지 않습니다. 따라서 Teams 룸 로컬 검사를 실행하지 않는 것이 좋습니다. 그러나 원하는 경우 외부 침투 테스트를 실행할 수 있습니다. 따라서 로컬 검사를 실행하는 대신 Teams 룸 디바이스에 대해 외부 침투 테스트를 실행하는 것이 좋습니다.
+Teams 룸 보안 검사 또는 CIS(Center for Internet Security) 벤치마크를 실행하기로 결정한 경우 Skype 사용자 계정이 Teams 룸 앱 이외의 애플리케이션 실행을 지원하지 않으므로 로컬 관리자 계정의 컨텍스트에서만 검색을 실행할 수 있습니다. Skype 사용자 컨텍스트에 적용된 대부분의 보안 기능은 다른 로컬 사용자에게 적용되지 않으므로 이러한 보안 검사로 인해 Skype 계정에 적용된 전체 보안 잠금이 표시되지 않습니다. 따라서 Teams 룸 로컬 검사를 실행하지 않는 것이 좋습니다. 그러나 원하는 경우 외부 침투 테스트를 실행할 수 있습니다. 따라서 로컬 검사를 실행하는 대신 Teams 룸 디바이스에 대해 외부 침투 테스트를 실행하는 것이 좋습니다.
 
-또한 비관리 기능의 사용이 제한되도록 잠금 정책이 적용됩니다. 키보드 필터는 할당된 액세스 정책에서 다루지 않는 잠재적으로 안전하지 않은 키보드 조합을 가로채고 차단할 수 있습니다. 로컬 또는 도메인 관리 권한이 있는 사용자만 Teams 룸 관리하기 위해 Windows 로그인할 수 있습니다. Microsoft Teams 룸 디바이스의 Windows 적용되는 이러한 정책 및 기타 정책은 제품 수명 주기 동안 지속적으로 평가 및 테스트됩니다.
+또한 비관리 기능의 사용이 제한되도록 잠금 정책이 적용됩니다. 키보드 필터는 할당된 액세스 정책에서 다루지 않는 잠재적으로 안전하지 않은 키보드 조합을 가로채고 차단할 수 있습니다. 로컬 또는 도메인 관리 권한이 있는 사용자만 Windows에 로그인하여 Teams 룸 관리할 수 있습니다. Microsoft Teams 룸 디바이스에서 Windows에 적용되는 이러한 정책 및 기타 정책은 제품 수명 주기 동안 지속적으로 평가 및 테스트됩니다.
 
 ## <a name="account-security"></a>계정 보안
 
@@ -90,19 +91,19 @@ Teams 룸 디바이스에는 기본 암호가 있는 "관리"라는 관리 계�
 
 Skype 사용자 계정에 로컬 관리자 권한을 부여하지 마세요.
 
-Windows 구성 디자이너를 사용하여 Windows 10 프로비저닝 패키지를 만들 수 있습니다. 로컬 관리 암호를 변경하는 것과 함께 컴퓨터 이름을 변경하고 Azure Active Directory 등록하는 등의 작업을 수행할 수도 있습니다. Windows Configuration Designer 프로비저닝 패키지를 만드는 방법에 대한 자세한 내용은 [Windows 10 대한 프로비전 패키지를 참조하세요](/windows/configuration/provisioning-packages/provisioning-packages).
+Windows 구성 디자이너를 사용하여 Windows 10 프로비저닝 패키지를 만들 수 있습니다. 로컬 관리 암호를 변경하는 것과 함께 컴퓨터 이름을 변경하고 Azure Active Directory에 등록하는 등의 작업을 수행할 수도 있습니다. Windows 구성 디자이너 프로비저닝 패키지를 만드는 방법에 대한 자세한 내용은 [Windows 10 대한 프로비전 패키지를 참조하세요](/windows/configuration/provisioning-packages/provisioning-packages).
 
-Teams 로그인할 수 있도록 각 Teams 룸 디바이스에 대한 리소스 계정을 만들어야 합니다. 이 계정에는 2단계 또는 다단계 인증을 사용할 수 없습니다. 두 번째 요소를 요구하면 다시 부팅한 후 계정이 Teams 룸 앱에 자동으로 로그인할 수 없게 될 수 있습니다. 그러나 이 계정에 대한 추가 보안을 위해 최신 인증을 사용하도록 설정할 수 있습니다. 또한 Azure Active Directory 조건부 액세스 정책 및 Intune 준수 정책을 배포하여 리소스 계정을 보호할 수 있습니다. 자세한 내용은 [Microsoft Teams 룸 및 조건부 액세스에 대한 지원되는 조건부 액세스 및 Intune 디바이스 준수 정책](supported-ca-and-compliance-policies.md) [및 Microsoft Teams 룸 대한 Intune 준수](conditional-access-and-compliance-for-devices.md)를 참조하세요.
+Teams에 로그인할 수 있도록 각 Teams 룸 디바이스에 대한 리소스 계정을 만들어야 합니다. 이 계정에는 2단계 또는 다단계 인증을 사용할 수 없습니다. 두 번째 요소를 요구하면 다시 부팅한 후 계정이 Teams 룸 앱에 자동으로 로그인할 수 없게 될 수 있습니다. 그러나 이 계정에 대한 추가 보안을 위해 최신 인증을 사용하도록 설정할 수 있습니다. 또한 Azure Active Directory 조건부 액세스 정책 및 Intune 준수 정책을 배포하여 리소스 계정을 보호할 수 있습니다. 자세한 내용은 [Microsoft Teams 룸 및 조건부 액세스에 대한 지원되는 조건부 액세스 및 Intune 디바이스 준수 정책](supported-ca-and-compliance-policies.md) [및 Microsoft Teams 룸 대한 Intune 준수](conditional-access-and-compliance-for-devices.md)를 참조하세요.
 
 가능한 경우 Azure AD 리소스 계정을 만드는 것이 좋습니다. 동기화된 계정은 하이브리드 배포에서 Teams 룸 사용할 수 있지만 이러한 동기화된 계정은 종종 Teams 룸 로그인하는 데 어려움을 겪으며 문제를 해결하기 어려울 수 있습니다. 타사 페더레이션 서비스를 사용하여 리소스 계정에 대한 자격 증명을 인증하도록 선택하는 경우 타사 IDP가 특성이 설정된 상태에서 `wsTrustResponse` 응답하는지 `urn:oasis:names:tc:SAML:1.0:assertion`확인합니다.
 
 ## <a name="network-security"></a>네트워크 보안
 
-일반적으로 Teams 룸 모든 Microsoft Teams 클라이언트와 동일한 네트워크 요구 사항이 있습니다. 방화벽 및 기타 보안 디바이스를 통한 액세스는 다른 Microsoft Teams 클라이언트와 Teams 룸 동일합니다. Teams 룸 특정한 Teams "필수"로 나열된 범주는 방화벽에서 열려 있어야 합니다. 또한 Teams 룸 Windows 업데이트, Microsoft Store 및 Microsoft Intune 액세스해야 합니다(Microsoft Intune 사용하여 디바이스를 관리하는 경우). Microsoft Teams 룸 데 필요한 IP 및 URL의 전체 목록은 다음을 참조하세요.
+일반적으로 Teams 룸 Microsoft Teams 클라이언트와 동일한 네트워크 요구 사항이 있습니다. 방화벽 및 기타 보안 디바이스를 통한 액세스는 다른 Microsoft Teams 클라이언트와 Teams 룸 동일합니다. Teams 룸 특정한 Teams에 "필수"로 나열된 범주는 방화벽에서 열려 있어야 합니다. Teams 룸 Windows 업데이트, Microsoft Store 및 Microsoft Intune 액세스해야 합니다(Microsoft Intune 사용하여 디바이스를 관리하는 경우). Microsoft Teams 룸 데 필요한 IP 및 URL의 전체 목록은 다음을 참조하세요.
 
 - **Microsoft Teams** [Office 365 URL 및 IP 주소 범위](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)
 - [WSUS 구성](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet) **Windows 업데이트**
-- **비즈니스용 Microsoft Store** [및 교육용 Microsoft Store 필수 구성 요소](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
+-  [비즈니스용 Microsoft Store 및 교육용 Microsoft Store 필수 구성 요소](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
 - **Microsoft Intune** [대한 네트워크 엔드포인트 Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
 
 Microsoft Teams 룸 프리미엄 Microsoft Teams 룸 관리 서비스 구성 요소를 사용하는 경우 Teams 룸 다음 URL에 액세스할 수 있는지도 확인해야 합니다.
@@ -110,8 +111,6 @@ Microsoft Teams 룸 프리미엄 Microsoft Teams 룸 관리 서비스 구성 요
 - agent.rooms.microsoft.com
 - global.azure-devices-provisioning.net
 - gj3ftstorage.blob.core.windows.net
-- iothubsgagwt5wgvwg6.azure-devices.net
-- blobssgagwt5wgvwg6.blob.core.windows.net
 - mmrstgnoamiot.azure-devices.net
 - mmrstgnoamstor.blob.core.windows.net
 - mmrprodapaciot.azure-devices.net
@@ -121,11 +120,11 @@ Microsoft Teams 룸 프리미엄 Microsoft Teams 룸 관리 서비스 구성 요
 - mmrprodnoamiot.azure-devices.net
 - mmrprodnoamstor.blob.core.windows.net
 
-Teams 룸 보안 업데이트를 포함하여 최신 Windows 업데이트로 자동으로 패치된 상태로 유지하도록 구성됩니다. Teams 룸 미리 설정된 로컬 정책을 사용하여 매일 오전 2:00부터 보류 중인 업데이트를 설치합니다. 추가 도구를 사용하여 Windows 업데이트를 배포하고 적용할 필요가 없습니다. 추가 도구를 사용하여 업데이트를 배포하고 적용하면 Windows 패치 설치가 지연되어 보안이 떨어지는 배포가 발생할 수 있습니다. Teams 룸 앱은 Microsoft Store 사용하여 배포됩니다. 디바이스에 Microsoft Teams 룸 스탠더드 사용이 허가된 경우 야간 패치 프로세스 중에 새 버전의 앱이 자동으로 설치됩니다. 디바이스가 Microsoft Teams 룸 프리미엄 사용이 허가되고 Microsoft Managed Service에 등록된 경우 정의된 출시 계획에 따라 새 버전의 Teams 룸 앱이 설치됩니다.
+Teams 룸 보안 업데이트를 포함하여 최신 Windows 업데이트로 자동으로 패치된 상태로 유지되도록 구성됩니다. Teams 룸 미리 설정된 로컬 정책을 사용하여 매일 오전 2:00부터 보류 중인 업데이트를 설치합니다. Windows 업데이트 배포하고 적용하기 위해 추가 도구를 사용할 필요가 없습니다. 추가 도구를 사용하여 업데이트를 배포하고 적용하면 Windows 패치 설치가 지연되어 보안이 떨어지는 배포가 발생할 수 있습니다. Teams 룸 앱은 Microsoft Store를 사용하여 배포됩니다. 디바이스에 Microsoft Teams 룸 스탠더드 사용이 허가된 경우 야간 패치 프로세스 중에 새 버전의 앱이 자동으로 설치됩니다. 디바이스가 Microsoft Teams 룸 프리미엄 사용이 허가되고 Microsoft Managed Service에 등록된 경우 정의된 출시 계획에 따라 새 버전의 Teams 룸 앱이 설치됩니다.
 
 Teams 룸 디바이스는 대부분의 802.1X 또는 기타 네트워크 기반 보안 프로토콜에서 작동합니다. 그러나 가능한 모든 네트워크 보안 구성에 대해 Teams 룸 테스트할 수 없습니다. 따라서 네트워크 성능 문제로 추적할 수 있는 성능 문제가 발생하는 경우 조직에서 구성된 경우 이러한 프로토콜을 사용하지 않도록 설정해야 할 수 있습니다.
 
-실시간 미디어의 최적의 성능을 위해 프록시 서버 및 기타 네트워크 보안 디바이스를 우회하도록 Teams 미디어 트래픽을 구성하는 것이 좋습니다. 실시간 미디어는 대기 시간이 매우 중요하며 프록시 서버와 네트워크 보안 디바이스는 사용자의 비디오 및 오디오 품질을 크게 저하시킬 수 있습니다. 또한 Teams 미디어가 이미 암호화되어 있으므로 프록시 서버를 통해 트래픽을 전달하면 실질적인 이점이 없습니다. 자세한 내용은 Microsoft Teams 및 Microsoft Teams 룸 사용하여 미디어의 성능을 개선하기 위한 네트워크 권장 사항을 설명하는 [한 설계자의 관점인 클라우드에 대한 네트워킹을](/microsoft-365/solutions/networking-design-principles?view=o365-worldwide) 참조하세요.
+실시간 미디어의 최적의 성능을 위해 프록시 서버 및 기타 네트워크 보안 디바이스를 우회하도록 Teams 미디어 트래픽을 구성하는 것이 좋습니다. 실시간 미디어는 대기 시간이 매우 중요하며 프록시 서버와 네트워크 보안 디바이스는 사용자의 비디오 및 오디오 품질을 크게 저하시킬 수 있습니다. 또한 Teams 미디어가 이미 암호화되어 있기 때문에 프록시 서버를 통해 트래픽을 전달하면 실질적인 이점이 없습니다. 자세한 내용은 Microsoft Teams 및 Microsoft Teams 룸 사용하여 미디어 성능을 개선하기 위한 네트워크 권장 사항을 설명하는 [한 설계자의 관점인 클라우드에 대한 네트워킹을](/microsoft-365/solutions/networking-design-principles?view=o365-worldwide) 참조하세요.
 
 > [!IMPORTANT]
 > Teams 룸 인증된 프록시 서버를 지원하지 않습니다.
@@ -134,4 +133,4 @@ Teams 룸 디바이스는 내부 LAN에 연결할 필요가 없습니다. 직접
 
 Teams 룸 디바이스를 유선 네트워크에 연결하는 것이 좋습니다. Teams 룸 디바이스에서 무선 네트워크를 사용하는 것은 권장되지 않거나 인증되지 않습니다. Wi-Fi Sense와 같은 일부 연결 기능은 기본적으로 사용하지 않도록 설정됩니다.
 
-근접 조인 및 기타 Teams 룸 기능은 Bluetooth 사용합니다. 그러나 Teams 룸 디바이스의 Bluetooth 구현은 Teams 룸 디바이스에 대한 외부 디바이스 연결을 허용하지 않습니다. Teams 룸 디바이스에서 Bluetooth 기술 사용은 현재 광고 신호로 제한되며 프롬프트가 있는 프록시 연결로 제한됩니다. `ADV_NONCONN_INT` PDU(프로토콜 데이터 단위) 형식은 광고 비콘에 사용됩니다. 이 PDU 유형은 수신 대기 디바이스에 정보를 보급하는 연결할 수 없는 디바이스용입니다. 이러한 기능의 일부로 Bluetooth 디바이스 페어링은 없습니다. Bluetooth 프로토콜에 대한 자세한 내용은 [Bluetooth SIG 웹 사이트에서](https://www.bluetooth.com/blog/bluetooth-low-energy-it-starts-with-advertising/) 확인할 수 있습니다.
+근접 조인 및 기타 Teams 룸 기능은 Bluetooth에 의존합니다. 그러나 Teams 룸 디바이스의 Bluetooth 구현은 Teams 룸 디바이스에 대한 외부 디바이스 연결을 허용하지 않습니다. Teams 룸 장치에서 Bluetooth 기술 사용은 현재 광고 비콘 및 프롬프트 프록시 연결로 제한됩니다. `ADV_NONCONN_INT` PDU(프로토콜 데이터 단위) 형식은 광고 비콘에 사용됩니다. 이 PDU 유형은 수신 대기 디바이스에 정보를 보급하는 연결할 수 없는 디바이스용입니다. 이러한 기능의 일부로 Bluetooth 디바이스 페어링이 없습니다. Bluetooth 프로토콜에 대한 자세한 내용은 [Bluetooth SIG 웹 사이트에서](https://www.bluetooth.com/blog/bluetooth-low-energy-it-starts-with-advertising/) 확인할 수 있습니다.

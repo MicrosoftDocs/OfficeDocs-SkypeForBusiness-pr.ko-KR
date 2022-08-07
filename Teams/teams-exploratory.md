@@ -14,16 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 374761a64f64649dba67f9bfb8760f363fa94f2e
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: 0a9069a0ab86c043749f24b5c7b19d2e4ff6280b
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66605697"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268843"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams의 예비 라이선스 관리
 

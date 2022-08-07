@@ -11,18 +11,18 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-MS.collection:
-- M365-voice
 description: Microsoft Teams 관리 센터에서 Teams PSTN 사용 현황 보고서를 사용하여 조직의 통화 및 오디오 회의 사용에 대한 개요를 가져오는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 15c14e05c1f283971b4882cf3f6e8d3758a2d8ba
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 1539f679225334f71855300a54c4fba950ddd8f8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023775"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267633"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN 사용 현황 보고서
 
@@ -136,7 +136,7 @@ CSV의 첫 번째 행에는 열 이름이 포함됩니다. 모든 날짜는 UTC�
 > | 2 | 회의 ID | `nvarchar(64)` | 오디오 회의의 ID |
 > | 3 | 사용자 위치 | `nvarchar(2)` | 사용자의 국가 코드, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 > | 4 | AAD ObjectId | `uniqueidentifier` | Azure Active Directory에서 사용자의 ID를 호출합니다.<br/> 이 사용자 및 기타 사용자 정보는 봇 호출 형식에 대해 null/비어 있습니다(ucap_in, ucap_out). |
-> | 5 | UPN | `nvarchar(128)` | Azure Active Directory의 UserPrincipalName(로그인 이름)<br/>이는 일반적으로 사용자의 SIP 주소와 동일하며 사용자의 전자 메일 주소와 같을 수 있습니다. |
+> | 5 | Upn | `nvarchar(128)` | Azure Active Directory의 UserPrincipalName(로그인 이름)<br/>이는 일반적으로 사용자의 SIP 주소와 동일하며 사용자의 전자 메일 주소와 같을 수 있습니다. |
 > | 6 | 사용자 표시 이름 | `nvarchar(128)` | 사용자의 표시 이름 |
 > | 7 | 발신자 ID | `nvarchar(128)` | 인바운드 통화에 대한 호출을 받은 번호 또는 아웃바운드 호출을 위해 전화를 건 번호입니다. [E.164](https://en.wikipedia.org/wiki/E.164) 형식 |
 > | 8 | 호출 유형 | `nvarchar(32)` | 통화가 PSTN 아웃바운드 또는 인바운드 통화인지 여부와 사용자가 수행한 통화 또는 오디오 회의와 같은 통화 유형 |
@@ -161,7 +161,7 @@ CSV의 첫 번째 행에는 열 이름이 포함됩니다. 모든 날짜는 UTC�
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | Correlationid | `uniqueidentifier` | 호출 식별자입니다. 동일한 호출의 여러 다리가 동일한 CorrelationId를 공유할 수 있습니다. |
 > | 1 | AAD ObjectId | `uniqueidentifier` | Azure Active Directory에서 사용자의 ID를 호출합니다.<br/> 봇 호출 유형에 대해 이 정보 및 기타 사용자 정보는 null/비어 있을 수 있습니다. |
-> | 2 | UPN | `nvarchar(128)` | 전화를 걸거나 받은 사용자 또는 봇의 UserPrincipalName(로그인 이름, Azure Active Directory)입니다.<br/>이는 일반적으로 사용자의 SIP 주소와 동일하며 사용자의 전자 메일 주소와 같을 수 있습니다. |
+> | 2 | Upn | `nvarchar(128)` | 전화를 걸거나 받은 사용자 또는 봇의 UserPrincipalName(로그인 이름, Azure Active Directory)입니다.<br/>이는 일반적으로 사용자의 SIP 주소와 동일하며 사용자의 전자 메일 주소와 같을 수 있습니다. |
 > | 3 | 표시 이름 | `nvarchar(128)` | Microsoft 365 관리 센터 설정된 사용자 또는 호출 봇의 이름(예: 통화 큐 또는 자동 전화 교환)입니다. |
 > | 4 | 사용자 국가 | `nvarchar(2)` | 사용자의 국가 코드, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 > | 5 | 초대 시간 | `datetimeoffset` | 초기 초대가 Teams 사용자 또는 봇에서 SBC로 아웃바운드로 보내거나 SBC에서 직접 라우팅의 SIP 프록시 구성 요소에서 Teams 또는 봇 호출에 인바운드로 수신된 경우 |
@@ -183,7 +183,7 @@ CSV의 첫 번째 행에는 열 이름이 포함됩니다. 모든 날짜는 UTC�
 > | 21 | 공유 상관 관계 ID | `uniqueidentifier` | 둘 이상의 호출이 관련되어 있음을 나타냅니다. |
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [Teams 분석 및 보고](teams-reporting-reference.md)
 - [Microsoft Graph의 PSTN 통화 보고서](/graph/api/callrecords-callrecord-getpstncalls?view=graph-rest-1.0&tabs=http)

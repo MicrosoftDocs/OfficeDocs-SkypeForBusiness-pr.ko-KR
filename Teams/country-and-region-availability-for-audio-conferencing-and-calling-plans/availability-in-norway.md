@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 노르웨이에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 44fb8a292acbbbaa263ca3f8822c3df1e0fe3108
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 다음은 노르웨이에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
+ms.openlocfilehash: 67e42149c178c3ee3b334290ae9a536069edebc6
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590792"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267433"
 ---
 # <a name="availability-in-norway"></a>노르웨이의 가용성
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 노르웨이에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
+다음은 노르웨이에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
 |음성 회의를 구매할 수 있나요?  <br/> |예  <br/> |
-|전화 번호가 오디오 회의에 자동으로 할당되나요?  <br/> |예, 다음의 경우:<br/><ul><li> Oslo</ul> 전용 전화 번호를 원하는 경우 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)를 참조하세요.  <br/> |
+|전화 번호가 오디오 회의에 자동으로 할당되나요?  <br/> |예, 다음의 경우:<br/><ul><li> 오슬로</ul> 전용 전화 번호를 원하는 경우 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](../getting-service-phone-numbers.md)를 참조하세요.  <br/> |
 |전화 번호 기능을 사용하는 전화 걸기 기능  <br/> |사용 가능  <br/> |
    
 ## <a name="phone-system"></a>전화 시스템
@@ -59,16 +59,16 @@ ms.locfileid: "58590792"
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|통화 플랜을 구매할 수 있나요?  <br/> |예  <br/> |
-|통화 요금제에 사용할 수 있는 분입니다. |달력에 사용할 수 있는 4개의 계획 옵션은 다음과 같습니다. <ul><li>120분 국내 통화 계획 </li><li>240분 국내 통화 계획</li></li><li>1200분 국내 통화 계획 </li></li><li>국내 및 국제 통화 계획: 국내 통화 1200분 -OR- 국제 통화 600분(달력 월에 처음 도달)</li></li></ul>|
-|프리미엄 번호로 아웃바운드 호출을 할 수 있나요?  <br/> | 현재 지원되지 않습니다. <br/> |
-|아웃바운드 통화를 할 수 있나요?  <br/> | 를 포함한 196개 [국가에.](users-can-make-outbound-calls-to-these-countries-and-regions.md)<br/> |
+|통화 플랜을 구매할 수 있나요?  |예          |   
+|통화 플랜에 사용할 수 있는 시간(분)입니다.    |월당 5가지 플랜 옵션을 사용할 수 있습니다. <ul><li>종량제 통화 플랜 </li><li> 120분 국내 통화 플랜 </li><li> 240분 국내 통화 플랜 </li><li> 1200분 국내 통화 플랜 </li><li> 국제 통화 플랜: 국내 1200분 또는 국제 통화 600분(해당 월 중 첫 번째 통화)</li></ul>|
+|프리미엄 번호에 대한 아웃바운드 호출을 수행할 수 있나요?  <br/> | 현재 지원되지 않습니다. <br/> |
+|아웃바운드 통화를 할 수 있나요?  <br/> | 196 개국에 [포함.](users-can-make-outbound-calls-to-these-countries-and-regions.md)<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>서비스를 위한 유료 및 무료 번호
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> |Oslo  <br/> |
+|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> |오슬로  <br/> |
 |유료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
    

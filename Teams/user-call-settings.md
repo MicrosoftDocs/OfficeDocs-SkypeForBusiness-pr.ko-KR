@@ -11,23 +11,21 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
-- ms.teamsadmincenter.callqueues.overview"
-- Phone System - seo-marvel-apr2020
+- ms.teamsadmincenter.callqueues.overview
+- Phone System
+- seo-marvel-apr2020
 description: 착신 전환 및 위임에 대한 사용자 설정을 구성하는 방법을 알아봅니다.
-ms.openlocfilehash: 41d954f468166fd8600601f98ea98d5be129eccd
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 64907043448f44ff861ede026d0a4343899ad98b
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681999"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272233"
 ---
 # <a name="configure-call-settings-for-your-users"></a>사용자에 대한 통화 설정 구성
 
@@ -39,11 +37,11 @@ ms.locfileid: "65681999"
 
 Teams 관리 센터 또는 Teams PowerShell cmdlet을 사용하여 사용자의 통화 설정을 보고 변경할 수 있습니다.
 
-사용자에 대한 통화 설정을 설정하려면 사용자에게 할당된 Microsoft 전화 시스템 라이선스가 있어야 합니다.
+사용자에 대한 통화 설정을 설정하려면 사용자에게 할당된 Microsoft Phone System 라이선스가 있어야 합니다.
 
 ## <a name="use-the-teams-admin-center"></a>Teams 관리 센터 사용
 
-Teams 관리 센터를 사용하여 착신 전환 및 응답되지 않은 설정, 그룹 통화 픽업 및 사용자에 대한 통화 위임을 구성할 수 있습니다.
+Teams 관리 센터를 사용하여 착신 전환 및 응답하지 않는 설정, 그룹 통화 픽업 및 사용자에 대한 통화 위임을 구성할 수 있습니다.
 
 즉시 착신 전환 설정을 구성하려면 다음을 수행합니다.
 

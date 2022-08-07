@@ -12,15 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 이 문서에서는 Microsoft Teams 룸 콘솔 및 해당 주변 장치를 설정하고 구성하는 방법을 설명합니다.
-ms.openlocfilehash: d3c4f534fbd5395c7e0cda8e095b5a6d7a2b8def
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 2a38154ebca1dfae282722fdb64e76389627ca15
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761260"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270113"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>Microsoft Teams 룸 이미지 빌드
 
@@ -29,7 +30,7 @@ ms.locfileid: "65761260"
 > [!NOTE]
 > 다음 단계는 대량 배포를 위해 [WIM 기반 이미지를](/windows-hardware/manufacture/desktop/capture-and-apply-an-image) 만들 때만 사용해야 합니다. 개별 디바이스를 복구하는 경우 OEM(Original Equipment Manufacturer)에 문의하여 지원을 요청하세요.
 
-[배포](rooms-deploy.md) Microsoft Teams 룸 설명한 대로 필요한 Microsoft Teams 또는 비즈니스용 Skype 및 Exchange 계정을 이미 만들고 테스트한 경우에만 이러한 단계를 수행해야 합니다. [Microsoft Teams 룸 요구 사항에](requirements.md) 설명된 하드웨어 및 소프트웨어가 필요합니다. 이 항목에는 다음 섹션이 포함되어 있습니다.
+[배포](rooms-deploy.md) Microsoft Teams 룸 설명한 대로 필요한 Microsoft Teams 또는 비즈니스용 Skype 및 Exchange 계정이 이미 만들어지고 테스트된 경우에만 이러한 단계를 수행해야 합니다. [Microsoft Teams 룸 요구 사항에](requirements.md) 설명된 하드웨어 및 소프트웨어가 필요합니다. 이 항목에는 다음 섹션이 포함되어 있습니다.
   
 - [설치 미디어 준비](console.md#Prep_Media)
 - [콘솔에 프라이빗 CA 인증서 설치](console.md#Certs)
@@ -46,10 +47,10 @@ Microsoft Teams 룸 콘솔 앱을 설치하려면 최소 32GB 용량의 USB 스�
 > 이러한 지침에 따라 Microsoft Teams 룸 설치 미디어를 만들지 못하면 예기치 않은 동작이 발생할 수 있습니다.
 
 > [!NOTE]
-> 아래 프로세스는 새 Microsoft Teams 룸 디바이스를 이미지로 만드는 설치 미디어를 만드는 것입니다. 기존 디바이스는 기본적으로 Windows 업데이트 및 Windows Microsoft Store 자동으로 업데이트됩니다.
+> 아래 프로세스는 새 Microsoft Teams 룸 디바이스를 이미지로 만드는 설치 미디어를 만드는 것입니다. 기존 디바이스는 기본적으로 Windows 업데이트 Windows 스토어에서 자동으로 업데이트됩니다.
 
 > [!IMPORTANT]
-> Microsoft Teams 룸 설치 미디어를 만드는 데 사용되는 Windows 10 컴퓨터는 대상 설치 미디어와 동일하거나 이후 버전의 Windows 있어야 합니다.
+> Microsoft Teams 룸 설치 미디어를 만드는 데 사용되는 Windows 10 컴퓨터는 대상 설치 미디어와 동일하거나 이후 버전의 Windows에 있어야 합니다.
   
 1. [CreateSrsMedia.ps1 스크립트](https://go.microsoft.com/fwlink/?linkid=867842)를 다운로드합니다.
 2. Windows 10 컴퓨터의 관리자 권한 프롬프트에서 CreateSrsMedia.ps1 스크립트를 실행합니다.
@@ -91,7 +92,7 @@ CreateSrsMedia.ps1 스크립트는 다음 작업을 자동화합니다.
 
     b. 전원 단추를 누르고 놓습니다.
 
-    C. Windows 설정이 부팅되면 볼륨 다운(-) 단추를 해제합니다.
+    C. Windows 설치 프로그램이 부팅되면 볼륨 다운(-) 단추를 해제합니다.
 
 8. 설치가 완료되면 시스템이 종료됩니다.
     
@@ -111,7 +112,7 @@ CreateSrsMedia.ps1 스크립트는 다음 작업을 자동화합니다.
 
 1. 관리 모드로 전환합니다.
     
-2. 시작 메뉴 선택합니다.
+2. 시작 메뉴를 선택합니다.
     
 3. 기어 아이콘을 선택하여 **설정** 앱을 시작합니다.
     
@@ -152,13 +153,13 @@ CreateSrsMedia.ps1 스크립트는 다음 작업을 자동화합니다.
 ## <a name="initial-set-up-of-the-console"></a>콘솔의 초기 설정
 <a name="Initial"> </a>
 
-Windows 설치되면 Microsoft Teams 룸 앱이 초기 설치 프로세스로 전환됩니다.
+Windows가 설치되면 Microsoft Teams 룸 앱이 초기 설치 프로세스로 전환됩니다.
   
-1. 사용자 계정 화면이 나타납니다. 콘솔에서 사용할 회의실 계정의 Microsoft Exchange Resource 계정 로그인 주소(user@domain 형식)를 입력합니다.
+1. 사용자 계정 화면이 나타납니다. 콘솔에서 사용할 회의실 계정의 Microsoft Exchange 리소스 계정 로그인 주소(user@domain 형식)를 입력합니다.
     
 2. 회의실 계정의 암호를 입력하고 다시 입력하여 확인합니다.
    
-3. 지원되는 모임 모드인 Microsoft Teams Only, 비즈니스용 Skype Only 또는 두 가지 혼합 모드 옵션 중 하나를 선택합니다. 필요한 경우 최신 인증을 사용하도록 설정합니다.
+3. 지원되는 모임 모드인 Microsoft Teams만, 비즈니스용 Skype 전용 또는 두 가지 혼합 모드 옵션 중 하나를 선택합니다. 필요한 경우 최신 인증을 사용하도록 설정합니다.
 
 4. **다음** 을 선택합니다.
     
@@ -167,7 +168,7 @@ Windows 설치되면 Microsoft Teams 룸 앱이 초기 설치 프로세스로 �
     
 7. **마침** 을 선택합니다.
     
-Microsoft Teams 룸 앱은 위에서 입력한 자격 증명을 사용하여 Microsoft Teams 또는 비즈니스용 Skype 서버 로그인해야 하며, 동일한 자격 증명을 사용하여 일정과 Exchange 동기화를 시작해야 합니다. Teams 룸 사용에 대한 자세한 내용은 [Microsoft Teams 룸 도움말](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)을 참조하세요.
+Microsoft Teams 룸 앱은 위에서 입력한 자격 증명으로 Microsoft Teams에 로그인하거나 비즈니스용 Skype 서버 동일한 자격 증명을 사용하여 Exchange와 일정 동기화를 시작해야 합니다. Teams 룸 사용에 대한 자세한 내용은 [Microsoft Teams 룸 도움말](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)을 참조하세요.
   
 > [!IMPORTANT]
 > Microsoft Teams 룸 인증된 콘솔 하드웨어의 존재에 의존합니다. 콘솔 하드웨어가 검색되지 않는 한 Microsoft Teams 룸 콘솔 앱을 포함하는 올바르게 생성된 이미지도 초기 설정 절차를 지나서 부팅되지 않습니다. Surface Pro 기반 솔루션의 경우 이 검사를 통과하려면 Surface Pro 함께 제공되는 도크 하드웨어에 연결해야 합니다.
@@ -180,7 +181,7 @@ Microsoft Teams 룸 앱은 위에서 입력한 자격 증명을 사용하여 Mic
 > [!NOTE]
 > 다음은 Teams 룸 비즈니스용 Skype 연결하는 경우에만 적용됩니다.
 
-Microsoft Teams 룸 연결하는 서버에서 사용하는 인증서를 신뢰해야 합니다. 인증 기관이 프라이빗인 경우(예: Active Directory 및 Windows 인증 기관을 사용하는 온-프레미스 배포) 다음과 같은 몇 가지 방법으로 Microsoft Teams 룸 인증서를 추가할 수 있습니다.
+Microsoft Teams 룸 연결하는 서버에서 사용하는 인증서를 신뢰해야 합니다. 인증 기관이 프라이빗인 경우(예: Active Directory 및 Windows 인증 기관을 사용하여 온-프레미스 배포) 다음과 같은 몇 가지 방법으로 Microsoft Teams 룸 인증서를 추가할 수 있습니다.
   
 - Active Directory에 콘솔을 조인할 수 있으며 인증 기관이 Active Directory(일반 배포 옵션)에 게시된 경우 필요한 인증서를 자동으로 추가합니다.
     
@@ -188,7 +189,7 @@ Microsoft Teams 룸 연결하는 서버에서 사용하는 인증서를 신뢰�
     
 ### <a name="to-manually-install-the-certificate"></a>인증서를 수동으로 설치하려면
 
-1. CA 인증서를 컴퓨터에 다운로드하고 "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"에 저장합니다.
+1. CA 인증서를 컴퓨터에 다운로드하고 "C:\Skype 룸 시스템\x64\Scripts\Provisioning\CAcertificate.cer"에 저장합니다.
     
 2. 콘솔을 관리 모드로 전환합니다([관리 모드 및 디바이스 관리](rooms-operations.md#AdminMode) 참조).
     
@@ -242,8 +243,8 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_
 |완료 |확인 |
 |:-----:|:-----|
 |☐   |카메라 주변 장치 펌웨어 버전이 올바르다(해당하는 경우)   |
-|☐   |카메라 기능 및 최적 위치 지정   |
-|☐   |기본 디바이스 재생 및 재생 기본 통신 디바이스가 의도한 오디오 주변 장치로 설정된 설정   |
+|☐   |카메라 기능 및 최적 위치   |
+|☐   |기본 디바이스 재생 및 재생 기본 통신 디바이스에 대한 설정이 의도한 오디오 주변 장치로 설정됨   |
 |☐   |기본 통신 디바이스를 의도한 오디오 주변 장치로 설정하기 위한 설정   |
 |☐   |오디오 주변 장치 펌웨어 버전이 올바르다(해당하는 경우)   |
 |☐   |오디오 입력 디바이스가 작동하고 최적으로 배치됨   |

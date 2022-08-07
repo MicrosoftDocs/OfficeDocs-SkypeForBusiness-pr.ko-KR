@@ -11,19 +11,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 데이터 및 개인 정보
 f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
-ms.openlocfilehash: 3fa24a1009c5480c308dfc35306286d470178820
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.openlocfilehash: 5799288005a5d30152a6f810c0aa40d451198390
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66057088"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270303"
 ---
 # <a name="approach"></a>접근
 
@@ -37,7 +37,7 @@ Microsoft Teams 룸 Managed Services를 사용하는 고객은 Microsoft에 가�
 > [!Note]
 > 디바이스를 사용하는 동안 개별 사용자에 대한 부수적 참조가 활동 로그에 있을 수 있습니다.
 
-## <a name="who-can-access-data"></a>Who 데이터에 액세스할 수 있음
+## <a name="who-can-access-data"></a>데이터에 액세스할 수 있는 사용자
 
 Managed Services는 권한 없는 사용자가 부적절한 액세스 또는 사용으로부터 고객 데이터를 보호하는 데 도움이 되는 강력한 조치를 취합니다. 이러한 조치에는 Microsoft 직원 및 하도급업체의 액세스 제한이 포함됩니다.
 

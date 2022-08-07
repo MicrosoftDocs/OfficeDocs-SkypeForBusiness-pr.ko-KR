@@ -10,19 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: TRM에 대한 감사 로깅입니다.
 f1keywords: ''
-ms.openlocfilehash: 3681f50f0e15a7688a944c14e69907ba53dd2817
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: de7f01a3c93dc31ff10c9e00cb3d0f3ef5806cb3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676615"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269110"
 ---
 # <a name="audit-logging-in-the-teams-rooms-managed-service"></a>Teams 룸 관리되는 서비스의 감사 로깅
 

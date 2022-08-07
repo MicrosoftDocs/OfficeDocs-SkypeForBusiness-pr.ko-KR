@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 푸에르토리코에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 63c4ce78cb45483118c05d935fb6ade300d51d16
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 다음은 푸에르토리코에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
+ms.openlocfilehash: 00cd5b7068d6feaa14a78623c3c0c50269fead4e
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605917"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271873"
 ---
 # <a name="availability-in-puerto-rico"></a>푸에르토리코의 가용성
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 푸에르토리코에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
+다음은 푸에르토리코에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 
@@ -59,16 +59,16 @@ ms.locfileid: "58605917"
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|통화 플랜을 구매할 수 있나요?  <br/> |예  <br/> |
-|통화 플랜에서 사용 가능한 시간(분)  <br/> |국내 분 3000분 또는 국제 분 600분(월별 첫 번째 도달)입니다. 미국 국내 통화에는 미국 50개 주 및 푸에르토리코에 대한 통화가 포함됩니다. 미국 및/또는 Puerto Rico의 라이선스 사용 위치가 할당된 사용자는 동일한 분 풀을 공유합니다.  <br/> |
-|프리미엄 번호로 아웃바운드 호출을 할 수 있나요? <br/> | 현재 지원되지 않습니다. <br/> |
-|아웃바운드 통화를 할 수 있나요?  <br/> | 를 포함한 196개 [국가에.](users-can-make-outbound-calls-to-these-countries-and-regions.md)  <br/> |
+|통화 플랜을 구매할 수 있나요?  |예          |   
+|통화 플랜에 사용할 수 있는 시간(분)입니다.    |월당 5가지 플랜 옵션을 사용할 수 있습니다. <ul><li>종량제 통화 플랜 </li><li> 120분 국내 통화 플랜 </li><li> 240분 국내 통화 플랜 </li><li> 1200분 국내 통화 플랜 </li><li> 국제 통화 플랜: 국내 1200분 또는 국제 통화 600분(해당 월 중 첫 번째 통화)</li></ul>|
+|프리미엄 번호에 대한 아웃바운드 호출을 수행할 수 있나요? <br/> | 현재 지원되지 않습니다. <br/> |
+|아웃바운드 통화를 할 수 있나요?  <br/> | 196 개국에 [포함.](users-can-make-outbound-calls-to-these-countries-and-regions.md)  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>서비스를 위한 유료 및 무료 번호
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> |산 후안  <br/> |
+|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> |산후안  <br/> |
 |유료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
    

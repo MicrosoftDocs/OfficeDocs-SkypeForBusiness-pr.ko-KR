@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 캐나다에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 034a9655afad69b90c9195dad5f7f7bceeac4cba
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 다음은 캐나다에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
+ms.openlocfilehash: c8648fc1eda7bdcc38b87611d11ec5263a89dfb8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593142"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270513"
 ---
 # <a name="availability-in-canada"></a>캐나다의 가용성
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 캐나다에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
+다음은 캐나다에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
 
 ## <a name="audio-conferencing"></a>오디오 회의
 
@@ -59,22 +59,22 @@ ms.locfileid: "58593142"
 
 | **기능**                                        | **세부 정보**                                                                                                                                                                                                                                                                 |
 |:---------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 통화 플랜을 구매할 수 있나요?  <br/>    | 예  <br/>                                                                                                                                                                                                                                                                  |
-| 통화 요금제에 사용할 수 있는 분입니다.               | 달력에 사용할 수 있는 4개의 계획 옵션은 다음과 같습니다. <ul><li>120분 국내 통화 계획 </li><li>240분 국내 통화 계획</li></li><li>3000분 국내 통화 계획</li></li><li>국내 및 국제 통화 계획: 국내 통화 3000분 -OR- 국제 통화 600분(달력 월에 처음 도달)</li>|
-| 프리미엄 번호로 아웃바운드 호출을 할 수 있나요?  <br/> | 현재 지원되지 않습니다.<br/>                                                                                                                                                                                                                                            |
-| 아웃바운드 통화를 할 수 있나요?  <br/>                 | 를 포함한 196개 [국가에.](users-can-make-outbound-calls-to-these-countries-and-regions.md)<br/>                                                                                                                                                                  |
+|통화 플랜을 구매할 수 있나요?  |예          |   
+|통화 플랜에 사용할 수 있는 시간(분)입니다.    |월당 5가지 플랜 옵션을 사용할 수 있습니다. <ul><li>종량제 통화 플랜 </li><li> 120분 국내 통화 플랜 </li><li> 240분 국내 통화 플랜 </li><li> 1200분 국내 통화 플랜 </li><li> 국제 통화 플랜: 국내 1200분 또는 국제 통화 600분(해당 월 중 첫 번째 통화)</li></ul>|
+| 프리미엄 번호에 대한 아웃바운드 호출을 수행할 수 있나요?  <br/> | 현재 지원되지 않습니다.<br/>                                                                                                                                                                                                                                            |
+| 아웃바운드 통화를 할 수 있나요?  <br/>                 | 196 개국에 [포함.](users-can-make-outbound-calls-to-these-countries-and-regions.md)<br/>                                                                                                                                                                  |
 
 > [!Note]
-> 미국 내 전화 요금제(국내 또는 국내 및 국제) 사용자가 캐나다에서 전화 번호를 걸면 국내 통화로 처리됩니다. 캐나다의 사용자가 미국 내 전화 번호로 전화를 걸 때도 그럴 수 있습니다. 그러나 통화 요금제 정책을 사용하여 사용자 전화 접속을 "국내" 전용으로 제한하는 경우 미국 사용자는 캐나다를 호출할 수 없습니다. 마찬가지로 캐나다 사용자는 미국 사용자를 호출할 수 없습니다.
+> 미국의 통화 플랜(국내 또는 국내 및 국제) 사용자가 캐나다에서 전화번호로 전화를 걸면 국내 통화로 처리됩니다. 또한 캐나다의 사용자가 미국에서 전화 번호로 전화를 걸 때도 발생합니다. 그러나 통화 플랜 정책을 사용하여 사용자 전화 접속을 "국내"로만 제한하는 경우 미국 사용자는 캐나다를 호출할 수 없으며 마찬가지로 캐나다 사용자는 미국 사용자에게 전화를 걸 수 없습니다.
 
 > [!Note]
-> 미국으로의 통화는 국내 통화로 처리됩니다.
+> 미국에 대한 호출은 국내 통화로 취급됩니다.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>서비스를 위한 유료 및 무료 번호
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> | <ul><li>캘거리 <li>  몬트리올 <li>  토론토 <li>  밴쿠버 <li>  Winnipeg </ul> |
+|유료 번호를 받을 수 있는 수도 및 주요 도시는 어디인가요?  <br/> | <ul><li>캘거리 <li>  몬트리올 <li>  토론토 <li>  밴쿠버 <li>  위니펙 </ul> |
 |유료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
 |무료 번호를 사용할 수 있나요?  <br/> |예  <br/> |
 

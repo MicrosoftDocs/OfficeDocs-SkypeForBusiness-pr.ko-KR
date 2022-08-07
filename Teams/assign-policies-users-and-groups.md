@@ -18,12 +18,12 @@ description: Microsoft Teams의 사용자 및 그룹에 정책을 할당하는 �
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: d3a77082fe3fb2e1f070c11f1ff85e6d883b2704
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 9d286d4451ce143a54beda6e457c12ba059832b3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156566"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267583"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>사용자 및 그룹에 정책 할당
 
@@ -41,7 +41,7 @@ ms.locfileid: "67156566"
 2. 사용자 이름 왼쪽을 클릭하여 사용자를 선택한 다음 **설정 편집** 을 선택합니다.
 3. 할당할 정책을 선택한 다음 **적용** 을 선택합니다.
 
-![Teams 관리 센터의 사용자에게 정책을 할당합니다.](media/assign-policy-user.png)
+    :::image type="content" source="media/assign-policies-users-edit-settings.png"  alt-text="사용자 관리 아래의 설정 편집 창 스크린샷." lightbox="media/assign-policies-users-edit-settings-expanded.png":::
 
 > [!NOTE]
 > 사용자로부터 특수 정책을 할당 취소하려면 각 정책을 **전역(조직 전체 기본값)으로** 설정할 수 있습니다. 정책에 직접 할당된 모든 사용자에 대해 정책 할당을 대량으로 제거할 수도 있습니다. 자세한 내용은 [정책 할당 취소를 대량으로](#unassign-policies-in-bulk) 읽어보세요.
@@ -50,11 +50,11 @@ ms.locfileid: "67156566"
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 영역에서 정책 페이지로 이동합니다.
 2. 정책 이름의 왼쪽을 클릭하여 할당할 정책을 선택합니다.
-3. **사용자 관리** 를 선택합니다.
+3. **사용자 할당** 을 선택합니다.
 4. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 다음, **추가** 를 선택하세요. 추가할 각 사용자에 대해 이 단계를 반복합니다.
 5. 사용자 추가가 완료되면 **적용** 을 선택합니다.
 
-![두 번째 방법을 통해 Teams 관리 센터의 사용자에게 정책을 할당합니다.](media/assign-policy-user2.png)
+    :::image type="content" source="media/assign-policies-user-example.png" alt-text="두 번째 방법을 통해 Teams 관리 센터의 사용자에게 정책을 할당하는 방법을 보여 주는 스크린샷" lightbox="media/assign-policies-user-example-expanded.png":::
 
 ### <a name="use-powershell"></a>PowerShell 사용
 
@@ -122,7 +122,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 예를 들어 Store Employees와 Store Manager의 두 그룹이 있다고 가정해 보겠습니다. 두 그룹 모두 Teams 통화 정책, 스토어 직원 통화 정책 및 매장 관리자 통화 정책이 각각 할당됩니다. 두 그룹에 모두 있는 매장 관리자의 경우 관리자로서의 역할은 직원으로서의 역할보다 관련성이 높으므로 스토어 관리자 그룹에 할당된 통화 정책은 더 높은 순위를 가져야 합니다.
 
-|그룹 |Teams 통화 정책 이름  |줄|
+|그룹 |Teams 통화 정책 이름  |순위|
 |---------|---------|---|
 |매장 관리자   |스토어 관리자 통화 정책         |1|
 |직원 저장    |직원 통화 정책 저장      |2|
@@ -142,7 +142,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
     3. 할당할 정책을 선택합니다.
     4. **적용** 을 선택합니다.
 
-![Teams 관리 센터의 그룹에 정책을 할당합니다.](media/assign-policy-group.png)
+        :::image type="content" source="media/assign-policies-groups-messaging.png" alt-text="Teams 관리 센터의 그룹에 정책을 할당하는 방법을 보여 주는 스크린샷" lightbox="media/assign-policies-groups-messaging-expanded.png":::
 
 그룹 정책 할당을 제거하려면 정책 페이지의 **그룹 정책 할당** 탭에서 그룹 할당을 선택한 다음 **제거** 를 선택합니다.
 
@@ -189,19 +189,19 @@ Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
 
 다음은 Teams 모임 정책에 대한 정책 할당 및 우선 순위 목록입니다.
 
-|그룹 이름  |정책 이름  |줄|
+|그룹 이름  |정책 이름  |순위|
 |---------|---------|---------|
 |영업    |판매 정책       | 1        |
 |서부 지역     |서부 지역 정책         |2         |
-|나눗셈    |나누기 정책         |3         |
+|부문    |나누기 정책         |3         |
 |자회사   |자회사 정책        |4         |
 
 서부 지역 그룹에서 서부 지역 정책을 제거하면 정책 할당 및 우선 순위가 다음과 같이 업데이트됩니다.
 
-|그룹 이름  |정책 이름  |줄|
+|그룹 이름  |정책 이름  |순위|
 |---------|---------|---------|
 |영업    |판매 정책       | 1        |
-|나눗셈    |나누기 정책         |2         |
+|부문    |나누기 정책         |2         |
 |자회사   |자회사 정책        |3        |
 
 이 예제에서는 그룹에서 Teams 모임 정책을 제거합니다.
@@ -378,6 +378,6 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 ## <a name="related-topics"></a>관련 항목
 
-- [정책을 사용하여 Teams 관리](manage-teams-with-policies.md)
+- [정책을 준수하여 Teams 관리](manage-teams-with-policies.md)
 - [Teams PowerShell 개요](teams-powershell-overview.md)
 - [Teams에서 정책 할당 - 시작](policy-assignment-overview.md)

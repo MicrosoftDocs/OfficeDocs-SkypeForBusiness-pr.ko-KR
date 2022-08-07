@@ -13,18 +13,19 @@ ms.localizationpriority: medium
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 description: 사용자가 Microsoft Teams 룸 시스템을 사용할 수 있도록 지속적인 유지 관리 및 작업을 개발하고 실행하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0252d44b073353aea43fec838f439ecb2233c43f
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 85bb58005159b18a426aed0851ac7a80b11183eb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761300"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271095"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Microsoft Teams 룸 관리
 
-조직에 Microsoft Teams 룸 경우 유연한 관리 옵션이 있습니다.  Microsoft Teams 관리 센터에서 Teams 모든 솔루션을 관리하는 동일한 중앙 위치에서 디바이스를 직접 관리할 수 있습니다. 또는 [Microsoft Teams 룸 Managed Services](https://portal.rooms.microsoft.com)를 사용하여 전담 전문가에게 관리 책임을 이전할 수 있습니다.  또한 옵션 중 하나에 대해 선택한 파트너에게 관리 액세스를 위임할 수 있습니다.
+조직에 Microsoft Teams 룸 경우 유연한 관리 옵션이 있습니다.  모든 Teams 솔루션인 Microsoft Teams 관리 센터를 관리하는 동일한 중앙 위치에서 직접 디바이스를 관리할 수 있습니다. 또는 [Microsoft Teams 룸 Managed Services](https://portal.rooms.microsoft.com)를 사용하여 전담 전문가에게 관리 책임을 이전할 수 있습니다.  또한 옵션 중 하나에 대해 선택한 파트너에게 관리 액세스를 위임할 수 있습니다.
 
 Microsoft Teams 관리 센터를 사용하면 다음을 수행할 수 있습니다.
 
@@ -34,9 +35,9 @@ Microsoft Teams 관리 센터를 사용하면 다음을 수행할 수 있습니�
 - 현재 및 과거 모임 활동(예: 통화 품질, 네트워크 상태 및 연결, 참가자 수에 대한 세부 정보)을 검토합니다.
 - Microsoft Teams 룸 연결된 주변 장치(예: 카메라 및 프로젝터)를 참조하세요.
 
-Teams 룸 디바이스를 관리하려면 [Microsoft Teams 관리 센터를 열고 Windows](https://admin.teams.microsoft.com) **Teams 디바이스** > **Teams 룸** 로 이동합니다.
+Teams 룸 디바이스를 관리하려면 [Microsoft Teams 관리 센터를](https://admin.teams.microsoft.com) 열고 Windows에서 **Teams 디바이스** > **Teams 룸** 이동합니다.
 
-:::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Teams 관리 센터의 요약 페이지를 Teams 룸.":::
+:::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Teams 관리 센터의 Teams 룸 요약 페이지입니다.":::
 
 
 > [!IMPORTANT]
@@ -62,10 +63,10 @@ Teams 룸 디바이스를 관리하려면 [Microsoft Teams 관리 센터를 열�
 | 설정                                                      | 허용되는 값                                        | 대량 편집 지원 |
 |--------------------------------------------------------------|--------------------------------------------------------|--------------------|
 | *계정*                                                    |                                                        |                    |
-| **메일 주소**                                                    | 전자 메일 주소                                          | 아니요                 |
-| **지원되는 모임 모드**                                   | Microsoft Teams 전용<br>비즈니스용 Skype(기본값) 및 Microsoft Teams<br>비즈니스용 Skype 및 Microsoft Teams(기본값)<br>비즈니스용 Skype 전용|예|
+| **Email**                                                    | Email 주소                                          | 아니요                 |
+| **지원되는 모임 모드**                                   | Microsoft Teams만<br>비즈니스용 Skype(기본값) 및 Microsoft Teams<br>비즈니스용 Skype 및 Microsoft Teams(기본값)<br>비즈니스용 Skype 전용|예|
 | **최신 인증**                                    | 설정<br>해제                                              | 예                |
-| **Exchange 주소**                                         | 전자 메일 주소                                          | 아니요                 |
+| **Exchange 주소**                                         | Email 주소                                          | 아니요                 |
 | **Domain\username(선택 사항)**                               | 계정 도메인 및 사용자 이름                           | 아니요                 |
 | **도메인 구성**                                         | 쉼표로 구분된 목록                                   | 예                |
 | *모임*                                                   |                                                        |                    |
@@ -77,14 +78,14 @@ Teams 룸 디바이스를 관리하려면 [Microsoft Teams 관리 센터를 열�
 | **회의실 정보로 조인**                 | 선택한<br>하지 않은                                              | 예                |
 | **사용자 지정 정보로 조인**                 | 선택한<br>하지 않은                                              | 예                |
 | **이름(필수)**                 | 방 또는 공간의 이름                                              | 예                |
-| **전자 메일(필수)**                 | 전자 메일 주소                                              | 예                |
+| **Email(필수)**                 | Email 주소                                              | 예                |
 | *장치*                                                     |                                                        |                    |
 | **이중 모니터 모드**                                        | 설정<br>해제                                              | 예                |
 | **콘텐츠 복제 허용** | 선택한<br>하지 않은                                 | 예                |
 | **Bluetooth 비콘**                                      | 설정<br>해제                                              | 예                |
 | **근접 기반 모임 초대 자동 수락** | 선택한<br>하지 않은                                 | 예                |
 | **피드백을 사용하여 로그 보내기**                                  | 설정<br>해제                                              | 예                |
-| **로그 및 피드백에 대한 이메일 주소**                      | 전자 메일 주소                                          | 예                |
+| **로그 및 피드백에 대한 Email 주소**                      | Email 주소                                          | 예                |
 | *모임 조정*                                                     |                                                        |                    |
 | **조정된 모임** | 설정<br>해제                                 | 아니요                |
 | **이 장치의 마이크 켜기** | 설정<br>해제                                 | 아니요                |
@@ -107,17 +108,17 @@ Teams 룸 디바이스를 관리하려면 [Microsoft Teams 관리 센터를 열�
 
 ### <a name="cortana-settings"></a>Cortana 설정
 
-_음성 활성화_ 또는 푸시에 대한 Cortana 사용하도록 설정하여 조직의 모든 디바이스 또는 각 디바이스에 대해 PowerShell을 사용하여 개별적으로 _대화_ 할 수 있습니다.
+_Cortana for Voice Activation_ 또는 _Push를_ 사용하도록 설정하여 조직의 모든 디바이스 또는 각 디바이스에 대해 PowerShell을 사용하여 개별적으로 대화할 수 있습니다.
 
-"[Teams 음성 지원 Cortana](../cortana-in-teams.md)" 문서에서 Windows Microsoft Teams 룸 참조하세요.
+"Teams의 Cortana 음성 지원" 문서에서 [Windows의 Microsoft Teams 룸](../cortana-in-teams.md) 참조하세요.
 
 ### <a name="front-row-layout-settings"></a>앞줄 레이아웃 설정
 
-앞줄은 Windows Teams 룸 대한 모임 보기 레이아웃 옵션입니다.
+앞줄은 Windows에서 Teams 룸 대한 모임 보기 레이아웃 옵션입니다.
 
 | Teams 디바이스 | 앱 버전 | 방 전면 디스플레이 |
 |--------------|-------------|-----------------------|
-|Windows Microsoft Teams 룸 | 4.11.12.0 이상(최신 버전 권장) | 단일 및 이중 디스플레이를 지원합니다. 최소 크기: 46인치; 가로 세로 비율 16:9 및 1920x1080 해상도, 2560x1080 해상도의 21:9 모든 디스플레이는 Windows 설정에서 100% 크기 조정으로 설정해야 합니다. |
+|Windows에서 Microsoft Teams 룸 | 4.11.12.0 이상(최신 버전 권장) | 단일 및 이중 디스플레이를 지원합니다. 최소 크기: 46인치; 가로 세로 비율 16:9 및 1920x1080 해상도, 2560x1080 해상도의 21:9 모든 디스플레이는 Windows 설정에서 100% 크기 조정으로 설정해야 합니다. |
 
 프런트 행의 요구 사항에 맞게 디스플레이 설정을 조정하려면 [Microsoft Teams 룸 유지 관리 및 작업을](rooms-operations.md#scale-and-resolution) 참조하세요.
 
@@ -141,11 +142,11 @@ _음성 활성화_ 또는 푸시에 대한 Cortana 사용하도록 설정하여 
 
 디바이스를 제거하면 디바이스가 조직에서 제거되고 Teams 관리 센터의 Windows Teams 룸 목록에 더 이상 표시되지 않습니다.
 
-디바이스를 제거하고 유효한 사용자 이름 및 암호로 구성된 경우 Microsoft 365 다시 연결하면 Teams 룸 목록에 자동으로 다시 추가됩니다.
+디바이스를 제거하고 유효한 사용자 이름과 암호로 구성된 경우 Microsoft 365에 다시 연결하는 경우 Teams 룸 목록에 자동으로 다시 추가됩니다.
 
 하나 이상의 디바이스를 제거하려면 다음을 수행합니다.
 
-1. **Windows Teams 디바이스** > **Teams 룸** 로 이동하여 제거할 디바이스를 선택합니다.
+1. Windows에서 **Teams 디바이스** > **Teams 룸** 이동하여 제거할 디바이스를 선택합니다.
 2. **제거** 를 선택합니다.
 
 ## <a name="download-device-logs"></a>디바이스 로그 다운로드
@@ -154,7 +155,7 @@ Microsoft 지원에서 요청하면 디바이스의 진단 로그 파일 복사�
 
 Teams 룸 디바이스에서 컴퓨터로 로그를 다운로드하려면 다음을 수행합니다.
 
-1. **Windows Teams 디바이스** > **Teams 룸** 로 이동하여 로그를 다운로드할 디바이스의 이름을 선택합니다.
+1. Windows에서 **Teams 디바이스** > **Teams 룸** 로 이동하여 로그를 다운로드할 디바이스의 이름을 선택합니다.
 1. **디바이스 로그 다운로드를** 선택합니다. 디바이스 로그를 사용할 수 있게 되는 데 몇 분 정도 걸릴 수 있습니다.
 1. **기록** 탭을 선택한 다음 진단 파일 아래에서 로그 **파일** 링크를 선택합니다. 디바이스의 진단 로그 파일이 포함된 zip 파일이 브라우저의 기본 다운로드 폴더에 다운로드됩니다.
 
@@ -170,20 +171,20 @@ Teams 룸 시스템 대시보드에는 모든 디바이스의 상태와 상태�
 
 디바이스에 대한 자세한 정보를 보려면 디바이스 목록에서 해당 이름을 선택합니다. 세부 정보 보기에서 디바이스에 대한 다음 정보를 볼 수 있습니다.
 
-- **상태** Teams Room 장치의 전반적인 상태를 표시합니다. 상태는 **정상** 상태이거나 **비정상** 상태일 수 있습니다.
-- **이후 오프라인** Microsoft 365 디바이스와 마지막으로 통신할 수 있었던 시간을 표시합니다.
-- **디바이스 상태** 디바이스의 현재 상태(**유휴**, **Teams 모임**, **Skype 모임** 또는 **수집)를** 표시합니다.
-- **주변** Teams Room 디바이스에 연결된 주변 장치 및 해당 상태를 표시합니다. 상태는 **연결** 또는 **연결 끊김** 일 수 있습니다.
-- **건강** Teams Room 디바이스에 연결된 주변 장치에 대한 자세한 정보, 네트워크 연결, 필요한 서비스에 로그인 상태 및 소프트웨어 버전 정보를 표시합니다.
+- **상태** Teams 룸 디바이스의 전반적인 상태를 표시합니다. 상태는 **정상** 상태이거나 **비정상** 상태일 수 있습니다.
+- **이후 오프라인** Microsoft 365가 디바이스와 통신할 수 있었던 마지막 시간을 보여줍니다.
+- **디바이스 상태** 디바이스의 현재 상태( **유휴**, **Teams 모임**, **Skype 모임** 또는 **수집)를** 표시합니다.
+- **주변** Teams 룸 디바이스에 연결된 주변 장치 및 해당 상태를 표시합니다. 상태는 **연결** 또는 **연결 끊김** 일 수 있습니다.
+- **건강** Teams 룸 디바이스에 연결된 주변 장치에 대한 자세한 정보, 네트워크 연결, 필요한 서비스에 로그인 상태 및 소프트웨어 버전 정보를 표시합니다.
 - **세부 정보** 제조업체 정보, 네트워크 IP 주소 및 Teams Room 디바이스 직렬/MAC 주소를 표시합니다.
 - **활동** 모임 날짜 및 시간, 참가자 수, 기간 및 오디오 품질을 포함한 과거 모임 세부 정보를 표시합니다. 모임 세부 정보에 대한 자세한 내용은 이 문서의 뒷부분에 있는 [모임 활동 세부 정보](#meeting-activity-details) 섹션을 참조하세요.
-- **역사** 구성 업데이트, 디바이스 다시 시작 및 디바이스 로그 다운로드 링크를 포함하여 Teams Room 디바이스의 관리 활동 기록을 보여 줍니다.
+- **역사** 구성 업데이트, 디바이스 다시 시작 및 디바이스 로그 다운로드 링크를 포함하여 Teams 룸 디바이스의 관리 활동 기록을 보여 줍니다.
 
 #### <a name="meeting-activity-details"></a>모임 활동 세부 정보
 
 Teams 회의실 디바이스 세부 정보의 **활동** 탭에는 디바이스가 시간이 지남에 따라 참가한 모든 모임에 대한 개략적이고 자세한 정보가 표시됩니다. **활동** 탭에서 모임이 열린 시간, 모임에 참석한 참가자 수, 모임 중 오디오 품질을 확인할 수 있습니다.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams 회의실 장치 활동 요약 목록입니다.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams 룸 디바이스 활동 요약 목록입니다.":::
 
 특정 모임에 대한 세부 정보를 보려면 자세한 정보를 원하는 모임의 날짜와 시간을 선택합니다. 모임에 참가자가 두 명뿐인 경우 참가자 세부 정보 페이지가 표시되며, 그렇지 않으면 참가자 요약 페이지가 표시됩니다.
 
@@ -191,10 +192,10 @@ Teams 회의실 디바이스 세부 정보의 **활동** 탭에는 디바이스�
 
 참가자 요약 페이지에는 모임에 참석한 모든 참가자가 표시됩니다. 각 참가자가 모임에 참가한 시간, 해당 이름, 오디오 품질 및 세션 중에 사용된 기능을 확인할 수 있습니다. 참가자 세션의 세부 정보를 보려면 해당 참가자의 세션 시작 시간을 선택합니다.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="회의실 장치 회의 세부 정보를 Teams.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams 룸 장치 회의 세부 정보.":::
 
 ##### <a name="participant-details"></a>참가자 세부 정보
 
 참가자 세부 정보 페이지에는 해당 참가자 세션에 대한 종단 간 진단 정보가 표시됩니다. 다음 그래픽과 같이 참가자 및 Teams 룸 디바이스에 대한 **디바이스**, **시스템** 및 **연결** 정보가 제공됩니다. 참가자와 Teams 룸 디바이스 간의 **네트워크** 진단 정보도 제공됩니다. 자세한 정보를 원하는 컨텍스트의 아이콘을 선택합니다. 추가 진단 정보는 **고급** 탭을 선택합니다.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams 장치 통화 세부 정보":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams 룸 장치 통화 세부 정보.":::

@@ -9,19 +9,18 @@ audience: admin
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
-description: 통화 요금제로 Teams 전화 시스템 디바이스를 관리하는 방법에 대해 자세히 알아보자.
+description: 통화 플랜을 사용하여 Teams 전화 시스템의 디바이스를 관리하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 002e6494465c3e036284c36d505582e6285f34c2
-ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
+ms.collection:
+- M365-voice
+- Teams_ITAdmin_Devices
+ms.openlocfilehash: cb69fb15ada4a238555e89a98289678b5abbc146
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "63053047"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270653"
 ---
 [!INCLUDE [device-management](../devices/device-management.md)]

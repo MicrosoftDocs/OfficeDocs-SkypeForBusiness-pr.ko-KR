@@ -10,6 +10,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -18,16 +19,16 @@ f1.keywords:
 - NOCSH
 description: Microsoft가 긴급 통화를 지원하기 위해 디스패치 가능한 위치 정보를 지원하는 방법을 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e45b5a18d8acd09714ebedd40a722bcbd152fc3c
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 9efa5f6e9ad5b5f2434efb95265f58c9a603fdd5
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823540"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272073"
 ---
 # <a name="emergency-addresses-for-remote-locations"></a>원격 위치에 대한 긴급 주소
 
-이 문서에서는 미국 911 긴급 통화 위치 정보에 대한 Microsoft의 지원에 대해 설명합니다. 이 지원을 통해 긴급 통화를 하는 Teams 사용자에게 가능한 가장 정확한 디스패치 가능한 위치 정보가 제공됩니다. 발신자의 위치(현장 또는 집에서 작업)에 관계없이 PSAP(공공 안전 응답 지점)로 전송된 발신자의 위치 정보는 정확해야 합니다.
+이 문서에서는 미국 911 긴급 통화 위치 정보에 대한 Microsoft의 지원에 대해 설명합니다. 이 지원을 통해 Teams 사용자가 긴급 전화를 걸 수 있도록 가능한 가장 정확한 디스패치 가능한 위치 정보가 제공됩니다. 발신자의 위치(현장 또는 집에서 작업)에 관계없이 PSAP(공공 안전 응답 지점)로 전송된 발신자의 위치 정보는 정확해야 합니다.
 
 이 문서에는 MLTS(다중 회선 전화 시스템)에 대한 RAY BAUM의 법 준수에 대한 Microsoft의 정보가 포함되어 있습니다. RAY BAUM의 법은 2021 년 초에 발효 된 카리의 법률 요구 사항을 확장합니다. RAY BAUM의 법과 Kari의 법에 대한 자세한 내용은 911 통화 및 다중 회선 전화 시스템에 [대한 디스패치 가능한 위치](https://www.fcc.gov/911-dispatchable-location) [- Kari의 법률 및 RAY BAUM의 법 911 직접 전화 걸기, 알림 및 디스패치 가능한 위치 요구 사항을 참조하세요](https://www.fcc.gov/mlts-911-requirements). 
 
@@ -46,12 +47,12 @@ ms.locfileid: "65823540"
 
 ## <a name="support-for-emergency-calling-location-information"></a>긴급 통화 위치 정보 지원
 
-이러한 요구 사항을 지원하기 위해 Teams 각 운영 체제에서 제공하는 위치 서비스를 사용하여 관리자 또는 사용자가 권한을 부여한 경우 주소를 제안합니다. 최종 사용자는 제안된 주소의 위치를 확인하거나 편집하거나 수동으로 새 주소를 입력할 수 있습니다. 그러면 클라이언트가 네트워크에 연결될 때 사용자 확인 주소가 자동으로 사용되도록 확인, 편집 또는 수동으로 입력한 주소가 Teams 클라이언트에 저장됩니다. Teams 클라이언트가 로그아웃되면 사용자 저장 주소가 자동으로 지워집니다.
+이러한 요구 사항을 지원하기 위해 Teams는 각 운영 체제에서 제공하는 위치 서비스를 사용하여 관리자 또는 사용자가 권한을 부여한 경우 주소를 제안합니다. 최종 사용자는 제안된 주소의 위치를 확인하거나 편집하거나 수동으로 새 주소를 입력할 수 있습니다. 그러면 클라이언트가 네트워크에 연결될 때 사용자가 확인한 주소가 자동으로 사용되도록 확인, 편집 또는 수동으로 입력한 주소가 Teams 클라이언트에 저장됩니다. Teams 클라이언트가 로그아웃되면 사용자 저장 주소가 자동으로 지워집니다.
 
 
 ## <a name="location-precedence"></a>위치 우선 순위
 
-Teams 긴급 주소는 다양한 유형으로 분류할 수 있습니다. 다음 목록에서는 긴급 번호로 전화를 걸 때 사용되는 위치 우선 순위를 보여줍니다.
+Teams의 긴급 주소는 다양한 유형으로 분류할 수 있습니다. 다음 목록에서는 긴급 번호로 전화를 걸 때 사용되는 위치 우선 순위를 보여줍니다.
 
 1. 위치 정보 서비스에서 테넌트가 관리하는 동적으로 획득한 주소입니다.
 
@@ -82,7 +83,7 @@ Teams 긴급 주소는 다양한 유형으로 분류할 수 있습니다. 다음
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **음성** > **긴급 정책** 으로 이동합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 영역에서 **음성** > **긴급 정책** 으로 이동합니다.
 2. **추가** 를 선택합니다.
 3. 긴급 통화 정책의 이름(예: "E911WFH")을 입력합니다.
 4. **외부 위치 조회 모드를** 켭니다.
@@ -107,7 +108,7 @@ Grant-CsTeamsEmergencyCallingPolicy -PolicyName E911WFH -Identity user@contoso.c
 
 최종 사용자에 대해 이 기능을 사용하도록 설정한 후 통화 탭에서 사용자는 긴급 주소를 추가, 편집 또는 확인하고 설정된 후에 주소를 표시할 수 있습니다. For more information on how end users can set location services, see [Work from Home Emergency 911: enable location services](https://support.microsoft.com/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live).
 
-Windows 그룹 정책을 사용하거나 [MDM(모바일 디바이스 관리)](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation)을 사용하여 Windows 위치 서비스 및 애플리케이션이 위치에 액세스할 수 있는지 여부를 관리할 수 있습니다.
+Windows에서는 그룹 정책을 사용하거나 [MDM(모바일 디바이스 관리)](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation)을 사용하여 Windows 위치 서비스 및 애플리케이션이 위치에 액세스할 수 있는지 여부를 관리할 수 있습니다.
 
 Windows 위치 서비스에 대한 자세한 내용은 [Windows 위치 서비스 및 개인 정보를 참조하세요](https://support.microsoft.com/windows/windows-location-service-and-privacy-3a8eee0a-5b0b-dc07-eede-2a5ca1c49088).
 
@@ -117,7 +118,7 @@ Windows 위치 서비스에 대한 자세한 내용은 [Windows 위치 서비스
 
 다음 사항에 유의하세요.
 
-- 설명된 가정용 업무 환경은 Windows Mac의 Teams 데스크톱용입니다.
+- 설명된 가정용 업무 환경은 Windows 및 Mac의 Teams 데스크톱용입니다.
 
 - Teams 전화는 집에서 일하는 환경을 지원하지 않습니다.
 
@@ -126,7 +127,7 @@ Windows 위치 서비스에 대한 자세한 내용은 [Windows 위치 서비스
 - 개인 정보 설정이 자동 위치 검색과 충돌할 수 있습니다. 모바일 장치 관리 시스템을 사용할 수 있습니다.
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [긴급 통화 관리](what-are-emergency-locations-addresses-and-call-routing.md)
 

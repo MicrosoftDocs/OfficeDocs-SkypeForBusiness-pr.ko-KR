@@ -10,19 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams 룸 관리되는 서비스에 대해 알아봅니다.
 f1keywords: ''
-ms.openlocfilehash: 432e09204ae157ece03b2dd0c1f4ac3336adec52
-ms.sourcegitcommit: de0233e51364b7730c4b307fd41a2166eda3c3fc
+ms.openlocfilehash: 322e67a0bc6e03db7960e64d2cd5e7a97b930dbc
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "65741880"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269583"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>관리 서비스 Microsoft Teams 룸
 
@@ -60,10 +60,10 @@ Microsoft Teams 룸 관리형 서비스는 엔드포인트, 기계 학습 및 �
 |**회의실 계획 및 출시**   |회의실 장비 인벤토리를 이해하고 새 회의실 배포를 위한 장비 표준을 결정할 수 있는 객실 계획 기능입니다.         |
 |**모니터링 및 문제 해결**  |회의실 시스템 및 주변 장치와 관련된 문제를 감지하고 Microsoft에서 주도하는 사전 인시던트 관리 대응을 제공하는 회의실 상태 모니터링.         |
 |**업데이트 관리**    |회의실 시스템 및 Microsoft에서 수행하는 주변 장치를 위한 애플리케이션 및 펌웨어 업데이트 관리 및 제공.         |
-|**Insights 및 권장 사항**     |고객 상태, 사용량, 사용률 및 장비 안정성에 Insights.         |
+|**인사이트 및 권장 사항**     |고객 상태, 사용량, 사용률 및 장비 안정성에 대한 인사이트         |
 |**규정 준수 및 인증**   |Microsoft Online Services에 적용 가능한 모든 표준을 충족합니다.         |
 |**고객 지원**   |전용 Microsoft Teams 룸 SOC(관리 서비스 운영 센터)를 통한 24x7x365 티켓 지원 해당하는 경우 다른 주 공급업체에 대한 에스컬레이션. 자세한 내용은 [고객 지원을 참조하세요](#customer-support).|
-|**지원되는 장치**    |인증된 Microsoft Teams 룸 시스템 및 주변 장치.<br>*2021년 하반기에 Surface Hub 지원*        |
+|**지원되는 장치**    |인증된 Microsoft Teams 룸 시스템 및 주변 장치.<br>*Surface Hub 지원은 2021년 하반기에 제공될 예정입니다.*        |
 |**지원되는 지역**    |[지원되는 지역을 참조하세요](#supported-regions).        |
 |**통합**    |고객 호스팅 Service Now와 통합할 수 있습니다.         |
 
@@ -79,7 +79,7 @@ Microsoft Teams 룸 관리형 서비스는 엔드포인트, 기계 학습 및 �
 |**모니터링**    |애플리케이션, 운영 체제, 주변 장치 및 펌웨어 상태 모니터링. 주변 장치 상태와 같은 문제로 인해 모임 환경에 영향을 주는 문제에 대한 자동화된 인시던트 검색입니다. Microsoft Teams 룸 관리 서비스 포털을 통한 전체 회의실 부동산 및 인시던트에 대한 상태 개요입니다.|
 |**문제 해결 및 수정**     |해당하는 경우 자동화된 진단 및 자동 수정. 자동화되지 않은 사례에 대한 관리 서비스 SOC 지원 인시던트 수정을 Microsoft Teams 룸. 인시던트 조정을 위한 Service Now 통합         |
 |**업데이트 관리**   |고객 구성 가능한 배포 링을 기반으로 하는 자동화된 모임 애플리케이션 및 펌웨어 업데이트 오케스트레이션         |
-|**Insights 및 권장 사항**   |사용량, 인시던트, 상태 및 전체 보고(기록 보기)         |
+|**인사이트 및 권장 사항**   |사용량, 인시던트, 상태 및 전체 보고(기록 보기)         |
 
 ## <a name="service-prerequisites"></a>서비스 필수 구성 요소
 
@@ -124,7 +124,7 @@ Microsoft Teams 룸 프리미엄 라이선스는 오디오 회의 없이 다음 
 |포함된 내용 |제외되는 내용 |제외된 항목에 대한 지원 채널  |
 |---------|---------|---------|
 |**서비스 구성**   |         |         |
-|Microsoft Teams 룸 앱 설정, 자사 네트워크 구성, 자사 소프트웨어 설정 및 권장 전원 설정 및 구성을 포함한 Microsoft Teams 룸 Windows 구성에 대한 조사 및 지침입니다.     |Microsoft Teams Room 앱에 직접 포함되지 않은 타사 소프트웨어 구성 및 조사 또한 자사 창 외부 또는 Microsoft Teams Room 앱 설정 외부에서 구성해야 하는 OEM 관련 구성도 있습니다.         |타사 표준 지원 채널         |
+|Microsoft Teams 룸 앱 설정, 자사 네트워크 구성, 자사 소프트웨어 설정 및 권장 전원 설정 및 구성을 포함하여 Microsoft Teams 룸 Windows 구성에 대한 조사 및 지침입니다.     |Microsoft Teams 룸 앱에 직접 포함되지 않은 타사 소프트웨어 구성 및 조사 또한 자사 창 또는 Microsoft Teams 룸 앱 설정 외부에서 구성해야 하는 OEM 관련 구성도 있습니다.         |타사 표준 지원 채널         |
 |**회의실 계정 설정**    |         |         |
 |요청 시 회의실 계정 설정에 사용할 수 있는 설명서의 방향입니다. 로그인 또는 계정 구성 문제의 경우 초기 조사가 수행됩니다.     |권장 수정 실행 또는 권장 수정 실행 문제, 타사 인증 공급자 구성 및 개별 계정 기능 구성        |Microsoft 일반 지원 및 타사 인증 공급자 지원         |
 |**주변 장치 지원**    |         |         |

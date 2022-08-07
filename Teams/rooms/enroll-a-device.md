@@ -10,19 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 관리되는 서비스에 Teams 룸 디바이스 온보딩
 f1keywords: ''
-ms.openlocfilehash: 124d301a37fde8802b60f3e59ad5f1a1dd19862c
-ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
+ms.openlocfilehash: 07fbb2b196c0f74b34dbe2018865181e57aca17b
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67005438"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272043"
 ---
 # <a name="enroll-device-into-managed-service"></a>관리되는 서비스에 디바이스 등록
 

@@ -13,18 +13,17 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
-- SPO_Content
 - m365initiative-deployteams
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 30938e8175c12802339767ba0f2e6324cae3b871
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 168bddd1b4a7ad2ffa1f4d1c5eceb0967a18ea43
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789423"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269703"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 

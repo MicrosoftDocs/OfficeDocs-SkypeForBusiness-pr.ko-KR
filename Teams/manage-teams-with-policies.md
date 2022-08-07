@@ -1,5 +1,5 @@
 ---
-title: 정책을 사용하여 Teams 관리
+title: 정책을 준수하여 Teams 관리
 author: mkbond007
 ms.author: mabond
 manager: serdars
@@ -10,19 +10,18 @@ search.appverid: ''
 description: Teams 정책에 대해 자세히 알아봅니다.
 audience: admin
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b56e617321cea25fe677b7d9a7a00afba0940b07
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: acaa1280e00ad2e86a49c2bbd8e7f4464bd0c0e7
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156536"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268763"
 ---
-# <a name="manage-teams-with-policies"></a>정책을 사용하여 Teams 관리
+# <a name="manage-teams-with-policies"></a>정책을 준수하여 Teams 관리
 
 정책은 Teams 관리의 중요한 부분입니다. 이 문서를 사용하여 정책을 사용하여 조직에 혜택을 주는 방법을 탐색합니다.
 
@@ -34,7 +33,7 @@ ms.locfileid: "67156536"
 
 정책은 조직에서 수행하려는 내용에 따라 여러 가지 방법으로 할당할 수 있습니다. Teams 관리 센터에서 할당을 만들고 볼 수 있습니다.
 
-![그룹 정책 할당의 스크린샷.](media/group-policy-assignment.png)
+:::image type="content" source="media/group-policy-assignment.png" alt-text="Teams 그룹 정책 할당의 스크린샷." lightbox="media/group-policy-assignment.png":::
 
 여기에서 정책 할당에 대해 자세히 알아봅니 [다](policy-assignment-overview.md).
 
@@ -47,17 +46,17 @@ ms.locfileid: "67156536"
 
 예를 들어 앱 설정 정책을 사용하면 사용자가 사용자 지정 앱을 업로드하고, 사용자를 대신하여 앱을 설치하고, Teams 앱 모음에 앱을 고정할 수 있습니다. 이러한 정책은 Teams 관리 센터에서 구성됩니다.
 
-![앱 설정 정책의 스크린샷.](media/app-setup-policy.png)
+:::image type="content" source="media/app-setup-policy.png" alt-text="앱 설정 정책의 스크린샷." lightbox="media/app-setup-policy.png":::
 
 또한 모임 정책을 사용하여 전사, 클라우드 녹음 및 IP 오디오/비디오와 같은 Teams 모임의 오디오 및 비디오 설정을 제어할 수 있습니다.
 
-![모임 정책의 스크린샷.](media/engineering-meeting-policy.png)
+:::image type="content" source="media/engineering-meeting-policy.png" alt-text="모임 정책의 스크린샷." lightbox="media/engineering-meeting-policy.png":::
 
 ### <a name="teams-for-education"></a>교육용 Teams
 
 [교육용 Teams 정책 마법사](easy-policy-setup-edu.md)를 사용하여 학습 환경에 대한 정책을 쉽게 설정하고 관리할 수도 있습니다.
 
-![교육용 Teams 정책 마법사의 스크린샷.](media/easy-policy-setup-quick-setup.png)
+:::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="교육용 Teams 정책 마법사의 스크린샷." lightbox="media/easy-policy-setup-quick-setup.png":::
 
 ## <a name="types-of-policies"></a>정책 유형
 

@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e6fdb36148f87ce243fff044a08a3bdcdd28d58
-ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
+ms.openlocfilehash: a7cb846cfeafeff3009890b8745e9b13fc6bdd97
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66952772"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268383"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Microsoft Teams에 Reflect를 위한 IT 관리자 가이드
 
-이 문서에서는 [Microsoft Teams의 교육 인사이트](class-insights.md)에서 필수적인 부분인 [Reflect](https://aka.ms/reflect)에 대한 정보를 제공합니다. Reflect는 학생들이 정기적으로 공유하고 들을 수 있는 기회를 제공함으로써 그들의 감정을 인식하고 탐색하도록 도와줍니다. Reflect는 학습자의 정서적 어휘를 넓히고 동료에 대한 공감을 심화시키는 동시에 건강한 교실 커뮤니티를 위한 교육자들에게 귀중한 피드백을 제공하는 데 도움이 될 수 있습니다.
+이 문서는 [Microsoft Teams의 교육 인사이트](class-insights.md)의 필수적인 부분인 [Microsoft Reflect](https://aka.ms/reflect)에 관한 정보를 제공합니다. Reflect는 학생들이 정기적으로 공유하고 들을 수 있는 기회를 제공함으로써 그들의 감정을 인식하고 탐색하도록 도와줍니다. Reflect는 학습자의 정서적 어휘를 넓히고 동료에 대한 공감을 심화시키는 동시에 건강한 교실 커뮤니티를 위한 교육자들에게 귀중한 피드백을 제공하는 데 도움이 될 수 있습니다.
 
-이 체크인 앱은 이미 바쁜 일상 속에 사회 및 정서적 학습을 추가하는 데 있어 교육자를 지원하기 위해 이모티콘과 연구 지원을 받는 정서적 세분성을 사용합니다.
+이 무료 체크인 앱은 이모지와 문자를 사용하여 학생들이 감정적 세부 사항을 개발할 수 있도록 도와줍니다. 연구에 따르면 사회적 및 정서적 기술을 명시적으로 가르치는 것은 학생의 학업 및 행동 수행 능력을 향상시키고 평생 긍정적인 영향을 미칩니다.
 
 ## <a name="privacy-and-security"></a>개인 정보 및 보안
 
@@ -69,16 +69,7 @@ Microsoft 365의 일부인 Reflect는 [GDPR](/compliance/regulatory/gdpr) 및 �
 > 자세한 내용은 [앱 허용 방법 또는 수업 팀에 추가하는 방법](manage-apps.md#allow-and-block-apps)을 참조하세요.
 
 ## <a name="where-do-educators-find-reflect"></a>강사는 어디에서 반영을 찾을 수 있나요?
-반영을 사용하도록 설정하면 강사는 수업으로 이동하여 **새 대화** 를 선택합니다. 그런 다음 '**...**'를 선택하여 메시지 확장을 표시하고 검색창에 **Reflect** 를 입력합니다. 이 대화 상자는 질문을 정의하고 누가 무엇을 볼 수 있는지 설명하는 과정을 안내합니다.
-
-:::image type="content" source="media/reflect-add-app.png" alt-text="수업 팀에 Reflect 추가.":::
-
-Reflect 아이콘을 마우스 오른쪽 단추로 클릭하고 **고정** 을 선택하여 쉽게 액세스할 수 있습니다.
-
-:::image type="content" source="media/reflect-pin-app.png" alt-text="Reflect 앱 고정.":::
-
-> [!TIP]
-> 다음 링크를 통해 Reflect 앱을 찾을 수도 있습니다. [https://aka.ms/getReflect](https://aka.ms/getReflect)
+Reflect는 기본적으로 모든 수업 또는 교직원 팀에서 사용할 수 있습니다. 앱에 액세스하려면 원하는 팀으로 이동한 다음, Reflect 탭을 선택합니다.
 
 > [!TIP]
 > 자세한 내용은 [Reflect 지원 페이지](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a)를 방문하세요. 이 페이지는 교육자와 학생 모두를 위한 지침을 제공하며, 첫 Reflect 체크인을 만드는 방법을 설명합니다.

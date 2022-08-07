@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 다음은 에스토니아에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
-ms.openlocfilehash: 29f36d9dd98a6a65216029d81d82d1b124b348ea
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+description: 다음은 에스토니아에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
+ms.openlocfilehash: cdba6958d972160c916376e733bcc2eb88eeced0
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942543"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271043"
 ---
 # <a name="availability-in-estonia"></a>에스토니아의 가용성
 
 [다른 국가 또는 지역을 찾아보거나](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), 오디오 회의 및 통화 플랜에 대한 국가 및 지역 가용성에 대해 자세히 알아보세요.
 
-다음은 에스토니아에서 Microsoft 365 Office 365 및 비즈니스용 Skype Microsoft Teams 서비스입니다.
+다음은 에스토니아에서 사용할 수 있는 비즈니스용 Skype 및 Microsoft Teams용 Microsoft 365 및 Office 365 서비스입니다.
   
 ## <a name="audio-conferencing"></a>오디오 회의
 
@@ -59,10 +59,10 @@ ms.locfileid: "59942543"
 
 |**기능**|**세부 정보**|
 |:-----|:-----|
-|통화 플랜을 구매할 수 있나요?  <br/> |예  <br/> |
-|통화 요금제에 사용할 수 있는 분입니다. |달력에 사용할 수 있는 4개의 계획 옵션은 다음과 같습니다. <ul><li>120분 국내 통화 계획 </li><li>240분 국내 통화 계획</li></li><li>1200분 국내 통화 계획 </li></li><li>국내 및 국제 통화 계획: 국내 통화 1200분 -OR- 국제 통화 600분(달력 월에 처음 도달)</li></li></ul>|
-|프리미엄 번호로 아웃바운드 호출을 할 수 있나요?  <br/> | 현재 지원되지 않습니다. <br/> |
-|아웃바운드 통화를 할 수 있나요?  <br/> | 를 포함하여 196개 국가 또는 [지역으로](users-can-make-outbound-calls-to-these-countries-and-regions.md)<br/> |
+|통화 플랜을 구매할 수 있나요?  |예          |   
+|통화 플랜에 사용할 수 있는 시간(분)입니다.    |월당 5가지 플랜 옵션을 사용할 수 있습니다. <ul><li>종량제 통화 플랜 </li><li> 120분 국내 통화 플랜 </li><li> 240분 국내 통화 플랜 </li><li> 1200분 국내 통화 플랜 </li><li> 국제 통화 플랜: 국내 1200분 또는 국제 통화 600분(해당 월 중 첫 번째 통화)</li></ul>|
+|프리미엄 번호에 대한 아웃바운드 호출을 수행할 수 있나요?  <br/> | 현재 지원되지 않습니다. <br/> |
+|아웃바운드 통화를 할 수 있나요?  <br/> | 196개 국가 또는 [지역을 포함합니다.](users-can-make-outbound-calls-to-these-countries-and-regions.md)<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>서비스를 위한 유료 및 무료 번호
 

@@ -10,17 +10,16 @@ search.appverid: MET150
 ms.localizationpriority: medium
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
 description: IT 관리자가 질문 수집, 토론 구성, 개별 메시지 삭제, 사용 가능한 언어 사용, 데이터 보존 및 삭제 정책 이해에 대한 구조화된 접근 방식을 위해 Teams Q&A에서 Q&A를 설정, 사용 및 관리하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 3ffdc4f48c43bef2d1d342983a63612c91bc40a9
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: edcf1578b70bf39ccf330b7a328b7d0de7558263
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880432"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268633"
 ---
 # <a name="manage-qa-in-teams-meetings"></a>Teams 모임에서 Q&A 관리
 
@@ -34,6 +33,7 @@ Q&A를 사용하면 발표자가 참석자의 질문을 받아 실시간으로 �
 - 조직의 사용자가 Teams 모임에 Q&A를 추가할 수 있도록 하려면 Office 365 Yammer 서비스에 대한 로그인이 Azure Active Directory에서 사용하도록 설정되어 있는지 확인해야 합니다. 아래 단계에 따라 로그인이 사용하도록 설정되어 있는지 확인합니다.
   - **Azure AD 관리 센터** > **모든 서비스** > **엔터프라이즈 애플리케이션** > **Office 365 Yammer** > **속성** 으로 이동합니다.
   - **사용자가 로그인할 수 있도록 설정하려면** 필요한 경우 **[예**]를 선택합니다.
+- [Teams 앱](/MicrosoftTeams/manage-apps)에서 Q&A(네이티브) 앱을 차단하지 않았는지 확인합니다.
 
 ## <a name="who-can-use-qa"></a>Q&A를 사용할 수 있는 사용자
 

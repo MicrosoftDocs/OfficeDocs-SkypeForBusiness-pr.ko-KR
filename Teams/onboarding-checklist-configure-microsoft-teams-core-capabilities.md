@@ -16,12 +16,14 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 200edfcbe8c93c2f629f176a17959e60f70cb902
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: 170f62afd6cd75d5060243271fb951cf9dd4aa5c
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564246"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270893"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>Microsoft Teams 핵심 기능 구성
 
@@ -30,7 +32,7 @@ ms.locfileid: "66564246"
 | 1  | 환경에 모든 Teams 필수 구성 요소가 포함되어 있는지 확인합니다. | Teams는 종단 간 공동 작업 솔루션을 구성하기 위해 다른 플랫폼에 의존합니다. IT 팀과 협력하여 Exchange, SharePoint Online 및 비즈니스용 OneDrive 배포하고 올바르게 구성했는지 확인합니다. | | [SharePoint Online 및 비즈니스용 OneDrive Microsoft Teams와 상호 작용하는 방법](sharepoint-onedrive-interact.md) <br/><br/>[Exchange와 Microsoft Teams의 상호 작용 방법](exchange-teams-interact.md) |
 | 2  | Teams가 테넌트에 대해 사용하도록 설정되어 있는지 확인 | Teams는 기본적으로 모든 조직에 대해 켜져 있습니다. **Microsoft 365 관리 센터 서비스 & 추가** 기능 페이지를 확인하여 Teams가 조직에 대해 사용하도록 설정되어 있는지 확인하고 필요한 경우 사용하도록 설정합니다. | | [Microsoft 365 또는 Office 365 Microsoft Teams 설정](office-365-set-up.md) |
 | 3  | 역할 및 권한 구성 | Teams는 멤버와 소유자라는 두 가지 유형의 역할을 지원합니다. <br/><br/>팀에 구성원을 추가한 후 소유자는 구성원을 소유자 역할로 승격할 수도 있습니다. 모범 사례로 각 팀에 두 명 이상의 소유자가 할당되어 있는 것이 좋습니다. <br/><br/>기본적으로 Exchange Online 호스팅되는 사서함이 있는 조직의 모든 사용자가 팀을 만들 수 있습니다. 새 팀을 만드는 사용자에게는 해당 팀에 대한 소유자 역할이 자동으로 부여됩니다. <br/><br/>필요한 경우 특정 사용자가 새 팀을 만들 수 있도록 Microsoft 365 그룹 설정을 구성할 수 있습니다. | | [Microsoft Teams에서 역할 및 권한 할당](assign-roles-permissions.md) <br/><br/>[Microsoft 365 그룹 및 Microsoft Teams](office-365-groups.md) <br/><br/>[Microsoft 365 그룹 만들 수 있는 사용자 관리](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618) |
-| 4  | 테넌트 전체 Teams 설정 구성 | 테넌트 수준에서 일부 Teams 설정을 구성할 수 있습니다. Teams를 사용하도록 설정된 사용자는 테넌트 구성에서 이러한 설정을 상속합니다.<ul><li>일반</li><li>전자 메일 통합</li><li>앱</li><li>사용자 지정 클라우드 스토리지</li><li>통화 및 모임</li><li>메시징</li></ul>| | [조직에서 Microsoft Teams 설정 관리](enable-features-office-365.md) |
+| 4  | 테넌트 전체 Teams 설정 구성 | 테넌트 수준에서 일부 Teams 설정을 구성할 수 있습니다. Teams를 사용하도록 설정된 사용자는 테넌트 구성에서 이러한 설정을 상속합니다.<ul><li>일반</li><li>전자 메일 통합</li><li>앱</li><li>사용자 지정 클라우드 스토리지</li><li>통화 및 모임</li><li>메시지</li></ul>| | [조직에서 Microsoft Teams 설정 관리](enable-features-office-365.md) |
 | 5  | 선택 사항: 게스트 액세스 구성 | Teams에서 게스트 액세스를 사용하여 팀 및 채널에 대한 액세스 권한을 부여하여 조직 외부 사용자와 공동 작업할 수 있습니다. 게스트 액세스는 Teams의 테넌트 수준 설정입니다. 이는 기본적으로 해제되어 있습니다. <br/>조직에서 해당 기능을 사용하려는 경우 게스트 액세스를 사용하도록 설정하고 테넌트 전체 게스트 설정을 구성합니다. | | [Microsoft Teams의 게스트 액세스](guest-access.md) |
 | 6  | 선택 사항: Teams 명명 정책 구성 | Teams는 사용자가 팀 이름을 만들거나 편집할 때 Microsoft 365 그룹 대한 명명 정책을 활용합니다. <br/><br/>기본적으로 사용자가 팀을 만들 때 명명 제한이 적용되지 않습니다. <br/><br/>팀 이름에 대한 규칙을 적용해야 하는 경우 조직에 적용되는 Microsoft 365 그룹 명명 정책을 구성합니다. 필수 접두사와 접미사를 설정하고 차단된 단어를 지정할 수 있습니다. | | [Microsoft Teams에서 팀을 만들 때 Microsoft 365 그룹 계획](plan-office-365-groups.md) <br/><br/>[Microsoft 365 그룹 명명 정책](https://support.office.com/article/Office-365-Groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552) |
 | 7  | Teams SMTP 도메인에 대한 Exchange 구성 | Teams는 Exchange Online 사용하여 SMTP 도메인(email.teams.microsoft.com)을 사용하여 팀 구성원이 추가되거나 제거되었을 때 팀 구성원에게 알림을 보냅니다. <br/><br/>Exchange 인프라의 허용 도메인 목록에 이 SMTP 도메인을 추가해야 합니다. | | [Exchange에서 안전한 보낸 사람 목록 만들기](/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365?view=o365-worldwide) |

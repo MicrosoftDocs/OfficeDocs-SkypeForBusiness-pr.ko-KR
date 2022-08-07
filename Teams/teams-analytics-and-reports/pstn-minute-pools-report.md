@@ -11,18 +11,18 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-MS.collection:
-- M365-voice
 description: Microsoft Teams 관리 센터에서 Teams PSTN 분 풀 보고서를 사용하여 현재 월 동안 조직 내에서 소비된 분을 보는 방법입니다.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3aafc45cebab24f5524a4d3120dd0c03083d0c6c
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.collection:
+- M365-voice
+ms.openlocfilehash: d3e2b4d7d0aba44929b7094c4146f9f69db0e8eb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794356"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267373"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft Teams PSTN 분 풀 보고서
 
@@ -46,6 +46,6 @@ Microsoft Teams 관리 센터의 왼쪽 탐색 영역에서 **분석 & 보고서
 |**6**   |**열 편집을** 선택하여 테이블에서 열을 추가하거나 제거합니다.|
 |**7**   |**전체 화면을** 선택하여 전체 화면 모드에서 보고서를 봅니다.|
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [Teams 분석 및 보고](teams-reporting-reference.md)

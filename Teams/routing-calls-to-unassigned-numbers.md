@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 조직에서 할당되지 않은 번호로 통화를 라우팅하는 방법을 알아봅니다.
-ms.openlocfilehash: 8874fc5a47ede1c35178cf16c7d3eded6f7826a7
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 3f3d0b9e6962cce7abdb91efa8539dd559c38956
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615734"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272303"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>할당되지 않은 번호로 호출 라우팅
 

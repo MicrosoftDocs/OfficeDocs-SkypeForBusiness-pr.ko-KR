@@ -18,12 +18,12 @@ description: Microsoft Teams의 사용자 및 그룹에 정책 및 정책 패키
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 3dec8bf23167c5166302942140fcfe49e9ea3720
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: e7cf7ba085c7bad22fea4b14f79b9eb3d4e6e2aa
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156516"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268423"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>Teams에서 정책 할당 – 시작
 
@@ -63,7 +63,7 @@ ms.locfileid: "67156516"
 
 개별 사용자 또는 그룹에 정책을 할당하기 전에 먼저 조직에서 가장 많은 수의 사용자에게 적용되도록 [전역(조직 전체 기본값) 정책을 설정합니다](#set-the-global-policies) .  전역 정책이 설정되면 특수화된 정책이 필요한 사용자에게만 정책을 할당해야 합니다.
 
-|이 작업을 수행합니다.  |면...  | 사용...
+|이 작업을 수행합니다.  |경우...  | 사용...
 |---------|---------|----|
 |[개별 사용자에게 정책 할당](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users)   | Teams를 익숙하지 않은 경우 이제 막 시작하거나 소수의 사용자에게 하나 또는 몇 개의 정책만 할당하면 됩니다. |Teams PowerShell 모듈의 Microsoft Teams 관리 센터 또는 PowerShell cmdlet
 |[그룹에 정책 할당](assign-policies-users-and-groups.md#assign-a-policy-to-a-group) |사용자의 그룹 멤버 자격에 따라 정책을 할당합니다. 예를 들어 보안 그룹 또는 배포 목록의 모든 사용자에게 정책을 할당합니다.| Teams PowerShell 모듈의 Microsoft Teams 관리 센터 또는 PowerShell cmdlet|
@@ -83,9 +83,9 @@ ms.locfileid: "67156516"
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 영역에서 업데이트하려는 정책 유형에 대한 정책 페이지로 이동합니다. 예를 들어 **Teams Teams** > **정책**, **모임 모임** > **정책**, **메시징 정책** 또는 **음성** > **통화 정책** 입니다.
 2. **전역(조직 전체 기본값)** 정책을 선택하여 현재 설정을 봅니다.
-3. 필요에 따라 정책을 업데이트한 다음 적용 **을 선택합니다.**
+3. 필요에 따라 정책을 업데이트한 다음 **저장** 을 선택합니다.
 
-![Teams 관리 센터에서 전역 정책을 업데이트합니다.](media/assign-globalpolicy.png)
+:::image type="content" source="media/teams-meetings-policies-global-general.png" alt-text="Teams 관리 센터의 업데이트 전역 정책을 보여 주는 스크린샷." lightbox="media/teams-meetings-policies-global-expanded.png":::
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
@@ -125,7 +125,7 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 Microsoft Teams 관리 센터의 사용자에게 정책을 할당할 때 [활동 로그](https://admin.teams.microsoft.com/activitylog)에서 해당 정책 할당의 상태를 볼 수 있습니다. 활동 로그에는 네트워크 레코드 업로드 정보, Teams 관리 센터 및 PowerShell의 그룹 정책 작업, 지난 30일 동안 Teams 관리 센터의 일괄 처리 정책 작업(20명 이상의 사용자용)이 표시됩니다.
 
-![활동 로그 페이지의 스크린샷.](media/Activity_Log.png)
+:::image type="content" source="media/teams-activity-log.png" alt-text="활동 로그 페이지의 스크린샷." lightbox="media/Activity_Log.png":::
 
 활동 로그에서 정책 작업을 보려면 다음을 수행합니다.
 
@@ -153,5 +153,5 @@ Microsoft Teams 관리 센터의 사용자에게 정책을 할당할 때 [활동
 
 - [사용자 및 그룹에 정책 할당](assign-policies-users-and-groups.md)
 - [사용자 및 그룹에 정책 패키지 할당](assign-policy-packages.md)
-- [정책을 사용하여 Teams 관리](manage-teams-with-policies.md)
+- [정책을 준수하여 Teams 관리](manage-teams-with-policies.md)
 - [Teams PowerShell 개요](teams-powershell-overview.md)

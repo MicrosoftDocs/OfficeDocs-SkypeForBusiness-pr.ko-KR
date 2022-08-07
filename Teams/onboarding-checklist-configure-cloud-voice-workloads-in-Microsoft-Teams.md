@@ -16,12 +16,14 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: df3c7ee85e14d35e330377080db93e93c7a88e29
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 45e4259003730ea53240b7481dfe63bc7c15175f
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563916"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269893"
 ---
 # <a name="configure-cloud-voice-workloads-in-microsoft-teams"></a>Microsoft Teams에서 클라우드 음성 워크로드 구성
 

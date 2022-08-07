@@ -14,14 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Devices
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5afbc4acd33acf7e950218e7cf2e30383b3b1d12
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: b1ccc079617a1ae58b3881da8ae48c8a993d5863
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790433"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269473"
 ---
 # <a name="manage-devices-in-the-teams-admin-center-with-administrative-units"></a>관리 단위를 사용하여 Teams 관리 센터에서 디바이스 관리
 
@@ -68,6 +69,6 @@ Teams 디바이스 관리자인 경우 Teams 관리 센터에 로그인한 경�
 
 5. **저장** 을 선택합니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [관리 단위에 사용자 또는 그룹 추가](/azure/active-directory/roles/admin-units-members-add)

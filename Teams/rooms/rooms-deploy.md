@@ -12,22 +12,23 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 배포 단계를 포함하여 Microsoft Teams 룸 배포하는 방법에 대해 알아보려면 이 문서를 참조하세요.
-ms.openlocfilehash: 0111e8723d70b753c2d8de64350387252db8f8f7
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 9dbb45581467cb0f948ce7b5fb62dcfea1186918
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65760920"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271783"
 ---
 # <a name="deployment-overview"></a>배포 개요
 
 Microsoft Teams 룸 배포는 기본적으로 단계로 나뉩니다.
 
 - 배포 위치(공간)가 배포 종속성을 충족하는지 확인
-- Microsoft Teams 또는 비즈니스용 Skype 및 Exchange 계정을 만들고 Teams 룸 할당합니다([Microsoft Teams 룸 대한 계정 구성 참조](rooms-configure-accounts.md)).
+- Microsoft Teams 또는 비즈니스용 Skype 및 Exchange 계정을 만들고 Teams 룸 할당([Microsoft Teams 룸 계정 구성 참조](rooms-configure-accounts.md))
 - (선택 사항) 시스템에 대한 Azure Monitor 설정([Azure Monitor를 사용하여 Microsoft Teams 룸 관리 배포](azure-monitor-deploy.md) 참조)
 - 모임 공간에서 Teams 룸 설정하고 필요한 주변 장치 연결(디바이스 집합에 대한 OEM 설명서 참조)
 
@@ -41,7 +42,7 @@ Microsoft Teams 룸 배포는 기본적으로 단계로 나뉩니다.
 -   [인증서](rooms-prep.md#certificates)
 -   [프록시](rooms-prep.md#proxy)
 
-**Pro 팁** - 프록시 서버를 사용하여 Teams 대한 액세스를 제공해야 하는 경우 먼저 [이 문서를 검토합니다](../proxy-servers-for-skype-for-business-online.md). 프록시 서버를 통해 실시간 미디어 트래픽을 Microsoft Teams 경우 프록시 서버를 모두 우회하는 것이 좋습니다. Microsoft Teams 트래픽은 이미 암호화되어 있으므로 프록시 서버는 더 안전하지 않으며 실시간 트래픽에 대기 시간을 추가합니다. 광범위한 배포의 일환으로 대역폭 계획 및 실시간 트래픽에 대한 네트워크의 적합성을 평가[하기 위한 Teams](../prepare-network.md) 위해 네트워크 준비의 지침을 따르는 것이 좋습니다.
+**Pro 팁** - 프록시 서버를 사용하여 Teams에 대한 액세스를 제공해야 하는 경우 먼저 [이 문서를 검토](../proxy-servers-for-skype-for-business-online.md)합니다. 프록시 서버를 통해 Microsoft Teams 실시간 미디어 트래픽에 관해서는 프록시 서버를 모두 우회하는 것이 좋습니다. Microsoft Teams 트래픽은 이미 암호화되어 있으므로 프록시 서버는 보안을 확보하지 못하며 실시간 트래픽에 대기 시간을 추가합니다. 광범위한 배포의 일환으로 대역폭을 계획하고 실시간 트래픽에 대한 네트워크의 적합성을 평가하기 [위해 Teams용 네트워크 준비](../prepare-network.md) 의 지침을 따르는 것이 좋습니다.
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|
@@ -53,7 +54,7 @@ Microsoft Teams 룸 배포는 기본적으로 단계로 나뉩니다.
 Microsoft Teams 룸 배포를 준비하려면 다음 키, 중앙 작업을 수행합니다.
 
 -   Microsoft Teams 룸 리소스 계정을 정의합니다.
--   Azure Active Directory Teams 룸 조인하는 경우 동적 멤버 자격이 있는 Azure AD 그룹을 준비하여 모든 Teams 룸 리소스 계정을 보유합니다. 이렇게 하면 조건부 액세스 정책 적용과 같은 향후 관리가 간소화됩니다. Azure AD 동적 그룹을 가장 쉽게 활용하려면 Teams 룸 리소스 계정을 고유하게 식별하는 명명 규칙을 결정합니다.
+-   azure Active Directory에 Teams 룸 조인하는 경우 동적 멤버 자격을 가진 Azure AD 그룹을 준비하여 모든 Teams 룸 리소스 계정을 보유합니다. 이렇게 하면 조건부 액세스 정책 적용과 같은 향후 관리가 간소화됩니다. Azure AD 동적 그룹을 가장 쉽게 활용하려면 Teams 룸 리소스 계정을 고유하게 식별하는 명명 규칙을 결정합니다.
 -   Teams 룸 Active Directory에 조인하는 경우 Microsoft Teams 룸 컴퓨터 및 리소스 계정을 보유하도록 조직 구성 단위 및 Active Directory 그룹을 준비하고 필요에 따라 PowerShell 원격을 사용하도록 GPO(그룹 정책 개체)를 준비합니다.
 
 ### <a name="define-microsoft-teams-rooms-resource-account-features"></a>Microsoft Teams 룸 리소스 계정 기능 정의 
@@ -62,9 +63,9 @@ Microsoft Teams 룸 배포에서 사용하도록 설정하기로 결정한 공�
 
 | **시나리오** | **설명** | **Microsoft Teams 룸 서비스 계정 기능** |
 |---------- |------------- | --- |
-| 대화형 모임            | 음성, 비디오 및 화면 공유 사용 Microsoft Teams 룸 예약 가능한 리소스로 만들기                     | Exchange 사용하도록 설정된 Microsoft Teams 또는 비즈니스용 Skype;에 대해 사용하도록 설정됨(리소스 사서함) |
-| 전화 접속 회의            | 콘솔에서 "새 모임"을 탭할 때 오디오 회의 전화 번호가 있어야 합니다. | 오디오 회의 사용하도록 설정                                          |
-| 아웃바운드/인바운드 PSTN 호출 | Microsoft Teams 룸 콘솔에서 PSTN 호출을 만들고 받을 수 있도록 설정                                         | 전화 시스템 사용하도록 설정                                                |
+| 대화형 모임            | 음성, 비디오 및 화면 공유 사용 Microsoft Teams 룸 예약 가능한 리소스로 만들기                     | Microsoft Teams 또는 exchange에 대해 사용하도록 설정된 비즈니스용 Skype;(리소스 사서함) |
+| 전화 접속 회의            | 콘솔에서 "새 모임"을 탭할 때 오디오 회의 전화 번호가 있어야 합니다. | 오디오 회의에 사용하도록 설정                                          |
+| 아웃바운드/인바운드 PSTN 호출 | Microsoft Teams 룸 콘솔에서 PSTN 호출을 만들고 받을 수 있도록 설정                                         | 전화 시스템에 사용하도록 설정                                                |
 
 Microsoft Teams 룸 계정에 대한 자세한 내용은 [Microsoft Teams 룸 대한 계정 구성을](rooms-configure-accounts.md) 참조하세요.
 
@@ -79,15 +80,15 @@ _샘플 Microsoft Teams 룸 리소스 계정 계획 테이블_
 
 | **사이트**  | **방 이름** | **회의실 유형** | **향후 회의실 기능**                                                 | **Microsoft Teams 룸 계정 기능**                                                                                         |
 |-----------|---------------|---------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| 런던 본사 | 퀴리         | 중형        | 화면 1개, 오디오 및 비디오 및 프레젠테이션 <br>전화 접속 회의 액세스<br> PSTN 액세스  | Exchange 사용하도록 설정(리소스 사서함) <br>오디오 회의 사용하도록 설정 <br>전화 시스템 사용하도록 설정 |
-| 시드니 본사 | 힐          | 대형         | 2 화면, 오디오 및 비디오 플러스 프레젠테이션<br>전화 접속 회의 액세스<br> PSTN 액세스  | 비즈니스용 Skype 사용하도록 설정 <br>Exchange 사용하도록 설정(리소스 사서함)<br> 오디오 회의 사용하도록 설정 <br>전화 시스템 사용하도록 설정 |
+| 런던 본사 | 퀴리         | 중형        | 화면 1개, 오디오 및 비디오 및 프레젠테이션 <br>전화 접속 회의 액세스<br> PSTN 액세스  | Exchange에 사용하도록 설정(리소스 사서함) <br>오디오 회의에 사용하도록 설정 <br>전화 시스템에 사용하도록 설정 |
+| 시드니 본사 | 힐          | 대형         | 2 화면, 오디오 및 비디오 플러스 프레젠테이션<br>전화 접속 회의 액세스<br> PSTN 액세스  | 비즈니스용 Skype 사용하도록 설정 <br>Exchange에 사용하도록 설정(리소스 사서함)<br> 오디오 회의에 사용하도록 설정 <br>전화 시스템에 사용하도록 설정 |
 
 
 ### <a name="prepare-to-host-microsoft-teams-rooms-and-resource-accounts-optional"></a>Microsoft Teams 룸 및 리소스 계정 호스트 준비(선택 사항)
 
 Microsoft Teams 룸 및 리소스 계정을 관리하고 보고할 수 있도록 하려면 온-프레미스 Active Directory 또는 Azure Active Directory(Azure AD)를 준비합니다. 
 
-모든 Microsoft Teams 룸 리소스 계정을 추가할 온-프레미스 Active Directory 또는 Azure Active Directory 그룹을 정의합니다. Azure Active Directory 사용하는 경우 동적 그룹을 사용하여 그룹에서 리소스 계정을 자동으로 추가하고 제거하는 것이 좋습니다.
+모든 Microsoft Teams 룸 리소스 계정을 추가할 온-프레미스 Active Directory 또는 Azure Active Directory 그룹을 정의합니다. Azure Active Directory를 사용하는 경우 동적 그룹을 사용하여 그룹에서 리소스 계정을 자동으로 추가하고 제거하는 것이 좋습니다.
 
 모든 Microsoft Teams 룸 컴퓨터 계정(도메인에 가입된 경우)을 보유하도록 온-프레미스 Active Directory 계층 구조에 하나의 조직 구성 단위를 정의하고, Microsoft Teams 룸 모든 사용자 계정을 보유하는 하나의 조직 구성 단위를 정의합니다. 도메인에 가입된 Microsoft Teams 룸 적용하려는 정책만 적용하려면 그룹 정책 상속을 사용하지 않도록 설정합니다.
 
@@ -113,7 +114,7 @@ PowerShell을 사용하여 구성 정보 가져오기 및 설정을 비롯한 �
 
 ### <a name="resource-account-provisioning"></a>리소스 계정 프로비전 
 
-각 Microsoft Teams 룸 디바이스에는 Microsoft Teams 또는 비즈니스용 Skype 모두 사용하도록 설정해야 하고 Exchange 전용 리소스 계정이 필요합니다. 이 계정에는 Exchange 호스트되는 회의실 사서함이 있어야 합니다. 디바이스가 들어오는 모임 요청을 자동으로 수락할 수 있도록 일정 처리를 구성해야 합니다. 이러한 계정을 만드는 방법에 대한 자세한 내용은 [Microsoft Teams 룸 대한 계정 구성](rooms-configure-accounts.md)을 참조하세요. 
+각 Microsoft Teams 룸 디바이스에는 Microsoft Teams 또는 비즈니스용 Skype 및 Exchange 둘 다에 대해 사용하도록 설정해야 하는 전용 및 고유한 리소스 계정이 필요합니다. 이 계정에는 Exchange에서 호스트되는 회의실 사서함이 있어야 합니다. 디바이스가 들어오는 모임 요청을 자동으로 수락할 수 있도록 일정 처리를 구성해야 합니다. 이러한 계정을 만드는 방법에 대한 자세한 내용은 [Microsoft Teams 룸 대한 계정 구성](rooms-configure-accounts.md)을 참조하세요. 
 
 **Pro 팁** - 각 Microsoft Teams 룸 네트워크에 유효하고 고유한 컴퓨터 이름이 있어야 합니다. 많은 모니터링 및 경고 시스템은 컴퓨터 이름을 키 식별자로 표시하므로 지원 담당자가 작업이 필요한 것으로 플래그가 지정된 Microsoft Teams 룸 쉽게 찾을 수 있도록 Microsoft Teams 룸 배포에 대한 명명 규칙을 개발하는 것이 중요합니다. 예를 들어 MTR-Site- *Room Name*(MTR-LON-CURIE) 패턴을 사용할 수 있습니다. 
 
@@ -156,7 +157,7 @@ _샘플 배포 테이블_
 
 ### <a name="microsoft-teams-rooms-application-and-peripheral-device-configuration"></a>Microsoft Teams 룸 애플리케이션 및 주변 장치 구성 
 
-각 Microsoft Teams 룸 시스템이 물리적으로 배포되고 지원되는 주변 장치가 연결되면 Teams 룸 로그인할 수 있도록 Microsoft Teams 룸 리소스 계정 및 암호를 할당하도록 Microsoft Teams 룸 애플리케이션을 구성해야 합니다. Microsoft Teams 또는 비즈니스용 Skype Exchange.
+각 Microsoft Teams 룸 시스템을 물리적으로 배포하고 지원되는 주변 장치를 연결한 후에는 Teams 룸 Microsoft Teams에 로그인할 수 있도록 Microsoft Teams 룸 리소스 계정 및 암호를 할당하도록 Microsoft Teams 룸 애플리케이션을 구성해야 합니다. 비즈니스용 Skype 및 Exchange.
 
 각 Microsoft Teams 룸 시스템을 수동으로 구성할 수 있습니다. 또는 중앙에 저장된 Teams 룸 XML 구성 파일을 사용하여 애플리케이션 설정을 관리할 수 있습니다.
 
@@ -173,7 +174,7 @@ XML 구성 파일을 사용하는 방법에 대한 자세한 내용은 XML 구�
 
 Teams 룸 배포된 후에는 테스트해야 합니다. [Microsoft Teams 룸 도움말](https://support.microsoft.com/en-us/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2?ui=en-us&rs=en-us&ad=us)에 나열된 기능이 배포된 디바이스에서 작동하는지 확인합니다. 배포 팀에서 Microsoft Teams 룸 Teams 관리 센터에 표시되는지 확인하는 것이 좋습니다. 또한 품질을 확인하기 위해 여러 번의 테스트 통화 및 모임을 하는 것이 중요합니다. 자세한 내용은 이 [유용한 배포 검사 목록을 참조하세요](console.md#microsoft-teams-rooms-deployment-checklist).
 
-일반적인 Teams 또는 비즈니스용 Skype 출시의 일환으로 CQD(통화 품질 대시보드)에 대한 파일 빌드를 구성하고, 품질 추세를 모니터링하고, 환경 품질 검토 프로세스에 참여하는 것이 좋습니다. 자세한 내용은 [Teams 대한 통화 품질 개선 및 모니터링을](../monitor-call-quality-qos.md) 참조하세요. 
+일반 Teams 또는 비즈니스용 Skype 출시의 일환으로 CQD(통화 품질 대시보드)에 대한 파일 빌드를 구성하고, 품질 추세를 모니터링하고, 환경 품질 검토 프로세스에 참여하는 것이 좋습니다. 자세한 내용은 [Teams의 통화 품질 개선 및 모니터링을 참조하세요](../monitor-call-quality-qos.md). 
 
 ### <a name="asset-management"></a>자산 관리
 

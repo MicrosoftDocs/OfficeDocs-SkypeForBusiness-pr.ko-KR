@@ -14,37 +14,37 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Microsoft Teams 사용자 및 그룹에 정책 패키지를 할당하는 다양한 방법을 알아봅니다.
+description: Microsoft Teams의 사용자 및 그룹에 정책 패키지를 할당하는 다양한 방법을 알아봅니다.
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 48391db005ca7d40081c0aeb22f71be58fcc9f9f
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: cd6cbaab900ce1e9e5f4a2bd19731573c66ab7eb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646527"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272053"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>사용자 및 그룹에 정책 패키지 할당
 
-이 문서에서는 Microsoft Teams 사용자 및 그룹에 정책 패키지를 할당하는 다양한 방법을 검토합니다. 읽기 전에 [시작 - Teams 정책 할당](policy-assignment-overview.md)을 읽었는지 확인합니다.
+이 문서에서는 Microsoft Teams의 사용자 및 그룹에 정책 패키지를 할당하는 다양한 방법을 검토합니다. 읽기 전에 [Teams에서 정책 할당을](policy-assignment-overview.md) 읽었는지 확인합니다. 시작.
 
 > [!NOTE]
 > 사용자 지정 정책 패키지 할당을 받으려면 각 사용자에게 고급 통신 추가 기능이 필요합니다. 자세한 내용은 [Microsoft Teams를 위한 고급 통신 추가 기능](/microsoftteams/teams-add-on-licensing/advanced-communications)을 참조하세요.
 
 ## <a name="assign-a-policy-package-to-users"></a>사용자에게 정책 패키지 할당
 
-Teams 정책 패키지는 조직에서 동일하거나 유사한 역할을 가진 사용자에게 할당할 수 있는 미리 정의된 정책 및 정책 설정의 컬렉션입니다. 각 정책 패키지는 사용자 역할을 중심으로 설계되었으며 해당 역할에 대한 일반적인 활동을 지원하는 미리 정의된 정책 및 정책 설정을 포함합니다. 정책 패키지의 몇 가지 예로는 Education(교사) 패키지 및 의료(임상 작업자) 패키지가 있습니다. 자세한 내용은 [Teams 정책 패키지 관리를](manage-policy-packages.md) 참조하세요.
+Teams의 정책 패키지는 조직에서 동일하거나 유사한 역할을 가진 사용자에게 할당할 수 있는 미리 정의된 정책 및 정책 설정의 컬렉션입니다. 각 정책 패키지는 사용자 역할을 중심으로 설계되었으며 해당 역할에 대한 일반적인 활동을 지원하는 미리 정의된 정책 및 정책 설정을 포함합니다. 정책 패키지의 몇 가지 예로는 Education(교사) 패키지 및 의료(임상 작업자) 패키지가 있습니다. 자세한 내용은 [Teams에서 정책 패키지 관리를 참조하세요](manage-policy-packages.md).
 
 ### <a name="assign-a-policy-package-to-one-user"></a>한 사용자에게 정책 패키지 할당
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **사용자** 로 이동한 다음 사용자를 선택합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 영역에서 **사용자** 로 이동한 다음 사용자를 선택합니다.
 
 2. 사용자 페이지에서 **정책을** 선택한 다음 정책 **패키지** 옆에 있는 **편집** 을 선택합니다.
 
-3. **정책 패키지 할당** 창에서 할당할 패키지를 선택한 다음 **저장** 을 선택합니다.
+3. **정책 패키지 할당** 창에서 할당할 패키지를 선택한 다음 **적용** 을 선택합니다.
 
-![사용자에게 정책 패키지 할당을 위한 관리 센터 Teams 스크린샷](media/assign-policypackages-user.png)
+    :::image type="content" source="media/assign-policy-package-one-user.png" alt-text="사용자에게 정책 패키지 할당을 위한 Teams 관리 센터를 보여 주는 스크린샷." lightbox="media/assign-policy-package-one-user-expanded.png":::
 
 ### <a name="assign-a-policy-package-to-multiple-users"></a>여러 사용자에게 정책 패키지 할당
 
@@ -54,11 +54,9 @@ Teams 정책 패키지는 조직에서 동일하거나 유사한 역할을 가�
 
 3. **사용자 관리** 창에서 표시 이름 또는 사용자 이름으로 사용자를 검색하고 이름을 선택한 다음, **추가** 를 선택하세요. 추가할 각 사용자에 대해 이 단계를 반복합니다.
 
-4. 사용자 추가가 완료되면 **저장** 을 선택합니다.
+4. 사용자 추가가 완료되면 **적용** 을 선택합니다.
 
-
-![여러 사용자에게 정책 패키지 할당을 위한 Teams 관리 센터 스크린샷](media/assign-policypackages-multipleusers.png)
-
+    :::image type="content" source="media/assign-policy-package-multiple-users.png" alt-text="여러 사용자에게 Teams 관리 센터 정책 패키지 할당을 보여 주는 스크린샷." lightbox="media/assign-policy-package-multiple-users-expanded.png":::
 
 ## <a name="assign-a-policy-package-to-a-group"></a>그룹에 정책 패키지 할당
 
@@ -73,13 +71,11 @@ Teams 정책 패키지는 조직에서 동일하거나 유사한 역할을 가�
 
 ### <a name="assign-a-policy-package-to-a-group-of-users-in-the-admin-center"></a>관리 센터의 사용자 그룹에 정책 패키지 할당
 
-1. Teams 관리 센터에 로그인합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 영역에서 **정책 패키지** 페이지로 이동합니다.
 
-2. 왼쪽 탐색 영역에서 정책 패키지 페이지로 이동합니다.
+2. **그룹 패키지 할당** 탭을 선택합니다.
 
-3. 그룹 정책 할당 탭을 선택합니다.
-
-4. **그룹 추가** 를 선택한 다음 그룹 창에 정책 패키지 할당 창에서 다음을 수행합니다.
+3. **추가** 를 선택한 다음 그룹 창에 **정책 패키지 할당** 에서 다음을 수행합니다.
 
     1. 정책 패키지를 할당할 그룹을 검색하고 추가합니다.
 
@@ -89,12 +85,11 @@ Teams 정책 패키지는 조직에서 동일하거나 유사한 역할을 가�
 
     1. **적용** 을 선택합니다.
 
+       :::image type="content" source="media/assign-policy-package-group.png" alt-text="그룹 창에 정책 패키지 할당 스크린샷" lightbox="media/assign-policy-package-group-expanded.png":::
 
-       ![는 그룹 정책 할당을 표시합니다.](media/group-pkg-assignment.png)
+4. 특정 정책 유형에 대한 순위를 관리하려면 특정 정책 페이지로 이동합니다.
 
-5. 특정 정책 유형에 대한 순위를 관리하려면 특정 정책 페이지로 이동합니다.
-
-6. 그룹에 정책 패키지를 다시 할당하려면 먼저 그룹 정책 할당을 제거합니다. 그런 다음 위의 단계에 따라 그룹에 정책 패키지를 할당합니다.
+5. 그룹에 정책 패키지를 다시 할당하려면 먼저 그룹 정책 할당을 제거합니다. 그런 다음 위의 단계에 따라 그룹에 정책 패키지를 할당합니다.
 
 ### <a name="work-with-powershell"></a>PowerShell 작업
 
@@ -122,13 +117,13 @@ Grant-CsGroupPolicyPackageAssignment -GroupId "dae90bb4-120f-4a3e-a15d-30f142e79
 
 ### <a name="use-the-teams-powershell-module"></a>Teams PowerShell 모듈 사용
 
-다음을 실행하여 [Microsoft Teams PowerShell 모듈](https://www.powershellgallery.com/packages/MicrosoftTeams)을 설치합니다(아직 설치하지 않은 경우). 버전 1.0.5 이상을 설치해야 합니다.
+다음을 실행하여 [Microsoft Teams PowerShell 모듈](https://www.powershellgallery.com/packages/MicrosoftTeams) 을 설치합니다(아직 설치하지 않은 경우). 버전 1.0.5 이상을 설치해야 합니다.
 
 ```powershell
 Install-Module -Name MicrosoftTeams
 ```
 
-다음을 실행하여 Teams 연결하고 세션을 시작합니다.
+다음을 실행하여 Teams에 연결하고 세션을 시작합니다.
 
 ```powershell
 Connect-MicrosoftTeams
@@ -162,7 +157,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 ## <a name="related-topics"></a>관련 항목
 
-- [정책을 사용하여 Teams 관리](manage-teams-with-policies.md)
-- [Microsoft Teams 정책 패키지 관리](manage-policy-packages.md)
+- [정책을 준수하여 Teams 관리](manage-teams-with-policies.md)
+- [Microsoft Teams에서 정책 패키지 관리](manage-policy-packages.md)
 - [Teams PowerShell 개요](teams-powershell-overview.md)
-- [Teams 정책 할당 - 시작](policy-assignment-overview.md)
+- [Teams에서 정책 할당 - 시작](policy-assignment-overview.md)

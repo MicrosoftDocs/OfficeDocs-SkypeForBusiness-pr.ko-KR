@@ -9,25 +9,24 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-voice
-- Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Teams 사용률 Power BI 보고서를 사용하여 Microsoft Teams CQD(통화 품질 대시보드) 데이터에 액세스하여 조직의 Microsoft Teams 사용량을 추적합니다.
-ms.openlocfilehash: 6e96f9dd06f872f2907d04aa335e2af2d7a75f2b
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: bd579fa3f57c6e3b50a363eb77523f577c750efb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790343"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270693"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>CQD 데이터를 사용하여 Power BI에서 Microsoft Teams 사용률 보기
 
-2020년 3월에는 [다운로드 가능한 CQD용 Power BI 쿼리 템플릿에](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true) Teams 사용률 보고서를 추가했습니다. 
+Teams 사용률 보고서는 [CQD용 다운로드 가능한 Power BI 쿼리 템플릿](https://www.microsoft.com/download/details.aspx?id=102291)의 일부로 사용할 수 있습니다. 
 
-이 새로운 Teams 사용률 보고서를 통해 사용자가 Teams CQD(통화 품질 대시보드) 데이터에 액세스하여 Microsoft Teams를 사용하는 방법(및 양)을 확인할 수 있습니다. 이러한 보고서는 관리자와 비즈니스 리더가 이 데이터를 위해 빠르게 갈 수 있는 중앙 집중식 위치가 되기 위한 것입니다.
+이 보고서를 통해 사용자가 Teams CQD(통화 품질 대시보드) 데이터에 액세스하여 Microsoft Teams를 사용하는 방법(및 양)을 확인할 수 있습니다. 이러한 보고서는 관리자와 비즈니스 리더가 이 데이터를 위해 빠르게 갈 수 있는 중앙 집중식 위치가 되기 위한 것입니다. [통화 품질 원격 분석의 특성으로 인해 구체적인 숫자에 이 데이터를 사용하지 않는 것이](CQD-frequently-asked-questions.md#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that) 좋습니다.
 
 Teams 사용률 Power BI 보고서는 **[통화 수 요약](#call-count-summary-report)** 및 **[오디오 시간 요약](#audio-minutes-summary-report)** 이라는 두 가지 기본 보고서로 구성됩니다. 사용자가 아래 설명에 언급된 드릴다운 보고서를 활용하면 [일일 사용량](#daily-usage), [지역 오디오 세부 정보](#regional-audio-details), [회의 세부 정보](#conference-details) 및 [사용자 목록](#user-list) 보고서가 재생됩니다.
 
@@ -157,7 +156,7 @@ P2P 및 회의 오디오의 차이를 표시하기 위해 왼쪽 아래 차트�
 아래 표에서는 해당 시간 동안 각 사용자가 참여한 세션에 대한 자세한 정보를 제공합니다. 오류 유형 열은 호출이 중단된 원인을 확인하는 데 유용합니다. 캡처 및 렌더링 디바이스 열은 통화 품질이 좋지 않은 것으로 보고된 이유를 식별하는 데 유용합니다.
 
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [통화 품질 대시보드에서 사용할 수 있는 차원 및 측정값](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

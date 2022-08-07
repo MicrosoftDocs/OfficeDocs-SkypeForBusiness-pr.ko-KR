@@ -10,7 +10,6 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 f1.keywords:
 - NOCSH
 appliesto:
@@ -18,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams 모임의 손 들어보기 기능에 대해 알아봅니다.
-ms.openlocfilehash: 35a6133c66b1f4a8d6b7a2315b76e2bc7e0f84c7
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 4ff556d35c043292482b67d0946dcfee9eb24e56
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789133"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270153"
 ---
 # <a name="raise-your-hand-option-in-teams-meetings"></a>Teams 모임에서 손 올리기 옵션
 

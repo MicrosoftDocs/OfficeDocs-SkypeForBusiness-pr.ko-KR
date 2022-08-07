@@ -8,7 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
-ms.collection: ''
+ms.collection:
+- M365-collaboration
 f1.keywords:
 - CSH
 - ms.teamsadmincenter.org-widesettings.skypeforbusiness.overview
@@ -22,12 +23,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams 관리 센터에서 비즈니스용 Skype 기능에 대한 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 06c5cc4a199a7b29f2db97159850583d6927fc13
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: 26b2ba51d42a7be227b513d72add3e34f07d0fcd
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563706"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269763"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 비즈니스용 Skype 설정 관리
 

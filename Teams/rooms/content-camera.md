@@ -12,15 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 ms.custom:
 - seo-marvel-mar2020
 description: 발표자가 아날로그 화이트보드에 그릴 수 있도록 이미지 처리 소프트웨어와 상호 작용하는 Microsoft Teams 룸의 콘텐츠 카메라를 사용합니다.
-ms.openlocfilehash: a06dc6b5ebd9dae969a888067146afaccbaaa7e6
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: 090a9bafb101805797afd61e014893c681b6032f
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794136"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270473"
 ---
 # <a name="content-cameras"></a>콘텐츠 카메라
 

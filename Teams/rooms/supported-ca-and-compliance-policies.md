@@ -11,29 +11,30 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 description: Microsoft Teams 룸 대해 지원되고 권장되는 조건부 액세스 및 Intune 디바이스 준수 정책에 대해 알아봅니다.
-ms.openlocfilehash: 8492f94106423498c7e301e48c8f4d046d569674
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: b6f54e2bee4e77f794f03255ef51623bbe220342
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761470"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271913"
 ---
 # <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms-and-teams-android-devices"></a>Microsoft Teams 룸 및 Teams Android 디바이스에 대해 지원되는 조건부 액세스 및 Intune 디바이스 준수 정책
 
 이 문서에서는 Microsoft Teams 룸 대해 지원되는 조건부 액세스 및 Intune 디바이스 준수 정책을 제공합니다. 모범 사례 및 예제 정책은 Microsoft Teams 룸 [대한 조건부 액세스 및 Intune 규정 준수 모범 사례를 참조하세요](conditional-access-and-compliance-for-devices.md).
 
 > [!NOTE]
-> Teams 룸 조건부 액세스 정책을 할당하려는 디바이스에 이미 배포되어 있어야 합니다. 아직 Teams 룸 배포하지 않은 경우 [회의실 및 공유 Teams 디바이스에 대한 리소스 계정 만들기 및](with-office-365.md) [Android Microsoft Teams 룸 배포](../devices/collab-bar-deploy.md)를 참조하세요.
+> Teams 룸 조건부 액세스 정책을 할당하려는 디바이스에 이미 배포되어 있어야 합니다. 아직 Teams 룸 배포하지 않은 경우 [회의실 및 공유 Teams 디바이스에 대한 리소스 계정 만들기 및](with-office-365.md) [Android에서 Microsoft Teams 룸 배포](../devices/collab-bar-deploy.md)를 참조하세요.
 
 ## <a name="supported-conditional-access-policies"></a>지원되는 조건부 액세스 정책  
 
-다음 목록에는 Windows 및 Android Teams 룸 지원되는 조건부 액세스 정책과 Teams 패널, 휴대폰 및 디스플레이에 대한 정책이 포함되어 있습니다.
+다음 목록에는 Windows 및 Android의 Teams 룸 및 Teams 패널, 휴대폰 및 디스플레이에 대한 정책에 대해 지원되는 조건부 액세스 정책이 포함되어 있습니다.
 
-| 할당                               | Windows Teams 룸                                                                                                                                                                              | Android 및 패널의 Teams 룸                                                                                                                                                                              | 휴대폰 및 디스플레이 Teams                                                                                                                                                    |
+| 할당                               | Windows에서 Teams 룸                                                                                                                                                                              | Android 및 패널에서 Teams 룸                                                                                                                                                                              | Teams 휴대폰 및 디스플레이                                                                                                                                                    |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 사용자 또는 워크로드 ID              | 지원                                                                                                                                                                            | 지원                                                                                                                                                                            | 지원                                                                                                                                                            |
-| 클라우드 앱 또는 작업                    | 지원 <br><br> Teams 룸 Teams 전용 모드인 경우 Office 365 Exchange Online, Office 365 SharePoint Online 및 Microsoft Teams 세 가지 클라우드 앱에 액세스해야 합니다. | 지원 <br><br> Teams 룸 Teams 전용 모드인 경우 Office 365 Exchange Online, Office 365 SharePoint Online 및 Microsoft Teams 세 가지 클라우드 앱에 액세스해야 합니다. | 지원<br><br>Teams Android 디바이스는 Office 365 Exchange Online, Office 365 SharePoint Online 및 Microsoft Teams 세 가지 클라우드 앱에 액세스해야 합니다. |
+| 클라우드 앱 또는 작업                    | 지원 <br><br> Teams 룸 Teams 전용 모드인 경우 Office 365 Exchange Online, Office 365 SharePoint Online 및 Microsoft Teams의 세 가지 클라우드 앱에 액세스해야 합니다. | 지원 <br><br> Teams 룸 Teams 전용 모드인 경우 Office 365 Exchange Online, Office 365 SharePoint Online 및 Microsoft Teams의 세 가지 클라우드 앱에 액세스해야 합니다. | 지원<br><br>Teams Android 디바이스는 Office 365 Exchange Online, Office 365 SharePoint Online 및 Microsoft Teams의 세 가지 클라우드 앱에 액세스해야 합니다. |
 | **조건**                           | ---                                                                                                                                                                                  | ---                                                                                                                                                                                  | ---                                                                                                                                                                  |
 | 사용자 위험                                | 지원                                                                                                                                                                            | 지원                                                                                                                                                                            | 지원                                                                                                                                                            |
 | 로그인 위험                             | 지원                                                                                                                                                                            | 지원                                                                                                                                                                            | 지원                                                                                                                                                            |
@@ -55,16 +56,16 @@ ms.locfileid: "65761470"
 > 비즈니스용 Skype Online은 사용 중지되며 지원되지 않습니다. 비즈니스용 Skype Online 클라우드 앱은 디바이스 준수 기반 조건부 액세스 정책에 대해 지원되지 않습니다.
 
 > [!NOTE]
-> Windows Microsoft Teams 룸 디바이스 규정 준수 권한 부여 컨트롤을 지원하려면 다음 요구 사항을 충족해야 합니다.
+> Windows의 Microsoft Teams 룸 디바이스 규정 준수 권한 부여 컨트롤을 지원하려면 다음 요구 사항을 충족해야 합니다.
 >
 > - Microsoft Teams 룸 애플리케이션 4.8.19.0 이상
 > - Windows 10 버전 20H2 이상(10.0.19042)
 
 ## <a name="supported-device-compliance-policies"></a>지원되는 디바이스 준수 정책 
 
-Android Windows 및 Teams 룸 Microsoft Teams 룸 다양한 디바이스 준수 정책을 지원합니다.
+Windows의 Microsoft Teams 룸 Android의 Teams 룸 다양한 디바이스 준수 정책을 지원합니다.
 
-#### <a name="teams-rooms-on-windows"></a>[Windows Teams 룸](#tab/mtr-w)
+#### <a name="teams-rooms-on-windows"></a>[Windows에서 Teams 룸](#tab/mtr-w)
 
 다음은 Teams 룸 사용하기 위한 디바이스 준수 설정 및 권장 사항의 표입니다.  
 
@@ -75,7 +76,7 @@ Android Windows 및 Teams 룸 Microsoft Teams 룸 다양한 디바이스 준수 
 | 디바이스에서 보안 부팅을 사용하도록 설정해야 함                                                                             | 지원      | 보안 부팅은 Teams 룸 요구 사항입니다.                                                                                              |
 | 코드 무결성 필요                                                                                                      | 지원      | 코드 무결성은 이미 Teams 룸 요구 사항입니다.                                                                                    |
 | [**디바이스 속성**](/mem/intune/protect/compliance-policy-create-windows#device-properties)                             | --             | --                                                                                                                                          |
-| 운영 체제 버전(최소, 최대)                                                                                 | 지원되지 않음  | Teams 룸 최신 버전의 Windows 자동으로 업데이트되고 여기에 값을 설정하면 OS 업데이트 후 로그인에 성공하지 못할 수 있습니다. |
+| 운영 체제 버전(최소, 최대)                                                                                 | 지원되지 않음  | Teams 룸 자동으로 최신 버전의 Windows로 업데이트되고 여기에 값을 설정하면 OS 업데이트 후 로그인에 성공하지 못할 수 있습니다. |
 | 모바일 디바이스용 OS 버전(최소, 최대)                                                                            | 지원되지 않습니다. |                                                                                                                                             |
 | 유효한 운영 체제 빌드                                                                                               | 지원되지 않음  |                                                                                                                                             |
 | [**Configuration Manager 규정 준수**](/mem/intune/protect/compliance-policy-create-windows#device-properties)              | --             | --                                                                                                                                          |
@@ -94,7 +95,7 @@ Android Windows 및 Teams 룸 Microsoft Teams 룸 다양한 디바이스 준수 
 | [**엔드포인트용 Microsoft Defender**](/mem/intune/protect/compliance-policy-create-windows#microsoft-defender-for-endpoint) | --             | --                                                                                                                                          |
 | 디바이스가 머신 위험 점수에 있거나 아래에 있어야 합니다.                                                                | 지원      |                                                                                                                                             |
 
-#### <a name="teams-rooms-on-android"></a>[Android Teams 룸](#tab/mtr-a)
+#### <a name="teams-rooms-on-android"></a>[Android에서 Teams 룸](#tab/mtr-a)
 
 다음은 Teams 룸 사용하기 위한 디바이스 준수 설정 및 권장 사항의 표입니다.  
 
@@ -106,11 +107,11 @@ Android Windows 및 Teams 룸 Microsoft Teams 룸 다양한 디바이스 준수 
 | 디바이스 관리자를 사용하여 관리되는 디바이스                                                                                                | 필수      | Teams Android 디바이스 관리를 사용하려면 디바이스 관리자를 사용하도록 설정해야 합니다. |
 | 루팅된 디바이스                                                                                                                          | 지원     |                                                                               |
 | 디바이스가 디바이스 위협 수준 또는 그 아래에 있어야 합니다.                                                                            | 지원되지 않음 |                                                                               |
-| [**Google Play 보호**](/mem/intune/protect/compliance-policy-create-android#device-health)                                           | --            | --                                                                            |
-| Google Play 서비스 구성됨                                                                                                      | 지원되지 않음 | Google 플레이는 Teams Android 장치에 설치되지 않습니다.                         |
-| 최신 보안 공급자                                                                                                            | 지원되지 않음 | Google 플레이는 Teams Android 장치에 설치되지 않습니다.                         |
-| 앱에 대한 위협 검사                                                                                                                     | 지원되지 않음 | Google 플레이는 Teams Android 장치에 설치되지 않습니다.                         |
-| SafetyNet 디바이스 증명                                                                                                            | 지원되지 않음 | Google 플레이는 Teams Android 장치에 설치되지 않습니다.                         |
+| [**Google Play Protect**](/mem/intune/protect/compliance-policy-create-android#device-health)                                           | --            | --                                                                            |
+| Google Play 서비스가 구성됨                                                                                                      | 지원되지 않음 | Google 플레이는 Teams Android 디바이스에 설치되어 있지 않습니다.                         |
+| 최신 보안 공급자                                                                                                            | 지원되지 않음 | Google 플레이는 Teams Android 디바이스에 설치되어 있지 않습니다.                         |
+| 앱에 대한 위협 검사                                                                                                                     | 지원되지 않음 | Google 플레이는 Teams Android 디바이스에 설치되어 있지 않습니다.                         |
+| SafetyNet 디바이스 증명                                                                                                            | 지원되지 않음 | Google 플레이는 Teams Android 디바이스에 설치되어 있지 않습니다.                         |
 | [**디바이스 속성**](/mem/intune/protect/compliance-policy-create-android#device-properties)                                         | --            | --                                                                            |
 | 운영 체제 버전(최소, 최대)                                                                                             | 지원     |                                                                               |
 | [**시스템 보안**](/mem/intune/protect/compliance-policy-create-android#system-security)                                             | --            | --                                                                            |
@@ -127,7 +128,7 @@ Android Windows 및 Teams 룸 Microsoft Teams 룸 다양한 디바이스 준수 
 | [**Android 9 이하 또는 Samsung Knox**](/mem/intune/protect/compliance-policy-create-android#android-9-and-earlier-or-samsung-knox) | --            | --                                                                            |
 | 필수 암호 유형                                                                                                                  | 지원되지 않음 |                                                                               |
 
-#### <a name="teams-phones-and-displays"></a>[휴대폰 및 디스플레이 Teams](#tab/phones)
+#### <a name="teams-phones-and-displays"></a>[Teams 휴대폰 및 디스플레이](#tab/phones)
 
 다음은 Teams 휴대폰 및 디스플레이와 함께 사용하기 위한 디바이스 준수 설정 및 권장 사항의 표입니다.  
 
@@ -139,11 +140,11 @@ Android Windows 및 Teams 룸 Microsoft Teams 룸 다양한 디바이스 준수 
 | 디바이스 관리자를 사용하여 관리되는 디바이스                                                                                                | 필수      | Teams Android 디바이스 관리를 사용하려면 디바이스 관리자를 사용하도록 설정해야 합니다. |
 | 루팅된 디바이스                                                                                                                          | 지원     |                                                                               |
 | 디바이스가 디바이스 위협 수준 또는 그 아래에 있어야 합니다.                                                                            | 지원되지 않음 |                                                                               |
-| [**Google Play 보호**](/mem/intune/protect/compliance-policy-create-android#device-health)                                           | --            | --                                                                            |
-| Google Play 서비스 구성됨                                                                                                      | 지원되지 않음 | Google 플레이는 Teams Android 장치에 설치되지 않습니다.                         |
-| 최신 보안 공급자                                                                                                            | 지원되지 않음 | Google 플레이는 Teams Android 장치에 설치되지 않습니다.                         |
-| 앱에 대한 위협 검사                                                                                                                     | 지원되지 않음 | Google 플레이는 Teams Android 장치에 설치되지 않습니다.                         |
-| SafetyNet 디바이스 증명                                                                                                            | 지원되지 않음 | Google 플레이는 Teams Android 장치에 설치되지 않습니다.                         |
+| [**Google Play Protect**](/mem/intune/protect/compliance-policy-create-android#device-health)                                           | --            | --                                                                            |
+| Google Play 서비스가 구성됨                                                                                                      | 지원되지 않음 | Google 플레이는 Teams Android 디바이스에 설치되어 있지 않습니다.                         |
+| 최신 보안 공급자                                                                                                            | 지원되지 않음 | Google 플레이는 Teams Android 디바이스에 설치되어 있지 않습니다.                         |
+| 앱에 대한 위협 검사                                                                                                                     | 지원되지 않음 | Google 플레이는 Teams Android 디바이스에 설치되어 있지 않습니다.                         |
+| SafetyNet 디바이스 증명                                                                                                            | 지원되지 않음 | Google 플레이는 Teams Android 디바이스에 설치되어 있지 않습니다.                         |
 | [**디바이스 속성**](/mem/intune/protect/compliance-policy-create-android#device-properties)                                         | --            | --                                                                            |
 | 운영 체제 버전(최소, 최대)                                                                                             | 지원     |                                                                               |
 | [**시스템 보안**](/mem/intune/protect/compliance-policy-create-android#system-security)                                             | --            | --                                                                            |
@@ -174,11 +175,11 @@ Android Windows 및 Teams 룸 Microsoft Teams 룸 다양한 디바이스 준수 
 | 디바이스 관리자를 사용하여 관리되는 디바이스                                                                                                | 필수      | Teams Android 디바이스 관리를 사용하려면 디바이스 관리자를 사용하도록 설정해야 합니다. |
 | 루팅된 디바이스                                                                                                                          | 지원     |                                                                               |
 | 디바이스가 디바이스 위협 수준 또는 그 아래에 있어야 합니다.                                                                            | 지원되지 않음 |                                                                               |
-| [**Google Play 보호**](/mem/intune/protect/compliance-policy-create-android#device-health)                                           | --            | --                                                                            |
-| Google Play 서비스 구성됨                                                                                                      | 지원되지 않음 | Google 플레이는 Teams Android 장치에 설치되지 않습니다.                         |
-| 최신 보안 공급자                                                                                                            | 지원되지 않음 | Google 플레이는 Teams Android 장치에 설치되지 않습니다.                         |
-| 앱에 대한 위협 검사                                                                                                                     | 지원되지 않음 | Google 플레이는 Teams Android 장치에 설치되지 않습니다.                         |
-| SafetyNet 디바이스 증명                                                                                                            | 지원되지 않음 | Google 플레이는 Teams Android 장치에 설치되지 않습니다.                         |
+| [**Google Play Protect**](/mem/intune/protect/compliance-policy-create-android#device-health)                                           | --            | --                                                                            |
+| Google Play 서비스가 구성됨                                                                                                      | 지원되지 않음 | Google 플레이는 Teams Android 디바이스에 설치되어 있지 않습니다.                         |
+| 최신 보안 공급자                                                                                                            | 지원되지 않음 | Google 플레이는 Teams Android 디바이스에 설치되어 있지 않습니다.                         |
+| 앱에 대한 위협 검사                                                                                                                     | 지원되지 않음 | Google 플레이는 Teams Android 디바이스에 설치되어 있지 않습니다.                         |
+| SafetyNet 디바이스 증명                                                                                                            | 지원되지 않음 | Google 플레이는 Teams Android 디바이스에 설치되어 있지 않습니다.                         |
 | [**디바이스 속성**](/mem/intune/protect/compliance-policy-create-android#device-properties)                                         | --            | --                                                                            |
 | 운영 체제 버전(최소, 최대)                                                                                             | 지원     |                                                                               |
 | [**시스템 보안**](/mem/intune/protect/compliance-policy-create-android#system-security)                                             | --            | --                                                                            |

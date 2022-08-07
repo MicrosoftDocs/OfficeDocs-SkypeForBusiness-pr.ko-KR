@@ -9,41 +9,42 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 동적 지원 구조 및 해당 단계를 포함하여 Microsoft Teams 룸 수명 주기 지원에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8348db0129b31920335351f2ebde4ed5db8a3d36
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 8814ee9190ff6036345b4aa4607191d3486a369e
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761070"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268213"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams 룸 앱 버전 지원
  
-Microsoft Teams 룸 앱은 Windows 저장소를 통해 업데이트를 가져옵니다. Microsoft Teams Room 앱은 상록 제품 수명 주기를 사용하며 현재 및 다음 최신 버전의 앱만 지정된 시간에 지원됩니다. Microsoft Teams Room 앱은 회의실용으로 수정된 특정 버전의 Teams 데스크톱 앱을 번들로 제공합니다. Teams 데스크톱 앱은 2주마다 업데이트됩니다. [Teams 업데이트 프로세스](../teams-client-update.md)에 대해 자세히 알아봅니다. 즉, Teams 룸 앱 현재-1 버전은 최대 6개의 Teams 데스크톱 앱 업데이트가 있을 수 있으므로 Teams Room 애플리케이션을 항상 최신 버전의 Teams 룸 앱으로 업데이트하는 것이 좋습니다. 
+Microsoft Teams 룸 앱은 Windows 스토어를 통해 업데이트를 받습니다. Microsoft Teams 룸 앱은 상록 제품 수명 주기를 사용하며 현재 및 다음 최신 버전의 앱만 지정된 시간에 지원됩니다. Microsoft Teams 룸 앱은 회의실 사용을 위해 수정된 특정 버전의 Teams 데스크톱 앱을 번들로 묶습니다. Teams 데스크톱 앱은 2주마다 업데이트됩니다. [Teams 업데이트 프로세스](../teams-client-update.md)에 대해 자세히 알아봅니다. 즉, Teams 룸 앱 현재-1 버전은 최대 6개의 Teams 데스크톱 앱 업데이트가 뒤처질 수 있으므로 Teams 룸 애플리케이션을 항상 최신 버전의 Teams 룸 앱으로 업데이트하는 것이 좋습니다. 
 
 Teams 룸 대한 지원 구조는 동적이며 최신 버전의 가용성에 따라 달라집니다. 최신 버전이 아닌 애플리케이션 버전에서 코드 결함이 발생하는 경우 수정 사항을 받으려면 최신 버전을 설치해야 합니다.
 
 모든 릴리스는 [Microsoft Teams 룸 릴리스 정보에](rooms-release-note.md) 나열됩니다.
 
 > [!IMPORTANT]
-> 이전 버전의 Teams 룸 애플리케이션과 함께 제공되는 새 디바이스를 설치하는 경우 Windows 업데이트를 다운로드하기 전에 계정을 설정한 후 [애플리케이션을 수동으로 업데이트](manual-update.md)하는 것이 좋습니다. 이렇게 하면 올바른 OS 버전과 Windows 업데이트가 디바이스에 설치됩니다.  
+> 이전 버전의 Teams 룸 애플리케이션과 함께 제공되는 새 디바이스를 설치하는 경우 Windows 업데이트를 다운로드하기 전에 계정을 설정한 후 [애플리케이션을 수동으로 업데이트](manual-update.md) 하는 것이 좋습니다. 이렇게 하면 올바른 OS 버전과 Windows 업데이트가 디바이스에 설치됩니다.  
 
 ## <a name="windows-10-release-support"></a>Windows 10 릴리스 지원
 
 Microsoft Teams 룸 Semi-Annual 채널 서비스 옵션에서 Windows 10 IoT Enterprise 또는 Windows 10 Enterprise SKU가 필요합니다. 이러한 다른 Windows 10 버전은 지원되지 않습니다.
 
 - Windows 10 Enterprise LTSB(장기 서비스 분기) / LTSC(장기 서비스 채널) 버전
-- Windows 10 IoT(사물 인터넷) Enterprise LTSB/LTSC 버전
-- Windows 10 Pro 또는 Home Edition과 같은 다른 Windows 버전
+- IoT(사물 인터넷) 엔터프라이즈 LTSB/LTSC 버전 Windows 10
+- 다른 Windows 버전(예: Windows 10 Pro 또는 Home Edition)
 
-새로운 Windows 10 기능 업데이트는 Microsoft Teams 룸 디바이스에서 즉시 제공되지 않습니다. Windows 10 [릴리스 정보](/windows/release-information/) 페이지에 게시된 일반 공급 날짜 이후 최대 6개월 이상의 의도적인 지연이 있습니다. 이번에는 Microsoft Teams 룸 앱, 디바이스 하드웨어 및 인증된 오디오 비디오 주변 장치에 대한 Windows 10 릴리스 호환성의 유효성을 검사하는 데 사용됩니다. 유효성 검사는 Windows 10 각 주 릴리스의 활성 개발 중에 시작되고 계속됩니다. 모든 디바이스 제조업체가 디바이스에 대해 업데이트된 이미지를 빌드했는지 확인하고 Microsoft에서 해당 이미지를 인증하고 테스트하려면 추가 시간이 필요합니다. 유효성 검사 기간 동안 Microsoft Teams Room 앱은 [비즈니스용 Windows 업데이트 그룹 정책을](/windows/deployment/update/waas-manage-updates-wufb) 사용하여 Windows 10 기능 업데이트를 지연합니다. 호환성 문제가 발견되고 해결되면 Windows 스토어의 새 앱 릴리스를 통해 그룹 정책을 업데이트하여 블록이 해제됩니다. Microsoft Teams 룸 앱을 실행하는 디바이스는 야간 유지 관리 재부팅 중에 적절한 Windows 10 릴리스로 자동으로 업데이트됩니다. 수동으로 업데이트를 관리해야 하는 고객이 MSI 버전을 사용할 수 있습니다.  
+새로운 Windows 10 기능 업데이트는 Microsoft Teams 룸 디바이스에서 즉시 제공되지 않습니다. Windows 10 [릴리스 정보](/windows/release-information/) 페이지에 게시된 일반 공급 날짜 이후 최대 6개월 이상의 의도적인 지연이 있습니다. 이번에는 Microsoft Teams 룸 앱, 디바이스 하드웨어 및 인증된 오디오 비디오 주변 장치에 대한 Windows 10 릴리스 호환성의 유효성을 검사하는 데 사용됩니다. 유효성 검사는 Windows 10 각 주 릴리스의 활성 개발 중에 시작되고 계속됩니다. 모든 디바이스 제조업체가 디바이스에 대해 업데이트된 이미지를 빌드했는지 확인하고 Microsoft에서 해당 이미지를 인증하고 테스트하려면 추가 시간이 필요합니다. 유효성 검사 기간 동안 Microsoft Teams 룸 앱은 [비즈니스용 Windows 업데이트 그룹 정책을](/windows/deployment/update/waas-manage-updates-wufb) 사용하여 Windows 10 기능 업데이트를 지연합니다. 호환성 문제가 발견되고 해결되면 Windows 스토어의 새 앱 릴리스를 통해 그룹 정책을 업데이트하여 블록이 해제됩니다. Microsoft Teams 룸 앱을 실행하는 디바이스는 야간 유지 관리 재부팅 중에 적절한 Windows 10 릴리스로 자동으로 업데이트됩니다. 수동으로 업데이트를 관리해야 하는 고객이 MSI 버전을 사용할 수 있습니다.  
 
 > [!IMPORTANT]
-> 유효성 검사 기간 동안 Microsoft Teams 룸 디바이스는 어떤 수단으로든 Windows 10 다음 릴리스로 업데이트 **해서는** 안 됩니다. 여기에는 그룹 정책을 재정의하거나 System Center 또는 기타 타사 디바이스 관리 서비스를 사용하는 것이 포함됩니다. 이러한 경우 Microsoft Teams Room 앱에 문제가 발생하거나 디바이스를 사용할 수 없게 될 수 있습니다.  
+> 유효성 검사 기간 동안 Microsoft Teams 룸 디바이스는 어떤 수단으로든 Windows 10 다음 릴리스로 업데이트 **해서는** 안 됩니다. 여기에는 그룹 정책을 재정의하거나 System Center 또는 기타 타사 디바이스 관리 서비스를 사용하는 것이 포함됩니다. 이러한 경우 Microsoft Teams 룸 앱에 문제가 발생하거나 디바이스를 사용할 수 없게 될 수 있습니다.  
 
 다음 표에서는 Microsoft Teams 룸 지원하는 것으로 확인된 권장 및 지원되는 Windows 10 버전을 보여줍니다. 모든 날짜는 ISO 8601 형식(YYYY-MM-DD)으로 나열됩니다.
 
