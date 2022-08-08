@@ -1,5 +1,5 @@
 ---
-title: '교육 관리자를 위한 Microsoft Teams 리소스: EDU에 대한 Teams 라이선스 할당'
+title: "'교육 관리자를 위한 Microsoft Teams 리소스: EDU에 대한 Teams 라이선스 할당'"
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -14,15 +14,14 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 193473f677ecd6cfdcdd08eb03b349a218f8247c
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: e6c66f17d84a7835094f85ac76e0cd3c90fa3ee2
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363174"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267413"
 ---
 # <a name="assign-microsoft-teams-licenses-for-edu"></a>교육에 대한 Microsoft 팀 라이선스 할당
 
