@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b547990a05d6c4ff0bd7a3bd36fdf3fbe431202e
-ms.sourcegitcommit: 70185cd963c5a9d539e65e302d4230018209ecae
+ms.openlocfilehash: 73f11abed8101031361e92d008c4edbd89b9a31c
+ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66958143"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67278772"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>교육용 Microsoft Teams 부모 연결 설정
 
@@ -181,7 +181,7 @@ SDS가 정기적으로 동기화되도록 설정된 경우 Teams 보호자 연�
 
 ## <a name="turn-on-the-parents-app-in-the-teams-admin-center"></a>Teams 관리 센터에서 부모 앱 켜기
 
-부모 앱은 기본적으로 꺼져 있으므로 수업 팀 소유자는 Teams 관리 센터를 통해 허용될 때까지 수업 팀에서 해당 앱을 볼 수 없습니다. 부모 앱은 [게시자에 의해 차단된 허용 앱을](manage-apps.md#allow-the-apps-that-are-blocked-by-the-developers) 사용하여 Teams 관리 센터에서 설정됩니다.
+부모 앱은 기본적으로 꺼져 있으므로 수업 팀 소유자는 Teams 관리 센터를 통해 허용될 때까지 수업 팀에서 해당 앱을 볼 수 없습니다. [개발자가 차단한 앱 허용](manage-apps.md#allow-the-apps-that-are-blocked-by-the-developers)을 사용하여 Teams 관리 센터에서 부모 앱이 켜집니다.
 
 언제든지 Teams 관리 센터에서 [허용 및 차단 앱을](manage-apps.md#allow-and-block-apps) 사용하여 테넌트 수준에서 앱을 해제할 수 있습니다. 테넌트 수준에서 해제된 경우 사용자 수준 권한이 설정되어 있더라도 모든 사용자에 대해 차단됩니다.
 

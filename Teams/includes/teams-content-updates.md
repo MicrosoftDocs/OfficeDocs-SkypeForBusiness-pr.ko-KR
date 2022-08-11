@@ -3,10 +3,109 @@
 
 
 
+## <a name="week-of-august-01-2022"></a>2022년 8월 1일 주
+
+
+| 게시 날짜 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 8/1/2022 | [Teams의 기본 PDF 뷰어로 Adobe Acrobat 사용하기](/MicrosoftTeams/adobe-acrobat-pdf-viewer-teams) | 으로 바뀌었습니다 |
+| 8/1/2022 | [사용자 및 그룹에 정책 할당](/MicrosoftTeams/assign-policies-users-and-groups) | 으로 바뀌었습니다 |
+| 8/1/2022 | [Microsoft Teams에서 통화 플랜](/MicrosoftTeams/calling-plan-landing-page) | 으로 바뀌었습니다 |
+| 8/1/2022 | [Microsoft 365용 통화 플랜](/MicrosoftTeams/calling-plans-for-office-365) | 으로 바뀌었습니다 |
+| 8/1/2022 | [Microsoft Teams의 앱 정보 알기](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 으로 바뀌었습니다 |
+| 8/1/2022 | [사용자의 전화 번호 가져오기](/MicrosoftTeams/getting-phone-numbers-for-your-users) | 으로 바뀌었습니다 |
+| 8/1/2022 | [통화 플랜 설정](/MicrosoftTeams/set-up-calling-plans) | 으로 바뀌었습니다 |
+| 8/1/2022 | [조직에 사용할 통신 크레딧 설정](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | 으로 바뀌었습니다 |
+| 8/1/2022 | [Microsoft Teams 앱 사용 현황 보고서](/MicrosoftTeams/teams-analytics-and-reports/app-usage-report) | 으로 바뀌었습니다 |
+| 8/1/2022 | [통신 크레딧이란?](/MicrosoftTeams/what-are-communications-credits) | 으로 바뀌었습니다 |
+| 8/1/2022 | [읽기 진행률 권장 사항에 대한 인사이트 이해](/MicrosoftTeams/insights-for-reading-progress) | 추가 |
+| 8/1/2022 | [새로운 기능 - 연산자 연결](/MicrosoftTeams/operator-connect-whats-new) | 추가 |
+| 8/2/2022 | [Microsoft Teams 룸 릴리스 정보(Windows)](/MicrosoftTeams/rooms/rooms-release-note) | 으로 바뀌었습니다 |
+| 8/3/2022 | [긴급 위치 추가, 변경, 제거](/MicrosoftTeams/add-change-remove-emergency-location-organization) | 으로 바뀌었습니다 |
+| 8/3/2022 | [긴급 위치 추가, 변경, 제거](/MicrosoftTeams/add-change-remove-emergency-place-organization) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Teams 패널에서 Microsoft Teams 앱/LOB(기간 업무) 앱 지원](/MicrosoftTeams/app-support-on-teams-panels) | 으로 바뀌었습니다 |
+| 8/3/2022 | [오디오 회의를 위한 온-네트워크 회의](/MicrosoftTeams/audio-conferencing-on-network) | 으로 바뀌었습니다 |
+| 8/3/2022 | [통화 품질 대시보드](/MicrosoftTeams/business-voice/analytics-dashboard) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Business Voice와 Enterprise Voice의 차이점은 무엇입니까?](/MicrosoftTeams/business-voice/business-enterprise-comparison) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Microsoft 365 사용자 만들기, 통화 플랜 번들 라이선스를 사용하여 Teams Phone 추가 및 전화 번호 할당](/MicrosoftTeams/business-voice/create-users) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Microsoft Teams에서 통화 플랜으로 Microsoft Teams 전화 시스템 사용자 지정](/MicrosoftTeams/business-voice/customize-business-voice) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Teams 전화 시스템에 대한 인터넷 연결 확인](/MicrosoftTeams/business-voice/get-ready-internet) | 으로 바뀌었습니다 |
+| 8/3/2022 | [장치 관리](/MicrosoftTeams/business-voice/manage-devices) | 으로 바뀌었습니다 |
+| 8/3/2022 | [통화 품질 모니터링](/MicrosoftTeams/business-voice/monitor-quality) | 으로 바뀌었습니다 |
+| 8/3/2022 | [정책 패키지 관리](/MicrosoftTeams/business-voice/policy-packages) | 으로 바뀌었습니다 |
+| 8/3/2022 | [통화 플랜을 사용하여 Teams 전화 시스템에 전화 번호 이식](/MicrosoftTeams/business-voice/port-phone-numbers) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Microsoft 리셀러 또는 파트너 로부터 도움 받기](/MicrosoftTeams/business-voice/reseller-partner-support) | 으로 바뀌었습니다 |
+| 8/3/2022 | [사용자에게 Teams 전화 시스템 전화 번호 할당](/MicrosoftTeams/business-voice/set-up-assign-numbers) | 으로 바뀌었습니다 |
+| 8/3/2022 | [통화 플랜 긴급 위치를 사용하여 Microsoft Teams 전화 시스템 설정](/MicrosoftTeams/business-voice/set-up-emergency-locations) | 으로 바뀌었습니다 |
+| 8/3/2022 | [통화 플랜 설정으로 완료된 Teams 전화 시스템](/MicrosoftTeams/business-voice/set-up-finish) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Microsoft Teams 전화 및 통화 플랜 패키지 번들 라이선스 할당](/MicrosoftTeams/business-voice/set-up-licenses) | 으로 바뀌었습니다 |
+| 8/3/2022 | [중소기업을 위한 통화 플랜을 사용하여 Microsoft Teams 전화 시스템 설정](/MicrosoftTeams/business-voice/set-up-overview) | 으로 바뀌었습니다 |
+| 8/3/2022 | [통화 플랜 전화 번호를 사용하여 Microsoft Teams 전화 시스템 설정](/MicrosoftTeams/business-voice/set-up-phone-numbers) | 으로 바뀌었습니다 |
+| 8/3/2022 | [정책을 설정](/MicrosoftTeams/business-voice/set-up-policies) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Microsoft Teams 전화 시스템 리소스 계정 설정](/MicrosoftTeams/business-voice/set-up-resource-account) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Business Voice를 설정한 후 시도할 사항](/MicrosoftTeams/business-voice/things-to-try) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Microsoft 365 Business Voice 구입하는 데 필요한 관리 권한](/MicrosoftTeams/business-voice/ui/admin-perms-needed) | 으로 바뀌었습니다 |
+| 8/3/2022 | [중소기업을 위한 Teams 전화 시스템 지침](/MicrosoftTeams/business-voice/whats-business-voice) | 으로 바뀌었습니다 |
+| 8/3/2022 | [cmdlet을 통해 자동 전화 교환 만들기](/MicrosoftTeams/create-a-phone-system-auto-attendant-via-cmdlets) | 으로 바뀌었습니다 |
+| 8/3/2022 | [교육용 Teams 디바이스](/MicrosoftTeams/devices-for-education) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Android 디바이스의 Microsoft Teams 공유 디바이스 관리에 대한 인증 모범 사례입니다.](/MicrosoftTeams/devices/authentication-best-practices-for-android-devices) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Teams Android 디바이스에 대한 원격 프로비저닝 및 로그인](/MicrosoftTeams/devices/remote-provision-remote-login) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Teams Android 디바이스에 대한 원격 로그인 및 로그아웃](/MicrosoftTeams/devices/remote-sign-in-and-sign-out) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Microsoft Teams용 휴대폰 및 장치](/MicrosoftTeams/devices/usb-devices) | 으로 바뀌었습니다 |
+| 8/3/2022 | [직접 라우팅에 대한 통화 알림 관리](/MicrosoftTeams/direct-routing-call-notifications) | 으로 바뀌었습니다 |
+| 8/3/2022 | [직접 라우팅](/MicrosoftTeams/direct-routing-landing-page) | 으로 바뀌었습니다 |
+| 8/3/2022 | [전화 시스템 직접 라우팅 개요](/MicrosoftTeams/direct-routing-protocols-media) | 으로 바뀌었습니다 |
+| 8/3/2022 | [전화 시스템 직접 라우팅](/MicrosoftTeams/direct-routing-protocols-sip) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Teams 전화 시스템 직접 라우팅: 정의 및 RFC 표준](/MicrosoftTeams/direct-routing-protocols) | 으로 바뀌었습니다 |
+| 8/3/2022 | [직접 라우팅 SBA](/MicrosoftTeams/direct-routing-survivable-branch-appliance) | 으로 바뀌었습니다 |
+| 8/3/2022 | [새로운 직접 라우팅 기능](/MicrosoftTeams/direct-routing-whats-new) | 으로 바뀌었습니다 |
+| 8/3/2022 | [최전방 근로자를 위한 Kaizala에서 Microsoft Teams로 채택 추진](/MicrosoftTeams/drive-adoption-optimize-kaizala) | 으로 바뀌었습니다 |
+| 8/3/2022 | [원격 위치에 대한 긴급 주소](/MicrosoftTeams/emergency-calling-dispatchable-location) | 으로 바뀌었습니다 |
+| 8/3/2022 | [팀 의료 서식 파일 사용](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Kaizala 및 Microsoft Teams](/MicrosoftTeams/get-started-kaizala-teams) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Slack에서 Microsoft Teams로 마이그레이션](/MicrosoftTeams/migrate-slack-to-teams) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Microsoft Teams 탐색](/MicrosoftTeams/navigate-teams) | 으로 바뀌었습니다 |
+| 8/3/2022 | [포트 순서](/MicrosoftTeams/phone-number-calling-plans/port-order-overview) | 으로 바뀌었습니다 |
+| 8/3/2022 | [포트 주문의 상태 확인](/MicrosoftTeams/phone-number-calling-plans/port-order-status) | 으로 바뀌었습니다 |
+| 8/3/2022 | [통화 플랜에 지원되는 요금 센터 및 적용 범위](/MicrosoftTeams/phone-number-calling-plans/supported-rate-centers-coverage-matrix) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Kaizala에서 Microsoft Teams로의 성공적인 이동 계획](/MicrosoftTeams/plan-your-move-kaizala) | 으로 바뀌었습니다 |
+| 8/3/2022 | [EDU 관리자용 Microsoft Teams 정책 및 정책 패키지](/MicrosoftTeams/policy-packages-edu) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Kaizala에서 Teams로의 여정 차트](/MicrosoftTeams/prepare-for-teams-kaizala) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Microsoft Teams의 비공개 채널](/MicrosoftTeams/private-channels) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Microsoft Teams 모임에서 전화 번호 마스킹](/MicrosoftTeams/ptsn-mask-phone-numbers) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Teams 모임에서 손 들기](/MicrosoftTeams/raise-hand-meetings) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Managed Services에 Teams 룸 디바이스 등록](/MicrosoftTeams/rooms/enroll-a-device) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Microsoft Teams Rooms](/MicrosoftTeams/rooms/index) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Microsoft Teams 룸 인증](/MicrosoftTeams/rooms/rooms-authentication) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Microsoft Teams 룸 계획](/MicrosoftTeams/rooms/rooms-plan) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Windows와 Android 간의 공유 공간 기능 비교를 위한 Teams 디바이스](/MicrosoftTeams/rooms/teams-devices-feature-comparison) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Microsoft Teams의 공유 채널](/MicrosoftTeams/shared-channels) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Microsoft Teams 관리 센터에서 비즈니스용 Skype 설정 관리](/MicrosoftTeams/skype-for-business-settings) | 으로 바뀌었습니다 |
+| 8/3/2022 | [감독된 채팅 사용](/MicrosoftTeams/supervise-chats-edu) | 으로 바뀌었습니다 |
+| 8/3/2022 | [비교육 테넌트에 감독 채팅 사용](/MicrosoftTeams/supervised-chat-non-edu) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Microsoft Teams PSTN 차단 사용자 보고서](/MicrosoftTeams/teams-analytics-and-reports/pstn-blocked-users-report) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Microsoft Teams PSTN 분 풀 보고서](/MicrosoftTeams/teams-analytics-and-reports/pstn-minute-pools-report) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Microsoft Teams PSTN 사용 현황 보고서](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Teams에서 분석 보기](/MicrosoftTeams/teams-analytics-and-reports/view-analytics) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Teams를 위한 회의실 지침](/MicrosoftTeams/teams-meeting-room-guidance) | 으로 바뀌었습니다 |
+| 8/3/2022 | [지원되지 않는 브라우저에서 Microsoft Teams 모임](/MicrosoftTeams/unsupported-browsers) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Advisor for Teams를 사용하여 Microsoft Teams 배포](/MicrosoftTeams/use-advisor-teams-roll-out) | 으로 바뀌었습니다 |
+| 8/3/2022 | [사용자에 대한 통화 설정 구성](/MicrosoftTeams/user-call-settings) | 으로 바뀌었습니다 |
+| 8/3/2022 | [Teams의 루프 구성 요소 개요](/MicrosoftTeams/loop-components-in-teams) | 으로 바뀌었습니다 |
+| 8/4/2022 | [사용자 및 그룹에 정책 패키지 할당](/MicrosoftTeams/assign-policy-packages) | 으로 바뀌었습니다 |
+| 8/4/2022 | [Microsoft Teams에서 정책 패키지 관리](/MicrosoftTeams/manage-policy-packages) | 으로 바뀌었습니다 |
+| 8/4/2022 | [Microsoft Teams에 Reflect를 위한 IT 관리자 가이드](/MicrosoftTeams/reflect) | 으로 바뀌었습니다 |
+| 8/4/2022 | [Power BI를 사용하여 Microsoft Teams용 CQD 데이터 분석](/MicrosoftTeams/cqd-power-bi-query-templates) | 으로 바뀌었습니다 |
+| 8/4/2022 | [Microsoft 365 및 사용자 지정 커넥터 관리](/MicrosoftTeams/office-365-custom-connectors) | 으로 바뀌었습니다 |
+| 8/4/2022 | [모바일 앱 확장](/MicrosoftTeams/rooms/extended-mobile-app) | 으로 바뀌었습니다 |
+| 8/5/2022 | [Microsoft Teams에서 태그 관리](/MicrosoftTeams/manage-tags) | 으로 바뀌었습니다 |
+| 8/5/2022 | [SIP 게이트웨이 계획](/MicrosoftTeams/sip-gateway-plan) | 으로 바뀌었습니다 |
+
+
 ## <a name="week-of-july-25-2022"></a>2022년 7월 25일 주
 
 
-| 게시 날짜 |토픽 제목 | 잔돈 |
+| 게시 날짜 |토픽 제목 | 변경 |
 |------|------------|--------|
 | 7/25/2022 | [전화 번호 및 라이선스 변경](/MicrosoftTeams/phone-numbers-licensing-changes) | 추가 |
 | 7/25/2022 | [Microsoft Teams의 모임 정책 및 모임 만료](/MicrosoftTeams/meeting-expiration) | 으로 바뀌었습니다 |
@@ -29,7 +128,7 @@
 ## <a name="week-of-july-18-2022"></a>2022년 7월 18일 주
 
 
-| 게시 날짜 |토픽 제목 | 잔돈 |
+| 게시 날짜 |토픽 제목 | 변경 |
 |------|------------|--------|
 | 7/18/2022 | [Microsoft Teams의 앱 정보 알기](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 으로 바뀌었습니다 |
 | 7/18/2022 | [Microsoft Teams에서 앱 설정 정책 관리](/MicrosoftTeams/teams-app-setup-policies) | 으로 바뀌었습니다 |
@@ -51,7 +150,7 @@
 ## <a name="week-of-july-11-2022"></a>2022년 7월 11일 주
 
 
-| 게시 날짜 |토픽 제목 | 잔돈 |
+| 게시 날짜 |토픽 제목 | 변경 |
 |------|------------|--------|
 | 7/13/2022 | [보류 중인 음악](/MicrosoftTeams/music-on-hold) | 으로 바뀌었습니다 |
 | 7/14/2022 | [SIP 게이트웨이 계획](/MicrosoftTeams/sip-gateway-plan) | 으로 바뀌었습니다 |
@@ -96,7 +195,7 @@
 ## <a name="week-of-july-04-2022"></a>2022년 7월 4일 주
 
 
-| 게시 날짜 |토픽 제목 | 잔돈 |
+| 게시 날짜 |토픽 제목 | 변경 |
 |------|------------|--------|
 | 7/5/2022 | [자동 전화 교환 및 통화 큐에 대한 PowerShell cmdlet 참조](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | 으로 바뀌었습니다 |
 | 7/5/2022 | [Microsoft Teams에 대한 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 으로 바뀌었습니다 |
@@ -115,19 +214,3 @@
 | 7/7/2022 | Microsoft Teams에서 통화 이해 | 제거 |
 | 7/7/2022 | [Microsoft 365용 통화 플랜](/MicrosoftTeams/calling-plans-for-office-365) | 으로 바뀌었습니다 |
 | 7/8/2022 | [Microsoft Teams 및 Bookings 앱을 통한 가상 약속](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | 으로 바뀌었습니다 |
-
-
-## <a name="week-of-june-27-2022"></a>2022년 6월 27일 주
-
-
-| 게시 날짜 |토픽 제목 | 잔돈 |
-|------|------------|--------|
-| 6/27/2022 | [클라우드 음성 사서함 설정 관리](/MicrosoftTeams/manage-voicemail-settings) | 추가 |
-| 6/27/2022 | [전화 번호 서비스 팀에 문의](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | 으로 바뀌었습니다 |
-| 6/27/2022 | [음성 메일 정책 관리](/MicrosoftTeams/manage-voicemail-policies) | 으로 바뀌었습니다 |
-| 6/27/2022 | [고객이 보고한 인시던트 Microsoft Teams 룸](/MicrosoftTeams/rooms/customer-reported-incidents) | 으로 바뀌었습니다 |
-| 6/27/2022 | [클라우드 음성 사서함 설정](/MicrosoftTeams/set-up-phone-system-voicemail) | 으로 바뀌었습니다 |
-| 6/27/2022 | [Teams 모임에서 Q&A 관리](/MicrosoftTeams/manage-qna-for-teams) | 추가 |
-| 6/27/2022 | [참가자 및 게스트에 대한 모임 정책 관리](/MicrosoftTeams/meeting-policies-participants-and-guests) | 으로 바뀌었습니다 |
-| 6/28/2022 | [세션 테두리 컨트롤러 구성 - 여러 테넌트](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 으로 바뀌었습니다 |
-| 6/29/2022 | [원격으로 Microsoft Teams 룸 디바이스 설정 관리](/MicrosoftTeams/rooms/xml-config-file) | 으로 바뀌었습니다 |

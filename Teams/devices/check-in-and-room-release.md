@@ -16,12 +16,12 @@ ms.collection:
 ms.topic: reference
 search.appverid: MET150
 description: 이 문서에서는 체크인 및 회의실 릴리스 Teams 패널 디바이스를 사용하도록 설정하는 방법에 대한 지침을 제공합니다.
-ms.openlocfilehash: 5f411979c9fb121bb80c999b102332b0208efb81
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 31cdab94ddb6a5c6fdc017b537f446e58aa1c2c5
+ms.sourcegitcommit: 6e677c7d0dfe9e380d70adaca748eea88ca95705
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268223"
+ms.lasthandoff: 08/09/2022
+ms.locfileid: "67298328"
 ---
 # <a name="check-in-and-room-release-on-microsoft-teams-panels"></a>Microsoft Teams 패널의 체크인 및 객실 릴리스
 
@@ -29,7 +29,9 @@ ms.locfileid: "67268223"
 
 ## <a name="requirements"></a>요구 사항 
 
-이 기능은 독립 실행형 Teams 패널 배포에서 사용할 수 있습니다. 체크 인 알림과 같은 추가 기능을 위해 Android의 Teams 룸 Teams 패널을 앱 버전 1449/1.0.96.202011305 이상과 페어링할 수도 있습니다.  
+이 기능은 독립 실행형 Teams 패널 배포에서 사용할 수 있습니다. 체크 인 알림과 같은 추가 기능을 위해 Android의 Teams 룸 Teams 패널을 앱 버전 1449/1.0.96.202011305 이상과 페어링할 수도 있습니다.
+
+이 기능이 올바르게 작동하려면 Teams 패널 연결된 공유 사서함에 올바른 표준 시간대가 설정되어 있어야 합니다. 공유 사서함의 표준 시간대를 설정하는 방법에 대한 자세한 내용은 [웹용 Outlook 공유 사서함에 대한 표준 시간대 설정을](/exchange/troubleshoot/outlook-on-the-web-issues/shared-mailboxes-time-zone-setting) 참조하세요.
 
 ## <a name="enable-check-in-and-room-release"></a>체크인 및 회의실 릴리스 사용 
 
@@ -60,7 +62,7 @@ Teams 패널이 Android의 Teams 룸과 쌍을 이루는 경우 사용자는 Tea
 
 3. **체크 인** 으로 이동하여 **체크 인 알림 보내기를** 켭니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [Microsoft Teams 패널을 사용하는 방법](use-teams-panels.md)
 

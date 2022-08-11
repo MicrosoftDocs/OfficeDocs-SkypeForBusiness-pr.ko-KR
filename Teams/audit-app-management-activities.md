@@ -1,6 +1,6 @@
 ---
 title: 앱 관리 이벤트에 대한 감사 로그 검색
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -13,13 +13,13 @@ f1keywords: ''
 description: 조직 내 사용자 및 관리자의 Teams 앱 활동을 감사하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: high
-ms.openlocfilehash: 0ad20fc8d5efd6c243ce29c3255b787bae322994
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.localizationpriority: medium
+ms.openlocfilehash: 5eb1ffe4a637c61efc8e64e970f25474933914a7
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269723"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299257"
 ---
 # <a name="audit-for-app-management-activities-and-events"></a>앱 관리 활동 및 이벤트에 대한 감사
 
@@ -69,7 +69,7 @@ Teams의 앱 이벤트에 대한 감사 로그는 특정 작업을 조사하는 
 > [!NOTE]
 > 위의 활동 중 하나가 사용자 또는 관리자에 의해 수행되면 Teams는 감사 레코드를 생성하고 저장합니다. 감사(표준)에서는 레코드가 90일 동안 유지되므로 지난 3개월 동안 발생한 활동을 검색할 수 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="related-articles"></a>관련 기사
 
 * [Microsoft Power Platform 설치 작업 조사를 위해 감사 로그 사용](manage-power-platform-apps.md#use-audit-logs-to-investigate-microsoft-power-platform-installation-activity)
 * [규정 준수 포털에서 감사 로그 검색](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).

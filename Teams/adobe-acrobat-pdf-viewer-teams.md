@@ -1,6 +1,6 @@
 ---
 title: Teams의 기본 PDF 뷰어로 Adobe Acrobat 사용하기
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -15,13 +15,13 @@ f1keywords: ''
 description: Adobe Acrobat을 기본 PDF 뷰어로 설정하여 Microsoft Teams에서 PDF 파일을 보고 편집하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: high
-ms.openlocfilehash: 88babd01496738825cbe655215532e311a32f541
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.localizationpriority: medium
+ms.openlocfilehash: 9e8860c10e74d5dc06f73632b33b6c94ea792a09
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270883"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299247"
 ---
 # <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>Microsoft Teams의 기본 PDF 뷰어로 Adobe Acrobat 사용하기
 
