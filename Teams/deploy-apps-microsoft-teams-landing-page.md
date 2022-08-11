@@ -3,7 +3,7 @@ title: Microsoft Teams의 앱 정보 알기
 ms.reviewer: ''
 description: 앱에 대해 알아보고 조직의 프로필 및 비즈니스 요구 사항에 따라 Teams에서 허용할 앱을 결정합니다.
 ms.topic: article
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 audience: admin
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 77d33fc464ab67945c8d3c588c4ce47366c2ba2d
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: b7e95c04a2a8632fbda566c322e474809703de03
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270263"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67298917"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Microsoft Teams 앱 이해하기
 
@@ -49,7 +49,7 @@ Teams 스토어의 유효성이 검사되고 안전한 앱이 포함된 광범�
 
 ## <a name="microsoft-provided-apps"></a>Microsoft에서 제공하는 앱
 
-Microsoft는 생산성과 공동 작업을 개선하기 위해 많은 앱을 제공합니다. 사용자와 최종 사용자는 관리 센터에서 게시자로 나열되거나 팀 스토어에서 공급자로 나열된 Microsoft를 검색하여 이러한 앱을 찾을 수 있습니다.
+Microsoft는 생산성과 공동 작업을 개선하기 위해 많은 앱을 제공합니다. 사용자와 최종 사용자는 Teams 관리 센터에서 게시자로 나열되거나 Teams 스토어에서 공급자로 나열된 Microsoft를 검색하여 이러한 앱을 찾을 수 있습니다.
 
 Teams는 목록, 작업, 칭찬, 승인 등의 기본 제공 앱 집합을 제공합니다. 초기 Teams 배포에 Planner와 같은 추천 앱을 포함하는 것이 좋습니다.
 
@@ -65,19 +65,11 @@ Microsoft에서 제공하는 앱 외에도 Microsoft에서 유효성을 검사�
 
 조직의 개발자가 만든 앱을 사용자 지정 앱(또는 기간 업무 앱)이라고 합니다. 조직에서 조직 관련 요구 사항에 맞는 사용자 지정 앱 생성을 의뢰할 수도 있습니다. 조직 전체 또는 특정 사용자를 대상으로 이러한 앱에 대한 허용 또는 차단 여부를 제어할 수 있습니다. 조직의 개발자는 [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions)과 Teams의 통합을 사용하여 사용자 지정 로우 코드 솔루션을 빌드할 수 있습니다.
 
-관리자가 사용자 지정 앱의 사용을 허용한 후 최종 사용자는 Teams 스토어의 왼쪽 탐색에서 **조직용으로 빌드** 를 클릭하여 이러한 앱을 찾습니다.
+관리자가 사용자 지정 앱 사용을 허용한 후 최종 사용자는 Teams 스토어의 왼쪽 탐색에서 **조직용 앱** 을 선택하여 해당 앱을 찾을 수 있습니다.
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Teams 데스크톱 앱의 Teams 스토어에 있는 사용자 지정 앱 스크린샷" lightbox="media/built-for-your-org2.png":::
 
-<!--- TBD - new article on custom app overview and sideloading. --->
-
-### <a name="understand-sideloading-of-custom-apps"></a>사용자 지정 앱의 테스트용 로드 이해
-
-사용자 지정 앱을 개발할 때, 최종 사용자에게 해당 앱을 배포하기 전에 개발자는 테스트할 Teams 스토어에 앱을 추가하여 앱을 테스트합니다. 개발자는 자체적으로 테스트하거나 지정된 사용자 그룹을 통해 테스트할 수 있습니다. 그러나 조직의 다른 최종 사용자는 앱을 사용할 수 없습니다. 이 메서드는 앱의 테스트용 로드라고 하며 사용자 지정 앱에만 적용됩니다.
-
-개발자는 일반적으로 개발 중인 앱을 테스트하기 위해 특정 팀의 구성원이 사용할 수 있도록 앱을 사이드로드할 수 있습니다. 이러한 방식으로 앱을 사용하면 앱 개발자에게만 사용이 제한되며 관리자가 Teams에서 테스트용 로드를 허용하는 한 관리자 승인이 필요하지 않습니다. 관리자는 모든 개발자의 앱 사이드로드를 허용하지 않을 수 있습니다.
-
-사이드로드를 허용하지 않는 경우 개발자는 [별도의 테스트 테넌트를 생성](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant)하여 앱을 계속 테스트할 수 있습니다. 사용자 지정 앱 개발이 완료되면 개발자는 관리자에게 최종 사용자에게 사용자 지정 앱을 배포하도록 요청합니다. 자세한 내용은 [사용자 지정 앱을 게시하는 방법](/microsoftteams/upload-custom-apps)을 참조하세요. 관리자는 특정 사용자에 대한 사용자 지정 앱 사용을 허용하거나 허용하지 않을 수 있습니다.
+자세한 내용은 [Understand and manage custom and sideloaded apps](custom-app-overview.md)(사용자 지정 및 사이드 로드된 앱 이해 및 관리)를 참조하세요.
 
 ## <a name="about-app-templates"></a>앱 템플릿 정보
 

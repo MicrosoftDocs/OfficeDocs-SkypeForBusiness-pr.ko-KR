@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 조직의 리소스 계정에 무료 Teams 전화 리소스 계정 라이선스 또는 유료 Teams 전화 표준 요금제 사용자 라이선스를 할당하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 07b47b2ec5b24b1edbfb599dc5a61e96169a02a2
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: f8aaf7480fc228fc78879ed5905aaaf7092777ab
+ms.sourcegitcommit: 6e677c7d0dfe9e380d70adaca748eea88ca95705
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615404"
+ms.lasthandoff: 08/09/2022
+ms.locfileid: "67298298"
 ---
 # <a name="microsoft-teams-phone-resource-account-licenses"></a>리소스 계정 라이선스 Microsoft Teams 전화
 
@@ -34,7 +34,7 @@ ms.locfileid: "66615404"
 모든 자동 전화 교환 및 통화 큐에는 연결된 리소스 계정이 필요합니다. 전화 번호가 필요한 리소스 계정에는 무료 *Microsoft Teams 전화 Resource Account* 라이선스 또는 유료 *Teams 전화 표준 요금제* 사용자 라이선스가 있어야만 전화 번호를 리소스 계정에 적용할 수 있습니다.
 
 > [!TIP]
-> 중첩된 자동 전화 교환 또는 전화 번호가 할당되지 않은 통화 큐에 사용할 리소스 계정에는 라이선스가 필요하지 않습니다. 참조는 다음 다이어그램을 참조하세요.
+> 중첩된 자동 전화 교환 또는 전화 번호가 할당되지 않은 통화 큐에 사용할 리소스 계정에는 라이선스가 필요하지 않습니다.
 
 ## <a name="resource-account-license-allocation"></a>리소스 계정 라이선스 할당
 

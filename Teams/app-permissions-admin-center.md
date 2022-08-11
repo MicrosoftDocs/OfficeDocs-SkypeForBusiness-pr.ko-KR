@@ -1,24 +1,23 @@
 ---
 title: Microsoft Teams 관리 센터에서 앱 사용 권한 보기 및 관리자 동의 권한 부여
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
-ms.reviewer: vaibhava
 manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Microsoft Teams 관리 센터의 앱 관리 페이지에서 앱에서 요청한 권한을 보고 앱에 관리자 동의를 부여하는 방법을 알아보세요.
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e3d7ca4f86660080cb387a9d4cd80927f296040
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: f5bd84ce2fa19fc7a9aa823250fa77f1980055f0
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175652"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299057"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 앱 사용 권한 보기 및 관리자 동의 권한 부여
 
@@ -86,9 +85,9 @@ RSC 권한은 Azure AD가 아닌 앱 매니페스트에 정의됩니다. 앱을 
 
 ### <a name="the-view-details-link-isnt-displayed-in-the-permissions-column-for-some-third-party-apps-that-request-permissions"></a>권한을 요청하는 일부 타사 앱의 권한 열에 "세부 정보 보기" 링크가 표시되지 않습니다.
 
-현재 권한을 요청하는 Azure AD에 등록된 모든 타사 앱에서는 권한을 검토하고 동의를 부여하는 기능을 사용할 수 없습니다. **세부 정보 보기** 링크 대신 **권한** 열에 **--** 이(가) 표시됩니다. Microsoft는 ISV와 협력하여 그들의 앱에 이 기능을 활성화하고 있습니다.
+일부 타사 앱에서는 사용 권한을 검토하고 동의하는 기능을 사용할 수 없습니다. 일반적으로 타사 앱은 앱에서 사용 권한을 요청할 때 Azure Active Directory에 등록됩니다. **세부 정보 보기** 링크 대신 권한 열에 **`--`** 이(가) 표시됩니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-articles"></a>관련 기사
 
 * [Microsoft Teams 관리 센터에서 앱 관리](manage-apps.md)
 * [Microsoft ID 플랫폼 엔드포인트의 권한 및 동의](/azure/active-directory/develop/v2-permissions-and-consent)

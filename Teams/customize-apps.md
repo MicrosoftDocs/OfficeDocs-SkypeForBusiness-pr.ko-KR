@@ -3,7 +3,6 @@ title: 조직의 Teams 스토어에서 앱 모양 수정
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
-ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -14,15 +13,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 앱 세부 정보 및 메타데이터를 편집하여 앱의 모양을 변경하고 앱 브랜드를 변경하는 방법을 알아보세요.
-ms.openlocfilehash: 32c526e2cbbb4ef464e0daa777228e0a17dd391b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 304aa0b5d8becae641f69b0c389ca41160ad2e2f
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269083"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67298887"
 ---
 # <a name="customize-appearance-of-apps-in-your-organizations-teams-store"></a>조직의 Teams 스토어에서 앱 모양 사용자 지정
 
@@ -102,13 +101,13 @@ Microsoft Teams를 사용하면 관리자가 Teams 앱을 사용자 지정하여
 
 앱 사용자 지정에 대한 다음 세부 정보를 확인합니다.
 
-* 앱 및 앱과 관련된 설명을 사용자 지정할 때 문서 또는 사용 약관에서 앱 게시자가 제공한 경우 사용자 지정 지침을 따라야 합니다. 또한 사용할 수 있는 타사 이미지에 대한 다른 사용자의 권리를 존중할 책임이 있습니다.
+* 앱 및 앱과 관련된 설명을 사용자 지정할 때 앱 개발자가 설명서 또는 사용 약관에 제공한 경우 해당 사용자 지정 지침을 따라야 합니다. 또한 사용할 수 있는 타사 이미지에 대한 다른 사용자의 권리를 존중할 책임이 있습니다.
 
 * 관리자가 제공한 사용자 지정 데이터는 가장 가까운 지역에 저장됩니다.
 
 * 귀하는 이용 약관 또는 개인 정보 보호 정책에 대한 링크가 유효한지 확인할 책임이 있습니다.
 
-* 앱 게시자가 필드를 더 이상 사용자 지정할 수 없도록 하는 경우 더 이상 사용자 지정할 수 없는 필드에 대해 관리자에게 알리는 메시지가 앱 세부 정보 페이지에 나타납니다. 해당 필드에 대한 모든 변경 내용은 원래 값으로 되돌려집니다.
+* 앱 개발자가 필드를 더 이상 사용자 지정할 수 없도록 하는 경우 더 이상 사용자 지정할 수 없는 필드에 대해 관리자에게 알리는 메시지가 앱 세부 정보 페이지에 나타납니다. 해당 필드에 대한 모든 변경 내용은 원래 값으로 되돌려집니다.
 
 * 프로덕션 환경에서 이러한 변경을 수행하기 전에 Teams 테스트 테넌트에서 앱 사용자 지정 변경을 테스트하는 것이 좋습니다.
 
