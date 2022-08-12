@@ -1,9 +1,8 @@
 ---
 title: Teams 앱 사용 권한 및 고려 사항
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
-ms.date: 06/27/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
@@ -15,16 +14,16 @@ ms.reviewer: rowille
 description: 관리자는 Microsoft Teams 앱이 조직에서 요청하는 데이터 및 권한을 알아볼 수 있습니다.
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2cb641bb8756802820cf6ec6a311e3328c3887ca
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 05be32bff1069d11ea26d28e6eb5377ec04e65e9
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175672"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299067"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Teams 앱 사용 권한 및 고려 사항
 
@@ -191,7 +190,7 @@ RECEIVE_MESSAGE, REPLYTO_MESSAGE. 사용자로부터 메시지를 받고 회신�
 
 * 발신 웹후크는 봇과 비슷하지만 권한은 적습니다. 봇과 마찬가지로 명시적으로 언급해야 합니다.
 
-* 발신 웹후크가 등록되면 비밀이 생성되므로 발신 웹후크는 보낸 사람이 악의적인 공격자가 아닌 Microsoft Teams인지 확인할 수 있습니다. 이 비밀은 비밀로 유지되어야 합니다. 액세스 권한이 있는 사람은 누구나 Microsoft Teams를 가장할 수 있습니다. 비밀이 손상되면 발신 웹후크를 삭제하고 다시 만들 수 있으며 새 비밀이 생성됩니다.
+* 발신 웹후크가 등록되면 비밀이 생성되므로 발신 웹후크는 보낸 사람이 악의적인 공격자가 아닌 Microsoft Teams인지 확인할 수 있습니다. 이 비밀은 비밀로 유지되어야 합니다. 액세스 권한이 있는 사람은 누구나 Microsoft Teams를 가장할 수 있습니다. 비밀이 손상된 경우 발신 웹후크를 삭제하고 다시 만들어 새 비밀을 생성합니다.
 
 * 비밀의 유효성을 검사하지 않는 발신 웹후크를 만들 수 있지만, 이에 대해 권장합니다.
 

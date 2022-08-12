@@ -1,6 +1,5 @@
 ---
 title: Microsoft의 앱 인증 개요
-ms.reviewer: ''
 description: 타사 앱의 보안, 규정 준수 및 개인 정보 보호를 위한 Microsoft 365 앱 준수 프로그램에 대해 자세히 알아봅니다.
 ms.topic: article
 author: guptaashish
@@ -18,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b18e8e596fc1b8180a056c5a141b45e60bd7f889
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 9918c1ce81464f2fbe9a0c16bc0373e54858d79b
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880422"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299087"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>타사 앱의 보안, 규정 준수 및 개인 정보 보호를 위한 Microsoft 365 앱 준수 프로그램
 
@@ -35,7 +34,7 @@ Microsoft 규정 준수 프로그램은 주요 업계 표준 프레임워크에�
 
 ## <a name="publisher-verification"></a>게시자 확인
 
-앱 개발자가 Microsoft에 앱을 제출하려면 인증을 받아야 합니다. 게시자는 MPN(Microsoft 파트너 네트워크) 계정을 사용해 ID를 확인하고 해당 MPN 계정을 앱 등록에 연결합니다. 게시자 확인은 관리자 및 최종 사용자가 앱 개발자의 신뢰성을 파악하는 데 도움이 됩니다. 게시자 인증은 다음과 같은 장점이 있습니다.
+앱 개발자가 Microsoft에 앱을 제출하려면 인증을 받아야 합니다. 개발자는 MPN(Microsoft 파트너 네트워크) 계정을 사용해 ID를 확인하고 해당 MPN 계정을 앱 등록에 연결합니다. 게시자 확인은 관리자 및 최종 사용자가 앱 개발자의 신뢰성을 파악하는 데 도움이 됩니다. 게시자 인증은 다음과 같은 장점이 있습니다.
 
 * 고객 측면에서 투명성이 증가하고 위험이 감소 - 이 기능은 고객이 자신의 조직에서 사용 중인 앱들을 자신이 신뢰하는 개발자에 의해 게시되었다는 점을 이해할 수 있게 합니다.
 * 향상된 브랜딩 - Azure Active Directory 동의 프롬프트, Enterprise Apps 페이지 및 기타 최종 사용자와 관리자가 사용하는 사용자 인터페이스에 `verified` 배지가 표시됩니다.

@@ -3,7 +3,6 @@ title: Microsoft Teams 관리 센터에서 Microsoft Power Platform 앱 관리
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
-ms.reviewer: joglocke
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,12 +16,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Teams 관리 센터에서 Microsoft Power Platform을 사용하여 빌드된 사용자 지정 앱에 대한 액세스를 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 85aa9904b22dd03e1056b353bf91904909c11f59
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
-ms.translationtype: MT
+ms.openlocfilehash: fd1d6d3d190d22995ab72966510871868b7ba401
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880262"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67298857"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>Teams 관리 센터에서 Microsoft Power Platform 앱 관리
 
@@ -31,65 +30,65 @@ ms.locfileid: "66880262"
 이 문서에서는 Microsoft Teams 관리 센터에서 [Microsoft Power Platform](https://powerplatform.microsoft.com/) 앱을 관리하는 방법에 대한 개요를 제공합니다.
 
 > [!NOTE]
-> 이 문서는 Power Apps 또는 Power Virtual Agents를 사용하여 조직의 개발자가 만든 사용자 지정 앱에 적용됩니다. 이 문서는 앱 페이지에서 설치되거나 앱 설정 정책을 통해 Teams에 고정된 Power Apps 앱 또는 Power Virtual Agents 앱에는 적용되지 않습니다. [앱 권한 정책 및 앱](teams-app-permission-policies.md) [설정 정책을](teams-app-setup-policies.md) 사용하여 스토어 앱을 관리할 수 있습니다.
+> 이 문서는 조직의 개발자가 Power Apps나 Power Virtual Agents를 이용해 만든 사용자 지정 앱에 적용됩니다. 이 문서는 앱 페이지에서 설치했거나 앱 설정 정책을 통해 Teams에 고정된 Power Apps 앱이나 Power Virtual Agents 앱에는 적용되지 않습니다. Store 앱은 [앱 허용 정책](teams-app-permission-policies.md) 및 [앱 설정 정책](teams-app-setup-policies.md)을 이용해 관리할 수 있습니다.
 
-[Power Apps](https://powerapps.microsoft.com) 는 조직의 앱 작성자가 비즈니스 데이터에 연결하는 사용자 지정 앱을 빌드하는 데 사용할 수 있는 로우 코드 또는 코드 없는 애플리케이션 개발 환경입니다. [Power Virtual Agents](/power-virtual-agents/fundamentals-what-is-power-virtual-agents) 는 앱 작성자가 강력한 봇을 만들 수 있는 코드 없는 봇 빌드 환경입니다. Microsoft Power Platform 앱을 Teams에 통합하면 조직은 비즈니스 프로세스를 간소화하고, 변화하는 비즈니스 요구에 보다 신속하게 대응하여 협업을 촉진하고, 생산성을 높이기 위해 사용자 지정 솔루션을 만들고 공유할 수 있습니다.  
+[Power Apps](https://powerapps.microsoft.com)란 조직의 앱 제작자가 사용자의 비즈니스 데이터에 연결하는 사용자 지정 앱을 빌드할 때 사용할 수 있는 로우코드나 노코드 애플리케이션 개발 환경입니다. [Power Virtual Agents](/power-virtual-agents/fundamentals-what-is-power-virtual-agents)란 앱 개발자가 강력한 봇을 만들수 있도록 하는 노코드 봇 빌드 환경입니다. Microsoft Power Platform 앱을 Teams에 통합함으로써 조직은 비즈니스 프로세스를 간소화하고 변화하는 비즈니스 요구 사항에 보다 신속하게 대응하여 공동 작업을 강화하고 사용자 지정 솔루션을 생성 및 공유하여 생산성을 높일 수 있습니다.  
 
-조직의 개발자가 만든 Microsoft Power Platform 앱이 Teams에 자동으로 추가됩니다. 개발자는 [Power Apps의 공유 기능 및 Power](/powerapps/maker/canvas-apps/share-app) [Virtual Agents의 공유 기능을](/power-virtual-agents/admin-share-bots) 사용하여 앱에 액세스할 수 있는 사용자를 제어할 수 있습니다.
+조직의 개발자가 만든 Microsoft Power Platform 앱은 자동으로 Teams에 추가됩니다. 개발자는 [Power Apps의 공유 기능](/powerapps/maker/canvas-apps/share-app) 및 [Power Virtual Agents의 공유 기능](/power-virtual-agents/admin-share-bots)을 사용하여 앱에 액세스할 수 있는 사용자를 제어할 수 있습니다.
 
-Microsoft Power Platform 앱을 만들거나 공유하면 사용자는 **Power Platform** 을 사용하여 빌드로 이동하여 앱 페이지에서 해당 앱을 보고 설치할 수 있습니다. (앱이 만들어지거나 공유된 후 앱이 여기에 표시되려면 몇 분 정도 걸릴 수 있습니다.)
+Microsoft Power Platform 앱을 만들거나 공유하면 사용자는 **Power Platform로 빌드** 로 이동해 이 앱을 확인해 앱 페이지에 설치할 수 있습니다. (앱이 완성되거나 공유되어 여기에 나타나기까지 몇 분 정도 걸릴 수 있습니다.)
 
-:::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="Power Platform을 사용하여 기본 제공으로 나열된 Microsoft Power Platform 앱을 보여 주는 앱 페이지의 스크린샷":::
+:::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="Power Platform으로 빌드함에 나열된 Microsoft Power Platform 앱을 보여 주는 Apps 페이지의 스크린샷":::
 
-앱이 다음 조건 중 하나를 충족하는 경우 최종 사용자에게 **Power Platform을 사용하여 빌드** 된 앱이 표시됩니다.
+앱이 다음 조건 중 하나를 충족하는 경우 **Power Platform으로 빌드함** 에서 최종 사용자가 앱을 볼 수 있게 됩니다.
 
-|Power Apps |Power Virtual Agents  |
+|Power Apps |파워 가상 에이전트  |
 |---------|---------|
-|<ul><li>사용자가 앱을 만들었습니다.</li><li>앱이 사용자와 직접 공유되었습니다.</li><li>사용자가 최근에 앱을 사용했습니다. </li></ul>| <ul><li>사용자가 봇을 만들었습니다.</li><li>봇은 사용자가 구성원인 팀이 소유합니다. </li></ul>        |
+|<ul><li>사용자가 앱을 만들었습니다.</li><li>앱이 사용자와 직접 공유되었습니다.</li><li>사용자가 최근에 앱을 사용했습니다. </li></ul>| <ul><li>사용자가 봇을 만들었습니다.</li><li>봇은 사용자가 구성원인 팀의 소유입니다. </li></ul>        |
 
-사용자는 다른 Teams 앱을 설치하는 것과 동일한 방식으로 Microsoft Power Platform 앱을 설치합니다. 사용자는 권한이 있는 컨텍스트에만 앱을 설치할 수 있습니다. 예를 들어 사용자가 소유한 팀, 사용자가 속한 채팅 또는 개인 범위가 있습니다.
+사용자는 다른 Teams 앱을 설치하는 것과 동일한 방식으로 Microsoft Power Platform 앱을 설치합니다. 사용자는 권한이 있는 컨텍스트에만 앱을 설치할 수 있습니다. 예를 들면 사용자가 보유한 팀, 사용자가 속한 채팅 또는 개인적인 범위 등입니다.
 
 ## <a name="manage-access-to-microsoft-power-platform-apps-in-the-teams-admin-center"></a>Teams 관리 센터에서 Microsoft Power Platform 앱에 대한 액세스 관리
 
-관리자는 Microsoft Power Platform 앱이 Teams의 앱 페이지에서 **Power Platform을 사용하여 빌드** 된 앱에 나열되는지 여부를 제어할 수 있습니다. 앱 관리 페이지의 조직 수준에서 또는 앱 [권한 정책을](teams-app-permission-policies.md) 사용하여 특정 사용자에 대해 Power Apps에서 만든 모든 앱 또는 Power Virtual Agents에서 만든 모든 [앱을](manage-apps.md) 총체적으로 차단하거나 허용할 수 있습니다.
+관리자는 Microsoft Power Platform 앱을 Teams의 앱 페이지에 있는 **Power Platform으로 빌드함** 에 나열할지를 제어할 수 있습니다. Power Apps에서 만든 모든 앱이나 Power Virtual Agents에서 만든 모든 앱을 조직 전체를 대상으로 [앱 관리](manage-apps.md) 페이지에 한꺼번에 차단 또는 허용하거나 [앱 허용 정책](teams-app-permission-policies.md)을 통해 개별 사용자에게 차단 또는 허용할 수 있습니다.
 
-조직의 앱 스토어에 있는 **공유 Power Apps** 및 **공유 Power Virtual Agent Apps 앱** 은 특정 플랫폼에서 만든 모든 앱을 나타냅니다. 전체 조직 또는 특정 사용자에 대해 이러한 앱 중 하나 또는 둘 다를 차단하는 경우 사용자는 차단된 앱과 같은 앱을 볼 수 있지만 Teams에 설치할 수는 없습니다. 사용자는 [관리자의 승인을 요청하여 앱 차단을 해제할](manage-apps.md#manage-user-requests-to-unblock-apps) 수 있습니다.
+조직의 앱 스토어에 있는 **공유된 Power Apps** 및 **공유된 Power Virtual Agent 앱** 은 해당 특정 플랫폼에서 만든 모든 앱을 나타냅니다. 이들 앱 가운데 한 종류나 둘 모두를 조직 전체나 특정 사용자에게 차단하는 경우, 차단된 사용자들은 이런 앱을 차단된 앱으로 확인할 수는 있지만 Teams에 설치할 수는 없습니다. 사용자는 [앱 허용에 대해 관리자 승인을 요청](manage-apps.md#manage-user-requests-to-allow-apps)할 수 있습니다.
 
-Power Apps 및 Power Virtual Agents에서 만든 모든 앱에 대한 액세스를 제어할 수 있지만 개별 앱을 허용하거나 차단할 수는 없습니다. 앱 작성자는 Power Apps 및 Power Virtual Agents 내에서 공유 기능을 통해 만든 앱에 액세스할 수 있는 사용자를 결정합니다. 제조업체가 Power Virtual Agents에서 만든 앱을 사용자와 공유하고 해당 사용자에 대한 **공유 Power Virtual Agents 앱을** 차단한 경우 사용자는 Teams에서 해당 플랫폼의 앱을 보거나 설치할 수 없습니다.
+Power Apps와 Power Virtual Agents에서 만든 모든 앱에 대한 액세스를 제어할 수는 있지만 개별 앱을 허용하거나 차단할 수는 없습니다. 앱 작성자는 Power Apps와 Power Virtual Agents 내부에 있는 공유 기능을 통해 자신이 만든 앱에 누가 액세스할 지를 정합니다. 작성자가 어떤 사용자와 함께 Power Virtual Agents에서 만든 앱을 공유한 상태에서 해당 사용자가 **공유된 Power Virtual Agents 앱** 을 차단당하면 해당 사용자는 Teams의 해당 플랫폼에서 어떤 앱도 확인하거나 설치할 수 없습니다.
 
-사용자가 Power Apps 또는 Power Virtual Agents에서 앱에 액세스할 수 있고 사용자가 이러한 플랫폼 중 하나 또는 둘 다에서 앱에 액세스하지 못하도록 차단하는 경우 앱 또는 앱을 차단하기 전에 사용자가 설치한 Microsoft Power Platforms 앱에 계속 액세스하고 사용할 수 있습니다. 그러나 사용자는 더 이상 **Power Platform** 을 사용하여 빌드된 플랫폼의 앱을 설치할 수 없습니다.
+Power Apps나 Power Virtual Agents의 앱에 대한 액세스 권한이 있는 사용자를 이들 플랫폼 가운데 하나 또는 전부에 있는 앱에 액세스하지 못하게 차단하면 해당 사용자는 대상 앱에 대해 차단당하기 전까지는 자신이 설치한 Microsoft Power Platforms 앱에 액세스하거나 사용할 수 있습니다. 하지만, 해당 사용자는 더 이상 **Power Platform으로 빌드함** 에 있는 해당 플랫폼에서 앱을 설치할 수 없습니다.
 
 > [!NOTE]
-> [앱 관리](manage-apps.md) 페이지의 사용자 지정 앱 조직 전체 앱 설정 **과의 상호 작용 허용** 은 조직의 모든 사용자에게 적용되며 사용자 지정 앱과 상호 작용할 수 있는지 여부를 제어합니다. 조직 전체 앱 설정은 모든 사용자의 동작을 관리하고 사용자에게 할당된 다른 모든 앱 사용 권한 정책을 재정의합니다. 이 설정을 해제하면 조직의 사용자가 Microsoft Power Platform 앱을 비롯한 사용자 지정 앱을 설치할 수 없습니다. 자세한 내용은 [조직 전체 앱 설정 관리를 참조하세요](manage-apps.md#manage-org-wide-app-settings).
+> [앱 관리](manage-apps.md) 페이지의 **사용자 지정 앱과의 상호작용 허용** 조직 전체 앱 설정은 조직의 모든 사용자에 적용되며 이들이 사용자 지정 앱과 상호작용할 수 있는지 제어합니다. 조직 전체 앱 설정은 모든 사용자의 동작을 관리하고 사용자에게 할당된 다른 모든 앱 사용 권한 정책을 재정의합니다. 이 설정을 해제하면 조직 내의 사용자들은 Microsoft Power Platform 앱을 비롯한 사용자 지정 앱을 아무것도 설치할 수 없습니다. 자세한 내용은 [조직 전체 앱 설정](manage-apps.md#manage-org-wide-app-settings)을 참조하세요.
 
-### <a name="allow-or-block-microsoft-power-platform-apps-for-your-organization"></a>조직에 대한 Microsoft Power Platform 앱 허용 또는 차단
+### <a name="allow-or-block-microsoft-power-platform-apps-for-your-organization"></a>조직의 Microsoft Power Platform 앱 허용 또는 차단
 
-기본적으로 **공유 Power Apps** 및 **공유 Power Virtual Agent 앱** 은 조직의 모든 Teams 사용자에 대해 허용됩니다. Microsoft Teams 관리 센터의 [앱 관리](manage-apps.md) 페이지에서 조직 수준에서 차단하거나 허용할 수 있습니다.  
+기본적으로 **공유한 Power Apps** 및 **공유한 Power Virtual Agent 앱** 은 조직 내의 모든 Teams 사용자에게 허용됩니다. 이러한 사용자들은 Microsoft Teams 관리 센터의 [앱 관리](manage-apps.md) 페이지에서 조직 전체적으로 차단하거나 허용할 수 있습니다.  
 
-1. Microsoft Teams 관리 센터의 왼쪽 창에서 **Teams 앱****관리 앱** > 으로 이동합니다. 페이지에 액세스하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다.
-2. 앱 목록에서 다음 중 하나를 수행합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 창에서 **Teams 앱** > **앱 관리** 로 이동합니다. 페이지에 액세스하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다.
+2. 앱 목록에서 다음 중 하나를 실행합니다.
 
-    :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="공유 Microsoft Power Platform 앱을 보여 주는 앱 관리 페이지의 스크린샷.":::
+    :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="공유한 Microsoft Power Platform 앱이 표시된 앱 관리 페이지의 스크린샷":::
 
-    * 조직의 모든 사용자에 대해 Power Apps 또는 Power Virtual Agents에서 만든 앱을 차단하려면 **공유 Power Apps** 또는 **공유 Power Virtual Agent 앱을** 검색하고 선택한 다음 **차단** 을 선택합니다.
-    * 조직의 모든 사용자에 대해 Power Apps 또는 Power Virtual Agents에서 만든 앱을 허용하려면 **공유 Power Apps** 또는 **공유 Power Virtual Agent 앱을** 검색하고 선택한 다음 **허용** 을 선택합니다.
+    * 조직의 모든 사용자에게 Power Apps나 Power Virtual Agents에서 만든 앱을 차단하려면 **공유한 Power Apps** 또는 **공유한 Power Virtual Agent 앱** 을 검색해 선택한 다음 **차단** 을 선택합니다.
+    * 조직의 모든 사용자에게 Power Apps나 Power Virtual Agents에서 만든 앱을 허용하려면 **공유한 Power Apps** 또는 **공유한 Power Virtual Agent 앱** 을 검색해 선택한 다음 **허용** 을 선택합니다.
 
-### <a name="allow-or-block-microsoft-power-platform-apps-for-specific-users"></a>특정 사용자에 대한 Microsoft Power Platform 앱 허용 또는 차단
+### <a name="allow-or-block-microsoft-power-platform-apps-for-specific-users"></a>특정 사용자의 Microsoft Power Platform 앱 허용 또는 차단
 
-조직의 특정 사용자가 Power Apps 또는 Power Virtual Agents에서 만든 앱에 액세스하도록 허용하거나 차단하려면 하나 이상의 사용자 지정 [앱 권한 정책을](teams-app-permission-policies.md) 만들고 할당합니다.
+조직의 특정 사용자가 Power Apps 또는 Power Virtual Agents에서 만든 앱에 액세스하도록 허용하거나 차단하려면 하나 이상의 사용자 지정 [app 권한 정책](teams-app-permission-policies.md)을 만들어 할당합니다.
 
-예를 들어 특정 사용자가 Power Apps에서 만든 앱에 액세스하지 못하도록 차단하려면 **공유 Power** Apps를 차단하는 사용자 지정 앱 권한 정책을 만든 다음 해당 사용자에게 정책을 할당합니다.
+예를 들어 특정 사용자가 Power Apps에서 만든 앱에 액세스하지 못하도록 하려면 **공유한 Power Apps** 을 차단하는 사용자 지정 앱 권한 정책을 만든 다음 대상 사용자에게 할당합니다.
 
-:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="공유 Power Apps가 차단된 사용자 지정 앱 권한 정책 예제의 스크린샷":::
+:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="공유한 Power Apps가 차단된 상태의 사용자 지정 앱 권한 정책의 예시 스크린샷":::
 
-### <a name="use-audit-logs-to-investigate-microsoft-power-platform-installation-activity"></a>감사 로그를 사용하여 Microsoft Power Platform 설치 작업 조사
+### <a name="use-audit-logs-to-investigate-microsoft-power-platform-installation-activity"></a>Microsoft Power Platform 설치 작업 조사를 위해 감사 로그 사용
 
-Teams에 대한 감사 로그를 사용하여 사용자가 Teams의 앱 페이지의 Power Platform을 사용하여 빌드된 섹션에서 Microsoft **Power Platform** 앱을 설치한 이벤트를 조사할 수 있습니다. 이렇게 하려면 **AppInstalled** 작업에서 **설치된 앱** Teams 이벤트에 대한 [감사 로그](./audit-log-events.md)에서 사용자 또는 사용자 집합을 검색합니다. **Power Platform을 사용하여 빌드** 에서 설치된 앱을 찾으려면 지정된 레코드의 세부 정보에서 **AppDistributionMode** 속성에서 **TemplatedInstance** 값을 찾습니다.
+Teams의 감사 로그를 사용해 사용자가 Teams의 앱 페이지 내 **Power Platform으로 빌드함** 섹션에서 Microsoft Power Platform 앱을 설치한 이벤트를 조사할 수 있습니다. 이를 위해서는 대상 사용자나 사용자 그룹에 대해 **설치된 앱** Teams 이벤트(**AppInstalled** 작업에 위치)에서 [감사 로그를 검색](./audit-log-events.md)합니다. **Power Platform으로 빌드함** 에서 설치한 앱을 찾으려면 대상 레코드 세부 정보의 **AppDistributionMode** 속성에서 **TemplatedInstance** 값을 찾습니다.
 
 :::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="AppDistributionMode 속성의 TemplatedInstance 값 스크린샷" lightbox="media/manage-power-platform-apps-audit.png":::
 
 > [!NOTE]
-> 보다 쉽게 필터링할 수 있는 CSV 형식으로 감사 레코드를 내보낼 수 있습니다.
+> 필터링을 용이하게 할 수 있게 감사 레코드는 CSV 형식으로 내보낼 수 있습니다.
 
 ## <a name="related-articles"></a>관련 기사
 
