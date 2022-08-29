@@ -9,6 +9,7 @@ ms.service: msteams
 ms.reviewer: yinchang
 ms.collection:
 - M365-collaboration
+- m365-frontline
 ms.localizationpriority: high
 search.appverid: MET150
 description: Teams 관리 센터와 Microsoft Graph에서 소매 팀 템플릿을 관리하고 사용하여 소매 조직을 위한 팀을 빠르고 쉽게 만드는 방법을 알아보세요.
@@ -19,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3cf6d2e7eb23517477572775e7d18571463957b
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
-ms.translationtype: HT
+ms.openlocfilehash: 3e8d908a0c6183f4d305b0b622060cfd2ed78922
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046344"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396299"
 ---
 # <a name="use-retail-team-templates"></a>소매 팀 템플릿 사용
 

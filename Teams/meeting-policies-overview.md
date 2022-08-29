@@ -1,5 +1,5 @@
 ---
-title: 모임 정책 관리 Microsoft Teams
+title: Microsoft Teams에서 모임 정책 관리
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -18,15 +18,15 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
-description: 모임에서 모임 정책 설정을 관리하고 Teams 모임 참가자가 예약한 모임에 사용할 수 있는 기능을 제어하는 방법을 학습합니다.
-ms.openlocfilehash: ccfcb15cb5456a25b8bbad0383481f20d4c81e9b
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+description: Teams에서 모임 정책 설정을 관리하고 이를 사용하여 사용자가 예약한 모임 참가자가 사용할 수 있는 기능을 제어하는 방법을 알아봅니다.
+ms.openlocfilehash: 99c84f6c0dfcbd20824a90af49739eace200ecd2
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205538"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396549"
 ---
-# <a name="manage-meeting-policies-in-microsoft-teams"></a>모임 정책 관리 Microsoft Teams
+# <a name="manage-meeting-policies-in-microsoft-teams"></a>Microsoft Teams에서 모임 정책 관리
 
 <a name="bkautomatically-admit-people"> </a>
 
@@ -43,9 +43,9 @@ ms.locfileid: "61205538"
 
 |구현 유형  |설명  |
 |---------|---------|
-|모임 이끌이별    |이끌이별 정책을 구현하면 모임의 모든 참가자가 이끌이의 정책을 이어 받습니다. 예를 들어 **사용자를** 자동으로 지정하는 것은 조직 내 정책으로, 사용자가 모임에 직접 참가할지 아니면 정책이 할당된 사용자가 예약한 모임을 위해 로비에서 대기할지 여부를 제어합니다.          |
-|사용자별    |사용자별 정책을 구현하는 경우 사용자별 정책이 적용되어 이끌이 및/또는 모임 참가자의 특정 기능을 제한합니다. 예를 들어 **채널에서 지금 만나는 것은** 사용자당 정책입니다.     |
-|이끌이별 및 사용자별     |이끌이별 및 사용자별 정책 조합을 구현하는 경우 해당 정책 및 이끌이의 정책에 따라 모임 참가자의 특정 기능이 제한됩니다. 예를 들어 **클라우드 기록은** 이끌이 및 사용자당 정책입니다. 모임 이끌이 및 참가자가 녹음/녹화를 시작하고 중지할 수 있도록 이 설정을 켜 습니다.
+|모임 이끌이별    |이끌이별 정책을 구현하면 모임의 모든 참가자가 이끌이의 정책을 이어 받습니다. 예를 들어 **자동으로 사용자가** 이끌이별 정책임을 인정하고 사용자가 모임에 직접 참가할지 아니면 정책이 할당된 사용자가 예약한 모임을 위해 로비에서 대기할지를 제어합니다.          |
+|사용자별    |사용자별 정책을 구현하는 경우 사용자별 정책이 적용되어 이끌이 및/또는 모임 참가자의 특정 기능을 제한합니다. 예를 들어 **채널에서 지금 모임은** 사용자별 정책입니다.     |
+|이끌이별 및 사용자별     |이끌이별 및 사용자별 정책 조합을 구현하는 경우 해당 정책 및 이끌이의 정책에 따라 모임 참가자의 특정 기능이 제한됩니다. 예를 들어 **클라우드 녹음/녹화** 는 이끌이별 및 사용자별 정책입니다. 모임 이끌이와 참가자가 녹음/녹화를 시작하고 중지할 수 있도록 하려면 이 설정을 켭니다.
 
 전역 정책의 설정을 편집하거나 하나 이상의 사용자 지정 정책을 만들어 할당할 수 있습니다. 사용자 지정 정책을 만들고 할당하지 않으면 사용자에게 전역 정책이 적용됩니다.
 
@@ -64,16 +64,20 @@ ms.locfileid: "61205538"
 
 **오디오 및 비디오** 에서:
 
-- 클라우드 녹화를 해제합니다.
-- IP 비디오를 끄기.
+- 클라우드 녹음/녹화를 끕니다.
+- IP 비디오를 끕니다.
 
 **콘텐츠 공유** 에서:
 
 - 화면 공유 모드를 사용하지 않도록 설정합니다.
-- 화이트보드를 끄기.
-- 공유 노트를 해제합니다.
+- 화이트보드를 끕니다.
+- 공유 노트를 끕니다.
 
 그 다음 사용자에게 정책을 할당합니다.
+
+이 비디오에서는 사용자(또는 사용자)에게 사용자 지정 모임 정책을 만들고 할당하는 단계를 보여 줍니다.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53Wv0?autoplay=false]
 
 ## <a name="edit-a-meeting-policy"></a>모임 정책 편집
 
@@ -87,6 +91,10 @@ ms.locfileid: "61205538"
 > [!NOTE]
 > 한 번에 한 개의 모임 정책만 사용자에게 할당됩니다.
 
+이 비디오에서는 조직 전체의 기본 모임 정책을 편집하는 단계를 보여줍니다.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53MoG?autoplay=false]
+
 ## <a name="assign-a-meeting-policy-to-users"></a>사용자에게 모임 정책 할당
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
@@ -96,11 +104,11 @@ ms.locfileid: "61205538"
 
 ## <a name="meeting-policy-settings"></a>모임 정책 설정
 
-모임 정책 페이지에서 기존  정책을 선택하거나  추가를 선택하여 새 정책을 추가하면 다음에 대한 설정을 구성할 수 있습니다.
+**모임 정책** 페이지에서 기존 정책을 선택하거나 **추가** 를 선택하여 새 정책을 추가하면 다음 설정을 구성할 수 있습니다.
 
 - [일반](meeting-policies-in-teams-general.md)
 - [오디오 및 비디오](meeting-policies-audio-and-video.md)
-- [기록 & 기록](meetings-policies-recording-and-transcription.md)
+- [기록 & 전사](meetings-policies-recording-and-transcription.md)
 - [콘텐츠 공유](meeting-policies-content-sharing.md)
 - [참가자 및 게스트](meeting-policies-participants-and-guests.md)
 

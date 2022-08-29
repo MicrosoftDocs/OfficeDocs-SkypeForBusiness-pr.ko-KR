@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Teams의 기존 번호를 새로 얻거나, 포팅하거나, 전송하는 방법과 변경 내용을 사용자에게 표시하는 방법을 알아봅니다.
-ms.openlocfilehash: b0ed990cd16a7e4878c2819a95fac29f46a9d770
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 4f3c06986943be42d6a39c22101645e1ff1b0058
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156546"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396339"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>사용자의 전화 번호 가져오기
 
@@ -89,6 +89,10 @@ ms.locfileid: "67156546"
 
 > [!NOTE]
 > 이보다 더 많은 전화 번호를 받아야 하는 경우 [고객 지원 고객사 제품 - 관리 도움말에 문의](/microsoft-365/admin/contact-support-for-business-products)하세요.
+
+이 비디오에서는 사용자에게 전화 번호를 할당하는 단계를 보여줍니다.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE54mbS?autoplay=false]
 
 ## <a name="related-articles"></a>관련 기사
 

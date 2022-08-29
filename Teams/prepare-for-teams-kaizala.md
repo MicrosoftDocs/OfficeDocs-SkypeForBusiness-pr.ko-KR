@@ -14,14 +14,17 @@ search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: 7256d91a8a306f88e7f40b728158747971497262
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 73376cbc26708cc5ec810e13b710e057ba603a44
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271423"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443475"
 ---
 # <a name="charting-your-kaizala-to-teams-journey"></a>Kaizala에서 Teams로의 여정 차트
+
+> [!Important]
+> Microsoft Kaizala는 2023년 8월 31일에 사용 중지됩니다. 지속적인 연결, 공유 및 공동 작업을 위해 Microsoft Teams로 업그레이드하는 것이 좋습니다. 사용 중지 날짜가 지나면 Kaizala에 대한 액세스 및 지원이 중단됩니다.
 
 Kaizala에서 Microsoft Teams로 이동하기로 결정했습니다.
 

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02a425d325721dc732e0bd06aa3aee8fd3973dda
-ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
-ms.translationtype: HT
+ms.openlocfilehash: 1f95f9c1a3ad6a65dbefa4d48c0c5277e01b65f2
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66952782"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397275"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams의 교육 인사이트에 대한 IT 관리자 가이드
 
@@ -256,13 +256,15 @@ Insights 사용에 대해 교육 기관에 알리세요.
 1. **설정** > **교육 Insights 관리** 로 이동합니다.
 1. **Insights에 대한 활동 데이터 수집** 토글을 켜기 또는 끄기로 조정합니다.
 
-![SDS 관리 센터의 스크린샷을 토글하여 Insights를 켜고 끕니다.](media/manage-insights-toggles.png)
+![인사이트를 해제하고 켜기 위해 SDS 관리 센터 토글의 스크린샷.](media/manage-insights-toggles.png)
 
 #### <a name="turn-on-and-off-insights-from-the-teams-client"></a>Teams 클라이언트에서 Insights 켜기 및 끄기
 
 1. *교육 Insights* 개인 앱을 고정하지 않은 경우 [이 안내](class-insights.md#education-leaders)에 따라 추가하세요.
 1. Microsoft 365 관리자 계정으로 *교육 Insights* 의 오른쪽 상단에 있는 줄임표 아이콘을 사용하여 **관리자 설정** 페이지를 엽니다.
 1. **Insights에 대한 활동 데이터 수집** 토글을 켜기 또는 끄기로 조정합니다.
+
+![Insights를 해제하고 켜기 위해 Teams 클라이언트 토글의 스크린샷](media/admin-settings-main-screen.png)
 
 > [!NOTE]
 > Insights를 끈 경우 수집된 데이터가 삭제됩니다. 옵트아웃 시 삭제된 데이터는 Insights가 다시 활성화되더라도 나중에 복원할 수 없습니다.

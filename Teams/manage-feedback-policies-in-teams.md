@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 피드백 정책을 사용하여 조직의 Teams 사용자가 Teams에 대한 피드백을 Microsoft에 제출할 수 있는지 여부를 제어하는 방법을 알아봅니다.
-ms.openlocfilehash: f9d001fba9503f6d5f2e482a437bc8f38c8ffc7d
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 933c6971058c107ab881cb48bb0f2a9dbd74900d
+ms.sourcegitcommit: 44fd07d8e6e5fcbe5051de2300e180f295eaaad3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156526"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "67339802"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Microsoft Teams에서 피드백 정책 관리
 
@@ -68,6 +68,7 @@ PowerShell을 사용하여 피드백 정책을 관리합니다. [**New-CsTeamsFe
 
  - **설문 조사**: 정책이 할당된 사용자가 설문 조사를 받을 수 있도록 **receiveSurveysMode** 매개 변수를 **사용하도록** 설정합니다. 사용자가 설문 조사를 받고 옵트아웃하도록 허용하려면 매개 변수를 **enabledUserOverride** 로 설정합니다. Teams에서 사용자는 **설정** > **개인 정보 보호** 로 이동하여 설문 조사에 참여할지 여부를 선택할 수 있습니다. 매개 변수를 **사용하지 않도록** 설정하면 기능이 해제되고 정책이 할당된 사용자는 설문 조사를 받지 못합니다.
 
+ - **스크린샷**: **AllowScreenshotCollection** 플래그를 사용하여 사용자에 대한 스크린샷 컬렉션 옵트인을 추가합니다.
  - **Email**: **AllowEmailCollection** 플래그를 사용하여 전자 메일 필드를 추가합니다.
  - **로그 컬렉션**: **AllowLogCollection** 플래그를 사용하여 사용자에 대한 로그 컬렉션 옵트인을 추가합니다. 로그 수집은 현재 모바일에서만 사용하도록 설정되어 있습니다. 로그를 통해 공유되는 데이터에 대한 자세한 내용은 [자세히 알아보세요](https://go.microsoft.com/fwlink/?linkid=2168178).
 
@@ -89,7 +90,7 @@ New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMod
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [Teams PowerShell 개요](teams-powershell-overview.md)
 - [Teams에서 사용자에게 정책 할당](policy-assignment-overview.md)

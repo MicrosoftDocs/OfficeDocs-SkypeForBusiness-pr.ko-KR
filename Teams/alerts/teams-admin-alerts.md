@@ -16,12 +16,12 @@ description: Microsoft Teams 관리 센터에서 사용할 수 있는 Teams 경�
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: c4acbbb085bbf47339b0b0b2bcb7000466953b70
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 452bcbebeffa3936b9d05270626e11923caf5cda
+ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616294"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67283089"
 ---
 # <a name="microsoft-teams-monitoring-and-alerting"></a>Microsoft Teams 모니터링 및 경고
 
@@ -32,6 +32,9 @@ Microsoft Teams에 대한 새로운 모니터링 및 경고 기능은 Teams 관�
 - Teams 기능 자동 관리
 - 예기치 않은 결과가 표시되면 경고를 표시합니다.
 - 정정 작업을 수행하여 작업을 다시 진행합니다.
+
+> [!NOTE]
+> Teams 관리 센터 내의 경고 기능은 GCC/GCC-High 환경에서 사용할 수 없습니다.
 
 ## <a name="how-to-manage-monitoring-and-alerting"></a>모니터링 및 경고를 관리하는 방법
 

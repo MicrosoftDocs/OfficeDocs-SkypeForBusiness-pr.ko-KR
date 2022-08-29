@@ -12,12 +12,12 @@ ms.localizationpriority: high
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b506352052924b8394cbdfc712ce96750b96523
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: fb96b6130ce87d8d1453f6ea4ee40af2bb84050d
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298897"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396469"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>마이크로소프트 Teams의 리소스별 동의
 
@@ -31,7 +31,7 @@ ms.locfileid: "67298897"
 
 다음은 팀 소유자가 앱에 대해 동의할 수 있는지를 제어하기 위해 설정해야 하는 설정입니다. 다음 설정을 모두 검토해야 합니다.
 
-### <a name="settings-in-azure-ad"></a>Azure AD의 설정
+### <a name="settings-in-azure-active-directory-portal"></a>Azure Active Directory 포털의 설정
 
 다음 두 가지 설정에 따라 팀 소유자가 앱에 대해 동의할 수 있는지가 결정됩니다.
 
@@ -62,8 +62,8 @@ Azure AD의 설정뿐만 아니라 [앱 관리](manage-apps.md) 페이지의 [�
 
 이 조직 전체 앱 설정은 조직의 사용자가 타사 앱을 사용할 수 있는지를 제어합니다. 팀 소유자가 동의할 수 있으려면 이 설정이 켜져 있어야 합니다. 이 설정을 관리하려면 다음을 수행합니다.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **Teams 앱** > **앱 관리** 로 이동한 다음 **조직 전체 앱 설정** 을 클릭합니다.
-2. **타사 앱** 에서 **Allow third party apps**(타사 앱 허용)를 켜거나 끕니다.
+1. Teams 관리 센터에 로그인하고 **Teams 앱 관리 앱** > 에 액세스 **[합니다](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. **조직 전체 앱 설정을** 선택하고 **타사 앱에서 타사 앱** **허용** 을 끄거나 켭니다.
 
     !["Allow third party apps in Teams"(Teams에서 타사 앱 허용) 설정의 스크린샷](media/resource-specific-consent-org-wide-setting.png)
 
@@ -73,8 +73,8 @@ Azure AD의 설정뿐만 아니라 [앱 관리](manage-apps.md) 페이지의 [�
 
 [앱 관리](manage-apps.md#allow-and-block-apps) 페이지에서 앱을 차단하거나 허용하면 해당 앱이 조직의 모든 사용자에 대해 차단되거나 허용됩니다. 팀 소유자는 앱이 허용된 경우에만 앱에 동의 할 수 있습니다. 조직 수준에서 앱을 허용하거나 차단하려면 다음을 수행합니다.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 관리** 로 이동합니다.
-2. 앱 관리 페이지에서 앱을 선택하고 앱을 선택한 다음 **차단** 을 클릭하여 차단하거나 **허용** 을 클릭하여 허용합니다.
+1. Teams 관리 센터에 로그인하고 **Teams 앱 관리 앱** > 에 액세스 **[합니다](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. 앱 관리 페이지에서 앱을 선택한 다음 **차단** 을 선택하여 차단하거나 **허용** 을 선택합니다.
 
     ![조직 전체 설정에서 차단된 앱의 스크린샷](media/resource-specific-consent-allow-block-apps.png)
 
@@ -83,16 +83,16 @@ Azure AD의 설정뿐만 아니라 [앱 관리](manage-apps.md) 페이지의 [�
 팀 소유자는 자신의 앱 권한 정책이 실행을 허용하는 앱에만 동의할 수 있습니다. 팀 소유자에게 할당된 앱 사용 권한 정책을 보고 관리하려면 다음을 수행합니다.
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **사용자** 로 이동합니다.
-2. 팀 소유자의 표시 이름을 두 번 클릭한 다음 **정책** 을 클릭합니다.
-3. 팀 소유자에게 할당된 정책은 **앱 권한 정책** 에 나열됩니다.
-    - 다른 정책을 할당하려면 **편집** 을 클릭한 다음 할당할 정책을 선택합니다.
-    - 팀 소유자에게 할당된 정책의 설정을 편집하려면 정책 이름을 누른 다음 원하는 내용을 변경하세요.  
+1. 팀 소유자의 표시 이름을 두 번 클릭한 다음 **정책을** 선택합니다.
+1. 팀 소유자에게 할당된 정책은 **앱 권한 정책** 에 나열됩니다.
+    - 다른 정책을 할당하려면 **편집** 을 선택한 다음 할당할 정책을 선택합니다.
+    - 팀 소유자에게 할당된 정책 설정을 편집하려면 정책 이름을 선택한 다음 원하는 대로 변경합니다.  
 
-## <a name="uploading-custom-apps"></a>사용자 지정 앱 업로드
+## <a name="upload-custom-apps"></a>사용자 지정 앱 업로드
 
 리소스별 동의를 사용하는 사용자 지정 앱(측면 로드라고도 함)을 업로드할 때는 해당 앱이 설치되는 테넌트에서 제공되어야 합니다. 즉, Azure AD 앱 등록은 이 테넌트에서 온 것이야 합니다. 전역 관리자는 이 제한에서 제외되며, 모든 테넌트에서 직접 팀(측면 로드) 또는 테넌트 앱 카탈로그에 사용자 지정 앱을 업로드할 수 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-articles"></a>관련 기사
 
 - [사용 가능한 RSC 권한](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
 - [Microsoft Graph](https://developer.microsoft.com/graph)

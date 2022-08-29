@@ -16,16 +16,18 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 교육 교직원 및 학생 라이선스 계획 및 SKU ID를 나열합니다.
 f1keywords: ''
-ms.openlocfilehash: c6fe915950189dfe3ee46acc6187636fbe34da5a
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: f0b1f51b18ba7c43b4cb5eed9b7626100e9a950f
+ms.sourcegitcommit: c19ac3be42cc4b8409c8d512bbe3156736af0309
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790173"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "67426865"
 ---
 # <a name="education-sku-reference"></a>Education SKU 참조
 
-이 문서에서는 PowerShell을 사용하여 라이선스 유형별로 조직의 사용자를 식별할 때 참조로 사용할 수 있는 교육 교직원 및 학생 라이선스 계획(SKU) 및 SKU ID를 나열합니다.
+이 문서에서는 교육 교직원 및 SKU(학생 라이선스 계획) 및 SKU ID를 나열합니다.
+
+PowerShell을 사용하여 라이선스 유형별로 조직의 사용자를 식별할 때 이 참조를 사용합니다.
 
 ## <a name="faculty-licenses"></a>교직원 라이선스
 

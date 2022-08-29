@@ -16,12 +16,12 @@ description: 법적 절차에 대한 모든 전자 저장 정보를 제출해야
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 28605ac0f691083151fbb84c73c2ffcfa92ca3b4
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c77cb7cda26b6061ee1e4fce05bf5ff326b7116b
+ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269063"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67283119"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams에서 콘텐츠에 대한 eDiscovery 조사 수행
 
@@ -35,25 +35,24 @@ ms.locfileid: "67269063"
 
 모든 Teams 콘텐츠를 검색할 수 있는 것은 아닙니다. 다음 표에서는 Microsoft eDiscovery 도구를 사용하여 검색할 수 있는 콘텐츠 형식을 보여줍니다.
 
-|콘텐츠 형식|eDiscoverable|참고|
-|---|---|---|
-|오디오 녹음|예||
-|카드 콘텐츠|예|자세한 내용은 [카드 콘텐츠 검색](#search-for-card-content) 을 참조하세요.|
-|채팅 링크|예||
-|채팅 메시지|예|여기에는 표준 Teams 채널의 콘텐츠, 1:1 채팅, 1:N 그룹 채팅 및 게스트 사용자 참가자와의 채팅이 포함됩니다.|
-|코드 조각|아니요||
-|편집된 메시지|예|사용자가 보류 중인 경우 이전 버전의 편집된 메시지도 유지됩니다.|
-|이모지, GIF 및 스티커|예||
-|피드 알림|아니요||
-|인라인 이미지|예||
-|루프 구성 요소|예|루프 구성 요소의 콘텐츠는 루프 구성 요소를 보내는 사용자의 비즈니스용 OneDrive 계정에 저장된 .fluid 파일에 저장됩니다. 즉, 루프 구성 요소에서 콘텐츠를 검색할 때 OneDrive를 데이터 원본으로 포함해야 합니다.|
-|모임 메신저 대화|예||
-|모임 메타데이터<sup>1</sup>|예||
-|채널 이름|예||
-|따옴표|예|따옴표 붙은 콘텐츠는 검색할 수 있습니다. 그러나 검색 결과는 콘텐츠가 인용되었음을 나타내지 않습니다.|
-|반응(예: 좋아요, 하트 및 기타 반응)|예|반응은 2022년 6월 1일 이후의 모든 상용 고객에 대해 지원됩니다. 이 날짜 이전의 반응은 eDiscovery에 사용할 수 없습니다. 정부 클라우드 지원이 계획되어 있습니다. 반응에 대한 법적 보존 지원은 없습니다.|
-|제목|예||
-|테이블|예||
+|콘텐츠 형식|참고|
+|---|---|
+|오디오 녹음||
+|카드 콘텐츠|자세한 내용은 [카드 콘텐츠 검색](#search-for-card-content) 을 참조하세요.|
+|채팅 링크||
+|채팅 메시지|여기에는 표준 Teams 채널의 콘텐츠, 1:1 채팅, 1:N 그룹 채팅 및 게스트 사용자 참가자와의 채팅이 포함됩니다.|
+|코드 조각||
+|편집된 메시지|사용자가 보류 중인 경우 이전 버전의 편집된 메시지도 유지됩니다.|
+|이모지, GIF 및 스티커||
+|인라인 이미지||
+|루프 구성 요소|루프 구성 요소의 콘텐츠는 루프 구성 요소를 보내는 사용자의 비즈니스용 OneDrive 계정에 저장된 .fluid 파일에 저장됩니다. 즉, 루프 구성 요소에서 콘텐츠를 검색할 때 OneDrive를 데이터 원본으로 포함해야 합니다.|
+|모임 메신저 대화||
+|모임 메타데이터<sup>1</sup>||
+|채널 이름||
+|따옴표|따옴표 붙은 콘텐츠는 검색할 수 있습니다. 그러나 검색 결과는 콘텐츠가 인용되었음을 나타내지 않습니다.|
+|반응(예: 좋아요, 하트 및 기타 반응)|반응은 2022년 6월 1일 이후의 모든 상용 고객에 대해 지원됩니다. 이 날짜 이전의 반응은 eDiscovery에 사용할 수 없습니다. 정부 클라우드 지원이 계획되어 있습니다. 반응에 대한 법적 보존 지원은 없습니다.|
+|제목||
+|테이블||
 
 <sup>1</sup> 모임(및 통화) 메타데이터에는 다음이 포함됩니다.
 
@@ -242,7 +241,7 @@ Teams 채널, 1:1 채팅 및 1xN 채팅의 앱에서 생성된 카드 콘텐츠�
 
 - **페더레이션되지 않은**: 조직 및 게스트 사용자의 사용자와 Teams 모임에서 Teams 모임을 호스트하는 조직의 관리자만 모임의 채팅 메시지에서 콘텐츠를 검색할 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [Microsoft 365 eDiscovery 솔루션](/microsoft-365/compliance/ediscovery)
 - [eDiscovery 시작(표준)](/microsoft-365/compliance/get-started-core-ediscovery)

@@ -16,12 +16,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Teams 관리 센터에서 Microsoft Power Platform을 사용하여 빌드된 사용자 지정 앱에 대한 액세스를 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: fd1d6d3d190d22995ab72966510871868b7ba401
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 78ca37b95b98ad1668264f13539626cbb2b9b56b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298857"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397019"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>Teams 관리 센터에서 Microsoft Power Platform 앱 관리
 
@@ -65,15 +65,15 @@ Power Apps나 Power Virtual Agents의 앱에 대한 액세스 권한이 있는 �
 
 기본적으로 **공유한 Power Apps** 및 **공유한 Power Virtual Agent 앱** 은 조직 내의 모든 Teams 사용자에게 허용됩니다. 이러한 사용자들은 Microsoft Teams 관리 센터의 [앱 관리](manage-apps.md) 페이지에서 조직 전체적으로 차단하거나 허용할 수 있습니다.  
 
-1. Microsoft Teams 관리 센터의 왼쪽 창에서 **Teams 앱** > **앱 관리** 로 이동합니다. 페이지에 액세스하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다.
-2. 앱 목록에서 다음 중 하나를 실행합니다.
+1. Teams 관리 센터에 로그인하고 **Teams 앱****[관리 앱](https://admin.teams.microsoft.com/policies/manage-apps)** > 에 액세스하려면 전역 관리자 또는 Teams 서비스 관리자여야 페이지에 액세스할 수 있습니다.
+1. 앱 목록에서 다음 중 하나를 실행합니다.
 
     :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="공유한 Microsoft Power Platform 앱이 표시된 앱 관리 페이지의 스크린샷":::
 
     * 조직의 모든 사용자에게 Power Apps나 Power Virtual Agents에서 만든 앱을 차단하려면 **공유한 Power Apps** 또는 **공유한 Power Virtual Agent 앱** 을 검색해 선택한 다음 **차단** 을 선택합니다.
     * 조직의 모든 사용자에게 Power Apps나 Power Virtual Agents에서 만든 앱을 허용하려면 **공유한 Power Apps** 또는 **공유한 Power Virtual Agent 앱** 을 검색해 선택한 다음 **허용** 을 선택합니다.
 
-### <a name="allow-or-block-microsoft-power-platform-apps-for-specific-users"></a>특정 사용자의 Microsoft Power Platform 앱 허용 또는 차단
+### <a name="allow-microsoft-power-platform-apps-for-specific-users"></a>특정 사용자에 대해 Microsoft Power Platform 앱 허용
 
 조직의 특정 사용자가 Power Apps 또는 Power Virtual Agents에서 만든 앱에 액세스하도록 허용하거나 차단하려면 하나 이상의 사용자 지정 [app 권한 정책](teams-app-permission-policies.md)을 만들어 할당합니다.
 

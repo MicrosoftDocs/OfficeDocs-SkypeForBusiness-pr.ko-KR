@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 메시징 정책과 이를 사용하여 Teams에서 채팅 메시징을 제어하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f74ae28176f147d768e8e551ac07d1bcf189836b
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: 1975262b6fdd404d9314c3644ebba79b6cb5bd9a
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563966"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396519"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Teams에서 메시지 정책 관리
 
@@ -112,11 +112,12 @@ ms.locfileid: "66563966"
 - **제안된 회신**  채팅 메시지에 대해 제안된 회신을 사용하도록 설정하려면 이 설정을 켭니다.
 - **채팅 권한 역할** 이 설정을 사용하여 사용자의 감독된 채팅 역할을 정의합니다. [감독되는 채팅](supervise-chats-edu.md)에 대해 자세히 알아보세요.
 - **전체 채팅 권한이 있는 사용자는 모든 메시지를 삭제할 수 있습니다.** 이 설정을 사용하여 모든 권한이 있는 사용자가 그룹 또는 모임 채팅 메시지를 삭제할 수 있습니다.
+- **비디오 메시지** 조직의 사용자가 Teams 앱을 사용하여 채팅의 다른 사용자에게 비디오 메시지를 보낼 수 있도록 하려면 이 설정을 켭니다.
 
 > [!NOTE]
 > Giphys 사용과 같은 이러한 설정 중 일부는 팀 소유자가 팀 수준에서 구성하고 채널 소유자가 비공개 또는 공유 채널 수준에서 구성할 수도 있습니다.
 
-### <a name="related-topics"></a>관련 항목
+### <a name="related-topics"></a>관련 주제
 
 - [Teams에서 사용자 및 그룹에 정책 할당](assign-policies-users-and-groups.md)
 - [Microsoft Teams에서 팀 소유자 및 구성원 할당](assign-roles-permissions.md)

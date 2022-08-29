@@ -24,12 +24,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74f4580eee7ee7ee935b405cfe51c4a3e49ef98c
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
-ms.translationtype: HT
+ms.openlocfilehash: 28a816dee54d8f5ac2aead0deeb6aedf3f8076f7
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616284"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396929"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams의 Teams 및 채널 개요
 
@@ -85,6 +85,10 @@ Microsoft 365의 Teams 관리자인 경우 Teams 관리 센터에서 시스템 �
 > Teams에서 새 팀 또는 비공개 또는 공개 채널을 만들면 SharePoint의 팀 사이트가 자동으로 만들어집니다. 이 팀 사이트에 대한 사이트 설명 또는 분류를 편집하려면 [Microsoft Teams에서 해당 채널의 설정](https://support.microsoft.com/office/bf39798f-90d2-44fb-a750-55fa05a56f1d)으로 이동하세요.
 >
 > [Microsoft Teams에 연결된 팀 사이트](/SharePoint/teams-connected-sites) 관리에 대해 자세히 알아보세요.
+
+이 비디오에서는 사용자의 팀 멤버 자격을 보고 관리하는 단계를 보여줍니다.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x1L?autoplay=false]
 
 ## <a name="channel-feature-comparison"></a>채널 기능 비교
 

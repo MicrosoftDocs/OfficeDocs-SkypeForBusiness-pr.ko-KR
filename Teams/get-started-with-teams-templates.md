@@ -1,5 +1,5 @@
 ---
-title: Microsoft Graph
+title: Microsoft Graph를 사용하여 팀 템플릿 시작하기
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -11,7 +11,8 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Microsoft에서만 사용할 수 있는 팀 템플릿에 대해 Graph.
+- m365-frontline
+description: Microsoft Graph에서만 사용할 수 있는 팀 템플릿에 대해 알아봅니다.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,61 +20,61 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e570faff4ec7138457f7cd52e101a0a3632d64d2
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: c4251aa0293665b6fd41c66e352ca9c595378259
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991117"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397239"
 ---
-# <a name="get-started-with-team-templates-using-microsoft-graph"></a>Microsoft Graph
+# <a name="get-started-with-team-templates-using-microsoft-graph"></a>Microsoft Graph를 사용하여 팀 템플릿 시작하기
 
 > [!NOTE]
-> 팀 템플릿은 현재 개인 채널 만들기를 지원하지 않습니다. 개인 채널 만들기는 템플릿 정의에 포함되지 않습니다.
+> 팀 템플릿은 현재 비공개 채널 만들기를 지원하지 않습니다. 프라이빗 채널 만들기는 템플릿 정의에 포함되지 않습니다.
 
-팀 템플릿은 Microsoft Teams 필요 또는 프로젝트를 중심으로 디자인된 팀 구조의 정의입니다. 팀 템플릿을 사용하면 미리 정의된 설정, 채널 및 앱을 사용하여 다양한 공동 작업 공간을 빠르고 쉽게 만들 수 있습니다. 팀 템플릿을 사용하면 조직 전체에 일관된 팀을 배포할 수 있습니다.
+Microsoft Teams의 팀 템플릿은 비즈니스 요구 사항 또는 프로젝트를 중심으로 설계된 팀의 구조에 대한 정의입니다. 팀 템플릿을 사용하면 미리 정의된 설정, 채널 및 앱을 사용하여 풍부한 공동 작업 공간을 빠르고 쉽게 만들 수 있습니다. 팀 템플릿은 조직 전체에 일관된 팀을 배포하는 데 도움이 될 수 있습니다.
 
-Microsoft Graph 팀 템플릿에 포함된 미리 작성된 팀 템플릿을 사용하여 팀을 Teams 수 있습니다. 이 문서에서는 템플릿에서 정의할 수 있는 속성 및 Microsoft에서만 사용할 수 있는 템플릿에 대해 Graph.
+Microsoft Graph를 사용하면 [고유한 템플릿을 만들](/graph/api/resources/teamtemplate?view=graph-rest-beta) 거나 Teams에 포함된 미리 빌드된 팀 템플릿을 사용하여 팀을 만들 수 있습니다. 이 문서에서는 템플릿에 정의할 수 있는 속성 및 Microsoft Graph에서만 사용할 수 있는 미리 빌드된 템플릿에 대해 알아봅니다.
 
-이 문서는 다음을 위한 것입니다.
+이 문서는 다음과 같은 경우에 적합합니다.
 
-- 조직 전체에서 여러 팀을 계획, 배포 및 관리하는 책임<br>
-- 프로그래밍식으로 미리 정의된 채널 및 앱을 사용하여 팀을 만들고자 하는 개발자
+- 조직 전체에서 여러 팀 계획, 배포 및 관리 담당<br>
+- 미리 정의된 채널 및 앱을 사용하여 프로그래밍 방식으로 팀을 만들려는 개발자
 
 ## <a name="team-template-capabilities"></a>팀 템플릿 기능
 
-팀의 대부분의 속성은 템플릿에 의해 포함 및 지원됩니다. 그러나 현재 지원되지 않는 몇 가지 속성 및 기능이 있습니다. 여기에 포함된 내용과 팀 템플릿에 포함되지 않은 내용에 대한 간소한 요약이 있습니다.
+팀의 대부분의 속성은 템플릿에서 포함 및 지원됩니다. 그러나 현재 지원되지 않는 몇 가지 속성과 기능이 있습니다. 다음은 포함된 항목과 팀 템플릿에 포함되지 않은 항목에 대한 간략한 요약입니다.
 
 | **팀 템플릿에서 지원하는 팀 속성** | **팀 템플릿에서 아직 지원되지 않는 팀 속성** |
 | ------------------------------------------------ | -------------------------------------------------------- |
-| 템플릿 유형 | 팀 구성원 |
+| 서식 파일 유형 | 팀 구성원 |
 | 팀 이름 | 팀 사진 |
 | 팀 설명 | 채널 설정 |
-| 팀 가시성(공개 또는 비공개) | 커넥터 |
-| 팀 설정(예: 멤버, 게스트, @ 언급) | 파일 및 내용 |
+| 팀 가시성(퍼블릭 또는 프라이빗) | 커넥터 |
+| 팀 설정(예: 멤버, 게스트, @ 멘션) | 파일 및 내용 |
 | 자동 즐겨찾기 채널 | |
-| 설치된 앱 | |
+| 앱 설치됨 | |
 | 고정된 탭 | |
 
 > [!NOTE]
-> 지원되는 속성에 대한 최신 정보를 확인하여 향후 Microsoft Teams 서식 파일 기능을 추가할 예정입니다.
+> Microsoft Teams의 향후 릴리스에서 더 많은 템플릿 기능을 추가할 예정이므로 지원되는 속성에 대한 최신 정보를 다시 확인하세요.
 
-## <a name="pre-built-templates"></a>미리 작성된 템플릿
+## <a name="pre-built-templates"></a>미리 빌드된 템플릿
 
-미리 작성된 팀 템플릿은 특정 산업에 대해 만든 템플릿입니다. Microsoft에서만 사용할 수 있는 미리 작성된 템플릿은 Graph.
+미리 빌드된 팀 템플릿은 특정 산업을 위해 만든 템플릿입니다. 다음은 Microsoft Graph에서만 사용할 수 있는 미리 빌드된 템플릿입니다.
 
-| 템플릿 유형 | TemplateId | 이 템플릿과 함께 있는 속성 |
+| 서식 파일 유형 | TemplateId | 이 템플릿과 함께 제공되는 속성 |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | 표준 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('standard')` | 추가 앱 및 속성 없음 |
-| 교육 -<br>수업 팀 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | 앱:<ul><li>OneNote 수업용 전자 필기장(일반 탭에 **고정)** </li><li>할당 앱(일반 탭에 **고정)**</li></ul> 팀 속성:<ul><li>Team 가시성을 **HiddenMembership으로** 설정(다시 설정할 수 없습니다)</li></ul> |
-| 교육 -<br>직원 팀 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | 앱:<ul><li>OneNote 직원 전자 필기장(일반 탭에 **고정)**</li></ul> |
-|교육 -<br>PLC 팀 |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | 앱:<ul><li>OneNote PLC 전자 필기장(일반 탭에 **고정)**</ul></li>|
+| 교육 -<br>클래스 팀 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | 앱:<ul><li>OneNote 수업용 전자 필기장( **일반** 탭에 고정됨) </li><li>할당 앱( **일반** 탭에 고정됨)</li></ul> 팀 속성:<ul><li>**HiddenMembership** 으로 설정된 팀 표시 유형(재정의할 수 없음)</li></ul> |
+| 교육 -<br>교직원 팀 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | 앱:<ul><li>OneNote 교직원용 전자 필기장( **일반** 탭에 고정)</li></ul> |
+|교육 -<br>PLC 팀 |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | 앱:<ul><li>OneNote PLC 전자 필기장( **일반** 탭에 고정됨)</ul></li>|
 
 > [!NOTE]
-> 클라이언트 및 Microsoft Teams 사용할 수 있는 미리 작성된 템플릿 목록은 Graph 관리 센터에서 팀 템플릿 시작을 Teams [참조하세요.](get-started-with-teams-templates-in-the-admin-console.md)
+> Teams 클라이언트 및 Microsoft Graph에서 사용할 수 있는 미리 빌드된 템플릿 목록은 [Teams 관리 센터에서 팀 템플릿 시작](get-started-with-teams-templates-in-the-admin-console.md)을 참조하세요.
 
-## <a name="related-articles"></a>관련 문서
+## <a name="related-articles"></a>관련 기사
 
-- [관리 센터에서 팀 템플릿 Teams 시작](get-started-with-teams-templates-in-the-admin-console.md)
-- [팀 만들기(미리](/graph/api/team-post?view=graph-rest-beta) 보기)
+- [Teams 관리 센터에서 팀 템플릿 시작하기](get-started-with-teams-templates-in-the-admin-console.md)
+- [팀 만들기](/graph/api/team-post?view=graph-rest-beta) (미리 보기)
 - [New-Team](/powershell/module/teams/New-Team?view=teams-ps)

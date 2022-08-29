@@ -20,12 +20,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 착신 전환 및 위임에 대한 사용자 설정을 구성하는 방법을 알아봅니다.
-ms.openlocfilehash: 64907043448f44ff861ede026d0a4343899ad98b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c9d085027ed1b365e8aa47b5908c946c4234e5ca
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272233"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397359"
 ---
 # <a name="configure-call-settings-for-your-users"></a>사용자에 대한 통화 설정 구성
 
@@ -56,6 +56,10 @@ Teams 관리 센터를 사용하여 착신 전환 및 응답하지 않는 설정
 응답하지 않는 설정을 구성하려면 같은 페이지에서 응답이 없는 **경우** 드롭다운에서 적절한 설정을 선택합니다. 드롭다운을 **리디렉션하기 전에 몇 초 동안 링** 에서 대기할 시간(초)을 지정합니다.
 
 통화 위임 및 그룹 통화 픽업의 구성은 적절한 유형을 선택하여 통화 전달 및 응답되지 않은 설정에 통합됩니다. 예를 들어 호출이 사용자의 대리자를 울리도록 구성하려면 동일한 페이지에서 **[허용**]에서 **[통화 위임]** 을 선택합니다. 그런 다음 **사용자 추가** 를 선택하고 **저장** 을 클릭하여 적절한 대리자를 추가합니다.
+
+이 비디오에서는 사용자의 음성 설정을 보고 편집하는 단계를 보여줍니다.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE546F7?autoplay=false]
 
 ## <a name="use-powershell"></a>PowerShell 사용
 
@@ -149,7 +153,7 @@ user2를 user1의 대리자로 제거하려면 다음 예제와 같이 Remove-Cs
 Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com
 ```
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings)
 - [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings)

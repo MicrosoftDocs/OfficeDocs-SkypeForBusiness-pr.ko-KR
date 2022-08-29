@@ -11,12 +11,13 @@ ms.localizationpriority: medium
 description: Microsoft Teams 관리 센터에서 칭찬 앱을 관리하는 방법을 알아봅니다.
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 0f30a508fd1c0f2e82dcab3c22d3ade94d4e0118
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+- m365-frontline
+ms.openlocfilehash: 36f904f40fdb878480addc0d753b4ccb44a3f2d9
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269423"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396689"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 칭찬 앱 관리
 
@@ -33,7 +34,7 @@ Microsoft Teams의 칭찬 앱을 사용하면 사용자가 조직 또는 교실 
 
 :::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="상태 토글을 보여 주는 Teams 관리 센터의 칭찬 앱 세부 정보 페이지 스크린샷.":::
 
-1. Microsoft Teams 관리 센터의 왼쪽 창에서 **Teams 앱****관리 앱** > 으로 이동합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 창에서 **Teams 앱** > **앱 관리** 로 이동합니다.
 2. 앱 목록에서 칭찬 앱을 검색하고 선택한 다음 **상태** 토글을 **차단** 또는 **허용** 됨으로 전환합니다.
 
 이 설정은 Teams의 Viva Insights 앱에서 칭찬 앱과 칭찬 기능 모두에 영향을 줍니다.

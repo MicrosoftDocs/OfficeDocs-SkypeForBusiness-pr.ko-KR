@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Microsoft Teams 룸, Surface Hub의 Teams 룸, Teams 디스플레이의 핫 데스크 등 회의실 및 공유 디바이스에 대한 리소스 계정을 만드는 방법에 대한 자세한 내용은 이 문서를 참조하세요.
-ms.openlocfilehash: eaa95efde1db01d3c7a346309f50eca2427af4e8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 45cd61b476f10f673150653144bdb79a47604962
+ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271713"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67405160"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>회의실 및 공유 Teams 디바이스에 대한 리소스 계정 만들기 및 구성
 
@@ -95,7 +95,7 @@ Microsoft 365 리소스 계정을 만들기 전에 필요한 라이선스 종류
 
 3. 왼쪽 패널의 **리소스** 로 이동한 다음, **룸 & 장비를** 선택합니다. 왼쪽 패널에서 이러한 옵션을 사용할 수 없는 경우 **먼저 모두 표시** 를 선택해야 할 수 있습니다.
 
-4. **리소스 사서함 추가를** 선택하여 새 회의실 계정을 만듭니다. 계정의 표시 이름과 전자 메일 주소를 입력하고 **추가** 를 선택한 다음 **닫기를** 선택합니다.
+4. **리소스 추가** 를 선택하여 새 회의실 계정을 만듭니다. 계정의 표시 이름과 전자 메일 주소를 입력하고 **추가** 를 선택한 다음 **닫기를** 선택합니다.
 
 5. 기본적으로 리소스 계정은 다음 설정으로 구성됩니다.
 
@@ -105,13 +105,13 @@ Microsoft 365 리소스 계정을 만들기 전에 필요한 라이선스 종류
       - 최대 기간(시간): 24
     - 모임 요청 자동 수락
 
-    변경하려면 **닫기를** 선택하기 전에 **예약 옵션 설정을** 선택합니다. 나중에 변경하려면 **리소스** > **룸 & 장비** 로 이동하여 리소스 계정을 선택합니다. 그런 다음 **예약 옵션** 에서 **편집** 을 선택합니다.
+    변경하려면 **닫기를** 선택하기 전에 **예약 옵션 편집** 을 선택합니다. 나중에 변경하려면 **리소스** > **룸 & 장비** 로 이동하여 리소스 계정을 선택합니다. 그런 다음 **예약 옵션** 에서 **편집** 을 선택합니다.
 
 6. **사용자** > **활성 사용자** 로 이동하고 만든 회의실을 선택하여 속성 패널을 엽니다.
 
 7. 다음으로, 리소스 계정에 암호를 할당합니다. 패널에서 **암호 재설정** 을 선택합니다.
  
-8. 사용자가 공유 디바이스에서 암호를 변경하도록 요구하면 로그인 문제가 발생합니다. **이 사용자가 처음 로그인할 때 암호를 변경하도록 요구하고** **재설정** 을 선택 취소합니다.
+8. 사용자가 공유 디바이스에서 암호를 변경하도록 요구하면 로그인 문제가 발생합니다. **이 사용자가 처음 로그인할 때 암호를 변경하도록 요구하고 암호** **재설정** 을 선택 취소합니다.
 
 9. **라이선스 및 앱** 섹션에서 디바이스가 설치될 국가 또는 지역으로 **위치 선택을** 설정합니다. 그런 다음, 회의실과 같이 할당할 라이선스를 선택하고 **변경 내용 저장** 을 선택합니다. 라이선스는 조직에 따라 달라질 수 있습니다.
 
@@ -250,7 +250,7 @@ Set-CalendarProcessing -Identity "ConferenceRoom01" -AutomateProcessing AutoAcce
    Connect-AzureAD
 ```
 
-그런 다음 [암호가 만료되지 않도록 설정을](/microsoft-365/admin/add-users/set-password-to-never-expire?view=o365-worldwide#set-a-password-to-never-expire) 참조하세요.
+그런 다음 [암호가 만료되지 않도록 설정을](/microsoft-365/admin/add-users/set-password-to-never-expire#set-a-password-to-never-expire) 참조하세요.
 
 다음은 계정 ConferenceRoom01@contoso.com 암호가 만료되지 않도록 설정하는 예제입니다.
 
@@ -288,7 +288,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
        Import-Module ActiveDirectory
     ```
     
-    Active Directory PowerShell에 대한 자세한 내용은 [ActiveDirectory](/powershell/module/activedirectory/?view=windowsserver2022-ps)를 참조하세요.
+    Active Directory PowerShell에 대한 자세한 내용은 [ActiveDirectory](/powershell/module/activedirectory/)를 참조하세요.
 
 2. 다음 구문을 사용하여 암호가 만료되지 않도록 설정합니다.
 

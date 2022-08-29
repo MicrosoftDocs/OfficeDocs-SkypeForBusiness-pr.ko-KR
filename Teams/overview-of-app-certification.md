@@ -17,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9918c1ce81464f2fbe9a0c16bc0373e54858d79b
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: d1fb640e6bf43d4a91eb1c672244cdf33cefd059
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299087"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396439"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>타사 앱의 보안, 규정 준수 및 개인 정보 보호를 위한 Microsoft 365 앱 준수 프로그램
 
@@ -112,7 +112,7 @@ Microsoft는 주요 업계 표준 프레임워크에서 파생된 일련의 보�
 
 앱의 MCAS 정보에 액세스하려면 다음을 수행합니다.
 
-1. Teams 관리 센터에서 **Teams 앱** > **[앱 관리](https://admin.teams.microsoft.com/policies/manage-apps)** 를 선택합니다.
+1. Teams 관리 센터에 로그인하고 **Teams 앱 관리 앱** > 에 액세스 **[합니다](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
 1. **인증** 을 선택하여 앱을 정렬하고 모든 Microsoft 365 인증 앱을 테이블 맨 위로 올립니다.
 

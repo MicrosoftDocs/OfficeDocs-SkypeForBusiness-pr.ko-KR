@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365용 통화 플랜
+title: Microsoft Teams의 통화 플랜
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -27,14 +27,14 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 비즈니스용 Skype 옵션에 대한 통화 플랜(PSTN 통화 플랜)과 조직의 라이선스를 얻는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 624b155bb6a114a1b1dbe71220379e4c3d9d7ede
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: eb10b681b867461122fe6b5e89f6f0a519d60ae7
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269223"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396849"
 ---
-# <a name="calling-plans-for-microsoft-365"></a>Microsoft 365용 통화 플랜
+# <a name="calling-plans-for-microsoft-teams"></a>Microsoft Teams의 통화 플랜
 
 다른 비즈니스용 Skype 및 Microsoft Teams 사용자에 대한 통화는 무료이지만 사용자가 일반 전화를 걸 수 있도록 하고 음성 통화를 할 서비스 공급자가 아직 없는 경우 통화 플랜을 구입해야 합니다. 자세한 내용은 [전화 시스템 및 통화 플랜](calling-plan-landing-page.md)을 참조하세요.
   
@@ -44,7 +44,11 @@ ms.locfileid: "67269223"
 
 - **국제 통화 플랜**: 사용이 허가된 사용자는 사용자의 위치에 따라 Microsoft 365 라이선스가 할당된 국가/지역 및 [196개 국가/지역의](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md) 국제 번호로 전화할 수 있습니다. 무제한 수신 시간(분)이 포함됩니다. 발신 시간은 구매한 라이선스에 따라 포함됩니다.
 
-- **종량제 통화 플랜**: 사용이 허가된 사용자는 사용자의 위치에 따라 Microsoft 365 라이선스가 할당된 국가/지역에 있는 번호와  [196개 국가/지역의](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md) 국제 번호로 전화를 걸 수 있습니다. 무제한 수신 시간(분)이 포함됩니다. 보내는 시간(분)은 포함되지 않습니다. 모든 발신 통화는 통신 크레딧 또는 사후 지불 청구와 함께 사용되는 의사록에 따라 청구됩니다.
+- **종량제 통화 플랜**: 사용이 허가된 사용자는 사용자의 위치에 따라 Microsoft 365 라이선스가 할당된 국가/지역에 있는 번호와  [196개 국가/지역의](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md) 국제 번호로 전화를 걸 수 있습니다. 무제한 수신 시간(분)이 포함됩니다. 보내는 시간(분)은 포함되지 않습니다. 모든 발신 통화는 통신 크레딧 또는 사후 지불 청구와 함께 사용되는 의사록에 따라 청구됩니다. 라이선스는 해당 위치에 따라 사용자에게 할당됩니다. 다음 중에서 선택할 수 있는 두 가지 옵션이 있습니다.
+  - **종량제 통화 플랜 영역-1**: 푸에르토리코, 캐나다 및 영국을 포함한 미국 사용자에 대해 구매합니다.
+    - 영역 1 라이선스는 현재 미국 및 푸에르토리코에서 판매할 수 없지만 다른 국가에서 구입한 경우 미국 및 푸에르토리코 사용자에게 프로비전할 수 있습니다.
+  - **종량제 통화 플랜 영역-2**: 오스트리아, 벨기에, 크로아티아, 체코 공화국, 덴마크, 에스토니아, 핀란드, 프랑스, 독일, 헝가리, 아일랜드, 이탈리아, 라트비아, 리투아니아, 룩셈부르크, 네덜란드, 뉴질랜드, 노르웨이, 폴란드, 포르투갈, 루마니아, 싱가포르, 슬로바키아, 슬로베니아, 남아프리카 공화국, 스페인, 스웨덴 및 스위스의 사용자를 위해 구입합니다.
+    - 영역 2 라이선스는 현재 미국 및 푸에르토리코에서 판매할 수 없습니다.
 
 동일한 통화 플랜이 있는 동일한 국가/지역의 모든 사용자(Microsoft 365 관리 센터 라이선스 영역에 정의된 사용자 국가 위치)는 분 풀을 공유합니다. 예를 들어 120분 국내 통화 플랜이 할당된 동일한 국가/지역에 100명의 사용자가 있는 경우 12,000분의 풀을 공유합니다. 이 분을 초과하는 모든 호출은 분당 요금이 청구됩니다.
 

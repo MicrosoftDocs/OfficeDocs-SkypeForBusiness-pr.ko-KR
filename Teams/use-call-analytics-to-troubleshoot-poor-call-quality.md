@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 디바이스, 네트워크 및 연결에 대한 사용자별 통화 분석 세부 정보를 사용하여 Microsoft Teams 통화 및 모임의 사용자 문제를 해결합니다.
-ms.openlocfilehash: 38636d911be55648ec17628bcec7d4cee21358c5
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: c83ecbad418dc471f1db2c9c71b88fa621fe4a11
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794316"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397099"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>통화 분석을 사용하여 통화 품질 저하 문제 해결
 
@@ -54,6 +54,10 @@ Teams 관리자는 각 사용자에 대한 모든 Call Analytics 데이터에 �
 자세한 미디어 및 네트워킹 통계를 포함하여 지정된 세션에 대한 추가 정보를 얻으려면 세션을 클릭하여 세부 정보를 확인합니다.
 
 ![통화 분석 사용자 세션 데이터의 스크린샷.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
+
+이 비디오에서는 사용자의 모임 및 통화 정보를 보는 단계를 보여 줍니다.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x2e?autoplay=false]
 
 ## <a name="what-does-each-teams-support-role-do"></a>각 Teams 지원 역할은 무엇을 합니까?
 
@@ -93,7 +97,7 @@ Teams 관리자는 각 사용자에 대한 모든 Call Analytics 데이터에 �
 
    각 통화 또는 모임에 대한 세션 세부 정보에 사소한 문제가 노란색으로 표시됩니다. 노란색이면 정상 범위를 벗어나고 문제에 영향을 줄 수 있지만 문제의 주요 원인이 될 가능성은 낮습니다. 빨간색이면 중요한 문제이며 이 세션의 통화 품질 저하의 주요 원인일 수 있습니다.
 
-드문 경우로, 오디오 세션에 대한 경험 품질 데이터가 수신되지 않습니다. 이는 종종 끊어진 호출 또는 클라이언트와의 연결이 종료될 때 발생합니다. 이 경우 세션 등급을 **사용할 수 없습니다**.
+드문 경우로, 오디오 세션에 대한 경험 품질 데이터가 수신되지 않습니다. 이는 종종 호출이 끊어지거나 클라이언트와의 연결이 종료될 때 발생합니다. 이 경우 세션 등급을 **사용할 수 없습니다**.
 
 QoE(경험 품질) 데이터가 있는 오디오 세션의 경우 다음 표에서는 세션을 **불량** 으로 한정하는 주요 문제에 대해 설명합니다.
 

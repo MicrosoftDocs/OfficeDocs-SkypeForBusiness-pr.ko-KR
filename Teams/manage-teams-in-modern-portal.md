@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d99dacdd0580d2ee9eaf775d843c5c46a0960259
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
-ms.translationtype: HT
+ms.openlocfilehash: fca16f3b09fc153717b24161eb8717f419171677
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67024001"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396329"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 팀 관리
 
@@ -44,7 +44,7 @@ ms.locfileid: "67024001"
 
 ## <a name="teams-overview-grid"></a>Teams 개요 그리드
 
-팀용 관리 도구는 Microsoft Teams 관리 센터의 **Teams** 노드에 있습니다. (관리 센터에서 **Teams** > **팀 관리** 를 선택합니다.) 각 팀은 Microsoft 365 그룹의 지원을 받으며 이 노드는 조직에서 Microsoft Teams를 사용해 온 그룹의 보기를 제공합니다.
+팀을 위한 관리 도구는 Microsoft Teams 관리 센터의 **Teams** 노드에 ​​있습니다. (관리 센터에서 **Teams** >  선택 **팀을 관리합니다**.) 각 팀은 Microsoft 365 그룹에서 지원되며, 이 노드는 조직에서 Microsoft Teams를 사용하도록 설정된 그룹의 보기를 제공합니다.
 
 ![Teams 개요 표의 스크린샷.](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -54,7 +54,7 @@ ms.locfileid: "67024001"
 - **채널** - 기본 일반 채널을 포함하여 팀의 모든 채널 수입니다.
 - **팀 구성원** - 소유자, 게스트, 테넌트 구성원을 포함한 총 사용자 수입니다.
 - **소유자** - 이 팀의 소유자 수입니다.
-- **게스트** - 이 팀의 구성원인 Azure Active Directory B2B 게스트 사용자 수입니다.
+- **게스트** - 이 팀의 구성원인 Azure Active Directory B2B 게스트 수입니다.
 - **개인 정보** - 지원 Microsoft 365 그룹의 가시성/액세스 유형입니다.
 - **상태** - 이 팀의 보관됨 또는 활성 상태입니다. [팀 보관 또는 복원](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)에서 팀 보관에 대해 자세히 알아보세요.
 - **설명** - 지원 Microsoft 365 그룹에 대한 설명입니다.
@@ -71,9 +71,17 @@ ms.locfileid: "67024001"
 > [!NOTE]
 > Outlook과 같은 다른 클라이언트의 경험과 달리 새로 만든 팀은 Teams 관리 센터에서 바로 관리할 수 있습니다.
 
+이 비디오에서는 새 팀과 채널을 만드는 단계를 보여 줍니다.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53TXG?autoplay=false]
+
 ### <a name="edit"></a>편집
 
 그룹 및 팀별 설정을 수정하려면 팀 이름의 왼쪽을 클릭하여 팀을 선택한 다음 **수정** 을 선택합니다.
+
+이 비디오에서는 기존 팀의 세부 정보를 보고 편집하는 단계를 보여줍니다.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53JpG?autoplay=false]
 
 ### <a name="archive"></a>보관
 

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2e934e0dd9896c507e4d5818a77a1637cdcb2b3
-ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
+ms.openlocfilehash: b23430398e213c7df9fcd72ccb9d32f88ee1ed1f
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "66915216"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418487"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>통화 & 모임에 대한 Teams 정책 기반 녹음/녹화 소개
 
@@ -111,7 +111,7 @@ Teams는 모임 및 라이브 이벤트의 [편리](./cloud-recording.md) 하고
 규정 준수 기록 솔루션은 다음 다이어그램과 같이 Teams와 통합됩니다.
 
 > [!div class="mx-imgBorder"]
-> ![팀 사용자 지정 앱 설정을 보여 주는 스크린샷.](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "이미지는 Teams 모임 또는 통화가 전송되고 수신될 때의 흐름을 보여 줍니다.")
+> ![팀 사용자 지정 앱 설정을 보여 주는 스크린샷](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "이미지는 Teams 모임 또는 통화가 전송되고 수신될 때의 흐름을 보여 줍니다.")
 
 > [!NOTE]
 > 이 솔루션은 Teams에서 정책 기반 규정 준수 기록을 사용하도록 특별히 설계되었습니다. 이 솔루션의 다른 사용은 지원되지 않습니다.
@@ -244,7 +244,7 @@ IT 관리자는 규정 준수 기록 정책을 만들고 할당하여 기록할 
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
 |Mida 솔루션 |[https://www.midasolutions.com/recorder-for-teams/](https://www.midasolutions.com/recorder-for-teams/) |
-|레드우드 테크놀로지스 |[https://www.contentguru.com/compliance-recording-for-microsoft-teams/](https://www.contentguru.com/compliance-recording-for-microsoft-teams/) |
+|레드우드 테크놀로지스 |[https://www.contentguru.com/en-gb/solutions/needs/compliance-recording-MS-Teams/](https://www.contentguru.com/en-gb/solutions/needs/compliance-recording-MS-Teams/) |
 
 
 이 목록은 더 많은 파트너가 가입하고 인증 기준을 충족함에 따라 업데이트됩니다.

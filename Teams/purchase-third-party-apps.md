@@ -1,6 +1,6 @@
 ---
 title: Teams용 타사 앱 구매
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -15,12 +15,12 @@ description: 신용 카드, 직불 카드 또는 청구서 청구를 통해 Team
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 41882a241a911e7c482a2a9a16c9fa9cfd649e9d
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 680f48fd75c85b219a4c1ed5b18289962637401b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299197"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396309"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Teams용 타사 앱 구매
 
@@ -34,9 +34,9 @@ Microsoft Teams 관리 센터의 [앱 관리](manage-apps.md) 페이지에서 �
 
 ## <a name="purchase-apps-in-the-teams-admin-center"></a>Teams 관리 센터에서 앱 구매
 
-Teams 관리 센터에서 앱을 구매하려면 다음 단계를 수행합니다. 
+Teams 관리 센터에서 앱을 구매하려면 다음 단계를 수행합니다.
 
-1. Microsoft Teams 관리 센터의 왼쪽 창에서 **Teams 앱** > **[앱 관리](https://admin.teams.microsoft.com/policies/manage-apps)** 로 이동합니다. 페이지에 액세스하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다.
+1. Teams 관리 센터에 로그인하고 **Teams 앱 관리 앱** > 에 액세스 **[합니다](https://admin.teams.microsoft.com/policies/manage-apps)**. 페이지에 액세스하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다.
 
 1. 이름으로 원하는 앱을 검색합니다. 유료 SaaS 구독이 있는 앱을 식별하려면 **라이선스** 열을 확인하세요. 각 앱에는 다음 값 중 하나가 있습니다.
     * **구매**: 앱은 SaaS 구독을 제공하며 구매할 수 있습니다.  

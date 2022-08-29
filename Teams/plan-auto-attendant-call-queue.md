@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 자동 전화 교환 및 통화 큐에 대해 알아보고 이를 사용하여 발신자가 메뉴 시스템을 통해 조직의 사용자 또는 부서에 연결할 수 있도록 돕는 방법을 알아봅니다.
-ms.openlocfilehash: 218377b2082d1a057f503abbf83d37ff78686986
-ms.sourcegitcommit: 55ba3ed53421da6619724a360d15e80262241079
+ms.openlocfilehash: f97081e641574c0d2ea192820100861b39b48d9b
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67070739"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443355"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Teams 자동 전화 교환 및 통화 큐 계획
 
@@ -176,9 +176,21 @@ ms.locfileid: "67070739"
 - [자동 전화 교환 설정](create-a-phone-system-auto-attendant.md)
 - [통화 큐 만들기](create-a-phone-system-call-queue.md)
 
+> [!IMPORTANT]
+> 사용자의 AAD(Azure Active Directory) GUID 토큰은 사용자가 다음과 같이 구성된 경우 자동 전화 교환 또는 호출 큐 구성의 일부로 저장됩니다.
+>
+>  - 자동 전화 교환 또는 통화 큐 **권한 있는 사용자** 입니다.
+>  - 자동 전화 교환 **연산자입니다**.
+>  - **조직 내 사람** 전송 지점
+>  - 통화 큐의 개별 멤버입니다.
+> 
+> 자동 전화 교환 및 호출 큐 구성은 AAD 수명 주기 이벤트와 동기화되지 않습니다.  Teams 관리자는 구성에 포함된 사용자가 조직을 떠날 때 자동 전화 교환을 수동으로 업데이트하고 큐 구성을 호출하여 이 개인 데이터를 제거해야 합니다.
+>
+> 메일 그룹 또는 채널을 통해 구성된 호출 큐 에이전트 멤버 자격에는 적용되지 않습니다. 또한 자동 전화 교환의 **전화 접속 또는 전화 접속** 번호 기능을 통해 도달한 사용자에게는 적용되지  않습니다.
+
 워크플로, 봇 및 SMS와의 통합과 같은 보다 광범위한 기능이 필요한 경우 [Azure Communication Services](/azure/communication-services/overview) 고려합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [직접 라우팅 계획](direct-routing-plan.md)
 

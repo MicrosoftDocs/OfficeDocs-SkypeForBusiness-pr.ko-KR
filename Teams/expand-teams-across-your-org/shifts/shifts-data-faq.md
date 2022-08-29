@@ -18,15 +18,16 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
+- m365-frontline
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f05ba56086a9c9dd3cbad046c1cfad34733ee2ee
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: f7132f79936616ba66565cd133e5ab8616541254
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268193"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396859"
 ---
 # <a name="shifts-data-faq"></a>데이터 FAQ 이동
 
@@ -96,7 +97,7 @@ Shifts 데이터는 Azure Cosmos DB 및 Azure Storage에 의해 미사용 시 �
 
 Shifts Graph API를 사용하면 Shifts 데이터를 외부 인력 관리(WFM) 시스템과 통합할 수 있습니다. 자세한 내용은 [Shifts Graph API를 참조하세요](/graph/api/resources/shift).
 
-또한 관리형 Shifts 커넥터 및 오픈 소스 Shifts 커넥터도 제공합니다. 이러한 커넥터를 사용하면 WFM 시스템을 Shifts와 직접 통합할 수 있습니다. Shifts 커넥터 및 지원되는 WFM 시스템에 대한 자세한 내용은 [Shifts 커넥터를 참조하세요](shifts-connectors.md).
+관리형 Shifts 커넥터도 제공합니다. 이러한 커넥터를 사용하면 WFM 시스템을 Shifts와 직접 통합할 수 있습니다. Shifts 커넥터 및 지원되는 WFM 시스템에 대한 자세한 내용은 [Shifts 커넥터를 참조하세요](/microsoft-365/frontline/shifts-connectors).
 
 ## <a name="can-shifts-data-be-deleted-permanently-after-a-specified-period-of-time"></a>지정된 기간 후에 Shifts 데이터를 영구적으로 삭제할 수 있나요?
 

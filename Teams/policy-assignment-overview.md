@@ -18,12 +18,12 @@ description: Microsoft Teams의 사용자 및 그룹에 정책 및 정책 패키
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: e7cf7ba085c7bad22fea4b14f79b9eb3d4e6e2aa
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 7c9855a56031d3eb22cdcbc1ac1b27dfa075db49
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268423"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418457"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>Teams에서 정책 할당 – 시작
 
@@ -87,6 +87,9 @@ ms.locfileid: "67268423"
 
 :::image type="content" source="media/teams-meetings-policies-global-general.png" alt-text="Teams 관리 센터의 업데이트 전역 정책을 보여 주는 스크린샷." lightbox="media/teams-meetings-policies-global-expanded.png":::
 
+> [!NOTE]
+> 정책 작업을 제출하면 확인하라는 팝업 대화 상자가 표시됩니다. 여기에는 정책 할당, 기존 정책 변경 및 새 사용자 지정 정책 만들기가 포함됩니다. 정책 작업을 시작하도록 확인하거나 취소하고 나중에 다시 돌아갈 수 있습니다.
+
 ### <a name="using-powershell"></a>PowerShell 사용
 
 PowerShell을 사용하여 전역 정책을 설정하려면 전역 식별자를 사용합니다.  먼저 현재 전역 정책을 검토하여 변경할 설정을 결정합니다.
@@ -149,7 +152,11 @@ Microsoft Teams 관리 센터의 사용자에게 정책을 할당할 때 [활동
 > [!NOTE]
 > **사용자** 페이지에서 활동 로그로 가져올 수도 있습니다. **적용** 을 선택하여 대량 정책 할당을 제출하면 페이지 맨 위에 배너가 표시됩니다. 배너에서 **활동 로그** 링크를 선택합니다.
 
-## <a name="related-topics"></a>관련 항목
+이 비디오에서는 사용자에 대해 할당되고 효과적인 정책을 보고 관리하는 단계를 보여줍니다.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x4E?autoplay=false]
+
+## <a name="related-topics"></a>관련 주제
 
 - [사용자 및 그룹에 정책 할당](assign-policies-users-and-groups.md)
 - [사용자 및 그룹에 정책 패키지 할당](assign-policy-packages.md)

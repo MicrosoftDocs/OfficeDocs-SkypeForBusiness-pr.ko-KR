@@ -16,12 +16,12 @@ f1.keywords:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams 관리 센터에서 조직의 앱 스토어에 사용자 지정 앱을 업로드하는 방법을 알아보세요.
-ms.openlocfilehash: 52977d9663f5dbee915e2227075127fe1c6575ad
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: d95635546da7337c9c18ee0fddf7b40a5bf061c3
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299027"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397119"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>앱 패키지를 업로드하여 사용자 지정 앱 게시
 
@@ -55,23 +55,23 @@ Teams 스토어의 모든 앱은 글로벌 Teams 앱 스토어의 품질 및 보
 
 1. **사용자 지정 앱과의 상호 작용 허용** 조직 전체 앱 설정을 켭니다. 이를 수행하려면 다음을 수행하세요.
 
-    1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **Teams 앱** > **앱 관리** 로 이동한 다음 **조직 전체 앱 설정** 을 클릭합니다.
+    1. Microsoft Teams 관리 센터의 왼쪽 탐색 영역에서 **Teams 앱****관리 앱** > 으로 이동한 다음 **조직 전체 앱 설정을** 선택합니다.
 
-    1. **사용자 지정 앱** 에서 **사용자 지정 앱과의 상호 작용 허용** 을 켠 다음 **저장** 을 클릭합니다.
+    1. **사용자 지정 앱** 에서 **사용자 지정 앱과의 상호 작용 허용을** 켜고 **저장** 을 선택합니다.
 
 1. 전역 앱 설정 정책에서 **사용자 지정 앱 업로드** 설정을 끕니다. 이를 수행하려면 다음을 수행하세요.
 
-    1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **Teams 앱** > **설정 정책** 으로 이동한 다음 **전체(조직 전체 기본값)** 정책을 클릭합니다.
+    1. Microsoft Teams 관리 센터의 왼쪽 탐색 영역에서 **Teams 앱** > **설정 정책** 으로 이동한 다음 **전역(조직 전체 기본값)** 정책을 선택합니다.
 
-    1. **사용자 지정 앱 업로드** 를 끄고 **저장** 을 클릭합니다.
+    1. **사용자 지정 앱 업로드** 를 끄고 **저장** 을 선택합니다.
 
 1. 사용자 지정 앱 업로드를 허용하는 새 앱 설정 정책을 만들고 신뢰할 수 있는 사용자 집합에 할당합니다. 이를 수행하려면 다음을 수행하세요.
 
-    1. Microsoft Teams 관리 센터의 왼쪽 탐색 메뉴에서 **Teams 앱** > **설정 정책** 으로 이동한 다음 **추가** 를 클릭합니다. 새 정책에 이름과 설명을 지정하고 **사용자 지정 앱 업로드** 를 켠 다음 **저장** 을 클릭합니다.
+    1. Microsoft Teams 관리 센터의 왼쪽 탐색 영역에서 **Teams 앱** > **설정 정책** 으로 이동한 다음 **추가** 를 선택합니다. 새 정책에 이름과 설명을 지정하고 **사용자 지정 앱 업로드** 를 켜고 **저장** 을 선택합니다.
 
-    1. 생성한 새 정책을 선택한 다음 **사용자 관리** 를 클릭합니다. 사용자를 검색하고 **추가** 를 클릭한 다음 **적용** 을 클릭합니다. 이 단계를 반복하여 신뢰할 수 있는 모든 사용자에게 정책을 할당합니다.
+    1. 만든 새 정책을 선택한 다음 **사용자 관리를** 선택합니다. 사용자를 검색하고 **추가** 를 선택한 다음 **적용** 을 선택합니다. 이 단계를 반복하여 신뢰할 수 있는 모든 사용자에게 정책을 할당합니다.
 
-       !["앱 설정 정책 추가" 페이지의 스크린샷](media/manage-your-lob-apps-new-app-setup-policy.png)
+       :::image type="content" source="media/manage-your-lob-apps-new-app-setup-policy.png" alt-text="앱 설정 정책 추가 페이지의 스크린샷.":::
 
 이제 이러한 사용자는 앱 매니페스트를 업로드하여 앱이 프로덕션 테넌트에서 올바르게 작동하는지 확인할 수 있습니다.
 
@@ -80,9 +80,10 @@ Teams 스토어의 모든 앱은 글로벌 Teams 앱 스토어의 품질 및 보
 조직의 앱 스토어에서 사용자가 앱을 사용할 수 있도록 하려면 앱을 업로드하세요.
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 메뉴에서 **Teams 앱** > **[앱 관리](https://admin.teams.microsoft.com/policies/manage-apps)** 로 이동합니다.
-1. **업로드** 를 선택하고 **업로드** 를 클릭하고 개발자로부터 받은 앱 패키지를 선택한 다음 **열기** 를 선택합니다.
 
-   ![관리 센터에서 앱을 업로드하는 스크린샷.](media/manage-your-lob-apps-upload-new-app.png)
+1. **업로드** 를 선택하고, **업로드** 를 선택하고, 개발자로부터 받은 앱 패키지를 선택하고, **열기** 를 선택합니다.
+
+   ![관리 센터의 사용자 지정 앱 업로드 스크린샷](media/manage-your-lob-apps-upload-new-app.png)
 
 ## <a name="set-up-and-manage"></a>설정 및 관리
 
@@ -92,7 +93,7 @@ Teams 스토어의 모든 앱은 글로벌 Teams 앱 스토어의 품질 및 보
 
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>사용자가 검색할 수 있도록 앱을 고정하고 설치하세요.
 
-기본적으로 사용자가 앱을 찾으려면 조직의 앱 스토어로 이동하여 찾아보거나 검색해야 합니다. 사용자가 앱에 쉽게 액세스할 수 있도록 Teams의 앱 표시줄에 앱을 고정할 수 있습니다. 이렇게 하려면 앱 설정 정책을 만들고 사용자에게 할당합니다. 자세한 내용은 [Teams에서 앱 설정 정책 관리](teams-app-setup-policies.md)를 참조하세요.
+기본적으로 사용자가 앱을 찾으려면 조직의 앱 스토어로 이동하여 찾아보거나 검색해야 합니다. 사용자가 앱에 쉽게 액세스할 수 있도록 Teams의 앱 표시줄에 앱을 고정할 수 있습니다. 앱을 고정하려면 앱 설정 정책을 만들고 사용자에게 할당합니다. 자세한 내용은 [Teams에서 앱 설정 정책 관리](teams-app-setup-policies.md)를 참조하세요.
 
 ### <a name="search-the-audit-log-for-teams-app-events"></a>Teams 앱 이벤트에 대한 감사 로그 검색
 
@@ -108,17 +109,17 @@ Teams 스토어의 모든 앱은 글로벌 Teams 앱 스토어의 품질 및 보
 
 앱 설정 정책을 만들고 할당한 경우 정책이 할당된 사용자가 쉽게 액세스할 수 있도록 앱이 Teams의 앱 표시줄에 고정됩니다.
 
-## <a name="update"></a>업데이트
+## <a name="update-a-custom-app"></a>사용자 지정 앱 업데이트
 
 앱을 업데이트하려면 개발자는 [앱 만들기](#create-your-app) 및 [확인](#validate) 섹션의 단계를 따릅니다.
 
-Microsoft Teams 관리 센터의 앱 관리 페이지에서 앱을 업데이트할 수 있습니다. 이렇게 하려면 Microsoft Teams 관리 센터의 왼쪽 탐색 메뉴에서 **Teams 앱** > **앱 관리** 로 이동합니다. 앱 이름을 클릭한 다음 **업데이트** 를 클릭합니다. 이렇게 하면 기존 앱이 대체되고 모든 앱 권한 정책 및 앱 설정 정책은 업데이트된 앱에 계속 적용됩니다.
+Microsoft Teams 관리 센터의 앱 관리 페이지에서 앱을 업데이트할 수 있습니다. 앱을 업데이트하려면 Microsoft Teams 관리 센터의 왼쪽 탐색 영역에서 **Teams 앱****관리 앱** > 으로 이동합니다. 앱 **이름을 선택한 다음** 업데이트를 선택합니다. 앱을 업데이트하면 기존 앱이 대체되고 모든 앱 권한 정책 및 앱 설정 정책이 업데이트된 앱에 계속 적용됩니다.
 
 ### <a name="end-user-update-experience"></a>최종 사용자 업데이트 환경
 
 대부분의 경우 앱 업데이트를 완료하면 최종 사용자에게 새 버전이 자동으로 표시됩니다. 자세한 내용은 [최종 사용자 업데이트 환경](apps-update-experience.md)을 참조하세요.
 
-## <a name="remove"></a>제거
+## <a name="remove-a-custom-app-from-your-organizations-store"></a>조직의 스토어에서 사용자 지정 앱 제거
 
 앱을 제거하려면 다음 단계를 따르세요.
 

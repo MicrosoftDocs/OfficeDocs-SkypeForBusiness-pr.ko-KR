@@ -21,15 +21,16 @@ ms.collection:
 - microsoftcloud-healthcare
 - microsoftcloud-retail
 - m365initiative-lists
+- m365-frontline
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: efb9f2ce1f96dbddef049166e34fd999a5ed987e
-ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
+ms.openlocfilehash: 39d44feb46fa20cb27755792e7f2236ed16b051f
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66842234"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396279"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 Lists 앱 관리
 
@@ -95,7 +96,7 @@ Lists를 통해 사용자는 데스크톱, 웹 및 모바일 환경을 사용할
 
 Lists는 조직의 모든 Teams 사용자에 대해 기본적으로 사용하도록 설정됩니다. Microsoft Teams 관리자 센터의 [앱 관리](manage-apps.md) 페이지에서 조직 수준에서 앱을 끄거나 켤 수 있습니다.
 
-1. Microsoft Teams 관리 센터의 왼쪽 창에서 **Teams 앱****관리 앱** > 으로 이동합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 창에서 **Teams 앱** > **앱 관리** 로 이동합니다.
 2. 다음 중 하나를 수행합니다.
 
     - 조직의 목록을 해제하려면 목록 앱을 검색하고 선택한 다음 **차단** 을 선택합니다.

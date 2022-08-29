@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 05be32bff1069d11ea26d28e6eb5377ec04e65e9
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 2f4809d615d97aa46ecad3b46c2b723c33b4619e
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299067"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396869"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Teams 앱 사용 권한 및 고려 사항
 
@@ -96,7 +96,7 @@ Microsoft Teams 앱은 하나 이상의 기능을 설치, 업그레이드 및 �
 
 * 사용자가 봇과 대화할 때 봇이 사용자의 ID를 저장하는 경우 언제든지 사용자에게 직접 메시지를 보낼 수 있습니다.
 
-* 이론적으로는 봇 메시지에 피싱 또는 맬웨어 사이트에 대한 링크가 포함될 수 있습니다. 그러나 사용자, 테넌트 관리자 또는 전역적으로 Microsoft에서 봇을 차단할 수 있습니다. [앱 확인 및 유효성 검사](overview-of-app-validation.md)를 통해 Teams 스토어에서 가짜 앱을 사용할 수 없습니다.
+* 이론적으로는 봇 메시지에 피싱 또는 맬웨어 사이트에 대한 링크가 포함될 수 있습니다. 그러나 사용자, 테넌트 관리자 또는 전역적으로 Microsoft에서 봇을 차단할 수 있습니다. [앱 확인 및 유효성 검사](overview-of-app-validation.md) 에서는 모든 가짜 앱을 Teams 스토어에서 사용할 수 없도록 합니다.
 
 * 봇은 앱이 추가된 팀 구성원 또는 개인 또는 그룹 채팅의 개별 사용자에 대한 기본 ID 정보를 검색(및 저장할 수 있음)할 수 있습니다. 이러한 사용자에 대한 추가 정보를 얻으려면 봇이 Azure Active Directory(Azure AD)에 로그인하도록 요구해야 합니다.
 
@@ -105,8 +105,6 @@ Microsoft Teams 앱은 하나 이상의 기능을 설치, 업그레이드 및 �
 * 기본적으로 봇은 사용자를 대신하여 작업할 수 없지만 봇은 사용자에게 로그인하도록 요청할 수 있습니다. 사용자가 로그인하는 즉시 봇은 추가 작업을 수행할 수 있는 액세스 토큰을 갖게 됩니다. 봇과 사용자가 로그인하는 위치에 따라 정확히 무엇이 달라지는지 정확히 알 수 있습니다. 봇은 https://apps.dev.microsoft.com/에 등록된 Azure AD 앱이며 자체 사용 권한 집합을 가질 수 있습니다.
 
 * 파일이 봇에 전송되면 파일은 회사 네트워크를 떠납니다. 파일을 보내고 받으려면 각 파일에 대한 사용자 승인이 필요합니다.
-
-* 기본적으로 봇은 사용자를 대신하여 작업할 수 없지만 봇은 사용자에게 로그인하도록 요청할 수 있습니다. 사용자가 로그인하는 즉시 봇은 추가 작업을 수행할 수 있는 액세스 토큰을 갖게 됩니다. 이러한 추가 항목이 정확히 무엇인지는 봇 및 사용자가 로그인하는 위치에 따라 달라집니다. 봇은 [애플리케이션 등록 포털](https://apps.dev.microsoft.com/?referrer=https:%2f%2fdocs.microsoft.com%2f#/appList)에 등록된 Azure AD 앱이며 자체 사용 권한 집합을 가질 수 있습니다.
 
 * 봇은 사용자가 팀에 추가되거나 팀에서 삭제될 때마다 알려줍니다.
 

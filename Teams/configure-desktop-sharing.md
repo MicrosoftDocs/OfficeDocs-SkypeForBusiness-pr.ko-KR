@@ -17,21 +17,20 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c94991255b7309e1510a934645f1f4cf0b7e049
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 759751dba6a674c9236c7c401209740f298c2a6f
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562387"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418447"
 ---
 # <a name="configure-desktop-sharing-in-microsoft-teams"></a>Microsoft Teams에서 데스크톱 공유 구성하기
 
-데스크톱 공유를 통해 사용자는 모임이나 채팅 도중에 화면이나 앱을 표시할 수 있습니다. 관리자는 사용자가 전체 화면, 앱 또는 파일을 공유할 수 있도록 Microsoft Teams에서 화면 공유를 구성할 수 있습니다. 사용자가 제어권을 주거나 요청하고, PowerPoint 공유를 허용하고, 화이트보드를 추가하고, 공유 노트를 허용하도록 할 수 있습니다. 익명 사용자나 외부 사용자가 공유 화면의 제어권을 요청할 수 있는지 여부도 구성할 수 있습니다. Teams 모임의 외부 참가자는 다음과 같이 분류할 수 있습니다.
+데스크톱 공유를 통해 사용자는 모임이나 채팅 도중에 화면이나 앱을 표시할 수 있습니다. 관리자는 사용자가 전체 화면, 앱 또는 파일을 공유할 수 있도록 Microsoft Teams에서 화면 공유를 구성할 수 있습니다. 사용자가 제어권을 주거나 요청하고, PowerPoint 공유를 허용하고, 화이트보드를 추가하고, 공유 노트를 허용하도록 할 수 있습니다. 익명 또는 외부 참가자가 공유 화면의 제어를 요청할 수 있는지 여부를 구성할 수도 있습니다. Teams 모임의 외부 참가자는 다음과 같이 분류할 수 있습니다.
 
-- 익명 사용자
-- 게스트 사용자
-- B2B 사용자
-- 페더레이션 사용자
+- 익명 참가자
+- 게스트
+- 외부 액세스 사용자
 
 화면 공유를 구성하려면 새 모임 정책을 만든 다음 관리하려는 사용자에게 할당합니다.
 

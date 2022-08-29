@@ -16,12 +16,12 @@ description: Adobe Acrobat을 기본 PDF 뷰어로 설정하여 Microsoft Teams�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 9e8860c10e74d5dc06f73632b33b6c94ea792a09
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: b1c5654791dde3def8ec622880e26b07f693633f
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299247"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396709"
 ---
 # <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>Microsoft Teams의 기본 PDF 뷰어로 Adobe Acrobat 사용하기
 
@@ -39,11 +39,11 @@ Adobe Acrobat 앱을 테넌트의 PDF 파일 기본 핸들러로 구성하려면
 
 앱을 설정하기 전에 테넌트에서 앱을 사용할 수 있도록 허용해야 합니다. 구체적으로 Adobe Acrobat 앱을 허용하고 앱 권한 정책에서 Adobe Acrobat 앱을 허용하도록 설정하세요. Adobe Acrobat을 PDF 파일의 기본 앱으로 설정하려면 다음 단계를 수행합니다.
 
-1. Teams 관리 센터에 로그인하고 **Teams 앱** > **[앱 관리](https://admin.teams.microsoft.com/policies/manage-apps)** 로 이동합니다.
+1. Teams 관리 센터에 로그인하고 **Teams 앱 관리 앱** > 에 액세스 **[합니다](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
-1. Adobe Acrobat 앱을 검색하고 선택합니다.
+1. Adobe Acrobat 앱을 검색하고 선택합니다. 앱 세부 정보 페이지가 열립니다.
 
-1. **사용 권한** 탭에서 **사용 권한 검토** 를 선택합니다.
+1. **사용 권한 탭을** 선택한 다음 **검토 권한을** 선택합니다.
 
    :::image type="content" source="media/permission-policy.png" alt-text="Teams 관리 센터의 앱 사용 권한 스크린샷" lightbox="media/teams-app-adobe-acrobat-permission.png":::
 

@@ -18,12 +18,13 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 5eeea688d2fcaa67b2125ff67e15d80b981a03df
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+- m365-frontline
+ms.openlocfilehash: 23c75051268de176cc14a9b8df426e8d67f5a2d3
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267853"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396499"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 작업 앱 관리
 
@@ -59,7 +60,7 @@ ms.locfileid: "67267853"
 
 작업은 조직의 모든 Teams 사용자에 대해 기본적으로 사용하도록 설정됩니다. Microsoft Teams 관리자 센터의 [앱 관리](manage-apps.md) 페이지에서 조직 수준에서 앱을 끄거나 켤 수 있습니다.
 
-1. Microsoft Teams 관리 센터의 왼쪽 창에서 **Teams 앱****관리 앱** > 으로 이동합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 창에서 **Teams 앱** > **앱 관리** 로 이동합니다.
 2. 앱 목록에서 다음 작업 중 하나를 실행합니다.
 
     - 조직의 작업을 끄려면 작업 앱을 검색하고 선택한 다음 **차단** 을 선택합니다.

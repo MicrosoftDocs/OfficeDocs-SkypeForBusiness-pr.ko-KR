@@ -16,12 +16,12 @@ f1.keywords:
 description: 직접 라우팅 프로토콜
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a4ba1715ccf7b1ea2f0dbf12b58fd5aa6556b24
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 00df395ab67ea3e268cb31f202dd59cba4d4148b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271263"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396319"
 ---
 # <a name="direct-routing---sip-protocol"></a>직접 라우팅 - SIP 프로토콜
 
@@ -42,7 +42,7 @@ ms.locfileid: "67271263"
 | 연락처 헤더 | 연락처: <sip:sbc1.adatum.biz:50588;transport=tls> |
 
 > [!NOTE]
-> SIP 헤더는 사용 중인 SIP URI에 userinfo를 포함하지 않습니다. [RFC 3261, 섹션 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1)에 따라, URI의 userinfo 부분은 선택 사항이며 대상 호스트에 사용자 개념이 없거나 hosst 자체가 식별되는 리소스인 경우 URI가 없을 수 있습니다. @ 기호가 SIP URI에 있는 경우 사용자 필드는 비어 있지 않아야 합니다.
+> SIP 헤더는 사용 중인 SIP URI에 userinfo를 포함하지 않습니다. [RFC 3261, 섹션 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1)에 따라 URI의 userinfo 부분은 선택 사항이며 대상 호스트에 사용자 개념이 없거나 호스트 자체가 식별되는 리소스일 때 없는 것일 수 있습니다. @ 기호가 SIP URI에 있는 경우 사용자 필드는 비어 있지 않아야 합니다.
 > SIPS URI는 지원되지 않으므로 직접 라우팅과 함께 사용하면 안 됩니다.
 > 세션 테두리 컨트롤러 구성을 확인하고 SIP 요청에서 "Replaces" 헤더를 사용하지 않는지 확인합니다. 직접 라우팅은 Replaces 헤더가 정의된 SIP 요청을 거부합니다.
 

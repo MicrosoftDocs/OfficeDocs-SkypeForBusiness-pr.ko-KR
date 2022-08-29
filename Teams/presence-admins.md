@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e1c436e6bcd204eb383228a73a115a70ae29e08
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
-ms.translationtype: HT
+ms.openlocfilehash: 1b28dfccd79c99d633d56480963f06632cd758ae
+ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563766"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67283099"
 ---
 # <a name="user-presence-in-teams"></a>Teams에서의 사용자 현재 상태
 
@@ -91,7 +91,7 @@ ms.locfileid: "66563766"
 
 Teams의 관리자 설정은 비즈니스용 Skype와 다음과 같은 점에서 다릅니다.
 
-- Teams에서 조직의 사용자는 현재 상태 공유를 항상 사용할 수 있습니다. Teams에서는 개인 정보(현재 상태를 볼 수 있는 사용자를 정의하는 위치) 구성을 사용할 수 없습니다.
+- Teams에서 개인 정보 모드를 사용하지 않는 한 조직의 사용자에 대해 항상 현재 상태 공유를 사용할 수 있습니다. 개인 정보 모드에서는 외부 사용자에게 현재 상태가 표시되지 않습니다.
 - Teams의 사용자는 항상 모든 사용자와 현재 상태 공유(페더레이션 서비스 포함)가 활성화되어 있습니다. 연락처 목록(비즈니스용 Skype에 연락처 목록이 있는 경우)은 **채팅 > 연락처** 또는 **통화 > 연락처** 아래에 표시됩니다.
 - Teams의 사용자는 클라이언트 방해 금지 및 혁신적인 기능이 항상 활성화되어 있습니다.
 - Teams가 Outlook과 통합된 경우 사용자는 일정(부재 중 및 기타 일정 정보 포함) 통합이 항상 활성화되어 있습니다.

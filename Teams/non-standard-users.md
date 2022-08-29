@@ -1,5 +1,5 @@
 ---
-title: 사용자 유형에 따라 앱 동작 Teams
+title: 사용자 유형에 따라 Teams 앱 동작
 author: guptaashish
 ms.author: guptaashish
 ms.reviewer: joglocke
@@ -8,8 +8,8 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 게스트, 페더레이션 사용자 및 익명 사용자에 대해 Microsoft Teams 앱이 어떻게 다르게 작동하는지 알아봅니다.
-ms.localizationpriority: medium
+description: 게스트, 페더레이션 사용자 및 익명 사용자에 대해 Microsoft Teams의 앱이 어떻게 다르게 작동하는지 알아봅니다.
+ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,23 +17,23 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a57cba8a1172058f26eab22cabba62216e099ba8
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 940c021b18c390a7b5c9ec0f8a3325c49c87dae5
+ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045537"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67278602"
 ---
-# <a name="microsoft-teams-apps-behavior-based-on-types-of-users"></a>사용자 유형에 따라 앱 동작 Microsoft Teams
+# <a name="behavior-of-microsoft-teams-apps-based-on-types-of-in-meeting-users"></a>모임 내 사용자 유형에 따라 Microsoft Teams 앱의 동작
 
-Teams 앱은 게스트, 외부(페더레이션됨) 및 익명 사용자가 Teams 컨텍스트에 있을 때 동작합니다.
+Teams 앱은 게스트, 외부(페더레이션됨) 및 익명 사용자가 Teams 컨텍스트에 있을 때 작동합니다.
 
 * **게스트 사용자는** 조직의 직원, 학생 또는 구성원이 아닌 사람입니다. 조직에 학교 또는 직장 계정을 가지고 있지 않아야 합니다.
 
-* **외부(페더레이션된) 사용자는** 다른 도메인에 속하며 조직의 팀 또는 팀 리소스에 액세스할 수 없습니다.
+* **외부(페더레이션된) 사용자는** 다른 도메인에 있으며 조직의 Teams 리소스에 액세스할 수 없습니다.
 
   > [!Note]
-  > 게스트와 외부 사용자에 대한 자세한 비교는 [다른 조직의 사용자와 통신하는 것을 참조하세요](./communicate-with-users-from-other-organizations.md).
+  > 게스트 사용자와 외부 사용자 간의 자세한 비교는 [다른 조직의 사용자와 통신](./communicate-with-users-from-other-organizations.md)하는 것을 참조하세요.
 
 * **익명 사용자는** 링크를 통해 모임에 참가하는 사용자입니다. 사용자가 Microsoft 계정 또는 조직의 계정으로 로그인되지 않습니다.
 
@@ -67,8 +67,8 @@ Teams 앱은 게스트, 외부(페더레이션됨) 및 익명 사용자가 Teams
 
 ### <a name="usage-behavior-and-policy-for-federated-users"></a>페더레이션된 사용자에 대한 사용 동작 및 정책
 
-* 다른 조직의 사람들은 호스팅 조직의 전역(조직 전체 기본값) 정책을 준수합니다.
-* 호스팅 조직의 사용자는 다른 조직의 사용자와 모임 채팅에서 앱을 추가할 수 있습니다. 다른 조직의 사용자는 모임 채팅에서 앱을 추가할 수 없지만 채팅에 추가된 봇, 탭 및 메시지 확장과 상호 작용할 수 있습니다.
+* 다른 조직의 사람 호스팅 조직의 전역(조직 전체 기본값) 정책을 준수합니다.
+* 호스팅 조직의 사용자는 다른 조직의 사용자와 모임 채팅에서 앱을 추가할 수 있습니다. 다른 조직의 사람 모임 채팅에서 앱을 추가할 수 없지만 채팅에 추가된 봇, 탭 및 메시지 확장과 상호 작용할 수 있습니다.
 * 모임 채팅에 봇이 설치되면 해당 채팅에 있는 다른 조직의 사용자와 사전에 통신할 수 있으며 해당 사용자는 봇과 통신할 수 있습니다.
 * 호스팅 조직의 데이터 정책이 적용됩니다.
 * 해당 사용자 조직에서 공유하는 타사 앱의 데이터 공유 사례가 적용됩니다.
@@ -81,11 +81,11 @@ Teams 앱은 게스트, 외부(페더레이션됨) 및 익명 사용자가 Teams
 
 ### <a name="usage-behavior-and-policy-for-anonymous-users"></a>익명 사용자에 대한 사용 동작 및 정책
 
-익명 사용자는 모임에서 앱을 직접 사용할 수 없습니다. 앱이 채팅에서 적응형 카드를 보내는 경우 익명 사용자는 카드와 상호 작용할 수 있습니다. 이러한 사용자는 사용자 수준 권한 정책이 앱을 사용하도록 설정하는 경우 Teams 모임에서 앱과 상호 작용할 수 있습니다. 익명 사용자는 사용자 수준 전역 기본 권한 정책을 상속합니다.
+익명 사용자는 모임에서 앱을 직접 사용할 수 없습니다. 앱이 채팅에서 적응형 카드를 보내는 경우 익명 사용자는 카드와 상호 작용할 수 있습니다. 이러한 사용자는 사용자 수준 권한 정책에서 앱을 사용하도록 설정하는 경우 Teams 모임에서 앱과 상호 작용할 수 있습니다. 익명 사용자는 사용자 수준 전역 기본 권한 정책을 상속합니다.
 
 익명 사용자는 모임에서 이미 사용할 수 있지만 이러한 앱을 획득하고 관리할 수 없는 앱과만 상호 작용할 수 있습니다. 네이티브 사용자는 익명 사용자가 모임에 참석하는 경우에도 모임 앱을 계속 사용할 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 
 * [익명 사용자가 모임에 참가할 수 있도록 허용합니다](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
-* [Microsoft Teams 앱 설정 정책을 관리](teams-app-setup-policies.md)합니다.
+* [Microsoft Teams에서 앱 설정 정책을 관리합니다](teams-app-setup-policies.md).

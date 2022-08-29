@@ -11,6 +11,7 @@ audience: Admin
 ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
+- m365-frontline
 appliesto:
 - Microsoft Teams
 f1.keywords: ''
@@ -21,12 +22,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 의료 조직의 Teams 정책 패키지를 사용하고 관리하는 방법에 대해 알아 보세요.
-ms.openlocfilehash: a4613716b1c5ce626e5a00ce2ed884cfb208f097
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: 29192cfeec6545cdbbb5528eeabc1298146e4577
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819423"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397259"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>의료용 Teams 정책 패키지
 
@@ -101,7 +102,7 @@ Teams는 현재 다음 의료 정책 패키지를 포함하고 있습니다.
 
 #### <a name="assign-a-policy-package-to-a-group"></a>그룹에 정책 패키지 할당
 
-그룹에 정책 패키지 할당을 사용하면 보안 그룹 또는 배포 목록과 같은 사용자 그룹에 여러 정책을 할당할 수 있습니다. 정책 할당은 선행 규칙에 따라 그룹의 구성원에게 전파됩니다. 그룹에서 구성원이 추가되거나 제거되면 상속된 정책 할당이 그에 따라 업데이트됩니다. 이 방법은 최대 50,000명의 사용자가 있는 그룹에 적합하지만, 더 큰 그룹에도 적용됩니다.
+그룹에 정책 패키지 할당을 사용하면 보안 그룹이나 배포 목록과 같은 사용자 그룹에 여러 정책을 할당할 수 있습니다. 정책 할당은 선행 규칙에 따라 그룹의 구성원에게 전파됩니다. 그룹에서 구성원이 추가되거나 제거되면 상속된 정책 할당이 그에 따라 업데이트됩니다. 이 방법은 최대 50,000명의 사용자가 있는 그룹에 적합하지만, 더 큰 그룹에도 적용됩니다.
 
 자세한 내용은 [그룹에 정책 패키지 할당](assign-policy-packages.md#assign-a-policy-package-to-a-group)을 참조하세요.
 
