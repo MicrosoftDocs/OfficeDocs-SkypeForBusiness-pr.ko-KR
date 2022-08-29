@@ -7,11 +7,11 @@ author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 audience: admin
-ms.date: 04/05/2022
 ms.service: msteams
 ms.subservice: teams-apps
 ms.collection:
 - M365-collaboration
+- m365-frontline
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: b7e95c04a2a8632fbda566c322e474809703de03
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 78f0f0857884f70d5e758b1c52e13341c15faa0e
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298917"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397199"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Microsoft Teams 앱 이해하기
 
@@ -73,13 +73,13 @@ Microsoft에서 제공하는 앱 외에도 Microsoft에서 유효성을 검사�
 
 ## <a name="about-app-templates"></a>앱 템플릿 정보
 
-Teams용 앱 템플릿은 다음을 달성하기 위해 Microsoft에서 만든 기능 및 프로덕션 지원 샘플 앱입니다.
+Microsoft는 앱 개발 방법을 사용하여 기능 및 프로덕션 지원 샘플 앱을 만들고 제공합니다. 전체적으로 이러한 앱은 Teams용 앱 템플릿이라고 하며 다음을 위해 제공됩니다.
 
-* 인기 있는 사용 사례를 보여줍니다.
-* 앱 개발 모범 사례를 보여줍니다.
-* 개발자가 확장하여 사용자 지정 앱을 만들 수 있는 오픈 소스 앱을 제공합니다.
+* Teams에서 몇 가지 공동 작업 사용 사례를 보여 줍니다.
+* 앱 개발 모범 사례 및 방법을 소개합니다.
+* 개발자가 확장하여 자체 앱을 만들 수 있는 오픈 소스 앱을 제공합니다.
 
-조직 개발자는 GitHub에서 사용할 수 있는 코드를 간단하게 변경하여 앱 템플릿을 사용자 지정합니다. 조직의 요구 사항을 충족할 수 있도록 이러한 앱을 최종 사용자를 위한 사용자 지정 앱으로 제공합니다.
+조직 개발자는 제공된 소스 코드를 간단하게 변경하여 앱 템플릿을 사용자 지정합니다. 조직의 요구 사항을 충족할 수 있도록 이러한 앱을 최종 사용자를 위한 사용자 지정 앱으로 제공합니다.
 
 자세한 내용은 [Microsoft Teams 앱 템플릿](https://adoption.microsoft.com/microsoft-teams/app-templates/)을 참조하세요.
 
@@ -167,3 +167,7 @@ You can use activity reports to see how users in your organization are using Tea
 | Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
 
 --->
+
+## <a name="related-articles"></a>관련 기사
+
+* [Teams용 앱 템플릿에 대해 자세히 알아보세요](/microsoftteams/platform/samples/app-templates).

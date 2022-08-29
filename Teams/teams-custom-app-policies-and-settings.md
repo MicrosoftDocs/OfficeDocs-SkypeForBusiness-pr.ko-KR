@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 45b6ec9809fe0c86f1a4acb69ef78c5c5f30f230
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 7ff0a37d815b3118aea0eb63abc8a414c4a99bd5
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299137"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397249"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Microsoft Teams에서 사용자 지정 앱 정책 및 설정 관리
 
@@ -64,11 +64,11 @@ ms.locfileid: "67299137"
 
 #### <a name="set-a-user-custom-app-policy"></a>사용자 사용자 지정 앱 정책 설정
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **Teams 앱** > **설정 정책** 으로 이동합니다.
-2. **추가** 를 클릭합니다.
-3. **사용자 지정 앱 업로드** 를 켜거나 끕니다.
-4. 정책에 대해 원하는 다른 설정을 선택합니다.
-5. **저장** 을 클릭합니다.
+1. Teams 관리 센터에 로그인하고 **Teams 앱** > **[설정 정책에 액세스합니다](https://admin.teams.microsoft.com/policies/app-setup)**.
+1. **추가** 를 선택합니다.
+1. **사용자 지정 앱 업로드** 를 켜거나 끕니다.
+1. 정책에 대해 원하는 다른 설정을 선택합니다.
+1. **저장** 을 선택합니다.
 
 ### <a name="team-custom-app-setting"></a>팀 사용자 지정 앱 설정
 
@@ -86,8 +86,8 @@ ms.locfileid: "67299137"
 
 #### <a name="configure-the-team-custom-app-setting"></a>팀 사용자 지정 앱 설정 구성
 
-1. Teams에서 팀으로 이동하여 **기타 옵션...**  >  **팀 관리** 를 클릭합니다.
-2. **설정** 을 클릭한 다음 **구성원 권한** 을 확장합니다.
+1. Teams에서 팀으로 이동하여 **추가 옵션을 선택합니다.** >  **팀을 관리합니다**.
+2. **설정을** 선택하고 **멤버 권한을 확장합니다**.
 3. **구성원이 사용자 지정 앱을 업로드하도록 허용** 확인란을 선택하거나 선택 취소합니다.
 
     ![팀 사용자 지정 앱 설정을 보여 주는 스크린샷](media/teams-custom-app-policy-and-settings-team.png)
@@ -98,9 +98,9 @@ ms.locfileid: "67299137"
 
 #### <a name="configure-the-org-wide-custom-app-setting"></a>조직 전체 사용자 지정 앱 설정 구성
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 관리** 로 이동합니다.
-2. **조직 전체 앱 설정** 을 클릭합니다.
-3. **사용자 지정 앱** 에서 **사용자 지정 앱과의 상호 작용 허용** 을 켜거나 끕니다.
+1. Teams 관리 센터에 로그인하고 **Teams 앱 관리 앱** > 에 액세스 **[합니다](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. **조직 전체 앱 설정을** 선택합니다.
+1. **사용자 지정 앱** 에서 **사용자 지정 앱과의 상호 작용 허용** 을 켜거나 끕니다.
 
     ![조직 전체의 사용자 지정 앱 설정을 보여 주는 스크린샷](media/teams-custom-app-policy-and-settings-org-wide.png)
 
@@ -125,8 +125,7 @@ ms.locfileid: "67299137"
 | 설정     | 설정     | 해제         | 사용자는 사용자 지정 앱을 업로드할 수 없습니다.       |
 | 설정    | 설정        | 설정        | 사용자는 사용자가 팀 소유자인지 여부에 관계없이 팀에 사용자 지정 앱을 업로드할 수 있습니다. 사용자는 개인 컨텍스트에서 사용자 정의 앱을 업로드할 수 있습니다.       |
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-articles"></a>관련 기사
 
-[Teams의 앱에 대한 관리 설정](admin-settings.md)
-
-[Teams에서 사용자에게 정책 할당](assign-policies-users-and-groups.md)
+- [Teams의 앱에 대한 관리 설정](admin-settings.md)입니다.
+- [Teams에서 사용자에게 정책을 할당합니다](assign-policies-users-and-groups.md).

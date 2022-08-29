@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 880ed3680fa5d5c6b45c5a79ca99f5ed40c2587e
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
-ms.translationtype: HT
+ms.openlocfilehash: 707360ec39e82c86732433e42752cedbdb649119
+ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794383"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67405130"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams의 하드웨어 요구 사항
 
@@ -44,7 +44,7 @@ ms.locfileid: "66794383"
 |.NET 버전    |  .NET 4.5 CLR 이상 필요       |
 |비디오    |  USB 2.0 비디오 카메라       |
 |장치    |   표준 노트북 카메라, 마이크 및 스피커    |
-|화상 통화 및 모임|<ul><li>2코어 프로세서가 필요합니다. 비디오/화면 공유 해상도 및 프레임 속도 향상을 위해 4코어 프로세서 이상을 권장합니다.</li> <li>배경 비디오 효과에는 Windows 10 또는 AVX2 명령 집합이 있는 프로세서가 필요합니다.</li> <li>지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조하세요.</li><li>Microsoft Teams 룸에서 주변 검색을 사용하여 모임에 참가하려면 클라이언트 장치에서 Bluetooth의 활성화가 요구되는 Bluetooth LE가 필요하고 Windows 클라이언트의 경우 64비트 Teams 클라이언트도 필요합니다. 이 기능은 32비트 Teams 클라이언트에서는 이용할 수 없습니다.</li></ul> |
+|화상 통화 및 모임|<ul><li>2코어 프로세서가 필요합니다. 비디오/화면 공유 해상도 및 프레임 속도 향상을 위해 4코어 프로세서 이상을 권장합니다.</li> <li>배경 비디오 효과에는 Windows 10 또는 AVX2 명령 집합이 있는 프로세서가 필요합니다.</li> <li>지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조하세요.</li><li>Microsoft Teams 룸에서 근접 검색을 사용하여 모임에 참가하려면 Bluetooth LE가 필요합니다. Windows의 Bluetooth LE를 사용하려면 클라이언트 디바이스에서 Bluetooth를 사용하도록 설정해야 하며 Teams 클라이언트의 64비트 버전이 필요합니다. 이 기능은 32비트 Teams 클라이언트에서는 사용할 수 없습니다.</li></ul> |
 |Teams 라이브 이벤트 | Teams 라이브 이벤트를 생성하는 경우 Core i5 Kaby Lake 프로세서, 4.0GB RAM 이상 및 하드웨어 인코더가 있는 컴퓨터를 사용하는 것이 좋습니다. **지원되지 않는** 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조하세요. |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Mac용 Teams 하드웨어 요구 사항
@@ -58,7 +58,7 @@ ms.locfileid: "66794383"
 |운영 체제  |    가장 최근 세 가지 macOS 버전 중 하나. 최신 macOS 버전에 대한 정보와 macOS 버전을 업그레이드하는 방법에 대한 정보를 찾을 수 있습니다. [여기](https://support.apple.com/en-us/HT201260). 예를 들어 새 버전의 macOS가 릴리스된 경우 새 버전과 바로 이전 두 버전이 지원되는 버전이 됩니다.      |
 |비디오  |    호환되는 웹캠     |
 |음성    |  호환되는 마이크 및 스피커, 마이크가 장착된 헤드셋 또는 동급 장치.       |
-|화상 통화 및 모임 | <ul><li>2코어 프로세서가 필요합니다. 비디오/화면 공유 해상도 및 프레임 속도 향상을 위해 4코어 프로세서 이상을 권장합니다. </li><li>macOS에서는 Microsoft Teams 룸에서 주변 검색을 사용하여 모임에 참가할 수 없습니다.</li></ul>
+|화상 통화 및 모임 | <ul><li>2코어 프로세서가 필요합니다. 비디오/화면 공유 해상도 및 프레임 속도 향상을 위해 4코어 프로세서 이상을 권장합니다. </li><li>Microsoft Teams 룸에서 근접 검색을 사용하여 모임에 참가하려면 Bluetooth LE가 필요합니다. Bluetooth LE를 사용하려면 클라이언트 디바이스에서 Bluetooth를 사용하도록 설정해야 합니다.</li></ul>
 |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Linux용 Teams 하드웨어 요구 사항

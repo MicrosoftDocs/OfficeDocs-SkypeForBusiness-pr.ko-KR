@@ -11,6 +11,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365-frontline
 description: Microsoft Teams 관리 센터에서 팀 템플릿 및 관리 방법에 대해 알아봅니다.
 f1.keywords:
 - CSH
@@ -18,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bff3c2c63b94df4c1e19a748d3e9e9912574faa
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: e4fb9c538335a50271bd0ae15249ec8aec7af95b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819359"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396729"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Teams 관리 센터에서 팀 템플릿 시작하기
 
@@ -43,7 +44,7 @@ Microsoft Teams 관리 센터에서 또는 PowerShell을 사용하여 팀 템플
 이 문서에서는 Teams 관리 센터에서 팀 템플릿 작업에 대한 개요를 제공합니다. 템플릿에서 지원되는 속성, 제공하는 미리 빌드된 템플릿, 템플릿 크기 제한, 템플릿을 만들고 관리하는 방법 등에 대해 알아봅니다.
 
 > [!NOTE]
-> 사용자는 Teams 앱 [에서 미리 빌드된 팀 또는 사용자 지정 팀 템플릿에서 팀을 만들 수 있습니다](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) . 개발자는 Microsoft Graph를 사용하여 미리 빌드된 팀 템플릿에서 프로그래밍 방식으로 팀을 만들 수도 있습니다. 자세한 내용은 [Microsoft Graph를 사용하여 팀 템플릿 시작](get-started-with-teams-templates.md) 방법을 참조하세요.
+> 사용자는 Teams 앱 [에서 미리 빌드된 팀 또는 사용자 지정 팀 템플릿에서 팀을 만들 수 있습니다](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) . 개발자는 Microsoft Graph를 사용하여 미리 빌드되거나 사용자 지정 팀 템플릿에서 프로그래밍 방식으로 팀을 만들 수도 있습니다. 자세한 내용은 [Microsoft Graph를 사용하여 팀 템플릿 시작](get-started-with-teams-templates.md) 방법을 참조하세요.
 
 ## <a name="team-template-capabilities"></a>팀 템플릿 기능
 

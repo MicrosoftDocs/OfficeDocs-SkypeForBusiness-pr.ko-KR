@@ -20,15 +20,16 @@ ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
 - microsoftcloud-retail
+- m365-frontline
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ec51237ff9a3b0dff1894581364756afbfd6f5cf
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 759e0cb846b6bca404276e50ca00a1ff28d5725c
+ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269013"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67405140"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 교대 근무s 앱 관리
 
@@ -89,6 +90,17 @@ Shifts 앱을 추가하여 [사용자 지정 앱 설정 정책을](../../teams-a
 Teams의 [정책 패키지](../../manage-policy-packages.md) 는 조직에서 비슷한 역할을 가진 사용자에게 할당할 수 있는 미리 정의된 정책 및 정책 설정의 컬렉션입니다. Frontline Worker 및 Frontline Manager 정책 패키지의 정책 집합에는 Shifts 앱 및 해당 역할에 대한 통신 및 공동 작업 활동을 지원하는 기타 앱을 고정하는 앱 설정 정책이 포함됩니다.
 
 최전방 작업자 및 최전방 관리자 정책 패키지를 사용하여 일선 인력에 대한 정책을 관리할 때 단순화, 간소화 및 일관성을 제공하는 것이 좋습니다.
+
+### <a name="enable-shift-based-tags-in-teams"></a>Teams에서 교대 근무 기반 태그 사용
+
+Teams[의 태그를](https://support.microsoft.com/office/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e) 사용하면 사용자가 팀의 하위 집합에 쉽게 연결할 수 있습니다. 교대 근무 기반 태그를 사용하면 Shifts에서 일정 및 교대 근무 그룹 이름과 일치하는 태그가 자동으로 할당됩니다. 태그는 채팅에서 **To** 줄의 @mentions 또는 팀의 표준 채널에 있는 게시물에 사용할 수 있습니다.
+
+Shift 기반 태그를 사용하면 사용자가 실시간으로 교대 근무 중인 사용자에게 연결할 수 있습니다. 알림은 채팅 또는 채널 게시물에서 태그를 사용할 때 교대 근무 중인 사용자에게만 전송됩니다. 예를 들면 다음과 같습니다.
+
+- 매장 관리자는 @Cashiers 태그를 사용하여 모든 교대 근무 계산원의 채널에 공지 사항을 게시합니다.
+- 간호사는 @CardiologistsOnCall 태그를 사용하여 모든 온콜 심장 전문의와 채팅을 시작합니다.
+
+Microsoft Teams 관리 센터에서 기능을 켜거나 끌 수 있습니다. 자세한 내용은 [Teams에서 태그 관리](../../manage-tags.md)를 참조하세요.
 
 ## <a name="search-the-audit-log-for-shifts-events"></a>교대 근무 이벤트에 대한 감사 로그 검색
 
