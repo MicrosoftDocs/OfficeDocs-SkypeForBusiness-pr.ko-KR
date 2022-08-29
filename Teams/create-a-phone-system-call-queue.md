@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Microsoft Teams에서 통화 큐를 설정하는 방법을 알아봅니다. 통화 큐는 인사말 메시지를 제공하고, 음악을 누르고, 통화 리디렉션 및 기타 기능을 제공합니다.
-ms.openlocfilehash: cd5e0cc291b353b8bb46d82333275cc44ef860d3
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: f14c0644c7a4be2a63e74ae59705bb7e3bc0cb76
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616174"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443335"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 
@@ -42,6 +42,14 @@ ms.locfileid: "66616174"
 - 큐 오버플로 및 시간 제한에 대한 처리 옵션
 
 이 문서의 절차를 따르기 전에 [Teams 자동 전화 교환 및 통화 큐에 대한 계획을](plan-auto-attendant-call-queue.md) 읽고 [시작 단계를](plan-auto-attendant-call-queue.md#getting-started) 수행했는지 확인합니다.
+
+## <a name="whats-new-for-call-queues-in-the-past-6-months"></a>지난 6개월 동안의 통화 큐의 새로운 기능
+
+- 8월
+  - 이제 통화 큐 주 인사 **말에 대해 인사말 메시지** 추가(TTS(Text to Speech)가 지원됩니다.
+  - **이제 공유 음성 메일로 라우팅할 때 음성 메일 시스템 메시지** 컨트롤이 노출되며, **이는 인사말 메시지 추가** 프롬프트에도 적용됩니다.
+
+## <a name="steps-to-create-a-call-queue"></a>통화 큐를 만드는 단계
 
 통화 큐를 설정하는 단계는 다음과 같습니다.
 
@@ -137,9 +145,13 @@ ID를 호출하기 위해 이 새 리소스 계정을 만든 후에도 다음을
 
 ## <a name="step-2-add-a-greeting-and-on-hold-music"></a>2단계: 인사말 및 보류 중인 음악 추가
 
+*새로 만들기 - 이제 통화 큐 주 인사 **말에 대해 인사말 메시지** 추가(TTS(텍스트 음성 변환)가 지원됩니다.*
+
 발신자가 큐에 도착할 때 *인사말* 을 재생할지 지정합니다.
 
-**오디오 파일 재생을** 선택하는 경우 재생할 인사말이 포함된 MP3, WAV 또는 WMA 파일을 업로드해야 합니다. 업로드된 녹음/녹화의 크기는 5MB 이상일 수 없습니다.
+- **오디오 파일 재생을** 선택하는 경우 재생할 인사말이 포함된 MP3, WAV 또는 WMA 파일을 업로드해야 합니다. 업로드된 녹음/녹화의 크기는 5MB 이상일 수 없습니다.
+
+- **인사말 입력을** 선택하면 통화 큐가 통화에 응답할 때 시스템에서 입력한 텍스트(최대 1,000자)를 읽습니다.
 
 Teams는 *큐에 대기* 중인 동안 발신자에게 기본 음악을 제공합니다.
 
@@ -299,14 +311,14 @@ Teams 채널을 통해 최대 200명의 에이전트를 추가할 수 있습니�
 
 예를 들어 발신자에 큐에 있는 에이전트에 대한 음성 메일이 남아 있을 수 있습니다.
 
+*새로 만들기 - 이제 공유 음성 메일로 라우팅할 때 **음성 메일 시스템 메시지** 컨트롤이 노출되며, **이는 인사말 메시지 추가** 프롬프트에도 적용됩니다.*
+
 외부 전송의 경우 [필수 구성 요소](./plan-auto-attendant-call-queue.md#prerequisites) 및 [외부 전화 번호 전송을 참조하세요.](create-a-phone-system-auto-attendant.md?tabs=additional-resources) 번호 서식에 대한 기술 세부 정보입니다.
 
 > [!NOTE]
 > 최대 통화 수를 0으로 설정하면 인사말 메시지가 재생되지 않습니다.
->
-> 공유 음성 메일로 리디렉션할 때 **이 조직 외부의 사용자가 이 팀이** Microsoft 365 관리 센터의 팀/그룹에 대해 사용하도록 설정되어 있는지 확인합니다.
 
-통화 시간 제한 옵션을 선택한 후 **통화 큐 추가** 페이지 아래쪽에 있는 **다음** 단추를 선택합니다.
+통화 오버플로 처리 옵션을 선택한 후 통화 **큐 추가** 페이지 아래쪽에 있는 **다음** 단추를 선택합니다.
 
 # <a name="step-6-call-timeout"></a>[6단계: 통화 시간 제한](#tab/call-timeout)
 
@@ -320,12 +332,11 @@ Teams 채널을 통해 최대 200명의 에이전트를 추가할 수 있습니�
 
 예를 들어 발신자에 큐에 있는 에이전트에 대한 음성 메일이 남아 있을 수 있습니다.
 
+*새로 만들기 - 이제 공유 음성 메일로 라우팅할 때 **음성 메일 시스템 메시지** 컨트롤이 노출되며, **이는 인사말 메시지 추가** 프롬프트에도 적용됩니다.*
+
 외부 전송의 경우 [필수 구성 요소](./plan-auto-attendant-call-queue.md#prerequisites) 및 [외부 전화 번호 전송을 참조하세요.](create-a-phone-system-auto-attendant.md?tabs=additional-resources) 번호 서식에 대한 기술 세부 정보입니다.
 
-> [!NOTE]
-> 공유 음성 메일로 리디렉션할 때 **이 조직 외부의 사용자가 이 팀이** Microsoft 365 관리 센터의 팀/그룹에 대해 사용하도록 설정되어 있는지 확인합니다.
-
-에이전트 호출 라우팅 옵션을 선택한 후 통화 **큐 추가** 페이지의 맨 아래에 있는 **제출** 단추를 선택합니다.
+통화 시간 제한 처리 옵션을 선택한 후 **통화 큐 추가** 페이지의 맨 아래에 있는 **제출** 단추를 선택합니다.
 
 ---
 
@@ -408,11 +419,11 @@ Teams 채널을 통해 최대 200명의 에이전트를 추가할 수 있습니�
    > [!div class="nextstepaction"]
    > [테스트 실행: Teams 통화 큐](https://aka.ms/TeamsCallQueueDiag)
 
-2. 진단 실행 창의 **사용자 이름 또는 전자 메일** 필드에 리소스 계정을 입력한 다음 **테스트 실행을** 선택합니다.
+2. 진단 실행 창의 **사용자 이름 또는 Email** 필드에 리소스 계정을 입력한 다음 **테스트 실행을** 선택합니다.
 
 3. 테스트는 모든 테넌트, 정책 및 리소스 계정 구성을 처리하는 최상의 다음 단계를 반환하여 호출 큐가 호출을 받을 수 있는지 확인합니다.
 
-### <a name="related-topics"></a>관련 항목
+### <a name="related-topics"></a>관련 주제
 
 [Microsoft Teams 전화](here-s-what-you-get-with-phone-system.md)
 

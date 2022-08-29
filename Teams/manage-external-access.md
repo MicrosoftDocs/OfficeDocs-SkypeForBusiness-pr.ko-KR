@@ -21,12 +21,12 @@ description: Teams 또는 IT 관리자는 해당 도메인의 사용자가 사�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 7d45fea1b0b2fdb5d659f0a025b74473050b3616
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
-ms.translationtype: HT
+ms.openlocfilehash: 009d82d65a79bacfc0c5eca785cb595b5aebc793
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674230"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418517"
 ---
 # <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>Microsoft Teams에서 외부 모임 및 채팅 관리
 
@@ -274,6 +274,13 @@ New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyNam
 
 3. 테스트는 페더레이션된 사용자와의 통신을 방해하는 테넌트 또는 정책 구성을 해결하기 위한 최상의 다음 단계를 반환합니다.
 
+## <a name="user-level-controls"></a>사용자 수준 컨트롤
+
+사용자가 조직 외부의 사용자로부터 1:1 채팅을 받으면 메시지 **미리 보기** , 채팅 **수락** 또는 채팅을 보내는 사람 **차단** 을 선택할 수 있는 전체 화면 환경이 제공됩니다.
+
+채팅 목록의 더 많은(**...**) 메뉴와 사용자 카드의 더 많은(**...**) 메뉴를 포함하여 Teams 내의 여러 위치에서 외부 사용자 차단을 사용할 수 있습니다. 사용자는 채팅 목록의 더 많은(**...**) 메뉴, 사용자 카드의 더 많은(**...**) 메뉴를 통해 또는 차단 **된** > **연락처 편집 차단** **설정을** >  방문하여 외부 사용자 차단을 해제할 수도 있습니다. 차단은 메시지를 보내기 전이나 보낸 후에 사용할 수 있습니다.
+
+외부 사용자를 차단하면 1:1 채팅에서 메시지를 보내고, 사용자를 새 그룹 채팅에 추가하고, 현재 상태를 볼 수 없습니다. 그룹 채팅 초대가 차단되는 동안 차단된 사용자는 차단 전에 채팅이 시작되었거나 다른 구성원이 그룹 채팅 초대를 보냈기 때문에 차단된 사용자와 동일한 채팅에 있을 수 있습니다.
 
 ## <a name="related-topics"></a>관련 항목
 

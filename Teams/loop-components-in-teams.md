@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 041a2fbf54eb513c74348adf09df7452dabb4368
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e468622d4aac30756e54127072045831374c5425
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268123"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418647"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Teams의 루프 구성 요소 개요
 
@@ -90,6 +90,6 @@ Office.com Teams 채팅에서 구성 요소를 열면 다른 Office 문서에 �
 - 테넌트 기본 파일 사용 권한을 *특정 사용자* (사용자가 지정하는 사람만)로 설정하면 20명 이상의 구성원이 있는 그룹 채팅에서 라이브 구성 요소를 만들려면 보낸 사람이 구성 요소에 대한 사용 권한 옵션을 수동으로 선택해야 합니다.
 - Teams 검색에서 루프 구성 요소를 검색하면 채팅 메시지 자체가 아니라 office.com 구성 요소에 대한 링크가 반환됩니다.
 - 루프 구성 요소는 페더레이션된 채팅에서 사용하지 않도록 설정됩니다.
-- B2B 게스트는 회사 공유 링크를 통해 공유되는 라이브 구성 요소에서 공동 작업할 수 없습니다. B2B 게스트와 구성 요소를 공유하려면 **현재 이 채팅에 있는 사용자에게** 권한을 설정합니다.
+- 게스트는 회사 공유 링크를 통해 공유되는 라이브 구성 요소에서 공동 작업할 수 없습니다. 게스트와 구성 요소를 공유하려면 **현재 이 채팅에 있는 사람** 권한을 설정합니다.
 - 루프 구성 요소는 Teams 채널에서 지원되지 않습니다.
 - 채팅의 루프 구성 요소는 파일이 다른 라이브러리로 이동된 경우에만 로드되지 않습니다. 파일이 다른 폴더로 이동되면 채팅에서 계속 로드됩니다.

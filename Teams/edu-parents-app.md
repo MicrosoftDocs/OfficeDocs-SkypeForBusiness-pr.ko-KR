@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73f11abed8101031361e92d008c4edbd89b9a31c
-ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
+ms.openlocfilehash: 37de74db112dcbd5466659b385f1bb94d7c134aa
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2022
-ms.locfileid: "67278772"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418627"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>교육용 Microsoft Teams 부모 연결 설정
 
@@ -42,7 +42,7 @@ ms.locfileid: "67278772"
 부모 연결을 사용하면 교육자와 보호자가 Teams를 사용하여 채팅, 전자 메일 및 통화를 할 수 있습니다.
 
 - 교육자는 보호자와 채팅을 시작할 수 있습니다.
-  - 보호자에게 Teams 소비자 계정이 없는 경우 교육자로부터 초기 메시지와 Teams로 이동하라는 이메일 초대를 받게 됩니다.
+  - 보호자가 Teams 소비자 계정이 없거나 아직 Teams에 참가하지 않은 경우 교육자로부터 Teams로 이동하라는 이메일 초대와 함께 메시지를 받게 됩니다. 이는 초대 제한에 도달하지 않은 경우에만 적용되며 채팅은 부모 연결에서 다시 입력된 새 채팅 또는 기존 채팅입니다.
 - 감독된 채팅에서 작동합니다. 자세한 내용은 [Microsoft Teams에서 감독 채팅 사용을 참조하세요](supervise-chats-edu.md).
   - 기본적으로 보호자는 권한을 제한하므로 학생과 채팅하거나 채팅에서 사용자를 제거할 수 없습니다.
   - 이 설정은 테넌트 관리자가 변경할 수 있습니다.

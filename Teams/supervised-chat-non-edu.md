@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft Teams 모임에서 비교육 테넌트에 대한 감독 채팅에 대해 알아봅니다.
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 8b587dbc7537c612d2b48f5b202cd94e55e4d8f6
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6f499845f77ededf47fa907961624081197b65b1
+ms.sourcegitcommit: 2d873e774c1a1182326e22e5de6ee5df4d50f41e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270463"
+ms.lasthandoff: 08/27/2022
+ms.locfileid: "67446771"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>비교육 테넌트에 대한 감독 채팅
 
@@ -56,7 +56,7 @@ ms.locfileid: "67270463"
 
 ## <a name="allow-supervised-chat"></a>감독된 채팅 허용
 
-감독 채팅은 테넌트에 대해 기본적으로 사용하지 않도록 설정됩니다. 사용자에 대한 채팅 권한 역할을 설정한 후에 **는 조직 전체 설정** \> **Teams 설정** 으로 이동하고 **역할 기반 채팅 권한** 정책을 **켜** 기로 설정하여 테넌트 내에서 감독된 채팅을 사용하도록 설정할 수 있습니다. AllowRoleBasedChatPermissions를 True로 설정하여 PowerShell을 사용하여 감독 채팅을 사용하도록 설정할 수도 있습니다. 이 cmdlet은 [CsTeamsClientConfiguration 아래에 있습니다](/powershell/module/skype/set-csteamsclientconfiguration).
+감독 채팅은 테넌트에 대해 기본적으로 사용하지 않도록 설정됩니다. 사용자에 대한 채팅 권한 역할을 설정한 후 **Teams Teams** \> **설정** 으로 이동하고 **역할 기반 채팅 권한** 정책을 **켜** 기로 설정하여 테넌트 내에서 감독된 채팅을 사용하도록 설정할 수 있습니다. AllowRoleBasedChatPermissions를 True로 설정하여 PowerShell을 사용하여 감독 채팅을 사용하도록 설정할 수도 있습니다. 이 cmdlet은 [CsTeamsClientConfiguration 아래에 있습니다](/powershell/module/skype/set-csteamsclientconfiguration).
 
 테넌트에 있는 모든 사용자에 대해 감독 채팅을 사용하도록 설정해야 하며 사용자의 일부에 대해서만 사용하도록 설정할 수 없습니다.
 
