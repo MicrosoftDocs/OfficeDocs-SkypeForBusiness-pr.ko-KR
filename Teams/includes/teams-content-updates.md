@@ -3,6 +3,36 @@
 
 
 
+## <a name="week-of-august-22-2022"></a>2022년 8월 22일 주
+
+
+| 게시 날짜 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 8/22/2022 | [조직의 교대 근무 앱 관리](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 으로 바뀌었습니다 |
+| 8/22/2022 | [Microsoft Teams에서 태그 관리](/MicrosoftTeams/manage-tags) | 으로 바뀌었습니다 |
+| 8/22/2022 | [회의실 및 공유 Teams 디바이스에 대한 리소스 계정 만들기](/MicrosoftTeams/rooms/with-office-365) | 으로 바뀌었습니다 |
+| 8/23/2022 | [게스트 액세스 및 외부 액세스를 사용하여 조직 외부 사용자와 공동 작업](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 으로 바뀌었습니다 |
+| 8/23/2022 | [콘텐츠 공유를 위한 모임 정책 관리](/MicrosoftTeams/meeting-policies-content-sharing) | 으로 바뀌었습니다 |
+| 8/23/2022 | [Teams: 모임 정책 관리](/MicrosoftTeams/meeting-policies-in-teams) | 으로 바뀌었습니다 |
+| 8/24/2022 | [빠른 시작 - 교육용 Microsoft Teams 설정](/MicrosoftTeams/teams-quick-start-guide-edu) | 추가 |
+| 8/24/2022 | 빠른 시작 - 관리자 교육용 Microsoft Teams | 제거 |
+| 8/24/2022 | [Teams에 대한 낮은 대역폭 시나리오 문제 해결](/MicrosoftTeams/edu-remote-low-bandwidth) | 으로 바뀌었습니다 |
+| 8/24/2022 | [교육용 Teams](/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page) | 으로 바뀌었습니다 |
+| 8/24/2022 | [IT 관리자를 위한 Microsoft Education FAQ](/MicrosoftTeams/plan-teams-governance-edu) | 으로 바뀌었습니다 |
+| 8/24/2022 | [교육용 Microsoft Teams 정책 및 정책 패키지 관리](/MicrosoftTeams/policy-packages-edu) | 으로 바뀌었습니다 |
+| 8/24/2022 | [원격 학습을 위해 Microsoft Teams 시작](/MicrosoftTeams/remote-learning-edu) | 으로 바뀌었습니다 |
+| 8/24/2022 | [Teams 채택 리소스 공유](/MicrosoftTeams/resources-teams-edu) | 으로 바뀌었습니다 |
+| 8/24/2022 | [교육용 Microsoft Teams 라이선스 할당](/MicrosoftTeams/teams-edu-licensing) | 으로 바뀌었습니다 |
+| 8/24/2022 | [전화 번호 사용 관리](/MicrosoftTeams/manage-the-usage-of-a-phone-number) | 추가 |
+| 8/25/2022 | [관리 교육 리소스 - Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | 으로 바뀌었습니다 |
+| 8/26/2022 | [자동 전화 교환 & 통화 큐 기록 보고서](/MicrosoftTeams/aa-cq-cqd-historical-reports) | 으로 바뀌었습니다 |
+| 8/26/2022 | [Microsoft Teams에 대한 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | 으로 바뀌었습니다 |
+| 8/26/2022 | [Microsoft Teams에 대한 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 으로 바뀌었습니다 |
+| 8/26/2022 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | 으로 바뀌었습니다 |
+| 8/26/2022 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으로 바뀌었습니다 |
+| 8/26/2022 | [Teams 자동 전화 교환 및 통화 큐 계획](/MicrosoftTeams/plan-auto-attendant-call-queue) | 으로 바뀌었습니다 |
+
+
 ## <a name="week-of-august-15-2022"></a>2022년 8월 15일 주
 
 
@@ -194,25 +224,3 @@
 | 7/26/2022 | [파트너를 위한 다중 테넌트 고객 관리](/MicrosoftTeams/rooms/multi-tenant-management-partner) | 으로 바뀌었습니다 |
 | 7/26/2022 | [사용자에게 Teams 추가 기능 라이선스 할당](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | 으로 바뀌었습니다 |
 | 7/29/2022 | [조직의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-landing-page) | 으로 바뀌었습니다 |
-
-
-## <a name="week-of-july-18-2022"></a>2022년 7월 18일 주
-
-
-| 게시 날짜 |토픽 제목 | 변경 |
-|------|------------|--------|
-| 7/18/2022 | [Microsoft Teams의 앱 정보 알기](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 으로 바뀌었습니다 |
-| 7/18/2022 | [Microsoft Teams에서 앱 설정 정책 관리](/MicrosoftTeams/teams-app-setup-policies) | 으로 바뀌었습니다 |
-| 7/18/2022 | 최전방 직원을 위한 대규모 Microsoft Teams 프로비저닝 | 제거 |
-| 7/19/2022 | [Microsoft 365 및 사용자 지정 커넥터 관리](/MicrosoftTeams/office-365-custom-connectors) | 으로 바뀌었습니다 |
-| 7/19/2022 | [Microsoft Teams의 앱 정보 알기](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 으로 바뀌었습니다 |
-| 7/19/2022 | [Microsoft Teams 관리 센터에서 Microsoft Power Platform 앱 관리](/MicrosoftTeams/manage-power-platform-apps) | 으로 바뀌었습니다 |
-| 7/19/2022 | [Teams 모임에서 Q&A 관리](/MicrosoftTeams/manage-qna-for-teams) | 으로 바뀌었습니다 |
-| 7/19/2022 | [Microsoft의 앱 인증 개요](/MicrosoftTeams/overview-of-app-certification) | 으로 바뀌었습니다 |
-| 7/19/2022 | [Teams용 타사 앱 구매](/MicrosoftTeams/purchase-third-party-apps) | 으로 바뀌었습니다 |
-| 7/20/2022 | [연산자 연결 구성](/MicrosoftTeams/operator-connect-configure) | 으로 바뀌었습니다 |
-| 7/21/2022 | [Microsoft Teams의 교육 인사이트에 대한 IT 관리자 가이드](/MicrosoftTeams/class-insights) | 으로 바뀌었습니다 |
-| 7/21/2022 | [Microsoft Teams의 앱 업데이트 환경](/MicrosoftTeams/apps-update-experience) | 으로 바뀌었습니다 |
-| 7/21/2022 | [Microsoft Teams 관리 센터에서 앱 관리](/MicrosoftTeams/manage-apps) | 으로 바뀌었습니다 |
-| 7/21/2022 | [Teams 앱 제출 API를 사용하여 사용자 지정 앱 제출 및 승인](/MicrosoftTeams/submit-approve-custom-apps) | 으로 바뀌었습니다 |
-| 7/21/2022 | [Microsoft Teams 관리 센터에서 사용자 지정 앱 업로드](/MicrosoftTeams/upload-custom-apps) | 으로 바뀌었습니다 |
