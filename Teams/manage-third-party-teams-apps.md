@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft 365에서 Teams 앱에 대한 액세스를 관리하는 방법을 알아보세요.
-ms.openlocfilehash: 76385d60d185fd9ad522348e4e438ac06dd4e896
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: ee9f614fa3d33ecb9fb8e7e0985ef074440570d5
+ms.sourcegitcommit: d0cbc23e10219dd2889011421010215a5d246031
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396899"
+ms.lasthandoff: 08/30/2022
+ms.locfileid: "67460698"
 ---
 # <a name="manage-access-to-teams-apps-across-microsoft-365"></a>Microsoft 365에서 Teams 앱에 대한 액세스 관리
 
@@ -38,6 +38,11 @@ Outlook 및 Office.com에서 사용하기 위해 향상된 앱은 Teams에서 �
 * [SurveyMonkey](https://teams.microsoft.com/l/app/0fd925a0-357f-4d25-8456-b3022aaa41a9)
 * [Zoho Projects](https://teams.microsoft.com/l/app/4a39aea9-8537-4c2f-b66d-ca364eb3b80d)
 * [YouTube](https://teams.microsoft.com/l/app/com.microsoft.teamspace.tab.youtube)
+* [PDF 도구](https://teams.microsoft.com/l/app/ca4b5141-5c46-47bc-a05e-2733d9bd69aa?source=app-details-dialog)
+* [더 큰 두뇌 eLearning](https://teams.microsoft.com/l/app/12345514-afee-abcd-acde-c5b34109abcd?source=app-details-dialog)
+* [왈도](https://teams.microsoft.com/l/app/1d041f16-ab49-4627-bfda-6b60ad2cab6a?source=app-details-dialog)
+* [Bookings](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=app-details-dialog)
+* [Adobe Acrobat Sign](https://teams.microsoft.com/l/app/0f56a9d1-f502-40f9-a9e8-816d7adbb68b?source=app-details-dialog)
 
 다음 방법을 사용하여 Teams 앱에 대한 최종 사용자 액세스를 제어할 수 있습니다. Office 앱 관리자인 경우 전역 관리자 또는 Teams 관리자에게 문의하여 앱 액세스를 관리하세요.
 
