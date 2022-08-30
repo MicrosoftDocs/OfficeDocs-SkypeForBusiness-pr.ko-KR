@@ -7,30 +7,30 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: 이 문서에서는 Kaizala에서 Microsoft Teams로의 성공적인 전환을 계획하는 방법을 설명합니다.
+description: 이 문서에서는 Kaizala에서 Microsoft Teams로의 성공적인 이동을 계획하는 방법을 설명합니다.
 f1.keywords: ''
 ms.localizationpriority: medium
 search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: 0e9c9920826a664aaa948a6b6c9d5470a4dd3298
-ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
+ms.openlocfilehash: 319a2d981899dce509633992fdcf61dc002a193f
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443455"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457258"
 ---
-# <a name="planning-for-a-successful-transition-from-kaizala-to-microsoft-teams"></a>Kaizala에서 Microsoft Teams로의 성공적인 전환 계획
+# <a name="planning-for-a-successful-move-from-kaizala-to-microsoft-teams"></a>Kaizala에서 Microsoft Teams로의 성공적인 이동 계획
 
 > [!Important]
-> Microsoft Kaizala는 2023년 8월 31일에 사용 중지됩니다. 지속적인 연결, 공유 및 공동 작업을 위해 Microsoft Teams로 업그레이드하는 것이 좋습니다. 사용 중지 날짜가 지나면 Kaizala에 대한 액세스 및 지원이 중단됩니다.
+> Microsoft Kaizala는 2023년 8월 31일에 사용 중지됩니다. 지속적인 연결, 공유 및 공동 작업을 위해 Microsoft Teams로 이동하는 것이 좋습니다. 사용 중지 날짜가 지나면 Kaizala에 대한 액세스 및 지원이 중단됩니다.
 
 Kaizala에서 Microsoft Teams로의 이동에 착수할 때는 성공적인 전환을 [계획](/microsoftteams/deploy-enterprise-setup?tabs=ChatTeamsChannels#plan-your-deployment) 하는 데 시간을 할애하는 것이 중요합니다. 견고한 전환 계획은 이동에 대한 구조를 제공하고 모든 이해 관계자가 공통의 목표를 향해 노력하고 있는지 확인합니다. 검증된 프레임워크를 사용하여 변경 내용을 구현하면 현재 전환을 시작하는 데 도움이 될 수 있습니다.
 
-## <a name="transition-framework"></a>전환 프레임워크
+## <a name="framework-for-your-move"></a>이동에 대한 프레임워크
 
-![전환 지침을 보여 주는 이미지](media/plan-for-successful-transition.png)
+![이동 지침을 보여 주는 이미지](media/plan-for-successful-transition.png)
 
 아래의 성공적인 전환에 대한 권장 접근 방식을 설명하고 프레임워크의 각 단계가 이전 단계에 따라 빌드되므로 순서대로 단계를 수행하는 것이 좋습니다.
 

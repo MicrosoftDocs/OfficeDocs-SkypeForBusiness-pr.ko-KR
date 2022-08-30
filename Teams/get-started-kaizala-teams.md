@@ -14,17 +14,17 @@ search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: fd039c732d1a7e55a3cfb8aa59a3f78cf5f2cfe9
-ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
+ms.openlocfilehash: 90d2135a03e8881c41cdc4d280cef9f144bdbd16
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443485"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457248"
 ---
 # <a name="kaizala-and-microsoft-teams"></a>Kaizala 및 Microsoft Teams 
 
->[!Important]
-> Microsoft Kaizala는 2023년 8월 31일에 사용 중지됩니다. 지속적인 연결, 공유 및 공동 작업을 위해 Microsoft Teams로 업그레이드하는 것이 좋습니다. 사용 중지 날짜가 지나면 Kaizala에 대한 액세스 및 지원이 중단됩니다.
+> [!Important]
+> Microsoft Kaizala는 2023년 8월 31일에 사용 중지됩니다. 지속적인 연결, 공유 및 공동 작업을 위해 Microsoft Teams로 이동하는 것이 좋습니다. 사용 중지 날짜가 지나면 Kaizala에 대한 액세스 및 지원이 중단됩니다.
 
 2019년 4월에는 Kaizala를 Microsoft Teams와 함께 가져올 계획을 [발표](https://techcommunity.microsoft.com/t5/microsoft-kaizala-blog/update-on-kaizala-features-coming-to-microsoft-teams/ba-p/974525) 했습니다. Kaizala의 기능은 Microsoft 365 팀워크의 허브인 Teams의 강력한 커뮤니케이션 및 공동 작업 기능을 보완합니다.
 

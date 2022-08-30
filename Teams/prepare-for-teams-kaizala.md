@@ -1,5 +1,5 @@
 ---
-title: Kaizala에서 Teams로의 여정 차트
+title: Kaizala에서 Teams로 이동 준비
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -14,17 +14,17 @@ search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: 73376cbc26708cc5ec810e13b710e057ba603a44
-ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
+ms.openlocfilehash: cecde847cb6d72f63dd51915084ba3c7c7349524
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443475"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457268"
 ---
-# <a name="charting-your-kaizala-to-teams-journey"></a>Kaizala에서 Teams로의 여정 차트
+# <a name="prepare-for-your-kaizala-to-teams-move"></a>Kaizala에서 Teams로 이동 준비
 
 > [!Important]
-> Microsoft Kaizala는 2023년 8월 31일에 사용 중지됩니다. 지속적인 연결, 공유 및 공동 작업을 위해 Microsoft Teams로 업그레이드하는 것이 좋습니다. 사용 중지 날짜가 지나면 Kaizala에 대한 액세스 및 지원이 중단됩니다.
+> Microsoft Kaizala는 2023년 8월 31일에 사용 중지됩니다. 지속적인 연결, 공유 및 공동 작업을 위해 Microsoft Teams로 이동하는 것이 좋습니다. 사용 중지 날짜가 지나면 Kaizala에 대한 액세스 및 지원이 중단됩니다.
 
 Kaizala에서 Microsoft Teams로 이동하기로 결정했습니다.
 

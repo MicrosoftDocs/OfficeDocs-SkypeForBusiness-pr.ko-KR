@@ -14,16 +14,19 @@ search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: 65fdd80fe8eb9073c53267da3ea390ab570cfc96
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c3b83f33db2c4c91a5f2e8ad00706e225f4b01d5
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270323"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457128"
 ---
 # <a name="navigate-microsoft-teams"></a>Microsoft Teams 탐색
 
 이제 조직의 고유한 경로와 요구 사항을 명확하게 이해했으므로 이제 Microsoft Teams와의 강력한 협업을 위한 여정을 시작할 차례입니다. 다음 섹션을 사용하여 Teams 내에서 Kaizala의 기능을 탐색하는 방법을 알아봅니다.
+
+> [!Important]
+> Microsoft Kaizala는 2023년 8월 31일에 사용 중지됩니다. 지속적인 연결, 공유 및 공동 작업을 위해 Microsoft Teams로 이동하는 것이 좋습니다. 사용 중지 날짜가 지나면 Kaizala에 대한 액세스 및 지원이 중단됩니다.
 
 | 카이잘라 출신 | Teams에 |
 |---------|-----------------------|

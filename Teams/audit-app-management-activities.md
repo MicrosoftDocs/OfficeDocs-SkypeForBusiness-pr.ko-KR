@@ -14,12 +14,12 @@ description: 조직 내 사용자 및 관리자의 Teams 앱 활동을 감사하
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 5eb1ffe4a637c61efc8e64e970f25474933914a7
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 33e308dec79163b2b3ccbc82870352555d0aa80f
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299257"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457278"
 ---
 # <a name="audit-for-app-management-activities-and-events"></a>앱 관리 활동 및 이벤트에 대한 감사
 
@@ -68,6 +68,9 @@ Teams의 앱 이벤트에 대한 감사 로그는 특정 작업을 조사하는 
 
 > [!NOTE]
 > 위의 활동 중 하나가 사용자 또는 관리자에 의해 수행되면 Teams는 감사 레코드를 생성하고 저장합니다. 감사(표준)에서는 레코드가 90일 동안 유지되므로 지난 3개월 동안 발생한 활동을 검색할 수 있습니다.
+
+> [!TIP]
+> 관리자는 사용자가 봇을 차단하거나 음소거했는지 여부를 알기 위해 사용자별 보고서를 만들려는 경우 봇을 [차단, 음소거 또는 제거한 사용자 파악을 참조하세요](/microsoftteams/platform/bots/how-to/conversations/send-proactive-messages?#understand-who-blocked-muted-or-uninstalled-a-bot).
 
 ## <a name="related-articles"></a>관련 기사
 
