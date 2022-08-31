@@ -17,12 +17,12 @@ search.appverid: MET150
 f1.keywords:
 - CSH
 description: Teams 관리 센터 디바이스 저장소에서 디바이스를 찾아보고 구매하는 방법을 알아봅니다.
-ms.openlocfilehash: a6b68f6e1ffbde15f9f38dfcdeac881a7b3aabc1
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d1e3d016f51c6113b6f09076f67647c32f7fd1fa
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267983"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466216"
 ---
 # <a name="purchase-devices-in-the-teams-device-store"></a>Teams 디바이스 저장소에서 디바이스 구매
 
@@ -32,7 +32,7 @@ Teams 관리 센터의 디바이스 저장소를 사용하면 Microsoft Teams용
 
 ## <a name="requirements"></a>요구 사항
 
-디바이스 저장소를 사용하려면 전역 관리자 또는 Teams 관리자여야 합니다.
+디바이스 저장소를 사용하려면 전역 관리자, Teams 관리자 또는 Teams 디바이스 관리자여야 합니다.
 
 ## <a name="browse-the-store"></a>스토어 찾아보기
 
@@ -45,14 +45,6 @@ Teams 관리 센터의 디바이스 저장소를 사용하면 Microsoft Teams용
 신용 카드 또는 구매 주문으로 결제할 수 있습니다. 주문 결제를 구매하려면 주문 처리 공급자를 일회성으로 설정해야 합니다.
 
 모든 주문은 배송 후 최대 30일까지 반환할 수 있습니다.
-
-## <a name="data-handling-and-sharing"></a>데이터 처리 및 공유
-
-Teams 디바이스 저장소는 Teams 관리 센터에서 구매할 수 있도록 UnifiedCommunications.com 사용자 및 테넌트 GUID를 포함한 기본 사용자 및 회사 정보를 공유해야 합니다.
-
-데이터 공유는 기본적으로 꺼져 있습니다. 사용하도록 설정하려면 Teams 디바이스 저장소로 이동하여 설정 아이콘을 선택하고 설정을 켭니다.  
-
-이 설정이 꺼져 있으면 데이터가 공유되지 않으며 Teams 디바이스 저장소를 검색할 수 있지만 구매할 수는 없습니다. 설정이 설정된 동안 처리 공급자와 수집 및 공유된 데이터는 개인 정보 취급 방침에 지정된 대로 처리됩니다.
 
 ## <a name="order-tracking-and-history"></a>주문 추적 및 기록
 
