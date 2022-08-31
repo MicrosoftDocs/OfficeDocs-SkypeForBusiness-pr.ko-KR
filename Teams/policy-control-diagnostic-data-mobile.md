@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
 description: Microsoft Teams의 정책 제어에 대한 모바일 속성 및 이벤트 목록입니다.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab0ae8fe2e1e3fee37a01de178c62fd45558b1d0
-ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
-ms.translationtype: HT
+ms.openlocfilehash: 91203a9e35954e695bea5482c41674137320b487
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53114127"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674240"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams의 필수 모바일 진단 데이터
 
@@ -39,6 +39,7 @@ Microsoft로 전송되는 진단 데이터를 제어하는 방법을 포함하�
 > [!NOTE]
 > PanelAction 이벤트의 속성에 대한 자세한 내용은 [panelaction 이벤트를 사용하여 전송된 속성](#properties-sent-with-panelaction-events)을 참조하세요.
 
+- **acceptUser** - 사용자가 1:1 채팅을 수락했습니다.
 - **accessibilityUserConfiguration** - 사용자가 접근성 기능을 토글할 때 사용합니다.
 - **acknowledgeSettingChange** - 업데이트된 알림 설정 대화 상자에서 업데이트를 승인합니다. 이는 업데이트 알림을 승인하고 전체적인 알림 안정성을 결정하는 데 사용되는 기능 성공 메트릭입니다.
 - **actionComposeMenu**
@@ -69,6 +70,7 @@ Microsoft로 전송되는 진단 데이터를 제어하는 방법을 포함하�
 - **admitAll** - 대기실 섹션에서 **모두 입장 허용** 단추가 선택된 횟수입니다.
 - **admitParticipant** - 모임 명단에서 모임에 입장이 허용된 횟수입니다.
 - **alertsNavAlert** - 피드 항목을 탭합니다.
+- **aliasDiscoverabilitySettingOpened** - 검색 설정에 대한 진입점입니다.
 - **android: null** - 봇 채팅을 음소거 또는 음소거 해제합니다. 이는 채팅에 대한 기존의 원격 분석을 향상시키고 응용 프로그램 정보만을 추가합니다.
 - **anonymousMeetingJoin** - 익명 참가 제공 이름 페이지에서 **모임 참가** 를 선택하거나 이름 대화 상자에서 **확인** 을 탭합니다.
 - **anonymousMeetingJoinWelcome** - 익명 참가 방문 페이지에서 **게스트로 참가** 를 선택합니다.
@@ -222,7 +224,7 @@ Microsoft로 전송되는 진단 데이터를 제어하는 방법을 포함하�
   - 비디오를 끕니다.
   - 라이브 모임 또는 통화 중에 비디오 단추가 선택됩니다.
 - **callPark** - 트리거되는 경우:
-  - **...** 메뉴에서 **통화 대기** 가 선택됩니다.
+  - **...메뉴에서 통화 대기** 가 선택됩니다.
   - **검색** 단추가 선택됩니다.
   - 검색 대화 상자에서 **받기** 가 선택됩니다.
   - 검색 대화 상자에서 **취소** 가 선택됩니다.
@@ -450,6 +452,8 @@ Microsoft로 전송되는 진단 데이터를 제어하는 방법을 포함하�
 - **detailsTabClicked** - 모임에서 **세부 정보** 탭이 선택됩니다.
 - **deviceAddressBookSync** - 설정 페이지에서 주소록 동기화가 켜져있을 때 실행됩니다. 
 - **deviceAddressBookUnsync** - 설정 페이지에서 주소록 동기화가 꺼져있을 때 실행됩니다. 
+- **deviceSyncEnabled** - 디바이스 동기화가 사용하도록 설정되었습니다.
+- **deviceSyncDisabled** - 디바이스 동기화를 사용할 수 없습니다.
 - **dialIn** - 사용자가 모임에 전화를 걸려면 선택합니다(여러 위치).
 - **dialInBadNetworkBanner** - 연결 상태가 좋지 않은 배너에 **전화 접속** 이 선택됩니다.
 - **dialInBadNetworkBannerCancel** - 네이티브 대화 상자에서 **전화 접속** 이 취소됩니다.
@@ -629,6 +633,7 @@ Microsoft로 전송되는 진단 데이터를 제어하는 방법을 포함하�
 - **launchLinksGallery** - 사용자가 대시보드에서 링크 갤러리를 입력하는 경우입니다.
 - **launchSlideshow** - 사용자가 세 가지 가능한 앱 기능 위치 중 하나에서 슬라이드 쇼 전체 화면 이미지 뷰어를 시작합니다. 
 - **직접, 링크, appShortcut와 같은 시작 소스** - 직접 또는 링크를 통해 시작합니다(활성 사용자에 대한 데이터 수집을 위해 앱 시작시 MAM(모바일 응용 프로그램 관리) 또는 MDM(모바일 장치 관리) 원격 분석을 기록).
+- **lastSearchableAliasTurnedOff** - 사용자가 계정에 대해 검색 가능한 모든 별칭을 사용하지 않도록 설정했습니다.
 - **leaveChat** - 채팅 나가기를 확인합니다.
 - **legacyChatLink** - 레거시 채팅에 대한 링크가 선택됩니다.
 - **link** - 사용자가 Teams 애플리케이션을 입력하여 초대 링크 사용을 시작했습니다.
@@ -688,7 +693,7 @@ Microsoft로 전송되는 진단 데이터를 제어하는 방법을 포함하�
 - **meetingDetailDeleteMeetingforSelf** - 자신의 모임 세부 정보 페이지에서 모임을 삭제합니다.
 - **meetingDetailJoin** - 모임 세부 정보 페이지에서 **모임 참가** 단추가 선택됩니다.
 - **meetingDetailParticipants** - 모임 세부 정보 페이지에서 모든 참가자를 확인합니다.
-- **meetingDetailScheduledMeeting** - 예약된 모임 개체 (**…**)에서 선택한 모임 세부 정보 페이지 또는 예약된 모임의 **세부 정보** 탭을 선택합니다.
+- **meetingDetailScheduledMeeting** - 예약된 모임 개체(**...**)에서 선택한 모임 세부 정보 페이지 또는 예약된 모임의 **세부 정보** 탭을 선택합니다.
 - **meetingDetailSearchParticipants** - 모임 일정에서 모임 참가자 **검색** 을 선택합니다.
 - **meetingInsightFileClick** - 모임 관련 파일 항목을 클릭합니다.
 - **meetingInsightFileLocatorClick** - 모임 관련 콘텐츠 로케이터 팁 버튼을 클릭합니다.
@@ -724,6 +729,7 @@ Microsoft로 전송되는 진단 데이터를 제어하는 방법을 포함하�
 - **meetingUserGuest** - 게스트 사용자가 모임에 참가했습니다.
 - **meetingUserTenant** - 테넌트 내 사용자가 모임에 참가했습니다.
 - **memeGenerated** - 이미지 및 텍스트 데이터의 사용자 입력을 통해 밈이 생성되는 경우입니다. 
+- **meProfileFetch** - 성공적인 프로필 가져오기 및 생성을 나타냅니다.
 - **messageCopyMessage** - 메시지를 복사합니다.
 - **messageDelete** - 메시지를 삭제합니다.
 - **messageEditMessage** - 메시지를 편집합니다.
@@ -738,6 +744,7 @@ Microsoft로 전송되는 진단 데이터를 제어하는 방법을 포함하�
 - **MicrosoftWhiteboardClicked** - Microsoft 화이트보드는 **채널 파일** 탭 또는 **모임 채팅 파일** 탭에서 선택됩니다.
 - **moreOptionsClicked** - 작업 항목 편집기 화면에서 오른쪽 상단의 **...** 메뉴를 선택할 때 트리거됩니다.
 - **moveTaskClicked** - 옵션 내 작업 항목 추가 옵션 목록.
+- **msaAddDeleteAliasLinkClicked** - MSA 프로필 페이지에서 별칭을 설정하는 링크입니다.
 - **multiCallEndFromUFD** - 사용자가 다중 통화 시나리오에서 대기 중인 통화를 종료하는 횟수입니다.
 - **multiCallResumeFromUFD** - 사용자가 대기 중인 통화를 계속하기 위해 선택한 횟수입니다.
 - **multiCallSwitch** - 사용자가 통화 전환 옵션을 선택하고 대기 중인 통화 목록을 표시하는 횟수입니다.
@@ -851,6 +858,7 @@ Microsoft로 전송되는 진단 데이터를 제어하는 방법을 포함하�
 - **parental_consent_grant** - 사용자가 MSFamily에서 미성년자에게 TFL의 실제 위치 기능을 사용하는 권한을 부여합니다.
 - **parental_consent_remove** - 사용자가 MSFamily에서 미성년자에게 TFL의 실제 위치 기능을 사용하는 권한을 취소합니다.
 - **pauseVoicemail** - 음성 사서함 항목에서 **일시 중지** 를 탭합니다.
+- **peoplePickerDismissed** - 사람 선택기가 해제되었음을 나타냅니다.
 - **peoplePickerInvoked** - 인물 선택기는 다음을 포함한 Teams 모바일의 7곳(이에 국한되지 않음)에서 사용됩니다.
   - 새 채팅 선택기.
   - 메시지 전달.
@@ -893,6 +901,7 @@ Microsoft로 전송되는 진단 데이터를 제어하는 방법을 포함하�
 - **privateMeetingJoin** - 비공개 모임 채팅에서 **모임 참가** 단추를 탭합니다.
 - **processInBG** - 백그라운드에서 수신 알림을 처리합니다(Android).
 - **processInFG** - 포그라운드에서 수신 알림을 처리합니다(Android).
+- **profileNameSaved** - 프로필 이름이 업데이트되었습니다.
 - **progressItemClicked** - 사용자가 작업에 대한 진행률 선택기를 성공적으로 열었는지 확인합니다.
 - **promotedToPresenter** - 사용자가 참석자 승격 - 대화 상자의 **변경** 단추.
 - **provideFeedbackDismiss** - 사용자가 앱을 좋아하지 않는 이유에 대한 피드백을 보낼 것인지 묻는 메시지를 해제합니다.
@@ -1035,7 +1044,7 @@ Microsoft로 전송되는 진단 데이터를 제어하는 방법을 포함하�
 - **shareScreen** - 화면 공유를 시작하거나 중지합니다.
 - **shareShift** - 교대 근무를 공유할 때 제공되는 정보입니다.
 - **shareShiftsClicked** - 열린 교대 근무의 세부 정보입니다.
-- **shareTray** - **공유…** 가 작업 시트에서 선택됩니다.
+- **shareTray** -  **공유...** 는 작업 시트에서 선택되어 있습니다.
 - **shiftAssigneeClicked** - 교대 근무 일정 보기에서 특정 교대 근무 세부 정보를 보여줍니다.
 - **shiftDetails** - 이를 통해 교대 근무의 세부 정보를 볼 수 있습니다.
 - **shiftDetailsCalendar** - 사용자가 교대 근무 세부 정보로 이동합니다.
@@ -1260,6 +1269,7 @@ Microsoft로 전송되는 진단 데이터를 제어하는 방법을 포함하�
 > 
 - **acquire_resource_token_interactive**- 대화형 로그인을 통해 인증 토큰을 획득할 때 트리거되는 필수 서비스 호출입니다. 
 - **acquire_resource_token_silent**- 자동 로그인을 통해 인증 토큰을 획득할 때 트리거되는 필수 서비스 호출입니다.
+- **add_buddy** - 연락처 추가 상태를 캡처합니다.
 - **app_crash2** – 앱이 예기치 않게 충돌할 때 트리거됩니다. Teams 앱이 충돌하는 빈도에 대한 정보를 제공합니다. 
 - **app_incremental_sync_launch** 콜드 시작에 대해 필 개수가 성공적으로 업데이트되는지 확인합니다.
 - **app_incremental_sync_resume** 웜/핫 시작에 대해 필 개수가 성공적으로 업데이트되는지 확인합니다.
@@ -1299,6 +1309,7 @@ Microsoft로 전송되는 진단 데이터를 제어하는 방법을 포함하�
 - **delete_planner_plan** - 공유 작업 목록이 성공적으로 삭제되었는지 확인합니다.
 - **delete_planner_task** - 공유 작업 항목이 성공적으로 삭제되었는지 확인합니다.
 - **json_parse_failure**- JSON 구문 분석 문제의 빈도에 대한 정보를 제공합니다.
+- **fetch_me_profile** - 사용자 프로필 만들기 상태입니다.
 - **getProfilePicture**- 사용자 프로필 사진을 가져오는 데 필요한 서비스 호출입니다. 
 - **get_resource_token_async**: Azure Active Directory 리소스에 대한 토큰을 비동기적으로 획득하려면 서비스 호출이 필요합니다.
 - **get_resource_token_sync**: Azure Active Directory 리소스에 대한 토큰을 동기적으로 획득하는 데 필요한 서비스 호출입니다.
@@ -1344,6 +1355,7 @@ Microsoft로 전송되는 진단 데이터를 제어하는 방법을 포함하�
 - **show_meeting_participants** - 모임 참가자 목록을 표시하는 데 성공했거나 실패했는지 확인합니다.
 - **search** - 전체 검색 세션이 성공했거나 실패했는지 확인합니다.
 - **time_based_retention_shared_channel** – 데이터베이스를 정리하기 위한 성능 데이터를 캡처합니다.
+- **toggle_searchability** - 별칭 스탬핑/스탬핑 해제를 위한 네트워크 호출 상태를 캡처합니다.
 - **sync_user_entitlements_and_app_definitions** - aggregatedEntitlements를 가져오려면 서비스 호출이 필요합니다.
 - **bots_load_mediacards** - 채팅 및 채널에서 커넥터 카드가 구성될 때 인스턴스화된 캡처입니다.
 - **bots_load_one_card** - 봇과 채팅할 때 하나 이상의 카드가 있고 로드되었는지를 캡처합니다.
@@ -1358,7 +1370,7 @@ Microsoft로 전송되는 진단 데이터를 제어하는 방법을 포함하�
 
 ## <a name="oneplayer-events"></a>OnePlayer 이벤트
 > [!NOTE]
-> OnePlayer 이벤트의 경우 [OnePlayer 이벤트에 대한 속성 목록](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/212efdd56d2d52faacd03dd70d367ca0b5895e3a/Teams/policy-control-diagnostic-data-mobile.md#property-lists-for-oneplayer-events)에 나열된 속성만 적용됩니다.
+> OnePlayer 이벤트의 경우 [OnePlayer 이벤트에 대한 속성 목록](#property-lists-for-oneplayer-events)에 나열된 속성만 적용됩니다.
 ### <a name="oneplayer-user-action-events"></a>OnePlayer 사용자 작업 이벤트
 - **PlayerPlay** - 사용자가 OnePlayer 보기에서 재생 단추를 탭하는지 확인합니다.
 - **PlayerPause** - 사용자가 OnePlayer 보기에서 일시 중지 단추를 탭하는지 확인합니다.

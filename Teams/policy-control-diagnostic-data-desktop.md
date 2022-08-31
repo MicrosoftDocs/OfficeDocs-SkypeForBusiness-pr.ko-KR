@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
 description: Microsoft Teams의 정책 제어에 대한 모바일 속성 및 이벤트 목록입니다.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c255fd02342eb6db1878608ad2da09683d7a83ec
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
-ms.translationtype: HT
+ms.openlocfilehash: 5bb9e4dfd604728ea1714d3ab2e663dab3b5c3c6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863229"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608925"
 ---
 # <a name="required-desktop-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams의 필수 데스크톱 진단 데이터
 
@@ -32,7 +32,7 @@ Microsoft로 전송되는 진단 데이터를 제어하는 방법을 포함하�
 ## <a name="events"></a>이벤트
 
 > [!NOTE]
-> 아래에 나열된 모든 이벤트에 대한 공통 속성이 있습니다. 검토하려면 [모든 이벤트와 함께 전송된 속성](#properties-sent-with-all-events)을 참조하세요.
+> 아래에 나열된 모든 이벤트에 대한 공통 속성이 있습니다. 이를 검토하려면 [모든 이벤트와 함께 전송된 속성](#properties-sent-with-all-events)을 참조하세요.
 
 ### <a name="logging"></a>로깅
 
@@ -148,7 +148,7 @@ Microsoft로 전송되는 진단 데이터를 제어하는 방법을 포함하�
 |--------------------------------------------|--------------------------------------------------------------------|
 | EventInfo_Time                             | 이벤트 생성 시간                                              |
 | EventInfo_Name                             | 이벤트 이름 - 이벤트 유형을 구분하는 데 사용됨             |
-| EventInfo_BaseType/name                    | 이벤트 유형 - 이벤트에서 이벤트 유형을 구분하는 데 사용됩니다. |
+| EventInfo_BaseType/name                    | 이벤트 유형 - 이벤트에서 이벤트 유형을 구분하는 데 사용됨 |
 | EventInfo_Sequence                         | 이벤트 순서                                              |
 | userAgent                                  | 브라우저 에이전트 문자열                                               |
 | userpdclevel                               | 사용자의 개인 정보 데이터 제어 설정                           |

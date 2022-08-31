@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
 description: Microsoft Teams에 대한 정책 컨트롤 개요입니다.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed0e5aa3a39147238bf0ade57df509a31f0f13e8
-ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
-ms.translationtype: HT
+ms.openlocfilehash: 13b807d98b92deaac54ad8b755295b73e90c6548
+ms.sourcegitcommit: b4bc3b4c1d167a075a25180818f61758eb56cd6b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53142814"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "61041260"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Microsoft Teams에 대한 정책 컨트롤 개요
 
@@ -87,9 +87,6 @@ Microsoft는 사용자가 Microsoft 365의 일부인 Microsoft Teams를 사용�
 이 진단 데이터에는 사용자 이름, 전자 메일 주소 또는 기타 사용자 콘텐츠(예: Teams에서 공유된 Office 파일, Teams에서 전송된 채팅 메시지 또는 Teams 채널에 게시된 게시물의 텍스트)가 포함되지 않습니다. Microsoft의 시스템은 사용자의 진단 데이터와 연결되는 고유의 ID를 만듭니다. 100회 충돌한 Teams 앱을 보여주는 진단 데이터를 받으면 이 고유 ID를 통해 단일 사용자에게서 100회 충돌이 발생했는지 또는 100명의 서로 다른 사용자에게서 각 1회씩 충돌이 발생했는지 확인합니다. Microsoft는 이 고유 ID를 사용하여 특정 사용자를 식별하지 않습니다.
 
 Microsoft에 어떤 진단 데이터가 전송되는지 확인하려면 Microsoft Store에서 무료로 다운로드하여 설치할 수 있는 진단 데이터 뷰어를 사용하세요. 자세한 내용은 [Office로 진단 데이터 뷰어 사용](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855)을 참조하세요.
-
-> [!NOTE]
-> Android를 실행하는 장치에서 Teams에서 진단 데이터 뷰어 대한 지원을 사용할 수 있습니다. Windows, macOS 또는 iOS를 실행하는 장치에서 Teams 지원이 작동 중입니다.
 
 ## <a name="required-service-data-for-connected-experiences"></a>연결된 환경을 위한 필수 서비스 데이터
 
