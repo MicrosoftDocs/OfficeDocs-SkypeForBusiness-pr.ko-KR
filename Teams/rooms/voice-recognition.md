@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9052812a669a808536cbd0179d6c16b9228296c4
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 29a048ccc02082ec019bb64dca9e89b7f265ff83
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270043"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67465976"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>지능형 스피커에 대한 음성 인식 기술 컨트롤 관리
 
@@ -71,12 +71,12 @@ Epos, Sennheiser 및 Yealink 인텔리전트 스피커가 지원됩니다.
 
    ![스피커가 콘솔에 직접 연결되는 인텔리전트 스피커 설정입니다.](../media/intelligent-speakers2.png)
 
-> [!Note]
+> [!NOTE]
 > EPOS 및 Yealink 디바이스에는 "EPOS" 또는 "Yealink" 접두사 및 스피커 이름에 "UAC2_RENDER", 마이크 이름에 "UAC2_TEAMS"이 포함되어야 합니다. 드롭다운 메뉴에서 이러한 마이크 및 스피커 이름을 찾을 수 없는 경우 인텔리전트 스피커 장치를 다시 시작합니다.
 
 ## <a name="enable-an-intelligent-speaker-user-recognition"></a>인텔리전트 스피커 사용자 인식 사용
 
-음성 프로필 데이터는 인텔리전트 스피커와의 모든 모임에서 사용할 수 있습니다. [모임 설정에 대한 자세한 내용은 Teams 모임 정책](../meetings-policies-recording-and-transcription.md#allow-transcription) 및 [PowerShell 모임 cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy)을 참조하세요.
+음성 프로필 데이터는 인텔리전트 스피커와의 모든 모임에서 사용할 수 있습니다. [모임 설정에 대한 자세한 내용은 Teams 모임 정책](../meetings-policies-recording-and-transcription.md#transcription) 및 [PowerShell 모임 cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy)을 참조하세요.
 
 사용자의 음성 프로필 데이터는 정책을 구분하도록 설정되거나 모임 중에 모임이 아닌 초대 대상자가 들어갈 때 만들어집니다. 음성 프로필 데이터는 모임이 끝날 때 해제됩니다.
 
@@ -161,6 +161,6 @@ IT 관리자는 언제든지 오디오 데이터를 내보낼 수 있습니다.
 |스페인어  <br/> |멕시코  <br/> |es-MX  <br/> |
 |스페인어  <br/> |스페인  <br/> |es-ES  <br/> |
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[지원 문서: 인텔리전트 스피커를 사용하여 회의실 내 참가자 식별 ](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)
+[지원 문서: 인텔리전트 스피커를 사용하여 회의실 내 참가자 식별](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)

@@ -19,12 +19,12 @@ description: Teams 모임 및 그룹 통화를 녹음하여 오디오, 비디오
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7a1f8aa97f43e70e2ec17e64cfa2a618b7a61af7
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
-ms.translationtype: HT
+ms.openlocfilehash: f1ec379a7f8d30738fc71b66d840752137ce72bf
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175712"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466016"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -39,7 +39,7 @@ Microsoft Teams에서 사용자는 Teams 모임 및 그룹 통화를 녹음/녹�
 - Microsoft 365 전반에 다양한 파일 목록(나와 공유됨, office.com, 권장, 최근에 사용한 항목 등)이 추가됨
 - Microsoft 365 Search에 대해 인덱싱됨
 
-관련: [Teams 모임 녹음/녹화 최종 사용자 문서](https://support.microsoft.com/en-us/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)
+관련: [Teams 모임 녹음/녹화 최종 사용자 문서](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)
 
 >[!Note]
 > 모임 녹음/녹화에 Microsoft Stream(클래식) 대신 OneDrive 및 SharePoint를 사용하는 변경 내용은 2021년 8월에 자동으로 적용됩니다. 자세한 내용은 [모임 녹음/녹화에 OneDrive와 SharePoint 또는 Stream 사용](tmr-meeting-recording-change.md)을 참조하세요.
@@ -79,7 +79,7 @@ Teams 사용자의 모임을 녹음/녹화하려면 테넌트의 OneDrive와 Sha
 
 Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 사용자 모임을 녹음/녹화할 수 있는지 여부를 제어하는 Teams 모임 정책을 설정할 수 있습니다.
 
-Microsoft Teams 관리 센터에서 모임 정책의 **클라우드 녹음/녹화** 설정을 설정하거나 해제합니다. 자세한 내용은 [오디오 및 비디오의 모임 정책 설정](meetings-policies-recording-and-transcription.md#allow-cloud-recording)을 참조하세요.
+Microsoft Teams 관리 센터에서 모임 정책의 **클라우드 녹음/녹화** 설정을 설정하거나 해제합니다. 자세한 내용은 [오디오 및 비디오의 모임 정책 설정](meetings-policies-recording-and-transcription.md#cloud-recording)을 참조하세요.
 
 PowerShell을 사용하여 TeamsMeetingPolicy에서 AllowCloudRecording 설정을 구성할 수 있습니다. 자세한 내용은 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) 및 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)를 참조하세요.
 
@@ -107,8 +107,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 | 녹음/녹화를 100% 사용하지 않도록 설정하려고 합니다. | <ol><li>Global CsTeamsMeetingPolicy에 AllowCloudRecording = False인지 확인합니다.<li>모든 사용자에게 Global CsTeamsMeetingPolicy 또는 AllowCloudRecording = False인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다. |
 | 대부분의 사용자에게 녹음/녹화를 사용하지 않도록 설정하고 선택적으로 특정 사용자에게 녹음/녹화를 사용하도록 설정하려고 합니다. | <ol><li>Global CsTeamsMeetingPolicy에 AllowCloudRecording = False인지 확인합니다.<li>대부분의 사용자에게 Global CsTeamsMeetingPolicy 또는 AllowCloudRecording = False인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다.<li>다른 모든 사용자에게 AllowCloudRecording = True인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다. <ol> |
 
-
 <a name="bd-channel"></a>
+
 ### <a name="block-or-allow-download-of-channel-meeting-recordings"></a>채널 모임 녹음/녹화의 다운로드 차단 또는 허용
 
 이 설정은 채널 모임이 채널의 "녹음/녹화" 폴더 또는 "녹음/녹화\보기 전용" 폴더에 저장되는지 여부를 제어합니다. 설정은 채널 모임에 대한 레코드를 선택하는 사용자의 정책에 적용됩니다.
@@ -143,17 +143,17 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 >```
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>녹음/녹화 기록 설정 또는 해제
+
 이 설정은 모임 녹음/녹화 재생 중에 캡션 및 전사 기능을 사용할 수 있는지 여부를 제어합니다. 녹음/녹화를 시작한 사람은 이러한 기능이 레코딩에서 작동하려면 이 설정을 켜야 합니다.
   
 이 설정을 켜면 모임 기록에서 **검색**, **참조** 및 **대본** 을 사용하는 모임 기록과 함께 저장된 대본의 사본이 생성됩니다.
-
 
 > [!NOTE]
 > 녹음/녹화된 모임에 대한 기록은 현재 영어(미국), 영어(캐나다), 영어(인도), 영어(영국), 영어(오스트레일리아), 영어(뉴질랜드), 아랍어(아랍에미리트), 아랍어(사우디아라비아), 중국어(간체, 중국) 중국어(번체, 중국), 중국어(번체, 홍콩 특별 행정구), 중국어(번체, 대만), 체코어(체코), 덴마크어(덴마크), 네덜란드어(벨기에), 네덜란드어(네덜란드), 프랑스어(캐나다), 프랑스어(프랑스), 핀란드어(핀란드), 독일어(독일), 그리스어(그리스), 히브리어(이스라엘), 힌디어(인도), 헝가리어(헝가리), 이탈리아어(이탈리아), 일본어(일본), 한국어(한국), 노르웨이어(노르웨이), 폴란드어(폴란드), 포르투갈어(브라질), 포르투갈어(포르투갈), 루마니아어(루마니아), 러시아어(러시아), 슬로바키아어(슬로바키아), 스페인어(멕시코), 스페인어(스페인), 스웨덴어(스웨덴), 태국어(태국), 터키어(터키), 우크라이나어(베트남), 베트남어(베트남)으로만 지원됩니다. OneDrive와 SharePoint 클라우드 저장소에 모임 녹음/녹화와 함께 저장됩니다.
 
 Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 녹음/녹화 개시자에게 모임 녹음/녹화를 기록할 수 있는 선택권이 있는지 여부를 제어하는 Teams 모임 정책을 설정할 수 있습니다.
 
-Microsoft Teams 관리 센터에서 모임 정책의 **기록 허용** 설정을 설정하거나 해제합니다. 자세한 내용은 [오디오 및 비디오의 모임 정책 설정](meetings-policies-recording-and-transcription.md#allow-transcription)을 참조하세요.
+Microsoft Teams 관리 센터에서 모임 정책의 **기록 허용** 설정을 설정하거나 해제합니다. 자세한 내용은 [오디오 및 비디오의 모임 정책 설정](meetings-policies-recording-and-transcription.md#transcription)을 참조하세요.
 
 PowerShell을 사용하여 TeamsMeetingPolicy에서 AllowTranscription 설정을 구성할 수 있습니다. 자세한 내용은 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) 및 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)를 참조하세요.
 
@@ -171,9 +171,6 @@ Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
 Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 ```
 
-</br>
-</br>
-
 |시나리오|단계 |
 |---|---|
 |모임 녹음/녹화를 시작할 때 회사의 모든 사용자가 기록할 수 있게 하려고 합니다. |<ol><li>Global CsTeamsMeetingPolicy에 AllowTranscription = True가 있는지 확인합니다. <li>모든 사용자에게 Global CsTeamsMeetingPolicy 또는 AllowTranscription = True인 CsTeamsMeetingPolicy 정책 중 하나가 있습니다. </ol>|
@@ -182,6 +179,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |대부분의 사용자에게 기록을 사용하지 않도록 설정하고 선택적으로 특정 사용자에게 기록을 사용하도록 설정하려고 합니다. |<ol><li>Global CsTeamsMeetingPolicy에 AllowCloudRecording = False인지 확인합니다. <li>대부분의 사용자에게 Global CsTeamsMeetingPolicy 또는 AllowCloudRecording = False인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다. <li>다른 모든 사용자에게 AllowCloudRecording = True인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다. </ol>|
 
 ### <a name="terms-of-use-acceptance"></a>사용 약관 동의
+
 조직에서 모임을 녹음/녹화하기 전에 사용자가 동의하도록 하는 모임 녹음/녹화 정책이 있는 경우, [Azure Active Directory 사용 약관](/azure/active-directory/conditional-access/terms-of-use) 기능을 사용하세요. 이 기능을 사용하면 Microsoft Teams에 액세스하기 전에 조직의 사용자 정책에 동의할 수 있습니다. 이 기능은 녹음/녹화 단추를 클릭하는 것과 관련이 없지만 Teams나 기타 Microsoft 365 앱을 전체적으로 사용하는 것과 관련이 있습니다. Teams나 Microsoft 365 사용에 대한 전반적인 이용 약관에 회의 기록 정보를 추가하는 것이 좋습니다.
 
 ### <a name="set-a-custom-privacy-policy-url"></a>사용자 지정 개인 정보 보호 정책 URL 설정
@@ -208,7 +206,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 - 녹음/녹화는 녹음/녹화를 클릭한 사용자의 OneDrive에 있는 **녹음/녹화** 폴더에 저장됩니다. 
 
-  예: <i>레코더의 OneDrive</i>/**녹음/녹화**
+  예: *레코더의 OneDrive*/**녹음/녹화**
 
 - 외부 참가자를 제외하고 모임에 초대된 사용자에게는 다운로드는 할 수 없는 보기 전용 액세스 권한이 있는 녹음/녹화 파일에 대한 사용 권한이 자동으로 부여됩니다.
 
@@ -220,7 +218,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 - 녹음/녹화는 **녹음/녹화** 폴더의 Teams 사이트 설명서 라이브러리에 저장됩니다.
 
-  예:  <i>Teams 이름 - 채널 이름</i>/**문서**/**녹음/녹화**
+  예: *Teams 이름 - 채널 이름*/**문서**/**녹음/녹화**
 
 - 레코드를 클릭한 멤버에게 녹음/녹화에 대한 편집 권한이 있습니다.
 
@@ -230,7 +228,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 - 녹음/녹화는 **녹음/녹화/보기 전용** 폴더의 Teams 사이트 설명서 라이브러리에 저장됩니다. 
 
-  예: <i>Teams 이름 - 채널 이름</i>/**문서/녹음/녹화/보기 전용**
+  예: *Teams 이름 - 채널 이름*/**문서/녹음/녹화/보기만**
 
 - 채널 소유자는 이 폴더의 녹음/녹화에 대한 전체 편집 및 다운로드 권한을 갖습니다.
 
@@ -252,6 +250,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |채널 모임                            |채널 구성원         |해당 채널에 대한 Teams의 SharePoint 위치                   |Set-CsTeamsMeetingPolicy -ChannelRecordingDownload가 허용(기본값)으로 설정된 경우, 레코드를 클릭한 구성원은 녹음/녹화에 대한 편집 권한을 가집니다. 다른 모든 구성원의 권한은 채널 SharePoint 권한을 기반으로 합니다.<Br><Br>Set-CsTeamsMeetingPolicy -ChannelRecordingDownload가 차단으로 설정된 경우, 채널 소유자는 녹음/녹화에 대한 모든 권한이 있지만 채널 멤버는 다운로드할 수 없는 읽기 권한을 갖습니다.|
 
 <a name="temp-storage"></a>
+
 ### <a name="temporary-storage-when-unable-to-upload-to-onedrive-and-sharepoint"></a>OneDrive와 SharePoint에 업로드할 수 없는 경우 임시 저장소
 
 모임 녹음/녹화를 OneDrive와 SharePoint에 업로드할 수 없는 경우, 삭제되기 전에 21일 동안 Teams에서 일시적으로 다운로드할 수 있습니다. 이는 이 시점에서 관리자가 삭제하는 기능을 포함하도록 제어하거나 관리할 수 있는 것이 아닙니다.
@@ -271,21 +270,14 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 ### <a name="planning-for-storage"></a>저장소 계획
 
 1시간 녹음/녹화 크기는 400MB입니다. 녹음/녹화된 파일에 필요한 용량을 이해하고 OneDrive와 SharePoint에 사용 가능한 저장소가 충분한지 확인합니다.  구독에 포함된 기본 저장소 및 추가 저장소를 구입하는 방법을 이해하려면 [OneDrive의 기본 저장 공간 설정](/onedrive/set-default-storage-space) 및 [SharePoint 사이트 저장소 제한 관리](/sharepoint/manage-site-collection-storage-limits)를 읽어 보세요.
-
- <a name="auto-expiration"></a>
-### <a name="auto-expiration-of-teams-meeting-recordings"></a>Teams 모임 녹음/녹화 자동 만료
-
-관리자 및 최종 사용자를 위한 자주 묻는 질문(FAQ)을 참조하여 Teams 모임 녹화/녹음의 자동 만료 작동 방식, 지금 수행할 수 있는 작업 및 기능이 시작된 후 수행할 수 있는 작업에 대한 인사이트를 수집하세요.
-  
-[여기](meeting-expiration.md#changes-to-meeting-expiration)에서 관리자별 변경 사항에 대해 알아보세요.
-
-[여기](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)에서 최종 사용자가 모임 종료를 관리하는 방법을 알아보세요.
   
 ## <a name="manage-meeting-recordings"></a>모임 녹음/녹화 관리
 
 모임 녹음/녹화는 OneDrive와 SharePoint에 비디오 파일로 저장되며 해당 플랫폼에서 사용할 수 있는 관리 및 거버넌스 옵션을 따릅니다. 자세한 내용은 [SharePoint 거버넌스 개요](/sharepoint/governance-overview)를 참조하세요.
 
 비 채널 모임의 경우 녹음/녹화는 레코더의 OneDrive에 저장되므로 직원이 퇴사한 후 소유권 및 보존을 처리하는 작업은 일반적인 [OneDrive와 SharePoint 프로세스](/onedrive/retention-and-deletion#the-onedrive-deletion-process)를 따릅니다.
+
+모임 녹음/녹화의 기본 만료 시간은 120일입니다. 모임이 자동으로 만료되는 설정을 해제하거나 기본 만료 시간을 변경할 수 있습니다. [모임 녹음/녹화가 자동으로 만료되는 방법에](meetings-policies-recording-and-transcription.md#meetings-automatically-expire) 대해 자세히 알아봅니다.
 
 ## <a name="closed-captions-for-recordings"></a>녹음/녹화를 위한 선택 자막
 
@@ -324,11 +316,12 @@ ProgID 속성별로 모임 녹음/녹화 파일에 DLP 정책을 적용할 수�
 DLP에 대한 자세한 내용은 [데이터 손실 방지에 대한 자세한 정보](/microsoft-365/compliance/dlp-learn-about-dlp) 문서를 참조하세요.
 
 ## <a name="meeting-recording-diagnostic-tools"></a>모임 레코딩 진단 도구
-  ### <a name="user-cannot-record-meetings"></a>사용자가 모임을 녹음/녹화할 수 없음
+
+### <a name="user-cannot-record-meetings"></a>사용자가 모임을 녹음/녹화할 수 없음
 
 관리자인 경우 다음 진단 도구를 사용하여 사용자가 Teams에서 모임을 녹음/녹화하도록 올바르게 구성되어 있는지 확인할 수 있습니다.
 
-1. 아래의 **테스트 실행** 을 선택하면 Microsoft 365 관리 센터에서 진단이 채워집니다. 
+1. 아래의 **테스트 실행** 을 선택하면 Microsoft 365 관리 센터에서 진단이 채워집니다.
 
    > [!div class="nextstepaction"]
    > [실행 테스트: 모임 레코딩](https://aka.ms/MeetingRecordingDiag)
@@ -337,16 +330,16 @@ DLP에 대한 자세한 내용은 [데이터 손실 방지에 대한 자세한 �
 
 3. 테스트는 테넌트 또는 정책 구성을 처리하는 최상의 다음 단계를 반환하여 사용자가 Teams에서 모임을 녹음/녹화하도록 올바르게 구성되어 있는지 확인합니다.
   
-  ### <a name="meeting-record-is-missing"></a>모임 레코드가 없습니다.
+### <a name="meeting-record-is-missing"></a>모임 레코드가 없습니다.
 
 관리자인 경우 다음 진단 도구를 사용하여 모임 녹음/녹화가 성공적으로 완료되었으며 모임 ID 및 녹음/녹화 시작 시간에 따라 Stream 또는 OneDrive에 업로드되었는지 확인할 수 있습니다.
 
-1. 아래의 **테스트 실행** 을 선택하면 Microsoft 365 관리 센터에서 진단이 채워집니다. 
+1. 아래의 **테스트 실행** 을 선택하면 Microsoft 365 관리 센터에서 진단이 채워집니다.
 
    > [!div class="nextstepaction"]
    > [실행 테스트: 모임 레코딩 누락](https://aka.ms/MissingRecordingDiag)
 
-2. 진단 실행 창에서 **녹음/녹화된 모임 URL** 필드(일반적으로 모임 초대에 있음)에 URL을 입력하고 **모임이 언제 녹음/녹화되었습니까?**에도 모임 날짜를 입력한 다음 **테스트 실행** 을 선택합니다.
+2. 진단 실행 창에서 기록된 필드(일반적으로 모임 초대에 있는) **의 URL에 모임 URL** 과 모임이 **기록된** 시기 필드의 모임 날짜를 입력한 다음 **테스트 실행을** 선택합니다.
 
 3. 테스트는 모임 녹음/녹화가 성공적으로 완료되었으며 Stream 또는 OneDrive에 업로드되었는지 확인합니다.
 

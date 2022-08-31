@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-get-started
-ms.openlocfilehash: 84cc77409aecf5525a16ef73e3dfa7e0115f7566
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: d6667564c326552cd5671c480bb1ee66a3311c93
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268573"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466006"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams에서의 모임 및 회의
 
@@ -52,7 +52,6 @@ Teams는 조직을 위해 즉시 사용 가능한 뛰어난 경험을 제공하�
 
 > [!TIP]
 > 모임에 관한 자세한 내용은 [IT 전문가를 위한 Microsoft Teams의 모임 소개](https://aka.ms/teams-meetings-intro) 구역을 참조하세요.
-
 
 ## <a name="meetings-and-conferencing-prerequisites"></a>모임 및 회의 필수 구성 요소
 
@@ -150,7 +149,7 @@ Teams에서 최적의 모임 경험을 위해 회의실 시스템, 전화, 헤�
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
-| 모임 기록 서비스를 켜나요?|[녹음/녹화 기록 설정 또는 해제](meetings-policies-recording-and-transcription.md#allow-transcription)를 참조하세요.|
+| 모임 기록 서비스를 켜나요?|[녹음/녹화 기록 설정 또는 해제](meetings-policies-recording-and-transcription.md#transcription)를 참조하세요.|
 
 ### <a name="live-events-policies"></a>라이브 이벤트 정책
 
@@ -203,6 +202,7 @@ Teams는 통화 품질 문제를 모니터링하고 문제를 해결하기 위�
 |조직에서 모임 서비스를 관리해야 하는 사람은 누구인가요? | 이 사람이 모임 서비스를 관리하는 데 필요한 팀 관리자 권한을 보유하고 있는지 확인합니다. Teams 관리자 역할에 대한 자세한 내용은 [팀을 관리하기 위한 Microsoft Teams 관리 역할의 활용](using-admin-roles.md)을 참조하세요.|
 
 ## <a name="next-steps"></a>다음 단계
+
 - 조직 전체의 모임 및 회의 [도입을 주도](adopt-microsoft-teams-landing-page.md).
 - [오디오 회의 추가](deploy-audio-conferencing-teams-landing-page.md)
 - [클라우드 음성 출시](cloud-voice-landing-page.md)

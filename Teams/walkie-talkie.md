@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 815d3c6b1e97ea75eaa7ae4e35d3e41dd3c6e9e4
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: e309fa03e73dc13bff8bd1a90708c688bb0f5350
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396449"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67465996"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams의 Walkie Talkie 앱
 
@@ -48,7 +48,7 @@ Walkie Talkie는 조직의 모든 Teams 사용자에 대해 기본적으로 사�
 
 ### <a name="enable-or-disable-walkie-talkie-for-specific-users-in-your-organization"></a>조직의 특정 사용자에 대해 Walkie Talkie 사용 또는 사용 안 함
 
-조직의 특정 사용자가 Walkie Talkie를 사용하도록 허용하거나 차단하려면 [앱 관리](manage-apps.md) 페이지에서 조직에 대해 Walkie Talkie가 켜져 있는지 확인합니다. 그런 다음 사용자 지정 앱 권한 정책을 만들고 해당 사용자에게 할당합니다. 자세한 내용은 [Teams에서 앱 권한 정책 관리](teams-app-permission-policies.md)를 참조하세요.
+조직의 특정 사용자가 Walkie Talkie를 사용하도록 허용하거나 차단하려면 [앱 관리](manage-apps.md) 페이지에서 조직에 대해 Walkie Talkie가 켜져 있는지 확인합니다. 그런 다음, 사용자 지정 앱 사용 권한 정책을 만들고, 앱 설정 정책에 추가하고, 해당 사용자에게 할당합니다. 자세한 내용은 [Teams에서 앱 권한 정책 관리](teams-app-permission-policies.md) 및 [Microsoft Teams의 앱 설정 정책 관리를 참조하세요](teams-app-setup-policies.md).
 
 ### <a name="pin-walkie-talkie-to-teams"></a>워키 토키를 Teams에 고정
 

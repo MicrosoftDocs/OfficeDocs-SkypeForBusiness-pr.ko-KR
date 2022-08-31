@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams에서 공유 채널을 사용하고 관리하는 방법을 알아보세요.
-ms.openlocfilehash: 767773d8c7f91bb290332fbd0976fb638edb2b8b
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: f3ff6cac1c3d48ca3b45a253052eef71eb3f222e
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397229"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466226"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams의 공유 채널
 
@@ -69,7 +69,7 @@ Microsoft Teams의 공유 채널은 팀에 없는 사용자를 초대할 수 있
 
 공유 채널 소유자가 하나 이상의 공유 채널을 운영하는 마지막 소유자일 경우 Teams 클라이언트를 통해 제거할 수 없습니다.
 
-마지막 공유 채널 소유자가 조직을 떠나거나 팀과 연결된 Microsoft 365 그룹에서 제거될 경우 공유 채널의 구성원이 자동으로 공유 채널 소유자로 승격합니다. 이러한 상황을 피하기 위해 둘 이상의 소유자를 추가하는 것이 좋습니다.
+마지막 공유 채널 소유자가 조직을 떠나거나 팀과 연결된 Microsoft 365 그룹에서 제거된 경우 조직의 공유 채널 구성원이 자동으로 공유 채널 소유자로 승격됩니다. 조직에서 홍보할 구성원이 없으면 공유 채널은 소유자가 없는 상태로 유지됩니다. Teams 관리자는 채널 소유자를 수동으로 할당해야 합니다. 이 상황을 방지하려면 둘 이상의 소유자를 추가하는 것이 좋습니다.
 
 > [!NOTE]
 > 두 참가자가 Azure Active Directory에서 일치하지 않는 경우 외부 참가자는 메일 주소가 아닌 UPN을 사용하여 추가해야 합니다.
