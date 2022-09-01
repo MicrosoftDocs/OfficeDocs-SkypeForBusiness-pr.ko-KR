@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams에서 생성한 디버그, 미디어 및 데스크톱 로그, 찾을 수 있는 위치 및 모니터링 및 문제 해결에 도움이 되는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae6e6eb0c84eae8293f141940842506fa3f54142
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: 2ab00f7a1eedf2b1341819c7ec1c67abeb5f6e38
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/31/2022
-ms.locfileid: "67466036"
+ms.locfileid: "67486893"
 ---
 # <a name="configure-log-files-for-monitoring-and-troubleshooting-in-teams"></a>Teams에서 모니터링 및 문제 해결을 위한 로그 파일 구성
 
@@ -118,7 +118,7 @@ PowerShell cmdlet에 대한 [Grant-CsTeamsMediaLoggingPolicy](/powershell/module
 
 ### <a name="end-user-configuration"></a>최종 사용자 구성
 
-최종 사용자가 Teams 모임에 대한 진단 데이터를 기록하려면 Teams 클라이언트에서 옵션을 설정해야 합니다. **설정** > **일반** 으로 이동하여 **미디어 로그 사용(오디오, 비디오 및 화면 공유에 대한 진단 데이터)을 선택합니다. Teams를 다시 시작해야** 합니다.) (Teams를 다시 시작해야 합니다) 확인란, Teams를 다시 시작하고 문제를 재현합니다. 로깅을 시작하려면 Teams 클라이언트를 다시 시작해야 합니다. 사용자는 도크(Mac) 또는 작업 표시줄(Windows)에서 아이콘을 마우스 오른쪽 단추로 클릭하고 종료를 선택하여 다시 시작할 수 있습니다. 종료한 후 앱 아이콘을 클릭하여 Teams를 다시 열 수 있습니다.
+최종 사용자가 Teams 모임에 대한 진단 데이터를 기록하려면 Teams 클라이언트에서 옵션을 설정해야 합니다. **설정** > **일반** 으로 이동하여 **미디어 로그 사용(오디오, 비디오 및 화면 공유에 대한 진단 데이터)** 확인란을 선택하고 문제를 재현합니다.
 
 > [!NOTE]
 > 사용자가 Teams에서 로그아웃하면 미디어 로깅이 기본값으로 다시 설정됩니다.

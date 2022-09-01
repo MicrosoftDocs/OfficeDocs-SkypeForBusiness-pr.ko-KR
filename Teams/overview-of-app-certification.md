@@ -2,7 +2,7 @@
 title: Microsoft의 앱 인증 개요
 description: 타사 앱의 보안, 규정 준수 및 개인 정보 보호를 위한 Microsoft 365 앱 준수 프로그램에 대해 자세히 알아봅니다.
 ms.topic: article
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 audience: admin
@@ -17,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d1fb640e6bf43d4a91eb1c672244cdf33cefd059
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 624d91cc7b8518417b45a787f2beae7cb75a7747
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396439"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486953"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>타사 앱의 보안, 규정 준수 및 개인 정보 보호를 위한 Microsoft 365 앱 준수 프로그램
 

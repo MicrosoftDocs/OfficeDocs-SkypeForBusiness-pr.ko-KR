@@ -15,12 +15,12 @@ description: 신용 카드, 직불 카드 또는 청구서 청구를 통해 Team
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 680f48fd75c85b219a4c1ed5b18289962637401b
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 53a630fd887bd793f2b811e97e176cbd40ec1d0d
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396309"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486723"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Teams용 타사 앱 구매
 
@@ -28,7 +28,7 @@ Teams 앱은 무료로 설치할 수 있으며 일부 앱은 앱의 전체 기�
 
 Microsoft Teams 관리 센터의 [앱 관리](manage-apps.md) 페이지에서 조직의 모든 Teams 앱을 보고 관리할 수 있습니다. 예를 들어 앱의 조직 수준 상태 및 속성을 보고, 조직의 앱 스토어에 새 사용자 지정 앱을 업로드하고, 조직 수준에서 앱을 차단 또는 허용하고, 조직 전체 앱 설정을 관리할 수 있습니다.
 
-여기에서 조직의 사용자를 위해 타사 앱에서 제공하는 서비스에 대한 라이선스를 구입할 수도 있습니다. 표의 **라이선스** 열은 앱이 구매를 위한 SaaS 구독을 제공하는지 여부를 나타냅니다.
+여기에서 조직의 사용자를 위해 타사 앱에서 제공하는 서비스에 대한 라이선스를 구입할 수도 있습니다. 표의 **라이선스** 열은 앱이 구매를 위한 SaaS 구독을 제공하는지 여부를 나타냅니다. 최종 사용자는 신용 카드, 직불 카드 또는 청구서 청구를 사용하여 앱을 구입할 수 있습니다.
 
 ![구매 라이선스는 앱 관리 페이지의 스크린샷입니다.](media/manage-apps-new-page.png)
 

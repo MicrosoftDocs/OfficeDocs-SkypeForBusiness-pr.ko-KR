@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 다음은 오디오 회의를 사용하려는 고객에게서 얻을 수 있는 몇 가지 주요 질문입니다.
-ms.openlocfilehash: b6b14397282a365931dc58e6da20f2b3da3ab6c8
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 1f2e45a68b1f964453645c1d06794f9016019beb
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023749"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486983"
 ---
 # <a name="audio-conferencing-common-questions"></a>오디오 회의 일반적인 질문
 
@@ -142,7 +142,7 @@ ms.locfileid: "67023749"
 | 명령 이름                   | 명령 키 | 설명                                                 |
 |--------------------------------|--------------|-------------------------------------------------------------|
 | 모두 인정                      | \*21         | 로비에서 대기 중인 모든 참가자를 허용하려면 21 키를 누릅니 \*다.  |
-| 모두 음소거                       | \*22         | 21 키를 눌러 \*모든 참가자를 음소거합니다(이끌이 제외). |
+| 모두 음소거                       | \*22         | 22 키를 눌러 \*모든 참가자를 음소거합니다(이끌이 제외). |
 | Enter/Exit 알림 설정/해제 | \*23         | 23 키를 눌러 \*Enter/Exit 공지 사항을 사용하거나 사용하지 않도록 설정합니다.    |
 
 ## <a name="can-attendees-dial-out-to-international-phone-numbers-when-they-are-in-a-skype-for-business-or-microsoft-teams-meeting"></a>참석자가 비즈니스용 Skype 또는 Microsoft Teams 모임에 참가할 때 국제 전화 번호로 전화를 걸 수 있나요?

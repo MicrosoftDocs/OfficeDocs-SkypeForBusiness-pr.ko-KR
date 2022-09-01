@@ -19,18 +19,18 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 78f0f0857884f70d5e758b1c52e13341c15faa0e
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 0a6bfa577df36eba83b4764aa4eb819d1085432a
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397199"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486913"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Microsoft Teams 앱 이해하기
 
 앱은 작업 공간 도구와 서비스를 통합하고 다른 사용자와 공동 작업할 수 있는 좋은 방법입니다. 앱을 사용하면 최종 사용자가 일상적인 작업에서 생산성을 향상하고 공동 작업하며 효과적으로 작업할 수 있습니다. 조직은 앱을 사용하여 고객과 연결하고, 서비스를 제공하고, 정보를 공유합니다. 예를 들어 Teams에서 고정된 일정 앱을 사용하여 다른 사용자와 빠르게 공동 작업하는 최종 사용자, 사용자에게 Teams 채널의 웹 서비스 품질을 알려주는 봇 기능이 있는 앱, 채널에서 다양한 최종 사용자에게 작업을 공유하고 할당하는 앱이 있습니다.
 
-Teams 스토어의 유효성이 검사되고 안전한 앱이 포함된 광범위한 카탈로그를 통해 최종 사용자는 조직에 매일 필요한 도구와 서비스에 액세스할 수 있습니다. Microsoft Teams 앱은 배포할 필요가 없는 웹 기반 SaaS 앱입니다. 최종 사용자는 오직 [관리자가 제공한 권한](app-policies.md)에 따라 Teams에서 앱을 사용할 수 있습니다. 관리자는 엔터프라이즈급 정책을 사용하여 조직의 사용자를 대상으로 앱을 허용하거나 차단합니다. 모임, 채팅 및 채널과 같은 다양한 컨텍스트에서 각 사용자에 대해 앱의 사용 가능성을 제어합니다.
+Teams Store의 유효성이 검사되고 안전한 앱의 광범위한 [카탈로그](https://appsource.microsoft.com/en-US/marketplace/apps?product=office%3Bteams&page=1) 를 통해 최종 사용자는 조직에 매일 필요한 도구와 서비스에 액세스할 수 있습니다. Microsoft Teams 앱은 배포할 필요가 없는 웹 기반 SaaS 앱입니다. 최종 사용자는 오직 [관리자가 제공한 권한](app-policies.md)에 따라 Teams에서 앱을 사용할 수 있습니다. 관리자는 엔터프라이즈급 정책을 사용하여 조직의 사용자를 대상으로 앱을 허용하거나 차단합니다. 모임, 채팅 및 채널과 같은 다양한 컨텍스트에서 각 사용자에 대해 앱의 사용 가능성을 제어합니다.
 
 이 문서는 앱 유형 및 사용자가 해당 앱에 액세스하는 위치를 이해하는 데 도움이 됩니다. 앱 사용에 대한 자세한 내용은 [최종 사용자 대상 앱 개요](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)를 참조하세요.
 

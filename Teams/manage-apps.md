@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams 관리 센터에서 앱 관리
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -19,12 +19,12 @@ description: Teams 앱을 관리하는 방법을 알아봅니다. 앱 허용 또
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 5c769a5cb8aab00265dee90bcce4b093c50e2a90
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: beaa10343570624b6ce9b01dbaf9f4a0e962b191
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397059"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486883"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 Teams 앱 관리
 

@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Microsoft Teams에서 통화 큐를 설정하는 방법을 알아봅니다. 통화 큐는 인사말 메시지를 제공하고, 음악을 누르고, 통화 리디렉션 및 기타 기능을 제공합니다.
-ms.openlocfilehash: f14c0644c7a4be2a63e74ae59705bb7e3bc0cb76
-ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
+ms.openlocfilehash: eaf165759e2310402fdec6147ba2153ec0ce792b
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443335"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486763"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 
@@ -361,11 +361,11 @@ Teams 채널을 통해 최대 200명의 에이전트를 추가할 수 있습니�
 |`Round Robin`                    |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*권장* |
 |`Serial`                         |Y                         |Y         |Y               |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
 |**에이전트 라우팅 옵션**        |                          |          |                |     |          |                      |                          |   |
-|`Presence Based Routing`<sup>3</sup>|Y                      |Y         |Y               |N    |Y         |Y                     |Y                         |*권장* |
+|`Presence Based Routing`<sup>3</sup>|Y                      |Y         |Y               |N    |Y         |Y                     |Y                         |*기본* |
 |`Agents can Opt-out`               |Y                       |Y         |Y               |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*기본*     |
 |**전송 모드**               |                          |          |                |     |          |                      |                          |   |
-|`Conference Mode`<sup>5</sup>    |Y                         |Y         |Y               |N    |Y<sup>6</sup>|Y                  |Y                         |*권장* |
-|`Transfer Mode`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*기본*              |
+|`Conference Mode`<sup>5</sup>    |Y                         |Y         |Y               |N    |Y<sup>6</sup>|Y                  |Y                         |*기본* |
+|`Transfer Mode`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
 |**공동 작업 통화**        |                          |          |                |     |          |                      |                          |   |
 |`Channel Based Queues`             |Y                       |N         |N               |N    |N         |n/a                   |Y<sup>8</sup>             |   |
 |**동적 호출자 ID**            |                          |          |                |     |          |                      |                          |   |

@@ -1,6 +1,6 @@
 ---
 title: 조직의 Teams 스토어에서 앱 모양 수정
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -16,16 +16,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 앱 세부 정보 및 메타데이터를 편집하여 앱의 모양을 변경하고 앱 브랜드를 변경하는 방법을 알아보세요.
-ms.openlocfilehash: 304aa0b5d8becae641f69b0c389ca41160ad2e2f
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 444cf5cda737b9d4b4c3dc7f4032b7eb0877f4aa
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298887"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486923"
 ---
 # <a name="customize-appearance-of-apps-in-your-organizations-teams-store"></a>조직의 Teams 스토어에서 앱 모양 사용자 지정
 
-Microsoft Teams를 사용하면 관리자가 Teams 앱을 사용자 지정하여 매장 환경을 향상하고 조직의 브랜딩을 준수할 수 있습니다. 앱 개발자는 Teams 관리자가 앱을 사용자 지정하도록 허용할 수 있습니다. 그런 다음 Teams 관리 센터의 앱 관리 페이지에서 조직의 요구 사항에 따라 앱 속성을 업데이트할 수 있습니다. 사용자 지정할 수 있는 세부 정보는 다음과 같습니다.
+Microsoft Teams를 사용하면 관리자가 Teams 앱을 사용자 지정하여 스토어 환경을 개선하고 조직의 브랜딩을 준수할 수 있습니다. 앱 개발자는 Teams 관리자가 앱을 사용자 지정하도록 허용할 수 있습니다. 그런 다음 Teams 관리 센터의 앱 관리 페이지에서 조직의 요구 사항에 따라 앱 속성을 업데이트할 수 있습니다. 사용자 지정할 수 있는 세부 정보는 다음과 같습니다.
 
 * 짧은 이름
 * 간단한 설명

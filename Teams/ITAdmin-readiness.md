@@ -18,12 +18,12 @@ ms.custom:
 description: Microsoft Teams를 계획, 배포 및 실행하는 방법에 대한 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc931e442b5777c129482ad22e7698b9446e5695
-ms.sourcegitcommit: 10bb44fdd23d0b42a81229028d1b86515f88e7bb
+ms.openlocfilehash: 133369477a9e633e3e7ccb6309d8cae037f86f90
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2022
-ms.locfileid: "67435294"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486903"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams용 관리자 교육 시작
 
@@ -65,18 +65,18 @@ ms.locfileid: "67435294"
 
 <p>다음 표에는 Microsoft Teams 룸 함께 제공되는 PowerPoint 데크(PDF 형식)와 함께 포괄적인 비디오 학습에 대한 링크가 포함되어 있습니다.  
 
-| 모듈 | 비디오 | PowerPoint 데크(PDF)  |
-| ------------ | -------------------- | -------------------- |
-| 모듈 1: Microsoft Teams 룸 소개(18:29 분) | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
-| 모듈 2: Microsoft Teams 네트워킹(34:10분) | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
-| 모듈 3: 적절한 공간에 적합한 디바이스 선택(18:45분) | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
-| 모듈 4: Microsoft Teams 룸 배포(56:36분) | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
-| 모듈 5: Microsoft Teams 룸 구성 및 시작(32:27 분) | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
-| 모듈 6: Microsoft Teams 룸 관리, 1부(18:31 분) | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
-| 모듈 7: Microsoft Teams 룸 관리, 2부(41:06 분) | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
-| 모듈 8: Microsoft Teams 룸--팁, 요령 및 문제 해결(18:14 분)| [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
-| 원터시 조인 지침 |  | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
-| Microsoft Teams 룸 Managed Services 소개 |  | [갑판](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
+| 모듈 | PowerPoint 데크(PDF)  |
+| ------------ | -------------------- |
+| 모듈 1: Microsoft Teams 룸 소개  | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
+| 모듈 2: Microsoft Teams 네트워킹  | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
+| 모듈 3: 적절한 공간에 적합한 디바이스 선택  | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
+| 모듈 4: Microsoft Teams 룸 배포  | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
+| 모듈 5: Microsoft Teams 룸 구성 및 시작  | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
+| 모듈 6: Microsoft Teams 룸 관리, 1부  | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
+| 모듈 7: Microsoft Teams 룸 관리, 2부  | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
+| 모듈 8: Microsoft Teams 룸--팁, 요령 및 문제 해결 | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| 원터시 조인 지침 |  [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
+| Microsoft Teams 룸 Managed Services 소개 | [갑판](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
 <h2>Teams Android 디바이스</h2>
 

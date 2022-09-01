@@ -1,6 +1,6 @@
 ---
 title: Teams에서 앱 스토어 사용자 지정
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.reviewer: prem
@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 로고, 사용자 지정 배경 및 사용자 지정 텍스트 색을 추가하여 조직의 Teams 앱 스토어를 사용자 지정하는 방법을 알아보세요.
-ms.openlocfilehash: 5982b3e1e1a6145b9617fb899e7941b7f31a22e9
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 4d26ba44fa9c9618476f7afdc7a59d7a4afd66ca
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397039"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486963"
 ---
 # <a name="customize-your-organizations-app-store-in-microsoft-teams"></a>Microsoft Teams에서 조직의 앱 스토어 사용자 지정
 
@@ -36,23 +36,11 @@ Teams **앱** >  사용자 지정 저장소를 선택하여 Teams 관리 센터�
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-여기에서 조직 로고를 업로드할 수 있습니다. 선택한 로고는 **앱** > **테넌트용으로 빌드** 페이지의 Teams 클라이언트에 나타납니다.
+여기에서 조직 로고를 업로드할 수 있습니다. 선택한 로고가 **조직용으로 빌드** 된 **앱** >  페이지의 Teams 클라이언트에 표시됩니다.
 
 **사진 선택** 옵션을 선택하면 원하는 파일을 업로드할 수 있습니다. 로고는 240x60이어야 하며 그렇지 않으면 해당 크기로 조정됩니다. 5MB 이하여야 합니다. 지원되는 형식은 .svg, .png 및 .jpg입니다.
 
 로고는 Teams 스토어의 테넌트 앱 카탈로그 오른쪽 상단 모서리에 표시됩니다.
-
-## <a name="customize-your-small-logo"></a>작은 로고 사용자 지정
-
-<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
-<a name="orglogomark"> </a>
-<!-- Do not remove the bookmark link above. -->
-
-조직 로고 마크 또는 작은 로고는 조직 브랜드를 나타내는 이미지 또는 기호이며 회사 이름을 포함하지 않습니다. 러브마크는 팀원들이 앱 스토어를 식별하는 데 도움이 됩니다. 선택한 로고는 앱 페이지의 Teams 클라이언트에 나타납니다.
-
-**사진 선택** 옵션을 선택하고 원하는 파일을 업로드합니다. 로고 마크 해상도를 최대 32x32픽셀로 유지하거나 이 해상도로 다운샘플링합니다. 파일 크기를 5MB 미만으로 유지하세요. 지원되는 형식은 .svg, .png 및 .jpg입니다.
-
-Teams Store는 **테넌트용으로 빌드** 섹션 옆에 로고를 표시합니다.
 
 ## <a name="customize-the-background-color"></a>배경색 사용자 지정
 
@@ -60,7 +48,7 @@ Teams Store는 **테넌트용으로 빌드** 섹션 옆에 로고를 표시합�
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-사용자가 텍스트를 명확하게 읽을 수 있도록 배경과 텍스트의 대비가 충분한지 확인합니다. 배경은 **Apps** > **헤더용으로 빌드됨** 헤더의 Teams 클라이언트에 표시됩니다.
+사용자가 텍스트를 명확하게 읽을 수 있도록 배경과 텍스트의 대비가 충분한지 확인합니다. 조직 헤더용으로 **빌드된** **앱** > 의 Teams 클라이언트에 배경이 표시됩니다.
 
 옵션은 다음과 같습니다.
 
@@ -76,7 +64,7 @@ Teams Store는 **테넌트용으로 빌드** 섹션 옆에 로고를 표시합�
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-최종 사용자가 조직의 이름을 명확하게 읽을 수 있도록 배경과 비교하여 텍스트 색상과 충분한 대비를 제공합니다. 텍스트는 **Apps** > **헤더용으로 빌드됨** 헤더의 Teams 클라이언트에 표시됩니다.
+최종 사용자가 조직의 이름을 명확하게 읽을 수 있도록 배경과 비교하여 텍스트 색상과 충분한 대비를 제공합니다. 텍스트는 조직 헤더용 **으로 빌드된** **앱** > 의 Teams 클라이언트에 표시됩니다.
 
 **사용자 지정 색상 선택** 을 선택하면 색상 선택기가 열립니다. 색상 선택기의 눈금을 조정하여 원하는 색상을 선택합니다.
 
