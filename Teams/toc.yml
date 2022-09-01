@@ -607,8 +607,8 @@ items:
                     href: meeting-policies-participants-and-guests.md
                   - name: 사용자의 RestrictedAnonymousAccess 모임 정책 제거
                     href: meeting-policies-restricted-anonymous-access.md
-          - name: 모임 정책 및 모임 만료
-            href: meeting-expiration.md
+          - name: 모임을 시작하고 예약할 수 있는 사용자 관리
+            href: manage-who-can-schedule-meetings.md
           - name: 모임 설정 관리
             href: meeting-settings-in-teams.md
           - name: 설정이 변경되면 사용자에게 전송되는 전자 메일
@@ -863,8 +863,6 @@ items:
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: 운영자 연결
             items:
-              - name: 새로운 기능
-                href: operator-connect-whats-new.md
               - name: 운영자 연결 계획
                 href: operator-connect-plan.md
               - name: 운영자 연결 구성
@@ -953,6 +951,8 @@ items:
             href: search-for-phone-numbers-for-users.md
           - name: '사용자의 전화 번호 할당, 변경 또는 제거'
             href: assign-change-or-remove-a-phone-number-for-a-user.md
+          - name: 전화 번호 사용 관리
+            href: manage-the-usage-of-a-phone-number.md
           - name: 조직의 전화 번호 목록 보기
             href: see-a-list-of-phone-numbers-in-your-organization.md
           - name: 통화 플랜의 전화 번호 관리
@@ -1068,7 +1068,7 @@ items:
               - name: '5단계: 사용자에게 전화번호 할당'
                 href: business-voice/set-up-assign-numbers.md
               - name: '6단계: 자동 전화 교환 설정'
-                href: create-a-phone-system-auto-attendant.md
+                href: create-a-phone-system-auto-attendant-smb.md
               - name: '7단계: 포트 전화 번호(선택 사항)'
                 href: business-voice/port-phone-numbers.md
               - name: 설정 후 리소스
@@ -1084,7 +1084,7 @@ items:
               - name: 더 많은 사용자 만들기
                 href: business-voice/create-users.md
               - name: 통화 큐 설정
-                href: create-a-phone-system-call-queue.md
+                href: create-a-phone-system-call-queue-smb.md
           - name: 전화 시스템 설정 관리
             items:
               - name: 장치 관리
@@ -1135,6 +1135,8 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania.md
               - name: 룩셈부르크 전화번호 관리
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
+              - name: 멕시코 전화 번호 관리
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-mexico.md
               - name: 뉴질랜드 전화번호 관리
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
               - name: 노르웨이 전화번호 관리
@@ -1579,44 +1581,65 @@ items:
             href: apps-update-experience.md
           - name: 앱 관리 활동 감사
             href: audit-app-management-activities.md
-          - name: 앱 사용 현황 보고서 및 분석
+          - name: 앱 사용 현황 보고서 및 분석 보기
             href: teams-analytics-and-reports/app-usage-report.md
   - name: 산업 및 정부 지침
     items:
       - name: 개요
         href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
       - name: 교육용 Teams
-        href: expand-teams-across-your-org/teams-for-education-landing-page.md
         items:
-          - name: 빠른 시작 - 교육용 Teams 관리
-            href: teams-quick-start-edu.yml
-          - name: 원격 학습 시작
-            href: remote-learning-edu.md
-          - name: Teams EDU 정책 및 정책 패키지
-            href: policy-packages-edu.md
-          - name: 다수의 사용자에 정책 할당하기
-            href: batch-group-policy-assignment-edu.md
-          - name: 교사 및 학생을 위한 보안 그룹 생성을 위한 PowerShell 스크립트
-            href: scripts/powershell-script-security-groups-edu.md
-          - name: 교육 관리자용 낮은 대역폭 지침
-            href: edu-remote-low-bandwidth.md
-          - name: 교육용 Teams 정책 마법사
-            href: easy-policy-setup-edu.md
-          - name: 교육용 Teams의 부모 연결
-            href: edu-parents-app.md
-          - name: 경력 코치
+          - name: 교육용 Teams 개요
+            href: expand-teams-across-your-org/teams-for-education-landing-page.md
+          - name: 교육용 Teams 시작
             items:
-              - name: 경력 코치 시작
-                href: career-coach.md
-              - name: 경력 코치 설정 및 구성
-                href: career-coach-set-up-steps.md
-              - name: 경력 코치 문제 해결
-                href: career-coach-troubleshoot.md
-              - name: 경력 코치를 위한 리소스
-                href: career-coach-resources.md
-          - name: Teams의 채팅 감독
-            href: supervise-chats-edu.md
-          - name: Insights 교육
+              - name: 빠른 시작 - 교육용 Teams 설정
+                href: teams-quick-start-guide-edu.md
+              - name: 원격 학습 시작
+                href: remote-learning-edu.md
+              - name: 낮은 대역폭 시나리오 문제 해결
+                href: edu-remote-low-bandwidth.md
+              - name: 교육용 Teams 라이선스 할당
+                href: teams-edu-licensing.md
+              - name: IT 관리자를 위한 Microsoft Education FAQ
+                href: plan-teams-governance-edu.md
+              - name: Teams 채택 리소스 공유
+                href: resources-teams-edu.md
+              - name: 교육 SKU 참조
+                href: sku-reference-edu.md
+          - name: 교육용 Teams 정책
+            items:
+              - name: Teams 정책 및 정책 패키지 관리
+                href: policy-packages-edu.md
+              - name: 사용자에 대한 정책 빠르게 설정
+                href: easy-policy-setup-edu.md
+              - name: 다수의 사용자에 정책 할당하기
+                href: batch-group-policy-assignment-edu.md
+              - name: 교육자 및 학생을 위한 보안 그룹 만들기
+                href: scripts/powershell-script-security-groups-edu.md
+          - name: 교육자를 위한 기능 설정
+            items:
+              - name: Teams에서 감독된 채팅 설정
+                href: supervise-chats-edu.md
+              - name: Teams에서 과제 설정
+                href: expand-teams-across-your-org/assignments-in-teams.md
+              - name: Teams에서 부모 연결 설정
+                href: edu-parents-app.md
+              - name: 경력 코치
+                items:
+                  - name: 경력 코치 시작
+                    href: career-coach.md
+                  - name: 경력 코치 설정 및 구성
+                    href: career-coach-set-up-steps.md
+                  - name: 경력 코치 문제 해결
+                    href: career-coach-troubleshoot.md
+                  - name: 경력 코치를 위한 리소스
+                    href: career-coach-resources.md
+          - name: LMS 및 LTI 통합
+            items:
+              - name: Moodle LMS 통합 설치
+                href: install-moodle-integration.md
+          - name: 교육 Insights 있는 학생에 대해 알아보기
             items:
               - name: Insights 시작하기
                 href: class-insights.md
@@ -1624,23 +1647,11 @@ items:
                 href: education-insights-sis-data-sync.md
               - name: Insights에 대한 사용자 액세스 관리
                 href: education-insights-manage-access.md
-              - name: Reflect 시작하기
+              - name: 감성 인사이트에 대한 Reflect 설정
                 href: reflect.md
               - name: 읽기 진행에 대한 인사이트 이해
                 href: insights-for-reading-progress.md
-          - name: 교육용 Teams의 과제
-            href: expand-teams-across-your-org/assignments-in-teams.md
-          - name: 교육 관리자용 Teams 리소스
-            href: resources-teams-edu.md
-          - name: 관리자용 Microsoft 교육 거버넌스 FAQ
-            href: plan-teams-governance-edu.md
-          - name: Moodle 통합 설치
-            href: install-moodle-integration.md
-          - name: 교육용 Teams 라이선싱
-            href: teams-edu-licensing.md
-          - name: 교육 SKU 참조
-            href: sku-reference-edu.md
-          - name: 교육용 Teams 장치
+          - name: 교육용 Teams 디바이스 찾기
             href: devices-for-education.md
       - name: 실무 직원용 Teams
         items:
@@ -1720,13 +1731,13 @@ items:
             href: get-started-with-teams-essentials.md
           - name: Teams Essentials(AAD ID)를 전자 메일에 연결
             href: connect-teams-essentials-to-email.md
-      - name: Kaizala에서 업그레이드
+      - name: Kaizala에서 이동
         items:
-          - name: 시작하기
+          - name: 시작
             href: get-started-kaizala-teams.md
-          - name: 업그레이드 준비
+          - name: 이동 준비
             href: prepare-for-teams-kaizala.md
-          - name: 업그레이드 여정 계획
+          - name: Kaizala로 이동 계획
             href: plan-your-move-kaizala.md
           - name: Microsoft Teams 탐색
             href: navigate-teams.md
