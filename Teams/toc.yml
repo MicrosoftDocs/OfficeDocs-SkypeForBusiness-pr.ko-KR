@@ -1503,6 +1503,8 @@ items:
         href: deploy-apps-microsoft-teams-landing-page.md
       - name: Microsoft에서 제공하는 앱 관리
         items:
+          - name: 관리 앱 관리
+            href: manage-admin-app.md
           - name: Bookings 앱 관리
             href: bookings-app-admin.md
           - name: Teams에서 조직의 목록 앱 관리
