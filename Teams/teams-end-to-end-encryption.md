@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5865494b94c280295d13e0f99303bc76d1fc274
-ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
-ms.translationtype: HT
+ms.openlocfilehash: e090c465b46370367d96a782e12f38161465ce33
+ms.sourcegitcommit: 479e236aa8a9a91df4894ed3cce4c287a1354d80
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "65249010"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572088"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>일대일 Microsoft Teams 통화에 엔드투엔드 암호화 사용
 
@@ -34,6 +34,8 @@ ms.locfileid: "65249010"
 E2EE(엔드투엔드 암호화)는 콘텐츠가 전송되기 전에 암호화되고 의도된 받는 사람만 암호를 해독하는 경우 발생합니다. 엔드투엔드 암호화를 사용하면 두 엔드포인트 시스템만 호출 데이터를 암호화하고 암호 해독하는 데 관여합니다. Microsoft를 포함한 다른 당사자는 암호가 해독된 대화에 액세스할 수 없습니다.
 
 예약되지 않은 일대일 통화에 대한 E2EE를 사용하면 일대일 Teams 통화의 실시간 미디어 흐름, 즉 비디오 및 음성 데이터만 엔드투엔드 암호화됩니다. 두 당사자 모두 엔드투엔드 암호화를 사용하도록 설정하려면 이 설정을 켜야 합니다. [Microsoft 365 암호화](/microsoft-365/compliance/encryption)는 통화에서 채팅, 파일 공유, 현재 상태 및 기타 콘텐츠를 보호합니다.
+
+당사자가 Windows 또는 Mac용 Teams 데스크톱 클라이언트의 최신 버전을 사용 중이거나, iOS 및 Android용 최신 업데이트가 있는 모바일 디바이스에 있거나, 최신 업데이트를 사용하여 Windows 디바이스에서 Teams 룸 경우 두 당사자 간에 엔드 투 엔드 암호화 호출을 수행할 수 있습니다.
 
 엔드투엔드 암호화를 사용하도록 설정하지 않으면 Teams는 업계 표준에 따라 암호화를 사용하여 통화 또는 모임을 계속 보호합니다. 통화 중에 교환된 데이터는 전송 중이거나 미사용 상태일 때 항상 안전합니다. 자세한 내용은 [Teams에 대한 미디어 암호화](teams-security-guide.md#media-encryption)를 참조하세요.
 

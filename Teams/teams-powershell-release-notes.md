@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell의 최신 변경 내용에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fc979e9c4c6aa12fb4538210ad5c5264ad49aa6
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: c83627143718f003675d8fbe1992dace9c864b5a
+ms.sourcegitcommit: 479e236aa8a9a91df4894ed3cce4c287a1354d80
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396679"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572058"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 릴리스 정보
 
@@ -31,6 +31,7 @@ ms.locfileid: "67396679"
 
 | 날짜 | 버전 | 업데이트 |
 |------- | -------------------- | ------------------------------ |
+| 2022년 9월 | [4.7.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.0) |<li>PS ISE 및 dotnet 애플리케이션에서 모듈을 사용할 때 프로세스 정리 문제를 해결합니다.</li><li>GA의 [Get\|New]-CsBatchTeamsDeployment cmdlet을 릴리스합니다.</li><li>릴리스 [새\|집합]-CSTeamsShiftsConnectionInstance, UKG 차원에 대한 지원 Test-CsTeamsShiftsConnectionValidate.</li><li>Connect-MicrosoftTeams에서 AccountId 매개 변수를 사용하여 여러 계정 중에서 선택하는 동안 잘못된 토큰 가져오기 문제를 해결합니다.</li><li>New-CsCallQueue cmdlet의 경우 회의 모드 & 프레즌스 모드 특성의 기본값이 false에서 true로 변경됩니다.</li>
 | 2022년 8월 | [4.6.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.1-preview) |<li>PS ISE 및 dotnet 애플리케이션에서 모듈을 사용할 때 프로세스 정리 문제를 해결합니다.</li>
 | 2022년 7월 | [4.6.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.0) |<li>특정 유형의 사용자를 쿼리할 수 있는 Get-CsOnlineUser cmdlet에 대한 AccountType 매개 변수를 해제합니다.</li><li>AccountType 특성은 사용자 유형을 나타내는 Get-CsOnlineUser 출력에 추가됩니다. AccountType에 사용할 수 있는 값은 'User'(사용자 계정), 'ResourceAccount'(앱 엔드포인트 또는 리소스 계정), '게스트'(게스트 계정) & '알 수 없음'(사용자 유형을 알 수 없음)입니다.</li><li>Grant-Cs\<PolicyName\> cmdlet에서 순위 & 그룹 매개 변수와 관련된 문제를 해결합니다.</li><li>릴리스 [\|Get Set\|New\|Remove\|Grant]-CsTeamsEventsPolicy Cmdlets.</li><li>사용되지 않는 모든 & 지원되지 않는 cmdlet을 제거합니다. [Teams PowerShell 지원 버전의](teams-powershell-supported-versions.md#deprecated-cmdlets) 세부 정보입니다.</li><li>현대화된 버전의 [New\|Get]-CsCloudCallDataConnection cmdlet을 릴리스합니다.</li><li>[제거 가져오기\|]-SharedWithTeam cmdlet을 릴리스합니다.</li><li>Get-TeamAllChannel cmdlet을 릴리스합니다.</li><li>Get-TeamIncomingChannel cmdlet을 릴리스합니다.</li><li>Get-AssociatedTeam cmdlet을 릴리스합니다.</li><li>Get-SharedWithTeamUser cmdlet을 릴리스합니다.</li><li>Add-TeamChannelUser cmdlet에 대한 TenantId 선택적 매개 변수를 지원합니다.</li><li>[Set 제거\|]-TeamTargetingHierarchy cmdlet을 Get-TeamTargetingHierarchyStatus & 릴리스합니다.</li>
 | 2022년 7월 | [4.5.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.5.1-preview) |<li>특정 유형의 사용자를 쿼리할 수 있는 Get-CsOnlineUser cmdlet에 대한 AccountType 매개 변수를 해제합니다.</li><li>AccountType 특성은 사용자 유형을 나타내는 Get-CsOnlineUser 출력에 추가됩니다. AccountType에 사용할 수 있는 값은 'User'(사용자 계정), 'ResourceAccount'(앱 엔드포인트 또는 리소스 계정), '게스트'(게스트 계정) & '알 수 없음'(사용자 유형을 알 수 없음)입니다.</li><li>Grant-Cs\<PolicyName\> cmdlet에서 순위 & 그룹 매개 변수와 관련된 문제를 해결합니다.</li>
