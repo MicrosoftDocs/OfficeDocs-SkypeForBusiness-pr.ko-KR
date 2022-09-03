@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 관리 Microsoft Teams 룸 누적 개선 사항을 나열하는 Microsoft Teams 룸 대한 릴리스 정보를 읽을 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9460694aec7a6b7f7c7f1648d8f9512ded4c01f7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d6cb8e8e01490f4c150ab77c1f4e6d896e6a2bce
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270083"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590185"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 룸 대한 릴리스 정보
 
@@ -40,6 +40,7 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 
 |릴리스 |게시 날짜 <br/> Microsoft Store |
 |--- |--- |
+|4.14.24.0 |9/2/2022 |
 |4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
 |4.12.138.0 |5/26/2022 |
@@ -94,6 +95,19 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 |RTM(1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams 룸 기능 소개 및 문제 해결
+
+### <a name="414240-922022"></a>4.14.24.0 (9/2/2022)
+
+이 업데이트에 도입된 내용은 다음과 같습니다.
+
+- 앞줄 레이아웃 환경 업데이트 <sup>1</sup> 
+- 회의실 고정 및 숨기기 비디오 <sup>1</sup> 
+- 이중 디스플레이 Teams 룸 <sup>1</sup>에서 분할 갤러리를 끄기 위한 관리자 구성
+- 이중 디스플레이 Teams 룸 이제 최대 18개의 참가자 비디오 스트림 <sup>2</sup>를 표시할 수 있습니다.
+
+<sup>1</sup> XML을 통해 분할 갤러리를 끄기 위한 관리자 구성은 XML [구성 파일을 사용하여 원격으로 Microsoft Teams 룸 콘솔 설정 관리](../rooms/xml-config-file.md)에서 찾을 수 있습니다.
+
+<sup>2</sup> 이 기능은 Teams 웹 클라이언트에 배포되며 완료하는 데 약 2주가 소요됩니다. 자세한 내용은 [Teams 업데이트를 참조하세요](../teams-client-update.md).
 
 ### <a name="4131320-822022"></a>4.13.132.0 (8/2/2022)
 

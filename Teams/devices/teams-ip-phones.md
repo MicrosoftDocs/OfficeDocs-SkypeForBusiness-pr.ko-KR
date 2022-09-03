@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 생성하기 위해 Microsoft Teams에 대해 인증된 책상 및 전화 회의 전화기를 알아봅니다.
-ms.openlocfilehash: 74f8a25955d112548b5bbd311a0e51d110c4944d
-ms.sourcegitcommit: c19ac3be42cc4b8409c8d512bbe3156736af0309
+ms.openlocfilehash: 4070bdb567556422c5ec2a3db78c3d3670e1dda9
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "67426845"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590195"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 인증 Android 디바이스
 
@@ -267,6 +267,12 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 | 디바이스 모델  | 펌웨어 버전 | 포함된 제품 릴리스 |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | `3.13.0.368067` | 2022년 업데이트 #2A   |
+| Poly Studio X50 | `3.13.0.368067` | 2022년 업데이트 #2A |
+| Poly TC8        | `3.13.0.210799`          | 2022년 업데이트 #2A   |
+| Yealink MeetingBar A20 | `133.310.0.25 `   | 2022년 업데이트 #2A  |
+| Yealink MeetingBar A30 | `133.310.0.25 `   | 2022년 업데이트 #2A  |
+| Yealink CTP18 | `137.15.0.80`   | 2022년 업데이트 #2A  |
 | AudioCodes RXV80 | `1.16.191` | 2022년 업데이트 #2A   |
 | Poly Studio X30 | `3.12.0.366027` | 2022년 업데이트 #1   |
 | Poly Studio X50 | `3.12.0.366027` | 2022년 업데이트 #1  |

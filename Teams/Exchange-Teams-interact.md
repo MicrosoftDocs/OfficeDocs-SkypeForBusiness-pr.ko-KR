@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c94b1c7f33de136eea33ec7905e1e37a9ceb0e2
-ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
+ms.openlocfilehash: 6b3251160c0ce44b02fffe4ff50c078a529c5d00
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "66713366"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590205"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange와 Microsoft Teams의 상호 작용 방법
 
@@ -86,7 +86,7 @@ Microsoft Teams는 다양한 Microsoft 365 및 Office 365 서비스와 작동하
 - Microsoft Teams에서 팀을 만들려면 사용자가 Microsoft 365 그룹 만들기를 사용하도록 설정되어야 합니다.
 
   > [!IMPORTANT]
-  > 사용자를 **Teams 전용** 모드로 이동한 후 비즈니스용 Skype 클라이언트를 제거하면 Outlook 및 기타 Office 앱에서 현재 상태가 중지될 수 있습니다. 현재 상태는 Teams에서 제대로 작동합니다. 이 문제를 해결하려면 Microsoft Teams의 오른쪽 위 모서리에 있는 프로필 사진을 선택한 다음 **설정** 을 선택합니다. **응용 프로그램** 의 **일반** 탭에서 **Office용 채팅 앱으로 Teams 등록(Office 응용 프로그램을 다시 시작해야 함)** 을 선택합니다. 이 옵션을 선택한 후 Outlook을 포함하여 모든 Office 앱을 닫았다가 다시 엽니다. Outlook을 열면 현재 상태 정보를 사용할 수 있습니다.
+  > 사용자를 **Teams 전용** 모드로 이동한 후 비즈니스용 Skype 클라이언트를 제거하면 Outlook 및 기타 Office 앱에서 현재 상태가 중지될 수 있습니다. 현재 상태는 Teams에서 제대로 작동합니다. 이 문제를 해결하려면 Microsoft Teams의 오른쪽 위 모서리에 있는 프로필 사진 왼쪽에 있는 줄임표를 선택한 다음 **설정을** 선택합니다. **응용 프로그램** 의 **일반** 탭에서 **Office용 채팅 앱으로 Teams 등록(Office 응용 프로그램을 다시 시작해야 함)** 을 선택합니다. 이 옵션을 선택한 후 Outlook을 포함하여 모든 Office 앱을 닫았다가 다시 엽니다. Outlook을 열면 현재 상태 정보를 사용할 수 있습니다.
 
 ## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>온-프레미스에서 호스트되는 사서함에 대한 모임 만들기 및 보기 요구 사항
 

@@ -12,16 +12,16 @@ ms.collection:
 description: Microsoft Teams 관리에 사용되는 Teams PowerShell 모듈에서 지원되는 버전에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ae244a16e934b70085b2193bee3ef21a277f7ed
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: d28e16c248957518ca16eb3eff7e082ebe6bd9bd
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397289"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590325"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell 모듈 - 지원되는 버전
 
-4.x.x 시리즈 이상의 Microsoft Teams TPM(PowerShell 모듈) 버전은 현재 지원되는 유일한 버전입니다. 이전 버전은 모두 2022년 6월 15일 이후 완전히 사용 중지되며 & 작동이 중지됩니다(참조용 메시지 센터 게시물 - MC350371). 
+4.x.x 시리즈 이상의 Microsoft Teams TPM(PowerShell 모듈) 버전은 현재 지원되는 유일한 버전입니다. 이전 버전은 모두 2022년 6월 15일 & 이후 상용 환경에서 완전히 사용 중지됩니다(참조용 메시지 센터 게시물 - MC350371). 
 
 최신 Teams PowerShell 모듈 버전으로 업데이트하는 것이 좋습니다.
 

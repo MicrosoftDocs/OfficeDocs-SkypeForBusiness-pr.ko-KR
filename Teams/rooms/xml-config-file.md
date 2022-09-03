@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 사용자 지정 테마 적용 및 마스터 설정 파일 만들기를 포함하여 Microsoft Teams 룸 디바이스에서 사용하는 기본 설정의 원격 관리
-ms.openlocfilehash: df9cc718ddcedb9745807dadd70c8e1a78748c6f
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 74ae005ceae3c17d64403990eda067e3d8bd7cfc
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272103"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590165"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>XML 구성 파일을 사용하여 원격으로 Microsoft Teams 룸 콘솔 설정 관리
 
@@ -52,7 +52,7 @@ ms.locfileid: "67272103"
   <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
   <SfbMeetingEnabled>true</SfbMeetingEnabled>
   <IsTeamsDefaultClient>true</IsTeamsDefaultClient>
-  <WebexMeetingsEnabled>true</WebexMeetingsEnabled>
+  <WebExMeetingsEnabled>true</WebExMeetingsEnabled>
   <ZoomMeetingsEnabled>true</ZoomMeetingsEnabled>
   <UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
   <CustomDisplayNameForThirdPartyMeetings>guestname</CustomDisplayNameForThirdPartyMeetings>
@@ -106,6 +106,8 @@ ms.locfileid: "67272103"
       <ExtendedFoRDisplayResolution>1920,1080</ExtendedFoRDisplayResolution> 
       <ExtendedFoRDisplayScaling>100</ExtendedFoRDisplayScaling> 
   </ExtendedFoRDisplay>  
+  <EnableDeviceEndToEndEncryption>false</EnableDeviceEndToEndEncryption>
+  <SplitVideoLayoutsDisabled>false</SplitVideoLayoutsDisabled>
 </SkypeSettings>
 ```
 
@@ -169,12 +171,14 @@ ms.locfileid: "67272103"
 | `<Video>`                                   | 부울 &#x2777;            |                | Teams 룸 디바이스에서 비디오 구성을 제어합니다. 이 요소에는 다음 두 가지 특성이 있습니다.<br><ul><li><b>기본</b> 모임이 시작될 때 카메라가 활성화될 디바이스를 결정합니다. 최상의 환경을 위해 다른 모든 디바이스가 설정된 동안 Teams 룸 디바이스만 설정하는 `true` `false`것이 좋습니다.</li><li><b>사용</b> 모임 참가자가 카메라를 켜거나 끌 수 있는지 여부를 결정합니다. 참가자가 Surface Hub 화이트보드를 `true` 사용하는 경우와 같이 다른 비디오 관점을 공유하려는 이벤트 참가자의 다른 장치에서 이 설정을 지정할 수 있습니다. 참가자가 디바이스에서 카메라를 켜거나 끄지 않도록 하려면 이 옵션을 설정하세요 `false`.<p> **비디오 기본값** 이 설정된 `true`경우 **비디오 사용** 설정이 무시되고 참가자가 카메라를 켜거나 끌 수 있습니다.</li></ul> |
 | `<Whiteboard>`                              | 부울 &#x2777;            |                | Teams 룸 디바이스에서 화이트보드 구성을 제어합니다. 이 요소에는 다음 두 가지 특성이 있습니다.<br><ul><li><b>기본</b> 모임이 시작될 때 화이트보드가 활성화될 디바이스를 결정합니다. 최상의 환경을 위해 Teams 룸 디바이스를 `false` 설정하고 Surface Hub에서 화이트보드를 사용하는 것이 좋습니다.</li><li><b>사용</b> 모임 참가자가 화이트보드를 켜거나 끌 수 있는지 여부를 결정합니다. 참가자가 디바이스에서 화이트보드를 켜거나 끄지 않으려면 이 옵션을 설정하세요 `false`.<p> **화이트보드 기본값** 이 설정`true`되면 **화이트보드 사용** 설정이 무시되고 참가자가 화이트보드를 켜거나 끌 수 있습니다.</li></ul>                                                                                                                                                   |
 | `<EnableResolutionAndScalingSetting>` | 부울 &#x2777; | 첫 번째 &#x2776; | 기본적으로 사용하지 않도록 설정됩니다. 방 앞의 해상도와 크기 조정을 변경하려면 true로 설정합니다. true이면 디스플레이 해상도 및 크기 조정 설정이 적용됩니다. 이 설정은 이 설정을 사용하도록 설정하면 Main FoR 및 Extended FoR 모두에 영향을 줍니다. |
-| `<MainFoRDisplay>` | 컨테이너 | | 디바이스가 단일 디스플레이 모드를 사용하는 경우 이 컨테이너를 사용합니다.<br><br>이중 디스플레이 모드에서 FoR(Main Front of Room)은 시계(모임 중) 및 셀프 미리 보기 비디오(모임 중)가 있는 화면입니다. `<MainFoRDisplayResolution>` 한 `<MainFoRDisplayScaling>` 번에 함께 설정해야 합니다. 둘 중 하나 `<MainFoRDisplayResolution>` `<MainFoRDisplayScaling>`만 사용하는 경우 무시됩니다. |
+| `<MainFoRDisplay>` | 컨테이너 |첫 번째 &#x2776; | 디바이스가 단일 디스플레이 모드를 사용하는 경우 이 컨테이너를 사용합니다.<br><br>이중 디스플레이 모드에서 FoR(Main Front of Room)은 시계(모임 중) 및 셀프 미리 보기 비디오(모임 중)가 있는 화면입니다. `<MainFoRDisplayResolution>` 한 `<MainFoRDisplayScaling>` 번에 함께 설정해야 합니다. 둘 중 하나 `<MainFoRDisplayResolution>` `<MainFoRDisplayScaling>`만 사용하는 경우 무시됩니다. |
 | `<MainFoRDisplayResolution>` | 문자열 | | Width, Height(예: 1920,1080)의 입력 숫자 값입니다. FoR이 지원하지 않는 경우 무시됩니다.|
 | `<MainFoRDisplayScaling>` | 수 | | 크기 조정의 입력 숫자 값입니다. 유효한 값은 100(권장), 125, 150, 175, 200, 225, 250, 300, 350, 400, 450 및 500입니다. 500을 입력하고 FoR이 최대 300을 지원하는 경우 300으로 설정됩니다.|
-| `<ExtendedFoRDisplay>` | 컨테이너 | | 이중 디스플레이 모드에서 FoR(Extended Front of Room)은 공유 콘텐츠(모임 중)가 표시되는 화면입니다.  `<ExtendedFoRDisplayResolution>` 한 `<ExtendedFoRDisplayScaling>` 번에 함께 설정해야 합니다. 둘 중 하나 `<ExtendedFoRDisplayResolution>` `<ExtendedFoRDisplayScaling>`만 사용하는 경우 무시됩니다. |
+| `<ExtendedFoRDisplay>` | 컨테이너 |첫 번째 &#x2776;| 이중 디스플레이 모드에서 FoR(Extended Front of Room)은 공유 콘텐츠(모임 중)가 표시되는 화면입니다.  `<ExtendedFoRDisplayResolution>` 한 `<ExtendedFoRDisplayScaling>` 번에 함께 설정해야 합니다. 둘 중 하나 `<ExtendedFoRDisplayResolution>` `<ExtendedFoRDisplayScaling>`만 사용하는 경우 무시됩니다. |
 | `<ExtendedFoRDisplayResolution>` | 문자열 | |Width, Height의 입력 숫자 값입니다(예: 1920,1080). FoR에서 지원하지 않는 경우 값은 무시됩니다. |
 | `<ExtendedFoRDisplayScaling>` | 수 | | 크기 조정의 입력 숫자 값입니다. 유효한 값은 100(권장), 125, 150, 175, 200, 225, 250, 300, 350, 400, 450 및 500입니다. 500을 입력하고 FoR이 최대 300을 지원하는 경우 300으로 설정됩니다. |
+| `<EnableDeviceEndToEndEncryption>` | 부울 &#x2777; | | 기본값은 .입니다 `false`. 일대일 Teams 호출에 엔드 투 엔드 암호화를 사용하도록 지정 `true` 합니다. 호출자와 받는 사람 모두 이 기능이 작동하려면 엔드 투 엔드 암호화를 사용하도록 설정해야 합니다. |
+| `<SplitVideoLayoutsDisabled>` |  부울 &#x2777; | | 기본값은 .입니다 `false`. 이 설정은 이중 디스플레이 룸에만 적용됩니다. 두 화면에서 비디오 갤러리 분할을 사용하지 않도록 지정 `true` 합니다. 이렇게 하면 앞줄 레이아웃 및 앞줄 레이아웃과 연결된 모든 설정이 비활성화됩니다. |
 
 &#x2776; 모든 첫 번째 수준 요소는 선택 사항입니다. 첫 번째 수준 요소를 생략하면 모든 자식 매개 변수가 디바이스에서 변경되지 않은 상태로 유지됩니다.
   

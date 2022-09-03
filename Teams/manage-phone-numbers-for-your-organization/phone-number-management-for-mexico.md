@@ -17,12 +17,13 @@ ms.localizationpriority: medium
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 Microsoft Teams용 멕시코에서 전화 번호를 가져오고 관리하는 방법에 대한 정보를 찾을 수 있습니다.
-ms.openlocfilehash: a1b3304dc9b8185cdc419aae7260af3a3350421e
-ms.sourcegitcommit: d0cbc23e10219dd2889011421010215a5d246031
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: a7af7c01a740f953be40033e21b5cc3c7e5c6f68
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2022
-ms.locfileid: "67460727"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590335"
 ---
 # <a name="phone-number-management-for-mexico"></a>멕시코 전화 번호 관리
 

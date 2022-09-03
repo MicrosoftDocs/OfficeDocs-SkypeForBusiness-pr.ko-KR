@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 이 문서에서는 Microsoft Teams 룸 콘솔 및 해당 주변 장치를 설정하고 구성하는 방법을 설명합니다.
-ms.openlocfilehash: 2a38154ebca1dfae282722fdb64e76389627ca15
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 40d49597ab3354eeaacc8d7c562917fbf653e727
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270113"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590175"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>Microsoft Teams 룸 이미지 빌드
 
@@ -171,7 +171,7 @@ Windows가 설치되면 Microsoft Teams 룸 앱이 초기 설치 프로세스로
 Microsoft Teams 룸 앱은 위에서 입력한 자격 증명으로 Microsoft Teams에 로그인하거나 비즈니스용 Skype 서버 동일한 자격 증명을 사용하여 Exchange와 일정 동기화를 시작해야 합니다. Teams 룸 사용에 대한 자세한 내용은 [Microsoft Teams 룸 도움말](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)을 참조하세요.
   
 > [!IMPORTANT]
-> Microsoft Teams 룸 인증된 콘솔 하드웨어의 존재에 의존합니다. 콘솔 하드웨어가 검색되지 않는 한 Microsoft Teams 룸 콘솔 앱을 포함하는 올바르게 생성된 이미지도 초기 설정 절차를 지나서 부팅되지 않습니다. Surface Pro 기반 솔루션의 경우 이 검사를 통과하려면 Surface Pro 함께 제공되는 도크 하드웨어에 연결해야 합니다.
+> Microsoft Teams 룸 인증된 콘솔 하드웨어의 존재에 의존합니다. 콘솔 하드웨어가 검색되지 않는 한 Microsoft Teams 룸 콘솔 앱을 포함하는 올바르게 생성된 이미지도 초기 설정 절차를 지나서 부팅되지 않습니다. Surface Pro 기반 솔루션의 경우 이 검사를 통과하려면 Surface Pro 함께 제공되는 도크 하드웨어에 연결해야 합니다. 지원되는 하드웨어에 대한 자세한 내용은 [Microsoft Teams 룸 요구 사항을 참조하세요](requirements.md).
   
 > [!NOTE]
 > 일부 비영어 언어 사용자는 터치 키보드에서 기호가 지원되지 않는 경우 초기 설정 중에 콘솔에 연결된 물리적 키보드가 필요할 수 있습니다.
