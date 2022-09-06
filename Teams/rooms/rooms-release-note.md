@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 관리 Microsoft Teams 룸 누적 개선 사항을 나열하는 Microsoft Teams 룸 대한 릴리스 정보를 읽을 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4905c22f974e464ed0079bad572623c83782cfda
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: cb76ac9da50a55dbf8a5df10ddab4f65cfdebcc7
+ms.sourcegitcommit: 2ecf98862aae607d0675418a6177be91f56af1f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606237"
+ms.locfileid: "67607621"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 룸 대한 릴리스 정보
 
@@ -102,13 +102,13 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 
 - 앞줄 레이아웃 환경 업데이트 <sup>1</sup> 
 - 회의실 고정 및 숨기기 비디오 <sup>1</sup> 
-- 이중 디스플레이 Teams 룸 <sup>1</sup>에서 분할 갤러리를 끄기 위한 관리자 구성
-- 이중 디스플레이 Teams 룸 이제 최대 18개의 참가자 비디오 스트림 <sup>2</sup>를 표시할 수 있습니다.
-- Microsoft Teams 룸 Pro 및 Microsoft Teams Room Basic 룸 라이선스에 대한 지원 <sup>2</sup>
+- 이중 디스플레이 Teams 룸 <sup>2</sup>에서 분할 갤러리를 끄기 위한 관리자 구성
+- 이중 디스플레이 Teams 룸 이제 최대 18개의 참가자 비디오 스트림 <sup>1</sup>을 표시할 수 있습니다.
+- Microsoft Teams 룸 Pro 및 Microsoft Teams Room Basic 룸 라이선스에 대한 지원 <sup>1</sup>
 
-<sup>1</sup> XML을 통해 분할 갤러리를 끄기 위한 관리자 구성은 XML [구성 파일을 사용하여 원격으로 Microsoft Teams 룸 콘솔 설정 관리](../rooms/xml-config-file.md)에서 찾을 수 있습니다.
+<sup>1</sup> 이 기능은 Teams 웹 클라이언트에 배포되며 이 업데이트를 완료하는 데 릴리스된 날짜로부터 약 2주가 소요됩니다. 자세한 내용은 [Teams 업데이트를 참조하세요](../teams-client-update.md).
 
-<sup>2</sup> 이 기능은 Teams 웹 클라이언트에 배포되며 이 업데이트를 완료하는 데 릴리스된 날짜로부터 약 2주가 소요됩니다. 자세한 내용은 [Teams 업데이트를 참조하세요](../teams-client-update.md).
+<sup>2</sup> XML을 통해 분할 갤러리를 해제하기 위한 관리자 구성은 XML [구성 파일을 사용하여 원격으로 Microsoft Teams 룸 콘솔 설정 관리](../rooms/xml-config-file.md)에서 찾을 수 있습니다.
 
 ### <a name="4131320-822022"></a>4.13.132.0 (8/2/2022)
 
