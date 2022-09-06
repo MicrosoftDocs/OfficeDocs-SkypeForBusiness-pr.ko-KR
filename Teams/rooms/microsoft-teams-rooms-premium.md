@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams 룸 관리되는 서비스에 대해 알아봅니다.
 f1keywords: ''
-ms.openlocfilehash: 322e67a0bc6e03db7960e64d2cd5e7a97b930dbc
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5e59312d3febe2dc6b4178874bae21fc27fe77d2
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269583"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606287"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>관리 서비스 Microsoft Teams 룸
 
@@ -110,11 +110,11 @@ Microsoft Teams 룸 관리 서비스 지원 범위에 대한 자세한 내용은
 
 ## <a name="supported-regions"></a>지원되는 지역
 
-Microsoft Teams 룸 프리미엄 라이선스는 오디오 회의를 통해 다음 국가에서 사용할 수 있습니다.
+Microsoft Teams 룸 Pro 라이선스는 오디오 회의를 통해 다음 국가에서 사용할 수 있습니다.
 
 - 오스트레일리아, 오스트리아, 벨기에, 브라질, 불가리아, 캐나다, 크로아티아, 키프로스, 체코 공화국, 덴마크, 에스토니아, 핀란드, 프랑스, 독일, 그리스, 홍콩 특별 행정구, 헝가리, 아일랜드, 이탈리아, 일본, 라트비아, 리투아니아, 룩셈부르크, 몰타, 멕시코, 모나코, 네덜란드, 뉴질랜드, 노르웨이, 폴란드, 포르투갈, 루마니아, 러시아, 싱가포르, 슬로바키아, 슬로베니아, 남아프리카 공화국, 스페인, 스웨덴, 스위스, 대만, 영국, 미국.
 
-Microsoft Teams 룸 프리미엄 라이선스는 오디오 회의 없이 다음 국가에서 사용할 수 있습니다.
+Microsoft Teams 룸 Pro 라이선스는 오디오 회의 없이 다음 국가에서 사용할 수 있습니다.
 
 - 안도라, 부벳 섬, 크리스마스 섬, 코코스 (킬링) 제도, 쿡 제도, 페로 제도, 피지, 지브롤터, 그린란드, 허드 아일랜드 및 맥도날드 제도, 아이슬란드, 인도, 키리바시, 레소토, 리히텐슈타인, 마카오 특별 행정구, 마샬 제도, 미크로네시아, 나우루, 니우에, 노퍽 섬, 북마리아나 제도, 팔라우, 파푸아뉴기니, 핏케언 제도, 생 피에르 및 미켈론, 사모아, 산마리노, 솔로몬 제도, 스와질란드, 토켈라우, 통가, 투발루, 노퍽 섬  바누아투, 바티칸 시국, 월리스, 푸투나.
 
@@ -144,6 +144,6 @@ Microsoft Teams 룸 관리형 서비스는 디바이스를 모니터링하고, �
 
 수집된 데이터는 개별 사용자가 아닌 회의실 계정에만 적용됩니다. 디바이스를 사용하는 동안 개별 사용자에 대한 부수적 참조가 활동 로그에 있을 수 있습니다. 수집된 데이터는 Microsoft [개인정보처리방침](https://aka.ms/privacy)에 따라 Microsoft에서 처리됩니다.  
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [관리 서비스 Microsoft Teams 룸](https://rooms.microsoft.com)

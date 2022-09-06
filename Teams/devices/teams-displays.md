@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 이 문서에서는 Microsoft Teams에서 지원하는 기능에 대한 개요와 기능을 제공합니다.
-ms.openlocfilehash: 18b8219a3eef391170c7321ae994d79f1b73f016
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 8b06078633dd8c7ee43c2ee98ad1f3e4751d3a51
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268773"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606027"
 ---
 # <a name="microsoft-teams-displays"></a>Microsoft Teams 표시
 
@@ -59,9 +59,9 @@ Teams 디스플레이 디바이스를 관리하려면 Microsoft Teams 관리 센
 
 핫 데스크를 사용하면 조직의 사용자가 Teams 및 Outlook을 통해 또는 장치 자체에서 임시 작업 영역을 미리 예약할 수 있습니다. 핫 데스크를 사용하도록 설정하면 사용자가 Microsoft 365 자격 증명으로 Teams에 로그인하여 모임, 채팅 및 파일에 액세스합니다. 로그아웃하면 모든 개인 정보가 디바이스에서 제거됩니다.
 
-시작하려면 Microsoft Teams 룸 스탠더드 라이선스를 획득하고 각 Teams 디스플레이에 대한 리소스 계정을 만들어야 합니다. [리소스 계정을 만들려면 회의실 및 공유 Teams 디바이스에 대한](../rooms/with-office-365.md) 리소스 계정 만들기를 참조하세요.
+시작하려면 [Microsoft Teams 룸 라이선스를](../rooms/rooms-licensing.md) 획득하고 각 Teams 디스플레이에 대한 리소스 계정을 만들어야 합니다. [리소스 계정을 만들려면 회의실 및 공유 Teams 디바이스에 대한](../rooms/with-office-365.md) 리소스 계정 만들기를 참조하세요.
 
-리소스 계정을 만든 후 핫 데스크를 사용하도록 설정하는 정책을 만들고 할당할 수 있습니다. 자세한 내용은 [New-CsTeamsIPPhonePolicy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) 를 참조하세요.
+리소스 계정을 만든 후 핫 데스크를 사용하도록 설정하는 정책을 만들고 할당할 수 있습니다. 자세한 내용은 [New-CsTeamsIPPhonePolicy](/powershell/module/skype/new-csteamsipphonepolicy) 를 참조하세요.
 
 > [!IMPORTANT]
 > 핫 데스크가 있는 Teams 디스플레이는 여러 사람이 공유 작업 영역에서 사용하므로 조건부 액세스 규칙 및 Multi-Factor Authentication과 같은 환경의 기타 ID 구성은 이러한 디바이스에 영향을 주고 로그인 문제를 일으킬 수 있습니다. 공유 디바이스 보안에 대한 지침은 [공유 Teams Android 디바이스에 대한 인증 모범 사례를 참조하세요](authentication-best-practices-for-android-devices.md).

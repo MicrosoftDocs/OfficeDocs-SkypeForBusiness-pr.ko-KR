@@ -27,12 +27,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 조직의 Microsoft Teams에 대한 사용자(구독자) 및 서비스(유료 및 무료) 전화 번호를 받고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 15caaa7b5d21ae86d0b0079aeb743690294fd85b
-ms.sourcegitcommit: 3f6ae7946b64e857f6358019be2f0fdf19a207ad
+ms.openlocfilehash: 613a3f5f287615c6e18024d1afba1d94d0fea67c
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2022
-ms.locfileid: "67074676"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606747"
 ---
 # <a name="manage-telephone-numbers-for-your-organization"></a>조직의 전화 번호 관리
 
@@ -54,7 +54,11 @@ Microsoft는 숫자 유형을 단순화하기 위해 노력하고 있지만 지�
 
 - Operator Connect의 전화 번호 관리에 대한 자세한 내용은 [Operator Connect를 사용하여 전화 번호 설정을](operator-connect-configure.md#set-up-phone-numbers) 참조하세요.
 
+- 운영자 연결 모바일(공개 미리 보기 릴리스)의 전화 번호를 관리하는 방법에 대한 자세한 내용은 [운영자 연결 모바일 사용하여 전화 번호 설정을](operator-connect-mobile-configure.md#set-up-phone-numbers) 참조하세요.
+
 - 직접 라우팅을 위해 전화 번호를 관리하는 방법에 대한 자세한 내용은 [전화 번호 구성 및 엔터프라이즈 음성 사용 설정을](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice) 참조하세요.
+
+
 
 
 > [!NOTE]

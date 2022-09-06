@@ -15,12 +15,12 @@ ms.reviewer: mikedav
 description: 오디오 회의, 전화 시스템 및 통화 플랜과 같은 기능을 위해 사용자에게 Teams 추가 기능 라이선스를 할당하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b482781ee29094986c310158fe74f02662f790d
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6c10ba390d906681434ae56272e4f112911bfcff
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268173"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606057"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>사용자에게 Teams 추가 기능 라이선스 할당
 
@@ -143,6 +143,10 @@ PowerShell을 사용하여 사용자에게 라이선스를 대량으로 할당�
 | 통신 크레딧 | MCOPSTNPP |
 | 종량제 통화 플랜(영역 1 국가) | MCOPSTN_PAYG_1 |
 | 종량제 통화 플랜(영역-2 국가) | MCOPSTN_PAYG_2 |
+| Microsoft Teams 룸 Basic | Microsoft_Teams_Rooms_Basic |
+| 오디오 회의 없이 기본 Microsoft Teams 룸 | Microsoft_Teams_Rooms_Basic_without_Audio_Conferencing |
+| Microsoft Teams 룸 Pro | Microsoft_Teams_Rooms_Pro |
+| 오디오 회의 없는 Microsoft Teams 룸 Pro | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
 
 ## <a name="related-content"></a>관련 콘텐츠
 

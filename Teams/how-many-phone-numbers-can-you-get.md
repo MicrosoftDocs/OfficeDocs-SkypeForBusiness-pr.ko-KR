@@ -23,20 +23,20 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
 - seo-marvel-mar2020
 description: 번호 유형 및 라이선스 수에 따라 Microsoft Teams에서 받을 수 있는 전화 번호 수에 대해 알아봅니다.
-ms.openlocfilehash: 053a1772ed14b09c1bed159973f50bc47125c58e
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 629fed74d1c9f049ec28292e63f6fdb53fdc1c44
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156776"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606577"
 ---
 # <a name="how-many-telephone-numbers-can-you-get"></a>전화 번호는 몇 개나 받을 수 있나요?
 
 조직의 Microsoft 제공 전화 번호를 찾고 가져오는 경우 라이선스를 할당한 것보다 더 많은 전화 번호를 얻을 수 있습니다. 그러나 이는 구입하여 할당한 전화 번호 유형 및 라이선스 유형에 따라 달라집니다.
 
-전화 번호를 획득하고 관리하는 방법은 PSTN 연결 옵션(Microsoft 통화 플랜, 운영자 연결 또는 직접 라우팅)에 따라 다릅니다. 자세한 내용은 [조직의 전화 번호 관리를 참조하세요](manage-phone-numbers-landing-page.md).
+전화 번호를 획득하고 관리하는 방법은 PSTN 연결 옵션인 Microsoft 통화 플랜, 운영자 연결, 운영자 연결 모바일(공개 미리 보기 릴리스) 또는 직접 라우팅에 따라 다릅니다. 자세한 내용은 [조직의 전화 번호 관리를 참조하세요](manage-phone-numbers-landing-page.md).
 
-다음 표는 Microsoft 통화 플랜, [오디오 회의](deploy-audio-conferencing-teams-landing-page.md) 및 음성 앱(예: [통화 큐 및 자동 전화 교환)](plan-auto-attendant-call-queue.md)에 적용됩니다. 운영자 연결 및 직접 라우팅에 대한 자세한 내용은 서비스 공급자에게 문의하세요.
+다음 표는 Microsoft 통화 플랜, [오디오 회의](deploy-audio-conferencing-teams-landing-page.md) 및 음성 앱(예: [통화 큐 및 자동 전화 교환)](plan-auto-attendant-call-queue.md)에 적용됩니다. 운영자 연결, 운영자 연결 모바일 또는 직접 라우팅에 대한 자세한 내용은 서비스 공급자에게 문의하세요.
 
 Microsoft Teams 관리 센터에서 검색 및 획득 프로세스 중에 Microsoft에서 가져올 수 있는 전화 번호의 수량을 확인할 수 **있습니다(전화 번호 가져오기**).
 

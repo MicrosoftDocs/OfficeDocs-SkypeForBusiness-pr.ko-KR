@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9a773e7c8767164480374826a2410050681505a
-ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
+ms.openlocfilehash: d7397ade44b1e7ee68c176c51bb1af9880ca0373
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "66915196"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606537"
 ---
 # <a name="configure-operator-connect"></a>연산자 연결 구성
 
@@ -58,6 +58,20 @@ Teams 관리 센터에서 운영자를 사용, 편집 및 제거할 수 있습�
 
 - 기존 숫자를 직접 라우팅에서 운영자 연결로 이동하려면 [직접 라우팅에서 운영자 연결로 번호 이동을](#move-numbers-from-direct-routing-to-operator-connect) 참조하세요.
 
+### <a name="assign-numberes-to-emergency-addresses"></a>긴급 주소에 번호 할당
+
+긴급 주소는 숫자와 연결된 정적 위치입니다. Teams 관리 센터에서 긴급 주소를 만들면 주소를 할당하거나 나중에 변경하는 방법은 운영자에 따라 달라집니다.
+
+긴급 주소에 숫자를 할당하기 위해 운영자는 세 가지 시나리오 중 하나를 구현합니다.
+
+- 운영자는 전화 번호에 긴급 주소를 할당하고 나중에 Teams 관리 센터에서 변경할 수 있습니다.
+
+- 운영자는 주소를 할당하지 않으며 Teams 관리 센터의 전화 번호에 긴급 주소를 할당할 수 있습니다.
+
+- 운영자는 전화 번호에 긴급 주소를 할당하며 변경할 수 없습니다. 이 시나리오에서는 전화 번호 및 할당된 긴급 주소를 변경하려면 운영자에게 문의해야 합니다.
+
+긴급 통화에 대한 자세한 내용은 [긴급 통화 관리](what-are-emergency-locations-addresses-and-call-routing.md) 및 [동적 긴급 통화 계획 및 구성](configure-dynamic-emergency-calling.md)을 참조하세요.
+
 ### <a name="acquire-numbers-for-new-teams-users"></a>새 Teams 사용자에 대한 번호 획득
 
 새 Teams 사용자에 대한 숫자를 확보하려면 다음 단계를 수행합니다.
@@ -72,20 +86,6 @@ Teams 관리 센터에서 운영자를 사용, 편집 및 제거할 수 있습�
 
 > [!NOTE]
 > [사용자의 전화 번호를 받는](getting-phone-numbers-for-your-users.md) 것 외에도 오디오 회의(회의 브리지), 자동 전화 교환 및 통화 큐(서비스 번호라고도 함)와 같은 서비스에 대한 유료 또는 무료 전화 번호를 받을 수 있습니다. 서비스 전화 번호는 사용자 또는 구독자 전화 번호보다 동시 통화 용량이 높습니다. 예를 들어 서비스 번호는 수백 건의 통화를 동시에 처리할 수 있는 반면, 사용자의 전화 번호는 몇 개의 통화만 동시에 처리할 수 있습니다. 서비스 번호를 얻으려면 운영자에게 문의하세요.
-
-### <a name="emergency-addresses"></a>긴급 주소
-
-긴급 주소는 숫자와 연결된 정적 위치입니다. Teams 관리 센터에서 긴급 주소를 만들면 주소를 할당하거나 나중에 변경하는 방법은 운영자에 따라 달라집니다.
-
-긴급 주소에 숫자를 할당하기 위해 운영자는 세 가지 시나리오 중 하나를 구현합니다.
-
-- 운영자는 전화 번호에 긴급 주소를 할당하고 나중에 Teams 관리 센터에서 변경할 수 있습니다.
-
-- 운영자는 주소를 할당하지 않으며 Teams 관리 센터의 전화 번호에 긴급 주소를 할당할 수 있습니다.
-
-- 운영자는 전화 번호에 긴급 주소를 할당하며 변경할 수 없습니다. 이 시나리오에서는 전화 번호 및 할당된 긴급 주소를 변경하려면 운영자에게 문의해야 합니다.
-
-긴급 통화에 대한 자세한 내용은 [긴급 통화 관리](what-are-emergency-locations-addresses-and-call-routing.md) 및 [동적 긴급 통화 계획 및 구성](configure-dynamic-emergency-calling.md)을 참조하세요.
 
 ### <a name="move-numbers-from-calling-plans-to-operator-connect"></a>통화 플랜에서 운영자 연결로 번호 이동
 

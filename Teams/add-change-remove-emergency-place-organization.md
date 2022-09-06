@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 description: 조직의 긴급 위치를 추가, 변경 또는 제거하는 방법을 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1f142d7053a8254446d76dfab276baf9f6f12363
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 37ccf72868819c515a2f7320b112f81f31f65a34
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269281"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606717"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>조직의 응급 위치에 대한 장소 추가, 변경 또는 제거
 
@@ -34,7 +34,7 @@ ms.locfileid: "67269281"
 
 이 문서에서는 조직의 긴급 *위치를* 추가, 변경 또는 제거하는 방법을 설명합니다.
 
-이 문서는 Microsoft 통화 플랜, 운영자 연결 및 직접 라우팅에 적용됩니다.
+이 문서는 Microsoft 통화 플랜, 운영자 연결, 운영자 연결 모바일(공개 미리 보기 릴리스) 및 직접 라우팅에 적용됩니다.
 
 Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 조직의 긴급 위치를 관리합니다.
   
@@ -76,7 +76,7 @@ Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 조직의 긴급
 
 [Remove-CsOnlineLisLocation을 참조하세요](/powershell/module/skype/remove-csonlinelislocation).
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [긴급 통화 관리](what-are-emergency-locations-addresses-and-call-routing.md)
 - [조직의 응급 위치 추가, 변경 또는 제거](add-change-remove-emergency-location-organization.md)

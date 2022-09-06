@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 이 문서에서는 Azure Monitor를 사용하여 비즈니스용 Skype 또는 Teams 구현에서 Microsoft Teams 룸 모니터링하기 위한 계획 고려 사항에 대해 설명합니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ac3ac3af4e4f162238af0e9bf38c45569302fdfb
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5640fd63ac413403105be7d5f23e413b2f19ebdf
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269573"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606397"
 ---
 # <a name="plan-microsoft-teams-rooms-monitoring-with-azure-monitor"></a>Azure Monitor를 사용하여 Microsoft Teams 룸 모니터링 계획
  
@@ -29,6 +29,8 @@ ms.locfileid: "67269573"
 
 > [!NOTE]
 > Teams 관리 센터를 사용하여 [Teams 룸 상태 모니터링을 설정할](../alerts/device-health-status.md) 수도 있습니다.
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 [Azure Monitor](/azure/azure-monitor/overview) 는 처음부터 클라우드에서 설계된 모니터링 서비스의 컬렉션입니다. Azure Monitor 구성 요소는 온-프레미스 리소스를 배포하고 관리하는 대신 Azure에서 완전히 호스트됩니다. 구성은 최소이며 몇 분 안에 실행될 수 있습니다. 일부 사용자 지정 작업을 사용하면 개별 회의실 시스템에 대한 시스템 상태 또는 오류에 대한 알림을 제공하여 Microsoft Teams 룸 모니터링하는 데 도움이 될 수 있으며 수천 개의 Microsoft Teams 룸 관리하도록 확장할 수 있습니다.
   

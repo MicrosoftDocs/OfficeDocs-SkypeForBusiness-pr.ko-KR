@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
 description: Microsoft Teams 룸 디바이스를 보호하는 방법을 알아봅니다.
-ms.openlocfilehash: 4814bd5930bd311bf79fc749a1e736d1c3645165
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 231039324e15afb7b24f194623e54455d51e85c2
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270053"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606217"
 ---
 # <a name="microsoft-teams-rooms-security"></a>Microsoft Teams 룸 보안
 
@@ -79,7 +79,7 @@ Teams 룸 디바이스에는 기본 암호가 있는 "관리"라는 관리 계�
 관리 계정은 Teams 룸 디바이스의 적절한 작동에 필요하지 않으며 이름을 바꾸거나 삭제할 수도 있습니다. 그러나 관리 계정을 삭제하기 전에 Teams 룸 디바이스와 함께 제공되는 계정을 제거하기 전에 구성된 대체 로컬 관리자 계정을 설정해야 합니다. 기본 제공 Windows 도구 또는 PowerShell을 사용하여 로컬 Windows 계정의 암호를 변경하는 방법에 대한 자세한 내용은 다음을 참조하세요.
 
 - [Windows 암호 변경 또는 재설정](https://support.microsoft.com/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c)
-- [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser?view=powershell-5.1#example-2--change-the-password-on-an-account)
+- [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser#example-2--change-the-password-on-an-account)
 
 도메인 계정을 로컬 Windows 관리자 그룹으로 가져올 수도 있습니다. Intune 사용하여 Azure AD 계정에 대해 이 작업을 수행할 수 있습니다. 자세한 내용은 [정책 CSP – RestrictedGroups를 참조하세요](/windows/client-management/mdm/policy-csp-restrictedgroups).
 
@@ -101,12 +101,12 @@ Teams에 로그인할 수 있도록 각 Teams 룸 디바이스에 대한 리소�
 
 일반적으로 Teams 룸 Microsoft Teams 클라이언트와 동일한 네트워크 요구 사항이 있습니다. 방화벽 및 기타 보안 디바이스를 통한 액세스는 다른 Microsoft Teams 클라이언트와 Teams 룸 동일합니다. Teams 룸 특정한 Teams에 "필수"로 나열된 범주는 방화벽에서 열려 있어야 합니다. Teams 룸 Windows 업데이트, Microsoft Store 및 Microsoft Intune 액세스해야 합니다(Microsoft Intune 사용하여 디바이스를 관리하는 경우). Microsoft Teams 룸 데 필요한 IP 및 URL의 전체 목록은 다음을 참조하세요.
 
-- **Microsoft Teams** [Office 365 URL 및 IP 주소 범위](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)
+- **Microsoft Teams** [Office 365 URL 및 IP 주소 범위](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
 - [WSUS 구성](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet) **Windows 업데이트**
 -  [비즈니스용 Microsoft Store 및 교육용 Microsoft Store 필수 구성 요소](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
 - **Microsoft Intune** [대한 네트워크 엔드포인트 Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
 
-Microsoft Teams 룸 프리미엄 Microsoft Teams 룸 관리 서비스 구성 요소를 사용하는 경우 Teams 룸 다음 URL에 액세스할 수 있는지도 확인해야 합니다.
+Microsoft Teams 룸 Pro의 Microsoft Teams 룸 관리 서비스 구성 요소를 사용하는 경우 Teams 룸 다음 URL에 액세스할 수 있는지 확인해야 합니다.
 
 - agent.rooms.microsoft.com
 - global.azure-devices-provisioning.net
@@ -120,11 +120,13 @@ Microsoft Teams 룸 프리미엄 Microsoft Teams 룸 관리 서비스 구성 요
 - mmrprodnoamiot.azure-devices.net
 - mmrprodnoamstor.blob.core.windows.net
 
-Teams 룸 보안 업데이트를 포함하여 최신 Windows 업데이트로 자동으로 패치된 상태로 유지되도록 구성됩니다. Teams 룸 미리 설정된 로컬 정책을 사용하여 매일 오전 2:00부터 보류 중인 업데이트를 설치합니다. Windows 업데이트 배포하고 적용하기 위해 추가 도구를 사용할 필요가 없습니다. 추가 도구를 사용하여 업데이트를 배포하고 적용하면 Windows 패치 설치가 지연되어 보안이 떨어지는 배포가 발생할 수 있습니다. Teams 룸 앱은 Microsoft Store를 사용하여 배포됩니다. 디바이스에 Microsoft Teams 룸 스탠더드 사용이 허가된 경우 야간 패치 프로세스 중에 새 버전의 앱이 자동으로 설치됩니다. 디바이스가 Microsoft Teams 룸 프리미엄 사용이 허가되고 Microsoft Managed Service에 등록된 경우 정의된 출시 계획에 따라 새 버전의 Teams 룸 앱이 설치됩니다.
+Teams 룸 보안 업데이트를 포함하여 최신 Windows 업데이트로 자동으로 패치된 상태로 유지되도록 구성됩니다. Teams 룸 미리 설정된 로컬 정책을 사용하여 매일 오전 2:00부터 보류 중인 업데이트를 설치합니다. Windows 업데이트 배포하고 적용하기 위해 추가 도구를 사용할 필요가 없습니다. 추가 도구를 사용하여 업데이트를 배포하고 적용하면 Windows 패치 설치가 지연되어 보안이 떨어지는 배포가 발생할 수 있습니다. Teams 룸 앱은 Microsoft Store를 사용하여 배포됩니다.
+
+<!-- LICENSE-REVIEW If your devices are licensed with Microsoft Teams Rooms Standard, any new versions of the app are automatically installed during the nightly patching process. If your devices are licensed with Microsoft Teams Rooms Premium and enrolled in the Microsoft Managed Service, new versions of the Teams Rooms app are installed per your defined rollout plan. -->
 
 Teams 룸 디바이스는 대부분의 802.1X 또는 기타 네트워크 기반 보안 프로토콜에서 작동합니다. 그러나 가능한 모든 네트워크 보안 구성에 대해 Teams 룸 테스트할 수 없습니다. 따라서 네트워크 성능 문제로 추적할 수 있는 성능 문제가 발생하는 경우 조직에서 구성된 경우 이러한 프로토콜을 사용하지 않도록 설정해야 할 수 있습니다.
 
-실시간 미디어의 최적의 성능을 위해 프록시 서버 및 기타 네트워크 보안 디바이스를 우회하도록 Teams 미디어 트래픽을 구성하는 것이 좋습니다. 실시간 미디어는 대기 시간이 매우 중요하며 프록시 서버와 네트워크 보안 디바이스는 사용자의 비디오 및 오디오 품질을 크게 저하시킬 수 있습니다. 또한 Teams 미디어가 이미 암호화되어 있기 때문에 프록시 서버를 통해 트래픽을 전달하면 실질적인 이점이 없습니다. 자세한 내용은 Microsoft Teams 및 Microsoft Teams 룸 사용하여 미디어 성능을 개선하기 위한 네트워크 권장 사항을 설명하는 [한 설계자의 관점인 클라우드에 대한 네트워킹을](/microsoft-365/solutions/networking-design-principles?view=o365-worldwide) 참조하세요.
+실시간 미디어의 최적의 성능을 위해 프록시 서버 및 기타 네트워크 보안 디바이스를 우회하도록 Teams 미디어 트래픽을 구성하는 것이 좋습니다. 실시간 미디어는 대기 시간이 매우 중요하며 프록시 서버와 네트워크 보안 디바이스는 사용자의 비디오 및 오디오 품질을 크게 저하시킬 수 있습니다. 또한 Teams 미디어가 이미 암호화되어 있기 때문에 프록시 서버를 통해 트래픽을 전달하면 실질적인 이점이 없습니다. 자세한 내용은 Microsoft Teams 및 Microsoft Teams 룸 사용하여 미디어 성능을 개선하기 위한 네트워크 권장 사항을 설명하는 [한 설계자의 관점인 클라우드에 대한 네트워킹을](/microsoft-365/solutions/networking-design-principles) 참조하세요.
 
 > [!IMPORTANT]
 > Teams 룸 인증된 프록시 서버를 지원하지 않습니다.

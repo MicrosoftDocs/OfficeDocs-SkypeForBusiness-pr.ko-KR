@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 이 문서에서는 Microsoft Teams 패널에서 지원하는 기능에 대한 개요와 기능을 제공합니다.
-ms.openlocfilehash: 745e592e1c8451a47038c33a9f30d29a7a99d63c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d31ac86be9ac00b7aa8a77e37a906b32a00a2095
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268563"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606737"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams 패널
 
@@ -54,7 +54,7 @@ Teams 패널용으로 인증된 파트너에 대한 자세한 내용은 [현재 
 
 ## <a name="license-requirement"></a>라이선스 요구 사항
 
-Teams 패널을 사용하려면 [Microsoft Teams 룸 스탠더드 라이선스가](../rooms/rooms-licensing.md) 필요합니다.
+Teams 패널을 사용하려면 [Microsoft Teams 룸 라이선스](../rooms/rooms-licensing.md)가 필요합니다.
 
 > [!Note]
 > Teams 패널을 설치하는 모임 공간에 이미 Microsoft Teams 룸 배포한 경우 Teams 패널을 사용하기 위한 추가 라이선스가 필요하지 않습니다.
@@ -103,11 +103,12 @@ Teams 패널 사이트에 대한 권장 사항은 다음과 같습니다.
 
 모든 Teams 패널 디바이스에는 Microsoft 365 회의실 리소스 계정이 필요합니다. 리소스 계정 자격 증명을 사용하여 패널 디바이스에서 Microsoft Teams 앱에 로그인합니다.
 
-Teams 패널에 대한 Microsoft 365 리소스 계정을 설정하려면 [Microsoft Teams 룸 스탠더드 라이선스](#license-requirement)를 구매하는 것이 좋습니다. 리소스 계정을 만들고 라이선스를 할당하는 방법에 대한 자세한 내용은 [회의실 및 공유 Teams 디바이스에 대한 리소스 계정 만들기](../rooms/with-office-365.md)를 참조하세요.
+Teams 패널에 대한 Microsoft 365 리소스 계정을 설정하려면 [Microsoft Teams 룸 라이선스](#license-requirement)를 구매해야 합니다.
+리소스 계정을 만들고 라이선스를 할당하는 방법에 대한 자세한 내용은 [회의실 및 공유 Teams 디바이스에 대한 리소스 계정 만들기](../rooms/with-office-365.md)를 참조하세요.
 
 > [!NOTE]
 >
->- 패널을 설치하는 모임 공간에 회의실 리소스 계정이 이미 설정되어 있는 경우 동일한 회의실 리소스 계정을 사용하여 패널 디바이스에 로그인합니다. 그러나 패널 리소스 계정으로 사용하기 위해 회의실 리소스 계정에 할당된 Microsoft Teams 룸 스탠더드 라이선스가 있는지 확인합니다.
+>- 패널을 설치하는 모임 공간에 회의실 리소스 계정이 이미 설정되어 있는 경우 동일한 회의실 리소스 계정을 사용하여 패널 디바이스에 로그인합니다. 그러나 회의실 리소스 계정에 패널 리소스 계정으로 사용하기 위해 할당된 Microsoft Teams 룸 라이선스가 있는지 확인합니다.
 >
 >- Teams 패널을 설치하는 모임 공간에 이미 Microsoft Teams 룸 배포되어 있는 경우 패널을 배포하기 위한 별도의 라이선스를 구입할 필요가 없습니다. 관리자는 동일한 공간에 대한 Microsoft Teams 룸 동일한 자격 증명을 사용하여 패널 디바이스에 로그인합니다.
 >

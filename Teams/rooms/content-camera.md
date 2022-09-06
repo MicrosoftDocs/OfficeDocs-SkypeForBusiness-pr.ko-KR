@@ -16,16 +16,18 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Microsoft Teams 룸 콘텐츠 카메라를 사용하여 이미지 처리 소프트웨어와 상호 작용하여 발표자가 아날로그 화이트보드에 그릴 수 있습니다.
-ms.openlocfilehash: 08d360e62cd2d254f2c207e9b9eee9adea424c34
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 6f8116e8c54c24d31a122d54ec505b72f4ef8fdc
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396669"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606377"
 ---
 # <a name="content-cameras"></a>콘텐츠 카메라
 
 이제 Microsoft Teams 룸 시스템에서 콘텐츠 카메라를 사용할 수 있습니다. 콘텐츠 카메라는 특수 이미지 처리 소프트웨어 및 화이트보드와 상호 작용하여 발표자가 아날로그 화이트보드에 그려 원격 참가자와 콘텐츠를 공유할 수 있도록 합니다.
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 콘텐츠 카메라 기능의 예는 다음 비디오를 참조하세요.
 

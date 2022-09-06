@@ -18,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e7ba6b94466874a1e1ab07496ece0d3c4f34dfb
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5dcab13a6ee0c54e9fc88901c2fe022f35309e88
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269353"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606857"
 ---
 # <a name="teams-devices-for-education"></a>교육용 Teams 디바이스
 
@@ -62,19 +62,19 @@ Teams 룸 원터치 조인, 실제 화이트보드를 인텔리전트 방식으�
 
 **Teams용으로 제작:**
 
-고급 오디오 및 비디오 및 공유
+고급 오디오 및 비디오 및 공유.
 
 **모든 객실을 위한 광범위한 디바이스 포트폴리오**:
 
-Android 또는 Windows 운영 체제에서 완전히 모듈화되거나 통합된 폼 팩터 중에서 선택
+Android 또는 Windows 운영 체제에서 완전히 모듈화되거나 통합된 폼 팩터 중에서 선택합니다.
 
 **새롭게 재해석된 객실 환경**:
 
-Teams 모임에 참가하여 학생과 교육자 모두를 위한 포괄적이고 공동 작업적인 모임에 참여
+Teams 모임에 참가하여 학생과 교육자 모두를 위한 포괄적이고 공동 작업적인 모임에 참여합니다.
 
 **한 곳에서 쉽게 관리할 수 있습니다**.
 
-Teams 관리 Center에서 디바이스를 완전히 관리하고 최신 상태로 유지하고 Microsoft Teams 룸 프리미엄 Microsoft에서 24x7 자동 관리 사용
+Teams 관리 Center에서 디바이스를 완전히 관리하고 최신 상태로 유지하고 Microsoft Teams 룸 Pro를 사용하여 Microsoft에서 24x7 자동 관리 기능을 사용하도록 설정합니다.
 
 ## <a name="space-considerations"></a>공간 고려 사항
 

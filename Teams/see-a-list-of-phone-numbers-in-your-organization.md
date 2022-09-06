@@ -23,18 +23,18 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Microsoft Teams 관리 센터를 사용하여 조직의 모든 전화 번호 목록과 사용자에게 할당되거나 할당되지 않은 모든 번호를 확인하는 방법을 알아봅니다.
-ms.openlocfilehash: 84162b3971b1730df114482d30820dcf7e86a684
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: ac7c63515b34b8c199f8050933b6c3ccbc6f8d33
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494465"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606077"
 ---
 # <a name="see-a-list-of-telephone-numbers"></a>전화 번호 목록 보기 
 
 [오디오 회의](deploy-audio-conferencing-teams-landing-page.md) 또는 통화 큐와 같은 사용자 또는 음성 애플리케이션에 할당할 수 있는 다양한 유형의 전화 번호[가 있습니다](plan-auto-attendant-call-queue.md). 자세한 내용은 [조직의 전화 번호 관리를 참조하세요](/microsoftteams/manage-phone-numbers-landing-page).
 
-이 문서는 통화 플랜 및 운영자 연결에 적용됩니다. 직접 라우팅에 대한 자세한 내용은 [전화 번호 구성 및 엔터프라이즈 음성 사용 설정을](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice) 참조하세요.
+이 문서는 통화 플랜, 운영자 연결 및 운영자 연결 모바일(공개 미리 보기 릴리스)에 적용됩니다. 직접 라우팅에 대한 자세한 내용은 [전화 번호 구성 및 엔터프라이즈 음성 사용 설정을](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice) 참조하세요.
   
 ## <a name="to-see-all-telephone-numbers-in-your-organization"></a>조직의 모든 전화 번호를 보려면
 
@@ -108,7 +108,7 @@ Get-CsPhoneNumberAssignment | ft TelephoneNumber,ActivationState,NumberType
 Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,UserPrincipalName,LineURI
 ```
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [조직의 전화 번호 관리](manage-phone-numbers-landing-page.md)
 

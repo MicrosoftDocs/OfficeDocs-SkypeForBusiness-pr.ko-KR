@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Devices
 description: Teams Android 디바이스에서 사용자 인터페이스를 설정하는 방법을 알아봅니다.
-ms.openlocfilehash: 859c1d9d0f7a946f37b53ad81dc2a0637bb26621
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 830609d1bf02c38a2301c0d5a1b9e62ac836c908
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269323"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606837"
 ---
 # <a name="set-microsoft-teams-android-devices-user-interface"></a>Microsoft Teams Android 디바이스 사용자 인터페이스 설정
 
@@ -49,7 +49,7 @@ E3 또는 E5 라이선스와 같은 계정에 [사용자 라이선스를 할당]
 
 ## <a name="meeting-interface"></a>모임 인터페이스
 
-이 이미지는 [Microsoft Teams 룸 스탠더드 라이선스](/MicrosoftTeams/rooms/rooms-licensing)가 할당된 사용자 계정을 보여줍니다. Teams 룸 라이선스는 회의실 또는 공유 공간에서 사용되므로 사용자 인터페이스가 변경되어 일정 보기를 표시하여 모임에 쉽게 참가할 수 있습니다.
+이 이미지는 [Microsoft Teams 룸 라이선스](/MicrosoftTeams/rooms/rooms-licensing)가 할당된 사용자 계정을 보여줍니다. Teams 룸 라이선스는 회의실 또는 공유 공간에서 사용되므로 사용자 인터페이스가 변경되어 일정 보기를 표시하여 모임에 쉽게 참가할 수 있습니다.
 
 :::image type="content" source="../media/teams-android-devices-meeting.jpg" alt-text="모임 인터페이스입니다.":::
 
@@ -61,7 +61,7 @@ E3 또는 E5 라이선스와 같은 계정에 [사용자 라이선스를 할당]
 
 ## <a name="override-automatic-user-interface-detection"></a>자동 사용자 인터페이스 검색 재정의
 
-경우에 따라 의도한 용도와 일치하지 않는 계정에 라이선스를 할당하도록 선택할 수 있습니다. 예를 들어 Android에서 Teams 룸 로그인하려는 계정에 사용자 라이선스를 할당할 수 있습니다. 기본적으로 회의실 인터페이스 대신 최종 사용자 인터페이스가 표시됩니다. 기본 인터페이스를 재정의하려면 새 [Teams IP 전화 정책을](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) 만들고 해당 계정에 적용합니다.
+경우에 따라 의도한 용도와 일치하지 않는 계정에 라이선스를 할당하도록 선택할 수 있습니다. 예를 들어 Android에서 Teams 룸 로그인하려는 계정에 사용자 라이선스를 할당할 수 있습니다. 기본적으로 회의실 인터페이스 대신 최종 사용자 인터페이스가 표시됩니다. 기본 인터페이스를 재정의하려면 새 [Teams IP 전화 정책을](/powershell/module/skype/new-csteamsipphonepolicy) 만들고 해당 계정에 적용합니다.
 
 > [!NOTE]
 > 사용자 계정에 할당된 라이선스에는 원하는 사용자 인터페이스와 동일한 라이선스 자격이 있어야 합니다. 공용 영역 전화 라이선스는 공용 영역 전화 사용자 인터페이스만 허용합니다. 회의실 라이선스는 회의실 및 공용 영역 전화 사용자 인터페이스를 허용합니다. E3 또는 E5 라이선스는 모든 로그인 모드를 지원합니다.

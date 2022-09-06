@@ -16,23 +16,32 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 이 문서에서는 Microsoft Teams의 Microsoft 앱, 사용자 지정 앱 및 타사 앱을 업데이트하는 방법과 관리자가 이를 용이하게 하는 방법을 알아봅니다.
-ms.openlocfilehash: ed91ad441b773833838796d9ea8c71038c842b88
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: b947e8b77bc167ccbdfb6a90bfa7c4ab96476efc
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299047"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606097"
 ---
-# <a name="update-apps-in-microsoft-teams"></a>Microsoft Teams에서 앱 업데이트
+# <a name="teams-app-updates-and-admin-role"></a>Teams 앱 업데이트 및 관리자 역할
 
-대부분의 경우 Teams 스토어에서 새 버전의 앱을 사용할 수 있게 되면 사용자를 위해 앱이 자동으로 업데이트됩니다. 그러나 새 앱 버전의 몇 가지 특정 변경 사항을 적용하려면 앱 업데이트에 대한 사용자 동의가 필요합니다. 사용자 동의는 기능 또는 액세스와 같은 변경 사항에 대한 인식을 보장합니다. 앱 개발자가 Microsoft Teams 앱을 다음과 같이 구체적으로 변경할 경우 최종 사용자가 앱 업데이트를 승인해야 합니다.
+Teams 관리자는 최종 사용자가 최신 버전의 앱을 사용할 수 있도록 도와줄 수 있습니다. 이렇게 하려면 다음 작업 중 하나 또는 둘 다를 수행합니다.
 
-* 봇이 추가됩니다.
-* 기존 봇의 `botId` 속성 또는 `isNotificationOnly` 속성이 변경됩니다.
-* 봇의 `SupportsCalling`, `SupportsVideo`, `SupportsFiles` 기능이 추가됩니다.
-* 메시징 확장이 추가됩니다.
-* 권한 부여 내의 사용 권한이 추가되거나 변경됩니다.
-* `Id` 또는 `ApplicationPermissionsHash` 또는 둘 다 `webApplicationInfo` 내에서 변경됩니다.
+* 앱 개발자 또는 공급업체에서 새 버전을 제공하는 경우 Teams 스토어에서 사용할 수 있는 타사 앱을 [업데이트](#updates-to-third-party-apps)합니다.
+* 개발자가 새 버전을 제출할 때 조직에서만 사용할 수 있는 [사용자 지정 앱을 업데이트](#updates-to-custom-apps)합니다.
+
+## <a name="updates-to-third-party-apps"></a>타사 앱에 업데이트
+
+사용자가 앱을 설치하고 사용하려면 앱에 필요한 서비스 및 정보에 액세스할 수 있는 권한을 부여해야 합니다. 대부분의 경우 Teams 스토어에서 설치된 앱의 새 버전을 사용할 수 있는 경우 모든 사용자에 대해 앱이 자동으로 업데이트됩니다. 그러나 앱의 새 버전에서 몇 가지 특정 변경 내용을 사용하려면 사용자 권한이 다시 필요합니다. 이 반복 사용자 동의는 기능 또는 개인 정보에 대한 액세스와 같은 변경 내용에 대한 인식을 보장합니다. Teams 관리자는 [사용자를 대신하여 앱에 권한을 제공할](app-permissions-admin-center.md) 수 있습니다.
+
+앱 개발자가 앱에 대해 다음 중 하나 이상을 변경하는 경우 최종 사용자는 앱 업데이트를 승인해야 합니다.
+
+* 봇을 추가하거나 제거합니다. 속성을 사용하여 봇의 ID를 변경합니다 `botId` .
+* `isNotificationOnly` 봇의 알림을 변경할 수 있는 기존 봇의 속성을 변경합니다.
+* `SupportsVideo``SupportsFiles` 기존 봇의 속성을 변경`SupportsCalling`하여 파일을 호출, 비디오 재생 및 업로드 또는 다운로드하는 기능을 추가합니다.
+* 권한 부여에서 사용 권한을 추가하거나 제거합니다.
+* 메시징 확장을 추가하거나 제거하거나, 그룹 탭을 추가하거나, 커넥터를 추가하거나, 채널을 추가합니다.
+* 매니페스트 파일의 [`webApplicationInfo`](/microsoftteams/platform/resources/schema/manifest-schema#webapplicationinfo) 매개 변수를 변경합니다.
 
 <!--- image update
 :::image type="content" source="media/manage-your-custom-apps-update1.png" alt-text="New version available." lightbox="media/manage-your-custom-apps-update1.png":::
@@ -40,6 +49,11 @@ ms.locfileid: "67299047"
 :::image type="content" source="media/manage-your-custom-apps-update2.png" alt-text="Upgrade option for an app." lightbox="media/manage-your-custom-apps-update2.png":::
 --->
 
-## <a name="related-articles"></a>관련 기사
+## <a name="updates-to-custom-apps"></a>사용자 지정 앱에 업데이트
+
+조직 내에서 생성되고 배포된 사용자 지정 앱은 테넌트 또는 조직의 사용자가 사용할 수 있습니다. Teams 관리자는 조직 내 개발자가 제공하는 새 버전으로 사용자 지정 앱을 업데이트합니다. 자세한 내용은 [관리자가 사용자 지정 앱을 관리하는 방법을 참조하세요](custom-app-overview.md).
+
+## <a name="related-article"></a>관련 문서
 
 * [앱에서 수행된 업데이트에 대한 매니페스트 스키마를 이해합니다.](/microsoftteams/platform/resources/schema/manifest-schema).
+* [사용자 지정 앱 관리에 대해 알아봅니다](custom-app-overview.md).

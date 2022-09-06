@@ -16,49 +16,49 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: 이 문서에서는 조직의 사용자에 대한 긴급 위치를 할당하거나 변경하는 방법에 대해 알아보고 있습니다.
+description: 이 문서에서는 조직의 사용자에 대한 긴급 위치를 할당하거나 변경하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 004635be112bb8d38b88277e89c24d263b21ec37
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: 2562661a08c98c15a24a5e7db6a0f31dee864573
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180901"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606607"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>사용자의 응급 위치 할당 또는 변경
 
-[PSTN](pstn-connectivity.md) 연결 옵션에 관계 없이 Microsoft 통화 요금제, 운영자 커넥트 또는 직접 라우팅을 선택한 경우 각 전화 번호 또는 사용자에게 긴급 위치를 할당해야 &mdash; &mdash; 합니다.
+[PSTN 연결 옵션](pstn-connectivity.md)에 관계없이 Microsoft 통화 플랜, 운영자 연결, 운영자 연결 모바일(공개 미리 보기 릴리스) 또는 긴급&mdash;라우팅을 각&mdash;전화 번호 또는 사용자에게 할당해야 합니다.
 
-그러나 PSTN 연결 옵션에 따라 사용자에 대한 긴급 위치를 관리하고 할당하는 방법은 다를 수 있습니다. 자세한 내용은 긴급 호출 [관리를 참조하세요.](what-are-emergency-locations-addresses-and-call-routing.md)
+그러나 PSTN 연결 옵션에 따라 사용자의 응급 위치를 관리하고 할당하는 방법은 다를 수 있습니다. 자세한 내용은 [긴급 통화 관리를 참조하세요](what-are-emergency-locations-addresses-and-call-routing.md).
 
-이 문서에서는 사용자에 대한 긴급 위치를 할당하거나 변경하는 방법을 설명합니다. 
+이 문서에서는 사용자의 긴급 위치를 할당하거나 변경하는 방법을 설명합니다. 
 
-이 문서는 통화 계획 및 운영자 커넥트.
+이 문서는 통화 플랜, 운영자 연결 및 운영자 연결 모바일(공개 미리 보기 릴리스)에 적용됩니다.
   
-관리자 센터 또는 PowerShell을 사용하여 사용자에 대한 Microsoft Teams 위치를 할당하거나 변경할 수 있습니다.
+Microsoft Teams 관리 센터에서 또는 PowerShell을 사용하여 사용자의 긴급 위치를 할당하거나 변경할 수 있습니다.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터 사용
 
-1. 관리 센터의 왼쪽 탐색에서 Microsoft Teams **음성** 전화  >  **클릭합니다.**
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 영역에서 **음성** > **전화 번호를** 클릭합니다.
 
-2. 숫자 **전화** 페이지에서 숫자 탭을  클릭하고 목록에서 사용자 번호를 선택한 다음 **편집을 클릭합니다.**
+2. **전화 번호** 페이지에서 **숫자** 탭을 클릭하고 목록에서 사용자 번호를 선택한 다음 **편집** 을 클릭합니다.
 
-3. 편집 **창의** 긴급 **위치 아래에서** 다음 중 하나를 합니다.
+3. **편집** 창의 **긴급 위치에서** 다음 중 하나를 수행합니다.
 
    - 긴급 위치를 할당하려면 긴급 위치를 검색하고 선택합니다.
 
-   - 사용자에게 이미 할당된 긴급 위치를 변경하려면 **X를** 클릭하여 기존 위치를 제거한 다음, 할당할 위치를 검색하고 선택합니다.
+   - 사용자에게 이미 할당된 긴급 위치를 변경하려면 **X** 를 클릭하여 기존 위치를 제거한 다음 할당할 위치를 검색하여 선택합니다.
 
-4. 전화 번호 정보가 있는 사용자에게 전자 메일을 보낼지 여부에 따라 전화 번호 정보가 있는 전자 메일 사용자를 끄거나 **끄거나 끄기** 기본적으로 이 설정은 설정되어 있습니다.
+4. 전화 번호 정보를 사용하여 사용자에게 전자 메일을 보낼지 여부에 따라 전화 번호 정보가 있는 **Email 사용자를** 끄거나 켭니다. 기본적으로 이 기능은 켜집니다.
 
-5. 적용 **을 클릭합니다.**
+5. **적용** 을 클릭합니다.
 
 ## <a name="using-powershell"></a>PowerShell 사용
 
-[Set-CsPhoneNumberAssignment 을 참조합니다.](/powershell/module/teams/set-csphonenumberassignment) 
+[Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment)를 참조하세요. 
 
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [긴급 통화 관리](what-are-emergency-locations-addresses-and-call-routing.md)
 - [조직의 응급 위치 추가, 변경 또는 제거](add-change-remove-emergency-location-organization.md)

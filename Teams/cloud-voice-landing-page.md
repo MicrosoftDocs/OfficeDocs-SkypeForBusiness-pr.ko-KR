@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Microsoft Teams 클라우드 음성 기능 및 조직에 대해 수행할 배포 결정에 대해 자세히 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b1f4b0756e640d9b93e235b2724ce7841b4f44f
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 40f2a4f56b9d1c174696265300226263eb41a9de
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240827"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606067"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Teams 음성 솔루션 계획
 
@@ -49,6 +49,7 @@ ms.locfileid: "66240827"
 
 - 통화 플랜이 있는 전화 시스템
 - Operator Connect를 사용하여 사용자 고유의 PSTN 이동 통신 사업자가 있는 전화 시스템
+- 운영자 연결 모바일 있는 자체 PSTN 이동 통신 사업자가 있는 전화 시스템(공개 미리 보기 릴리스)
 - 직접 라우팅을 사용하여 자체 PSTN 이동 통신 사업자가 있는 전화 시스템
 - 통화 플랜이 있는 전화 시스템, 운영자 연결이 있는 전화 시스템 및/또는 직접 라우팅을 사용하는 전화 시스템을 사용하는 조합 솔루션
 
@@ -150,9 +151,12 @@ Azure Voicemail 서비스에서 제공하는 클라우드 음성 사서함 Excha
 
 - [**통화 플랜이 있는 전화 시스템**](pstn-connectivity.md#phone-system-with-calling-plan). Microsoft를 PSTN 이동 통신 사업자로 사용하는 클라우드 전체 솔루션입니다.
 
-- [**Operator Connect를 사용하여 사용자 고유의 PSTN 이동 통신 사업자가 있는 전화 시스템**](operator-connect-plan.md)입니다. Operator Connect를 사용하면 기존 운영자가 Microsoft Operator Connect 프로그램에 참여하는 경우 PSTN 통화를 Teams로 가져오기 위한 서비스를 관리할 수 있습니다. Operator Connect의 이점 및 요구 사항에 대한 자세한 내용은 [플랜 운영자 연결을](operator-connect-plan.md) 참조하세요.
+- [**Operator Connect를 사용하여 사용자 고유의 PSTN 이동 통신 사업자가 있는 전화 시스템**](operator-connect-plan.md)입니다. Operator Connect를 사용하면 기존 운영자가 Microsoft Operator Connect 프로그램에 참여하는 경우 PSTN 통화를 Teams로 가져오기 위한 서비스를 관리할 수 있습니다. 
+
+- **운영자 연결 모바일 공개 검토 릴리스**[**를 사용하여 자신의 PSTN 이동 통신 사업자와 전화 시스템**](operator-connect-mobile-plan.md). 운영자 연결 모바일 사용하면 기존 운영자가 Microsoft 운영자 연결 모바일 프로그램에 참여하는 경우 Teams에서 SIM 지원 휴대폰 번호를 사용하기 위한 서비스를 관리할 수 있습니다. 
 
 - 직접 라우팅을 사용하여 온-프레미스 환경을 Teams [**에 연결하여 자체 PSTN 이동 통신 사업자가 있는 전화 시스템**](pstn-connectivity.md#phone-system-with-direct-routing)입니다.
+
 
 복잡한 환경에 대한 솔루션을 설계하거나 다단계 마이그레이션을 관리할 수 있는 옵션 조합을 선택할 수 있습니다. 나중에 마이그레이션에 대해 자세히 알아봅니다.
 

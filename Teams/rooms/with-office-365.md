@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Microsoft Teams 룸, Surface Hub의 Teams 룸, Teams 디스플레이의 핫 데스크 등 회의실 및 공유 디바이스에 대한 리소스 계정을 만드는 방법에 대한 자세한 내용은 이 문서를 참조하세요.
-ms.openlocfilehash: 45cd61b476f10f673150653144bdb79a47604962
-ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
+ms.openlocfilehash: e9e7b2724c5c1d8fd85aff956affe96dadf9aaae
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67405160"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606227"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>회의실 및 공유 Teams 디바이스에 대한 리소스 계정 만들기 및 구성
 
@@ -266,7 +266,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
        Connect-MsolService
        ```
 
-       Active Directory에 대한 자세한 내용은 [Azure Active Directory(MSOnline)](/powershell/azure/active-directory/overview?view=azureadps-1.0)를 참조하세요.
+       Active Directory에 대한 자세한 내용은 [Azure Active Directory(MSOnline)](/powershell/azure/active-directory/overview?view=azureadps-1.0&preserve-view=true)를 참조하세요.
 
 2. 다음 구문을 사용하여 암호가 만료되지 않도록 설정합니다.
 
@@ -309,7 +309,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 Microsoft Teams에 로그인하려면 리소스 계정에 Microsoft 365 또는 Office 365 라이선스가 필요합니다.
 
 > [!NOTE]
-> Microsoft Teams 룸 스탠더드 및 Microsoft Teams 룸 프리미엄 Teams 룸 포함하여 공유 회의실 디바이스에 사용할 수 있는 두 가지 SKU입니다. 핫 데스크가 있는 Teams 디스플레이에는 회의실 라이선스가 필요합니다. 자세한 내용은 [Teams 회의실 라이선스](rooms-licensing.md)를 참조하세요.
+> Microsoft Teams 룸 Basic 및 Microsoft Teams 룸 Pro는 Teams 룸 포함하여 공유 회의실 디바이스에 사용할 수 있는 두 가지 SKU입니다. 핫 데스크가 있는 Teams 디스플레이에는 회의실 라이선스가 필요합니다. 자세한 내용은 [Microsoft Teams 룸 라이선스를 참조하세요](rooms-licensing.md).
 
 Microsoft 365 관리 센터 사용하여 라이선스를 할당하려면 [사용자에게 라이선스 할당을 참조하세요](/microsoft-365/admin/manage/assign-licenses-to-users). Azure AD 사용하여 라이선스를 할당하려면 다음 탭 중 하나를 참조하세요.
 
@@ -322,7 +322,7 @@ Microsoft 365 관리 센터 사용하여 라이선스를 할당하려면 [사용
     Connect-AzureAD
     ```
 
-     Active Directory에 대한 자세한 내용은 [Graph용 Azure Active Directory PowerShell을 참조하세요](/powershell/azure/active-directory/overview?view=azureadps-2.0).
+     Active Directory에 대한 자세한 내용은 [Graph용 Azure Active Directory PowerShell을 참조하세요](/powershell/azure/active-directory/overview?view=azureadps-2.0&preserve-view=true).
     
 2. cmdlet을 사용하여 `Set-AzureADUser` 리소스 계정에 사용 위치를 할당합니다. 이는 사용 가능한 라이선스 SKU를 결정합니다.
 
@@ -363,7 +363,7 @@ Microsoft 365 관리 센터 사용하여 라이선스를 할당하려면 [사용
    Connect-MsolService
    ```
 
-    Active Directory에 대한 자세한 내용은 [Azure Active Directory(MSOnline)](/powershell/azure/active-directory/overview?view=azureadps-1.0)를 참조하세요.
+    Active Directory에 대한 자세한 내용은 [Azure Active Directory(MSOnline)](/powershell/azure/active-directory/overview?view=azureadps-1.0&preserve-view=true)를 참조하세요.
 
 2.  cmdlet을 사용하여 `Set-MsolUser` 리소스 계정에 사용 위치를 할당합니다. 이는 사용 가능한 라이선스 SKU를 결정합니다.
 
@@ -402,7 +402,7 @@ Microsoft 365 관리 센터 사용하여 라이선스를 할당하려면 [사용
 
 ### <a name="configure-distribution-groups-for-teams-calendar"></a>Teams 일정에 대한 메일 그룹 구성
 
-회의실 위치를 구성하려면 Exchange 메일 그룹에 디바이스 리소스 계정을 추가할 수 있습니다. 예를 들어 세 개의 서로 다른 지리적 위치에 사무실이 있는 경우 세 개의 배포 그룹을 만들고 각 위치에 적절한 리소스 계정을 추가할 수 있습니다. 자세한 내용은 [회의실 목록 만들기를 참조하세요](/exchange/recipients/room-mailboxes?view=exchserver-2019#create-a-room-list).
+회의실 위치를 구성하려면 Exchange 메일 그룹에 디바이스 리소스 계정을 추가할 수 있습니다. 예를 들어 세 개의 서로 다른 지리적 위치에 사무실이 있는 경우 세 개의 배포 그룹을 만들고 각 위치에 적절한 리소스 계정을 추가할 수 있습니다. 자세한 내용은 [회의실 목록 만들기를 참조하세요](/exchange/recipients/room-mailboxes?view=exchserver-2019&preserve-view=true#create-a-room-list).
 
 ### <a name="configure-places-for-outlook-calendar"></a>Outlook 일정 위치 구성
 회의실 위치가 Outlook 회의실 찾기에 표시되도록 하려면 Set-Place Exchange PowerShell cmdlet을 사용해야 합니다. Set-Place Outlook에서 회의실 찾기를 채울 뿐만 아니라 회의실의 용량 또는 회의실의 건물 바닥과 같은 추가 메타데이터를 추가할 수 있습니다. 자세한 내용은 [Set-Place](/powershell/module/exchange/set-place)를 참조하세요.

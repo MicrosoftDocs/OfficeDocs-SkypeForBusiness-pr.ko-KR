@@ -13,16 +13,18 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
 description: Microsoft Teams 룸 대해 지원되고 권장되는 조건부 액세스 및 Intune 디바이스 준수 정책에 대해 알아봅니다.
-ms.openlocfilehash: b6f54e2bee4e77f794f03255ef51623bbe220342
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 1c9b3d2a40ce34076f917026300b8b7d0921d9c8
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271913"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606437"
 ---
 # <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms-and-teams-android-devices"></a>Microsoft Teams 룸 및 Teams Android 디바이스에 대해 지원되는 조건부 액세스 및 Intune 디바이스 준수 정책
 
 이 문서에서는 Microsoft Teams 룸 대해 지원되는 조건부 액세스 및 Intune 디바이스 준수 정책을 제공합니다. 모범 사례 및 예제 정책은 Microsoft Teams 룸 [대한 조건부 액세스 및 Intune 규정 준수 모범 사례를 참조하세요](conditional-access-and-compliance-for-devices.md).
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 > [!NOTE]
 > Teams 룸 조건부 액세스 정책을 할당하려는 디바이스에 이미 배포되어 있어야 합니다. 아직 Teams 룸 배포하지 않은 경우 [회의실 및 공유 Teams 디바이스에 대한 리소스 계정 만들기 및](with-office-365.md) [Android에서 Microsoft Teams 룸 배포](../devices/collab-bar-deploy.md)를 참조하세요.
@@ -34,7 +36,7 @@ ms.locfileid: "67271913"
 | 할당                               | Windows에서 Teams 룸                                                                                                                                                                              | Android 및 패널에서 Teams 룸                                                                                                                                                                              | Teams 휴대폰 및 디스플레이                                                                                                                                                    |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 사용자 또는 워크로드 ID              | 지원                                                                                                                                                                            | 지원                                                                                                                                                                            | 지원                                                                                                                                                            |
-| 클라우드 앱 또는 작업                    | 지원 <br><br> Teams 룸 Teams 전용 모드인 경우 Office 365 Exchange Online, Office 365 SharePoint Online 및 Microsoft Teams의 세 가지 클라우드 앱에 액세스해야 합니다. | 지원 <br><br> Teams 룸 Teams 전용 모드인 경우 Office 365 Exchange Online, Office 365 SharePoint Online 및 Microsoft Teams의 세 가지 클라우드 앱에 액세스해야 합니다. | 지원<br><br>Teams Android 디바이스는 Office 365 Exchange Online, Office 365 SharePoint Online 및 Microsoft Teams의 세 가지 클라우드 앱에 액세스해야 합니다. |
+| 클라우드 앱 또는 작업                    | 지원 <br><br> Teams 룸 Teams 전용 모드인 경우 Office 365 Exchange Online, Office 365 SharePoint Online 및 Microsoft Teams의 세 가지 클라우드 앱에 액세스해야 합니다. | 지원 <br><br> Teams 룸 Teams 전용 모드인 경우 Office 365 Exchange Online, Office 365 SharePoint Online 및 Microsoft Teams의 세 가지 클라우드 앱에 액세스해야 합니다. | 지원<br><br>Teams Android 디바이스는 Office 365 Exchange Online, Office 365 SharePoint Online 및 Microsoft Teams의 세 가지 클라우드 앱에 액세스해야 합니다.  |
 | **조건**                           | ---                                                                                                                                                                                  | ---                                                                                                                                                                                  | ---                                                                                                                                                                  |
 | 사용자 위험                                | 지원                                                                                                                                                                            | 지원                                                                                                                                                                            | 지원                                                                                                                                                            |
 | 로그인 위험                             | 지원                                                                                                                                                                            | 지원                                                                                                                                                                            | 지원                                                                                                                                                            |

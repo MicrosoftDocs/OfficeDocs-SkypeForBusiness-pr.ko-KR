@@ -16,16 +16,18 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 이 문서에서는 Azure Monitor를 사용하여 Microsoft Teams 룸 디바이스를 통합 방식으로 모니터링하는 방법을 설명합니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2f0878e7553e2d151f781c3f522a9b533b4b56d8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 53cc9c571657591c43aa35944802fd02dcf6bd4c
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268973"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606407"
 ---
 # <a name="monitor-microsoft-teams-rooms-devices-with-azure-monitor"></a>Azure Monitor를 사용하여 Microsoft Teams 룸 디바이스 모니터링
 
 이 문서에서는 Azure Monitor를 사용하여 통합된 방식으로 Microsoft Teams 룸 모니터링하는 방법을 설명합니다.
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 Microsoft Teams 회의실 디바이스를 모니터링하는 데 도움이 되는 기본 원격 분석을 제공하도록 Azure Monitor를 구성할 수 있습니다. 자세한 내용은 [Azure Monitor를 사용하여 계획 Microsoft Teams 룸 관리](azure-monitor-plan.md) 및 [Azure Monitor를 사용하여 Microsoft Teams 룸 관리 배포](azure-monitor-deploy.md)를 참조하세요. 모니터링 솔루션이 완성되면 다른 데이터 및 모니터링 기능을 사용하여 디바이스 성능에 대한 보다 자세한 보기를 만들 수 있습니다.
 
@@ -45,7 +47,7 @@ Microsoft Teams 회의실 디바이스를 모니터링하는 데 도움이 되�
 | 3001  <br> 오류 이벤트  | 하드웨어 오류 이벤트입니다. Microsoft Teams 룸 앱에는 5분마다 연결된 하드웨어 구성 요소(방 앞, 마이크, 스피커, 카메라)의 상태를 확인하는 프로세스가 있습니다. 하나 이상의 구성 요소가 비정상이면 EventID 3001을 이벤트 로그에 씁니다. 이 이벤트는 디바이스 문제가 해결될 때까지 5분마다 기록됩니다.   | `{"Description":" Front of Room Display status : Unhealthy. Configured display count is 2. Real display count is 0. Conference Microphone status : Unhealthy. Conference Speaker status : Healthy. Default Speaker status : Healthy. Camera status : Healthy.", "ResourceState":"Unhealthy", "OperationName":"HardwareCheckEngine", "OperationResult":"Fail", "OS":"Windows 10", "OSVersion":"10.0.14393.1198", "Alias":"alias<span></span>@contoso.com", "DisplayName":"Yosemite conference room", "AppVersion":"2.0.58.0", "IPv4Address":"10.10.10.10", "IPv6Address":"IPv6Address", "IPv4Address2":"10.10.10.10"}` <br><br>  하드웨어 주변 장치는 정상 또는 비정상으로 표시됩니다. <br> 이 예제에서는 _두 개의 전면_ 디스플레이가 구성되어 있으며 현재 둘 다 사용할 수 없습니다. _회의 마이크 상태가_ _비정상_ 상태이므로 몇 가지 원인이 있을 수 있습니다. 하나 이상의 리소스가 검사를 통과하지 못했기 때문에 ResourceState는 비정상으로 나열됩니다. 추가 조사를 위해 기술자를 보냅니다. |
 | 4000  <br> 정보  <br> | 앱 다시 시작 이벤트입니다. 앱을 다시 시작할 때마다 이 이벤트를 Windows 이벤트 로그에 기록합니다.  <br> | `{"Description":"App restarts.", "ResourceState":"Healthy", "OperationName":"Restart", "OperationResult":"Pass", "OS":"Windows 10", "OSVersion":"10.0.14393.693", "Alias":"alias<span></span>@domain.com", "DisplayName":"Display Name", "AppVersion":"1.0.38.0", "IPv4Address":"10.10.10.10", "IPv6Address":"ip v6 address"}` <br><br> 앱은 여러 가지 이유로 다시 시작될 수 있습니다. 동일한 건물과 다른 건물에 있는 장치의 재시작 빈도를 비교합니다. 인프라 문제에 대한 단서를 제공할 수 있으므로 전력 변동 및 오류와 같은 알려진 문제에 유의하세요.|
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
  
 
 [Azure Monitor를 사용하여 Microsoft Teams 룸 모니터링 계획](azure-monitor-plan.md)

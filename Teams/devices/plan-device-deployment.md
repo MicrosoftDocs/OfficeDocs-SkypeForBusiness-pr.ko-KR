@@ -1,7 +1,7 @@
 ---
 title: Teams 전화 장치 및 디스플레이에 대한 배포 계획
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: tony.woodruff
 ms.topic: reference
@@ -12,16 +12,16 @@ appliesto:
 f1.keywords:
 - NOCSH
 search.appverid: MET150
-description: 이 문서에서는 조직에 Teams 휴대폰 및 디스플레이를 배포하는 작업 및 단계를 제공하고 간략하게 설명합니다.
+description: 이 문서에서는 조직에 Teams 휴대폰 및 디스플레이를 배포하는 작업 및 단계에 대한 개요를 제공합니다.
 ms.collection:
 - M365-voice
 - Teams_ITAdmin_Devices
-ms.openlocfilehash: 5172d230823088141c58e3d2b58e1c3b579268b3
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: fb9b560f56ece49ddae9f15899a118596a31c38f
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272393"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606847"
 ---
 # <a name="plan-your-deployment-for-teams-phone-devices-and-displays"></a>Teams 전화 장치 및 디스플레이에 대한 배포 계획
 
@@ -41,7 +41,7 @@ Teams 휴대폰 및 디스플레이는 다음 두 개의 페르소나 중 하나
 - 개인 디바이스
 - 공유 공간 디바이스
 
-개인 및 공유 디바이스에는 서로 다른 역할 및 사용량이 있습니다. 
+개인 및 공유 디바이스에는 서로 다른 역할과 용도가 있습니다. 
 
 **개인 디바이스:** 
 
@@ -68,17 +68,17 @@ Teams 휴대폰 및 디스플레이는 다음 두 개의 페르소나 중 하나
 - 공유 디바이스가 필요한 객실 또는 공간은 몇 개입니까? 모든 공간에 동일한 유형의 디바이스가 있나요? 
 - 디바이스가 특정 요구 사항을 충족해야 합니까?
     - 예를 들어 화면 크기, 폼 팩터, 제조업체 또는 모델이 있습니다. 인증된 휴대폰 및 디스플레이 목록은 [Microsoft Teams 인증 디바이스](teams-ip-phones.md)를 참조하세요.
--  Teams 휴대폰 또는 Teams 디스플레이가 필요한가요? Teams 휴대폰에서 지원하는 기능 목록은 [Microsoft Teams용 휴대폰 및 Teams](phones-for-teams.md#features-supported-by-teams-phones) 디스플레이에서 지원하는 기능 목록을 참조하세요. [Microsoft Teams 디스플레이를 참조하세요](teams-displays.md#features-supported-by-teams-displays).
+-  Teams 휴대폰 또는 Teams 디스플레이가 필요한가요? Teams 휴대폰에서 지원하는 기능 목록은 [Microsoft Teams용 휴대폰을 참조하세요](phones-for-teams.md#features-supported-by-teams-phones). Teams 디스플레이에서 지원하는 기능 목록은 [Microsoft Teams 디스플레이를 참조하세요](teams-displays.md#features-supported-by-teams-displays).
 - 새 사용자를 위한 충분한 디바이스 또는 새 주문 및 배달을 위한 프로세스가 있나요?
-- 유지 관리 또는 하드웨어 문제가 발생하는 경우 예비 디바이스를 사용할 수 있나요? 디바이스를 교체할 수 있으면 사용자 환경의 중단을 신속하게 방지할 수 있습니다.
+- 유지 관리에 사용할 수 있는 예비 디바이스가 있나요? 또는 디바이스에서 하드웨어 문제가 발생하는 경우 디바이스를 교체할 수 있으면 사용자 환경의 중단을 신속하게 방지할 수 있습니다.
 
 ## <a name="task-2-what-are-your-licensing-requirements"></a>작업 2: 라이선스 요구 사항은 무엇인가요? 
 
 이제 필요한 디바이스 수를 알 수 있습니다. 다음 단계는 필요한 라이선스 수를 결정하는 것입니다. Teams 휴대폰 및 디스플레이에는 Microsoft Teams 및 Microsoft 365에 액세스하기 위한 라이선스가 필요합니다.
 
-공유 및 개인 디바이스에는 다른 라이선스가 필요합니다. 개인 디바이스의 경우 사용자 계정에 할당된 라이선스를 사용할 수 있습니다. 공유 디바이스에는 해당 기능과 관련된 라이선스가 필요합니다. 휴대폰 및 디스플레이의 경우 해당 라이선스는 [Microsoft Teams용 공용 영역 전화 라이선스](../set-up-common-area-phones.md#step-1---buy-the-licenses) 및 [Microsoft Teams 룸 스탠더드 라이선스](../rooms/rooms-licensing.md#licensing-solutions-for-shared-communication-devices)입니다.
+공유 및 개인 디바이스에는 다른 라이선스가 필요합니다. 개인 디바이스의 경우 사용자 계정에 할당된 라이선스를 사용할 수 있습니다. 공유 디바이스에는 해당 기능과 관련된 라이선스가 필요합니다. 휴대폰 및 디스플레이의 경우 해당 라이선스는 [Microsoft Teams용 공용 영역 전화 라이선스](../set-up-common-area-phones.md#step-1---buy-the-licenses) 및 [Microsoft Teams 룸 라이선스](../rooms/rooms-licensing.md)입니다.
 
-자세한 내용과 라이선스 옵션을 비교하려면 [Microsoft 365 라이선스 계획을](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1) 참조하세요. 
+자세한 내용과 라이선스 옵션을 비교하려면 [Microsoft 365 라이선스 계획을](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1) 참조하세요.
 
 ## <a name="task-3-what-are-your-dependencies"></a>작업 3: 종속성은 무엇인가요? 
 
