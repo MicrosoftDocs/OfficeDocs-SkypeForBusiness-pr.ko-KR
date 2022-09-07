@@ -3,6 +3,29 @@
 
 
 
+## <a name="week-of-august-29-2022"></a>2022년 8월 29일 주
+
+
+| 게시 날짜 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 8/29/2022 | [발신 전화에 대한 트렁크 장애 조치](/MicrosoftTeams/direct-routing-trunk-failover-on-outbound-call) | 으로 바뀌었습니다 |
+| 8/29/2022 | [Kaizala에서 Microsoft Teams로의 성공적인 이동 계획](/MicrosoftTeams/plan-your-move-kaizala) | 으로 바뀌었습니다 |
+| 8/29/2022 | [멕시코 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-mexico) | 추가 |
+| 8/30/2022 | [Teams 디바이스 저장소](/MicrosoftTeams/devices/device-store) | 으로 바뀌었습니다 |
+| 8/30/2022 | [리소스 계정 라이선스 Microsoft Teams 전화](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | 으로 바뀌었습니다 |
+| 8/30/2022 | [인스턴트 모임을 시작하고 모임을 예약할 수 있는 사용자 관리](/MicrosoftTeams/manage-who-can-schedule-meetings) | 추가 |
+| 8/30/2022 | [Teams 클라우드 모임 녹음/녹화](/MicrosoftTeams/cloud-recording) | 으로 바뀌었습니다 |
+| 8/30/2022 | Microsoft Teams의 모임 정책 및 모임 만료 | 제거 |
+| 8/30/2022 | [녹음/녹화를 위한 모임 정책 관리](/MicrosoftTeams/meetings-policies-recording-and-transcription) | 으로 바뀌었습니다 |
+| 8/30/2022 | [모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 사용](/MicrosoftTeams/tmr-meeting-recording-change) | 으로 바뀌었습니다 |
+| 8/31/2022 | [관리 교육 리소스 - Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | 으로 바뀌었습니다 |
+| 8/31/2022 | [Microsoft Teams에서 커리어 코치 통합을 위한 리소스](/MicrosoftTeams/career-coach-resources) | 으로 바뀌었습니다 |
+| 8/31/2022 | [Teams에서 앱 스토어 사용자 지정](/MicrosoftTeams/customize-your-app-store) | 으로 바뀌었습니다 |
+| 9/1/2022 | [Microsoft Teams에서 관리 앱을 사용하여 조직의 Microsoft 365 관리](/MicrosoftTeams/manage-admin-app) | 추가 |
+| 9/2/2022 | [Microsoft Teams 룸 릴리스 정보(Windows)](/MicrosoftTeams/rooms/rooms-release-note) | 으로 바뀌었습니다 |
+| 9/2/2022 | [원격으로 Microsoft Teams 룸 디바이스 설정 관리](/MicrosoftTeams/rooms/xml-config-file) | 으로 바뀌었습니다 |
+
+
 ## <a name="week-of-august-22-2022"></a>2022년 8월 22일 주
 
 
@@ -201,26 +224,3 @@
 | 8/4/2022 | [모바일 앱 확장](/MicrosoftTeams/rooms/extended-mobile-app) | 으로 바뀌었습니다 |
 | 8/5/2022 | [Microsoft Teams에서 태그 관리](/MicrosoftTeams/manage-tags) | 으로 바뀌었습니다 |
 | 8/5/2022 | [SIP 게이트웨이 계획](/MicrosoftTeams/sip-gateway-plan) | 으로 바뀌었습니다 |
-
-
-## <a name="week-of-july-25-2022"></a>2022년 7월 25일 주
-
-
-| 게시 날짜 |토픽 제목 | 변경 |
-|------|------------|--------|
-| 7/25/2022 | [전화 번호 및 라이선스 변경](/MicrosoftTeams/phone-numbers-licensing-changes) | 추가 |
-| 7/25/2022 | [Microsoft Teams의 모임 정책 및 모임 만료](/MicrosoftTeams/meeting-expiration) | 으로 바뀌었습니다 |
-| 7/25/2022 | [Managed Services에 Teams 룸 디바이스 등록](/MicrosoftTeams/rooms/enroll-a-device) | 으로 바뀌었습니다 |
-| 7/25/2022 | [Teams용 브라우저 로그 및 추적](/MicrosoftTeams/browser-logs-and-tracing-for-teams) | 추가 |
-| 7/25/2022 | [Teams에서 모니터링 및 문제 해결을 위한 로그 파일 구성](/MicrosoftTeams/log-files) | 으로 바뀌었습니다 |
-| 7/26/2022 | [Microsoft Teams에서 커리어 코치 통합을 위한 리소스](/MicrosoftTeams/career-coach-resources) | 추가 |
-| 7/26/2022 | [Microsoft Teams용 커리어 코치 설정 및 구성](/MicrosoftTeams/career-coach-set-up-steps) | 추가 |
-| 7/26/2022 | [Microsoft Teams용 경력 코치 문제 해결](/MicrosoftTeams/career-coach-troubleshoot) | 추가 |
-| 7/26/2022 | [Microsoft Teams의 공유 채널 오류](/MicrosoftTeams/shared-channels-errors) | 추가 |
-| 7/26/2022 | [Microsoft Teams용 커리어 코치 시작](/MicrosoftTeams/career-coach) | 으로 바뀌었습니다 |
-| 7/26/2022 | [Microsoft Teams용 커리어 코치 시작](/MicrosoftTeams/cloud-recording) | 으로 바뀌었습니다 |
-| 7/26/2022 | [게스트 액세스 및 외부 액세스를 사용하여 조직 외부 사용자와 공동 작업](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 으로 바뀌었습니다 |
-| 7/26/2022 | [고객을 위한 파트너 관리](/MicrosoftTeams/rooms/multi-tenant-management-customer) | 으로 바뀌었습니다 |
-| 7/26/2022 | [파트너를 위한 다중 테넌트 고객 관리](/MicrosoftTeams/rooms/multi-tenant-management-partner) | 으로 바뀌었습니다 |
-| 7/26/2022 | [사용자에게 Teams 추가 기능 라이선스 할당](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | 으로 바뀌었습니다 |
-| 7/29/2022 | [조직의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-landing-page) | 으로 바뀌었습니다 |
