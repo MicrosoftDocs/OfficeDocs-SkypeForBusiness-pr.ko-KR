@@ -1,5 +1,5 @@
 ---
-title: Teams 할당
+title: Teams 과제
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -17,16 +17,16 @@ ms.custom:
 - ms.teamsadmincenter.assignments.tooltip.emaildigest
 - ms.teamsadmincenter.assignments.tooltip.makecode
 - ms.teamsadmincenter.assignments.tooltip.turnitin
-description: 교육용 Teams Microsoft Teams 관리 센터에서 할당을 관리하는 방법을 알아봅니다.
+description: 교육용 Teams Microsoft Teams 관리 센터에서 과제를 관리하는 방법을 알아봅니다.
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed8b01b683d201bc26dec3d220c94fbc12e76f1c
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 91afcd8036cddfae2550aaddad776958ca413a78
+ms.sourcegitcommit: 8b33cc2c2e8f43e6ab4b17715d6a42692351ccad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674670"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67624298"
 ---
 # <a name="assignments-in-teams-for-education"></a>교육용 Teams의 과제
 
@@ -35,19 +35,19 @@ ms.locfileid: "65674670"
 [교육용 Teams 과제 및 성적에 대해 자세히 알아보세요](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments).
 
 > [!Note]
-> 여러 플랫폼에서 Teams 할당에 대한 자세한 내용은 [플랫폼별 Teams 기능을](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) 참조하세요.
+> 다양한 플랫폼의 Teams 할당에 대한 자세한 내용은 [플랫폼별 Teams 기능을](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) 참조하세요.
 
-## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터의 할당 통합
+## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터의 과제 통합
 
-Microsoft Teams 관리 센터의 관리자 설정을 사용하여 조직 내 교육자와 학생에 대한 기능을 켜거나 끌 수 있습니다. 다음은 할당과 관련된 설정입니다.
+Microsoft Teams 관리 센터의 관리자 설정을 사용하여 조직 내의 교육자와 학생에 대한 기능을 켜거나 끌 수 있습니다. 다음은 할당과 관련된 설정입니다.
 
 <a name="#bkemaildigest"> </a>
 
 ### <a name="weekly-guardian-email-digest"></a>주간 보호자 전자 메일 다이제스트
 
-보호자 이메일은 매주 주말마다 부모 또는 보호자에게 전송됩니다. 전자 메일에는 이전 주 및 다음 주의 과제에 대한 정보가 포함되어 있습니다. 부모 및 보호자 동기화는 [학교 데이터 동기화](/schooldatasync/parent-contact-sync) 사용하여 설정할 수 있습니다.
+보호자 이메일은 매주 주말마다 부모 또는 보호자에게 전송됩니다. 전자 메일에는 이전 주 및 다음 주의 과제에 대한 정보가 포함되어 있습니다. [학교 데이터](/schooldatasync/parent-contact-sync) 동기화를 사용하여 부모 및 보호자 동기화를 설정할 수 있습니다.
 
-1. SDS 부모 및 보호자 동기화를 통해 부모 연락처 정보를 가져옵니다. 부모 및 보호자 동기화를 사용하도록 설정하는 방법에 대한 지침은 [부모 및 보호자 동기화를 사용하도록 설정하는 방법을](/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync) 참조하세요.
+1. SDS에서 부모 및 보호자 동기화를 통해 부모 연락처 정보를 가져옵니다. 부모 및 보호자 동기화를 사용하도록 설정하는 방법에 대한 지침은 [부모 및 보호자 동기화를 사용하도록 설정하는 방법을](/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync) 참조하세요.
 
 2. 설정이 기본적으로 꺼져 있으므로 Microsoft Teams 관리 센터에서 보호자 설정을 켭니다. 이를 통해 교사는 주간 다이제스트를 보낼 수 있습니다.
 
@@ -56,7 +56,7 @@ Microsoft Teams 관리 센터의 관리자 설정을 사용하여 조직 내 교
 
 부모가 전자 메일을 받는지 확인하려면 다음 세 가지 항목이 true여야 합니다.
 
-- SDS 학생 프로필에 첨부되고 _부모_ 또는 _보호자_ 로 태그가 지정된 이메일 주소입니다. 자세한 내용은 [부모 및 보호자 동기화 파일 형식](/schooldatasync/parent-contact-sync-file-format)을 참조하세요.
+- Email 주소는 SDS에서 학생 프로필에 연결되고 _부모_ 또는 _보호자_ 로 태그가 지정됩니다. 자세한 내용은 [부모 및 보호자 동기화 파일 형식](/schooldatasync/parent-contact-sync-file-format)을 참조하세요.
 
 - 학생은 [과제 설정](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77)에서 교사가 전자 메일을 사용하지 않도록 설정하지 않은 하나 이상의 수업에 속합니다.
 
@@ -74,7 +74,7 @@ MakeCode는 Microsoft [사용 약관](https://go.microsoft.com/fwlink/?LinkID=20
 
 이 기능에 대한 기본 설정은 - **Off** 입니다.
 
-Teams MakeCode 할당을 사용하도록 설정하려면 **Teams 관리 센터로** 이동하여 **할당** 섹션으로 이동한 다음 MakeCode 토글 옵션을 **켜** 기로 설정합니다. **저장** 을 선택합니다. 이러한 설정이 적용되는 데 몇 시간 정도 걸릴 수 있습니다.
+Teams에서 MakeCode 할당을 사용하도록 설정하려면 **Teams 관리 센터로** 이동하여 **과제** 섹션으로 이동한 다음 MakeCode 토글 옵션을 **켜** 기로 설정합니다. **저장** 을 선택합니다. 이러한 설정이 적용되는 데 몇 시간 정도 걸릴 수 있습니다.
 
 이 기능의 작동 방식에 대한 자세한 내용은 이 [비디오 데모](https://makecode.com/blog/teams/teams-assignments)를 시청하세요.
 
@@ -113,14 +113,14 @@ API 키를 복사하여 Microsoft Teams 관리 센터에 붙여넣습니다.  �
 
 ## <a name="assignments-data"></a>할당 데이터
 
-과제는 교사와 학생 모두에 의해 생성된 정보를 저장합니다. 모든 데이터는 수업에서 정보가 의도된 교사와 특정 학생 간에 공동으로 공유됩니다. 이 데이터에는 SharePoint 및 SharePoint 외부의 두 저장소가 있습니다.
+과제는 교사와 학생 모두에 의해 생성된 정보를 저장합니다. 모든 데이터는 수업에서 정보가 의도된 교사와 특정 학생 간에 공동으로 공유됩니다. 이 데이터에는 SharePoint와 SharePoint 외부의 두 저장소가 있습니다.
 
 >[!NOTE]
 >읽기 진행률과 같은 자사 통합에도 동일한 규칙이 적용됩니다.
 
 ### <a name="assignments-data-in-sharepoint-document-libraries"></a>SharePoint 문서 라이브러리의 할당 데이터
 
-과제 제출과 연결된 학생의 파일은 문서 라이브러리(이름: *Student Work*)에 저장됩니다. 교사가 만들고 학생이 액세스할 수 있는 과제와 연결된 파일은 해당 수업 팀 SharePoint 사이트의 다른 문서 라이브러리(이름: *수업 파일*)에 저장됩니다. 또한 자사 통합은 동일한 클래스 팀 SharePoint 사이트에 과제 데이터를 저장할 수도 있습니다(이름: *과제 제목 + 타임스탬프를* 지정).
+과제 제출과 연결된 학생의 파일은 문서 라이브러리(이름: *Student Work*)에 저장됩니다. 교사가 만들고 학생이 액세스할 수 있는 과제와 연결된 파일은 해당 수업 팀 SharePoint 사이트의 다른 문서 라이브러리(이름: *수업 파일*)에 저장됩니다. 자사 통합은 동일한 클래스 팀 SharePoint 사이트(이름: *과제 제목 + 타임스탬프를*)에 할당 데이터를 저장할 수도 있습니다.
 
 #### <a name="files-associated-with-the-student"></a>학생과 연결된 파일
 
@@ -130,7 +130,7 @@ IT 관리자는 콘텐츠 검색 도구를 사용하여 과제 제출 및 과제
 
 IT 관리자는 콘텐츠 검색 도구를 사용하여 과제에 대한 수업 내에서 교사가 학생에게 배포한 과제 및 파일과 관련된 교사 파일(*학생 작업*, *수업 파일* 또는 기타 자사 통합 파일)을 검색할 수 있습니다. 예를 들어 관리자는 조직의 모든 SharePoint 사이트를 검색하고 검색 쿼리에서 교사의 이름과 수업 또는 과제 이름을 사용하여 DSR과 관련된 데이터를 찾을 수 있습니다.
 
-### <a name="assignments-data-outside-of-sharepoint-document-libraries"></a>SharePoint 문서 라이브러리 외부의 데이터 할당
+### <a name="assignments-data-outside-of-sharepoint-document-libraries"></a>SharePoint 문서 라이브러리 외부의 할당 데이터
 
 과제와 관련된 일부 데이터는 수업 팀 SharePoint 사이트에 저장되지 않으므로 콘텐츠 검색을 통해 검색할 수 없습니다. 여기에는 다음이 포함됩니다.
 
@@ -168,15 +168,15 @@ IT 관리자는 콘텐츠 검색 도구를 사용하여 과제에 대한 수업 
 
 교사에 대한 과제의 데이터는 수업 전체에서 공유되므로 대량 삭제 옵션이 없습니다. 대신 관리자는 클래스에 자신을 추가하고 앱으로 이동하여 할당을 삭제할 수 있습니다.
 
-자세한 내용은 [Teams 대한 할당 구성을](/microsoft-365/education/deploy/configure-assignments-for-teams) 참조하세요.
+자세한 내용은 [Teams에 대한 할당 구성을 참조하세요](/microsoft-365/education/deploy/configure-assignments-for-teams).
 
 ## <a name="removing-assignments-and-grades"></a>과제 및 성적 제거
 
-Teams 정책을 사용하여 특정 사용자 또는 전체 테넌트에 대한 할당 및 성적을 제거할 수도 있습니다.
+Teams 정책을 사용하여 특정 사용자 또는 전체 테넌트에 대한 과제 및 성적을 제거할 수도 있습니다.
 
-개별 사용자의 할당 및 성적을 제거하려면 **Teams 관리 센터로** 이동하여 **Teams 앱 > 권한 정책** 으로 이동하여 새 앱 사용 권한 정책 정의를 만듭니다.  새 정책 정의를 만들 때 **Microsoft 앱** 정책을 설정하여 _특정 앱을 차단하고 다른 모든 앱을 허용_ 하고 차단된 애플리케이션 목록에 **할당** 을 추가합니다. 새 정책 정의가 저장되면 적절한 사용자에게 할당합니다.
+개별 사용자의 과제 및 성적을 제거하려면 **Teams 관리 센터로** 이동하여 **Teams 앱 > 사용 권한 정책** 으로 이동하여 새 앱 사용 권한 정책 정의를 만듭니다.  새 정책 정의를 만들 때 **Microsoft 앱** 정책을 설정하여 _특정 앱을 차단하고 다른 모든 앱을 허용_ 하고 **차단** 된 애플리케이션 목록에 과제 및 **성적을** 추가합니다. 새 정책 정의가 저장되면 적절한 사용자에게 할당합니다.
 
-전체 테넌트에 대한 과제 및 성적을 제거하려면 **Teams 관리 센터로** 이동하여 **Teams 앱 > 앱 관리** 로 이동한 다음 애플리케이션 목록에서 **할당** 을 검색하고 선택합니다. 할당 애플리케이션 설정 페이지 내의 상태 설정을 _차단됨_ 으로 변경합니다.
+전체 테넌트에 대한 과제 및 성적을 제거하려면 **Teams 관리 센터로** 이동하여 **Teams 앱 > 앱 관리** 로 이동한 후 애플리케이션 목록에서 **과제** 및 **성적을** 검색하여 선택합니다. 애플리케이션의 설정 페이지 내 상태 설정을 _차단됨_ 으로 변경합니다.
 
 ## <a name="assignments-diagnostic-tool-for-users"></a>사용자를 위한 할당 진단 도구
 
@@ -184,7 +184,7 @@ Microsoft 지원 Microsoft 엔지니어링 팀이 과제 기능과 관련된 문
 
 이 도구는 사용자가 문제가 발생하는 모든 화면에서 할당 내에서 액세스할 수 있습니다.
 
-Teams 진단 도구를 끌어오려면 다음을 수행할 수 있습니다.
+Teams에서 진단 도구를 끌어오려면 다음을 수행할 수 있습니다.
 
 - **데스크톱 및 웹에서:**
   - Ctrl+/를 선택합니다.
