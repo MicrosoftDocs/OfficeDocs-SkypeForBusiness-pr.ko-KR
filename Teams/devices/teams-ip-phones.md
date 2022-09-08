@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 생성하기 위해 Microsoft Teams에 대해 인증된 책상 및 전화 회의 전화기를 알아봅니다.
-ms.openlocfilehash: 4070bdb567556422c5ec2a3db78c3d3670e1dda9
-ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
+ms.openlocfilehash: 5294b011ee8fbe852e2a82e2d700fbd212c0f4e8
+ms.sourcegitcommit: 8b33cc2c2e8f43e6ab4b17715d6a42692351ccad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2022
-ms.locfileid: "67590195"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67624308"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 인증 Android 디바이스
 
@@ -74,6 +74,7 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 | 디바이스 모델 | 펌웨어 버전 | 현재 인증 종료 날짜 | 객실 크기                                        |  Android OS 버전    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| RoomMate를 사용하여 Logitech Tap IP(VR0029)(VR0030) | `1.6.565`  |   2024년 9월 3일  | 대형 회의실(4.5m x 8.5m) | 10 |
 | Yealink MeetingBoard 65" | `155.15.0.6 `   | 2024년 9월 3일 | 중간 크기의 객실(4.5 m x 6 m) | 10|
 | Yealink MeetingBar A20 | `133.15.0.108  `   | 2024년 9월 3일 | 소규모 회의실(4.5 m x 4.5 m)| 10|
 | Yealink MeetingBar A30 | `133.15.0.108  `   | 2024년 9월 3일 | 중간 크기의 객실(4.5 m x 6 m) | 10|
