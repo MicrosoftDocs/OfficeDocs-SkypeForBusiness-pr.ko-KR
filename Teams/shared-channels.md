@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams에서 공유 채널을 사용하고 관리하는 방법을 알아보세요.
-ms.openlocfilehash: f3ff6cac1c3d48ca3b45a253052eef71eb3f222e
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: dd9edbe18a01ffc1a46a8cab76a383aed0bef5a4
+ms.sourcegitcommit: 09b77e83bc41914007606468e322d4ea47e2e8a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67466226"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67630458"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams의 공유 채널
 
@@ -174,8 +174,6 @@ Teams는 공유 채널 사이트의 수명 주기를 관리합니다. 사이트�
 - 활동
 - Adobe Acrobat Sign
 - Asana
-- 일정
-- Calendar Pro
 - 통화
 - 채팅
 - Code by Vivani

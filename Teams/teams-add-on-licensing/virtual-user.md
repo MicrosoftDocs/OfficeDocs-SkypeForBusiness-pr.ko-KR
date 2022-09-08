@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - admindeeplinkMAC
 description: 조직의 자동 전화 교환 및 통화 큐에 대한 리소스 계정에 Microsoft Teams 전화 리소스 계정 라이선스를 할당하는 방법을 알아봅니다.
-ms.openlocfilehash: 348317ca659e03a9dacf8eaae603cff52a009912
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: 56b461c2de32f32dd51d72c5468e31f51b107310
+ms.sourcegitcommit: 09b77e83bc41914007606468e322d4ea47e2e8a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67465986"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67630428"
 ---
 # <a name="microsoft-teams-phone-resource-account-licenses"></a>리소스 계정 라이선스 Microsoft Teams 전화
 
@@ -43,7 +43,7 @@ Microsoft Teams에서 모든 자동 전화 교환 및 통화 큐에는 연결된
 
 ### <a name="license-allocation-example"></a>라이선스 할당 예제
 
-Contoso, Inc.는 전화 시스템(직원마다 하나씩)을 포함하는 600개의 라이선스를 구입했습니다. Contoso는 초기 25개와 **Teams 전화 리소스 계정** 라이선스 60개, 총 85개 라이선스를 할당합니다. 조직에는 전화 번호가 있는 90개의 통화 큐 및 자동 전화 교환이 있습니다. 모든 **Teams 전화 리소스 계정** 라이선스를 할당하고 5개의 추가 **Teams 전화 리소스 계정** 라이선스를 구매해야 합니다. 
+Contoso, Inc.는 전화 시스템(직원마다 하나씩)을 포함하는 600개의 라이선스를 구입했습니다. Contoso는 초기 25개와 **Teams 전화 리소스 계정** 라이선스 60개, 총 85개 라이선스를 할당합니다. 조직에는 90개의 통화 큐와 자동 전화 교환이 있습니다. 모든 **Teams 전화 리소스 계정** 라이선스를 할당하고 5개의 추가 **Teams 전화 리소스 계정** 라이선스를 구매해야 합니다. 
 
 ## <a name="how-to-obtain-microsoft-teams-phone-resource-account-licenses"></a>Microsoft Teams 전화 리소스 계정 라이선스를 얻는 방법
 
