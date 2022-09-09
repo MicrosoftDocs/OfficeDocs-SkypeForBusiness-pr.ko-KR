@@ -16,12 +16,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Teams 관리 센터에서 Microsoft Power Platform을 사용하여 빌드된 사용자 지정 앱에 대한 액세스를 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: b257c4cb32e236d427d58063d340c2bb1c743292
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 4d566a766f3afd12cfe30099de6040ee75721455
+ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486733"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "67637041"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>Teams 관리 센터에서 Microsoft Power Platform 앱 관리
 
@@ -52,7 +52,7 @@ Microsoft Power Platform 앱을 만들거나 공유하면 사용자는 **Power P
 
 관리자는 Microsoft Power Platform 앱을 Teams의 앱 페이지에 있는 **Power Platform으로 빌드함** 에 나열할지를 제어할 수 있습니다. Power Apps에서 만든 모든 앱이나 Power Virtual Agents에서 만든 모든 앱을 조직 전체를 대상으로 [앱 관리](manage-apps.md) 페이지에 한꺼번에 차단 또는 허용하거나 [앱 허용 정책](teams-app-permission-policies.md)을 통해 개별 사용자에게 차단 또는 허용할 수 있습니다.
 
-조직의 앱 스토어에 있는 **공유된 Power Apps** 및 **공유된 Power Virtual Agent 앱** 은 해당 특정 플랫폼에서 만든 모든 앱을 나타냅니다. 이들 앱 가운데 한 종류나 둘 모두를 조직 전체나 특정 사용자에게 차단하는 경우, 차단된 사용자들은 이런 앱을 차단된 앱으로 확인할 수는 있지만 Teams에 설치할 수는 없습니다. 사용자는 [앱 허용에 대해 관리자 승인을 요청](manage-apps.md#manage-user-requests-to-allow-apps)할 수 있습니다.
+조직의 앱 스토어에 있는 **공유된 Power Apps** 및 **공유된 Power Virtual Agent 앱** 은 해당 특정 플랫폼에서 만든 모든 앱을 나타냅니다. 이들 앱 가운데 한 종류나 둘 모두를 조직 전체나 특정 사용자에게 차단하는 경우, 차단된 사용자들은 이런 앱을 차단된 앱으로 확인할 수는 있지만 Teams에 설치할 수는 없습니다. 사용자는 [앱 허용에 대해 관리자 승인을 요청](user-requests-approve-apps.md)할 수 있습니다.
 
 Power Apps와 Power Virtual Agents에서 만든 모든 앱에 대한 액세스를 제어할 수는 있지만 개별 앱을 허용하거나 차단할 수는 없습니다. 앱 작성자는 Power Apps와 Power Virtual Agents 내부에 있는 공유 기능을 통해 자신이 만든 앱에 누가 액세스할 지를 정합니다. 작성자가 어떤 사용자와 함께 Power Virtual Agents에서 만든 앱을 공유한 상태에서 해당 사용자가 **공유된 Power Virtual Agents 앱** 을 차단당하면 해당 사용자는 Teams의 해당 플랫폼에서 어떤 앱도 확인하거나 설치할 수 없습니다.
 

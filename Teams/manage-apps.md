@@ -19,12 +19,12 @@ description: Teams 앱을 관리하는 방법을 알아봅니다. 앱 허용 또
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: beaa10343570624b6ce9b01dbaf9f4a0e962b191
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: ca49ca15b026048d2c495d30a51eac0f809244b5
+ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486883"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "67637051"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 Teams 앱 관리
 
@@ -85,38 +85,6 @@ Teams 관리 센터의 [앱 관리](https://admin.teams.microsoft.com/policies/m
 
 테넌트 전체 설정을 통해 앱이 허용되고 사용 권한 정책을 통해 사용자에게 허용되는 경우에만 사용자가 앱을 설치하고 사용할 수 있습니다.
 
-## <a name="manage-user-requests-to-allow-apps"></a>앱을 허용하기 위한 사용자 요청 관리
-
-최종 사용자는 Teams 스토어에서 차단된 앱을 볼 수 있지만 사용할 수는 없습니다. 차단된 앱의 경우 관리자 승인을 요청하는 옵션을 사용할 수 있습니다. 이러한 요청은 Teams 관리 센터에서 정렬되어 관리자가 원할 때 요청을 보고 관리할 수 있습니다. 최종 사용자 요청을 확인하기 위해 정기적인 심사를 수행하는 것이 좋습니다.
-
-  :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Teams Store의 요청 승인 옵션을 선택해 관리자에게 차단된 앱을 승인하도록 요청합니다.":::
-
-### <a name="view-a-request"></a>요청 보기
-
- 1. Teams 관리 센터에 로그인하고 **Teams 앱** > **[관리 앱](https://admin.teams.microsoft.com/policies/manage-apps)** 에 액세스합니다.
-
-    :::image type="content" source="media/requested-apps1.png" alt-text="차단된 앱에 대한 최종 사용자 요청은 Teams 관리 센터의 사용자 요청 열에 표시됩니다." lightbox="media/requested-apps.png":::
-
- 1. 각 앱의 요청 수를 보고 확인하려면 **사용자별 요청** 열에 요청을 정렬합니다. 앱을 요청한 사용자의 이름을 볼 수 없습니다.
- 1. 앱을 허용하려면 앱의 이름을 선택해 앱 세부 정보 페이지를 엽니다.
- 1. **요청 관리** 를 선택하고 팝업 대화 상자에 표시된 단계를 완료합니다. 앱을 차단하는 데 사용되는 방법에 따라 차단 해제에는 다음 중 하나 이상의 단계가 필요합니다.
-
-    * 사용 권한 정책을 통해 앱이 차단된 경우 [사용 권한 정책](teams-app-permission-policies.md)을 수정하여 앱을 허용합니다.
-    * 모든 사용자에 대해 앱이 차단된 경우 [앱을 허용](#allow-and-block-apps)합니다.
-    * 모든 사용자에 대해 모든 앱이 차단된 경우 [조직 전체 설정](#manage-org-wide-app-settings)을 수정합니다.
-
- 관리자가 앱을 허용하면 Teams가 최종 사용자에게 요청이 수행되었음을 알리지 않습니다. 사용자는 Teams 스토어에서 앱을 보고 Teams 클라이언트에 앱을 추가할 수 있는지 여부를 확인할 수 있습니다. 관리자가 앱을 승인한 경우 사용자가 앱을 추가할 수 있습니다. 또는 관리자가 요청을 승인하지 않고 해제하면 최종 사용자가 다시 요청할 수 있습니다.
-
-### <a name="dismiss-a-user-request"></a>사용자 요청 거부
-
- 1. 사용자 요청을 거부할 앱의 이름을 선택합니다.
- 1. **요청 관리** 를 선택하고 대화 상자에서 **모든 요청 거부** 를 선택합니다.
- 1. 요청이 거부되면 사용자 요청을 0으로 설정합니다.
-
-  :::image type="content" source="media/reject.png" alt-text="관리자는 앱을 허용해 사용자 요청을 승인하거나 요청을 거부한 채 아무 조치도 취하지 않을 수 있습니다.":::
-
-관리자가 요청을 거부해도 최종 사용자에게 요청이 수행되었음을 알리지 않습니다. 관리자가 요청을 거부하면 최종 사용자가 앱을 다시 요청할 수 있습니다.
-
 ## <a name="allow-the-apps-that-are-blocked-by-the-developers"></a>개발자가 차단한 앱을 허용합니다.
 
 개발자가 Teams 스토어에 앱을 게시할 때, 앱에 따라 구성하는 데 관리자가 필요할 수도 있습니다. 관리자는 앱을 설정할 때 최종 사용자가 사용할 수 있는 앱을 만듭니다.
@@ -159,3 +127,4 @@ Teams 관리 센터의 [앱 관리](https://admin.teams.microsoft.com/policies/m
 ## <a name="related-article"></a>관련 문서
 
 * [비즈니스용 Skype 관리 센터에서 전환하는 동안 Teams 관리](manage-teams-skypeforbusiness-admin-center.md)
+* [앱을 허용하도록 사용자 요청을 관리합니다](user-requests-approve-apps.md).

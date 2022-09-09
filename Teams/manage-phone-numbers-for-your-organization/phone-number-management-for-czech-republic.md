@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 Microsoft Teams용 체코에서 전화 번호를 가져오고 관리하는 방법에 대한 정보를 찾을 수 있습니다.
-ms.openlocfilehash: 94dafbbcc7969bf70c2b335438982795dc7fb09f
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 8c11bb079605ed1d9b1ceb9de8b0b2aa54909141
+ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790223"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "67637021"
 ---
 # <a name="phone-number-management-for-the-czech-republic"></a>체코 전화 번호 관리
 
@@ -37,11 +37,11 @@ ms.locfileid: "66790223"
 
 |**무엇을 하고 싶으신가요?**|**올바른 양식 다운로드**|
 |:-----|:-----|
-|Microsoft Teams 관리 센터에 나열되지 않은 새 사용자 또는 서비스 전화 번호를 가져옵니다. |체코에서는 Microsoft Teams 관리 센터를 사용하여 조직의 전화 번호를 받을 수 있습니다. 양식을 다운로드하여 새 전화 번호 요청을 제출하고 [TNS 서비스 데스크 문의하여 지침을 확인할 수도 있습니다](contact-tns-service-desk.md).<br/><br/>`[New phone number request for the Czech Republic (v.1.0) cs-CZ](https://download.microsoft.com/download/2/f/0/2f015d86-3136-4d81-b323-e5b8cac3c272/new-phone-number-request-for-the-czech-republic-(v1.0)-(cs-CZ).pdf )`. <br/><br/> 전화 번호를 할당하려면 먼저 고객 알고 양식을 다운로드하고 전체 양식을 완성한 다음 Microsoft로 보내야 합니다.<br/><br/>새로운 주문은이 시장에 채우기 위해 2 ~ 3 주가 걸릴 수 있습니다.  |
-|우리에게 전송 된 전화 번호를 가져옵니다. | 이 양식을 다운로드합니다. <br/><br/>[체코 공화국(모든 숫자)(v.1.0)(cz-cz)에 대한 LOA(승인서)](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/letter-of-authorization-(loa)-for-czech-republic-(all-numbers)-(v1.0)-(cz-cz).pdf)<br/><br/>입력하고 [TNS 서비스 데스크 문의하여 지침을 확인하세요](contact-tns-service-desk.md). 번호를 이전하려는 비즈니스 주소의 유틸리티 청구서도 포함해야 합니다.<br/><br/>이 시장에서 숫자를 전송하는 데 2~3주가 걸릴 수 있습니다. <br/><br/>이 숫자는 현재 회의에 사용할 수 없습니다. |
-|국가 전화 디렉터리에 전화 번호를 게시/게시 취소합니다.  <br/> |게시/게시 취소하려는 전화 번호 목록에 [대한 지침은 TNS 서비스 데스크 문의](contact-tns-service-desk.md)하세요. <br/> |
-|사용자의 번호를 서비스 번호로 변경합니다.  <br/> |서비스 번호로 변환하려는 사용자 번호 목록에 [대한 지침은 TNS 서비스 데스크 문의](contact-tns-service-desk.md)하세요. <br/> |
-|큐 또는 자동 전화 교환 번호를 호출하도록 디렉터리 서비스 업데이트|통화 큐 또는 자동 전화 교환 번호를 추가하거나 변경하려면 [TNS 서비스 데스크 문의하여 지침을 확인하세요](contact-tns-service-desk.md). |
+|Microsoft Teams 관리 센터에 나열되지 않은 새 사용자 또는 서비스 전화 번호를 가져옵니다. |체코에서는 Microsoft Teams 관리 센터를 사용하여 조직의 전화 번호를 받을 수 있습니다. 고객 확인 양식을 다운로드하여 새 전화 번호 요청을 제출하고 [TNS 서비스 데스크에 문의하여 지침을](contact-tns-service-desk.md) 확인할 수도 있습니다.<br/><br/>숫자를 할당하려면 먼저 고객 양식을 다운로드해야 합니다. <br/><br/><ul><li>[체코에 대한 고객 양식 알고](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/KYC-CZ-CZ.docx)</ul></li> <br/>새로운 주문은이 시장에 채우기 위해 2 ~ 3 주가 걸릴 수 있습니다.
+|우리에게 전송 된 전화 번호를 가져옵니다. | 이 양식을 다운로드합니다. <br/><br/>[체코 공화국(모든 숫자)(v.2.0)(cz-cz)에 대한 LOA(승인서)](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/LOA-CZ-GEO-EN.pdf)<br/><br/>입력하고 [TNS 서비스 데스크에 문의하여 지침을 확인하세요](contact-tns-service-desk.md). 또한 양도할 번호에 현재 운영자의 최신 청구서를 포함해야 합니다.<br/><br/>이 시장에서 숫자를 전송하는 데 2~3주가 걸릴 수 있습니다. <br/><br/>이 숫자는 현재 회의에 사용할 수 없습니다. |
+|국가 전화 디렉터리에 전화 번호를 게시/게시 취소합니다.  <br/> |게시/게시 취소하려는 전화 번호 목록에 [대한 지침은 TNS 서비스 데스크에 문의](contact-tns-service-desk.md)하세요. <br/> |
+|사용자의 번호를 서비스 번호로 변경합니다.  <br/> |서비스 번호로 변환하려는 사용자 번호 목록에 [대한 지침은 TNS Service Desk에 문의](contact-tns-service-desk.md)하세요. <br/> |
+|큐 또는 자동 전화 교환 번호를 호출하도록 디렉터리 서비스 업데이트|통화 큐 또는 자동 전화 교환 번호를 추가하거나 변경하려면 [TNS 서비스 데스크에 문의하여 지침을 확인하세요](contact-tns-service-desk.md). |
    
 ## <a name="related-topics"></a>관련 주제
 

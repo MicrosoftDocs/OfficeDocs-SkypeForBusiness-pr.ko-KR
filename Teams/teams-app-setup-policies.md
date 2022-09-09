@@ -18,12 +18,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 67a6424d6fcde396ebdbb41b3c00fc4186e8e475
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: cfcd041fd755016ec04832f42c497e2b0ad51469
+ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396699"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "67637011"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams에서 앱 설정 정책 관리
 
@@ -92,7 +92,7 @@ Microsoft Teams 관리 센터에서 기본적으로 다음과 같은 기본 제�
 * 개인 Teams 환경에 최종 사용자를 위한 앱을 설치합니다.
 * 최종 사용자를 위한 앱을 [메시징 확장](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)으로 설치합니다.
 
-최종 사용자는 [앱 사용 권한 정책](teams-app-permission-policies.md) 에서 앱을 허용하고 Teams 관리자가 앱을 허용하는 경우 앱을 직접 설치할 수 있습니다. 대신 사용자 또는 조직에 대해 앱이 차단되면 최종 사용자가 [관리자 승인을 요청할](manage-apps.md#manage-user-requests-to-allow-apps) 수 있습니다.
+최종 사용자는 [앱 사용 권한 정책](teams-app-permission-policies.md) 에서 앱을 허용하고 Teams 관리자가 앱을 허용하는 경우 앱을 직접 설치할 수 있습니다. 대신 사용자 또는 조직에 대해 앱이 차단되면 최종 사용자가 [관리자 승인을 요청할](user-requests-approve-apps.md) 수 있습니다.
 
 앱 설정 정책을 사용하여 앱을 설치하려면 다음 단계를 수행합니다.
 
