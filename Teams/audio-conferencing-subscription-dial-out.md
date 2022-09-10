@@ -13,7 +13,6 @@ ms.collection:
 - M365-collaboration
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -22,16 +21,16 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: 전화 걸기 및 통화 시간 혜택. 2019년 12월 1일부터 각 오디오 회의 구독은 영역 A 국가에 매월 사용자당 60분을 제공합니다.
-ms.openlocfilehash: 18300c44c806689b601c8b14d8c871ecb0ff6ba4
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 6df0b6f2157f16da6e992d465b524a5b582e0a12
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187014"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642149"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>오디오 회의 구독 "전화 걸기"/"전화 걸기" 분 혜택
 
-## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>PSTN 오디오 회의 Microsoft Teams 및 비즈니스용 Skype
+## <a name="microsoft-teams-and-pstn-audio-conferencing"></a>Microsoft Teams 및 PSTN 오디오 회의
 
 각 오디오 회의 표준 구독은 이 문서에 설명된 대로 영역 A 국가의 프리미엄이 아닌 번호로 전화를 거는 데 사용할 수 있는 매월 사용자당 60분을 제공합니다. 이 혜택은 오디오 회의 *월간 구독* 라이선스에 적용되며 오디오 회의 분당 유료 라이선스로 확장되지 않습니다.
 
@@ -74,11 +73,10 @@ ms.locfileid: "65187014"
 
 ## <a name="how-can-i-monitor-minute-my-pool-usage"></a>내 풀 사용량을 어떻게 모니터링할 수 있나요?
 
-- Microsoft Teams 관리 센터에서 전화 접속 분 풀에 대한 사용량을 모니터링할 수 있습니다. 왼쪽 탐색 영역에서 **Analytics &** **reportsUsage** >  보고서로 이동한 다음 **PSTN 분 풀을** 선택합니다. 영역 A 전화 접속 분 풀은 보고서에 "영역 A 국가에 대한 아웃바운드 호출"로 레이블이 지정됩니다.
-- 조직의 전화 접속 시간 풀 사용률이 80%와 100%에 도달하면 다음 관리자에게 이메일 알림이 전송됩니다.
+- Microsoft Teams 관리 센터에서 전화 접속 분 풀에 대한 사용량을 모니터링할 수 있습니다. 왼쪽 탐색 영역에서 **분석 & 보고서** > **사용 현황 보고서** 로 이동한 다음 **PSTN 분 풀을** 선택합니다. 영역 A 전화 접속 분 풀은 보고서에 "영역 A 국가에 대한 아웃바운드 호출"로 레이블이 지정됩니다.
+- 조직의 전화 접속 시간 풀 사용률이 80%와 100%에 도달하면 Email 알림이 다음 관리자에게 전송됩니다.
 
   - 청구 관리자
-  - 비즈니스용 Skype 관리자
   - 전역 관리자
   - 사용자 관리자
   - 기술 지원팀 관리자
@@ -91,12 +89,12 @@ ms.locfileid: "65187014"
   - 권한 있는 인증 관리자
   - Teams 커뮤니케이션 관리자
   - Teams 커뮤니케이션 지원 엔지니어
-  - Teams 통신 지원 전문가
+  - Teams 커뮤니케이션 지원 전문가
   - Teams 관리자
 
 통신 크레딧에 대한 자세한 내용은 [Communications 크레딧을 참조하세요](what-are-communications-credits.md).
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [오디오 회의 및 통화 요금제 국가 및 지역 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [오디오 회의의 국가 및 지역 영역](audio-conferencing-zones.md)
