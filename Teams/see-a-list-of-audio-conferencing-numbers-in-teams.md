@@ -22,17 +22,17 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Microsoft Teams 내에서 오디오 회의에 사용할 수 있는 전화 접속 회의 번호를 조회하는 방법을 알아봅니다.
-ms.openlocfilehash: 33beda34a5c7079c5df910492264061216fb7072
-ms.sourcegitcommit: d0cbc23e10219dd2889011421010215a5d246031
+ms.openlocfilehash: de03b3a1b12cc6bdcef9326e80e970ece2bdc378
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2022
-ms.locfileid: "67460631"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641889"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Microsoft Teams의 오디오 회의 번호 목록 보기
 
 Microsoft Teams 사용자를 위해 오디오 회의를 설정할 때 오디오 회의에 사용할 수 있는 전화 번호를 볼 수 있습니다. 이 목록에는 조직에서 사용할 수 있는 모든 오디오 회의 전화 번호가 있습니다.
-   
+
 **가격을 찾고 계신가요?** **오디오 회의의 오디오 회의 속도** 섹션을 검토 [합니다](https://www.microsoft.com/microsoft-teams/audio-conferencing).
   
 조직에서 사용할 수 있는 전화 번호가 하나만 있는 경우 모든 사용자의 기본 번호로 사용됩니다. 여러 전화 번호를 사용할 수 있는 경우 각 사용자의 기본 전화 번호를 선택할 수 있습니다. 이 기본 번호는 Microsoft Teams 모임 초대에 포함됩니다.
@@ -61,6 +61,3 @@ Windows PowerShell 사용자를 관리하는 것과 사용자가 허용되거나
 
 Windows PowerShell 대한 자세한 내용은 [Microsoft Teams PowerShell 참조](/powershell/module/teams/?view=teams-ps)를 참조하세요.
   
-## <a name="related-topics"></a>관련 주제
-
-[Microsoft 365 또는 Office 365 오디오 회의 체험 또는 구매](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

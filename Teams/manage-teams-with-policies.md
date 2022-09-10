@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: acaa1280e00ad2e86a49c2bbd8e7f4464bd0c0e7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e369403e17136aaec6341e46b4851d18fb778a89
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268763"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641869"
 ---
 # <a name="manage-teams-with-policies"></a>정책을 준수하여 Teams 관리
 
@@ -70,7 +70,7 @@ ms.locfileid: "67268763"
 [앱 정책](app-policies.md)| 앱 정책은 Microsoft Teams에서 애플리케이션을 제어하는 데 사용됩니다. 관리자는 사용자가 설치할 수 있는 앱을 허용하거나 차단하고, 애플리케이션을 사용자의 Teams 앱 바에 고정하고, 사용자를 대신하여 애플리케이션을 설치할 수 있습니다.
 [메시징 정책](messaging-policies-in-teams.md)| 메시징 정책은 채팅 및 채널 기능 가용성을 제어합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 * [Teams에서 정책 할당 - 시작](policy-assignment-overview.md)
 * [Microsoft Teams에서 피드백 정책 관리](manage-feedback-policies-in-teams.md)

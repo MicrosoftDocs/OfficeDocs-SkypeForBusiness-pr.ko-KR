@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 다음 단계에 따라 발신자가 Microsoft Teams 모임에 참가할 수 있도록 기본 전화 번호를 만듭니다.
-ms.openlocfilehash: f0956007d5df72c1fd6c6ae905433e73bd855a56
-ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
+ms.openlocfilehash: 27ff7040b27d2265bcdc5ab30f48cb919746471b
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66884847"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642069"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Microsoft Teams의 초대에 포함된 전화 번호 설정
 
@@ -98,8 +98,8 @@ Windows PowerShell 사용자를 관리하는 것과 사용자가 허용되거나
 
 [Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)을 사용하여 모임 이끌이 또는 사용자의 기본 오디오 회의 전화 번호를 설정하거나 변경하려면 [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/set-CsOnlineDialInConferencingUser?view=skype-ps) cmdlet의 매개 변수를 **`TollFreeServiceNumber`** 사용 가능한 숫자 중 하나로 설정합니다 **`ServiceNumber`**.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[Microsoft 365 또는 Office 365 오디오 회의 체험 또는 구매](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Microsoft Teams용 Microsoft 365에서 오디오 회의 체험 또는 구매](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 
 [오디오 회의 브리지에서 전화 번호 변경](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)

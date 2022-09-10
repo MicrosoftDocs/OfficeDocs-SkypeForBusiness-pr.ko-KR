@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 다음은 오디오 회의를 위한 온-네트워크 설명입니다.
-ms.openlocfilehash: 222a89df39f1fe6b2decb21431f3475a148a1a6c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 56e2addc3b924d7d73df7475ad217a999dc0aca0
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267593"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641879"
 ---
 # <a name="on-network-conferencing-for-audio-conferencing"></a>오디오 회의를 위한 온-네트워크 회의
 
@@ -54,7 +54,7 @@ ms.locfileid: "67267593"
 
 직접 라우팅 트렁크를 통해 조직의 전화 회의 브리지의 서비스 번호로 통화를 라우팅하도록 사이트의 전화 통신 장비를 구성해야 합니다.
 
-Teams 관리 센터에서 **모임 -> 회의 브리지 또는 비즈니스용 Skype** Online PowerShell cmdlet Get-CsOnlineDialInConferencingBridge를 사용하여 서비스 번호를 찾을 수 있습니다. 자세한 내용은 [Microsoft Teams의 오디오 회의 번호](see-a-list-of-audio-conferencing-numbers-in-teams.md) 목록을 참조하세요.
+Teams 관리 센터에서 **모임 -> 회의 브리지** 또는 Teams PowerShell cmdlet Get-CsOnlineDialInConferencingBridge를 사용하여 서비스 번호를 찾을 수 있습니다. 자세한 내용은 [Microsoft Teams의 오디오 회의 번호](see-a-list-of-audio-conferencing-numbers-in-teams.md) 목록을 참조하세요.
 
 > [!NOTE]
 > 분당 유료 오디오 회의 라이선스를 가진 사용자는 이 기능을 사용할 수 없습니다.
@@ -148,4 +148,4 @@ Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -Policy
 
 온-네트워크 회의를 통해 확장 기반 전화 걸기를 사용하도록 설정하려면 전화 걸기 패턴을 조직의 전화 번호의 전화 번호 범위와 일치하도록 다이얼 플랜을 설정할 수 있습니다. 다이얼 플랜을 설정하려면 다이얼 플랜 [만들기 및 관리를 참조하세요](create-and-manage-dial-plans.md).
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제

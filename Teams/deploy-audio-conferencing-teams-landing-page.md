@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c12891e2eb03aaca3f444a83bfd18ee752b8576
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 1da45446c2ab1879dd8064537dc50dafd99ea013
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268813"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641749"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams에서 오디오 회의를 배포하는 방법 알아보기
 
@@ -35,7 +35,7 @@ ms.locfileid: "67268813"
 
 이 문서는 조직의 프로필 및 비즈니스 요구 사항에 따라 기본 오디오 회의의 설정을 변경할지 여부를 결정하는데 도움을 주고 각 변경 내용에 대해서 설명을 합니다. 당사는 사용자가 [변경할 가능성이 큰](#core-deployment-decisions) 변경 내용의 핵심 집합에서 시작하여 설정을 두 그룹으로 나누었습니다. 두 번째 그룹은 조직의 요구 사항에 따라 구성하고자 하는 [추가 설정](#additional-deployment-decisions)을 포함합니다.
 
-모임 일정을 계획하거나 주도하는 사용자들을 위해 오디오 회의를 설정하기만 하면 됩니다. 전화를 거는 모임 참석자는 해당 사용자에게 할당된 라이선스 혹은 그 외 설정이 필요하지 않습니다. 노트북이나 모바일 장치에 설치된 비즈니스용 Skype 혹은 Teams 앱을 이용하여 모임에 전화를 거는(통화를 하는) 기능은 외부에 있어 모임에 참석할 수 없는 사용자들에게 매우 유용합니다. 
+모임 일정을 계획하거나 주도하는 사용자들을 위해 오디오 회의를 설정하기만 하면 됩니다. 전화를 거는 모임 참석자는 해당 사용자에게 할당된 라이선스 혹은 그 외 설정이 필요하지 않습니다. 모임에 전화 접속(통화)하는 것은 이동 중이며 랩톱 또는 모바일 장치에서 Teams 앱을 사용하여 모임에 참석할 수 없는 사용자에게 매우 유용합니다.
 
 ## <a name="audio-conferencing-prerequisites"></a>오디오 회의 필수 구성 요소
 
@@ -44,7 +44,7 @@ Teams용 오디오 회의를 출시하기 전에 다음의 사항을 고려합�
 |본인에게 질의하기|작업 |
 |------------|-------|
 |내 국가/지역에서 오디오 회의를 사용할 수 있나요?|본인의 국가/지역에서 오디오 회의를 사용할 수 있는지 확인하려면 [오디오 회의 및 통화 플랜에 대한 국가 및 지역의 가용성](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)을 참조하세요.|
-|사용자에게 Teams 오디오 회의에 적절한 라이선스가 있나요?|오디오 회의 라이선스는 Microsoft 365 혹은 Office 365 E5 구독의 일부로 사용할 수 있으며 혹은 Microsoft 365 Business Standard, E1 또는 E3 구독의 추가 기능 서비스로 사용할 수 있습니다. <ul><li>라이선스를 받고 할당하려면 [Microsoft 365 혹은 Office 365에서의 오디오 회의 체험 혹은 구입](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) 및 [비즈니스용 Microsoft 365 앱의 라이선스 할당 또는 제거](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)를 참조합니다.</li><li> 자세한 내용은 [Microsoft Teams의 추가 기능 라이센싱](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)을 검토하세요. </li><li>각 플랜에 어떤 클라우드 기능이 포함 되어있는지 확인하려면 [플랜에 기반한 라이선스 옵션](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 문서를 참조하세요.</li></ul>|
+|사용자에게 Teams 오디오 회의에 적절한 라이선스가 있나요?|오디오 회의 라이선스는 Microsoft 365 혹은 Office 365 E5 구독의 일부로 사용할 수 있으며 혹은 Microsoft 365 Business Standard, E1 또는 E3 구독의 추가 기능 서비스로 사용할 수 있습니다. <ul><li>라이선스를 가져와 할당하려면 [비즈니스용 Microsoft 365 앱 대한 라이선스 할당 또는 제거를](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) 참조하세요.</li><li> 자세한 내용은 [Microsoft Teams의 추가 기능 라이센싱](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)을 검토하세요. </li><li>각 플랜에 어떤 클라우드 기능이 포함 되어있는지 확인하려면 [플랜에 기반한 라이선스 옵션](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 문서를 참조하세요.</li></ul>|
 |오디오 회의 라이선스가 할당된 사용자를 위해 통신 크레딧을 구매해야 하나요?|자세한 내용을 보려면 [통신 크레딧 소개](what-are-communications-credits.md)를 검토하고 아래에 있는 [통신 크레딧](#communications-credits) 섹션을 참조하세요.|
 |||
 
@@ -82,7 +82,7 @@ Teams 오디오 회의를 사용하여 회의 브리지의 기본 및 대체 언
 
 |본인에게 질의하기|작업 |
 |------------|-------|
-| 자동 전화 교환 인사말에 어떤 언어를 선택해야 하나요? | 언어를 선택하려면 [오디오 회의의 자동 전화 교환 언어 설정](/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json)을 참조하세요.|
+| 자동 전화 교환 인사말에 어떤 언어를 선택해야 하나요? | 언어를 선택하려면 [Microsoft Teams에서 오디오 회의에 대한 자동 전화 교환 언어 설정을 참조하세요](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).|
 |||
 
 ### <a name="conferencing-bridge-settings"></a>회의 브리지 설정

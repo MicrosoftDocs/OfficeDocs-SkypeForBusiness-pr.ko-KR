@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '전화를 사용하여 전화 회의에 참여해야 하는 회사의 사용자를 위해 전화 접속 또는 오디오 회의를 설정하는 방법을 알아봅니다. '
-ms.openlocfilehash: 701c1b4826a52400d91d18d4aa26f11aac07d266
-ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
+ms.openlocfilehash: 04c29b6eaf13d12bee1395d913519c971c7a25d1
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66884837"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642129"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft Teams용 오디오 회의 설정하기
 
@@ -105,8 +105,6 @@ ms.locfileid: "66884837"
 ## <a name="step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings"></a>7단계: 모임을 진행하는 사용자에게 전화 접속 번호 할당하기
 
 [Microsoft Teams의 초대에 포함된 전화 번호 설정을 참조하세요](set-the-phone-numbers-included-on-invites-in-teams.md).
-
-자세한 내용은 [Microsoft를 오디오 회의 공급자로 지정하기](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)를 참조하세요.
 
 > [!NOTE]
 > *TeamsAudioconferencingpolicy* 에 전화 번호를 추가하고 사용자에게 정책을 할당하여 전화 번호를 설정할 수도 있습니다. 정책에 추가된 수신자 및 무료 전화 번호는 오디오 회의 설정 창을 통해 사용자에게 개별적으로 설정된 전화 번호보다 우선합니다. *Teamsaudioconferencingpolicy* 에 전화 번호가 추가되지 않으면 오디오 회의 설정 창을 통해 사용자에 대해 개별적으로 설정된 전화 번호가 Microsoft Teams 모임 요청에 표시됩니다. [유료 및 무료 번호에 대한 오디오 회의 정책 설정에는](audio-conferencing-toll-free-numbers-policy.md) 자세한 정보가 있습니다.

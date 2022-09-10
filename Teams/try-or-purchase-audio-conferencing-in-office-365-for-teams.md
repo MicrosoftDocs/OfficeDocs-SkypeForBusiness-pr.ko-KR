@@ -23,16 +23,16 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: Microsoft 365 또는 Office 365 대한 오디오 회의(PSTN 회의) 라이선스를 구입하거나 구매하여 사람들이 전화를 걸 수 있는 전화 회의를 설정하는 방법을 알아보세요.
-ms.openlocfilehash: 861537c6c452612058d8e3ad8ae416b812d0bb32
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5d93f9d81e2b70520d8c8044293f81aff2a36940
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271443"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641919"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Microsoft Teams용 Microsoft 365에서 오디오 회의 체험 또는 구매
 
-경우에 따라 조직의 사용자가 전화를 사용하여 모임에 전화해야 하는 경우가 있습니다. Microsoft Teams에는 이러한 상황에 대한 오디오 회의 기능이 포함되어 있습니다! 사용자는 모바일 장치 또는 PC에서 Microsoft Teams 앱을 사용하는 대신 전화를 사용하여 Microsoft Teams 모임에 전화할 수 있습니다.
+경우에 따라 조직의 사용자가 전화를 사용하여 모임에 전화해야 하는 경우가 있습니다. Microsoft Teams에는 이러한 상황에 대한 오디오 회의 기능이 포함되어 있습니다! 사람 모바일 장치 또는 PC에서 Microsoft Teams 앱을 사용하는 대신 전화를 사용하여 Microsoft Teams 모임에 전화할 수 있습니다.
 
 모임을 예약하거나 이끌려는 사용자에 대해서만 오디오 회의를 설정하면 됩니다. 모임에 참가하는 모임 참석자는 할당된 라이선스가 필요하지 않으며 다른 설정이 필요하지 않습니다.
 
@@ -76,15 +76,15 @@ ms.locfileid: "67271443"
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>2단계: 모임을 이끌거나 예약하는 사용자를 위한 오디오 회의 공급자 설정
 
-타사 **오디오 회의** 공급자와 비즈니스용 Skype 통합되지 않은 조직의 사용자에게 오디오 회의 라이선스를 할당하면 모두 설정되고 준비됩니다. (오디오 회의 공급자를 설정할 필요는 없습니다.)
+타사 오디오 회의 공급자와 통합된 Teams가 없는 조직의 사용자에게 **오디오 회의** 라이선스를 할당하면 모두 설정되고 준비됩니다! (오디오 회의 공급자를 설정할 필요는 없습니다.)
 
-타사 오디오 회의 공급자를 사용하도록 설정한 사용자가 있는 경우 해당 사용자의 공급자를 Microsoft로 변경해야 합니다. 사용자에 대한 공급자를 변경하려면 [Microsoft를 오디오 회의 공급자로 할당을](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider) 참조하세요.
+타사 오디오 회의 공급자를 사용하도록 설정한 사용자가 있는 경우 해당 사용자의 공급자를 Microsoft로 변경해야 합니다. 사용자에 대한 공급자를 변경하려면 [사용자에게 Teams 추가 기능 라이선스 할당을 참조하세요](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 ## <a name="step-3-other-admin-tasks"></a>3단계: 기타 관리 작업
 
 다음 단계는 **선택 사항이** 지만 많은 관리자가 이를 수행하려고 합니다.
 
-1. [모임 초대를 사용자 지정합니다](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations). 사용자에 대해 설정된 전화 접속 번호는 참석자에게 전송되는 모임 초대에 자동으로 추가됩니다. 그러나 고유한 도움말 및 법적 링크, 문자 메시지 및 소규모 회사 그래픽을 추가할 수 있습니다.
+1. [모임 초대를 사용자 지정합니다](meeting-settings-in-teams.md#customize-meeting-invitations). 사용자에 대해 설정된 전화 접속 번호는 참석자에게 전송되는 모임 초대에 자동으로 추가됩니다. 그러나 고유한 도움말 및 법적 링크, 문자 메시지 및 소규모 회사 그래픽을 추가할 수 있습니다.
 
 2. [초대에 포함된 전화 번호를 설정합니다](set-the-phone-numbers-included-on-invites-in-teams.md). 사용자가 예약한 모임에 표시되는 전화 번호입니다.
 
@@ -95,7 +95,7 @@ ms.locfileid: "67271443"
 > [!NOTE]
 > 중국의 21Vianet에서 운영하는 Office 365 사용하는 고객은 이 기능을 아직 사용할 수 없습니다. 자세한 내용은 [21Vianet에서 운영하는 Office 365 대해 알아보세요](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [조직에서 Teams 사용](office-365-set-up.md)
 

@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 생성하기 위해 Microsoft Teams에 대해 인증된 책상 및 전화 회의 전화기를 알아봅니다.
-ms.openlocfilehash: c28cf614cf21b9a462ef140275d0282372387f3e
-ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
+ms.openlocfilehash: b42ded686588d26bdd647adab136b4f0dba98cdb
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "67637081"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642099"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 인증 Android 디바이스
 
@@ -89,9 +89,7 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 | Logitech Rally Bar      | `1.2.788`     |   2024년 9월 3일  |    중간 크기의 객실(4.5 m x 6 m)       | 10 |
 | AudioCodes RXV80 | `1.9.155`        |   2023년 8월 5일  | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5 m x 4.5 m) | 9 |
 | EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | 2023년 8월 5일 | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5 m x 4.5 m) | 9 |
-| Yealink MeetingBar A30       | `133.15.0.52`    | 2023년 8월 5일   | 중간 크기의 객실(4.5 m x 6 m) | 9 |
 | Yealink CTP18 터치 콘솔  | `137.15.0.28`    | 2023년 8월 5일   | Yealink MeetingBar A20 및 Yealink MeetingBar A30과 호환 | 9 |
-| Yealink MeetingBar A20  | `133.15.0.19`      | 2023년 8월 5일 | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5 m x 4.5 m) | 9 |
 | Poly Studio X30         | `3.1.1.216109`     | 2022년 12월 5일  | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5 m x 4.5 m) | 8.1 |
 | Poly Studio X50         | `3.1.1.216109`     | 2022년 12월 5일   | 포커스룸(3m x 3m) </br> 소규모 회의실(4.5 m x 4.5 m) | 8.1 |
 | Poly TC8                | `3.3.2.210441`     | 2023년 8월 5일 | Poly Studio X30 및 Poly Studio X50과 호환  |  9  |

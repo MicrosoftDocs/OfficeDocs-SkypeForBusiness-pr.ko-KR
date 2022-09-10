@@ -1,18 +1,17 @@
 ---
-title: 아웃바운드 호출 제한 - PSTN 호출 오디오 회의 &
+title: 아웃바운드 호출 제한 - 오디오 회의 & PSTN 호출
 ms.reviewer: ''
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
 ms.topic: article
+ms.service: msteams
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -21,12 +20,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 관리자는 사용자가 수행할 수 있는 오디오 회의 및 최종 사용자 PSTN 호출의 유형을 제어할 수 있습니다.
-ms.openlocfilehash: fd7dc24d7a920e5fb2c151600c3a6604381044e6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 67c138db8522ec6eee1f384e182f5c8d01ea40fd
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674810"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641769"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>오디오 회의 및 사용자 PSTN 통화의 아웃바운드 전화 제한 정책
 
@@ -36,13 +35,13 @@ ms.locfileid: "65674810"
 
 |컨트롤|설명|컨트롤 옵션|
 |:-----|:-----|:-----|
-|PSTN 호출 오디오 회의|아웃바운드 유형을 제한합니다. </br>내에서 허용되는 호출 </br>사용자가 구성한 모임입니다.|모든 대상(기본값)</br>이끌이와 동일한 국가 또는 지역에서 </br> [영역 A 국가 또는 지역](audio-conferencing-zones.md) 만 </br>허용 안 함|
+|오디오 회의 PSTN 호출|아웃바운드 유형을 제한합니다. </br>내에서 허용되는 호출 </br>사용자가 구성한 모임입니다.|모든 대상(기본값)</br>이끌이와 동일한 국가 또는 지역에서 </br> [영역 A 국가 또는 지역](audio-conferencing-zones.md) 만 </br>허용 안 함|
 |최종 사용자 PSTN 호출|호출 유형을 제한합니다. </br>that can be made by a user.|국제 및 국내(기본값)</br>국내</br>없음|
 
-영역 A로 간주되는 국가 및 지역을 확인하려면 [오디오 회의 국가 및 지역 영역을](audio-conferencing-zones.md) 참조하세요.
+영역 A로 간주되는 국가 및 지역을 확인하려면 [오디오 회의에 대한 국가 및 지역 영역을](audio-conferencing-zones.md) 참조하세요.
 
    > [!NOTE]
-   > 전화 걸기 번호가 모임 이끌이(오디오 회의의 경우) 또는 최종 사용자(최종 사용자 PSTN 통화의 경우)에 대해 Microsoft 365 또는 Office 365 설정된 동일한 국가에 있는 경우 국내로 간주됩니다.
+   > 전화 걸기 번호가 Microsoft 365 또는 Office 365 모임 이끌이(오디오 회의의 경우) 또는 최종 사용자(최종 사용자 PSTN 통화의 경우)에 대해 설정된 동일한 국가에 있는 경우 국내 통화로 간주됩니다.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -53,7 +52,7 @@ ms.locfileid: "65674810"
 
 1. 왼쪽 탐색 영역에서 **사용자를** 선택한 다음 사용 가능한 사용자 목록에서 사용자의 표시 이름을 선택합니다.
 
-2. 다음으로 **오디오 회의** **이동하여 편집** 을 선택합니다.
+2. 다음으로 **오디오 회의** 로 이동하여 **편집** 을 선택합니다.
 
 3. **모임의 전화 접속** 에서 원하는 전화 걸기 제한 옵션을 선택합니다.
 
