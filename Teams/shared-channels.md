@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams에서 공유 채널을 사용하고 관리하는 방법을 알아보세요.
-ms.openlocfilehash: dd9edbe18a01ffc1a46a8cab76a383aed0bef5a4
-ms.sourcegitcommit: 09b77e83bc41914007606468e322d4ea47e2e8a4
+ms.openlocfilehash: 323d20c152af9595b6a738f917103a59ab4142ef
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "67630458"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647552"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams의 공유 채널
 
@@ -118,7 +118,7 @@ Teams는 공유 채널 사이트의 수명 주기를 관리합니다. 사이트�
 
 ## <a name="considerations-around-file-access-in-shared-channels"></a>공유 채널의 파일 액세스에 대한 고려 사항
 
-공유 채널의 파일, 폴더, OneNote 전자 필기장은 [표준 SharePoint 파일 공유](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)를 통해 채널 외부의 사용자와 공유할 수 있습니다.
+공유 채널의 파일, 폴더 및 OneNote 전자 필기장을 [표준 SharePoint 파일 공유](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)를 사용하여 채널 외부(조직 외부는 아님)와 공유할 수 있습니다.
 
 사용자에게 SharePoint를 통해 공유 채널의 파일, 폴더 또는 전자 필기장에 대한 액세스 권한이 부여된 경우, 팀 또는 공유 채널에서 사용자를 제거해도 파일, 폴더 또는 전자 필기장에 대한 사용자의 액세스 권한은 제거되지 않습니다.
 

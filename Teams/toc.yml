@@ -1545,6 +1545,10 @@ items:
             href: adobe-acrobat-pdf-viewer-teams.md
           - name: Microsoft 365 및 사용자 지정 커넥터 관리
             href: Office-365-custom-connectors.md
+          - name: 앱 사용자 지정을 사용하여 앱 브랜딩 사용자 지정
+            href: customize-apps.md
+          - name: Microsoft 365에서 앱에 대한 액세스 관리
+            href: manage-third-party-teams-apps.md
       - name: 사용자 지정 앱 관리
         items:
           - name: 사용자 지정 및 테스트용으로 로드된 앱 관리
@@ -1579,13 +1583,11 @@ items:
             href: resource-specific-consent.md
           - name: 앱 사용 권한 및 리소스에 대한 액세스 이해
             href: app-permissions.md
-          - name: 앱의 디자인 및 메타데이터 사용자 지정
-            href: customize-apps.md
           - name: 조직의 앱 스토어 브랜딩
             href: customize-your-app-store.md
           - name: Microsoft 365에서 앱에 대한 액세스 관리
             href: manage-third-party-teams-apps.md
-          - name: 외부 사용자에 대한 앱 동작
+          - name: 외부 또는 게스트 사용자로 앱 사용
             href: non-standard-users.md
           - name: 앱을 허용하도록 사용자 요청 관리
             href: user-requests-approve-apps.md

@@ -1,7 +1,7 @@
 ---
 title: 직접 라우팅으로 전달되는 위치 기반 라우팅 계획
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d282a2cd9588c2e7104b3093d03da082e9cf388b
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 795433f832d57767a7937be1a9d3e7f31e73f240
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562627"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647442"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>직접 라우팅으로 전달되는 위치 기반 라우팅 계획
 
@@ -387,9 +387,9 @@ Location-Based 라우팅은 다음 유형의 상호 작용에 적용되지 않�
 
 ### <a name="location-based-routing-for-conferencing"></a>회의를 위한 Location-Based 라우팅
 
-PSTN 통화에서 Location-Based 라우팅이 설정된 사용자는 다른 사용자 또는 PSTN 번호로 회의를 시작할 수 없습니다. 자동 전화 교환 또는 통화 큐에 연결할 수 있습니다.
+PSTN 통화에서 오디오 회의 라이선스가 없는 Location-Based 라우팅이 설정된 사용자는 다른 사용자 또는 PSTN 번호로 회의를 시작할 수 없습니다. 자동 전화 교환 또는 통화 큐에 연결할 수 있습니다.
 
-사용자에게 오디오 회의 라이선스가 있는 경우 사용자는 관련 사용자와 회의를 시작하고 회의 브리지를 통해 PSTN에 전화하여 전화 회의를 시작해야 합니다.
+사용자에게 오디오 회의 라이선스가 있는 경우 사용자는 관련 사용자와 회의를 시작하고 회의 브리지를 통해 PSTN에 전화하여 전화 회의를 시작해야 합니다. 사용자가 이미 PSTN 호출에 있는 경우 전화 걸기 위해 회의 브리지를 사용하여 통화를 에스컬레이션하여 통화에 다른 사용자 또는 PSTN 번호를 추가할 수 있습니다.
 
 오디오 회의 라이선스가 없는 사용자가 시작한 전화 회의에서 전화 회의에 라우팅을 사용하도록 설정된 사용자가 하나 이상 있거나 Location-Based 경우 PSTN 참가자를 추가할 수 없습니다. 라우팅을 사용하도록 설정된 Location-Based 참가자가 통화에 참여하도록 초대되기 전에 하나 이상의 PSTN 참가자가 이러한 전화 회의의 일부이거나 해당 회의의 일부인 경우 이러한 Location-Based 라우팅 사용 참가자를 통화에 추가할 수 없습니다.
 
@@ -397,6 +397,7 @@ Location-Based 라우팅을 사용하도록 설정된 사용자가 Location-Base
 
 오디오 회의를 위한 온-네트워크 회의는 인도의 전화 통신 장비와 함께 배포되어서는 안 됩니다.
 
+PSTN 호출에서 Location-Based 라우팅이 설정된 사용자는 해당 호출을 다른 호출과 병합할 수 없습니다.
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Location-Based 라우팅에 대한 미디어 바이패스 요구 사항
 

@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams에서 비공개 채널을 사용하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 912a9f7f9330bcc8da167c7435048d1ec8c28284
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 2f6dd23c5f15d2c96a1a5bb7cec6f4b9107f436c
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269883"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647452"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams의 비공개 채널
 
@@ -34,7 +34,7 @@ Microsoft Teams의 비공개 채널은 팀 내 공동 작업을 위한 집중적
 예를 들어 다음과 같은 경우에 비공개 채널이 유용합니다.
 
 - 팀의 여러 사용자가 별도의 팀을 만들지 않고도 공동 작업을 할 수 있는 집중적인 공간입니다.
-- 팀 내 일부 그룹의 사람들은 예산, 자원 조달, 전략적 배치 등과 같은 중요한 정보를 논의하기 위해 비공개 채널을 희망합니다.
+- 팀의 하위 집합은 비공개 채널을 통해 예산, 자원 조달, 전략적 위치 지정 등과 같은 중요한 정보를 논의하기를 원합니다.
 
 비공개 채널을 나타내는 자물쇠 아이콘. 비공개 채널의 구성원으로 추가된 사용자만 비공개 채널을 볼 수 있고 여기에 참여할 수 있습니다.
 
@@ -130,6 +130,8 @@ Teams는 비공개 채널 사이트의 수명 주기를 관리합니다. 사이�
 비공개 채널의 알림은 누락된 활동 전자 메일에 포함되지 않습니다.
 
 채널 모임을 예약할 수 없습니다.
+
+모임 제목으로 채널 모임을 사용자 지정할 수 없습니다.
 
 ## <a name="related-topics"></a>관련 항목
 

@@ -15,21 +15,21 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams의 조직에서 태그를 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: 4f394d66521464e99c9492532cb1571931a8de27
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 9c2da438d3f88a172759ec13672aec663ae6add9
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418507"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647432"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Microsoft Teams에서 태그 관리
 
-Microsoft Teams의 태그를 사용하면 사용자가 팀의 사용자 하위 집합과 빠르고 쉽게 연결할 수 있습니다. 사용자 지정 태그를 만들고 할당하여 역할, 프로젝트, 기술 또는 위치와 같은 특성에 따라 사람을 분류할 수 있습니다. 또는 [Shifts 앱](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts)의 일정 및 교대 근무 정보에 따라 사용자에게 태그를 자동으로 할당할 수 있습니다. 태그가 하나 또는 여러 팀 구성원에 추가된 후 채널 게시물에서 팀의 모든 사용자가 @mentions 사용하여 대화의 태그가 할당된 사용자만 알릴 수 있습니다.
+Microsoft Teams의 태그를 사용하면 사용자가 팀의 사용자 하위 집합과 빠르고 쉽게 연결할 수 있습니다. 사용자 지정 태그를 만들고 할당하여 역할, 프로젝트, 기술 또는 위치와 같은 특성에 따라 사람을 분류할 수 있습니다. 또는 [Shifts 앱](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6)의 일정 및 교대 근무 정보에 따라 사용자에게 태그를 자동으로 할당할 수 있습니다. 태그가 하나 또는 여러 팀 구성원에 추가된 후 채널 게시물에서 팀의 모든 사용자가 @mentions 사용하여 대화의 태그가 할당된 사용자만 알릴 수 있습니다.
 
 앞에서 설명한 것처럼 Teams에는 두 가지 종류의 태그가 있습니다.
 
 - **사용자 지정 태그**: 팀 소유자 및 팀 구성원(권한이 있는 경우)은 수동으로 태그를 만들고 사용자에게 할당할 수 있습니다. 예를 들어 "디자이너" 또는 "방사선 전문의" 태그는 이름을 입력하지 않고도 팀의 해당 사용자 집합에 도달합니다.
-- **교대 근무로 태그 지정**: 이 기능을 사용하면 Teams의 [Shifts 앱](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) 에서 일정 및 교대 근무 그룹 이름과 일치하는 태그가 자동으로 할당됩니다. 예를 들어 "EngineerOnCall" 태그는 채팅 또는 채널 게시물에서 태그를 사용할 때 작동하도록 Shifts에서 예약된 모든 엔지니어에게 도달합니다. 교대 근무로 태그를 지정하면 Teams는 사용자가 정보를 신속하게 릴레이해야 할 때 교대 근무 중인 직원의 이름을 알지 못하는 추측을 수행합니다.
+- **교대 근무로 태그 지정**: 이 기능을 사용하면 Teams의 [Shifts 앱](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_usetags) 에서 일정 및 교대 근무 그룹 이름과 일치하는 태그가 자동으로 할당됩니다. 예를 들어 "EngineerOnCall" 태그는 채팅 또는 채널 게시물에서 태그를 사용할 때 작동하도록 Shifts에서 예약된 모든 엔지니어에게 도달합니다. 교대 근무로 태그를 지정하면 Teams는 사용자가 정보를 신속하게 릴레이해야 할 때 교대 근무 중인 직원의 이름을 알지 못하는 추측을 수행합니다.
 
 > [!NOTE]
 > 태그는 비공개 또는 공유 채널에서 지원되지 않습니다.
