@@ -923,7 +923,7 @@ items:
                     href: direct-routing-media-optimization.md
                   - name: 로컬 미디어 최적화 구성
                     href: direct-routing-media-optimization-configure.md
-              - name: 직접 라우팅 모니터링 및 문제 해결
+              - name: 직접 라우팅 모니터링
                 items:
                   - name: 개요
                     href: direct-routing-monitor-and-troubleshoot.md
@@ -1589,7 +1589,7 @@ items:
             href: manage-third-party-teams-apps.md
           - name: 외부 또는 게스트 사용자로 앱 사용
             href: non-standard-users.md
-          - name: 앱을 허용하도록 사용자 요청 관리
+          - name: 사용자 요청 관리
             href: user-requests-approve-apps.md
           - name: 앱 업데이트 및 관리자 역할
             href: apps-update-experience.md

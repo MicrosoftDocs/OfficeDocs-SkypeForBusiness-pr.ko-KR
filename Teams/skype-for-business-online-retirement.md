@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 13d7032c78a7863b46bb186553b0b67e67f8c626
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 07d5e443075a80ddad8bda2e490cdd906c3900bf
+ms.sourcegitcommit: 9de6b0b03f433e71fe239d292387eed33c11b531
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494495"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "67657238"
 ---
 # <a name="skype-for-business-online-retirement"></a>비즈니스용 Skype Online 단종
 
@@ -46,9 +46,10 @@ Microsoft는 2022년 6월 30일 이후에 비즈니스용 Skype Online 인프라
  - 하이브리드 조직에서는 온-프레미스에 있는 사용자를 클라우드로 이동할 때 스위치가 지정되었는지 여부에 `MoveToTeams` 관계없이 TeamsOnly 모드가 자동으로 할당됩니다 `Move-CsUser`.
  - 클라우드에 있는 사용자는 TeamsOnly 이외의 모드를 할당할 수 없습니다. 온라인이 있는 사용자는 온-프레미스에서 비즈니스용 Skype 서버를 사용하지 *않습니다*.
 
-고객은 비즈니스용 Skype Online에 거주하고 TeamsOnly 모드가 아직 할당되지 않은 나머지 사용자가 있을 수 있습니다. 고객은 가능한 한 빨리 이러한 사용자에게 TeamsOnly 모드를 할당해야 합니다. Microsoft는 TeamsOnly 모드가 아닌 비즈니스용 Skype Online 사용자를 위한 보조 업그레이드를 제공합니다. 지원 업그레이드 환경은 조직이 순수 온라인 조직인지 아니면 온-프레미스 비즈니스용 Skype 사용자가 있는 조직인지에 따라 달라집니다. 자세한 내용은 [비즈니스용 Skype Online에서 Microsoft Teams로의 보조 업그레이드를 참조하세요](upgrade-assisted.md).
+고객은 비즈니스용 Skype Online에 거주하고 TeamsOnly 모드가 아직 할당되지 않은 나머지 사용자가 있을 수 있습니다. 고객은 가능한 한 빨리 이러한 사용자에게 TeamsOnly 모드를 할당해야 합니다. Microsoft는 TeamsOnly 모드가 아닌 비즈니스용 Skype Online 사용자를 위한 보조 업그레이드를 제공합니다. 지원 업그레이드 환경은 조직이 순수 온라인 조직인지 아니면 온-프레미스 비즈니스용 Skype 사용자가 있는 조직인지에 따라 달라집니다. 자세한 내용은 [비즈니스용 Skype Online에서 Microsoft Teams로의 보조 업그레이드를 참조하세요](upgrade-assisted.md). 지원 업그레이드가 완료되면 모든 *온라인* 사용자가 TeamsOnly 모드로 전환됩니다. *온-프레미스에 있는 모든 사용자는 온-프레미스에 남아 있으며 TeamsOnly가 되지 않습니다*.
 
-지원 업그레이드가 완료되면 모든 *온라인* 사용자가 TeamsOnly 모드로 전환됩니다. TeamsOnly 모드의 사용자는 Teams에서 들어오는 채팅 및 전화를 받고 Teams에서 모임을 예약합니다. 비즈니스용 Skype Online에서는 채팅이나 통화를 시작하거나 모임을 예약할 수 없습니다.  그러나 TeamsOnly 사용자는 이미 가지고 있거나 나중에 받은 비즈니스용 Skype 모임에 참가할 수 있습니다. 마지막으로 온 *-프레미스에 있는 모든 사용자는 온-프레미스에 남아 있으며 TeamsOnly가 되지 않습니다*.
+TeamsOnly 모드의 사용자는 Teams에서 들어오는 채팅 및 전화를 받고 Teams에서 모임을 예약합니다. 비즈니스용 Skype Online에서는 채팅이나 통화를 시작하거나 모임을 예약할 수 없습니다. TeamsOnly 사용자는 이미 가지고 있거나 나중에 받은 비즈니스용 Skype 모임에 참가할 수 있습니다. 그러나 Microsoft가 지정된 TeamsOnly 사용자에 대한 비즈니스용 Skype Online 인프라를 제거한 후에 TeamsOnly 사용자는 익명으로만 비즈니스용 Skype 모임에 참가할 수 있습니다.  2022년 6월 30일부터 새로 만든 TeamsOnly 사용자는 더 이상 비즈니스용 Skype Online 인프라로 프로비전되지 않으므로 비즈니스용 Skype 모임에 초대된 경우 익명으로 참가해야 합니다.
+
 
 ## <a name="actions-to-take-before-june-30-2022"></a>2022년 6월 30일 이전에 수행할 작업
 비즈니스용 Skype Online이 사용 중지되었으므로 Microsoft는 2022년 6월 30일까지 지원 인프라의 서비스 해제를 시작합니다.  모든 버전의 비즈니스용 Skype 업그레이드된 TeamsOnly 사용자가 있는 조직의 경우 다음 상황 중 하나가 적용되는 경우 조치를 취해야 합니다.
@@ -60,7 +61,7 @@ Microsoft는 2022년 6월 30일 이후에 비즈니스용 Skype Online 인프라
 
  - **비즈니스용 Skype 온라인 연락처:** 사용자가 TeamsOnly 모드로 업그레이드된 후 사용자가 Teams에 처음으로 로그온하면 해당 사용자의 비즈니스용 Skype Online 계정에 있는 모든 기존 연락처가 Teams로 마이그레이션됩니다. Microsoft가 비즈니스용 Skype Online 인프라를 제거한 후에 *는 Teams에 아직 로그온하지 않은 사용자의* 연락처를 더 이상 마이그레이션할 수 없습니다. 비즈니스용 Skype 연락처를 Teams로 마이그레이션하려면 이전에 비즈니스용 Skype 모든 사용자가 2022년 6월 30일 이전에 Teams에 한 번 이상 로그온하는 것이 좋습니다.
 
- - **비즈니스용 Skype 온라인 모임:** 조직이 TeamsOnly로 업그레이드된 후 사용자는 모든 새 모임을 Teams 모임으로 만듭니다. 경우에 따라 TeamsOnly 사용자는 이전에 구성한 비즈니스용 Skype 온라인 모임이 있을 수 있습니다. 현재 업그레이드된 TeamsOnly 사용자 및 초대된 참석자는 비즈니스용 Skype 클라이언트를 사용하여 이러한 비즈니스용 Skype Online 모임에 참가할 수 있습니다. 그러나 Microsoft가 지정된 TeamsOnly 사용자에 대한 비즈니스용 Skype Online 인프라를 제거하면 해당 사용자가 구성한 나머지 비즈니스용 Skype Online 모임은 더 이상 존재하지 않습니다. 이끌이와 참석자는 이러한 모임에 참가할 수 없습니다. TeamsOnly 조직의 사용자가 조직한 나머지 비즈니스용 Skype Online 모임이 있는 경우 Microsoft는 이러한 모임의 일정을 Teams 모임으로 다시 예약하는 것이 좋습니다. 또는 관리자는 [모임 마이그레이션 서비스를](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms#trigger-meeting-migration-manually-via-powershell-cmdlet) 사용하여 이러한 모임을 Teams 모임으로 변환할 수 있습니다. 두 경우 모두 2022년 6월 30일까지 이러한 작업을 완료합니다.  
+ - **비즈니스용 Skype 온라인 모임:** 조직이 TeamsOnly로 업그레이드된 후 사용자는 모든 새 모임을 Teams 모임으로 만듭니다. 경우에 따라 TeamsOnly 사용자는 이전에 구성한 비즈니스용 Skype 온라인 모임이 있을 수 있습니다. 현재 업그레이드된 TeamsOnly 사용자 및 초대된 참석자는 비즈니스용 Skype 클라이언트를 사용하여 이러한 비즈니스용 Skype Online 모임에 참가할 수 있습니다. 그러나 Microsoft가 지정된 TeamsOnly 사용자에 대한 비즈니스용 Skype Online 인프라를 제거한 후에는 해당 사용자가 비즈니스용 Skype 모임에 익명으로만 참가할 수 있으며, *해당 사용자가 구성한* 나머지 비즈니스용 Skype Online 모임은 더 이상 존재하지 않습니다. 이끌이와 참석자는 이러한 모임에 참가할 수 없습니다. TeamsOnly 조직의 사용자가 조직한 나머지 비즈니스용 Skype Online 모임이 있는 경우 Microsoft는 이러한 모임의 일정을 Teams 모임으로 다시 예약하는 것이 좋습니다. 또는 관리자는 [모임 마이그레이션 서비스를](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms#trigger-meeting-migration-manually-via-powershell-cmdlet) 사용하여 이러한 모임을 Teams 모임으로 변환할 수 있습니다. 두 경우 모두 2022년 6월 30일까지 이러한 작업을 완료합니다.  
 
 
 ## <a name="how-microsoft-is-helping-customers-upgrade-to-teams"></a>Microsoft가 고객이 Teams로 업그레이드할 수 있도록 돕는 방법

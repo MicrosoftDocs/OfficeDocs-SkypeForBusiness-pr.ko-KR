@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e78d5905eaed7d9302ffdbf071c3dcf93f00fea
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 9affb1fc93bf79cd7f583f0e74b02bd06f604f0d
+ms.sourcegitcommit: 9de6b0b03f433e71fe239d292387eed33c11b531
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616264"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "67657258"
 ---
 # <a name="manage-user-access-to-teams"></a>Teams에 대한 사용자 액세스 관리
 
@@ -40,7 +40,7 @@ Microsoft 365 관리 센터 또는 PowerShell을 사용하여 Teams 라이선스
 
 ## <a name="using-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터 사용
 
-Teams 사용자 수준 라이선스는 Microsoft 365 관리 센터 사용자 관리 인터페이스를 통해 직접 관리됩니다. 관리자는 새 사용자 계정을 만들 때 새 사용자 또는 기존 계정이 있는 사용자에게 라이선스를 할당할 수 있습니다. 
+Teams 사용자 수준 라이선스는 Microsoft 365 관리 센터 사용자 관리 인터페이스를 통해 직접 관리됩니다. 관리자는 새 사용자 계정을 만들 때 새 사용자 또는 기존 계정이 있는 사용자에게 라이선스를 할당할 수 있습니다.
 
 > [!IMPORTANT]
 > Microsoft Teams 라이선스를 관리하려면 관리자에게 전역 관리자 또는 사용자 관리 관리자 권한이 있어야 합니다.
@@ -110,7 +110,7 @@ $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
 Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
 ```
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [Teams 추가 기능 라이선스](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Teams 추가 기능 라이선스 할당](teams-add-on-licensing/assign-teams-add-on-licenses.md)
