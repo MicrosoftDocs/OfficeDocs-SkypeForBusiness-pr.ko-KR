@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 서비스 번호 또는 사용자 번호로 사용할 전화 번호의 사용량을 변경하는 방법을 알아봅니다.
-ms.openlocfilehash: e07255420cf9b480aa28e25a635b799eed94bd0f
-ms.sourcegitcommit: d0cbc23e10219dd2889011421010215a5d246031
+ms.openlocfilehash: 5fb8e65a1a04a28cd69314d2919cefa7f2d988c4
+ms.sourcegitcommit: 087254ba68d75ea4f9205a972f1d8d554d9176c7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2022
-ms.locfileid: "67460701"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "67650890"
 ---
 # <a name="manage-the-usage-of-a-phone-number"></a>전화 번호 사용 관리
 
@@ -53,7 +53,7 @@ Teams 관리 센터를 사용하여 전화 번호 사용을 변경하려면 다�
 
 ## <a name="still-need-assistance"></a>여전히 도움이 필요하세요?
 
-도움이 필요한 경우 [TNS 서비스 데스크](/contact-tns-service-desk.md)에 문의하세요.
+도움이 필요한 경우 [TNS 서비스 데스크](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk)에 문의하세요.
 
 ## <a name="related-topics"></a>관련 주제
 
