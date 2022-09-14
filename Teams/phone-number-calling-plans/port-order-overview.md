@@ -21,12 +21,12 @@ description: 포트 주문의 개요와 서비스 공급자에서 Teams로 전�
 ms.collection:
 - M365-voice
 - m365initiative-voice
-ms.openlocfilehash: e9f267bfdb56558245fecefe240f2c09c07d4783
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c5c8b68cfd97c8a39f0b4866fb7670473a9ecef3
+ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270873"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67674379"
 ---
 # <a name="whats-a-port-order"></a>포트 순서
 
@@ -140,7 +140,7 @@ Teams로 전화 번호를 포팅하는 경우 모든 번호 또는 그 중 일�
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>사용자(구독자) 전화 번호를 서비스 번호로 변환할 수 있나요?
 <a name="bkmk_type_1"> </a>
 
-예, 그들은 할 수 있습니다. 조직의 테넌트 GUID 및 변환하려는 전화 번호를 포함하는 서비스 요청을 제출하기만 하면 됩니다. 이렇게 하려면 [조직의 전화 번호 관리를 참조하세요](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+예, 그들은 할 수 있습니다. 이렇게 하려면 [전화 번호 사용 관리를 참조하세요](../manage-the-usage-of-a-phone-number.md).
 
 ## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>Teams에서 다른 전화 서비스 공급자 또는 이동 통신 사업자로 내 번호를 이식할 수 있나요?
 
@@ -177,7 +177,7 @@ PIN을 추가로 설정해야 하는 경우 [전화 번호 서비스 팀에](../
 
 - 서비스가 활성 상태인지 확인합니다. 계정을 동결하면 계정에서 이동 통신 사업자가 변경되지 않습니다. 계정을 변경할 수 있는 권한이 있는 사람은 현재 운송업체에 주문을 제출하여 동결을 제거해야 합니다. 이 프로세스는 운송업체에 따라 1~3주가 걸릴 수 있습니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [포트 주문의 상태 확인](port-order-status.md)
 - [통화 플랜에 사용되는 다양한 종류의 전화 번호](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
