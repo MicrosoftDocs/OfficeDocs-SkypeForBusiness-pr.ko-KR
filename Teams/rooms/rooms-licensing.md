@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Microsoft Teams 룸 다양한 유형의 통화 및 모임 기능에 사용 가능한 라이선스에 대해 알아보고 비교합니다.
-ms.openlocfilehash: f2815dd99cb2b1882ec0783fc834d58db60c1b0d
-ms.sourcegitcommit: 087254ba68d75ea4f9205a972f1d8d554d9176c7
+ms.openlocfilehash: df84e94ebda02020e88d8bfc19fa42c86561b07d
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "67650820"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706675"
 ---
 # <a name="microsoft-teams-rooms-licenses"></a>라이선스 Microsoft Teams 룸
 
@@ -80,7 +80,7 @@ Teams 룸 Basic 라이선스를 사용하여 한 방에서 인증된 단일 Team
 
 <sup>*</sup>Microsoft 서비스 엔지니어는 2022년 10월 1일부터 인시던트 대응의 중개자 역할을 하지 않습니다.
 
-## <a name="teams-rooms-console-and-teams-client-feature-comparison"></a>Teams 룸 콘솔 및 Teams 클라이언트 기능 비교
+## <a name="teams-rooms-basic-and-teams-rooms-pro-feature-comparison"></a>Teams 룸 Basic 및 Teams 룸 Pro 기능 비교
 
 다음 표에서는 Teams 룸 Basic 및 Teams 룸 Pro 라이선스를 비교하고 각 라이선스에서 사용할 수 있는 기능을 보여 줍니다. 라이선스에 기능을 사용할 수 없는 경우 해당 라이선스가 할당된 Teams 룸 디바이스에서 해당 기능을 사용할 수 없습니다. Teams 룸 디바이스에서 기능을 사용하려면 해당 디바이스에서 해당 기능을 사용할 수 있는 라이선스를 할당합니다.
 

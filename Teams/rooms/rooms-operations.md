@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Microsoft Teams 룸 관리에 대해 알아봅니다.
-ms.openlocfilehash: 93a4c2ff7d9c6a1f982a06ec8df6dabf790f8739
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 85979448c425f2ab0de9a5956ba4e74b2a5697cc
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272223"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706665"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams 룸 유지 관리 및 운영
  
@@ -222,11 +222,13 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>소프트웨어 업데이트
 <a name="SWupdate"> </a>
 
-기본적으로 Microsoft Teams 룸 최신 버전의 Microsoft Teams 룸 소프트웨어를 얻기 위해 Windows 스토어에 연결하려고 시도합니다. 따라서 Teams 룸 일반 인터넷 액세스가 필요합니다. 지원 문제로 Microsoft에 문의하기 전에 Microsoft Teams 룸 최신 버전의 앱과 함께 로드되었는지 확인합니다.
+기본적으로 Microsoft Teams 룸 Windows 업데이트 연결하여 운영 체제 및 USB 주변 장치 펌웨어 업데이트를 검색하고 구성된 업무 시간 외에 설치합니다. 관리자 계정에 로그인하고 **설정** 앱을 실행하여 업무 시간을 구성할 수 있습니다.
   
-Microsoft Teams 룸 Windows 업데이트 연결하여 운영 체제 및 주변 장치 펌웨어 업데이트를 검색합니다. 또한 Microsoft Store에 연결하여 애플리케이션 업데이트를 검색합니다.
+업데이트를 수동으로 관리하려는 경우 [오프라인 앱 배포](/microsoft-store/distribute-offline-apps)에 대한 [비즈니스용 Microsoft Store](https://businessstore.microsoft.com/store) 일반적인 절차를 따르지 않는 경우 Microsoft Teams 룸 [디바이스를 수동으로 업데이트](/microsoftteams/rooms/manual-update)하여 최신 MTR-Update 스크립트를 획득하고 실행할 수 있습니다.
 
-애플리케이션 업데이트를 수동으로 관리해야 하지만 [오프라인 앱을 배포](/microsoft-store/distribute-offline-apps)하는 [비즈니스용 Microsoft Store](https://businessstore.microsoft.com/store) 일반적인 절차를 따를 수 없는 경우 Teams 룸 업데이트 패키지를 획득하여 지원되는 운영 체제에서 앱 업데이트를 수행할 수 있습니다. 업데이트 릴리스는 스토어 릴리스보다 뒤쳐질 수 있으며 항상 사용 가능한 최신 빌드와 일치하지 않을 수 있습니다. 자세한 내용은 [Microsoft Teams 룸 디바이스 수동 업데이트를](manual-update.md) 참조하세요.
+기본적으로 Microsoft Teams 룸 최신 버전의 Microsoft Teams 룸 소프트웨어를 얻기 위해 Windows 스토어에 연결하려고 시도합니다. 따라서 Teams 룸 일반 인터넷 액세스가 필요합니다. 지원 문제로 Microsoft에 문의하기 전에 Microsoft Teams 룸 최신 버전의 앱과 함께 로드되었는지 확인합니다.
+
+
 
 ## <a name="admin-mode-and-device-management"></a>관리 모드 및 디바이스 관리
 <a name="AdminMode"> </a>

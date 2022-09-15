@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e557e0901293c26d48e30ed163883f9cd97f12e
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 7e540200f42af23ff4382db7ed4ff528971501b9
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790353"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706017"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -118,7 +118,7 @@ VDI 환경에서 Teams AV 최적화가 제대로 작동하려면 씬 클라이�
 |매개 변수  |워크스테이션 운영 체제  |서버 운영 체제  |
 |---------|---------|---------|
 |vCPU   |    코어 2개     |  4, 6 또는 8코어<br>기본 NUMA(비일률 메모리 액세스) 구성을 이해하고 그에 따라 VM을 구성하는 것이 중요합니다.     |
-|RAM     |   4GB      | 사용자당 512MB~1GB        |
+|RAM     |   4gb      | 사용자당 512MB~1GB        |
 |저장소    | 8GB        | 40GB ~60GB        |
 
 #### <a name="non-persistent-setup"></a>비영구 설정
@@ -202,7 +202,7 @@ Teams 및 엔터프라이즈용 Microsoft 365 앱 대한 자세한 내용은 엔
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
-        이 프로세스는 Teams를 `%ProgramFiles(x86)%` 64비트 운영 체제의 폴더와 32비트 운영 체제의 `%ProgramFiles%` 폴더에 설치합니다. 이 시점에서 골든 이미지 설정이 완료되었습니다.
+        이 프로세스는 Teams를 `%ProgramFiles(x86)%` 32비트 운영 체제의 폴더와 64비트 운영 체제의 `%ProgramFiles%` 폴더에 설치합니다. 이 시점에서 골든 이미지 설정이 완료되었습니다.
 
         > [!IMPORTANT]
         >  비영구 설정에는 컴퓨터당 Teams를 설치해야 합니다.
@@ -403,20 +403,12 @@ Teams VDI 정책은 Teams 모듈에서 사용할 수 있습니다. 이러한 정
 > [!NOTE]
 > 이는 최적화되지 않은 환경에만 해당됩니다.
 
-### <a name="update-a-module-name"></a>모듈 이름 업데이트
+### <a name="connect-to-microsoft-teams-powershell"></a>Microsoft Teams PowerShell에 연결
+
+[Microsoft Teams PowerShell 모듈 설치](/Teams/teams-powershell-install.md)의 지침에 따라 Microsoft Teams PowerShell 모듈에 연결합니다. 그런 다음, 다음 명령을 실행하여 모든 VDI cmdlet을 사용할 수 있는지 확인합니다.
 
 ```PowerShell
-Update-Module -Name MicrosoftTeams -AllowPrerelease
-
-<# Import and connect to online (CSOnline runs the policies) #>
-Import-Module microsoftTeams
-if( -not $sess){
-    $session = New-CsOnlineSession
-    $pss = Import-PSSession $session
-}
-<# Check out the commands #>
 Get-Command -Noun *VDI*
-<#
 ```
 
 ### <a name="set-policies-to-limit-calling-features"></a>통화 기능을 제한하는 정책 설정
@@ -486,7 +478,7 @@ if($cleanup){
 - 컴퓨터별 설치를 통해 VDI의 Teams는 비 VDI Teams 클라이언트와 같은 방식으로 자동으로 업데이트되지 않습니다. [VDI의 Teams 데스크톱 앱 설치 또는 업데이트](#install-or-update-the-teams-desktop-app-on-vdi) 섹션에 설명된 대로 새 MSI를 설치하여 VM 이미지를 업데이트해야 합니다. 최신 버전으로 업데이트하려면 현재 버전을 제거해야 합니다.
 - Citrix 환경에서 Teams가 실행되는 동안 사용자가 Virtual Machine에서 연결을 끊으면 Teams 업데이트로 인해 사용자가 다시 연결할 때 AV에 최적화되지 않은 상태가 될 수 있습니다. 이 시나리오를 방지하려면 Citrix Virtual Machine에서 연결을 끊기 전에 Teams를 종료하는 것이 좋습니다.
 - Teams는 사용자당 또는 컴퓨터별로 배포해야 합니다. 사용자 및 컴퓨터당 동시 Teams 배포는 지원되지 않습니다. 컴퓨터당 또는 사용자별로 이러한 모드 중 하나로 마이그레이션하려면 제거 절차에 따라 두 모드 중 하나로 다시 배포합니다.
-- 현재 Azure Virtual Desktop은 macOS 및 Linux 기반 클라이언트를 지원하지 않습니다.
+- 현재 Azure Virtual Desktop은 Linux 기반 클라이언트를 지원하지 않습니다.
 - 빠른 테넌트 전환으로 인해 VDI에서 화면 공유를 사용할 수 없는 등의 호출 관련 문제가 발생할 수 있습니다. 클라이언트를 다시 시작하면 이러한 문제가 완화됩니다.
 
 ### <a name="notifications"></a>알림을

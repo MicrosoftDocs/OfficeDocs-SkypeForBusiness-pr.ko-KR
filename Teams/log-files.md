@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams에서 생성한 디버그, 미디어 및 데스크톱 로그, 찾을 수 있는 위치 및 모니터링 및 문제 해결에 도움이 되는 방법에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ab00f7a1eedf2b1341819c7ec1c67abeb5f6e38
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 2edddca64bf0cb50dc29758fd60bc397cbc00f8b
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486893"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705817"
 ---
 # <a name="configure-log-files-for-monitoring-and-troubleshooting-in-teams"></a>Teams에서 모니터링 및 문제 해결을 위한 로그 파일 구성
 
@@ -34,6 +34,8 @@ ms.locfileid: "67486893"
 -   [데스크톱 로그](#desktop-logs)
 
 이 문서에서는 이러한 로그 및 로그 사용 방법을 설명합니다. 특정 문제 해결에 대한 자세한 내용은 [Teams 문제 해결](/MicrosoftTeams/troubleshoot/teams)을 참조하세요. 
+
+Microsoft Teams 룸 디바이스에서 로그를 수집하는 방법에 대한 자세한 내용은 [디바이스 로그 다운로드를 참조하세요](/microsoftteams/rooms/rooms-manage#download-device-logs).
 
 지원에 문의하는 방법에 대한 자세한 내용은 [지원 받기](/microsoft-365/business-video/get-help-support)를 참조하세요.
 

@@ -18,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dcab13a6ee0c54e9fc88901c2fe022f35309e88
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: bd97dad2f50a2f5f60d13d9521b1b751da3ebdcf
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606857"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706077"
 ---
 # <a name="teams-devices-for-education"></a>교육용 Teams 디바이스
 
@@ -239,8 +239,8 @@ Teams를 실행하는 랩톱을 사용하면 사용자가 하나의 작업 영�
 
 *표시된 디바이스:*
 
-- 룸 시스템 - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
-  - Surface Hub 솔루션은 공동 작업 및 대화형 사용을 위한 프리미엄 환경을 나타냅니다. 동일한 시나리오에서 큰 디스플레이와 쌍을 이루는 [Microsoft Teams 룸 솔루션을](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=) 대안으로 사용할 수 있습니다.
+- Teams 룸 시스템 - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
+  - Surface Hub 솔루션은 공동 작업 및 대화형 사용을 위한 프리미엄 환경을 나타냅니다. 대형 디스플레이와 쌍을 이루는 [Microsoft Teams 룸 솔루션을](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=) 이 같은 시나리오에서 대안으로 사용할 수 있습니다.
 
 - 아날로그 화이트보드 캡처 – [Logitech Brio 콘텐츠 카메라 키트](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
 
@@ -268,7 +268,7 @@ Teams를 실행하는 랩톱을 사용하면 사용자가 하나의 작업 영�
 
 *표시된 디바이스:*
 
-- 룸 시스템 - 설치된 프로젝터와 카트 기반 디스플레이가 모두 있는 [Teams용 Crestron Flex C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
+- Teams 룸 시스템 – 설치된 프로젝터와 카트 기반 디스플레이가 모두 있는 [Teams용 Crestron Flex C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
 
 - 선택적 디지털 화이트보드 - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
@@ -278,7 +278,7 @@ Teams를 실행하는 랩톱을 사용하면 사용자가 하나의 작업 영�
 
 *이 솔루션을 설치하거나 설정하는 방법은 다음과 같습니다.*
 
-매우 복잡합니다. 이 회의실에는 지식이 있는 AV 배포 파트너가 카메라 및 오디오 솔루션을 적절히 계획하고 배포하여 공간의 최종 사용자가 원활하게 작동하도록 해야 하는 물리적 설치 기능이 있습니다. 설치에는 Microsoft Teams 룸 시스템과 연결된 Surface Hub 2 디바이스의 배선, 오디오 구성 및 올바른 구성과 관련된 전문 지식이 필요합니다.
+매우 복잡합니다. 이 회의실에는 지식이 있는 AV 배포 파트너가 카메라 및 오디오 솔루션을 적절히 계획하고 배포하여 공간의 최종 사용자가 원활하게 작동하도록 해야 하는 물리적 설치 기능이 있습니다. 이 설치에는 배선, 오디오 구성 및 Microsoft Teams 룸 시스템과 연결된 Surface Hub 2 디바이스의 올바른 구성과 관련된 전문 지식이 필요합니다.
 
 ### <a name="multi-purpose-spaces"></a>다목적 공간
 
@@ -292,7 +292,7 @@ Teams를 실행하는 랩톱을 사용하면 사용자가 하나의 작업 영�
 
 *표시된 디바이스:*
 
-- 룸 시스템 – 설치된 프로젝터를 [사용하는 Teams용 Crestron Flex C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
+- Teams 룸 시스템 – 설치된 프로젝터를 [사용하는 Teams용 Crestron Flex C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
 
 - 선택적 이중 디지털 화이트보드 - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
@@ -302,7 +302,7 @@ Teams를 실행하는 랩톱을 사용하면 사용자가 하나의 작업 영�
 
 *이 솔루션을 설치하거나 설정하는 방법은 다음과 같습니다.*
 
-매우 복잡합니다. 설명된 다목적 공간을 사용하려면 지식이 있는 AV 배포 파트너가 프로젝터 기반 디스플레이 및 카메라 및 오디오 솔루션을 적절히 계획하고 배포할 뿐만 아니라 Microsoft Teams 룸 시스템과 연결된 Surface Hub 2 디바이스를 올바르게 구성하여 공간의 최종 사용자가 원활하게 작동하도록 해야 합니다.
+매우 복잡합니다. 설명된 다목적 공간을 사용하려면 알 수 있는 AV 배포 파트너가 프로젝터 기반 디스플레이 및 카메라 및 오디오 솔루션을 적절히 계획하고 배포할 뿐만 아니라 Microsoft Teams 룸 시스템과 연결된 Surface Hub 2 디바이스를 올바르게 구성하여 공간의 최종 사용자가 원활하게 작동하도록 해야 합니다.
 
 ## <a name="dont-forget-security"></a>보안을 잊지 마세요.
 
@@ -318,4 +318,4 @@ Teams 디바이스 및 파트너에 대해 자세히 알아보려면 다음 페�
 
 [Microsoft Teams 룸 대해 자세히 알아보기](/microsoftteams/rooms) - 계획, 배포 및 사용량에 대한 Microsoft Teams 룸 가이드
 
-[Teams 회의실 파트너 프로그램 - Teams 룸](https://cloudpartners.transform.microsoft.com/teams-mrpp) 시스템 계획 및 배포를 지원하는 데 사용할 수 있는 전 세계 파트너 목록
+[Microsoft Teams 룸 파트너 프로그램](https://cloudpartners.transform.microsoft.com/teams-mrpp) - Teams 룸 시스템 계획 및 배포를 지원하는 데 사용할 수 있는 전 세계 파트너 목록

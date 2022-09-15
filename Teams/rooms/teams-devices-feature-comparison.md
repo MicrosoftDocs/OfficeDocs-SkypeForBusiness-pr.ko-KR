@@ -18,12 +18,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f9c4cf77b544e731e143f245a30e710417bebca
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 20c479760b2093e355bf2f0b3cbd8be0a1599002
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272373"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706047"
 ---
 # <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>Windows와 Android 간의 공유 공간 기능 비교를 위한 Teams 디바이스 
 Microsoft Teams 룸 환경은 고객을 염두에 두고 설계되었습니다. 모든 고객에게는 고유한 요구 사항이 있으므로 Microsoft는 Windows 및 Android에서 Teams 룸 포함하여 다양한 옵션을 제공합니다. 
@@ -46,6 +46,7 @@ Microsoft는 Teams 및 Teams 룸 새로운 기능을 제공하므로 모든 플�
 ||직접 게스트 조인 |대화 가능  |대화 가능 |
 |**모임 참여 및 공동 작업**|직관적인 용도로 빌드된 앱 환경 |대화 가능  |대화 가능 |
 ||비디오 및 콘텐츠 레이아웃(예: 함께 모드, 대형 갤러리, 갤러리 전용, 갤러리 및 콘텐츠) |대화 가능  |대화 가능 |
+||앞줄 레이아웃|대화 가능|사용할 수 없음|
 ||채팅 거품|대화 가능 |준비 중 |
 ||손을 들어 모든 손을 낮추다 |대화 가능  |대화 가능 |
 ||여러 참가자 고정 |대화 가능  |준비 중 |

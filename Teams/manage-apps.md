@@ -19,12 +19,12 @@ description: Teams 앱을 관리하는 방법을 알아봅니다. 앱 허용 또
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ca49ca15b026048d2c495d30a51eac0f809244b5
-ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
+ms.openlocfilehash: 3278d7cdbc144f839bbb6a675ff8f3e5168c80ed
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "67637051"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705827"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 Teams 앱 관리
 
@@ -93,7 +93,7 @@ Teams 관리 센터의 [앱 관리](https://admin.teams.microsoft.com/policies/m
 
 :::image type="content" source="media/blocked-by-publisher.png" alt-text="Teams 관리 센터에서 게시자에 의해 차단됨 상태의 스크린샷":::
 
-개발자가 기본적으로 앱을 차단하는 방법에 대한 자세한 내용은 [관리자가 승인할 때까지 앱 숨기기](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves)를 참조하세요.
+개발자가 기본적으로 앱을 차단하는 방법에 대한 자세한 내용은 [관리자가 허용할 때까지 앱을 차단하도록 설정하는 방법을 참조하세요](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves).
 
 ## <a name="manage-org-wide-app-settings"></a>조직 전체 앱 설정 관리
 

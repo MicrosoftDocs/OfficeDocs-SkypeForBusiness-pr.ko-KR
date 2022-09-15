@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams 룸 관리되는 서비스에 대해 알아봅니다.
 f1keywords: ''
-ms.openlocfilehash: 5e59312d3febe2dc6b4178874bae21fc27fe77d2
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 07b18a45e376c594d23f836ff12f24474f25968b
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606287"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706475"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>관리 서비스 Microsoft Teams 룸
 
@@ -124,7 +124,7 @@ Microsoft Teams 룸 Pro 라이선스는 오디오 회의 없이 다음 국가에
 |포함된 내용 |제외되는 내용 |제외된 항목에 대한 지원 채널  |
 |---------|---------|---------|
 |**서비스 구성**   |         |         |
-|Microsoft Teams 룸 앱 설정, 자사 네트워크 구성, 자사 소프트웨어 설정 및 권장 전원 설정 및 구성을 포함하여 Microsoft Teams 룸 Windows 구성에 대한 조사 및 지침입니다.     |Microsoft Teams 룸 앱에 직접 포함되지 않은 타사 소프트웨어 구성 및 조사 또한 자사 창 또는 Microsoft Teams 룸 앱 설정 외부에서 구성해야 하는 OEM 관련 구성도 있습니다.         |타사 표준 지원 채널         |
+|Microsoft Teams 룸 앱 설정, 자사 네트워크 구성, 자사 소프트웨어 설정 및 권장 전원 설정 및 구성을 포함하여 Microsoft Teams 룸 Windows 구성에 대한 조사 및 지침입니다.     |Microsoft Teams 룸 앱에 직접 포함되지 않은 타사 소프트웨어 구성 및 조사 또한 자사 창 외부의 구성 또는 Microsoft Teams 룸 앱 설정이 필요한 OEM 관련 구성도 있습니다.         |타사 표준 지원 채널         |
 |**회의실 계정 설정**    |         |         |
 |요청 시 회의실 계정 설정에 사용할 수 있는 설명서의 방향입니다. 로그인 또는 계정 구성 문제의 경우 초기 조사가 수행됩니다.     |권장 수정 실행 또는 권장 수정 실행 문제, 타사 인증 공급자 구성 및 개별 계정 기능 구성        |Microsoft 일반 지원 및 타사 인증 공급자 지원         |
 |**주변 장치 지원**    |         |         |

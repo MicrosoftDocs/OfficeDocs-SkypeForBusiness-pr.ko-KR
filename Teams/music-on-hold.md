@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: 전화 시스템에서 음악 보류 기능을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 9d8fa247ffdc982c5d41777c68f6b620a92644e3
-ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
+ms.openlocfilehash: e218de46e56c2e2f85ed2b19cea21cbc4d4679be
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "66773757"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706177"
 ---
 # <a name="music-on-hold"></a>보류 중인 음악
 
@@ -129,6 +129,8 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 | :------------| :------- | :------- | :------- | :------- | :------- |
 | 1:1 PSTN 통화 대기 | -음악 보류 중<br>-보류 중인 사용자 지정 음악 | -음악 보류 중<br>-보류 중인 사용자 지정 음악 | -음악 보류 중<br>-보류 중인 사용자 지정 음악 | -음악 보류 중<br>-보류 중인 사용자 지정 음악 | -음악 보류 중<br>-보류 중인 사용자 지정 음악 |
 | 1:1 Teams 통화 대기 | -음악 보류 중<br>-보류 중인 사용자 지정 음악 | -음악 보류 중<br>-보류 중인 사용자 지정 음악 | -음악 보류 중<br>-보류 중인 사용자 지정 음악 | -음악 보류 중<br>-보류 중인 사용자 지정 음악 | -음악 보류 중<br>-보류 중인 사용자 지정 음악 |
+| 1:1 PSTN 통화에서 전송 보류 | -음악 보류 중<br>-보류 중인 사용자 지정 음악 | -음악 보류 중<br>-보류 중인 사용자 지정 음악 | | |
+| 1:1 Teams 통화에서 전송 보류 | -음악 보류 중<br>-보류 중인 사용자 지정 음악 | -음악 보류 중<br>-보류 중인 사용자 지정 음악| | | |
 | 1:1 PSTN 통화에서 컨설팅 전송 보류 |-음악 보류 중<br>-보류 중인 사용자 지정 음악 || -음악 보류 중<br>-보류 중인 사용자 지정 음악 | -음악 보류 중<br>-보류 중인 사용자 지정 음악 | -음악 보류 중<br>-보류 중인 사용자 지정 음악 |
 | 1:1 Teams 통화에서 컨설팅 전송 보류 |-음악 보류 중<br>-보류 중인 사용자 지정 음악 || -음악 보류 중<br>-보류 중인 사용자 지정 음악 | -음악 보류 중<br>-보류 중인 사용자 지정 음악 | -음악 보류 중<br>-보류 중인 사용자 지정 음악 |
 
@@ -144,7 +146,7 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 - 일부 시나리오에서는 직접 라우팅 미디어 바이패스 호출이 대기 중인 음악을 재생하기 위한 비미디어 바이패스로 변환되고 통화가 종료될 때까지 비미디어 바이패스로 통화가 유지됩니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [사용자에게 정책 할당](policy-assignment-overview.md)
 

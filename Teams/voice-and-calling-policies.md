@@ -1,7 +1,7 @@
 ---
 title: Teams에서 음성 및 통화 정책 관리
-author: mkbond007
-ms.author: mabond
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -12,12 +12,12 @@ audience: admin
 ms.localizationpriority: medium
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 5a6676d29a439ed978385d096c6e8b0584049557
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d53c05053e2719a88b698497fd4a872c4cb91dab
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270293"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706935"
 ---
 # <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>Microsoft Teams에서 음성 및 통화 정책 관리
 
@@ -65,7 +65,7 @@ ms.locfileid: "67270293"
 
 ![다이얼 플랜의 스크린샷.](media/dial-plans.png)
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 * [Microsoft Teams에서 긴급 통화 정책 관리](manage-emergency-calling-policies.md)
 * [긴급 전화 라우팅 정책 관리](manage-emergency-call-routing-policies.md)

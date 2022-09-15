@@ -15,16 +15,16 @@ f1.keywords:
 ms.localizationpriority: medium
 description: 동적 지원 구조 및 해당 단계를 포함하여 Microsoft Teams 룸 수명 주기 지원에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8814ee9190ff6036345b4aa4607191d3486a369e
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 509f4da415d7a7bd583442f21bd46efc52c9984f
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268213"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706655"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams 룸 앱 버전 지원
  
-Microsoft Teams 룸 앱은 Windows 스토어를 통해 업데이트를 받습니다. Microsoft Teams 룸 앱은 상록 제품 수명 주기를 사용하며 현재 및 다음 최신 버전의 앱만 지정된 시간에 지원됩니다. Microsoft Teams 룸 앱은 회의실 사용을 위해 수정된 특정 버전의 Teams 데스크톱 앱을 번들로 묶습니다. Teams 데스크톱 앱은 2주마다 업데이트됩니다. [Teams 업데이트 프로세스](../teams-client-update.md)에 대해 자세히 알아봅니다. 즉, Teams 룸 앱 현재-1 버전은 최대 6개의 Teams 데스크톱 앱 업데이트가 뒤처질 수 있으므로 Teams 룸 애플리케이션을 항상 최신 버전의 Teams 룸 앱으로 업데이트하는 것이 좋습니다. 
+Microsoft Teams 룸 앱은 Windows 스토어를 통해 업데이트를 받습니다. 앱은 상록 제품 수명 주기를 사용하며 현재 및 다음 최신 버전의 앱만 지정된 시간에 지원됩니다. 앱은 회의실 사용을 위해 수정된 특정 버전의 Teams 데스크톱 앱을 번들로 묶습니다. Teams 데스크톱 앱은 2주마다 업데이트되지만 Teams 룸 앱은 덜 자주 업데이트됩니다. 즉, Teams 룸 앱 현재-1 버전은 최대 6개의 Teams 데스크톱 앱 업데이트 뒤에 있을 수 있으므로 Teams 룸 앱을 항상 최신 버전으로 업데이트하는 것이 좋습니다. [Teams 업데이트 프로세스](../teams-client-update.md)에 대해 자세히 알아봅니다.
 
 Teams 룸 대한 지원 구조는 동적이며 최신 버전의 가용성에 따라 달라집니다. 최신 버전이 아닌 애플리케이션 버전에서 코드 결함이 발생하는 경우 수정 사항을 받으려면 최신 버전을 설치해야 합니다.
 
@@ -68,7 +68,7 @@ Microsoft Teams 룸 Semi-Annual 채널 서비스 옵션에서 Windows 10 IoT Ent
 지원되는 버전의 Windows 10 사용하면 항상 Microsoft Teams 룸 앱에 대한 최신 애플리케이션 업데이트를 받게 됩니다.  
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Microsoft Teams 룸 도움말](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 

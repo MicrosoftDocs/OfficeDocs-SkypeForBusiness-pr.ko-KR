@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 795433f832d57767a7937be1a9d3e7f31e73f240
-ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
+ms.openlocfilehash: f7b6b360f51c803aef3eb7811b15c17a748df5f0
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "67647442"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705837"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>직접 라우팅으로 전달되는 위치 기반 라우팅 계획
 
@@ -397,7 +397,7 @@ Location-Based 라우팅을 사용하도록 설정된 사용자가 Location-Base
 
 오디오 회의를 위한 온-네트워크 회의는 인도의 전화 통신 장비와 함께 배포되어서는 안 됩니다.
 
-PSTN 호출에서 Location-Based 라우팅이 설정된 사용자는 해당 호출을 다른 호출과 병합할 수 없습니다.
+PSTN 호출에서 Location-Based 라우팅이 설정된 사용자는 해당 호출을 다른 호출과 병합할 수 없습니다. PSTN 호출 및 PSTN 호출의 규정 준수 기록을 기록하는 작업은 지원되지 않습니다.
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Location-Based 라우팅에 대한 미디어 바이패스 요구 사항
 

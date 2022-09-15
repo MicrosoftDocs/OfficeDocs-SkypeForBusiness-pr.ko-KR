@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 룸 인증
+title: Windows에서 Microsoft Teams 룸 인증
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -14,15 +14,15 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
-description: Microsoft Teams 룸 최신 인증을 구성하는 방법을 알아봅니다.
-ms.openlocfilehash: ef576c2d785f3e3fb16afd42e6136b607711c28b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: Windows에서 Microsoft Teams 룸 최신 인증을 구성하는 방법 알아보기
+ms.openlocfilehash: 23e08b48c5d161caf8091068abc4c9cda0061122
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268243"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706435"
 ---
-# <a name="authentication-in-microsoft-teams-rooms"></a>Microsoft Teams 룸 인증
+# <a name="authentication-in-microsoft-teams-rooms-on-windows"></a>Windows에서 Microsoft Teams 룸 인증
 
 Microsoft Teams 룸 대한 계정 관리는 애플리케이션 수준에서 처리됩니다. 애플리케이션은 Microsoft Teams, 비즈니스용 Skype 및 Exchange에 연결하여 통화 및 모임 환경을 사용하도록 리소스 계정에 대한 리소스를 가져옵니다. Teams 룸 전용 리소스 계정을 사용하여 상시 기능, 호출 시나리오(통화 플랜으로 구성된 디바이스의 경우) 및 사용자 지정 잠금 메커니즘을 허용합니다. 즉, Teams 룸 대한 인증은 최종 사용자 디바이스와 다른 방식으로 발생합니다.  
 

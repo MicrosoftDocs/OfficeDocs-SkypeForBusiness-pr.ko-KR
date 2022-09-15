@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Microsoft Teams 룸, Surface Hub의 Teams 룸, Teams 디스플레이의 핫 데스크 등 회의실 및 공유 디바이스에 대한 리소스 계정을 만드는 방법에 대한 자세한 내용은 이 문서를 참조하세요.
-ms.openlocfilehash: e9e7b2724c5c1d8fd85aff956affe96dadf9aaae
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 213cd2019aa23c296706c70a66e3e873f7527ee9
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606227"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706635"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>회의실 및 공유 Teams 디바이스에 대한 리소스 계정 만들기 및 구성
 
@@ -271,7 +271,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 2. 다음 구문을 사용하여 암호가 만료되지 않도록 설정합니다.
 
     ```PowerShell
-    Set-MsolUser -Identity <samAccountName> -PasswordNeverExpires $true
+    Set-MsolUser -UserPrincipalName <userPrincipalName> -PasswordNeverExpires $true
     ```
 
     다음은 계정 ConferenceRoom01@contoso.com 암호가 만료되지 않도록 설정하는 예제입니다.

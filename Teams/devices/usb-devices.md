@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 'Microsoft Teams용으로 인증된 USB 주변 장치 및 장치(예: 헤드셋, 스피커폰, 웹캠 및 모니터)를 확인합니다.'
-ms.openlocfilehash: d7bc08eedf4c70222554b7aed05c0b2a150064e0
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: ad020877a9d6d8ba3a0af3b87e2307b69e7510c8
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268553"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706067"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams용으로 인증된 USB 오디오 및 비디오 장치
 
@@ -175,7 +175,7 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 [Teams에서 헤드�
 |Jabra                |Evolve 40 헤드셋                                          |8/23/2020       |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
 |Jabra                |Evolve 30 II 헤드셋                                       |8/23/2020       |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
 |Jabra                |Evolve 20 헤드셋                                          |8/23/2020       |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
-|EPOS/Sennhesier      |명령 260 USB PTT                                        |8/20/2020       |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
+|EPOS/젠하이저      |명령 260 USB PTT                                        |8/20/2020       |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
 |EPOS/젠하이저      |USB-ED CC 01 MS 커넥터를 사용하여 SC 660에 미치는 영향               |8/20/2020       |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
 |EPOS/젠하이저      |USB-ED CC 01 MS 커넥터를 사용하는 SC 630에 영향               |8/20/2020       |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |
 |EPOS/젠하이저      |USB-ED CC 01 MS 커넥터를 사용하는 SC 260에 영향               |8/20/2020       |Microsoft Teams로 업그레이드한 비즈니스용 Skype      |

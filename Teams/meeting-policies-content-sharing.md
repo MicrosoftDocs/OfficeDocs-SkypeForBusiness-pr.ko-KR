@@ -1,7 +1,7 @@
 ---
 title: 콘텐츠 공유를 위한 모임 정책 관리
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: 콘텐츠 공유를 위해 Teams에서 모임 정책 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: c2baa0328cd1ff0271d2b1ecbf8e1fab76f24846
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: d3ae689ceb2c864f3f70da91728b8607aaa1e0e2
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418617"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706695"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>모임 정책 설정 - 콘텐츠 공유
 

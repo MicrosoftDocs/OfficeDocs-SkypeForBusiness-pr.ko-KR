@@ -1,7 +1,7 @@
 ---
 title: 모임 설정 관리
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 사용자가 조직에서 예약하는 모든 Teams 모임 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: c76267ae5cd9a19cae272d995a24077a58a7ec6f
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
-ms.translationtype: HT
+ms.openlocfilehash: c25405dd305a8556309559d4941dd731331e6d75
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789793"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706505"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams에서의 모임 설정 관리
 
@@ -179,7 +179,7 @@ QoS(서비스 품질)를 사용하여 네트워크 트래픽의 우선 순위를
 |:---             |:---                         |:---    |:---      |:---      |
 |오디오            | 50,000~50,019               |TCP/UDP |46        |Expedited Forwarding(EF)|
 |비디오            | 50,020~50,039               |TCP/UDP |34        |Assured Forwarding(AF41)|
-|응용 프로그램/화면 공유| 50,040~50,059      |TCP/UDP |18         |Assured Forwarding(AF21)|
+|응용 프로그램/화면 공유| 50,040~50,059      |TCP/UDP |18        |Assured Forwarding(AF21)|
 | | | | |
 
 \* 할당하는 포트 범위는 겹칠 수 없으며 서로 근접해 있어야 합니다.

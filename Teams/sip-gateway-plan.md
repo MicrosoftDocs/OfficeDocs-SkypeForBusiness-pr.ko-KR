@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adcaee64e2a95d41229afe580624c6798547cb85
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: fd4b50052483c9f6e5221f3555a962adfe2444d3
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271703"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706007"
 ---
 # <a name="plan-for-sip-gateway"></a>SIP 게이트웨이 계획
 
@@ -61,7 +61,7 @@ Teams 사용자는 SIP 게이트웨이를 사용하려면 PSTN 통화가 설정�
 
 3PIP 또는 SIP 디바이스가 있는 경우 다음이 있어야 합니다.
 
-- 전화 시스템 라이선스(E5 또는 독립 실행형 라이선스를 통해)
+- Microsoft Teams, 비즈니스용 Skype Online 플랜 2 및 Microsoft 365 전화 시스템(E5 또는 독립 실행형 라이선스를 통한) 라이선스
 - Microsoft Teams 통화 플랜, 직접 라우팅 또는 운영자 연결을 통한 PSTN 사용(즉, 전화 번호)
 - 공용 영역 디바이스에 대한 공용 영역 전화 라이선스
 

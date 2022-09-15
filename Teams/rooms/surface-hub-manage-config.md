@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Microsoft Intune 및 Windows 구성 디자이너를 사용하여 Surface Hub에서 Microsoft Teams 설정 관리
-ms.openlocfilehash: 6e99922ebb7bb30db1b5e94fd1a4d30b8ec653b8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 7296ed84cf34b47c562cb3ab5f5582fe1eec58ac
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272213"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705977"
 ---
 # <a name="manage-microsoft-teams-settings-on-surface-hub"></a>Surface Hub에서 Microsoft Teams 설정 관리
 
@@ -57,7 +57,7 @@ Surface Hub의 Teams 구성은 XML 파일을 사용하여 정의됩니다. XML �
 | `<SurfaceHubSettings>`  | `<AutoAcceptProximateMeetingInvitations>` |           | Teams에서 근접 기반 모임을 자동으로 수락할지 여부를 결정합니다.<br>허용되는 값: `true``false`                                                                                                                                                                                                                                                                                                                                                                                                     |
 | `<SurfaceHubSettings>`  | `<CoordinatedMeetings>`                   |           | 조정된 모임에 대한 모든 구성 요소를 포함합니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |                         |                                           | `enabled` | Teams가 다른 장치와 함께 조정된 모임에 참여하도록 구성되었는지 여부를 결정합니다.<br>허용되는 값: `true``false`                                                                                                                                                                                                                                                                                                                                                                                |
-| `<CoordinatedMeetings>` | `<TrustedAccounts>`                       |           | 각 Teams 룸 디바이스 또는 Surface Hub에 대해 쉼표로 구분된 UPN 목록으로, 디바이스가 모임 참가 요청을 수락해야 하거나 모임 참가 요청을 보내야 합니다.<br>허용되는 값: 문자열                                                                                                                                                                                                                                                                                                                         |
+| `<CoordinatedMeetings>` | `<TrustedAccounts>`                       |           | 디바이스가 모임 참가 요청을 수락해야 하거나 모임 참가 요청을 보내야 하는 각 Teams 룸 디바이스 또는 Surface Hub에 대해 쉼표로 구분된 UPN 목록입니다.<br>허용되는 값: 문자열                                                                                                                                                                                                                                                                                                                         |
 | `<CoordinatedMeetings>` | `<Settings>`                              |           | 조정된 모임에 대한 구성 오디오 및 비디오 구성 요소를 포함합니다.                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | `<Settings>`            | `<Audio>`                                 |           | Surface Hub에서 Teams의 오디오 구성을 제어합니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |                         |                                           | `default` | 모임이 시작될 때 마이크가 활성화될 디바이스를 결정합니다. 하나의 디바이스(일반적으로 Teams 룸 디바이스)만 이 필드를 설정할 `true` 수 있지만 나머지 디바이스는 오디오 에코 및 피드백을 방지하기 위해 `false` 이 필드를 설정해야 합니다.<br>허용되는 값: `true``false`                                                                                                                                                                                                           |

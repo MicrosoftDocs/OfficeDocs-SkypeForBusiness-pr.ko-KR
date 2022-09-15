@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 한 장치 또는 다른 디바이스가 모임에 참가할 때 모임에 참가하도록 Teams 룸 디바이스 및 Surface Hub를 구성합니다.
-ms.openlocfilehash: f34e3637c9c9716c6f8ec87865c3c570820a0357
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 759574015f2138476e0b03ef6fa85b8b105d81ef
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270483"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706985"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Microsoft Teams 룸 및 Surface Hub를 사용하여 조정된 모임 설정
 
@@ -73,7 +73,7 @@ Teams 룸 디바이스 및 Surface Hub의 UPN을 얻으려면 다음을 수행�
 | **비디오 사용**      | 모임 참가자가 카메라를 켜거나 끌 수 있는지 여부를 결정합니다. 참가자가 Surface Hub 화이트보드를 `true` 사용하는 경우와 같이 다른 비디오 관점을 공유하려는 이벤트 참가자의 다른 장치에서 이 설정을 지정할 수 있습니다. 참가자가 디바이스에서 카메라를 켜거나 끄지 않도록 하려면 이 옵션을 설정하세요 `false`.<p> **비디오 기본값** 이 설정된 `true`경우 이 설정은 무시되며 참가자는 카메라를 켜거나 끌 수 있습니다.         |
 | **화이트보드 기본값** | Teams 룸 장치에서 모임 참가자 중 한 명이 공유하는 화이트보드를 표시할지 여부를 결정합니다. Surface Hub가 있고 Surface Hub `true` 가 없는 경우 이를 `false` 설정하는 것이 좋습니다. 이 설정은 Surface Hubs에 영향을 주지 않습니다. Surface Hubs는 항상 모임 참가자가 공유하는 화이트보드를 표시합니다.         |
 | **화이트보드 사용** | 모임 참가자가 화이트보드를 켜거나 끌 수 있는지 여부를 결정합니다. 참가자가 디바이스에서 화이트보드를 켜거나 끄지 않으려면 이 옵션을 설정하세요 `false`. <p>**화이트보드 기본값** 이 설정된 `true`경우 이 설정은 무시되며 참가자는 화이트보드를 켜거나 끌 수 있습니다.
-| **신뢰할 수 있는 계정**   | 각 Teams 룸 디바이스 또는 Surface Hub에 대해 쉼표로 구분된 UPN 목록으로, 디바이스가 모임 참가 요청을 수락해야 하거나 모임 참가 요청을 보내야 합니다. |
+| **신뢰할 수 있는 계정**   | 디바이스가 모임 참가 요청을 수락해야 하거나 모임 참가 요청을 보내야 하는 각 Teams 룸 디바이스 또는 Surface Hub에 대해 쉼표로 구분된 UPN 목록입니다. |
 
 후속 열에서 각 Teams 룸 디바이스 및 Surface Hub를 추가합니다. 각 열에서 회의실에 대해 원하는 환경에 해당하는 값을 입력합니다. 다음은 하나의 Teams 룸 디바이스와 하나의 Surface Hub를 사용하는 예제입니다.
 

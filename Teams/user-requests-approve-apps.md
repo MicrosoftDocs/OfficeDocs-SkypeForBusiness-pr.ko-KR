@@ -14,16 +14,16 @@ ms.reviewer: mhayrapetyan
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.manageapps.overview
-description: 조직에서 차단된 앱을 허용하도록 최종 사용자 요청을 관리하고 구성하는 방법을 알아봅니다.
+description: 조직에서 차단된 앱의 승인을 위해 최종 사용자 요청을 관리하고 구성하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 62d34aae25ef1ebff585ea430aeb3db20856669a
-ms.sourcegitcommit: 9de6b0b03f433e71fe239d292387eed33c11b531
+ms.openlocfilehash: 0967aec80bb88dff12141040fead94af9aae0616
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "67657328"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706227"
 ---
 # <a name="manage-user-requests"></a>사용자 요청 관리
 
@@ -75,18 +75,18 @@ Teams는 사용자가 앱에 대한 승인을 요청하는 기본 메시지를 �
 
 1. 오른쪽 위 모서리에서 **조직 전체 앱 설정을** 선택합니다.
 
-1. Teams 스토어에서 사용자 지정 메시지 또는 명령을 표시하려면 **사용자 요청 구성** 아래의 텍스트 필드에 문자 메시지를 입력합니다.
+1. Teams 스토어에서 사용자 지정 메시지 또는 명령을 표시하려면 **사용자 요청 구성** 아래의 텍스트 필드에 문자 메시지를 입력합니다. 필드에는 300자로 제한됩니다.
 
 1. 조직별 URL을 제공하여 사용자 요청을 수집하려면 다음 단계를 수행합니다.
 
    1. **외부 링크 토글에 대한 리디렉션 요청을** 켭니다.
    1. 조직별 URL을 제공합니다.
 
-      :::image type="content" source="media/user-request-config-org-wide-setting.png" alt-text="조직 전체 설정 UI에서 앱 차단을 해제하도록 사용자 요청에 대한 URL 사용자 지정을 토글하는 스크린샷.":::
+      :::image type="content" source="media/user-request-config-org-wide-setting.png" alt-text="조직 전체 설정 UI에서 사용자 요청에 대한 URL 사용자 지정을 토글하는 스크린샷.":::
 
 1. **저장** 을 선택합니다.
 
-요청된 앱을 평가하고 허용하는 메서드는 동일하게 유지됩니다.
+이렇게 하려면 타사 앱을 평가하고 요청된 앱을 허용하는 메서드가 동일하게 유지됩니다.
 
 ## <a name="dismiss-user-requests"></a>사용자 요청 해제
 
