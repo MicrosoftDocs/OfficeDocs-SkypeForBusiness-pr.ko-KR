@@ -1789,6 +1789,8 @@ items:
             href: teams-powershell-release-notes.md
           - name: Teams PowerShell 지원 버전
             href: teams-powershell-supported-versions.md
+          - name: Teams PowerShell 모듈의 애플리케이션 기반 인증
+            href: teams-powershell-application-authentication.md
           - name: 비즈니스용 Skype Online 커넥터에서 Teams PowerShell 모듈로 이동
             href: teams-powershell-move-from-sfbo.md
           - name: Teams용 Cmdlet 참조

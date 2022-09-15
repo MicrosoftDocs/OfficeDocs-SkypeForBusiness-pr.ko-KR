@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fca16f3b09fc153717b24161eb8717f419171677
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: df00f6324d1f9a50adc42c8e8c5c4dfd2ff9bd14
+ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396329"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67732297"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 팀 관리
 
@@ -149,3 +149,4 @@ Exchange Online PowerShell을 통해 얻을 수 있는 해당 실제 GroupId에 
 - [Teams cmdlet 참조](/powershell/teams/)  
 - [Teams 관리자 역할을 사용하여 Teams 관리](using-admin-roles.md)
 - [Teams에서 수명 주기 관리 계획](plan-teams-lifecycle.md)
+- [Microsoft 365 관리 센터 개요](/microsoft-365/admin/admin-overview/admin-center-overview)

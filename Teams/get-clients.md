@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ec6958c481cf8d16477aeb7728b82b76de8f78b
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: f53dd50f78afa2d85c4858e2d98170b3dc044f55
+ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706715"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67732317"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams용 클라이언트 다운로드
 
@@ -198,6 +198,9 @@ Teams 모바일 앱에 지원되는 모바일 플랫폼은 다음과 같습니�
 - **Huawei** <https://aka.ms/TeamsHuawei>
 - **Oppo** Oppo 스토어에서 "Teams"를 검색합니다.
 - **Baidu** <https://aka.ms/teams_baidu_direct_dl>
+
+> [!NOTE]
+> 사용자가 중국 기반 Android 앱 스토어 중 하나에서 Teams를 설치하고 Teams에 푸시 알림을 사용하도록 설정하면 Microsoft는 중국 기반 푸시 알림 서비스를 통해 Teams 푸시 알림을 제공합니다.
 
 ## <a name="browser-client"></a>브라우저 클라이언트
 

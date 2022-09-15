@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
 description: Microsoft 365 또는 Office 365 오디오 회의를 통해 사용자가 휴대폰에서 모임에 전화를 걸 수 있는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7073fa9c870fc718b2d2c6e24e109878e0dd2d34
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 8fcc731f208dc3fecd42dd2c351714f67ad6a684
+ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269933"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67732407"
 ---
 # <a name="audio-conferencing-policy-settings-for-toll-and-toll-free-numbers"></a>유료 및 무료 번호에 대한 오디오 회의 정책 설정
 
@@ -36,6 +36,9 @@ ms.locfileid: "67269933"
 
 - AllowTollFreeDialin에 대한 설정은 Teams 관리 센터 또는 PowerShell을 통해 개별 사용자에 대해 더 이상 관리할 수 없습니다. 테넌트 관리자는 새 오디오 회의 정책을 통해서만 이 설정을 관리할 수 있습니다.
 - Teams 관리 센터에서 전역 정책을 수정할 수 없습니다.
+
+> [!NOTE]
+> 사용자 지정 오디오 회의 정책은 비즈니스용 Skype 지역 호스팅 모임에 사용하도록 설정된 고객에게는 지원되지 않습니다. 지역 호스팅 모임에 사용하도록 설정된 고객은 기본 설정을 통해 사용자의 오디오 회의 설정을 관리할 수 있습니다. Teams 관리 센터에서 사용자 관리 사용자 **선택** -> **사용자** -> **계정** 으로 이동하여  ->  사용자의 오디오 회의 기본 설정을 변경할 수 있습니다.
 
 테넌트에서 Teams 오디오 회의 정책을 사용하도록 설정하면 테넌트에서 두 개의 정책이 자동으로 만들어집니다. 자동으로 생성된 두 정책과 기본 설정은 다음과 같습니다.
 
