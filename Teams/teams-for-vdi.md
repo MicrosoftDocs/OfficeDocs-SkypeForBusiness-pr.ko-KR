@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e540200f42af23ff4382db7ed4ff528971501b9
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 92d46cacd510f448943deba86a6ed25d4f4360ab
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706017"
+ms.locfileid: "67706515"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>VDI(Virtualized Desktop Infrastructure)용 Teams
 
@@ -169,11 +169,9 @@ Teams 및 엔터프라이즈용 Microsoft 365 앱 대한 자세한 내용은 엔
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>VM에 Teams 데스크톱 앱 배포
 
-1. 다음 링크 중 하나를 사용하여 VDI VM 운영 체제와 일치하는 Teams MSI 패키지를 다운로드합니다.
-
+⁠1. 다음 링크 중 하나를 사용하여 VDI VM 운영 체제와 일치하는 Teams MSI 패키지를 다운로드합니다.
     - [32비트 버전](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
     - [64비트 버전](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
-
     > [!NOTE]
     > 정부 클라우드의 경우 MSI 파일에 대한 다운로드 링크 [는 MSI(Windows Installer)를 사용하여 Teams 대량 설치](msi-deployment.md) 를 참조하세요.
 
