@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 이 문서에서는 Cisco Webex 및 Zoom에 대한 타사 모임 참가를 지원하도록 조직 및 Teams 룸 디바이스를 구성하는 방법을 설명합니다.
-ms.openlocfilehash: 1cbcd54983c9122467fbf133cc97b2c189857c96
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 70d2cf03dea3fcfef3d08c07f4f771bd8a2ea70e
+ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268203"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "67794997"
 ---
 # <a name="enable-teams-rooms-devices-to-join-third-party-meetings"></a>Teams 룸 디바이스가 타사 모임에 참가하도록 설정
 
@@ -27,12 +27,15 @@ Microsoft Teams 룸 장치는 직접 게스트 조인이라고도 하는 타사 
 
 지원되는 디바이스 및 서비스:
 
-- Windows의 MTR, 모든 인증된 모델 – Zoom, Cisco Webex
+- Windows의 Teams 룸, 모든 인증된 모델 – Zoom, Cisco Webex
 
-- Android, Poly, Yealink 및 Logitech 인증 모델의 MTR – 확대/축소
+- Android의 Teams 룸, 모든 인증된 모델 – Zoom, Cisco Webex
+
+    > [!NOTE]
+    > Microsoft는 정기적으로 Android에서 Teams 룸 위한 새로운 기능을 릴리스합니다. 그러나 기능이 릴리스되는 시기와 디바이스에서 사용할 수 있게 되는 시점 사이에는 지연이 있을 수 있습니다. 디바이스에서 기능을 사용할 수 없는 경우 디바이스 제조업체에 문의하여 사용 가능한 시기에 대한 정보를 확인하세요.
 
 > [!NOTE]
-> Teams 룸 디바이스에서 Cisco Webex 모임에 참가하려면 Cisco Webex 웹 애플리케이션 버전 WBS 40.7 이상을 사용하여 Webex Meetings Pro에서 Cisco 모임을 호스트해야 합니다. 
+> Teams 룸 디바이스에서 Cisco Webex 모임에 참가하려면 Cisco Webex 웹 애플리케이션 버전 WBS 40.7 이상을 사용하여 Webex Meetings Pro에서 Cisco 모임을 호스트해야 합니다.
 
 Teams 룸 타사 모임에 참가하려면 다음을 수행해야 합니다.
 

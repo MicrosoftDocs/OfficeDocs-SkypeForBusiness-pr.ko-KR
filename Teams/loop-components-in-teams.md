@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e468622d4aac30756e54127072045831374c5425
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 0e0b9c5a7ffef07a1d9245d2b1266a071b4ee0c2
+ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418647"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "67795057"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Teams의 루프 구성 요소 개요
 
@@ -82,7 +82,7 @@ Office.com Teams 채팅에서 구성 요소를 열면 다른 Office 문서에 �
 
 - Teams 메시징 내의 만들기/삽입 진입점은 숨겨집니다. 사용자는 새 .fluid 파일을 만들 수 없습니다.
 - 이전에 대화형 루프 구성 요소로 렌더링되었던 기존 메시지는 대신 하이퍼링크 "루프 구성 요소"로 렌더링됩니다. Teams 내에는 대화형 콘텐츠가 표시되지 않습니다.
-- 최종 사용자가 "루프 구성 요소" 하이퍼링크를 클릭하거나 비즈니스용 OneDrive .fluid 파일을 찾아서 클릭하여 열면 별도의 브라우저 탭에서 파일이 열리지만 최종 사용자는 파일을 편집할 수 없습니다.
+- 최종 사용자가 "루프 구성 요소" 하이퍼링크를 클릭하거나 비즈니스용 OneDrive .fluid 파일을 찾아서 열면 별도의 브라우저 탭에서 파일이 열립니다. 최종 사용자는 여전히 파일을 편집할 수 있습니다.
 
 ## <a name="known-issues"></a>알려진 문제
 

@@ -32,6 +32,9 @@ Connect 모델은 Microsoft 인증 SBC 및 직접 라우팅을 사용하여 Team
 
 - [<span class="underline">Microsoft SBC(인증 세션 테두리 컨트롤러)</span>를 사용하는 솔루션 공급자](../direct-routing-border-controllers.md)
 
+> [!NOTE]
+> 에이전트 사용 연락처 솔루션에는 전화 시스템 라이선스가 필요하지 않습니다. Teams 사용자는 전화 시스템 라이선스와 에이전트의 통화 전송 전화 번호가 필요합니다.
+
 ### <a name="the-extend-model"></a>[**확장 모델**](#tab/extend)
 
 확장 모델은 Microsoft Graph의 Teams [클라이언트 플랫폼](/microsoftteams/platform/overview), [Teams Graph API](/graph/api/resources/teams-api-overview) 및 [Cloud Communications API를](/graph/api/resources/communications-api-overview) 사용하여 Teams 클라이언트와 통합됩니다. 확장 모델은 또한 모든 컨택 센터 통화 및 통화 제어 환경에 Teams 전화 시스템을 사용하며, 컨택 센터 솔루션 공급자는 Microsoft 365와 함께 전화 통신 사업자 역할을 합니다.
@@ -60,8 +63,7 @@ Connect 모델은 Microsoft 인증 SBC 및 직접 라우팅을 사용하여 Team
 
 - 모든 앱에서 Teams 클라이언트 환경의 성능 및 품질 유지
 
-> [!NOTE]
-> 에이전트 봇에는 전화 시스템 라이선스가 필요하지 않습니다. Teams 사용자는 전화 시스템 라이선스와 전화 번호가 필요합니다.
+
 
 ### <a name="the-power-model"></a>[**전원 모델**](#tab/power)
 
