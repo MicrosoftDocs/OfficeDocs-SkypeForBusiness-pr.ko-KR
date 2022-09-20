@@ -18,12 +18,12 @@ ms.custom:
 description: Microsoft Teams를 계획, 배포 및 실행하는 방법에 대한 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 133369477a9e633e3e7ccb6309d8cae037f86f90
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 384f6f34a689e0337489d08e4956df425b497d5d
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486903"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808379"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams용 관리자 교육 시작
 
@@ -39,8 +39,8 @@ ms.locfileid: "67486903"
 
 |&nbsp; |&nbsp; |&nbsp;  |
 |---------|---------|---------|
-|[**IT에 대한 Teams 필수 사항**](https://aka.ms/MicrosoftTeamsforIT) - Microsoft Mechanics "IT용 Teams" 비디오 시리즈에서는 관리자가 Teams를 롤아웃, 구성 및 관리하는 방법을 보여 줍니다.     |[**Microsoft Teams를 사용하여 원격 작업자 지원**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - 집에서 일하는 사용자를 지원하기 위해 필요한 지침(교육 링크 포함)을 가져옵니다.         |[**IT에 대한 팀 공동 작업 관리**](/learn/paths/m365-manage-team-collaboration) - Teams를 사용하여 애플리케이션 및 장치에서 조직 내에서 팀워크와 통신을 용이하게 하는 방법을 알아봅니다.         |
-|[**서비스 채택 전문가 인증**](/learn/paths/m365-service-adoption) - Microsoft 서비스 채택 전문가 인증 과정에는 Teams가 있습니다. 조직에서 Microsoft 서비스 채택률을 높일 수 있는 방법에 대해 알아보세요.     |[**Microsoft 365의 팀워크 소개**](/learn/modules/intro-to-teamwork-in-m365/index) - Microsoft 서비스 채택 전문가 인증 과정에는 Teams가 있습니다. 조직에서 Microsoft 서비스 채택률을 높일 수 있는 방법에 대해 알아보세요.        |[**Microsoft 365 Certified: Teamwork Administrator Associate**](/learn/certifications/m365-teamwork-administrator) - Microsoft 365 Teamwork Administrators는 SharePoint(온라인, 온-프레미스 및 하이브리드), OneDrive 및 Teams와 같은 Microsoft 365 또는 Office 365 워크로드를 구성, 배포 및 관리합니다.        |
+|[**IT에 대한 Teams 필수 사항**](https://aka.ms/MicrosoftTeamsforIT) - Microsoft Mechanics "IT용 Teams" 비디오 시리즈에서는 관리자가 Teams를 롤아웃, 구성 및 관리하는 방법을 보여 줍니다.     |[**Microsoft Teams를 사용하여 원격 작업자 지원**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - 집에서 일하는 사용자를 지원하기 위해 필요한 지침(교육 링크 포함)을 가져옵니다.         |[**IT에 대한 팀 공동 작업 관리**](/training/paths/m365-manage-team-collaboration) - Teams를 사용하여 애플리케이션 및 장치에서 조직 내에서 팀워크와 통신을 용이하게 하는 방법을 알아봅니다.         |
+|[**서비스 채택 전문가 인증**](/training/paths/m365-service-adoption) - Microsoft 서비스 채택 전문가 인증 과정에는 Teams가 있습니다. 조직에서 Microsoft 서비스 채택률을 높일 수 있는 방법에 대해 알아보세요.     |[**Microsoft 365의 팀워크 소개**](/training/modules/intro-to-teamwork-in-m365/index) - Microsoft 서비스 채택 전문가 인증 과정에는 Teams가 있습니다. 조직에서 Microsoft 서비스 채택률을 높일 수 있는 방법에 대해 알아보세요.        |[**Microsoft 365 Certified: Teamwork Administrator Associate**](/certifications/m365-teamwork-administrator) - Microsoft 365 Teamwork Administrators는 SharePoint(온라인, 온-프레미스 및 하이브리드), OneDrive 및 Teams와 같은 Microsoft 365 또는 Office 365 워크로드를 구성, 배포 및 관리합니다.        |
 
 <h2>기술 교육</h2>
 

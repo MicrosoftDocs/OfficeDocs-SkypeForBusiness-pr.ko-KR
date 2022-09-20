@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: b67c1b9500ad5df959831e17a183cb61ca3ed8a1
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: d6f2cc6685d6d9d80c2282cdfd1751a7d7f1916d
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271453"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808469"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 교육
 
@@ -51,7 +51,7 @@ ms.locfileid: "67271453"
    :::column-end:::
 
    :::column:::
-   **[IT를 위한 Teams 공동 작업 관리](/learn/paths/m365-manage-team-collaboration)** </br>
+   **[IT를 위한 Teams 공동 작업 관리](/training/paths/m365-manage-team-collaboration)** </br>
    과정: Teams를 사용하여 여러 응용 프로그램 및 장치 내에서 팀워크와 커뮤니케이션을 용이하게 하는 방법을 배울 수 있습니다.
 
    :::column-end:::
@@ -60,12 +60,12 @@ ms.locfileid: "67271453"
 
 :::row:::
    :::column:::
-   **[채택 전문가 인증](/learn/paths/m365-service-adoption/)** </br> Microsoft 서비스 도입 전문가 인증 과정은 Teams를 주로 다룹니다. 조직에서 Microsoft 서비스 채택을 견인하는 방법에 대해 알아보세요.
+   **[채택 전문가 인증](/training/paths/m365-service-adoption/)** </br> Microsoft 서비스 도입 전문가 인증 과정은 Teams를 주로 다룹니다. 조직에서 Microsoft 서비스 채택을 견인하는 방법에 대해 알아보세요.
 
    :::column-end:::
 
    :::column:::
-   **[Microsoft 365의 팀워크 소개](/learn/modules/intro-to-teamwork-in-m365/index)** </br>
+   **[Microsoft 365의 팀워크 소개](/training/modules/intro-to-teamwork-in-m365/index)** </br>
    모든 직원의 위치 또는 조직에 연결하는 방법에 관계없이 그들의 팀워크를 용이하게 하는 Microsoft 365 도구에 대해 학습하세요.
 
    :::column-end:::

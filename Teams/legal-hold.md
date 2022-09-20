@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams 사용자 또는 팀을 법적 보류에 배치
-author: v-tophillips
-ms.author: v-tophillips
+title: Microsoft Teams 사용자 또는 팀을 법적 보류 상태로 유지
+author: robmazz
+ms.author: robmazz
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -12,19 +12,19 @@ ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Microsoft Purview 규정 준수 포털을 사용하여 Microsoft Teams 사용자 또는 팀을 법적 보류에 배치하고 데이터 요구 사항에 따라 법적 보존이 필요한 사항을 알아봅니다.
+description: Microsoft Purview 규정 준수 포털 사용하여 Microsoft Teams 사용자 또는 팀을 법적 보존에 배치하고 데이터 요구 사항에 따라 법적 보존이 필요한 사항을 알아보는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f0ea852b564ac339ac390994384258cc5d68ea1
-ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
+ms.openlocfilehash: 2dc99518aa3580311c48966105ccc4b4ba6cf518
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2022
-ms.locfileid: "65031913"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808759"
 ---
-# <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Microsoft Teams 사용자 또는 팀을 법적 보류에 배치
+# <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Microsoft Teams 사용자 또는 팀을 법적 보류 상태로 유지
 
-소송에 대한 합리적인 기대가 있는 경우 조직은 사례와 관련된 Teams 채팅 메시지를 포함하여 ESI(전자 저장 정보)를 보존해야 합니다. 조직은 특정 조사 또는 특정 사용자와 관련된 모든 메시지를 보존해야 할 수 있습니다. 이 문서에서는 법적 보존을 사용하여 Microsoft Teams 콘텐츠를 보존하는 방법을 설명합니다. Microsoft 365 다른 서비스의 콘텐츠를 보존하려면 [eDiscovery 보류 만들기를](/microsoft-365/compliance/create-ediscovery-holds) 참조하세요.
+소송에 대한 합리적인 기대가 있는 경우 조직은 사례와 관련된 Teams 채팅 메시지를 포함하여 ESI(전자 저장 정보)를 보존해야 합니다. 조직은 특정 조사 또는 특정 사용자와 관련된 모든 메시지를 보존해야 할 수 있습니다. 이 문서에서는 법적 보존을 사용하여 Microsoft Teams의 콘텐츠를 보존하는 방법을 설명합니다. Microsoft 365의 다른 서비스에서 콘텐츠를 보존하려면 [eDiscovery 보류 만들기를](/microsoft-365/compliance/create-ediscovery-holds) 참조하세요.
 
 > [!NOTE]
 > 2020년 2월에는 비공개 채널에 대한 법적 보류를 설정했습니다. 개인 채널 채팅은 사용자 사서함에 저장되고 표준 채널 채팅은 부모 팀과 연결된 사서함에 저장됩니다. 사용자 사서함에 대한 법적 보존이 이미 있는 경우 해당 사서함에 저장된 개인 채널 메시지에 보존 정책이 자동으로 적용됩니다. 관리자가 이 기능을 켜는 데 필요한 추가 작업은 없습니다. 비공개 채널에서 공유되는 파일의 법적 보존도 지원됩니다.
@@ -37,14 +37,14 @@ Microsoft Teams 내에서 전체 팀 또는 선택한 사용자를 법적 보류
 
 eDiscovery(표준) 사례에서 사용자 또는 팀을 법적 보존에 배치하려면 다음을 수행합니다.
 
-1. [Microsoft Purview 규정 준수 포털](https://compliance.microsoft.com)로 이동합니다. 새 사례를 만들 때 사서함 또는 사이트를 보류할 수 있는 옵션이 표시됩니다.
+1. [Microsoft Purview 규정 준수 포털](https://compliance.microsoft.com) 이동합니다. 새 사례를 만들 때 사서함 또는 사이트를 보류할 수 있는 옵션이 표시됩니다.
 
-2. **eDiscoveryCore** > 로 이동하여 사례 만들기를 클릭하여 **사례를 만듭니다**. 사례를 만든 후 엽니다.
+2. **eDiscovery** > **Core** 로 이동하여 사례 만들기를 클릭하여 **사례를 만듭니다**. 사례를 만든 후 엽니다.
   
-   ![Microsoft Teams eDiscovery 탭이 선택되어 사례 만들기 단추가 표시됩니다.](media/LegalHold1.png)
+   ![사례 만들기 단추를 보여 주는 Microsoft Teams eDiscovery 탭이 선택되었습니다.](media/LegalHold1.png)
 
    > [!NOTE]
-   > eDiscovery(Premium) 사례와 연결된 보류에 사용자를 배치할 수도 있습니다. 자세한 내용은 [eDiscovery의 보류 관리(Premium)](/microsoft-365/compliance/managing-holds)를 참조하세요.
+   > eDiscovery(프리미엄) 사례와 연결된 보류에 사용자를 배치할 수도 있습니다. 자세한 내용은 [eDiscovery의 보류 관리(프리미엄)](/microsoft-365/compliance/managing-holds)를 참조하세요.
 
 3. 위쪽 메뉴의 **보류** 탭으로 이동하고 **만들기** 를 클릭하여 보류를 만듭니다. 사용자 또는 팀을 보류하면 해당 사용자가 교환한 모든 메시지가 유지됩니다. 새 사례를 만들 때 사서함 또는 사이트를 보류할 수 있는 옵션이 표시됩니다.
 
@@ -62,14 +62,14 @@ eDiscovery(표준) 사례에서 사용자 또는 팀을 법적 보존에 배치�
 
    4. 보류를 만들기 전에 **설정을 검토합니다**.
 
-보류가 만들어지면 보류 정책에 의해 보존된 콘텐츠를 검색할 수 있습니다. 자세한 내용은 [Teams eDiscovery 조사 수행](eDiscovery-investigation.md)을 참조하세요.
+보류가 만들어지면 보류 정책에 의해 보존된 콘텐츠를 검색할 수 있습니다. 자세한 내용은 [Teams에서 eDiscovery 조사 수행을 참조하세요](eDiscovery-investigation.md).
 
 > [!IMPORTANT]
 > 사용자 또는 그룹이 보류되면 메시지의 모든 준수 복사본이 유지됩니다. 예를 들어 사용자가 채널에 메시지를 게시한 다음 메시지를 수정하는 경우 메시지의 두 복사본이 모두 유지됩니다. 보류가 없으면 최신 메시지만 유지됩니다.
 
 ## <a name="content-locations-to-place-on-hold-to-preserve-teams-content"></a>Teams 콘텐츠를 보존하기 위해 보류할 콘텐츠 위치
 
-유용한 가이드로 다음 표를 사용하여 다양한 유형의 Teams 콘텐츠를 유지하기 위해 보류할 콘텐츠 위치(예: 사서함 또는 사이트)를 이해합니다.
+유용한 가이드로 다음 표를 사용하여 다양한 유형의 Teams 콘텐츠를 보존하기 위해 보류할 콘텐츠 위치(예: 사서함 또는 사이트)를 이해합니다.
 
 |시나리오  |콘텐츠 위치  |
 |---------|---------|

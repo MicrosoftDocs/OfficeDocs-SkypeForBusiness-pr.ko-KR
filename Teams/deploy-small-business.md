@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c3afa62cfaca28c0c428c15b44868e7237973955
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: 32b55c026daad08aab22f1621190e2768e0b26e5
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045447"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808669"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>중소 기업 Microsoft Teams 설정
 
@@ -49,7 +49,7 @@ Teams를 광범위하게 배포하기 전에 [준비되었는지 확인](get-sta
 채팅, 팀 및 채널은 Teams의 기본입니다. **채팅** 에서는 한 명 이상의 사용자가 서로 대화하고 파일을 공유하고 개인적으로 만날 수 있습니다. **팀** 에서는 조직 내의 모든 사람이 또는 팀 구성원만 볼 수 있어 장기간 실행되는 프로젝트나 생일 파티를 계획하는 작업이나 상황에 관계없이 적합한 사람이 공동 작업할 수 있도록 합니다. **채널** 에서는 팀 내에서 주제, 프로젝트, 부서 또는 다른 항목을 분할할 수 있습니다. 채팅, 팀 및 채널에 대한 자세한 내용은 [팀 및 채널 개요](teams-channels-overview.md)를 확인하세요.
 
 > [!TIP]
-> 팀 역할, 액세스 및 메시지 정책을 관리하는 방법은 Microsoft Learn에서 [Microsoft Teams 관리](/learn/modules/m365-teams-collab-manage-teams/) 모듈을 완료하여 알아보세요.
+> 팀 역할, 액세스 및 메시지 정책을 관리하는 방법은 Microsoft Learn에서 [Microsoft Teams 관리](/training/modules/m365-teams-collab-manage-teams/) 모듈을 완료하여 알아보세요.
 
 팀과 채널을 배포하려면 팀과 채널을 만들 수 있는 사용자와 조직 외부 게스트가 팀과 채널에 액세스할 수 있는지 여부 등을 결정해야 합니다. [Microsoft Teams의 채팅, 팀, 채널 및 앱](deploy-chat-teams-channels-microsoft-teams-landing-page.md) 문서에는 채팅, 팀 및 채널 계획에 대한 많은 정보가 있지만, 다음에 이 문서에서 고려해야할 몇 가지 주요 사항이 있습니다. 더 많은 정보를 원하면 결정을 선택하세요.
 
@@ -71,7 +71,7 @@ Teams를 광범위하게 배포하기 전에 [준비되었는지 확인](get-sta
 **오디오 회의** 를 통해 회의 전화 번호로 전화를 걸고 모임 ID를 입력하여 일반 전화로 모임에 참가할 수 있습니다. 오디오 회의는 참가자가 인터넷에 연결되어 있지 않거나, 모임이 음성 전용이거나, Teams 클라이언트를 통해 참가할 수 없는 다른 상황에서 유용합니다.
 
 > [!TIP]
-> 모임 및 이벤트는 Microsoft Learn에서 [Microsoft Teams 모임, 화의 및 이벤트 관리](/learn/modules/m365-teams-collab-manage-meetings) 모듈을 완료하여 더 익숙해질 수 있습니다.
+> 모임 및 이벤트는 Microsoft Learn에서 [Microsoft Teams 모임, 화의 및 이벤트 관리](/training/modules/m365-teams-collab-manage-meetings) 모듈을 완료하여 더 익숙해질 수 있습니다.
 
 Teams에서는 모임이 기본적으로 활성화되어 있지만, 이끌이 및 참가자의 모임 환경을 제어할 수 있습니다. 또한 모임 전이나 모임 중에 허용된 사람과 허용되지 않는 사람에 대한 정책을 설정할 수 있습니다. 자세한 내용에 대해서는 다음 문서를 확인하세요.
 
@@ -91,7 +91,7 @@ Teams를 사용할 준비가 되면 Windows, Mac, Linux PC나Android, iOS 장치
 Teams를 사용할 모든 사람에게 Teams 라이선스가 있는지 확인 Teams 라이선스 할당에 대한 자세한 내용은 [Teams에 대한 사용자 액세스 관리](user-access.md#using-the-microsoft-365-admin-center)를 참조하세요.
 
 > [!TIP]
-> Microsoft Learn에서 [Microsoft Teams 클라이언트 배포](/learn/modules/m365-teams-collab-deploy-clients/) 모듈을 완료하여 Teams 클라이언트 배포를 계획하는 방법에 대한 권장 사항을 확인하세요.
+> Microsoft Learn에서 [Microsoft Teams 클라이언트 배포](/training/modules/m365-teams-collab-deploy-clients/) 모듈을 완료하여 Teams 클라이언트 배포를 계획하는 방법에 대한 권장 사항을 확인하세요.
 
 조직에서 Microsoft Endpoint Configuration Manager, 그룹 정책 또는 타사 배포 메커니즘을 사용하여 사용자의 컴퓨터에 소프트웨어를 배포하는 경우 [Microsoft Endpoint Configuration Manager를 사용하여 Microsoft Teams 설치](msi-deployment.md)를 참조하세요.
 

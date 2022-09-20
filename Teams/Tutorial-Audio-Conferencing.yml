@@ -2,7 +2,7 @@
 title: '자습서: 오디오 회의 - Microsoft Teams'
 metadata:
   title: Microsoft Teams에서의 오디오 회의
-  description: 이 대화형 자습서를 사용하여 Microsoft Teams 오디오 회의 대한 요구 사항, 계획 단계 및 보고를 알아봅니다.
+  description: 이 대화형 자습서를 사용하여 Microsoft Teams의 오디오 회의에 대한 요구 사항, 계획 단계 및 보고를 알아봅니다.
   ms.custom:
   - seo-marvel-apr2020
   - seo-marvel-mar2020
@@ -22,16 +22,16 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 3aaa1944ab3a4fb1aaf63f91f26d72b6ce80aeea
-  ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+  ms.openlocfilehash: bbb89e12e86102c7228ffad169c0292afd05e735
+  ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 06/01/2022
-  ms.locfileid: "65823197"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "67808619"
 items:
 - durationInMinutes: 1
   content: >
-    이 교육에서는 일반 전화에서 Teams 모임에 참가하고 모임에서 전화 번호로 전화를 걸 수 있는 기능인 Microsoft Teams 오디오 회의 소개합니다. Teams 대한 요구 사항 및 계획 고려 사항 외에도 Teams 오디오 회의 기능을 다룹니다.
+    이 교육에서는 일반 전화에서 Teams 모임에 참가하고 모임에서 전화 번호로 전화를 걸 수 있는 Microsoft Teams의 오디오 회의를 소개합니다. Teams에 대한 요구 사항 및 계획 고려 사항 외에도 Teams의 오디오 회의 기능을 다룹니다.
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
@@ -43,7 +43,7 @@ items:
 
     -   Teams 계획, 배포 또는 관리 담당.
 
-    -   Teams 오디오 회의 계획, 배포 또는 관리하는 것을 고려합니다.
+    -   Teams에서 오디오 회의를 계획, 배포 또는 관리하는 것을 고려합니다.
 
 
     다음 섹션을 다룹니다.
@@ -55,7 +55,7 @@ items:
     -   보고
 
 
-    오디오 회의 Teams 모임에 기능과 기능을 추가합니다. 이 자습서 전에 [Microsoft Teams 모임을](./tutorial-meetings-in-teams.yml) 완료하는 것이 좋습니다.
+    오디오 회의는 Teams의 모임에 기능과 기능을 추가합니다. 이 자습서 전에 [Microsoft Teams에서 모임을 완료하는](./tutorial-meetings-in-teams.yml) 것이 좋습니다.
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
@@ -67,36 +67,36 @@ items:
     -   이 자습서의 "다음 단계" 페이지 아래쪽에 있는 메모 섹션에 게시
 
 
-    새로운 기능에 대한 아이디어와 같은 Teams 대한 제품 피드백을 제공하려면 [Teams 피드백 포털](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)을 방문하세요.
-- title: Teams 오디오 회의
+    Teams에 대한 제품 피드백(예: 새로운 기능에 대한 아이디어)을 제공하려면 [Teams 피드백 포털](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)을 방문하세요.
+- title: Teams의 오디오 회의
   durationInMinutes: 12
-  content: "\n오디오 회의 참가자는 일반 전화를 사용하여 휴대폰에서 모임에 전화를 걸거나 모임 내에서 전화 접속 기능을 사용하여 Teams 모임에 참여합니다. 다음 리소스를 검토하여 오디오 회의 대해 자세히 알아보세요.\n-   [오디오 회의 기능](/skypeforbusiness/plan-your-deployment/conferencing/conferencing)(예상 읽기 시간 1분)\n-   [Microsoft Teams 모임을 위한 9가지 팁](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)(\"\\#1 - 오디오 회의 통해 모임 참가\"의 예상 읽기 시간은 1분입니다. 전체 문서를 읽는 경우 더)\n-   [오디오 회의 일반적인 질문](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions)(예상 읽기 시간 7분)\n-   [다른 사용자가 모임에 참가할 수 있도록 모임에서 전화 걸](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) 기(예상 읽기 시간 2분)\n"
-- title: 시나리오 – 오디오 회의
+  content: "\n오디오 회의를 통해 참가자는 일반 전화를 사용하여 Teams 모임에 참여합니다. 즉, 휴대폰에서 모임에 전화를 걸거나 모임 내에서 전화 접속 기능을 사용합니다. 오디오 회의에 대해 자세히 알아보려면 다음 리소스를 검토하세요.\n-   [오디오 회의 기능](/skypeforbusiness/plan-your-deployment/conferencing/conferencing) (예상 읽기 시간 1분)\n-   [Microsoft Teams와의 모임에 대한 9가지 팁](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (\"\\#1 - 오디오 회의를 통해 모임 참가\"의 예상 읽기 시간은 1분입니다. 전체 문서를 읽는 경우 더 보기)\n-   [오디오 회의 일반적인 질문](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (예상 읽기 시간 7분)\n-   [다른 사용자가 모임에 참가할 수 있도록 모임에서 전화 걸](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) 기(예상 읽기 시간 2분)\n"
+- title: 시나리오 - 오디오 회의
   durationInMinutes: 1
-  content: "\nGarth는 여러 사무실이 있는 Contoso에서 근무합니다. Garth는 종종 다른 사무실 위치에 있는 사람들과 연결해야 하며, 종종 집에서 일하거나 길을 나가기 때문에 Teams 모임의 열렬한 팬입니다. Garth가 모임 초대를 보내면 오디오 회의 대한 정보가 자동으로 추가됩니다. 이렇게 하면 다음과 같은 시나리오가 가능합니다.\n-   앨리스는 가스의 모임에 참석하고 싶어하지만 그녀는 도로에 있고 신뢰할 수있는 네트워크에 액세스 할 수 없습니다. 따라서 모임 초대의 전화 접속 좌표를 사용하여 모임에 참가합니다. 전화 접속 과정에서 PIN을 사용하여 인증하므로 시스템에서 \"Alice\"로 인식됩니다.\n-   현재 호텔에 있는 Bob은 PC에서 Teams 클라이언트를 사용하여 모임에 참여합니다. 불행하게도, 호텔에서 인터넷 연결을 통해 오디오 품질은 좋지 않다, 그래서 밥은 공중 전환 전화 네트워크 (PSTN)를 통해 가입하기 위해 회의에서 자신의 전화 번호로 전화를 겁니다.\n-   모임 참가자가 통화 중에 다른 전화 번호로 사용자를 추가하려는 경우 전화 번호로 전화를 걸어 모임에 추가 사용자를 가져올 수 있습니다.\n-   다른 사용자는 PC, Mac 또는 모바일 디바이스의 Teams 클라이언트에서 참가할 수도 있습니다.\n\nTeams에서 모임 조직자는 모든 모임 참여자에 대한 모임을 종료할 수 있습니다. 이 기능은 다음과 같은 시나리오에서 유용합니다.\n\n-   교육자들은 학생들이 수업이 끝난 후 관리감독 없이 남겨지지 않도록 확인할 수 있습니다.\n-   웹 세미나처럼 녹음/녹화 중인 모임의 경우, 모임 주최자는 모임이 종료될 때 녹음/녹화가 종료되도록 할 수 있습니다.\n-   모든 참가자를 위한 모임을 종료하면 조직의 PSTN 사용량 및 청구를 줄이는 데 도움이 될 수 있습니다. \n\n예를 들어, 미팅이 완료되면 Garth는 팀 내 모임에서 **모임 종료** 를 눌러 모임을 종료하고 모든 참가자를 모임에서 제거할 수 있습니다.\n"
+  content: "\nGarth는 여러 사무실이 있는 Contoso에서 근무합니다. Garth는 종종 다른 사무실 위치에 있는 사람들과 연결해야 하며, 종종 집에서 일하거나 길을 나가기 때문에 Teams 모임의 열렬한 팬입니다. Garth가 모임 초대를 보내면 오디오 회의에 대한 정보가 자동으로 추가됩니다. 이렇게 하면 다음과 같은 시나리오가 가능합니다.\n-   앨리스는 가스의 모임에 참석하고 싶어하지만 그녀는 도로에 있고 신뢰할 수있는 네트워크에 액세스 할 수 없습니다. 따라서 모임 초대의 전화 접속 좌표를 사용하여 모임에 참가합니다. 전화 접속 과정에서 PIN을 사용하여 인증하므로 시스템에서 \"Alice\"로 인식됩니다.\n-   현재 호텔에 있는 Bob은 PC에서 Teams 클라이언트를 사용하여 모임에 참가합니다. 불행하게도, 호텔에서 인터넷 연결을 통해 오디오 품질은 좋지 않다, 그래서 밥은 공중 전환 전화 네트워크 (PSTN)를 통해 가입하기 위해 회의에서 자신의 전화 번호로 전화를 겁니다.\n-   모임 참가자가 통화 중에 다른 전화 번호로 사용자를 추가하려는 경우 전화 번호로 전화를 걸어 모임에 추가 사용자를 가져올 수 있습니다.\n-   다른 사용자는 PC, Mac 또는 모바일 디바이스의 Teams 클라이언트에서 참가할 수도 있습니다.\n\nTeams에서 모임 조직자는 모든 모임 참여자에 대한 모임을 종료할 수 있습니다. 이 기능은 다음과 같은 시나리오에서 유용합니다.\n\n-   교육자들은 학생들이 수업이 끝난 후 관리감독 없이 남겨지지 않도록 확인할 수 있습니다.\n-   웹 세미나처럼 녹음/녹화 중인 모임의 경우, 모임 주최자는 모임이 종료될 때 녹음/녹화가 종료되도록 할 수 있습니다.\n-   모든 참가자를 위한 모임을 종료하면 조직의 PSTN 사용량 및 청구를 줄이는 데 도움이 될 수 있습니다. \n\n예를 들어, 미팅이 완료되면 Garth는 팀 내 모임에서 **모임 종료** 를 눌러 모임을 종료하고 모든 참가자를 모임에서 제거할 수 있습니다.\n"
 - title: 비즈니스용 Skype 고객에 대한 고려 사항
   durationInMinutes: 1
-  content: "\n이미 비즈니스용 Skype 사용 중인 경우 다음을 고려해야 합니다.\n\n### <a name=\"skype-for-business-serverhomed-users\"></a>비즈니스용 Skype 서버 홈 사용자\n\n비즈니스용 Skype 서버 사용하는 경우 비즈니스용 Skype 온-프레미스에 있는 사용자가 예약한 Teams 모임에는 PSTN 모임 좌표가 포함되지 않습니다. 2019년 3월 1일 이전에 이러한 사용자에게 오디오 회의 라이선스를 할당한 경우 이러한 라이선스를 할당 취소하고 2시간 동안 기다린 다음 사용자가 PSTN 모임 좌표를 볼 수 있도록 다시 할당해야 할 수 있습니다.\n\n### <a name=\"skype-for-business-onlinehomed-users\"></a>비즈니스용 Skype Online 홈 사용자\n\n사용자가 비즈니스용 Skype Online에 거주하고 이미 오디오 회의 사용하도록 설정된 경우 Teams 오디오 회의 자동으로 사용하도록 설정됩니다. 전화를 걸 때 모임에서 인증하는 데 사용하는 PIN은 비즈니스용 Skype 및 Teams 동일합니다.\n"
+  content: "\n이미 비즈니스용 Skype 사용 중인 경우 다음을 고려해야 합니다.\n\n### <a name=\"skype-for-business-serverhomed-users\"></a>비즈니스용 Skype 서버 홈 사용자\n\n비즈니스용 Skype 서버 사용하는 경우 비즈니스용 Skype 온-프레미스에 있는 사용자가 예약한 Teams 모임에는 PSTN 모임 좌표가 포함되지 않습니다. 2019년 3월 1일 이전에 이러한 사용자에게 오디오 회의 라이선스를 할당한 경우 이러한 라이선스를 할당 취소하고 2시간 동안 기다린 다음 사용자가 PSTN 모임 좌표를 볼 수 있도록 다시 할당해야 할 수 있습니다.\n\n### <a name=\"skype-for-business-onlinehomed-users\"></a>비즈니스용 Skype Online 홈 사용자\n\n사용자가 비즈니스용 Skype Online에 있고 오디오 회의에 대해 이미 사용하도록 설정된 경우 Teams에서 오디오 회의에 대해 자동으로 사용하도록 설정됩니다. 전화를 걸 때 모임에서 인증하는 데 사용하는 PIN은 비즈니스용 Skype 및 Teams에서 동일합니다.\n"
 - title: 오디오 회의 구상
   durationInMinutes: 48
-  content: "\n실제 지침에서는 오디오 회의 계획하고 성공적으로 구현하는 데 필요한 사항을 자세히 설명합니다. 다음 문서를 검토하여 이러한 기술 계획 단계를 이해합니다.\n\n-   [성공 정의 - 오디오 회의](https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice)(예상 읽기 시간 11분)\n-   [내 서비스 결정 - 오디오 회의](./deploy-audio-conferencing-teams-landing-page.md)(예상 읽기 시간 12분)\n-   [내 환경 평가](./3-envision-evaluate-my-environment.md) (예상 읽기 시간 12분)\n-   [내 서비스 관리 계획](./4-envision-plan-my-service-management.md) (예상 읽기 시간 5분)\n-   [내 사용자 환경 계획](./5-envision-plan-my-users-experience.md) (예상 읽기 시간 5분)\n-   [성공 계획 문서화](./6-envision-document-my-success-plan.md) (예상 읽기 시간 6분)\n"
-- title: 온보딩 오디오 회의
+  content: "\n실제 지침에서는 오디오 회의를 계획하고 성공적으로 구현하는 데 필요한 사항을 자세히 설명합니다. 다음 문서를 검토하여 이러한 기술 계획 단계를 이해합니다.\n\n-   [성공 정의 - 오디오 회의](https://learn.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice) (예상 읽기 시간 11분)\n-   [내 서비스 결정 - 오디오 회의](./deploy-audio-conferencing-teams-landing-page.md) (예상 읽기 시간 12분)\n-   [내 환경 평가](./3-envision-evaluate-my-environment.md) (예상 읽기 시간 12분)\n-   [내 서비스 관리 계획](./4-envision-plan-my-service-management.md) (예상 읽기 시간 5분)\n-   [내 사용자 환경 계획](./5-envision-plan-my-users-experience.md) (예상 읽기 시간 5분)\n-   [성공 계획 문서화](./6-envision-document-my-success-plan.md) (예상 읽기 시간 6분)\n"
+- title: 오디오 회의 온보딩
   durationInMinutes: 13
-  content: "\n구상과 마찬가지로 온보딩은 실용적인 지침에서 다룹니다. 다음 문서를 검토하여 오디오 회의 사용자를 온보딩하는 방법을 이해합니다.\n\n-   [내 서비스 준비](./1-onboard-prepare-my-service.md) (예상 읽기 시간 6분)\n-   [사용자 준비](./2-onboard-prepare-my-users.md) (예상 읽기 시간 2분)\n-   [내 서비스 배포](./3-onboard-deploy-my-service.md) (예상 읽기 시간 3분)\n-   [오디오 회의 문제 해결 및 알려진 문제](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues)(Teams 관련 콘텐츠의 예상 읽기 시간 2분)\n"
+  content: "\n구상과 마찬가지로 온보딩은 실용적인 지침에서 다룹니다. 오디오 회의를 위해 사용자를 온보딩하는 방법을 이해하려면 다음 문서를 검토하세요.\n\n-   [내 서비스 준비](./1-onboard-prepare-my-service.md) (예상 읽기 시간 6분)\n-   [사용자 준비](./2-onboard-prepare-my-users.md) (예상 읽기 시간 2분)\n-   [내 서비스 배포](./3-onboard-deploy-my-service.md) (예상 읽기 시간 3분)\n-   [오디오 회의 문제 해결 및 알려진 문제](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues) (Teams 관련 콘텐츠의 예상 읽기 시간 2분)\n"
 - title: 연습 – 오디오 회의 구성
   durationInMinutes: 20
-  content: "\n이 연습에서는 Teams 오디오 회의 테스트할 수 있습니다.\n모든 작업을 수행하는 방법을 설명하지는 않지만 몇 가지 시나리오를 사용해보는 것이 좋습니다.\n\n### <a name=\"requirements\"></a>요구 사항\n-   Teams를 사용할 수 있는 적절한 라이선스를 보유하고 있는 Office 365 조직\n    -   전용 테스트 테넌트를 사용하는 것이 좋습니다.\n    -   테스트 테넌트가 없는 경우 [Office 365 Enterprise E5 평가](https://go.microsoft.com/fwlink/p/?LinkID=698279)판에서 평가판 테넌트에 등록할 수 있습니다.\n    -   프로덕션 환경에서 테스트를 실행하지 마세요. 설정 또는 정책을 변경하면 모든 사용자에게 부정적인 영향을 미칠 수 있으며 사용자 환경에 영향을 줄 수 있습니다.\n-   두 개 이상의 끝점\n    -   두 대의 PC일 수도 있지만 휴대폰에서 클라이언트를 사용할 수도 있습니다.\n    -   모임에 전화를 걸어 전화를 걸 수 있는 전화\n\n### <a name=\"suggested-scenarios-to-test\"></a>테스트 시나리오 제안\n-   사용자가 오디오 회의 수 있도록 설정합니다.\n-   다른 사용자에 대해 서로 다른 회의 브리지 번호를 설정합니다.\n-   테넌트에 대한 기본 회의 브리지 번호를 변경합니다.\n-   회의 브리지 번호(다른 언어)에 대한 설정을 변경합니다.\n-   회의 브리지(모임 참가 및 종료 알림, PIN 길이, 전자 메일 알림)에 대한 전역 설정을 변경합니다.\n-   사용자에게 전송되는 전자 메일을 확인합니다.\n-   Teams 모임을 예약하고 모임 초대를 검토합니다.\n-   휴대폰에서 모임에 참가합니다.\n-   모임에서 전화로 전화를 겁니다.\n-   모임에 있는 동안 이중 톤 다중 주파수 컨트롤을 사용하여 휴대폰을 음소거 및 음소거 해제합니다.\n-   모든 사용자에 대한 모임을 종료합니다. \n"
+  content: "\n이 연습에서는 Teams에서 오디오 회의를 테스트할 수 있습니다.\n모든 작업을 수행하는 방법을 설명하지는 않지만 몇 가지 시나리오를 사용해보는 것이 좋습니다.\n\n### <a name=\"requirements\"></a>요구 사항\n-   Teams를 사용할 수 있는 적절한 라이선스를 보유하고 있는 Office 365 조직\n    -   전용 테스트 테넌트를 사용하는 것이 좋습니다.\n    -   테스트 테넌트가 없는 경우 [Office 365 Enterprise E5 평가](https://go.microsoft.com/fwlink/p/?LinkID=698279)판에서 평가판 테넌트에 등록할 수 있습니다.\n    -   프로덕션 환경에서 테스트를 실행하지 마세요. 설정 또는 정책을 변경하면 모든 사용자에게 부정적인 영향을 미칠 수 있으며 사용자 환경에 영향을 줄 수 있습니다.\n-   두 개 이상의 끝점\n    -   두 대의 PC일 수도 있지만 휴대폰에서 클라이언트를 사용할 수도 있습니다.\n    -   모임에 전화를 걸어 전화를 걸 수 있는 전화\n\n### <a name=\"suggested-scenarios-to-test\"></a>테스트 시나리오 제안\n-   오디오 회의에 사용자를 사용하도록 설정합니다.\n-   다른 사용자에 대해 서로 다른 회의 브리지 번호를 설정합니다.\n-   테넌트에 대한 기본 회의 브리지 번호를 변경합니다.\n-   회의 브리지 번호(다른 언어)에 대한 설정을 변경합니다.\n-   회의 브리지(모임 참가 및 종료 알림, PIN 길이, 전자 메일 알림)에 대한 전역 설정을 변경합니다.\n-   사용자에게 전송되는 전자 메일을 확인합니다.\n-   Teams 모임을 예약하고 모임 초대를 검토합니다.\n-   휴대폰에서 모임에 참가합니다.\n-   모임에서 전화로 전화를 겁니다.\n-   모임에 있는 동안 이중 톤 다중 주파수 컨트롤을 사용하여 휴대폰을 음소거 및 음소거 해제합니다.\n-   모든 사용자에 대한 모임을 종료합니다. \n"
 - title: 드라이브 값
   durationInMinutes: 1
-  content: "\n보고 관점에서 볼 수 있는 두 가지 영역은 다음과 같습니다.\n-   사용법: 몇 개의 모임이 생성되나요?\n-   품질: 모임의 품질은 어떤가요?\n\n두 영역을 모두 주의 깊게 모니터링해야 합니다.\n-   사용량이 적다는 것은 사용자가 한 가지 이유 또는 다른 이유로 제품을 사용하지 않는다는 것을 의미합니다. 추가 조사를 통해서만 이유를 확인할 수 있습니다.\n    모임이 사용자 요구 사항에 미치지 못한다는 인식에서 인지 또는 교육 부족, 품질 문제에 이르기까지 그 원인이 다양할 수 있습니다.\n-   낮은 품질은 사용자 및 Office 365 간 연결에 문제가 있음을 의미합니다. 품질이 낮으면 사용자 경험 악화 및 사용량 감소로 이어질 수 있습니다. 사용 현황 보고서에 대한 자세한 내용은 [관리자 센터의 Microsoft 365 보고서 - Microsoft Teams 사용자 활동](https://docs.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-teams-user-activity-preview?view=o365-worldwide)(예상 소요 시간: 5분)을 참조하세요.\n\n품질 관리는 본 교육의 범위를 벗어나지만 다음 교육 자료를 참조하세요.\n\n-   [내 서비스 운영](./1-drive-value-operate-my-service.md)\n"
+  content: "\n보고 관점에서 볼 수 있는 두 가지 영역은 다음과 같습니다.\n-   사용법: 몇 개의 모임이 생성되나요?\n-   품질: 모임의 품질은 어떤가요?\n\n두 영역을 모두 주의 깊게 모니터링해야 합니다.\n-   사용량이 적다는 것은 사용자가 한 가지 이유 또는 다른 이유로 제품을 사용하지 않는다는 것을 의미합니다. 추가 조사를 통해서만 이유를 확인할 수 있습니다.\n    모임이 사용자 요구 사항에 미치지 못한다는 인식에서 인지 또는 교육 부족, 품질 문제에 이르기까지 그 원인이 다양할 수 있습니다.\n-   낮은 품질은 사용자 및 Office 365 간 연결에 문제가 있음을 의미합니다. 품질이 낮으면 사용자 경험 악화 및 사용량 감소로 이어질 수 있습니다. 사용 현황 보고서에 대한 자세한 내용은 [관리자 센터의 Microsoft 365 보고서 - Microsoft Teams 사용자 활동](https://learn.microsoft.com/microsoft-365/admin/activity-reports/microsoft-teams-user-activity-preview?view=o365-worldwide)(예상 소요 시간: 5분)을 참조하세요.\n\n품질 관리는 본 교육의 범위를 벗어나지만 다음 교육 자료를 참조하세요.\n\n-   [내 서비스 운영](./1-drive-value-operate-my-service.md)\n"
 - title: 다음 단계
   durationInMinutes: 1
   content: >-
     이 교육에서는 다음과 같은 주요 학습 내용을 다룹니다.
 
-    -   Teams 오디오 회의
+    -   Teams의 오디오 회의
 
-    -   오디오 회의 대한 요구 사항
+    -   오디오 회의 요구 사항
 
     -   보고
 
@@ -104,7 +104,7 @@ items:
     ### <a name="next-steps"></a>다음 단계
 
 
-    1. Teams 오디오 회의 사용을 시작합니다.
+    1. Teams에서 오디오 회의 사용을 시작합니다.
 
     2.  의견 보내기:
         - 이 페이지 하단의 메모 섹션에 게시합니다.

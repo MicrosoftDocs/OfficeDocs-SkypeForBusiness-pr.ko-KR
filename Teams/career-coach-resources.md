@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e8f8a069b35bcd1b5a1b1216946d4734a5ec52a
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 92e02822dbd4533f151d9551bb25aad1905184fc
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486943"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808419"
 ---
 # <a name="resources-for-career-coach-in-microsoft-teams"></a>Microsoft Teams의 커리어 코치를 위한 리소스
 
@@ -77,4 +77,4 @@ IT 관리자가 Microsoft Teams를 시작하려면 다음 리소스를 사용합
 | [Outlook에서 나와 함께 예약](/microsoft-365/bookings/bookings-in-outlook) | 경력 서비스 세션 및 근무 시간과 같은 1:1 약속을 예약하는 교육자의 가이드입니다. |
 | [Microsoft Bookings](/microsoft-365/bookings/bookings-overview) | 경력 서비스 세션 및 근무 시간과 같은 교직원 및 학생을 위한 직접 약속 및 가상 약속을 관리하는 Microsoft Bookings 설정하는 IT 관리자 가이드입니다. |
 | [Microsoft Teams 모임 지원](https://www.microsoft.com/videoplayer/embed/RE4rxIX?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us) | 학생들이 Teams 모임을 사용하는 방법에 대한 비디오 연습입니다. |
-| [매력적이고 액세스 가능한 가상 이벤트 제공](/learn/paths/m365-virtual-events-fundamentals/) | Microsoft Teams 및 Microsoft 365를 사용하여 매력적이고 액세스 가능한 가상 이벤트를 제공하는 방법에 대한 교육자를 위한 온라인 과정입니다. |
+| [매력적이고 액세스 가능한 가상 이벤트 제공](/training/paths/m365-virtual-events-fundamentals/) | Microsoft Teams 및 Microsoft 365를 사용하여 매력적이고 액세스 가능한 가상 이벤트를 제공하는 방법에 대한 교육자를 위한 온라인 과정입니다. |

@@ -1,6 +1,6 @@
 ### YamlMime:Hub
-title: 통화 플랜 설명서를 사용하여 Microsoft 365 Teams 전화 시스템
-summary: 조직에서 통화 플랜으로 Microsoft Teams 전화 시스템을 계획, 설정 및 사용하는 방법을 알아봅니다. 통화 플랜을 Teams 전화 시스템 중소기업은 사내 솔루션의 비용과 복잡성 없이 강력하고 유연한 전화 시스템을 쉽게 설정할 수 있습니다.
+title: 통화 플랜이 포함된 Microsoft 365 Teams 전화 시스템 설명서
+summary: 조직에서 통화 플랜으로 Microsoft Teams 전화 시스템을 계획, 설정 및 사용하는 방법을 알아봅니다. 통화 플랜이 있는 Teams 전화 시스템을 사용하면 중소기업이 사내 솔루션의 비용과 복잡성 없이 강력하고 유연한 전화 시스템을 쉽게 설정할 수 있습니다.
 metadata:
   title: 통화 플랜이 있는 Microsoft Teams 전화 시스템 설명서
   description: 통화 플랜에서 Microsoft Teams 전화 시스템을 계획, 배포 및 사용하는 방법을 알아봅니다.
@@ -8,28 +8,28 @@ metadata:
   author: dstrome
   ms.author: dstrome
   ms.date: 06/17/2020
-  ms.openlocfilehash: 3ddbe9ac2d6882cef72f9aa3b3bc7a5a2525e0d2
-  ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+  ms.openlocfilehash: e1d1ceffeeaed9d2f6175ce2c7755349c756207c
+  ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 06/16/2022
-  ms.locfileid: "66124153"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "67808229"
 productDirectory:
   items:
   - title: 살펴보기
-    imageSrc: https://docs.microsoft.com/office/media/icons/blocks-blue.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/blocks-blue.svg
     links:
     - url: whats-business-voice.md
-      text: 중소기업을 위한 통화 플랜 지침 Teams 전화 시스템
+      text: 중소기업을 위한 통화 플랜 지침이 포함된 Teams 전화 시스템
     - url: https://www.microsoft.com/microsoft-teams/microsoft-teams-phone
       text: Microsoft Teams 전화
     - url: /office365/servicedescriptions/teams-service-description
       text: Teams 서비스 설명
   - title: 설정
-    imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/deploy-blue.svg
     links:
     - url: ./whats-business-voice.md#how-do-i-purchase-teams-phone-with-calling-plan-bundle-licenses
-      text: 통화 플랜을 사용하여 Teams 전화 시스템 가져오는 방법
+      text: 통화 플랜을 사용하여 Teams 전화 시스템을 가져오는 방법
     - url: get-ready-internet.md
       text: 인터넷 연결 확인
     - url: prepare-users.md
@@ -37,7 +37,7 @@ productDirectory:
     - url: set-up-overview.md
       text: 통화 플랜을 사용하여 Teams 전화 시스템 설정
   - title: 설정을 사용자 지정
-    imageSrc: https://docs.microsoft.com/office/media/icons/migration-blue.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/migration-blue.svg
     links:
     - url: port-phone-numbers.md
       text: 기존 전화 번호 포팅
@@ -48,7 +48,7 @@ productDirectory:
     - url: ./create-a-phone-system-call-queue-smb.md
       text: 통화 큐 설정
   - title: 사용
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/get-started-blue.svg
     links:
     - url: create-users.md
       text: 추가 사용자 만들기
@@ -59,21 +59,21 @@ productDirectory:
     - url: analytics-dashboard.md
       text: 통화 분석 품질 대시보드
   - title: 파트너를 위한 리소스
-    imageSrc: https://docs.microsoft.com/office/media/icons/success-blue.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/success-blue.svg
     links:
     - url: /partner-center/
       text: Partner 센터에서 Microsoft 365 Business 받기
     - url: https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook
-      text: 통화 플랜 파트너 플레이북으로 Microsoft 365 Teams 전화 시스템
+      text: 통화 플랜 파트너 플레이북을 사용하는 Microsoft 365 Teams 전화 시스템
   - title: 도움이 필요하신가요?
-    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/users-people.svg
     links:
     - url: https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
       text: Microsoft 365 또는 Office 365 지원 센터에 문의
     - url: https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB
       text: 중소 비즈니스 기술 커뮤니티
   - title: 도움말 문서
-    imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/chat.svg
     links:
     - url: ../cloud-voice-landing-page.md
       text: Microsoft Teams 관리 문서

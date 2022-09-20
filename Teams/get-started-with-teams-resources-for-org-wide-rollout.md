@@ -21,19 +21,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22f778158965134cec673a97373a83d7fe95544d
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: 751263d9f5afddc6f73afd89458a5e004ce428f4
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045837"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808799"
 ---
 # <a name="start-your-organization-wide-rollout-of-microsoft-teams"></a>Microsoft Teams 조직 전체 배포 시작
 
 이제 첫 번째 팀을 설정하고 얼리어답터를 온보딩했으므로 조직의 나머지 사용자에게 Teams 배포를 시작할 차례입니다.
 
 > [!TIP]
-> Teams 배포를 시작하기 전에 [Microsoft 365로 Teams 배포 준비](/learn/modules/m365-teams-collab-prepare-deployment/) Microsoft Learn 모듈을 완료하는 것이 좋습니다. 30분 동안 진행되는 이 모듈은 Teams에 대한 이해도를 높이고 Teams를 배포할 때 결정해야 하는 주요 결정에 대해 이야기 합니다.
+> Teams 배포를 시작하기 전에 [Microsoft 365로 Teams 배포 준비](/training/modules/m365-teams-collab-prepare-deployment/) Microsoft Learn 모듈을 완료하는 것이 좋습니다. 30분 동안 진행되는 이 모듈은 Teams에 대한 이해도를 높이고 Teams를 배포할 때 결정해야 하는 주요 결정에 대해 이야기 합니다.
 >
 > Teams에서 사용할 수 있는 더 많은 학습 경로와 모듈을 확인하려면 [Teams용 Microsoft Learn](/learn/teams/)을 참조하세요.
 

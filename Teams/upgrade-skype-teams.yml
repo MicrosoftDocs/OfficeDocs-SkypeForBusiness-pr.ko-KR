@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: 업그레이드를 비즈니스용 Skype 계획합니다Microsoft Teams
-summary: 'Microsoft Teams 연결 유지, 원활한 공동 작업 및 안전하고 규정을 준수하는 방식으로 작업을 간소화할 수 있도록 설계되어 있습니다. 여기에서는 성공적인 업그레이드를 구현하기 위한 지침, 교육 및 리소스를 비즈니스용 Skype Teams.'
+title: 비즈니스용 Skype Microsoft Teams로 업그레이드 계획
+summary: Microsoft Teams는 사람들이 한 곳에서 안전하고 규정을 준수하는 방식으로 연결 상태를 유지하고, 원활하게 공동 작업하고, 작업을 간소화할 수 있도록 설계되었습니다. 여기서는 비즈니스용 Skype Teams로의 성공적인 업그레이드를 구현하기 위한 지침, 교육 및 리소스를 찾을 수 있습니다.
 brand: teams
 metadata:
-  title: 업그레이드를 비즈니스용 Skype 계획합니다Microsoft Teams
-  description: 'Microsoft Teams 연결 유지, 원활한 공동 작업 및 안전하고 규정을 준수하는 방식으로 작업을 간소화할 수 있도록 설계되어 있습니다. 여기에서는 성공적인 업그레이드를 구현하기 위한 지침, 교육 및 리소스를 비즈니스용 Skype Teams.'
+  title: 비즈니스용 Skype Microsoft Teams로 업그레이드 계획
+  description: Microsoft Teams는 사람들이 한 곳에서 안전하고 규정을 준수하는 방식으로 연결 상태를 유지하고, 원활하게 공동 작업하고, 작업을 간소화할 수 있도록 설계되었습니다. 여기서는 비즈니스용 Skype Teams로의 성공적인 업그레이드를 구현하기 위한 지침, 교육 및 리소스를 찾을 수 있습니다.
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -14,86 +14,92 @@ metadata:
   ms.reviewer: landerl
   audience: admin
   f1.keywords:
-    - NOCSH
+  - NOCSH
   ms.localizationpriority: high
   ms.collection:
-    - Teams_ITAdmin_JourneyFromSfB
-    - M365-collaboration
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
   search.appverid: MET150
   appliesto:
-    - Microsoft Teams
+  - Microsoft Teams
+  ms.openlocfilehash: c0d39f903ccbbc9383e22afc9ab619254c506ccc
+  ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+  ms.translationtype: MT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "67808599"
 highlightedContent:
   items:
-    - title: 성공적인 업그레이드를 위한 검증된 지침 활용
-      itemType: how-to-guide
-      url: ./upgrade-framework.md
-    - title: 무료 업그레이드 계획 워크샵 등록
-      itemType: learn
-      url: 'https://aka.ms/upgradeworkshops'
-    - title: Black & Veatch가 8주에 Teams 방법에 대해 자세히 알아보기
-      itemType: video
-      url: 'https://play.vidyard.com/uc42D4WD4byc3sHTiKEEEk'
+  - title: 성공적인 업그레이드를 위한 검증된 지침 활용
+    itemType: how-to-guide
+    url: ./upgrade-framework.md
+  - title: 무료 업그레이드 계획 워크샵 등록
+    itemType: learn
+    url: https://aka.ms/upgradeworkshops
+  - title: Black & Veatch가 8주 만에 Teams로 전환한 방법 알아보기
+    itemType: video
+    url: https://play.vidyard.com/uc42D4WD4byc3sHTiKEEEk
 productDirectory:
-  title: 성공적인 업그레이드 및 Teams 계획하기 위한 리소스
-  summary: '건전한 기술 환경, 지속적인 사용자 채택 및 비즈니스 목표의 달성은 모두 적절한 계획에서 시작됩니다.'
+  title: 성공적인 Teams 업그레이드를 계획하기 위한 리소스 및 그 이후
+  summary: 건강한 기술 환경, 지속적인 사용자 채택 및 비즈니스 목표 실현은 모두 적절한 계획으로 시작됩니다.
   items:
-    - title: Teams 업그레이드 스토리
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/users-people.svg'
-      links:
-        - url: 'https://customers.microsoft.com/story/813525-dsm-discrete-manufacturing-technical-teams'
-          text: Royal DSM – 비즈니스용 Skype 서버 Teams
-        - url: 'https://customers.microsoft.com/story/799203-ikea-retailers-teams'
-          text: IKEA – 비즈니스용 Skype 서버 Teams
-        - url: 'https://customers.microsoft.com/story/782385-williams-energy-teams'
-          text: Williams – 비즈니스용 Skype 서버 Teams
-        - url: 'https://customers.microsoft.com/story/765513-trek-retailers-teams'
-          text: Trek – 비즈니스용 Skype 온라인에서 Teams
-        - url: 'https://customers.microsoft.com/story/765520-dentsu-aegis-network-media-entertainment-teams'
-          text: Dentsu Aegis Network – 비즈니스용 Skype 온라인에서 Teams
-        - url: 'https://customers.microsoft.com/story/764851-berkshire-healthcare-nhs-foundation-trust-health-provider-teams'
-          text: Berkshire Healthcare – 비즈니스용 Skype 온라인에서 Teams
-    - title: '점화 세션: 경로 디자인 Teams'
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg'
-      summary: Ignite 2020의 이 세션을 통해 구현 및 목표에 가장 비즈니스용 Skype 방법을 찾을 수 있습니다.
-      url: 'https://go.microsoft.com/fwlink/?linkid=2154668'
-    - title: 업그레이드 성공 키트
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/success-teams.svg'
-      summary: '통신 템플릿, 사용자 설문 조사 및 샘플 프로젝트 및 파일럿 테스트 계획을 포함한 사용자 준비 자료를 다운로드합니다.'
-      url: 'https://aka.ms/UpgradeSuccessKit'
-    - title: Teams 설명서
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/document-teams.svg'
-      summary: 새 통신 및 공동 작업 환경을 Teams 사용자를 준비하는 방법을 알아보고
-      url: ./index.yml
-    - title: 강사 주도 Teams 교육
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/presenter-with-podium.svg'
-      summary: 무료 라이브 온라인 교육 수업은 사용자와 함께 시작하고 실행하도록 Teams.
-      url: ./instructor-led-training-teams-landing-page.yml
-    - title: 시나리오 Teams 확장
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/best-practices-teams.svg'
-      summary: 당사의 Teams Chalk Talks 온라인 워크샵은 IT Pros가 모든 사용자로부터 가장 많이 사용할 수 있도록 Teams.
-      url: ./chalk-talks-landing-page.yml
-    - title: 비즈니스용 Skype Online 단종
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-teams.svg'
-      summary: 2021년 7월 31일 온라인 서비스 사용 중지를 비즈니스용 Skype 준비하고 성공적인 전환을 계획하는 방법을 Teams.
-      url: ./skype-for-business-online-retirement.md
-    - title: Microsoft Teams 블로그
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/blog-site-teams.svg'
-      summary: '팀에서 직접 모범 사례, 뉴스 및 추세를 Microsoft Teams.'
-      url: 'https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog'
-    - title: 전체 경제 Teams
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg'
-      summary: 포레스터 리서치 보고서를 통해 직원 및 회사 성과 개선을 수량화하는 Teams.
-      url: 'https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf'
+  - title: Teams 업그레이드 스토리
+    imageSrc: https://learn.microsoft.com/office/media/icons/users-people.svg
+    links:
+    - url: https://customers.microsoft.com/story/813525-dsm-discrete-manufacturing-technical-teams
+      text: Royal DSM – Teams에 비즈니스용 Skype 서버
+    - url: https://customers.microsoft.com/story/799203-ikea-retailers-teams
+      text: IKEA – Teams에 비즈니스용 Skype 서버
+    - url: https://customers.microsoft.com/story/782385-williams-energy-teams
+      text: 윌리엄스 – Teams에 비즈니스용 Skype 서버
+    - url: https://customers.microsoft.com/story/765513-trek-retailers-teams
+      text: Trek – 비즈니스용 Skype Online에서 Teams로
+    - url: https://customers.microsoft.com/story/765520-dentsu-aegis-network-media-entertainment-teams
+      text: Dentsu Aegis Network - 비즈니스용 Skype Online에서 Teams로
+    - url: https://customers.microsoft.com/story/764851-berkshire-healthcare-nhs-foundation-trust-health-provider-teams
+      text: 버크셔 헬스케어 – teams에 온라인 비즈니스용 Skype
+  - title: 'Ignite 세션: Teams에 대한 경로 디자인'
+    imageSrc: https://learn.microsoft.com/office/media/icons/walkthrough-map-teams.svg
+    summary: Ignite 2020의 이 세션은 비즈니스용 Skype 구현 및 목표에 가장 적합한 접근 방식을 찾는 데 도움이 됩니다.
+    url: https://go.microsoft.com/fwlink/?linkid=2154668
+  - title: 업그레이드 성공 키트
+    imageSrc: https://learn.microsoft.com/office/media/icons/success-teams.svg
+    summary: 통신 템플릿, 사용자 설문 조사, 샘플 프로젝트 및 파일럿 테스트 계획을 포함한 사용자 준비 자료를 다운로드합니다.
+    url: https://aka.ms/UpgradeSuccessKit
+  - title: Teams 관리자 설명서
+    imageSrc: https://learn.microsoft.com/office/media/icons/document-teams.svg
+    summary: Teams를 배포 및 관리하고 사용자에게 새로운 커뮤니케이션 및 공동 작업 환경을 준비하는 방법을 알아봅니다.
+    url: ./index.yml
+  - title: 강사가 이끄는 Teams 교육
+    imageSrc: https://learn.microsoft.com/office/media/icons/presenter-with-podium.svg
+    summary: Teams를 시작하고 실행할 수 있도록 설계된 무료 라이브 온라인 교육 수업.
+    url: ./instructor-led-training-teams-landing-page.yml
+  - title: Teams 시나리오 확장
+    imageSrc: https://learn.microsoft.com/office/media/icons/best-practices-teams.svg
+    summary: Teams 초크 토크 온라인 워크샵은 IT 전문가가 Teams를 최대한 활용할 수 있도록 설계되었습니다.
+    url: ./chalk-talks-landing-page.yml
+  - title: 비즈니스용 Skype Online 단종
+    imageSrc: https://learn.microsoft.com/office/media/icons/migration-teams.svg
+    summary: 비즈니스용 Skype Online 서비스의 2021년 7월 31일 사용 중지를 준비하고 Teams로의 성공적인 전환을 계획하는 방법을 알아봅니다.
+    url: ./skype-for-business-online-retirement.md
+  - title: Microsoft Teams 블로그
+    imageSrc: https://learn.microsoft.com/office/media/icons/blog-site-teams.svg
+    summary: Microsoft Teams 뒤의 팀에서 직접 모범 사례, 뉴스 및 추세를 알아봅니다.
+    url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog
+  - title: Teams의 총 경제적 영향
+    imageSrc: https://learn.microsoft.com/office/media/icons/trend-graph-teams.svg
+    summary: Teams를 채택한 후 직원 및 회사 성과의 개선을 수량화하는 Forrester Research 보고서를 살펴보세요.
+    url: https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf
 additionalContent:
   sections:
-    - title: 추가 도움이 필요하세요?
-    - items:
-        - title: 배포 FastTrack 지원에 대한 참여
-          summary: 배포 Teams 프로젝트에 더 많은 관련 지원이 필요한 경우 적격 구독이 있는 고객은 지원을 위해 FastTrack 수 있습니다.
-          url: 'https://www.microsoft.com/fasttrack'
-        - title: Microsoft 파트너 찾기
-          summary: 추가 지침이 필요하세요? Microsoft 솔루션 공급자는 업그레이드의 기술 및 물류를 관리하는 데 도움을 줄 수 있습니다.
-          url: 'https://www.microsoft.com/solution-providers/home'
-        - title: Microsoft Teams 및 가격 책정
-          summary: 비즈니스에 적합한 Microsoft Teams 찾을 수 있습니다.
-          url: 'https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options'
+  - title: 추가 도움이 필요하세요?
+  - items:
+    - title: 배포 지원을 위해 FastTrack 참여
+      summary: Teams 배포 프로젝트에 더 많은 관련 지원이 필요한 경우 적격 구독을 가진 고객은 지원을 위해 FastTrack에 참여할 수 있습니다.
+      url: https://www.microsoft.com/fasttrack
+    - title: Microsoft 파트너 찾기
+      summary: 추가 지침이 필요하세요? Microsoft 솔루션 공급자는 업그레이드의 기술 및 물류를 관리하는 데 도움이 될 수 있습니다.
+      url: https://www.microsoft.com/solution-providers/home
+    - title: Microsoft Teams 계획 및 가격 책정
+      summary: 비즈니스에 적합한 Microsoft Teams를 찾습니다.
+      url: https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options

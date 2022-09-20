@@ -1,73 +1,79 @@
 ### YamlMime:Hub
-title: 사용자에 대한 최종 사용자 Microsoft Teams
-summary: "Microsoft는 Teams를 설정하고 실행할 수 있도록 설계된 일련의 무료 온라인 라이브 교육 수업을 주관하게 되어 기쁩니다. \_ 비즈니스 의사 결정자, 관리자, IT 전문가 또는 최종 사용자 모두가 자신에게 적합한 수업을 찾을 수 있습니다. 저희와 함께 Microsoft Teams 진행하고, 질문에 답하고, 라이브 강사와 상호 작용하세요. 자신의 시간으로 교육 수업을 보시고자 하는 경우, 수요에 따라 최종 사용자 교육을 방문합니다. 아래 세션을 클릭하여 가입하세요."
+title: Microsoft Teams에 대한 최종 사용자 교육
+summary: Microsoft는 Teams를 설정하고 실행할 수 있도록 설계된 일련의 무료 온라인 라이브 교육 수업을 주관하게 되어 기쁩니다.   비즈니스 의사 결정자, 관리자, IT 전문가 또는 최종 사용자 모두가 자신에게 적합한 수업을 찾을 수 있습니다. Microsoft Teams의 작동을 확인하고, 질문에 대한 답변을 얻고, 라이브 강사와 상호 작용할 수 있도록 참여하세요. 학습 클래스를 직접 보려면 주문형 최종 사용자 교육을 방문하세요. 아래 세션을 클릭하여 가입하세요.
 brand: teams
 metadata:
-  title: 사용자에 대한 최종 사용자 Microsoft Teams
-  description: "Microsoft는 사용자와 함께 시작하고 실행하도록 설계된 무료 라이브 가상 교육 Teams. \_ 비즈니스 의사 결정자, 관리자, IT 전문가 또는 최종 사용자 모두가 자신에게 적합한 수업을 찾을 수 있습니다. 저희와 함께 Microsoft Teams 진행하고, 질문에 답하고, 라이브 강사와 상호 작용하세요. 아래 세션을 클릭하여 등록하고 아래에서 더 많은 과정을 확인하세요."
+  title: Microsoft Teams에 대한 최종 사용자 교육
+  description: Microsoft는 Teams를 시작하고 실행할 수 있도록 설계된 무료 라이브 가상 교육 수업을 제공하게 되어 기쁩니다.   비즈니스 의사 결정자, 관리자, IT 전문가 또는 최종 사용자 모두가 자신에게 적합한 수업을 찾을 수 있습니다. Microsoft Teams의 작동을 확인하고, 질문에 대한 답변을 얻고, 라이브 강사와 상호 작용할 수 있도록 참여하세요. 아래 세션을 클릭하여 등록하고 아래에서 더 많은 과정을 확인하세요.
   ms.topic: hub-page
   author: SerdarSoysal
   ms.author: samanro
   ms.date: 03/04/2022
+  ms.openlocfilehash: 40498cf75e601ae758ebf5d2e29371c3311f0558
+  ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+  ms.translationtype: MT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "67808739"
 highlightedContent:
   items:
-    - title: Microsoft Teams
-      itemType: overview
-      url: 'https://youtu.be/UoWHXrmIszg'
-    - title: Teams 시작하기
-      itemType: video
-      url: 'https://aka.ms/GetstartedwithMSTeams'
-    - title: Microsoft 365 채택 도구
-      itemType: deploy
-      url: 'https://adoption.microsoft.com'
+  - title: Microsoft Teams 소개
+    itemType: overview
+    url: https://youtu.be/UoWHXrmIszg
+  - title: Teams 시작하기
+    itemType: video
+    url: https://aka.ms/GetstartedwithMSTeams
+  - title: Microsoft 365 채택 도구
+    itemType: deploy
+    url: https://adoption.microsoft.com
 productDirectory:
   items:
-    - title: 전화 및 모임에서 Teams
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/chat.svg'
-      summary: '통화 및 모임을 사용하여 실시간으로 공동 작업하고, 연결 유지하며, 공유 콘텐츠에 액세스하여 학습, 계획 및 혁신을 할 수 있습니다. (수준: Teams 기본 사항; 대상: 모든 사람)'
-      url: 'https://aka.ms/CallingMeetingsTraining'
-    - title: Teams에서 팀과 채널 탐색
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/users-group.svg'
-      summary: '팀 및 채널의 가치와 가상 작업 영역 또는 전체 그룹과 공동 작업하는 데 도움이 되는 방법을 이해합니다. (수준: Teams 기본 사항; 대상: 모든 사람)'
-      url: 'https://aka.ms/TeamsChannelsTraining'
-    - title: '팁, 바로 가기 및 새로운 Teams'
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg'
-      summary: '파워 유저가 되기 위한 팁 및 바로 가기 키에 대해 알아보십시오. 새로운 기능을 발견하고 최신 기능에 대한 전문가 방향을 찾을 수 있습니다. (수준: Teams 기본 사항; 대상: 모든 사람)'
-      url: 'https://aka.ms/TeamsProTips'
-    - title: 모임과 함께 Teams 진행
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/calendar-teams.svg'
-      summary: '공동 작업 도구, Teams 회의실 및 모임 리소스에 대한 액세스를 포함하여 모임 모임 및 웨비나의 주요 기능에 대해 알아보습니다. (수준: Teams 이동; 대상: 모든 사람)'
-      url: 'https://aka.ms/MeetingsGoFurther'
-    - title: 앱으로 Teams 사용자 지정
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-teams.svg'
-      summary: '단일 사용자 인터페이스에 Teams 앱 통합이 어떻게 표시되어 직원들이 더 잘 작업할 수 있도록 하는지 참조하세요. (수준: Teams 이동; 대상: 모든 사람)'
-      url: 'https://aka.ms/Teamsappstraining'
-    - title: 하이브리드 작업 솔루션
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/hybrid-teams.svg'
-      summary: '새로운 작업 방식에 적응할 때 연결, 보안 및 생산성을 유지하십시오. 모임, 통화, 채팅, 앱 등 한 장소에서 생산성을 향상하는 방법을 배워야 합니다. (수준: Teams 이동; 대상: 모든 사람)'
-      url: 'https://aka.ms/HybridWorkTraining'
-    - title: 공동 작업과 Teams
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/structure-teams.svg'
-      summary: '채널, 채팅 및 연결된 앱을 사용하여 모든 크기의 팀에서 커뮤니케이션을 개선하고 공동 작업을 심화하는 방법을 알아보습니다. (수준: Teams 기본 사항; 대상: 모든 사람)'
-      url: 'https://aka.ms/CollaborateInTeams'
-    - title: 교육용 Teams - 웨비나
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg'
-      summary: '고등 교육에서 Teams를 사용하는 방법에 대해 알아봅니다. (대상 그룹: 교직원, 학생, 학자, 연구 교수, IT 전문가)'
-      url: 'https://aka.ms/TeamsEduWebinars'
-    - title: 업그레이드 계획 워크숍
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-teams.svg'
-      summary: '성공적인 Teams 업그레이드와 구현을 계획하세요. (대상 그룹: IT 전문가, 채택 변경 관리자)'
-      url: 'https://aka.ms/upgradeworkshops'
+  - title: Teams에서 통화 및 모임
+    imageSrc: https://learn.microsoft.com/office/media/icons/chat.svg
+    summary: '통화 및 모임을 사용하여 실시간으로 공동 작업하고, 연결 상태를 유지하고, 언제든지 공유 콘텐츠에 액세스하여 학습, 계획 및 혁신을 수행할 수 있습니다. (수준: Teams 기본 사항; 대상 그룹: 모두)'
+    url: https://aka.ms/CallingMeetingsTraining
+  - title: Teams에서 팀과 채널 탐색
+    imageSrc: https://learn.microsoft.com/office/media/icons/users-group.svg
+    summary: '팀과 채널의 가치와 가상 작업 영역 또는 전체 그룹에서 공동 작업하는 데 도움이 되는 방법을 이해합니다. (수준: Teams 기본 사항; 대상 그룹: 모두)'
+    url: https://aka.ms/TeamsChannelsTraining
+  - title: 팁, 바로 가기 및 Teams의 새로운 기능
+    imageSrc: https://learn.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg
+    summary: '파워 사용자가 되기 위한 팁과 바로 가기를 알아봅니다. 새로운 기능을 알아보고 최신 기능에 대한 전문가의 방향을 찾습니다. (수준: Teams 기본 사항; 대상 그룹: 모두)'
+    url: https://aka.ms/TeamsProTips
+  - title: Teams 모임과 함께 진행
+    imageSrc: https://learn.microsoft.com/office/media/icons/calendar-teams.svg
+    summary: '공동 작업 도구, 소규모 회의실 및 모임 리소스에 대한 액세스를 포함하여 Teams 모임 및 웨비나의 주요 기능을 알아봅니다. (레벨: 팀이 더 나아가기; 대상 그룹: 모두)'
+    url: https://aka.ms/MeetingsGoFurther
+  - title: 앱을 사용하여 Teams 사용자 지정
+    imageSrc: https://learn.microsoft.com/office/media/icons/blocks-teams.svg
+    summary: 'Teams의 앱 통합이 단일 사용자 인터페이스에 어떻게 표시되고 직원들이 함께 더 잘 작업할 수 있는지 알아보세요. (레벨: 팀이 더 나아가기; 대상 그룹: 모두)'
+    url: https://aka.ms/Teamsappstraining
+  - title: 하이브리드 작업 솔루션
+    imageSrc: https://learn.microsoft.com/office/media/icons/hybrid-teams.svg
+    summary: '새로운 작업 방식에 적응하면서 연결, 보안 및 생산성을 유지합니다. 모임, 통화, 채팅, 앱 등 한 곳에서 생산성을 높이는 방법을 알아봅니다. (레벨: 팀이 더 나아가기; 대상 그룹: 모두)'
+    url: https://aka.ms/HybridWorkTraining
+  - title: Teams와의 공동 작업 향상
+    imageSrc: https://learn.microsoft.com/office/media/icons/structure-teams.svg
+    summary: '채널, 채팅 및 연결된 앱을 최대한 활용하여 모든 규모의 팀에서 커뮤니케이션을 개선하고 협업을 심화하는 방법을 알아봅니다. (수준: Teams 기본 사항; 대상 그룹: 모두)'
+    url: https://aka.ms/CollaborateInTeams
+  - title: 교육용 Teams - 웨비나
+    imageSrc: https://learn.microsoft.com/office/media/icons/education-tutorial-teams.svg
+    summary: '고등 교육에서 Teams를 사용하는 방법에 대해 알아봅니다. (대상 그룹: 교직원, 학생, 학자, 연구 교수, IT 전문가)'
+    url: https://aka.ms/TeamsEduWebinars
+  - title: 업그레이드 계획 워크숍
+    imageSrc: https://learn.microsoft.com/office/media/icons/migration-teams.svg
+    summary: '성공적인 Teams 업그레이드와 구현을 계획하세요. (대상 그룹: IT 전문가, 채택 변경 관리자)'
+    url: https://aka.ms/upgradeworkshops
 additionalContent:
   sections:
-    - title: 추가 교육
-      items:
-        - title: Teamwork 전문가 Learning 경로
-          summary: 공동 작업은 오늘날의 작업력에 필수적인 기술입니다. 팀 내에서 강력한 기능을 Microsoft Teams 팀과 더 효율적으로 연결하고 작업할 수 있는 방법을 알아보십시오.
-          url: /learn/paths/teamwork-specialist
-        - title: 서비스 채택 전문가 Learning 경로
-          summary: Microsoft 서비스 채택 전문가 Learning 경로 Teams 및 기타 Microsoft 365 기능입니다. 조직에서 사용자 Microsoft 서비스 방법을 알아보습니다.
-          url: /learn/paths/m365-service-adoption
-        - title: 오디맨드 교육 비디오
-          summary: 수업 시간이 없는가요? 주문형 교육에 대한 Microsoft 지원의 비디오 카탈로그를 탐색합니다.
-          url: 'https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+  - title: 추가 교육
+    items:
+    - title: 팀워크 전문가 학습 경로
+      summary: 협업은 오늘날의 노동력에 중요한 기술입니다. Microsoft Teams의 강력한 기능을 통해 어떻게 연결 상태를 유지하고 팀과 보다 효율적으로 작업할 수 있는지 알아봅니다.
+      url: /training/paths/teamwork-specialist
+    - title: 서비스 채택 전문가 학습 경로
+      summary: Microsoft 서비스 채택 전문가 학습 경로에는 Teams 및 기타 Microsoft 365 서비스가 있습니다. 조직에서 Microsoft 서비스를 채택하는 방법을 알아봅니다.
+      url: /training/paths/m365-service-adoption
+    - title: 주문형 교육 비디오
+      summary: 수업 시간이 없나요? 주문형 교육을 위해 Microsoft 지원 비디오 카탈로그를 살펴보세요.
+      url: https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7

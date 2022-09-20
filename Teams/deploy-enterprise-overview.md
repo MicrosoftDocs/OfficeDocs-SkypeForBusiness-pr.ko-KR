@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fae55eb230c3c0a450a95eb00e50861888bbe3f1
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: 083f2f9ae041f88e0b92c51af297adbf04b5c770
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045577"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808579"
 ---
 # <a name="teams-enterprise-deployment-overview"></a>Teams 엔터프라이즈 배포 개요
 
@@ -75,7 +75,7 @@ Teams 네트워크 요구 사항을 이해하는 데 도움이 되는 문서는 
 Teams 어드바이저는 팀, 채널, 파일 공유 및 Planner를 모아 조직의 배포 프로젝트를 만드는 Teams 내 솔루션입니다. Teams 어드바이저는 사용자가 선택한 워크로드(예: 채팅, 팀 및 채널)와 관련된 프로젝트 계획을 작성합니다. 이 작업에는 배포 중에 수행해야 하는 권장 작업이 포함됩니다. 각 작업에는 프로세스를 안내하는 지침, 제안 및 관련 문서에 대한 링크가 포함되어 있습니다. 한 개 이상의 사용자에게 작업을 쉽게 할당하고 각 작업에 대한 시작 및 종료 날짜를 지정할 수 있습니다.
 
 > [!TIP]
-> Microsoft Learn에서 [Teams Advisor를 사용하여 원격 설치](/learn/modules/m365-teams-rollout-using-advisor/) 모듈을 완료하여 Teams 어드바이저를 사용하여 Teams 배포를 계획하는 방법을 참조하세요.
+> Microsoft Learn에서 [Teams Advisor를 사용하여 원격 설치](/training/modules/m365-teams-rollout-using-advisor/) 모듈을 완료하여 Teams 어드바이저를 사용하여 Teams 배포를 계획하는 방법을 참조하세요.
 
 > [!div class="nextstepaction"]
 > [Teams 어드바이저로 이동](https://admin.teams.microsoft.com/teams-deployment)

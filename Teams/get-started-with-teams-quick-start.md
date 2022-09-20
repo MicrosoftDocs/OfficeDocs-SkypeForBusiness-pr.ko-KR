@@ -21,12 +21,12 @@ appliesto:
 ms.custom:
 - seo-marvel-mar2020
 - intro-get-started
-ms.openlocfilehash: 54fcf3942d13fa0b759e796e5486808a5f5a40bb
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: ff5fce999adffc38e28d6daf787d6175deaa683a
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045847"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808809"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Microsoft Teams 시작하기
 
@@ -66,7 +66,7 @@ Teams를 맨 먼저 배포하든("Teams 우선"), 먼저 Microsoft 365 또는 Of
 Teams를 처음 사용하는 경우 익숙해지기 위한 가장 좋은 방법은 바로 사용을 시작하는 것입니다. Teams의 가장 큰 장점은 지금 설정한 방식이 나중에 해야 할 업그레이드나 마이그레이션에 영향을 미치지 않는다는 것입니다.
 
 > [!TIP]
-> [Teams용 Microsoft Learn](/learn/teams/)에서 제공되는 학습 경로 및 모듈을 확인하세요. [Teams 관리 센터](/learn/modules/m365-teams-navigate-admin-portal/)를 둘러보고, [Teams 네트워크를 구성](/learn/modules/m365-teams-connectivity/)하는 방법을 배우고, [사용자를 Teams에 온보딩하는](/learn/modules/m365-teams-onboard-users/) 최적의 방법에 대한 아이디어를 얻을 수 있습니다.
+> [Teams용 Microsoft Learn](/training/teams/)에서 제공되는 학습 경로 및 모듈을 확인하세요. [Teams 관리 센터](/training/modules/m365-teams-navigate-admin-portal/)를 둘러보고, [Teams 네트워크를 구성](/training/modules/m365-teams-connectivity/)하는 방법을 배우고, [사용자를 Teams에 온보딩하는](/training/modules/m365-teams-onboard-users/) 최적의 방법에 대한 아이디어를 얻을 수 있습니다.
 
 아래 단계를 사용하여몇 개의 팀을 설정하고 몇 명의 얼리어답터를 온보딩하여 Teams에 익숙해지도록 하세요.
 

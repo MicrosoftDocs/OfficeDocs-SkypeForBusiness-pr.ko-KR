@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: f06e9cd46a0d4627871a07735934f3d02b3dca11
-  ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+  ms.openlocfilehash: 6d77db8178cee57ff3a66b98b59a42386dc2c782
+  ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 02/25/2022
-  ms.locfileid: "62960000"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "67808279"
 title: FAQ - 비즈니스용 Skype에서 Microsoft Teams로 업그레이드
 summary: ''
 sections:
@@ -34,75 +34,75 @@ sections:
   questions:
   - question: 고객을 비즈니스용 Skype Online에서 Teams로 이동해야 하는 확정 마감일이 있나요?
     answer: >
-      예. [비즈니스용 Skype 온라인](skype-for-business-online-retirement.md)이 2021년 7월 31일 사용 중지됩니다. 온라인 비즈니스용 Skype 고객들이 Teams 통신 및 공동 작업 서비스로 Microsoft 365.
-  - question: 온라인 비즈니스용 Skype 사용 중지된 이유는 무엇입니까?
+      예. [비즈니스용 Skype Online은](skype-for-business-online-retirement.md) 2021년 7월 31일에 은퇴했습니다. 비즈니스용 Skype Online 고객은 Microsoft 365에서 Teams를 커뮤니케이션 및 공동 작업 서비스로 사용하기 시작하는 것이 좋습니다.
+  - question: 비즈니스용 Skype Online이 사용 중지된 이유는 무엇인가요?
     answer: >
-      소개 이후 비즈니스용 Skype 온라인은 전 세계 수백만의 사용자에게 유용한 도구가 됐습니다. 인스턴트 메시징, 통화 및 비디오를 하나의 애플리케이션에 결합하여 비즈니스용 Skype 비즈니스 통신에 대한 새로운 가능성을 확립했습니다. Microsoft Teams 비전의 다음 챕터입니다.
+      소개 이후 비즈니스용 Skype Online은 전 세계 수백만 명의 사람들에게 귀중한 도구가 되었습니다. 비즈니스용 Skype Online은 인스턴트 메시징, 통화 및 비디오를 하나의 애플리케이션에 결합하여 비즈니스 커뮤니케이션에 대한 새로운 가능성을 확립했습니다. Microsoft Teams는 이 비전의 다음 장입니다.
 
 
-      이 기능은 Microsoft Teams 온라인 기능보다 비즈니스용 Skype 있습니다. 채팅, 비디오, 통화, 문서 공동 작업 및 애플리케이션 통합을 단일 환경으로 결합하여 Teams 완전히 뉴스를 사용할 수 있습니다. 또한 지속적인 플랫폼 혁신 및 개발을 통해 Teams, 기능, 유연성 및 보안을 더욱 풍부하게 사용할 수 있습니다.
+      Microsoft Teams의 기능은 비즈니스용 Skype Online의 기능 이상입니다. Teams는 채팅, 비디오, 통화, 문서 공동 작업 및 애플리케이션 통합을 단일 환경으로 결합하여 완전히 뉴스 방식으로 작업할 수 있도록 합니다. 그리고 지속적인 플랫폼 혁신 및 개발은 Teams 사용자가 보다 풍부한 성능, 기능, 유연성 및 보안을 활용한다는 것을 의미합니다.
 
 
-      Teams 온라인에서 업그레이드하는 것이 비즈니스용 Skype 아니라 회사, 학교 및 조직이 보다 기민하게 되고 주요 워크플로의 효율성을 향상시킬 수 있는 강력한 도구입니다. Forrester[™](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf?rtc=1) 백서인 Teams 조직의 잠재적인 이점에 대해 자세히 Microsoft Teams.
-  - question: 이러한 방식이 고객들에게 비즈니스용 Skype 의미하나요?
+      Teams는 비즈니스용 Skype Online의 업그레이드가 아니라 회사, 학교 및 조직이 더 민첩해지고 주요 워크플로의 효율성을 개선할 수 있는 강력한 도구입니다. Forrester 백서인 Microsoft Teams의 [총 경제적 영향™](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf?rtc=1)에서 조직에 대한 Teams의 잠재적 혜택에 대해 자세히 알아보세요.
+  - question: 이는 비즈니스용 Skype 고객에게 어떤 의미인가요?
     answer: >
-      완전히 업그레이드하는 데 필요한 시간은 Teams 사용자 수, 기술 복잡성 및 변경에 대한 내부 적응성을 포함하여 조직의 고유한 특성에 따라 달라집니다. 오늘 업그레이드를 시작하는 것이 Teams 좋습니다. 오늘 업그레이드를 시작하면 사용 중지 날짜 이전에 완료하는 데 많은 시간이 있습니다. 8월부터 Microsoft는 온라인 사용자만 사용할 수 있도록 나머지 비즈니스용 Skype 업그레이드 Teams 제공합니다.
+      Teams로 완전히 업그레이드하는 데 필요한 시간은 사용자 수, 기술적 복잡성 및 변경하기 위한 내부 적응성을 포함하여 조직의 고유한 특성에 따라 달라집니다. 현재 Teams로 업그레이드를 시작하는 것이 좋습니다. 오늘 업그레이드를 시작하면 사용 중지 날짜 전에 완료할 충분한 시간이 있습니다. 8월부터 Microsoft는 남은 비즈니스용 Skype Online 사용자를 Teams 전용으로 이동하는 데 도움이 되는 보조 업그레이드 프로세스를 제공합니다.
 
 
-      Teams 대부분의 비즈니스 및 Microsoft 365 및 Enterprise 사용할 수 있으며 기존 라이선스 투자는 Teams. 현재 비즈니스용 Skype Online의 프리미엄 작업 인 기능은 Teams에서도 계속해서 프리미엄 작업으로 남습니다. 예를 들어 독립 실행형 오디오 회의를 구입하거나 E5의 일부로 오디오 회의를 비즈니스용 Skype 경우 오디오 회의가 Teams.
+      Teams는 대부분의 Microsoft 365 Business 및 Enterprise 플랜에서 사용할 수 있으며, 기존 라이선스 투자는 Teams로 전달됩니다. 현재 비즈니스용 Skype Online의 프리미엄 작업 인 기능은 Teams에서도 계속해서 프리미엄 작업으로 남습니다. 예를 들어 오디오 회의 독립 실행형 또는 비즈니스용 Skype E5의 일부로 구매한 경우 Teams에서 오디오 회의를 사용할 수 있습니다.
 
 
-      Skype 서비스 및 비즈니스용 Skype 서버 온라인 사용 중지의 영향을 비즈니스용 Skype 않습니다.
+      Skype 소비자 서비스 및 비즈니스용 Skype 서버 비즈니스용 Skype Online 사용 중지의 영향을 받지 않습니다.
 
 
-      [로 업그레이드](FAQ-journey.yml)하는 프로세스와 Teams 로드맵에 Teams FAQ를 읽어 읽습니다.
-  - question: 온라인이 비즈니스용 Skype 서버 경우 비즈니스용 Skype 서버 업그레이드해야 Microsoft Teams 비즈니스용 Skype 있나요?
-    answer: "아니요. 온라인 비즈니스용 Skype 사용 중지는 집에 있는 사용자에게 영향을주지 않습니다. 모든 고객이 확장된 기능 및 성능 Microsoft Teams 활용하는 것이 비즈니스용 Skype 서버 고객이 제품 독립 실행형 또는 하이브리드 구성의 일부로 Microsoft Teams. Microsoft [Lifecycle Policy](https://docs.microsoft.com/lifecycle/products/?terms=skype%20for%20business%20server) 사이트를 참조하여 버전에 대한 지원 날짜를 비즈니스용 Skype 서버. \n"
-  - question: 온라인이 비즈니스용 Skype 후에 어떻게 하나요?
+      Teams 및 Teams 기능 로드맵으로 업그레이드하는 프로세스에 대한 [FAQ를 읽어](FAQ-journey.yml) 보세요.
+  - question: 비즈니스용 Skype Online이 사용 중지되면 온-프레미스 비즈니스용 Skype 서버 고객이 Microsoft Teams로 업그레이드해야 합니까?
+    answer: "아니요. 비즈니스용 Skype Online의 사용 중지는 온-프레미스에 있는 사용자에게 영향을 주지 않습니다. 모든 고객이 Microsoft Teams에서 제공하는 확장된 기능 및 성능을 활용하는 것이 좋습니다. 일부 비즈니스용 Skype 서버 고객은 제품을 독립 실행형 또는 Microsoft Teams와 함께 하이브리드 구성의 일부로 사용해야 할 수 있습니다. 비즈니스용 Skype 서버 버전에 대한 지원 날짜는 [Microsoft 수명 주기 정책](https://learn.microsoft.com/lifecycle/products/?terms=skype%20for%20business%20server) 사이트를 참조하세요. \n"
+  - question: 비즈니스용 Skype Online이 사용 중지되면 어떻게 되나요?
     answer: >
-      Microsoft는 사용 중지 시 비즈니스용 Skype 전용 모드가 아닌 Teams 업그레이드를 제공합니다. 고객은 기술 및 사용자 준비를 위한 시간을 Teams 예정된 업그레이드 날짜 30일 전에 Microsoft 365 관리 센터 및 메시지 센터에 알림을 받게 됩니다.
+      Microsoft는 사용 중지 시 Teams 전용 모드가 아닌 비즈니스용 Skype Online 사용자를 위한 보조 업그레이드를 제공합니다. 고객은 예약된 업그레이드 날짜 30일 전에 Teams 관리 센터와 Microsoft 365 메시지 센터에서 기술 및 사용자 준비 시간을 허용하는 알림을 받게 됩니다.
 
 
-      보조 업그레이드가 완료되면 모든 온라인 Teams 모드로 전환됩니다. Teams 전용 모드의 사용자는 수신 채팅 및 통화를 받고 Teams 모임을 예약합니다. Teams 전용 모드의 사용자는 온라인에서 채팅 또는 통화를 시작하거나 모임을 예약할 비즈니스용 Skype 없습니다. Teams 사용자만 여전히 사용자가 예약한 비즈니스용 Skype 모임에 계속 참가할 수 비즈니스용 Skype 서버.
+      지원 업그레이드가 완료되면 모든 온라인 사용자가 Teams 전용 모드로 전환됩니다. Teams 전용 모드의 사용자는 Teams에서 들어오는 채팅 및 전화를 받고 모임을 예약합니다. Teams 전용 모드의 사용자는 비즈니스용 Skype Online에서 채팅이나 통화를 시작하거나 모임을 예약할 수 없습니다. Teams 사용자만 여전히 비즈니스용 Skype 서버 사용하는 사용자가 예약한 비즈니스용 Skype 모임에 참가할 수 있습니다.
 
 
-      자세한 내용은 온라인에서 온라인 비즈니스용 Skype [업그레이드](upgrade-assisted.md) 지원 Microsoft Teams.
-  - question: 온라인 Skype 모임 동시에 비즈니스용 Skype 예정인가요?
-    answer: "예. Teams 라이브 이벤트는 브로드캐스트를 위한 후속 Skype 모임 솔루션입니다.    \n"
-  - question: 온라인이 사용 중지될 때 하이브리드 구성(비즈니스용 Skype 온라인 및 비즈니스용 Skype 서버 조직에서 어떤 비즈니스용 Skype 수 있나요?
-    answer: "\n온라인 및 비즈니스용 Skype 온라인이 사용 중지된 경우 온라인 및 비즈니스용 Skype 온라인 사용자를 온라인 사용자로 업그레이드해야 Microsoft Teams. Microsoft는 나머지 온라인 사용자를 비즈니스용 Skype 전용 모드로 업그레이드하는 데 도움이 Teams 업그레이드를 제공합니다.\n\nMicrosoft는 사용 중지 날짜 이후의 비즈니스용 Skype 온라인 Teams 업그레이드할 수 있도록 지원 업그레이드를 제공합니다.\n\n하이브리드 구성을 사용하는 조직은 전용 모드로 비즈니스용 Skype Teams 나란히 사용할 수 Teams 있습니다. 온라인 비즈니스용 Skype 사용 중지 날짜가 지난 후 비즈니스용 Skype 서버 사용자가 클라우드로 이동하면 해당 Teams 모드로 전환됩니다.\n\n자세한 내용은 [Skype for Business와의 공존](coexistence-chat-calls-presence.md) 및 [Microsoft Teams 및 Skype for Business의 공존과 상호 운용성 이해](teams-and-skypeforbusiness-coexistence-and-interoperability.md)를 참조하십시오.\n"
-  - question: 온라인 사용 중지는 비즈니스용 Skype PSTN(공용 전환 전화 네트워크) 연결 및 온라인 비즈니스용 Skype 하이브리드 구성을 사용하여 조직에 전화 시스템 어떻게 영향을 주나요?
+      자세한 내용은 [비즈니스용 Skype Online에서 Microsoft Teams로의 보조 업그레이드를 참조하세요](upgrade-assisted.md).
+  - question: Skype 모임 브로드캐스트는 비즈니스용 Skype 온라인과 동시에 은퇴할까요?
+    answer: "예. Teams 라이브 이벤트는 Skype 모임 브로드캐스트의 후속 솔루션입니다.    \n"
+  - question: 비즈니스용 Skype Online이 사용 중지되면 하이브리드 구성(비즈니스용 Skype Online 및 온-프레미스 비즈니스용 Skype 서버)을 사용하는 조직은 무엇을 기대할 수 있나요?
+    answer: "\n비즈니스용 Skype Online이 사용 중지되면 온라인 및 온-프레미스 구성을 사용하는 하이브리드 고객은 온라인 사용자를 비즈니스용 Skype Online에서 Microsoft Teams로 업그레이드해야 합니다. Microsoft는 나머지 비즈니스용 Skype Online 사용자를 Teams 전용 모드로 업그레이드하는 데 도움이 되는 보조 업그레이드를 제공합니다.\n\nMicrosoft는 사용 중지 날짜 이후 남은 비즈니스용 Skype Online 사용자를 Teams 전용 모드로 업그레이드하는 데 도움이 되는 보조 업그레이드를 제공합니다.\n\n하이브리드 구성을 사용하는 조직은 Teams 전용 모드로 전환할 준비가 될 때까지 비즈니스용 Skype 및 Teams를 계속 함께 사용할 수 있습니다. 비즈니스용 Skype Online 사용 중지 날짜 이후 비즈니스용 Skype 서버 사용자가 클라우드로 이동하면 해당 사용자는 Teams 전용 모드가 됩니다.\n\n자세한 내용은 [Skype for Business와의 공존](coexistence-chat-calls-presence.md) 및 [Microsoft Teams 및 Skype for Business의 공존과 상호 운용성 이해](teams-and-skypeforbusiness-coexistence-and-interoperability.md)를 참조하십시오.\n"
+  - question: 비즈니스용 Skype Online의 사용 중지는 온-프레미스 PSTN(공중 전화망) 연결 및 온라인 전화 시스템 기능에 대한 하이브리드 비즈니스용 Skype 구성을 사용하는 조직에 어떤 영향을 미치나요?
     answer: >
-      일부 조직에서는 PSTN 연결을 위한 홈온-프레미스와 홈온라인 간에 사용자를 전화 시스템 있습니다. 온라인 비즈니스용 Skype 액세스가 끝나면 조직은 온라인 사용자를 업그레이드하여 Microsoft Teams 전화 통신 네트워크를 직접 라우팅을 통해 Teams 연결[해야 합니다](./direct-routing-landing-page.md).
+      일부 조직에서는 PSTN 연결을 위해 홈 온-프레미스와 전화 시스템 기능을 위한 홈 온라인 간에 사용자를 분할했습니다. 비즈니스용 Skype Online에 대한 액세스가 종료되면 조직은 온라인 사용자를 Microsoft Teams로 업그레이드하고 [직접 라우팅](./direct-routing-landing-page.md)을 통해 온-프레미스 전화 통신 네트워크를 Teams에 연결해야 합니다.
 
 
       구독 자격을 갖춘 고객은 Teams로의 온보딩 지원을 위한 [FastTrack](https://www.microsoft.com/fasttrack?rtc=1)에 참여할 것을 권장합니다.
   - question: 비즈니스용 Skype 서버는 차후에 어떻게 되나요?
     answer: >
-      고객이 요구 사항으로 인해 비즈니스용 Skype 서버 사용자 또는 지리에 대한 정보를 사용해야 할 수 있습니다. 이러한 경우 조직에서 비즈니스용 Skype 서버와 함께 Teams를 채택하여 팀워크 및 공동 작업을 진행할 것을 권장합니다. 최신 버전의 비즈니스용 Skype 서버 2018년 10월에 주류 지원이 계획되어 2024년 1월 9일까지 릴리스되었습니다.
-  - question: 이는 소비자 서비스에 Skype 의미하나요?
+      고객은 요구 사항으로 인해 일부 사용자 또는 지역에 비즈니스용 Skype 서버 사용해야 할 수 있습니다. 이러한 경우 조직에서 비즈니스용 Skype 서버와 함께 Teams를 채택하여 팀워크 및 공동 작업을 진행할 것을 권장합니다. 비즈니스용 Skype 서버 2019의 최신 버전은 2018년 10월에 출시되었으며, 주류 지원은 2024년 1월 9일까지 계획되어 있습니다.
+  - question: 이는 Skype 소비자 서비스에 어떤 의미인가요?
     answer: >
-      온라인 비즈니스용 Skype 사용 중지는 소비자 서비스에 Skype 않습니다.
-  - question: 기존 고객에 대한 Microsoft 365 의미하나요?
-    answer: "음성, 비디오비즈니스용 Skype 모임에 대한 새 기능과 함께 비즈니스용 Skype 온라인 기능의 핵심 집합을 Teams 새로운 기능을 제공했습니다. 모든 고객이 Microsoft 365 독립적으로 또는 나란히 또는 Teams 사용을 시작하도록 비즈니스용 Skype 서버.\n       \n"
-  - question: 조직에 대한 라이선스를 Teams 어떻게 할 수 있나요?
+      비즈니스용 Skype Online의 사용 중지는 Skype 소비자 서비스에 영향을 주지 않습니다.
+  - question: 이는 기존 Microsoft 365 고객에게 어떤 의미인가요?
+    answer: "음성, 비디오 및 모임을 위한 새롭고 혁신적인 기능과 함께 비즈니스용 Skype Online 기능의 주요 집합을 Teams에 도입했습니다. 모든 Microsoft 365 고객은 현재 비즈니스용 Skype 서버 독립적으로 또는 나란히 Teams를 사용하는 것이 좋습니다.\n       \n"
+  - question: 조직에 대한 Teams 라이선스를 얻으려면 어떻게 해야 하나요?
     answer: >
-      Teams 여러 제품군에서 Microsoft 365 있습니다. 현재 비즈니스용 Skype Online의 프리미엄 작업 인 기능은 Teams에서도 계속해서 프리미엄 작업으로 남습니다. 고객의 만든 기존 라이센싱 투자는 팀으로 이월됩니다. 예를 들어 고객이 독립형으로 혹은 E5의 일부로서 비즈니스용 Skype와 Audio Conferencing 기능을 구입한 경우 Teams에서도 현재 사용할 수 있는 그대로 사용할 수 있습니다.
-  - question: 온라인이 사용 중지된 경우 ACP(타사 오디오 회의)를 비즈니스용 Skype 어떻게 하나요?
-    answer: "오디오 회의 서비스를 사용하는 Teams 가장 좋은 오디오 회의 환경이 제공된다고 생각됩니다. 이러한 이유로, 타사 오디오 회의 공급자를 지원할 계획이 Teams. 2021년 7월 31일 종료된 비즈니스용 Skype 온라인에서 타사 오디오 회의 공급자의 통합에 대한 비즈니스용 Skype 지원\n         \n"
+      Teams는 많은 Microsoft 365 제품군에서 사용할 수 있습니다. 현재 비즈니스용 Skype Online의 프리미엄 작업 인 기능은 Teams에서도 계속해서 프리미엄 작업으로 남습니다. 고객의 만든 기존 라이센싱 투자는 팀으로 이월됩니다. 예를 들어 고객이 독립형으로 혹은 E5의 일부로서 비즈니스용 Skype와 Audio Conferencing 기능을 구입한 경우 Teams에서도 현재 사용할 수 있는 그대로 사용할 수 있습니다.
+  - question: 비즈니스용 Skype Online이 사용 중지되었으므로 타사 ACP(오디오 회의)를 사용하는 고객은 어떻게 될까요?
+    answer: "Teams를 사용하는 고객에게 최상의 오디오 회의 환경은 오디오 회의 서비스를 통해서라고 생각합니다. 따라서 Teams에서 타사 오디오 회의 공급자를 지원할 계획이 없습니다. 비즈니스용 Skype Online의 타사 오디오 회의 공급자 통합 지원은 비즈니스용 Skype Online과 함께 2021년 7월 31일에 종료되었습니다.\n         \n"
 - name: Teams로 업그레이드
   questions:
   - question: 조직을 Teams로 업그레이드하는 데 시간이 얼마나 걸리나요?
     answer: >
-      여정이 비즈니스용 Skype Teams 경로는 조직의 특성(예: 기술 복잡성, 변경 적성, 사용자 지정 애플리케이션 및 워크플로 통합 등)에 따라 달라집니다. 계획을 수립하고 실행하는 데 도움을 주기 위해 사용자가 변경 내용의 기술적 요소와 조직적 요소를 탐색하는 데 도움이 되도록 설계된 입증된 구조를 기반으로 하는 종합 업그레이드 지침을 개발했습니다 당사의 [업그레이드 성공 구조](upgrade-framework.md) 및 비즈니스용 Skype에서 Teams로의 이동 과정을 탐색하는 데 초석의 역할을 하는 관련 리소스를 숙지하면서 시작하세요.
+      비즈니스용 Skype Teams로의 여정 경로는 기술적 복잡성, 변경에 대한 적성, 사용자 지정 애플리케이션 및 워크플로 통합 등 조직의 특성에 따라 달라집니다. 계획을 수립하고 실행하는 데 도움을 주기 위해 사용자가 변경 내용의 기술적 요소와 조직적 요소를 탐색하는 데 도움이 되도록 설계된 입증된 구조를 기반으로 하는 종합 업그레이드 지침을 개발했습니다 당사의 [업그레이드 성공 구조](upgrade-framework.md) 및 비즈니스용 Skype에서 Teams로의 이동 과정을 탐색하는 데 초석의 역할을 하는 관련 리소스를 숙지하면서 시작하세요.
   - question: 비즈니스용 Skype에 권장되는 업그레이드 경로가 있나요?
     answer: >
       고객은 조직의 요구 사항을 가장 잘 충족시키는 업그레이드 경로를 식별하고 구현하기 위해 [aka.ms/SkypetoTeams](upgrade-start-here.md)에서 계획 지침 및 리소스를 활용하고 [업그레이드 계획 워크숍](upgrade-workshops-landing-page.yml)에 참여하여 비즈니스용 Skype Online에서 Teams로의 이동 과정을 계획하는 것이 좋습니다.
   - question: Microsoft Teams 관리 센터의 공존 모드에 대한 자세한 정보는 어디에 있나요?
     answer: "Microsoft Teams 관리 센터에는 조직에서 조직에 적합한 비즈니스용 Skype에서 Teams로의 이동 과정을 관리하도록 해주는 공존 모드에 대한 옵션이 표시됩니다. [공존 및 업그레이드 모드](teams-and-skypeforbusiness-coexistence-and-interoperability.md)에 대해 자세히 알아보세요.\n      \n"
-  - question: Microsoft에서 업그레이드를 계획하고 있나요?
+  - question: Microsoft는 보조 업그레이드를 계획하고 있나요?
     answer: >
-      예. 비즈니스용 Skype 온라인 고객은 지원되는 업그레이드를 예약할 수 Microsoft Teams. 이 프로그램은 고객이 온라인 테넌트의 비즈니스용 Skype 전용으로 업그레이드하는 기술적 요소를 Teams 수 있도록 고안된 것입니다. 보조 업그레이드를 예약한 고객은 업그레이드 날짜 30일 전의 Teams 관리 센터 및 Microsoft 365 메시지 센터에 알림이 전송되어 기술 및 사용자 준비 시간을 허용합니다. 자세한 내용은 온라인에서 온라인 비즈니스용 Skype [업그레이드](upgrade-assisted.md)를 Microsoft Teams.
+      예. 비즈니스용 Skype Online 고객은 Microsoft Teams로의 보조 업그레이드를 예약할 수 있습니다. 이 프로그램은 고객이 비즈니스용 Skype Online 테넌트만 Teams로 업그레이드하는 기술 요소를 사용할 수 있도록 설계되었습니다. 보조 업그레이드를 예약한 고객은 업그레이드 날짜 30일 전에 Teams 관리 센터와 Microsoft 365 메시지 센터에서 기술 및 사용자 준비 시간을 허용하는 알림을 받게 됩니다. 자세한 내용은 [비즈니스용 Skype Online에서 Microsoft Teams로의 보조 업그레이드를 참조하세요](upgrade-assisted.md).
   - question: 업그레이드를 위해 무엇을 준비해야 하나요?
     answer: >
       성공적인 업그레이드는 사용자의 승인 준비 외에 기술적 준비의 검증도 포함합니다. 조직이 Teams로 업그레이드할 준비가 되지 않은 경우에도 이동 과정을 계획하기 시작할 수 있습니다. 또한 Teams와 함께 비즈니스용 Skype를 사용하도록 설정하여 Teams의 가치 실현을 시작할 수 있습니다. 지금 [Skype에서 Teams로의 이동 과정](./upgrade-start-here.md)을 시작해 보세요.
@@ -133,11 +133,11 @@ sections:
   - question: 클라이언트에서 업그레이드 알림을 활성화한 후에도 사용자가 계속 비즈니스용 Skype를 사용할 수 있게 되나요?
     answer: >
       예. 업그레이드 알림은 단지 비즈니스용 Skype가 Teams로 업그레이드됨을 알리고 아직 Teams를 사용하지 않는 경우 Teams를 시작하도록 초대를 합니다. 업그레이드 시점, 사용자를 위한 콜투액션(Call-to-action), 교육의 활용 등 조직에 따른 추가 세부 정보를 전달하기 위해 이 알림을 인식 캠페인(이메일, FAQ, 헬프 데스크 준비 상태, 포스터/기호)을 통해 보완할 것을 권장합니다. 커뮤니케이션 서식 파일은 [업그레이드 성공 키트](https://aka.ms/UpgradeSuccessKit)를 다운로드하세요.
-  - question: 이는 라이센싱의 관점에서 무엇을 의미하나요? 고객은 오디오 회의 및 전화 통화와 같은 기능에 대해 어떻게 Teams?
+  - question: 이는 라이센싱의 관점에서 무엇을 의미하나요? 고객은 Teams에서 오디오 회의 및 통화와 같은 기능에 대해 어떻게 지불하나요?
     answer: >
       Teams는 Microsoft 365 및 Office 365 제품군에서 사용할 수 있습니다. 현재 비즈니스용 Skype Online의 프리미엄 작업 인 기능은 Teams에서도 계속해서 프리미엄 작업으로 남습니다. 고객의 만든 기존 라이센싱 투자는 팀으로 이월됩니다. 예를 들어 고객이 독립형으로 혹은 E5의 일부로서 비즈니스용 Skype와 Audio Conferencing 기능을 구입한 경우 Teams에서도 현재 사용할 수 있는 그대로 사용할 수 있습니다.
   - question: 비즈니스용 Skype Online에서 이미 전화 시스템 (클라우드 PBX)을 배포한 고객을 위한 지침은 무엇인가요?
-    answer: "Microsoft Teams에서 전화를 거는 것은 모든 통신 요구 사항을 충족할 준비가 되어있습니다. 모든 Microsoft 365 가능한 한 빨리 Teams 시작하는 것이 좋습니다. 이 Teams 사용하면 모든 중요한 워크로드가 Teams 온라인 서비스를 사용 중지하기 전에 비즈니스용 Skype 수 있습니다.           \n"
+    answer: "Microsoft Teams에서 전화를 거는 것은 모든 통신 요구 사항을 충족할 준비가 되어있습니다. 모든 Microsoft 365 고객이 가능한 한 빨리 Teams 사용을 시작하는 것이 좋습니다. Teams를 사용하면 비즈니스용 Skype Online 서비스가 사용 중지되기 전에 모든 중요한 워크로드가 Teams에서 사용하도록 설정되도록 할 수 있습니다.           \n"
   - question: 현재 Enterprise Voice를 사용하며 Teams로 이동 하고 전화 기능을 사용하려는 고객을 위한 지침은 무엇인가요?
     answer: >
       고유의 전화 서비스를 Teams로 이동하려는 고객은 이제 [Direct Routing](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359)의 일반적인 활용성을 통하여 이동시킬 수 있습니다. Direct Routing과 Calling Plan은 Microsoft Teams에서 발신음을 선택하기 위한 두 가지 선택사항입니다.
@@ -146,7 +146,7 @@ sections:
       Teams에서의 Audio Conferencing의 사용 범위는 변경되지 않습니다. 현재의 범위인 90개 이상의 국가 및 400개 이상의 도시는 계속해서 두 제품 모두에서 유지됩니다. 최신 목록은 [Audio Conferencing 및 통화 플랜의 국가 및 지역 가용성](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)을 참조하세요.
   - question: 최신 세대 비즈니스용 Skype 룸 시스템 v2는 Teams에서의 모임을 지원하나요?
     answer: >
-      Skype 회의실 시스템을 Microsoft Teams 룸 완전히 지원하고 Microsoft Teams 디바이스에서 비즈니스용 Skype Teams 쉽게 마이그레이션할 수 있는 Teams 시스템을 다시 브랜드화했습니다. 사용자가 근접 감지를 통해 가까운 Microsoft Teams 룸 식별할 수 있는 기능 외에도 Teams 한 번의 클릭, 이중 화면 지원, Microsoft Whiteboard 모임에 참가할 수 있으며 지능형 캡처를 통해 콘텐츠 카메라와 같은 혁신적인 기능을 계속 제공합니다.
+      Microsoft Teams 모임을 완벽하게 지원하고 장치에서 Teams를 사용하도록 설정하여 비즈니스용 Skype Teams로의 간편한 마이그레이션 경로를 제공하는 Microsoft Teams 룸 Skype 룸 시스템을 리브랜딩했습니다. 사용자가 근접 검색을 통해 주변 Microsoft Teams 룸 식별하는 기능 외에도 Teams 모임은 한 번의 클릭, 이중 화면 지원, Microsoft Whiteboard와 함께 참가할 수 있으며 지능형 캡처가 있는 콘텐츠 카메라와 같은 혁신적인 기능을 계속 제공합니다.
 - name: 일반
   questions:
   - question: Teams에서의 제3자 개발 기회를 지원하나요?

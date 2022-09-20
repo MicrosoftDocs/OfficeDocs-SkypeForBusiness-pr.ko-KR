@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f350e894148ef278a10e379d8a32b48202acd85d
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: 05196c679f1f45c9e89fe09973282c01181127e0
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045997"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808389"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>엔터프라이즈에서 Microsoft Teams 설정
 
@@ -45,7 +45,7 @@ Teams 배포를 시작하기 전에 계획 프로세스를 완료해야 합니�
 배포에 도움이 되는 [Teams용 어드바이저](https://admin.teams.microsoft.com/teams-deployment) 사용을 적극 권장합니다. Teams 어드바이저의 작동 방법에 대한 자세한 내용은 [Teams용 어드바이저를 사용하여 Microsoft Teams 배포](use-advisor-teams-roll-out.md)를 참조하세요.
 
 > [!TIP]
-> Microsoft Learn에서 [Teams용 Advisor를 사용하여 원격 설치](/learn/modules/m365-teams-rollout-using-advisor/) 모듈을 완료하여 Teams용 어드바이저를 사용하여 Teams 배포를 계획하는 방법을 참조하세요.
+> Microsoft Learn에서 [Teams용 Advisor를 사용하여 원격 설치](/training/modules/m365-teams-rollout-using-advisor/) 모듈을 완료하여 Teams용 어드바이저를 사용하여 Teams 배포를 계획하는 방법을 참조하세요.
 
 Teams 계획 수립에 대한 자세한 내용은 [Teams 엔터프라이즈 배포 개요](deploy-enterprise-overview.md)를 참조하세요.
 
@@ -58,7 +58,7 @@ Teams를 사용자 지정하는 방법에는 여러 가지가 있습니다. 다�
 채팅, 팀 및 채널은 Teams의 기본입니다. **채팅** 에서는 한 명 이상의 사용자가 서로 대화하고 파일을 공유하고 개인적으로 만날 수 있습니다. **팀** 에서는 조직 내의 모든 사람이 또는 팀 구성원만 볼 수 있어 장기간 실행되는 프로젝트나 생일 파티를 계획하는 작업이나 상황에 관계없이 적합한 사람이 공동 작업할 수 있도록 합니다. **채널** 에서는 팀 내에서 주제, 프로젝트, 부서 또는 다른 항목을 분할할 수 있습니다. 채팅, 팀 및 채널에 대한 자세한 내용은 [팀 및 채널 개요](teams-channels-overview.md)를 확인하세요.
 
 > [!TIP]
-> 팀 역할, 액세스 및 메시지 정책을 관리하는 방법은 Microsoft Learn에서 [Microsoft Teams 관리](/learn/modules/m365-teams-collab-manage-teams/) 모듈을 완료하여 알아보세요.
+> 팀 역할, 액세스 및 메시지 정책을 관리하는 방법은 Microsoft Learn에서 [Microsoft Teams 관리](/training/modules/m365-teams-collab-manage-teams/) 모듈을 완료하여 알아보세요.
 
 ### <a name="administration-and-team-ownership"></a>관리 및 팀 소유권
 
@@ -88,7 +88,7 @@ Teams를 사용자 지정하는 방법에는 여러 가지가 있습니다. 다�
 **오디오 회의** 를 통해 회의 전화 번호로 전화를 걸고 모임 ID를 입력하여 일반 전화로 모임에 참가할 수 있습니다. 오디오 회의는 참가자가 인터넷에 연결되어 있지 않거나, 모임이 음성 전용이거나, Teams 클라이언트를 통해 참가할 수 없는 다른 상황에서 유용합니다.
 
 > [!TIP]
-> 모임 및 이벤트는 Microsoft Learn에서 [Microsoft Teams 모임, 화의 및 이벤트 관리](/learn/modules/m365-teams-collab-manage-meetings) 모듈을 완료하여 더 익숙해질 수 있습니다.
+> 모임 및 이벤트는 Microsoft Learn에서 [Microsoft Teams 모임, 화의 및 이벤트 관리](/training/modules/m365-teams-collab-manage-meetings) 모듈을 완료하여 더 익숙해질 수 있습니다.
 
 ### <a name="meetings"></a>모임
 
@@ -159,7 +159,7 @@ Teams를 사용할 준비가 되면 Windows, Mac, Linux PC나Android, iOS 장치
 Teams를 사용할 모든 사용자는 Teams 라이선스가 있는지 확인하세요. Teams 라이선스 할당에 대한 자세한 내용은 [Teams에 대한 사용자 액세스 관리](user-access.md#using-the-microsoft-365-admin-center)를 참조하세요.
 
 > [!TIP]
-> Microsoft Learn에서 [Microsoft Teams 클라이언트 배포](/learn/modules/m365-teams-collab-deploy-clients/) 모듈을 완료하여 Teams 클라이언트 배포를 계획하는 방법에 대한 권장 사항을 확인하세요.
+> Microsoft Learn에서 [Microsoft Teams 클라이언트 배포](/training/modules/m365-teams-collab-deploy-clients/) 모듈을 완료하여 Teams 클라이언트 배포를 계획하는 방법에 대한 권장 사항을 확인하세요.
 
 조직에서 Microsoft Endpoint Configuration Manager, 그룹 정책 또는 타사 배포 메커니즘을 사용하여 사용자의 컴퓨터에 소프트웨어를 배포하는 경우 [Microsoft Endpoint Configuration Manager를 사용하여 Microsoft Teams 설치](msi-deployment.md)를 참조하세요.
 

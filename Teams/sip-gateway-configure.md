@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d33573d86f2bcb485f6a7e7cfc550ea1f3184223
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: f21ce36c1c44b14b80c9ae1684a65c6bd82b7d63
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270493"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808879"
 ---
 # <a name="configure-sip-gateway"></a>SIP 게이트웨이 구성
 
@@ -120,7 +120,7 @@ DHCP(동적 호스트 구성 프로토콜) 서버에서 SIP 게이트웨이 프�
 - 아메리카: `http://noam.ipp.sdg.teams.microsoft.com`
 - Apac: `http://apac.ipp.sdg.teams.microsoft.com`
 
-DHCP 서버에서 위의 SIP 게이트웨이 프로비저닝 서버 URL을 구성하여 Teams 조직에 SIP 디바이스를 추가합니다. DHCP 서버에 대한 자세한 내용은 [DHCP 배포 및 관리를](/learn/modules/deploy-manage-dynamic-host-configuration-protocol) 참조하세요. 또한 DHCP 옵션 42를 사용하여 NTP(네트워크 시간 프로토콜) 서버를 지정하고 DHCP 옵션 2를 사용하여 UTC(협정 세계시)의 오프셋을 초 단위로 지정할 수 있습니다. 조직의 디바이스는 SIP 게이트웨이 프로비저닝 서버로 라우팅됩니다. 성공적으로 프로비전된 SIP 휴대폰은 Teams 로고와 로그인을 위한 소프트 단추를 표시합니다.
+DHCP 서버에서 위의 SIP 게이트웨이 프로비저닝 서버 URL을 구성하여 Teams 조직에 SIP 디바이스를 추가합니다. DHCP 서버에 대한 자세한 내용은 [DHCP 배포 및 관리를](/training/modules/deploy-manage-dynamic-host-configuration-protocol) 참조하세요. 또한 DHCP 옵션 42를 사용하여 NTP(네트워크 시간 프로토콜) 서버를 지정하고 DHCP 옵션 2를 사용하여 UTC(협정 세계시)의 오프셋을 초 단위로 지정할 수 있습니다. 조직의 디바이스는 SIP 게이트웨이 프로비저닝 서버로 라우팅됩니다. 성공적으로 프로비전된 SIP 휴대폰은 Teams 로고와 로그인을 위한 소프트 단추를 표시합니다.
 
 SIP 디바이스가 온보딩에 대해 지원되는 최소 펌웨어 버전인지 확인합니다. 온보딩하는 동안 SIP 게이트웨이는 기본 구성 및 인증 사용자 인터페이스를 디바이스에 푸시합니다. SIP 디바이스에 필요한 펌웨어 버전을 확인하려면 [SIP 게이트웨이 계획을](sip-gateway-plan.md) 참조하세요.
 
