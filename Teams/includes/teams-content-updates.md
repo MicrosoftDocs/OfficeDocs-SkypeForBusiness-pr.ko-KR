@@ -3,6 +3,29 @@
 
 
 
+## <a name="week-of-september-12-2022"></a>2022년 9월 12일 주
+
+
+| 게시 날짜 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 9/12/2022 | [앱 사용자 지정을 사용하여 조직의 요구 사항에 맞게 앱 브랜드 지정](/MicrosoftTeams/customize-apps) | 으로 바뀌었습니다 |
+| 9/12/2022 | [앱을 허용하는 관리자에 대한 사용자 요청](/MicrosoftTeams/user-requests-approve-apps) | 으로 바뀌었습니다 |
+| 9/13/2022 | [직접 라우팅 모니터링](/MicrosoftTeams/direct-routing-monitor-and-troubleshoot) | 으로 바뀌었습니다 |
+| 9/13/2022 | [관리자에 대한 사용자 요청](/MicrosoftTeams/user-requests-approve-apps) | 으로 바뀌었습니다 |
+| 9/13/2022 | [통화 플랜을 사용하여 Teams 전화 시스템에 전화 번호 이식](/MicrosoftTeams/business-voice/port-phone-numbers) | 으로 바뀌었습니다 |
+| 9/13/2022 | [전화 번호 서비스 팀에 문의](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | 으로 바뀌었습니다 |
+| 9/14/2022 | [교육용 Teams 디바이스](/MicrosoftTeams/devices-for-education) | 으로 바뀌었습니다 |
+| 9/14/2022 | [비즈니스용 Skype Online 단종](/MicrosoftTeams/skype-for-business-online-retirement) | 으로 바뀌었습니다 |
+| 9/14/2022 | [Microsoft Teams 및 비즈니스용 Skype 공존 및 상호 운용성 이해](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 으로 바뀌었습니다 |
+| 9/14/2022 | [VDI(Virtualized Desktop Infrastructure)용 Teams](/MicrosoftTeams/teams-for-vdi) | 으로 바뀌었습니다 |
+| 9/14/2022 | [Microsoft Teams 룸 Portal](/MicrosoftTeams/rooms/managed-meeting-rooms-portal) | 으로 바뀌었습니다 |
+| 9/14/2022 | [Microsoft Teams 룸 관리](/MicrosoftTeams/rooms/rooms-manage) | 으로 바뀌었습니다 |
+| 9/14/2022 | [Microsoft Teams 룸 유지 관리 및 운영](/MicrosoftTeams/rooms/rooms-operations) | 으로 바뀌었습니다 |
+| 9/15/2022 | [Teams PowerShell 모듈의 애플리케이션 기반 인증](/MicrosoftTeams/teams-powershell-application-authentication) | 추가 |
+| 9/15/2022 | [로그온 제한 및 로그인 동작을 포함하여 다양한 기술이 Microsoft Teams 로그온에 미치는 영향](/MicrosoftTeams/sign-in-teams) | 으로 바뀌었습니다 |
+| 9/16/2022 | [Teams PowerShell 모듈의 애플리케이션 기반 인증](/MicrosoftTeams/teams-powershell-application-authentication) | 으로 바뀌었습니다 |
+
+
 ## <a name="week-of-september-05-2022"></a>2022년 9월 5일 주
 
 
@@ -128,35 +151,3 @@
 | 8/20/2022 | [Microsoft Teams에서 라이브 이벤트 설정 구성](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | 으로 바뀌었습니다 |
 | 8/20/2022 | [Microsoft Teams에서 실시간 이벤트 설정](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 으로 바뀌었습니다 |
 | 8/20/2022 | [Microsoft Teams에서 사용자에 대한 모임 전화 접속 확인 설정](/MicrosoftTeams/set-up-meeting-dial-out-confirmation) | 으로 바뀌었습니다 |
-
-
-## <a name="week-of-august-08-2022"></a>2022년 8월 8일 주
-
-
-| 게시 날짜 |토픽 제목 | 변경 |
-|------|------------|--------|
-| 8/8/2022 | [Microsoft Teams의 앱 업데이트 환경](/MicrosoftTeams/apps-update-experience) | 으로 바뀌었습니다 |
-| 8/8/2022 | [Microsoft Teams 관리 센터에서 앱 관리](/MicrosoftTeams/manage-apps) | 으로 바뀌었습니다 |
-| 8/8/2022 | [콘텐츠에 대한 eDiscovery 조사 수행](/MicrosoftTeams/ediscovery-investigation) | 으로 바뀌었습니다 |
-| 8/9/2022 | [Teams에서 앱을 관리하기 위한 앱 정책 개요](/MicrosoftTeams/app-policies) | 으로 바뀌었습니다 |
-| 8/9/2022 | 클라우드 음성 배포를 위한 운영 위원회 | 제거 |
-| 8/9/2022 | 온보딩 검사 목록 - 클라우드 음성 워크로드 구성 - Microsoft Teams | 제거 |
-| 8/9/2022 | 온보딩 검사 목록 - 직접 라우팅 구성 - Microsoft Teams | 제거 |
-| 8/9/2022 | 온보딩 검사 목록 - 핵심 기능 구성 - Microsoft Teams | 제거 |
-| 8/9/2022 | 온보딩 검사 목록 - Microsoft 365 또는 Office 365 서비스 사용 | 제거 |
-| 8/9/2022 | Microsoft Teams 룸 참조 | 제거 |
-| 8/9/2022 | [사용자 지정 및 테스트용으로 로드된 앱 관리](/MicrosoftTeams/custom-app-overview) | 추가 |
-| 8/9/2022 | [Microsoft Teams의 앱 정보 알기](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 으로 바뀌었습니다 |
-| 8/9/2022 | [Microsoft의 앱 유효성 검사 및 앱 테스트 개요](/MicrosoftTeams/overview-of-app-validation) | 으로 바뀌었습니다 |
-| 8/9/2022 | [Microsoft Teams의 타사 앱 알아보기](/MicrosoftTeams/overview-third-party-apps) | 으로 바뀌었습니다 |
-| 8/9/2022 | [Teams용 타사 앱 구매](/MicrosoftTeams/purchase-third-party-apps) | 으로 바뀌었습니다 |
-| 8/9/2022 | [Microsoft Teams에서 앱 사용 권한 정책 관리](/MicrosoftTeams/teams-app-permission-policies) | 으로 바뀌었습니다 |
-| 8/9/2022 | [Microsoft Teams에서 앱 설정 정책 관리](/MicrosoftTeams/teams-app-setup-policies) | 으로 바뀌었습니다 |
-| 8/9/2022 | [사용자 지정 앱 정책 및 설정 관리](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 으로 바뀌었습니다 |
-| 8/10/2022 | 직접 라우팅 | 제거 |
-| 8/11/2022 | [Microsoft Teams의 앱 정보 알기](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 으로 바뀌었습니다 |
-| 8/11/2022 | [Microsoft Teams 관리 센터에서 앱 관리](/MicrosoftTeams/manage-apps) | 으로 바뀌었습니다 |
-| 8/11/2022 | [Microsoft Teams에서 앱 설정 정책 관리](/MicrosoftTeams/teams-app-setup-policies) | 으로 바뀌었습니다 |
-| 8/12/2022 | [Microsoft Teams에 대한 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | 추가 |
-| 8/12/2022 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | 추가 |
-| 8/12/2022 | [Microsoft Teams의 Walkie Talkie 앱](/MicrosoftTeams/walkie-talkie) | 으로 바뀌었습니다 |
