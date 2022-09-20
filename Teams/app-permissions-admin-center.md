@@ -6,18 +6,19 @@ manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
+ms.subservice: teams-apps
 search.appverid: MET150
 description: Microsoft Teams 관리 센터의 앱 관리 페이지에서 앱에서 요청한 권한을 보고 앱에 관리자 동의를 부여하는 방법을 알아보세요.
 ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9ec44990728feac5982641ce80ff15442bcaf7d
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 6ba381d5d6806c1abd7a2766228ff74f843b156a
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396489"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837518"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 앱 사용 권한 보기 및 관리자 동의 권한 부여
 

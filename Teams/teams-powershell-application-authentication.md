@@ -12,21 +12,21 @@ ms.collection:
 description: Microsoft Teams 관리에 사용되는 Teams PowerShell 모듈의 애플리케이션 기반 인증에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 479dd64d6eece46335545e79e8f618b797e85f77
-ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
+ms.openlocfilehash: b18c8505a255e0f937c077e1f905d721eb597889
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "67795067"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837668"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell 모듈의 애플리케이션 기반 인증
 
-애플리케이션 기반 인증은 현재 Teams PowerShell 모듈에서 버전 4.7.1-preview 이상이 있는 미리 보기의 제한된 cmdlet 집합에 대해 지원됩니다. 현재 이 인증 모드는 상용 환경에서만 지원됩니다. 비즈니스용 Skype Online에서 지역 호스팅 모임에 대해 이전에 사용하도록 설정되었거나 사용하도록 설정된 고객에게는 지원되지 않습니다.
+애플리케이션 기반 인증은 현재 Teams PowerShell 모듈에서 버전 4.7.1-preview 이상이 있는 미리 보기의 제한된 cmdlet 집합에 대해 지원됩니다. 현재 이 인증 모드는 상용 환경에서만 지원됩니다.
 
 
 ## <a name="cmdlets-supported"></a>지원되는 Cmdlet
 
-모든 비 \*Cs cmdlet(예: Get-Team), Get-CsTenant, Get-CsOnlineUser & Get-CsOnlineVoiceUser 이미 지원됩니다. 다른 cmdlet은 점진적으로 롤아웃됩니다. 
+모든 비 \*Cs cmdlet(예: Get-Team), Get-CsTenant, Get-CsOnlineUser, Get-CsOnlineVoiceUser & \*-CsOnlineSipDomain cmdlet은 이미 지원됩니다. 다른 cmdlet은 점진적으로 롤아웃됩니다. 
 
 
 ## <a name="examples"></a>예제

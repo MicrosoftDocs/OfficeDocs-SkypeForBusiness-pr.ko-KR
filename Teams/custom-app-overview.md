@@ -6,6 +6,7 @@ manager: prkosh
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-apps
 audience: Admin
 ms.collection:
 - M365-collaboration
@@ -18,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: d7c23b424db102b21e88944e2ab55d8a2fe98c08
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
+ms.openlocfilehash: 4ba559d605f1465fda7caf9b253c18864c8b4c20
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299304"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837378"
 ---
 # <a name="understand-and-manage-custom-and-sideloaded-apps"></a>사용자 지정 및 테스트용으로 로드된 앱 이해 및 관리
 
@@ -33,7 +34,7 @@ Microsoft Teams를 사용하면 조직 내 개발자가 조직의 내부 사용�
 
 개발자는 관리자의 승인을 위해 Teams를 통해 사용자 지정 앱을 제출할 수 있습니다. 앱 설정 정책을 사용하여 사용자 지정 앱의 롤아웃, 배포 및 권한을 제어할 수 있습니다.
 
-:::image type="content" source="media/custom-app-policy-trimmed.png" alt-text="조직 전체 설정 패널에서 조직에서 사용자 지정 앱을 허용하는 방법을 보여 주는 스크린샷" lightbox="media/custom-app-policy.png":::
+:::image type="content" source="media/custom-app-policy-trimmed.png" alt-text="조직 전체 설정 패널에서 조직에 사용자 지정 앱을 허용하는 방법을 보여 주는 스크린샷" lightbox="media/custom-app-policy.png":::
 
 사용자 지정 앱을 사용하도록 허용한 후 최종 사용자는 Teams 스토어의 왼쪽 탐색 영역에서 **조직용으로 빌드** 를 선택하여 찾을 수 있습니다.
 
@@ -53,11 +54,11 @@ Microsoft Teams를 사용하면 조직 내 개발자가 조직의 내부 사용�
 
 사용자 지정 정책을 만들거나 조직의 요구에 따라 사용자 지정 앱을 허용하거나 차단하도록 전역 정책을 편집할 수 있습니다. 조직의 개발자가 사용자 지정 앱을 업로드할 수 있는 사용자 지정 정책을 만들려면 다음 단계를 수행합니다.
 
-1. Teams 관리 센터에 로그인하고 **Teams 앱** > **[설정 정책에 액세스합니다](https://admin.teams.microsoft.com/policies/app-setup)**.
+1. Teams 관리 센터에 로그인하고 **Teams 앱** > **[정책 설정](https://admin.teams.microsoft.com/policies/app-setup)** 에 액세스합니다.
 
 1. **추가** 를 선택합니다.
 
-1. 정책에 대한 이름과 설명을 제공합니다.
+1. 정책의 이름과 설명을 제공합니다.
 
 1. **사용자 지정 앱 업로드** 를 켜거나 끕니다.
 

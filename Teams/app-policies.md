@@ -5,6 +5,7 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: conceptual
 ms.service: msteams
+ms.subservice: teams-apps
 search.appverid: ''
 description: Microsoft Teams에서 앱을 관리하는 데 사용되는 앱 권한 정책, 앱 설정 정책 및 사용자 지정 앱 정책에 대해 알아보세요.
 audience: admin
@@ -13,12 +14,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 5a377923412ad1835e4a0a3c099d31adf283267b
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: ad7e99d10ebf53c7a85394edda84061f6caf0d29
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299037"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837568"
 ---
 # <a name="overview-of-app-policies-used-to-manage-access-to-apps"></a>앱 액세스 권한 관리에 사용되는 앱 정책 개요
 

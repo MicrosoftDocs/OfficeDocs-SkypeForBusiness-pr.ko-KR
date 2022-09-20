@@ -7,6 +7,7 @@ ms.reviewer: prem
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-apps
 audience: Admin
 ms.collection:
 - M365-collaboration
@@ -17,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 로고, 사용자 지정 배경 및 사용자 지정 텍스트 색을 추가하여 조직의 Teams 앱 스토어를 사용자 지정하는 방법을 알아보세요.
-ms.openlocfilehash: 4d26ba44fa9c9618476f7afdc7a59d7a4afd66ca
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 4a7a34324619f3c076a5abd7069e129d59420e6a
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486963"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837208"
 ---
 # <a name="customize-your-organizations-app-store-in-microsoft-teams"></a>Microsoft Teams에서 조직의 앱 스토어 사용자 지정
 

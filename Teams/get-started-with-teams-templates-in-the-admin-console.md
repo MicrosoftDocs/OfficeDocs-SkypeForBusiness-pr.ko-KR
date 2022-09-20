@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4fb9c538335a50271bd0ae15249ec8aec7af95b
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 41267db383d39c40ee18a67ee96538f205df52e4
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396729"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837558"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Teams 관리 센터에서 팀 템플릿 시작하기
 
@@ -70,30 +70,35 @@ Teams 관리 센터에서 사용할 수 있는 미리 빌드된 팀 템플릿은
 
 미리 빌드된 템플릿을 복제할 수 있지만 편집할 수는 없습니다. 미리 빌드된 템플릿의 속성을 변경하려면 기존 템플릿에서 새 템플릿을 만든 다음 원하는 속성을 추가하거나 제거할 수 있습니다. 일부 템플릿의 특정 속성은 변경할 수 없습니다.
 
-| 서식 파일 유형 | TemplateId | 이 템플릿과 함께 제공되는 속성 |
-| ------------------ | -------------- | ----------------------------------------------------- |
-| Office 365 채택 |`com.microsoft.teams.template.AdoptOffice365`|  채널 <ul><li>일반</li> <li>공지 사항</li> <li>챔피언 코너</li> <li>팀 양식</li><li>일정</li></ul> 앱: <ul><li>Wiki</li>  <li>채널 일정</li> <li>이정표</li><li>게시판</li></ul>|
-| 프로젝트 관리 |`com.microsoft.teams.template.ManageAProject`| 채널 <ul><li>일반</li> <li>공지 사항</li> <li>리소스</li> <li>계획</li></ul> 앱:<ul><li>Wiki</li><li>OneNote</li><li>작업</li><li>목록</li><li>Power Automate</li></ul> |
-| 이벤트 관리|`com.microsoft.teams.template.ManageAnEvent` | 채널 <ul><li>일반</li> <li>공지 사항</li> <li>예산</li> <li>콘텐츠</li><li>물류</li> <li>계획</li> <li> 마케팅 및 PR</li></ul> 앱:<ul><li>Wiki</li><li>웹 사이트</li> <li>YouTube</li> <li>작업</li> <li>OneNote</li> <li>직원 아이디어</li> <li>문제 보고자</li><li>Power Automate</li><li>게시판</li><li>이정표</li></ul> |
-|직원 온보딩|`com.microsoft.teams.template.OnboardEmployees` | 채널 <ul><li>일반</li> <li>공지 사항</li> <li>직원 채팅</li> <li>교육</li></ul>앱:<ul><li>Wiki</li><li>커뮤니티</li><li>작업</li><li>직원 아이디어</li><li>Power Automate</li><li>게시판</li><li>이정표</li></ul>|
-|지원 센터 구성| `com.microsoft.teams.template.OrganizeHelpDesk`|채널<ul><li>일반</li><li>공지 사항</li><li>FAQ</li></ul>앱:<ul><li>Wiki</li><li>OneNote</li><li>작업 </li><li>칭찬</li><li>문제 보고자</li><li>Power Automate</li><li>게시판</li></ul> |
-| 환자 간호| `com.microsoft.teams.template.healthcareWard`| 채널<ul><li>일반</li><li>공지 사항</li><li>장애 요소</li><li>라운드</li><li>직원</li><li>교육</li></ul> 앱: <ul><li>Wiki</li><li>목록  </li><li>승인</li><li>게시판</li><li>검사</li></ul>|
-| 위기 통신 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| 채널 <ul><li>일반<li>공지 사항</li><li>세계 뉴스</li><li>내부 통신</li><li>외부 통신</li><li>승인 요청</li><li>고객 에스컬레이션</li><li>임원 업데이트</li><li>계획</li><li>물류</li></ul>앱: <ul><li>웹 사이트</li><li>작업</li><li>문제 보고자</li><li>승인</li><li>게시판</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
-|은행 지점| `com.microsoft.teams.template.CollaborateWithinABankBranch`|채널 <ul><li>일반<li>공지 사항</li><li>장애 요소</li><li>고객 모임</li><li>승인 요청 </li><li>코칭</li><li>기술 개발</li><li>대출 처리</li><li>고객 불만 사항</li><li>쿠도스</li><li>재미있는 내용</li><li>규정 준수</li></ul>앱:<ul><li>칭찬 </li><li>문제 보고자</li><li>Wiki</li><li>일정</li><li>승인</li><li>게시판</li><li>아이디어</li></ul>|
+> [!NOTE]
+> 별표(*)는 템플릿이 *Microsoft 365 연결된 템플릿* 임을 나타냅니다. 사용자가 템플릿을 사용하여 팀을 만들면 연결된 SharePoint 템플릿이 사이트 및 팀에 적용됩니다. 페이지, 목록 및 Power Platform 통합과 같은 SharePoint 구성 요소는 자동으로 추가되고 팀의 일반 채널에 탭으로 고정됩니다. 사용자는 Teams 내에서 바로 이러한 페이지와 목록을 편집할 수 있습니다.
+>
+> SharePoint 템플릿에 대한 자세한 내용은 [SharePoint 사이트 서식 파일 적용 및 사용자 지정을 참조하세요](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates).
+
+>[!div class="mx-tdBreakAll"]
+>| 서식 파일 유형 | TemplateId | 이 템플릿과 함께 제공되는 속성 |
+>| ------------------ | -------------- | ----------------------------------------------------- |
+>| 프로젝트 관리* |`com.microsoft.teams.template.ManageAProject`| 채널 <ul><li>일반</li> <li>공지 사항</li> <li>리소스</li> <li>계획</li></ul> 앱:<ul><li>승인</li><li>게시판</li><li>목록<ul><li>프로젝트 추적기</li><li>문제 추적기</li></ul></li><li>이정표</li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>당사 사이트</li></ul></li><li>Planner 및 할 일별 작업</li><li>Wiki</li></ul> |
+| 이벤트 관리*|`com.microsoft.teams.template.ManageAnEvent` | 채널 <ul><li>일반</li> <li>공지 사항</li> <li>예산</li> <li>콘텐츠</li><li>물류</li> <li>계획</li> <li> 마케팅 및 PR</li></ul> 앱:<ul><li>승인</li><li>게시판</li> <li>직원 아이디어</li><li>목록<ul><li>콘텐츠 스케줄러</li></ul></li><li>이정표</li> <li>OneNote</li> <li>Power Automate</li> <li>SharePoint Pages<ul><li>당사 사이트</li><li>이벤트 정보</li></ul><li>Planner 및 할 일별 작업</li><li>Wiki</li> |
+|직원 온보딩*|`com.microsoft.teams.template.OnboardEmployees` | 채널 <ul><li>일반</li> <li>공지 사항</li> <li>직원 채팅</li> <li>교육</li></ul>앱:<ul><li>게시판</li><li>직원 아이디어</li><li>목록<ul><li>온보딩 검사 목록</li></ul></li><li>이정표</li><li>Power Automate</li> <li>SharePoint Pages<ul><li>시작하기</li><li>교육</li></ul><li>Planner 및 할 일별 작업</li><li>Viva Engage</li><li>Wiki</li></ul>|
+| Office 365 채택 |`com.microsoft.teams.template.AdoptOffice365`|  채널 <ul><li>일반</li> <li>공지 사항</li> <li>챔피언 코너</li> <li>Team Forms</li><li>일정</li></ul> 앱: <ul><li>Wiki</li>  <li>채널 일정</li> <li>이정표</li><li>게시판</li></ul>
+|지원 센터 구성*| `com.microsoft.teams.template.OrganizeHelpDesk`|채널<ul><li>일반</li><li>공지 사항</li><li>FAQ</li></ul>앱:<ul><li>문제 보고</li><li>목록<ul><li>장치</li><li>티켓</li></ul></li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>당사 사이트</li><li>FAQ</li></ul></li><li>Planner 및 할 일별 작업</li><li>Wiki</li></ul> |
 |인시던트 대응| `com.microsoft.teams.template.CoordinateIncidentResponse`|채널 <ul><li>일반<li>공지 사항</li><li>물류</li><li>계획</li><li>복구</li><li>긴급</li></ul> 앱: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>작업</li> <li>승인</li> <li>검사</li> <li>Power Automate</li><li>게시판</li><li>이정표</li></ul>|
+| 위기 통신* |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| 채널 <ul><li>일반<li>공지 사항</li><li>임원 업데이트</li><li>계획</li><li>물류</li></ul>앱: <ul><li>승인</li><li>문제 보고</li><li>목록<ul><li>콘텐츠 스케줄러</li><li>프로젝트 계획</li></ul></li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>당사 사이트</li><li>최신 업데이트</li></ul><li>Planner 및 할 일별 작업</li>|
+| 스토어 관리*| `com.microsoft.teams.template.retailStore` |채널 <ul><li>일반<li>Shift Handoff</li><li>스토어 준비 상태</li><li>학습</li></ul> 앱: <ul><li>승인</li><li>검사</li><li>목록<ul><li>인벤토리 목록</li></ul></li><li>SharePoint Pages<ul><li>Microsoft Store</li></ul></li><li>교대 근무</li><li>Planner 및 할 일별 작업</li><li>Wiki</li></ul>|
+|은행 지점| `com.microsoft.teams.template.CollaborateWithinABankBranch`|채널 <ul><li>일반<li>공지 사항</li><li>장애 요소</li><li>고객 모임</li><li>승인 요청 </li><li>코칭</li><li>기술 개발</li><li>대출 처리</li><li>고객 불만 사항</li><li>쿠도스</li><li>재미있는 물건</li><li>규정 준수</li></ul>앱:<ul><li>칭찬 </li><li>문제 보고자</li><li>Wiki</li><li>일정</li><li>승인</li><li>게시판</li><li>아이디어</li></ul>|
+| 환자 관리| `com.microsoft.teams.template.healthcareWard`| 채널<ul><li>일반</li><li>공지 사항</li><li>장애 요소</li><li>라운드</li><li>직원</li><li>교육</li></ul> 앱: <ul><li>Wiki</li><li>목록  </li><li>승인</li><li>게시판</li><li>검사</li></ul>|
 |병원| `com.microsoft.teams.template.healthcareHospital` |채널 <ul><li>일반</li><li>공지 사항</li><li>규정 준수</li><li>보호</li><li>인적 리소스</li><li>약국</li></ul> 앱: <ul><li>Wiki</li><li>목록</li><li>작업</li><li>승인</li><li>교대 근무</li><li>게시판</li><li>검사</li><li>아이디어</li></ul>|
-|매장 구성| `com.microsoft.teams.template.retailStore` |채널 <ul><li>일반<li>교대 근무 전달</li><li>매장 준비 상태</li><li>학습</li></ul> 앱: <ul><li>Wiki</li><li>작업</li><li>교대 근무</li><li>검사</li></ul>|
-|관리자용 소매| `com.microsoft.teams.template.retailManagerCollaboration` |채널 <ul><li>일반<li>작업</li><li>학습</li></ul> 앱: <ul><li>Wiki</li><li>작업</li><li>검사</li></ul>|
-|품질 및 안전성 |`com.microsoft.teams.template.QualitySafety`|채널 <ul><li>일반<li>공지 사항</li><li>리더십</li><li>유지 관리</li><li>프로덕션 라인 1</li><li>프로덕션 라인 2</li><li>프로덕션 라인 3</li><li>건강 및 안전</li><li>교육</li><li>재미있는 내용</li></ul> 앱: <ul><li>Wiki</li><li>작업</li> <li>문제 보고자</li> <li>검사</li> </ul>|
+|품질 및 안전 |`com.microsoft.teams.template.QualitySafety`|채널 <ul><li>일반<li>공지 사항</li><li>리더십</li><li>유지 관리</li><li>프로덕션 라인 1</li><li>프로덕션 라인 2</li><li>프로덕션 라인 3</li><li>건강 및 안전</li><li>교육</li><li>재미있는 물건</li></ul> 앱: <ul><li>Wiki</li><li>작업</li> <li>문제 보고자</li> <li>검사</li> </ul>|
+|관리자용 소매*| `com.microsoft.teams.template.retailManagerCollaboration` |채널 <ul><li>일반<li>작업</li><li>학습</li></ul> 앱: <ul><li>승인</li><li>검사</li><li>SharePoint Pages<ul><li>Microsoft Store</li></ul></li><li>Planner 및 할 일별 작업</li><li>Wiki</li></ul>|
 |자원 봉사자 관리| `com.microsoft.teams.template.ManageVolunteers` |채널 <ul><li>일반<li>공지 사항</li><li>보고</li><li>자원 봉사자 관리</li><li>참여 기회</li><li>자원 봉사자 온보딩</li></ul> 앱: <ul><li>웹 사이트</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>작업</li><li>SharePoint</li><li>OneNote</li></ul>|
-||||
 
 ### <a name="team-templates-by-category-and-industry"></a>범주 및 산업별 팀 템플릿
 
 업계에서 미리 빌드된 템플릿을 사용하는 방법에 대한 자세한 내용은 다음을 참조하세요.
 
-- [재무 팀 템플릿](financial-teams-templates-in-the-admin-console.md)
 - [일반 팀 템플릿](general-teams-templates-in-the-admin-console.md)
+- [재무 팀 템플릿](financial-teams-templates-in-the-admin-console.md)
 - [정부 팀 템플릿](government-teams-templates-in-the-admin-console.md)
 - [의료 팀 템플릿](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 - [제조 팀 템플릿](manufacturing-teams-templates-in-the-admin-console.md)
@@ -112,7 +117,6 @@ Teams 관리 센터에서 사용할 수 있는 미리 빌드된 팀 템플릿은
 |템플릿당 채널 수 | 15 |
 |템플릿의 채널당 탭 | 20 |
 |템플릿당 앱 | 50|
-|||
 
 자세한 내용은 [Teams의 제한 및 사양을 참조하세요](limits-specifications-teams.md).
 
@@ -151,3 +155,4 @@ Teams 관리 센터에서 사용할 수 있는 미리 빌드된 팀 템플릿은
 - [템플릿으로 팀 만들기](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Microsoft Graph를 사용하여 팀 템플릿 시작하기](get-started-with-teams-templates.md)
 - [팀 복제](/graph/api/team-clone)
+- [Teams 및 SharePoint 통합 개요](/sharepoint/teams-connected-sites)

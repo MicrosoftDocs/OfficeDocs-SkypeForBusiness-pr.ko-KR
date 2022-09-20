@@ -6,18 +6,19 @@ manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
+ms.subservice: teams-apps
 search.appverid: MET150
 description: 조직의 팀 소유자가 앱에 대한 동의를 제공할 수 있는지를 제어하기 위해 구성해야 하는 설정에 대해 알아봅니다.
 ms.localizationpriority: high
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb96b6130ce87d8d1453f6ea4ee40af2bb84050d
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: cde84f4662b507b8497973436b9b713223fdbf74
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396469"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837328"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>마이크로소프트 Teams의 리소스별 동의
 

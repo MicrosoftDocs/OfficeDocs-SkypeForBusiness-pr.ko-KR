@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 0a6bfa577df36eba83b4764aa4eb819d1085432a
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 67c50eefdd1d0e20e10b9542912f0e2c4f412815
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486913"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837648"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Microsoft Teams 앱 이해하기
 
@@ -95,7 +95,7 @@ Microsoft는 앱 개발 방법을 사용하여 기능 및 프로덕션 지원 �
 
 메시징 확장은 최종 사용자가 대화에서 벗어나지 않고도 앱 콘텐츠를 삽입하거나 메시지에 대한 작업을 수행하기 위한 바로 가기입니다. 메시징 확장에는 최종 사용자가 외부 콘텐츠를 빠르게 찾고 메시지 또는 작업 명령에 삽입할 수 있는 검색 명령이 있을 수 있습니다.
 
-Teams 기능에 매핑된 일반적인 사용 사례를 보려면 [사용 사례를 Teams 앱 기능에 매핑](/microsoftteams/platform/concepts/design/map-use-cases)을 참조하세요.
+Teams 기능에 매핑된 일반적인 사용 사례를 보려면 [사용 사례를 Teams 앱 기능에 매핑을 참조하세요](/microsoftteams/platform/concepts/design/map-use-cases).
 
 <!--- TBD: Admins do many considerations and decisions around app adoption and app governance. These are to be covered in a separate article. Commenting the below content for now as part of this article revamp.
 

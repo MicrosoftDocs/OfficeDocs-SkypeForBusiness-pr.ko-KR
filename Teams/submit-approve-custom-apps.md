@@ -6,6 +6,7 @@ manager: prkosh
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-apps
 audience: Admin
 ms.collection:
 - M365-collaboration
@@ -16,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams의 Teams 앱 제출 API를 사용하여 제출한 사용자 지정 앱을 승인하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 60f9d78d5fdcc51d741fdbefed5c08a487910f22
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 644e4afd28dbec27385516ce3e0676eb9ea27ef1
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299097"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837528"
 ---
 # <a name="publish-a-custom-app-submitted-using-the-teams-app-submission-api"></a>Teams 앱 제출 API를 통해 제출된 사용자 지정 앱 게시
 

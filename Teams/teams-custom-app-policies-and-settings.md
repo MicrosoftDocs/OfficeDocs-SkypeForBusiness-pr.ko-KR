@@ -5,6 +5,7 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.tgt.pltfrm: cloud
+ms.subservice: teams-apps
 ms.service: msteams
 audience: Admin
 ms.collection:
@@ -22,16 +23,16 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 7ff0a37d815b3118aea0eb63abc8a414c4a99bd5
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: d52fe50ba3fa02b3b39269fd06ce66ea0dfb5b32
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397249"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837168"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Microsoft Teams에서 사용자 지정 앱 정책 및 설정 관리
 
-관리자는 사용자 지정 앱 정책 및 설정을 사용하여 조직에서 Microsoft Teams에 사용자 지정 앱을 업로드할 수 있는 사람을 제어할 수 있습니다. 관리자는 사용자 지정 앱을 업로드할 수 있는 사용자를 결정하고 관리자와 팀 소유자는 조직의 특정 팀에서 사용자 지정 앱을 추가하도록 허용할지 여부를 결정할 수 있습니다.  사용자 지정 앱 정책을 수정한 후 변경 사항이 적용되는 데 몇 시간이 걸릴 수 있습니다. 이러한 정책을 관리하려면 전역 관리자 또는 Teams 서비스 관리자여야 합니다.
+관리자는 사용자 지정 앱 정책 및 설정을 사용하여 조직에서 Microsoft Teams에 사용자 지정 앱을 업로드할 수 있는 사람을 제어할 수 있습니다. 관리자는 사용자 지정 앱을 업로드할 수 있는 사용자를 결정하고 관리자와 팀 소유자는 조직의 특정 팀에서 사용자 지정 앱을 추가하도록 허용할지 여부를 결정할 수 있습니다.  사용자 지정 앱 정책을 수정한 후 변경 사항이 적용되는 데 몇 시간이 걸릴 수 있습니다. 이러한 정책을 관리하려면 전역 관리 또는 Teams 서비스 관리자여야 합니다.
 
 조직의 개발자는 앱 패키지(.zip 파일)를 팀 또는 개인 컨텍스트에 직접 업로드하여 Teams에 사용자 지정 앱을 추가할 수 있습니다. 이 작업은 Teams 앱 스토어를 통해 앱을 추가하는 방법과 다릅니다. 사이드로딩이라고도 하는 앱 패키지 업로드를 통해 사용자 지정 앱을 추가하면 앱이 널리 배포될 준비가 되기 전에 조직 내의 특정 사용자가 개발 중인 앱을 테스트할 수 있습니다.
 
