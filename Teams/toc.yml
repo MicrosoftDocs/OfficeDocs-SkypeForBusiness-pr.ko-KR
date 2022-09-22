@@ -667,6 +667,40 @@ items:
                 href: teams-live-events/configure-teams-live-events.md
               - name: 라이브 이벤트 레코딩 정책
                 href: teams-live-events/live-events-recording-policies.md
+          - name: Teams 하이브리드 모임 환경 만들기
+            items:
+              - name: 개요
+                href: hybrid-meetings-overview.md
+              - name: 하이브리드 모임 원칙
+                href: hybrid-meetings-principles.md
+              - name: 1단계 - Teams 모임 기능 숙지
+                href: hybrid-meetings-features.md
+              - name: 2단계 - 모임 모범 사례 전파
+                href: hybrid-meetings-educate-participants.md
+              - name: 3단계 - 모임 공간 디자인 및 빌드
+                href: hybrid-meetings-room-design.md
+              - name: 4단계 - 회의실 장치 선택
+                href: hybrid-meetings-device-select.md
+              - name: 5단계 - 디바이스 설정
+                items:
+                  - name: 개요
+                    href: hybrid-meetings-device-config-intro.md
+                  - name: 1단계 - Teams 룸 라이선스 구매
+                    href: hybrid-meetings-device-config-license.md
+                  - name: 2단계 - 리소스 계정 만들기
+                    href: hybrid-meetings-device-config-account.md
+                  - name: 3단계 - 회의실 라이선스 할당
+                    href: hybrid-meetings-device-config-assign.md
+                  - name: 4단계 - 사서함 속성 구성
+                    href: hybrid-meetings-device-config-mailbox.md
+                  - name: 5단계 - 암호 만료 끄기
+                    href: hybrid-meetings-device-config-password.md
+                  - name: 6단계 - 모임 정책 구성
+                    href: hybrid-meetings-device-config-policies.md
+                  - name: 7단계 - 일정 옵션 구성
+                    href: hybrid-meetings-device-config-calendar.md
+              - name: 6단계 - 회의실 및 모임 관리 및 모니터링
+                href: hybrid-meetings-manage.md
       - name: 오디오 회의
         items:
           - name: M365의 오디오 회의
