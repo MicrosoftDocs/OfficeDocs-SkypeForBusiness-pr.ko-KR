@@ -1569,7 +1569,7 @@ items:
         items:
           - name: 타사 앱 이해
             href: overview-third-party-apps.md
-          - name: Microsoft의 앱 유효성 검사 이해
+          - name: 'Microsoft에서 수행한 앱 검사, 테스트 및 유효성 검사'
             href: overview-of-app-validation.md
           - name: '타사 앱의 보안, 규정 준수 및 개인 정보 보호'
             href: overview-of-app-certification.md
@@ -1593,7 +1593,7 @@ items:
             href: submit-approve-custom-apps.md
           - name: 패키지로 제출된 사용자 지정 앱 게시
             href: upload-custom-apps.md
-          - name: Teams 관리 센터에서 Power Platform 앱 관리
+          - name: Power Platform을 사용하여 만든 사용자 지정 앱 관리
             href: manage-power-platform-apps.md
       - name: 앱을 제어하는 관리자 컨트롤
         items:
