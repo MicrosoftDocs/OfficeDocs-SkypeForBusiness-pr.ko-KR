@@ -1429,15 +1429,13 @@ items:
                 href: rooms/xml-config-file.md
               - name: 복구 도구 사용
                 href: rooms/recovery-tool.md
-      - name: Microsoft Teams 룸 관리되는 서비스
+      - name: Microsoft Teams 룸 Pro Management
         items:
           - name: 개요
             href: rooms/microsoft-teams-rooms-premium.md
-          - name: 라이선스 획득 및 할당
-            href: rooms/obtaining-assigning-license.md
-          - name: MTRP 관리 서비스에 등록
+          - name: Pro 관리 포털에 액세스
             href: rooms/enrolling-mtrp-managed-service.md
-          - name: 관리되는 서비스에 디바이스 등록
+          - name: Pro 관리에 디바이스 등록
             href: rooms/enroll-a-device.md
           - name: 역할 기반 액세스 제어
             href: rooms/microsoft-teams-rooms-premium-rbac.md
@@ -1445,7 +1443,7 @@ items:
             href: rooms/managed-meeting-rooms-portal.md
           - name: 관리 업데이트
             href: rooms/update-management.md
-          - name: Teams 룸용 ServiceNow 구성
+          - name: ServiceNow 구성
             href: rooms/microsoft-teams-rooms-configure-servicenow.md
           - name: 파트너용 다중 테넌트 관리
             href: rooms/multi-tenant-management-partner.md
@@ -1457,12 +1455,10 @@ items:
             href: rooms/health-and-usage-reports.md
           - name: 표준 및 소회의실 플래너
             href: rooms/standards-and-room-planner.md
-          - name: 고객이 보고한 인시던트
+          - name: 문제 기록
             href: rooms/customer-reported-incidents.md
           - name: 데이터 및 개인 정보 보호 정보
             href: rooms/data-and-privacy-info.md
-          - name: Teams 룸 모바일 애플리케이션 사용
-            href: rooms/extended-mobile-app.md
       - name: 디바이스
         items:
           - name: Teams 장치 저장소
