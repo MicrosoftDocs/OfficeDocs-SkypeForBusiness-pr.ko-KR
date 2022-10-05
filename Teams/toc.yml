@@ -1367,6 +1367,8 @@ items:
                 href: rooms/rooms-licensing.md
               - name: Teams 룸 관리 센터 라이선스
                 href: rooms/admin-center-license-overview.md
+              - name: 레거시 라이선스 Teams 룸
+                href: rooms/rooms-legacy-licensing.md
               - name: "Windows와 Android 간의 Teams 장치\_기능 비교"
                 href: rooms/teams-devices-feature-comparison.md
               - name: Teams를 위한 미팅룸 지침
