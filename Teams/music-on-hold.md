@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: 전화 시스템에서 음악 보류 기능을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: e218de46e56c2e2f85ed2b19cea21cbc4d4679be
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 9e2a2aa352a1fd65955b35d4175b831653c694cb
+ms.sourcegitcommit: 52450514880fe72af0d0b2fab1419eadfc3a583f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706177"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68499452"
 ---
 # <a name="music-on-hold"></a>보류 중인 음악
 
@@ -93,7 +93,7 @@ Teams 관리 센터를 사용하여 통화 보류 정책을 만들거나 편집�
 Windows PowerShell 5.1을 사용하여 MP3 오디오 파일을 업로드하는 예제는 다음과 같습니다. 다른 예제는 [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)을 참조하세요.
 
 ```PowerShell
-C:\> $content = Get-Content "C:\tmp\customMoH1.mp3" -Encoding byte -ReadCount 0
+C:\> $content = [System.IO.File]::ReadAllBytes('C:\tmp\customMoH1.mp3')
 C:\> $AudioFile = Import-CsOnlineAudioFile -FileName "customMoH1.mp3" -Content $content
 C:\> $AudioFile
 Id            : 56a56961f2794f098a359885ec1454a1
@@ -140,7 +140,7 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 - 보류 중인 음악은 사용자가 TeamsOnly 모드에 있는 경우에만 사용할 수 있습니다.
 
-- 호출된 Teams 사용자가 Location-Based 라우팅을 사용하도록 설정된 경우 통화자에게 대기 중인 음악을 재생할 수 없습니다.
+- 호출된 Teams 사용자가 Location-Based 라우팅을 사용하도록 설정된 경우 표준 음악 대기 상태만 호출자에게 재생됩니다.
 
 - 공유 회선 모양(위임)에 대해 구성된 사용자 및 통화 대기를 사용하는 경우 사용자 지정 음악 보류를 사용할 수 없습니다. 대기 중인 표준 음악이 재생됩니다.
 

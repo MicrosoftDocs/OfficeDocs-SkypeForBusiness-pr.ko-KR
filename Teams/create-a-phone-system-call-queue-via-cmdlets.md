@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: cmdlet을 통해 통화 큐를 구성하는 방법 알아보기
-ms.openlocfilehash: b2439bf6b71fc7381494030c326db88660fa5eaf
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 7654d59b66643b0eebf137af8aed0a9c672aea70
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268803"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68481220"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>cmdlet을 통해 통화 큐 만들기
 
@@ -143,7 +143,7 @@ Connect-MsolService -Credential $credential
 "d:\\"를 wav 파일이 컴퓨터에 저장되는 경로로 바꿉니다.
 
 ```powershell
-$content = Get-Content "d:\sales-hold-in-queue-music.wav" -Encoding byte -ReadCount 0
+$content = [System.IO.File]::ReadAllBytes('d:\sales-hold-in-queue-music.wav')
 $audioFileSalesHoldInQueueMusicID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "sales-hold-in-queue-music.wav" -Content $content).ID
 ```
 
@@ -203,20 +203,20 @@ New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID)
 "d:\\"를 wav 파일이 컴퓨터에 저장되는 경로로 바꿉니다.
 
 ```powershell
-$content = Get-Content "d:\support-greeting.wav" -Encoding byte -ReadCount 0
-$audioFileSupportGreetingID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "support-greeting.wav" -Content $content).ID
+$content1 = [System.IO.File]::ReadAllBytes('d:\support-greeting.wav')
+$audioFileSupportGreetingID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "support-greeting.wav" -Content $content1).ID
 
-$content = Get-Content "d:\support-hold-in-queue-music.wav" -Encoding byte -ReadCount 0
-$audioFileSupportHoldInQueueMusicID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "support-hold-in-queue-music.wav" -Content $content).ID
+$content2 = [System.IO.File]::ReadAllBytes('d:\support-hold-in-queue-music.wav')
+$audioFileSupportHoldInQueueMusicID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "support-hold-in-queue-music.wav" -Content $content2).ID
 
-$content = Get-Content "d:\support-shared-voicemail-greeting.wav" -Encoding byte -ReadCount 0
-$audioFileSupportSharedVoicemailGreetingID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "support-shared-voicemail-greeting.wav" -Content $content).ID
+$content3 = [System.IO.File]::ReadAllBytes('d:\support-shared-voicemail-greeting.wav')
+$audioFileSupportSharedVoicemailGreetingID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "support-shared-voicemail-greeting.wav" -Content $content3).ID
 ```
 
 ### <a name="get-support-team-group-id"></a>지원 팀 그룹 ID 가져오기
 
 ```powershell
-$teamSupportID = (Get-Team -displayname "Support").GroupID
+$teamSupportID = (Get-Team -DisplayName "Support").GroupID
 ```
 
 ### <a name="get-list-of-supported-languages"></a>지원되는 언어 목록 가져오기

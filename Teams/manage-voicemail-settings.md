@@ -1,6 +1,6 @@
 ---
 title: 클라우드 음성 사서함 설정 관리
-author: crowe
+author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 사용자의 음성 메일 설정을 관리합니다.
-ms.openlocfilehash: 7aa2fdf84f38cb9977b3a4156b28a96b98bbd9d7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 96ac5e13360463150a5ff21bc8042b701a4f9717
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269603"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999493"
 ---
 # <a name="manage-cloud-voicemail-settings-for-users"></a>사용자에 대한 클라우드 음성 사서함 설정 관리
 

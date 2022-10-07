@@ -8,6 +8,7 @@ manager: prkosh
 audience: admin
 ms.subservice: teams-apps
 ms.service: msteams
+ms.date: 08/11/2022
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,14 +18,14 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ac48aaccfab94d3a0e54bd51dbc0db2dc4c3d6fa
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: eeb0c49dcf560b858b8723f813cc86b6b51c1daa
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837488"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377556"
 ---
-# <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>모든 Teams 앱에 대해 Microsoft에서 수행한 유효성 검사
+# <a name="testing-and-validation-done-by-microsoft-for-all-teams-apps"></a>모든 Teams 앱에 대해 Microsoft에서 수행한 테스트 및 유효성 검사
 
 Microsoft는 모든 앱이 최종 사용을 위해 스토어에 표시되기 전에 필수 유효성 검사를 통과하도록 요구합니다. 이는 Teams 앱 스토어에 게시된 모든 앱(사용자 지정 앱 제외)에 적용됩니다. 또한 Microsoft는 앱 개발자가 향상된 규정 준수, 보안 및 개인 정보 보호 제어를 나타내는 앱의 선택적 인증에 참여하도록 강력히 권장합니다.
 

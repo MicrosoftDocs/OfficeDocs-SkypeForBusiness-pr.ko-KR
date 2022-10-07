@@ -12,12 +12,12 @@ ms.collection:
 description: Microsoft Teams 관리에 사용되는 Teams PowerShell 모듈의 애플리케이션 기반 인증에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b18c8505a255e0f937c077e1f905d721eb597889
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 7dab0f32a6547db5522f00d4750f7eff26ea5995
+ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837668"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "68218092"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell 모듈의 애플리케이션 기반 인증
 
@@ -26,7 +26,23 @@ ms.locfileid: "67837668"
 
 ## <a name="cmdlets-supported"></a>지원되는 Cmdlet
 
-모든 비 \*Cs cmdlet(예: Get-Team), Get-CsTenant, Get-CsOnlineUser, Get-CsOnlineVoiceUser & \*-CsOnlineSipDomain cmdlet은 이미 지원됩니다. 다른 cmdlet은 점진적으로 롤아웃됩니다. 
+아래 cmdlet은 이미 지원되며, 다른 cmdlet은 점진적으로 롤아웃됩니다. 
+
+  - \*비 Cs cmdlet(예: Get-Team)
+  - Get-CsTenant
+  - Get-CsOnlineUser, Get-CsOnlineVoiceUser
+  - \*-CsOnlineSipDomain 
+  - \*-CsPhoneNumberAssignment
+  - \*-CsOnlineTelephoneNumberOrder, Get-CsOnlineTelephoneNumberType, Get-CsOnlineTelephoneNumberCountry
+  - \*-CsCallQueue
+  - \*-CsAutoAttendant, \*-CsAutoAttendant\*
+  - \*-CsOnlineVoicemailUserSettings
+  - Find-CsOnlineApplicationInstance, \*-CsOnlineApplicationInstanceAssociation, Get-CsOnlineApplicationInstanceAssociationStatus
+  - \*-CsOnlineSchedule, New-CsOnlineTimeRange, New-CsOnlineDateTimeRange
+  - \*-CsOnlineAudioFile
+  - Find-CsGroup
+  - \*-CsOnlineDialInConferencingUser, \*-CsOnlineDialInConferencingServiceNumber, \*-CsOnlineDialInConferencingBridge, Get-CsOnlineDialInConferencingLanguagesSupported, Set-CsOnlineDialInConferencingUserDefaultNumber
+  - \*-CsOnlineLisLocation, \*-CsOnlineLisCivicAddress, \*-CsOnlineLisWirelessAccessPoint, \*-CsOnlineLisPort, \*-CsOnlineLisSubnet, \*-CsOnlineEnhancedEmergencyServiceDisclaimer, \*-CsOnlineLisSwitch
 
 
 ## <a name="examples"></a>예제

@@ -1,9 +1,9 @@
 ---
 title: Microsoft Teams 룸 표준 및 회의실 계획
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.reviewer: dstrome
+ms.reviewer: srpall
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 환경의 스마트 권장 사항에 따라 표준을 빌드하고 큐레이팅합니다.
 f1keywords: ''
-ms.openlocfilehash: 05376b7c40131be54291961a7562faa6566e8e89
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: bcad1c98cbbf71467789617c53ea98d8f192da49
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271963"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243839"
 ---
 # <a name="standards-and-room-planner"></a>Standards 및 Room Planner
 
@@ -30,7 +30,7 @@ ms.locfileid: "67271963"
 
 ## <a name="view-meeting-room-types"></a>회의실 유형 보기
 
-이 페이지에서 조직 내에서 회의실 또는 모임 공간 유형을 볼 수 있습니다. 회의실에 대한 표준 수, 검색된 새 디바이스 수 및 조치를 취해야 하는 디바이스 수를 빠르게 분석합니다.
+이 페이지에서 조직 내에서 회의실 또는 모임 공간 유형을 볼 수 있습니다. 회의실에 대한 표준 수, 검색된 새 디바이스 수 및 조치를 취해야 하는 디바이스 수에 대한 빠른 분석입니다.
 
 이 페이지에는  **표준 워크플로 만들기** 를 시작하거나 검색된 디바이스, 변경 로그 및 보관으로 이동할 수 있는 명령 모음도 있습니다.
 

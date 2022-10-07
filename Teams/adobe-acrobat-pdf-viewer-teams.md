@@ -7,6 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.subservice: teams-apps
+ms.date: 09/25/2022
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,12 +18,12 @@ description: Adobe Acrobat을 기본 PDF 뷰어로 설정하여 Microsoft Teams�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 3c9279c791a7f0e00d1b4a55161651c90b6b9763
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 4051b09febdcadfdeb62bf9301823717e1b35fe4
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837708"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377576"
 ---
 # <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>Microsoft Teams의 기본 PDF 뷰어로 Adobe Acrobat 사용하기
 
@@ -74,10 +75,10 @@ Adobe Acrobat 앱을 테넌트의 PDF 파일 기본 핸들러로 구성하려면
 
 이 기능에 대한 다음 정보를 숙지하세요.
 
-* 정책을 설정한 후에는 사용자가 앱을 사용할 수 있게 될 때까지 일반적으로 [몇 시간](teams-app-setup-policies.md)이 소요됩니다.
+* 정책을 설정한 후에는 일반적으로 사용자가 앱을 사용할 수 있는 [데 몇 시간이 걸립니다](teams-app-setup-policies.md#considerations-and-limitations) .
 * 채널에 탭으로 고정된 PDF 파일을 보고 과제 앱에서 PDF 파일을 보는 기능은 네이티브 Teams 환경을 통해 계속 제공됩니다.
 * Teams에서 기본 PDF 뷰어로 Adobe Acrobat을 사용하는 기능은 데스크톱 및 웹 클라이언트에서만 작동합니다. 모바일 클라이언트에서는 지원되지 않습니다.
 * PDF 내보내기, 페이지 구성, 파일 결합, PDF 압축, PDF 보호와 같은 프리미엄 도구를 사용하려면 Adobe Acrobat 플랜이 필요합니다.
 * 앱을 제거하고자 하는 경우 최종 사용자가 Teams 클라이언트에서 앱을 제거할 수 있습니다. 관리자는 정책 설정을 사용하여 Adobe Acrobat 앱을 제거할 수 있습니다.
 * Adobe Acrobat 앱을 차단하는 경우 정책 설정에서 제거하세요. 이렇게 하면 최종 사용자 환경이 네이티브 PDF 파일 뷰어를 사용하는 환경으로 되돌아갑니다.
-* Teams 데스크톱 클라이언트에서 Adobe Acrobat 앱에 로그인하는 동안 문제가 발생하는 경우 브라우저용 Teams를 사용하여 로그인합니다.
+* Teams 데스크톱 클라이언트에서 Adobe Acrobat 앱에 로그인하는 동안 문제가 발생하는 경우 [브라우저에서 Teams](https://teams.microsoft.com/) 를 사용하여 로그인합니다.

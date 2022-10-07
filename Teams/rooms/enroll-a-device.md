@@ -1,9 +1,9 @@
 ---
-title: Managed Services에 Teams 룸 디바이스 등록
-author: donnah007
-ms.author: v-donnahill
+title: Pro Management에 Teams 룸 디바이스 등록
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.date: 07/22/2022
+ms.date: 09/28/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,18 +15,18 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 관리되는 서비스에 Teams 룸 디바이스 온보딩
+description: Pro 관리 포털에 Teams 룸 디바이스 온보딩
 f1keywords: ''
-ms.openlocfilehash: 07fbb2b196c0f74b34dbe2018865181e57aca17b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 808ef462f71e023ccec232942e780a53ea91e3b3
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272043"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243789"
 ---
-# <a name="enroll-device-into-managed-service"></a>관리되는 서비스에 디바이스 등록
+# <a name="enroll-device-into-pro-management"></a>Pro Management에 디바이스 등록
 
-배포하려면 Microsoft Teams 룸 관리되는 서비스에 Microsoft Teams 룸 디바이스를 온보딩해야 합니다. 모니터링 서비스 에이전트는 인증된 MTR(Microsoft Teams Room) 시스템 및 주변 장치에서 사용할 수 있습니다.
+배포하려면 Microsoft Teams 룸 Pro 관리 포털에 Microsoft Teams 룸 디바이스를 온보딩해야 합니다. 모니터링 서비스 에이전트는 인증된 MTR(Microsoft Teams Room) 시스템 및 주변 장치에서 사용할 수 있습니다.
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
@@ -57,7 +57,7 @@ ms.locfileid: "67272043"
 ### <a name="enabling-tpm-settings"></a>TPM 설정 사용
 
 > [!NOTE]
-> 관리되는 서비스에 등록하려면 TPM을 사용하도록 설정해야 합니다.
+> Pro Management에 등록하려면 TPM을 사용하도록 설정해야 합니다.
 
 Intel NUC 디바이스의 TPM을 사용하지 않도록 설정한 경우 다음과 같이 이러한 디바이스에서 TPM을 사용하도록 설정합니다.
 
@@ -96,7 +96,7 @@ Intel NUC 디바이스의 TPM을 사용하지 않도록 설정한 경우 다음�
 ## <a name="urls-required-for-communication"></a>통신에 필요한 URL
 
  > [!NOTE]
- > MTR 디바이스 에이전트와 Microsoft Teams 룸 간의 모든 네트워크 트래픽 – Managed Services 서비스 포털은 포트 443을 통해 SSL입니다 *.*  [Office 365 URL 및 IP 주소 범위 참조 - Microsoft 365 Enterprise | Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true).
+ > MTR 디바이스 에이전트와 Microsoft Teams 룸 Pro 관리 포털 간의 모든 네트워크 트래픽은 포트 443을 통해 SSL입니다 *.*  [Office 365 URL 및 IP 주소 범위 참조 - Microsoft 365 Enterprise | Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true).
 
 엔터프라이즈 환경 내에서 **트래픽 허용 목록을** 사용하도록 설정한 경우 다음 호스트를 허용해야 합니다.
 
@@ -116,11 +116,11 @@ mmrprodnoamstor.blob.core.windows.net
 
 등록 프로세스에는 다음 단계가 포함됩니다.
 
-1. Microsoft Teams 룸 – Managed Services 포털 [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/)의 왼쪽 탐색 모음에서 **설정을** 확장하고 **일반** 을 선택합니다.
+1. Microsoft Teams 룸 Pro 관리 포털 [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/)의 왼쪽 탐색 모음에서 **설정을** 확장하고 **일반** 을 선택합니다.
 1. *회의실 등록* 에서 **설치 관리자 다운로드** 를 선택하여 모니터링 에이전트 소프트웨어를 다운로드합니다.
 1. **선택적:** 에이전트에 대한 프록시 설정을 지정합니다. [프록시 설정 추가(선택 사항)](#adding-proxy-settings-optional)를 참조하세요.
 1. MTR 디바이스에서 로컬로 MSI를 실행하거나 환경 내의 디바이스에 MSI 애플리케이션을 한꺼번에 게시하는 일반적인 방법을 통해 MTR 단위에 에이전트 설치 관리자(2단계에서 다운로드됨)를 설치합니다(그룹 정책 등).
-1. 회의실은 포털에서 5~10분 내에 표시됩니다. 그렇지 않으면 managedroomsupport@microsoft.com 문의하세요.
+1. 회의실은 포털에서 5~10분 내에 표시됩니다.
 
    ![설정 및 자체 등록 키의 스크린샷.](../media/software-installation-005new.png)
 
@@ -145,11 +145,11 @@ Microsoft에서 설치 관리자를 다운로드한 후(포털에서 또는 위�
 
 1. 규약을 읽은 후 ***사용권 계약에 동의함** _을 선택하고 _*Install**을 누릅니다.
 
-    그러면 Microsoft Teams 룸 - Managed Services 모니터링 소프트웨어 설치가 시작됩니다. 권한 상승(관리자 권한으로 실행)에 대한 프롬프트가 표시됩니다.
+    그러면 Microsoft Teams 룸 Pro 모니터링 소프트웨어 설치가 시작됩니다. 권한 상승(관리자 권한으로 실행)에 대한 프롬프트가 표시됩니다.
 
 1. **예를** 선택합니다.
 
-    설치가 계속됩니다. 설치 절차 중에 콘솔 창이 열리고 Microsoft Teams 룸 – Managed Services 모니터링 소프트웨어 설치의 마지막 단계가 시작됩니다.
+    설치가 계속됩니다. 설치 절차 중에 콘솔 창이 열리고 Microsoft Teams 룸 Pro 모니터링 소프트웨어 설치의 마지막 단계가 시작됩니다.
 
     > [!NOTE]
     > 창을 닫지 마세요. 설치가 완료되면 마법사에 "마침" 단추가 표시됩니다.
@@ -160,11 +160,11 @@ Microsoft에서 설치 관리자를 다운로드한 후(포털에서 또는 위�
 
 - **Intune 등록**: Windows 디바이스의 Teams 룸 이미 Intune 등록되어 있어야 합니다.
   Intune Windows 디바이스에 Teams 룸 등록하는 방법에 대한 자세한 내용은 [Microsoft Endpoint Manager 사용하여 Windows 디바이스에 Microsoft Teams 룸 등록 - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
-- **windows 디바이스의 모든 Teams 룸 구성원으로 Azure AD 그룹** - Microsoft Teams 룸 프리미엄 서비스의 일부여야 하는 Windows 디바이스의 모든 Teams 룸 포함하는 Azure AD 만든 그룹입니다. 이 그룹은 MTRP 에이전트의 배포를 대상으로 하는 데 사용됩니다.
+- **windows 디바이스의 모든 Teams 룸 구성원으로 Azure AD 그룹** - Microsoft Teams 룸 프리미엄 서비스의 일부여야 하는 Windows 디바이스의 모든 Teams 룸 포함하는 Azure AD 만든 그룹입니다. 이 그룹은 MTR Pro 에이전트의 배포를 대상으로 하는 데 사용됩니다.
   
 > [!NOTE]
 > 이 목적을 위해 Azure AD 동적 그룹을 사용하는 것이 좋습니다. [Microsoft Endpoint Manager Windows 디바이스에 Microsoft Teams 룸 등록하는 방법에 대한](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986) 자세한 내용은 Microsoft Tech Community
-- **MTRP 에이전트** **설치 관리자** 다운로드 – 에이전트의 zip 파일을 <https://aka.ms/serviceportalagentmsi> 다운로드하고 zip(ManagedRoomsInstaller.msi)의 내용을 로컬 임시 폴더로 추출합니다.
+- **MTR Pro 에이전트** **설치 관리자** 다운로드 – 에이전트의 zip 파일을 <https://aka.ms/serviceportalagentmsi> 다운로드하고 zip(ManagedRoomsInstaller.msi)의 내용을 로컬 임시 폴더로 추출합니다.
 
 **Intune 사용하여 설치하려면**
 
@@ -180,7 +180,7 @@ Microsoft에서 설치 관리자를 다운로드한 후(포털에서 또는 위�
    1. 앱 버전 무시: **예를** 선택합니다.
 
       > [!NOTE]
-      > MTRP 에이전트가 자체 업데이트되고 있습니다. 따라서 앱 버전을 명시적으로 무시해야 합니다(모든 기준 버전은 자동으로 업데이트할 수 있음).
+      > MTR Pro 에이전트가 자체 업데이트되고 있습니다. 따라서 앱 버전을 명시적으로 무시해야 합니다(모든 기준 버전은 자동으로 업데이트할 수 있음).
 
    1. (선택 사항) 범주: **컴퓨터 관리를** 선택합니다.
    
@@ -191,11 +191,11 @@ Microsoft에서 설치 관리자를 다운로드한 후(포털에서 또는 위�
 1. **[다음**]을 클릭하여 **검토 + 만들기** 페이지를 표시합니다.
 1. 앱에 대해 입력한 값과 설정을 검토합니다. 완료되면 **만들기** 를 클릭하여 Intune 앱을 추가합니다.
 
-프로세스가 완료되면 몇 분 후에 디바이스가 MTRP 에이전트 설치를 시작합니다.
+프로세스가 완료되면 몇 분 후에 디바이스가 MTR Pro 에이전트 설치를 시작합니다.
 
 > [!NOTE]
-> 설치 후 MTRP 에이전트는 최신 버전에 대한 자체 업데이트를 실행하고 MTRP 포털에 나열되는 데 최대 8시간이 걸릴 수 있습니다.
-MTRP 포털에서 자동 등록을 신속하게 수행하려면 에이전트 배포 후 MTR 디바이스를 다시 시작하는 것이 좋습니다.
+> 설치 후 MTR Pro 에이전트는 최신 버전에 대한 자체 업데이트를 실행하고 MTR Pro 포털에 나열되는 데 최대 8시간이 걸릴 수 있습니다.
+MTR Pro 포털에서 자동 등록을 신속하게 수행하려면 에이전트 배포 후 MTR 디바이스를 다시 시작하는 것이 좋습니다.
 
 ## <a name="completing-enrollment"></a>등록 완료
 
@@ -203,9 +203,7 @@ MTRP 포털에서 자동 등록을 신속하게 수행하려면 에이전트 배
 
 *온보딩* 상태에서는 회의실 상태가 표시되고 업데이트되지만 경고를 발생하거나 조사 티켓을 만들지는 않습니다.
 
-회의실을 선택하고 **등록**  을 선택하여 인시던트 경고, 조사 티켓 수신을 시작하거나 인시던트를 보고합니다.
-
-질문이나 문제는 포털에서 고객이 보고한 인시던트 또는 managedroomsupport@microsoft.com 문의하세요.
+회의실을 선택하고 **등록**  을 선택하여 인시던트 경고 수신을 시작합니다.
 
 ### <a name="unenrolling-and-uninstalling-monitoring-software"></a>모니터링 소프트웨어 등록 취소 및 제거
 
@@ -225,15 +223,15 @@ MTRP 포털에서 자동 등록을 신속하게 수행하려면 에이전트 배
    C:\Users\admin\Downloads\MTRP\_Device\_Offboarding\MTRP\_Device\_Offboarding.ps1
    ```
 
-   이 명령은 디바이스를 사용자 표준 MTR 업데이트로 다시 설정하고 MTRP 모니터링 에이전트 및 파일을 제거합니다.
+   이 명령은 디바이스를 사용자 표준 MTR 업데이트로 다시 설정하고 MTR Pro 모니터링 에이전트 및 파일을 제거합니다.
 
-1. Microsoft Teams 룸 – Managed Services 포털의 왼쪽 메뉴에서 **회의실** 을 선택합니다.
+1. Microsoft Teams 룸 Pro 관리 포털의 왼쪽 메뉴에서 **회의실** 을 선택합니다.
 1. 제공된 회의실 목록에서 등록 취소할 회의실을 선택하고 등록 **취소** 를 선택하여 인시던트 경고 또는 조사 티켓 가져오기를 중지하거나 회의실에 대한 인시던트를 보고합니다.
 
 ## <a name="troubleshooting-table"></a>문제 해결 테이블
 
 > [!NOTE]
-> 모든 Microsoft Teams 룸 – Managed Services 모니터링 오류는 **Microsoft Managed Rooms** 라는 특정 이벤트 로그 파일에 기록됩니다.
+> 모든 Microsoft Teams 룸 Pro 모니터링 오류는 **Microsoft Managed Rooms** 라는 특정 이벤트 로그 파일에 기록됩니다.
 
 ***애플리케이션 런타임 로그 파일 위치*** =
 

@@ -14,16 +14,22 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 8db0f0c4d29f786166098587aafc3ec1db256e38
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6d2496ef355df7a935dbf45321a8b8fd63b8e8de
+ms.sourcegitcommit: fc1787ad74a8c454f750a294def188b532cbadd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271463"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67854434"
 ---
 # <a name="whats-new-for-direct-routing"></a>직접 라우팅의 새로운 기능
 
 이 문서에서는 직접 라우팅의 새로운 사항에 대해 설명합니다. 업데이트를 자주 확인합니다.
+
+## <a name="trunk-demoting-logic-based-on-sip-options"></a>SIP 옵션에 따라 트렁크 수준 내리기 논리
+
+트렁크 상태에 대한 SIP 옵션을 기반으로 하는 새로운 기능이 도입되었습니다. 게이트웨이 구성에서 사용하도록 설정된 경우(Set-CsOnlinePSTNGateway cmdlet 및 SendSipOptions 매개 변수 참조) 아웃바운드 호출에 대한 라우팅 논리는 SIP 옵션을 주기적으로 보내지 않는 트렁크를 강등합니다(예상 기간은 분당 SBC에서 보낸 하나의 SIP 옵션). 이러한 강등된 트렁크는 아웃바운드 통화에 사용할 수 있는 트렁크 목록의 끝에 배치되며 마지막 트렁크로 시도됩니다. 따라서 호출 설정 시간이 감소할 수 있습니다.
+Microsoft 지역(NOAM, EMEA, APAC, OCEA) SIP 프록시에 5분 이내에 하나 이상의 SIP 옵션을 보내지 않는 해당 기능에 대해 사용하도록 설정된 모든 트렁크는 강등된 것으로 간주됩니다. 트렁크가 Microsoft 지역 SIP 프록시의 하위 집합에만 SIP 옵션을 보내는 경우 이러한 경로가 먼저 시도되고 나머지는 강등됩니다.
+
 
 ## <a name="sip-support"></a>SIP 지원
 
@@ -72,6 +78,6 @@ Microsoft는 고객에게 동급 최고의 암호화를 제공하기 위해 TLS(
 - TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 예: ECDHE-RSA-AES256-SHA384
 - TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 예: ECDHE-RSA-AES128-SHA256
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [직접 라우팅 - SIP 프로토콜](direct-routing-protocols-sip.md)

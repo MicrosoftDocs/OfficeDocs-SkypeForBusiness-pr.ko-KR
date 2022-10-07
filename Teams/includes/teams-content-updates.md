@@ -3,6 +3,23 @@
 
 
 
+## <a name="week-of-september-19-2022"></a>2022년 9월 19일 주
+
+
+| 게시 날짜 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 9/19/2022 | [통화 플랜 설명서가 있는 Microsoft 365 Teams 전화 시스템 # < 60자](/MicrosoftTeams/business-voice/index) | 으로 바뀌었습니다 |
+| 9/19/2022 | [Microsoft Teams 분필 회담](/MicrosoftTeams/chalk-talks-landing-page) | 으로 바뀌었습니다 |
+| 9/19/2022 | [Microsoft Teams 관리자 설명서 # < 60자](/MicrosoftTeams/index) | 으로 바뀌었습니다 |
+| 9/19/2022 | [Microsoft Teams에 대한 최종 사용자 교육 # < 60자](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 으로 바뀌었습니다 |
+| 9/19/2022 | [Microsoft Teams용 관리 교육](/MicrosoftTeams/teams-admin-training-landing-page) | 으로 바뀌었습니다 |
+| 9/19/2022 | [비즈니스용 Skype Microsoft Teams로 업그레이드 계획](/MicrosoftTeams/upgrade-skype-teams) | 으로 바뀌었습니다 |
+| 9/20/2022 | [앱 사용자 지정을 사용하여 조직의 요구 사항에 맞게 앱 브랜드 지정](/MicrosoftTeams/customize-apps) | 으로 바뀌었습니다 |
+| 9/20/2022 | [관리 센터에서 일반 팀 템플릿 사용](/MicrosoftTeams/general-teams-templates-in-the-admin-console) | 으로 바뀌었습니다 |
+| 9/20/2022 | [소매 팀 템플릿 사용](/MicrosoftTeams/get-started-with-retail-teams-templates) | 으로 바뀌었습니다 |
+| 9/20/2022 | [Teams 관리 센터에서 팀 템플릿 시작하기](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 으로 바뀌었습니다 |
+
+
 ## <a name="week-of-september-12-2022"></a>2022년 9월 12일 주
 
 
@@ -112,42 +129,3 @@
 | 8/26/2022 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | 으로 바뀌었습니다 |
 | 8/26/2022 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으로 바뀌었습니다 |
 | 8/26/2022 | [Teams 자동 전화 교환 및 통화 큐 계획](/MicrosoftTeams/plan-auto-attendant-call-queue) | 으로 바뀌었습니다 |
-
-
-## <a name="week-of-august-15-2022"></a>2022년 8월 15일 주
-
-
-| 게시 날짜 |토픽 제목 | 변경 |
-|------|------------|--------|
-| 8/15/2022 | [직접 라우팅에 대한 인증된 SBC(Session Border Controller)](/MicrosoftTeams/direct-routing-border-controllers) | 으로 바뀌었습니다 |
-| 8/16/2022 | [Microsoft Teams의 통화 플랜](/MicrosoftTeams/calling-plans-for-office-365) | 으로 바뀌었습니다 |
-| 8/17/2022 | [Teams에서 앱 스토어 사용자 지정](/MicrosoftTeams/customize-your-app-store) | 으로 바뀌었습니다 |
-| 8/17/2022 | [Teams용 디바이스](/MicrosoftTeams/devices/teams-ip-phones) | 으로 바뀌었습니다 |
-| 8/17/2022 | [마이크로소프트 Teams의 리소스별 동의](/MicrosoftTeams/resource-specific-consent) | 으로 바뀌었습니다 |
-| 8/17/2022 | [Microsoft Teams에서 앱 사용 권한 정책 관리](/MicrosoftTeams/teams-app-permission-policies) | 으로 바뀌었습니다 |
-| 8/17/2022 | [사용자 지정 앱 정책 및 설정 관리](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 으로 바뀌었습니다 |
-| 8/17/2022 | [Microsoft Teams 관리 센터에서 사용자 지정 앱 업로드](/MicrosoftTeams/upload-custom-apps) | 으로 바뀌었습니다 |
-| 8/18/2022 | [Microsoft Teams 관리 센터에서 앱 사용 권한 보기 및 관리자 동의 권한 부여](/MicrosoftTeams/app-permissions-admin-center) | 으로 바뀌었습니다 |
-| 8/18/2022 | 새로운 기능 - 연산자 연결 | 제거 |
-| 8/18/2022 | [Microsoft Teams 관리 센터에서 사용자 지정 앱 업로드](/MicrosoftTeams/upload-custom-apps) | 으로 바뀌었습니다 |
-| 8/19/2022 | [Microsoft Teams 관리 센터에서 팀 관리](/MicrosoftTeams/manage-teams-in-modern-portal) | 으로 바뀌었습니다 |
-| 8/19/2022 | [참가자 및 게스트에 대한 모임 정책 관리](/MicrosoftTeams/meeting-policies-participants-and-guests) | 으로 바뀌었습니다 |
-| 8/19/2022 | [Teams 선택적 연결된 환경](/MicrosoftTeams/teams-privacy-oce-overview) | 으로 바뀌었습니다 |
-| 8/20/2022 | [직접 라우팅을 위한 미디어 바이패스 계획](/MicrosoftTeams/direct-routing-plan-media-bypass) | 으로 바뀌었습니다 |
-| 8/20/2022 | [Teams에 대한 조직의 네트워크 준비](/MicrosoftTeams/prepare-network) | 으로 바뀌었습니다 |
-| 8/20/2022 | [Microsoft Teams용 휴대폰 및 장치](/MicrosoftTeams/devices/usb-devices) | 으로 바뀌었습니다 |
-| 8/20/2022 | [관리 센터에서 Teams 템플릿 사용](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 으로 바뀌었습니다 |
-| 8/20/2022 | [Teams용 타사 앱 구매](/MicrosoftTeams/purchase-third-party-apps) | 으로 바뀌었습니다 |
-| 8/20/2022 | [Microsoft Teams의 Teams 및 채널 개요](/MicrosoftTeams/teams-channels-overview) | 으로 바뀌었습니다 |
-| 8/20/2022 | [온-프레미스 비즈니스용 Skype Microsoft Teams로 업그레이드](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | 으로 바뀌었습니다 |
-| 8/20/2022 | [음성 메일 정책 관리](/MicrosoftTeams/manage-voicemail-policies) | 추가 |
-| 8/20/2022 | [사용자의 전화 번호 할당, 변경 또는 제거](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 으로 바뀌었습니다 |
-| 8/20/2022 | [Teams Android 디바이스에 대한 원격 프로비저닝 및 로그인](/MicrosoftTeams/devices/remote-provision-remote-login) | 으로 바뀌었습니다 |
-| 8/20/2022 | [조직의 교대 근무 앱 관리](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 으로 바뀌었습니다 |
-| 8/20/2022 | [연산자 연결 구성](/MicrosoftTeams/operator-connect-configure) | 으로 바뀌었습니다 |
-| 8/20/2022 | [통신사와 Microsoft for Operator Connect 간의 데이터 전송](/MicrosoftTeams/operator-connect-data-transfer) | 으로 바뀌었습니다 |
-| 8/20/2022 | [연산자 연결](/MicrosoftTeams/operator-connect-plan) | 으로 바뀌었습니다 |
-| 8/20/2022 | [사용자의 전화 번호 검색](/MicrosoftTeams/search-for-phone-numbers-for-users) | 으로 바뀌었습니다 |
-| 8/20/2022 | [Microsoft Teams에서 라이브 이벤트 설정 구성](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | 으로 바뀌었습니다 |
-| 8/20/2022 | [Microsoft Teams에서 실시간 이벤트 설정](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 으로 바뀌었습니다 |
-| 8/20/2022 | [Microsoft Teams에서 사용자에 대한 모임 전화 접속 확인 설정](/MicrosoftTeams/set-up-meeting-dial-out-confirmation) | 으로 바뀌었습니다 |

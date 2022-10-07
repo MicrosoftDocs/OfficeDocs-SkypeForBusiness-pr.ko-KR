@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0e6118e42600bda58bf7ddc9d7f8e0fee0b7ad9f
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 3c973daf4dc90a6de734c1c76aa352e7a7eeac28
+ms.sourcegitcommit: fc1787ad74a8c454f750a294def188b532cbadd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706147"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67854394"
 ---
 # <a name="skype-for-business-online-retirement"></a>비즈니스용 Skype Online 단종
 
@@ -56,7 +56,8 @@ TeamsOnly 모드의 사용자는 Teams에서 들어오는 채팅 및 전화를 �
    - **Teams 협업** 모드를 **사용하여 비즈니스용 Skype 전용** 또는 비즈니스용 Skype 할당된 모든 사용자의 경우 공존 모드를 **Teams 공동 작업 및 모임에 비즈니스용 Skype 변경합니다**.  이 모드는 사용자가 예약한 새 모임이 비즈니스용 Skype 모임 대신 Teams 모임이 되는 것을 제외하고 다른 두 모임과 동일한 기능을 제공합니다. 이 모드를 테넌트 수준과 달리 사용자에게 직접 할당하면 기본적으로 모든 비즈니스용 Skype 모임을 해당 사용자가 구성한 Teams 모임으로 자동 변환합니다.
    - 아일랜드 모드에 있는 사용자의 경우 PreferredMeetingProviderForIslandsMode=Teams를 사용하여 TeamsMeetingPolicy 인스턴스를 할당하여 Teams에서 모임을 항상 예약하도록 요구할 수 있습니다. 
    - 기존 비즈니스용 Skype 모임이 Teams 모임으로 변환되도록 하려면(예: 아일랜드 사용자가 있는 경우) Start-CsExMeetingMigration 사용하여 [모임 마이그레이션 서비스를](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#trigger-meeting-migration-manually-via-powershell-cmdlet) 트리거하여 사용자의 모임을 Teams로 변환할 수 있습니다.
-  
+
+- 사용자가 온-프레미스에서 TeamsOnly로 이동할 때 비즈니스용 Skype 서버 연락처가 Teams로 제대로 마이그레이션되도록 하려면 마이그레이션된 사용자가 온-프레미스에서 마이그레이션된 후 30일 이내에 Teams에 로그인해야 합니다. 이는 Microsoft가 레거시 비즈니스용 Skype Online 인프라에서 Teams를 전환하기 때문에 일시적인 요구 사항입니다.
 
 ## <a name="actions-to-take-before-june-30-2022"></a>2022년 6월 30일 이전에 수행할 작업
 비즈니스용 Skype Online이 사용 중지되었으므로 Microsoft는 2022년 6월 30일까지 지원 인프라의 서비스 해제를 시작합니다.  모든 버전의 비즈니스용 Skype 업그레이드된 TeamsOnly 사용자가 있는 조직의 경우 다음 상황 중 하나가 적용되는 경우 조치를 취해야 합니다.

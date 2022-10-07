@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37de74db112dcbd5466659b385f1bb94d7c134aa
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 5edde0613c9092a7ed48d57a4a22761e56eee142
+ms.sourcegitcommit: d3eb876e58c9e4a0a11a21b9292d3a6177508d81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418627"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "68329062"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>교육용 Microsoft Teams 부모 연결 설정
 
@@ -89,6 +89,7 @@ SDS가 정기적으로 동기화되도록 설정된 경우 Teams 보호자 연�
   - 나머지 v1 파일이 비어 있는 채운 부모 [파일](/schooldatasync/parent-contact-sync-file-format) 두 개(헤더만)를 끌어오십시오.
     - User.csv
     - Guardianrelationship.csv
+      - 부모 *또는 보호자* 인지를 나타내려면 각 부모 및 보호자에 대해 *역할* 값을 완료해야 *합니다.*
   - v1 CSV 파일의 샘플 집합을 보려면 [최소 필수 특성 GitHub 파일을 참조하세요](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes).
   - 초기 동기화 후 CSV 파일 가져오기를 자동화하려면 [CSV 파일 동기화 Automation 문서를](/schooldatasync/csv-file-sync-automation) 읽어보세요.
   - SDS 데이터 동기화 설정에 대한 도움말을 보려면 [고객 성공 팀에](https://www.microsoft.com/fasttrack?rtc=1) 문의하거나 [지원 티켓을 엽니다](https://edusupport.microsoft.com/support?product_id=data_sync).

@@ -1,6 +1,6 @@
 ---
 title: 정보 장벽 및 공유 채널(미리 보기)
-description: 이 문서에서는 Microsoft Teams 정보 장벽이 공유 채널을 지원하는 방법을 설명합니다.
+description: 이 문서에서는 Microsoft Teams의 정보 장벽이 공유 채널을 지원하는 방법을 설명합니다.
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -9,6 +9,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
+- tier2
+- purview-compliance
 - M365-collaboration
 search.appverid: MET150
 f1.keywords:
@@ -16,18 +18,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: information-barriers
-ms.openlocfilehash: 6ee178252c00ec4c73dfaa036f17377cef401d30
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 5b214a4c60df7b50f508fec7985c6f38b65985e6
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922839"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047218"
 ---
 # <a name="information-barriers-and-shared-channels-preview"></a>정보 장벽 및 공유 채널(미리 보기)
 
-Microsoft Teams [공유 채널은](shared-channels.md) 팀에 없는 사용자를 초대할 수 있는 공동 작업 공간을 만듭니다. [Microsoft Purview 정보 장벽](/microsoft-365/compliance/information-barriers) 은 사용자와 그룹이 조직 안팎에서 서로 통신하지 못하도록 제한하고 방지하기 위해 구현할 수 있는 정책입니다.
+Microsoft Teams[의 공유 채널은](shared-channels.md) 팀에 없는 사용자를 초대할 수 있는 공동 작업 공간을 만듭니다. [Microsoft Purview 정보 장벽](/microsoft-365/compliance/information-barriers) 은 사용자와 그룹이 조직 안팎에서 서로 통신하지 못하도록 제한하고 방지하기 위해 구현할 수 있는 정책입니다.
 
-공유 채널은 기본적으로 Teams 사용하도록 설정됩니다. 채널 정책을 만들어 사용자가 공유 채널을 만들 수 있는지 여부, 조직 외부 사용자와 공유할 수 있는지 여부, 외부 공유 채널에 참여할 수 있는지 여부를 선택할 수 있습니다. 조직에서 정보 장벽 정책을 구성하면 기존 채널 구성원과 공유 채널에 추가된 새 사용자가 정보 장벽 정책 조건을 위반하지 않는지 확인하기 위해 공유 채널을 구성할 때 검사가 수행됩니다.
+공유 채널은 Teams에서 기본적으로 사용하도록 설정됩니다. 채널 정책을 만들어 사용자가 공유 채널을 만들 수 있는지 여부, 조직 외부 사용자와 공유할 수 있는지 여부, 외부 공유 채널에 참여할 수 있는지 여부를 선택할 수 있습니다. 조직에서 정보 장벽 정책을 구성하면 기존 채널 구성원과 공유 채널에 추가된 새 사용자가 정보 장벽 정책 조건을 위반하지 않는지 확인하기 위해 공유 채널을 구성할 때 검사가 수행됩니다.
 
 다음 표를 사용하여 정보 장벽 정책이 통신에 영향을 미치고 공유 채널을 구성할 때 특정 동작을 초래하는 방법을 이해합니다.
 

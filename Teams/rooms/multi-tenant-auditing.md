@@ -1,9 +1,9 @@
 ---
-title: 다중 테넌트 감사
-author: donnah007
-ms.author: v-donnahill
+title: MTR Pro 포털에서 감사 로깅
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.reviewer: dstrome
+ms.reviewer: altsou
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,21 +15,21 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: TRM에 대한 감사 로깅입니다.
+description: MTR Pro 포털에 대한 감사 로깅입니다.
 f1keywords: ''
-ms.openlocfilehash: de7f01a3c93dc31ff10c9e00cb3d0f3ef5806cb3
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 0436618e257128deb38d890cb92813ae13921e7d
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269110"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243919"
 ---
-# <a name="audit-logging-in-the-teams-rooms-managed-service"></a>Teams 룸 관리되는 서비스의 감사 로깅
+# <a name="audit-logging-in-the-mtr-pro-portal"></a>MTR Pro 포털에서 감사 로깅
 
-Teams 룸 관리(TRM) 서비스의 감사를 사용하면 사용자 및 관리자가 포털에서 수행하는 활동에 대한 감사 레코드를 검색할 수 있습니다. 이 기능은 기본적으로 사용하도록 설정됩니다. 관리 서비스 관리자만 로그를 내보낸 다음 볼 수 있는 권한이 있습니다.
+MTR Pro 포털의 감사 로그를 사용하면 사용자 및 관리자가 수행한 활동에 대한 감사 레코드를 검색할 수 있습니다. 이 기능은 기본적으로 사용하도록 설정됩니다. 관리 서비스 관리자만 로그를 내보낸 다음 볼 수 있는 권한이 있습니다.
 
 > [!NOTE]
-> TRM 서비스에서 수행된 작업은 Microsoft 365 또는 Office 365 감사에 기록되지 않습니다. 
+> MTR Pro 포털에서 수행된 작업은 Microsoft 365 또는 Office 365 감사에 기록되지 않습니다. 
 
 ## <a name="exporting-logs"></a>로그 내보내기
 

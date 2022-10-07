@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 조직에서 할당되지 않은 번호로 통화를 라우팅하는 방법을 알아봅니다.
-ms.openlocfilehash: 3f3d0b9e6962cce7abdb91efa8539dd559c38956
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 28f1ca3c60728c4a7a2153d7462afc8c7e78b366
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272303"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480718"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>할당되지 않은 번호로 호출 라우팅
 
@@ -53,7 +53,7 @@ New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$"
 다음 예제에서는 숫자 범위 +1 (555) 333-0000 ~ +1 (555) 333-9999에 대한 모든 호출이 알림 서비스로 라우팅되도록 지정합니다. 그러면 오디오 파일 MainAnnouncement.wav가 호출자에게 재생됩니다.
 
 ```PowerShell
-$Content = Get-Content "C:\Media\MainAnnoucement.wav" -Encoding byte -ReadCount 0
+$Content = [System.IO.File]::ReadAllBytes('C:\Media\MainAnnouncement.wav')
 
 $AudioFile = Import-CsOnlineAudioFile -FileName "MainAnnouncement.wav" -Content $Content
 
@@ -76,7 +76,7 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - 지정된 패턴/범위에 테넌트에서 사용자 또는 리소스 계정에 할당된 전화 번호가 포함된 경우 이러한 전화 번호에 대한 호출은 적절한 대상으로 라우팅되고 지정된 할당되지 않은 번호 처리로 라우팅되지 않습니다. 범위에 있는 숫자에 대한 다른 검사는 없습니다. 범위에 유효한 외부 전화 번호가 포함된 경우 Microsoft Teams에서 해당 전화 번호로의 아웃바운드 통화는 처리에 따라 라우팅됩니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [Get-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/get-csteamsunassignednumbertreatment)
 

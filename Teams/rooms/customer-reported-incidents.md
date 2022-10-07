@@ -1,8 +1,8 @@
 ---
-title: 고객이 보고한 인시던트 Microsoft Teams 룸
-author: donnah007
-ms.author: v-donnahill
-ms.date: 07/08/2022
+title: Microsoft Teams 룸 문제 기록
+author: altsou
+ms.author: altsou
+ms.date: 09/28/2022
 manager: serdars
 ms.reviewer: dstrome
 ms.topic: article
@@ -16,19 +16,17 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 파트너/고객은 수동으로 인시던트를 닫고 MTRP에서 회의실 상태를 정확하게 보고할 수 있습니다.
-ms.openlocfilehash: 308e2d4578637e4b50a8324a3f98bad82ad5c5d0
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: 파트너 또는 고객은 Pro 관리 포털에서 회의실 상태에 대한 정확한 보고를 보장하기 위해 "문제 기록"을 통해 인시던트를 수동으로 열 수 있습니다.
+ms.openlocfilehash: f638a1fc4095b9cffd0f205e1118cf6c4374d5c6
+ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270313"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "68218122"
 ---
-# <a name="customer-reported-incident-tickets"></a>고객이 보고한 인시던트 티켓
+# <a name="record-an-issue-ticket"></a>문제 티켓 기록
 
-Microsoft에서 플래그를 지정하지 않은 인시던트 유형 또는 서비스/기능에 대한 질문의 경우 고객 또는 고객을 대신하여 고객 또는 파트너가 보고서 인시던트 기능을 사용하여 Microsoft에 문제를 조사하거나 질문에 대답하도록 경고할 수 있습니다.
-
-![인시던트 >보고서 인시던트 스크린샷](../media/customer-reported-incidents-001.png)
+MTR Pro가 플래그를 지정하지 않은 모든 유형의 인시던트 또는 단순히 MTR 또는 공간에서 문제를 추적하기 위해 고객 또는 파트너를 대신하여 문제 기록 기능을 사용할 수 있습니다.
 
 설명 필드에서 Microsoft의 도움이 필요한 문제를 최대한 잘 설명합니다. 하나 이상의 회의실을 추가할 수 있습니다.
 
@@ -37,40 +35,32 @@ Microsoft에서 플래그를 지정하지 않은 인시던트 유형 또는 서�
 > [!NOTE]
 > 일반적인 질문, 회의실 및/또는 사용 가능한 완화가 없는 문제에는 이 필드를 사용하지 마세요.
 
-![영향을 받는 인시던트 보고서 룸의 스크린샷](../media/customer-reported-incidents-002.png)
+레코드 문제의 일부로 회의실(또는 회의실)을 선택하면 기록된 문제가 닫히기 전까지 각 회의실이 **비정상** 으로 표시됩니다.
 
-고객 보고 인시던트(CRI)는 중요한 티켓으로 간주되므로 Teams 룸 서비스 운영 센터에서 먼저 이러한 티켓을 심사합니다. 고객이 보고한 인시던트에 대한 서비스 설명 SLA는 여기를 참조 [하세요](microsoft-teams-rooms-premium.md). 회의실이 CRI의 일부로 선택되면 CRI가 닫히기 전까지 각 회의실은 **비정상** 으로 표시됩니다.
+## <a name="closing-record-an-issue-tickets"></a>발행 티켓 기록 닫기
 
-## <a name="closing-customer-reported-incident-tickets"></a>고객이 보고한 인시던트 티켓 닫기
+기록된 문제는 고객을 대신하여 회의실을 관리하는 고객 또는 파트너가 닫을 수 있습니다.
 
-고객이 보고한 인시던트가 고객, 고객을 대신하여 회의실을 관리하는 파트너 또는 Microsoft의 서비스 운영 센터 엔지니어에 의해 폐쇄될 수 있습니다.
-
-**인시던트를 닫려면**
+**기록된 문제 티켓을 닫려면**
 
 1. **티켓 닫기를** 선택합니다.
 
-   ![인시던트 개요 세부 정보의 스크린샷](../media/customer-reported-incidents-003.png)
-
-1. 목록에서 범주를 선택하여 닫는 이유를 선택합니다.
+2. 목록에서 범주를 선택하여 닫는 이유를 선택합니다.
 
    폐쇄 이유를 확인하면 티켓이 닫혀 **해결됨** 으로 이동됩니다.
 
-   ![닫힌 티켓의 스크린샷](../media/customer-reported-incidents-004.png)
-
 티켓의 세부 정보 개요 섹션에는 관리 룸 서비스(Microsoft) 또는 고객/파트너의 이름으로 티켓이 닫혔습니다.  
-
- ![티켓을 닫은 사람의 스크린샷 ](../media/customer-reported-incidents-005.png)
 
 ## <a name="faq"></a>FAQ
 
 **누구든지 티켓을 닫을 수 있습니까?**
 
-사용자가 보고한 인시던트만 사용자 또는 Microsoft의 Managed Rooms 서비스 운영 센터에서 닫을 수 있습니다. 티켓 관리 권한이 있는 회의실을 관리하기 위해 파트너를 할당한 고객은 고객이 보고한 인시던트(Incidents)를 닫을 수 있습니다.
+고객이 보고한 인시던트만 사용자가 닫을 수 있습니다. 티켓 관리 권한이 있는 회의실을 관리하기 위해 파트너를 할당한 고객은 기록된 발행 티켓을 닫을 수 있습니다.
 
 **티켓을 닫을 수 있는 사용자를 제한할 수 있나요?**
 
-이때는 그렇지 않습니다. 티켓 관리 권한이 있는 모든 사용자는 CRI를 닫을 수 있습니다.
+이때는 그렇지 않습니다. 티켓 관리 권한이 있는 모든 사용자는 기록된 문제 티켓을 닫을 수 있습니다.
 
-**고객이 보고한 인시던트 티켓이 닫히면 알림이 표시되나요?**
+**레코드 발행 티켓이 닫히면 알림을 받나요?**
 
 이때는 그렇지 않습니다.

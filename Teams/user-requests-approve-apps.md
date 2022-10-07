@@ -7,9 +7,11 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
+ms.date: 09/20/2022
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 ms.reviewer: mhayrapetyan
 search.appverid: MET150
 f1keywords:
@@ -18,12 +20,12 @@ description: 조직에서 차단된 앱의 승인을 위해 최종 사용자 요
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 0967aec80bb88dff12141040fead94af9aae0616
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 382d3923d008f0bf70b2d9b9a4f3364709b4f2e1
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706227"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377606"
 ---
 # <a name="manage-user-requests"></a>사용자 요청 관리
 
@@ -33,7 +35,7 @@ ms.locfileid: "67706227"
 
 사용자에게 허용되거나 차단된 앱에 대한 완전한 제어를 유지합니다. 앱을 허용하도록 선택하는 경우 컨트롤 및 UI에서 앱을 관리하는 것은 동일하게 유지됩니다.
 
-* 기본 옵션은 사용자 요청을 [보고 요청된 앱을 허용할](#view-user-requests-in-teams-admin-center) 수 있는 Teams 관리 센터로 사용자 요청을 보냅니다.
+* 기본 옵션은 사용자 요청을 [보고 요청된 앱을 허용할](#view-and-act-on-user-requests-in-teams-admin-center) 수 있는 Teams 관리 센터로 사용자 요청을 보냅니다.
 
    :::image type="content" source="media/user-request-blocked-apps.png" alt-text="관리자에게 차단된 앱을 승인하도록 요청하는 옵션을 보여 주는 스크린샷":::
 
@@ -41,7 +43,7 @@ ms.locfileid: "67706227"
 
    :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="관리자가 허용 앱 요청 URL을 조직별 URL로 리디렉션할 때 저장소의 앱에 대한 최종 사용자 환경을 보여 주는 스크린샷.":::
 
-## <a name="view-user-requests-in-teams-admin-center"></a>Teams 관리 센터에서 사용자 요청 보기
+## <a name="view-and-act-on-user-requests-in-teams-admin-center"></a>Teams 관리 센터에서 사용자 요청 보기 및 작업
 
 기본 방법으로 받은 최종 사용자 요청은 Teams 관리 센터에 표시됩니다. 요청을 쉽게 보고 관리할 수 있습니다. 일반 심사를 통해 최종 사용자 요청을 확인하는 것이 좋습니다. 앱을 보고 허용하려면 다음 단계를 수행합니다.
 
@@ -90,7 +92,7 @@ Teams는 사용자가 앱에 대한 승인을 요청하는 기본 메시지를 �
 
 ## <a name="dismiss-user-requests"></a>사용자 요청 해제
 
-허용 앱에 대한 요청을 해제하려면 다음 단계를 수행합니다.
+요청을 해제하려면 다음 단계를 수행합니다.
 
 1. 사용자 요청을 거부할 앱의 이름을 선택합니다.
 1. **요청 관리를** 선택합니다.

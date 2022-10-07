@@ -22,18 +22,21 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Teams 관리 센터에서 Teams 룸 라이선스 및 기능 가용성에 대해 알아보고 비교합니다.
-ms.openlocfilehash: d88e7a0c0a6c17fb22f1cc94fcd4de65a3ff79a2
-ms.sourcegitcommit: 732a7f3e120cfa221d42b4e8af2cf9ff623488a1
+ms.openlocfilehash: 0e4a3d4fc15f5e978731254e3344ee6e413ff682
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "67633638"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999633"
 ---
 # <a name="microsoft-teams-rooms-license-overview-in-teams-admin-center"></a>Teams 관리 센터의 Microsoft Teams 룸 라이선스 개요
 
 Teams 관리 센터를 사용하면 중앙 위치에서 Teams 룸 디바이스 및 주변 장치를 보고 관리할 수 있습니다. 이 문서에서는 Teams 룸 디바이스에 Microsoft Teams 룸 Basic 라이선스 또는 Microsoft Teams 룸 Pro 라이선스가 할당되었는지 여부에 따라 어떤 [관리 기능이](#comparison-of-teams-rooms-feature-availability-by-license) 있는지를 보여줍니다.
 
 Microsoft Teams 룸 라이선스에 대한 자세한 내용은 [Microsoft Teams 룸 라이선스를 참조하세요](rooms-licensing.md).
+
+> [!NOTE]
+> 기존 Teams 룸 Standard 또는 Teams 룸 Premium 레거시 라이선스가 있는 경우 레거시 라이선스가 만료되면 Teams 룸 Pro로 전환해야 합니다. 기업계약 있는 경우 다음 갱신 기간에 Teams 룸 Pro 라이선스로 전환해야 합니다. 자세한 내용은 [Teams 룸 Standard 및 Teams 룸 Premium에서 전환을 참조하세요](rooms-licensing.md#switching-from-teams-rooms-standard-and-teams-rooms-premium).
 
 ## <a name="see-which-licenses-are-assigned-to-teams-rooms-devices"></a>Teams 룸 디바이스에 할당된 라이선스 확인
 
@@ -73,7 +76,6 @@ Microsoft Teams 룸 Pro 라이선스가 필요한 기능은 디바이스의 세�
 | **디바이스 상태 세부 정보**                     |                             | &#x2714;                  |
 | **디바이스 태그**                               |                             | &#x2714;                  |
 | **그래프 API**                                |                             | &#x2714;                  |
-| **수동 디바이스 업데이트**                     |                             | &#x2714;                  |
 | **원격 다시 시작**                            |                             | &#x2714;                  |
 | **Windows 디바이스 주변 장치 관리**     |                             | &#x2714;                  |
 | **Windows 디바이스 설정**                   |                             | &#x2714;                  |

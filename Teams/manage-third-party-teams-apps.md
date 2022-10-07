@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
+ms.date: 09/29/2022
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft 365에서 Teams 앱에 대한 액세스를 관리하는 방법을 알아보세요.
-ms.openlocfilehash: e57e4ffb7e2b8ee347ee42588ed7b926ac345020
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 291fd315f9fd5f171edfebaec1bcc0adbcb8edf4
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837478"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377586"
 ---
 # <a name="manage-access-to-teams-apps-across-microsoft-365"></a>Microsoft 365에서 Teams 앱에 대한 액세스 관리
 
@@ -49,7 +50,7 @@ Outlook 및 Office.com에서 사용하기 위해 향상된 앱은 Teams에서 �
 | 액세스 관리 옵션 |Portal|전역 관리자|Teams 관리자|
 |--|---|---|--|
 | 대상 지정된 릴리스의 최종 사용자만 새 앱에 액세스할 수 있습니다. 사용자를 표준 릴리스로 이동합니다. [표준 또는 대상 출시 옵션 설정](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true)을 참조하세요. | Microsoft 365 관리 센터 | 예 | 아니요 |
-| 특정 최종 사용자의 새 앱에 대한 액세스를 관리합니다. [사용자 지정 권한 정책 추가](teams-app-permission-policies.md#create-a-custom-app-permission-policy) 및 [사용자에게 사용자 지정 정책 할당](policy-assignment-overview.md)을 참조하세요. | Teams 관리 센터 | 예 | 예 |
+| 특정 최종 사용자의 새 앱에 대한 액세스를 관리합니다. [사용자 지정 권한 정책 추가](teams-app-permission-policies.md#create-an-app-permission-policy) 및 [사용자에게 사용자 지정 정책 할당](policy-assignment-overview.md)을 참조하세요. | Teams 관리 센터 | 예 | 예 |
 | 조직 전체의 모든 최종 사용자에 대한 새 앱에 대한 액세스를 관리합니다. [앱 허용 또는 차단](manage-apps.md#allow-and-block-apps)을 참조하세요. | Teams 관리 센터 | 예 | 예 |
 
 > [!NOTE]
@@ -58,7 +59,7 @@ Outlook 및 Office.com에서 사용하기 위해 향상된 앱은 Teams에서 �
 > [!NOTE]
 > Outlook 및 Office에 동일한 앱의 기존 시장 내 추가 기능을 설치한 사용자는 해당 앱을 계속 사용합니다. 추가 기능은 Teams 앱이 아니며 Teams 관리자는 액세스를 제어할 수 없습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="related-articles"></a>관련 기사
 
 * [Microsoft 365용으로 설계된 Microsoft Teams 앱은 Outlook 및 Office.com에서 미리 보기로 제공됩니다.](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-teams-apps-designed-for-microsoft-365-coming-in/ba-p/3269538)
 * [Microsoft 365의 관리자 역할 이해](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true)  
