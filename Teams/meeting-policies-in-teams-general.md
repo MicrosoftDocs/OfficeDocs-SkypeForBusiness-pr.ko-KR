@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Teams에서 일반 모임 정책 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 0278133ff33e811cc4f08e1ad2973f52615d1426
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: ba667e5fbbe4d0f5e4d1ece6dba5943691b572a6
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706957"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046728"
 ---
 # <a name="meeting-policy-settings---general"></a>모임 정책 설정 - 일반
 
@@ -154,7 +154,7 @@ Teams 관리 센터에서 이 정책을 편집하려면 **모임 모임** > **�
 
 이 정책은 웹 세미나를 등록하고 참석할 수 있는 사용자를 제어합니다. 이 정책에는 **모임 등록** 이 켜져 있는 경우에만 사용할 수 있는 두 가지 옵션이 있습니다.
 
-- 익명 사용자를 포함한 모든 사용자가 조직의 사용자가 설정한 웨비나를 등록하고 참석하도록 허용하려면 **모든** 사람에게 등록할 **수** 있는 사용자를 설정합니다.
+- 익명 사용자를 포함한 모든 사용자가 조직 설정에서 사용자가 등록하고 웹 세미나에 참석할 수 있도록 허용하려면 **모든** 사용자에게 등록할 **수** 있는 사용자를 설정합니다.
 - 조직의 사용자만 웹 세미나를 등록하고 참석하도록 허용하려면 **조직의 모든** 사용자에게 등록할 **수** 있는 사용자를 설정합니다.
 
 기본적으로 **등록할 수 있는 사람은** **모두** 로 설정됩니다. Teams 관리 센터에서 이 정책을 편집하려면 **모임 모임** > **정책** 으로 이동합니다.
@@ -181,8 +181,9 @@ Teams 관리 센터에서 이 정책을 편집하려면 **모임 모임** > **�
   매개 변수를 **Teams** 로 설정했다가 다시 **TeamsAndSfB** 로 전환하면 두 모임 추가 기능이 모두 활성화됩니다. 그러나 기존 Teams 모임 참가 링크는 비즈니스용 Skype 마이그레이션되지 않습니다. 변경 후 예약된 비즈니스용 Skype 모임만 비즈니스용 Skype 모임 참가 링크가 생깁니다.
 
 ## <a name="meeting-reactions"></a>모임 반응
+모임 반응의 가용성은 Teams 관리 센터 인터페이스 또는 PowerShell을 사용하여 구성할 수 있습니다. 모임 반응은 모임 정책의 **참가자 & 게스트** 섹션에서 사용하거나 사용하지 않도록 설정할 수 있습니다.
 
-AllowMeetingReactions 설정은 PowerShell을 사용하는 경우에만 적용할 수 있습니다. Teams 관리 센터에서 AllowMeetingReactions를 설정하거나 해제하는 옵션은 없습니다.
+설정을 구성하려면 Set-CsTeamsMeetingPolicy cmdlet을 사용합니다. 이 설정은 기본적으로 사용하도록 설정됩니다. 해제하려면 **AllowMeetingReactions를** **False** 로 설정합니다.
 
 모임 반응은 기본적으로 해제되어 있습니다. 사용자의 반응 설정을 꺼도 사용자는 본인이 예약한 모임에서 반응을 사용할 수 있습니다. 모임 이끌이는 기본 설정에 관계없이 계속 모임 옵션 페이지에서 반응을 켤 수 있습니다.
 

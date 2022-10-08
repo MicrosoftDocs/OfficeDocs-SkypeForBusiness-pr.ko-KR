@@ -10,6 +10,7 @@ audience: Admin
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 appliesto:
 - Microsoft Teams
 - Microsoft 365 for frontline workers
@@ -21,12 +22,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft 365 for frontline workers
 description: 조직의 최전방 작업자를 위해 Teams 정책 패키지를 사용하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 20f0f926a50a56140bab8d20c9c663e0020ac3c0
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
-ms.translationtype: HT
+ms.openlocfilehash: 62a3d047da0f9174bc26d5a1e9c3ebe5f9467a49
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819581"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047198"
 ---
 # <a name="teams-policy-packages-for-frontline-workers"></a>최전방 작업자를 위한 Teams 정책 패키지
 
@@ -73,7 +74,7 @@ Teams에는 **최전방 관리자** 및 **최전방 작업자** 정책 패키지
 
 ### <a name="assign"></a>할당
 
-정책 패키지를 사용자에 할당합니다. 사용자에게 정책이 할당된 후 나중에 다른 정책을 할당하는 경우 가장 최근의 할당이 우선됩니다.
+Assign the policy package to users. If a user has a policy assigned, and then later you assign a different policy, the most recent assignment will take priority.
 
 > [!NOTE]
 > 사용자 지정 정책 패키지 할당을 받으려면 각 사용자에게 고급 통신 추가 기능이 필요합니다. 자세한 내용은 [Microsoft Teams를 위한 고급 통신 추가 기능](/microsoftteams/teams-add-on-licensing/advanced-communications)을 참조하세요.

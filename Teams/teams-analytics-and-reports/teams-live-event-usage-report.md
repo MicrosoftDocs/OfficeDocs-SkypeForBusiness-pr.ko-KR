@@ -17,12 +17,12 @@ description: Microsoft Teams 관리 센터에서 Teams 라이브 이벤트 사�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 29a255c9248f07db00d4295e99d4062116ca4e76
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: 1a7f571610c49da16735cf66f65f725901fce56d
+ms.sourcegitcommit: b2692b3f6c60d8df5ba0677c68ff9c90a75a0d72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794096"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68033816"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams 라이브 이벤트 사용 현황 보고서
 
@@ -48,7 +48,7 @@ Microsoft Teams 관리 센터의 Teams 라이브 이벤트 사용 현황 보고�
 |**5**   |**열 편집을** 선택하여 테이블에서 열을 추가하거나 제거합니다.|
 
 ## <a name="notes"></a>참고
-현재 보고서 조건과 일치하는 최대 100개의 라이브 이벤트가 표시됩니다. 더 많은 라이브 이벤트를 보려면 날짜 필터를 적용하여 목록 크기를 줄입니다.
+현재 보고서 조건과 일치하는 최대 100개의 라이브 이벤트를 표시합니다. 더 많은 라이브 이벤트를 보려면 날짜 필터를 적용하여 목록 크기를 줄입니다.
 
 익명 발표자는 보고서에 포함되지 않습니다.
 
@@ -62,7 +62,7 @@ Microsoft Teams 관리 센터의 Teams 라이브 이벤트 사용 현황 보고�
 
 조직에서 [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN 또는 [Kollective](https://kollective.com) eCDN을 사용하도록 설정된 경우 파트너 보고서 링크를 클릭하여 추가 참석자 분석을 가져올 수 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 - [Teams 분석 및 보고](teams-reporting-reference.md)
 - [Teams 라이브 이벤트란 무엇인가요?](../teams-live-events/what-are-teams-live-events.md)

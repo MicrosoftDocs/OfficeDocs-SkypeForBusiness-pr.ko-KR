@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
+ms.date: 09/26/2022
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -17,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams 관리 센터에서 조직의 앱 스토어에 사용자 지정 앱을 업로드하는 방법을 알아보세요.
-ms.openlocfilehash: 60bb4c2ce41830dd789bd70763c8f3eb6ab8cde7
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 51ea4bdc31ff59a34bdf28a991617fff0f4e7381
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837318"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494611"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>앱 패키지를 업로드하여 사용자 지정 앱 게시
 
@@ -31,7 +32,7 @@ ms.locfileid: "67837318"
 
 이 문서에서는 Teams 앱을 개발에서 배포, 검색으로 전환하는 방법에 대한 종단 간 지침을 제공합니다. 이 지침은 앱의 Teams 측면에 중점을 두고 있으며 관리자와 IT 전문가를 대상으로 합니다. Teams 앱 개발에 대한 자세한 내용은 [Teams 개발자 설명서](/microsoftteams/platform/)를 참조하세요.
 
-![개발에서 배포까지의 앱 개요.](media/upload-custom-apps.png)
+:::image type="content" source="media/upload-custom-apps.png" alt-text="개발에서 배포까지의 앱 개요.":::
 
 ## <a name="create-your-app"></a>앱 만들기
 
@@ -84,7 +85,7 @@ Teams 스토어의 모든 앱은 글로벌 Teams 앱 스토어의 품질 및 보
 
 1. **업로드** 를 선택하고, **업로드** 를 선택하고, 개발자로부터 받은 앱 패키지를 선택하고, **열기** 를 선택합니다.
 
-   ![관리 센터의 사용자 지정 앱 업로드 스크린샷](media/manage-your-lob-apps-upload-new-app.png)
+   :::image type="content" source="media/manage-your-lob-apps-upload-new-app.png" alt-text="관리 센터의 사용자 지정 앱 업로드 스크린샷":::
 
 ## <a name="set-up-and-manage"></a>설정 및 관리
 
@@ -134,6 +135,6 @@ Microsoft Teams 관리 센터의 앱 관리 페이지에서 앱을 업데이트�
 
 * [Teams 앱 제출 API를 통해 제출된 사용자 지정 앱 게시](submit-approve-custom-apps.md)
 * [Microsoft Teams 관리 센터에서 앱 관리](manage-apps.md)
-* [Teams에서 사용자 지정 앱 정책 및 설정 관리](teams-custom-app-policies-and-settings.md)
+* [사용자 지정 앱에 대한 정책 및 설정 관리](teams-custom-app-policies-and-settings.md)
 * [Teams에서 앱 사용 권한 정책 관리](teams-app-permission-policies.md)
 * [Teams에서 앱 설정 정책 관리](teams-app-setup-policies.md)

@@ -1,5 +1,6 @@
 ---
 title: 콘텐츠에 대한 eDiscovery 조사 수행
+description: 법적 절차에 대한 모든 전자 저장 정보를 제출해야 하는 경우와 같이 eDiscovery를 수행해야 할 때 수행할 작업에 대해 알아봅니다.
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,21 +8,23 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
+- tier1
+- purview-compliance
 - M365-collaboration
+- ediscovery
 ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 법적 절차에 대한 모든 전자 저장 정보를 제출해야 하는 경우와 같이 eDiscovery를 수행해야 할 때 수행할 작업에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e0579e0967a6f0309dbea6ee28430df3f34876be
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: a44245d31e6fc9f4b58c17832e596c6d73b56635
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808249"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046658"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams에서 콘텐츠에 대한 eDiscovery 조사 수행
 
@@ -35,8 +38,8 @@ ms.locfileid: "67808249"
 
 모든 Teams 콘텐츠를 검색할 수 있는 것은 아닙니다. 다음 표에서는 Microsoft eDiscovery 도구를 사용하여 검색할 수 있는 콘텐츠 형식을 보여줍니다.
 
-|콘텐츠 형식|참고|
-|---|---|
+|**콘텐츠 형식**|**참고**|
+|:---------------|:--------|
 |오디오 녹음||
 |카드 콘텐츠|자세한 내용은 [카드 콘텐츠 검색](#search-for-card-content) 을 참조하세요.|
 |채팅 링크||
@@ -53,6 +56,7 @@ ms.locfileid: "67808249"
 |반응(예: 좋아요, 하트 및 기타 반응)|반응은 2022년 6월 1일 이후의 모든 상용 고객에 대해 지원됩니다. 이 날짜 이전의 반응은 eDiscovery에 사용할 수 없습니다. 정부 클라우드 지원이 계획되어 있습니다. 반응에 대한 법적 보존 지원은 없습니다.|
 |제목||
 |테이블||
+|Teams 비디오 클립(TVC)|미리 보기를 마우스 오른쪽 단추로 클릭하여 "Video-Clip" 키워드를 사용하여 TVC를 검색하고 각 TVC 첨부 파일에 대한 .mp4 파일을 "다른 이름으로 저장"합니다(키워드로 검색은 2022년 10월에 제공될 예정). TVC 데이터는 eDiscovery [검토 집합](/microsoft-365/compliance/add-data-to-review-set)에서 검색할 수 있습니다.
 
 <sup>1</sup> 모임(및 통화) 메타데이터에는 다음이 포함됩니다.
 

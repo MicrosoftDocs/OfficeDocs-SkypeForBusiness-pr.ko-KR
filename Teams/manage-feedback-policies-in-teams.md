@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 피드백 정책을 사용하여 조직의 Teams 사용자가 Teams에 대한 피드백을 Microsoft에 제출할 수 있는지 여부를 제어하는 방법을 알아봅니다.
-ms.openlocfilehash: 933c6971058c107ab881cb48bb0f2a9dbd74900d
-ms.sourcegitcommit: 44fd07d8e6e5fcbe5051de2300e180f295eaaad3
+ms.openlocfilehash: 9510a94a60a79a36292011fdcdad6afa97e6f56f
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "67339802"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494661"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Microsoft Teams에서 피드백 정책 관리
 
@@ -71,6 +71,7 @@ PowerShell을 사용하여 피드백 정책을 관리합니다. [**New-CsTeamsFe
  - **스크린샷**: **AllowScreenshotCollection** 플래그를 사용하여 사용자에 대한 스크린샷 컬렉션 옵트인을 추가합니다.
  - **Email**: **AllowEmailCollection** 플래그를 사용하여 전자 메일 필드를 추가합니다.
  - **로그 컬렉션**: **AllowLogCollection** 플래그를 사용하여 사용자에 대한 로그 컬렉션 옵트인을 추가합니다. 로그 수집은 현재 모바일에서만 사용하도록 설정되어 있습니다. 로그를 통해 공유되는 데이터에 대한 자세한 내용은 [자세히 알아보세요](https://go.microsoft.com/fwlink/?linkid=2168178).
+ - **기능 제안**: 정책이 할당된 사용자가 기능을 제안할 수 있도록 **EnableFeatureSuggestions** 매개 변수를 True로 설정합니다. 매개 변수를 사용하지 않도록 설정하면 기능이 해제되고 정책이 할당된 사용자에게 피드백을 제공할 수 있는 옵션이 없습니다. 기본 설정은 Microsoft 365 선택적 연결된 환경 정책 설정에서 가져온 것입니다. 해당 설정에 대한 자세한 내용은 [Office의 선택적 연결된 환경 개요를 참조하세요](/deployoffice/privacy/optional-connected-experiences).
 
 ## <a name="create-a-custom-feedback-policy"></a>사용자 지정 피드백 정책 만들기
 

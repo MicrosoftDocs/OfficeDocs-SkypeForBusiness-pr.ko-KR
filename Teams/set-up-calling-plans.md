@@ -14,6 +14,7 @@ ms.collection:
 - m365solution-voice
 - m365solution-scenario
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -26,12 +27,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 해당 지역에서 사용 가능한 요금제 보기, 라이선스 할당 & 구입, 전화 번호 가져오기, 위치 & 긴급 주소 추가 등 통화 플랜을 설정하는 방법을 알아봅니다.
-ms.openlocfilehash: a4acb51bad8e8ad309357fcd497c1554fc568928
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c33a7e3400df369b062468001b06d35dc98ad0ac
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271573"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999533"
 ---
 # <a name="set-up-calling-plans"></a>통화 플랜 설정
 

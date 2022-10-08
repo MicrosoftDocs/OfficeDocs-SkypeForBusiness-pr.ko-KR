@@ -1,6 +1,6 @@
 ---
-title: Microsoft Teams 정보 장벽
-description: 이 문서에서는 Microsoft Teams 정보 장벽을 지원하는 방법을 설명합니다.
+title: Microsoft Teams의 정보 장벽
+description: 이 문서에서는 Microsoft Teams에서 정보 장벽을 지원하는 방법을 설명합니다.
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -9,6 +9,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
+- tier2
+- purview-compliance
 - M365-collaboration
 search.appverid: MET150
 f1.keywords:
@@ -16,18 +18,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 38698179e2a3b4c6ca402190c98f89f329820d6e
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: bc05ed28f2a0c77cc6a605deccff98fa65f33845
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675410"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047088"
 ---
-# <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams 정보 장벽
+# <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams의 정보 장벽
 
-[Microsoft Purview 정보 장벽](/microsoft-365/compliance/information-barriers)(IB)은 관리자가 개인 또는 그룹이 서로 통신하지 못하도록 구성할 수 있는 정책입니다. 예를 들어 한 부서가 다른 부서와 공유해서는 안 되는 정보를 처리하는 경우 IB가 유용합니다. IB는 그룹을 격리하거나 해당 그룹 외부의 사용자와 통신하지 못하도록 해야 하는 경우에도 유용합니다. Microsoft Teams 공유 채널은 정보 장벽에서 지원됩니다. 공유 유형에 따라 정보 장벽 정책은 특정 방식으로 공유를 제한할 수 있습니다. 공유 채널 및 정보 장벽 동작에 대한 자세한 내용은 [정보 장벽 및 공유 채널을 참조하세요](information-barriers-shared-channels.md).
+[Microsoft Purview OB(정보 장벽](/microsoft-365/compliance/information-barriers) )는 관리자가 개인 또는 그룹이 서로 통신하지 못하도록 구성할 수 있는 정책입니다. 예를 들어 한 부서가 다른 부서와 공유해서는 안 되는 정보를 처리하는 경우 IB가 유용합니다. IB는 그룹을 격리하거나 해당 그룹 외부의 사용자와 통신하지 못하도록 해야 하는 경우에도 유용합니다. Microsoft Teams의 공유 채널은 정보 장벽에서 지원됩니다. 공유 유형에 따라 정보 장벽 정책은 특정 방식으로 공유를 제한할 수 있습니다. 공유 채널 및 정보 장벽 동작에 대한 자세한 내용은 [정보 장벽 및 공유 채널을 참조하세요](information-barriers-shared-channels.md).
 
-Microsoft Teams 경우 정보 장벽은 다음과 같은 종류의 무단 협업을 결정하고 방지할 수 있습니다.
+Microsoft Teams의 경우 정보 장벽은 다음과 같은 종류의 무단 협업을 결정하고 방지할 수 있습니다.
 
 - 팀 또는 채널에 사용자 추가
 - 팀 또는 채널 콘텐츠에 대한 사용자 액세스
@@ -39,7 +41,7 @@ Microsoft Teams 경우 정보 장벽은 다음과 같은 종류의 무단 협업
 >- 테넌트 간에 정보 장벽 그룹을 만들 수 없습니다.
 >- 봇, Azure Active Directory(Azure AD) 앱, API를 사용하여 활동 피드 알림을 보내고, 사용자를 추가하는 일부 API는 버전 1에서 지원되지 않습니다.
 >- 개인 채널은 구성하는 정보 장벽 정책을 준수합니다.
->- Teams 연결된 SharePoint 사이트에 대한 장벽 지원에 대한 자세한 내용은 [Microsoft Teams 사이트와 연결된 세그먼트](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)를 참조하세요.
+>- Teams에 연결된 SharePoint 사이트에 대한 장벽 지원에 대한 자세한 내용은 [Microsoft Teams 사이트와 연결된 세그먼트](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)를 참조하세요.
 
 ## <a name="background"></a>배경
 
@@ -50,7 +52,7 @@ LB의 주요 동인은 금융 서비스 산업에서 비롯됩니다. 금융산�
 - **교육**: 한 학교의 학생들은 다른 학교의 학생에 대한 연락처 세부 정보를 조회할 수 없습니다.
 - **법률**: 한 고객의 변호사가 얻은 데이터의 기밀성을 유지하고 다른 고객을 대표하는 동일한 회사의 변호사가 데이터에 액세스하지 못하도록 방지합니다.
 - **정부**: 정보 액세스 및 제어는 부서 및 그룹 전체에 걸쳐 제한됩니다.
-- **Professional 서비스**: 회사의 사용자 그룹은 고객 참여 중에 게스트 액세스를 통해서만 클라이언트 또는 특정 고객과 채팅할 수 있습니다.
+- **전문 서비스**: 회사의 사용자 그룹은 고객 참여 중에 게스트 액세스를 통해서만 클라이언트 또는 특정 고객과 채팅할 수 있습니다.
 
 예를 들어 Enrico는 은행 세그먼트에 속하고 Pradeep은 재무 고문 세그먼트에 속합니다. Enrico와 Pradeep은 조직의 IB 정책이 이러한 두 세그먼트 간의 통신 및 협업을 차단하기 때문에 서로 통신할 수 없습니다. 그러나 엔리코와 프라딥은 HR에서 리와 통신할 수 있습니다.
 
@@ -70,7 +72,7 @@ LB의 주요 동인은 금융 서비스 산업에서 비롯됩니다. 금융산�
 IB 정책은 PowerShell cmdlet을 사용하여 SCC(Microsoft Purview 규정 준수 포털)에서 관리됩니다. 자세한 내용은 [정보 장벽에 대한 정책 정의를 참조하세요](/office365/securitycompliance/information-barriers-policies).
 
 >[!IMPORTANT]
->정책을 설정하거나 정의하기 전에 Microsoft Teams 범위가 지정된 디렉터리 검색을 사용하도록 설정해야 합니다. 정보 장벽에 대한 정책을 설정하거나 정의하기 전에 범위가 지정된 디렉터리 검색을 사용하도록 설정한 후 최소 몇 시간 정도 기다립니다. 자세한 내용은 [정보 장벽 정책 정의를 참조하세요](/office365/securitycompliance/information-barriers-policies#prerequisites).
+>정책을 설정하거나 정의하기 전에 Microsoft Teams에서 범위가 지정된 디렉터리 검색을 사용하도록 설정해야 합니다. 정보 장벽에 대한 정책을 설정하거나 정의하기 전에 범위가 지정된 디렉터리 검색을 사용하도록 설정한 후 최소 몇 시간 정도 기다립니다. 자세한 내용은 [정보 장벽 정책 정의를 참조하세요](/office365/securitycompliance/information-barriers-policies#prerequisites).
 
 ## <a name="information-barriers-administrator-role"></a>정보 장벽 관리자 역할
 
@@ -108,9 +110,9 @@ IB 정책은 다음 Teams 이벤트가 발생할 때 활성화됩니다.
 
     ![차단된 설정이 있는 사용자 문자를 보여 주는 스크린샷](media/ib-after-screen-share-policy.png)
 
-- **사용자가 Teams 전화 통화를** 합니다. 사용자가 VOIP를 통해 다른 사용자 또는 사용자 그룹에 대한 음성 통화를 시작할 때마다 다른 팀 구성원의 IB 정책을 위반하지 않도록 통화가 평가됩니다. 위반이 있으면 음성 통화가 차단됩니다.
+- **사용자가 Teams에서 전화 통화를** 합니다. 사용자가 VOIP를 통해 다른 사용자 또는 사용자 그룹에 대한 음성 통화를 시작할 때마다 다른 팀 구성원의 IB 정책을 위반하지 않도록 통화가 평가됩니다. 위반이 있으면 음성 통화가 차단됩니다.
 
-- **Teams 게스트**: Teams 게스트에게도 IB 정책이 적용됩니다. 조직의 전역 주소 목록에서 게스트를 검색할 수 있어야 하는 경우 [Microsoft 365 그룹 게스트 액세스 관리를](/microsoft-365/admin/create-groups/manage-guest-access-in-groups) 참조하세요. 게스트를 검색할 수 있게 되면 [IB 정책을 정의](/office365/securitycompliance/information-barriers-policies)할 수 있습니다.
+- **Teams의 게스트**: Teams의 게스트에게도 IB 정책이 적용됩니다. 조직의 전역 주소 목록에서 게스트를 검색할 수 있어야 하는 경우 [Microsoft 365 그룹 게스트 액세스 관리를](/microsoft-365/admin/create-groups/manage-guest-access-in-groups) 참조하세요. 게스트를 검색할 수 있게 되면 [IB 정책을 정의](/office365/securitycompliance/information-barriers-policies)할 수 있습니다.
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>정책 변경이 기존 채팅에 미치는 영향
 
@@ -144,11 +146,11 @@ IB 정책 관리자가 정책을 변경하거나 사용자 프로필 변경(예:
 
 현재 사용자는 IB 정책이 다른 사용자를 차단하는 경우 다음과 같은 시나리오를 경험합니다.
 
-- **사용자 탭**: **사용자 탭에서** 차단된 사용자를 볼 수 없습니다.
+- **사람 탭**: 사용자가 **사람** 탭에서 차단된 사용자를 볼 수 없습니다.
 
-- **사람 선택:** 차단된 사용자는 사람 선택기에서 표시되지 않습니다.
+- **사람 선택:** 차단된 사용자는 사용자 선택기에서 표시되지 않습니다.
 
-    ![정책이 다른 사용자의 정보를 표시하지 못하도록 사용자에게 알리는 Teams 스크린샷.](media/information-barriers-people-picker.png)
+    ![정책이 다른 사용자의 정보를 표시하지 못하도록 사용자에게 경고하는 Teams의 스크린샷.](media/information-barriers-people-picker.png)
 
 - **활동 탭**: 사용자가 차단된 사용자의 **활동** 탭을 방문하면 게시물이 표시되지 않습니다. ( **활동** 탭에는 채널 게시물만 표시되고 두 사용자 간에 공통 채널이 없습니다.)
 
@@ -158,7 +160,7 @@ IB 정책 관리자가 정책을 변경하거나 사용자 프로필 변경(예:
 
 - **조직도**: 사용자가 차단된 사용자가 표시되는 조직도에 액세스하면 차단된 사용자가 조직도에 표시되지 않습니다. 대신 오류 메시지가 표시됩니다.
 
-- **사용자 카드**: 사용자가 대화에 참여하고 나중에 사용자가 차단된 경우 차단된 사용자의 이름을 마우스로 가리킬 때 다른 사용자에게 사용자 카드 대신 오류 메시지가 표시됩니다. 카드에 나열된 작업(예: 통화 및 채팅)을 사용할 수 없습니다.
+- **사람 카드**: 사용자가 대화에 참여하고 나중에 사용자가 차단된 경우 차단된 사용자의 이름을 마우스로 가리킬 때 다른 사용자에게 사용자 카드 대신 오류 메시지가 표시됩니다. 카드에 나열된 작업(예: 통화 및 채팅)을 사용할 수 없습니다.
 
 - **추천 연락처**: 차단된 사용자가 제안된 연락처 목록(새 사용자에 대해 표시되는 초기 연락처 목록)에 표시되지 않습니다.
 
@@ -176,21 +178,21 @@ IB 정책 관리자가 정책을 변경하거나 사용자 프로필 변경(예:
     > [!div class="mx-imgBorder"]
     > ![채팅에서 차단된 사용자를 보여 주는 스크린샷](media/ib-after-chat-contacts-policy.png)
 
-- **Teams 마이그레이션에 대한 Skype**: 비즈니스용 Skype Teams 마이그레이션하는 동안 IB 정책에 의해 차단된 모든 사용자도 Teams 마이그레이션됩니다. 그런 다음 이러한 사용자는 위에서 설명한 대로 처리됩니다.
+- **Skype에서 Teams로 마이그레이션**: 비즈니스용 Skype Teams로 마이그레이션하는 동안 IB 정책에 의해 차단된 사용자도 모든 사용자가 Teams로 마이그레이션됩니다. 그런 다음 이러한 사용자는 위에서 설명한 대로 처리됩니다.
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Teams 정책 및 SharePoint 사이트
 
-팀이 만들어지면 SharePoint 사이트가 프로비전되고 파일 환경에 대한 Microsoft Teams 연결됩니다. 정보 장벽 정책은 기본적으로 이 SharePoint 사이트 및 파일에 적용되지 않습니다. SharePoint 및 OneDrive 정보 장벽을 사용하도록 설정하려면 SharePoint 문서에서 [정보 장벽 사용](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization)의 지침과 단계를 따릅니다.
+팀이 만들어지면 SharePoint 사이트가 프로비전되고 파일 환경을 위해 Microsoft Teams와 연결됩니다. 정보 장벽 정책은 기본적으로 이 SharePoint 사이트 및 파일에서 적용되지 않습니다. SharePoint 및 OneDrive에서 정보 장벽을 사용하도록 설정하려면 [SharePoint 문서와 함께 정보 장벽 사용](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization) 문서의 지침과 단계를 따르세요.
 
 ## <a name="information--barrier-modes-and-teams"></a>정보 장벽 모드 및 Teams
 
-정보 장벽 모드는 팀에 추가하거나 팀에서 제거할 수 있는 사용자를 강화하는 데 도움이 됩니다. Teams 정보 장벽을 사용하는 경우 다음 IB 모드가 지원됩니다.
+정보 장벽 모드는 팀에 추가하거나 팀에서 제거할 수 있는 사용자를 강화하는 데 도움이 됩니다. Teams에서 정보 장벽을 사용하는 경우 다음 IB 모드가 지원됩니다.
 
 - **열기**: 이 구성은 정보 장벽을 사용하도록 설정하기 전에 프로비전된 모든 기존 그룹에 대한 기본 IB 모드입니다. 이 모드에는 적용 가능한 IB 정책이 없습니다.
 - **암시적**: 이 구성은 정보 장벽을 사용하도록 설정한 후 팀이 프로비전될 때 기본 IB 모드입니다. 암시적 모드를 사용하면 그룹에 호환되는 모든 사용자를 추가할 수 있습니다.
 - **소유자 조정:** 이 모드는 소유자가 조정하는 호환되지 않는 세그먼트 사용자 간의 공동 작업을 허용하려는 경우 팀에서 설정됩니다. 팀 소유자는 IB 정책에 따라 새 멤버를 추가할 수 있습니다.
 
-테넌트에서 정보 장벽 정책을 활성화하기 전에 만든 Teams 기본적으로 자동으로 *열기* 모드로 설정됩니다. 테넌트에서 IB 정책을 활성화한 후에는 기존 팀의 모드를 *암시적으로* 업데이트하여 기존 팀이 IB 규격인지 확인해야 합니다.
+테넌트에서 정보 장벽 정책을 활성화하기 전에 만든 팀은 기본적으로 자동으로 *열기* 모드로 설정됩니다. 테넌트에서 IB 정책을 활성화한 후에는 기존 팀의 모드를 *암시적으로* 업데이트하여 기존 팀이 IB 규격인지 확인해야 합니다.
 
 세그먼트에 사용하려는 모드에 해당하는 *InformationBarrierMode* 매개 변수와 함께 [Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) cmdlet을 사용합니다. *InformationBarrierMode* 매개 변수에 허용되는 값 목록은 *Open*, *Implicit* 및 *Owner Moderated* 입니다.
 
@@ -202,7 +204,7 @@ Set-UnifiedGroup -InformationBarrierMode Implicit
 
 모든 기존 팀에 대해 Open에서 Implicit으로 모드를 업데이트하려면 이 [PowerShell 스크립트](information-barriers-mode-script.md)를 사용합니다.
 
-조직의 규정 준수 요구 사항을 충족하도록 기존 Teams 연결된 그룹에서 열기 모드 구성을 변경하는 경우 Teams 팀에 연결된 연결된 SharePoint 사이트에 대한 [IB 모드를 업데이트](/sharepoint/information-barriers#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell)해야 합니다.
+조직의 규정 준수 요구 사항을 충족하도록 기존 Teams 연결 그룹의 열기 모드 구성을 변경하는 경우 Teams 팀에 연결된 연결된 SharePoint 사이트의 [IB 모드를 업데이트](/sharepoint/information-barriers#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) 해야 합니다.
 
 ## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 
@@ -218,10 +220,10 @@ Set-UnifiedGroup -InformationBarrierMode Implicit
 ## <a name="more-information"></a>추가 정보
 
 - IB에 대한 자세한 내용은 [정보 장벽을 참조하세요](/office365/securitycompliance/information-barriers).
-- IB 정책을 설정하려면 [정보 장벽이 있는 시작 참조하세요](/office365/securitycompliance/information-barriers-policies).
+- IB 정책을 설정하려면 [정보 장벽 시작을 참조하세요](/office365/securitycompliance/information-barriers-policies).
 - IB 정책을 편집하거나 제거하려면 [정보 장벽 정책 관리를](/microsoft-365/compliance/information-barriers-edit-segments-policies) 참조하세요.
 - [정보 장벽 및 공유 채널](information-barriers-shared-channels.md)
 
 ## <a name="availability"></a>가용성
 
-Teams 정보 장벽은 공용, GCC, GCC - 높음 및 DOD 클라우드에서 사용할 수 있습니다.
+Teams의 정보 장벽은 공용, GCC, GCC - 높음 및 DOD 클라우드에서 사용할 수 있습니다.

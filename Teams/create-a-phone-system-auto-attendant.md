@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Microsoft Teams에서 자동 전화 교환을 설정하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 913ac62ceb251f166852ec8c6d5ba84b7c0777ea
-ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
+ms.openlocfilehash: c2ae316815111193d81f191bdecd2fd7b1d59794
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443405"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046478"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 전화 교환 설정
 
@@ -51,6 +51,7 @@ ms.locfileid: "67443405"
 
 ## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>지난 6개월 동안 자동 전화 교환의 새로운 기능
  
+ - 9월 - 통화 흐름, 시간 후 통화 흐름 및 휴일 동안 통화 흐름에 대한 **재생 메뉴 옵션** 으로 **수신 대기 강제** 옵션을 사용할 수 있습니다.
  - 8월 - 통화 흐름의 **재생 메뉴 옵션**, 시간 외 통화 흐름 및 휴일 동안 통화 흐름이 이제 지원(별표) 및 \# (파운드) 키를 지원 \* 합니다.
  - 7월 - 휴일의 통화 흐름은 이제 **재생 메뉴 옵션을** 지원합니다.
  
@@ -108,7 +109,8 @@ ms.locfileid: "67443405"
 
 #### <a name="play-menu-options"></a>재생 메뉴 옵션
 
-*New - \* (별표) 및 \# (파운드) 키는 이제 메뉴 옵션에서 사용할 수 있습니다.*
+*새로 만들기 - 선택하기 전에 호출자가 모든 메뉴 옵션을 수신 대기하도록 요구하는 수신 대기 강제 옵션을 사용하도록 설정할 수 있습니다.*
+ *New - \* (별표) 및 \# (파운드) 키는 이제 메뉴 옵션에서 사용할 수 있습니다.*
 
 전화 걸기 옵션의 경우 전화 키패드의 0-9, \* (별표) 및 \# (파운드) 키를 통화 라우팅 대상 중 하나에 할당합니다. 
 
@@ -167,7 +169,9 @@ ms.locfileid: "67443405"
 
 자동 전화 교환은 [설정한 각 휴일](set-up-holidays-in-teams.md)에 대한 통화 흐름을 가질 수 있습니다. 각 자동 전화 교환에 최대 20개의 예약된 휴일을 추가할 수 있습니다.
 
-*새로 만들기 - 이제 휴일 통화 흐름에서 **재생 메뉴 옵션을** 사용할 수 있습니다.*
+*새로 만들기 - 선택하기 전에 호출자가 모든 메뉴 옵션을 수신 대기하도록 요구하는 수신 대기 강제 옵션을 사용하도록 설정할 수 있습니다.*
+ *New - \* (별표) 및 \# (파운드) 키는 이제 메뉴 옵션에서 사용할 수 있습니다.*
+ *새로 만들기 - 이제 휴일 통화 흐름에서 **재생 메뉴 옵션을** 사용할 수 있습니다.*
 
 1. 휴일 통화 설정 페이지에서 **추가** 를 선택합니다.
 

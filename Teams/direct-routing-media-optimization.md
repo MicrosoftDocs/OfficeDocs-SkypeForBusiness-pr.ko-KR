@@ -16,12 +16,12 @@ f1.keywords:
 description: 직접 라우팅을 위한 로컬 미디어 최적화
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c33b8225f3bcde32428348e85166ff4d4463738
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: a86758d3376b2232126d095f9c9b1a1a28371481
+ms.sourcegitcommit: 9522d951700d19ab13c60a6452b3a8a4c824ee36
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616094"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "68018114"
 ---
 # <a name="plan-for-local-media-optimization-for-direct-routing"></a>직접 라우팅을 위한 로컬 미디어 최적화 계획
 
@@ -232,7 +232,7 @@ TDM 트렁크의 중앙 집중화가 옵션이 아닌 APAC 지역의 모든 로�
 
 다이어그램 5.  "항상 바이패스" 모드가 있는 트래픽 흐름 및 사용자가 "홈" 사이트에 있는 경우
 
-! [트래픽 흐름 로컬 미디어 최적화를 보여 주는 다이어그램] (media/direct-routing-media-op-5.png ""Always Bypass" 모드가 있는 트래픽 흐름 및 사용자가 "홈" 사이트에 있습니다.)
+![트래픽 흐름 로컬 미디어 최적화를 보여 주는 다이어그램](media/direct-routing-media-op-5.png "'Always Bypass' 모드가 있고 사용자가 '홈' 사이트에 있는 트래픽 흐름")
 
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>시나리오 2: 사용자 및 게이트웨이가 서로 다른 사이트에 있습니다.
@@ -255,7 +255,7 @@ TDM 트렁크의 중앙 집중화가 옵션이 아닌 APAC 지역의 모든 로�
 
 다이어그램 6.  "Always Bypass" 모드를 사용하여 트래픽 흐름이 흐르고 사용자가 "홈" 사이트가 아니라 내부 네트워크에 있습니다.
 
-! [다이어그램은 트래픽 흐름 로컬 미디어 최적화를 보여 줍니다.] (미디어/direct-routing-media-op-6.png ""Always Bypass" 모드가 있는 트래픽 흐름 및 사용자가 "홈" 사이트가 아니라 내부 네트워크에 있습니다.)
+![다이어그램은 트래픽 흐름 로컬 미디어 최적화를 보여 줍니다.](media/direct-routing-media-op-6.png "'Always Bypass' 모드가 있고 사용자가 '홈' 사이트가 아니라 내부 네트워크에 있는 트래픽 흐름")
 
 ### <a name="mode-2-only-for-local-users"></a>모드 2: 로컬 사용자에 대해서만
 
@@ -295,7 +295,7 @@ TDM 트렁크의 중앙 집중화가 옵션이 아닌 APAC 지역의 모든 로�
 
 다이어그램 7. "로컬 사용자에 대해서만" 모드가 있고 사용자가 "홈" 사이트에 있는 트래픽 흐름
 
-! [트래픽 흐름 로컬 미디어 최적화를 보여 주는 또 다른 다이어그램] (미디어/direct-routing-media-op-7.png ""로컬 사용자만" 모드로 트래픽 흐름 및 사용자가 "홈" 사이트에 있습니다.)
+![트래픽 흐름 로컬 미디어 최적화를 보여 주는 또 다른 다이어그램입니다.](media/direct-routing-media-op-7.png "'로컬 사용자에 대해서만' 모드를 사용하고 사용자가 '홈' 사이트에 있는 트래픽 흐름")
 
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>시나리오 2. 사용자와 게이트웨이는 서로 다른 사이트에 있습니다.
@@ -325,7 +325,7 @@ TDM 트렁크의 중앙 집중화가 옵션이 아닌 APAC 지역의 모든 로�
 
 다이어그램 8.  "로컬 사용자만" 모드로 트래픽 흐름이 흐르고 사용자가 "홈" 사이트가 아니라 내부 네트워크에 있습니다.
 
-! [다른 다이어그램은 트래픽 흐름 로컬 미디어 최적화를 보여 줍니다.] (media/direct-routing-media-op-8.png ""로컬 사용자에 대해서만" 모드가 있는 트래픽 흐름은 사용자가 "홈" 사이트가 아니라 내부 네트워크에 있습니다.)
+![또 다른 다이어그램은 트래픽 흐름 로컬 미디어 최적화를 보여 줍니다.](media/direct-routing-media-op-8.png "'로컬 사용자에 대해서만' 모드가 있는 트래픽 흐름, 사용자가 '홈' 사이트가 아니라 내부 네트워크에 있습니다.")
 
 ## <a name="known-issues"></a>알려진 문제
 

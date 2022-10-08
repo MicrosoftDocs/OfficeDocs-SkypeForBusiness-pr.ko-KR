@@ -7,18 +7,19 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
+ms.date: 09/26/2022
 search.appverid: MET150
 description: 조직의 팀 소유자가 앱에 대한 동의를 제공할 수 있는지를 제어하기 위해 구성해야 하는 설정에 대해 알아봅니다.
 ms.localizationpriority: high
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cde84f4662b507b8497973436b9b713223fdbf74
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: dd47f8e46147e3b4d30052ff4a1b9fcde6c128e1
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837328"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377156"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>마이크로소프트 Teams의 리소스별 동의
 
@@ -39,7 +40,7 @@ ms.locfileid: "67837328"
 > [!IMPORTANT]
 > 이러한 설정을 변경해도 이미 동의가 부여된 앱의 데이터 액세스에는 영향을 주지 않습니다. 예를 들어, 팀 소유자가 동의하지 못하도록 이러한 설정을 구성해도 이미 부여된 데이터 액세스 권한은 제거되지 않습니다.
 
-#### <a name="the-users-can-consent-to-apps-accessing-company-data-on-their-behalf-setting"></a>"Users can consent to apps accessing company data on their behalf"(사용자는 회사 데이터에 액세스하는 앱에 대신 동의할 수 있음) 설정
+#### <a name="the-users-can-consent-to-apps-accessing-company-data-on-their-behalf-setting"></a>사용자는 대신 회사 데이터에 액세스하는 앱에 동의할 수 있습니다.
 
 이 설정은 조직의 사용자가 대신 앱에 동의할 수 있는지를 제어합니다. 팀 소유자가 동의할 수 있도록 하려면, 이 설정을 **예** 로 설정해야 합니다. 이 설정을 관리하려면 다음을 수행합니다.
 
@@ -59,16 +60,16 @@ Azure AD의 설정뿐만 아니라 [앱 관리](manage-apps.md) 페이지의 [�
 > [!IMPORTANT]
 > 이러한 설정을 변경해도 이미 동의가 부여된 앱의 데이터 액세스에는 영향을 주지 않습니다. 예를 들어 타사 앱을 조직 전체에서 사용하지 않도록 설정하거나 특정 앱을 차단하여 팀 소유자가 동의하지 못하도록 하는 경우 이러한 변경 사항으로 인해 이미 부여된 데이터 액세스가 제거되지는 않습니다.  
 
-#### <a name="the-allow-third-party-apps-setting-in-org-wide-app-settings"></a>조직 전체 앱 설정에서 "Allow third party apps"(타사 앱 허용) 설정
+#### <a name="the-allow-third-party-apps-option-in-org-wide-app-settings"></a>조직 전체 앱 설정에서 타사 앱 허용 옵션
 
 이 조직 전체 앱 설정은 조직의 사용자가 타사 앱을 사용할 수 있는지를 제어합니다. 팀 소유자가 동의할 수 있으려면 이 설정이 켜져 있어야 합니다. 이 설정을 관리하려면 다음을 수행합니다.
 
 1. Teams 관리 센터에 로그인하고 **Teams 앱 관리 앱** > 에 액세스 **[합니다](https://admin.teams.microsoft.com/policies/manage-apps)**.
 1. **조직 전체 앱 설정을** 선택하고 **타사 앱에서 타사 앱** **허용** 을 끄거나 켭니다.
 
-    !["Allow third party apps in Teams"(Teams에서 타사 앱 허용) 설정의 스크린샷](media/resource-specific-consent-org-wide-setting.png)
+   :::image type="content" source="media/resource-specific-consent-org-wide-setting.png" alt-text="Teams 설정에서 타사 앱 허용을 보여 주는 스크린샷":::
 
-변경 내용이 적용되는 데 최대 24시간이 걸릴 수 있습니다.
+변경 내용을 적용하는 데 최대 24시간이 걸릴 수 있습니다.
 
 #### <a name="allow-or-block-the-app-at-the-org-level"></a>조직 수준에서 앱 허용 또는 차단
 
@@ -77,8 +78,6 @@ Azure AD의 설정뿐만 아니라 [앱 관리](manage-apps.md) 페이지의 [�
 1. Teams 관리 센터에 로그인하고 **Teams 앱 관리 앱** > 에 액세스 **[합니다](https://admin.teams.microsoft.com/policies/manage-apps)**.
 1. 앱 관리 페이지에서 앱을 선택한 다음 **차단** 을 선택하여 차단하거나 **허용** 을 선택합니다.
 
-    ![조직 전체 설정에서 차단된 앱의 스크린샷](media/resource-specific-consent-allow-block-apps.png)
-
 #### <a name="app-permission-policy-assigned-to-the-team-owner"></a>팀 소유자에게 할당된 앱 권한 정책
 
 팀 소유자는 자신의 앱 권한 정책이 실행을 허용하는 앱에만 동의할 수 있습니다. 팀 소유자에게 할당된 앱 사용 권한 정책을 보고 관리하려면 다음을 수행합니다.
@@ -86,8 +85,9 @@ Azure AD의 설정뿐만 아니라 [앱 관리](manage-apps.md) 페이지의 [�
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **사용자** 로 이동합니다.
 1. 팀 소유자의 표시 이름을 두 번 클릭한 다음 **정책을** 선택합니다.
 1. 팀 소유자에게 할당된 정책은 **앱 권한 정책** 에 나열됩니다.
-    - 다른 정책을 할당하려면 **편집** 을 선택한 다음 할당할 정책을 선택합니다.
-    - 팀 소유자에게 할당된 정책 설정을 편집하려면 정책 이름을 선택한 다음 원하는 대로 변경합니다.  
+
+    * 다른 정책을 할당하려면 **편집** 을 선택한 다음 할당할 정책을 선택합니다.
+    * 팀 소유자에게 할당된 정책 설정을 편집하려면 정책 이름을 선택한 다음 원하는 대로 변경합니다.  
 
 ## <a name="upload-custom-apps"></a>사용자 지정 앱 업로드
 
@@ -95,7 +95,7 @@ Azure AD의 설정뿐만 아니라 [앱 관리](manage-apps.md) 페이지의 [�
 
 ## <a name="related-articles"></a>관련 기사
 
-- [사용 가능한 RSC 권한](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
-- [Microsoft Graph](https://developer.microsoft.com/graph)
-- [Microsoft Teams 관리 센터에서 앱 관리](manage-apps.md)
-- [Teams에서 앱 사용 권한 정책 관리](teams-app-permission-policies.md)
+* [사용 가능한 RSC 권한](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
+* [Microsoft Graph](https://developer.microsoft.com/graph)
+* [Microsoft Teams 관리 센터에서 앱 관리](manage-apps.md)
+* [Teams에서 앱 사용 권한 정책 관리](teams-app-permission-policies.md)

@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 168bddd1b4a7ad2ffa1f4d1c5eceb0967a18ea43
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: b34f22d5ef038eff44b5488588902d1a99af8676
+ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269703"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68486618"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -48,13 +48,13 @@ ms.locfileid: "67269703"
 |팀으로 변환할 수 있는 Microsoft 365 그룹의 최대 구성원 수    |10,000<sup>6</sup>     |
 |채널 대화 게시 크기 | 게시물당 약 28KB<sup>5</sup> |
 
-<sup>1</sup> Azure Active Directory의 모든 디렉터리 개체는 이 제한에 포함됩니다. 전역 관리자는 [응용 프로그램 사용 권한](/graph/permissions-reference)을 사용하여 Microsoft Graph를 호출하는 앱과 마찬가지로 이 제한에서 제외됩니다.
+<sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](/graph/permissions-reference).
 
 <sup>2</sup> 이 제한에는 보관된 팀이 포함됩니다. 
 
-<sup>3</sup> Microsoft 지원에 문의하여 테넌트에서의 Azure Active Directory 개체 수의 추가적 증가를 요청해야 합니다. 증가는 실제 프로덕션 시나리오에만 가능합니다.
+<sup>3</sup> To further increase the number of teams, you must contact Microsoft support and request further increase to the number of Azure Active Directory objects in your tenant. Increase is only made for real-life production scenarios.
 
-<sup>4</sup> 삭제된 채널은 30일 이내에 복원할 수 있습니다. 30일 동안에는 삭제된 채널은 계속해서 팀당 200개 채널이나 30개의 개인 채널 한도에 포함됩니다. 30일 후에는 삭제된 채널과 해당 콘텐츠가 영구적으로 삭제되고 채널은 더 이상 팀당 한도에 포함되지 않습니다.
+<sup>4</sup> Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel or 30 private channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the per team limit.
 
 <sup>5</sup> 28 KB는 메시지 자체(텍스트, 이미지 링크 등), @-멘션, 커넥터 수, 반응이 포함되기 때문에 대략적인 한도입니다.
 
@@ -67,7 +67,7 @@ ms.locfileid: "67269703"
 
 ### <a name="chat"></a>채팅
 
-Teams의 채팅 목록의 일부인 대화에 참여하는 사용자는 관리자가 채팅 대화를 검색할 수 있도록 Exchange Online(클라우드 기반) 사서함이 있어야 합니다. 채팅 목록의 일부인 대화는 채팅 참가자의 클라우드 기반 사서함에 저장되기기 때문입니다. 채팅 참가자에게 Exchange Online 사서함이 없는 경우 관리자는 채팅 대화에 대한 보류 또는 저장을 수행할 수 없습니다. 예를 들어 Exchange 하이브리드 배포에서는 온-프레미스 사서함이 있는 사용자가 Teams 채팅 목록에 포함된 대화에 참여할 수 있습니다. 하지만 이 경우에는 사용자에게 클라우드 기반 사서함이 없으므로 이 대화의 콘텐츠를 검색할 수 없고 보류 상태로 둘 수 없습니다. (자세한 내용은 [Exchange와 Microsoft Teams의 상호 작용 방식](exchange-teams-interact.md)을 참조하세요.)
+Users who participate in conversations that are part of the chat list in Teams must have an Exchange Online (cloud-based) mailbox for an admin to search chat conversations. That's because conversations that are part of the chat list are stored in the cloud-based mailboxes of the chat participants. If a chat participant doesn't have an Exchange Online mailbox, the admin won't be able to search or place a hold on chat conversations. For example, in an Exchange hybrid deployment, users with on-premises mailboxes might be able to participate in conversations that are part of the chat list in Teams. However, in this case, content from these conversations isn't searchable and can't be placed on hold because the users don't have cloud-based mailboxes. (For more, see [How Exchange and Microsoft Teams interact](exchange-teams-interact.md).)
 
 
 |기능  | 최대 한도  |
@@ -77,9 +77,9 @@ Teams의 채팅 목록의 일부인 대화에 참여하는 사용자는 관리�
 |첨부 파일 수<sup>3</sup>  |10     |
 |채팅 크기 | 게시물당 약 28KB<sup>4</sup> |
 
-<sup>1</sup>채팅에 20명 이상의 사용자가 있는 경우 다음과 같은 채팅 기능이 꺼집니다. Outlook 자동 회신 및 Teams 상태 메시지, 입력 표시기, 비디오 및 오디오 통화, 공유, 읽음 확인. 개인 그룹 채팅에 20명 이상의 구성원이 포함 된 경우에도 "배달 옵션 설정" 단추 (!)가 제거 됩니다.
+<sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts. The "Set Delivery Options" button (!) is also removed when private group chats contain more than 20 members.
 
-<sup>2</sup> 한 번에 200명의 구성원만 그룹 채팅에 추가할 수 있습니다. [추가 정보는 아래 게시물을 참조하세요.](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat)
+<sup>2</sup> Only 200 members at a time can be added to a group chat. [See this article for more information](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
 
 <sup>3</sup> 첨부 파일 수가 이 제한을 초과하는 경우 오류 메시지가 표시됩니다.
 
@@ -87,7 +87,7 @@ Teams의 채팅 목록의 일부인 대화에 참여하는 사용자는 관리�
 
 ### <a name="emailing-a-channel"></a>채널 전자 메일 보내기 
 
- 사용자가 Teams의 채널에 전자 메일을 보내려면 채널 전자 메일 주소를 사용합니다. 전자 메일이 채널의 일부인 경우 누구나 답장을 보내 대화를 시작할 수 있습니다. 다음은 채널에 전자 메일을 보낼 때 적용되는 몇 가지 제한 사항입니다.
+ If users want to send an email to a channel in Teams, they use the channel email address. When an email is part of a channel, anyone can reply to it to start a conversation. Here are some of the applicable limits for sending email to a channel.
 
 |기능  | 최대 한도  |
 |---------|---------|
@@ -105,7 +105,7 @@ Teams의 채팅 목록의 일부인 대화에 참여하는 사용자는 관리�
 자세한 내용은 [Exchange Online 제한](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)을 참조하세요.
 
 > [!NOTE]
-> 모든 Microsoft 365 및 Office 365 라이선스 간에 메시지 크기, 첨부 파일 및 인라인 이미지 제한이 동일합니다. Teams에서 Office GCC/GCCH/DOD 조직에 대해 전자 메일로 채널을 보내기는 사용할 수 없습니다.
+> Message size, file attachments, and inline images limits are the same across all Microsoft 365 and Office 365 licenses. Emailing a channel is not available in Teams for Office GCC/GCCH/DOD organizations.
 
 ## <a name="channel-names"></a>채널 이름
 
@@ -139,7 +139,7 @@ Teams의 채팅 목록의 일부인 대화에 참여하는 사용자는 관리�
 ### <a name="meeting-expiration"></a>모임 만료
 
 > [!NOTE]
-> 모임 URL 작동이 중지되지 않습니다. 만료는 PSTN 전화 접속 번호, CVI 좌표 및/또는 기본 회의 정책 및 설정과만 관련이 있습니다.
+> A meeting URL will never stop working. The expiry only relates to any PSTN dial-in numbers, CVI coordinates, and/or underlying meeting policies and settings.
 
 |모임 유형  |이만큼 시간이 지나면 모임이 만료됩니다.  |모임을 시작하거나 업데이트할 때마다 만료 시간이 이 시간만큼 연장됩니다.  |
 |---------|---------|---------|
@@ -160,9 +160,9 @@ Teams의 채팅 목록의 일부인 대화에 참여하는 사용자는 관리�
 |이벤트 기간 | 4시간 |
 |Microsoft 365 또는 Office 365 조직에서 실행되는 동시 발생 라이브 이벤트 <sup>1</sup> | 15 |
 
-<sup>1</sup> 여러 라이브 이벤트를 원하는 대로 예약할 수 있지만, 한 번에 15개만 실행할 수 있습니다. 프로듀서가 라이브 이벤트에 참가하는 즉시 실행 중인 것으로 간주합니다. 16번째 라이브 이벤트에 참가하려고 시도하는 프로듀서는 오류 메시지를 받게 됩니다.
+<sup>1</sup> You can schedule as many Live Events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
 
-라이브 이벤트 및 Teams 라이브 이벤트와 Skype 모임 브로드캐스트 비교에 대한 자세한 내용은 [Teams 라이브 이벤트 및 Skype 모임 브로드캐스트](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast)를 참조하세요. 또한 [Teams 라이브 이벤트 예약](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)을 참조하세요.
+라이브 이벤트에 대한 자세한 내용은 [Teams 라이브 이벤트](teams-live-events/plan-for-teams-live-events.md#teams-live-events)로 이동하세요. [Teams 라이브 이벤트 예약](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)을 참조하세요.
 
 > [!IMPORTANT]
 > **Microsoft 365 라이브 이벤트 한도 증가**
@@ -173,24 +173,24 @@ Teams의 채팅 목록의 일부인 대화에 참여하는 사용자는 관리�
 >- 한 테넌트에 걸쳐 동시에 50개의 이벤트가 호스트될 수 있습니다.
 >- 브로드캐스트당 16시간의 이벤트 시간
 >
-> 또한 최대 100,000 참석자가 포함된 라이브 이벤트는 Microsoft 365 지원 프로그램을 통해 계획될 수 있습니다. 팀에서 각 요청을 평가하고 사용자와 작업을 수행하여 사용 가능한 옵션을 결정합니다. [자세한 정보](https://aka.ms/Stream/Blog/LiveEventOptions).
+> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions).
 
 ## <a name="presence-in-outlook"></a>Outlook에서의 현재 상태
 
-Outlook에서의 Teams 현재 상태는 Outlook 2013 데스크톱 앱 이상에서 지원됩니다. Teams의 현재 상태에 대해 자세히 알아보려면 [Teams에서 사용자 현재 상태](presence-admins.md)를 참조하세요..
+Teams presence in Outlook is supported on the Outlook 2013 desktop app and later. To learn more about presence in Teams, see [User presence in Teams](presence-admins.md).
 
 ## <a name="storage"></a>저장소
 
-Microsoft Teams의 각 팀은 SharePoint Online에 팀 사이트가 있으며, 팀의 각 채널은 기본 팀 사이트 문서 라이브러리 내에 폴더가 있습니다. 대화 내에서 공유된 파일은 문서 라이브러리에 자동으로 추가되고, SharePoint에서 설정된 사용 권한 및 파일 보안 옵션은 Teams 내에서 자동으로 반영됩니다.
+Each team in Microsoft Teams has a team site in SharePoint Online, and each channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams.
 
 > [!NOTE]
 > 각 [개인 채널](./private-channels.md)에는 고유한 SharePoint 사이트 모음(이전에 “사이트 모음”이라 불림)이 있습니다.
 
-테넌트에서 SharePoint Online을 사용하도록 설정하지 않은 경우, Microsoft Teams 사용자는 팀에서 파일을 항상 공유할 수 없습니다. 비즈니스용 OneDrive(SharePoint 라이선스에 연결됨)가 해당 기능에 필요하므로 개인 채팅 사용자도 파일을 공유할 수 없습니다.
+If you don't have SharePoint Online enabled in your tenant, Microsoft Teams users cannot always share files in teams. Users in private chat also cannot share files because OneDrive for Business (which is tied to the SharePoint license) is required for that functionality.
 
-SharePoint Online 문서 라이브러리와 비즈니스용 OneDrive에 파일을 저장하면, 테넌트 수준에서 구성된 모든 규정 준수 규칙을 따릅니다. (자세한 내용은 [SharePoint Online 및 비즈니스용 OneDrive가 Microsoft Teams와 상호 작용하는 방법](sharepoint-onedrive-interact.md)을 참조하세요.) 
+By storing the files in the SharePoint Online document library and OneDrive for Business, all compliance rules configured at the tenant level will be followed. (For more, see [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).)
 
-Teams는 파일 공유를 위해 SharePoint Online 백 엔드에서 실행되므로 SharePoint 제한 사항은 Teams 내의 파일 섹션에 적용됩니다. 다음은 SharePoint Online에 적용되는 저장소 용량 한도입니다.
+Because Teams runs on a SharePoint Online backend for file sharing, SharePoint limitations apply to the Files section within a Team. Here are the applicable storage limits for SharePoint Online.
 
 |기능                 |Microsoft 365 Business Basic  |Microsoft 365 Business Standard   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
@@ -204,7 +204,7 @@ Teams는 파일 공유를 위해 SharePoint Online 백 엔드에서 실행되므
 
 ## <a name="class-teams"></a>수업 팀
 
-교육용 Microsoft Teams는 교실 수업과 같은 고유한 교육 시나리오를 위해 설계된 템플릿을 제공합니다. 수업 팀을 포함한 팀 유형에 대한 자세한 내용은 [Microsoft Teams에서 공동 작업할 팀 유형 선택](https://support.microsoft.com/office/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)에서 확인할 수 있습니다.
+Microsoft Teams for Education provides templates designed for unique education scenarios, such as classroom teaching. More information about team types, including class teams, is available in [Choose a team type to collaborate in Microsoft Teams](https://support.microsoft.com/office/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67).
 
 한 개의 수업 팀은 추가 앱이 포함된 템플릿 유형이며, 팀 구성원의 수에 제한이 있습니다.
 
@@ -219,7 +219,7 @@ Teams는 파일 공유를 위해 SharePoint Online 백 엔드에서 실행되므
 |수업 팀에서 할당을 사용할 구성원 수    | 300        |
 |수업 팀에서 OneNote 클래스 노트북을 사용할 구성원 수     |300         |
 
-한 개의 수업 팀은 300명 이상의 구성원을 지원할 수 있습니다. 그러나 팀 내에서 과제 앱 또는 수업용 전자 필기장 앱을 사용하려는 경우, 구성원 수를 위의 최대 한도 이하로 유지해야 합니다.
+A class team can support more than 300 members. However, if you plan to use either the Assignments app or Class Notebook app within your team, you will need to keep the number of members below the maximum limits above.
 
 ## <a name="tags"></a>태그
 

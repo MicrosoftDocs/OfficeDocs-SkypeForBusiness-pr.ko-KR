@@ -7,7 +7,6 @@ ms.date: 03/20/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dstrome
 description: 사용자 환경에 대해 사용자가 Microsoft Teams를 사용하는 방법을 확인하고 피드백을 수집하는 데 사용할 수 있는 보고서 옵션에 대해 알아보세요.
 ms.localizationpriority: high
 search.appverid: MET150
@@ -18,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 396751e46c05d932a6493c2d3a3632ff0c378c75
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: 0ec00140d2d41f4529b69da7f593fd9f0a2860ca
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045907"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68481160"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Microsoft Teams에서 사용 현황 및 피드백 모니터링
 사용자가 Teams를 사용하는 방법과 Teams와 함께 어떤 환경이 진행되고 있는지 알아야 합니다. 사용 현황 보고서는 사용 현황 패턴을 보다 잘 이해할 수 있도록 도와주고 사용자 피드백을 반영하여 더 광범위한 배포와 교육 및 통신 노력을 어디에 우선시해야 하는지에 대한 정보를 제공합니다.

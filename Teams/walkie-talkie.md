@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: ITAdmin 관점에서 Microsoft Teams에서 Walkie Talkie 앱을 구성하는 방법입니다.
+description: IT 관리자 관점에서 Microsoft Teams에서 Walkie Talkie 앱을 구성하는 방법입니다.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -15,16 +15,17 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e309fa03e73dc13bff8bd1a90708c688bb0f5350
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: cbce17ad584fdd4910f11129d2b246e4644e1583
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67465996"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377306"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams의 Walkie Talkie 앱
 
@@ -35,9 +36,16 @@ Teams에서 Walkie Talkie를 사용하면 일선 작업자가 부피가 큰 라�
 > [!NOTE]
 > 워키 토키는 현재 중국에서 사용할 수 없습니다.
 
+## <a name="license-requirements"></a>라이선스 요구 사항
+
+Walkie Talkie는 [Microsoft 365 및 Office 365 구독](/office365/servicedescriptions/teams-service-description)에 있는 Teams의 모든 유료 라이선스에 포함되어 있습니다. Teams를 가져오는 방법에 대한 자세한 내용은 [Microsoft Teams에 대한 액세스 어떻게 할까요?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b) 확인하세요.
+
 ## <a name="deploying-walkie-talkie"></a>워키 토키 배포
 
 Walkie Talkie는 GMS(Google Mobile Services) 및 iOS 디바이스를 사용하는 Android 디바이스에서 지원됩니다.
+
+> [!NOTE]
+> 사용자가 Bluetooth 액세서리를 사용하는 경우 MDM(모바일 디바이스 관리) 솔루션이 Bluetooth 디바이스를 차단하지 않는지 확인합니다.
 
 ### <a name="enable-or-disable-walkie-talkie-in-your-organization"></a>조직에서 Walkie Talkie 사용 또는 사용 안 함
 
@@ -113,10 +121,6 @@ Teams의 워키 토키에는 인터넷 연결이 필요합니다. 최적의 환�
 
 > [!NOTE]
 > 이러한 디바이스는 Teams 인증되지 않았습니다. Teams 워키 토키와 함께 작업할 수 있는지 확인되었습니다.
-
-## <a name="license-requirements"></a>라이선스 요구 사항
-
-Walkie Talkie 앱은 [Office 365 구독](/office365/servicedescriptions/teams-service-description)에 있는 Teams의 모든 유료 라이선스에 포함되어 있습니다. Teams를 가져오는 방법에 대한 자세한 내용은 [Microsoft Teams에 대한 액세스 어떻게 할까요?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b) 확인하세요.
 
 ## <a name="more-information"></a>추가 정보
 

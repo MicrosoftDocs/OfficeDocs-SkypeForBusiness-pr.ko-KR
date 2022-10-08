@@ -17,17 +17,18 @@ ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
 - m365-frontline
+- highpri
 appliesto:
 - Microsoft Teams
 ms.reviewer: yinchang
 description: Teams 관리 센터와 Microsoft Graph에서 의료 팀 템플릿을 관리하고 사용하여 의료 조직을 위한 팀을 빠르고 쉽게 만드는 방법을 알아보세요.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4f3aa9d42ef86dde75acf8cbd559b6e50059a428
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: bdbb3e52f471e735b1b6c96a1502880c030ed89d
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396919"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046488"
 ---
 # <a name="use-healthcare-team-templates"></a>팀 의료 서식 파일 사용
 
@@ -41,7 +42,7 @@ Teams에는 의료 기관을 위해 특별히 설계된 템플릿이 포함되�
 
 |다음과 같은 경우: | 그렇다면 귀하는: |
 | ---- | --------- |
-| 관리자 또는 IT 전문가 |[Teams 관리자 센터에서 팀 템플릿을 관리합니다](#manage-team-templates-in-the-teams-admin-center). 팀 템플릿을 보고 템플릿 정책을 적용하여 직원이 팀을 만들기 위해 Teams에서 사용할 수 있는 템플릿을 제어합니다. |
+| 관리자 또는 IT 전문가 |[Manage team templates in the Teams admin center](#manage-team-templates-in-the-teams-admin-center). View team templates and apply templates policies to control which templates your staff can use in Teams for creating teams. |
 | 개발자 | [Microsoft Graph를 사용](#use-team-templates-with-microsoft-graph)하여 팀 템플릿에서 팀을 만듭니다. |
 
 ## <a name="manage-team-templates-in-the-teams-admin-center"></a>Teams 관리 센터에서 팀 템플릿 관리
@@ -73,7 +74,7 @@ Teams에는 의료 기관을 위해 특별히 설계된 템플릿이 포함되�
 &sup1;앱이 탭으로 채널에 추가되었습니다.
 ## <a name="use-team-templates-with-microsoft-graph"></a>Microsoft Graph에서 팀 템플릿 사용
 
-개발자는 Microsoft Graph를 사용해 미리 작성된 팀 템플릿을 사용해 팀을 만들 수 있습니다. Microsoft Graph에서 팀 템플릿을 사용하는 방법에 관한 자세한 내용은 [Microsoft Graph를 사용하여 팀 템플릿 시작하기](../../get-started-with-teams-templates.md), [Microsoft Teams API 개요](/graph/teams-concept-overview) 및 [teamsTemplate 리소스 유형](/graph/api/resources/teamstemplate)을 참조하세요.
+Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview), and [teamsTemplate resource type](/graph/api/resources/teamstemplate).
 
 다음은 미리 빌드된 의료 팀 템플릿입니다.
 ### <a name="ward"></a>병동

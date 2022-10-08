@@ -19,14 +19,16 @@ ms.custom:
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
+- tier3
+- purview-compliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b23430398e213c7df9fcd72ccb9d32f88ee1ed1f
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 659692af6a1236510d5b4572e66cbd299aa92c41
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418487"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046498"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>통화 & 모임에 대한 Teams 정책 기반 녹음/녹화 소개
 
@@ -138,7 +140,7 @@ Azure 및 Windows VM 요구 사항은 Teams 봇 구성 요소에만 적용됩니
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>규정 준수 기록 정책 할당 및 프로비전
 
-IT 관리자는 규정 준수 기록 정책을 만들고 할당하여 기록할 사용자와 각 사용자에 사용할 레코더를 결정할 수 있습니다. 레코더는 통신 상호 작용이 발생할 때 이러한 정책의 구성에 따라 대화에 참여하도록 자동으로 초대됩니다. 규정 준수 기록 정책은 [Microsoft PowerShell](./teams-powershell-overview.md) 을 사용하여 관리되며 각 조직의 테넌트, 사용자별 및 보안 그룹 수준에서 적용할 수 있습니다. [모임 정책](./meeting-policies-overview.md), [통화](./teams-calling-policy.md) 정책 및 [그룹](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group) 정책에 대한 Microsoft Docs 대한 자세한 내용을 확인할 수 있습니다.
+IT 관리자는 규정 준수 기록 정책을 만들고 할당하여 기록할 사용자와 각 사용자에 사용할 레코더를 결정할 수 있습니다. 레코더는 통신 상호 작용이 발생할 때 이러한 정책의 구성에 따라 대화에 참여하도록 자동으로 초대됩니다. 규정 준수 기록 정책은 [Microsoft PowerShell](./teams-powershell-overview.md) 을 사용하여 관리되며 각 조직의 테넌트, 사용자별 및 보안 그룹 수준에서 적용할 수 있습니다. [모임 정책](./meeting-policies-overview.md), [통화](./teams-calling-policy.md) 정책 및 [그룹](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group) 정책에 대한 Microsoft Learn에 대한 자세한 내용을 확인할 수 있습니다.
 
 1. 테넌트에 애플리케이션 인스턴스를 만듭니다.
 

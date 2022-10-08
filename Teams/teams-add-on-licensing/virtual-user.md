@@ -1,7 +1,7 @@
 ---
 title: 리소스 계정 라이선스 Microsoft Teams 전화
-ms.author: dstrome
-author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: reference
@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - admindeeplinkMAC
 description: 조직의 자동 전화 교환 및 통화 큐에 대한 리소스 계정에 Microsoft Teams 전화 리소스 계정 라이선스를 할당하는 방법을 알아봅니다.
-ms.openlocfilehash: 56b461c2de32f32dd51d72c5468e31f51b107310
-ms.sourcegitcommit: 09b77e83bc41914007606468e322d4ea47e2e8a4
+ms.openlocfilehash: bba516249ec1b30e0361e2f9a6be003343f9c892
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "67630428"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377366"
 ---
 # <a name="microsoft-teams-phone-resource-account-licenses"></a>리소스 계정 라이선스 Microsoft Teams 전화
 

@@ -22,15 +22,16 @@ ms.collection:
 - microsoftcloud-retail
 - m365initiative-lists
 - m365-frontline
+- highpri
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 39d44feb46fa20cb27755792e7f2236ed16b051f
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 9ea4e8cb49166c116d69c12d795659b55c93c556
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396279"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047048"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 Lists 앱 관리
 
@@ -84,7 +85,7 @@ SharePoint에서 설정된 사용 권한은 Lists 앱에서 만든 목록에 적
 
 Lists를 통해 사용자는 데스크톱, 웹 및 모바일 환경을 사용할 수 있습니다. Teams 모바일 클라이언트의 목록을 사용하여 새 목록을 만들거나 기존 목록을 고정할 수 없습니다. Teams 모바일 클라이언트에서 목록을 보거나 편집하려면 먼저 Teams 데스크톱 또는 웹 클라이언트의 Lists를 사용하여 목록을 만들거나 추가해야 합니다.
 
-게스트는 목록을 만들거나 삭제할 수 없습니다. 기존 목록에 목록 항목을 추가하고, 목록 항목에 대한 새 대화를 시작하고, 목록 항목에 대한 기존 대화에 회신할 수 있습니다.
+Guests can't create or delete a list. They can add list items to existing lists, start new conversations about list items, and reply to existing conversations about list items.
 
 ### <a name="lists-and-the-sharepoint-app"></a>Lists 앱 및 SharePoint 앱
 

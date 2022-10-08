@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams에서 라이브 이벤트 설정 구성
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.date: 03/11/2019
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ac5bf29fbbe61b2e2224aeccb2082e31742816b
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: f526a3404d9077ecd97d877a914975218640028c
+ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794166"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68486568"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Microsoft Teams에서 라이브 이벤트 설정 구성
 
@@ -101,7 +101,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 > 외부 앱 또는 디바이스를 사용하여 라이브 이벤트를 만들려는 경우 [Microsoft Stream 사용하여 eCDN 공급자를 구성](/stream/network-caching)해야 합니다. 
 
 >[!Note]
-> Microsoft Stream의 사용에서 [모임 녹음/녹화를 위해 비즈니스용 OneDrive 및 SharePoint](../tmr-meeting-recording-change.md)로의 변경은 단계별 접근 방식을 사용합니다. 출시하면 이 환경에 대해 옵트인할 수 있고 11월에는 Stream을 계속 사용하려는 경우, 옵트아웃해야 합니다. 2021년 초에는 모든 고객이 모임 녹음/녹화를 위해 비즈니스용 OneDrive와 SharePoint를 사용해야 합니다.
+> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
 
 >[!Note]
 > 선택한 eCDN 솔루션은 선택한 타사 공급자의 서비스 약관 및 개인 정보 취급 방침의 적용을 받으며, 이 정책은 eCDN 공급자의 솔루션 사용을 제어합니다. eCDN 공급자 솔루션의 사용은 Microsoft 볼륨 라이선스 조건 또는 온라인 서비스 약관의 적용을 받지 않습니다. 타사 공급자의 약관에 동의하지 않는 경우 Microsoft Teams에서 eCDN 솔루션을 사용하도록 설정하지 마세요.

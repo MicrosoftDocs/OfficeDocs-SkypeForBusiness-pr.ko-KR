@@ -1,7 +1,7 @@
 ---
 title: 네트워크 설정 구성 - 위치 기반 라우팅
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.topic: article
 ms.reviewer: roykuntz
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 75aa7b4968ca2a549c35edbccdf6d87bd7df3106
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 9a7c02a7299029ec267011f962880884d1d9f4d7
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562617"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999333"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>위치 기반 라우팅의 네트워크 설정 구성
 
@@ -56,6 +56,6 @@ Location-Based 라우팅의 경우 Teams 엔드포인트가 네트워크에 연�
 
 [직접 라우팅에 Location-Based 라우팅 사용으로](location-based-routing-enable.md) 이동합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [Teams의 클라우드 음성 기능에 대한 네트워크 설정](cloud-voice-network-settings.md)

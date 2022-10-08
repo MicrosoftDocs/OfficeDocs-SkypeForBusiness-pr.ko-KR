@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 참가자 및 게스트에 대한 Teams에서 모임 정책 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 46db9b7f5a1fae40d3f46bad156e318a3e677d07
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 5b489f312dd1fd1fcd9bdb6a301a65e76ab9ed91
+ms.sourcegitcommit: 9522d951700d19ab13c60a6452b3a8a4c824ee36
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706625"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "68018094"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>모임 정책 설정 - 참가자 및 게스트
 
@@ -62,7 +62,7 @@ ms.locfileid: "67706625"
  모임 이끌이는 모임 초대에서 **모임 옵션을** 클릭하여 예약하는 각 모임에 대해 이 설정을 변경할 수 있습니다.
 
 > [!NOTE]
-> 모임 옵션에서 설정에는 "대기실을 무시할 수 있는 사용자"라는 레이블이 지정됩니다. 아무 사용자에 대해서든 기본 설정을 변경하는 경우 해당 사용자가 이끄는 모든 새 모임 및 사용자가 모임 옵션을 수정하지 않은 이전 모임에 변경된 설정이 적용됩니다.
+> In the meeting options the setting is labeled "Who can bypass the lobby". If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
   
 |설정값  |참가 동작 |
 |---------|---------|
@@ -91,7 +91,7 @@ ms.locfileid: "67706625"
 
 |설정값 |동작  |
 |---------|---------|
-|**사용하지 않도록 설정되었지만 사용자 재정의 가능**     | 라이브 캡션 기능은 모임 중인 사용자에 대해 자동으로 설정되어 있지 않습니다. 사용자가 기능을 켜도록 넘침 단추(**...**) 메뉴에서 **라이브 캡션 켜기** 옵션이 보입니다. 기본 설정입니다. |
+|**사용하도록 설정되지 않았지만 사용자가 재정의할 수 있음**     | 라이브 캡션 기능은 모임 중인 사용자에 대해 자동으로 설정되어 있지 않습니다. 사용자가 기능을 켜도록 넘침 단추(**...**) 메뉴에서 **라이브 캡션 켜기** 옵션이 보입니다. 기본 설정입니다. |
 |**사용 안 함**     | 라이브 캡션 기능이 모임 중인 사용자에 대해 비활성화되었습니다. 사용자에게 이 기능을 켜는 옵션이 없습니다.          |
 
 <a name="bkcontentsharing"> </a>

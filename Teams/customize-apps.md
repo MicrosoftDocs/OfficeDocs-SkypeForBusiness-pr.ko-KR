@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
+ms.date: 09/20/2022
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 조직에서 더 나은 채택을 위해 앱의 메타데이터 및 모양을 변경하여 브랜드를 변경하는 방법을 알아봅니다.
-ms.openlocfilehash: 6903d6bcd190869046c6f2e1a134c43cde3a1f07
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 7e2fe4545858980e3fc9d9784aea7b44256d52db
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837698"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377476"
 ---
 # <a name="use-app-customization-to-update-branding-of-apps-in-your-organizations-teams-store"></a>앱 사용자 지정을 사용하여 조직의 Teams 스토어에서 앱 브랜딩 업데이트
 

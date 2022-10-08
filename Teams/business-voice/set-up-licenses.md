@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 전화 및 통화 플랜 패키지 번들 라이선스 할당
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ appliesto:
 ms.collection:
 - M365-voice
 - M365initiative-voice
-ms.openlocfilehash: 952ea1c952a0877e81a654c299e064ba001da07d
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 8acf4064f294c4fa28a48413a270f0814e0e3ccb
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269243"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68481104"
 ---
 # <a name="step-3-assign-teams-phone-with-calling-plan-bundle-licenses"></a>3단계: 통화 플랜 번들 라이선스를 사용하여 Teams Phone 할당
 

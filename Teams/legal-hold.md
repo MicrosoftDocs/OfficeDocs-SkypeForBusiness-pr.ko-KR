@@ -1,5 +1,6 @@
 ---
 title: Microsoft Teams 사용자 또는 팀을 법적 보류 상태로 유지
+description: Microsoft Purview 규정 준수 포털 사용하여 Microsoft Teams 사용자 또는 팀을 법적 보존에 배치하고 데이터 요구 사항에 따라 법적 보존이 필요한 사항을 알아보는 방법을 알아봅니다.
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,20 +8,22 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
+- tier1
+- purview-compliance
 - M365-collaboration
+- ediscovery
 ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Microsoft Purview 규정 준수 포털 사용하여 Microsoft Teams 사용자 또는 팀을 법적 보존에 배치하고 데이터 요구 사항에 따라 법적 보존이 필요한 사항을 알아보는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2dc99518aa3580311c48966105ccc4b4ba6cf518
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: 78dcc82c6a02cc702527f2653da131bdb52c8775
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808759"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047068"
 ---
 # <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Microsoft Teams 사용자 또는 팀을 법적 보류 상태로 유지
 
