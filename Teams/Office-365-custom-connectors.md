@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 및 사용자 지정 커넥터 관리
+title: Microsoft 365 커넥터 및 사용자 지정 커넥터 관리
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -7,25 +7,26 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
+ms.date: 09/01/2022
 ms.collection:
 - M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 커넥터가 콘텐츠와 업데이트를 사용하는 서비스의 Teams 채널에 직접 자주 제공하여 팀을 최신 상태로 유지하는 방법을 알아보세요.
+description: 사용하는 서비스에 대한 Teams 채널에 콘텐츠 및 업데이트를 직접 자주 제공하여 커넥터가 팀을 업데이트하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5e61a6705f470ee93c7169effdd56f35ca0dd6f4
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: fb65e7c91aa7ac0de7c8dade3a442f457d72657f
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837358"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377006"
 ---
-# <a name="manage-microsoft-365-and-custom-connectors"></a>Microsoft 365 및 사용자 지정 커넥터 관리
+# <a name="manage-microsoft-365-connectors-and-custom-connectors"></a>Microsoft 365 커넥터 및 사용자 지정 커넥터 관리
 
 팀을 최신 상태로 유지하기 위해 커넥터는 자주 사용하는 콘텐츠 및 서비스 업데이트를 Teams 채널에 직접 제공합니다. 커넥터를 사용하여 Teams 사용자는 Trello, Wunderlist, GitHub 및 Azure DevOps Services와 같은 인기 있는 서비스에서 업데이트를 받을 수 있습니다. 업데이트는 팀의 채팅 스트림에 직접 게시됩니다.
 

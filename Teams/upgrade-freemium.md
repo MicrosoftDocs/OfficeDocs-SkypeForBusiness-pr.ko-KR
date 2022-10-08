@@ -1,7 +1,7 @@
 ---
 title: 구독으로 무료 Microsoft Teams(클래식) 업그레이드
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 123cb6343886f269a847d431b87f154855086d9b
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: de9862f9c6d5fff84e7fa6e763f0dee219a8c183
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615744"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377346"
 ---
 # <a name="upgrade-microsoft-teams-free-classic-to-subscription-version"></a>구독 버전으로 무료 Microsoft Teams(클래식) 업그레이드
 
@@ -55,7 +55,7 @@ Microsoft 365 또는 Office 365 구독에 포함된 Teams의 전체 버전은 Te
 - 사용자당 스토리지 1TB
 - 예약된 모임
 - 오디오 회의
-- 다단계 인증, Single Sign-On 및 감사(프리미엄)ing 및 보고를 비롯한 향상된 보안 및 규정 준수 기능
+- 다단계 인증, Single Sign-On, 감사(프리미엄) 및 보고를 비롯한 향상된 보안 및 규정 준수 기능
 - 24 x 7 전화 및 웹 지원, 사용자 및 앱을 관리하기 위한 관리 도구, Microsoft 365 또는 Office 365 서비스에 대한 사용 현황 보고, 서비스 수준 계약 및 구성 가능한 사용자 설정 및 정책을 포함한 관리 제어 및 지원 기능
 
 Teams 무료(클래식) 및 Teams 기능에 대한 자세한 비교는 [Teams 계획 비교를 참조하세요](https://products.office.com/microsoft-teams/free).

@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc250b0506614ef658ade9a491c5561a65b98800
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 976c73aebe698152c4824e3eaedfcc19a13ae525
+ms.sourcegitcommit: 1be178dc3b34575e1914e629f004f897c02e0097
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269673"
+ms.lasthandoff: 09/28/2022
+ms.locfileid: "68138491"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>직접 라우팅을 위한 SBA(Survivable Branch Appliance)
 
@@ -208,6 +208,8 @@ SBA 애플리케이션의 경우 다음 사항에 유의하세요.
 SBC 공급업체의 지원 조직에 문제를 보고합니다. 문제를 보고할 때 Survivable Branch Appliance가 구성되어 있음을 나타냅니다.
 
 ## <a name="known-issues"></a>알려진 문제
+
+- SBA는 24시간 동안 유효하고 매일 갱신되는 인증 토큰을 사용하므로 현재 SBA는 마지막 인증으로부터 최대 24시간 동안 중단을 지원할 수 있습니다. 즉, 마지막 인증 토큰 갱신 후 20시간 후에 중단이 발생하면 나머지 4시간 동안만 SBA가 작동합니다.
 
 - 새 Survivable Branch Appliance를 추가하는 경우 Survivable Branch Appliance 정책에서 사용하기까지 다소 시간이 걸릴 수 있습니다.
 

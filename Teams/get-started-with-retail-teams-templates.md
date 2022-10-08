@@ -10,6 +10,7 @@ ms.reviewer: yinchang
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 ms.localizationpriority: high
 search.appverid: MET150
 description: Teams 관리 센터와 Microsoft Graph에서 소매 팀 템플릿을 관리하고 사용하여 소매 조직을 위한 팀을 빠르고 쉽게 만드는 방법을 알아보세요.
@@ -20,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8c6af4cc86051c9233e06d0bf6c67abe1a4ad39
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 69644ce0261d37fb6a7a5e4270a68fb2a79a7d19
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837338"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046918"
 ---
 # <a name="use-retail-team-templates"></a>소매 팀 템플릿 사용
 
@@ -41,7 +42,7 @@ Teams에는 소매점 요구 사항에 맞게 특별히 설계된 템플릿이 �
 
 |다음과 같은 경우: | 그렇다면 귀하는: |
 | ---- | --------- |
-| 관리자 또는 IT 전문가 |[Teams 관리자 센터에서 팀 템플릿을 관리합니다](#manage-team-templates-in-the-teams-admin-center). 팀 템플릿을 보고 템플릿 정책을 적용하여 직원이 팀을 만들기 위해 Teams에서 사용할 수 있는 템플릿을 제어합니다. |
+| 관리자 또는 IT 전문가 |[Manage team templates in the Teams admin center](#manage-team-templates-in-the-teams-admin-center). View team templates and apply templates policies to control which templates your staff can use in Teams for creating teams. |
 | 개발자 | [Microsoft Graph를 사용](#use-team-templates-with-microsoft-graph)하여 팀 템플릿에서 팀을 만듭니다. |
 
 ## <a name="manage-team-templates-in-the-teams-admin-center"></a>Teams 관리 센터에서 팀 템플릿 관리
@@ -77,7 +78,7 @@ Teams에는 소매점 요구 사항에 맞게 특별히 설계된 템플릿이 �
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>Microsoft Graph에서 팀 템플릿 사용
 
-개발자는 Microsoft Graph를 사용해 미리 작성된 팀 템플릿을 사용해 팀을 만들 수 있습니다. Microsoft Graph에서 팀 템플릿을 사용하는 방법에 관한 자세한 내용은 [Microsoft Graph를 사용하여 팀 템플릿 시작하기](get-started-with-teams-templates.md), [Microsoft Teams API 개요](/graph/teams-concept-overview?view=graph-rest-1.0) 및 [teamsTemplate 리소스 유형](/graph/api/resources/teamstemplate?view=graph-rest-1.0)을 참조하세요.
+Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0), and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
 
 다음은 미리 빌드된 소매 팀 템플릿입니다.
 

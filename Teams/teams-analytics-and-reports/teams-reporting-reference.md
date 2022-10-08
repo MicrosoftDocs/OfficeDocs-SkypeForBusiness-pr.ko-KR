@@ -18,12 +18,12 @@ description: 이 문서에서는 Microsoft Teams 관리 센터에서 사용할 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd6be2023745390a0f1225224e6ebbe9bcbde1dc
-ms.sourcegitcommit: e6f3e1e499ed1298b3e6f7a1b53f6cb8ba73c9b1
+ms.openlocfilehash: b08e62a7ddee8298ff38846d8d254d10d3d6f681
+ms.sourcegitcommit: b2692b3f6c60d8df5ba0677c68ff9c90a75a0d72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "66906963"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68033836"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 분석 및 보고
 
@@ -40,28 +40,29 @@ Microsoft Teams 관리 센터로 이동하여 왼쪽 탐색 영역에서 **분�
 
 ## <a name="teams-reporting-reference"></a>Teams 보고 참조
 
-다음은 Microsoft Teams 관리 센터에서 사용할 수 있는 Teams 보고서 목록과 각 보고서에서 사용할 수 있는 일부 정보의 개요입니다.
+다음은 다양한 환경의 Microsoft Teams 관리 센터에서 사용할 수 있는 Teams 보고서 목록과 각 보고서에서 사용할 수 있는 일부 정보의 개요입니다.
 
 Teams 보고 환경을 지속적으로 개선하고 기능과 기능을 추가하고 있습니다. 시간이 지남에 따라 보고서에 추가 기능을 구축하고 Microsoft Teams 관리 센터에서 새 보고서를 추가할 예정입니다.
 
-|보고서  |무엇을 측정합니까? |
-|---------|---------|
-|[Teams 사용 현황 보고서](teams-usage-report.md)  |  활성 사용자<br/>팀 및 채널의 활성 사용자<br/>활성 채널<br/>메시지<br/>팀의 개인 정보 설정<br/>팀의 게스트   |
-|[Teams 사용자 작업 보고서](user-activity-report.md)  | 사용자가 팀 채팅에 게시한 메시지<br/>사용자가 개인 채팅에 게시한 메시지<br/>  1:1 사용자가 참가한 호출<br/> 구성된 모임 사용자 수 <br/>사용자가 참가한 모임 수<br/>모임 오디오, 비디오 및 화면 공유 시간<br/>   사용자의 마지막 활동 날짜     |
-|[Teams 장치 사용 현황 보고서](device-usage-report.md)   |  Windows 사용자<br/>Mac 사용자<br/>iOS 사용자<br/>Android 휴대폰 사용자     |
-|[Teams 라이브 이벤트 사용 현황 보고서](teams-live-event-usage-report.md)   |  총 보기<br>시작 시간<br>이벤트 상태<br>이끌이<br>발표자<br>프로듀서<br>녹음/녹화 설정<br>프로덕션 유형    |
-|[Teams PSTN 차단 사용자 보고서](pstn-blocked-users-report.md)   |  표시 이름<br>전화 번호<br>이유<br>작업 유형<br>작업 날짜 및 시간   |
-|[Teams PSTN 분 풀 보고서](pstn-minute-pools-report.md) |  국가 또는 지역<br>기능(라이선스) <br>총 시간(분)<br>사용된 시간(분)<br>사용 가능한 시간(분)|
-|[Teams PSTN 사용 현황 보고서 - 통화 플랜](pstn-usage-report.md#calling-plans)|  타임스탬프를<br>사용자 이름<br>전화 번호<br>호출 유형 <br>다음으로 호출<br>국가 또는 지역으로 <br>에서 호출 <br>국가 또는 지역에서<br>충전<br>통화<br>기간<br>국내/국제<br>통화 ID<br>숫자 형식<br>국가 또는 지역<br>회의 ID<br>기능(라이선스)|
-|[Teams PSTN 사용 현황 보고서 - 직접 라우팅](pstn-usage-report.md#direct-routing)  |  타임스탬프를<br>표시 이름<br>SIP 주소<br>전화 번호 <br>호출 유형<br>다음으로 호출<br>시작 시간<br>초대 시간<br>실패 시간<br>종료 시간<br>기간<br>숫자 형식<br>미디어 바이패스<br>SBC FQDN<br>Azure 지역<br>이벤트 유형<br>최종 SIP 코드<br>최종 Microsoft 하위 코드<br>최종 SIP 구<br>상관 관계 ID  |
-|[Teams 정보 보호 라이선스 보고서](information-protection-license-report.md)  | <br>사용자에게 변경 알림을 통해 메시지를 푸시할 수 있는 유효한 라이선스가 있는지 여부</br><br>사용자가 트리거한 총 변경 알림 이벤트 수<br><br>조직 전체 변경 알림 이벤트를 수신 대기하는 앱<br>|
-|[Teams 가상 방문 사용 현황 보고서](/microsoft-365/frontline/virtual-visits-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)  | 가상 약속 수<br>예약 예약 수<br>EHR(Teams 전자 건강 기록) 통합 약속 수<br>약속의 평균 기간<br>참석자의 평균 로비 대기 시간<br>시작 시간<br>모임 ID<br>로비 대기 시간<br>기간<br>상태<br>제품 유형<br>참석자<br>SMS 전송
-|[Teams EHR 커넥터 가상 약속 보고서](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) | 시작 시간<br>기간<br>기본(모임 이끌이 이름)<br>기본 전자 메일(모임 이끌이의 전자 메일)<br>부서<br>전화 교환<br>로비 대기 시간<br>약속이 할당 한도 내에 있는지 여부|
+|보고서  |공용 |Gcc |GCCH |국방부 |무엇을 측정합니까? |
+|---------|---------|---------|---------|---------|---------|
+|[Teams 사용 현황 보고서](teams-usage-report.md)  |예|예|예|예|  활성 사용자<br/>팀 및 채널의 활성 사용자<br/>활성 채널<br/>메시지<br/>팀의 개인 정보 설정<br/>팀의 활성 게스트  <br/>활성 외부 사용자(공유 채널)<br/>팀 내 공유 채널별 세부 정보(신규)|
+|[Teams 사용자 작업 보고서](user-activity-report.md)  |예|예|예|예|활성 내부 및 외부(공유 채널에서) 사용자<br/> 사용자가 팀 채팅에 게시한 메시지<br/>사용자가 개인 채팅에 게시한 메시지<br/>  1:1 사용자가 참가한 호출<br/> 구성된 모임 사용자 수 <br/>사용자가 참가한 모임 수<br/>모임 오디오, 비디오 및 화면 공유 시간<br/>   사용자의 마지막 활동 날짜  <br>사용자의 공유 채널 상호 작용(신규)</br>   |
+|[Teams 장치 사용 현황 보고서](device-usage-report.md)   |예|예|예|예|  Windows 사용자<br/>Mac 사용자<br/>iOS 사용자<br/>Android 휴대폰 사용자     |
+|[Teams 앱 사용 현황 보고서(신규)](app-usage-report.md)   |예|예|아니요|아니요|  앱의 총 활성 사용자<br/>앱을 사용하는 총 활성 팀<br/>설치된 총 앱(신규)<br/>총 비활성 앱 <br/>총 1P 및 3P 및 LoB 앱 사용량(신규)     |
+|[Teams 라이브 이벤트 사용 현황 보고서](teams-live-event-usage-report.md)   |예|예|아니요|아니요|  총 보기<br>시작 시간<br>이벤트 상태<br>이끌이<br>발표자<br>프로듀서<br>녹음/녹화 설정<br>프로덕션 유형    |
+|[Teams PSTN 차단 사용자 보고서](pstn-blocked-users-report.md)   |예|예|아니요|아니요|  표시 이름<br>전화 번호<br>이유<br>작업 유형<br>작업 날짜 및 시간   |
+|[Teams PSTN 분 풀 보고서](pstn-minute-pools-report.md) |예|예|아니요|아니요|  국가 또는 지역<br>기능(라이선스) <br>총 시간(분)<br>사용된 시간(분)<br>사용 가능한 시간(분)|
+|[Teams PSTN 사용 현황 보고서 - 통화 플랜](pstn-usage-report.md#calling-plans)|예|예|아니요|아니요|  타임스탬프를<br>사용자 이름<br>전화 번호<br>호출 유형 <br>다음으로 호출<br>국가 또는 지역으로 <br>에서 호출 <br>국가 또는 지역에서<br>충전<br>통화<br>기간<br>국내/국제<br>통화 ID<br>숫자 형식<br>국가 또는 지역<br>회의 ID<br>기능(라이선스)|
+|[Teams PSTN 사용 현황 보고서 - 직접 라우팅](pstn-usage-report.md#direct-routing)  |예|예|아니요|아니요|  타임스탬프를<br>표시 이름<br>SIP 주소<br>전화 번호 <br>호출 유형<br>다음으로 호출<br>시작 시간<br>초대 시간<br>실패 시간<br>종료 시간<br>기간<br>숫자 형식<br>미디어 바이패스<br>SBC FQDN<br>Azure 지역<br>이벤트 유형<br>최종 SIP 코드<br>최종 Microsoft 하위 코드<br>최종 SIP 구<br>상관 관계 ID  |
+|[Teams 정보 보호 라이선스 보고서](information-protection-license-report.md)  |예|예|아니요|아니요| <br>사용자에게 변경 알림을 통해 메시지를 푸시할 수 있는 유효한 라이선스가 있는지 여부</br><br>사용자가 트리거한 총 변경 알림 이벤트 수<br><br>조직 전체 변경 알림 이벤트를 수신 대기하는 앱<br>|
+|[Teams 가상 방문 사용 현황 보고서](/microsoft-365/frontline/virtual-visits-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)  |예|예|아니요|아니요| 가상 약속 수<br>예약 예약 수<br>EHR(Teams 전자 건강 기록) 통합 약속 수<br>약속의 평균 기간<br>참석자의 평균 로비 대기 시간<br>시작 시간<br>모임 ID<br>로비 대기 시간<br>기간<br>상태<br>제품 유형<br>참석자<br>SMS 전송
+|[Teams EHR 커넥터 가상 약속 보고서](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |예|예|아니요|아니요| 시작 시간<br>기간<br>기본(모임 이끌이 이름)<br>기본 전자 메일(모임 이끌이의 전자 메일)<br>부서<br>전화 교환<br>로비 대기 시간<br>약속이 할당 한도 내에 있는지 여부|
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="make-the-user-specific-data-anonymous"></a>사용자 특정 데이터를 익명으로 만들기
 
-Teams 사용자 활동 및 Teams 디바이스 사용량 보고서를 익명으로 만들려면 전역 관리자여야 합니다. 이렇게 하면 보고서 및 내보내기에서 표시 이름, 전자 메일 및 Microsoft Azure Active Directory ID와 같은 식별 가능한 정보가 숨겨질 수 있습니다.
+Teams 사용자 활동의 데이터를 익명으로 보고하려면 전역 관리자여야 합니다. 전역 관리자는 보고서 및 내보내기에서 표시 이름, 그룹 이름, 전자 메일 및 AAD ID와 같은 식별 가능한 정보(MD5 해시 사용)를 숨길 수 있습니다.
 
 1. Microsoft 365 관리 센터 **설정** \> **조직 설정** 으로 이동하고 **서비스** 탭에서 **보고서를** 선택합니다.
     
@@ -70,5 +71,6 @@ Teams 사용자 활동 및 Teams 디바이스 사용량 보고서를 익명으�
 3. **변경 내용 저장** 을 선택합니다.
 
 > [!NOTE]
-> 이 설정을 사용하도록 설정하면 [Teams 사용자 활동 보고서](user-activity-report.md) 및 [Teams 디바이스 사용 현황 보고서 보고서에서](device-usage-report.md) 정보를 식별할 수 없습니다. Teams 관리 센터에서 사용할 수 있는 다른 사용 현황 보고서에는 영향을 미치지 않습니다.
-> 이 설정은 Microsoft 365 관리 센터, Microsoft Graph 및 Power BI의 Microsoft 365 사용 보고서에도 적용됩니다.
+> 이 설정을 사용하도록 설정하면 [Teams 사용자 활동 보고서, Teams](user-activity-report.md) [디바이스 사용](device-usage-report.md) 현황 보고서 및 [Teams 사용](teams-usage-report.md) 현황 보고서에서 사용자, 그룹 및 사이트 이름 정보를 식별할 수 없습니다. 2021년 9월 1일부터 이 설정은 중요한 정보를 보호하고 회사가 현지 개인 정보 보호법을 지원할 수 있도록 지속적인 노력의 일환으로 모든 사용자가 기본적으로 사용하도록 설정됩니다. 
+>
+>이 설정은 Microsoft 365 관리 센터, Microsoft Graph 및 Power BI의 Microsoft 365 사용 보고서에도 적용됩니다.

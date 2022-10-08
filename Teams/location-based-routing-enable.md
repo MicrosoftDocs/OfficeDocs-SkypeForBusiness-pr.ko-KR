@@ -1,7 +1,7 @@
 ---
 title: 직접 라우팅에 위치 기반 라우팅 사용
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.topic: article
 ms.reviewer: roykuntz
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: aadf5f4e4dff855d80c275be3d2027e767a732ad
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 4039105fe27df6fa8acb3f14c0db076e56910403
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562197"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999323"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>직접 라우팅에 위치 기반 라우팅 사용
 
@@ -213,6 +213,6 @@ Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id>
 Grant-CsTeamsCallingPolicy –PolicyName "AllowCallingPreventTollBypass" -id "User1" 
 ```
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [Teams의 클라우드 음성 기능에 대한 네트워크 설정](cloud-voice-network-settings.md)

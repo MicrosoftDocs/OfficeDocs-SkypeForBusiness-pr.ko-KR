@@ -1,7 +1,7 @@
 ---
 title: 라이브 이벤트 기록 정책
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: 라이브 이벤트 기록 정책에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5ae98255edf26843e59839192a9f20096182bfa2
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: abe4cb004ada98021e74823495e6208fc31c28fb
+ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794116"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68486558"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 기록 정책
 
@@ -56,7 +56,7 @@ Microsoft Teams 라이브 이벤트를 기록하기 위한 몇 가지 옵션이 
 
 ## <a name="storage-and-persistence-behavior"></a>스토리지 및 지속성 동작
 
-| 옵션                                       | 상태   | DVR                                                   | VOD                                                     | 녹음/녹화                |
+| 옵션                                       | 상태   | Dvr                                                   | Vod                                                     | 녹음/녹화                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
 | 참석자가 사용할 수 있는 녹음/녹화 | 선택한     | DVR을 사용할 수 있으며 AMS(Azure Media Services) 자산은 180일 동안 저장됩니다. | 참석자는 이벤트에 액세스하고 볼 수 있습니다.                     |                              |
 |                                                  | 선택되지 않음 | DVR을 사용할 수 있으며 AMS 자산은 180일 동안 저장됩니다. | 참석자는 이벤트가 끝난 후 이벤트에 액세스할 수 없습니다. |                              |

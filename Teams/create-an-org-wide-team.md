@@ -14,15 +14,16 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- EngageScoreOct2022
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ee527a457f7852bb9a6e7e6595754f1a64d2efd3
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: faa58d05f0076a8e1784268d8815b4e5377a238b
+ms.sourcegitcommit: 4e4e38075a897b382a6176bbd27c64296923a2e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562227"
+ms.lasthandoff: 09/28/2022
+ms.locfileid: "68135718"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>Microsoft Teams에서 조직 전체 팀 만들기
 

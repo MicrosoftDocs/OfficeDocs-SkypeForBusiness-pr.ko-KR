@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.subservice: teams-apps
 ms.service: msteams
 audience: Admin
+ms.date: 09/26/2022
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -19,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: d192bffdc83510da021914627c65b03f190c6c63
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: dc84bc7be43182194af3a072edb875a6a257a9d5
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837178"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377336"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams에서 앱 설정 정책 관리
 
@@ -51,7 +52,7 @@ Microsoft Teams 관리 센터에서 기본적으로 다음과 같은 기본 제�
 
 |Teams 데스크톱 클라이언트  |Teams 모바일 클라이언트 |
 |---------|---------|
-|![Teams 데스크톱 클라이언트의 앱 바입니다.](media/app-setup-policies-desktop-app-bar.png).  |   ![Teams 모바일 클라이언트의 앱 바입니다.](media/mobile-app-ui.png)      |
+|![Teams 데스크톱 클라이언트의 앱 바를 보여 주는 스크린샷.](media/app-setup-policies-desktop-app-bar.png).  |   ![Teams 모바일 클라이언트의 앱 바를 보여 주는 스크린샷.](media/mobile-app-ui.png)      |
 
 메시징 확장은 메시지 작성 영역의 맨 아래에 있습니다.
 
@@ -112,7 +113,7 @@ Microsoft Teams 관리 센터에서 앱 설정 정책을 관리합니다. 글로
 
 글로벌 정책의 설정을 편집하여 원하는 앱을 포함할 수 있습니다. 조직의 여러 사용자 그룹에 대해 Teams를 사용자 지정하려면 하나 이상의 사용자 지정 정책을 만들고 할당합니다.
 
-![정책을 관리하거나 새 정책을 추가하는 앱 설정 정책 페이지입니다.](media/app-setup-policies-update.png)
+:::image type="content" source="media/app-setup-policies-update.png" alt-text="정책을 관리하거나 새 정책을 추가하는 옵션이 있는 앱 설정 정책 페이지를 보여 주는 스크린샷.":::
 
 ### <a name="edit-an-app-setup-policy"></a>앱 설정 정책 편집
 
@@ -161,7 +162,7 @@ Teams 앱 스토어에는 모든 Teams 앱이 나열됩니다. **고정된 앱 �
 |Teams 데스크톱 클라이언트 |Teams 모바일 클라이언트 |
 |---------|---------|
 |Teams 측면의 앱 바에서 **... 더 많은 앱** 을 선택합니다.| Teams 아래쪽에 있는 앱 바에서 위로 살짝 밉니다.|
-|![Teams 데스크톱 클라이언트에 더 많은 앱이 있습니다.](media/app-setup-policies-desktop-more-apps.png)   |![Teams 모바일 클라이언트의 더 많은 앱](media/app-setup-policies-mobile-more-apps.png)  
+|![Teams 데스크톱 클라이언트에서 더 많은 고정된 앱을 보여 주는 스크린샷](media/app-setup-policies-desktop-more-apps.png)   |![Teams 모바일 클라이언트에서 더 많은 고정된 앱을 보여 주는 스크린샷](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>Teams 모바일 환경에 대해 알아야 할 사항
 

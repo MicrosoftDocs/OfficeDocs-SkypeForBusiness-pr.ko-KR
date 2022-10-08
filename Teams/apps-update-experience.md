@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
+ms.date: 09/04/2022
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 이 문서에서는 Microsoft Teams의 Microsoft 앱, 사용자 지정 앱 및 타사 앱을 업데이트하는 방법과 관리자가 이를 용이하게 하는 방법을 알아봅니다.
-ms.openlocfilehash: 3d0264a31214b51e751d52ffe90411f227e46656
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 14c327c2a24536f5441b318767e301ffe9a3196d
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837538"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68376816"
 ---
 # <a name="teams-app-updates-and-admin-role"></a>Teams 앱 업데이트 및 관리자 역할
 

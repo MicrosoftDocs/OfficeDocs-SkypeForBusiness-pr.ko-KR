@@ -1,5 +1,6 @@
 ---
 title: Microsoft Teams에서 콘텐츠 검색 사용
+description: Microsoft Purview 규정 준수 포털 콘텐츠 검색을 사용하여 Exchange Online, SharePoint Online, 비즈니스용 OneDrive 및 OneNote에 저장된 Microsoft Teams 콘텐츠를 검색하는 방법을 알아봅니다.
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,21 +8,23 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
+- tier1
+- purview-compliance
 - M365-collaboration
+- content-search
 ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: Microsoft Purview 규정 준수 포털 콘텐츠 검색을 사용하여 Exchange Online, SharePoint Online, 비즈니스용 OneDrive 및 OneNote에 저장된 Microsoft Teams 콘텐츠를 검색하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b976c5e3c6467a6c71bb51eb1ff3ef720813584b
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: ff8ee3990b1ebf406fbecaff3e090f010e2beb2a
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808239"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046518"
 ---
 # <a name="use-content-search-in-microsoft-teams"></a>Microsoft Teams에서 콘텐츠 검색 사용
 

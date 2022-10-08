@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 예비 환경 관리
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 audience: Admin
@@ -17,16 +17,16 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a9069a0ab86c043749f24b5c7b19d2e4ff6280b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: a5124c36b48c4cd8d6d2a466cbdc46c962b9aa11
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268843"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68376846"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams의 예비 라이선스 관리
 
-Microsoft Teams Exploratory 환경을 통해 조직에서 Azure AD(Azure Active Directory)를 사용하고 Teams 라이선스가 없는 사용자는 Teams의 탐색 환경을 시작할 수 있습니다. 관리자는 조직의 사용자에 대해 이 기능을 켜거나 끌 수 있습니다.
+The Microsoft Teams Exploratory experience lets users in your organization who have Azure Active Directory (Azure AD) and aren't licensed for Teams initiate an exploratory experience of Teams. Admins can switch this feature on or off for users in their organization.
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Teams Exploratory 환경에는 무엇이 있나요?
 
@@ -118,7 +118,7 @@ Teams로의 액세스를 해제하려면:
 
 ### <a name="manage-teams-availability-for-users-who-are-already-using-the-teams-exploratory-experience"></a>Teams 예비 환경을 이미 사용 중인 사용자의 Teams 상태 관리
 
-Teams Exploratory 환경을 실행하고 있는 경우 해당 라이선스 혹은 서비스 플랜을 제거하여 이 기능을 해제할 수 있습니다. 관리자 권한이 있어야 합니다.
+If a user is running the Teams Exploratory experience, you can turn it off by removing the license or service plan. You must have admin privileges.
 
 Teams 예비 환경 라이선스를 해제하려면 다음을 수행합니다.
 

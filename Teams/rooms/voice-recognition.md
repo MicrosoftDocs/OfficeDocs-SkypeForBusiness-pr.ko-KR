@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29a048ccc02082ec019bb64dca9e89b7f265ff83
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: d7b74ecb85f6081533f5139b6f8f083b8958d47f
+ms.sourcegitcommit: 31fe510550ac1f5f8e53b2395014cb909a6eb723
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67465976"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "68350751"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>지능형 스피커에 대한 음성 인식 기술 컨트롤 관리
 
@@ -130,13 +130,29 @@ IT 관리자는 언제든지 오디오 데이터를 내보낼 수 있습니다.
 
 |**언어**|**국가/지역**|**문화권 ID**|
 |:-----|:-----|:-----|
+|아랍어  <br/> |사우디아라비아 <br/> |ar-SA  <br/> |
+|중국어  <br/> |중국 <br/> |zh-CN  <br/> |
+|중국어  <br/> |대만 <br/> |zh-TW  <br/> |
+|덴마크어  <br/> |덴마크 <br/> |da-DK  <br/> |
+|네덜란드어  <br/> |네덜란드 <br/> |nl-NL  <br/> |
 |영어  <br/> |오스트레일리아 <br/> |en-AU  <br/> |
 |영어  <br/> |캐나다  <br/> |en-CA <br/> |
 |영어  <br/> |인도  <br/> |en-IN  <br/> |
 |영어  <br/> |뉴질랜드  <br/> |en-NZ  <br/> |
 |영어  <br/> |영국  <br/> |en-GB  <br/> |
 |영어  <br/> |미국  <br/> |en-US  <br/> |
-
+|핀란드어  <br/> |핀란드  <br/> |fi-FI  <br/> |
+|프랑스어  <br/> |캐나다 <br/> |fr-CA  <br/> |
+|프랑스어  <br/> |프랑스 <br/> |fr-FR  <br/> |
+|이탈리아어  <br/> |이탈리아 <br/> |it-IT  <br/> |
+|일본어  <br/> |일본 <br/> |ja-JP  <br/> |
+|노르웨이어  <br/> |노르웨이 <br/> |nb-NO  <br/> |
+|폴란드어  <br/> |폴란드 <br/> |pl-PL  <br/> |
+|포르투갈어      <br/> |브라질 <br/> |pt-BR  <br/> |
+|러시아어  <br/> |러시아 <br/> |ru-RU  <br/> |
+|스웨덴어  <br/> |스웨덴 <br/> |sv-SE  <br/> |
+|스페인어  <br/> |멕시코  <br/> |es-MX  <br/> |
+|스페인어  <br/> |스페인  <br/> |es-ES  <br/> |
 
 ### <a name="in-meeting-transcription-locales"></a>모임 내 전사 로캘
 

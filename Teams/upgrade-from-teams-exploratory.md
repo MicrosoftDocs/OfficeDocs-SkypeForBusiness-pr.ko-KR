@@ -1,7 +1,7 @@
 ---
 title: Teams Exploratory 평가판에서 업그레이드
-author: cazawideh
-ms.author: czawideh
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 audience: Admin
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7137114ffd47e19faaf8ba74f0d0625f74bc6d89
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 00faa3cf3840409ecd2fd0a6ccbfa58418547b94
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269543"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68376976"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>Teams Exploratory 평가판에서 사용자 업그레이드
 
@@ -36,7 +36,7 @@ ms.locfileid: "67269543"
 
 ## <a name="step-1-when-to-upgrade"></a>1단계: 업그레이드 시기  
 
-조직의 Teams Exploratory 평가판이 만료되는 시기와 활성 사용자 수를 확인하려면 Microsoft 365 관리 센터에서 **청구 >** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b>제품</b></a>으로 이동합니다. Teams Exploratory 평가판 만료 전에는 별도의 알림이 수신됩니다.
+To check when your organization’s Teams Exploratory trial is expiring and how many active users it has, go to **Billing >** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b>Your products</b></a> in the Microsoft 365 admin center. You’ll also be notified before the Teams Exploratory trial expires.
 
 > [!IMPORTANT]
 > 사용자가 Teams에 액세스할 수 있도록 만료일 전에 유료 라이선스로 업그레이드하도록 계획해야 합니다.
@@ -69,7 +69,7 @@ ms.locfileid: "67269543"
 
 ### <a name="auto-claim-policies"></a>자동 클레임 정책
 
-다음에 업그레이드할 때 자동 획득 정책을 사용하여 조직에 대한 정책을 생성하여 Teams 라이선스를 획득하지 않은 새 사용자에게 유료 구독에서 라이선스를 자동으로 할당하세요. 자세한 내용은 <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">자동 클레임 정책 관리</a>를 참조하세요.
+Next time you upgrade, use auto-claim policies to create policies for your organization to automatically assign licenses from paid subscriptions to new users who haven’t acquired a Teams license. For more information, see <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">Manage auto-claim policies</a>.
 
 ## <a name="related-topics"></a>관련 항목
 

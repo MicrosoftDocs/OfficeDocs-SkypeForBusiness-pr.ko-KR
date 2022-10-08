@@ -1,7 +1,7 @@
 ---
 title: 통화 플랜 긴급 위치를 사용하여 Microsoft Teams 전화 시스템 설정
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ appliesto:
 ms.collection:
 - M365-voice
 - M365initiative-voice
-ms.openlocfilehash: bf2e790e177ca388fd184ee4e1dff41032ef7166
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 96c6ec5422295bf63b4ac6b356f8d511f0291ff5
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267403"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480708"
 ---
 # <a name="step-1-set-up-a-teams-phone-system-emergency-location"></a>1단계: Teams 전화 시스템 긴급 위치 설정
 

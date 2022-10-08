@@ -15,12 +15,12 @@ f1.keywords:
 ms.localizationpriority: medium
 description: 동적 지원 구조 및 해당 단계를 포함하여 Microsoft Teams 룸 수명 주기 지원에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 509f4da415d7a7bd583442f21bd46efc52c9984f
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 9025500bc8aff6ddded71df29b9280d964763bdc
+ms.sourcegitcommit: 1be178dc3b34575e1914e629f004f897c02e0097
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706655"
+ms.lasthandoff: 09/28/2022
+ms.locfileid: "68138481"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams 룸 앱 버전 지원
  
@@ -53,15 +53,15 @@ Microsoft Teams 룸 Semi-Annual 채널 서비스 옵션에서 Windows 10 IoT Ent
 | 21H2    | 2021-11-16        | 지원<br>권장                               | 4.12.126.0                                        | 19044.1288           |
 | 21H1    | 2021-05-18        | 지원되지 않음                                           | &#x2014;                                          | &#x2014;             |
 | 20H2    | 2020-10-20        | 지원                                               | 4.10.10.0                                         | 19042.631            |
-| 2004    | 2020-05-27        | 건너뜁니다 <br/> 권장되지 않는 &#x2780;                 | &#x2014;                                          | &#x2014;             |
-| 1909    | 2019-11-12        | 지원                                               | 4.5.33.0                                          | 18363.418            |
+| 2004    | 2020-05-27        | 지원되지 않음, <br/>알려진 호환성 문제 &#x2780;| &#x2014;                                          | &#x2014;             |
+| 1909    | 2019-11-12        | 지원되지 않음                                           | &#x2014;                                          | &#x2014;             |
 | 1903    | 2019-05-21        | 지원되지 않음                                           | &#x2014;                                          | &#x2014;             |
 | 1809    | 2019-03-28        | 지원되지 않음, <br/>알려진 호환성 문제 &#x2781; | &#x2014;                                          | &#x2014;             |
 | 1803    | 2018-07-10        | 지원되지 않음                                           | &#x2014;                                          | &#x2014;             |
 | 1709    | 2018-01-18        | 지원되지 않음                                           | &#x2014;                                          | &#x2014;             |
 | 1703    | 2017-07-11        | 지원되지 않음                                           | &#x2014;                                          | &#x2014;             |
 
-&#x2780; Windows 10 버전 2004는 Microsoft Teams 룸 애플리케이션과의 호환성 문제로 인해 권장되지 않습니다. 이 특정 문제로 인해 야간 다시 부팅 후 Microsoft Teams 룸 애플리케이션이 시작되지 않습니다. 
+&#x2780; Windows 10 버전 2004는 Microsoft Teams 룸 애플리케이션과의 호환성 문제로 인해 권장되지 않습니다. 이 특정 문제로 인해 야간 다시 부팅 후 Microsoft Teams 룸 애플리케이션이 시작되지 않습니다.
 
 &#x2781; Windows 10 버전 1809는 Microsoft Teams 룸 애플리케이션과의 호환성 문제로 인해 권장되지 않습니다. 이 특정 문제로 인해 야간 다시 부팅 후 Microsoft Teams 룸 애플리케이션이 시작되지 않습니다. 이 문제는 Windows 10 버전 1903에서 해결되었습니다.  
 
