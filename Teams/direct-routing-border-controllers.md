@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅에 대해 인증된 SBA(Session Border Controller)에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fd42a6b9084e73d867a5c744a5b8852f20401ff5
-ms.sourcegitcommit: 8b33cc2c2e8f43e6ab4b17715d6a42692351ccad
+ms.openlocfilehash: ac539938c21f500b4718a37aa970f1e5d6309202
+ms.sourcegitcommit: 1be178dc3b34575e1914e629f004f897c02e0097
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "67624288"
+ms.lasthandoff: 09/28/2022
+ms.locfileid: "68138511"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>직접 라우팅에 대한 인증된 SBC(Session Border Controller)
 
@@ -103,7 +103,7 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 |[M5 기술(이전의 Media5 Corporation)](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|Mediatrix Sentinel 시리즈|&#10004;||DGW 48.0.2340(권장 DGW 48.1.2503)|||
 |[Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|Ekinops Session Border Controller(ONeSBC)|&#10004;|&#10004;|지원되는 6.6.1m5ha1(권장 6.8.x)|||
 ||Ekinops Virtual Session Border Controller(ONEvSBC)|&#10004;|&#10004;|지원되는 6.6.1m5ha1(권장 6.8.x)|||
-|[46 Labs BUILDER](https://46labs.atlassian.net/wiki/spaces/peeredge/pages/61603842/Microsoft+Teams+Implementation+Guide+v1.0)|하이퍼 컨버지드 음성|&#10004;|&#10004;|HCVoice 1.0.6|||
+|[46 Labs BUILDER](https://46labs.atlassian.net/wiki/spaces/peeredge/pages/61603842/Microsoft+Teams+Implementation+Guide+v1.0)|Peeredge Orchestrator|&#10004;|&#10004;|1.0.6|||
 |[Frafos](https://www.frafos.com/ms-teams-abc-sbc)|ABC SBC|&#10004;||4.6|||
 
 <br/>

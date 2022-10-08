@@ -22,26 +22,34 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Microsoft Teams 룸 다양한 유형의 통화 및 모임 기능에 사용 가능한 라이선스에 대해 알아보고 비교합니다.
-ms.openlocfilehash: df84e94ebda02020e88d8bfc19fa42c86561b07d
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: af5f30f1a4ae0d34421629ffec3c67a619798b50
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706675"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480488"
 ---
 # <a name="microsoft-teams-rooms-licenses"></a>라이선스 Microsoft Teams 룸
 
-Microsoft는 Teams 모임 및 통화에 참여하는 회의실 디바이스에 대해 다음 두 가지 라이선스를 제공합니다.
+Microsoft는 Teams 모임 및 통화에 참여하는 Teams 룸 시스템에 대해 두 가지 라이선스를 제공합니다.
 
 - **Microsoft Teams 룸 Pro** 는 지능형 오디오 및 비디오, 앞줄 및 대형 갤러리, 이중 화면 지원과 같은 향상된 회의실 내 모임 환경을 제공합니다. Teams 룸 Pro 라이선스는 원격 디바이스 관리, 조건부 액세스 정책 및 자세한 디바이스 분석과 같은 고급 관리 기능도 제공합니다.
 
-    Teams 룸 Pro는 중소 기업 조직뿐만 아니라 더 큰 회의실 개수 또는 고급 요구 사항이 있는 소규모 조직에 적합합니다.
+    Teams 룸 Pro는 중소 기업 조직뿐만 아니라 더 큰 회의실 개수 또는 고급 요구 사항이 있는 소규모 조직에 적합합니다. Teams 룸 Pro 라이선스를 사용하여 인증된 Teams 룸 시스템과 Teams 패널 모두에 라이선스를 부여할 수 있습니다.
 
-- **Microsoft Teams 룸 Basic** 은 추가 비용 없이 인증된 Microsoft Teams 룸 디바이스를 구매하는 조직에 핵심 모임 환경을 제공합니다. Teams 룸 Basic 라이선스에는 기본 보안 및 관리 기능뿐만 아니라 예약, 모임 참가, 콘텐츠 공유 및 공동 작업 화이트 탑승이 포함됩니다.
+- **Microsoft Teams 룸 Basic** 은 인증된 Microsoft Teams 룸 시스템을 구매하는 조직에 추가 비용 없이 핵심 모임 환경을 제공합니다. Teams 룸 Basic 라이선스에는 기본 보안 및 관리 기능뿐만 아니라 예약, 모임 참가, 콘텐츠 공유 및 공동 작업 화이트 탑승이 포함됩니다.
 
-    조직의 Teams 룸 디바이스에 최대 25개의 Microsoft Teams 룸 기본 라이선스를 할당할 수 있습니다. 25개 이상의 디바이스에 라이선스를 부여해야 하는 경우 이러한 추가 라이선스는 Pro 라이선스를 Teams 룸 합니다.
+    Teams 룸 Basic 라이선스를 사용하여 한 방에서 인증된 단일 Teams 룸 시스템에 라이선스를 부여할 수 있습니다. 동일한 리소스 계정을 사용하여 회의실에서 둘 이상의 Teams 룸 시스템에 로그인하려면 Teams 룸 Pro 라이선스를 사용해야 합니다.
 
-Teams 룸 Basic 라이선스를 사용하여 한 방에서 인증된 단일 Teams 룸 장치에 라이선스를 부여할 수 있습니다. 동일한 리소스 계정(예: Teams 룸 콘솔, Surface Hub 및 Teams 패널)을 사용하여 회의실에서 둘 이상의 디바이스에 로그인하려면 Teams 룸 Pro 라이선스를 사용해야 합니다.
+    조직의 Teams 룸 시스템에 최대 25개의 Microsoft Teams 룸 기본 라이선스를 할당할 수 있습니다. 25개 이상의 Teams 룸 시스템에 라이선스를 부여해야 하는 경우 이러한 추가 라이선스는 Pro 라이선스를 Teams 룸 합니다. Teams 룸 기본 라이선스는 Teams 패널이 아닌 Teams 룸 시스템에만 라이선스를 부여할 수 있습니다.
+
+Teams 룸 시스템은 다음 중 하나일 수 있습니다.
+
+- Windows 컴퓨팅 모듈 및 연결된 터치 콘솔용 Teams 룸
+- IP 기반 또는 USB 연결을 통해 연결된 Android 디바이스 및 터치 콘솔에 대한 Teams 룸
+- A Surface Hub
+
+Teams 관리 센터의 Teams 룸 시스템 또는 디바이스에서 수행하는 원격 관리 작업은 시스템 또는 디바이스에 할당된 라이선스에 따라 달라집니다. 자세한 내용은 [Teams 관리 센터의 Microsoft Teams 룸 라이선스 개요를 참조하세요](admin-center-license-overview.md).
 
 [!INCLUDE [mtr-user-licensing](../includes/mtr-user-licensing.md)]
 
@@ -77,6 +85,8 @@ Teams 룸 Basic 라이선스를 사용하여 한 방에서 인증된 단일 Team
 > 레거시 라이선스는 새 라이선스로 자동으로 전환되지 않습니다. 레거시 라이선스가 만료되면 새 Teams 룸 Pro(권장) 또는 Teams 룸 Basic 라이선스를 구매해야 합니다. Teams 룸 Pro 라이선스는 Microsoft 365 관리 센터 또는 선호하는 판매 채널을 통해 구매할 수 있습니다. Teams 룸 기본 라이선스는 Microsoft 365 관리 센터 통해서만 구매할 수 있습니다.
 
 조직에 기업계약 있는 경우 다음 갱신 기간까지 기존 레거시 라이선스를 계속 사용할 수 있습니다. 또한 다음 갱신 기간까지 추가 레거시 라이선스를 계속 예약할 수 있습니다. 자세한 내용은 Microsoft 담당자에게 문의하세요.
+
+레거시 라이선스에 대한 자세한 내용은 [Microsoft Teams 룸 레거시 라이선스를 참조하세요](rooms-legacy-licensing.md).
 
 <sup>*</sup>Microsoft 서비스 엔지니어는 2022년 10월 1일부터 인시던트 대응의 중개자 역할을 하지 않습니다.
 

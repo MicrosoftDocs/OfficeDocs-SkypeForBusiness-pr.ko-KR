@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell을 사용하여 Microsoft Teams를 관리하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66f873b163222d3d9745e68881da2b8071f60eec
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: a14658039f4edeb8e70ec195f036bf8321453c2c
+ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396529"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68486578"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>Microsoft Teams PowerShell을 사용하여 Teams 관리
 
@@ -69,8 +69,8 @@ Azure Cloud Shell 액세스하고 PowerShell을 사용하여 Teams를 관리하�
 ## <a name="manage-policies-via-powershell"></a>PowerShell을 통해 정책 관리
 
 > [!NOTE]
-> - 비즈니스용 Skype Online 커넥터는 Teams PowerShell에 통합됩니다. 현재 공개 미리 보기에서 사용할 수 있습니다. 시간이 지나면 Teams에 적용되는 비즈니스용 Skype Online cmdlet을 Teams PowerShell 모듈에서 기본적으로 사용할 수 있습니다. 설치 단계는 [Teams PowerShell 설치](teams-powershell-install.md) 문서에서 사용할 수 있습니다.
-> - 비즈니스용 Skype Online에 연결하면 PowerShell 세션에서 cmdlet을 사용할 수 있습니다. 자세한 내용은 [Office 365 PowerShell을 사용하여 비즈니스용 Skype Online 관리를](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) 참조하세요.
+> - 비즈니스용 Skype Online 커넥터는 Teams PowerShell에 통합됩니다. Teams에 적용되는 비즈니스용 Skype Online cmdlet은 기본적으로 Teams PowerShell 모듈에서 사용할 수 있습니다. 설치 단계는 [Teams PowerShell 설치](teams-powershell-install.md) 문서에서 사용할 수 있습니다.
+> - Teams에 연결하면 PowerShell 세션에서 cmdlet을 사용할 수 있습니다. 자세한 내용은 [Office 365 PowerShell을 사용하여 비즈니스용 Skype Online 관리를](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) 참조하세요.
 
 [비즈니스용 Skype cmdlet 모듈](/powershell/module/teams)에서 정책을 관리하기 위한 cmdlet을 찾습니다.
 

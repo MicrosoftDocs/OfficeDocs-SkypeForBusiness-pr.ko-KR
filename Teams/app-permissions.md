@@ -19,16 +19,16 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 42044bf8f74c99b27db724e87ee35e700491aa8e
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 64e63b4df818d792f722aed5b61315828a79bf76
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837198"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377136"
 ---
-# <a name="microsoft-teams-apps-permissions-and-considerations"></a>Teams 앱 사용 권한 및 고려 사항
+# <a name="information-accessed-and-actions-performed-by-teams-apps-and-admin-considerations"></a>액세스한 정보 및 Teams 앱 및 관리자 고려 사항에서 수행한 작업
 
-Microsoft Teams 앱은 하나 이상의 기능을 설치, 업그레이드 및 제거할 수 있는 앱으로 통합할 수 있는 방법입니다. 앱의 기능은 다음과 같습니다.
+Microsoft Teams 앱은 하나 이상의 기능을 설치, 업그레이드 및 제거할 수 있는 앱으로 집계합니다. 앱의 기능은 다음과 같습니다.
 
 * 봇
 * 메시징 확장
