@@ -17,18 +17,21 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 사용자 지정 테마 적용 및 마스터 설정 파일 만들기를 포함하여 Microsoft Teams 룸 디바이스에서 사용하는 기본 설정의 원격 관리
-ms.openlocfilehash: e09501d4b39ddbb83e914d53fe61bfb97d1a4fa8
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: f0e563935725bf68ebf087d8a58a199683bac70f
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606207"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532258"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>XML 구성 파일을 사용하여 원격으로 Microsoft Teams 룸 콘솔 설정 관리
 
 이 문서에서는 사용자 지정 테마 적용을 포함하여 Microsoft Teams 룸 디바이스에서 사용하는 기본 설정의 원격 관리에 대해 설명합니다. 마스터 설정 파일을 만드는 방법과 필요에 따라 Teams 룸 배치하는 방법에 대한 논의 링크에 대해 설명합니다.
   
-마스터 XML 파일을 업데이트하고 원격 Teams 룸 디바이스에 복사본을 전송하여 Teams 룸 기본 설정을 변경할 수 있습니다. 
+마스터 XML 파일을 업데이트하고 원격 Teams 룸 디바이스에 복사본을 전송하여 Teams 룸 기본 설정을 변경할 수 있습니다.
+
+> [!NOTE]
+> 일부 기능은 Microsoft Teams 룸 Pro 라이선스가 할당된 Teams 룸 디바이스에서만 사용할 수 있습니다. Microsoft Teams 룸 Pro가 필요한 기능을 확인하려면 [Microsoft Teams 룸 라이선스를 참조하세요](rooms-licensing.md).
   
 ## <a name="create-an-xml-configuration-file"></a>XML 구성 파일 만들기
 

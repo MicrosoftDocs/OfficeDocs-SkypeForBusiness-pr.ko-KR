@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 모든 기능을 활용할 수 있도록 Microsoft Teams 룸 배포하기 위한 인프라를 준비하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3f0224ebf0c6c8e0f21fe669bb8a92ff345b928b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 7006f560c5d0991b74c14fc5eb0b13e829b642d9
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268953"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532228"
 ---
 # <a name="prepare-your-environment"></a>작업 환경 준비
 
@@ -115,7 +115,7 @@ Microsoft Teams 룸 Windows OS에서 프록시 설정을 상속하도록 설계�
     
 11. 로그인 화면으로 돌아가 **서 Skype** 사용자를 선택합니다. 이전 단계가 모두 성공하면 Microsoft Teams 룸 디바이스가 성공적으로 로그인됩니다.
     
-Microsoft Teams 룸 필요한 FQDN, 포트 및 IP 주소 범위에 대한 자세한 내용은 [네트워크 보안](./security.md#network-security) 문서를 참조하세요.
+Microsoft Teams 룸 필요한 FQDN, 포트 및 IP 주소 범위에 대한 자세한 내용은 [네트워크 보안](./security-windows.md#network-security) 문서를 참조하세요.
   
 ### <a name="admin-group-management"></a>관리 그룹 관리
 
@@ -128,7 +128,7 @@ Microsoft Teams 룸 필요한 FQDN, 포트 및 IP 주소 범위에 대한 자세
 
 ### <a name="microsoft-teams-rooms-local-user-account"></a>로컬 사용자 계정 Microsoft Teams 룸
 
-Teams 룸 "Skype"라는 암호 없는 로컬 계정을 포함합니다. 이 계정은 Windows에 로그인하여 Teams 룸 앱을 시작하는 데 사용됩니다. 이 계정에 암호를 적용하는 것은 지원되지 않습니다. 자세한 내용은 [Microsoft Teams 룸 보안을](security.md) 참조하세요.
+Teams 룸 "Skype"라는 암호 없는 로컬 계정을 포함합니다. 이 계정은 Windows에 로그인하여 Teams 룸 앱을 시작하는 데 사용됩니다. 이 계정에 암호를 적용하는 것은 지원되지 않습니다. 자세한 내용은 [Microsoft Teams 룸 보안을](security-windows.md) 참조하세요.
   
 ### <a name="admin---local-administrator-account"></a>"관리" - 로컬 관리자 계정
 
@@ -139,7 +139,7 @@ Microsoft Teams 룸 기본 암호는 "sfb"로 설정됩니다. 암호는 관리 
   
 로컬 관리자 암호는 설치 중에 선택 항목으로 포함되지 않습니다.
 
-Microsoft Teams 룸 [보안](security.md) 문서에서 관리 계정에 대한 자세한 내용을 확인할 수 있습니다.
+Microsoft Teams 룸 [보안](security-windows.md) 문서에서 관리 계정에 대한 자세한 내용을 확인할 수 있습니다.
   
 ### <a name="machine-account"></a>컴퓨터 계정
 
@@ -147,7 +147,7 @@ Microsoft Teams 룸 [보안](security.md) 문서에서 관리 계정에 대한 �
   
 도메인에 가입한 후 컴퓨터 이름을 바꾸려면 PowerShell 명령인 [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer)와 컴퓨터의 새 이름을 사용합니다.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [계획 Microsoft Teams 룸](rooms-plan.md)
 

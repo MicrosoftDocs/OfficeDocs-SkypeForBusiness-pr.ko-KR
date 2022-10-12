@@ -22,12 +22,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d4e28437d6251156e16c2568c9adf9a708e412bd
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
-ms.translationtype: HT
+ms.openlocfilehash: dc99785bf5d0450e99022f230af7564693c6da7f
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615674"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532248"
 ---
 # <a name="meetings-webinars-and-live-events"></a>모임, 웨비나 및 라이브 이벤트
 
@@ -35,10 +35,7 @@ Microsoft Teams에서는 모임, 웨비나, 라이브 이벤트 등 여러 가�
 
 관리자와 IT 전문가를 대상으로 하는 이 문서에서는 모임, 웨비나 및 라이브 이벤트의 차이점에 대해 설명합니다. 그런 다음 사용자를 위해 이 기능을 신속하게 롤아웃하는 데 필요한 정보에 대한 링크를 제공합니다.
 
-> [!NOTE]
-> 다양한 플랫폼에서 Teams 모임 및 이벤트를 신속하게 구성하는 방법에 대한 자세한 내용은 [플랫폼별 Teams 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)을 참조하세요.
-
-[모임](#meetings), [웹 세미나](#webinars) 및 [실시간 이벤트](#live-events)는 모두 모임 유형이지만 웹 세미나 및 실시간 이벤트는 이끌이가 대화 및 참가자에 대한 추가 제어를 제공합니다. 웨비나는 양방향 상호작용을 제공하는 반면 라이브 이벤트는 관리되는 Q&A 경험을 제공합니다. 
+[Meetings](#meetings), [webinars](#webinars), and [live events](#live-events) are all types of meetings, but webinars and live events provide additional control for the organizer over the conversation and participants. Webinars provide two-way interaction while live events provide a managed Q&A experience. 
 
 모임 유형에 따라 참가자 제한 및 참가자 기능도 다릅니다. 
 
@@ -54,7 +51,13 @@ Microsoft Teams에서는 모임, 웨비나, 라이브 이벤트 등 여러 가�
 
 **2022년 12월 31일까지 기존 10,000명에서 20,000명으로 상향 조정됩니다. Yammer 및/또는 Microsoft Stream의 라이브 이벤트로 더 많은 수를 예약할 수 있습니다. 자세한 내용은 [Microsoft 365의 라이브 이벤트](/stream/live-event-m365)를 참조하세요. 참석자가 20,000명이 넘는 이벤트에는 [라이브 이벤트 지원 프로그램](/stream/live-events-assistance)이 필요합니다.
 
-NDI는 모임, 웨비나 및 라이브 이벤트에서 완벽하게 지원되므로 OBS 및 Wirecast와 같은 도구를 사용하여 방송을 제작할 수 있습니다. 자세한 내용은 [Microsoft Teams에서 NDI® 기술 사용](use-ndi-in-meetings.md)을 참조하세요.
+Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
+
+> [!NOTE]
+> Microsoft Teams를 사용하여 온라인 이벤트를 배달하기 위한 역할별 지침을 얻으려면 [가상 이벤트 플레이북](https://adoption.microsoft.com/virtual-event-guidance/)을 참조하세요. Microsoft Tech Community [가상 이벤트 포럼](https://aka.ms/VirtualEventForum)에 참가할 수도 있습니다.
+
+> [!NOTE]
+> 다양한 플랫폼에서 Teams 모임 및 이벤트를 신속하게 구성하는 방법에 대한 자세한 내용은 [플랫폼별 Teams 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)을 참조하세요.
 
 ## <a name="meetings"></a>모임
 
@@ -131,7 +134,7 @@ Teams의 **모임** 에는 최대 1,000명을 위한 오디오, 동영상 및 �
 
 ## <a name="apps-for-meetings"></a>모임용 앱
 
-Microsoft를 사용하면 모임 앱을 통합하고 사용하여 모임 환경을 개선할 수 있습니다. 예를 들어 Teams 모임의 화이트보드 통합은 화이트보드 웹 앱을 통해 제공되므로 Teams 모임 참가자는 공유 디지털 캔버스에 함께 그림을 그리고, 스케치하고, 쓸 수 있습니다.
+Microsoft enables you to enhance meeting experiences by integrating and using meeting apps. For example, whiteboard integration in Teams meetings is powered by the Whiteboard web app, which lets Teams meeting participants draw, sketch, and write together on a shared digital canvas.
 
 Teams와 함께 제공되는 앱을 사용하고, 인증된 타사 앱과 템플릿을 사용하고, 고유한 사용자 지정 앱을 만들어 Teams 배포에 모임 앱을 추가할 수 있습니다.
 
@@ -215,4 +218,3 @@ Teams와 함께 제공되는 앱을 사용하고, 인증된 타사 앱과 템플
 
 [Teams의 제한과 사양](limits-specifications-teams.md)
 
-[Microsoft 기술 커뮤니티: Microsoft 365의 라이브 이벤트](https://resources.techcommunity.microsoft.com/live-events/)

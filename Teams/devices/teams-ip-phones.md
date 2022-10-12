@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 생성하기 위해 Microsoft Teams에 대해 인증된 책상 및 전화 회의 전화기를 알아봅니다.
-ms.openlocfilehash: a13551627b0bd4d41d44e64988452fae59dc7090
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 2ba2b46bb4f6544a6b2c4c4455634aca4c0feef5
+ms.sourcegitcommit: 75a988ce64e3b6668dde3475e5cbf1f26de961ba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68376866"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68539657"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 인증 Android 디바이스
 
@@ -84,6 +84,7 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 | Yealink MeetingBar A20 | `133.15.0.108  `   | 2024년 9월 3일 | 소규모 회의실(4.5 m x 4.5 m)| 10|
 | Yealink MeetingBar A30 | `133.15.0.108  `   | 2024년 9월 3일 | 중간 크기의 객실(4.5 m x 6 m) | 10|
 | Logitech Tap IP VR0029     | `1.6.762`  |   2024년 9월 3일  | Logitech Rally Bar 및 Rally Bar Mini와 호환 | 10 |
+| 깔끔한 바 프로   | `NFD1.20220914.1210 ` | 2024년 9월 3일  |  중간 크기의 객실(4.5 m x 6 m) | 10|
 | 깔끔한 막대 | `NFB1.20220211.1400` |2024년 9월 3일|    소규모 회의실(4.5m x 4.5m) | 10 |
 | 깔끔한 패드 터치 콘솔 | `NFA1.20220211.1400`  | 2023년 8월 5일 |  깔끔한 막대와만 호환 | 9 |
 | 깔끔한 보드 | `NFC1.20220211.1400 ` | 2024년 9월 3일 |    소규모 회의실(4.5m x 4.5m) | 10 |

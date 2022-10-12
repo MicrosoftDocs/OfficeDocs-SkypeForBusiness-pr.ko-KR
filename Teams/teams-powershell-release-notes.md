@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell의 최신 변경 내용에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d488fbc8274b5b4e14a29e336b5ef0563872d56
-ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
+ms.openlocfilehash: 2472f7ec0156e5dcd3ac245dfecdf25a58423ed9
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "67732307"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532238"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 릴리스 정보
 
@@ -31,6 +31,7 @@ ms.locfileid: "67732307"
 
 | 날짜 | 버전 | 업데이트 |
 |------- | -------------------- | ------------------------------ |
+| 2022년 10월 | [4.8.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.8.0) |<li>[가져오기\| New]-CsTeamsShiftsConnectionTeamMap cmdlet - TimeZone 특성이 추가되었습니다.</li><li>Set-CsOnlineDialinConferencingUser에서 SendEmailFromAddress 및 SendEmailFromDisplayName 입력 매개 변수를 제거합니다.</li><li>Set-TeamsAcsFederationConfiguration에서 AllowAllAcsResources 및 BlockedAcsResources 매개 변수를 제거합니다.</li><li>New-CsAutoAttendantCallFlow, New-CsAutoAttendant 및 Set-CsAutoAutoAttendant의 호출 흐름 설정에 ForceListenMenuEnabled 매개 변수를 추가합니다. 이 설정을 사용하면 인사말/메뉴 옵션이 재생되는 동안 테넌트가 DTMF/음성 입력을 무시할 수 있습니다.</li>
 | 2022년 9월 | [4.7.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.1-preview) |<li>미리 보기에서 Connect-MicrosoftTeams 애플리케이션 기반 인증 지원을 릴리스합니다. 지원되는 cmdlet이 점진적으로 롤아웃되고 있으며 Teams [PowerShell 모듈의 애플리케이션 기반 인증에](teams-powershell-application-authentication.md) 대한 자세한 내용이 나와 있습니다.</li><li>[Get\|Set]-CsTeamsEducationConfiguration cmdlet을 프라이빗 미리 보기로 릴리스합니다.</li><li>[가져오기\| New]-CsTeamsShiftsConnectionTeamMap cmdlet - TimeZone 특성이 추가되었습니다.</li><li>Set-CsOnlineDialinConferencingUser에서 SendEmailFromAddress 및 SendEmailFromDisplayName 입력 매개 변수를 제거합니다.</li><li>Set-TeamsAcsFederationConfiguration에서 AllowAllAcsResources 및 BlockedAcsResources 매개 변수를 제거합니다.</li>
 | 2022년 9월 | [4.7.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.0) |<li>PS ISE 및 dotnet 애플리케이션에서 모듈을 사용할 때 프로세스 정리 문제를 해결합니다.</li><li>GA의 [Get\|New]-CsBatchTeamsDeployment cmdlet을 릴리스합니다.</li><li>릴리스 [새\|집합]-CSTeamsShiftsConnectionInstance, UKG 차원에 대한 지원 Test-CsTeamsShiftsConnectionValidate.</li><li>Connect-MicrosoftTeams에서 AccountId 매개 변수를 사용하여 여러 계정 중에서 선택하는 동안 잘못된 토큰 가져오기 문제를 해결합니다.</li><li>New-CsCallQueue cmdlet의 경우 회의 모드 & 프레즌스 모드 특성의 기본값이 false에서 true로 변경됩니다.</li>
 | 2022년 8월 | [4.6.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.1-preview) |<li>PS ISE 및 dotnet 애플리케이션에서 모듈을 사용할 때 프로세스 정리 문제를 해결합니다.</li>

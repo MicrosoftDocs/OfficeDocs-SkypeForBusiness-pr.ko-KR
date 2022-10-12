@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 데이터 및 개인 정보
 f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
-ms.openlocfilehash: 5799288005a5d30152a6f810c0aa40d451198390
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 50806ffce468ac9add956d6942c2b3b2e5885125
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270303"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532468"
 ---
 # <a name="approach"></a>접근
 
@@ -48,8 +48,6 @@ Managed Services는 제로 스탠딩 액세스 원칙을 통해 조직 내부 �
 ## <a name="data-handling"></a>데이터 처리
 
 Microsoft는 데이터 전송, 스토리지, 사용 및 보존에 대한 엄격한 표준의 적용을 받습니다. Microsoft에는 데이터 분류에 따라 데이터를 처리하는 방법을 규제하는 데이터 처리 표준 정책이 있습니다.
-
-
 
 ## <a name="technology-description"></a>기술 설명
 
@@ -100,4 +98,8 @@ Managed Services는 유럽(EU), APAC(아시아 태평양) 및 미국(미국)의 
 
 ## <a name="more-resources"></a>추가 리소스
 
-Microsoft Teams 룸 보안:/microsoftteams/rooms/security Microsoft 개인정보처리방침: https://aka.ms/privacy Microsoft의 데이터 관리: https://www.microsoft.com/trust-center/privacy/data-management 관리 서비스 설명: [Microsoft Teams 룸 관리 서비스](microsoft-teams-rooms-premium.md)
+Windows 보안용 Microsoft Teams 룸: [[Microsoft Teams for Windows 보안](/microsoftteams/rooms/security-windows) \
+Android 보안용 Microsoft Teams 룸: [Android용 Microsoft Teams 보안](/microsoftteams/rooms/security-android) \
+Microsoft 개인정보처리방침: https://aka.ms/privacy \
+Microsoft의 데이터 관리: https://www.microsoft.com/trust-center/privacy/data-management \
+Managed Services 서비스 설명: [Microsoft Teams 룸 관리 서비스](microsoft-teams-rooms-premium.md)
