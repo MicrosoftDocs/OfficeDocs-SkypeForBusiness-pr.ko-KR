@@ -25,12 +25,12 @@ search.appverid: MET150
 description: Microsoft Teams 클라우드 음성 기능 및 조직에 대해 수행할 배포 결정에 대해 자세히 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1ba61d1ccbaeda26834b31a321aebfccbe23243
-ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
+ms.openlocfilehash: a159a6e2c5f532205c8e0cdadf744a2e6e6f3c0a
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "67999353"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551672"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Teams 음성 솔루션 계획
 
@@ -50,7 +50,7 @@ ms.locfileid: "67999353"
 
 - 통화 플랜이 있는 전화 시스템
 - Operator Connect를 사용하여 사용자 고유의 PSTN 이동 통신 사업자가 있는 전화 시스템
-- 운영자 연결 모바일 있는 자체 PSTN 이동 통신 사업자가 있는 전화 시스템(공개 미리 보기 릴리스)
+- Teams Phone Mobile을 사용한 자체 PSTN 이동 통신 사업자가 있는 전화 시스템 
 - 직접 라우팅을 사용하여 자체 PSTN 이동 통신 사업자가 있는 전화 시스템
 - 통화 플랜이 있는 전화 시스템, 운영자 연결이 있는 전화 시스템 및/또는 직접 라우팅을 사용하는 전화 시스템을 사용하는 조합 솔루션
 
@@ -154,7 +154,7 @@ Azure Voicemail 서비스에서 제공하는 클라우드 음성 사서함 Excha
 
 - [**Operator Connect를 사용하여 사용자 고유의 PSTN 이동 통신 사업자가 있는 전화 시스템**](operator-connect-plan.md)입니다. Operator Connect를 사용하면 기존 운영자가 Microsoft Operator Connect 프로그램에 참여하는 경우 PSTN 통화를 Teams로 가져오기 위한 서비스를 관리할 수 있습니다. 
 
-- **운영자 연결 모바일 공개 검토 릴리스**[**를 사용하여 자신의 PSTN 이동 통신 사업자와 전화 시스템**](operator-connect-mobile-plan.md). 운영자 연결 모바일 사용하면 기존 운영자가 Microsoft 운영자 연결 모바일 프로그램에 참여하는 경우 Teams에서 SIM 지원 휴대폰 번호를 사용하기 위한 서비스를 관리할 수 있습니다. 
+- [**Teams Phone Mobile을 사용하여 자체 PSTN 이동 통신 사업자가 있는 전화 시스템**](operator-connect-mobile-plan.md). Teams Phone Mobile을 사용하면 기존 운영자가 Microsoft Teams 전화 Mobile 프로그램에 참여하는 경우 Teams에서 SIM 지원 휴대폰 번호를 사용하기 위한 서비스를 관리할 수 있습니다. 
 
 - 직접 라우팅을 사용하여 온-프레미스 환경을 Teams [**에 연결하여 자체 PSTN 이동 통신 사업자가 있는 전화 시스템**](pstn-connectivity.md#phone-system-with-direct-routing)입니다.
 

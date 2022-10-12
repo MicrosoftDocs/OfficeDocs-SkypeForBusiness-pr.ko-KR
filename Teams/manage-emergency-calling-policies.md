@@ -20,16 +20,16 @@ description: Microsoft Teams에서 긴급 통화 정책을 사용하고 관리�
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 658e7191a821069d3fa9b13e02cc7cbcdfb29413
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: a6fa08808c9ef5fc258236735cc043e4bde366b1
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606557"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551522"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Microsoft Teams에서 긴급 통화 정책 관리
 
-조직에서 Microsoft 통화 플랜, 운영자 연결, 운영자 연결 모바일(공개 미리 보기 릴리스) 또는 직접 라우팅을 [PSTN 연결 옵션](pstn-connectivity.md)으로 사용하는 경우 Microsoft Teams의 긴급 통화 정책을 사용하여 조직의 Teams 사용자가 긴급 통화를 할 때 발생하는 작업을 정의할 수 있습니다.
+조직에서 Microsoft 통화 플랜, 운영자 연결, Teams Phone Mobile 또는 직접 라우팅을 [PSTN 연결 옵션](pstn-connectivity.md)으로 사용하는 경우 Microsoft Teams의 긴급 통화 정책을 사용하여 조직의 Teams 사용자가 긴급 통화를 할 때 발생하는 작업을 정의할 수 있습니다.
 
 정책이 할당된 사용자가 응급 서비스를 호출할 때 알릴 사용자와 알림을 받을 방법을 설정할 수 있습니다. 예를 들어 조직의 보안 데스크에 자동으로 알리고 긴급 통화를 수신하도록 정책 설정을 구성할 수 있습니다.  
 

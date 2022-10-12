@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 국가 또는 지역 및 도시별로 사용자에게 할당할 수 있는 전화 번호를 검색하고 필요한 번호의 수량을 지정하는 방법을 알아보세요.
-ms.openlocfilehash: b13e2365a3d0fb50e7fef5c7dc6a174d1b7376ff
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: fce7c59ba1d680ca6e364713f611833773111648
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606197"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551512"
 ---
 # <a name="search-for-telephone-numbers-for-users"></a>사용자의 전화 번호 검색
 
@@ -36,9 +36,9 @@ Microsoft에서 제공한 전화 번호를 사용자에게 할당하려면 먼�
 
 운영자로 Microsoft를 선택하는 경우 사용자에게 필요한 전화 번호의 수량을 입력하여 Teams 관리 센터에서 번호를 가져올 수 있습니다. 페이지에서는 계속 획득할 수 있는 수량에 따라 수량을 자동으로 제한합니다. 연산자 연결 연산자를 선택하면 선택한 연산자의 방문 페이지로 이동하여 번호 순서를 완료합니다.
 
-전화 번호를 획득하고 관리하는 방법은 PSTN 연결 옵션인 Microsoft 통화 플랜, 운영자 연결, 운영자 연결 모바일(공개 미리 보기 릴리스) 또는 직접 라우팅에 따라 다릅니다.
+전화 번호를 획득하고 관리하는 방법은 PSTN 연결 옵션(Microsoft 통화 플랜, 운영자 연결, Teams Phone Mobile 또는 직접 라우팅)에 따라 다릅니다.
 
-이 문서는 [Microsoft 통화 플랜](#search-for-telephone-numbers-for-microsoft-calling-plans), [운영자 연결](#search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile) 및 [운영자 연결 모바일](#search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile) 적용됩니다. 모든 옵션에 대한 자세한 내용은 [조직의 전화 번호 관리를 참조하세요](/microsoftteams/manage-phone-numbers-landing-page).
+이 문서는 [Microsoft 통화 플랜](#search-for-telephone-numbers-for-microsoft-calling-plans), [운영자 연결](#search-for-telephone-numbers-for-operator-connect-or-teams-phone-mobile) 및 [Teams Phone Mobile](#search-for-telephone-numbers-for-operator-connect-or-teams-phone-mobile)에 적용됩니다. 모든 옵션에 대한 자세한 내용은 [조직의 전화 번호 관리를 참조하세요](/microsoftteams/manage-phone-numbers-landing-page).
 
 ## <a name="search-for-telephone-numbers-for-microsoft-calling-plans"></a>Microsoft 통화 플랜에 대한 전화 번호 검색
 
@@ -71,7 +71,7 @@ Microsoft에서 제공한 전화 번호를 사용자에게 할당하려면 먼�
 
 9. **전화 번호** 페이지로 돌아가면 할당할 전화 번호 또는 번호를 선택한 다음 **편집** 을 클릭하여 사용자에게 할당합니다.
 
-## <a name="search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile"></a>운영자 연결 또는 운영자 연결 모바일 대한 전화 번호 검색
+## <a name="search-for-telephone-numbers-for-operator-connect-or-teams-phone-mobile"></a>운영자 연결 또는 Teams Phone Mobile에 대한 전화 번호 검색
 
 1. **Microsoft Teams 관리 센터로** 이동합니다.
 

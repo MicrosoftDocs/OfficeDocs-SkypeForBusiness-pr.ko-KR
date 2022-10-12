@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 생성하기 위해 Microsoft Teams에 대해 인증된 책상 및 전화 회의 전화기를 알아봅니다.
-ms.openlocfilehash: 2ba2b46bb4f6544a6b2c4c4455634aca4c0feef5
-ms.sourcegitcommit: 75a988ce64e3b6668dde3475e5cbf1f26de961ba
+ms.openlocfilehash: c113bdb4cba7193f5e82d7e993c9146f1563f869
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 10/12/2022
-ms.locfileid: "68539657"
+ms.locfileid: "68551472"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 인증 Android 디바이스
 
@@ -160,6 +160,8 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 | 디바이스 모델  | 펌웨어 버전  | 포함된 제품 릴리스  |
 |:----------------|:--------------|:----------------------------|
+|Crestron UC-P8/I/C/CI     | `1.0.5.20`    | 2022년 업데이트 #3A |
+|Crestron UC-P10/I/C/CI | `1.0.5.20`    | 2022년 업데이트 #3A |
 |Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.17.764` | 2022년 업데이트 #3A    |
 |Audiocodes C435HD/C455HD/C470HD | `1.17.741` | 2022년 업데이트 #3A    |
 |Poly Trio C60 | `7.3.2.0174` | 2022년 업데이트 #3A |
@@ -371,6 +373,8 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 | 디바이스 모델  | 펌웨어 버전 | 포함된 제품 릴리스|
 |:--------------|:-----------------|:-------------------------|
+|Crestron UC-P10-TD     |1.0.0.57 |2022년 업데이트 #3A|
+|크레스트론 UC-P8-TD     |1.0.0.57 |2022년 업데이트 #3A|
 |Lenovo ThinkSmart 보기| `CD-18781Y.211116.114` |2021년 업데이트 #3  |
 |Lenovo ThinkSmart 보기| `CD-18781Y.210507.111` |2021년 업데이트 #2 |
 |Lenovo ThinkSmart 보기| `CD-18781Y.210228.109` |2021년 업데이트 #1 |

@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 description: 조직의 긴급 위치를 추가, 변경 또는 제거하는 방법을 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 37ccf72868819c515a2f7320b112f81f31f65a34
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 5ddaaf2e6c173b6546d337ebfc9f23464a52233c
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606717"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551502"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>조직의 응급 위치에 대한 장소 추가, 변경 또는 제거
 
@@ -34,7 +34,7 @@ ms.locfileid: "67606717"
 
 이 문서에서는 조직의 긴급 *위치를* 추가, 변경 또는 제거하는 방법을 설명합니다.
 
-이 문서는 Microsoft 통화 플랜, 운영자 연결, 운영자 연결 모바일(공개 미리 보기 릴리스) 및 직접 라우팅에 적용됩니다.
+이 문서는 Microsoft 통화 플랜, 운영자 연결, Teams Phone Mobile 및 직접 라우팅에 적용됩니다.
 
 Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 조직의 긴급 위치를 관리합니다.
   

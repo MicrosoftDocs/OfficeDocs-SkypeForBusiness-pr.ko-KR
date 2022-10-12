@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: 긴급 주소, 긴급 통화 라우팅 및 동적 긴급 통화에 대한 정보를 포함하여 긴급 통화에 대해 알아봅니다.
-ms.openlocfilehash: 2118bfd3f380ac5e5e2773f1f4ccdc703332893a
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 4cff6fee53d7799b8ef0ba721d0c50c8625017f5
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606567"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551822"
 ---
 # <a name="manage-emergency-calling"></a>긴급 통화 관리
 
@@ -51,7 +51,7 @@ ms.locfileid: "67606567"
 - **등록된 주소** - 각 사용자에게 할당된 긴급 주소입니다. 등록된 주소를 정적 긴급 주소 또는 레코드 주소라고도 합니다. (현재 등록된 주소는 직접 라우팅에 대해 지원되지 않습니다. 업데이트를 곧 다시 확인하세요.)
 
 >[!Note]
->Microsoft 통화 플랜, 운영자 연결, 운영자 연결 모바일(공개 미리 보기 릴리스) 또는 [PSTN 연결](pstn-connectivity.md)에 대한 직접 라우팅을 사용하는지 여부에 따라 긴급 통화를 관리하는 방법에는 몇 가지 차이점이 있습니다. 이러한 고려 사항은 이 문서 전체에서 설명합니다.
+>[PSTN 연결](pstn-connectivity.md)에 Microsoft 통화 플랜, 운영자 연결, Teams Phone Mobile 또는 직접 라우팅을 사용하는지 여부에 따라 긴급 통화를 관리하는 방법에는 몇 가지 차이점이 있습니다. 이러한 고려 사항은 이 문서 전체에서 설명합니다.
 
 ## <a name="emergency-address-validation"></a>긴급 주소 유효성 검사
 
@@ -179,23 +179,21 @@ Teams 운영자 Connect 사용자가 긴급 번호로 전화를 걸면 통화가
 
 - 긴급 발신자가 긴급 위치를 심사 센터로 업데이트할 수 없는 경우 발신자의 등록된 주소를 제공하는 PSAP로 통화가 전송됩니다.
 
-## <a name="considerations-for-operator-connect-mobile"></a>운영자 연결 모바일 대한 고려 사항
+## <a name="considerations-for-teams-phone-mobile"></a>Teams Phone Mobile에 대한 고려 사항
 
-다음 섹션에서는 운영자 연결 모바일 사용자에 대한 긴급 통화를 관리하는 방법을 설명합니다. 운영자 연결 모바일 비즈니스에 적합한 솔루션인지 확인하려면 [PSTN 연결 옵션을](pstn-connectivity.md) 참조하세요.
+다음 섹션에서는 Teams Phone Mobile 사용자에 대한 긴급 통화를 관리하는 방법을 설명합니다. Teams Phone Mobile이 비즈니스에 적합한 솔루션인지 확인하려면 [PSTN 연결 옵션을](pstn-connectivity.md) 참조하세요.
 
-**운영자 연결 모바일 공개 미리 보기 릴리스입니다.**
+### <a name="emergency-call-enablement-for-teams-phone-mobile"></a>Teams Phone Mobile에 대한 긴급 통화 사용
 
-### <a name="emergency-call-enablement-for-operator-connect-mobile"></a>운영자 연결 모바일 긴급 통화 사용
+각 Teams Phone Mobile 사용자는 긴급 통화에 대해 자동으로 사용하도록 설정됩니다. 긴급 통화는 지정된 번호로 Teams Phone Mobile Carrier로 자동으로 라우팅됩니다.
 
-각 운영자 연결 모바일 사용자는 긴급 통화에 대해 자동으로 사용하도록 설정됩니다. 긴급 통화는 지정된 번호에 대해 운영자 연결 모바일 이동 통신 사업자로 자동으로 라우팅됩니다.
-
-테넌트 관리자가 운영자 연결 모바일 사용자의 등록된 주소를 설정하는 기능은 운송업체가 고객 인벤토리에 업로드할 때 번호에 할당된 기능에 따라 달라집니다. 이 설정에 따라 테넌트 관리자는 사용자의 긴급 위치를 설정, 수정 또는 삭제할 수 있거나 필요하지 않을 수 있습니다.
+테넌트 관리자가 Teams Phone Mobile 사용자의 등록된 주소를 설정하는 기능은 운송업체가 고객 인벤토리에 업로드할 때 번호에 할당된 기능에 따라 달라집니다. 이 설정에 따라 테넌트 관리자는 사용자의 긴급 위치를 설정, 수정 또는 삭제할 수 있거나 필요하지 않을 수 있습니다.
 
 SIM 지원 스마트폰의 네이티브 다이얼러를 통해 전화를 걸 때 운영자는 지리 좌표 또는 셀 타워를 사용하여 긴급 위치를 대략적인 긴급 위치로 처리하여 도움을 받을 수 있습니다.
 
-### <a name="dynamic-emergency-calling-for-operator-connect-mobile"></a>운영자 연결 모바일 대한 동적 긴급 통화
+### <a name="dynamic-emergency-calling-for-teams-phone-mobile"></a>Teams Phone Mobile에 대한 동적 긴급 통화
 
-Operator Connect에 대한 동적 긴급 호출은 Teams 클라이언트의 현재 위치에 따라 긴급 통화를 구성하고 라우팅하는 기능을 제공합니다. 적절한 PSAP(공공 안전 응답 지점)로 자동 라우팅을 수행하거나 보안 데스크 직원에게 알리는 기능은 Teams 사용자의 사용 국가에 따라 달라집니다.
+Teams Phone Mobile에 대한 동적 긴급 통화는 Teams 클라이언트의 현재 위치에 따라 긴급 통화를 구성하고 라우팅하는 기능을 제공합니다. 적절한 PSAP(공공 안전 응답 지점)로 자동 라우팅을 수행하거나 보안 데스크 직원에게 알리는 기능은 Teams 사용자의 사용 국가에 따라 달라집니다.
 
 긴급 통화 라우팅을 위한 동적 위치는 다음과 같이 미국 지원됩니다.
 
@@ -207,9 +205,9 @@ Operator Connect에 대한 동적 긴급 호출은 Teams 클라이언트의 현�
 
 자세한 내용은 [동적 긴급 통화 계획 및 구성](configure-dynamic-emergency-calling.md)을 참조하세요.
 
-### <a name="emergency-call-routing-for-operator-connect-mobile"></a>운영자 연결 모바일 대한 긴급 통화 라우팅
+### <a name="emergency-call-routing-for-teams-phone-mobile"></a>Teams Phone Mobile에 대한 긴급 통화 라우팅
 
-Teams 운영자 연결 모바일 사용자가 Microsoft Teams 클라이언트를 사용하여 긴급 번호로 전화를 걸면 통화가 PSAP로 라우팅되는 방법은 다음과 같습니다.
+Teams Teams Phone Mobile 사용자가 Microsoft Teams 클라이언트를 사용하여 긴급 번호로 전화를 걸면 통화가 PSAP로 라우팅되는 방법은 다음과 같습니다.
 
 - 긴급 주소가 Teams 클라이언트에 의해 동적으로 결정되는지 여부입니다.
 

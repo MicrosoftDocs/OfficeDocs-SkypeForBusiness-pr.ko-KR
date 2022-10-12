@@ -18,22 +18,22 @@ f1.keywords:
 - NOCSH
 description: 이 문서에서는 조직의 사용자에 대한 긴급 위치를 할당하거나 변경하는 방법에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2562661a08c98c15a24a5e7db6a0f31dee864573
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: a43ca031b8787d62639e141c3f733acdb402f85a
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606607"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551654"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>사용자의 응급 위치 할당 또는 변경
 
-[PSTN 연결 옵션](pstn-connectivity.md)에 관계없이 Microsoft 통화 플랜, 운영자 연결, 운영자 연결 모바일(공개 미리 보기 릴리스) 또는 긴급&mdash;라우팅을 각&mdash;전화 번호 또는 사용자에게 할당해야 합니다.
+[PSTN 연결 옵션](pstn-connectivity.md)에 관계없이 Microsoft 통화 플랜, 운영자 연결, Teams Phone Mobile 또는 직접 라우팅을&mdash;선택&mdash;하려면 각 전화 번호 또는 사용자에게 긴급 위치를 할당해야 합니다.
 
 그러나 PSTN 연결 옵션에 따라 사용자의 응급 위치를 관리하고 할당하는 방법은 다를 수 있습니다. 자세한 내용은 [긴급 통화 관리를 참조하세요](what-are-emergency-locations-addresses-and-call-routing.md).
 
 이 문서에서는 사용자의 긴급 위치를 할당하거나 변경하는 방법을 설명합니다. 
 
-이 문서는 통화 플랜, 운영자 연결 및 운영자 연결 모바일(공개 미리 보기 릴리스)에 적용됩니다.
+이 문서는 통화 플랜, 운영자 연결 및 Teams Phone Mobile에 적용됩니다.
   
 Microsoft Teams 관리 센터에서 또는 PowerShell을 사용하여 사용자의 긴급 위치를 할당하거나 변경할 수 있습니다.
 

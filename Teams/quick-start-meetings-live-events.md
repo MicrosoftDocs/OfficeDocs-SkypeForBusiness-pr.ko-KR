@@ -22,12 +22,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc99785bf5d0450e99022f230af7564693c6da7f
-ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
+ms.openlocfilehash: 2321b4c16938b045cfe281d4cf25d7882d449d9b
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 10/12/2022
-ms.locfileid: "68532248"
+ms.locfileid: "68551862"
 ---
 # <a name="meetings-webinars-and-live-events"></a>모임, 웨비나 및 라이브 이벤트
 
@@ -54,7 +54,7 @@ Microsoft Teams에서는 모임, 웨비나, 라이브 이벤트 등 여러 가�
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
 > [!NOTE]
-> Microsoft Teams를 사용하여 온라인 이벤트를 배달하기 위한 역할별 지침을 얻으려면 [가상 이벤트 플레이북](https://adoption.microsoft.com/virtual-event-guidance/)을 참조하세요. Microsoft Tech Community [가상 이벤트 포럼](https://aka.ms/VirtualEventForum)에 참가할 수도 있습니다.
+> Microsoft Teams를 사용하여 온라인 이벤트를 배달하기 위한 역할별 지침을 얻으려면 [가상 이벤트 플레이북](https://aka.ms/VirtualEventPlaybook)을 참조하세요. Microsoft Tech Community [가상 이벤트 포럼](https://aka.ms/VirtualEventForum)에 참가할 수도 있습니다.
 
 > [!NOTE]
 > 다양한 플랫폼에서 Teams 모임 및 이벤트를 신속하게 구성하는 방법에 대한 자세한 내용은 [플랫폼별 Teams 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)을 참조하세요.

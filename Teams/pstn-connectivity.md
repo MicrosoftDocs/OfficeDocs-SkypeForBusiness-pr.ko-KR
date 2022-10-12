@@ -25,12 +25,12 @@ search.appverid: MET150
 description: Teams 통화(PSTN 연결) 옵션 및 조직에 대해 내릴 결정에 대해 자세히 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f547528f39e92be1660f670cad44c66726fe3ef2
-ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
+ms.openlocfilehash: 974418a6a1cf963b66b1f0a8667c5ed75b73f72b
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "67999643"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551702"
 ---
 # <a name="pstn-connectivity-options"></a>PSTN 연결 옵션
 
@@ -44,7 +44,7 @@ Microsoft는 전화 시스템을 통해 조직에 완전한 PBX(Private Branch E
 
 - [**연산자 연결**](#phone-system-with-operator-connect)입니다. Operator Connect를 사용하면 기존 통신 사업자가 Microsoft Operator Connect 프로그램에 참여하는 경우 PSTN 통화 및 SCC(세션 테두리 컨트롤러)를 관리할 수 있습니다.
 
-- [**운영자 연결 모바일**](#phone-system-with-operator-connect-mobile). 운영자 연결 모바일 사용자의 SIM 사용 전화 번호는 Teams 전화 번호이기도 합니다. 기존 이동 통신 사업자가 Microsoft 운영자 연결 모바일 프로그램에 참여하는 경우 PSTN 통화를 Teams로 가져오기 위한 서비스를 관리할 수 있습니다.  **운영자 연결 모바일 공개 미리 보기 릴리스입니다.**
+- [**Teams Phone Mobile**](#phone-system-with-teams-phone-mobile). Microsoft Teams 전화 Mobile에서는 사용자의 SIM 사용 전화 번호도 Teams 전화 번호입니다. 기존 이동 통신 사업자가 Microsoft Teams 전화 Mobile 프로그램에 참여하는 경우 PSTN 통화를 Teams로 가져오기 위한 서비스를 관리할 수 있습니다.  
 
 - [**직접 라우팅**](#phone-system-with-direct-routing)- SBC(Session Border Controller)를 전화 시스템에 연결하여 자체 PSTN 이동 통신 사업자를 사용할 수 있습니다.
 
@@ -93,21 +93,19 @@ Operator Connect를 사용하면 기존 이동 통신 사업자가 Microsoft Ope
 
 Operator Connect의 이점 및 요구 사항 및 이 프로그램에 참여하는 통신 사업자 목록에 대한 자세한 내용은 [플랜 운영자 연결을](operator-connect-plan.md) 참조하세요. Operator Connect를 구성하는 방법에 대한 자세한 내용은 [Operator Connect 구성](operator-connect-configure.md)을 참조하세요.
 
-## <a name="phone-system-with-operator-connect-mobile"></a>운영자 연결 모바일 전화 시스템
+## <a name="phone-system-with-teams-phone-mobile"></a>Teams Phone Mobile을 사용한 전화 시스템
 
-**운영자 연결 모바일 공개 미리 보기 릴리스입니다.**
+기존 이동 통신 사업자가 Microsoft Teams 전화 Mobile 프로그램에 참여하는 경우 PSTN 통화를 Teams로 가져오기 위한 서비스를 관리할 수 있습니다. Teams Phone Mobile을 사용하면 사용자의 SIM 사용 전화 번호도 Teams 전화 번호입니다.  사용자는 모바일 서비스와 책상 줄 모두에서 Microsoft Teams에서 단일 전화 번호를 사용할 수 있습니다.  
 
-기존 이동 통신 사업자가 Microsoft 운영자 연결 모바일 프로그램에 참여하는 경우 PSTN 통화를 Teams로 가져오기 위한 서비스를 관리할 수 있습니다. 운영자 연결 모바일 사용자의 SIM 사용 전화 번호는 Teams 전화 번호이기도 합니다.  사용자는 모바일 서비스와 책상 줄 모두에서 Microsoft Teams에서 단일 전화 번호를 사용할 수 있습니다.  
+서비스의 조합을 고려할 수 있습니다. 예를 들어 모바일 지원이 필요한 영업 및 현장 조직에 Teams Phone Mobile을 선택할 수 있지만, 책상 전화를 사용하는 현장 콜 센터 조직에 대한 또 다른 솔루션입니다. 
 
-서비스의 조합을 고려할 수 있습니다. 예를 들어 모바일 지원이 필요한 영업 및 현장 조직에 대한 운영자 연결 모바일 선택할 수 있지만, 휴대폰을 사용하는 현장 콜 센터 조직에 대한 또 다른 솔루션입니다. 
-
-다음과 같은 경우 운영자 연결 모바일 조직에 적합한 솔루션일 수 있습니다.
+다음과 같은 경우 Teams Phone Mobile이 조직에 적합한 솔루션일 수 있습니다.
 
 - Teams Phone에 대해 회사 소유의 기본 SIM 사용 휴대폰 번호를 단일 번호 솔루션으로 사용하려고 합니다.
-- 선호하는 운영자는 Microsoft 운영자 연결 모바일 프로그램의 참가자입니다.
+- 선호하는 운영자는 Microsoft Teams 전화 Mobile 프로그램에 참여합니다.
 - Teams에서 통화를 사용하도록 설정하는 새 운영자를 찾으려고 합니다.
 
-운영자 연결 모바일 혜택 및 요구 사항 및 이 프로그램에 참여하는 이동 통신 사업자에 대한 링크에 대한 자세한 내용은 [계획 운영자 연결 모바일](operator-connect-mobile-plan.md) 참조하세요. 운영자 연결 모바일 구성하는 방법에 대한 자세한 내용은 [운영자 연결 모바일 구성](operator-connect-mobile-configure.md)을 참조하세요.
+Teams Phone Mobile의 이점 및 요구 사항 및 이 프로그램에 참여하는 이동 통신 사업자에 대한 링크에 대한 자세한 내용은 [Teams Phone Mobile 계획을 참조하세요](operator-connect-mobile-plan.md). Teams Phone Mobile을 구성하는 방법에 대한 자세한 내용은 [Teams Phone Mobile 구성을 참조하세요](operator-connect-mobile-configure.md).
 
 ## <a name="phone-system-with-direct-routing"></a>직접 라우팅이 있는 전화 시스템
 
@@ -161,7 +159,7 @@ Operator Connect의 이점 및 요구 사항 및 이 프로그램에 참여하�
 | :------------| :-------| :-------| :-------| :-------| 
 | 통화 플랜 | -Microsoft는 PSTN 이동 통신 사업자 역할을 합니다.<br>- SCC를 구입하거나 관리할 필요가 없습니다.| Microsoft를 통해 가져옵니다.| -Microsoft에서 관리합니다. <br> -관리 번호 변환에 대한 사용자 다이얼 플랜을 구성합니다. | -Microsoft에서 사용하도록 설정 <br> -관리 주소를 등록합니다. <br> -동적 호출이 지원됨 |
 | 연산자 연결 | -Carrier는 PSTN 연결 및 SCC를 관리합니다. <br> - SCC를 구입하거나 관리할 필요가 없습니다. | -이동 통신 사업자를 통해 획득. <br> - 운송업체에서 관리하는 긴급 주소와 관련된 숫자입니다. | -운송업체에서 관리합니다. <br>-관리 번호 변환에 대한 사용자 다이얼 플랜을 구성합니다. | - 이동 통신 사업자가 사용하도록 설정합니다. <br> -관리 주소를 등록합니다. <br> -동적 호출이 지원됨 |
-| 운영자 연결 모바일 | -Carrier는 SIM-Enabled 모바일 번호, PSTN 연결 및 SCC를 관리합니다. <br> - SCC를 구입하거나 관리할 필요가 없습니다. | -이동 통신 사업자를 통해 획득. <br> -운송업체에서 관리하는 긴급 주소와 연결된 숫자입니다. | -운송업체에서 관리합니다. <br> 관리 번호 변환에 대한 사용자 다이얼 플랜을 구성합니다. |- 이동 통신 사업자가 사용하도록 설정합니다. <br> - 관리 주소를 등록합니다. <br> - 동적 호출이 지원됨 <br> - 캐리어는 네이티브 다이얼러 긴급 통화를 지원했습니다. |
+| Teams 휴대폰 모바일 | -Carrier는 SIM-Enabled 모바일 번호, PSTN 연결 및 SCC를 관리합니다. <br> - SCC를 구입하거나 관리할 필요가 없습니다. | -이동 통신 사업자를 통해 획득. <br> -운송업체에서 관리하는 긴급 주소와 연결된 숫자입니다. | -운송업체에서 관리합니다. <br> 관리 번호 변환에 대한 사용자 다이얼 플랜을 구성합니다. |- 이동 통신 사업자가 사용하도록 설정합니다. <br> - 관리 주소를 등록합니다. <br> - 동적 호출이 지원됨 <br> - 캐리어는 네이티브 다이얼러 긴급 통화를 지원했습니다. |
 | 직접 라우팅 | -타사 공급업체에서 구입한 인증된 SBC가 필요합니다.<br>- 전화 시스템에 SBC를 연결합니다.<br> -기존 PSTN 이동 통신 사업자를 사용합니다. | 이동 통신 사업자를 통해 획득. | - 관리자의 추가 구성이 필요합니다.<br>-관리 번호 변환에 대한 트렁크 다이얼 플랜을 구성합니다. <br>-LBR을 사용하여 통행료 우회를 제한할 수 있습니다. | - 관리자의 추가 구성이 필요합니다. <br>-등록된 주소는 지원되지 않습니다. <br>-동적 호출이 지원되지만 추가 구성이 필요합니다. |
 
 
@@ -181,7 +179,7 @@ Microsoft에는 두 가지 유형의 전화 번호, 즉 조직의 사용자에�
 
 - Operator Connect를 사용하여 전화 번호를 관리하는 방법에 대한 자세한 내용은 [Operator Connect를 사용하여 전화 번호 설정을](operator-connect-configure.md#set-up-phone-numbers) 참조하세요.
 
-- 운영자 연결 모바일 사용하여 전화 번호를 관리하는 방법에 대한 자세한 내용은 [운영자 연결 모바일 사용하여 전화 번호 설정을](operator-connect-mobile-configure.md#set-up-phone-numbers) 참조하세요.
+- Teams Phone Mobile을 사용하여 전화 번호를 관리하는 방법에 대한 자세한 내용은 [Teams Phone Mobile을 사용하여 전화 번호 설정을 참조하세요](operator-connect-mobile-configure.md#set-up-phone-numbers).
 
 - 직접 라우팅을 위해 전화 번호를 관리하는 방법에 대한 자세한 내용은 [전화 번호 구성 및 엔터프라이즈 음성 사용을](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice) 참조하세요.
 
@@ -191,7 +189,7 @@ Microsoft에는 두 가지 유형의 전화 번호, 즉 조직의 사용자에�
 
 - 통화 플랜의 경우 대부분의 통화 라우팅은 Microsoft 통화 계획 인프라에서 처리됩니다. 통화 권한 부여 및 통화 라우팅을 위해 번호 변환을 위해 사용자 다이얼 플랜을 구성합니다. 자세한 내용은 [다이얼 플랜이란?](what-are-dial-plans.md)을 참조하세요.
 
-- Operator Connect 및 운영자 연결 모바일 경우 대부분의 호출 라우팅은 통신 사업자가 관리합니다. 통화 권한 부여 및 통화 라우팅을 위해 번호 변환을 위해 사용자 다이얼 플랜을 구성합니다. 자세한 내용은 [다이얼 플랜이란?](what-are-dial-plans.md)을 참조하세요.
+- 운영자 연결 및 Teams Phone Mobile의 경우 대부분의 통화 라우팅은 통신 사업자가 관리합니다. 통화 권한 부여 및 통화 라우팅을 위해 번호 변환을 위해 사용자 다이얼 플랜을 구성합니다. 자세한 내용은 [다이얼 플랜이란?](what-are-dial-plans.md)을 참조하세요.
 
 - 직접 라우팅의 경우 음성 경로를 지정하고 사용자에게 음성 라우팅 정책을 할당하여 통화 라우팅을 구성해야 합니다. SCC(세션 테두리 컨트롤러)와의 상호 운용성을 보장하기 위해 트렁크 수준에서 번호 변환에 대한 다이얼 플랜을 구성할 수 있습니다. 자세한 내용은 [직접 라우팅에 대한 음성 라우팅 구성](direct-routing-voice-routing.md), [음성 라우팅 정책 관리](manage-voice-routing-policies.md) 및 [전화 번호 번역](direct-routing-translate-numbers.md)을 참조하세요. 
 
@@ -213,7 +211,7 @@ Microsoft에는 두 가지 유형의 전화 번호, 즉 조직의 사용자에�
 
 - 운영자 연결의 경우 각 사용자는 긴급 통화에 대해 자동으로 사용하도록 설정됩니다. 사용자에게 할당된 전화 번호와 연결된 등록된 긴급 주소가 있어야 합니다. Teams 클라이언트의 위치에 따라 동적 긴급 통화가 지원됩니다. 자세한 내용은 [Operator Connect에 대한 고려 사항을](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-operator-connect) 참조하세요. 
 
-- 운영자 연결 모바일 경우 각 사용자는 긴급 통화에 대해 자동으로 사용하도록 설정됩니다. 긴급 통화는 지정된 번호에 대해 운영자 연결 모바일 이동 통신 사업자로 자동으로 라우팅됩니다. Teams 클라이언트의 위치에 따라 동적 긴급 통화가 지원됩니다. 자세한 내용은 [운영자 연결 모바일 대한 고려 사항을](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-operator-connect-mobile) 참조하세요. 
+- Teams Phone Mobile의 경우 각 사용자는 긴급 통화에 대해 자동으로 사용하도록 설정됩니다. 긴급 통화는 지정된 번호로 Teams Phone Mobile Carrier로 자동으로 라우팅됩니다. Teams 클라이언트의 위치에 따라 동적 긴급 통화가 지원됩니다. 자세한 내용은 [Teams Phone Mobile에 대한 고려 사항을 참조하세요](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-teams-phone-mobile). 
 
 - 직접 라우팅의 경우 Teams 긴급 통화 라우팅 정책(TeamsEmergencyCallRoutingPolicy)을 사용하여 사용자에 대한 긴급 통화 정책을 정의해야 합니다. 정책은 긴급 번호 및 관련 라우팅 대상을 정의합니다. 등록된 응급 위치는 직접 라우팅 사용자에 대해 지원되지 않습니다. 동적 긴급 통화의 경우 긴급 통화를 라우팅하고 파트너 연결을 위해 추가 구성이 필요합니다. 자세한 내용은 [직접 라우팅에 대한 고려 사항을 참조하세요](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-direct-routing).
 

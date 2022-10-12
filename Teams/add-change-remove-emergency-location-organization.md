@@ -19,22 +19,22 @@ f1.keywords:
 - NOCSH
 description: 조직의 긴급 위치를 추가, 변경 또는 제거하는 방법을 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c0a195a221bff5b008f5754592450f4f2b1e42e6
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 23eb549592c8ead6983253d1a228020f3851e1a7
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606637"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551492"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>조직의 응급 위치 추가, 변경 또는 제거
 
-[PSTN 연결 옵션](pstn-connectivity.md)&mdash;에 관계없이 Microsoft 통화 플랜, 운영자 연결, 운영자 연결 모바일(공개 미리 보기 릴리스) 또는 직접 라우팅&mdash;긴급 위치를 전화 번호와 연결할 수 있습니다.
+[PSTN 연결 옵션](pstn-connectivity.md)&mdash;에 관계없이 Microsoft 통화 플랜, 운영자 연결, Teams Phone Mobile 또는 직접 라우팅&mdash;긴급 위치를 전화 번호와 연결할 수 있습니다.
 
 그러나 PSTN 연결 옵션에 따라 응급 위치 및 위치 요구 사항을 관리하는 방법이 달라질 수 있습니다. 자세한 내용은 [긴급 통화 관리를 참조하세요](what-are-emergency-locations-addresses-and-call-routing.md).
 
 이 문서에서는 조직의 긴급 위치를 추가, 변경 또는 제거하는 방법을 설명합니다. 
 
-이 문서는 Microsoft 통화 플랜, 운영자 연결, 운영자 연결 모바일(공개 미리 보기 릴리스) 및 직접 라우팅에 적용됩니다.
+이 문서는 Microsoft 통화 플랜, 운영자 연결, Teams Phone Mobile 및 직접 라우팅에 적용됩니다.
 
 Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 조직의 긴급 위치를 관리합니다.
 

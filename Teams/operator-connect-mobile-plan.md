@@ -1,5 +1,5 @@
 ---
-title: 운영자 연결 모바일 계획
+title: Teams Phone Mobile 계획
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -12,44 +12,44 @@ ms.collection:
 - m365initiative-voice
 ms.reviewer: crowe
 search.appverid: MET150
-description: 요구 사항 및 배포 계획과 같은 운영자 연결 모바일 대해 자세히 알아봅니다.
+description: 요구 사항 및 배포 계획과 같은 Teams Phone Mobile에 대해 자세히 알아봅니다.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53873df291ffcc0c1acbdf32a8e8ba6e6d13359b
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 90af338ca5896a9e11ed4ea2537080237885c71c
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606897"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551722"
 ---
-# <a name="plan-for-operator-connect-mobile"></a>운영자 연결 모바일 계획
+# <a name="plan-for-teams-phone-mobile"></a>Teams Phone Mobile 계획
 
-**운영자 연결 모바일 공개 미리 보기 릴리스입니다.** Microsoft 운영자 연결 모바일 프로그램에 참여하는 운영자 목록과 서비스를 사용할 수 있는 국가 또는 지역은 [Microsoft 365 운영자 연결 모바일](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile) 참조하세요.
+Microsoft Teams 전화 Mobile 프로그램에 참여하는 운영자 목록과 해당 서비스를 사용할 수 있는 국가 또는 지역은 [Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile)을 참조하세요.
 
-운영자 연결 모바일 Teams 및 전화 시스템과 PSTN(공중 전화망) 연결을 제공하는 또 다른 옵션입니다. 운영자 연결 모바일 사용자의 SIM 사용 전화 번호는 Teams 전화 번호이기도 합니다. 사용자는 모바일 서비스와 책상 줄 모두에서 Microsoft Teams에서 단일 전화 번호를 사용하고 네트워크와 장치 간에 원활하게 전환할 수 있습니다.
+Teams Phone Mobile은 Microsoft Teams 및 전화 시스템과 PSTN(공중 전화망) 연결을 제공하는 또 다른 옵션입니다. Teams Phone Mobile을 사용하면 사용자의 SIM 사용 전화 번호도 Teams 전화 번호입니다. 사용자는 모바일 서비스와 책상 줄 모두에서 Microsoft Teams에서 단일 전화 번호를 사용하고 네트워크와 장치 간에 원활하게 전환할 수 있습니다.
 
-운영자 연결 모바일 진정한 모바일 인력을 지원하는 조직의 전략에서 핵심적인 역할을 할 수 있으며, 엔터프라이즈급 보안 및 규정 준수 설정과 함께 보다 유연하고 효율적인 모바일 중심 사용자 환경을 제공할 수 있습니다.
+Teams Phone Mobile은 진정한 모바일 인력을 지원하여 엔터프라이즈급 보안 및 규정 준수 설정과 함께 보다 유연하고 효율적인 모바일 중심 사용자 환경을 제공하는 조직의 전략에서 핵심적인 역할을 할 수 있습니다.
 
-음성 서비스의 조합을 고려할 수 있습니다. 예를 들어 모바일 지원이 필요한 영업 및 현장 조직에 대한 운영자 연결 모바일 선택할 수 있지만, 휴대폰을 사용하는 현장 콜 센터 조직에 대한 또 다른 솔루션입니다. Teams 음성 솔루션 및 PSTN 연결 옵션에 대한 자세한 내용은 [Teams 음성 솔루션](cloud-voice-landing-page.md) 및 [PSTN 연결 옵션](pstn-connectivity.md) 계획을 참조하세요. 
+음성 서비스의 조합을 고려할 수 있습니다. 예를 들어 모바일 지원이 필요한 영업 및 현장 조직에 Teams Phone Mobile을 선택할 수 있지만, 책상 전화를 사용하는 현장 콜 센터 조직에 대한 또 다른 솔루션입니다. Teams 음성 솔루션 및 PSTN 연결 옵션에 대한 자세한 내용은 [Teams 음성 솔루션](cloud-voice-landing-page.md) 및 [PSTN 연결 옵션](pstn-connectivity.md) 계획을 참조하세요. 
 
-이 문서에서는 운영자 연결 모바일 이점 및 요구 사항에 대해 설명합니다. 다음과 같은 경우 운영자 연결 모바일 조직에 적합한 솔루션일 수 있습니다.
+이 문서에서는 Teams Phone Mobile 혜택 및 요구 사항에 대해 설명합니다. 다음과 같은 경우 Teams Phone Mobile이 조직에 적합한 솔루션일 수 있습니다.
 
 -   Teams Phone에 대해 회사 소유의 기본 SIM 사용 휴대폰 번호를 단일 번호 솔루션으로 사용하려고 합니다.
 
--   선호하는 운영자는 Microsoft 운영자 연결 모바일 프로그램의 참가자입니다.
+-   선호하는 운영자는 Microsoft Teams 전화 Mobile 프로그램에 참여합니다.
 
 -   Teams에서 통화를 사용하도록 설정하는 새 운영자를 찾으려고 합니다.
 
-운영자 연결 모바일 조직에 적합한 솔루션이라고 결정한 경우 이 문서를 읽은 후 [운영자 연결 모바일 구성](operator-connect-mobile-configure.md)을 참조하세요.
+Teams Phone Mobile이 조직에 적합한 솔루션이라고 판단되면 이 문서를 읽은 후 [Teams Phone Mobile 구성](operator-connect-mobile-configure.md)을 참조하세요.
 
 
 
 ## <a name="benefits"></a>이점
 
-기존 운영자가 운영자 연결 모바일 프로그램에 참여하는 경우 PSTN 통화를 Teams로 가져오기 위한 서비스를 관리할 수 있습니다. 운영자 연결 모바일 프로그램은 조직에 다음과 같은 이점을 제공합니다.
+기존 운영자가 Teams Phone Mobile 프로그램에 참여하는 경우 PSTN 통화를 Teams로 가져오기 위한 서비스를 관리할 수 있습니다. Teams Phone Mobile 프로그램은 조직에 다음과 같은 이점을 제공합니다.
 
 - **사용자는 모바일, 데스크 및 Microsoft Teams에 대해 하나의 비즈니스 제공 번호를 가지고 있습니다**. 사용자는 모든 위치, 디바이스 또는 네트워크에서 유연하고 안전하게 작업할 수 있습니다.  
 
@@ -65,7 +65,7 @@ ms.locfileid: "67606897"
 
 ## <a name="features"></a>기능
 
-운영자 연결 모바일 사용자는 다음과 같은 기존 [전화 시스템 기능을](here-s-what-you-get-with-phone-system.md) 활용할 수 있습니다.
+Teams Phone Mobile 사용자는 다음과 같은 기존 [전화 시스템 기능을](here-s-what-you-get-with-phone-system.md) 활용할 수 있습니다.
 
 - **Teams를 사용하여 SIM 사용 전화 번호 통화** 사용자는 단일 비즈니스 소유 SIM 지원 휴대폰 번호를 사용하여 스마트폰의 네이티브 다이얼러 또는 Teams 엔드포인트에서 전화를 걸고 받을 수 있습니다. 사용자가 스마트폰의 네이티브 다이얼러 또는 Teams 엔드포인트에서 아웃바운드 전화를 걸면 모바일 또는 회사 서비스 번호를 표시할 수 있습니다. 수신 전화는 스마트폰 네이티브 다이얼러를 울리고 동시에 활성 Teams 클라이언트를 울릴 수 있습니다.
 
@@ -92,11 +92,11 @@ ms.locfileid: "67606897"
 조직에 적격 Microsoft 365 서비스가 있는지 확인합니다.
 
 - Teams 전화 시스템 SKU/E5
-- 추가 기능 SKU 운영자 연결 모바일
+- Teams Phone Mobile 추가 기능 SKU
 
-운영자 연결 모바일 전화 번호 할당을 사용하도록 설정하려면 사용자에게 다음을 확인합니다.
+Teams Phone Mobile에서 전화 번호 할당을 사용하도록 설정하려면 사용자에게 다음을 확인합니다.
 
-- Teams Phone 및 운영자 연결 모바일 라이선스가 있어야 합니다. 자세한 내용은 [전화 시스템이란?](what-is-phone-system-in-office-365.md) 을 참조하고 [사용자에게 Teams 추가 기능 라이선스를 할당합니다](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+- Teams Phone 및 Teams Phone Mobile 라이선스가 있어야 합니다. 자세한 내용은 [전화 시스템이란?](what-is-phone-system-in-office-365.md) 을 참조하고 [사용자에게 Teams 추가 기능 라이선스를 할당합니다](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 - Teams Phone에 사용할 SIM 사용 전화 번호를 지원하는 선호하는 운영자가 있는 적격 모바일 구독을 갖습니다. 운영자가 전화 번호를 Microsoft 365 테넌트에 업로드합니다.
 

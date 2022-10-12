@@ -17,18 +17,18 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 keywords: ''
-ms.openlocfilehash: 33b55bfbff72cb2ddcd79b9620b2051ae0bd52fb
-ms.sourcegitcommit: 957502f999512a32794a9f99e292588d66ed8a33
+ms.openlocfilehash: dec612dd21ba72f984251db3e479040d41070ddc
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "67885622"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551812"
 ---
 # <a name="step-4---select-devices-that-enable-your-space-for-hybrid-meetings"></a>4단계 - 하이브리드 모임에 공간을 사용하도록 설정하는 디바이스 선택
 
 :::image type="content" source="media/hybrid-audience-audiovisual-small.png" alt-text="오디오 시각적 개체 대상" border="false"::: :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro 대상 그룹" border="false"::: :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="기능 대상 그룹" border="false":::
 
-Teams 룸 공간에 대해 선택하는 장치는 객실의 디자인과 예산에 따라 달라집니다. 이 문서는 Teams 룸 공간을 만드는 데 필요한 디바이스, 적합한 항목을 선택하는 데 도움이 되는 고려 사항 및 사용 가능한 옵션을 확인할 수 있도록 디바이스 예제를 이해하는 데 도움이 됩니다.
+기존 Microsoft Teams 룸 또는 서명 Microsoft Teams 룸 공간에 대해 선택하는 장치는 객실의 디자인과 예산에 따라 달라집니다. 이 문서는 Teams 룸 공간을 만드는 데 필요한 디바이스, 적합한 항목을 선택하는 데 도움이 되는 고려 사항 및 사용 가능한 옵션을 확인할 수 있도록 디바이스 예제를 이해하는 데 도움이 됩니다.
 
 최소한 다음 각각이 필요합니다.
 
@@ -164,9 +164,9 @@ Teams 룸 콘텐츠 카메라에 사용할 수 있는 모든 옵션을 보려면
 - [Yamaha ADECIA 유선 탁상 솔루션](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/yamaha-adecia-wired-tabletop-solution/1049)
 - [팔레 천장 마이크와 Biamp 중간 객실 오디오](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-medium-room-audio-with-parle-ceiling-mic/584)
 
-# <a name="hybrid-optimized"></a>[하이브리드 최적화](#tab/hybrid)
+# <a name="signature-teams-rooms"></a>[서명 Teams 룸](#tab/signature)
 
-## <a name="touchscreen-console-and-compute-module"></a>터치 스크린 콘솔 및 컴퓨팅 모듈
+## <a name="signature-teams-rooms-touchscreen-consoles-and-compute-modules"></a>터치 스크린 콘솔 및 컴퓨팅 모듈을 Teams 룸 서명
 
 터치 스크린 콘솔은 모임에 참가하고 관리할 때 사용자가 상호 작용하는 장치입니다. 컴퓨팅 모듈은 Teams 룸의 브레인이며 Windows 10 Enterprise IoT를 실행합니다.
 
@@ -183,11 +183,11 @@ Teams 룸 콘텐츠 카메라에 사용할 수 있는 모든 옵션을 보려면
 - [Lenovo ThinkSmart Core + Controller](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-core-controller/948)
 - [Logitech 탭](https://www.logitech.com/products/video-conferencing/room-solutions/tap.939-001950.html)
 
-## <a name="hybrid-optimized-displays"></a>하이브리드 최적화 디스플레이
+## <a name="signature-teams-rooms-displays"></a>서명 Teams 룸 표시
 
 디스플레이는 콘텐츠에 생명을 불어넣으며 대형 평면 TV 또는 화면에 프로젝터를 설치할 수 있습니다. 콘텐츠와 비디오 피드가 결합된 단일 디스플레이를 포함하거나 한 디스플레이의 콘텐츠와 다른 디스플레이의 비디오 피드를 사용하여 이중 디스플레이를 설정할 수 있습니다. 디스플레이 중 하나는 대화형 수동 입력을 위해 터치를 사용하도록 설정할 수도 있습니다.
 
-:::image type="content" source="media/hybrid-optimized-display.png" alt-text="앞줄, 채팅 및 메모를 표시하는 Teams 룸 표시":::
+:::image type="content" source="media/signature-teams-rooms-display.png" alt-text="앞줄, 채팅 및 노트를 보여 주는 서명 Teams 룸 표시":::
 
 
 ### <a name="display-type"></a>표시 유형
@@ -202,15 +202,15 @@ Teams 룸 콘텐츠 카메라에 사용할 수 있는 모든 옵션을 보려면
 
 ### <a name="display-functions"></a>함수 표시
 
-하이브리드 최적화 Microsoft Teams 룸 다른 모든 Microsoft Teams 룸 솔루션과 마찬가지로 적절한 작업을 위해 다음 기능을 수용할 수 있는 디스플레이를 사용해야 합니다.
+서명 Teams 룸 다른 모든 Microsoft Teams 룸 솔루션과 마찬가지로 적절한 작업을 위해 다음 기능을 수용할 수 있는 디스플레이를 사용해야 합니다.
 
 - HDMI 동기화에 따라 절전 모드에서 절전 모드 해제 및 빠른 절전 모드 해제
-  - 프로젝터의 경우 사용자 개입 없이 자동 준비 및 대기 기간을 지원해야 합니다.
+  - 프로젝터의 경우 사용자 개입 없이 자동 준비 및 냉각 기간을 지원해야 합니다.
 - 디스플레이는 Microsoft Teams 룸 디자인에 필요한 적절한 EDID 및 해상도를 지원해야 합니다.
 
 ### <a name="display-placement"></a>디스플레이 배치
 
-하이브리드 최적화 회의실에서는 테이블 바로 맞은편에 있는 모든 회의실 내 모임 참가자 앞에 디스플레이를 배치해야 합니다.
+서명 Teams 룸 테이블 바로 맞은편에 있는 모든 회의실 내 모임 참가자 앞에 디스플레이를 배치해야 합니다.
 
 디스플레이의 가로 가운데 선은 테이블과 같은 가운데 선에 맞춰야 합니다.
 
@@ -218,11 +218,11 @@ Teams 룸 콘텐츠 카메라에 사용할 수 있는 모든 옵션을 보려면
 
 ### <a name="display-count"></a>표시 횟수
 
-하이브리드 최적화 공간을 사용하려면 디스플레이가 단일 와이드 가로 세로 비율 디스플레이 또는 실내 모임 참가자가 볼 때 단일 디스플레이의 효과를 얻을 수 있는 혼합된 디스플레이 조합이 있어야 합니다.
+서명 Teams 룸 디스플레이는 단일 와이드 가로 세로 비율 디스플레이 또는 회의실 내 모임 참가자가 볼 때 단일 디스플레이의 효과를 얻을 수 있는 혼합된 디스플레이 조합이 있어야 합니다.
 
 ### <a name="display-options"></a>표시 옵션
 
-다음은 하이브리드 최적화 Teams 룸 대한 디스플레이의 예입니다.
+다음은 서명 Teams 룸 대한 표시의 예입니다.
 
 - [ELPLX01S Ultra Short Throw 렌즈를 사용하는 Epson EB-PU1007 프로젝터](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
 - [Da-Lite UTB 윤곽 화면 | HD 프로그레시브 0.6 화면 | 시네마스코프 138" 대각선](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
@@ -233,7 +233,7 @@ Teams 룸 콘텐츠 카메라에 사용할 수 있는 모든 옵션을 보려면
 
 카메라는 가능한 한 눈 높이에 가까운 모든 회의실 참가자를 캡처하기 위해 방 전면 투영 아래 방의 전면에 배치하지만 테이블의 상단 위에 배치해야합니다.
 
-다음은 하이브리드 최적화 Teams 룸 대한 기본 카메라의 예입니다.
+다음은 서명 Teams 룸 대한 기본 카메라의 예입니다.
 
 - [자브라 파나캐스트 50](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/jabra-panacast-50-series/922)
 - [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)
@@ -269,7 +269,7 @@ Teams 룸 콘텐츠 카메라에 사용할 수 있는 모든 옵션을 보려면
 
 사용 중인 디바이스 또는 디바이스의 인증된 범위 내에서 모든 회의실 참가자에게 적용 범위를 제공하려면 스피커를 배치해야 합니다.
 
-다음은 하이브리드 최적화 Teams 룸 마이크 및 스피커의 예입니다.
+다음은 서명 Teams 룸 마이크 및 스피커의 예입니다.
 
 - [Lenovo ThinkSmart Bar](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 - [Parle Ceiling 마이크를 사용하는 Biamp Devio 회의실 허브](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)

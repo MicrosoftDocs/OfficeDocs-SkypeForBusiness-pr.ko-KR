@@ -1,5 +1,5 @@
 ---
-title: 3단계 - 하이브리드 최적화 모임 공간 디자인 및 빌드 또는 기존 공간 업데이트
+title: 3단계 - 서명 Teams 룸 모임 공간 디자인 및 빌드 또는 기존 공간 업데이트
 ms.author: dstrome
 author: dstrome
 f1.keywords:
@@ -17,18 +17,18 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 keywords: ''
-ms.openlocfilehash: 7aace472fb90ed1b0831d8fa74614322f398ce2b
-ms.sourcegitcommit: 957502f999512a32794a9f99e292588d66ed8a33
+ms.openlocfilehash: 1c5e14c01693bf0d8fa38ca5eb18f062cf72d6d6
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "67885702"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551712"
 ---
 # <a name="step-3---design-a-new-meeting-space-or-update-an-existing-space"></a>3단계 - 새 모임 공간 디자인 또는 기존 공간 업데이트
 
 이 문서는 사용자에게 Microsoft Teams 룸 솔루션 및 디바이스를 사용하여 모임 공간을 최적화하는 방법을 안내하기 위한 것입니다. 여기에는 Teams 룸 디바이스 및 솔루션 사용, 레이아웃 및 사양에 대한 정보가 포함됩니다.
 
-하이브리드 모임에 최적화된 하이브리드 최적화 모임 공간을 디자인하고 빌드할지, 아니면 회의 테이블, 디스플레이 등 일부 구성 요소가 이미 있는 기존 기존 공간을 업데이트할지 선택합니다.
+서명 Microsoft Teams 룸 모임 공간을 디자인하고 빌드할지 또는 회의 테이블, 디스플레이 등 일부 구성 요소가 이미 있는 기존 기존 공간을 업데이트할지 선택합니다.
 
 # <a name="traditional"></a>[전통적인](#tab/traditional)
 
@@ -70,19 +70,19 @@ Microsoft Teams 룸 기존 모임 공간에 배포할 수 있습니다. 이러�
 
 대부분의 참가자는 개인 장치를 통해 Teams 모임에 참가하여 이러한 유형의 회의실 내에서 콘텐츠를 공유하도록 선택합니다. 그러나 회의실 내 로컬 비디오 프레젠테이션은 모임 통화에 참가할 수 없는 사용자를 위해 쉽게 액세스할 수 있는 방식으로 테이블에서 사용할 수 있어야 합니다.
 
-# <a name="hybrid-optimized"></a>[하이브리드 최적화](#tab/hybrid)
+# <a name="signature-teams-rooms"></a>[서명 Teams 룸](#tab/signature)
 
-하이브리드 최적화 Microsoft Teams 룸 조직 내의 다른 모든 모임 공간을 대체하는 것이 아니라 Microsoft Teams를 활용하는 기존 모임 공간을 보완하는 역할을 합니다. 원격 모임 참가자와의 대면 상호 작용이 가장 가치 있는 공간 및 위치에 조직 내에서 전략적으로 배포해야 합니다.
+서명 Teams 룸 조직 내의 다른 모든 모임 공간을 대체하는 것이 아니라 Microsoft Teams를 활용하는 기존 모임 공간을 보완하는 역할을 합니다. 원격 모임 참가자와의 대면 상호 작용이 가장 가치 있는 공간 및 위치에 조직 내에서 전략적으로 배포해야 합니다.
 
 :::image type="content" source="media/hybrid-enhanced-room.png" alt-text="이중 화면 디스플레이 앞에 곡선 테이블이 있는 향상된 회의실 이미지입니다.":::
 
-## <a name="hybrid-optimized-room-size-and-capacity"></a>하이브리드 최적화 객실 크기 및 용량
+## <a name="signature-teams-rooms-size-and-capacity"></a>서명 Teams 룸 크기 및 용량
 
 :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="시설 대상 그룹" border="false":::
 
 이 공간은 6~8명이 편안하게 수용할 수 있습니다. 너비 약 25피트, 깊이 14피트의 공간이 필요합니다.
 
-## <a name="hybrid-optimized-room-furniture"></a>하이브리드 최적화 객실 가구
+## <a name="signature-teams-rooms-furniture"></a>시그니처 Teams 룸 가구
 
 :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="시설 대상 그룹" border="false":::
 
@@ -90,13 +90,13 @@ Microsoft Teams 룸 기존 모임 공간에 배포할 수 있습니다. 이러�
 
 이 객실은 높이가 30cm 또는 76cm인 전통적인 회의실 테이블을 갖추고 있습니다.
 
-:::image type="content" source="media/emr10.png" alt-text="[하이브리드 최적화 회의실 디자인의 청사진입니다.":::
+:::image type="content" source="media/emr10.png" alt-text="[시그니처 Teams 룸 디자인의 청사진입니다.":::
 
-## <a name="hybrid-optimized-equipment-mounting"></a>하이브리드 최적화 장비 탑재
+## <a name="signature-teams-rooms-equipment-mounting"></a>서명 Teams 룸 장비 탑재
 
 :::image type="content" source="media/hybrid-audience-audiovisual-small.png" alt-text="오디오 시각적 개체 대상 그룹" border="false"::: :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="기능 대상 그룹" border="false":::
 
-위의 이미지에 표시된 하이브리드 최적화 회의실에는 최상의 하이브리드 모임 환경을 만들기 위해 Teams 룸 디바이스의 특정 배치가 필요합니다.
+위의 이미지에 표시된 서명 팀 룸에는 최상의 하이브리드 모임 환경을 만들기 위해 Teams 룸 디바이스의 특정 배치가 필요합니다.
 
 | 구성 요소      | 권장 사항                                                                                                                                                                                                                                                                                                                                                             |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
