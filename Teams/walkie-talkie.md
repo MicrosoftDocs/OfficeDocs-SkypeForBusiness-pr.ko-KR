@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cbce17ad584fdd4910f11129d2b246e4644e1583
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 0475fd161d3b53a8fc60d3a1419d20e3de2bfada
+ms.sourcegitcommit: bb428cd5805151736f0a6786d737f67f2b3fc918
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377306"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68557481"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams의 Walkie Talkie 앱
 
@@ -111,6 +111,8 @@ Teams의 워키 토키에는 인터넷 연결이 필요합니다. 최적의 환�
   - 수동 설정: Teams가 설치된 상태에서 **설정** > **단추** 로 이동합니다. 전용 단추(1 또는 2)에서 **길게 누른** 다음 **PTT 앱을** 선택합니다. **사용자 지정** 옆에 있는 파란색 휠을 선택하고 **Teams** 를 선택합니다.
 - 교세라 [듀라포스 울트라 5G](https://kyoceramobile.com/duraforce-ultra-5g/) 및 [DuraSport 5G](https://kyoceramobile.com/durasport-5g/)
   - 수동 설정: Teams가 설치된 상태에서 **설정** > **프로그래밍 가능 키** 로 이동합니다. **PTT 키를** 선택하거나 디바이스에 따라 **길게 누르고** **Teams** 를 선택합니다.
+- Honeywell [CT30 XP](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct30-xp-handheld-computer), [CT30 XP HC](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct30-xp-hc-mobile-computer), [CT45 XP](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct45-ct45-xp), [EDA51](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/scanpal-eda51-handheld-computer), [EDA52](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/eda52-handheld-computer), [EDA52 HC](https://sps.honeywell.com/gb/en/products/productivity/mobile-computers/healthcare-computers/scanpal-eda52-healthcare-mobile-computer), 
+  - 수동 설정: Teams가 설치되어 있는 경우 전용 PTT 단추는 기본적으로 Walkie Talkie에서 작동합니다.
 - 삼성 [갤럭시 XCover 프로](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), [갤럭시 XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [갤럭시 탭 활성 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
   - 수동 설정: Teams가 설치된 상태에서 **설정** > **고급 기능** > **XCover/활성 키** 로 이동합니다. 앱에서 **제어 XCover 키를** 켜고 **Teams** 를 선택합니다.
   - [MDM 설정](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
