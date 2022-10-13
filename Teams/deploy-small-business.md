@@ -18,19 +18,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 32b55c026daad08aab22f1621190e2768e0b26e5
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: 94c03224f25f1cd72c7e283411b0b1de6c38580e
+ms.sourcegitcommit: 2dab123ad74fcad4db5390e9b745f72497a05882
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808669"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "68560258"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>중소 기업 Microsoft Teams 설정
 
 Teams를 사용자 지정하는 방법에는 여러 가지가 있습니다. 다음 섹션에서는 각 Teams 워크로드(**채팅, 팀 및 채널**, **모임 및 회의** 및 **음성 솔루션**)를 설정하는 방법을 보여 줍니다. 각 워크로드를 설정하는 순서는 사용자가 결정합니다. 먼저 채팅, 팀 및 채널 워크로드를 먼저 설정하는 것이 좋지만, 모임 및 회의나 Cloud Voice으로 설정할 수 있습니다. 선택은 자유입니다.
 
 > [!NOTE]
-> 아직 수행하지 않은 경우 파일럿을 사용하여 Teams 배포를 시작하는 것이 좋습니다. 파일럿을 통해 사용자와 일부 얼리어답터는 계획 및 최종 배포 전에 Teams와 Teams의 기능에 익숙해질 수 있습니다. 파일럿을 시작하는 방법에 대한 자세한 내용은 [Microsoft Teams 시작](get-started-with-teams-quick-start.md)을 참조하세요.
+> If you haven't done so already, we strongly suggest that you begin your Teams deployment with a pilot. A pilot will allow you and a few early adopters to get familiar with Teams and its features before your planning and eventual roll out. For more information about how to start your pilot, check out [Get started with Microsoft Teams](get-started-with-teams-quick-start.md).
 
 Teams를 광범위하게 배포하기 전에 [준비되었는지 확인](get-started-with-teams-quick-start.md#make-sure-youre-ready)에서 항목을 검토하여 조직이 준비되었는지 확인해야 합니다.
 
@@ -73,10 +73,9 @@ Teams를 광범위하게 배포하기 전에 [준비되었는지 확인](get-sta
 > [!TIP]
 > 모임 및 이벤트는 Microsoft Learn에서 [Microsoft Teams 모임, 화의 및 이벤트 관리](/training/modules/m365-teams-collab-manage-meetings) 모듈을 완료하여 더 익숙해질 수 있습니다.
 
-Teams에서는 모임이 기본적으로 활성화되어 있지만, 이끌이 및 참가자의 모임 환경을 제어할 수 있습니다. 또한 모임 전이나 모임 중에 허용된 사람과 허용되지 않는 사람에 대한 정책을 설정할 수 있습니다. 자세한 내용에 대해서는 다음 문서를 확인하세요.
+Teams에서는 모임이 기본적으로 활성화되어 있지만, 이끌이 및 참가자의 모임 환경을 제어할 수 있습니다. 또한 모임 전이나 모임 중에 허용된 사람과 허용되지 않는 사람에 대한 정책을 설정할 수 있습니다. 자세한 내용은 다음 문서를 참조하세요.
 
 - [관리자 빠른 시작 - Microsoft Teams의 모임 및 라이브 이벤트](quick-start-meetings-live-events.md)
-- [중소 기업을 위한 오디오 회의 설정](audio-conferencing-smb.md)
 
 ### <a name="teams-phone-with-calling-plan"></a>통화 플랜이 포함된 Teams 전화
 
@@ -86,7 +85,7 @@ Teams에서는 모임이 기본적으로 활성화되어 있지만, 이끌이 �
 
 ## <a name="deploy-clients"></a>클라이언트 배포
 
-Teams를 사용할 준비가 되면 Windows, Mac, Linux PC나Android, iOS 장치에 Teams 클라이언트를 설치할 수 있습니다. 사용자는 <https://teams.microsoft.com/downloads>에서 Teams 클라이언트를 직접 다운로드할 수 있습니다.
+When you're ready for your users to start using Teams, they can install the Teams client on their Windows, Mac, or Linux PC, or on their Android or iOS device. Users can download the Teams client directly from <https://teams.microsoft.com/downloads>.
 
 Teams를 사용할 모든 사람에게 Teams 라이선스가 있는지 확인 Teams 라이선스 할당에 대한 자세한 내용은 [Teams에 대한 사용자 액세스 관리](user-access.md#using-the-microsoft-365-admin-center)를 참조하세요.
 

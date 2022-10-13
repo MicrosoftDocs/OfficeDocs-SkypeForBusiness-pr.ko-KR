@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 생성하기 위해 Microsoft Teams에 대해 인증된 책상 및 전화 회의 전화기를 알아봅니다.
-ms.openlocfilehash: c113bdb4cba7193f5e82d7e993c9146f1563f869
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 6e90268b777c1db3806d8e77bc29e131a705c1f2
+ms.sourcegitcommit: 2dab123ad74fcad4db5390e9b745f72497a05882
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551472"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "68560268"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 인증 Android 디바이스
 
@@ -404,7 +404,6 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 |Logitech Tap Scheduler | `1.7.200` |2022년 업데이트 #3A  |
 |Yealink RoomPanel | ` 147.15.0.33 ` | 2022년 업데이트 #3 |
 |깔끔한 패드 패널 | `NFA1.20220512.2210` | 2022년 업데이트 #2  |
-|Crestron Touchpanel TSS-1070 / TSS-770 | `2.001.0058 ` | 2022년 업데이트 #1|
 |Logitech Tap Scheduler | `1.6.762` |2022년 업데이트 #2  |
 |깔끔한 패드 패널 |NFA1.20220512.2158 | 2022년 업데이트 #2 |
 |Logitech Tap Scheduler | `1.6.215` |2022년 업데이트 #1A  |
