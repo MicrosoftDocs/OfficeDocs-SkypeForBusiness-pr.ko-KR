@@ -23,16 +23,16 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: 86a63a47a47d438225046174104f79914f051c71
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
-ms.translationtype: HT
+ms.openlocfilehash: 04863f6dd914b935b68120fd5c2df6105770c634
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615644"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576454"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams에서의 채팅, 팀, 채널 & 앱
 
-Teams는 조직에 즉시 사용할 수 있는 우수한 협업 환경을 제공하며, 대부분의 조직에서는 기본 설정이 사용된다는 사실을 알게 됩니다. 이 자료에서는 조직의 프로필 및 비즈니스 요구 사항에 따라 기본 설정을 변경할지 여부를 결정하는 데 도움이 되며, 각 변경 사항을 안내합니다. Microsoft는 설정을 두 그룹으로 나누었고, 첫 번째 그룹은 [사용자가 수행할 가능성이 더 높은 변경사항](#core-deployment-decisions)의 핵심 세트부터 시작합니다. 두 번째 그룹에는 조직의 필요에 따라 구성할 수 있는 [추가 설정](#additional-deployment-decisions)이 포함됩니다.
+Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
 
 시작하려면 당사의 짧은 Teams 채팅, 팀 그리고 채널 비디오(4:30분)를 시청하세요.
 
@@ -40,17 +40,17 @@ Teams는 조직에 즉시 사용할 수 있는 우수한 협업 환경을 제공
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
-[Teams용 어드바이저](use-advisor-teams-roll-out.md)를 사용하여 Microsoft Teams를 출시할 수 있습니다. Teams용 어드바이저는 Teams 롤아웃을 안내합니다. Microsoft 365 환경을 평가하고 Teams를 성공적으로 배포하기 전에 업데이트하거나 수정해야 할 수 있는 가장 일반적인 구성을 식별합니다.
+You can use [Advisor for Teams](use-advisor-teams-roll-out.md) to help you roll out Microsoft Teams. Advisor for Teams walks you through your Teams rollout. It assesses your Microsoft 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams.
 
 > [!TIP]
-> 초기 팀 롤아웃에 플래너와 같은 응용프로그램을 포함하는 것이 좋습니다. 팀 채택을 추진할 때 다른 [애플리케이션, 봇 및 커넥터](deploy-apps-microsoft-teams-landing-page.md)를 추가합니다.
+> 초기 Teams 롤아웃을 진행 시 Planner와 같은 추천 앱을 포함하는 것이 좋습니다. Teams 채택을 추진할 때 다른 Teams [앱을](deploy-apps-microsoft-teams-landing-page.md) 추가합니다.
 
  > [!Note]
  > 여러 플랫폼에서의 Teams 기능에 대한 자세한 내용은 [플랫폼별 Teams 기능을 참조](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)하세요.
 
 ## <a name="chat-deployment-prerequisites"></a>채팅 배포 전제 조건
 
-조직 전체에 Teams를 배포하기 전에 시간을 내어 환경이 Teams를 위해 준비가 되었는지 확인합니다. [Teams를 위해 조직의 네트워크 준비](prepare-network.md)를 검토하고 필요한 환경을 변경합니다.
+Before you roll out Teams across your organization, take time to confirm that your environment is ready for Teams. Review [Prepare your organization's network for Teams](prepare-network.md) and make any required changes to your environment.
 
 |본인에게 질의하기|작업 |
 |------------|-------|
@@ -62,7 +62,7 @@ Teams는 조직에 즉시 사용할 수 있는 우수한 협업 환경을 제공
 
 ### <a name="teams-administrators"></a>Teams 관리자
 
-Teams는 조직의 팀을 관리하는 데 사용할 수 있는 일련의 사용자 지정 관리자 역할을 제공합니다. 역할은 관리자에게 다양한 기능을 제공합니다.
+Teams provides a set of custom administrator roles that can be used to manage Teams for your organization. The roles provide various capabilities to administrators.
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
@@ -72,7 +72,7 @@ Teams는 조직의 팀을 관리하는 데 사용할 수 있는 일련의 사용
 
 ### <a name="teams-owners-and-members"></a>Teams 소유자 및 구성원
 
-Teams에서는 관리자 역할 외에도 소유자 및 구성원 사용자 역할을 할당하고 채널 내에서 특정 작업을 수행할 수 있는 사용자를 제어할 수 있는 진행자 기능(조정 기능이 설정된 경우)을 선택적으로 제공할 수 있습니다. 중재를 통해 채널에서 새 게시물을 시작할 수 있는 사용자를 제어하고, 진행자로 팀 구성원을 추가 및 제거하고, 팀 구성원이 기존 채널 메시지에 회신할 수 있는지 여부를 제어할 수 있습니다.
+In addition to administrator roles, Teams lets you assign owner and member user roles, and selectively give them moderator capabilities (if moderation has been set up) to control who can perform certain actions within a channel. Moderation allows you to control who can start new posts in a channel, add and remove team members as moderators, and control whether team members can reply to existing channel messages.
 
 |본인에게 질의하기|작업 |
 |------------|-------|
@@ -82,7 +82,7 @@ Teams에서는 관리자 역할 외에도 소유자 및 구성원 사용자 역�
 
 ### <a name="messaging-policies"></a>메시징 정책
 
-메시징 정책은 Teams 내 사용자가 사용할 수 있는 대화 및 채널 메시징 기능을 제어합니다. 예를 들어 보낸 메시지를 편집 및 삭제할 수 있는 사용자, 대화를 사용할 수 있는 사용자, 대화에 밈을 사용할 수 있는 사용자 등이 있습니다. 기본적으로 사용자에게 글로벌 메시징 정책이 할당되고 모든 기능은 **켜짐** 상태입니다. 기본 글로벌 정책을 사용하거나 조직 내 사용자에 대해 하나 이상의 사용자 지정 메시징 정책을 만들 수 있습니다. 
+Messaging policies control which chat and channel messaging features are available to users in Teams. For example, who can edit and delete sent messages, who can use chat, who can use memes in conversations, and more. By default, users are assigned the global messaging policy and all features are **On**. You can use the default global policy or create one or more custom messaging policies for people in your organization. 
 
 |본인에게 질의하기|작업 |
 |------------|-------|
@@ -92,7 +92,7 @@ Teams에서는 관리자 역할 외에도 소유자 및 구성원 사용자 역�
 
 ### <a name="external-access"></a>외부 액세스
 
-외부 액세스(페더레이션)를 통해 사용자는 채팅으로 조직 외부의 사람들과 통신할 수 있습니다. 이 기능을 켜고 도메인을 허용 목록에 추가하면 사용자는 다른 도메인 및 조직의 사용자와 통신할 수 있습니다. 외부 액세스는 기본적으로 켜져 있습니다.
+External access (federation) lets your users communicate with people outside of your organization via chat. By turning this on and adding domains to the allowed list, your users can communicate with users in other domains and organizations. External access is turned on by default.
 
 |본인에게 질의하기|작업 |
 |------------|-------|
@@ -100,7 +100,7 @@ Teams에서는 관리자 역할 외에도 소유자 및 구성원 사용자 역�
 
 ### <a name="guest-access"></a>게스트 액세스
 
-Teams의 게스트 액세스를 통해 조직 외부의 개인이 팀 및 채널에 액세스할 수 있습니다. 게스트 액세스 설정을 사용하여 게스트가 사용할 수 있거나 사용할 수 없는 기능을 제어할 수 있습니다. 게스트 액세스는 기본적으로 켜져 있습니다. 자세한 내용은 [Teams의 게스트 액세스](./guest-access.md)를 참조하세요.
+Guest access in Teams lets individuals outside your organization access teams and channels. You can use the guest access settings to control which features guests can or can't use. Guest access is turned on by default. To learn more, see [Guest access in Teams](./guest-access.md).
 
 > [!NOTE]
 > 외부 액세스 및 게스트 액세스에 대한 자세한 내용은 [Microsoft Teams의 다른 조직의 사용자와 통신](communicate-with-users-from-other-organizations.md)을 참조하세요
@@ -130,7 +130,7 @@ Teams의 게스트 액세스를 통해 조직 외부의 개인이 팀 및 채널
 
 ### <a name="teams-settings"></a>Teams 설정
 
-Teams 설정을 사용하여 전자 메일 통합, 클라우드 저장소 옵션, 조직 탭, 회의실 장치 설정 및 검색 범위와 같은 기능에 맞게 Teams를 설정할 수 있습니다. 이러한 설정을 변경하면 해당 설정은 조직의 모든 팀에 적용됩니다. 자세한 내용은 [Teams 설정](enable-features-office-365.md#teams-settings)을(를) 참조하시기 바랍니다.
+Teams settings let you set up your teams for features such as email integration, cloud storage options, organization tab, meeting room device setup, and search scope. When you make changes to these settings, they apply to all the teams in your organization. To learn more, see [Teams settings](enable-features-office-365.md#teams-settings).
 
 |본인에게 질의하기|작업 |
 |------------|-------|
@@ -138,7 +138,7 @@ Teams 설정을 사용하여 전자 메일 통합, 클라우드 저장소 옵션
 
 ### <a name="teams-clients"></a>Teams 클라이언트
 
-Teams는 웹에서 데스크톱, 모바일까지 여러 클라이언트를 지원하며, 기본 구성을 통해 사용자는 원하는 클라이언트를 선택할 수 있습니다. 자세한 내용은 [Teams용 클라이언트 가져오기](get-clients.md)를 참조하시기 바랍니다.
+Teams supports a number of clients from web to desktop to mobile, and the default configuration lets users choose whichever clients they want. To learn more, see [Get clients for Teams](get-clients.md).
 
 |본인에게 질의하기|작업 |
 |------------|-------|
@@ -147,7 +147,7 @@ Teams는 웹에서 데스크톱, 모바일까지 여러 클라이언트를 지�
 
 ### <a name="teams-usage-reporting"></a>Teams 사용 현황 보고
 
-전역 관리자, Teams 서비스 관리자 그리고 보고서 구독자 역할은 Teams 사용 현황 보고서를 볼 수 있습니다. 자세한 내용은 [Microsoft 365 사용 분석](/microsoft-365/admin/usage-analytics/usage-analytics)을(를) 참조하시기 바랍니다.
+The Global Admin, Teams Service Admin, and Reports Readers roles can view Teams usage reports. To learn more, see the [Microsoft 365 usage analytics](/microsoft-365/admin/usage-analytics/usage-analytics).
 
 |본인에게 질의하기|작업 |
 |------------|-------|
@@ -155,9 +155,9 @@ Teams는 웹에서 데스크톱, 모바일까지 여러 클라이언트를 지�
 
 ### <a name="teams-default-apps"></a>Teams 기본 앱 
 
-Teams는 사용자를 참여시키고 생산성을 지원하며 자주 사용되는 비즈니스 서비스를 Teams로 통합하기 위해 수많은 제1자(Microsoft 제공) 및 제3자 앱을 제공합니다. Teams Store에서 앱을 가져옵니다. Teams에는 기본적으로 앱이 설정되어 있습니다. 
+Teams provides a number of first-party (Microsoft provided) and third-party apps to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. Apps are turned on by default in Teams. 
 
-Teams에서의 앱의 배포 및 관리에 대한 자세한 내용은 당사의 심층적인 [앱, 봇 그리고 커넥터](deploy-apps-microsoft-teams-landing-page.md) 지침을 참조하세요.
+Teams에서 앱을 배포하고 관리하는 방법에 대한 자세한 내용은 심층 [적인 앱 관리](deploy-apps-microsoft-teams-landing-page.md) 지침을 참조하세요.
 
 ## <a name="additional-deployment-decisions"></a>추가 배포 결정사항
 
@@ -173,7 +173,7 @@ Teams는 많은 Microsoft 365 라이선스의 일부로 제공됩니다.
 
 ### <a name="exchange-and-sharepoint-interoperability"></a>Exchange 및 SharePoint 상호 운용성
 
-전체 Teams 환경을 사용하려면 Exchange, SharePoint 및 Microsoft 365 그룹 생성을 위해 모든 사용자가 사용 가능해야 합니다. 다음 기사에서는 다양한 환경에서 호스팅되는 Exchange 메일박스와 관련된 정보, Exchange 및 팀이 상호 작용하는 방식, SharePoint 및 OneDrive와 유사한 고려사항을 간략히 설명합니다.
+For the full Teams experience, every user should be enabled for Exchange, SharePoint, and Microsoft 365 group creation. The following articles outline information related to Exchange mailboxes hosted in various environments, how Exchange and Teams interact, and similar considerations for SharePoint and OneDrive.
 
 |본인에게 질의하기|작업 |
 |------------|-------|
@@ -189,7 +189,7 @@ Teams의 엔터프라이즈 배포를 계획할 때 팀의 최대 구성원 수,
 
 ### <a name="urls-and-ports"></a>URL 및 포트
 
-인터넷 트래픽을 세부적으로 제어하는 조직은 Teams에 맞게 올바르게 구성해야 하는 URL, IP 주소, 포트 및 프로토콜의 최신 목록을 보려면 [URL 및 IP 주소 범위](/office365/enterprise/urls-and-ip-address-ranges)를 읽어야 합니다. Microsoft는 Microsoft 365 서비스를 지속적으로 개선하고 새로운 기능을 추가하고 있습니다. 즉, 필요한 포트, URL 및 IP 주소가 시간이 지남에 따라 변경될 수 있습니다. 이 정보가 업데이트되거나 변경될 때 알림을 받으려면 RSS를 통해 구독하는 것이 좋습니다. 최소한 [Chat 배포 필수 구성 요소](#chat-deployment-prerequisites)에 위에 나열된 포트를 열었는지 확인합니다.
+Organizations that maintain fine-grained control of their internet traffic should read [URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges) for an up-to-date list of the URLs, IP addresses, ports, and protocols that must be correctly configured for Teams. Microsoft is continuously improving the Microsoft 365 services and adding new functionality, which means the required ports, URLs, and IP addresses may change over time. We recommend that you subscribe via RSS to receive notifications when this information is updated or changed. At a minimum, make sure you've opened the ports listed above in [Chat deployment prerequisites](#chat-deployment-prerequisites).
 
 |본인에게 질의하기|작업 |
 |------------|-------|
@@ -197,7 +197,7 @@ Teams의 엔터프라이즈 배포를 계획할 때 팀의 최대 구성원 수,
 
 ### <a name="governance-naming-conventions-who-can-create-teams"></a>거버넌스 (팀을 만들 수 있는 사용자 명명 규칙)
 
-조직에서는 팀 이름 지정 및 분류 방법, 팀 생성 및 팀 만료, 보존 및 아카이빙에 대한 제어를 구현해야 할 수 있습니다. 이를 거버넌스라고 합니다. Azure AD(Azure Active Directory)를 사용하여 이러한 각 영역을 구성할 수 있습니다.
+Your organization might require that you implement controls on how teams are named and classified, who can create teams, and team expiration, retention, and archiving. This is called governance. You can use Azure Active Directory (Azure AD) to configure each of these areas.
 
 
 | 본인에게 질의하기 | 작업 |
@@ -207,7 +207,7 @@ Teams의 엔터프라이즈 배포를 계획할 때 팀의 최대 구성원 수,
 
 ### <a name="teams-application-policy-side-rail-control"></a>Teams 응용 프로그램 정책(측면 레일 제어)
 
-고정된 앱이 Teams의 측면 레일에 나타납니다. 팀 응용 프로그램 정책을 만들면 고정된 팀 앱 집합을 미리 구성하여 선택한 사용자 그룹에 대해 팀을 사용자 지정할 수 있습니다. 기본적으로 **Microsoft Teams** 에서 외부 앱 허용 설정이 켜져 있습니다.
+A pinned app shows up in the side rail in Teams. By creating Teams application policies, you can preconfigure sets of pinned Teams apps to personalize Teams for select groups of users. By default, the **Allow external apps in Microsoft Teams** setting is turned on.
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
@@ -216,7 +216,7 @@ Teams의 엔터프라이즈 배포를 계획할 때 팀의 최대 구성원 수,
 
 ### <a name="archiving-and-compliance"></a>보관 및 규정 준수 
 
-조직에서는 팀이 아카이브되는 방식과 특정 유형의 팀에 보관되는 데이터 유형에 대한 제어를 구현해야 할 수 있습니다. 기본적으로 설정되어 있는 Teams 설정을 확인하려면 [Teams 보안 및 규정 준수 개요](security-compliance-overview.md)를 읽으세요.
+Your organization might require that you implement controls on how teams are archived and the types of data that are held in certain types of teams. Read [Overview of security and compliance in Teams](security-compliance-overview.md) to learn which Teams settings are turned on by default.
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
@@ -226,7 +226,7 @@ Teams의 엔터프라이즈 배포를 계획할 때 팀의 최대 구성원 수,
 
 ### <a name="conditional-access"></a>조건부 액세스 
 
-Teams는 회의, 일정, 상호 대화, 파일 공유 등 핵심 생산성 시나리오에 Exchange, SharePoint에 크게 의존합니다. 이러한 클라우드 앱에 대해 설정된 조건부 액세스 정책은 사용자가 모든 클라이언트에서 Teams로 직접 로그인할 때 Teams에 적용됩니다. Teams 클라우드 앱 제어 측면에 대해 설정된 조건부 액세스 정책(예: 사용자가 특정 네트워크에서 팀 서비스에 액세스할 수 있는지 여부)입니다.
+Teams relies heavily on Exchange and SharePoint for core productivity scenarios, including meetings, calendars, interop chats, and file sharing. Conditional access policies that are set for these cloud apps apply to Teams when a user signs in directly to Teams, on any client. Conditional access policies that are set for the Teams cloud app control aspects such as whether users can access Teams services from certain networks.
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
@@ -252,6 +252,6 @@ Teams는 회의, 일정, 상호 대화, 파일 공유 등 핵심 생산성 시�
 
 ## <a name="next-steps"></a>다음 단계
 - 채팅, 팀, 채널 & 앱의 [도입을 진행합니다](adopt-microsoft-teams-landing-page.md).
-- 초기 Teams 배포에 플래너와 같은 응용프로그램을 포함합니다. Teams 도입을 추진할 때 다른 [개의 애플리케이션, 봇 및 커넥터](deploy-apps-microsoft-teams-landing-page.md)를 추가합니다.
+- 초기 Teams 롤아웃을 진행 시 Planner와 같은 추천 앱을 포함합니다. Teams 채택을 추진할 때 다른 Teams [앱을](deploy-apps-microsoft-teams-landing-page.md) 추가합니다.
 - [모임 및 회의 출시](deploy-meetings-microsoft-teams-landing-page.md)
 - [클라우드 음성 출시](cloud-voice-landing-page.md)
