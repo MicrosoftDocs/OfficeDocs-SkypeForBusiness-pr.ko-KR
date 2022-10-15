@@ -18,16 +18,16 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3e0e5c349610e9f8ad73b9b7a50b4c219304ea4
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: e0ffdc63200289f6f77dccb5214e8b2e3c3b344f
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551682"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576603"
 ---
 # <a name="configure-teams-phone-mobile"></a>Teams Phone Mobile 구성
 
-Microsoft Teams 전화 Mobile 프로그램에 참여하는 운영자 목록과 해당 서비스를 사용할 수 있는 국가 또는 지역은 [Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile)을 참조하세요.
+Microsoft Teams 전화 Mobile 프로그램에 참여하는 운영자 목록과 해당 서비스를 사용할 수 있는 국가 또는 지역은 [Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/teams-phone-mobile)을 참조하세요.
 
 이 문서에서는 Teams Phone Mobile을 구성하는 방법을 설명합니다. Teams Phone Mobile을 구성하기 전에 혜택, 필수 구성 요소 및 라이선스에 대한 자세한 내용은 [Teams Phone Mobile 플랜](operator-connect-mobile-plan.md) 을 읽어보세요.
 

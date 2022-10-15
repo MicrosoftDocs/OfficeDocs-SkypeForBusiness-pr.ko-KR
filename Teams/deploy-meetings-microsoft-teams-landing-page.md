@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-get-started
-ms.openlocfilehash: efb18d7a4674fa990f5a133576ec10ed4d377e35
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 7306184fe00c404820a0aa098497c2ec1262d15b
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706495"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576567"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams에서의 모임 및 회의
 
@@ -74,7 +74,7 @@ Teams에서 최상의 경험을 얻으려면 조직이 *Exchange Online 및 Shar
 
 ### <a name="teams-administrators"></a>Teams 관리자
 
-Teams는 조직의 팀을 관리하는 데 사용할 수 있는 일련의 사용자 지정 관리자 역할을 제공합니다. 역할은 관리자에게 다양한 기능을 제공합니다.
+Teams provides a set of custom administrator roles that can be used to manage Teams for your organization. The roles provide various capabilities to administrators.
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
@@ -143,7 +143,7 @@ Teams에서 최적의 모임 경험을 위해 회의실 시스템, 전화, 헤�
 사용자는 자신의 모임 및 그룹 통화를 녹음/녹화하여 오디오, 비디오, 화면 공유 활동을 캡처할 수 있습니다. 사용자가 선택 캡션을 사용하여 모임을 녹음/녹화한 것을 재생하고 대화 내용에서 중요한 토론 항목을 검색할 수 있도록 녹음/녹화를 위한 자동 기록 옵션도 있습니다. 녹음/녹화는 클라우드에서 이루어지고 Microsoft Stream에 저장되므로 사용자는 조직 전체에서 안전하게 공유할 수 있습니다. 모임 녹음/녹화를 찾으려면 모임 대화로 이동합니다.
 
 >[!Note]
-> Microsoft Stream의 사용에서 [모임 녹음/녹화를 위해 비즈니스용 OneDrive 및 SharePoint](tmr-meeting-recording-change.md)로의 변경은 단계별 접근 방식을 사용합니다. 출시하면 이 환경에 대해 옵트인할 수 있고 11월에는 Stream을 계속 사용하려는 경우, 옵트아웃해야 합니다. 2021년 초에는 모든 고객이 모임 녹음/녹화를 위해 비즈니스용 OneDrive와 SharePoint를 사용해야 합니다.
+> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
 
 자세한 내용은 [Teams 클라우드 모임 녹음/녹화](cloud-recording.md)를 참조하세요.
 
@@ -206,4 +206,4 @@ Teams는 통화 품질 문제를 모니터링하고 문제를 해결하기 위�
 - 조직 전체의 모임 및 회의 [도입을 주도](adopt-microsoft-teams-landing-page.md).
 - [오디오 회의 추가](deploy-audio-conferencing-teams-landing-page.md)
 - [클라우드 음성 출시](cloud-voice-landing-page.md)
-- 초기 Teams 배포에 플래너와 같은 응용프로그램을 포함합니다. Teams 도입을 추진할 때 다른 [애플리케이션, 봇 및 커넥터](deploy-apps-microsoft-teams-landing-page.md)를 추가합니다.
+- 최초 Teams를 배포 시 플래너와 같은 추천 앱을 포함합니다. Teams 채택을 추진할 때 다른 Teams [앱을](deploy-apps-microsoft-teams-landing-page.md) 추가합니다.

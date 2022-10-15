@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e3d86bf4607b723f92958d34d9530764ab80daf
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 862b7f05efe4818a7778e979ecd725225806aacc
+ms.sourcegitcommit: ffc7532a4bb1f1f6b3031025b493a5ad20ba4366
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606447"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "68570390"
 ---
 # <a name="plan-for-operator-connect"></a>운영자 연결 계획
 
@@ -54,11 +54,9 @@ Operator Connect를 사용하면 기존 운영자가 Microsoft 운영자 연결 
 
 - **더 빠르고 쉽게 배포할 수 있습니다.** Teams 관리 센터에서 운영자에게 신속하게 연결하고 사용자에게 전화 번호를 할당할 수 있습니다.
 
-- **향상된 지원 및 안정성.** 운영자는 지원 서비스를 개선하기 위한 기술 지원 및 공유 서비스 수준 계약을 제공하며, Azure에서 제공하는 직접 피어링에서는 안정성 향상을 위해 일대일 네트워크 연결을 만듭니다.
+- **향상된 지원 및 안정성.** 운영자는 지원 서비스를 개선하기 위한 기술 지원 및 공유 서비스 수준 계약을 제공하며, Azure에서 제공하는 직접 피어링에서는 안정성 향상을 위해 일대일 네트워크 연결을 만듭니다. 
 
 ## <a name="requirements"></a>요구 사항
-
- 
 
 Operator Connect에서 전화 번호 할당을 사용하도록 설정하려면 사용자가 다음과 같은지 확인합니다.
 
@@ -66,3 +64,7 @@ Operator Connect에서 전화 번호 할당을 사용하도록 설정하려면 �
 - TeamsOnly 모드에서. 사용자가 TeamsOnly 모드에 있어야 하지만 전체 조직에서는 그렇지 않습니다. To learn more, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 Microsoft Operator Connect 프로그램에 참여하는 운영자 목록과 해당 서비스를 사용할 수 있는 국가 또는 지역은 [Microsoft 365 Operator Connect 디렉터리를 참조하세요](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
+
+## <a name="support-boundaries"></a>지원 경계
+기술 지원을 받으려면 먼저 Operator Connect 운영자의 고객 지원에 문의하세요. 필요한 경우 운영자 연결 운영자는 공유 지원 채널을 통해 지원 사례를 Microsoft 엔지니어링으로 직접 에스컬레이션할 수 있습니다. 
+

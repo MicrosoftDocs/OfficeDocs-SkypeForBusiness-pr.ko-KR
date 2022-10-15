@@ -18,16 +18,16 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90af338ca5896a9e11ed4ea2537080237885c71c
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 07a7a7652f5b634d9cc4c5bf7adfa14dfdcb3d3d
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551722"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576595"
 ---
 # <a name="plan-for-teams-phone-mobile"></a>Teams Phone Mobile 계획
 
-Microsoft Teams 전화 Mobile 프로그램에 참여하는 운영자 목록과 해당 서비스를 사용할 수 있는 국가 또는 지역은 [Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile)을 참조하세요.
+Microsoft Teams 전화 Mobile 프로그램에 참여하는 운영자 목록과 해당 서비스를 사용할 수 있는 국가 또는 지역은 [Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/teams-phone-mobile)을 참조하세요.
 
 Teams Phone Mobile은 Microsoft Teams 및 전화 시스템과 PSTN(공중 전화망) 연결을 제공하는 또 다른 옵션입니다. Teams Phone Mobile을 사용하면 사용자의 SIM 사용 전화 번호도 Teams 전화 번호입니다. 사용자는 모바일 서비스와 책상 줄 모두에서 Microsoft Teams에서 단일 전화 번호를 사용하고 네트워크와 장치 간에 원활하게 전환할 수 있습니다.
 

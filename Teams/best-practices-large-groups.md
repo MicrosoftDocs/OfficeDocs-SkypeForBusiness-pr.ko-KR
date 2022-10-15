@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 313c570cfcded3b5a896a773577863f7a8817fa8
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 06fc3d0bdf0e4741918e380d13acd1b7391bd6ef
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562407"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576404"
 ---
 # <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>Microsoft Teams에서 대규모 팀 관리 - 모범 사례
 
@@ -76,7 +76,7 @@ Microsoft Teams는 수십 명의 구성원이 있는 소규모 그룹과 수천 
 
 ![설정 창의 멤버 권한 섹션을 보여 주는 화면 이미지입니다.](media/disable-bots-connectors.png "설정 창의 멤버 권한 섹션을 보여 주는 화면 이미지입니다. 멤버가 앱 또는 커넥터를 추가할 수 있도록 허용하는 옵션은 선택 취소되어 있습니다.")
 
-[앱, 봇, & 커넥터를 참조하세요](deploy-apps-microsoft-teams-landing-page.md).
+[Teams 앱의 개요를 참조하세요](deploy-apps-microsoft-teams-landing-page.md).
 
 ## <a name="regulate-team-and-channel-mentions"></a>팀 및 채널 멘션 규제
 
@@ -88,7 +88,7 @@ Microsoft Teams는 수십 명의 구성원이 있는 소규모 그룹과 수천 
 
 팀 소유자는 채널에 대한 중재를 설정하여 해당 채널에서 새 게시물을 시작하고 채널의 게시물에 회신할 수 있는 사용자를 제어할 수 있습니다. 중재를 설정할 때 한 명 이상의 팀 구성원을 선택하여 중재자로 지정할 수 있습니다. 팀 소유자는 기본적으로 중재자입니다. 자세한 내용은 [채널 조정 설정 및 관리를 참조하세요](manage-channel-moderation-in-teams.md).
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [Teams 구성 모범 사례](best-practices-organizing.md)
 - [조직 전체 팀 만들기](create-an-org-wide-team.md)

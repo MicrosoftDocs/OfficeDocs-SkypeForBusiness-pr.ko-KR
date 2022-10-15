@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1da45446c2ab1879dd8064537dc50dafd99ea013
-ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.openlocfilehash: 7fafebf61cdf7e5b13cfbb6aaf08d73afef6f436
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "67641749"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576444"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams에서 오디오 회의를 배포하는 방법 알아보기
 
@@ -54,7 +54,7 @@ Teams용 오디오 회의를 출시하기 전에 다음의 사항을 고려합�
 
 ### <a name="teams-administrators"></a>Teams 관리자
 
-Teams는 조직의 팀을 관리하는 데 사용할 수 있는 일련의 사용자 지정 관리자 역할을 제공합니다. 역할은 관리자에게 다양한 기능을 제공합니다.
+Teams provides a set of custom administrator roles that can be used to manage Teams for your organization. The roles provide various capabilities to administrators.
 
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
@@ -65,7 +65,7 @@ Teams는 조직의 팀을 관리하는 데 사용할 수 있는 일련의 사용
 
 ### <a name="conferencing-bridges-and-phone-numbers"></a>회의 브리지 및 전화 번호
 
-회의 브리지를 사용하면 전화를 사용하여 회의에 전화를 걸 수 있습니다. 회의 브리지에 대한 기본 설정을 사용하거나 전화 번호(무료 또는 유료) 및 PIN 또는 사용하는 언어 같은 다른 설정을 변경할 수 있습니다.
+Conferencing bridges let people dial into meetings using a phone. You can use the default settings for a conferencing bridge or change the phone numbers (toll and toll-free) and other settings, such as the PIN or the languages that are used.
 
 자세한 내용은 [오디오 회의](audio-conferencing-in-office-365.md)를 참조하세요.
 
@@ -87,7 +87,7 @@ Teams 오디오 회의를 사용하여 회의 브리지의 기본 및 대체 언
 
 ### <a name="conferencing-bridge-settings"></a>회의 브리지 설정
 
-기본 및 대체 언어를 포함하여 회의 브리지를 설정한 후에는 입력/종료 알림과 PIN 길이와 같은 기본 설정을 사용하고자 하는지 확인해야 합니다. 그렇지 않은 경우 변경할 수 있습니다.
+After setting up your conferencing bridge, including default and alternate languages, you should verify that the default settings such as entry/exit notifications and PIN length are the ones you want to use. If they're not, you can change them.
 
 |본인에게 질의하기|작업 |
 |------------|-------|
@@ -153,4 +153,4 @@ Teams는 통화 품질 문제를 모니터링하고 문제를 해결하기 위�
 
 - 조직에서 오디오 회의의 [채택을 주도](adopt-microsoft-teams-landing-page.md)합니다.
 - [클라우드 음성 출시](cloud-voice-landing-page.md)
-- 초기 Teams 배포에 플래너와 같은 응용프로그램을 포함합니다. Teams 도입을 추진할 때 다른 [애플리케이션, 봇 및 커넥터](deploy-apps-microsoft-teams-landing-page.md)를 추가합니다.
+- 최초 Teams를 배포 시 플래너와 같은 추천 앱을 포함합니다. Teams 채택을 추진할 때 다른 Teams [앱을](deploy-apps-microsoft-teams-landing-page.md) 추가합니다.
