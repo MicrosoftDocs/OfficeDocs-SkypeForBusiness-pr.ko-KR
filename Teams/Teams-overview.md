@@ -20,12 +20,12 @@ ms.custom:
 - intro-overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b91bff459d93dee392a428e1a141622c8937c70
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
-ms.translationtype: HT
+ms.openlocfilehash: 6ffdae377d1b39e40ad0fc89857c773ac843da38
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66606247"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576434"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Teams에 오신 것을 환영합니다.
 조직에서 Microsoft Teams의 관리자인 경우 제대로 찾아오셨습니다. Teams를 시작할 준비가 되었으면 [Teams 배포 방법](./deploy-overview.md) 및 [Microsoft 365 및 Microsoft Teams와 안전한 공동 작업 설정](/microsoft-365/solutions/setup-secure-collaboration-with-teams)부터 시작하세요.
@@ -34,9 +34,9 @@ Teams를 새로 사용하는 사용자로서 자세히 알아보려면 당사의
 
 Teams 관리자를 위한 Teams에 오신 것을 환영합니다 비디오를 놓치지 마세요(3분 조금 초과).
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vkIT]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
-최종 사용자 Teams 도움말을 찾고 있는 경우 앱 왼쪽에서 **도움말** 을 클릭하거나 [Microsoft Teams 도움말 센터](https://support.office.com/teams)로 이동합니다. 교육하려면 [Microsoft Teams 교육](training-microsoft-teams-landing-page.md)으로 이동하세요. 
+If you're looking for end user Teams Help, click **Help** on the left side of the app, or go to the [Microsoft Teams help center](https://support.office.com/teams). For training, go to [Microsoft Teams Training](training-microsoft-teams-landing-page.md). 
 
 ## <a name="teams-architecture"></a>Teams 아키텍처
 
@@ -53,7 +53,7 @@ Microsoft 365의 환경에서 Teams가 부합하는 위치를 확인하려면 �
 
 기존의 그룹에서 팀을 만들면 해당 그룹의 구성원, 사이트, 사서함 및 전자 필기장이 Teams에 표시됩니다. 자세한 내용은 [IT 설계자용 Microsoft 365의 그룹](teams-architecture-solutions-posters.md#groups-in-microsoft-365) 포스터를 참조하세요.
 
-Teams를 사용자 지정하고 확장하려면 [앱, 봇 그리고 커넥터](deploy-apps-microsoft-teams-landing-page.md)를 통해 타사 앱을 추가합니다. Teams를 사용하여 조직 외부의 사용자를 팀 또는 채널에 [게스트로 추가](guest-access.md)하여 포함시킬 수 있습니다. Microsoft 365 및 Office 365의 일부로서 Teams는 조직에 필요한 팀워크 허브를 구축할 수 있는 견실한 [개발 플랫폼](/microsoftteams/platform)을 제공합니다. 
+Teams를 사용자 지정하고 확장하려면 [앱 관리 작업을](deploy-apps-microsoft-teams-landing-page.md) 사용하여 타사 앱을 추가합니다. Teams를 사용하여 조직 외부의 사용자를 팀 또는 채널에 [게스트로 추가](guest-access.md)하여 포함시킬 수 있습니다. Microsoft 365 및 Office 365의 일부로서 Teams는 조직에 필요한 팀워크 허브를 구축할 수 있는 견실한 [개발 플랫폼](/microsoftteams/platform)을 제공합니다.
 
 > [!TIP]
 > Teams 아키텍처에 대한 자세한 내용은 [Teams 플랫폼 아카데미](https://aka.ms/TeamsPlatformAcademy)에 있는 비디오를 시청하세요.
@@ -76,10 +76,10 @@ Teams를 사용자 지정하고 확장하려면 [앱, 봇 그리고 커넥터](d
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>비즈니스용 Skype에서 Teams로 업그레이드
 Teams는 Microsoft 365 및 Office 365에서의 지능형 커뮤니케이션을 위한 기본 클라이언트이며 결국 비즈니스용 Skype Online을 대체합니다. Teams에 제공될 새로운 기능에 대한 최신 정보를 확인하려면 [Microsoft 365 로드맵](https://aka.ms/O365Roadmap)을 참조하세요. 지속적인 채팅 및 메시징 기능을 보완하기 위해 Teams는 완전히 통합된 기본으로 제공되는 음성 및 비디오를 통해 포괄적인 모임 및 통화 환경을 제공합니다. Microsoft Teams 블로그에서 [Teams는 이제 완벽한 모임 및 통화 솔루션입니다](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042)를 확인하세요.
 
-비즈니스용 Skype를 실행 중이고 Teams로 업그레이드할 준비가 되었거나 비즈니스용 Skype와 Teams를 함께 실행 중이고 Teams로 완전히 이동할 준비가 된 경우 전환에 도움이 되는 도구, 팁 및 지침이 제공됩니다. 자세한 내용은 [teams로 업그레이드](upgrade-start-here.md)를 참조하세요.
+If you're running Skype for Business and are ready to upgrade to Teams, or if you're running Skype for Business and Teams side-by-side and are ready to fully move to Teams, we have the tools, tips, and guidance to help make your transition successful. To learn more, see [Upgrade to Teams](upgrade-start-here.md).
 
 ## <a name="teamwork"></a>팀워크
-모든 팀은 다릅니다. 모든 경우에 적용되는 협업 방식은 없습니다. Microsoft 365 및 Office 365는 모든 팀의 고유한 요구 사항을 충족하도록 설계되었으며 사용자가 목적에 맞도록 만들어진 통합된 응용 프로그램을 통해 통신, 공동 작업 그리고 더 많은 작업을 달성할 수 있도록 해줍니다.
+Every team is different; there's no one-size-fits-all approach to collaboration. Microsoft 365 and Office 365 are designed to meet the unique needs of every team, empowering people to communicate, collaborate, and achieve more with purpose-built, integrated applications.
 
 사용할 Microsoft 365 혹은 Office 365 앱과 서비스를 결정할 때는 조직에서 수행하는 작업 및 팀에서 필요한 대화의 유형에 대해서 고려합니다. 
 
@@ -89,7 +89,7 @@ Teams는 Microsoft 365 및 Office 365에서의 지능형 커뮤니케이션을 �
 
 - 사이트, 포털, 지능형 콘텐츠 서비스, 비즈니스 프로세스 자동화 그리고 엔터프라이즈 검색을 위한 **SharePoint**. SharePoint는 팀들 간에 모든 유형의 콘텐츠를 쉽게 공유하고 액세스할 수 있도록 팀워크의 중앙에 콘텐츠를 유지합니다. Outlook, Yammer 및 Teams와의 긴밀한 통합을 통해 여러 대화 환경에서 원활한 콘텐츠 공동 작업을 수행할 수 있습니다.
 
-- 파일을 저장하고 사용자가 초대하는 사용자와 공유하는 **비즈니스용 OneDrive**. 사용자가 비즈니스용 OneDrive 저장한 콘텐츠는 사용자가 다른 사용자와 공유할 때까지 비공개이므로 공유하거나 공유할 준비가 되지 않은 개인 및 초안 문서를 저장하는 데 가장 적합한 옵션입니다.
+- **OneDrive for Business** for storing files and sharing them with people that a user invites. Content that a user saves to OneDrive for Business is private until the user shares it with others, making it the best option for storing personal and draft documents that are not intended to be shared or not ready to be shared.
 
 - 조직 전체에서 사용자를 연결할 수 있는 **Yammer**. 회사 전체의 이니셔티브를 주도하고 모범 사례를 공유하며 관심있는 공통 주제 혹은 업무 분야에 대한 커뮤니티를 구축하세요. 아이디어를 크라우드 소싱하여 회사 전체 사용자들과의 공개 토론을 촉진하세요.
 
