@@ -15,14 +15,15 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e18aa0ad95033550d0ef2f7c6049e700d917798
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: bf113e8d14b70382d6b1704b8574385038099210
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66606097"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584319"
 ---
 # <a name="teams-in-remote-desktop-services"></a>원격 데스크톱 서비스의 팀
 
@@ -53,7 +54,7 @@ Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 정책을 설정
 
 사용자에게 DisallowCalling 통화 정책 및 AllOff 모임 정책을 할당하려면 다음을 수행합니다.
 
-1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **사용자** 로 이동합니다.
+1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **사용자** 로 이동합니다.
 2. 사용자 이름 왼쪽을 선택하여 사용자를 선택한 다음 **설정 편집** 을 선택합니다.
 3. 다음 단계를 수행합니다.
 
