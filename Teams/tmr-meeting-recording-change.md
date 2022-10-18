@@ -15,14 +15,15 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c6dbcbe57694273d1e74a4d1a60a3df8cc8ace4
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 4a86b84749a32110e8f8287b2cc874631fc14fdf
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706705"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584409"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>모임 녹음/녹화에 비즈니스용 OneDrive 및 SharePoint 또는 Stream 사용
 
@@ -68,7 +69,7 @@ AMS에 저장된 모임녹음/녹화는 21일 동안 사용 가능하며 자동 
 모임 녹음/녹화 옵션은 Teams 정책 수준의 설정입니다. 다음 예는 글로벌 정책을 설정하는 방법을 보여줍니다. 사용자에게 할당한 정책에 대해 모임 녹음/녹화 옵션을 설정했는지 확인하세요.
 
 > [!NOTE]
-> Teams 모임 정책 변경 내용을 전파하는 데 시간이 걸립니다. 몇 시간을 설정한 후 다시 확인한 다음 로그아웃했다가 Teams Desktop 앱에 다시 로그인하거나 컴퓨터를 다시 시작하세요.
+> Teams meeting policy changes take a while to propagate. Check back after a few hours of setting it, then sign out and sign in to the Teams Desktop app again or simply restart your computer.
 
 1. Teams PowerShell을 설치합니다.
 
@@ -105,8 +106,8 @@ AMS에 저장된 모임녹음/녹화는 21일 동안 사용 가능하며 자동 
 
 |모임 유형                               | 누가 레코드를 클릭했나요?| 녹음은 어디에 있나요?                               |액세스 가능한 사용자 R/W, R 또는 공유                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|내부 파티와의 1:1 통화             |발신자                 |발신자의 비즈니스용 OneDrive 계정                        |발신자는 소유자이며 전체 권한을 가집니다. <br /><br />수신자(동일한 테넌트에 있는 경우)는 읽기 전용 액세스 권한이 있지만, 공유 액세스 권한은 없습니다. <br /><br /> 수신자(다른 테넌트에 있는 경우)에게 액세스 권한이 없습니다. 발신자는 이를 호출 수신자와 공유해야 합니다.|
-|내부 파티와의 1:1 통화             |수신자                 |수신자의 비즈니스용 OneDrive 계정                        |수신자는 소유자이며 모든 권한을 가집니다. <br /><br />호출자(동일한 테넌트에 있는 경우)는 읽기 전용 액세스 권한이 있지만, 공유 액세스 권한은 없습니다. <br /><br />발신자(다른 테넌트에 있는 경우)에게 액세스 권한이 없습니다. 수신자는 이를 발신자와 공유해야 합니다.|
+|내부 파티와의 1:1 통화             |발신자                 |발신자의 비즈니스용 OneDrive 계정                        |발신자는 소유자이며 전체 권한을 가집니다. <br /><br />수신자(동일한 테넌트에 있는 경우)는 읽기 전용 액세스 권한이 있습니다. 공유 액세스 권한이 없습니다. <br /><br /> 수신자(다른 테넌트에 있는 경우)에게 액세스 권한이 없습니다. 발신자는 이를 호출 수신자와 공유해야 합니다.|
+|내부 파티와의 1:1 통화             |수신자                 |수신자의 비즈니스용 OneDrive 계정                        |수신자는 소유자이며 모든 권한을 가집니다. <br /><br />호출자(동일한 테넌트에 있으며 읽기 전용 액세스 권한이 있는 경우) 공유 액세스 권한이 없습니다. <br /><br />발신자(다른 테넌트에 있는 경우)에게 액세스 권한이 없습니다. 수신자는 이를 발신자와 공유해야 합니다.|
 |외부 통화로 1:1 통화             |발신자                 |발신자의 비즈니스용 OneDrive 계정                        |발신자는 소유자이며 전체 권한을 가집니다.<br /> <br />수신자에게 액세스 권한이 없습니다. 발신자는 이를 호출 수신자와 공유해야 합니다.|
 |외부 통화로 1:1 통화             |수신자                 |수신자의 비즈니스용 OneDrive 계정                        |수신자는 소유자이며 모든 권한을 가집니다.<br /><br />발신자에게 액세스 권한이 없습니다. 수신자는 이를 발신자와 공유해야 합니다.|
 |그룹 통화                                 |통화의 모든 구성원 |레코드의 비즈니스용 OneDrive 계정을 클릭한 그룹 구성원  |레코드를 클릭한 구성원은 모든 권한이 있습니다. <br /><br /> 동일한 테넌트에서 다른 그룹 구성원은 읽기 권한을 갖습니다. <br /><br /> 다른 테넌트에서 다른 그룹 구성원은 이 그룹에 대한 권한이 없습니다.|
@@ -149,7 +150,7 @@ AMS에 저장된 모임녹음/녹화는 21일 동안 사용 가능하며 자동 
 
 Teams 모임 녹음/녹화에 대한 선택 자막은 사용자가 녹음/녹화 시 필사 기능을 켠 경우에만 재생 중에 사용할 수 있습니다. 관리자는 사용자가 [대화 내용 기록](meetings-policies-recording-and-transcription.md#transcription) 으로 모임을 녹음/녹화할 수 있도록 기록 기록을 켜야 합니다.
 
-캡션은 모든 기능을 갖춘 뷰어를 위한 포괄적인 콘텐츠를 만드는 데 도움이 됩니다. 소유자는 모임 기록의 캡션을 숨길 수 있습니다. 단, 모임 스크립트를 삭제하지 않으면 Teams에서 계속 사용할 수 있습니다.
+Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions on the meeting recording, although the meeting transcript will still be available on Teams unless you delete it there.
 
 모임이 기록된 시점부터 60일 동안 Teams 모임 녹음/녹화에 대해 선택 자막이 지원됩니다.
 
