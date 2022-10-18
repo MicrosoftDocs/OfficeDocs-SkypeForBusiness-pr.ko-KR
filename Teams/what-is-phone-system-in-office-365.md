@@ -11,6 +11,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,64 +22,64 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 - intro-overview
-description: 이 문서에서는 이 문서의 전화 시스템 기술에 대해 Microsoft 365.
-ms.openlocfilehash: a838561b25a737025838095e643bd78a2c69af92
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+description: 이 문서에서는 Microsoft 365의 전화 시스템 기술에 대해 알아봅니다.
+ms.openlocfilehash: f426f1db1b28922ab39393e57bf94f9e09ba206b
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514559"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584769"
 ---
 # <a name="what-is-phone-system"></a>전화 시스템이란?
 
-전화 시스템 클라우드에서 통화 제어 및 PBX(Private Branch Exchange) 기능을 사용하도록 설정하기 위한 microsoft의 Microsoft 365 Microsoft Teams.
+전화 시스템은 Microsoft Teams를 사용하여 Microsoft 365 클라우드에서 통화 제어 및 PBX(Private Branch Exchange) 기능을 사용하도록 설정하는 Microsoft의 기술입니다.
 
-전화 시스템 클라이언트 및 Teams 디바이스와 함께 작동합니다. 전화 시스템 PBX 시스템을 사용자로부터 직접 전달되는 기능 집합으로 바꿀 수 Microsoft 365.
+전화 시스템은 Teams 클라이언트 및 인증된 디바이스에서 작동합니다. 전화 시스템을 사용하면 기존 PBX 시스템을 Microsoft 365에서 직접 제공되는 기능 집합으로 바꿀 수 있습니다.
 
-조직의 사용자 간 통화는 내부적으로 처리 전화 시스템 PSTN(공용 전환 전화 네트워크)으로 이동하지 않습니다. 따라서 내부 통화에서 장거리 비용이 제거됩니다. 
+조직의 사용자 간 통화는 전화 시스템 내에서 내부적으로 처리되며 PSTN(공중 전화망)으로 이동하지 않아 내부 통화 시 장거리 비용이 제거됩니다. 
 
-외부 호출을 전화 시스템 PSTN에 연결하는 추가 기능 옵션을 제공합니다. 음성 솔루션 및 PSTN 연결 [옵션](cloud-voice-landing-page.md)에 대한 자세한 내용은 음성 솔루션 Teams 계획 및 [PSTN에 커넥트 참조하세요](#connect-to-the-public-switched-telephone-network-pstn).
+전화 시스템은 외부 통화를 하기 위해 PSTN에 연결하기 위한 추가 기능 옵션을 제공합니다. 음성 솔루션 및 PSTN 연결 옵션에 대한 자세한 내용은 [Teams 음성 솔루션 계획](cloud-voice-landing-page.md) 및 [PSTN에 연결을](#connect-to-the-public-switched-telephone-network-pstn) 참조하세요.
 
-전화 시스템 마카오를 제외한 전 세계에 사용할 수 있습니다. 
+전화 시스템은 마카오를 제외하고 전 세계적으로 사용할 수 있습니다. 
 
 ## <a name="phone-system-features"></a>전화 시스템 기능
 
-사용자가 전화 시스템 사용하여 통화를 Teams, 통화를 전송하고, 통화 음소거 또는 음소거를 해지할 수 있습니다. 전화 시스템 사용자가 주소 책에서 이름을 클릭하고 해당 Teams 전화를 걸 수 있습니다. 전화를 걸고 받기 전화 시스템 사용자가 모바일 디바이스, 랩톱 또는 PC가 있는 헤드셋 또는 여러 IP 휴대폰 중 하나를 사용할 수 Teams. 
+전화 시스템을 사용하면 사용자가 Teams를 사용하여 전화를 걸고 받고, 통화를 전송하고, 통화를 음소거하거나 음소거 해제할 수 있습니다. 전화 시스템 사용자는 주소록에서 이름을 클릭하고 Teams 통화를 해당 사용자에게 배치할 수 있습니다. 전화를 걸고 받기 위해 전화 시스템 사용자는 모바일 장치, 노트북 또는 PC가 있는 헤드셋 또는 Teams와 함께 작동하는 많은 IP 전화 중 하나를 사용할 수 있습니다. 
 
-전화 시스템 관리자는 메시징, 공동 작업 등에서 사용되는 동일한 콘솔에서 호출 옵션 및 설정을 관리할 수 있습니다.
+전화 시스템 관리자는 메시징, 공동 작업 등에 사용되는 동일한 콘솔에서 통화 옵션 및 설정을 관리할 수 있습니다.
 
-전화 시스템 [전화 시스템](here-s-what-you-get-with-phone-system.md) 기능에 대한 자세한 내용은 다음을 참조하세요.
+전화 시스템 기능에 대한 자세한 내용은 [전화 시스템을 사용하여 얻을 수 있는 항목을 참조](here-s-what-you-get-with-phone-system.md)하세요.
   
 
-## <a name="connect-to-the-public-switched-telephone-network-pstn"></a>커넥트 PSTN(공용 전환 전화 네트워크)으로 연결
+## <a name="connect-to-the-public-switched-telephone-network-pstn"></a>PSTN(공중 전화망)에 연결
   
-외부 호출의 경우 전화 시스템 여러 가지 방법으로 PSTN에 연결할 수 있습니다.
+외부 통화의 경우 전화 시스템을 여러 가지 방법 중 하나로 PSTN에 연결할 수 있습니다.
   
-- Microsoft 통화 계획(국내 또는 국내 및 국제)을 구입합니다. Microsoft 통화 계획은 PSTN 통신 사업자인 Microsoft와 함께 모든 클라우드 솔루션입니다. 자세한 내용은 계획 및 [전화 시스템 참조하세요](calling-plan-landing-page.md).
+- Microsoft 통화 플랜(국내 또는 국내 및 국제)을 구매합니다. Microsoft 통화 플랜은 Microsoft를 PSTN 이동 통신 사업자로 사용하는 클라우드 내 모든 솔루션입니다. 자세한 내용은 [전화 시스템 및 통화 플랜](calling-plan-landing-page.md)을 참조하세요.
 
-- 기존 전화 통신 인프라를 사용하여온-프레미스 PSTN 연결에 사용할 수 있습니다.
+- 온-프레미스 PSTN 연결에 기존 전화 통신 인프라를 사용합니다.
 
-  연산자 호출 또는 직접 라우팅을 사용하여 전화 시스템 전화 통신 인프라를 커넥트 수 있습니다. 
+  운영자 연결 통화 또는 직접 라우팅을 사용하여 온-프레미스 전화 통신 인프라를 전화 시스템에 연결할 수 있습니다. 
 
 모든 PSTN 연결 옵션에 대한 자세한 내용은 [PSTN 연결 옵션을 참조하세요](pstn-connectivity.md).
 
 
-## <a name="phone-system-with-services"></a>전화 시스템 사용
+## <a name="phone-system-with-services"></a>서비스를 사용하는 전화 시스템
 
-전화 시스템 서비스와 음성메일에 사용할 수 있습니다.
+전화 시스템은 다음과 같은 서비스 및 음성 메일에 사용할 수 있습니다.
 
-- **자동 참석** 자 - 자동 참석자는 조직에서 외부 및 내부 호출자가 시스템을 통해 이동하여 조직의 회사 사용자 또는 부서에 전화를 찾고 배치하거나 전송할 수 있도록 하는 조직의 메뉴 시스템을 만드는 데 사용할 수 있습니다. 클라우드 [자동 참석자는 무엇입니까?를 참조하세요](what-are-phone-system-auto-attendants.md).
+- **자동 전화 교환 - 자동 전화** 교환을 사용하여 외부 및 내부 발신자가 시스템을 통해 이동하여 조직의 회사 사용자 또는 부서에 통화를 찾아서 배치하거나 전송할 수 있는 조직용 메뉴 시스템을 만들 수 있습니다. [클라우드 자동 전화 교환이란?을 참조하세요](what-are-phone-system-auto-attendants.md).
 
-- **통화 큐** - 다른 사용자가 조직의 전화 번호를 호출할 때 통화 큐 인사말을 사용할 수 있습니다. 이러한 인사말에는 자동으로 통화를 보류하고 통화를 처리할 다음 사용 가능한 호출 에이전트를 검색하는 기능을 포함합니다. 보류 중이신 사용자도 보류 중 음악을 들을 수 있습니다. 조직에 대해 단일 또는 여러 개의 호출 큐를 만들 수 있습니다. 클라우드 [호출 큐 만들기를 참조합니다](create-a-phone-system-call-queue.md).
+- **통화 큐** - 누군가가 조직의 전화 번호로 전화를 걸 때 통화 큐 인사말을 사용할 수 있습니다. 이러한 인사말에는 통화를 자동으로 보류하고 통화를 처리할 수 있는 다음 통화 에이전트를 검색하는 기능이 포함됩니다. 보류 중인 사람들은 보류 중인 동안 음악을 들을 수도 있습니다. 조직에 대한 단일 또는 여러 통화 큐를 만들 수 있습니다. [클라우드 호출 큐 만들기를](create-a-phone-system-call-queue.md) 참조하세요.
 
-- **Voicemail** - 클라우드 음성 사서함 Teams 모든 사용자에 대해 자동으로 설정되고 프로비전됩니다. 설정[은](set-up-phone-system-voicemail.md) 클라우드 음성 사서함.
+- **음성 메일** - 클라우드 음성 사서함 모든 Teams 사용자에 대해 자동으로 설정 및 프로비전됩니다. [클라우드 음성 사서함 설정을](set-up-phone-system-voicemail.md) 참조하세요.
 
-기능에 대한 자세한 내용은 [전화 시스템](here-s-what-you-get-with-phone-system.md) 다음을 참조하세요. 시작할 준비가 된 경우 조직에서 전화 시스템 [참조합니다](setting-up-your-phone-system.md).
+기능에 대한 자세한 내용은 [전화 시스템을 사용하여 얻을 수 있는 항목을 참조](here-s-what-you-get-with-phone-system.md)하세요. 시작할 준비가 되면 [조직에서 전화 시스템 설정을 참조하세요](setting-up-your-phone-system.md).
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [전화 시스템 기능](here-s-what-you-get-with-phone-system.md)
 - [전화 시스템 설정](setting-up-your-phone-system.md)
-- [음성 Teams 계획](cloud-voice-landing-page.md)
+- [Teams 음성 솔루션 계획](cloud-voice-landing-page.md)
 - [PSTN 연결 옵션](pstn-connectivity.md)
 - [Microsoft Teams 추가 기능 라이선스](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

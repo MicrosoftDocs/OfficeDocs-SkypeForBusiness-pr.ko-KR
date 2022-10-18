@@ -15,17 +15,18 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
+- highpri
 search.appverid: MET150
 description: 이 문서에서는 Microsoft Teams에서 라이브 이벤트를 설정하기 전에 고려해야 하는 요소에 대해 설명합니다.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c5b0865c5b3c466fe37b41422453ee0cc6f0c9b
-ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
+ms.openlocfilehash: 086a8bda521827ac048b8ea9928bd3a0c5e3b81f
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "68494641"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584389"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 계획하기
 

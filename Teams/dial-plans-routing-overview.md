@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -19,12 +20,12 @@ localization_priority: Normal
 f1.keywords:
 - CSH
 description: Microsoft Teams에서 전화 걸기 플랜 및 라우팅
-ms.openlocfilehash: 3fc29dc27f1f3863ed313b75c8ef977cd27a6231
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: f3474dc576671c5d8ef90e68c9bc5b246209cdb1
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551902"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68585086"
 ---
 # <a name="overview"></a>개요
 
