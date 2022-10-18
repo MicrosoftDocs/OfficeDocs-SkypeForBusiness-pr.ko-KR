@@ -15,13 +15,14 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 - Teams_ITAdmin_Rooms
+- highpri
 description: 이 문서에서는 차세대 Skype 룸 시스템인 Microsoft Teams 룸 배포하기 위한 관련 계획 고려 사항을 설명합니다.
-ms.openlocfilehash: fe973e7e6f3f6d84a4ddf1721ccc8c73fb5da928
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 0e6e3d53928a1a28572a8ea0a038ea772c934e7b
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269753"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584449"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>계획 Microsoft Teams 룸
 
@@ -34,7 +35,8 @@ ms.locfileid: "67269753"
 Microsoft Teams 룸 작은 허들 공간에서 대형 회의실에 이르기까지 모든 규모의 모임에 HD 비디오, 오디오 및 콘텐츠 공유를 제공하는 완전한 모임 환경을 제공합니다.
 
 ![사용자가 배경에 표시된 Teams 룸 콘솔을 탭합니다.](../media/room-systems-image1.jpg "사용자가 배경에 표시된 Teams 룸 콘솔을 탭합니다.")
- [Microsoft Teams 룸 도움말](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)은 Microsoft Teams 룸 및 배포의 일부로 가치를 추가할 수 있는 방법에 대해 자세히 알아볼 수 있는 유용한 리소스입니다.
+
+[Microsoft Teams 룸 도움말](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)은 Microsoft Teams 룸 및 배포의 일부로 가치를 추가할 수 있는 방법에 대해 자세히 알아볼 수 있는 유용한 리소스입니다.
 
 ## <a name="microsoft-teams-rooms-components"></a>Microsoft Teams 룸 구성 요소
 
@@ -49,7 +51,17 @@ Microsoft Teams 룸 훌륭한 사용자 환경을 제공하기 위한 다음과 
 
 이러한 구성 요소를 여러 공급업체에서 미리 설치된 번들로 조달하거나 [이 문서에 설명된 요구 사항에](requirements.md) 따라 지원되는 구성 요소를 개별적으로 구매할 수 있습니다.
 
-Microsoft Teams를 사용하여 Microsoft Teams 룸 배포하거나 온-프레미스 배포를 비즈니스용 Skype 수 있습니다.  필요한 라이선스에 대한 자세한 내용은 [Teams 회의실 라이선스 업데이트를](rooms-licensing.md) 참조하세요.
+## <a name="teams-rooms-licensing"></a>Teams 룸 라이선스
+
+Teams 룸 콘솔, Surface Hub 및 Teams 패널 같은 각 회의실 디바이스에는 Teams 룸 라이선스가 필요합니다. Teams는 Teams 룸 Microsoft Teams 룸 Pro 및 Microsoft Teams 룸 Basic의 두 가지 라이선스를 제공합니다.
+
+Microsoft Teams 룸 Pro 25개 이상의 회의실 디바이스가 있거나 가장 포괄적인 모임 및 장치 관리 환경을 원하는 조직에 적합합니다. 하이브리드 Teams 모임은 앞줄, 콘텐츠 카메라, AI 기반 노이즈 억제 및 Microsoft Teams 룸 Pro 사용할 수 있는 기타 기능과 같은 기능으로 더욱 몰입감 있게 됩니다. Teams 룸 관리자는 조건부 액세스 정책 구성부터 디바이스 상태 및 모임 품질에 대한 풍부한 원격 분석까지 Teams 관리 센터에서 인증된 모든 Teams 룸 디바이스를 중앙에서 관리할 수 있습니다.
+
+Microsoft Teams 룸 Basic은 몇 개의 회의실 장치만 있고 기본 모임 및 관리 기능만 필요한 조직에서 사용할 수 있습니다. Microsoft Teams 룸 Basic을 사용하면 모임에 참가하고, 콘텐츠와 라이브 비디오를 공유하고, 직접 게스트 조인으로 Zoom 및 Webex 모임에 참가하고, Teams 관리 센터에서 기본 디바이스 인벤토리 및 모니터링을 수행할 수 있습니다.
+
+회의실 디바이스를 사용하려면 라이선스를 할당해야 합니다. 자세한 내용은 [Microsoft Teams 룸 라이선스를 참조하세요](rooms-licensing.md).
+
+[!INCLUDE [mtr-user-licensing](../includes/mtr-user-licensing.md)]
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
@@ -142,7 +154,7 @@ _조직에 대한 샘플 Microsoft Teams 룸 배포 템플릿_
 
 조직은 지속적으로 모니터링, 관리 및 관리 작업을 실행해야 하며, 배포 초기에 이러한 작업을 수행할 사용자를 합의하는 것이 핵심입니다.
 
-많은 조직에는 회의실 및 장치를 관리하는 AV 팀 또는 파트너가 있습니다. 또는 microsoft에서 Microsoft Teams 룸 프리미엄 활용하여 Teams 룸 관리할 수 있도록 할 수 있습니다. 성능을 모니터링하고 소프트웨어 업데이트 및 핫픽스를 배포하기 위해 앞으로 Microsoft Teams 룸 디바이스를 관리할 사용자를 결정합니다.
+많은 조직에는 회의실 및 장치를 관리하는 AV 팀 또는 파트너가 있습니다. 또는 microsoft에서 Microsoft Teams 룸 Pro 활용하여 Teams 룸 관리할 수 있도록 할 수 있습니다. 성능을 모니터링하고 소프트웨어 업데이트 및 핫픽스를 배포하기 위해 앞으로 Microsoft Teams 룸 디바이스를 관리할 사용자를 결정합니다.
 
 Microsoft Teams 룸 관련 호출을 라우팅할 기술 지원팀 큐를 고려하고 기술 지원팀에 FAQ를 제공하여 Microsoft Teams 룸 사용하는 방법과 수행할 수 있는 주요 문제 해결 단계를 더 잘 이해할 수 있습니다. 이 FAQ의 좋은 시작점은 [사용자 도움말](https://support.microsoft.com/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) 및 [알려진 문제](known-issues.md)입니다.
 
