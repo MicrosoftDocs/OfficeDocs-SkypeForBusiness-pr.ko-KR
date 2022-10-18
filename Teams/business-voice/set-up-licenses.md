@@ -16,12 +16,13 @@ appliesto:
 ms.collection:
 - M365-voice
 - M365initiative-voice
-ms.openlocfilehash: 8acf4064f294c4fa28a48413a270f0814e0e3ccb
-ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
+- highpri
+ms.openlocfilehash: 5709c3becad75b1380b646b5ea5004ba71786063
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68481104"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584619"
 ---
 # <a name="step-3-assign-teams-phone-with-calling-plan-bundle-licenses"></a>3단계: 통화 플랜 번들 라이선스를 사용하여 Teams Phone 할당
 
