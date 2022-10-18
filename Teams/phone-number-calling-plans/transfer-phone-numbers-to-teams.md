@@ -13,18 +13,19 @@ f1.keywords:
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 포팅 마법사를 사용하여 현재 서비스 공급자에서 Microsoft Teams로 전화 번호를 전송하는 방법을 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 98580a16f7d5165bef6bdd177de37a1e80bfb32f
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 4dd814f81bb7c48c331ebaa1178f8f3069f7b156
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790103"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584169"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Microsoft Teams로 전화 번호 전송
 
@@ -88,13 +89,13 @@ Microsoft Teams 관리 센터의 포팅 마법사를 사용하여 현재 서비�
 
 ## <a name="what-happens-next"></a>다음에는 어떻게 될까요?
 
-포트 주문을 받으면 요청을 확인하는 전자 메일을 받게 됩니다. 요청이 매일 확인 및 업데이트되며, 이메일의 진행 상황과 상태에 대한 알림이 표시됩니다. 포트 요청이 손실된 이동 통신 사업자에 의해 거부된 경우 [TNS 서비스 데스크](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) 문의하세요.
+포트 주문을 받으면 요청을 확인하는 전자 메일을 받게 됩니다. 요청이 매일 확인 및 업데이트되며, 이메일의 진행 상황과 상태에 대한 알림이 표시됩니다. 포트 요청이 손실된 이동 통신 사업자에 의해 거부된 경우 [TNS 서비스 데스크](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)에 문의하세요.
 
 포트 주문의 상태를 보려면 Microsoft Teams 관리 센터의 왼쪽 탐색에서 > **음성** > **포트 주문** 으로 이동한 다음 **주문 기록을** 클릭합니다. 각 포트 순서 상태는 **상태** 열에 나열됩니다. 자세한 내용은 [포트 주문의 상태를 참조하세요.](port-order-status.md)
 
 
 ## <a name="reporting-telephone-number-issues"></a>전화 번호 문제를 보고하시겠습니까?
-포트가 완료된 후 처음 24-48시간 내에 포 이식된 번호와 관련된 문제가 발견되면 [TNS 서비스 데스크](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) 문의하세요. 48시간을 초과하는 문제는 Microsoft 지원 팀에 문의하세요.
+포트가 완료된 후 처음 24-48시간 내에 포 이식된 번호와 관련된 문제가 발견되면 [TNS 서비스 데스크](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)에 문의하세요. 48시간을 초과하는 문제는 Microsoft 지원 팀에 문의하세요.
 
 ## <a name="related-topics"></a>관련 주제
 
