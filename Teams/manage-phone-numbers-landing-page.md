@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -27,12 +28,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 조직의 Microsoft Teams에 대한 사용자(구독자) 및 서비스(유료 및 무료) 전화 번호를 받고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 053d886a97591a6685582f0db0ca194eaa312896
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 52069029e7dca69f5df9520ad1491464bf6b9aa9
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551892"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584239"
 ---
 # <a name="manage-telephone-numbers-for-your-organization"></a>조직의 전화 번호 관리
 
@@ -121,7 +122,7 @@ Microsoft 365의 다른 계정의 온-프레미스 Active Directory 및 직접 �
 
 ### <a name="change-where-direct-routing-phone-numbers-are-managed"></a>직접 라우팅 전화 번호를 관리하는 위치 변경
 
-직접 라우팅 전화 번호가 관리되는 위치를 변경하려면 사용자 또는 온-프레미스 Active Directory 계정의 msRTCSIP-Line 특성에서 전화 번호를 제거해야 합니다.   
+직접 라우팅 전화 번호가 관리되는 위치를 변경하려면 온-프레미스 Active Directory 사용자 또는 리소스 계정의 msRTCSIP-Line 특성에서 전화 번호를 제거해야 합니다.   
 
 자세한 내용은 [Active Directory의 모든 온-프레미스 사용자에 대한 비즈니스용 Skype 특성 지우기(Clear)](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory.md)를 참조하세요. 전화 번호는 Microsoft 365의 사용자 또는 리소스 계정에 다시 할당되어야 합니다.
 

@@ -24,12 +24,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28a816dee54d8f5ac2aead0deeb6aedf3f8076f7
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: e5ff54577dcfd4e3845758a7ce943231cbd38d48
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396929"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576554"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams의 Teams 및 채널 개요
 
@@ -45,7 +45,7 @@ Microsoft Teams에서 개별 팀이 비즈니스 시나리오에 전반에 걸�
 - **채널** 은 특정 항목, 프로젝트, 분야 등 팀에 필요한 모든 사항을 기준으로 하여 대화를 정리하는 팀의 전용 섹션입니다. 파일 탭에서 채널을 통해 공유되는 파일은 SharePoint에 저장됩니다. 자세한 내용은 [SharePoint Online 및 비즈니스용 OneDrive가 Teams와 상호 작용하는 방법](SharePoint-OneDrive-interact.md)을 참조하세요.
 
     - 채널은 대화를 진행하고 실제로 작업을 수행하는 장소입니다. 채널은 모든 팀 구성원(표준 채널), 선택한 팀 구성원([비공개 채널](private-channels.md)) 또는 팀 내부 및 외부의 선택한 사용자([공유 채널](shared-channels.md))에게 열려 있을 수 있습니다.
-    - 채널은 팀 구성원에 대한 가치를 높이는 탭, 커넥터 및 봇이 포함된 앱으로 확장될 때 가장 가치가 있습니다. 자세한 내용은 [Teams의 앱, 봇 및 커넥터](deploy-apps-microsoft-teams-landing-page.md)를 참조하세요.
+    - 팀 멤버들의 가치를 더하는 탭, 커넥터, 봇을 포함한 앱으로 확장될 때 채널은 가장 유용합니다. 자세한 내용은 [Teams 앱 개요를 참조하세요](deploy-apps-microsoft-teams-landing-page.md).
     
 팀과 채널 사용에 대한 방법은 [Teams 및 채널](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499)을 확인하세요.
 
@@ -73,7 +73,7 @@ Teams에는 다음 두 가지 주요 역할이 있습니다.
 
 **팀 설정** 
 
-팀 소유자는 팀에서 직접 팀 전체 설정을 관리할 수 있습니다. 설정에는 표준, 비공개 및 공유 채널 만들기, 탭 및 커넥터 추가, 전체 팀 또는 채널 언급, GIF, 스티커, 밈의 사용에 대한 팀 구성원의 권한 설정 기능과 팀 그림 추가 기능이 포함되어 있습니다.
+Team owners can manage team-wide settings directly in Teams. Settings include the ability to add a team picture, set permissions across team members for creating standard, private, and shared channels, adding tabs and connectors, @mentioning the entire team or channel, and the usage of GIFs, stickers, and memes.
 
 Microsoft 365의 Teams 관리자인 경우 Teams 관리 센터에서 시스템 전체 설정에 액세스할 수 있습니다. 이러한 설정은 팀 소유자가 팀 설정 아래에서 볼 수 있는 옵션 및 기본값에 영향을 줄 수 있습니다. 예를 들어, 팀 전체에 표시되는 팀 전체 공지, 토론, 리소스에 대해 기본 채널 "일반"을 사용할 수 있습니다.
 

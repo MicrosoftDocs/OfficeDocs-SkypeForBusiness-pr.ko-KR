@@ -12,12 +12,12 @@ ms.collection:
 description: Microsoft Teams 관리에 사용되는 Teams PowerShell 모듈의 애플리케이션 기반 인증에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8dd4b230f7f22feb574463a96d4a4447bcf0cfb0
-ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
+ms.openlocfilehash: d017f5e23685df6aa6c7ae0630724ad5d13d0425
+ms.sourcegitcommit: ffc7532a4bb1f1f6b3031025b493a5ad20ba4366
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68532498"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "68570421"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell 모듈의 애플리케이션 기반 인증
 
@@ -28,7 +28,7 @@ ms.locfileid: "68532498"
 
 아래 cmdlet은 이미 지원되며, 다른 cmdlet은 점진적으로 롤아웃됩니다. 
 
-  - \*비 Cs cmdlet(예: Get-Team)
+  - 비 \*Cs cmdlet(New-Team 제외)
   - Get-CsTenant
   - Get-CsOnlineUser, Get-CsOnlineVoiceUser
   - \*-CsOnlineSipDomain 
@@ -43,6 +43,7 @@ ms.locfileid: "68532498"
   - Find-CsGroup
   - \*-CsOnlineDialInConferencingUser, \*-CsOnlineDialInConferencingServiceNumber, \*-CsOnlineDialInConferencingBridge, Get-CsOnlineDialInConferencingLanguagesSupported, Set-CsOnlineDialInConferencingUserDefaultNumber
   - \*-CsOnlineLisLocation, \*-CsOnlineLisCivicAddress, \*-CsOnlineLisWirelessAccessPoint, \*-CsOnlineLisPort, \*-CsOnlineLisSubnet, \*-CsOnlineEnhancedEmergencyServiceDisclaimer, \*-CsOnlineLisSwitch
+  - \*-CsCloudCallDataConnection
 
 
 ## <a name="examples"></a>예제

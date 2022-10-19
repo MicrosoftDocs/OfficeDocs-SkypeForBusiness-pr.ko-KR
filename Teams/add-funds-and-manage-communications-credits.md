@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -30,12 +31,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: '비즈니스용 Skype 서비스에 대한 통신 크레딧(PSTN 소비)을 지불하는 방법을 알아보고 사용자에게 지속적인 전화 시스템 액세스를 유지하는 계획을 확인합니다. '
-ms.openlocfilehash: 0e8c737f8ed1ac4537c4453d77cc284719fb8086
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 42527a608cf6a020f1c8fc4f07f912ec95dd1a3a
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156646"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68583849"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>자금 추가 및 커뮤니케이션 크레딧 관리
 

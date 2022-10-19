@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -24,12 +25,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 자동 전화 교환 및 통화 큐에 대해 알아보고 이를 사용하여 발신자가 메뉴 시스템을 통해 조직의 사용자 또는 부서에 연결할 수 있도록 돕는 방법을 알아봅니다.
-ms.openlocfilehash: f97081e641574c0d2ea192820100861b39b48d9b
-ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
+ms.openlocfilehash: 05bbc5880e3a90751cfaada782573fd2d0b10c90
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443355"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584809"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Teams 자동 전화 교환 및 통화 큐 계획
 

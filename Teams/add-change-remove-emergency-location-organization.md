@@ -11,6 +11,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -19,12 +20,12 @@ f1.keywords:
 - NOCSH
 description: 조직의 긴급 위치를 추가, 변경 또는 제거하는 방법을 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 23eb549592c8ead6983253d1a228020f3851e1a7
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 39db920ccbb6edd71591ad5439b0a8475a0655fb
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551492"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584669"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>조직의 응급 위치 추가, 변경 또는 제거
 

@@ -16,13 +16,14 @@ ms.custom: ''
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 description: Teams 네트워크 로밍 정책에 대한 설정을 관리하는 방법을 알아보세요.
-ms.openlocfilehash: c26cdec0fc41e40a9c3eac7d0324050740cf05ef
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
-ms.translationtype: HT
+ms.openlocfilehash: f8b1d78754c5f608aa76d9261b2164abc4de9194
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853239"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68585063"
 ---
 # <a name="manage-video-and-media-settings-with-the-network-roaming-policy"></a>네트워크 로밍 정책으로 비디오 및 미디어 설정 관리
 
@@ -60,7 +61,7 @@ TeamsNetworkRoamingPolicy에는 다음 매개변수가 포함됩니다.
  Set-CsTenantNetworkSite -Identity Burlington -NetworkRoamingPolicy $null
  ```
 
-Enterprise Voice가 활성화되지 않은 사용자에 대해 네트워크 로밍 정책을 활성화하려면 TeamsMeetingPolicy에서 AllowNetworkConfigurationSettingsLookup 설정도 활성화해야 합니다. 이 설정은 기본적으로 꺼져 있습니다.
+To enable the network roaming policy for users who are not enterprise voice enabled, you must also enable the AllowNetworkConfigurationSettingsLookup setting in TeamsMeetingPolicy. This setting is off by default.
 
 네트워크 사이트 만들기에 대한 자세한 내용은 [클라우드 음성 기능에 대한 네트워크 설정](cloud-voice-network-settings.md)을 참조하세요. 
 

@@ -11,6 +11,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -19,12 +20,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft가 긴급 통화를 지원하기 위해 디스패치 가능한 위치 정보를 지원하는 방법을 알아봅니다.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9efa5f6e9ad5b5f2434efb95265f58c9a603fdd5
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d7fd3111991c4a2e5e0d16e5d46aba411b1553c3
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272073"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584574"
 ---
 # <a name="emergency-addresses-for-remote-locations"></a>원격 위치에 대한 긴급 주소
 
@@ -127,7 +128,7 @@ Windows 위치 서비스에 대한 자세한 내용은 [Windows 위치 서비스
 - 개인 정보 설정이 자동 위치 검색과 충돌할 수 있습니다. 모바일 장치 관리 시스템을 사용할 수 있습니다.
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 - [긴급 통화 관리](what-are-emergency-locations-addresses-and-call-routing.md)
 

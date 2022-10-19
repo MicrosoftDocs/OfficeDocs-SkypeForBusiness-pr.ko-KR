@@ -16,16 +16,17 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
+- highpri
 description: 네트워크 설정, 라이선스 할당, 라이브 이벤트 기능 및 일정 설정, 비디오 배포 솔루션 등 Teams에서 라이브 이벤트를 설정합니다.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6f47e142dc7d445e76c6047bfdd4e7300501f6fa
-ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
+ms.openlocfilehash: 65c9766350327ff64874c2ee242a7fdbace9f13a
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68486608"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584439"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams에서 실시간 이벤트 설정
 

@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -27,12 +28,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 비즈니스용 Skype 옵션에 대한 통화 플랜(PSTN 통화 플랜)과 조직의 라이선스를 얻는 방법에 대해 알아봅니다.
-ms.openlocfilehash: eb10b681b867461122fe6b5e89f6f0a519d60ae7
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 1cc4e1427b227c49fabb89a46e0ffe2af280271a
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396849"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584909"
 ---
 # <a name="calling-plans-for-microsoft-teams"></a>Microsoft Teams의 통화 플랜
 

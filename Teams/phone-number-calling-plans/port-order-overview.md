@@ -21,12 +21,13 @@ description: 포트 주문의 개요와 서비스 공급자에서 Teams로 전�
 ms.collection:
 - M365-voice
 - m365initiative-voice
-ms.openlocfilehash: c5c8b68cfd97c8a39f0b4866fb7670473a9ecef3
-ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
+- highpri
+ms.openlocfilehash: f4160d8e5fac5ec1f706bb7c82a881248d092a59
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67674379"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584919"
 ---
 # <a name="whats-a-port-order"></a>포트 순서
 

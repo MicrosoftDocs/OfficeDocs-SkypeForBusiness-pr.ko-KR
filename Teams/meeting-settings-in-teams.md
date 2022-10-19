@@ -21,13 +21,14 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 description: 사용자가 조직에서 예약하는 모든 Teams 모임 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: c25405dd305a8556309559d4941dd731331e6d75
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 3faff1779830539470ae3d04cc73e58da65a637c
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706505"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68583879"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams에서의 모임 설정 관리
 
@@ -103,7 +104,7 @@ ms.locfileid: "67706505"
 
 ## <a name="customize-meeting-invitations"></a>모임 초대장의 사용자 지정
 
-조직의 필요에 따라 Teams 모임 초대를 사용자 정의할 수 있습니다. 조직의 로고를 추가하고 지원 웹 사이트 링크 및 법적 고지 사항, 텍스트 전용 바닥글과 같은 유용한 정보를 포함할 수 있습니다.
+You can customize Teams meeting invitations to meet your organization's needs. You can add your organization's logo and include helpful information, such as links to your support website and legal disclaimer, and a text-only footer.
 
 ### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>모임 초대장에 대한 로고 만들기 팁  
 
@@ -111,7 +112,7 @@ ms.locfileid: "67706505"
 2. 이미지를 JPG 또는 PNG 형식으로 저장합니다.
 3. 초대장을 받은 모든 사용자가 액세스할 수 있는 위치(예: 공용 웹사이트)에 이미지를 저장합니다.
 
-    이제 모임 초대장에 추가할 수 있습니다. 다음 단계를 참조하세요.
+    Now you can add it to your meeting invitations. See the next steps.
 
 ### <a name="customize-your-meeting-invitations"></a>모임 초대장의 사용자 지정
 
@@ -162,9 +163,9 @@ QoS(서비스 품질)를 사용하여 네트워크 트래픽의 우선 순위를
         
         > [!NOTE]
         > DSCP 태그 지정은 일반적으로 원본 포트를 통해 수행되며 UDP 트래픽은 기본적으로 대상 포트가 3478인 전송 릴레이로 라우팅됩니다. 회사에서 대상 포트에 태그를 지정해야 하는 경우 지원 팀에 문의하여 UDP 포트 3479(오디오), 3480(비디오) 및 3481(공유)가 있는 전송 릴레이로의 통신을 사용 설정하세요.
-    - 포트 범위를 지정하려면 **각 유형의 실시간 미디어 트래픽에 대한 포트 범위 선택** 옆에 있는 **포트 범위 지정** 을 선택한 다음 오디오, 비디오 및 화면 공유를 위한 시작 및 종료 포트를 입력합니다. QoS를 구현하려면 이 옵션을 선택해야 합니다. 
+    - To specify port ranges, next to **Select a port range for each type of real-time media traffic**, select  **Specify port ranges**, and then enter the starting and ending ports for audio, video, and screen sharing. Selecting this option is required to implement QoS. 
         > [!Note]
-        > **실시간 트래픽에 대한 QoS(서비스 품질) 표식** 이 켜져 있는 경우 포트 설정을 관리해야 합니다. 해당 설정은 자동으로 관리되지 않습니다.
+        > If **Quality of Service (QoS) markers for real-time media traffic** is on, then you have to manage your port settings. They aren't managed automatically.
         
         > [!IMPORTANT]
         > **사용 가능한 포트 자동 사용** 을 선택하면 1024에서 65535 사이의 사용 가능한 포트가 사용됩니다. QoS를 구현하지 않는 경우에만 이 옵션을 사용합니다.
@@ -184,4 +185,4 @@ QoS(서비스 품질)를 사용하여 네트워크 트래픽의 우선 순위를
 
 \* 할당하는 포트 범위는 겹칠 수 없으며 서로 근접해 있어야 합니다.
 
-QoS를 한동안 사용하고 나면 이 세 가지 작업 각각의 수요에 대한 사용량 정보가 제공되며 특정 요구에 따라 변경할 사항을 선택할 수 있습니다. [통화 품질 대시보드](turning-on-and-using-call-quality-dashboard.md)가 도움이 될 것입니다.
+After QoS has been in use for a while, you'll have usage information on the demand for each of these three workloads, and you can choose what changes to make based on your specific needs. [Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md) will be helpful with that.
