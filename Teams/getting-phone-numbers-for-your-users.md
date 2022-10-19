@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Teams의 기존 번호를 새로 얻거나, 포팅하거나, 전송하는 방법과 변경 내용을 사용자에게 표시하는 방법을 알아봅니다.
-ms.openlocfilehash: 4f3c06986943be42d6a39c22101645e1ff1b0058
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 0e9b3c13c62c2adb5a3fa6a7dbe7665e9346a08d
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396339"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68583869"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>사용자의 전화 번호 가져오기
 

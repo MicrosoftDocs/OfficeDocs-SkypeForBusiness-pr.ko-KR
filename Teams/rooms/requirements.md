@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 적절한 장치, 마이크, 스피커, 카메라 및 디스플레이 선택을 포함하여 Microsoft Teams 룸 지원하기 위한 요구 사항에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c14375c73a40747079f6d8d6ae89d5dd31bbd8a5
-ms.sourcegitcommit: 2dab123ad74fcad4db5390e9b745f72497a05882
+ms.openlocfilehash: 361a81e4945e191bbb0443d0a73555b14a8770fb
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2022
-ms.locfileid: "68560248"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584379"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 룸 요구사항
 
@@ -235,6 +235,7 @@ Microsoft Teams 룸 크기가 다른 객실 크기로 조정됩니다. Teams 룸
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink 증폭기 +</br> [젠하이저 TCC2 천장 마이크](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [DesignMax DM2C -LP Ceiling Speaker](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  | 
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink 증폭기+</br> [젠하이저 TCC2 천장 마이크](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [EdgeMax EM180 Ceiling Speaker](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/edgemax/edgemax_em180.html#v=edgemax_em180_white) | Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  |
 |QSC Q-SYS Core([110f](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/), [8 Flex](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/), [Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/) 또는 [NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + </br> [젠하이저 TCC2 천장 마이크](https://en-us.sennheiser.com/tcc2) + </br> QSC 증폭기([SPA 시리즈](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/) 또는 [CX-Q 시리즈](https://www.qsc.com/solutions-products/power-amplifiers/installed/network/cx-q-series/)) + </br> [QSC AcousticDesign 시리즈 스피커](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/solutions/acousticdesigntm-series-solutions/) + </br> QSC IP 카메라([PTZ-IP 20x60](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/), [PTZ-IP 12x72](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)) 선택 사항 + </br> [QSC Q-SYS I/O USB 브리지](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) 선택 사항 | QSC Q-SYS Core, PTZ-IP 카메라 및 I/O USB 브리지: QSC Q-SYS 디자이너 9.0.1-2104.022 </br> 젠하이저 TCC2 천장 마이크: TCC2 - 1.5.1, 단테 1.2.0 </br> QSC 증폭기: N/A </br> QSC AcousticDesign 시리즈 라우드 스피커: 해당 없음 | 
+|[Vaddio IntelliSHOT-M](https://www.legrandav.com/products/cameras/hd_fixed_camera/intellishot-eptz-camera) | 1.0.0 |
 
 
 &Dagger; 고객은 번들에서 Biamp/Sennheiser에서 권장하는 Dante 인터페이스 혹은 네트워크 스위치를 선택할 수 있습니다.
