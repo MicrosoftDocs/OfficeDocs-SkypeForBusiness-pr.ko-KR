@@ -1,7 +1,7 @@
 ---
-title: 공휴일을 Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
+title: Microsoft Teams에서 휴일 설정
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -19,67 +19,67 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
-description: 자동 참석자와 함께 사용할 수 있도록 Microsoft Teams 공휴일을 설정하는 방법에 대해 자세히 알아보습니다.
-ms.openlocfilehash: f7e6d5a3d305afedd732fe20fb7ab22a97b12c21
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+description: 자동 전화 교환에 사용하기 위해 Microsoft Teams에서 휴일을 설정하는 방법을 알아봅니다.
+ms.openlocfilehash: e3d23c3d289f3ce2698d9bd0b774c40a46d69004
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766591"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614401"
 ---
-# <a name="set-up-holidays-in-microsoft-teams"></a>공휴일을 Microsoft Teams
+# <a name="set-up-holidays-in-microsoft-teams"></a>Microsoft Teams에서 휴일 설정
 
-휴일 Teams 기능을 사용하여 부서, 통화 큐 또는 조직의 사용자가 다른 근무 시간을 따라가거나 사용할 수 없는 특정 날짜 및 시간에 대한 대체 메시지 및 발신자 라우팅을 제공할 수 있습니다. 예를 들어 조직이 닫혀 있을 수 있는 새해 날에 대한 공휴일을 만들 수 있습니다.
+Teams 휴일 기능을 사용하여 부서, 통화 큐 또는 조직의 사용자가 다른 근무 시간을 따르거나 사용할 수 없는 특정 날짜 및 시간에 대한 대체 메시지 및 라우팅을 호출자에게 제공할 수 있습니다. 예를 들어 조직을 닫을 수 있는 설날 휴일을 만들 수 있습니다.
 
-여기에서 만든 공휴일은 각각 [](create-a-phone-system-auto-attendant.md)자체 인사말 및 통화 라우팅 설정을 사용하여 자동 참석자 설정을 설정할 때 사용할 수 있습니다.
+여기에서 만든 휴일은 [자동 전화 교환을 설정할](create-a-phone-system-auto-attendant.md) 때 사용할 수 있으며, 각 휴일에는 자체 인사말 및 통화 라우팅 설정이 있습니다.
 
 ## <a name="create-a-holiday"></a>휴일 만들기
 
-공휴일을 만들면
+휴일을 만들려면
 
-1. Microsoft Teams 관리 센터에서 **Voice**  >  **Holidays 으로 이동하세요.**
+1. Microsoft Teams 관리 센터에서 **Voice** > **Holidays** 로 이동합니다.
 
-2. 새 **휴일을 선택합니다.**
+2. **새 휴일** 을 선택합니다.
 
 3. 휴일의 이름을 입력합니다.
 
-4. 새 **날짜 추가를 선택합니다.**
+4. **새 날짜 추가를** 선택합니다.
 
-5. 시작 **시간에서** 일정 아이콘을 선택하고 휴일을 시작할 날짜를 선택합니다.
+5. **시작 시간** 에서 일정 아이콘을 선택하고 휴일을 시작할 날짜를 선택합니다.
 
-6. 드롭다운 목록을 사용하여 휴일의 시작 시간을 선택합니다.
+6. 드롭다운 목록을 사용하여 휴가 시작 시간을 선택합니다.
 
-7. 종료 **시간에서** 일정 아이콘을 선택하고 휴일을 종료할 날짜를 선택합니다.
+7. **종료 시간** 에서 일정 아이콘을 선택하고 휴일을 종료할 날짜를 선택합니다.
 
-8. 드롭다운 목록을 사용하여 휴일의 종료 시간을 선택합니다. 종료 **시간은** 시작 시간 이후에 **되어야 합니다.**  
+8. 드롭다운 목록을 사용하여 휴가 종료 시간을 선택합니다. **종료 시간은** **시작 시간** 이후여야 합니다.  
 
    > [!NOTE]
-   > 공휴일이 하루(예: 24시간 기간)인 경우 종료  시간은 다음 날로 설정하고 시간은 오전 12:00으로 설정해야 합니다. 예를 들어 조직이 새해 1월 1일로 종료된  경우 시작 시간을 1월 1일 오전 12:00으로 설정하고 종료 시간을 1월 2일 @ 12:00 AM으로 설정합니다. 
+   > 휴일이 하루 종일(즉, 24시간 기간)인 경우 **종료 시간은** 다음 날로, 시간은 오전 12:00로 설정되어야 합니다. 예를 들어 조직이 설날에 1월 1일에 닫힌 경우 **시작 시간을** 1월 1일 오전 12:00로 설정하고 **종료 시간을** 1월 2일 @ 오전 12:00로 설정합니다.
 
-9. 선택적으로, 공휴일에 대한 날짜를 더 추가합니다.
+9. 필요에 따라 되풀이 휴일에 대한 날짜를 더 추가합니다.
 
 10. **저장** 을 선택합니다.
 
-    ![3년 동안 설정된 날짜가 있는 공휴일 사용자 인터페이스 스크린샷](media/holidays-set-up.png)
+    ![날짜가 3년으로 설정된 휴일 사용자 인터페이스의 스크린샷.](media/holidays-set-up.png)
 
 ## <a name="change-a-holiday"></a>휴일 변경
 
-휴일을 변경하는 경우
+휴일을 변경하려면
 
-1. Microsoft Teams 관리 센터에서 **Voice**  >  **Holidays 으로 이동하세요.**
+1. Microsoft Teams 관리 센터에서 **Voice** > **Holidays** 로 이동합니다.
 
 2. 목록에서 휴일을 선택합니다.
 
-3. 시작 **시간에서** 일정 아이콘을 선택하고 휴일을 시작할 날짜를 선택합니다.
+3. **시작 시간** 에서 일정 아이콘을 선택하고 휴일을 시작할 날짜를 선택합니다.
 
-4. 드롭다운 목록을 사용하여 휴일의 시작 시간을 선택합니다.
+4. 드롭다운 목록을 사용하여 휴가 시작 시간을 선택합니다.
 
-5. 종료 **시간에서** 일정 아이콘을 선택하고 휴일을 종료할 날짜를 선택합니다. 
+5. **종료 시간** 에서 일정 아이콘을 선택하고 휴일을 종료할 날짜를 선택합니다. 
 
-6. 드롭다운 목록을 사용하여 휴일의 종료 시간을 선택합니다. 종료 **시간은** 시작 시간 이후에 **되어야 합니다.**  
+6. 드롭다운 목록을 사용하여 휴가 종료 시간을 선택합니다. **종료 시간은** **시작 시간** 이후여야 합니다.  
 
 7. **저장** 을 선택합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[자동 Teams 큐에](plan-auto-attendant-call-queue.md)대한 계획?
+[Teams 자동 전화 교환 및 통화 큐를 계획하시겠습니까](plan-auto-attendant-call-queue.md)?

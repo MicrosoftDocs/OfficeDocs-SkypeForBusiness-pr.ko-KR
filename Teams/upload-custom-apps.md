@@ -17,13 +17,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: high
 search.appverid: MET150
-description: Microsoft Teams 관리 센터에서 조직의 앱 스토어에 사용자 지정 앱을 업로드하는 방법을 알아보세요.
-ms.openlocfilehash: 51ea4bdc31ff59a34bdf28a991617fff0f4e7381
-ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
+description: 조직의 Teams 앱 스토어에 사용자 지정 앱을 업로드하는 방법을 알아봅니다.
+ms.openlocfilehash: 0b48061ab005e64d6fb6385fabb48f3b49ff87f0
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "68494611"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614591"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>앱 패키지를 업로드하여 사용자 지정 앱 게시
 
@@ -40,11 +40,11 @@ Microsoft Teams 개발자 플랫폼을 사용하면 개발자가 자신의 앱�
 
 ## <a name="validate"></a>확인
 
-### <a name="get-the-app-package"></a>앱 패키지 받기
+### <a name="receive-the-app-package"></a>앱 패키지 받기
 
-앱이 프로덕션에서 사용할 준비가 되면 개발자는 앱 패키지를 생성해야 합니다. [App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview)를 사용할 수 있습니다. 개발자는 사용자에게 .zip 형식의 파일을 보낼 것입니다.
+앱이 프로덕션 환경에서 사용할 준비가 되면 개발자는 [개발자 포털](/microsoftteams/platform/concepts/build-and-test/manage-your-apps-in-developer-portal)을 사용하여 앱 패키지를 생성합니다. 개발자는 앱 패키지를 .zip 형식으로 공유합니다.
 
-Teams 스토어의 모든 앱은 글로벌 Teams 앱 스토어의 품질 및 보안 표준을 준수하기 위해 필수 [앱 유효성 검사](overview-of-app-validation.md)를 통과합니다. 또한 Microsoft는 앱 개발자가 향상된 규정 준수, 보안 및 개인 정보 보호 제어를 나타내는 선택적 [앱 규정 준수 프로그램](overview-of-app-certification.md)에 참여할 것을 적극 권장합니다. 자세한 내용은 [Teams 앱 유효성 검사 가이드라인](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines)을 참조하세요.
+Teams 스토어의 모든 앱은 Teams 앱 스토어의 앱 품질 및 보안 표준을 준수하기 위해 필수 앱 [유효성 검사를](overview-of-app-validation.md) 전달합니다. 또한 Microsoft는 앱 개발자가 향상된 규정 준수, 보안 및 개인 정보 보호 제어를 나타내는 선택적 [앱 규정 준수 프로그램](overview-of-app-certification.md)에 참여할 것을 적극 권장합니다. 자세한 내용은 [Teams 앱 유효성 검사 가이드라인](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines)을 참조하세요.
 
 ### <a name="allow-trusted-users-to-upload-custom-apps"></a>신뢰할 수 있는 사용자가 사용자 지정 앱을 업로드하도록 허용
 
@@ -119,7 +119,7 @@ Microsoft Teams 관리 센터의 앱 관리 페이지에서 앱을 업데이트�
 
 ### <a name="end-user-update-experience"></a>최종 사용자 업데이트 환경
 
-대부분의 경우 앱 업데이트를 완료하면 최종 사용자에게 새 버전이 자동으로 표시됩니다. 자세한 내용은 [최종 사용자 업데이트 환경](apps-update-experience.md)을 참조하세요.
+대부분의 경우 새 버전의 앱을 게시한 후 최종 사용자에 대해 자동으로 업데이트됩니다. 자세한 내용은 [최종 사용자 앱 업데이트 환경을 참조하세요](apps-update-experience.md).
 
 ## <a name="remove-a-custom-app-from-your-organizations-store"></a>조직의 스토어에서 사용자 지정 앱 제거
 
