@@ -1,8 +1,8 @@
 ---
 title: 자동 전화 교환 및 통화 큐 통화에 응답
 ms.reviewer: colongma
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 audience: ITPro
 ms.date: 09/20/2018
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fb621661ab8b5b8ace8a965e77513cd72966cf23
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 1653f1a994da168126c06d10950c7db8e22e37c6
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880372"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614201"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>자동 전화 교환에 응답하고 Teams에서 직접 큐에 전화 걸기
 
@@ -73,7 +73,7 @@ Microsoft Teams에서 자동 전화 교환 및 통화 큐 호출을 받으려면
 통화 큐 에이전트가 모바일 디바이스에서 전화를 받으면 디바이스가 잠겨 있는 경우 통화가 보류될 수 있습니다. 사용자는 먼저 디바이스의 잠금을 해제한 다음 통화에 응답해야 합니다.
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [클라우드 통화 큐 만들기](create-a-phone-system-call-queue.md)
 

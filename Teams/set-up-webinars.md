@@ -18,13 +18,14 @@ ms.custom: ''
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 description: Teams 모임에 대한 웨비나 정책을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 26863b26f960b50d81fa1d98090c3616d5b492a7
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 2c83452a37752745072b8a128f9e0eec8db3d7c0
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706485"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614581"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Microsoft Teams의 웨비나를 위한 설정
 

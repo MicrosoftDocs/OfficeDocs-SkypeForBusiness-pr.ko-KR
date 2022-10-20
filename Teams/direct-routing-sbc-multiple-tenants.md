@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft 파트너 및/또는 PSTN 통신 사업자를 위해 여러 테넌트에 서비스를 제공하도록 하나의 SBC(세션 테두리 컨트롤러)를 구성하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9d7ee3960f88b1c6ed4ee140b4f291162e37da30
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 3789270bc9826c11dee338b5221bc019191f50f2
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67024021"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614411"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>여러 테넌트에 대해 세션 경계 컨트롤러 구성
 
@@ -136,10 +136,13 @@ SBC는 연결을 인증하기 위해 인증서가 필요합니다. SBC 호스팅
 
 도메인 이름을 등록한 후에는 하나 이상의 Teams 라이선스 사용자 또는 리소스 계정을 추가하여 활성화해야 합니다. 허용되는 계정은 다음 SKU 중 하나로 라이선스가 부여됩니다.
 
-- Office 365 E1/E3/E5/A3/A5 또는 Microsoft 365 E3/E5/A3/A5를 사용하는 사용자 계정
-- Office 365 F1/F3 또는 Microsoft 365 F1/F3이 있는 사용자 계정
-- 공용 영역 전화의 사용자 계정
-- **Microsoft Teams 전화 Resource Account 라이선스가 있는 리소스 계정**
+- Office 365 E1/E3/E5 또는 Microsoft 365 E3/E5가 있는 사용자 계정입니다.
+- Office 365 A1/A3/A5 또는 Microsoft 365 A1/A3/A5를 사용하는 사용자 계정입니다.
+- Office 365 F3 또는 Microsoft 365 F1/F3이 있는 사용자 계정입니다.
+- Office 365 G1/G3/G5 또는 Microsoft 365 G3/G5가 있는 사용자 계정입니다.
+- Microsoft 365 Business Basic/표준/프리미엄을 사용하는 사용자 계정입니다.
+- 공용 영역 전화의 사용자 계정입니다.
+- **Microsoft Teams 전화 Resource Account 라이선스가 있는 리소스 계정**.
 
 또한 계정의 UPN(사용자 계정 이름) 또는 비즈니스용 Skype 온-프레미스 SIP 주소는 새로 만든 도메인과 동일한 FQDN을 사용해야 합니다.
 
@@ -202,6 +205,7 @@ Microsoft 365 조직에서 사용자를 추가하는 방법에 대한 자세한 
 
 -   Office 365 E1/E3/E5/A3/A5 또는 Microsoft 365 E3/E5/A3/A5를 사용하는 사용자 계정
 -   Office 365 F1/F3 또는 Microsoft 365 F1/F3이 있는 사용자 계정
+-   Microsoft 365 Business Basic/표준/프리미엄 및 G3/G5 요금제가 있는 사용자 계정
 -   공용 영역 전화의 사용자 계정
 -   **Microsoft Teams 전화 Resource Account** 라이선스가 있는 리소스 계정
 

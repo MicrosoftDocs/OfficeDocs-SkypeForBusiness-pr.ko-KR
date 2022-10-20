@@ -1,7 +1,7 @@
 ---
 title: Teams에서 리소스 계정 관리
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: jastark, wasseemh
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 이 문서에서는 Microsoft Teams에서 리소스 계정을 만들고, 편집하고, 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: ac3eb35894fa765dc44f46fcb489399b06adfa74
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: cc4705f91260c0ef58b876ef4a606d96ce397929
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584029"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614391"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams에서 리소스 계정 관리
 

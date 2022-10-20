@@ -1,7 +1,7 @@
 ---
 title: Teams 자동 전화 교환 및 통화 큐 계획
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 자동 전화 교환 및 통화 큐에 대해 알아보고 이를 사용하여 발신자가 메뉴 시스템을 통해 조직의 사용자 또는 부서에 연결할 수 있도록 돕는 방법을 알아봅니다.
-ms.openlocfilehash: 05bbc5880e3a90751cfaada782573fd2d0b10c90
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: 8c02bd3d8881bcbfa0d998098b39106ed8476435
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584809"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68613960"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Teams 자동 전화 교환 및 통화 큐 계획
 

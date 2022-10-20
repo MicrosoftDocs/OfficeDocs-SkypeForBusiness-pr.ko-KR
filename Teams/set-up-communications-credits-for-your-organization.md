@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -23,12 +24,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 사용자 및 조직에 대한 통신 크레딧(PSTN 소비) 청구 라이선스를 설정하는 방법을 알아봅니다.
-ms.openlocfilehash: 8093b10d4918793c669f42b839999239d381a24a
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 4ad3b6702d31f59c237bf7867aadd0e8d1c05abf
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156576"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68613840"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>조직에 사용할 통신 크레딧 설정
 
@@ -93,7 +94,7 @@ Microsoft Teams에서 무료 번호를 사용하려면 Communications Credits를
      >
      > 자동 충전 함수를 사용하는 경우 트리거 양에 도달하고 재충전 트랜잭션이 처리될 때 Communication Credits에 대한 호출이 생성됩니다. 통신 크레딧 금액은 첫 번째 아웃 방식으로 사용됩니다. 월별 사용량을 확인하는 방법을 알아보려면 [Microsoft Teams PSTN 사용 현황 보고서를](/microsoftteams/teams-analytics-and-reports/pstn-usage-report) 참조하세요.
 
-6. **순서를** 선택합니다.
+6. **주문하기** 를 선택합니다.
 
     >[!IMPORTANT]
     >볼륨 라이선스 고객인 경우 기업 계약을 결제에 사용할 수 있습니다. 기업계약 번호가 여러 개 있는 경우 결제에 사용할 기업계약을 선택할 수 있습니다. 또한 지원에서 이를 사용하도록 설정하면 기업계약 번호(해당하는 경우)와 연결할 구매 주문 번호를 지정할 수 있습니다.

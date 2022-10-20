@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams에 대한 자동 전화 교환 설정
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -21,12 +21,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Microsoft Teams에서 자동 전화 교환을 설정하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 97cf5ea5c6cab381ce21f1bcbf1af7fa9e0a0177
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: 7b9d34e7e33ee0274f957afc8b1c4efecb044974
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584779"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614371"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 전화 교환 설정
 

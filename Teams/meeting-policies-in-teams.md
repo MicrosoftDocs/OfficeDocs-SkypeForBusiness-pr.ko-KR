@@ -12,6 +12,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 appliesto:
 - Microsoft Teams
 f1.keywords:
@@ -24,12 +25,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams에서 모임 정책 설정 관리하기를 알아보세요. 정책 설정을 사용하여 사용자가 예약한 모임의 참가자가 사용할 수 있는 기능을 제어합니다.
-ms.openlocfilehash: 1b5b173253ee457a6d966f9310987168d62a5299
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 374c51a1356ebdc7940185f64a98a334ce7bb66d
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418497"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614000"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams에서의 모임 정책 관리
 
@@ -222,7 +223,7 @@ IP 오디오 모드는 사용자별 정책입니다. 이 설정은 모임 및 �
 
 |설정값 |동작  |
 |---------|---------|
-|**발신 및 수신 오디오 사용**    |발신 및 수신 오디오가 모임에서 허용됩니다. 이 설정은 기본 설정입니다. |
+|**발신 및 수신 오디오 사용**    |모임에서 발신 및 수신 오디오가 허용됩니다. 기본 설정입니다. |
 |**사용 안 함**     |모임에서 발신 및 수신 오디오가 해제되었습니다.     |
 
 사용자에 대해 **사용 안 함** 설정되어 있는 경우 해당 사용자는 계속 모임을 예약하고 구성할 수 있지만 오디오를 사용할 수 없습니다. 모임에 참가하기 위해 사용자는 공중 전화망(PSTN)을 통해 전화를 걸거나 전화로 사용자를 연결하는 모임 통화를 해야 합니다. 정책이 할당되지 않은 모임 참가자(예: 익명 참가자)는 기본적으로 **발신 및 수신 오디오 사용** 으로 설정되어 있습니다. Teams 모바일 클라이언트에서 이 설정을 사용하지 않도록 설정한 경우 사용자는 PSTN을 통해 모임에 전화를 걸어야 합니다.
@@ -283,7 +284,7 @@ Daniela가 비디오를 켠 채로 Amanda에게 전화하는 경우 Amanda는 �
 
 #### <a name="which-ip-video-policy-setting-takes-precedence"></a>IP 비디오 정책 설정 우선 순위
 
-사용자를 기준으로 가장 제한적인 비디오 정책 설정이 우선합니다. 몇 가지 예제는 다음과 같습니다.
+사용자를 기준으로 가장 제한적인 비디오 정책 설정이 우선합니다. 예를 들면 다음과 같습니다.
 
 |IP 비디오 허용|IP 비디오 모드|모임 환경|
 |---------|---------|---------|
@@ -331,7 +332,7 @@ CEO 이사회 모임 및 Teams 라이브 이벤트와 같이 최고 품질의 �
 ### <a name="screen-sharing-mode"></a>화면 공유 모드
 
 > [!NOTE]
-> 이 기능은 아직 개발 중입니다. 화면 공유는 참가자별 정책이지만 이 섹션에 설명된 바와 같이 모임 이끌이의 화면 공유 설정이 영향을 미칠 수 있습니다.
+> This feature is still in development. Screen sharing is a per-participant policy, however, it can be affected by the organizer's screen sharing settings, as described in this section.
 
 이 설정은 사용자 모임에서 바탕화면 및/또는 창 공유를 허용할지 여부를 제어합니다. 할당된 정책이 없는 모임 참가자(예: 외부 참가자)는 모임 이끌이의 정책을 상속합니다.
 
@@ -452,7 +453,7 @@ Daniela는 Amanda의 모임에서 메모를 작성할 수 있고 Amanda는 어�
 이 설정은 이끌이 없는 회의 모임을 감안한 이끌이별 정책입니다. 이 설정으로 익명 사용자가 조직의 인증된 사용자의 참석 없이 모임에 참가할 수 있는지 여부를 제어합니다. 이 설정은 기본적으로 해제되어 있습니다. 즉, 익명 사용자는 조직의 인증된 사용자가 모임에 참가할 때까지 대기실에서 기다립니다.
 
 > [!NOTE]
-> 이 설정이 해제되어 있으며 익명 사용자가 먼저 모임에 참가하여 대기실에 있는 경우 조직 사용자는 대기실 사용자의 입장을 허락하기 위해 Teams 클라이언트에서 모임에 참가해야 합니다. 사용자에게 전화를 걸 수 있는 대기실 컨트롤은 없습니다.
+> If this setting is turned off and an anonymous user joins the meeting first and is placed in the lobby, an organization user must join the meeting with a Teams client to admit the user from the lobby. There are no lobby controls available for dialed in users.
 
 ### <a name="automatically-admit-people"></a>자동으로 사용자 입장
 
@@ -463,15 +464,15 @@ Daniela는 Amanda의 모임에서 메모를 작성할 수 있고 Amanda는 어�
  모임 이끌이는 모임 초대장의 **모임 옵션** 을 선택하여 본인이 예약하는 각 모임에 대해 이 설정을 변경할 수 있습니다.
 
 > [!NOTE]
-> 모임 옵션에서 설정에는 "대기실을 무시할 수 있는 사용자"라는 레이블이 지정됩니다. 아무 사용자에 대해서든 기본 설정을 변경하는 경우 해당 사용자가 이끄는 모든 새 모임 및 사용자가 모임 옵션을 수정하지 않은 이전 모임에 변경된 설정이 적용됩니다.
+> In the meeting options the setting is labeled "Who can bypass the lobby". If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
   
 |설정값  |참가 동작 |
 |---------|---------|
 |**모든 사용자**   |모든 모임 참가자가 대기실에서 기다리지 않고 바로 모임에 참가합니다. 여기에는 인증된 사용자, 외부 액세스 사용자, 게스트 및 익명 사용자가 포함됩니다.     |
-|**내 조직의 사용자, 신뢰할 수 있는 조직 및 게스트**     |게스트 사용자 및 신뢰할 수 있는 조직의 사용자를 포함하여 조직 내 인증된 사용자는 대기실에서 기다리지 않고 바로 모임에 참가합니다. 익명 사용자는 대기실에서 대기합니다.   |
-|**내 조직의 사용자 및 게스트**    |게스트 사용자를 포함하여 조직 내에서 인증된 사용자는 로비에서 기다리지 않고 바로 회의에 참여합니다. 신뢰할 수 있는 조직의 사용자와 익명의 사용자가 로비에서 기다립니다. 이것이 기본 설정입니다.           |
+|**내 조직의 사용자, 신뢰할 수 있는 조직 및 게스트**     |Authenticated users within the organization, including guest users and the users from trusted organizations, join the meeting directly without waiting in the lobby. Anonymous users wait in the lobby.   |
+|**내 조직의 사용자 및 게스트**    |Authenticated users from within the organization, including guest users, join the meeting directly without waiting in the lobby. Users from trusted organizations and anonymous users wait in the lobby. This is the default setting.           |
 |**모임 이끌이만**    |모임 이끌이만 대기실에서 기다리지 않고 바로 모임에 참가할 수 있습니다. 조직 내 인증된 사용자, 게스트 사용자, 신뢰할 수 있는 조직의 사용자 및 익명 사용자 등 그 외 모든 사용자는 대기실에서 대기해야 합니다.           |
-|**내 조직의 사용자**  |게스트 사용자를 제외한 조직 내 인증된 사용자는 로비에서 기다리지 않고 직접 모임에 참여합니다. 신뢰할 수 있는 조직의 게스트 및 사용자와 익명 사용자가 로비에서 대기합니다.|
+|**내 조직의 사용자**  |Authenticated users from within the organization, excluding guest users, join the meeting directly without waiting in the lobby. Guests and users from trusted organizations and anonymous users wait in the lobby.|
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>전화 접속 사용자의 대기실 우회 허용
 
@@ -499,7 +500,7 @@ Daniela는 Amanda의 모임에서 메모를 작성할 수 있고 Amanda는 어�
 
 ### <a name="allow-chat-in-meetings"></a>모임에서 채팅 허용
 
-참가자당 설정입니다. 이 설정으로 사용자 모임에서 모임 채팅을 허용할지 여부를 제어합니다.
+참가자별 설정입니다. 이 설정으로 사용자 모임에서 모임 채팅을 허용할지 여부를 제어합니다.
 
 <a name="bkparticipantsandguests"> </a>
 
@@ -550,7 +551,7 @@ Teams에서 **발표할 수 있는 사람** 설정의 기본값을 지정하려�
 
 ## <a name="meeting-policy-settings---video-filters-mode"></a>모임 정책 설정 - 비디오 필터 모드
 
-사용자당 정책입니다. 이 설정으로 사용자가 모임에서 비디오 배경을 사용자 지정할 수 있는지 여부를 제어합니다.
+사용자별 정책에 해당합니다. 이 설정으로 사용자가 모임에서 비디오 배경을 사용자 지정할 수 있는지 여부를 제어합니다.
 
 현재는 PowerShell을 사용해서만 이 정책을 설정할 수 있습니다. [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존의 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새로운 Teams 모임 정책을 만든 다음 그 정책을 사용자에게 할당합니다.
 

@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f53dd50f78afa2d85c4858e2d98170b3dc044f55
-ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
+ms.openlocfilehash: 33175aecc41dbc631fe8ab16db225762969b5ad6
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "67732317"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614040"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams용 클라이언트 다운로드
 
@@ -46,7 +46,7 @@ Teams 데스크톱 클라이언트는 다음 운영 체제에서 독립 실행�
 - Linux(`.deb` 및 `.rpm` 형식)
 - Chrome OS(자세한 내용은 [Chromebook에서 Microsoft Office를 사용하는 방법](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad) 참조)
 
-적합한 로컬 권한을 가지고 있는 경우 최종 사용자는 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)에서 직접 데스크톱 클라이언트를 다운로드하고 설치할 수 있습니다. Windows PC에서는 Teams 클라이언트를 설치하는 데 관리 권한이 필요하지 않지만 Mac에서는 필요합니다.
+Desktop clients can be downloaded and installed by end users directly from [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) if they have the appropriate local permissions. Admin permissions aren't required to install the Teams client on Windows PCs but are required on Macs.
 
 IT 전문가는 선호하는 방법을 선택하여 조직의 컴퓨터에 설치 파일을 배포할 수 있습니다. 예로는 Microsoft Endpoint Configuration Manager(Windows) 또는 Jamf Pro(macOS) 등이 있습니다. Teams 배포에 대한 자세한 내용은 다음을 참조하세요.
 
@@ -80,7 +80,9 @@ Windows 클라이언트는 사용자 프로필에 있는 AppData 폴더에 배�
 ![Windows 보안 경고 대화 상자의 스크린샷입니다.](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> "취소"를 선택하여 메시지를 해제해도 Windows 방화벽 구성이 변경됩니다. TCP 및 UDP 프로토콜에 대한 허용 동작으로 teams.exe에 대한 두 개의 인바운드 규칙이 만들어집니다.
+> Windows 방화벽 구성이 변경됩니다. TCP 및 UDP 프로토콜 모두에 대한 teams.exe 대한 두 가지 인바운드 규칙이 생성됩니다. 
+> - 사용자가 로컬 관리자이고 '액세스 허용'만 클릭하는 경우 작업을 허용합니다.
+> - 사용자가 로컬 관리자가 아니고 어떤 경우에도 "취소"를 선택하여 프롬프트를 해제할 때 작업을 차단합니다.
 
 사용자가 Teams에서 처음 호출할 때 Teams에서 사용자에게 방화벽 규칙을 생성하라는 메시지를 표시하지 않도록 하려면 [샘플 스크립트 - Microsoft Teams 방화벽 PowerShell 스크립트](client-firewall-script.md)에서 PowerShell 스크립트를 사용하세요.
 
@@ -208,4 +210,4 @@ Teams 모바일 앱에 지원되는 모바일 플랫폼은 다음과 같습니�
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)에 연결할 때 브라우저 클라이언트에서 브라우저 버전 검색을 수행합니다. 지원되지 않는 브라우저 버전이 감지되면 브라우저 인터페이스에 대한 액세스를 차단하고 사용자가 데스크톱 클라이언트 또는 모바일 앱을 다운로드하도록 권장합니다.
+The browser client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). If an unsupported browser version is detected, it will block access to the browser interface and recommend that the user download the desktop client or mobile app.

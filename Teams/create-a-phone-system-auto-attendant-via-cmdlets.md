@@ -1,7 +1,7 @@
 ---
 title: cmdlet을 통해 자동 전화 교환 만들기
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: cmdlet을 통해 자동 전화 교환을 구성하는 방법 알아보기
-ms.openlocfilehash: fa52f84f822635505e3d3390855195ba579406f7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 48e85ae312801257b133df76d5e60a6dbe51f628
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270143"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614060"
 ---
 # <a name="create-an-auto-attendant-via-cmdlets"></a>cmdlet을 통해 자동 전화 교환 만들기
 

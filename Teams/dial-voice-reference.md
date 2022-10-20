@@ -1,7 +1,7 @@
 ---
 title: 자동 전화 교환 및 통화 큐 전화 걸기 및 음성 인식 참조
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Teams의 자동 전화 교환 및 통화 큐 전화 걸기 및 음성 인식 옵션에 대해 알아봅니다.
-ms.openlocfilehash: 93a20be62f09ed7b636c593ecac48927d70e237f
-ms.sourcegitcommit: 55ba3ed53421da6619724a360d15e80262241079
+ms.openlocfilehash: 3b6b1fd6932491a6f9ad17e109902484461f912f
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67070729"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68613810"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>자동 전화 교환 및 통화 큐 전화 걸기 및 음성 인식 참조
 
@@ -59,14 +59,14 @@ Dial by Name은 구성된 다이얼 범위 포함 또는 제외 목록을 적용
 
 ## <a name="dial-by-name---keypad-dtmf-entry"></a>이름으로 전화 걸기 - 키패드(DTMF) 항목
 
-전화 접속하는 사용자는 전화 접속을 사용하여 도달하려는 사람의 전체 또는 부분 이름을 지정하여 사용자에게 연결할 수 있습니다. 이름을 입력할 때 사용할 수 있는 다양한 형식이 있습니다.
+사람 전화 접속은 전화 접속을 사용하여 도달하려는 사람의 전체 또는 부분 이름을 지정하여 사용자에게 연결할 수 있습니다. 이름을 입력할 때 사용할 수 있는 다양한 형식이 있습니다.
 
 조직의 디렉터리를 검색할 때 사용자는 '0' 키를 사용하여 이름과 성 또는 성 사이의 공백을 나타낼 수 있습니다. 이름을 입력할 때 # 키로 키패드 항목을 종료하라는 메시지가 표시됩니다. 예를 들어 "도달하려는 사람의 이름을 입력한 후 #키를 누릅니다." 이름이 여러 개인 경우 호출하는 사용자에게 선택할 이름 목록이 제공됩니다.
 
 > [!NOTE]
 > 다이얼 범위 포함 또는 제외 목록이 적용된 후에도 이름이 5개 이상 남아 있으면 검색이 실패하고 호출자에게 너무 많은 이름이 발견되었다는 알림이 표시됩니다.
   
-사용자는 전화 키패드에서 다음 검색 형식을 사용하여 조직에서 이름을 검색할 수 있습니다.
+사람 전화 키패드에서 다음 검색 형식을 사용하여 조직에서 이름을 검색할 수 있습니다.
   
 |이름 형식|검색 유형|예제|검색 결과|
 |:-----|:-----|:-----|:-----|
@@ -88,7 +88,7 @@ Dial by Name은 구성된 다이얼 범위 포함 또는 제외 목록을 적용
 
 ### <a name="dial-by-name---name-recognition-with-speech"></a>이름으로 전화 걸기 - 음성으로 이름 인식
 
-사용자는 음성(음성 인식)을 사용하여 조직의 다른 사용자를 검색할 수 있습니다. 또한 찾으려는 사람의 전체 또는 부분 이름을 말함으로써 Active Directory의 모든 사용자에게 연결할 수 있습니다. 음성 입력을 사용하면 FirstName, LastName, FirstName + LastName 또는 LastName + FirstName 등 다양한 형식으로 이름을 인식할 수 있습니다.
+사람 음성(음성 인식)을 사용하여 조직의 다른 사용자를 검색할 수 있습니다. 또한 찾으려는 사람의 전체 또는 부분 이름을 말함으로써 Active Directory의 모든 사용자에게 연결할 수 있습니다. 음성 입력을 사용하면 FirstName, LastName, FirstName + LastName 또는 LastName + FirstName 등 다양한 형식으로 이름을 인식할 수 있습니다.
   
 자동 전화 교환에 음성 인식을 사용하도록 설정할 수 있지만 DTMF(전화 키패드 항목)는 사용하지 않도록 설정되지 않습니다. 자동 전화 교환에서 음성 인식을 사용하도록 설정한 경우에도 언제든지 전화 키패드 항목을 사용할 수 있습니다.
   
@@ -113,7 +113,7 @@ Dial by Name은 구성된 다이얼 범위 포함 또는 제외 목록을 적용
 
 ### <a name="dial-by-extension"></a>확장으로 전화 걸기
 
-**Dial By Extension** 에 사용할 수 있도록 하려는 사용자는 Active Directory(Azure AD Connect를 통해 동기화됨) 또는 Azure Active Directory에 정의된 다음 전화 특성 중 하나로 지정된 확장이 있어야 합니다. 자세한 내용은 [개별적으로 또는 대량으로 사용자 추가](/microsoft-365/admin/add-users/add-users) 를 참조하세요.
+**Dial By Extension** 에 사용할 수 있도록 하려는 사용자는 Active Directory(Azure AD Connect를 통해 동기화됨)에 정의된 다음 전화 특성 중 하나로 지정된 확장이 있어야 합니다. 자세한 내용은 [개별적으로 또는 대량으로 사용자 추가](/microsoft-365/admin/add-users/add-users) 를 참조하세요.
 
 - TelephoneNumber(AD 및 Azure AD)
 - HomePhone(AD)
@@ -160,7 +160,7 @@ Dial by Name은 구성된 다이얼 범위 포함 또는 제외 목록을 적용
 |8개 |8을 누릅니다.|
 |나인 ()  |9 키를 누릅니다.|
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [비즈니스용 Skype 및 Microsoft Teams의 서비스 전화 번호 받기](./getting-service-phone-numbers.md)
 
