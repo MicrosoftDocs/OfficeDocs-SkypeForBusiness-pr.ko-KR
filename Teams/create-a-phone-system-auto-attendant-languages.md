@@ -1,7 +1,7 @@
 ---
-title: 자동 전화 교환 지원 언어 Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
+title: Microsoft Teams 자동 전화 교환 지원 언어
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -20,15 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 자동 전화 교환 지원 언어 Microsoft Teams
-ms.openlocfilehash: 609c92d86c1fbacddf35093a1ad77df065f5da75
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+description: Microsoft Teams 자동 전화 교환 지원 언어
+ms.openlocfilehash: c769df020f178b2a69321c7b163e74a9fa1df4d6
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676460"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614601"
 ---
-# <a name="microsoft-teams-auto-attendant-supported-languages"></a>자동 전화 교환 지원 언어 Microsoft Teams
+# <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teams 자동 전화 교환 지원 언어
 
 자동 전화 교환은 TTS(Text to Speech) 및 음성 인식에 대해 다음 언어를 지원합니다.
 
@@ -74,7 +74,7 @@ ms.locfileid: "65676460"
 |베트남어(베트남)                    |Y                        |                                       |
 
 > [!NOTE]
-> 음성 인식을 지원하지 않는 언어를 선택하면 메뉴 내의 음성 입력 옵션이 비활성화되고 이름별로 전화를 걸면 키패드(DTMF) 항목만 사용하도록 제한됩니다. 자세한 내용은 [이름으로 전화 걸기 - 키패드(DTMF) 항목을](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry) 참조하세요.
+> 음성 인식을 지원하지 않는 언어를 선택하면 메뉴 내의 음성 입력 옵션이 비활성화되고 이름별로 전화를 걸면 키패드(DTMF) 항목만 사용하도록 제한됩니다. 자세한 내용은 [이름별 전화 걸기 - 키패드(DTMF) 항목을](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry) 참조하세요.
 
 > [!NOTE]
 > Text to Speech를 사용하는 경우 시스템에서 번역을 수행하지 않으므로 선택한 언어로 텍스트를 입력해야 합니다.
