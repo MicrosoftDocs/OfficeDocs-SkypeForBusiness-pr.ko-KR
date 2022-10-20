@@ -719,8 +719,6 @@ items:
             items:
               - name: 오디오 회의 설정
                 href: set-up-audio-conferencing-in-teams.md
-              - name: 오디오 회의 설정 - 중소기업을 위한 빠른 시작
-                href: audio-conferencing-smb.md
           - name: 관리
             items:
               - name: 오디오 회의 서비스 관리
@@ -901,11 +899,11 @@ items:
                 href: operator-connect-plan.md
               - name: 운영자 연결 구성
                 href: operator-connect-configure.md
-          - name: 운영자 연결 모바일
+          - name: Teams 휴대폰 모바일
             items:
-              - name: 운영자 연결 모바일 계획
+              - name: Teams Phone Mobile 계획
                 href: operator-connect-mobile-plan.md
-              - name: 운영자 연결 모바일 구성
+              - name: Teams Phone Mobile 구성
                 href: operator-connect-mobile-configure.md
           - name: 직접 라우팅
             items:
@@ -1017,7 +1015,7 @@ items:
                 href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
           - name: 운영자 연결의 전화 번호 관리
             href: operator-connect-configure.md#set-up-phone-numbers
-          - name: 운영자 연결 모바일 전화 번호 관리
+          - name: Teams Phone Mobile의 전화 번호 관리
             href: operator-connect-mobile-configure.md#set-up-phone-numbers
           - name: 직접 라우팅을 위한 전화 번호 관리
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
@@ -1381,8 +1379,10 @@ items:
                 href: rooms/rooms-prep.md
               - name: 요구 사항
                 href: rooms/requirements.md
-              - name: 보안
-                href: rooms/security.md
+              - name: Windows 보안
+                href: rooms/security-windows.md
+              - name: Android 보안
+                href: rooms/security-android.md
               - name: Azure 모니터를 사용한 계획 관리
                 href: rooms/azure-monitor-plan.md
           - name: 배포
@@ -1431,7 +1431,7 @@ items:
                 href: rooms/xml-config-file.md
               - name: 복구 도구 사용
                 href: rooms/recovery-tool.md
-      - name: Microsoft Teams 룸 Pro Management
+      - name: Microsoft Teams 룸 Pro 관리
         items:
           - name: 개요
             href: rooms/microsoft-teams-rooms-premium.md
@@ -1585,7 +1585,7 @@ items:
         items:
           - name: 사용자 지정 및 테스트용으로 로드된 앱 관리
             href: custom-app-overview.md
-          - name: 사용자 지정 앱 정책 및 설정 관리
+          - name: 사용자 지정 앱에 대한 정책 및 설정 관리
             href: teams-custom-app-policies-and-settings.md
           - name: API를 사용하여 제출된 사용자 지정 앱 게시
             href: submit-approve-custom-apps.md
@@ -1615,7 +1615,7 @@ items:
             href: app-permissions.md
           - name: 조직의 앱 스토어 브랜딩
             href: customize-your-app-store.md
-          - name: 외부 또는 게스트 사용자로 앱 사용
+          - name: 외부 사용자 또는 게스트로 앱 사용
             href: non-standard-users.md
           - name: 사용자 요청 관리
             href: user-requests-approve-apps.md
@@ -2057,6 +2057,8 @@ items:
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md
       - name: 접근성 및 규정 준수
         items:
+          - name: Teams에 대한 접근성 지침
+            href: accessibility-guide-admin.md
           - name: Microsoft Teams에서 프랑스의 규정 준수에 대한 접근성 선언
             href: accessibility-declaration-of-conformance-in-france-for-teams.md
           - name: 비즈니스용 Skype Online 및 Microsoft Teams용 접근성 솔루션
@@ -2065,6 +2067,10 @@ items:
             href: code-of-practice-for-the-united-kingdom-u-k.md
           - name: Microsoft 365의 통화 플랜 - 영국의 코드 호환 처리
             href: complaint-handling-code-for-the-united-kingdom-u-k.md
+          - name: 캐나다의 IP 릴레이 - 등록
+            href: ip-relay-canada-email-signup.md
+          - name: 캐나다의 IP 릴레이 - 사용자 가이드
+            href: ip-relay-canada-user-guide.md
           - name: 긴급 통화 사용 약관
             href: emergency-calling-terms-and-conditions.md
       - name: 공유 채널 오류
