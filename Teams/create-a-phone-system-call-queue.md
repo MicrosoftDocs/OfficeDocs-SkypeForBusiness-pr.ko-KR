@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams에서 통화 큐 만들기
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Microsoft Teams에서 통화 큐를 설정하는 방법을 알아봅니다. 통화 큐는 인사말 메시지를 제공하고, 음악을 누르고, 통화 리디렉션 및 기타 기능을 제공합니다.
-ms.openlocfilehash: 55a03f8843f467ae180aaa22d71bff84e19c9d4b
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: 6fe298a3054165a95f496f8c1178a7fa8457542d
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68583899"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614231"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 
