@@ -26,12 +26,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 9ea4e8cb49166c116d69c12d795659b55c93c556
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: ce10e758352396dd1ac8e6334e54c4e298df9a0f
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68047048"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655854"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 Lists 앱 관리
 
@@ -39,13 +39,13 @@ ms.locfileid: "68047048"
 
 Microsoft Teams의 Lists 앱을 사용하면 조직의 사용자가 정보를 추적하고, 작업을 구성하고, 워크플로를 관리할 수 있습니다. Lists를 통해 사용자는 사용자 지정 가능한 보기, 규칙, 알림을 사용하여 문제, 자산, 루틴, 연락처, 재고, 인시던트, 대출, 환자 등의 데이터를 추적하여 모든 사람을 팀에 동기화할 수 있습니다.
 
-Teams에서 사용자는 채널의 탭에서 Lists에 액세스할 수 있습니다. 탭 갤러리를 열고 새 목록 앱 탭 인스턴스를 채널에 추가하여 시작하려면 선택합니다 **+** .
+Teams에서 사용자는 채널의 탭에서 Lists에 액세스할 수 있습니다. 탭 갤러리를 열고 시작할 채널에 새 목록 앱 탭 인스턴스를 추가하려면 선택합니다 **+** .
 
-![탭 갤러리에서 앱을 나열합니다.](media/lists-tab.png)
+![탭 갤러리에 앱을 나열합니다.](media/lists-tab.png)
 
 사용자는 새 목록을 만들거나 액세스 권한이 있는 동일한 팀 내에서 또는 다른 SharePoint 사이트에서 기존 목록을 고정할 수 있습니다. 새로운 목록은 처음부터 새로 작성하거나, 기본 제공 서식 파일, 기존 목록 구조에 따라 작성하거나, Excel 통합 문서에서 데이터를 가져와 작성할 수 있습니다. Lists 앱은 Teams 데스크톱, 웹 및 모바일 클라이언트에서 사용할 수 있습니다.
 
-![목록 앱에서 목록을 만드는 방법](media/lists-create-list.png)
+![목록 앱에서 목록을 만드는 방법입니다.](media/lists-create-list.png)
 
 ## <a name="templates"></a>서식 파일
 
@@ -101,15 +101,15 @@ Lists는 조직의 모든 Teams 사용자에 대해 기본적으로 사용하도
 2. 다음 중 하나를 수행합니다.
 
     - 조직의 목록을 해제하려면 목록 앱을 검색하고 선택한 다음 **차단** 을 선택합니다.
-    - 조직의 목록을 켜려면 목록 앱을 검색하고 선택한 다음 **허용** 을 선택합니다.
+    - 조직의 목록을 켜려면 목록 앱을 검색하고 선택한 다음 허용 **을 선택합니다.**
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>조직의 특정 사용자에 대해 Lists를 사용 또는 사용하지 않도록 설정
 
-조직의 특정 사용자가 Lists를 사용할 수 없도록 허용하거나 차단하려면 [앱 관리](manage-apps.md) 페이지에서 조직에 대해 Lists가 설정되어 있는지 확인한 다음 사용자 지정 앱 권한 정책을 만들어 사용자에게 할당합니다. 자세한 내용은 [Teams에서 앱 권한 정책 관리](teams-app-permission-policies.md)를 참조하세요.
+조직의 특정 사용자가 목록을 사용하도록 허용하거나 차단하려면 [앱 관리](manage-apps.md) 페이지에서 조직에 대해 목록이 설정되어 있는지 확인한 다음 앱 권한에 대한 사용자 지정 정책을 만들고 해당 사용자에게 할당합니다. 자세한 내용은 [Teams에서 앱 권한 정책 관리](teams-app-permission-policies.md)를 참조하세요.
 
 ## <a name="search-the-audit-log-for-list-events"></a>목록 이벤트에 대한 감사 로그 검색
 
-목록은 엔터프라이즈 수준 감사를 통해 사용하도록 설정되므로 보안 & 준수 센터의 감사 로그에서 목록 및 목록 항목 이벤트를 검색할 수 있습니다. 자세한 내용은 [보안 및 준수 센터에서 감사 로그 검색](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)을 참조하세요.
+목록은 엔터프라이즈 수준 감사를 통해 사용하도록 설정되므로 보안 & 규정 준수 센터의 감사 로그에서 목록 및 목록 항목 이벤트를 검색할 수 있습니다. 자세한 내용은 [보안 및 준수 센터에서 감사 로그 검색](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)을 참조하세요.
 
 Teams의 Lists 앱과 관련된 감사 이벤트 목록은[SharePoint 목록 활동](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities)을 참조하세요.
 

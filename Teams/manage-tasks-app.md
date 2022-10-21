@@ -20,25 +20,25 @@ ms.collection:
 - M365-collaboration
 - m365-frontline
 - highpri
-ms.openlocfilehash: 74b67a71f8b93f5f0ed898ef186beede056ec31a
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: c64e2b9e2d77724d4972449390c59b7655ab1ff0
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68047118"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656044"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 작업 앱 관리
 
 ## <a name="overview-of-tasks"></a>작업 개요
 
-작업 앱은 [Microsoft 할 일](https://todo.microsoft.com/tasks/)에서 제공한 개별 작업과 Planner에서 제공한 팀 작업을 통합하여 Microsoft Teams에 통합된 작업 관리 체험을 제공합니다.  사용자는 Teams 왼쪽의 앱으로 작업을 액세스하고 개별 팀 내의 채널에서 탭으로 작업에 액세스할 수 있습니다. **내 작업** 및 **공유 계획을** 사용하여 사용자는 모든 개인 및 팀 작업을 보고 관리하고 작업 우선 순위를 지정할 수 있습니다. 작업은 Teams 데스크톱, 웹 및 모바일 클라이언트에서 사용할 수 있습니다.
+작업 앱은 [Microsoft 할 일](https://todo.microsoft.com/tasks/)에서 제공한 개별 작업과 Planner에서 제공한 팀 작업을 통합하여 Microsoft Teams에 통합된 작업 관리 체험을 제공합니다.  사용자는 Teams 왼쪽의 앱으로 작업을 액세스하고 개별 팀 내의 채널에서 탭으로 작업에 액세스할 수 있습니다. **내 작업** 및 **공유 계획을** 사용하여 사용자는 모든 개별 및 팀 작업을 보고 관리하고 작업의 우선 순위를 지정할 수 있습니다. 작업은 Teams 데스크톱, 웹 및 모바일 클라이언트에서 사용할 수 있습니다.
 
 > [!NOTE]
 > Teams 데스크톱 클라이언트에 작업 환경을 제공하면, 처음에는 앱 이름이 사용자에게 **Planner** 로 표시됩니다. 그런 다음 **Planner 및 할 일별 작업** 으로 이름이 일시적으로 변경됩니다. 나중에는 **작업** 으로 다시 변경됩니다. Teams 모바일 클라이언트에서 사용자는 항상 앱 이름을 **작업** 으로 보게 됩니다. 데스크톱 환경을 사용할 수 있는 후 모바일 환경의 가용성이 잠시 지연될 수 있습니다.
 
 :::image type="content" source="media/manage-tasks-app-tasks.png" alt-text="작업 목록 보기의 스크린샷" lightbox="media/manage-tasks-app-tasks.png":::
 
-일선 작업자의 작업 관리를 간소화하려는 조직을 위해, 작업에도 일선 작업자 전반에서 작업을 대상으로 비율 관련 지정, 게시 및 추적할 수 있는 기능이 포함되어 있습니다. 예를 들어, 기업 및 지역 리더십은 특정 소매점과 같은 관련 위치를 대상으로 하는 작업 목록을 만들어 게시하고 실시간 보고서를 통해 진행 상황을 추적할 수 있습니다. 관리자는 직원들의 위치 내에서 작업을 할당하고 직접 작업을 할당할 수 있으며, 일선 작업자는 모바일 또는 데스크톱에서 할당된 작업에 대한 우선 순위를 소유합니다. [작업 게시](#task-publishing)를 사용하도록 설정하려면 먼저 계층 구조의 모든 팀이 서로 관련되는 방식을 정의하는 조직의 계층 구조를 대상으로 하는 팀을 설정합니다.
+일선 작업자의 작업 관리를 간소화하려는 조직을 위해, 작업에도 일선 작업자 전반에서 작업을 대상으로 비율 관련 지정, 게시 및 추적할 수 있는 기능이 포함되어 있습니다. 예를 들어, 기업 및 지역 리더십은 특정 소매점과 같은 관련 위치를 대상으로 하는 작업 목록을 만들어 게시하고 실시간 보고서를 통해 진행 상황을 추적할 수 있습니다. 관리자는 직원들의 위치 내에서 작업을 할당하고 직접 작업을 할당할 수 있으며, 일선 작업자는 모바일 또는 데스크톱에서 할당된 작업에 대한 우선 순위를 소유합니다. [작업 게시](#task-publishing)를 사용하도록 설정하려면 먼저 계층 구조의 모든 팀이 서로 관련된 방식을 정의하는 조직의 계층 구조를 대상으로 하는 팀을 설정합니다.
 
 ## <a name="what-you-need-to-know-about-tasks"></a>작업에 대해 알아야 할 작업
 
@@ -65,36 +65,36 @@ ms.locfileid: "68047118"
 2. 앱 목록에서 다음 작업 중 하나를 실행합니다.
 
     - 조직의 작업을 끄려면 작업 앱을 검색하고 선택한 다음 **차단** 을 선택합니다.
-    - 조직의 작업을 켜려면 작업 앱을 검색하고 선택한 다음 **[허용]** 을 선택합니다.
+    - 조직의 작업을 켜려면 작업 앱을 검색하고 선택한 다음 **허용** 을 선택합니다.
 
 > [!NOTE]
 > 작업 앱을 찾을 수 없는 경우, 이 문서의 첫 번째 노트에서 이름을 검색합니다. 앱의 이름을 계속 재명명하는 중일 수 있습니다.
 
 ### <a name="enable-or-disable-tasks-for-specific-users-in-your-organization"></a>조직의 특정 사용자에 대해 작업 사용 또는 사용하지 않도록 설정
 
-조직의 특정 사용자가 작업을 사용할 수 있도록 허용하거나 차단하려면, [앱 관리](manage-apps.md) 페이지에서 조직에 대해 작업이 켜져 있는지 확인한 다음 사용자 지정 앱 사용 권한 정책을 만들어 해당 사용자에게 할당합니다. 자세한 내용은 Teams 에서 [앱 사용 권한 정책 관리](teams-app-permission-policies.md)를 참조하세요.
+조직의 특정 사용자가 작업을 사용하도록 허용하거나 차단하려면 [앱 관리](manage-apps.md) 페이지에서 조직에 대해 작업이 켜져 있는지 확인한 다음 앱 권한에 대한 사용자 지정 정책을 만들고 해당 사용자에게 할당합니다. 자세한 내용은 [Teams에서 앱 권한 정책 관리](teams-app-permission-policies.md)를 참조하세요.
 
 ### <a name="pin-tasks-to-teams"></a>Teams에 작업 고정
 
 #### <a name="use-the-tailored-frontline-app-experience-to-pin-tasks-and-other-apps-to-teams"></a>맞춤형 최전방 앱 환경을 사용하여 작업 및 기타 앱을 Teams에 고정
 
-Teams의 맞춤형 최전방 앱 환경은 [F 라이선스](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)가 있는 사용자를 위해 Teams에서 가장 관련성이 큰 앱을 고정합니다. 고정된 앱에는 작업, 워키 토키, 교대 근무 및 승인이 포함됩니다. 기본적으로 이 기능은 최전방 근로자에게 요구 사항에 맞는 기본 제공 환경을 제공합니다.
+Teams의 맞춤형 최전방 앱 환경은 [F 라이선스](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)가 있는 사용자를 위해 Teams에서 가장 관련성이 큰 앱을 고정합니다. 고정된 앱에는 작업, 워키 토키, 교대 근무 및 승인이 포함됩니다. 기본적으로 이 기능은 사용 중이므로 최전방 작업자에게 요구 사항에 맞는 기본 제공 환경을 제공합니다.
 
-앱은 사용자가 빠르고 쉽게 액세스할 수 있는 Teams 데스크톱 클라이언트의 측면과 Teams 모바일 클라이언트 아래쪽에 있는 표시줄인 앱 바에 고정됩니다.
+앱은 사용자가 빠르고 쉽게 액세스할 수 있는 Teams 데스크톱 클라이언트의 측면과 Teams 모바일 클라이언트 아래쪽에 있는 바인 앱 바에 고정됩니다.
 
-설정한 앱 정책의 작동 방식을 포함하여 자세한 내용은 [최전방 작업자를 위한 Teams 앱 조정](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)을 참조하세요.
+설정한 앱 정책의 작동 방식을 포함하여 자세한 내용은 [최전방 직원을 위한 Teams 앱 조정](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)을 참조하세요.
 
 #### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>앱 설치 정책을 사용하여 Teams에 작업 고정
 
 앱 설정 정책을 사용하면 Teams를 사용자 지정하여 사용자의 사용자에게 가장 중요한 앱을 고정할 수 있습니다.
 
-사용자에 대해 작업 앱을 고정하려면, 전역(Org-wide 기본값) 정책을 편집하거나 사용자 지정 앱 설정 정책을 만들고 할당할 수 있습니다. 자세한 내용은 [Teams에서 앱 설정 정책 관리](teams-app-setup-policies.md)를 참조하세요.
+사용자에 대한 작업 앱을 고정하려면 전역(조직 전체 기본값) 정책을 편집하거나 앱 설정 정책에서 사용자 지정 정책을 만들고 할당할 수 있습니다. 자세한 내용은 [Teams에서 앱 설정 정책 관리](teams-app-setup-policies.md)를 참조하세요.
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>사용자의 내 작업은 사용자가 Exchange Online에 대한 사용 허가를 받은 경우 표시됩니다.
 
 사용자가 **내 작업** 을 못보게 하려면, 숨길 수 있습니다. **내 작업을** 숨기려면 [사용자의 Exchange Online 라이선스를 제거](/microsoft-365/admin/manage/remove-licenses-from-users)합니다. Exchange Online 라이선스를 제거한 후 사용자가 더 이상 사서함에 액세스할 수 없음을 알아야 합니다.  사서함 데이터는 30일 동안 유지되고, 이 후 데이터가 제거되며, 사서함이 [원본 위치 유지 또는 소송 보존](/exchange/security-and-compliance/in-place-and-litigation-holds)에 배치하지 않으면, 복구할 수 없습니다.
 
-정보 근로자에 대한 Exchange Online 라이선스를 제거하는 것은 권장되지 않지만 전자 메일에 의존하지 않는 일선 작업자와 같이 이러한 방식으로 **내 작업을** 숨길 수 있는 몇 가지 시나리오가 있을 수 있습니다.
+정보 근로자에 대한 Exchange Online 라이선스를 제거하는 것은 권장되지 않지만 전자 메일에 의존하지 않는 최전방 작업자와 같이 이러한 방식으로 **내 작업을** 숨길 수 있는 몇 가지 시나리오가 있을 수 있습니다.
 
 ## <a name="task-publishing"></a>작업 게시
 
@@ -117,7 +117,7 @@ Teams의 맞춤형 최전방 앱 환경은 [F 라이선스](https://www.microsof
 
 Contoso는 새로운 음식 인출 및 배달 프로모션을 진행하고 있습니다. 일관된 브랜드 환경을 유지하려면, 300개가 넘는 매장에서 일관된 출시 실행을 조정해야 합니다.
 
-마케팅 팀은 홍보 세부 정보 및 해당 작업 목록을 소매 통신 관리자와 공유합니다. 매장의 게이트키퍼 역할을 하는 소매 커뮤니케이션 관리자는 정보를 검토합니다. 그런 다음 승격을 위한 작업 목록을 만들고 영향을 받는 저장소가 수행해야 하는 각 작업 단위에 대한 작업을 만듭니다. 작업 목록이 완료되면 작업을 완료해야 하는 저장소를 선택해야 합니다. 이 경우 프로모션은 매장 식당이 있는 미국 내 매장에만 적용됩니다. 작업에서 저장소 내 레스토랑 특성에 따라 저장소 목록을 필터링하고, 계층 구조에서 일치하는 미국 위치를 선택한 다음, 해당 저장소에 작업 목록을 게시합니다.
+마케팅 팀은 홍보 세부 정보 및 해당 작업 목록을 소매 통신 관리자와 공유합니다. 매장의 게이트키퍼 역할을 하는 소매 커뮤니케이션 관리자는 정보를 검토합니다. 그런 다음 승격을 위한 작업 목록을 만들고 영향을 받는 저장소가 수행해야 하는 각 작업 단위에 대한 작업을 만듭니다. 작업 목록이 완료되면 작업을 완료해야 하는 저장소를 선택해야 합니다. 이 경우 프로모션은 매장 식당이 있는 미국 내 매장에만 적용됩니다. 작업에서 매장 내 레스토랑 특성에 따라 매장 목록을 필터링하고 계층 구조에서 일치하는 미국 위치를 선택한 다음 해당 저장소에 작업 목록을 게시합니다.
 
 각 위치에 있는 매장 관리자는 게시된 작업의 복사본을 받고 해당 작업을 팀 구성원에게 할당합니다. 관리자는 작업 환경을 사용하여 매장에서 필요한 모든 작업을 이해할 수 있습니다. 또한 사용 가능한 필터를 사용하여 기한이 오늘인 작업이나 특정 영역의 작업과 같은 특정 작업 집합에 집중할 수도 있습니다.
 

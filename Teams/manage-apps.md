@@ -21,12 +21,12 @@ description: Teams 앱을 관리하는 방법을 알아봅니다. 앱 허용 또
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 3d49d3e44e848b1d51388b148416fb897c335758
-ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
+ms.openlocfilehash: dc7dbf1a4866fa85551d6ec46f7ea54c164ba655
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "68494671"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656054"
 ---
 # <a name="overview-of-app-management-and-governance-in-teams-admin-center"></a>Teams 관리 센터의 앱 관리 및 거버넌스 개요
 
@@ -40,8 +40,6 @@ Teams 관리 센터를 사용하려면 전역 관리자 또는 Teams 관리자 �
 
 > [!NOTE]
 > 앱 관리 페이지는 Teams의 Microsoft 365 GCCH(정부 커뮤니티 클라우드 High) 또는 DoD(미국방부) 배포에서 사용할 수 없습니다.
-
-앱을 만드는 동안 개발자는 앱 ID를 생성하고 매니페스트 파일에 추가합니다. 열 설정에서 `External app ID` 열을 사용하도록 설정한 후 앱 관리 페이지에서 이 외부 앱 ID를 볼 수 있습니다. 사용자 지정 앱의 앱 세부 정보 페이지에서도 볼 수 있습니다. ID는 사용자 지정 앱에만 적용됩니다.
 
 ## <a name="app-management-use-cases-and-the-available-interfaces"></a>앱 관리 사용 사례 및 사용 가능한 인터페이스
 
@@ -75,21 +73,21 @@ Teams 관리 센터를 사용하려면 전역 관리자 또는 Teams 관리자 �
 
 ## <a name="allow-and-block-apps"></a>앱 허용 및 차단
 
-관리자는 모든 사용자가 모든 컨텍스트에서 사용되는 모든 유형의 앱에 대한 액세스를 제어합니다. Teams는 각 앱 및 각 사용자에 대한 액세스를 구성하는 세분화된 컨트롤을 제공합니다.
+관리자는 모든 사용자가 모든 컨텍스트에서 사용하는 모든 유형의 앱에 대한 액세스를 제어합니다. Teams는 각 앱 및 각 사용자에 대한 액세스를 구성하는 세분화된 컨트롤을 제공합니다.
 
-앱을 허용하려면 다음 설정을 모두 수행해야 합니다. 앱을 차단하려면 다음 설정 중 하나를 통해 차단합니다.
+앱을 허용하려면 다음 설정을 모두 수행해야 합니다. 앱을 차단하려면 다음 설정 중 하나를 통해 앱을 차단합니다.
 
-* [조직 전체 앱 설정](manage-apps.md#manage-org-wide-app-settings): 조직에서 앱을 사용하도록 허용하려면 이 설정을 사용합니다. 어떤 특정 앱이 사용되는지 결정합니다.
+* [조직 전체 앱 설정](manage-apps.md#manage-org-wide-app-settings): 조직에서 앱을 사용하도록 허용하려면 이 설정을 사용합니다. 사용할 특정 앱을 결정합니다.
 * [개별 앱 허용](manage-apps.md#allow-and-block-apps): 조직에서 특정 앱을 허용하려면 이 설정을 사용합니다. 앱을 사용할 수 있는 사용자를 결정합니다.
-* [앱 사용 권한 정책](teams-app-permission-policies.md): 정책을 사용하여 모든 사용자가 앱을 사용할 수 있도록 허용하거나 허용합니다. 사용자별 및 앱별로 액세스를 결정합니다.
+* [앱 사용 권한 정책](teams-app-permission-policies.md): 정책을 사용하여 모든 사용자를 허용하거나 특정 사용자가 앱을 사용하도록 허용합니다. 사용자별 및 앱별로 액세스를 결정합니다.
 
 앱 관리 페이지에서는 조직 수준에서 개별 앱을 허용하거나 차단할 수 있습니다. 페이지에 사용 가능한 모든 앱과 현재 조직 수준 앱 상태가 표시됩니다. 앱을 허용하거나 차단하려면 다음 단계를 수행합니다.
 
-1. Teams 관리 센터에 로그인하고 **Teams 앱****[관리 앱](https://admin.teams.microsoft.com/policies/manage-apps)** > 에 액세스
+1. Teams 관리 센터에 로그인하고 **Teams 앱** > **[앱 관리](https://admin.teams.microsoft.com/policies/manage-apps)** 에 액세스
 1. 앱을 찾아 선택합니다.
 1. **허용** 또는 **차단** 옵션을 선택합니다.
 
-특정 사용자에 대해 앱을 허용하려면 [앱 사용 권한 정책을](teams-app-permission-policies.md) 참조하세요.
+특정 사용자에 대한 앱을 허용하려면 [앱 사용 권한 정책을 참조하세요](teams-app-permission-policies.md).
 
 ## <a name="manage-org-wide-app-settings"></a>조직 전체 앱 설정 관리
 
@@ -134,9 +132,9 @@ Microsoft 365 Government - Teams의 GCC, GCCH, DoD 배포에서는 기본적으�
 
 ### <a name="for-gcc-clouds"></a>GCC 클라우드의 경우
 
-1. **Teams 앱** > **[관리 앱](https://admin.teams.microsoft.com/policies/manage-apps)** 페이지에서 **조직 전체 앱 설정을** 선택합니다. 그런 다음 패널에서 원하는 설정을 구성할 수 있습니다.
+1. **Teams 앱** > **[앱 관리](https://admin.teams.microsoft.com/policies/manage-apps)** 페이지에서 **조직 전체 앱 설정을** 선택합니다. 그런 다음 패널에서 원하는 설정을 구성할 수 있습니다.
 
-   :::image type="content" source="media/app-permission-policies-gcc-org-wide.png" alt-text="GCC의 조직 전체 앱 설정을 보여 주는 스크린샷.":::
+   :::image type="content" source="media/app-permission-policies-gcc-org-wide.png" alt-text="GCC의 조직 전체 앱 설정을 보여 주는 스크린샷":::
 
 1. **타사 앱** 에서 이 설정을 끄거나 켜면 타사 앱에 대한 액세스를 제어할 수 있습니다.
 
@@ -147,11 +145,11 @@ Microsoft 365 Government - Teams의 GCC, GCCH, DoD 배포에서는 기본적으�
 
 1. 조직 전체 앱 설정을 적용하려면 **저장** 을 선택합니다.
 
-타사 앱을 허용하려면 전역(조직 전체 기본값) 정책을 편집하고 사용하거나 관리자가 만든 정책을 만들고 할당합니다.
+타사 앱을 허용하려면 전역(조직 전체 기본값) 정책을 편집 및 사용하거나 관리자가 만든 정책을 만들고 할당합니다.
 
 ### <a name="for-gcch-and-dod-clouds"></a>GCCH 및 DoD 클라우드의 경우
 
-1. Teams 관리 센터에 로그인하고 **Teams 앱** > **[사용 권한 정책에 액세스합니다](https://admin.teams.microsoft.com/policies/app-permission)**.
+1. Teams 관리 센터에 로그인하고 **Teams 앱** > **[권한 정책에 액세스합니다](https://admin.teams.microsoft.com/policies/app-permission)**.
 
 1. **조직 전체 앱 설정을** 선택합니다. **차단된 앱** 아래에서 조직 전체에서 차단하려는 앱을 추가합니다. Microsoft 365 Government - Teams의 GCCH 및 DoD 배포에서는 기본적으로 모든 타사 앱이 이 목록에 추가됩니다. 앱 전체를 차단하면 앱 사용 권한 정책에서 앱이 허용되는지 여부와 관계없이 모든 사용자에게 앱이 자동으로 차단됩니다.
 
@@ -167,8 +165,8 @@ Microsoft 365 Government - Teams의 GCC, GCCH, DoD 배포에서는 기본적으�
 
 :::image type="content" source="media/blocked-by-publisher.png" alt-text="Teams 관리 센터에서 게시자에 의해 차단됨 상태의 스크린샷":::
 
-개발자가 기본적으로 앱을 차단하는 방법에 대한 자세한 내용은 [관리자가 허용할 때까지 앱을 차단하도록 설정하는 방법을 참조하세요](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves).
+개발자가 기본적으로 앱을 차단하는 방법에 대한 자세한 내용은 [관리자가 허용할 때까지 앱을 차단하도록 설정을 참조하세요](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves).
 
 ## <a name="related-article"></a>관련 문서
 
-* [앱을 허용하도록 사용자 요청을 관리합니다](user-requests-approve-apps.md).
+* [사용자 요청을 관리하여 앱을 허용합니다](user-requests-approve-apps.md).

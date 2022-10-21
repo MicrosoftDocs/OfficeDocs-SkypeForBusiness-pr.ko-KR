@@ -20,19 +20,19 @@ ms.collection:
 - highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4812626477d2f77ddd3c6913577aa7792293a993
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 866025dad342f5abfb5b0722391dc754b3f00dd5
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046638"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655844"
 ---
 # <a name="manage-the-approvals-app-in-microsoft-teams"></a>Microsoft Teams에서 승인 앱 관리
 
 승인 앱은 모든 Microsoft Teams 사용자를 위한 개인 앱으로 사용할 수 있습니다.
 승인 앱은 감사, 규정 준수, 책임 및 워크플로를 Teams의 정형 및 비정형 승인에 모두 적용할 수 있는 간단한 방법을 제공합니다.
 
- ![는 승인 앱을 표시합니다.](media/approvals-selection.png)
+ ![승인 앱을 표시합니다.](media/approvals-selection.png)
 
 승인 앱을 고정하여 메뉴 모음에 저장할 수 있습니다.
 
@@ -43,7 +43,7 @@ ms.locfileid: "68046638"
 이 자료에서는 승인 앱 요구 사항 및 역할에 대해 설명합니다.
 
 > [!NOTE]
-> 이 기능은 GCCH(Government Community Cloud High) 및 국방부(DOD) 사용자에게 아직 릴리스되지 않았습니다.
+> 이 기능은 정부 GCCH(Community Cloud High) 및 국방부(DOD) 사용자에게 아직 릴리스되지 않았습니다.
 
 ## <a name="required-permissions-and-licenses"></a>필요한 권한 및 라이선스
 
@@ -63,11 +63,11 @@ ms.locfileid: "68046638"
 
 ## <a name="storage-with-microsoft-dataverse"></a>Microsoft Dataverse를 사용하는 스토리지
 
-CDM(Common Data Model)은 Microsoft Dataverse의 비즈니스 및 분석 애플리케이션에서 사용하는 공유 데이터 언어입니다. Microsoft와 파트너가 게시한 표준화되고 확장 가능한 데이터 스키마 집합으로 구성되며, 이를 통해 애플리케이션 및 비즈니스 프로세스에서 데이터의 일관성과 그 의미를 구현할 수 있습니다. [Microsoft Power Platform의 일반 데이터 모델](/power-automate/get-started-approvals)에 대해 자세히 알아보세요.
+CDM(Common Data Model)은 Microsoft Dataverse의 비즈니스 및 분석 애플리케이션에서 사용하는 공유 데이터 언어입니다. Microsoft와 파트너가 게시한 표준화되고 확장 가능한 데이터 스키마 집합으로 구성되며, 이를 통해 애플리케이션 및 비즈니스 프로세스에서 데이터의 일관성과 의미를 구현할 수 있습니다. [Microsoft Power Platform의 일반 데이터 모델](/power-automate/get-started-approvals)에 대해 자세히 알아보세요.
 
 [승인 워크플로](/power-automate/modern-approvals)에 대해 자세히 알아보세요.
 
-템플릿에서 만든 승인은 제목, 세부 정보, 템플릿 ID 등과 같은 데이터를 Microsoft Dataverse에 계속 저장합니다. 승인 요청에 제출된 응답은 Forms에 저장됩니다. [Microsoft Forms 데이터 스토리지에](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe) 대해 자세히 알아봅니다.
+템플릿에서 만든 승인은 제목, 세부 정보, 템플릿 ID 등과 같은 데이터를 Microsoft Dataverse에 계속 저장합니다. 승인 요청에 제출된 응답은 Forms에 저장됩니다. [Microsoft Forms 위한 데이터 스토리지에](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe) 대해 자세히 알아봅니다.
 
 >[!Note]
 >Microsoft Forms 사이트에서 양식 서식 파일을 삭제하면 승인 템플릿이 중단되고 사용자가 요청을 시작할 수 없습니다. 사용자는 Microsoft Forms 삭제된 승인 템플릿을 열려고 할 때 "CDB TableNotFound" 오류가 발생합니다.
@@ -97,14 +97,14 @@ CDM(Common Data Model)은 Microsoft Dataverse의 비즈니스 및 분석 애플�
 
 - 팀의 정보를 사용하여 팀에 연락하세요.
 
-승인 템플릿 사용 권한
+승인 템플릿 권한
 
 - 모든 팀 소유자는 자신이 소유한 팀에 대한 승인 템플릿을 만들 수 있습니다.
 
-- 관리자가 처음으로 전체 조직에 대한 템플릿을 만들면 전역 및 Teams 서비스 관리자를 포함하여 테넌트 모든 관리자를 위한 새 AAD(Azure Active Directory) 그룹이 자동으로 만들어집니다. 이러한 관리자는 그룹의 소유자로 추가되므로 조직 템플릿을 공동 관리할 수 있습니다. 팀을 만든 후 조직에 익숙하지 않은 관리자는 조직 전체 템플릿을 관리할 수 있는 동일한 권한을 갖도록 그룹 소유자로 수동으로 추가해야 합니다.
+- 관리자가 처음으로 전체 조직에 대한 템플릿을 만들면 전역 및 Teams 서비스 관리자를 포함하여 테넌트 모든 관리자에 대한 새 AAD(Azure Active Directory) 그룹이 자동으로 만들어집니다. 이러한 관리자는 그룹의 소유자로 추가되므로 조직 템플릿을 공동 관리할 수 있습니다. 팀을 만든 후 조직에 익숙하지 않은 관리자는 조직 전체 템플릿을 관리할 수 있는 동일한 권한을 갖도록 그룹 소유자로 수동으로 추가해야 합니다.
 
 > [!Note]
-> 관리자가 그룹을 삭제하는 경우 한 달 동안 AAD(Azure Active Directory) 포털 내에서 복원하여 모든 관련 데이터를 복원해야 합니다. 1개월 후 또는 관리자가 휴지통 내에서 이 그룹을 삭제하면 관련된 모든 데이터가 손실됩니다.
+> 관리자가 그룹을 삭제하는 경우 AAD(Azure Active Directory) 포털 내에서 해당 그룹을 복원하여 모든 관련 데이터를 복원해야 합니다. 1개월 후 또는 관리자가 휴지통 내에서 이 그룹을 삭제하면 관련된 모든 데이터가 손실됩니다.
 
 ## <a name="disable-the-approvals-app"></a>승인 앱 사용 해제
 
@@ -116,7 +116,7 @@ CDM(Common Data Model)은 Microsoft Dataverse의 비즈니스 및 분석 애플�
 
   3. 승인 앱을 검색합니다.
 
-     ![는 Teams 앱 > 앱 관리가 강조 표시된 관리 가운데 탐색을 보여줍니다.](media/manage-approval-apps.png)
+     ![Teams 앱 > 앱 관리가 강조 표시된 관리 가운데 탐색을 표시합니다.](media/manage-approval-apps.png)
 
   4. **승인을** 선택합니다.
 
@@ -128,17 +128,17 @@ CDM(Common Data Model)은 Microsoft Dataverse의 비즈니스 및 분석 애플�
 
 ### <a name="use-the-tailored-frontline-app-experience-to-pin-approvals-and-other-apps-to-teams"></a>맞춤형 최전방 앱 환경을 사용하여 승인 및 기타 앱을 Teams에 고정
 
-Teams의 맞춤형 최전방 앱 환경은 [F 라이선스](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)가 있는 사용자를 위해 Teams에서 가장 관련성이 큰 앱을 고정합니다. 고정된 앱에는 승인, 워키 토키, 작업 및 교대 근무가 포함됩니다. 기본적으로 이 기능은 최전방 근로자에게 요구 사항에 맞는 기본 제공 환경을 제공합니다.
+Teams의 맞춤형 최전방 앱 환경은 [F 라이선스](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)가 있는 사용자를 위해 Teams에서 가장 관련성이 큰 앱을 고정합니다. 고정된 앱에는 승인, 워키 토키, 작업 및 교대 근무가 포함됩니다. 기본적으로 이 기능은 사용 중이므로 최전방 작업자에게 요구 사항에 맞는 기본 제공 환경을 제공합니다.
 
-앱은 사용자가 빠르고 쉽게 액세스할 수 있는 Teams 데스크톱 클라이언트의 측면과 Teams 모바일 클라이언트 아래쪽에 있는 표시줄인 앱 바에 고정됩니다.
+앱은 사용자가 빠르고 쉽게 액세스할 수 있는 Teams 데스크톱 클라이언트의 측면과 Teams 모바일 클라이언트 아래쪽에 있는 바인 앱 바에 고정됩니다.
 
-설정한 앱 정책의 작동 방식을 포함하여 자세한 내용은 [최전방 작업자를 위한 Teams 앱 조정](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)을 참조하세요.
+설정한 앱 정책의 작동 방식을 포함하여 자세한 내용은 [최전방 직원을 위한 Teams 앱 조정](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)을 참조하세요.
 
 ### <a name="use-an-app-setup-policy-to-pin-approvals-to-teams"></a>앱 설정 정책을 사용하여 Teams에 승인 고정
 
 앱 설정 정책을 사용하면 Teams를 사용자 지정하여 사용자의 사용자에게 가장 중요한 앱을 고정할 수 있습니다.
 
-사용자에 대한 승인 앱을 고정하려면 전역(조직 전체 기본값) 정책을 편집하거나 사용자 지정 앱 설정 정책을 만들고 할당할 수 있습니다. 자세한 내용은 [Teams에서 앱 설정 정책 관리](teams-app-setup-policies.md)를 참조하세요.
+사용자에 대한 승인 앱을 고정하려면 전역(조직 전체 기본값) 정책을 편집하거나 앱 설정 정책에서 사용자 지정 정책을 만들고 할당할 수 있습니다. 자세한 내용은 [Teams에서 앱 설정 정책 관리](teams-app-setup-policies.md)를 참조하세요.
 
 ## <a name="retention-policy"></a>보존 정책
 
@@ -152,7 +152,7 @@ Teams의 맞춤형 최전방 앱 환경은 [F 라이선스](https://www.microsof
 
 ## <a name="data-limitations"></a>데이터 제한 사항
 
-각 팀은 최대 400개의 승인 템플릿을 포함할 수 있으며, 각 템플릿은 Microsoft Forms 현재 기능에 따라 최대 50,000개의 요청을 수집할 수 있습니다.
+각 팀은 최대 400개의 승인 템플릿을 포함할 수 있으며 각 템플릿은 Microsoft Forms 현재 기능에 따라 최대 50,000개의 요청을 수집할 수 있습니다.
 
 ## <a name="auditing"></a>감사
 
@@ -225,12 +225,12 @@ Teams 승인 앱에서 사용자는 새 승인을 만들고 보내고 받은 승
 
 Teams 관리 센터를 사용하여 승인 앱에서 사용자가 사용할 수 있는 타사 전자 서명 공급자를 제어할 수 있습니다. 기본적으로 전자 서명 공급자는 승인 앱에서 사용하도록 설정됩니다. 전자 서명 공급자를 사용하지 않도록 설정하면 사용자가 승인을 만들 때 해당 공급자에 액세스할 수 없습니다. 또한 사용자는 해당 공급자를 사용하여 만든 전자 서명 요청을 볼 수 없습니다.
 
-1. Teams 관리 센터의 왼쪽 창에서 **Teams 앱****관리 앱** > 으로 이동합니다.
+1. Teams 관리 센터의 왼쪽 창에서 **Teams 앱 앱** > **관리** 로 이동합니다.
 2. 승인 앱을 검색한 다음 선택합니다.
 3. **설정** 탭으로 이동한 다음 다음 중 하나 이상을 수행합니다.
 
-    - Adobe Sign을 사용하거나 사용하지 않도록 설정하려면 토글을 **켜** 기 또는 **끄** 기로 전환합니다.
-    - DocuSign을 사용하거나 사용하지 않도록 설정하려면 토글을 **켜** 기 또는 **끄** 기로 전환합니다.
+    - Adobe Sign을 사용하거나 사용하지 않도록 설정하려면 토글을 **켜** 기 또는 끄기로 전환 **합니다**.
+    - DocuSign을 사용하거나 사용하지 않도록 설정하려면 토글을 **켜** 기 또는 끄기로 전환 **합니다**.
 4. **제출** 을 선택합니다.
 
 승인 앱에서 만든 전자 서명 승인은 선택한 공급자의 클라우드 환경에 저장됩니다. 전자 서명에 대한 데이터를 내보내려면 공급자의 사이트로 이동해야 합니다. 전자 서명 계약의 스토리지, 내보내기 및 보존에 대한 자세한 내용은 공급자의 설명서를 참조하세요.

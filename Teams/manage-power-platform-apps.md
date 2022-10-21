@@ -18,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Teams 관리 센터에서 Microsoft Power Platform을 사용하여 빌드된 사용자 지정 앱에 대한 액세스를 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 93801bb30d0445d13de25976ab23668fde251466
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 3a81d1db3de7cf4fa82b80526ffdb206bfbe8da6
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377206"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656040"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>Teams 관리 센터에서 Microsoft Power Platform 앱 관리
 
@@ -54,7 +54,7 @@ Microsoft Power Platform 앱을 만들거나 공유하면 사용자는 **Power P
 
 관리자는 Microsoft Power Platform 앱을 Teams의 앱 페이지에 있는 **Power Platform으로 빌드함** 에 나열할지를 제어할 수 있습니다. Power Apps에서 만든 모든 앱이나 Power Virtual Agents에서 만든 모든 앱을 조직 전체를 대상으로 [앱 관리](manage-apps.md) 페이지에 한꺼번에 차단 또는 허용하거나 [앱 허용 정책](teams-app-permission-policies.md)을 통해 개별 사용자에게 차단 또는 허용할 수 있습니다.
 
-조직의 앱 스토어에 있는 **공유된 Power Apps** 및 **공유된 Power Virtual Agent 앱** 은 해당 특정 플랫폼에서 만든 모든 앱을 나타냅니다. 전체 조직 또는 특정 사용자에 대해 이러한 앱 중 하나 또는 둘 다를 차단하는 경우 사용자는 Teams에 앱을 설치할 수 없습니다. 사용자는 앱을 허용하도록 관리자 승인을 요청할 수 없습니다.
+조직의 앱 스토어에 있는 **공유된 Power Apps** 및 **공유된 Power Virtual Agent 앱** 은 해당 특정 플랫폼에서 만든 모든 앱을 나타냅니다. 전체 조직 또는 특정 사용자에 대해 이러한 앱을 하나 또는 둘 다 차단하는 경우 사용자는 Teams에 설치할 수 없습니다. 사용자는 앱을 허용하도록 관리자 승인을 요청할 수 없습니다.
 
 Power Apps와 Power Virtual Agents에서 만든 모든 앱에 대한 액세스를 제어할 수는 있지만 개별 앱을 허용하거나 차단할 수는 없습니다. 앱 작성자는 Power Apps와 Power Virtual Agents 내부에 있는 공유 기능을 통해 자신이 만든 앱에 누가 액세스할 지를 정합니다. 작성자가 어떤 사용자와 함께 Power Virtual Agents에서 만든 앱을 공유한 상태에서 해당 사용자가 **공유된 Power Virtual Agents 앱** 을 차단당하면 해당 사용자는 Teams의 해당 플랫폼에서 어떤 앱도 확인하거나 설치할 수 없습니다.
 
@@ -79,9 +79,9 @@ Power Apps나 Power Virtual Agents의 앱에 대한 액세스 권한이 있는 �
 
 조직의 특정 사용자가 Power Apps 또는 Power Virtual Agents에서 만든 앱에 액세스하도록 허용하거나 차단하려면 하나 이상의 사용자 지정 [app 권한 정책](teams-app-permission-policies.md)을 만들어 할당합니다.
 
-예를 들어 특정 사용자가 Power Apps에서 만든 앱에 액세스하지 못하도록 하려면 **공유한 Power Apps** 을 차단하는 사용자 지정 앱 권한 정책을 만든 다음 대상 사용자에게 할당합니다.
+예를 들어 특정 사용자가 Power Apps에서 만든 앱에 액세스하지 못하도록 차단하려면 앱 권한에 대한 사용자 지정 정책을 만들어 **공유 Power Apps** 를 차단한 다음 해당 사용자에게 정책을 할당합니다.
 
-:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="공유한 Power Apps가 차단된 상태의 사용자 지정 앱 권한 정책의 예시 스크린샷":::
+:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="공유 Power Apps가 차단된 앱 권한에 대한 사용자 지정 정책 예제 스크린샷":::
 
 ### <a name="use-audit-logs-to-investigate-microsoft-power-platform-installation-activity"></a>Microsoft Power Platform 설치 작업 조사를 위해 감사 로그 사용
 

@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 77c74ed4f42808c2dc219a255e0a4c8feca299fd
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 2bbd6d048fdb3e2f0a0d4f9723552127161d25f8
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68376856"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656014"
 ---
 # <a name="manage-custom-apps-and-settings-in-teams-admin-center"></a>Teams 관리 센터에서 사용자 지정 앱 및 설정 관리
 
@@ -40,15 +40,15 @@ Teams 관리자는 사용자 지정 앱 정책 및 설정을 사용하여 조직
 
 조직의 개발자는 앱 패키지(.zip 파일)를 팀 또는 개인 컨텍스트에 직접 업로드하여 Teams에 사용자 지정 앱을 추가할 수 있습니다. 이 작업은 Teams 앱 스토어를 통해 앱을 추가하는 방법과 다릅니다. 사이드로딩이라고도 하는 앱 패키지 업로드를 통해 사용자 지정 앱을 추가하면 앱이 널리 배포될 준비가 되기 전에 조직 내의 특정 사용자가 개발 중인 앱을 테스트할 수 있습니다.
 
+앱을 만드는 동안 개발자는 앱 ID를 생성하고 매니페스트 파일에 추가합니다. 열 설정에서 `External app ID` 열을 사용하도록 설정한 후 앱 관리 페이지에서 이 외부 앱 ID를 볼 수 있습니다. 사용자 지정 앱의 앱 세부 정보 페이지에서도 볼 수 있습니다. ID는 사용자 지정 앱에만 적용됩니다.
+
 ## <a name="custom-app-policy-and-settings"></a>사용자 지정 앱 정책 및 설정
 
-세 가지 설정은 사용자가 팀에 사용자 지정 앱을 업로드할 수 있는지 여부를 결정합니다. 관리자는 팀에 사용자 지정 앱을 추가할 수 있는 사용자 지정 앱과 추가할 수 있는 팀을 세부적으로 제어할 수 있습니다.
+세 가지 설정은 사용자가 팀에 사용자 지정 앱을 업로드할 수 있는지 여부를 결정합니다. 이를 통해 관리자는 팀에 사용자 지정 앱을 추가할 수 있는 사람과 추가할 수 있는 팀 사용자 지정 앱을 세부적으로 제어할 수 있습니다. 이러한 설정은 타사 앱 차단 기능에 영향을 미치지 않습니다.
 
 * [사용자 사용자 지정 앱 정책](#user-custom-app-policy)
 * [팀 사용자 지정 앱 설정](#team-custom-app-setting)
 * [조직 전체 사용자 지정 앱 설정](#org-wide-custom-app-setting)
-
-이러한 설정은 타사 앱 차단 기능에 영향을 미치지 않습니다.  
 
 ### <a name="user-custom-app-policy"></a>사용자 사용자 지정 앱 정책
 
@@ -91,7 +91,7 @@ Teams 관리자는 사용자 지정 앱 정책 및 설정을 사용하여 조직
 
 #### <a name="configure-the-team-custom-app-setting"></a>팀 사용자 지정 앱 설정 구성
 
-1. Teams에서 팀으로 이동하여 **추가 옵션을 선택합니다.** >  **팀을 관리합니다**.
+1. Teams에서 팀으로 이동하여 **추가 옵션...** 을 선택합니다. >  **팀을 관리합니다**.
 1. **설정을** 선택하고 **멤버 권한을 확장합니다**.
 1. **구성원이 사용자 지정 앱을 업로드하도록 허용** 확인란을 선택하거나 선택 취소합니다.
 
@@ -103,7 +103,7 @@ Teams 관리자는 사용자 지정 앱 정책 및 설정을 사용하여 조직
 
 #### <a name="configure-the-org-wide-custom-app-setting"></a>조직 전체 사용자 지정 앱 설정 구성
 
-1. Teams 관리 센터에 로그인하고 **Teams 앱 관리 앱** > 에 액세스 **[합니다](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. Teams 관리 센터에 로그인하고 **Teams 앱** > **[앱 관리](https://admin.teams.microsoft.com/policies/manage-apps)** 에 액세스합니다.
 1. **조직 전체 앱 설정을** 선택합니다.
 1. **사용자 지정 앱** 에서 **사용자 지정 앱과의 상호 작용 허용** 을 켜거나 끕니다.
 
@@ -117,7 +117,7 @@ Teams 관리자는 사용자 지정 앱 정책 및 설정을 사용하여 조직
 
 * Microsoft Teams 관리 센터에서 **사용자 지정 앱과의 상호 작용 허용** 설정을 켭니다.
 * 액세스를 제한하려는 모든 팀에 대해 **구성원이 사용자 지정 앱을 업로드하도록 허용** 을 끕니다.
-* **사용자가 사용자 지정 앱을 업로드할 수 있음** 설정이 켜져 있는 Microsoft Teams 관리 센터에서 사용자 지정 앱 설정 정책을 만들고 할당하고 이를 팀 소유자에게 할당합니다.
+* 사용자 지정 앱 업로드 설정이 켜져 있는 Microsoft Teams 관리 센터에서 앱 설정 정책에서 **사용자 지정** 정책을 만들고 할당하고 팀 소유자에게 할당합니다.
 
 |조직 전체 사용자 지정 앱 설정 |팀 사용자 지정 앱 설정 |사용자 사용자 지정 앱 정책 |결과  |
 |---------|---------|---------|---------|
@@ -132,5 +132,5 @@ Teams 관리자는 사용자 지정 앱 정책 및 설정을 사용하여 조직
 
 ## <a name="related-articles"></a>관련 기사
 
-* [Teams의 앱에 대한 관리 설정](admin-settings.md)입니다.
+* [Teams의 앱에 대한 설정을 관리](admin-settings.md).
 * [Teams에서 사용자에게 정책을 할당합니다](assign-policies-users-and-groups.md).
