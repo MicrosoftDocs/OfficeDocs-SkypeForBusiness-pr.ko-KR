@@ -10,47 +10,47 @@ ms.reviewer: anblak
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: Microsoft Teams용 CCaaS(통합 컨택 센터 as a Service) 솔루션 개요
+description: Microsoft Teams용 CCaaS(통합 연락처 센터 as a Service) 솔루션 개요
 appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 89035a967dafae3a2ccd3bbc9bcc6497cdea14cd
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: 38c466973b8a2dcc5b85f570cc9ed369bd4e7f1d
+ms.sourcegitcommit: e8c7a5ddc3399492485680e9a6f2593658cecca3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68613820"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "68686046"
 ---
-# <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams용 Contact Center 통합
+# <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams용 연락처 센터 통합
 
   이 문서에서는 Microsoft Teams 연결 컨택 센터 인증 프로그램에 참여하는 솔루션 공급자 및 Microsoft Teams와 컨택 센터 솔루션을 통합하는 방법에 대한 개요를 제공합니다.
 
-## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>Microsoft Teams에 대한 컨택 센터 통합이란?
+## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>Microsoft Teams용 연락처 센터 통합이란?
 
-Microsoft Teams는 채팅, 비디오 모임 및 통화를 비롯한 통신 모드에서 내부 및 외부 고객 연결의 허브 역할을 하여 고객 상호 작용 작업 스트림을 지원합니다. 일부 조직의 경우 [자동 전화 교환](./what-are-phone-system-auto-attendants.md) 및 [통화 큐](./create-a-phone-system-call-queue.md)를 비롯한 Microsoft Teams의 [클라우드 음성 기능이](./cloud-voice-landing-page.md) 요구 사항을 충족합니다.
+Microsoft Teams는 채팅, 비디오 모임 및 통화를 포함한 통신 모드에서 내부 및 외부 고객 연결의 허브 역할을 하여 고객 상호 작용 작업 스트림을 지원합니다. 일부 조직의 경우 [자동 전화 교환](./what-are-phone-system-auto-attendants.md) 및 [통화 큐](./create-a-phone-system-call-queue.md)를 비롯한 Microsoft Teams의 [클라우드 음성 기능이](./cloud-voice-landing-page.md) 요구 사항을 충족합니다.
 
-비즈니스 도구 및 워크플로가 있는 솔루션을 통해 고객 경험을 추진하려는 조직의 경우 Microsoft Teams에 대한 컨택 센터 통합을 통해 CCaaS(Contact Center as a Service) 솔루션 공급자가 솔루션을 Teams에 통합할 수 있습니다.
+비즈니스 도구 및 워크플로가 있는 솔루션을 통해 고객 경험을 주도하려는 조직의 경우 Microsoft Teams용 연락처 센터 통합을 통해 CCaaS(Contact Center as a Service) 솔루션 공급자가 솔루션을 Teams에 통합할 수 있습니다.
 
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft Teams 인증 프로그램에 대한 연결된 연락처 센터
 
-Microsoft Teams용 연결된 컨택 센터 인증 프로그램은 참여하는 각 공급자의 솔루션이 Microsoft 솔루션에서 기대하는 품질, 호환성 및 안정성을 제공하는지 확인합니다.
+Microsoft Teams용 연결된 연락처 센터 인증 프로그램은 각 참여 공급자의 솔루션이 Microsoft 솔루션에서 기대하는 품질, 호환성 및 안정성을 제공하는지 확인합니다.
 
-통합 컨택 센터 솔루션을 찾는 조직인 경우 인증 [된 솔루션 공급자 목록은 컨택 센터에 대한 인증된 Microsoft Teams 솔루션을](https://cloudpartners.transform.microsoft.com/contact-center-solutions) 참조하고 인증 프로세스의 공급자 목록은 [연결된 연락처 센터 솔루션을](#connected-contact-center-solutions) 참조하세요.
+통합 컨택 센터 솔루션을 찾는 조직인 경우 인증된 솔루션 공급자 목록은 [연락처 센터에 대한 인증된 Microsoft Teams 솔루션을](https://cloudpartners.transform.microsoft.com/contact-center-solutions) 참조하고 인증 과정에서 공급자 목록은 [연결된 연락처 센터 솔루션을](#connected-contact-center-solutions) 참조하세요.
 
-인증 프로그램에 참여하려는 공급업체인 경우 [다음 단계로 이 양식을](https://aka.ms/CallingPlatformIntake) 작성합니다. 추가 컨텍스트 및 세부 정보를 제공해야 하는 경우 [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com) 메일을 보냅니다.
+인증 프로그램에 참여하려는 공급업체인 경우 [다음 단계로 이 양식을](https://aka.ms/CallingPlatformIntake) 작성합니다. 추가 컨텍스트 및 세부 정보를 제공해야 하는 경우 [메일을 Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com) 보냅니다.
 
 [!INCLUDE [contact-center-integration-models](./includes/contact-center-integration-models.md)]
 
 
 ## <a name="connected-contact-center-solutions"></a>연결된 컨택 센터 솔루션
 
-다음 공급자는 Connect, Extend 또는 Power 통합 모델 중 하나를 사용하여 Teams에 통합된 컨택 센터 솔루션을 제공합니다.
+다음 공급자는 연결, 확장 또는 전원 통합 모델 중 하나를 사용하여 Teams에 통합된 컨택 센터 솔루션을 제공합니다.
 
 ### <a name="certified-solutions"></a>인증된 솔루션
 
-![인증된 배지입니다.](media/English_Solution_Certified_Teams_badge_noBkgrd_GrayText_RGB_500px.png)
+![인증된 배지.](media/English_Solution_Certified_Teams_badge_noBkgrd_GrayText_RGB_500px.png)
 
 |  솔루션 공급자                                                                                                                               |  솔루션 웹 사이트                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -64,6 +64,7 @@ Microsoft Teams용 연결된 컨택 센터 인증 프로그램은 참여하는 �
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/campaign/get-started-genesys-cloud-microsoft-teams                                      |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
+| `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 | `Puzzel` | https://www.puzzel.com/microsoft-teams                            |
 | `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
@@ -83,7 +84,6 @@ Microsoft Teams용 연결된 컨택 센터 인증 프로그램은 참여하는 �
 | `Imagicle` | https://www.imagicle.com/en/integration/microsoft-teams/                                                                                        |
 | `Intermedia` | https://www.intermedia.com/products/contact-center                          |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
-| `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `ROGER365.io` | https://www.roger365.io/contact-center-teams                         |
