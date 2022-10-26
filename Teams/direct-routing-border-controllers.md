@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅에 대해 인증된 SBA(Session Border Controller)에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4c64e5302b68e515d72cddc11a77cb85dea10fe3
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: c1908fc1dbfdecc978444d7fc004979c940f8b2a
+ms.sourcegitcommit: 3b2e8ec8c104863208f49f282ab0ffa619ff5057
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614020"
+ms.lasthandoff: 10/26/2022
+ms.locfileid: "68697357"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>직접 라우팅에 대한 인증된 SBC(Session Border Controller)
 
@@ -65,14 +65,14 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 ||중앙값 9000  SBC|&#10004;|&#10004;|지원되는 7.20A.258 (권장 7.40A.100 또는 7.40A.250)|&#10004;|&#10004;|
 ||가상 버전 SBC|&#10004;|&#10004;|지원되는 7.20A.258 (권장 7.40A.100 또는 7.40A.250)|&#10004;|&#10004;|
 ||중앙값 클라우드 버전 SBC|&#10004;|&#10004;|지원되는 7.20A.258 (권장 7.40A.100 또는 7.40A.250)|&#10004;|&#10004;|
-|[리본 통신](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)|SBC 5100/5110|&#10004;|&#10004;|10.1, 9.2, 8.2 및 7.2의 모든 버전에서 지원됨(최신 버전 10.1 권장)|&#10004;||
-||SBC 5200/5210|&#10004;|&#10004;|10.1, 9.2, 8.2 및 7.2의 모든 버전에서 지원됨(최신 버전 10.1 권장)|&#10004;||
-||SBC 5400|&#10004;|&#10004;|10.1, 9.2, 8.2 및 7.2의 모든 버전에서 지원됩니다(최신 버전 10.1 권장).|&#10004;||
-||SBC 7000|&#10004;|&#10004;|10.1, 9.2, 8.2 및 7.2의 모든 버전에서 지원됨(최신 버전 10.1 권장)|&#10004;||
-||호스팅된 제품을 포함한 모든 SBC SWe 변형|&#10004;|&#10004;|10.1, 9.2, 8.2 및 7.2의 모든 버전에서 지원됨(최신 버전 10.1 권장)|&#10004;||
-||SBC 1000|&#10004;|&#10004;|8.x 또는 9.x|&#10004;|&#10004;|
-||SBC 2000|&#10004;|&#10004;|8.x 또는 9.x|&#10004;|&#10004;|
-||SBC SWe Lite|&#10004;|&#10004;|8.x 또는 9.x|&#10004;|&#10004;|
+|[리본 통신](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)|SBC 5100/5110|&#10004;|&#10004;|10.1, 9.2, 8.2 및 7.2의 모든 버전에서 지원됨(10.1의 최신 버전 권장)|&#10004;||
+||SBC 5200/5210|&#10004;|&#10004;|10.1, 9.2, 8.2 및 7.2의 모든 버전에서 지원됨(10.1의 최신 버전 권장)|&#10004;||
+||SBC 5400|&#10004;|&#10004;|10.1, 9.2, 8.2 및 7.2의 모든 버전에서 지원됨(최신 버전 10.1 권장))|&#10004;||
+||SBC 7000|&#10004;|&#10004;|10.1, 9.2, 8.2 및 7.2의 모든 버전에서 지원됨(10.1의 최신 버전 권장)|&#10004;||
+||호스트된 제품을 포함한 모든 SBC SWe 변형|&#10004;|&#10004;|10.1, 9.2, 8.2 및 7.2의 모든 버전에서 지원됨(10.1의 최신 버전 권장)|&#10004;||
+||SBC 1000|&#10004;|&#10004;|8.x, 9.x 또는 11.x|&#10004;|&#10004;|
+||SBC 2000|&#10004;|&#10004;|8.x, 9.x 또는 11.x|&#10004;|&#10004;|
+||SBC SWe Edge(이전의 SWe Lite)|&#10004;|&#10004;|8.x, 9.x 또는 11.x|&#10004;|&#10004;|
 ||EdgeMarc 시리즈|&#10004;|&#10004;|16.3.2||
 |[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)|Think 365 SBC|&#10004;||1.4|||
 |[Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)|AP 1100|&#10004;|&#10004;|지원되는 8.3.0.0.1 및  권장 8.4.x 및 9.x|&#10004;|&#10004;|
