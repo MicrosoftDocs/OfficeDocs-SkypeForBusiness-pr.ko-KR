@@ -18,18 +18,18 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft 365에서 Teams 앱에 대한 액세스를 관리하는 방법을 알아보세요.
-ms.openlocfilehash: ae11a72324bb4382012c751150a254773c9145b7
-ms.sourcegitcommit: c627bd1df17aefdc353bc4da6db169dfe169031e
+ms.openlocfilehash: 01aee1ebd59b52f05db36303d60358b86b95cf84
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "68680556"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738804"
 ---
 # <a name="manage-access-to-teams-apps-across-microsoft-365"></a>Microsoft 365에서 Teams 앱에 대한 액세스 관리
 
 앱 개발자는 Teams에서 작동하는 앱 외에도 Outlook 및 Office.com에서 작동하도록 Microsoft Teams 앱을 개선할 수 있습니다. 최종 사용자는 향상된 후 Teams, Microsoft Outlook 및 Microsoft Office.com에서 향상된 앱을 사용할 수 있습니다. 현재 [대상 지정 릴리스](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true) 의 최종 사용자만 Teams, Outlook 및 Office.com 이러한 특정 앱을 보고 사용할 수 있습니다. 이 변경 내용에 대한 알림은 [메시지 센터](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter/:/messages/MC334280)에서 확인할 수 있습니다.
 
-## <a name="manage-the-enhanced-apps-access-microsoft-365"></a>Microsoft 365에 액세스하는 향상된 앱 관리
+## <a name="manage-users-access-to-the-enhanced-apps"></a>향상된 앱에 대한 사용자의 액세스 관리
 
 기존 Teams 관리 환경은 이러한 앱에 대한 액세스를 제어하는 ​​데 적용됩니다. Teams 관리자는 Teams 관리 센터를 사용하여 앱 액세스를 관리합니다. Teams 관리자는 특정 최종 사용자가 Teams, Outlook 및 Office.com에서 향상된 앱을 사용하거나 향상된 앱에 대한 액세스를 관리하도록 허용할 수 있습니다.
 

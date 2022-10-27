@@ -21,12 +21,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 48c372afe2c7881a2af5c24e36915d510f9ff291
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 1868b4e5e84803e24eacc812d638a961d6639606
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68655904"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738574"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Microsoft Teams 앱 이해하기
 
@@ -41,9 +41,9 @@ Teams의 앱은 사용자가 회사 도구와 서비스를 통합하고 다른 �
 최종 사용자가 Teams에서 사용할 수 있는 다양한 유형의 앱은 다음과 같습니다.
 
 * [Teams의 일부인 핵심 앱](#core-apps).
-* [Microsoft에서 만든 다른 앱](#microsoft-provided-apps).
-* 파트너의 [타사 앱](#third-party-apps-validated-by-microsoft)(Microsoft에서 유효성을 검사함).
-* 사용자 고유의 조직에서 만든[사용자 지정 앱](#custom-apps).
+* [Microsoft에서 만든 다른 앱](#apps-created-by-microsoft).
+* 파트너가 만든 [타사 앱](#third-party-apps-created-by-independent-app-developers)(Microsoft에서 유효성 검사).
+* 사용자 고유의 조직에서 만든[사용자 지정 앱](#custom-apps-created-within-an-organization-for-internal-use).
 
 ## <a name="core-apps"></a>핵심 앱
 
@@ -51,7 +51,7 @@ Teams의 앱은 사용자가 회사 도구와 서비스를 통합하고 다른 �
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="핵심 앱은 기본적으로 Teams에 고정된 앱입니다." lightbox="media/core-apps-pinned2.png":::
 
-## <a name="microsoft-provided-apps"></a>Microsoft에서 제공하는 앱
+## <a name="apps-created-by-microsoft"></a>Microsoft에서 만든 앱
 
 Microsoft는 생산성과 공동 작업을 개선하기 위해 많은 앱을 제공합니다. 사용자와 최종 사용자는 Teams 관리 센터에서 게시자로 나열되거나 Teams 스토어에서 공급자로 나열된 Microsoft를 검색하여 이러한 앱을 찾을 수 있습니다.
 
@@ -59,13 +59,13 @@ Teams는 목록, 작업, 칭찬, 승인 등의 기본 제공 앱 집합을 제�
 
 :::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Teams 관리 센터의 Microsoft 앱 목록을 보여 주는 스크린샷" lightbox="media/microsoft-apps-in-tac2.png":::
 
-## <a name="third-party-apps-validated-by-microsoft"></a>Microsoft에서 유효성을 검사한 타사 앱
+## <a name="third-party-apps-created-by-independent-app-developers"></a>독립 앱 개발자가 만든 타사 앱
 
-Microsoft에서 제공하는 앱 외에도 Microsoft에서 유효성을 검사한 타사 앱을 사용할 수 있습니다. Microsoft는 Teams 스토어에서 이러한 앱을 사용할 수 있도록 하기 전에 이러한 앱의 기능과 보안의 유효성을 검사합니다. 앱 유효성 검사의 이점을 이해하려면 [타사 앱의 유효성 검사](overview-of-app-validation.md)를 참조하세요.
+Microsoft에서 제공하는 앱 외에도 타사 앱을 사용할 수 있습니다. Microsoft는 이러한 모든 앱의 기능과 보안의 유효성을 엄격하게 검사합니다. 정교한 수동 및 자동화된 테스트는 Teams 스토어에서 이러한 앱을 사용할 수 있도록 하기 전에 실행되며, 많은 테스트는 앱이 라이브로 게시된 후에도 정기적인 주기로 계속됩니다. 앱 유효성 검사의 이점을 이해하려면 [타사 앱의 유효성 검사](overview-of-app-validation.md)를 참조하세요. 일부 앱은 [Microsoft 규정 준수 프로그램을](overview-of-app-certification.md) 구독하여 유효성 검사 이외의 여러 계층의 추가 검사를 거칩니다.
 
 :::image type="content" source="media/3p-apps-in-teams.png" alt-text="Teams 스토어에 있는 타사 앱의 예시 스크린샷":::
 
-## <a name="custom-apps"></a>사용자 지정 앱
+## <a name="custom-apps-created-within-an-organization-for-internal-use"></a>내부 사용을 위해 조직 내에서 만든 사용자 지정 앱
 
 조직의 개발자가 만든 앱을 사용자 지정 앱(또는 기간 업무 앱)이라고 합니다. 조직에서 조직 관련 요구 사항에 맞는 사용자 지정 앱 생성을 의뢰할 수도 있습니다. 조직 전체 또는 특정 사용자를 대상으로 이러한 앱에 대한 허용 또는 차단 여부를 제어할 수 있습니다. 조직의 개발자는 [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions)과 Teams의 통합을 사용하여 사용자 지정 로우 코드 솔루션을 빌드할 수 있습니다.
 

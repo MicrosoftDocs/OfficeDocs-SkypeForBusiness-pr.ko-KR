@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 'Microsoft Teams용으로 인증된 USB 주변 장치 및 장치(예: 헤드셋, 스피커폰, 웹캠 및 모니터)를 확인합니다.'
-ms.openlocfilehash: ec1fd0583da04c3e93912843526d32803428c40e
-ms.sourcegitcommit: e8c7a5ddc3399492485680e9a6f2593658cecca3
+ms.openlocfilehash: 8a6fdacd8f4599c81e4c915ac178a9d07debb43b
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "68686066"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738624"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams용으로 인증된 USB 오디오 및 비디오 장치
 
@@ -84,10 +84,11 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 Teams [에서 헤드
 *테이블 업데이트 날짜: 2022년 10월*
 
 > [!NOTE]
-> 날짜 형식은 MMDDYYYYY입니다.
+> 날짜 형식은 MM/DD/YYYY입니다.
 
 | 제조업체        | 모델                                                     | 자격      | 인증된 프로그램                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Evolve2 싹                                               |10/17/2022      |Microsoft Teams 인증                           |
 |Cisco                |Desk Camera 4K                                             |10/15/2022      |Microsoft Teams 인증                           |
 |Epos                 |EXPAND Vision 1/S6                                         |10/13/2022      |Microsoft Teams 인증                           |
 |레 노 버               |USB-C ANC In-Ear 헤드폰으로 이동                             |9/20/2022       |Microsoft Teams 인증                           |
