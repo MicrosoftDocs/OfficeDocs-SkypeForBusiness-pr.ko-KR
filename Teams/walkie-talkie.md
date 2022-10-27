@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c575e3eb41654a579ec09c67975490db3dce194d
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: c426606cae959e4d1134fd7a1551b33484c06d9d
+ms.sourcegitcommit: e0dfa7dbfb03c41f096ed0ad80f44de8e147ed26
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68655834"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68743143"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams의 Walkie Talkie 앱
 
@@ -107,7 +107,7 @@ Teams의 Walkie Talkie에는 인터넷 연결이 필요합니다. 최적의 환�
 
 #### <a name="rugged-android-phones"></a>견고한 Android 휴대폰
 
-- Crosscall [Core-X4](https://www.crosscall.com/en_FR/core-s4-1004010501053.html), [Core-M5](https://www.crosscall.com/en_FR/core-m5-1001011101114.html), [Action-X5](https://www.crosscall.com/en_FR/action-x5-1001020701220.html), [Core-X5](https://www.crosscall.com/en_FR/core-x5-1001010701695.html) 및 [Core-T5](https://www.crosscall.com/en_FR/core-t5-1003011401749.html)
+- Crosscall [Core-X4](https://www.crosscall.com/en_FR/core-x4-1001010801327.html), [Core-M5](https://www.crosscall.com/en_FR/core-m5-1001011101114.html), [Action-X5](https://www.crosscall.com/en_FR/action-x5-1001020701220.html), [Core-X5](https://www.crosscall.com/en_FR/core-x5-1001010701695.html) 및 [Core-T5](https://www.crosscall.com/en_FR/core-t5-1003011401749.html)
   - 수동 설정: Teams가 설치된 상태에서 **설정** > **단추** 로 이동합니다. 전용 단추(1 또는 2)에서 **길게 누른** 다음 **PTT 앱을** 선택합니다. **사용자 지정** 옆에 있는 파란색 휠을 선택하고 **Teams** 를 선택합니다.
 - 교세라 [듀라포스 울트라 5G](https://kyoceramobile.com/duraforce-ultra-5g/) 및 [DuraSport 5G](https://kyoceramobile.com/durasport-5g/)
   - 수동 설정: Teams가 설치된 상태에서 **설정** > **프로그래밍 가능 키** 로 이동합니다. **PTT 키를** 선택하거나 디바이스에 따라 **길게 누르** 고 **Teams** 를 선택합니다.
