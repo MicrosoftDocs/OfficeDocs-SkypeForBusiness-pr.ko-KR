@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: farhazk
 manager: samanro
-ms.topic: article
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 searchScope:
@@ -20,12 +20,12 @@ ms.collection:
 - highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 866025dad342f5abfb5b0722391dc754b3f00dd5
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 3cf50824119111d34668f4717eaf38f92de8bc64
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68655844"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784333"
 ---
 # <a name="manage-the-approvals-app-in-microsoft-teams"></a>Microsoft Teams에서 승인 앱 관리
 
@@ -214,7 +214,7 @@ Power Automate 내에서 더 많은 감사 승인에 액세스하려면 기본 �
 
 Teams 승인 앱에서 사용자는 새 승인을 만들고 보내고 받은 승인을 볼 수 있습니다. 사용자는 요청의 응답자 또는 뷰어가 아니면 다른 사용자가 만든 승인에 액세스할 수 없습니다.
 
-> [!Note]
+>[!Note]
 > 승인이 만들어진 채팅 또는 채널의 일부인 경우 사용자에게 요청의 뷰어 역할이 부여됩니다. 승인이 생성되었을 때 해당 역할이 부여되지 않은 경우 요청에 대한 조치를 취할 수 없습니다.
 
 ## <a name="approvals-e-signature-integration"></a>승인 전자 서명 통합

@@ -18,12 +18,12 @@ ms.custom:
 description: Microsoft Teams를 계획, 배포 및 실행하는 방법에 대한 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50c3a4a3eaed8eea383d8e0856cfcd6a07b9772e
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 0f8d251499ef55ef1b7621e63367f746d19c70e5
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738594"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784353"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams에 대한 관리자 교육 시작
 
@@ -67,14 +67,14 @@ ms.locfileid: "68738594"
 
 | 모듈 | PowerPoint 데크(PDF)  |
 | ------------ | -------------------- |
-| 모듈 1: Microsoft Teams 룸 소개  | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
-| 모듈 2: Microsoft Teams 네트워킹  | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
-| 모듈 3: 적절한 공간에 적합한 디바이스 선택  | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
-| 모듈 4: Microsoft Teams 룸 배포  | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
-| 모듈 5: 구성 및 시작 Microsoft Teams 룸  | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
-| 모듈 6: Microsoft Teams 룸 관리, 1부  | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
-| 모듈 7: Microsoft Teams 룸 관리, 2부  | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
-| 모듈 8: Microsoft Teams 룸--팁, 요령 및 문제 해결 | [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| 모듈 1: Microsoft Teams 룸 소개  | [갑판](https://aka.ms/TeamsRoomsModule1) |
+| 모듈 2: 네트워크 준비  | [갑판](https://aka.ms/TeamsRoomsModule2) |
+| 모듈 3: 회의실 디자인 및 구성 요소  | [갑판](https://aka.ms/TeamsRoomsModule3) |
+| 모듈 4: 리소스 계정  | [갑판](https://aka.ms/TeamsRoomsModule4) |
+| 모듈 5: Microsoft Teams 룸 시작 및 구성  | [갑판](https://aka.ms/TeamsRoomsModule5) |
+| 모듈 6: Microsoft Teams 룸 관리, 1부  | [갑판](https://aka.ms/TeamsRoomsModule6) |
+| 모듈 7: Microsoft Teams 룸 관리, 2부  | [갑판](https://aka.ms/TeamsRoomsModule7) |
+| 모듈 8: 기능, 채택 및 문제 해결 | [갑판](https://aka.ms/TeamsRoomsModule8)|
 | 원터치 조인 지침 |  [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 | Microsoft Teams 룸 Managed Services 소개 | [갑판](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
@@ -84,11 +84,12 @@ ms.locfileid: "68738594"
 
 | 모듈 | PowerPoint 데크(PDF)  |
 | ------------| -------------------- |
-| 모듈 1: Microsoft Teams Android 디바이스 소개  |[갑판](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
-| 모듈 2: Microsoft Teams Android 디바이스 계획|[갑판](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
-|모듈 3: Microsoft Teams Android 디바이스의 기능 |[갑판](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)|
-|모듈 4: Microsoft Teams Android 디바이스 관리|[갑판](https://download.microsoft.com/download/c/e/b/ceb686ff-9be2-495c-9e2e-80047765e5b4/(4)%20Managing%20Microsoft%20Teams%20Android%20Devices.pdf)|
-|모듈 5: Microsoft Teams Android 디바이스 - 문제 해결 |[갑판](https://download.microsoft.com/download/d/3/7/d3728209-5caa-4bfb-b46a-3b840e80142a/Microsoft%20Teams%20Android%20Devices%20-%20Troubleshooting.pdf)|
+| 모듈 1: Microsoft Teams Android 디바이스 소개  |[갑판](https://aka.ms/TeamsAndroidModule1) |
+| 모듈 2: Microsoft Teams Android 디바이스 계획|[갑판](https://aka.ms/TeamsAndroidModule2) |
+| 모듈 3: Microsoft Teams Android 디바이스 관리 |[갑판](https://aka.ms/TeamsAndroidModule3)|
+| 모듈 4: Microsoft Teams 휴대폰 및 Microsoft Teams 디스플레이 |[갑판](https://aka.ms/TeamsAndroidModule4)|
+| 모듈 5: Microsoft Teams 룸 및 Microsoft Teams 패널 |[갑판](https://aka.ms/TeamsAndroidModule5)|
+| 모듈 6: 채택 및 문제 해결 |[갑판](https://aka.ms/TeamsAndroidModule6)|
 
 <h2>대화형 가이드</h2>
 

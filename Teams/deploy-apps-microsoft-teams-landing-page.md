@@ -2,7 +2,7 @@
 title: Microsoft Teams의 앱 정보 알기
 ms.reviewer: ''
 description: 앱에 대해 알아보고 조직의 프로필 및 비즈니스 요구 사항에 따라 Teams에서 허용할 앱을 결정합니다.
-ms.topic: article
+ms.topic: conceptual
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -21,12 +21,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 1868b4e5e84803e24eacc812d638a961d6639606
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 1ff0095ef804f7e58dcbc81c45639228b0264da4
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738574"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784203"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Microsoft Teams 앱 이해하기
 

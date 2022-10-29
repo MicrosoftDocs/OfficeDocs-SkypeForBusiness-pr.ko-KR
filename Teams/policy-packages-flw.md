@@ -4,7 +4,7 @@ ms.author: v-lanachin
 author: LanaChin
 manager: samanro
 ms.reviewer: ''
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 audience: Admin
 ms.collection:
@@ -22,12 +22,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft 365 for frontline workers
 description: 조직의 최전방 작업자를 위해 Teams 정책 패키지를 사용하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 62a3d047da0f9174bc26d5a1e9c3ebe5f9467a49
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: bcfa865d8364ce025224ec67a841b81d3373270b
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68047198"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784463"
 ---
 # <a name="teams-policy-packages-for-frontline-workers"></a>최전방 작업자를 위한 Teams 정책 패키지
 

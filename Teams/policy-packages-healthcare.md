@@ -4,7 +4,7 @@ ms.author: v-lanachin
 author: LanaChin
 manager: samanro
 ms.reviewer: aaglick
-ms.topic: article
+ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
@@ -23,12 +23,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 의료 조직의 Teams 정책 패키지를 사용하고 관리하는 방법에 대해 알아 보세요.
-ms.openlocfilehash: 9bd4d78a02bf32be68cb13ac85daff886986876d
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 67f799b07ec31cbb376d2927e78d179494b607b4
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046938"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784163"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>의료용 Teams 정책 패키지
 
@@ -58,7 +58,7 @@ Teams는 현재 다음 의료 정책 패키지를 포함하고 있습니다.
 
 각 개별 정책은 정책 패키지의 이름이 지정되며 정책 패키지에 연결된 정책을 쉽게 식별할 수 있습니다. 예를 들어 조직의 임상 연구원에게 의료 임상 작업자 정책 패키지를 할당할 때 패키지의 각 정책에 대해 Healthcare_ClinicalWorker라는 정책이 생성됩니다.
 
-![의료 임상 작업자 패키지의 정책 스크린샷.](media/policy-packages-healthcare-clinical-worker.png)
+![의료 임상 작업자 패키지의 정책 스크린샷](media/policy-packages-healthcare-clinical-worker.png)
 
 ## <a name="get-started-with-policy-packages"></a>정책 패키지로 시작
 

@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanachin
 manager: samanro
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: yinchang
 ms.collection:
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69644ce0261d37fb6a7a5e4270a68fb2a79a7d19
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 39b474231c2dcd536684514853a34672100801e5
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046918"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784313"
 ---
 # <a name="use-retail-team-templates"></a>소매 팀 템플릿 사용
 
@@ -56,7 +56,7 @@ Teams에는 소매점 요구 사항에 맞게 특별히 설계된 템플릿이 �
 > [!NOTE]
 > 별표(*)는 템플릿이 *Microsoft 365 연결된 템플릿* 임을 나타냅니다. 사용자가 템플릿을 사용하여 팀을 만들면 연결된 SharePoint 템플릿이 사이트 및 팀에 적용됩니다. 페이지, 목록 및 Power Platform 통합과 같은 SharePoint 구성 요소는 자동으로 추가되고 팀의 일반 채널에 탭으로 고정됩니다. 사용자는 Teams 내에서 바로 이러한 페이지와 목록을 편집할 수 있습니다.
 >
-> SharePoint 템플릿에 대한 자세한 내용은 [SharePoint 사이트 서식 파일 적용 및 사용자 지정을 참조하세요](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates).
+> SharePoint 템플릿에 대한 자세한 내용은 [SharePoint 사이트 템플릿 적용 및 사용자 지정을 참조하세요](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates).
 
 ### <a name="manage-a-store"></a>스토어 관리*
 
@@ -69,12 +69,12 @@ Teams에는 소매점 요구 사항에 맞게 특별히 설계된 템플릿이 �
 
 ### <a name="retail-for-managers"></a>관리자용 소매*
 
-매장 또는 지역에서 공동 작업할 관리자 집합에 대한 팀을 만듭니다. 예를 들어 조직에 지역이 있는 경우 캘리포니아 지역에 대한 팀을 만들고 해당 지역의 모든 매장 관리자와 해당 지역의 지역 관리자를 포함할 수 있습니다.
+매장 또는 지역에서 공동 작업할 관리자 집합을 위한 팀을 만듭니다. 예를 들어 조직에 지역이 있는 경우 캘리포니아 지역에 대한 팀을 만들고 해당 지역의 모든 매장 관리자와 해당 지역의 지역 관리자를 포함할 수 있습니다.
 
 > [!div class="mx-tdBreakAll"]
 >| 서식 파일 유형| TemplateId | 이 템플릿과 함께 제공되는 속성 |
 >| ------------------|- |----------------------------------------------------- |
->| 관리자용 소매| `retailManagerCollaboration` |채널 <ul><li>일반<li>작업</li><li>학습</li></ul> 앱: <ul><li>승인</li><li>검사</li><li>SharePoint Pages<ul><li>Microsoft Store</li></ul></li><li>Planner 및 할 일별 작업</li><li>Wiki</li></ul>|
+>| 관리자를 위한 소매| `retailManagerCollaboration` |채널 <ul><li>일반<li>작업</li><li>학습</li></ul> 앱: <ul><li>승인</li><li>검사</li><li>SharePoint Pages<ul><li>Microsoft Store</li></ul></li><li>Planner 및 할 일별 작업</li><li>Wiki</li></ul>|
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>Microsoft Graph에서 팀 템플릿 사용
 
@@ -85,7 +85,7 @@ Developers can use Microsoft Graph to create teams from pre-built team templates
 > [!NOTE]
 > 별표(*)는 템플릿이 *Microsoft 365 연결된 템플릿* 임을 나타냅니다. 사용자가 템플릿을 사용하여 팀을 만들면 연결된 SharePoint 템플릿이 사이트 및 팀에 적용됩니다. 페이지, 목록 및 Power Platform 통합과 같은 SharePoint 구성 요소는 자동으로 추가되고 팀의 일반 채널에 탭으로 고정됩니다. 사용자는 Teams 내에서 바로 이러한 페이지와 목록을 편집할 수 있습니다.
 >
-> SharePoint 템플릿에 대한 자세한 내용은 [SharePoint 사이트 서식 파일 적용 및 사용자 지정을 참조하세요](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates).
+> SharePoint 템플릿에 대한 자세한 내용은 [SharePoint 사이트 템플릿 적용 및 사용자 지정을 참조하세요](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates).
 
 ### <a name="manage-a-store"></a>스토어 관리*
 
@@ -104,7 +104,7 @@ Developers can use Microsoft Graph to create teams from pre-built team templates
 
 ### <a name="retail-for-managers"></a>관리자용 소매*
 
-이 템플릿을 사용하여 매장 또는 지역에서 공동 작업할 관리자 집합에 대한 팀을 만듭니다. 예를 들어 조직에 지역이 있는 경우 캘리포니아 지역에 대한 팀을 만들고 해당 지역의 모든 매장 관리자와 해당 지역의 지역 관리자를 포함할 수 있습니다.
+이 템플릿을 사용하여 일련의 관리자가 매장 또는 지역에서 공동 작업할 팀을 만듭니다. 예를 들어 조직에 지역이 있는 경우 캘리포니아 지역에 대한 팀을 만들고 해당 지역의 모든 매장 관리자와 해당 지역의 지역 관리자를 포함할 수 있습니다.
 
 > [!div class="mx-tdBreakAll"]
 >| 서식 파일 유형 | TemplateId | 템플릿 채널 |
@@ -139,7 +139,7 @@ Developers can use Microsoft Graph to create teams from pre-built team templates
 ```
 
 > [!NOTE]
-> Microsoft Graph를 사용하여 Microsoft 365 연결된 템플릿을 사용하여 기존 Microsoft 365 그룹 또는 팀에서 팀을 만드는 경우 연결된 SharePoint 템플릿이 사이트 또는 팀에 자동으로 적용되지 않습니다. 팀을 만든 후 SharePoint 사이트 서식 파일을 수동으로 적용해야 합니다. Teams에서 팀으로 이동하여 **SharePoint에서 열기** > 오른쪽 위 모서리에 있는 **추가 옵션을** 선택합니다. 그런 다음 **, 사이트 서식 파일 적용** **설정을** >  선택하고 해당 사이트 서식 파일을 선택합니다.
+> Microsoft Graph를 사용하여 Microsoft 365 연결된 템플릿을 사용하여 기존 Microsoft 365 그룹 또는 팀에서 팀을 만드는 경우 연결된 SharePoint 템플릿이 사이트 또는 팀에 자동으로 적용되지 않습니다. 팀을 만든 후 SharePoint 사이트 템플릿을 수동으로 적용해야 합니다. Teams에서 팀으로 이동하여 오른쪽 위 모서리에 있는 **추가 옵션** > **SharePoint에서 열기를** 선택합니다. 그런 다음 **설정** > **사이트 서식 파일 적용을** 선택하고 해당 사이트 템플릿을 선택합니다.
 
 ## <a name="related-articles"></a>관련 기사
 
