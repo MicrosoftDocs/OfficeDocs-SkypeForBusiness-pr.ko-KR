@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81c8dfed94153ec7afec95da9e71e1bfe58be28c
-ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
+ms.openlocfilehash: e9178bb793f25d9c052041432c20af4be8fb4033
+ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "67457148"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68792787"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft Teams에서 팀 보관 또는 삭제하기
 
@@ -32,10 +32,10 @@ ms.locfileid: "67457148"
 
 팀을 보관하면 해당 팀에 대한 모든 활동이 중단됩니다. 팀을 보관하면 팀의 개인 채널과 연결된 사이트 모음도 보관됩니다.  그러나 관리자가 계속해서 구성원을 추가 또는 제거하고 역할을 업데이트할 수 있으며, 표준 및 개인 채널, 파일 및 채팅에서 모든 팀 활동을 계속 볼 수 있습니다.
 
-팀을 삭제하면 표준 및 개인 채널(및 관련 사이트 모음), 파일 및 채팅의 팀 활동도 삭제됩니다.
+팀을 삭제하면 표준 및 비공개 채널(및 관련 사이트 모음), 파일 및 채팅의 팀 활동도 삭제됩니다.
 
 > [!IMPORTANT]
-> 보관된 팀은 다시 활성화할 수 있지만 삭제된 팀을 직접 복원할 수는 없습니다. 먼저 팀을 보관하고 팀이 더 이상 필요하지 않을 때까지 삭제를 연기하는 것이 좋습니다.
+> 보관된 팀을 다시 활성화할 수 있지만 삭제된 팀을 직접 복원할 수는 없습니다. 먼저 팀을 보관하고 팀이 더 이상 필요하지 않을 때까지 삭제를 연기하는 것이 좋습니다.
 
 ## <a name="archive-a-team"></a>팀 보관하기
 
@@ -47,8 +47,8 @@ ms.locfileid: "67457148"
 
     ![Teams 보관 메시지의 스크린샷.](media/teams-archive-message.png)
 
-4. 사용자가 SharePoint 사이트 및 팀과 연결된 Wiki 탭에서 콘텐츠를 편집하지 못하도록 하려면 **팀 구성원에 대해 SharePoint 사이트 읽기 전용으로 만들기를** 선택합니다. (Teams 소유자는 이 콘텐츠를 계속 편집할 수 있습니다.)
-5. **보관** 을 선택하여 팀을 보관합니다. 팀의 상태가 **보관** 됨으로 변경되고, 팀 목록의 맨 아래에 있는 **숨겨진 팀** 내부로 이동되며, 보관 상태를 나타내는 작은 아이콘이 옆에 추가됩니다.
+4. 사용자가 SharePoint 사이트 및 팀과 연결된 Wiki 탭에서 콘텐츠를 편집하지 못하도록 하려면 팀 **구성원에 대해 SharePoint 사이트 읽기 전용으로 만들기를** 선택합니다. (Teams 소유자는 여전히 이 콘텐츠를 편집할 수 있습니다.)
+5. **보관** 을 선택하여 팀을 보관합니다. 팀의 상태가 **보관됨** 으로 변경되고, 팀 목록의 맨 아래에 있는 **숨겨진 팀** 내에서 일시적으로 사용할 수 있으며, 보관 상태를 나타내는 작은 아이콘이 옆에 추가됩니다. **숨겨진 팀에서** 제거되면 **보관** 됨 아래의 **팀 관리** 보기에서 사용할 수 있습니다. 보관된 팀의 콘텐츠를 보고 검색하려면 **보관 목록에서 해당** 이름을 선택합니다.
 
 ## <a name="make-an-archived-team-active"></a>보관된 팀을 활성화하기
 
@@ -71,7 +71,7 @@ ms.locfileid: "67457148"
 
 팀과 연결된 Microsoft 365 그룹을 복원하여 삭제된 팀을 복원하려면 다음 단계를 수행합니다. 팀을 위해 Microsoft 365 그룹을 복원하면 탭, 표준 채널, 비공개 채널 및 관련 사이트 모음을 비롯한 팀 콘텐츠가 복원됩니다.
 
-기본적으로 삭제된 Microsoft 365 그룹은 30일 동안 보존됩니다. 이 30일의 기간을 “일시 삭제”라고 하며 이 기간 동안 그룹을 복원할 수 있습니다. 자세한 내용은 [삭제된 그룹 복원을 참조하세요](/microsoft-365/admin/create-groups/restore-deleted-group).
+기본적으로 삭제된 Microsoft 365 그룹은 30일 동안 유지됩니다. 이 30일의 기간을 “일시 삭제”라고 하며 이 기간 동안 그룹을 복원할 수 있습니다. 자세한 내용은 [삭제된 그룹 복원을 참조하세요](/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ### <a name="install-the-azureadpreview-module"></a>AzureADPreview 모듈 설치하기
 
@@ -108,14 +108,14 @@ ms.locfileid: "67457148"
     Get-AzureADMSDeletedGroup
     ```
 
-1. 복원할 그룹을 찾은 다음 `Id`.
-1. 다음을 실행하여 그룹 ID가 있는 `[Id]` 그룹을 복원합니다.
+1. 복원할 그룹을 찾은 다음 을 기록해 `Id`둡니다.
+1. 다음을 실행하여 그룹을 복원합니다. 여기서 `[Id]` 는 그룹 ID입니다.
 
     ```PowerShell
     Restore-AzureADMSDeletedDirectoryObject -Id [Id]
     ```
 
-1. 다음을 실행하여 그룹이 성공적으로 복원되었는지, 그룹 ID는 어디에 있는지 `[Id]` 확인합니다.
+1. 다음을 실행하여 그룹이 성공적으로 복원되었는지 확인합니다. 여기서 `[Id]` 는 그룹 ID입니다.
 
     ```PowerShell
     Get-AzureADGroup -ObjectId [Id]

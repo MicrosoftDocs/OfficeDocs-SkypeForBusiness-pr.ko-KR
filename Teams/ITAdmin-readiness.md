@@ -18,12 +18,12 @@ ms.custom:
 description: Microsoft Teams를 계획, 배포 및 실행하는 방법에 대한 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f8d251499ef55ef1b7621e63367f746d19c70e5
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: b456bd4e9887c5d8d2f8ff61667c75ef14a6588a
+ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784353"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68792817"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams에 대한 관리자 교육 시작
 
@@ -63,9 +63,9 @@ ms.locfileid: "68784353"
 
 <h2>TEAMS 룸 Foundations for IT & AV Pros</h2>
 
-<p>다음 표에는 Microsoft Teams 룸 PowerPoint 데크(PDF 형식)와 함께 포괄적인 비디오 학습에 대한 링크가 포함되어 있습니다.  
+<p>다음 표에는 Microsoft Teams 룸 PowerPoint의 포괄적인 학습 데크에 대한 링크가 포함되어 있습니다.  
 
-| 모듈 | PowerPoint 데크(PDF)  |
+| 모듈 | PowerPoint 데크  |
 | ------------ | -------------------- |
 | 모듈 1: Microsoft Teams 룸 소개  | [갑판](https://aka.ms/TeamsRoomsModule1) |
 | 모듈 2: 네트워크 준비  | [갑판](https://aka.ms/TeamsRoomsModule2) |
