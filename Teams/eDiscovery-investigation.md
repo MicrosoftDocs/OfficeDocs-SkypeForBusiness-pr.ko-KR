@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f9bca2e40263bdbce65a64bf0da2d5864941fc46
-ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
+ms.openlocfilehash: 8a9e7afdf55fbcb85dcbbf907ef974a62e4e8492
+ms.sourcegitcommit: 86b9503eb0085e23176cb346767f880ea3a73e77
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2022
-ms.locfileid: "68792797"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68808297"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams에서 콘텐츠에 대한 eDiscovery 조사 수행
 
@@ -53,7 +53,7 @@ ms.locfileid: "68792797"
 |모임 메타데이터<sup>1</sup>||
 |채널 이름||
 |따옴표|따옴표 붙은 콘텐츠를 검색할 수 있습니다. 그러나 검색 결과는 콘텐츠가 인용되었음을 나타내지 않습니다.|
-|반응(예: 좋아요, 하트 및 기타 반응)|반응은 2022년 6월 1일 이후의 모든 상용 고객에 대해 지원됩니다. 이 날짜 이전의 반응은 eDiscovery에 사용할 수 없습니다. 정부 클라우드 지원이 계획되어 있습니다. 반응에 대한 법적 보류 지원은 없습니다.|
+|반응(예: 좋아요, 하트 및 기타 반응)|반응은 2022년 6월 1일 이후의 모든 상용 고객에 대해 지원됩니다. 이 날짜 이전의 반응은 eDiscovery에 사용할 수 없습니다. 이제 확장된 반응이 지원됩니다. 반응 기록을 이해하려면 콘텐츠가 법적 보존 상태여야 합니다.|
 |제목||
 |테이블||
 |Teams 비디오 클립(TVC)|미리 보기를 마우스 오른쪽 단추로 클릭하여 "Video-Clip" 키워드로 TVC를 검색하고 각 TVC 첨부 파일에 대한 .mp4 파일을 "다른 이름으로 저장"합니다(키워드로 검색은 2022년 10월에 제공될 예정). TVC 데이터는 eDiscovery [검토 집합](/microsoft-365/compliance/add-data-to-review-set)에서 검색할 수 있습니다.
@@ -204,17 +204,17 @@ eDiscovery 도구를 사용하여 조직의 게스트 사용자와 관련된 Tea
    Start-ComplianceSearch <search name>
    ```
 
-6. 으로 [https://compliance.microsoft.com](https://compliance.microsoft.com) 이동한 다음 **모든** > **콘텐츠 검색** 표시를 클릭합니다.
+6. 로 [https://compliance.microsoft.com](https://compliance.microsoft.com) 이동한 다음 **모든** > **콘텐츠 검색** 표시를 선택합니다.
 
 7. 검색 목록에서 4단계에서 만든 검색을 선택하여 플라이아웃 페이지를 표시합니다.
 
 8. 플라이아웃 페이지에서 다음 작업을 수행할 수 있습니다.
 
-   - **결과 보기를** 클릭하여 검색 결과를 보고 콘텐츠를 미리 봅니다.
+   - **결과 보기를** 선택하여 검색 결과를 보고 콘텐츠를 미리 봅니다.
 
-   - **쿼리** 필드 옆에 있는 **편집** 을 클릭하여 편집한 다음 검색을 다시 실행합니다. 예를 들어 검색 쿼리를 추가하여 결과의 범위를 좁힐 수 있습니다.
+   - **쿼리** 필드 옆에 있는 **편집** 을 선택하여 편집한 다음 검색을 다시 실행합니다. 예를 들어 검색 쿼리를 추가하여 결과의 범위를 좁힐 수 있습니다.
 
-   - **결과 내보내** 기를 클릭하여 검색 결과를 내보내고 다운로드합니다.
+   - **결과 내보내** 기를 선택하여 검색 결과를 내보내고 다운로드합니다.
 
 ## <a name="search-for-card-content"></a>카드 콘텐츠 검색
 
@@ -245,7 +245,7 @@ Teams 채널, 1:1 채팅 및 1xN 채팅의 앱에서 생성된 카드 콘텐츠�
 
 - **비 페더레이션** 됨: 조직 및 게스트 사용자의 사용자와 Teams 모임에서 Teams 모임을 호스트하는 조직의 관리자만 모임의 채팅 메시지에서 콘텐츠를 검색할 수 있습니다.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-articles"></a>관련 기사
 
 - [Microsoft 365 eDiscovery 솔루션](/microsoft-365/compliance/ediscovery)
 - [eDiscovery 시작(표준)](/microsoft-365/compliance/get-started-core-ediscovery)
