@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e0d47107771add6e091afeeddc35d47110d7938
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: b5d3aa5e3bf56f5fe5a3c0ecef428b2d7a3c7dce
+ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614641"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68801897"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>일대일 Microsoft Teams 통화에 엔드투엔드 암호화 사용
 
@@ -36,7 +36,7 @@ E2EE(엔드투엔드 암호화)는 콘텐츠가 전송되기 전에 암호화되
 
 예약되지 않은 일대일 통화에 대한 E2EE를 사용하면 일대일 Teams 통화의 실시간 미디어 흐름, 즉 비디오 및 음성 데이터만 엔드투엔드 암호화됩니다. 두 당사자 모두 엔드투엔드 암호화를 사용하도록 설정하려면 이 설정을 켜야 합니다. [Microsoft 365 암호화](/microsoft-365/compliance/encryption)는 통화에서 채팅, 파일 공유, 현재 상태 및 기타 콘텐츠를 보호합니다.
 
-당사자가 Windows 또는 Mac용 Teams 데스크톱 클라이언트의 최신 버전을 사용 중이거나, iOS 및 Android용 최신 업데이트가 있는 모바일 디바이스에 있거나, 최신 업데이트를 사용하여 Windows 디바이스에서 Teams 룸 경우 두 당사자 간에 엔드 투 엔드 암호화 호출을 수행할 수 있습니다.
+두 당사자 간에 엔드 투 엔드 암호화 호출을 수행할 수 있습니다. 당사자는 Windows 또는 Mac용 최신 버전의 Teams 데스크톱 클라이언트를 사용하거나, iOS 및 Android용 최신 업데이트를 사용하는 모바일 디바이스에 있거나, 최신 업데이트를 사용하여 Windows 디바이스에서 Teams 룸 있습니다.
 
 엔드투엔드 암호화를 사용하도록 설정하지 않으면 Teams는 업계 표준에 따라 암호화를 사용하여 통화 또는 모임을 계속 보호합니다. 통화 중에 교환된 데이터는 전송 중이거나 미사용 상태일 때 항상 안전합니다. 자세한 내용은 [Teams에 대한 미디어 암호화](teams-security-guide.md#media-encryption)를 참조하세요.
 
@@ -66,6 +66,8 @@ E2EE 통화 중에는 다음 고급 기능을 사용할 수 없습니다.
 
 - 녹음/녹화
 
+- 앱
+
 또한 조직에서 규정 준수 기록을 사용하는 경우 엔드투엔드 암호화를 사용할 수 없습니다. Teams에서 규정 준수 녹음을 지원하는 방법에 대한 자세한 내용은 [통화 및 모임에 대한 Teams 정책 기반 녹음 소개](teams-recording-policy.md)를 참조하세요.
 
 ## <a name="configure-end-to-end-encryption-for-microsoft-teams"></a>Microsoft Teams에 대한 엔드투엔드 암호화 구성
@@ -86,9 +88,9 @@ E2EE 통화 중에는 다음 고급 기능을 사용할 수 없습니다.
 
 3. 기본 정책을 선택하거나 **추가** 를 선택하고 새 정책을 추가한 다음 새 정책의 이름을 지정합니다.
 
-4. 사용자에 대해 엔드 투 엔드 암호화를 사용하도록 설정하려면 **엔드 투 엔드 호출 암호화에** **대해 사용하도록 설정하지 않음을 선택하지만 사용자가 사용하도록 설정한** 다음 **저장** 을 선택할 수 있습니다.
+4. 사용자에 대해 엔드 투 엔드 암호화를 사용하도록 설정하려면 **엔드 투 엔드 통화 암호화에** 대해 사용 안 됨을 선택 **하지만 사용자가 사용하도록 설정할 수 있습니다**. 그런 다음 **저장** 을 선택합니다.
 
-   엔드 투 엔드 암호화를 사용하지 않도록 설정하려면 **[사용 안 함]을** 선택합니다.
+   엔드 투 엔드 암호화를 사용하지 않도록 설정하려면 **사용 안** 함을 선택합니다.
 
 정책 설정을 완료한 후에는 다른 Teams 정책을 관리하는 것과 동일한 방식으로 사용자, 그룹 또는 전체 테넌트에게 정책을 할당합니다. Teams에서 정책을 사용하는 방법에 대한 자세한 내용은 [정책으로 Teams 관리](manage-teams-with-policies.md)를 참조하세요.
 

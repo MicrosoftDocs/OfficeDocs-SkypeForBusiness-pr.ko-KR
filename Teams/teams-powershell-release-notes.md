@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell의 최신 변경 내용에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50d5520233ab60d5837c2d7fdc1e9372d92d32da
-ms.sourcegitcommit: a4307c1d1ee2dcf3a0c0b31e6c2473abf52b7097
+ms.openlocfilehash: 52bb4fda3e9aba1785338f0c4d15d50f595caf42
+ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2022
-ms.locfileid: "68669700"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68801799"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 릴리스 정보
 
@@ -31,6 +31,7 @@ ms.locfileid: "68669700"
 
 | 날짜 | 버전 | 업데이트 |
 |------- | -------------------- | ------------------------------ |
+| 2022년 10월 | [4.9.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.9.0) |<li>GA에서 [Get\|Set]-CsTeamsEducationConfiguration cmdlet을 릴리스합니다.</li><li>[New Get Set Remove]-CsTeamsFeedbackPolicy, [New\|Get\|Set\|Remove]-CsTeamsMessagingPolicy, [New\|Get\|Set\|Remove]-CsTeamsMeetingPolicy 및 [New Get\|Set\|Remove]-CsOnlineVoicemailPolicy의 새\|구현을 포함합니다.\|\|\| 기능은 이전 구현과 동일하게 유지됩니다.</li><li>ExplicitRecordingConsent, ForceStreamingAttendeeMode 매개 변수를 TeamsMeetingPolicy에 추가합니다.</li><li>Description, PreambleAudioFile, PostambleAudioFile, PreamblePostambleMandatory 매개 변수를 OnlineVoicemailPolicy에 추가합니다.</li><li>TeamsMessagingPolicy에 AllowChatWithGroup 매개 변수를 추가합니다.</li><li>TeamsFeedbackPolicy에 EnableFeatureSuggestions 매개 변수를 추가합니다.</li><li>Update-CsTeamsShiftsConnectionInstance cmdlet을 릴리스합니다.</li>
 | 2022년 10월 | [4.8.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.8.1-preview) |<li>[New Get Set Remove]-CsTeamsMessagingPolicy, [New\|Get\|Set\|Remove]-CsTeamsMeetingPolicy 및 [New\|Get\|Set\|Remove]-CsOnlineVoicemailPolicy의 새 구현을 포함합니다.\|\|\| 참고: 이러한 Cmdlet은 현재 powershell.exe만 작동합니다. 그들은 pwsh.exe 위해 작동하지 않습니다. 이 문제는 다음 GA 릴리스에서 수정될 예정입니다.</li><li>ExplicitRecordingConsent, ForceStreamingAttendeeMode 매개 변수를 TeamsMeetingPolicy에 추가합니다.</li><li>Description, PreambleAudioFile, PostambleAudioFile, PreamblePostambleMandatory 매개 변수를 OnlineVoicemailPolicy에 추가합니다.</li><li>AllowChatWithGroup 및 EnableFeatureSuggestions 매개 변수를 TeamsMessagingPolicy에 추가합니다.</li><li>Update-CsTeamsShiftsConnectionInstance cmdlet을 릴리스합니다.</li>
 | 2022년 10월 | [4.8.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.8.0) |<li>[가져오기\| New]-CsTeamsShiftsConnectionTeamMap cmdlets - TimeZone 특성이 추가되었습니다.</li><li>Set-CsOnlineDialinConferencingUser에서 SendEmailFromAddress 및 SendEmailFromDisplayName 입력 매개 변수를 제거합니다.</li><li>Set-TeamsAcsFederationConfiguration에서 AllowAllAcsResources 및 BlockedAcsResources 매개 변수를 제거합니다.</li><li>New-CsAutoAttendantCallFlow, New-CsAutoAttendant 및 Set-CsAutoAutoAttendant의 호출 흐름 설정에 ForceListenMenuEnabled 매개 변수를 추가합니다. 이 설정을 사용하면 인사말/메뉴 옵션이 재생되는 동안 테넌트가 DTMF/음성 입력을 무시할 수 있습니다.</li>
 | 2022년 9월 | [4.7.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.1-preview) |<li>미리 보기의 Connect-MicrosoftTeams 애플리케이션 기반 인증 지원을 릴리스합니다. 지원되는 cmdlet이 점진적으로 출시되고 있으며 [Teams PowerShell 모듈의 애플리케이션 기반 인증에](teams-powershell-application-authentication.md) 대한 자세한 내용이 나와 있습니다.</li><li>프라이빗 미리 보기에서 [Get\|Set]-CsTeamsEducationConfiguration cmdlet을 릴리스합니다.</li><li>[가져오기\| New]-CsTeamsShiftsConnectionTeamMap cmdlets - TimeZone 특성이 추가되었습니다.</li><li>Set-CsOnlineDialinConferencingUser에서 SendEmailFromAddress 및 SendEmailFromDisplayName 입력 매개 변수를 제거합니다.</li><li>Set-TeamsAcsFederationConfiguration에서 AllowAllAcsResources 및 BlockedAcsResources 매개 변수를 제거합니다.</li>
