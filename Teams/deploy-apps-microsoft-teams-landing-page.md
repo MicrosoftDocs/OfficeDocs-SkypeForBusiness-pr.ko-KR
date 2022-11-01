@@ -21,12 +21,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 1ff0095ef804f7e58dcbc81c45639228b0264da4
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: 83654452460da41bf72b0feca30d3373de1533ef
+ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784203"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68795430"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Microsoft Teams 앱 이해하기
 
@@ -89,15 +89,37 @@ Microsoft는 앱 개발 방법을 사용하여 기능 및 프로덕션 준비 �
 
 ## <a name="understand-app-capabilities"></a>앱 기능 이해
 
-최종 사용자가 Teams 내에서 작업할 수 있는 풍부한 환경을 제공하기 위해 앱 개발자는 다음 앱 기능을 사용합니다. 메시징 확장을 사용하면 사용자가 웹 서비스 Teams 클라이언트와 상호 작용할 수 있습니다. 외부 시스템에서 작업을 검색하거나 시작합니다. 상호 작용의 결과를 풍부한 형식의 카드로 Teams 클라이언트에 보낼 수 있습니다. 모임 확장성 앱은 모임 내에 개발자의 앱을 통합하고 응답성이 뛰어난 모임 내 환경을 제공합니다.
+Teams 앱 기능은 통합 및 상호 작용을 가능하게 하기 위해 앱에서 빌드할 수 있는 핵심 기능입니다.
 
-봇을 챗봇 또는 대화형 봇이라고도 합니다. 간단하고 반복적인 작업을 실행하는 앱입니다. 봇 상호 작용은 빠른 질문과 대답이거나 서비스 또는 지원에 대한 액세스를 제공하는 복잡한 대화일 수 있습니다. 사용자는 일대일 또는 채널에서 봇과 채팅할 수 있습니다. 예를 들어 Polly 앱을 사용하여 빠른 설문 조사를 만들고, 피드백을 받고, 펄스 검사를 수행할 수 있습니다.
+:::row:::
+    :::column span="":::
+    :::column-end:::
+    :::column span="3":::
+        :::image type="content" source="media/teams-app-capabilities-group.png" alt-text="Microsoft Teams 앱의 앱 기능을 보여 주는 그래픽입니다." border="false":::
+    :::column-end:::
+    :::column:::
+    :::column-end:::
+:::row-end:::
 
-탭은 채널 또는 채팅의 맨 위에 고정된 Teams 인식 웹 페이지입니다. 탭을 사용하면 웹과 유사한 환경으로 콘텐츠 및 서비스와 상호 작용할 수 있습니다. 개별 사용자에 대한 팀, 그룹 채팅 또는 개인 앱 내에서 채널의 일부로 탭을 추가할 수 있습니다.
+최종 사용자가 Teams 내에서 작업할 수 있는 풍부한 환경을 제공하기 위해 앱 개발자는 다음 기능을 사용하여 앱을 만듭니다.
 
-웹후크 및 커넥터는 최종 사용자가 자주 사용하는 서비스(예: Jira Cloud 및 Bitbucket)의 콘텐츠 및 업데이트를 채널 대화로 직접 전달합니다. 이 기능을 사용하는 앱은 외부 앱과 통신할 수 있으며 외부 서비스에서 알림 및 메시지를 보내거나 받을 수 있습니다.
+* **봇**: 봇을 챗봇 또는 대화형 봇이라고도 합니다. 간단하고 반복적인 작업을 실행하는 앱입니다. 봇 상호 작용은 빠른 질문과 대답이거나 서비스 또는 지원에 대한 액세스를 제공하는 복잡한 대화일 수 있습니다. 사용자는 개인 채팅, 채널 또는 그룹 채팅에서 봇과 대화를 나눌 수 있습니다. 자세한 내용은 [Microsoft Teams의 봇을 참조하세요](/microsoftteams/platform/bots/what-are-bots).
 
-메시징 확장은 최종 사용자가 대화에서 벗어나지 않고도 앱 콘텐츠를 삽입하거나 메시지에 대한 작업을 수행하기 위한 바로 가기입니다. 메시징 확장에는 최종 사용자가 외부 콘텐츠를 빠르게 찾고 메시지 또는 작업 명령에 삽입할 수 있는 검색 명령이 있을 수 있습니다.
+  Teams는 개인 채팅 및 채널을 통해 봇을 지원합니다. 관리자는 Microsoft 365 혹은 Office 365 조직에서 봇의 사용을 허용할지 여부를 제어할 수 있습니다. 사용자 지정 봇을 켜거나 끄는 방법에 대한 자세한 내용은 [Teams 관리 센터의 앱 관리 및 거버넌스 개요를 참조하세요](manage-apps.md).
+
+* **탭**: 탭은 채널 또는 채팅의 맨 위에 고정된 Teams 인식 웹 페이지입니다. 탭을 사용하면 웹과 유사한 환경으로 콘텐츠 및 서비스와 상호 작용할 수 있습니다. 앱 매니페스트에 선언된 도메인을 가리키는 간단한 HTML <iframe\> 태그이며 개별 사용자에 대한 팀, 그룹 채팅 또는 개인 앱 내 채널의 일부로 추가할 수 있습니다. 자세한 내용은 [Microsoft Teams 탭을 참조하세요](/microsoftteams/platform/tabs/what-are-tabs).
+
+  모든 개인 채팅에서 대화, 파일, 조직 및 활동 탭이 기본적으로 생성됩니다. 개발자는 이러한 기본 제공 탭 외에도 사용자 지정 탭을 디자인하고 추가할 수 있습니다. 자세한 내용은 [Teams에서 기본 제공 및 사용자 지정 탭 사용](/microsoftteams/platform/tabs/what-are-tabs)을 참조하세요.
+
+* **웹후크 및 커넥터**: 웹후크 및 커넥터는 웹 서비스를 Microsoft Teams의 채널 및 팀에 연결하는 데 도움이 됩니다. 웹후크는 Teams 채널에서 발생한 모든 작업에 대해 사용자에게 알리는 사용자 정의 HTTP 콜백입니다. 앱이 실시간 데이터를 가져오는 방법입니다. 커넥터를 사용하면 사용자가 웹 서비스에서 알림 및 메시지를 수신하도록 구독할 수 있습니다. 자세한 내용은 [웹후크 및 커넥터를 참조하세요](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).
+
+  사용자가 Teams에서 사용자 지정 커넥터를 사용할 수 있도록 하려면 Teams [에서 사용자 지정 커넥터 사용을 참조하세요](office-365-custom-connectors.md).
+
+* **메시징 확장**: 메시징 확장은 앱 콘텐츠를 삽입하거나 최종 사용자가 대화에서 벗어나지 않고도 메시지에 대해 작업하는 바로 가기입니다. 사용자는 메시지 작성 영역, 명령 상자 또는 메시지에서 직접 외부 시스템에서 작업을 검색하거나 시작할 수 있습니다. 자세한 내용은 [메시지 확장을 참조하세요](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet).
+
+* **모임 확장**: 사용자는 모임 내에서 탭, 봇 및 메시지 확장을 통합하여 모임 환경을 향상시키고 모임의 생산성을 높일 수 있습니다. 다양한 참가자 역할 및 사용자 유형을 식별하고, 모임 이벤트를 얻고, 모임 내 대화 상자를 생성할 수 있습니다. 자세한 내용은 [Teams용 앱 모임을 참조하세요](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings).
+
+* **카드 및 작업 모듈**: 카드는 사용자에게 다양한 시각적, 오디오 및 선택 가능한 메시지를 제공하고 대화 흐름에 도움을 줍니다. 작업 모듈은 Microsoft Teams에서 모달 팝업 환경을 만드는 데 도움이 됩니다. 작업을 시작하고 완료하거나 비디오 또는 BI(Power Business Intelligence) 대시보드와 같은 풍부한 정보를 표시하는 데 유용합니다. 자세한 내용은 [카드 및 작업 모듈을 참조하세요](/microsoftteams/platform/task-modules-and-cards/cards-and-task-modules).
 
 Teams 기능에 매핑된 일반적인 사용 사례를 보려면 [사용 사례를 Teams 앱 기능에 매핑을 참조하세요](/microsoftteams/platform/concepts/design/map-use-cases).
 
@@ -172,6 +194,10 @@ You can use activity reports to see how users in your organization are using Tea
 
 --->
 
-## <a name="related-article"></a>관련 문서
+## <a name="related-articles"></a>관련 기사
 
 * [Teams용 앱 템플릿에 대해 자세히 알아보세요](/microsoftteams/platform/samples/app-templates).
+
+* [Teams 관리 센터의 앱 관리 및 거버넌스 개요](manage-apps.md)
+
+* [Microsoft Teams 관리 센터에서 앱 관리](manage-apps.md)

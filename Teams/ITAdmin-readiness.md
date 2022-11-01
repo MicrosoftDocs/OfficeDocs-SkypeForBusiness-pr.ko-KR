@@ -18,12 +18,12 @@ ms.custom:
 description: Microsoft Teams를 계획, 배포 및 실행하는 방법에 대한 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b456bd4e9887c5d8d2f8ff61667c75ef14a6588a
-ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
+ms.openlocfilehash: 0dab76cd8cdca4270555a7f15b8f92f353f7afc5
+ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 10/31/2022
-ms.locfileid: "68792817"
+ms.locfileid: "68795450"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams에 대한 관리자 교육 시작
 
@@ -80,9 +80,9 @@ ms.locfileid: "68792817"
 
 <h2>Teams Android 디바이스</h2>
 
-<p>다음 표에는 Teams 디스플레이, Teams 휴대폰, android용 Teams 룸 및 Teams 패널이 포함된 Microsoft Teams Android 디바이스의 PowerPoint 데크(PDF 형식)를 사용하여 포괄적인 학습에 대한 링크가 포함되어 있습니다.  
+<p>다음 표에는 Teams 디스플레이, Teams 휴대폰, android용 Teams 룸 및 Teams 패널이 포함된 Microsoft Teams Android 디바이스의 PowerPoint에서 포괄적인 교육 데크에 대한 링크가 포함되어 있습니다.  
 
-| 모듈 | PowerPoint 데크(PDF)  |
+| 모듈 | PowerPoint 데크  |
 | ------------| -------------------- |
 | 모듈 1: Microsoft Teams Android 디바이스 소개  |[갑판](https://aka.ms/TeamsAndroidModule1) |
 | 모듈 2: Microsoft Teams Android 디바이스 계획|[갑판](https://aka.ms/TeamsAndroidModule2) |
