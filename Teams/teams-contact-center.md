@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 6d71fc6dd788a7c9a65c784131d1b6cfa0488da7
-ms.sourcegitcommit: e0dfa7dbfb03c41f096ed0ad80f44de8e147ed26
+ms.openlocfilehash: e5dd477440aff213f189f33a465f8dfba5667de3
+ms.sourcegitcommit: 92a0df6fc3aa62cec1bf72a40690fb8e16226965
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68743153"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "68836742"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams용 연락처 센터 통합
 
@@ -90,6 +90,7 @@ Microsoft Teams용 연결된 연락처 센터 인증 프로그램은 각 참여 
 | `Sikom` | http://www.sikom.de/microsoft-teams/                            |
 | `Solgari` | https://solgari.com/converse-for-teams/                       |
 | `Ultatel` | https://www.ultatel.com/microsoft-teams-contact-center/                     |
+| `Unexus` | https://www.unexus.nl/en/solutions/unexus-connect/                |
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
 
 이 목록은 더 많은 솔루션 공급자가 가입하고 인증 기준을 충족함에 따라 업데이트됩니다.
