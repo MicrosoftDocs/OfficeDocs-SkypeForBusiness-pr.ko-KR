@@ -9,7 +9,7 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 ms.localizationpriority: high
-description: Microsoft Teams 라이선스가 없는 Microsoft 365 또는 Office 365 사용자는 예비 Teams 라이선스를 시작할 수 있습니다.
+description: Microsoft Teams에 대한 라이선스가 없는 Microsoft 365 또는 Office 365 사용자는 Exploratory Teams 라이선스를 시작할 수 있습니다.
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5124c36b48c4cd8d6d2a466cbdc46c962b9aa11
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 5e5535be61aab03158aa11c68ebd3b753b3ca972
+ms.sourcegitcommit: 18e66d54a9e349d4516253addc85cc12892c69a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68376846"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "68851778"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams의 예비 라이선스 관리
 
@@ -60,7 +60,7 @@ The Microsoft Teams Exploratory experience lets users in your organization who h
 - 관리되는 Azure AD 도메인 전자 메일 주소를 포함 니다.
 - 유료 구독이 있는 테넌트에 속합니다.
 - 활성 Teams 라이선스가 없습니다.
-- 라이선스 할당 정책을 만든 테넌트에 없습니다.
+- 라이선스 할당 정책이 만들어진 테넌트가 아닙니다.
 
 (Microsoft 365 관리 센터에서) 사용자는 앱과 평가판을 사용할 수 있게 등록하도록 설정을 해야 합니다. 자세한 내용은 이 문서 뒷부분의 [Teams 예비 환경 관리](#manage-the-teams-exploratory-experience)를 참조하십시오.
 
@@ -75,7 +75,7 @@ The Microsoft Teams Exploratory experience lets users in your organization who h
 
 ## <a name="how-users-sign-up-for-the-teams-exploratory-experience"></a>Teams 예비 환경에 등록하는 방법
 
-적격 사용자는 데스크톱 또는 웹 Teams에 로그인하여 Teams 예비 환경에 등록할 수 있습니다([teams.microsoft.com](https://teams.microsoft.com)). 현재 모바일을 통한 탐색 기능은 지원되지 않습니다. 로그인 시, 자동으로 라이선스가 할당 되고 조직 내 사용자가 Teams 예비 환경을 처음 시작할 때 테넌트 관리자가 전자 메일 알림을 받게 됩니다.
+적격 사용자는 데스크톱 또는 웹 Teams에 로그인하여 Teams 예비 환경에 등록할 수 있습니다([teams.microsoft.com](https://teams.microsoft.com)). 현재 모바일을 통한 예비 사용은 지원되지 않습니다. 등록하면 이 라이선스가 자동으로 할당되고, 조직 내 누군가가 Teams 예비 환경을 처음 시작할 때 테넌트 관리자가 전자 메일 알림을 받게 됩니다.
 
 ## <a name="manage-the-teams-exploratory-experience"></a>Teams 예비 환경 관리
 
@@ -102,7 +102,7 @@ Teams 예비 환경은 Exchange Online 라이선스와 함께 제공되지만 �
 
 ### <a name="manage-availability-for-a-user-with-a-license-that-includes-teams"></a>Teams를 포함하는 라이선스가 있는 사용자의 상태 관리
 
-Teams를 포함하는 라이선스가 할당된 사용자는 Teams 예비 환경을 사용할 수 없습니다. Teams 서비스 플랜을 사용할 수 있도록 설정한 경우 사용자는 로그인을 하고 Teams를 사용할 수 있습니다. 서비스 플랜을 사용하지 않도록 설정한 경우 사용자가 로그인할 수 없으며 Teams 예비 환경을 사용할 수 없습니다. 관리자 권한이 있어야 합니다.
+Teams를 포함하는 라이선스가 할당된 사용자는 Teams 예비 환경을 사용할 수 없습니다. Teams 서비스 플랜을 사용할 수 있도록 설정한 경우 사용자는 로그인을 하고 Teams를 사용할 수 있습니다. 서비스 계획을 사용하지 않도록 설정하면 사용자가 로그인할 수 없으며 Teams 예비 환경을 사용할 수 없습니다. 관리자 권한이 있어야 합니다.
 
 Teams로의 액세스를 해제하려면:
 
@@ -139,10 +139,12 @@ Teams 예비 환경 라이선스를 해제하려면 다음을 수행합니다.
 
 ### <a name="upgrade-users-from-teams-exploratory"></a>Teams Exploratory에서 사용자 업그레이드
 
-Teams Exploratory에서 사용자를 업그레이드하려면 관리자 권한이 있어야 합니다. 자세한 내용은 [Teams Exploratory 평가판에서 사용자 업그레이드](upgrade-from-teams-exploratory.md)를 참조하세요.
+Teams Exploratory에서 사용자를 업그레이드하려면 관리자 권한이 있어야 합니다. 자세한 내용은 [Teams Exploratory 평가판에서 사용자 업그레이드를 참조하세요](upgrade-from-teams-exploratory.md).
 
 > [!NOTE]
-> Teams Exploratory 라이선스가 종료되고 사용자가 Teams를 포함하는 구독으로 즉시 업그레이드되지 않으면 30일의 유예 기간 후에 Teams에 액세스할 수 없게 됩니다. 그 후 30일이 지나면 데이터가 삭제됩니다. 사용자가 여전히 Azure Active Directory에 있습니다. Teams 기능을 다시 활성화하기 위해 사용자에게 새 라이선스를 할당하더라도 사용자가 유예 기간 내에 추가되더라도 모든 콘텐츠는 계속 유지됩니다.
+> Teams 예비 라이선스가 종료되고 사용자가 Teams를 포함하는 구독으로 즉시 업그레이드되지 않으면 30일 유예 기간 후에 Teams, OneDrive 및 Sharepoint에 대한 액세스 권한이 손실됩니다. 30일이 지나면 연결된 Teams, OneDrive 및 SharePoint 데이터가 삭제됩니다. 사용자가 여전히 Azure Active Directory에 있습니다.
+> 
+> Teams 기능을 다시 활성화하기 위해 사용자에게 새 라이선스를 할당하더라도 사용자가 유예 기간 내에 추가되더라도 모든 콘텐츠는 계속 유지됩니다.
 
 ### <a name="remove-a-teams-exploratory-license"></a>Teams 예비 라이선스 제거
 
@@ -152,7 +154,7 @@ Teams Exploratory에서 사용자를 업그레이드하려면 관리자 권한�
 
 ## <a name="what-is-the-data-retention-policy"></a>데이터 보존 정책이란 무엇인가요?
 
-[Microsoft 365 구독 정보](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide)를 참조하세요.
+[Microsoft 365 구독 정보](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires)를 참조하세요.
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams Exploratory 환경은 얼마나 오래 지속되나요?
 
@@ -163,7 +165,7 @@ Teams Exploratory는 모든 신규 고객에게 12개월 구독(초기 사용자
 
 ### <a name="what-should-administrators-do-at-the-end-of-the-12-month-teams-exploratory-experience"></a>12개월 동안의 Teams Exploratory가 끝나면 관리자가 어떤 작업을 해야 하는지
 
-12개월 구독이 종료되는 경우 관리자는 모든 Teams Exploratory 사용자를 Teams가 포함된 유료 라이선스로 변환해야 합니다. 사용자의 환경 중단을 방지하기 위해 Teams Exploratory 구독이 만료되기 전에 이 작업을 완료하는 것이 중요합니다.
+12개월 구독이 종료되는 경우 관리자는 모든 Teams Exploratory 사용자를 Teams가 포함된 유료 라이선스로 변환해야 합니다. 사용자 환경이 중단되지 않도록 Teams Exploratory 구독이 만료되기 전에 이 작업이 완료되도록 하는 것이 중요합니다.
 
 
 > [!NOTE]
