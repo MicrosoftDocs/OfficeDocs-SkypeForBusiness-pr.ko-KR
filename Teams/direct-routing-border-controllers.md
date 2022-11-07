@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 직접 라우팅에 대해 인증된 SBA(Session Border Controller)에 대해 알아보세요.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1908fc1dbfdecc978444d7fc004979c940f8b2a
-ms.sourcegitcommit: 3b2e8ec8c104863208f49f282ab0ffa619ff5057
+ms.openlocfilehash: 4eb53a81fbdddbf4f04d57be7f893ca3fbb6d88f
+ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2022
-ms.locfileid: "68697357"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "68869573"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>직접 라우팅에 대한 인증된 SBC(Session Border Controller)
 
@@ -129,14 +129,14 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 ||중앙값 9000 SBC|지원되는 7.20A.258(권장 7.40A.100)|
 ||중앙값 가상 버전 SBC|지원되는 7.20A.258(권장 7.40A.100)|
 ||중앙값 클라우드 버전 SBC|지원되는 7.20A.258(권장 7.40A.100)|
-|[Ribbon SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)|SBC 5110|8.2|
-||SBC 5210|8.2|
-||SBC 5400|8.2|
-||SBC 7000|8.2|
-||SBC SWe|8.2|
-|[Ribbon SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)|SBC SWe Lite|8.1.5|
-||SBC 1000|8.1.5|
-||SBC 2000|8.1.5|
+|[Ribbon SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)|SBC 5110|8.2 이상 SW 버전|
+||SBC 5210|8.2 이상 SW 버전|
+||SBC 5400|8.2 이상 SW 버전|
+||SBC 7000|8.2 이상 SW 버전 |
+||SBC SWe|8.2 이상 SW 버전|
+|[Ribbon SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)|SBC SWe Edge(이전의 SWe Lite)|8.1.5 이상 SW 버전|
+||SBC 1000|8.1.5 이상 SW 버전|
+||SBC 2000|8.1.5 이상 SW 버전|
 |[TE-SYSTEMS](https://www.anynode.de/local_media_optimization/)|anynode|4.0.1+|
 |[Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html)|AP 1100|8.4.0.0.0|
 ||AP 3900|8.4.0.0.1 &  9.x|
@@ -165,14 +165,14 @@ Microsoft는 각 공급업체와 협력하여 다음을 수행합니다.
 |[Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html)|VME 소프트웨어 버전 지원 8.3.0.1.2 및 권장 8.4.x 또는 9.x|&#10004;|
 |[Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html)|AP 3950 소프트웨어 버전 지원 9.x|&#10004;|
 |[Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html)|AP 4900 소프트웨어 버전 지원 9.x|&#10004;|
-|[리본 메뉴](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[SBC 1000. 소프트웨어 버전: 8.1.1(빌드 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)|&#10004;|
-|[리본 메뉴](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[SBC 2000. 소프트웨어 버전: 8.1.1(빌드 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)|&#10004;|
-|[리본 메뉴](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 302. 소프트웨어 버전: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[리본 메뉴](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 304. 소프트웨어 버전: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[리본 메뉴](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 2900A. 소프트웨어 버전: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[리본 메뉴](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 4806. 소프트웨어 버전: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[리본 메뉴](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 4808. 소프트웨어 버전: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[리본 메뉴](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 6000. 소프트웨어 버전: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[리본 메뉴](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[SBC 1000. 소프트웨어 버전: 8.1.1(빌드 527) 이상의 SW 버전](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)|&#10004;|
+|[리본 메뉴](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[SBC 2000. 소프트웨어 버전: 8.1.1(빌드 527) 이상의 SW 버전](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)|&#10004;|
+|[리본 메뉴](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 302. 소프트웨어 버전: 16.1.1 이상 SW 버전](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[리본 메뉴](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 304. 소프트웨어 버전: 16.1.1 이상 SW 버전](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[리본 메뉴](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 2900A. 소프트웨어 버전: 16.1.1 이상 SW 버전](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[리본 메뉴](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 4806. 소프트웨어 버전: 16.1.1 이상 SW 버전](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[리본 메뉴](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 4808. 소프트웨어 버전: 16.1.1 이상 SW 버전](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[리본 메뉴](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 6000. 소프트웨어 버전: 16.1.1 이상 SW 버전](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
 |[TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)|Grandstream GXW42xx이 포함된 anynode(V1.0.7.10)|&#10004;|
 
 주 버전에 부여된 인증을 확인합니다. 즉, 주 버전 이후의 SBC 펌웨어에서 임의의 번호를 가진 펌웨어가 지원됩니다.

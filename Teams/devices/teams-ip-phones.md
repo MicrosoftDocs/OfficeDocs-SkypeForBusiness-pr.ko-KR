@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 생성하기 위해 Microsoft Teams에 대해 인증된 책상 및 전화 회의 전화기를 알아봅니다.
-ms.openlocfilehash: f2b6e74dd276eabda4cb94459a18e87ea4e38c41
-ms.sourcegitcommit: 247ae32098c3601252249ce1de719f5215c8ab75
+ms.openlocfilehash: bcd55c0584c683f76a1dd033628bd99c48a18292
+ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2022
-ms.locfileid: "68810694"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "68869603"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 인증 Android 디바이스
 
@@ -86,10 +86,8 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 | Logitech IP VR0029 탭     | `1.6.762`  |   2024년 9월 3일  | Logitech Rally Bar 및 Rally Bar Mini와 호환 | 10 |
 | 깔끔한 바 프로   | `NFD1.20220914.1210 ` | 2024년 9월 3일  |  중간 크기의 방(4.5 m x 6 m) | 10|
 | 깔끔한 바 | `NFF1.20220914.1210` |2024년 9월 3일|    중간 크기의 방(4.5 m x 6 m) | 10 |
-| 깔끔한 바 | `NFB1.20220211.1400` |2024년 9월 3일|    소규모 회의실(4.5 m x 4.5 m) | 10 |
 | 깔끔한 패드 터치 콘솔 | `NFA1.20220914.1206`  | 2024년 9월 3일 | 깔끔한 막대와만 호환 | 9 |
-| 깔끔한 패드 터치 콘솔 | `NFA1.20220211.1400`  | 2023년 8월 5일 |  깔끔한 막대와만 호환 | 9 |
-| 깔끔한 보드 | `NFC1.20220211.1400 ` | 2024년 9월 3일 |    소규모 회의실(4.5 m x 4.5 m) | 10 |
+| 깔끔한 보드 | `NFC1.20220914.1210 ` | 2024년 9월 3일 |    소규모 회의실(4.5 m x 4.5 m) | 10 |
 | Logitech 룸메이트 | `1.4.71` | 2024년 9월 3일  | 대형 회의실(4.5m x 8.5m)  |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | 2023년 8월 5일 | EPOS Vision 3T와 함께 번들 | 9 |
 | Logitech 디바이스 탭     | `1.2.982`  |   2024년 9월 3일  | Logitech Rally Bar 및 Rally Bar Mini와 호환 | 10 |

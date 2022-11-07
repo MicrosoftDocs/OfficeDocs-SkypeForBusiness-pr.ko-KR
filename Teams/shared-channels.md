@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams에서 공유 채널을 사용하고 관리하는 방법을 알아보세요.
-ms.openlocfilehash: 378088e4b1f12aee3d71f11fb54aacec8a0ca138
-ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
+ms.openlocfilehash: ff975d406426bd85789541c0a7cfb0aba57cdf60
+ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "67795077"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "68869671"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams의 공유 채널
 
@@ -39,7 +39,7 @@ Microsoft Teams의 공유 채널은 팀에 없는 사용자를 초대할 수 있
 
 ## <a name="getting-started-with-shared-channels"></a>공유 채널 시작
 
-공유 채널은 Teams에 기본적으로 활성화되어 있습니다. [채널 정책을 만들어](/MicrosoftTeams/teams-policies) 사용자가 공유 채널을 만들 수 있는지 여부, 조직 외부 사용자와 공유할 수 있는지 여부, 외부 공유 채널에 참여할 수 있는지 여부를 선택할 수 있습니다.
+Shared channels is enabled by default in Teams. You can choose if people can create shared channels, if they can share them with people outside your organization, and if they can participate in external shared channels by [creating a channel policy](/MicrosoftTeams/teams-policies).
 
 조직 외부 사용자와 채널을 공유하려는 경우 중요한 계획 고려 사항은 [외부 공동 작업 계획](/microsoft-365/solutions/plan-external-collaboration)을 참조하세요.
 
@@ -71,8 +71,10 @@ Microsoft Teams의 공유 채널은 팀에 없는 사용자를 초대할 수 있
 
 마지막 공유 채널 소유자가 조직을 떠나거나 팀과 연결된 Microsoft 365 그룹에서 제거된 경우 조직의 공유 채널 구성원이 자동으로 공유 채널 소유자로 승격됩니다. 조직에서 홍보할 구성원이 없으면 공유 채널은 소유자가 없는 상태로 유지됩니다. Teams 관리자는 채널 소유자를 수동으로 할당해야 합니다. 이 상황을 방지하려면 둘 이상의 소유자를 추가하는 것이 좋습니다.
 
+구성원(사용자 유형 속성)으로 변환된 게스트를 포함하여 공유 채널에 추가할 수 없습니다.
+
 > [!NOTE]
-> 두 참가자가 Azure Active Directory에서 일치하지 않는 경우 외부 참가자는 메일 주소가 아닌 UPN을 사용하여 추가해야 합니다.
+> 두 참가자가 Azure Active Directory에서 일치하지 않는 경우 외부 참가자는 이메일 주소가 아닌 UPN을 사용하여 추가해야 합니다.
 
 ## <a name="channel-owner-settings"></a>채널 소유자 설정
 
