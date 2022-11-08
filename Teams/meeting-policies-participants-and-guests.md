@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 참가자 및 게스트에 대한 Teams에서 모임 정책 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 91d48a88aff2784a5e4d420b6ede7d03e3692678
-ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
+ms.openlocfilehash: a5d18ea0e3f8c6cd008a12258fd94c3a0b725ac3
+ms.sourcegitcommit: 1fe19c4a6e9f6116515df531786cc3e482e27093
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "68801789"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "68876284"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>모임 정책 설정 - 참가자 및 게스트
 
@@ -117,6 +117,17 @@ Teams에서 **누가 표시할 수 있나요?** 설정의 기본값을 지정하
 |---------|---------|
 |**사용하도록 설정되지 않았지만 사용자가 재정의할 수 있습니다.**     | 라이브 캡션 기능은 모임 중인 사용자에 대해 자동으로 설정되어 있지 않습니다. 사용자가 기능을 켜도록 넘침 단추(**...**) 메뉴에서 **라이브 캡션 켜기** 옵션이 보입니다. 기본 설정입니다. |
 |**사용 안 함**     | 라이브 캡션 기능이 모임 중인 사용자에 대해 비활성화되었습니다. 사용자에게 이 기능을 켜는 옵션이 없습니다.          |
+
+최종 사용자가 **라이브 캡션** 을 켜는 방법에 대한 자세한 내용은 [Teams 모임에서 라이브 캡션 사용을 참조하세요](https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260).
+
+### <a name="live-translated-captions"></a>라이브 번역 캡션
+
+> [!NOTE]
+> 이 기능은 공개 미리 보기에서 일시적으로 사용할 수 있습니다. 미리 보기가 끝나면 모임 이끌이는 참석자가 라이브 번역 캡션을 사용할 수 있는 Teams Premium 라이선스가 있어야 합니다.
+
+기본적으로 **라이브 캡션은** 모임 중에 사용되는 언어로 표시됩니다. **라이브 번역 캡션을** 사용하면 사용자가 가장 편안한 언어로 번역된 캡션을 볼 수 있습니다.
+
+**라이브 번역 캡션을** 사용하도록 설정하려면 **라이브 캡션을** 사용 안 됨으로 설정해야 하지만 사용자는 Teams 관리 센터에서 재정의할 **수 있습니다**. **라이브 번역 캡션을** 끄려면 이 캡션을 **사용 안** 됨으로 설정합니다.
 
 <a name="bkcontentsharing"> </a>
 
