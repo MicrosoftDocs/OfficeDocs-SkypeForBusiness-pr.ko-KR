@@ -18,12 +18,12 @@ ms.custom:
 description: Microsoft Teams를 계획, 배포 및 실행하는 방법에 대한 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0dab76cd8cdca4270555a7f15b8f92f353f7afc5
-ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
+ms.openlocfilehash: dbba9535bed24c52578f8c01f37557774bbfa5e3
+ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2022
-ms.locfileid: "68795450"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "68890067"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams에 대한 관리자 교육 시작
 
@@ -48,10 +48,11 @@ ms.locfileid: "68795450"
 | ------------ | -------------------- | -------------------- |
 | [Microsoft Mechanics - IT용 Teams Essentials YouTube 채널](https://aka.ms/MicrosoftTeamsforIT) | [비디오: IT용 Teams Essentials](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13분)<br>[비디오: Teams 구성 & 배포 - 소개](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22분)  <br>[비디오: 보안 및 규정 준수](https://youtu.be/91lHNKVVvQ4) (12:42분)<br>[비디오: 보안 및 규정 준수를 위한 Teams 컨트롤](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54분)||
 | 기초 - 핵심 구성 요소 | [비디오](https://aka.ms/teams-foundations) | [갑판](https://aka.ms/teams-foundations-deck) |
+| 오디오 회의 |  | [갑판](https://aka.ms/teams-audio-conferencing-deck) |
+| 통화 품질 개요 | | [갑판](https://aka.ms/teams-quality-deck) |
 | Windows 데스크톱 클라이언트 | [비디오](https://aka.ms/teams-clients) | [갑판](https://aka.ms/teams-clients-deck) |
 | 거버넌스, 관리 및 수명 주기 | [비디오](https://aka.ms/teams-governance) | [갑판](https://aka.ms/teams-governance-deck) |
 | 보안 & 규정 준수 | [비디오](https://aka.ms/teams-security-compliance) | [갑판](https://aka.ms/teams-security-compliance-deck) |
-| 통화 품질 개요 | | [갑판](https://aka.ms/teams-quality-deck) |
 | 모임 소개 | [비디오](https://aka.ms/teams-meetings-intro) | [갑판](https://aka.ms/teams-meetings-intro-deck) |
 | 미디어 - 모임이 간단한 이유|[비디오](https://aka.ms/media-in-teams)  | [갑판](https://aka.ms/media-in-teams-deck)|
 | 미디어 - 미디어 흐름 | [비디오](https://aka.ms/teams-media-flows) | [갑판](https://aka.ms/teams-media-flows-deck)  |

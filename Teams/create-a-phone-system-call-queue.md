@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Microsoft Teams에서 통화 큐를 설정하는 방법을 알아봅니다. 통화 큐는 인사말 메시지를 제공하고, 음악을 누르고, 리디렉션을 호출하고, 기타 기능을 제공합니다.
-ms.openlocfilehash: d4d263587e0ac78b2dff2949adcaa2af8133a3dc
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 84dd975e93340f6b5985e8239e7bf78f051debbc
+ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738564"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "68890077"
 ---
 # <a name="create-a-call-queue"></a>통화 큐 만들기
 
@@ -393,7 +393,7 @@ Teams 채널을 통해 최대 200명의 에이전트를 추가할 수 있습니�
 1. Microsoft Teams Windows 클라이언트, Microsoft Teams Mac 클라이언트, 가상화된 데스크톱 인프라의 Microsoft Teams.
 2. Microsoft Teams iPhone 앱, Microsoft Teams Android 앱.
 3. 에이전트 라우팅 방법에 대해 가장 긴 유휴 상태를 선택하면 프레즌스 기반 라우팅이 자동으로 활성화됩니다.
-4. 표준 통화 큐의 일부로 개별 사용자를 추가할 때만 주문을 설정할 수 있습니다. 배포 목록 또는 Teams 채널이 사용되는 경우 순서는 사전순입니다.
+4. 에이전트가 호출될 순서를 설정할 수 없습니다.
 5. 전화 통화가 위치 기반 라우팅에 사용하도록 설정된 직접 라우팅 게이트웨이에서 큐로 라우팅되는 경우 회의 모드가 지원되지 않습니다.
 6. Microsoft Teams 전화.
 7. 의 사용자 설정 포털 페이지를 [https://aka.ms/vmsettings](https://aka.ms/vmsettings)통해

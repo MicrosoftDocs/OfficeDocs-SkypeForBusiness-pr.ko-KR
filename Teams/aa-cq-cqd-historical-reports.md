@@ -22,18 +22,18 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Teams 자동 전화 교환 & 통화 큐 기록 보고서 Power BI 보고서를 사용하여 자동 전화 교환 및 통화 큐 기록 데이터를 보는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 2afae8986f1184f1394e806b84aa1ab242c07df2
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: b57180a339ea7aa1548acf16be1f95d3514c294b
+ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738694"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "68890087"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>자동 전화 교환 & 통화 큐 기록 보고서
 
 이 Power BI 템플릿은 조직에서 자동 전화 교환 및 통화 큐에서 처리되는 통화 수를 보고할 수 있는 세 가지 보고서를 제공합니다.  또한 에이전트 성능 인사이트를 제공합니다.
 
-## <a name="v301-published-on-october-26-2022"></a>2022년 10월 26일에 게시된 V3.0.1
+## <a name="v303-published-on-november-8-2022"></a>2022년 11월 8일에 게시된 V3.0.3
 
 Teams 자동 전화 교환 & 통화 큐 기록 보고서 Power BI 템플릿은 다음 세 가지 보고서를 제공합니다.
 
@@ -64,11 +64,11 @@ Power BI Desktop 설치해야 합니다. [Microsoft Windows 스토어](https://a
 
 다음 단계를 수행합니다.
 
-1. [Teams 자동 전화 교환 & 통화 큐 기록 보고서 V3.0.1.zip](https://www.microsoft.com/download/details.aspx?id=104623) 파일을 다운로드하여 컴퓨터에 저장합니다.
+1. [Teams 자동 전화 교환 & 통화 큐 기록 보고서 V3.0.3.zip](https://www.microsoft.com/download/details.aspx?id=104623) 파일을 다운로드하여 컴퓨터에 저장합니다.
 
 1. zip 파일을 엽니다.
 
-1. `Teams Auto Attendant & Call Queue Historical Reports V3.0.0.pbit` 템플릿 파일을 엽니다. Power BI Desktop 시작되어야 합니다.
+1. `Teams Auto Attendant & Call Queue Historical Reports V3.0.3.pbit` 템플릿 파일을 엽니다. Power BI Desktop 시작되어야 합니다.
 
 1. **데이터 원본** 을 선택하라는 메시지가 표시됩니다.  `api.interfaces.records.teams.microsoft.com` 항목을 선택합니다.
 
@@ -81,9 +81,9 @@ Power BI Desktop 설치해야 합니다. [Microsoft Windows 스토어](https://a
 1. **연결을** 선택하면 데이터가 새로 고쳐집니다.
 
 > [!NOTE]
-> v1.63 이하를 사용하는 경우 v3.0.0이 VAAC에서 데이터를 검색하려고 할 때 오류가 발생할 수 있습니다.  이 오류를 해결하려면 Power BI에서 이전 자격 증명을 지워야 합니다.
+> v1.63 이하를 사용하는 경우 v3.x.x가 VAAC에서 데이터를 검색하려고 할 때 오류가 발생할 수 있습니다.  이 오류를 해결하려면 Power BI에서 이전 자격 증명을 지워야 합니다.
 > 
-> 1. v3.0.0 템플릿을 열어 오류를 해결합니다. 
+> 1. v3.x.x 템플릿을 열어 오류를 지웁합니다. 
 > 1. **파일** > **옵션 & 설정** > **데이터 원본 설정을** 선택합니다.
 > 1. **삭제 권한** 에 대한 드롭다운을 선택한 다음 **모든 권한 지우기를** 선택합니다.
 > 1. 템플릿이 지워진 후 템플릿을 닫고 Power BI를 다시 시작합니다. 다시 권한을 부여하라는 메시지가 표시됩니다. 
@@ -376,7 +376,8 @@ Power BI Desktop 설치해야 합니다. [Microsoft Windows 스토어](https://a
 
 |버전  |게시된 날짜     |파일                                                           |설명                                         |
 |:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
-|3.0.1    |2022년 10월 26일   |Teams 자동 전화 교환 & 통화 큐 기록 보고서 V3.0.0        |테스트 데이터 원본 항목이 제거됨                   |
+|3.0.3    |2022년 11월 8일   |Teams 자동 전화 교환 & 통화 큐 기록 보고서 V3.0.3        |다음을 참조하세요.<br>CQD Teams 자동 전화 교환 & 통화 큐 기록 보고서 - 변경 내용 목록에 대한 다운로드한 zip 파일의 Log.docx 변경                                                                             |
+|3.0.1    |2022년 10월 26일   |Teams 자동 전화 교환 & 통화 큐 기록 보고서 V3.0.1        |테스트 데이터 원본 항목이 제거됨                   |
 |3.0.0    |2022년 10월 25일   |Teams 자동 전화 교환 & 통화 큐 기록 보고서 V3.0.0        |새 백 엔드 데이터 원본                             |
 |1.63     |2022년 8월 24일    |CQD Teams 자동 전화 교환 & 통화 큐 기록 보고서 V1.63.pbit |다음을 참조하세요.<br>CQD Teams 자동 전화 교환 & 통화 큐 기록 보고서 - 변경 내용 목록에 대한 다운로드한 zip 파일의 Log.docx 변경                                                                             |
 |1.60     |2022년 7월 22일      |CQD Teams 자동 전화 교환 & 통화 큐 기록 보고서 V1.60.pbit |다음을 참조하세요.<br>CQD Teams 자동 전화 교환 & 통화 큐 기록 보고서 - 변경 내용 목록에 대한 다운로드한 zip 파일의 Log.docx 변경                                                                             |
