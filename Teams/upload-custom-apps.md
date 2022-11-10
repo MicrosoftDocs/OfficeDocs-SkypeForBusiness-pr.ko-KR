@@ -18,17 +18,16 @@ f1.keywords:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 조직의 Teams 앱 스토어에 사용자 지정 앱을 업로드하는 방법을 알아봅니다.
-ms.openlocfilehash: 8886c2c0904e7ca9c9e0de1e5641b8587ffe50bf
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: c1a664390676f2df68c06c75dee57db3d3c7582c
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738584"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912447"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>앱 패키지를 업로드하여 사용자 지정 앱 게시
 
-> [!NOTE]
-> 사용자 지정 Teams 앱을 게시하면 조직의 앱 스토어에 있는 사용자가 사용할 수 있습니다. 사용자 지정 앱을 게시하는 방법에는 두 가지가 있으며 사용 방법은 앱을 얻는 방법에 따라 다릅니다. **이 문서에서는 개발자가 보낸 앱 패키지(.zip 형식)를 업로드하여 사용자 지정 앱을 게시하는 방법에 대해 중점적으로 설명합니다**. 사용자 지정 앱을 승인하는 다른 방법은 개발자가 Teams App Submission API를 통해 [앱 관리](manage-apps.md) 페이지에 직접 앱을 제출할 때 사용됩니다. 이 방법에 대한 자세한 내용은 [Teams App Submission API를 통해 제출된 사용자 지정 앱 게시](submit-approve-custom-apps.md)를 참조하세요.
+사용자 지정 Teams 앱을 게시하면 조직의 앱 스토어에 있는 사용자가 사용할 수 있습니다. 사용자 지정 앱을 게시하는 방법에는 두 가지가 있으며 사용 방법은 앱을 얻는 방법에 따라 다릅니다. 이 문서에서는 개발자가 보낸 앱 패키지(.zip 형식)를 업로드하여 사용자 지정 앱을 게시하는 방법에 대해 중점적으로 설명합니다. 사용자 지정 앱을 승인하는 다른 방법은 개발자가 Teams App Submission API를 통해 [앱 관리](manage-apps.md) 페이지에 직접 앱을 제출할 때 사용됩니다. 이 방법에 대한 자세한 내용은 [Teams App Submission API를 통해 제출된 사용자 지정 앱 게시](submit-approve-custom-apps.md)를 참조하세요.
 
 이 문서에서는 Teams 앱을 개발에서 배포, 검색으로 전환하는 방법에 대한 종단 간 지침을 제공합니다. 이 지침은 앱의 Teams 측면에 중점을 두고 있으며 관리자와 IT 전문가를 대상으로 합니다. Teams 앱 개발에 대한 자세한 내용은 [Teams 개발자 설명서](/microsoftteams/platform/)를 참조하세요.
 

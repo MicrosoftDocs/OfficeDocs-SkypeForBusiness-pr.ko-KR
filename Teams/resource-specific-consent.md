@@ -14,18 +14,18 @@ ms.localizationpriority: high
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd47f8e46147e3b4d30052ff4a1b9fcde6c128e1
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: cb7e4a4487a5411386978fb91a70c485bfa0ddc6
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377156"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912597"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>마이크로소프트 Teams의 리소스별 동의
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-마이크로소프트 Teams의 리소스별 동의를 통해 팀 소유자는 팀 데이터에 액세스하는 앱에 대한 동의를 얻을 수 있습니다. 이러한 액세스의 예로는 채널 메시지 읽기, 채널 만들기 및 삭제, 채널 탭 만들기 및 제거 기능이 있습니다.
+RSC(리소스별 동의)는 앱이 API 엔드포인트를 사용하여 조직 내 팀의 특정 리소스를 관리할 수 있도록 하는 Microsoft Teams 및 Microsoft Graph API 통합입니다. RSC 권한을 사용하면 팀 소유자가 애플리케이션에 대한 동의를 부여하여 팀의 데이터에 액세스하고 수정할 수 있습니다. 마이크로소프트 Teams의 리소스별 동의를 통해 팀 소유자는 팀 데이터에 액세스하는 앱에 대한 동의를 얻을 수 있습니다. 이러한 액세스의 예로는 채널 메시지 읽기, 채널 만들기 및 삭제, 채널 탭 만들기 및 제거 기능이 있습니다.
 
 관리자는 조직의 팀 소유자가 Azure AD(Azure Active Directory) PowerShell 모듈 또는 Azure Portal 및 Microsoft Teams 관리 센터를 사용하여 구성한 설정을 통해 동의 여부를 제어합니다.  
 
@@ -40,7 +40,7 @@ ms.locfileid: "68377156"
 > [!IMPORTANT]
 > 이러한 설정을 변경해도 이미 동의가 부여된 앱의 데이터 액세스에는 영향을 주지 않습니다. 예를 들어, 팀 소유자가 동의하지 못하도록 이러한 설정을 구성해도 이미 부여된 데이터 액세스 권한은 제거되지 않습니다.
 
-#### <a name="the-users-can-consent-to-apps-accessing-company-data-on-their-behalf-setting"></a>사용자는 대신 회사 데이터에 액세스하는 앱에 동의할 수 있습니다.
+#### <a name="the-users-can-consent-to-apps-accessing-company-data-on-their-behalf-setting"></a>사용자는 대신 회사 데이터에 액세스하는 앱 설정에 동의할 수 있습니다.
 
 이 설정은 조직의 사용자가 대신 앱에 동의할 수 있는지를 제어합니다. 팀 소유자가 동의할 수 있도록 하려면, 이 설정을 **예** 로 설정해야 합니다. 이 설정을 관리하려면 다음을 수행합니다.
 
@@ -64,10 +64,10 @@ Azure AD의 설정뿐만 아니라 [앱 관리](manage-apps.md) 페이지의 [�
 
 이 조직 전체 앱 설정은 조직의 사용자가 타사 앱을 사용할 수 있는지를 제어합니다. 팀 소유자가 동의할 수 있으려면 이 설정이 켜져 있어야 합니다. 이 설정을 관리하려면 다음을 수행합니다.
 
-1. Teams 관리 센터에 로그인하고 **Teams 앱 관리 앱** > 에 액세스 **[합니다](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. Teams 관리 센터에 로그인하고 **Teams 앱** > **[앱 관리](https://admin.teams.microsoft.com/policies/manage-apps)** 에 액세스합니다.
 1. **조직 전체 앱 설정을** 선택하고 **타사 앱에서 타사 앱** **허용** 을 끄거나 켭니다.
 
-   :::image type="content" source="media/resource-specific-consent-org-wide-setting.png" alt-text="Teams 설정에서 타사 앱 허용을 보여 주는 스크린샷":::
+   :::image type="content" source="media/resource-specific-consent-org-wide-setting.png" alt-text="Teams에서 타사 앱 허용 설정을 보여 주는 스크린샷":::
 
 변경 내용을 적용하는 데 최대 24시간이 걸릴 수 있습니다.
 
@@ -75,8 +75,8 @@ Azure AD의 설정뿐만 아니라 [앱 관리](manage-apps.md) 페이지의 [�
 
 [앱 관리](manage-apps.md#allow-and-block-apps) 페이지에서 앱을 차단하거나 허용하면 해당 앱이 조직의 모든 사용자에 대해 차단되거나 허용됩니다. 팀 소유자는 앱이 허용된 경우에만 앱에 동의 할 수 있습니다. 조직 수준에서 앱을 허용하거나 차단하려면 다음을 수행합니다.
 
-1. Teams 관리 센터에 로그인하고 **Teams 앱 관리 앱** > 에 액세스 **[합니다](https://admin.teams.microsoft.com/policies/manage-apps)**.
-1. 앱 관리 페이지에서 앱을 선택한 다음 **차단** 을 선택하여 차단하거나 **허용** 을 선택합니다.
+1. Teams 관리 센터에 로그인하고 **Teams 앱** > **[앱 관리](https://admin.teams.microsoft.com/policies/manage-apps)** 에 액세스합니다.
+1. 앱 관리 페이지에서 앱을 선택한 다음 **차단을 선택하여** 차단하거나 **허용** 을 선택하여 허용을 선택합니다.
 
 #### <a name="app-permission-policy-assigned-to-the-team-owner"></a>팀 소유자에게 할당된 앱 권한 정책
 
@@ -87,7 +87,7 @@ Azure AD의 설정뿐만 아니라 [앱 관리](manage-apps.md) 페이지의 [�
 1. 팀 소유자에게 할당된 정책은 **앱 권한 정책** 에 나열됩니다.
 
     * 다른 정책을 할당하려면 **편집** 을 선택한 다음 할당할 정책을 선택합니다.
-    * 팀 소유자에게 할당된 정책 설정을 편집하려면 정책 이름을 선택한 다음 원하는 대로 변경합니다.  
+    * 팀 소유자에게 할당된 정책의 설정을 편집하려면 정책 이름을 선택한 다음 원하는 대로 변경합니다.  
 
 ## <a name="upload-custom-apps"></a>사용자 지정 앱 업로드
 
@@ -95,7 +95,7 @@ Azure AD의 설정뿐만 아니라 [앱 관리](manage-apps.md) 페이지의 [�
 
 ## <a name="related-articles"></a>관련 기사
 
-* [사용 가능한 RSC 권한](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
+* [Microsoft Graph에서 Teams의 데이터를 활용하는 RSC 권한](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
 * [Microsoft Graph](https://developer.microsoft.com/graph)
 * [Microsoft Teams 관리 센터에서 앱 관리](manage-apps.md)
 * [Teams에서 앱 사용 권한 정책 관리](teams-app-permission-policies.md)

@@ -23,14 +23,14 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 5797486fb0993aa8630a8dedde131ad7751e7e5f
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: aac7024730c3f18e1c0f38a2e041dea840a6b869
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656024"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912407"
 ---
-# <a name="manage-access-to-teams-apps-using-app-permission-policies"></a>앱 권한 정책을 사용하여 Teams 앱에 대한 액세스 관리
+# <a name="use-app-permission-policies-to-control-user-access-to-apps"></a>앱 권한 정책을 사용하여 앱에 대한 사용자 액세스 제어
 
 관리자는 앱 권한 정책을 사용하여 조직의 각 사용자가 사용할 수 있는 앱을 제어할 수 있습니다. 모든 앱 또는 특정 앱을 허용하거나 차단하도록 설정한 권한은 [Teams의 모든 앱 유형에](deploy-apps-microsoft-teams-landing-page.md) 적용할 수 있습니다. 이러한 정책을 관리하려면 전역 관리 또는 Teams 서비스 관리자여야 합니다.
 
@@ -57,10 +57,10 @@ Teams 관리 센터를 사용하면 다음 두 가지 유형의 권한 정책을
 1. 정책의 이름과 설명을 제공합니다.
 1. **Microsoft 앱**, **타사 앱** 및 **사용자 지정 앱** 에서 다음 옵션 중 하나를 선택합니다.
 
-    * `Allow all apps`
-    * `Allow specific apps and block all others`
-    * `Block specific apps and allow all others`
-    * `Block all apps`
+    * 모든 앱 허용
+    * 특정 앱 허용 및 다른 모든 앱 차단
+    * 특정 앱 차단 및 다른 모든 앱 허용
+    * 모든 앱 차단
 
 1. **특정 앱 허용 및 다른 모든 앱 차단** 을 선택한 경우 허용하려는 앱을 추가합니다.
 

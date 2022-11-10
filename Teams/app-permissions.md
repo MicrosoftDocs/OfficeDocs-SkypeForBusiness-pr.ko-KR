@@ -19,14 +19,14 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 64e63b4df818d792f722aed5b61315828a79bf76
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 643c354086d93d7aa3edd4d73216b4b9d5dbbe56
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377136"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912477"
 ---
-# <a name="information-accessed-and-actions-performed-by-teams-apps-and-admin-considerations"></a>액세스한 정보 및 Teams 앱 및 관리자 고려 사항에서 수행한 작업
+# <a name="information-accessed-and-actions-performed-by-apps-and-related-admin-considerations"></a>액세스한 정보 및 앱에서 수행한 작업 및 관련 관리자 고려 사항
 
 Microsoft Teams 앱은 하나 이상의 기능을 설치, 업그레이드 및 제거할 수 있는 앱으로 집계합니다. 앱의 기능은 다음과 같습니다.
 
@@ -37,17 +37,9 @@ Microsoft Teams 앱은 하나 이상의 기능을 설치, 업그레이드 및 �
 
 관리자는 앱만 관리합니다. 그러나 이 문서에서는 앱의 기능이 앱의 필요한 권한 및 위험 프로필에 영향을 주기 때문에 기능 수준에서 사용 권한 및 고려 사항에 중점을 둡니다. 사용의 경우 앱은 사용자가 동의하고 정책 관점에서 IT 전문가가 관리합니다.
 
-아래에 대문자로 나열된 사용 권한(예: `RECEIVE_MESSAGE` 및 `REPLYTO_MESSAGE` )은 설명 및 설명 목적으로만 사용됩니다. 이러한 문자열 또는 사용 권한은 [Microsoft Teams 개발자 설명서](/microsoftteams/platform/overview) 또는 [Microsoft Graph에 대한 사용 권한](/graph/permissions-reference) 어디에도 표시되지 않습니다.
+<!---  The permissions listed below in capital letters, for example `RECEIVE_MESSAGE` and `REPLYTO_MESSAGE` are only for illustration and explanation purpose. These strings or permissions don't appear anywhere in the [Microsoft Teams developer documentation](/microsoftteams/platform/overview) or the [permissions for Microsoft Graph](/graph/permissions-reference).  --->
 
 ## <a name="global-app-permissions-and-considerations"></a>전역 앱 사용 권한 및 고려 사항
-
-### <a name="required-permissions"></a>필요한 사용 권한
-
-없음
-
-### <a name="optional-permissions"></a>선택적 사용 권한
-
-없음
 
 ### <a name="considerations"></a>고려 사항
 
@@ -59,25 +51,23 @@ Microsoft Teams 앱은 하나 이상의 기능을 설치, 업그레이드 및 �
 
 ## <a name="bots-and-messaging-extensions"></a>봇 및 메시징 확장
 
-### <a name="required-permissions"></a>필요한 사용 권한
+### <a name="required-permissions-for-bots-and-messaging-extensions"></a>봇 및 메시징 확장에 필요한 권한
 
-* RECEIVE_MESSAGE, REPLYTO_MESSAGE: 봇은 사용자로부터 메시지를 받고 회신할 수 있습니다. <sup>1</sup>
+* 봇은 사용자로부터 메시지를 받고 회신할 수 있습니다. 일부 봇은 메시지만 보냅니다. 알림 전용 봇이라고 하지만 이 용어는 봇이 허용되거나 허용되지 않는 작업을 참조하지 않습니다. 즉, 봇은 대화형 환경을 제공하지 않습니다. Teams는 이 필드를 사용하여 일반적으로 사용하도록 설정되는 UI의 기능을 사용하지 않도록 설정합니다. 봇은 대화형 환경을 노출하는 봇과 비교하여 허용되는 작업에서 제한되지 않습니다.
+* 사용자가 봇에 메시지를 보낸 후 봇은 언제든지 사용자에게 직접 또는 사전 대응 메시지를 보낼 수 있습니다.
+* 팀에 추가된 봇은 팀의 채널 이름과 ID 목록을 가져올 수 있습니다.
 
-* POST_MESSAGE_USER: 사용자가 봇에 메시지를 보낸 후 봇은 사용자 직접 메시지(*자동 관리 메시지* 라고도 함)를 언제든지 보낼 수 있습니다.
+### <a name="optional-permissions-for-bots-and-messaging-extensions"></a>봇 및 메시징 확장에 대한 선택적 권한
 
-* GET_CHANNEL_LIST: 팀에 추가된 봇은 팀의 채널 이름과 ID 목록을 가져올 수 있습니다.
+* 채널에서 사용되는 경우 앱의 봇은 팀 구성원의 기본 ID 정보(이름, 성, 사용자 계정 이름 [UPN], 이메일 주소)에 액세스할 수 있습니다. 개인 또는 그룹 채팅에서 사용되는 경우 봇은 해당 사용자에 대해 동일한 정보에 액세스할 수 있습니다.
 
-### <a name="optional-permissions"></a>선택적 사용 권한
+* 앱의 봇은 봇과 상호 작용하지 않은 경우에도 팀 구성원에게 직접 또는 사전 대응 메시지를 보낼 수 있습니다.
 
-* ID: 채널에서 사용되는 경우 앱의 봇은 팀 구성원의 기본 ID 정보(이름, 성, 사용자 계정 이름 [UPN], 이메일 주소)에 액세스할 수 있습니다. 개인 또는 그룹 채팅에서 사용되는 경우 봇은 해당 사용자에 대해 동일한 정보에 액세스할 수 있습니다.
+* 다음은 명시적 권한이 아니지만 메시지를 받고 회신하는 기능과 봇을 사용할 수 있는 범위에 의해 암시됩니다.
 
-* POST_MESSAGE_TEAM: 사용자가 봇과 상호 작용한 적이 없더라도 앱의 봇이 언제든지 팀 구성원에게 직접(사전 대응) 메시지를 보낼 수 있도록 허용합니다.
-
-* 다음은 명시적 권한이 아니지만 매니페스트에 선언된 RECEIVE_MESSAGE 및 REPLYTO_MESSAGE 및 봇을 사용할 수 있는 범위에 암시됩니다.
-
-  * RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
-  * RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
-  * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
+  * 개인 메시지를 받고 회신합니다.
+  * 그룹 채팅을 받고 회신합니다.
+  * 채널 메시지를 받고 회신합니다.
 
 * 다음은 명시적 권한이 아니지만 매니페스트에 선언된 RECEIVE_MESSAGE 및 REPLYTO_MESSAGE 및 봇을 사용할 수 있는 범위에 암시됩니다.
 
@@ -87,7 +77,7 @@ Microsoft Teams 앱은 하나 이상의 기능을 설치, 업그레이드 및 �
 
 * SEND_FILES RECEIVE_FILES:<sup>2</sup> 봇이 개인 채팅에서 파일을 보내고 받을 수 있는지 여부를 제어합니다(아직 그룹 채팅 또는 채널에 지원되지 않음).
 
-### <a name="considerations"></a>고려 사항
+### <a name="considerations-for-bots-and-messaging-extensions"></a>봇 및 메시징 확장에 대한 고려 사항
 
 * 봇은 추가된 팀 또는 봇을 설치한 사용자에만 액세스할 수 있습니다.
 
@@ -97,13 +87,13 @@ Microsoft Teams 앱은 하나 이상의 기능을 설치, 업그레이드 및 �
 
 * 사용자가 봇과 대화할 때 봇이 사용자의 ID를 저장하는 경우 언제든지 사용자에게 직접 메시지를 보낼 수 있습니다.
 
-* 이론적으로는 봇 메시지에 피싱 또는 맬웨어 사이트에 대한 링크가 포함될 수 있습니다. 그러나 사용자, 테넌트 관리자 또는 전역적으로 Microsoft에서 봇을 차단할 수 있습니다. [앱 확인 및 유효성 검사](overview-of-app-validation.md) 에서는 모든 가짜 앱을 Teams 스토어에서 사용할 수 없도록 합니다.
+* 이론적으로는 봇 메시지에 피싱 또는 맬웨어 사이트에 대한 링크가 포함될 수 있습니다. 그러나 사용자, 테넌트 관리자 또는 전역적으로 Microsoft에서 봇을 차단할 수 있습니다. [앱 확인 및 유효성 검사를 통해](overview-of-app-validation.md) Teams 스토어에서 가짜 앱을 사용할 수 없습니다.
 
 * 봇은 앱이 추가된 팀 구성원 또는 개인 또는 그룹 채팅의 개별 사용자에 대한 기본 ID 정보를 검색(및 저장할 수 있음)할 수 있습니다. 이러한 사용자에 대한 추가 정보를 얻으려면 봇이 Azure Active Directory(Azure AD)에 로그인하도록 요구해야 합니다.
 
 * 봇은 팀의 채널 목록을 검색(및 저장할 수 있음)할 수 있습니다. 이 데이터는 회사 네트워크를 떠납니다.
 
-* 기본적으로 봇은 사용자를 대신하여 작업할 수 없지만 봇은 사용자에게 로그인하도록 요청할 수 있습니다. 사용자가 로그인하는 즉시 봇은 추가 작업을 수행할 수 있는 액세스 토큰을 갖게 됩니다. 봇과 사용자가 로그인하는 위치에 따라 정확히 무엇이 달라지는지 정확히 알 수 있습니다. 봇은 https://apps.dev.microsoft.com/에 등록된 Azure AD 앱이며 자체 사용 권한 집합을 가질 수 있습니다.
+* 기본적으로 봇은 사용자를 대신하여 작업할 수 없지만 봇은 사용자에게 로그인하도록 요청할 수 있습니다. 사용자가 로그인하는 즉시 봇은 다른 작업을 수행할 수 있는 액세스 토큰을 갖게 됩니다. 봇과 사용자가 로그인하는 위치에 따라 정확히 무엇이 달라지는지 정확히 알 수 있습니다. 봇은 `https://apps.dev.microsoft.com/`에 등록된 Azure AD 앱이며 자체 사용 권한 집합을 가질 수 있습니다.
 
 * 파일이 봇에 전송되면 파일은 회사 네트워크를 떠납니다. 파일을 보내고 받으려면 각 파일에 대한 사용자 승인이 필요합니다.
 
@@ -136,7 +126,7 @@ SEND_AND_RECEIVE_WEB_DATA
 
 없음(현재)
 
-### <a name="considerations"></a>고려 사항
+### <a name="considerations-for-tabs"></a>탭에 대한 고려 사항
 
 * 탭의 위험 프로필은 브라우저 탭에서 실행되는 동일한 웹 사이트와 거의 동일합니다.
 
@@ -144,17 +134,9 @@ SEND_AND_RECEIVE_WEB_DATA
 
 ## <a name="connectors"></a>커넥터
 
-커넥터는 외부 시스템의 이벤트가 발생할 때 채널에 메시지를 게시합니다.
+커넥터는 외부 시스템의 이벤트가 발생할 때 채널에 메시지를 게시합니다. 커넥터에 필요한 권한은 채널에 메시지를 게시할 수 있는 것입니다. 커넥터에 대한 선택적 권한은 메시지에 회신할 수 있는 권한입니다. 일부 커넥터는 사용자가 대상 회신을 커넥터 메시지에 게시할 수 있는 실행 가능한 메시지를 지원합니다. 예를 들어 GitHub 문제에 대한 응답을 추가하거나 Trello 카드에 날짜를 추가합니다.
 
-### <a name="required-permissions"></a>필요한 사용 권한
-
-POST_MESSAGE_CHANNEL
-
-### <a name="optional-permissions"></a>선택적 사용 권한
-
-REPLYTO_CONNECTOR_MESSAGE. 특정 커넥터는 GitHub 문제에 응답을 추가하거나 Trello 카드에 날짜를 추가하는 등 사용자가 대상 회신을 커넥터 메시지에 게시할 수 있도록 하는 실행 가능한 메시지를 지원합니다.
-
-### <a name="considerations"></a>고려 사항
+### <a name="considerations-for-connectors"></a>커넥터에 대한 고려 사항
 
 * 커넥터 메시지를 게시하는 시스템은 메시지를 게시하는 사람 또는 메시지를 받는 사람을 알지 못합니다. 받는 사람에 대한 정보는 공개되지 않습니다. (Microsoft는 테넌트가 아닌 실제 받는 사람입니다. Microsoft는 채널에 실제 게시물을 게시합니다.)
 
@@ -175,17 +157,13 @@ REPLYTO_CONNECTOR_MESSAGE. 특정 커넥터는 GitHub 문제에 응답을 추가
 
 ## <a name="outgoing-webhooks"></a>발신 웹후크
 
-_발신 웹후크_ 는 팀 소유자 또는 팀 구성원이 만듭니다. Teams 앱의 기능은 아닙니다. 이 정보는 완전성을 위해 포함됩니다.
+발신 웹후크는 팀 소유자 또는 팀 구성원이 만듭니다. Teams 앱의 기능은 아닙니다. 이 정보는 완전성을 위해 포함됩니다.
 
-### <a name="required-permissions"></a>필요한 사용 권한
+### <a name="required-permissions-for-outgoing-webhooks"></a>발신 웹후크에 대한 필수 권한
 
 RECEIVE_MESSAGE, REPLYTO_MESSAGE. 사용자로부터 메시지를 받고 회신할 수 있습니다.
 
-### <a name="optional-permissions"></a>선택적 사용 권한
-
-없음
-
-### <a name="considerations"></a>고려 사항
+### <a name="considerations-for-outgoing-webhooks"></a>발신 웹후크에 대한 고려 사항
 
 * 발신 웹후크는 봇과 비슷하지만 권한은 적습니다. 봇과 마찬가지로 명시적으로 언급해야 합니다.
 

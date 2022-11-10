@@ -18,14 +18,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 조직에서 더 나은 채택을 위해 앱의 메타데이터 및 모양을 변경하여 브랜드를 변경하는 방법을 알아봅니다.
-ms.openlocfilehash: f12e6ead6c0d031100bcf30783de980986a14563
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 870ee97b874b2600abf136cd045d47e9fca934d3
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738734"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912657"
 ---
-# <a name="use-app-customization-to-update-branding-of-apps-in-your-organizations-teams-store"></a>앱 사용자 지정을 사용하여 조직의 Teams 스토어에서 앱 브랜딩 업데이트
+# <a name="use-app-customization-to-update-branding-of-apps-in-your-org-store"></a>앱 사용자 지정을 사용하여 조직 스토어에서 앱 브랜딩 업데이트
 
 Microsoft Teams 관리자는 일부 Teams 앱의 모양을 수정하여 조직의 최종 사용자에게 맞춤형 브랜드 환경을 제공할 수 있습니다. 이러한 수정은 최종 사용자를 위한 Teams 스토어 환경을 향상시키고 조직의 브랜딩을 준수하는 데 도움이 될 수 있습니다. 예를 들어 관리자는 앱의 설명과 아이콘을 수정할 수 있습니다. 사용자 지정을 사용하면 최종 사용자가 앱을 내부 도구로 쉽게 식별하고, 조직별 사용 사례를 이해하고, 자신 있게 사용할 수 있습니다. 관리자는 앱의 일부 메타데이터 또는 속성을 변경하여 이러한 업데이트를 합니다. 변경 내용은 조직 내에서만 사용할 수 있습니다. 이 기능을 앱 사용자 지정이라고 합니다.
 

@@ -18,14 +18,14 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eeb0c49dcf560b858b8723f813cc86b6b51c1daa
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 97da6b39ab6e6d9208c883ae60f0be08432e5222
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377556"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912637"
 ---
-# <a name="testing-and-validation-done-by-microsoft-for-all-teams-apps"></a>모든 Teams 앱에 대해 Microsoft에서 수행한 테스트 및 유효성 검사
+# <a name="know-about-the-testing-and-validation-done-by-microsoft-for-all-apps"></a>모든 앱에 대해 Microsoft에서 수행한 테스트 및 유효성 검사에 대해 알아보기
 
 Microsoft는 모든 앱이 최종 사용을 위해 스토어에 표시되기 전에 필수 유효성 검사를 통과하도록 요구합니다. 이는 Teams 앱 스토어에 게시된 모든 앱(사용자 지정 앱 제외)에 적용됩니다. 또한 Microsoft는 앱 개발자가 향상된 규정 준수, 보안 및 개인 정보 보호 제어를 나타내는 앱의 선택적 인증에 참여하도록 강력히 권장합니다.
 

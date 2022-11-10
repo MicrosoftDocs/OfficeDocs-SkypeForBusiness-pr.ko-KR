@@ -14,16 +14,16 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f05c835f475aa9e48f04bb9c70fb9f3ac9933e58
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 6a2c9244acfb3fdb08404f045c72860e0cd708c5
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377146"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912807"
 ---
-# <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 앱 사용 권한 보기 및 관리자 동의 권한 부여
+# <a name="view-app-permissions-and-grant-admin-consent-in-teams-admin-center"></a>Teams 관리 센터에서 앱 권한 보기 및 관리자 동의 부여
 
-관리자는 Teams 관리 센터의 앱 관리 페이지에서 모든 Teams 앱을 보고 관리합니다. 조직 내에서 만든 사용자 지정 앱을 관리하고 최종 사용자에게만 사용할 수 있으며 Teams 앱 스토어에서 사용할 수 있는 타사 앱을 관리할 수 있습니다. 예를 들어 앱의 조직 수준 상태 및 속성을 보고, 조직의 앱 스토어에 새 사용자 지정 앱을 승인 또는 업로드하고, 조직의 수준에서 또는 개별 최종 사용자에 대해 앱을 허용할 수 있습니다.
+관리자는 Teams 관리 센터의 앱 관리 페이지에서 모든 Teams 앱을 보고 관리합니다. 조직 내에서 만든 사용자 지정 앱을 관리하고 최종 사용자에게만 사용할 수 있으며 Teams 앱 스토어에서 사용할 수 있는 타사 앱을 관리할 수 있습니다. 예를 들어 앱의 조직 수준 상태 및 속성을 보고, 조직의 앱 스토어에 새 사용자 지정 앱을 승인하거나 업로드하고, 조직의 수준에서 또는 개별 최종 사용자에 대해 앱을 허용할 수 있습니다.
 
 여기에서는 데이터 액세스 권한을 요청하고 앱에 대한 RSC(리소스별 동의) 권한을 요청하는 앱에 조직 전체의 관리자 동의를 부여할 수도 있습니다.
 
@@ -40,7 +40,7 @@ ms.locfileid: "68377146"
 1. Microsoft Teams 관리 센터의 왼쪽 탐색에서 **Teams 앱** > **[앱 관리](https://admin.teams.microsoft.com/policies/manage-apps)** 로 이동합니다.
 
 1. 다음 중 하나를 수행합니다.
-    * 원하는 앱을 검색하고 앱 이름을 선택하여 앱 세부 정보 페이지로 이동한 다음 **사용 권한 탭을** 선택합니다.
+    * 원하는 앱을 검색하고 앱 이름을 선택하여 앱 세부 정보 페이지로 이동한 다음 **권한 탭을** 선택합니다.
     * **권한** 열을 내림차순으로 정렬하여 앱을 찾은 다음 **세부 정보 보기** 를 선택합니다. 이렇게 하면 앱 세부 정보 페이지의 **권한** 탭으로 이동합니다.
 
 1. **조직 전체 권한** 에서 **권한 검토 및 동의** 를 선택합니다.
@@ -56,7 +56,7 @@ ms.locfileid: "68377146"
     > [!IMPORTANT]
     > 앱에 조직 전체에 대한 동의를 부여하면 앱에서 조직의 데이터에 액세스할 수 있습니다. 동의하기 전에 앱에서 요청한 권한을 주의 깊게 검토하세요.
 
-1. 앱에서 요청한 사용 권한에 동의하는 경우 **동의** 를 선택하여 동의를 부여합니다. 요청한 권한이 앱에 부여되었음을 알리는 배너가 페이지 상단에 일시적으로 나타납니다. 이제 앱에서 조직의 모든 사용자에 대해 지정된 리소스에 액세스할 수 있으며 권한을 검토하라는 메시지가 표시되지 않습니다.
+1. 앱에서 요청한 권한에 동의하는 경우 **동의** 를 선택하여 동의를 부여합니다. 요청한 권한이 앱에 부여되었음을 알리는 배너가 페이지 상단에 일시적으로 나타납니다. 이제 앱에서 조직의 모든 사용자에 대해 지정된 리소스에 액세스할 수 있으며 권한을 검토하라는 메시지가 표시되지 않습니다.
 
 권한을 수락하면 앱 세부 정보 페이지의 **조직 전체 권한** 아래에 동의가 부여되었음을 알리는 메시지가 표시됩니다. 앱의 권한에 대한 세부 정보를 보려면 **Azure Active Directory** 링크를 선택하여 Azure AD 포털에서 앱 페이지로 이동합니다.
 
@@ -78,7 +78,7 @@ RSC 권한은 Azure AD가 아닌 앱 매니페스트에 정의됩니다. 앱을 
 앱에 대한 RSC 권한을 보려면 다음 단계를 따르세요.
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 창에서 **Teams 앱** > **앱 관리** 로 이동합니다.
-1. 원하는 앱을 검색하고 앱 이름을 선택하여 앱 세부 정보 페이지로 이동한 다음 **사용 권한 탭을** 선택합니다.
+1. 원하는 앱을 검색하고 앱 이름을 선택하여 앱 세부 정보 페이지로 이동한 다음 **권한 탭을** 선택합니다.
 1. **Microsoft Graph 리소스별 동의(RSC) 권한** 에서 앱에서 요청한 RSC 권한을 검토합니다.
 
     :::image type="content" source="media/app-perm-admin-center-rsc-new.png" alt-text="앱에 대한 RSC 권한 스크린샷.":::

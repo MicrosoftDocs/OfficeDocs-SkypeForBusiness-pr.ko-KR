@@ -18,14 +18,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 이 문서에서는 Microsoft Teams의 Microsoft 앱, 사용자 지정 앱 및 타사 앱을 업데이트하는 방법과 관리자가 이를 용이하게 하는 방법을 알아봅니다.
-ms.openlocfilehash: 0f5631abcd773f09c5a926bf3459d56e8f9f92bf
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: d419e1ed29c6a1cd7a7390bdc0d5eb69371d8547
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738614"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912797"
 ---
-# <a name="teams-app-updates-and-admin-role"></a>Teams 앱 업데이트 및 관리자 역할
+# <a name="role-of-an-admin-in-upgrading-teams-apps"></a>Teams 앱을 업그레이드하는 관리자 역할
 
 Teams 관리자는 최종 사용자가 최신 버전의 앱을 가져오는 데 도움을 줄 수 있습니다. 이렇게 하려면 다음 작업 중 하나 또는 둘 다를 수행합니다.
 
@@ -53,9 +53,9 @@ Teams 관리자는 최종 사용자가 최신 버전의 앱을 가져오는 데 
 
 ## <a name="updates-to-custom-apps"></a>사용자 지정 앱에 업데이트
 
-조직 내에서 생성되고 배포된 사용자 지정 앱은 테넌트 또는 조직의 사용자가 사용할 수 있습니다. Teams 관리자는 조직 내 개발자가 제공한 대로 사용자 지정 앱을 새 버전으로 업데이트합니다. 자세한 내용은 [관리자가 사용자 지정 앱을 관리하는 방법을 참조하세요](custom-app-overview.md).
+조직 내에서 생성되고 배포된 사용자 지정 앱은 테넌트 또는 조직의 사용자가 사용할 수 있습니다. Teams 관리자는 조직의 개발자가 새 버전을 제공하는 경우 사용자 지정 앱을 새 버전으로 업데이트합니다. 자세한 내용은 [관리자가 사용자 지정 앱을 관리하는 방법을 참조하세요](custom-app-overview.md).
 
-## <a name="related-article"></a>관련 문서
+## <a name="related-articles"></a>관련 기사
 
 * [앱에서 수행된 업데이트에 대한 매니페스트 스키마를 이해합니다.](/microsoftteams/platform/resources/schema/manifest-schema).
 * [사용자 지정 앱 관리에 대해 알아봅니다](custom-app-overview.md).

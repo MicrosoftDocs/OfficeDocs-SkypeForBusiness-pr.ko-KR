@@ -18,16 +18,14 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Teams 관리 센터에서 Microsoft Power Platform을 사용하여 빌드된 사용자 지정 앱에 대한 액세스를 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 3a81d1db3de7cf4fa82b80526ffdb206bfbe8da6
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: c4ac0bd3551bb53da06de3301447c6bf4842540c
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656040"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912587"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>Teams 관리 센터에서 Microsoft Power Platform 앱 관리
-
-## <a name="manage-custom-apps-created-using-microsoft-power-platform-apps"></a>Microsoft Power Platform 앱을 사용하여 만든 사용자 지정 앱 관리
 
 이 문서에서는 Microsoft Teams 관리 센터에서 [Microsoft Power Platform](https://powerplatform.microsoft.com/) 앱을 사용하여 만든 사용자 지정 앱을 관리하는 방법에 대한 개요를 제공합니다. 사용자 지정 앱은 내부 사용자를 위해 조직 내의 개발자가 만듭니다.
 

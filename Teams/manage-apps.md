@@ -21,12 +21,12 @@ description: Teams 앱을 관리하는 방법을 알아봅니다. 앱 허용 또
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 902b32be43e25c8262ba85bbbb56bd79d424e75c
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: 053164da8a521566247e982b09f5f929fe6da406
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784193"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912617"
 ---
 # <a name="overview-of-app-management-and-governance-in-teams-admin-center"></a>Teams 관리 센터의 앱 관리 및 거버넌스 개요
 
@@ -88,6 +88,8 @@ Teams 관리 센터를 사용하려면 전역 관리자 또는 Teams 관리자 �
 1. **허용** 또는 **차단** 옵션을 선택합니다.
 
 특정 사용자에 대한 앱을 허용하려면 [앱 사용 권한 정책을 참조하세요](teams-app-permission-policies.md).
+
+개발자가 Teams 스토어에 앱을 게시하는 경우 일부 앱은 앱을 구성하기 위해 관리자가 필요할 수 있습니다. 관리자가 이러한 앱을 허용하기 전에 관리 센터에서와 같이 `Blocked by publisher` 표시됩니다. 게시자의 지침에 따라 앱을 설정한 후 허용하여 사용자가 앱을 사용할 수 있도록 할 수 있습니다.
 
 ## <a name="manage-org-wide-app-settings"></a>조직 전체 앱 설정 관리
 
@@ -156,16 +158,6 @@ Microsoft 365 Government - Teams의 GCC, GCCH, DoD 배포에서는 기본적으�
    :::image type="content" source="media/app-permission-policies-gcch-dod-org-wide.png" alt-text="GCCH 및 DoD 내부 조직 전체 앱 설정의 스크린샷":::
 
 1. 조직 전체 앱 설정을 적용하려면 **저장** 을 선택합니다.
-
-## <a name="allow-the-apps-that-are-blocked-by-the-developers"></a>개발자가 차단한 앱을 허용합니다.
-
-개발자가 Teams 스토어에 앱을 게시할 때, 앱에 따라 구성하는 데 관리자가 필요할 수도 있습니다. 관리자는 앱을 설정할 때 최종 사용자가 사용할 수 있는 앱을 만듭니다.
-
-예를 들어, Contoso Electronics는 Microsoft Teams용 지원 센터 앱을 만든 앱 개발자입니다. Contoso Electronics는 사용자가 앱과 상호 작용할 때 예상대로 작동할 수 있도록 앱의 특정 속성을 설정하기를 원합니다. 관리자가 응용 프로그램을 허용하기 전에, 응용 프로그램은 Teams 관리 센터에 **게시자에 의해 차단됨** 으로 표시되며, 기본적으로 최종 사용자에게 숨겨집니다. 게시자의 지침에 따라 앱을 설정한 후 상태를 **허용됨** 으로 변경하여 사용자가 앱을 사용할 수 있도록 설정할 수 있습니다.
-
-:::image type="content" source="media/blocked-by-publisher.png" alt-text="Teams 관리 센터에서 게시자에 의해 차단됨 상태의 스크린샷":::
-
-개발자가 기본적으로 앱을 차단하는 방법에 대한 자세한 내용은 [관리자가 허용할 때까지 앱을 차단하도록 설정을 참조하세요](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves).
 
 ## <a name="related-article"></a>관련 문서
 

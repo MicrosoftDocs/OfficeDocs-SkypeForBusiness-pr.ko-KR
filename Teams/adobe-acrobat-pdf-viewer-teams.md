@@ -18,14 +18,14 @@ description: Adobe Acrobat을 기본 PDF 뷰어로 설정하여 Microsoft Teams�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 6a2e6c7ef80258ba07b3450ee983818f0b6ea6e1
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 546328ade88864f1412a2da6f94caf2d1f44aef8
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738774"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912827"
 ---
-# <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>Microsoft Teams의 기본 PDF 뷰어로 Adobe Acrobat 사용하기
+# <a name="set-adobe-acrobat-as-the-default-pdf-viewer-in-microsoft-teams"></a>Microsoft Teams에서 Adobe Acrobat을 기본 PDF 뷰어로 설정
 
 > [!NOTE]
 > Microsoft Teams의 기본 PDF 환경으로 Adobe Acrobat을 사용하는 기능은 현재 공개 미리 보기로만 제공됩니다. 이 기능을 사용하려면 관리자가 테넌트에서 [공개 미리 보기를 사용하도록 설정](public-preview-doc-updates.md#enable-public-preview)하고 최종 사용자가 Teams 클라이언트 버전을 공개 미리 보기로 변경해야 합니다.

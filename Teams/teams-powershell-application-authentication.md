@@ -12,38 +12,29 @@ ms.collection:
 description: Microsoft Teams 관리에 사용되는 Teams PowerShell 모듈의 애플리케이션 기반 인증에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d017f5e23685df6aa6c7ae0630724ad5d13d0425
-ms.sourcegitcommit: ffc7532a4bb1f1f6b3031025b493a5ad20ba4366
+ms.openlocfilehash: 89af4494a6cf20aab512c0430a6e16db622e53a2
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2022
-ms.locfileid: "68570421"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912647"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell 모듈의 애플리케이션 기반 인증
 
-애플리케이션 기반 인증은 현재 Teams PowerShell 모듈에서 버전 4.7.1-preview 이상이 있는 미리 보기의 제한된 cmdlet 집합에 대해 지원됩니다. 현재 이 인증 모드는 상용 환경에서만 지원됩니다.
+애플리케이션 기반 인증은 현재 버전 4.7.1-preview 이상에서 미리 보기의 Teams PowerShell 모듈에서 지원됩니다. 현재 이 인증 모드는 상용 환경에서만 지원됩니다.
 
 
 ## <a name="cmdlets-supported"></a>지원되는 Cmdlet
 
-아래 cmdlet은 이미 지원되며, 다른 cmdlet은 점진적으로 롤아웃됩니다. 
+아래에 언급된 cmdlet을 제외하고 이제 모든 cmdlet이 지원됩니다. 
 
-  - 비 \*Cs cmdlet(New-Team 제외)
-  - Get-CsTenant
-  - Get-CsOnlineUser, Get-CsOnlineVoiceUser
-  - \*-CsOnlineSipDomain 
-  - \*-CsPhoneNumberAssignment
-  - \*-CsOnlineTelephoneNumberOrder, Get-CsOnlineTelephoneNumberType, Get-CsOnlineTelephoneNumberCountry
-  - \*-CsCallQueue
-  - \*-CsAutoAttendant, \*-CsAutoAttendant\*
-  - \*-CsOnlineVoicemailUserSettings
-  - Find-CsOnlineApplicationInstance, \*-CsOnlineApplicationInstanceAssociation, Get-CsOnlineApplicationInstanceAssociationStatus
-  - \*-CsOnlineSchedule, New-CsOnlineTimeRange, New-CsOnlineDateTimeRange
-  - \*-CsOnlineAudioFile
-  - Find-CsGroup
-  - \*-CsOnlineDialInConferencingUser, \*-CsOnlineDialInConferencingServiceNumber, \*-CsOnlineDialInConferencingBridge, Get-CsOnlineDialInConferencingLanguagesSupported, Set-CsOnlineDialInConferencingUserDefaultNumber
-  - \*-CsOnlineLisLocation, \*-CsOnlineLisCivicAddress, \*-CsOnlineLisWirelessAccessPoint, \*-CsOnlineLisPort, \*-CsOnlineLisSubnet, \*-CsOnlineEnhancedEmergencyServiceDisclaimer, \*-CsOnlineLisSwitch
-  - \*-CsCloudCallDataConnection
+  - New-Team
+  - [가져오기| 설정| 새로 만들기| Sync]-CsOnlineApplicationInstance
+  - \*-CsUserCallingSettings
+  - \*-CsUserCallingDelegate
+  - \*PolicyPackage\*
+  - \*-CsTeamsShiftsConnection\*
+  - \*-CsBatchTeamsDeployment\*
 
 
 ## <a name="examples"></a>예제
@@ -89,21 +80,21 @@ ms.locfileid: "68570421"
   
 ## <a name="how-does-it-work"></a>어떻게 작동하나요?
 
-Teams PowerShell 모듈은 애플리케이션 ID, 테넌트 ID 및 인증서 지문을 사용하여 앱 기반 토큰을 가져옵니다. Azure AD 내에 프로비전된 애플리케이션 개체에는 액세스 토큰에 반환되는 디렉터리 역할이 할당되어 있습니다. 세션의 RBAC(역할 기반 액세스 제어)는 토큰에서 사용할 수 있는 디렉터리 역할 정보를 사용하여 구성됩니다.
+Teams PowerShell 모듈은 애플리케이션 ID, 테넌트 ID 및 인증서 지문을 사용하여 앱 기반 토큰을 가져옵니다. Azure AD 내에서 프로비전된 애플리케이션 개체에는 액세스 토큰에 반환되는 디렉터리 역할이 할당되어 있습니다. 세션의 RBAC(역할 기반 액세스 제어)는 토큰에서 사용할 수 있는 디렉터리 역할 정보를 사용하여 구성됩니다.
 
 
 ## <a name="setup-application-based-authentication"></a>애플리케이션 기반 인증 설정
 
-애플리케이션 개체를 사용하는 인증에는 초기 온보딩이 필요합니다. 애플리케이션 및 서비스 주체는 서로 교환하여 사용되지만, 서비스 주체는 클래스의 인스턴스와 같은 반면 애플리케이션은 클래스 개체와 같습니다. [Azure Active Directory의 Application 및 서비스 주체 개체에서 이러한 개체에](/azure/active-directory/develop/app-objects-and-service-principals) 대해 자세히 알아볼 수 있습니다.
+애플리케이션 개체를 사용하는 인증에는 초기 온보딩이 필요합니다. 애플리케이션 및 서비스 주체는 서로 바꿔서 사용되지만 애플리케이션은 클래스 개체와 같고 서비스 주체는 클래스의 인스턴스와 같습니다. 이러한 개체에 대한 자세한 내용은 [Azure Active Directory의 애플리케이션 및 서비스 주체 개체에서](/azure/active-directory/develop/app-objects-and-service-principals) 확인할 수 있습니다.
 
 Azure Ad에서 애플리케이션을 만들기 위한 샘플 단계는 아래에 설명되어 있습니다. 자세한 단계는 이 [문서를 참조하세요](/azure/active-directory/develop/howto-create-service-principal-portal).
 
 1. Azure AD 애플리케이션 등록
 2. 애플리케이션에 API 권한 할당
    - -Cs cmdlet의 경우 \*API 권한이 필요하지 않습니다.
-   - 비 \*Cs cmdlet의 경우 필요한 Microsoft Graph API 권한은 , `Group.ReadWrite.All`, `AppCatalog.ReadWrite.All`, `Channel.Delete.All``TeamSettings.ReadWrite.All`, , `ChannelSettings.ReadWrite.All``ChannelMember.ReadWrite.All`입니다`User.Read.All`.  
+   - 비 \*Cs cmdlet의 경우 필요한 Microsoft Graph API 권한은 , , `Group.ReadWrite.All`, `AppCatalog.ReadWrite.All``TeamSettings.ReadWrite.All`, `Channel.Delete.All`, , `ChannelSettings.ReadWrite.All`, `ChannelMember.ReadWrite.All`입니다`User.Read.All`.  
 3. 자체 서명된 인증서 생성
-4. Azure AD 애플리케이션에 인증서 연결
+4. 인증서를 Azure AD 애플리케이션에 연결
 5. 애플리케이션에 [Azure AD 역할](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) 할당
 
 애플리케이션에 적절한 RBAC 역할이 할당되어야 합니다. 앱은 Azure AD 프로비전되므로 지원되는 기본 제공 역할을 사용할 수 있습니다.

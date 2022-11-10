@@ -1,5 +1,5 @@
 ---
-title: 타사 Teams 앱에 대한 라이선스 구매
+title: 타사 앱 구매 및 구독 관리
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -10,21 +10,21 @@ audience: admin
 ms.date: 10/04/2022
 ms.collection:
 - M365-collaboration
-ms.reviewer: chhavib, vaibhava, nsuter
+ms.reviewer: chhavib, nsuter
 search.appverid: MET150
 f1keywords: ''
-description: 신용 카드, 직불 카드 또는 청구서 청구를 통해 Teams 스토어에서 라이선스를 구매하는 방법을 알아봅니다.
+description: 신용 카드, 직불 카드 또는 청구서 청구를 통해 Teams 스토어에서 유료 앱 라이선스를 구입하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 73f16f3b8bdb11971f4cd7602c4262250e9fe068
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 82364d5659009e067a6884551266c6fabf93dc04
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738554"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912427"
 ---
-# <a name="purchase-licenses-for-third-party-teams-apps"></a>타사 Teams 앱에 대한 라이선스 구매
+# <a name="purchase-third-party-teams-apps-and-manage-subscriptions"></a>타사 Teams 앱 구매 및 구독 관리
 
 일부 Teams 앱은 앱의 전체 기능 및 범위를 경험하기 위해 서비스 구독을 구매해야 할 수 있습니다. 이러한 서비스 구독을 SaaS(Software as a Service) 제품이라고 합니다. 라이선스는 [AppSource](https://appsource.microsoft.com/) 및 [Microsoft Teams 관리 센터를](https://admin.teams.microsoft.com) 통해 구매할 수 있습니다.
 
