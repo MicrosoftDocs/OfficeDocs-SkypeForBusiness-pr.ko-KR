@@ -21,12 +21,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 9b8d4ca3140b6bd8907938b5c2ac86aeabb39e37
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: b234f229d29c5ab4dae49be93e819bb18eb51a0b
+ms.sourcegitcommit: 95ed372915f259fddfc87090c6c67b549ed1605f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912627"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "68918242"
 ---
 # <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>Microsoft Teams 앱 및 해당 기능 이해
 
@@ -87,6 +87,21 @@ Microsoft는 앱 개발 방법을 사용하여 기능 및 프로덕션 준비 �
 
 자세한 내용은 [Microsoft Teams 앱 템플릿](https://adoption.microsoft.com/microsoft-teams/app-templates/)을 참조하세요.
 
+## <a name="discover-and-use-apps-in-teams"></a>Teams에서 앱 검색 및 사용
+
+사용자는 Teams 데스크톱 또는 웹 클라이언트의 Teams 앱 스토어에서 Teams에서 사용할 수 있는 모든 앱을 볼 수 있습니다. 사용자는 이름으로 검색하고, 범주별로 찾아보고, 조직을 위해 빌드되고 Power Platform을 사용하여 빌드된 앱으로 검색하여 Teams에서 앱을 검색하고 설치할 수 있습니다.
+
+쉽게 액세스할 수 있도록 앱을 Teams에 고정할 수 있습니다. 설정 정책이 허용하는 경우와 Teams 관리자가 앱을 허용하는 경우 사용자가 [직접 앱을 고정](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) 할 수 있습니다. 관리자는 앱을 고정하고 고정된 앱의 동작을 제어할 수 있습니다. 자세한 내용은 [앱 설정 정책을 참조하세요](/teams-app-setup-policies).
+
+:::image type="content" source="media/user-app-experience-find-apps.png" alt-text="사용자가 Microsoft Teams에서 앱을 검색할 수 있는 모든 위치를 보여 주는 스크린샷" lightbox="media/user-app-experience-find-apps-full.png":::
+
+사용자는 Teams 앱 스토어에서 Teams에 앱을 찾아 추가할 수 있습니다. 채팅 또는 채널 탭, Teams 모임 또는 메시징 영역과 같이 작업 중인 컨텍스트에서 직접 앱을 추가할 수도 있습니다. 자세한 내용은 [Microsoft Teams에 앱 추가를 참조하세요](https://support.microsoft.com/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77).
+
+사용자는 관리자가 앱을 허용하고 [앱이 사용 권한 정책을](teams-app-permission-policies.md) 통해 사용자에게 제공되는 경우에만 앱을 추가하고 사용할 수 있습니다. 조직의 IT 관리자는 컨텍스트에서 어떤 앱을 설치할 수 있는지 완전히 제어할 수 있습니다. 사용자는 차단된 앱을 추가할 수 없으며 Teams 스토어에 잠금 아이콘이 있는 앱은 사용자에 대해 차단됩니다. 그러나 [사용자는 조직의 IT 관리자에게 승인을 요청할 수 있습니다](https://support.microsoft.com/office/request-apps-that-require-approval-by-your-org-924e3a9e-33f0-44c2-9e81-e875214c05ae). 앱이 승인되면 사용자는 Teams 스토어에서 앱을 추가할 수 있습니다.
+
+> [!NOTE]
+> 개인만 Teams에서 앱을 추가하기 위한 승인을 요청할 수 있습니다.
+
 ## <a name="understand-app-capabilities"></a>앱 기능 이해
 
 Teams 앱 기능은 통합 및 상호 작용을 가능하게 하기 위해 앱에서 빌드할 수 있는 핵심 기능입니다.
@@ -108,7 +123,6 @@ Teams 앱 기능은 통합 및 상호 작용을 가능하게 하기 위해 앱�
   Teams는 개인 채팅 및 채널을 통해 봇을 지원합니다. 관리자는 Microsoft 365 혹은 Office 365 조직에서 봇의 사용을 허용할지 여부를 제어할 수 있습니다. 사용자 지정 봇을 켜거나 끄는 방법에 대한 자세한 내용은 [Teams 관리 센터의 앱 관리 및 거버넌스 개요를 참조하세요](manage-apps.md).
 
 * **탭**: 탭은 채널 또는 채팅의 맨 위에 고정된 Teams 인식 웹 페이지입니다. 탭을 사용하면 웹과 유사한 환경으로 콘텐츠 및 서비스와 상호 작용할 수 있습니다. 앱 매니페스트에 선언된 도메인을 가리키는 간단한 HTML <iframe\> 태그이며 개별 사용자에 대한 팀, 그룹 채팅 또는 개인 앱 내 채널의 일부로 추가할 수 있습니다. 자세한 내용은 [Microsoft Teams 탭을 참조하세요](/microsoftteams/platform/tabs/what-are-tabs).
-
   모든 개인 채팅에서 대화, 파일, 조직 및 활동 탭이 기본적으로 생성됩니다. 개발자는 이러한 기본 제공 탭 외에도 사용자 지정 탭을 디자인하고 추가할 수 있습니다. 자세한 내용은 [Teams에서 기본 제공 및 사용자 지정 탭 사용](/microsoftteams/platform/tabs/what-are-tabs)을 참조하세요.
 
 * **웹후크 및 커넥터**: 웹후크 및 커넥터는 웹 서비스를 Microsoft Teams의 채널 및 팀에 연결하는 데 도움이 됩니다. 웹후크는 Teams 채널에서 발생한 모든 작업에 대해 사용자에게 알리는 사용자 정의 HTTP 콜백입니다. 앱이 실시간 데이터를 가져오는 방법입니다. 커넥터를 사용하면 사용자가 웹 서비스에서 알림 및 메시지를 수신하도록 구독할 수 있습니다. 자세한 내용은 [웹후크 및 커넥터를 참조하세요](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).
@@ -125,5 +139,7 @@ Teams 기능에 매핑된 일반적인 사용 사례를 보려면 [사용 사례
 
 ## <a name="related-articles"></a>관련 기사
 
-* [Teams용 앱 템플릿에 대해 자세히 알아보기](/microsoftteams/platform/samples/app-templates)
+* [Teams용 앱 템플릿에 대해 자세히 알아보세요](/microsoftteams/platform/samples/app-templates).
+* [Teams 앱 업데이트 및 관리자 역할](apps-update-experience.md)
 * [Teams 관리 센터의 앱 관리 및 거버넌스 개요](manage-apps.md)
+
