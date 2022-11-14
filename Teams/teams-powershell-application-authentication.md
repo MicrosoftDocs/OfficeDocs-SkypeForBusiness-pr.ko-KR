@@ -12,16 +12,16 @@ ms.collection:
 description: Microsoft Teams 관리에 사용되는 Teams PowerShell 모듈의 애플리케이션 기반 인증에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89af4494a6cf20aab512c0430a6e16db622e53a2
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 9fd2928b62b71f0f981ecd0083cf4b15acc2da3f
+ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912647"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "68928335"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell 모듈의 애플리케이션 기반 인증
 
-애플리케이션 기반 인증은 현재 버전 4.7.1-preview 이상에서 미리 보기의 Teams PowerShell 모듈에서 지원됩니다. 현재 이 인증 모드는 상용 환경에서만 지원됩니다.
+애플리케이션 기반 인증은 이제 버전 4.7.1-preview 이상이 있는 Teams PowerShell 모듈에서 지원됩니다. 현재 이 인증 모드는 상용 환경에서만 지원됩니다.
 
 
 ## <a name="cmdlets-supported"></a>지원되는 Cmdlet
