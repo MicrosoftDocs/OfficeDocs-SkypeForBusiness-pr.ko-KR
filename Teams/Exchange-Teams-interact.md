@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e52524c3113d7b2d776c355784772a8a059b221f
-ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
+ms.openlocfilehash: 541ea844422dcd6620035508e62d6473f0c78b29
+ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68480688"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "68965034"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange와 Microsoft Teams의 상호 작용 방법
 
@@ -59,17 +59,17 @@ Exchange Online 전용(레거시)에서 호스트되는 사용자는 Microsoft 3
 
 <sup>4</sup> 온-프레미스 Exchange 사서함이 있는 Teams 사용자는 Teams를 사용하여 음성 사서함을 사용하고 Outlook에서 음성 메일을 받을 수 있지만 음성 메일 메시지는 Teams 클라이언트 내에서 보거나 재생할 수 없습니다.
 
-<sup>5</sup> 팀의 소유자 중 한 명이 커넥터를 추가할 수 있는 경우 사서함이 온-프레미스인지 온라인인지에 관계없이 해당 팀의 다른 모든 사용자가 커넥터를 추가할 수 있습니다.
+<sup>5</sup> 팀의 소유자 중 한 명이 커넥터를 추가할 수 있는 경우 사서함이 온-프레미스 또는 온라인 위치에 있는지 여부에 관계없이 해당 팀의 다른 모든 사용자가 커넥터를 추가할 수 있습니다.
 
 <sup>6</sup> 기본 연락처 폴더의 연락처만 있습니다. 다른 연락처 폴더 또는 하위 폴더에 대한 액세스는 지원되지 않습니다.
 
-<sup>7</sup> Teams는 사용자가 자신의 프로필 사진을 변경할 수 있는지 여부를 제어하기 위해 테넌트 관리자가 구성한 [웹용 Outlook의 사서함 정책](/powershell/module/exchange/client-access/set-owamailboxpolicy) 설정을 따릅니다. 정책에서 **-SetPhotoEnabled** 설정이 해제된 경우 사용자는 프로필 사진을 추가, 변경 또는 제거할 수 없으므로 관리자가 사진을 변경하는 경우 프로필 사진이 팀과 동기화되지 않습니다.
+<sup>7</sup> Teams는 사용자가 자신의 프로필 사진을 변경할 수 있는지 여부를 제어하기 위해 테넌트 관리자가 구성한 [웹용 Outlook의 사서함 정책](/powershell/module/exchange/client-access/set-owamailboxpolicy) 설정을 따릅니다. 정책에서 **-SetPhotoEnabled** 설정을 해제한 경우 사용자는 프로필 사진을 추가, 변경 또는 제거할 수 없으므로 관리자가 사진을 변경하는 경우 프로필 사진이 팀과 동기화되지 않습니다.
 
 <sup>8</sup> [온-프레미스에서 호스트되는 사서함에 대한 모임을 만들고 보기 위한 요구 사항](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) 섹션에 나열된 요구 사항을 충족해야 합니다.
 
-<sup>9</sup> 최소 Exchange Online 플랜 1 라이선스도 필요합니다. 자세한 내용은 [온-프레미스 사용자에 대한 Teams 채팅 데이터 검색을 참조하세요](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users).
+<sup>9</sup> Exchange Online 플랜 1 라이선스도 필요합니다. 자세한 내용은 [온-프레미스 사용자에 대한 Teams 채팅 데이터 검색을 참조하세요](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users).
 
-<sup>10</sup> 온-프레미스 사용자는 웹용 Outlook 사서함 정책이 설정된 경우에도 `SetPhotoEnabled` Teams를 사용하여 프로필 사진을 업데이트할 `false`수 있습니다.
+<sup>10</sup> 온-프레미스 사용자는 웹용 Outlook 사서함 정책이 로 설정된 경우에도 `SetPhotoEnabled` Teams를 사용하여 프로필 사진을 업데이트할 `false`수 있습니다.
  > [!NOTE]
  > Teams 클라이언트를 통한 OOF(부재 중) 설정은 현재 사서함이 온-프레미스에서 호스트되는 사용자에 대해 지원되지 않습니다. 이러한 사용자는 Outlook 클라이언트를 통해 이 작업을 수행해야 합니다.
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Microsoft Teams를 최대한 활용하기 위한 요구 사항
@@ -85,12 +85,12 @@ Microsoft Teams는 다양한 Microsoft 365 및 Office 365 서비스와 작동하
 - Microsoft Teams에서 팀을 만들려면 사용자가 Microsoft 365 그룹 만들기를 사용하도록 설정되어야 합니다.
 
   > [!IMPORTANT]
-  > 사용자를 **Teams 전용** 모드로 이동한 후 비즈니스용 Skype 클라이언트를 제거하면 Outlook 및 기타 Office 앱에서 현재 상태가 중지될 수 있습니다. 현재 상태는 Teams에서 제대로 작동합니다. 이 문제를 해결하려면 Microsoft Teams의 오른쪽 위 모서리에 있는 프로필 사진 왼쪽에 있는 줄임표를 선택한 다음 **설정을** 선택합니다. **응용 프로그램** 의 **일반** 탭에서 **Office용 채팅 앱으로 Teams 등록(Office 응용 프로그램을 다시 시작해야 함)** 을 선택합니다. 이 옵션을 선택한 후 Outlook을 포함하여 모든 Office 앱을 닫았다가 다시 엽니다. Outlook을 열면 현재 상태 정보를 사용할 수 있습니다.
+  > 사용자를 **Teams 전용** 모드로 이동한 후 비즈니스용 Skype 클라이언트를 제거하면 Outlook 및 기타 Office 앱에서 현재 상태가 중지될 수 있습니다. 현재 상태는 Teams에서 제대로 작동합니다. 이 문제를 해결하려면 Microsoft Teams의 오른쪽 위 모서리에 있는 프로필 사진 왼쪽에 있는 타원 단추를 선택한 다음 **설정을** 선택합니다. **응용 프로그램** 의 **일반** 탭에서 **Office용 채팅 앱으로 Teams 등록(Office 응용 프로그램을 다시 시작해야 함)** 을 선택합니다. 이 옵션을 선택한 후 Outlook을 포함하여 모든 Office 앱을 닫았다가 다시 엽니다. Outlook을 열면 현재 상태 정보를 사용할 수 있습니다.
 
 ## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>온-프레미스에서 호스트되는 사서함에 대한 모임 만들기 및 보기 요구 사항
 
   > [!NOTE]
-  > 온-프레미스에서 호스트되는 사서함에 대한 모임 만들기 및 보기는 현재 가상, GCC 및 GCC High 환경 내에서만 지원됩니다.
+  > **온-프레미스에서 호스트되는 사서함에 대한 모임 만들기 및 보기** 기능은 상업용, GCC 및 GCC High 환경에서만 지원됩니다.
 
 사서함이 온-프레미스에서 호스트되는 경우 모임을 만들고 보려면 다음 요구 사항을 충족해야 합니다.
 
@@ -118,7 +118,7 @@ Microsoft Teams는 다양한 Microsoft 365 및 Office 365 서비스와 작동하
   > [!NOTE]
   > 2단계에는 위임에 필요하지 않은 ArchiveApplication에 대한 역할 할당이 포함됩니다.
 
-- Outlook용 Teams 예약 추가 기능을 사용하려면 다른 사람을 대신하여 모임을 예약할 때 Exchange 2013 CU19 이상이 필요합니다. 이는 서비스에서 사서함의 인증되지 않은 검색을 지원하여 위임자 사서함에 대한 대리인 권한을 검사하는 작업입니다. 대리인 및 위임자 위치는 Exchange 2013 이상 또는 Exchange Online일 수 있지만, 자동 검색은 Exchange 2013 CU19 이상으로 확인해야 합니다.
+- Outlook용 Teams 일정 추가 기능을 사용하려면 다른 사람을 대신하여 모임을 예약할 때 Exchange 2013 CU19 이상이 필요합니다. 이는 서비스에서 사서함의 인증되지 않은 검색을 지원하여 위임자 사서함에 대한 대리인 권한을 검사하는 작업입니다. 대리인 및 위임자 위치는 Exchange 2013 이상 또는 Exchange Online일 수 있지만, 자동 검색은 Exchange 2013 CU19 이상으로 확인해야 합니다.
 
 ## <a name="additional-considerations"></a>추가 고려 사항
 
@@ -130,9 +130,12 @@ Microsoft Teams는 다양한 Microsoft 365 및 Office 365 서비스와 작동하
 
 - 조직에서 모든 모임 토론을 검색할 수 있도록 하는 규정 준수 요구 사항이 있는 경우, 이끌이에게 Exchange 온-프레미스 사서함이 있으면 비공개 모임을 사용하지 않도록 설정해야 합니다. 자세한 내용은 [비공개 모임 일정을 참조하세요](./meeting-policies-in-teams-general.md#private-meeting-scheduling).
 
-- Exchange 하이브리드 배포에서는 채팅 참가자가 클라우드 기반 사서함 혹은 온-프레미스 사서함을 보유했는지에 관계 없이 채팅 메시지의 콘텐츠를 검색할 수 있습니다. 자세한 내용은 [온-프레미스 사용자에 대한 클라우드 기반 사서함 검색](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)을 참조하세요. Teams에서 콘텐츠를 검색하는 방법을 알아보려면 [Microsoft Purview 규정 준수 포털 콘텐츠 검색을](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups) 읽어보세요.
+- Exchange 하이브리드 배포에서는 채팅 참가자가 클라우드 기반 사서함 혹은 온-프레미스 사서함을 보유했는지에 관계 없이 채팅 메시지의 콘텐츠를 검색할 수 있습니다. 자세한 내용은 [온-프레미스 사용자에 대한 클라우드 기반 사서함 검색](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)을 참조하세요. Teams에서 콘텐츠를 검색하는 방법에 대해 알아보려면 [Microsoft Purview 규정 준수 포털 콘텐츠 검색을](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups) 참조하세요.
 
 - 현재 상태를 확인하려면 Microsoft Teams에서 사서함이 Exchange Online 또는 온-프레미스에 호스트되는지 확인해야 합니다. 그런 다음 서비스는 사서함에 액세스하는 위치를 결정합니다. Teams 서비스에서 Exchange Online 서비스에 대한 REST API 호출을 통해 사서함 위치를 확인할 수 있도록 하려면 [하이브리드 구성 마법사를 사용하여 하이브리드 배포 만들기](/exchange/hybrid-deployment/deploy-hybrid)에 설명 된 대로 Exchange 하이브리드 구성 마법사를 실행하여 Exchange 하이브리드 환경을 배포해야 합니다. 
+
+>[!Important]
+>**GCC-H 고객:** *위임된 Teams 모임 일정* 은 GCC-High 환경에서 지원되지 않습니다. 
 
 ## <a name="troubleshooting"></a>문제 해결
 

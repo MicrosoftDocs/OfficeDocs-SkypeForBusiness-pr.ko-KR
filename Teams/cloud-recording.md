@@ -20,12 +20,12 @@ description: Teams 모임 및 그룹 통화를 녹음하여 오디오, 비디오
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b82e73e2e5bb470df4511027d13b2df5f1f715f8
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: 281a8997e3020b229ce8b34919177c1f6f2318c9
+ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584889"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "68965750"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 클라우드 모임 녹음/녹화
 
@@ -109,6 +109,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 | 대부분의 사용자에게 녹음/녹화를 사용하지 않도록 설정하고 선택적으로 특정 사용자에게 녹음/녹화를 사용하도록 설정하려고 합니다. | <ol><li>Global CsTeamsMeetingPolicy에 AllowCloudRecording = False인지 확인합니다.<li>대부분의 사용자에게 Global CsTeamsMeetingPolicy 또는 AllowCloudRecording = False인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다.<li>다른 모든 사용자에게 AllowCloudRecording = True인 CsTeamsMeetingPolicy 정책 중 하나를 부여했습니다. <ol> |
 
 <a name="bd-channel"></a>
+> [!NOTE]
+> Teams 정책 기반 규정 준수 녹음/녹화를 사용하도록 설정된 외부 테넌트에서 Teams 사용자가 테넌트에서 모임 또는 통화에 참가하는 경우 테넌트에서 설정된 클라우드 기반 녹음/해제와 관계없이 규정 준수를 위해 해당 모임/통화가 다른 테넌트에서 기록됩니다. 다른 테넌트에서 사용자가 녹음/녹화를 캡처하지 않아야 하는 경우 테넌트에서 모임의 일부인 발표자는 모임에서 사용자를 제거하는 것이 좋습니다. Teams의 정책 기반 규정 준수 기록에 대한 자세한 내용은 [& 모임을 호출하기 위한 Teams 정책 기반 녹음/녹화 소개를 참조하세요](teams-recording-policy.md).
 
 ### <a name="block-or-allow-download-of-channel-meeting-recordings"></a>채널 모임 녹음/녹화의 다운로드 차단 또는 허용
 
@@ -229,7 +231,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 - 녹음/녹화는 **녹음/녹화/보기 전용** 폴더의 Teams 사이트 설명서 라이브러리에 저장됩니다. 
 
-  예: *Teams 이름 - 채널 이름*/**문서/녹음/녹화/보기만**
+  예: *Teams 이름 - 채널 이름*/**문서/녹음/보기 전용**
 
 - 채널 소유자는 이 폴더의 녹음/녹화에 대한 전체 편집 및 다운로드 권한을 갖습니다.
 
@@ -340,7 +342,7 @@ DLP에 대한 자세한 내용은 [데이터 손실 방지에 대한 자세한 �
    > [!div class="nextstepaction"]
    > [실행 테스트: 모임 레코딩 누락](https://aka.ms/MissingRecordingDiag)
 
-2. 진단 실행 창에서 기록된 필드(일반적으로 모임 초대에 있는) **의 URL에 모임 URL** 과 모임이 **기록된** 시기 필드의 모임 날짜를 입력한 다음 **테스트 실행을** 선택합니다.
+2. 진단 실행 창에서 **기록된 모임의 URL** (일반적으로 모임 초대에 있음)의 URL과 모임이 **기록된** 시기 필드에 모임 날짜를 입력한 다음 **, 테스트 실행을** 선택합니다.
 
 3. 테스트는 모임 녹음/녹화가 성공적으로 완료되었으며 Stream 또는 OneDrive에 업로드되었는지 확인합니다.
 
