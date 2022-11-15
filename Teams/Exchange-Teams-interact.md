@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 541ea844422dcd6620035508e62d6473f0c78b29
-ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
+ms.openlocfilehash: 2a753e572cc9427a4b128379b52562437f739bea
+ms.sourcegitcommit: 0760416ee0bead3ada93f4d37f8aebc74222bd3c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/15/2022
-ms.locfileid: "68965034"
+ms.locfileid: "69019404"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange와 Microsoft Teams의 상호 작용 방법
 
@@ -135,7 +135,7 @@ Microsoft Teams는 다양한 Microsoft 365 및 Office 365 서비스와 작동하
 - 현재 상태를 확인하려면 Microsoft Teams에서 사서함이 Exchange Online 또는 온-프레미스에 호스트되는지 확인해야 합니다. 그런 다음 서비스는 사서함에 액세스하는 위치를 결정합니다. Teams 서비스에서 Exchange Online 서비스에 대한 REST API 호출을 통해 사서함 위치를 확인할 수 있도록 하려면 [하이브리드 구성 마법사를 사용하여 하이브리드 배포 만들기](/exchange/hybrid-deployment/deploy-hybrid)에 설명 된 대로 Exchange 하이브리드 구성 마법사를 실행하여 Exchange 하이브리드 환경을 배포해야 합니다. 
 
 >[!Important]
->**GCC-H 고객:** *위임된 Teams 모임 일정* 은 GCC-High 환경에서 지원되지 않습니다. 
+>**GCC-H 고객:** 사용자의 사서함이 온-프레미스 Exchange Server 호스트되는 경우 위임 *된 Teams 모임 일정* 은 GCC-High 환경에서 지원되지 않습니다.
 
 ## <a name="troubleshooting"></a>문제 해결
 

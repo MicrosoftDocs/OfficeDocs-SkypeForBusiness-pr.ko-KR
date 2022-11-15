@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: 04863f6dd914b935b68120fd5c2df6105770c634
-ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
+ms.openlocfilehash: 380b761b90f49549ad6605ee7ca069269a796ea9
+ms.sourcegitcommit: 0760416ee0bead3ada93f4d37f8aebc74222bd3c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2022
-ms.locfileid: "68576454"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "69019394"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams에서의 채팅, 팀, 채널 & 앱
 
@@ -38,7 +38,7 @@ Teams provides a great out-of-the-box collaboration experience for your organiza
 
 <br/>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
+> [!VIDEO <https://www.microsoft.com/videoplayer/embed/RE476Yj>]
 
 You can use [Advisor for Teams](use-advisor-teams-roll-out.md) to help you roll out Microsoft Teams. Advisor for Teams walks you through your Teams rollout. It assesses your Microsoft 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams.
 
@@ -77,12 +77,12 @@ In addition to administrator roles, Teams lets you assign owner and member user 
 |본인에게 질의하기|작업 |
 |------------|-------|
 |각 역할에는 누가 할당되어야 하나요? | 각 역할의 기능을 비교하려면 [Microsoft Teams에서 팀 소유자, 조정자 및 구성원 할당하기](assign-roles-permissions.md)를 참조하세요.
-|사용자 역할은 어떻게 할당하나요? | 역할을 할당하거나 변경하려면 [사용자 역할 할당](assign-roles-permissions.md#assign-a-user-role)을 참조하세요.
+|사용자 역할은 어떻게 할당하나요? | 역할을 할당하거나 변경하려면 [사용자 역할 할당](assign-roles-permissions.md)을 참조하세요.
 |채널에서 게시나 회신을 할 수 있는 사용자를 통제해야 하나요? | 조정 기능을 구성하려면 [Microsoft Teams에서 채널 조정 설정 및 관리](manage-channel-moderation-in-teams.md)를 참조하세요.
 
 ### <a name="messaging-policies"></a>메시징 정책
 
-Messaging policies control which chat and channel messaging features are available to users in Teams. For example, who can edit and delete sent messages, who can use chat, who can use memes in conversations, and more. By default, users are assigned the global messaging policy and all features are **On**. You can use the default global policy or create one or more custom messaging policies for people in your organization. 
+Messaging policies control which chat and channel messaging features are available to users in Teams. For example, who can edit and delete sent messages, who can use chat, who can use memes in conversations, and more. By default, users are assigned the global messaging policy and all features are **On**. You can use the default global policy or create one or more custom messaging policies for people in your organization.
 
 |본인에게 질의하기|작업 |
 |------------|-------|
@@ -104,7 +104,6 @@ Guest access in Teams lets individuals outside your organization access teams an
 
 > [!NOTE]
 > 외부 액세스 및 게스트 액세스에 대한 자세한 내용은 [Microsoft Teams의 다른 조직의 사용자와 통신](communicate-with-users-from-other-organizations.md)을 참조하세요
-
 
 |본인에게 질의하기|작업 |
 |------------|-------|
@@ -153,9 +152,9 @@ The Global Admin, Teams Service Admin, and Reports Readers roles can view Teams 
 |------------|-------|
 |<br> 팀 사용 현황 보고서를 확인해야 하는 사용자는 누구이고 그들은 보고서를 볼 수 있는 올바른 역할을 보유하고 있나요? |<ul><li>사용자가 관리자가 아닌 경우에는 [보고서 리더 역할을 할당합니다](teams-activity-reports.md#reports-reader-role).</li><li>[역할 및 사용 권한](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)과 [역할 보기 및 지정](/azure/active-directory/users-groups-roles/directory-manage-roles-portal)을 참조하여 Azure Active Directory에서 관리 역할을 할당하는 방법을 알아보세요.|
 
-### <a name="teams-default-apps"></a>Teams 기본 앱 
+### <a name="teams-default-apps"></a>Teams 기본 앱
 
-Teams provides a number of first-party (Microsoft provided) and third-party apps to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. Apps are turned on by default in Teams. 
+Teams provides a number of first-party (Microsoft provided) and third-party apps to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. Apps are turned on by default in Teams.
 
 Teams에서 앱을 배포하고 관리하는 방법에 대한 자세한 내용은 심층 [적인 앱 관리](deploy-apps-microsoft-teams-landing-page.md) 지침을 참조하세요.
 
@@ -179,7 +178,7 @@ For the full Teams experience, every user should be enabled for Exchange, ShareP
 |------------|-------|
 | 현재의 Exchange 및 SharePoint 배포에 필요한 Teams의 기능을 배포할 수 있나요? |Teams에서의 Exchange 및 SharePoint에 대한 자세한 내용은 다음을 참조하세요:<ul><li> [Exchange와 Teams의 상호 작용 방법](exchange-teams-interact.md)</li><li>[SharePoint Online 및 OneDrive가 Teams와 상호 작용하는 방법](sharepoint-onedrive-interact.md)|
 
-### <a name="teams-limits-and-specifications"></a>Teams의 제한과 사양 
+### <a name="teams-limits-and-specifications"></a>Teams의 제한과 사양
 
 Teams의 엔터프라이즈 배포를 계획할 때 팀의 최대 구성원 수, 사용자가 만들 수 있는 최대 팀 수 등과 같은 관련 제한 사항과 사양을 고려해 야 합니다.
 
@@ -199,7 +198,6 @@ Organizations that maintain fine-grained control of their internet traffic shoul
 
 Your organization might require that you implement controls on how teams are named and classified, who can create teams, and team expiration, retention, and archiving. This is called governance. You can use Azure Active Directory (Azure AD) to configure each of these areas.
 
-
 | 본인에게 질의하기 | 작업 |
 |--------------|--------|
 |팀을 만들 수 있는 사용자에 대한 제어를 수행해야 하나요?| [Teams에서의 거버넌스 계획](plan-teams-governance.md)을 참조하세요.|
@@ -214,7 +212,7 @@ A pinned app shows up in the side rail in Teams. By creating Teams application p
 |미리 구성된 고정된 Teams 응용 프로그램의 집합을 만들어야 하나요? | [Team에서 앱에 대한 관리 설정](admin-settings.md)을 참조하세요.|
 |어떠한 그룹이 이 앱 그룹화를 적용받을 것인지를 어떻게 결정하나요?|[Teams 앱 사용 권한 및 고려 사항](app-permissions.md)을 참조하세요.|
 
-### <a name="archiving-and-compliance"></a>보관 및 규정 준수 
+### <a name="archiving-and-compliance"></a>보관 및 규정 준수
 
 Your organization might require that you implement controls on how teams are archived and the types of data that are held in certain types of teams. Read [Overview of security and compliance in Teams](security-compliance-overview.md) to learn which Teams settings are turned on by default.
 
@@ -224,7 +222,7 @@ Your organization might require that you implement controls on how teams are arc
 |팀 보관을 구성해야 하나요?|팀을 보관하거나 복원하려면 [팀의 보관 또는 복원](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)을 참조하세요.|
 |추가적 규정 준수 설정을 구성해야 하나요?|보안 및 규정 준수에 대한 자세한 내용은 [Teams에서의 보안 및 규정 준수 개요](security-compliance-overview.md)를 참조하세요.|
 
-### <a name="conditional-access"></a>조건부 액세스 
+### <a name="conditional-access"></a>조건부 액세스
 
 Teams relies heavily on Exchange and SharePoint for core productivity scenarios, including meetings, calendars, interop chats, and file sharing. Conditional access policies that are set for these cloud apps apply to Teams when a user signs in directly to Teams, on any client. Conditional access policies that are set for the Teams cloud app control aspects such as whether users can access Teams services from certain networks.
 
@@ -232,7 +230,7 @@ Teams relies heavily on Exchange and SharePoint for core productivity scenarios,
 |--------------|--------|
 |<br>Teams에 대한 조건부 액세스를 구성해야 하나요?|<ul><li>액세스 정책의 작동 방식을 이해하려면 [조건부 액세스 정책이 Teams에서 어떻게 작동하나요?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)를 참조하세요.</li><li>Teams에 대한 다단계 인증(MFA)을 설정하려면 다음을 참조하세요:<ul><li>[빠른 시작: Azure Active Directory 조건부 액세스를 사용하는 특정 앱에 MFA 요구](/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory 조건부 액세스 설정 참조](/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 
-### <a name="education-edu"></a>교육(EDU) 
+### <a name="education-edu"></a>교육(EDU)
 
 교육 분야에 종사하는 IT 전문가는 학생, 교직원 및 다양한 비즈니스 관련 교육 별 시나리오를 충족시키기 위해 맞춤화된 다양한 기능을 제공하는 교육용 Teams를 활용할 수 있습니다.
 
@@ -251,6 +249,7 @@ Teams relies heavily on Exchange and SharePoint for core productivity scenarios,
 | 정부 기관용 Office 365 - GCC 환경에서 Teams를 배포해야 하나요? | 배포 관련 고려 사항은 [Office 365 정부 - GCC 배포 계획](plan-for-government-gcc.md)을 참조하세요.|
 
 ## <a name="next-steps"></a>다음 단계
+
 - 채팅, 팀, 채널 & 앱의 [도입을 진행합니다](adopt-microsoft-teams-landing-page.md).
 - 초기 Teams 롤아웃을 진행 시 Planner와 같은 추천 앱을 포함합니다. Teams 채택을 추진할 때 다른 Teams [앱을](deploy-apps-microsoft-teams-landing-page.md) 추가합니다.
 - [모임 및 회의 출시](deploy-meetings-microsoft-teams-landing-page.md)

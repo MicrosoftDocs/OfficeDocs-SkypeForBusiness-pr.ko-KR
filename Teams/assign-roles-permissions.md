@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams에서 팀 소유자와 팀 구성원 할당
+title: Microsoft Teams 관리 센터에서 팀 소유자 및 구성원 할당
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -16,66 +16,58 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a8993882bb281dc7c9bd6b8bde95387a183b637
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: e0f259a7a24552988d4eca503deeb9151dde144d
+ms.sourcegitcommit: 0760416ee0bead3ada93f4d37f8aebc74222bd3c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562767"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "69019414"
 ---
-# <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Microsoft Teams에서 팀 소유자와 팀 구성원 할당
+# <a name="assign-team-owners-and-members-in-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 팀 소유자 및 구성원 할당
 
-Microsoft Teams에는 **소유자** 와 **구성원** 이라는 두 가지 사용자 역할이 있습니다. 새 팀을 만든 사용자에게는 기본적으로 소유자 상태가 부여됩니다. 또한 소유자 및 구성원은 변조가 설정된 경우 채널에 대한 진행자 권한을 가질 수 있습니다. 기존 Microsoft 365 그룹에서 팀을 만든 경우 사용 권한이 상속됩니다.
+**소유자** 와 **구성원** 은 Microsoft Teams 내의 두 사용자 역할입니다. 새 팀을 만드는 사용자에게는 기본적으로 소유자 상태가 부여됩니다. 소유자와 구성원은 팀 및 채널과 상호 작용할 때 다양한 유형의 권한과 기능을 갖습니다. Teams의 역할에 대한 자세한 내용은 [Microsoft Teams의 팀 및 채널 개요](teams-channels-overview.md) 를 참조하세요.
+
+> [!NOTE]
+> 기존 Microsoft 365 그룹에서 팀을 만든 경우 사용 권한이 상속됩니다.
+
+## <a name="assign-a-user-role-in-teams-admin-center"></a>Teams 관리 센터에서 사용자 역할 할당
+
+1. Teams 관리 센터에서 **Teams** 를 확장하고 **팀 관리를** 선택합니다.
+2. 표시 이름 열 아래에서 팀 이름을 선택합니다.
+3. 멤버 탭에서 멤버를 추가하거나 제거하고 소유자 및 중재자 역할을 멤버에게 할당할 수 있습니다.
+
+## <a name="restrict-permission-to-create-teams"></a>팀을 만들 수 있는 권한 제한
+
+Exchange Online 사서함이 있는 모든 사용자에게는 Microsoft Teams 내에서 Microsoft 365 그룹 및 팀을 만들 수 있는 권한이 있습니다. 그룹 만들기 및 관리 권한을 사용자 집합에 위임하여 사용자가 새 팀 및 Microsoft 365 그룹을 만들지 못하도록 제한합니다. 이 제한이 활성화된 경우 팀 소유자나 구성원 모두 새 팀을 만들 수 없습니다. 자세한 내용은 [Microsoft 365 그룹 생성 가능 사용자 관리](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)를 참조하세요.
+
+## <a name="user-permissions-based-on-assigned-roles"></a>할당된 역할에 따른 사용자 권한
 
 다음 표에는 소유자와 구성원 간의 권한 차이점이 나와 있습니다.
 
+### <a name="teams"></a>Teams
 
-|    작업                                | 팀 소유자 | 팀 구성원 |
-|-----------------------------------|------------|-------------|
-|          **팀 만들기**          |    예<sup>1</sup>     |     아니요      |
-|          **팀 탈퇴**           |    예     |     예     |
-|  **팀 이름/설명 편집**   |    예     |     아니요      |
-|          **팀 삭제**          |    예     |     아니요      |
-|          **표준 채널 추가**          |    예     |    예<sup>2</sup>|
-| **표준 채널 이름/설명 편집** |    예     |    예<sup>2</sup>|
-|        **표준 채널 삭제**         |    예     |    예<sup>2</sup>|
-|          ***비공개 채널 편집**          |    예     |    예<sup>2</sup>|
-| ***개인 채널 이름/설명 편집** |    아니요     |    해당 없음|
-|        ***프라이빗 채널 삭제**         |    예     |    아니요|
-|          **공유 채널 추가**          |    예     |    아니요|
-| **공유 채널 이름/설명 편집** |    아니요     |    No<sup>6</sup>|
-|        **공유 채널 삭제**         |    예     |    No<sup>6</sup>|
-|          **구성원 추가**          |  예<sup>3</sup>   |     아니요<sup>4</sup>    |
-|          **구성원 추가 요청**          |  해당 없음   |     예<sup>5</sup>     |
-|           **앱 추가**            |    예     |    예<sup>2</sup>|
+|Teams 작업| 팀 소유자 | 팀 구성원 |
+|---------|---------|---------|
+|팀 만들기/삭제  |    예     |     아니요    |
+|팀 이름/설명 편집   |     예    |     아니요     |
+|프라이빗 팀에 구성원 추가    |     예    |  아니요 |
+|공용 팀에 구성원 추가    |     예    |     예   |
+|새 멤버 추가 요청   |     해당 없음    |    예   |
+|사용자 상태 승격/강등 | 예 | 아니요 |
+|팀 탈퇴  |    예     |     예    |
+|앱 추가/제거   |     예    |     예, 팀 소유자가 사용하도록 설정한 경우     |
 
-<sup>1</sup> 팀 소유자는 제한되지 않는 한 팀을 구성할 수 있습니다. [팀을 생성할 수 있는 권한](#permissions-to-create-teams) 아래.<br>
-<sup>2</sup> 소유자는 팀 수준에서 항목을 해제할 수 있습니다. 이 경우 구성원은 항목에 액세스할 수 없습니다.<br>
-<sup>3</sup> 팀에 구성원을 추가한 후 소유자는 구성원을 소유자로 승격할 수도 있습니다. 소유자는 자신의 상태를 구성원으로 강등시킬 수도 있습니다.<br>
-<sup>4</sup> 팀 구성원은 다른 구성원을 공개 팀에 추가할 수 있습니다.<br>
-<sup>5</sup> 팀 구성원은 개인 팀에 구성원을 직접 추가할 수 없지만, 이미 구성원이 된 팀에 구성원을 추가하도록 요청할 수 있습니다. 구성원이 팀에 추가할 것을 요청할 때 팀 소유자는 보류 중인 요청을 수락하거나 거부할 수 있다는 알림을 받습니다.<br>
-<sup>6</sup> 팀 구성원이 공유 채널 소유자인 경우 이 작업을 수행할 수 있습니다.
+### <a name="channels"></a>채널
 
-*개인 채널의 사용 권한에 대한 자세한 내용은 [Teams 개인 채널](private-channels.md)을 참조하세요.
-
-> [!NOTE]
-> 소유자는 **팀 보기** 옵션에서 다른 구성원의 소유자를 만들 수 있습니다. 팀은 최대 100명의 소유자를 가질 수 있습니다. 팀을 관리하는 데 도움이 되는 소유자가 최소 몇 명 있는 것이 좋습니다. 이렇게 하면 단독 소유자가 조직을 떠나는 경우에도 분리된 그룹을 방지할 수 있습니다. 분리된 그룹에 대한 자세한 내용은 [분리된 그룹에 새 소유자 할당](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732)을 참조하세요.
-
-## <a name="moderator-capabilities"></a>중재자 기능
-
-다른 기능 외에도, 팀 소유자와 구성원은 채널에 대한 진행자 기능을 가질 수 있습니다(팀에 대해 조정 기능이 설정되어 있는 경우). 중재자는 채널에서 새 게시물을 시작하고 팀 구성원이 기존 채널 메시지에 회신할 수 있는지 여부를 제어할 수 있습니다. 또한 중재자는 봇 및 커넥터 기능이 있는 앱이 채널 메시지를 제출할 수 있는지 여부를 제어할 수 있습니다.
-
-중재자 역량은 채널 수준에서 할당됩니다. 팀 소유자에게는 기본적으로 중재자 역량이 있습니다. 팀 구성원은 기본적으로 중재자 역량이 없지만, 팀 소유자가 채널에 대한 중재자 역량을 팀 구성원에게 부여할 수 있습니다. 채널 내의 중재자는 해당 채널 내에서 다른 중재자를 추가하고 제거할 수 있습니다.
-
-중재자 기능에 대한 자세한 정보는 [Microsoft Teams에서 채널 조정 설정 및 관리](manage-channel-moderation-in-teams.md)를 참조하세요.
-
-## <a name="assign-a-user-role"></a>사용자 역할 할당
-
-사용자 역할을 할당하려면 Teams에서 팀 이름을 선택한 다음 팀 **관리** > **추가 옵션**(**...**)을 선택합니다. **구성원** 탭에서 구성원을 추가하고 소유자 및 중재자를 선택할 수 있습니다(충분한 권한이 있는 경우). 자세한 내용은 [Teams에서 팀 설정 변경을 참조하세요](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
-
-> [!NOTE]
-> 고정된 채널에는 **팀 관리** 옵션이 표시되지 않습니다. 아래 *팀 아래에서 팀* 이름을 선택한 다음, 이름 오른쪽에 **있는 추가 옵션** (**...**)을 선택합니다.
-
-## <a name="permissions-to-create-teams"></a>팀 생성 권한
-
-기본적으로 Exchange Online에 편지함이 있는 모든 사용자는 Microsoft 365 그룹 및 Microsoft Teams 내의 팀을 생성할 수 있는 권한을 가집니다. 그룹 생성 및 관리 권한을 사용자 집합에 위임하여 새로운 팀 생성을 더욱 엄격하게 제어하고 제한하여 새로운 Microsoft 365 그룹을 새로 만들 수 있습니다. 자세한 지침은 [Microsoft 365 그룹 생성 가능 사용자 관리](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)를 참조하세요.
+|***표준 채널 작업** _ | _ *팀 소유자** | **팀 구성원**|
+|----|----|----|
+|채널 만들기/삭제  |     예    |    예, 팀 소유자가 사용하도록 설정한 경우      |
+|채널 이름/설명 편집    |    예     |     예, 팀 소유자가 사용하도록 설정한 경우    |
+|***프라이빗 채널 작업***|
+|채널 만들기    |    예     |    예, 팀 소유자가 사용하도록 설정한 경우      |
+|채널 삭제    |    예     |    아니요     |
+|채널 이름/설명 편집 |     아니요    |    해당 없음     |
+|***공유 채널 작업***
+|채널 만들기    |    예     |     아니요    |
+|채널 삭제 | 예 | 아니요 |
+|채널 이름/설명 편집    |    아니요     |     아니요    |
