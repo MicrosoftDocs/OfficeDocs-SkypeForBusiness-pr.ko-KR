@@ -18,12 +18,12 @@ ms.custom:
 description: Microsoft Teams를 계획, 배포 및 실행하는 방법에 대한 관리자를 위한 교육 비디오, PowerPoint 데크, 자습서 및 기타 리소스.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbba9535bed24c52578f8c01f37557774bbfa5e3
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+ms.openlocfilehash: 8e4b708a0fd250dd5ae8adeaa4f47f014ad359cd
+ms.sourcegitcommit: 2f9a83a1bae8cbee5a0d65464bd47f6735b2d206
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68890067"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "69025160"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams에 대한 관리자 교육 시작
 
@@ -61,6 +61,8 @@ ms.locfileid: "68890067"
 | 전화 시스템 소개 | [비디오](https://aka.ms/teams-phone-system) | [갑판](https://aka.ms/teams-phone-system-deck) |
 | 직접 라우팅 | [비디오 1: Teams에서 직접 라우팅 계획](https://aka.ms/teams-dr-plan)<br>[비디오 2: Teams에서 직접 라우팅 구성 및 관리](https://aka.ms/teams-dr-config)<br>[비디오 3: Teams에서 직접 라우팅으로 마이그레이션](https://aka.ms/teams-dr-migrate)  | [갑판](https://aka.ms/teams-direct-routing-deck) |
 | 비즈니스용 Skype에서 Teams로 업그레이드 | [비디오 1: 업그레이드 소개](https://aka.ms/teams-upgrade-intro)</br>[비디오 2: 업그레이드 계획](https://aka.ms/teams-upgrade-plan)</br>[비디오 3: 공존 및 상호 운용성](https://aka.ms/teams-upgrade-coexistence-interop)</br>[비디오 4: 관리자 환경](https://aka.ms/teams-upgrade-admin) | [갑판](https://aka.ms/teams-upgrade-deck)|
+| Teams 디바이스 배포 플레이북 | | [갑판](https://aka.ms/teams-devices-deployment-playbook) |
+| Teams 전화 배포 플레이북 | | [갑판](https://aka.ms/teams-phone-deployment-playbook) |
 
 <h2>TEAMS 룸 Foundations for IT & AV Pros</h2>
 
@@ -77,7 +79,6 @@ ms.locfileid: "68890067"
 | 모듈 7: Microsoft Teams 룸 관리, 2부  | [갑판](https://aka.ms/TeamsRoomsModule7) |
 | 모듈 8: 기능, 채택 및 문제 해결 | [갑판](https://aka.ms/TeamsRoomsModule8)|
 | 원터치 조인 지침 |  [갑판](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
-| Microsoft Teams 룸 Managed Services 소개 | [갑판](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
 <h2>Teams Android 디바이스</h2>
 
