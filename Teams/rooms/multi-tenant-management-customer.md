@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 고객을 위한 파트너 관리.
 f1keywords: ''
-ms.openlocfilehash: 0fef32202d256926448227f522b6160100cd05e1
-ms.sourcegitcommit: fcbbc197e43bcd63bf95cb329df9cb52e06ee356
+ms.openlocfilehash: 56aaf61092dd1bbd61c2734be6da1732f4882e49
+ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "68842166"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "69046867"
 ---
 # <a name="partner-management-for-customers"></a>고객을 위한 파트너 관리
 
@@ -77,7 +77,7 @@ Teams 룸 Pro Management 서비스의 파트너 관리를 통해 고객은 하�
 
 ## <a name="managing-partner-roles"></a>파트너 역할 관리
 
-파트너 역할을 통해 파트너는 추가 담당자에게 책임을 보다 세밀하게 위임할 수 있습니다. 이러한 역할의 개념은 [역할 기반 액세스 제어](microsoft-teams-rooms-premium-rbac.md)에 설명된 것과 동일합니다. 파트너 역할은 사용자 지정 역할과 구별된다는 점에 유의해야 합니다. 
+파트너 역할을 통해 파트너는 추가 담당자에게 책임을 보다 세밀하게 위임할 수 있습니다. 이러한 역할의 개념은 [역할 기반 액세스 제어](rooms-pro-rbac.md)에 설명된 것과 동일합니다. 파트너 역할은 사용자 지정 역할과 구별된다는 점에 유의해야 합니다. 
 
 **기본 관리자** 역할은 추가하는 각 파트너에 대한 유일한 기본 제공 역할입니다. 이 역할에는 TRM 서비스에 대해 파트너에게 할당한 회의실에 대한 거의 모든 권한이 있습니다( [표 1](#table-1) 참조). 예를 들어 전 세계에 회의실이 있고 모든 미국 객실을 관리하는 파트너를 할당하는 경우 기본 관리자는 해당 회의실에 대한 권한만 관리하고 위임할 수 있습니다. 이 경우 이 파트너의 기본 관리자는 미국 외부의 모든 객실을 볼 수 없습니다. 
 

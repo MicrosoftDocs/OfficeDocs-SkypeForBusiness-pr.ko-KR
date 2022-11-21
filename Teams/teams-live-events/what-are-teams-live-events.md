@@ -23,12 +23,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: fab22ca4bda45f1f534055a5f43d64358dea8cec
-ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
+ms.openlocfilehash: fb6e808b162736b5d3e682cf8ae00682b4334388
+ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68486598"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "69046757"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 라이브 이벤트란
 
@@ -97,13 +97,12 @@ Teams에서는 주최자가 적절한 참석자 권한을 가진 이벤트를 �
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>엔터프라이즈 CDN(콘텐츠 전송 네트워크)
 
-eCDN의 목표는 인터넷에서 비디오 콘텐츠를 가져와 네트워크 성능에 영향을 주지 않고 기업 전체에 콘텐츠를 배포하는 것입니다. 다음 공인 eCDN 파트너 중 하나를 사용하여 조직 내에서 열리는 라이브 이벤트에 맞게 네트워크를 최적화할 수 있습니다.
+eCDN의 목표는 인터넷에서 비디오 콘텐츠를 가져와 네트워크 성능에 영향을 주지 않고 기업 전체에 콘텐츠를 배포하는 것입니다. [Microsoft 자사 eCDN 솔루션 또는 다음 인증된 eCDN](/ecdn) 파트너 중 하나를 사용하여 조직 내에서 개최되는 라이브 이벤트에 대한 네트워크를 최적화할 수 있습니다.
 
 - [하이브](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [램프](https://rampecdn.com)
 - [Riverbed](https://www.riverbed.com/solutions/office-365.html)
-- [Peer5](https://www.peer5.com/)
 
 ### <a name="attendee-experience"></a>참석자 환경
 

@@ -20,51 +20,51 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c426606cae959e4d1134fd7a1551b33484c06d9d
-ms.sourcegitcommit: e0dfa7dbfb03c41f096ed0ad80f44de8e147ed26
+ms.date: 11/17/2022
+ms.openlocfilehash: 90dcdf19f66b8c0f814540708be81bae36564b21
+ms.sourcegitcommit: f905ce4428155e81a56a1251351730f0eea3a421
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68743143"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "69107430"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams의 Walkie Talkie 앱
 
-Teams의 Walkie Talkie 앱은 팀에 PTT(즉시 푸시 투 토크) 통신을 제공하며 Android 및 iOS에서 사용할 수 있습니다. Walkie Talkie를 사용하면 사용자가 구성원인 것과 동일한 기본 채널을 사용하여 팀과 연결할 수 있습니다. 채널에서 Walkie Talkie에 연결하는 사용자만 참가자가 되고 한 번에 하나씩 푸시 투 토크를 사용하여 서로 통신할 수 있습니다.
+Teams의 Walkie Talkie 앱은 팀에 PTT(즉시 푸시 투 토크) 통신을 제공하며 Android 및 iOS에서 사용할 수 있습니다. Walkie Talkie를 사용하면 사용자가 구성원인 것과 동일한 기본 채널을 사용하여 팀과 연결할 수 있습니다.
 
-Teams의 Walkie Talkie를 사용하면 최전방 직원은 부피가 큰 라디오를 휴대할 필요 없이 친숙한 PTT 환경과 안전하게 통신할 수 있으며, Walkie Talkie는 WiFi 또는 셀룰러 인터넷 연결을 통해 어디서나 작동합니다.
+채널에서 Walkie Talkie에 연결하는 사용자만 참가자가 되고 PTT를 사용하여 서로 통신할 수 있습니다. 사용자는  **연결 끊기를** 탭할 때까지 전송을 계속 받습니다.
+
+Teams의 Walkie Talkie를 사용하면 사용자는 부피가 큰 라디오를 휴대할 필요 없이 친숙한 PTT 환경과 안전하게 통신할 수 있으며, Walkie Talkie는 WiFi 또는 셀룰러 인터넷 연결을 통해 어디서나 작동합니다.
 
 > [!NOTE]
 > 워키 토키는 현재 중국에서 사용할 수 없습니다.
 
 ## <a name="license-requirements"></a>라이선스 요구 사항
 
-Walkie Talkie는 [Microsoft 365 및 Office 365 구독](/office365/servicedescriptions/teams-service-description)에 있는 Teams의 모든 유료 라이선스에 포함되어 있습니다. Teams를 가져오는 방법에 대한 자세한 내용은 [Microsoft Teams에 대한 액세스 권한을 어떻게 할까요? 확인하세요](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b).
+Walkie Talkie는 [Microsoft 365 및 Office 365 구독](/office365/servicedescriptions/teams-service-description)에 있는 Teams의 모든 유료 라이선스에 포함되어 있습니다. Teams 가져오기에 대한 자세한 내용은 [Microsoft Teams를 어떻게 할까요? 확인하세요.](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 ## <a name="deploying-walkie-talkie"></a>Walkie Talkie 배포
 
 Walkie Talkie는 GMS(Google Mobile Services) 및 iOS 디바이스를 사용하는 Android 디바이스에서 지원됩니다.
 
-> [!NOTE]
-> 사용자가 Bluetooth 액세서리를 사용하는 경우 MDM(모바일 디바이스 관리) 솔루션이 Bluetooth 디바이스를 차단하지 않는지 확인합니다.
+### <a name="step-1-make-sure-walkie-talkie-is-enabled-in-your-organization"></a>1단계: 조직에서 Walkie Talkie가 사용하도록 설정되어 있는지 확인
 
-### <a name="enable-or-disable-walkie-talkie-in-your-organization"></a>조직에서 Walkie Talkie 사용 또는 사용 안 함
+기본적으로 Walkie Talkie 앱은 조직의 모든 Teams 사용자에 대해 사용하도록 설정됩니다.
 
-Walkie Talkie는 조직의 모든 Teams 사용자에 대해 기본적으로 사용하도록 설정됩니다. Microsoft Teams 관리자 센터의 [앱 관리](manage-apps.md) 페이지에서 조직 수준에서 앱을 끄거나 켤 수 있습니다.
+Microsoft Teams 관리 센터의 [앱 관리](manage-apps.md) 페이지에서 조직 수준에서 앱을 사용할 수 있는지 여부를 제어합니다. 조직에서 앱이 사용하도록 설정되어 있는지 확인하려면 다음을 수행합니다.
 
 1. Microsoft Teams 관리 센터의 왼쪽 탐색 메뉴에서 **Teams 앱** > **앱 관리** 로 이동합니다.
-2. 앱 목록에서 Walkie Talkie 앱을 검색하고 선택한 다음 **상태** 토글을 **차단** 됨 또는 **허용됨** 으로 전환합니다.
+2. 앱 목록에서 Walkie Talkie 앱을 검색하고 선택한 다음 **상태** 토글이 **허용됨** 으로 설정되어 있는지 확인합니다.
 
-### <a name="enable-or-disable-walkie-talkie-for-specific-users-in-your-organization"></a>조직의 특정 사용자에 대해 Walkie Talkie 사용 또는 사용 안 함
+조직의 특정 사용자가 Walkie Talkie를 사용하도록 허용하거나 차단하려면 [앱 관리](manage-apps.md) 페이지에서 조직에 대해 Walkie Talkie가 사용하도록 설정되어 있는지 확인합니다. 그런 다음 앱 권한에 대한 사용자 지정 정책을 만들고 해당 사용자에게 할당합니다. 자세한 내용은 [Teams에서 앱 권한 정책 관리](teams-app-permission-policies.md)를 참조하세요.
 
-조직의 특정 사용자가 Walkie Talkie를 사용할 수 있도록 허용하거나 차단하려면 [앱 관리](manage-apps.md) 페이지에서 조직에 대해 Walkie Talkie가 켜져 있는지 확인합니다. 그런 다음, 앱 권한에 대한 사용자 지정 정책을 만들고, 앱 설정 정책에 추가하고, 해당 사용자에게 할당합니다. 자세한 내용은 [Teams에서 앱 권한 정책 관리](teams-app-permission-policies.md) 및 [Microsoft Teams에서 앱 설정 정책 관리를 참조하세요](teams-app-setup-policies.md).
-
-### <a name="pin-walkie-talkie-to-teams"></a>워키 토키를 Teams에 고정
+### <a name="step-2-pin-walkie-talkie-to-teams"></a>2단계: 워키 토키를 Teams에 고정
 
 #### <a name="use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams"></a>맞춤형 최전방 앱 환경을 사용하여 Walkie Talkie 및 기타 앱을 Teams에 고정
 
 Teams의 맞춤형 최전방 앱 환경은 [F 라이선스](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)가 있는 사용자를 위해 Teams에서 가장 관련성이 큰 앱을 고정합니다. 고정된 앱에는 Walkie Talkie, 교대 근무, 작업 및 승인이 포함됩니다. 기본적으로 이 기능은 사용 중이므로 최전방 작업자에게 요구 사항에 맞는 기본 제공 환경을 제공합니다.
 
-앱은 사용자가 빠르고 쉽게 액세스할 수 있는 Teams 데스크톱 클라이언트의 측면과 Teams 모바일 클라이언트 아래쪽에 있는 바인 앱 바에 고정됩니다.
+앱은 사용자가 빠르고 쉽게 액세스할 수 있는 Teams 모바일 클라이언트 하단의 앱 트레이에 고정됩니다.
 
 설정한 앱 정책의 작동 방식을 포함하여 자세한 내용은 [최전방 직원을 위한 Teams 앱 조정](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)을 참조하세요.
 
@@ -124,9 +124,16 @@ Teams의 Walkie Talkie에는 인터넷 연결이 필요합니다. 최적의 환�
 > [!NOTE]
 > 이러한 디바이스는 Teams 인증을 받지 않았습니다. Teams Walkie Talkie와 함께 작업할 수 있는 유효성이 검사되었습니다.
 
+## <a name="bluetooth-devices"></a>Bluetooth 디바이스
+
+> [!NOTE]
+> 사용자가 Bluetooth 액세서리를 사용하는 경우 MDM(모바일 디바이스 관리) 솔루션이 Bluetooth 디바이스를 차단하지 않는지 확인합니다.
+
+Android OS 버전 12 이상을 실행하는 디바이스에서는 Bluetooth 권한이 필요하며 BLE 스택을 사용하여 연결하는 위치 권한이 더 이상 필요하지 않습니다. Teams 수준에서 "주변 권한"이 부여되지 않은 경우 사용자에게 Bluetooth 권한에 대한 프롬프트가 표시됩니다. 헤드셋과 같은 Bluetooth 액세서리가 장치에 연결되어 있는지 여부에 관계없이 이 프롬프트가 표시됩니다. Bluetooth 액세서리가 연결된 경우 **허용** 을 탭하면 Walkie Talkie를 Bluetooth 액세서리에 연결합니다.
+
 ## <a name="more-information"></a>추가 정보
 
-- 최전방 작업자가 모바일 데이터를 사용하여 Teams를 통해 통신하는 경우 Walkie Talkie는 동일한 방법을 사용합니다.
+- 사용자가 모바일 데이터를 사용하여 Teams를 통해 통신하는 경우 Walkie Talkie는 동일한 방법을 사용합니다.
 - 워키 토키는 낮은 대역폭 상황 또는 스마트 폰이 연결되고 작동하는 상황에서 잘 작동해야합니다. 워키 토키는 연결이 전혀 없을 때 작동하지 않습니다.
 
 최종 사용자 환경에 대한 자세한 내용은 다음을 참조하세요.

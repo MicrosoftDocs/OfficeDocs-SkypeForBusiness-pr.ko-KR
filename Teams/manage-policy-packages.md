@@ -19,13 +19,13 @@ ms.custom:
 - seo-marvel-apr2020
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Microsoft Teams에서 정책 패키지를 사용하고 관리하여 사용자 그룹에 대한 정책을 관리할 때 일관성을 단순화, 간소화 및 제공하는 방법을 알아봅니다.
-ms.openlocfilehash: 75c4a220def2978a843fa69747ae86217a4d152b
-ms.sourcegitcommit: 1fe19c4a6e9f6116515df531786cc3e482e27093
+description: Microsoft Teams에서 정책 패키지를 사용, 관리 및 사용자 지정하여 사용자 그룹에 대한 정책을 관리할 때 일관성을 단순화, 간소화 및 제공하는 방법을 알아봅니다.
+ms.openlocfilehash: f91fdcdecb66fbc08b8ce75563f6034594fd448c
+ms.sourcegitcommit: ad7eb80a266a96bb894f3801b51587c07786c257
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2022
-ms.locfileid: "68877519"
+ms.lasthandoff: 11/19/2022
+ms.locfileid: "69128176"
 ---
 # <a name="manage-policy-packages-for-microsoft-teams"></a>Microsoft Teams에 대한 정책 패키지 관리
 
@@ -36,9 +36,6 @@ Microsoft Teams의 정책 패키지는 조직에서 유사한 역할을 가진 �
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="관리 센터의 정책 패키지 페이지 스크린샷" lightbox="media/policy-packages-admin-center.png":::
 
 사용자의 요구에 맞게 정책 패키지에서 정책 설정을 사용자 지정할 수 있습니다. 패키지에서 정책 설정을 변경하면 해당 패키지에 할당된 모든 사용자가 업데이트된 설정을 가져옵니다. Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 정책 패키지를 관리합니다.
-
-> [!NOTE]
-> 이 기능은 모든 Microsoft Teams 고객을 위해 공개 미리 보기에서 일시적으로 사용할 수 있습니다. 미리 보기 후에 이 기능을 얻으려면 각 사용자에게 고급 통신 추가 기능 라이선스가 필요합니다. 자세한 내용은 [Microsoft Teams를 위한 고급 통신 추가 기능](/microsoftteams/teams-add-on-licensing/advanced-communications)을 참조하세요.
 
 ## <a name="what-is-a-policy-package"></a>정책 패키지란?
 
