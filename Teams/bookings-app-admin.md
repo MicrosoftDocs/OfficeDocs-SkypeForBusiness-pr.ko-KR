@@ -20,15 +20,16 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 - m365-frontline
+- tier2
 - highpri
 ms.reviewer: ''
 description: 조직의 사용자를 위해 Teams에서 Bookings 앱을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 3b3db2fed9177c089a27b89264ec85425d4ffbbf
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: 4669b27efb351c375d5d5fd1104843e21c6f5ba9
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784213"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131307"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Microsoft Teams에서 Bookings 앱 관리
 

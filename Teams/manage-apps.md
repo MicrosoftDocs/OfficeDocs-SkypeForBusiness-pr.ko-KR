@@ -12,6 +12,7 @@ ms.date: 09/29/2022
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- tier2
 - highpri
 ms.reviewer: kojika
 search.appverid: MET150
@@ -21,12 +22,12 @@ description: Teams 앱을 관리하는 방법을 알아봅니다. 앱 허용 또
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 053164da8a521566247e982b09f5f929fe6da406
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: a38bbab856a71d46cab5af471ac2f75743e21d40
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912617"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69130877"
 ---
 # <a name="overview-of-app-management-and-governance-in-teams-admin-center"></a>Teams 관리 센터의 앱 관리 및 거버넌스 개요
 

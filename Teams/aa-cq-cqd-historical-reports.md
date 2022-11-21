@@ -22,29 +22,31 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Teams 자동 전화 교환 & 통화 큐 기록 보고서 Power BI 보고서를 사용하여 자동 전화 교환 및 통화 큐 기록 데이터를 보는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b57180a339ea7aa1548acf16be1f95d3514c294b
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+ms.openlocfilehash: 3db0705ea1321b3ef6d2efef5a01e3283f091cc9
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68890087"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131197"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>자동 전화 교환 & 통화 큐 기록 보고서
 
 이 Power BI 템플릿은 조직에서 자동 전화 교환 및 통화 큐에서 처리되는 통화 수를 보고할 수 있는 세 가지 보고서를 제공합니다.  또한 에이전트 성능 인사이트를 제공합니다.
 
-## <a name="v303-published-on-november-8-2022"></a>2022년 11월 8일에 게시된 V3.0.3
+## <a name="v304-published-on-november-18-2022"></a>2022년 11월 18일에 게시된 V3.0.4
 
 Teams 자동 전화 교환 & 통화 큐 기록 보고서 Power BI 템플릿은 다음 세 가지 보고서를 제공합니다.
 
-- 자동 전화 교환 보고서에는 자동 전화 교환으로 들어오는 통화에 대한 분석이 표시됩니다.
-- 통화 큐 보고서에는 통화 큐로 들어오는 통화에 대한 분석이 표시됩니다.
-- 에이전트 타임라인 보고서에는 통화 큐 호출에서 활성 상태인 에이전트의 타임라인 보기가 표시됩니다.
+- [자동 전화 교환](media/aa-cq-historical-report-sample-aa-v304.png) 보고서에는 자동 전화 교환으로 들어오는 통화에 대한 분석이 표시됩니다.
+- [통화 큐 보고서에는 통화 큐](media/aa-cq-historical-report-sample-cq-v304.png)로 들어오는 통화에 대한 분석이 표시됩니다.
+- [에이전트 타임라인](media/aa-cq-historical-report-sample-at-v304.png) 보고서에는 통화 큐 호출에서 활성 상태인 에이전트의 타임라인 보기가 표시됩니다.
 
 이러한 보고서는 VAAC(음성 애플리케이션 분석 수집기) 서비스의 데이터를 사용합니다.
 
 >[!NOTE]
 > 기록 데이터 수집은 모든 지역에서 진행 중입니다.  2022년 11월 25일까지 모든 지역에 30일간의 데이터가 있는 30일간의 기록 데이터를 서로 다른 시간에 사용할 수 있습니다.
+>
+> GCCH/DOD 고객은 V1.63을 계속 사용해야 합니다.
 
 ## <a name="v3xx-prerequisites"></a>V3.x.x 필수 구성 요소
 
@@ -64,15 +66,15 @@ Power BI Desktop 설치해야 합니다. [Microsoft Windows 스토어](https://a
 
 다음 단계를 수행합니다.
 
-1. [Teams 자동 전화 교환 & 통화 큐 기록 보고서 V3.0.3.zip](https://www.microsoft.com/download/details.aspx?id=104623) 파일을 다운로드하여 컴퓨터에 저장합니다.
+1. [Teams 자동 전화 교환 & 통화 큐 기록 보고서 V3.0.4.zip](https://www.microsoft.com/download/details.aspx?id=104623) 파일을 다운로드하여 컴퓨터에 저장합니다.
 
 1. zip 파일을 엽니다.
 
-1. `Teams Auto Attendant & Call Queue Historical Reports V3.0.3.pbit` 템플릿 파일을 엽니다. Power BI Desktop 시작되어야 합니다.
+1. `Teams Auto Attendant & Call Queue Historical Reports V3.0.4.pbit` 템플릿 파일을 엽니다. Power BI Desktop 시작되어야 합니다.
 
 1. **데이터 원본** 을 선택하라는 메시지가 표시됩니다.  `api.interfaces.records.teams.microsoft.com` 항목을 선택합니다.
 
-  :::image type="content" source="media/aa-cq-historical-report-01-v300.png" alt-text="api.interfaces.records.teams.microsoft.com Data Soure를 선택하는 스크린샷":::
+  :::image type="content" source="media/aa-cq-historical-report-01-v304.png" alt-text="api.interfaces.records.teams.microsoft.com Data Soure를 선택하는 스크린샷":::
 
 1. 계정으로 로그인하라는 메시지가 표시됩니다. **조직 계정을** 선택한 다음 **로그인을** 선택합니다.
 
@@ -91,13 +93,15 @@ Power BI Desktop 설치해야 합니다. [Microsoft Windows 스토어](https://a
 ## <a name="v163-published-on-august-24-2022"></a>2022년 8월 24일에 게시된 V1.63
 
 > [!IMPORTANT]
-> V1.63 템플릿에 대한 지원은 2022년 11월 21일에 종료됩니다.
+> V1.63 템플릿에 대한 퍼블릭 클라우드 지원은 2022년 11월 25일에 종료됩니다.
+> 
+> GCCH/DOD 고객은 V1.63을 계속 사용해야 합니다.
 
 **Teams 자동 전화 교환 & 통화 큐 기록 보고서 Power BI 템플릿** 은 다음 세 가지 보고서를 제공합니다.
 
-- 자동 전화 교환 보고서에는 자동 전화 교환으로 들어오는 통화에 대한 분석이 표시됩니다.
-- 통화 큐 보고서에는 통화 큐로 들어오는 통화에 대한 분석이 표시됩니다.
-- 에이전트 타임라인 보고서에는 통화 큐 호출에서 활성 상태인 에이전트의 타임라인 보기가 표시됩니다.
+- [자동 전화 교환](media/aa-cq-historical-report-sample-aa-v163.png) 보고서에는 자동 전화 교환으로 들어오는 통화에 대한 분석이 표시됩니다.
+- [통화 큐 보고서에는 통화 큐](media/aa-cq-historical-report-sample-cq-v163.png)로 들어오는 통화에 대한 분석이 표시됩니다.
+- [에이전트 타임라인](media/aa-cq-historical-report-sample-at-v163.png) 보고서에는 통화 큐 호출에서 활성 상태인 에이전트의 타임라인 보기가 표시됩니다.
 
 이러한 보고서는 [CQD(통화 품질 대시보드)](CQD-Power-BI-query-templates.md) 데이터 저장소의 데이터를 사용합니다. 
 
@@ -372,14 +376,25 @@ Power BI Desktop 설치해야 합니다. [Microsoft Windows 스토어](https://a
 
 - <sup>1</sup> 자동 전화 교환 및 통화 큐 그래프의 **들어오는 호출 원본** 은 초기 호출 레그 원본이 아닌 최종 통화 레그 원본을 표시합니다. 예를 들어 자동 전화 교환이 외부 전화를 받고 다른 자동 전화 교환 또는 통화 큐로 통화를 전송하는 경우 **들어오는 통화 원본** 이 내부로 보고됩니다.
 
-## <a name="version-history"></a>버전 기록
+## <a name="version-3xx-history"></a>버전 3.x.x 기록
+
+자세한 변경 내용은 Teams 자동 전화 교환 & 통화 큐 기록 보고서 - 다운로드한 zip 파일의 변경 Log.docx 참조하세요. 
 
 |버전  |게시된 날짜     |파일                                                           |설명                                         |
 |:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
-|3.0.3    |2022년 11월 8일   |Teams 자동 전화 교환 & 통화 큐 기록 보고서 V3.0.3        |다음을 참조하세요.<br>CQD Teams 자동 전화 교환 & 통화 큐 기록 보고서 - 변경 내용 목록에 대한 다운로드한 zip 파일의 Log.docx 변경                                                                             |
+|3.0.4    |2022년 11월 18일  |Teams 자동 전화 교환 & 통화 큐 기록 보고서 V3.0.4        |오류 수정, 호출 분류 개선, 범례 추가 |
+|3.0.3    |2022년 11월 8일   |Teams 자동 전화 교환 & 통화 큐 기록 보고서 V3.0.3        |오류 수정, 설명서 링크 추가, 최적화된 쿼리 |
 |3.0.1    |2022년 10월 26일   |Teams 자동 전화 교환 & 통화 큐 기록 보고서 V3.0.1        |테스트 데이터 원본 항목이 제거됨                   |
 |3.0.0    |2022년 10월 25일   |Teams 자동 전화 교환 & 통화 큐 기록 보고서 V3.0.0        |새 백 엔드 데이터 원본                             |
-|1.63     |2022년 8월 24일    |CQD Teams 자동 전화 교환 & 통화 큐 기록 보고서 V1.63.pbit |다음을 참조하세요.<br>CQD Teams 자동 전화 교환 & 통화 큐 기록 보고서 - 변경 내용 목록에 대한 다운로드한 zip 파일의 Log.docx 변경                                                                             |
-|1.60     |2022년 7월 22일      |CQD Teams 자동 전화 교환 & 통화 큐 기록 보고서 V1.60.pbit |다음을 참조하세요.<br>CQD Teams 자동 전화 교환 & 통화 큐 기록 보고서 - 변경 내용 목록에 대한 다운로드한 zip 파일의 Log.docx 변경                                                                             |
+
+
+## <a name="version-1xx-history"></a>버전 1.xx 기록
+
+자세한 변경 내용은 CQD Teams 자동 전화 교환 & 통화 큐 기록 보고서 - 다운로드한 zip 파일의 변경 Log.docx 참조하세요.                         
+
+|버전  |게시된 날짜     |파일                                                           |설명                                         |
+|:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------
+|1.63     |2022년 8월 24일    |CQD Teams 자동 전화 교환 & 통화 큐 기록 보고서 V1.63.pbit |                                                    |
+|1.60     |2022년 7월 22일      |CQD Teams 자동 전화 교환 & 통화 큐 기록 보고서 V1.60.pbit |                                                    |
 |1.00     |2020년 11월 5일   |CQ 및 AA 결합 분석 20201105.pbit                         |초기 릴리스                                     |
 

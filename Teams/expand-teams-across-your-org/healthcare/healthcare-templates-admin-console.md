@@ -17,18 +17,19 @@ ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
 - m365-frontline
+- tier2
 - highpri
 appliesto:
 - Microsoft Teams
 ms.reviewer: yinchang
 description: Teams 관리 센터와 Microsoft Graph에서 의료 팀 템플릿을 관리하고 사용하여 의료 조직을 위한 팀을 빠르고 쉽게 만드는 방법을 알아보세요.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bdbb3e52f471e735b1b6c96a1502880c030ed89d
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: a80d36b51d3f45ca906525d93e502dbfbba1cb6d
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046488"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131077"
 ---
 # <a name="use-healthcare-team-templates"></a>팀 의료 서식 파일 사용
 

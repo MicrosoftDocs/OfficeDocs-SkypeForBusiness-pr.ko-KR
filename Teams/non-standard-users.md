@@ -20,12 +20,12 @@ ms.collection:
 - highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c618552a574a567a91ddab0e2303fd5f99a2373a
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 3511dec4f3238babc3356bafbe2bb69e791e7632
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912607"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131317"
 ---
 # <a name="use-of-teams-apps-for-external-attendees-or-guest-from-outside-an-organization"></a>외부 참석자 또는 조직 외부의 게스트를 위한 Teams 앱 사용
 
@@ -89,9 +89,9 @@ Teams 앱은 조직 외부 사용자와의 공동 작업을 허용합니다. 관
 
 익명 사용자는 모임에서 이미 사용할 수 있지만 이러한 앱을 획득하고 관리할 수 없는 앱과만 상호 작용할 수 있습니다. 네이티브 사용자는 익명 사용자가 모임에 참석하는 경우에도 모임 앱을 계속 사용할 수 있습니다.
 
-### <a name="disallow-anonymous-users-to-use-apps-in-meetings"></a>익명 사용자가 모임에서 앱을 사용하도록 허용하지 않음
+### <a name="allow-anonymous-users-to-use-apps-in-meetings"></a>익명 사용자가 모임에서 앱을 사용하도록 허용
 
-기본적으로 익명 사용자는 모임에서 기존 앱과 상호 작용할 수 있습니다. 앱과 상호 작용하기 위해 익명 사용자를 허용하지 않습니다.
+기본적으로 익명 사용자는 모임에서 기존 앱과 상호 작용할 수 있습니다. 익명 사용자는 모임에 새 앱을 추가할 수 없습니다. 앱과 상호 작용하기 위해 익명 사용자를 허용하지 않습니다.
 
 1. Teams 관리 센터에 로그인하고 모임 **[모임 설정](https://admin.teams.microsoft.com/meetings/settings)****에 액세스합니다** > .
 

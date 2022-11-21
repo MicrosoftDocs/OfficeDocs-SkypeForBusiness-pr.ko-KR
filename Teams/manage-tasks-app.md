@@ -19,13 +19,14 @@ appliesto:
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- tier2
 - highpri
-ms.openlocfilehash: c64e2b9e2d77724d4972449390c59b7655ab1ff0
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 01be1cfada2ac772723ca1ef2850c6cdc437bc22
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656044"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131017"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams에서 조직의 작업 앱 관리
 
