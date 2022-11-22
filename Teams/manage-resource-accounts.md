@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 이 문서에서는 Microsoft Teams에서 리소스 계정을 만들고, 편집하고, 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: b9c7f5575d5e6df4370c07bf1cd581cbd1a396dd
-ms.sourcegitcommit: 9504b7a67e593f5575060b09b69817325e2a1f77
+ms.openlocfilehash: cde570c23b6d2e6b673f6cc0f49c9905c3b45fd1
+ms.sourcegitcommit: 55d2f515f5040b4c083f529d7b818c84d42378a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2022
-ms.locfileid: "69111135"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "69147435"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams에서 리소스 계정 관리
 
@@ -42,13 +42,14 @@ ms.locfileid: "69111135"
 - [클라우드 자동 전화 교환](create-a-phone-system-auto-attendant.md)
 - [클라우드 호출 큐](create-a-phone-system-call-queue.md)
 
-편집 옵션을 사용하여 리소스 계정 **표시 이름** 및 **리소스 계정** 유형을 **편집** 할 수 있습니다. 완료되면 **저장** 을 클릭합니다.
+편집 옵션을 사용하여 리소스 계정 **표시 이름** 및 **리소스 계정** 유형을 **편집** 할 수 있습니다. 완료되면 **저장** 을 선택합니다.
 
-## <a name="change-an-existing-resource-account-to-use-a-teams-phone-resource-account-license"></a>Teams 전화 리소스 계정 라이선스를 사용하도록 기존 리소스 계정 변경
-기존 리소스 계정의 라이선스를 **Teams 전화 표준 요금제** 라이선스에서 **Microsoft Teams 전화 Resource Account** 라이선스로 전환하려면 **Teams 전화 리소스 계정** 라이선스를 취득한 다음 Microsoft 365 관리 센터 단계를 따라 [사용자를 다른 곳으로 이동해야 합니다. 구독](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
+## <a name="change-an-existing-resource-account-to-use-a-microsoft-teams-phone-resource-account-license"></a>Microsoft Teams 전화 리소스 계정 라이선스를 사용하도록 기존 리소스 계정 변경
+
+기존 리소스 계정의 라이선스를 **Teams 전화 표준 요금제** 라이선스에서 **Microsoft Teams 전화 Resource Account** 라이선스로 전환하려면 **Microsoft Teams 전화 Resource Account** 라이선스를 취득한 다음 다음의 단계를 따라야 합니다. 사용자를 [다른 구독으로 이동하는 Microsoft 365 관리 센터](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
 
 > [!WARNING]
-> 항상 전체 Teams 전화 표준 요금제 라이선스를 제거하고 동일한 라이선스 활동에서 **Microsoft Teams 전화 리소스 계정** 라이선스를 할당합니다. 이전 라이선스를 제거한 경우 계정 변경 내용을 저장하고 새 라이선스를 추가한 다음 계정 설정을 다시 저장하면 리소스 계정이 더 이상 예상대로 작동하지 않을 수 있습니다. 이 경우 Microsoft Teams 전화 리소스 계정 라이선스에 대한 새 **리소스 계정을** 만들고 손상된 리소스 계정을 제거하는 것이 좋습니다.
+> 항상 **Teams 전화 표준 요금제** 라이선스를 제거하고 동일한 라이선스 활동에서 **Microsoft Teams 전화 Resource Account** 라이선스를 할당합니다. 이전 라이선스를 제거한 경우 계정 변경 내용을 저장하고 새 라이선스를 추가한 다음 계정 설정을 다시 저장하면 리소스 계정이 더 이상 예상대로 작동하지 않을 수 있습니다. 이 경우 Microsoft Teams 전화 리소스 계정 라이선스에 대한 새 **리소스 계정을** 만들고 손상된 리소스 계정을 제거하는 것이 좋습니다.
 
 ## <a name="skype-for-business-server-2019"></a>비즈니스용 Skype Server 2019
 
@@ -74,7 +75,7 @@ ms.locfileid: "69111135"
 
 서비스 번호가 보류 중 모드에서 중단되는 것을 방지하려면 삭제하기 전에 리소스 계정에서 전화 번호를 분리해야 합니다.
 
-이렇게 하면 사용자 탭 아래의 Microsoft 365 관리 센터 리소스 계정을 삭제할 수 있습니다.
+이렇게 하면 **사용자** 탭 아래의 Microsoft 365 관리 센터 리소스 계정을 삭제할 수 있습니다.
 
 리소스 계정에서 직접 라우팅 전화 번호를 연결 해제하려면 다음 cmdlet을 사용합니다.
 
