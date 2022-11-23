@@ -14,16 +14,14 @@ ms.localizationpriority: high
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb7e4a4487a5411386978fb91a70c485bfa0ddc6
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 374cda125d688c4e38797f1afbee4ae3a55bb064
+ms.sourcegitcommit: d95a3408e31d3dec37c534c110b09a8847bec724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912597"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "69156824"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>마이크로소프트 Teams의 리소스별 동의
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 RSC(리소스별 동의)는 앱이 API 엔드포인트를 사용하여 조직 내 팀의 특정 리소스를 관리할 수 있도록 하는 Microsoft Teams 및 Microsoft Graph API 통합입니다. RSC 권한을 사용하면 팀 소유자가 애플리케이션에 대한 동의를 부여하여 팀의 데이터에 액세스하고 수정할 수 있습니다. 마이크로소프트 Teams의 리소스별 동의를 통해 팀 소유자는 팀 데이터에 액세스하는 앱에 대한 동의를 얻을 수 있습니다. 이러한 액세스의 예로는 채널 메시지 읽기, 채널 만들기 및 삭제, 채널 탭 만들기 및 제거 기능이 있습니다.
 
@@ -49,7 +47,7 @@ RSC(리소스별 동의)는 앱이 API 엔드포인트를 사용하여 조직 �
 
 PowerShell을 사용하여 이 설정을 관리할 수도 있습니다. 자세한 내용은 [Configure user content to applications](/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications)(응용 프로그램에 대한 사용자 콘텐츠 구성)를 참조하세요.
 
-#### <a name="the-enablegroupspecificconsent-setting"></a>"EnableGroupSpecificConsent" 설정
+#### <a name="control-to-let-group-owners-consent-to-apps-that-access-company-data"></a>그룹 소유자가 회사 데이터에 액세스하는 앱에 동의하도록 제어
 
 이 설정은 조직의 사용자가 자신이 소유한 그룹의 회사 데이터에 액세스하는 앱에 동의할 수 있는지를 제어합니다. 팀 소유자가 동의하려면 이 설정을 동의로 설정해야 합니다. PowerShell을 사용하여 이 설정을 관리하는 방법에 대한 단계는 [그룹 데이터에 액세스하는 앱에 대한 그룹 소유자 동의 구성](/azure/active-directory/manage-apps/configure-user-consent#configure-group-owner-consent-to-apps-accessing-group-data)을 참조하세요.
 
