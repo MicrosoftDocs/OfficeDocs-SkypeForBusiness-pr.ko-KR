@@ -22,12 +22,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 701cdcd1f822018be777f6d22f2063871ea5c7fa
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: 7713f1f2bf1f3a4866751d02ba702cb2d3d244f0
+ms.sourcegitcommit: d95a3408e31d3dec37c534c110b09a8847bec724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69130867"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "69156844"
 ---
 # <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>Microsoft Teams 앱 및 해당 기능 이해
 
@@ -43,7 +43,7 @@ Teams의 앱은 사용자가 회사 도구와 서비스를 통합하고 다른 �
 
 * [Teams의 일부인 핵심 앱](#core-apps).
 * [Microsoft에서 만든 다른 앱](#apps-created-by-microsoft).
-* 파트너가 만든 [타사 앱](#third-party-apps-created-by-independent-app-developers)(Microsoft에서 유효성 검사).
+* 파트너가 만든 [타사 앱](#third-party-apps-created-by-independent-app-developers)(Microsoft 유효성 검사)
 * 사용자 고유의 조직에서 만든[사용자 지정 앱](#custom-apps-created-within-an-organization-for-internal-use).
 
 ## <a name="core-apps"></a>핵심 앱
@@ -52,7 +52,7 @@ Teams의 앱은 사용자가 회사 도구와 서비스를 통합하고 다른 �
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="핵심 앱은 기본적으로 Teams에 고정된 앱입니다." lightbox="media/core-apps-pinned2.png":::
 
-## <a name="apps-created-by-microsoft"></a>Microsoft에서 만든 앱
+## <a name="apps-created-by-microsoft"></a>Microsoft 만든 앱
 
 Microsoft는 생산성과 공동 작업을 개선하기 위해 많은 앱을 제공합니다. 사용자와 최종 사용자는 Teams 관리 센터에서 게시자로 나열되거나 Teams 스토어에서 공급자로 나열된 Microsoft를 검색하여 이러한 앱을 찾을 수 있습니다.
 
@@ -62,7 +62,7 @@ Teams는 목록, 작업, 칭찬, 승인 등의 기본 제공 앱 집합을 제�
 
 ## <a name="third-party-apps-created-by-independent-app-developers"></a>독립 앱 개발자가 만든 타사 앱
 
-Microsoft에서 제공하는 앱 외에도 타사 앱을 사용할 수 있습니다. Microsoft는 이러한 모든 앱의 기능과 보안의 유효성을 엄격하게 검사합니다. 정교한 수동 및 자동화된 테스트는 Teams 스토어에서 이러한 앱을 사용할 수 있도록 하기 전에 실행되며, 많은 테스트는 앱이 라이브로 게시된 후에도 정기적인 주기로 계속됩니다. 앱 유효성 검사의 이점을 이해하려면 [타사 앱의 유효성 검사](overview-of-app-validation.md)를 참조하세요. 일부 앱은 [Microsoft 규정 준수 프로그램을](overview-of-app-certification.md) 구독하여 유효성 검사 이외의 여러 계층의 추가 검사를 거칩니다.
+Microsoft 제공된 앱 외에도 타사 앱을 사용할 수 있습니다. Microsoft 이러한 모든 앱의 기능과 보안의 유효성을 엄격하게 검사합니다. 정교한 수동 및 자동화된 테스트는 Teams 스토어에서 이러한 앱을 사용할 수 있도록 하기 전에 실행되며, 많은 테스트는 앱이 라이브로 게시된 후에도 정기적인 주기로 계속됩니다. 앱 유효성 검사의 이점을 이해하려면 [타사 앱의 유효성 검사](overview-of-app-validation.md)를 참조하세요. 일부 앱은 [Microsoft 규정 준수 프로그램을](overview-of-app-certification.md) 구독하여 유효성 검사를 초과하는 여러 계층의 추가 검사를 거칩니다.
 
 :::image type="content" source="media/3p-apps-in-teams.png" alt-text="Teams 스토어에 있는 타사 앱의 예시 스크린샷":::
 
@@ -78,7 +78,7 @@ Microsoft에서 제공하는 앱 외에도 타사 앱을 사용할 수 있습니
 
 ## <a name="about-app-templates"></a>앱 템플릿 정보
 
-Microsoft는 앱 개발 방법을 사용하여 기능 및 프로덕션 준비 샘플 앱을 만들고 제공합니다. 전체적으로 이러한 앱은 Teams용 앱 템플릿이라고 하며 다음을 위해 제공됩니다.
+Microsoft 앱 개발 방법을 사용하여 기능 및 프로덕션 준비 샘플 앱을 만들고 제공합니다. 전체적으로 이러한 앱은 Teams용 앱 템플릿이라고 하며 다음을 위해 제공됩니다.
 
 * Teams에서 몇 가지 공동 작업 사용 사례를 보여 줍니다.
 * 앱 개발 모범 사례 및 방법을 소개합니다.
@@ -105,36 +105,29 @@ Microsoft는 앱 개발 방법을 사용하여 기능 및 프로덕션 준비 �
 
 ## <a name="understand-app-capabilities"></a>앱 기능 이해
 
-Teams 앱 기능은 통합 및 상호 작용을 가능하게 하기 위해 앱에서 빌드할 수 있는 핵심 기능입니다.
+Teams 앱 기능은 개발자가 Teams 앱의 다양한 사용 사례를 충족하기 위해 앱에서 빌드하는 핵심 기능입니다. 앱에는 다음 기능 중 하나 이상이 포함되어 있습니다. 이러한 모든 기능은 Teams 앱과 관리자가 공통 [앱 거버넌스 방법을](manage-apps.md) 사용하여 이러한 앱을 제어하는 다양한 기능입니다.
 
-:::row:::
-    :::column span="":::
-    :::column-end:::
-    :::column span="3":::
-        :::image type="content" source="media/teams-app-capabilities-group.png" alt-text="Microsoft Teams 앱의 앱 기능을 보여 주는 그래픽입니다." border="false":::
-    :::column-end:::
-    :::column:::
-    :::column-end:::
-:::row-end:::
-
-최종 사용자가 Teams 내에서 작업할 수 있는 풍부한 환경을 제공하기 위해 앱 개발자는 다음 기능을 사용하여 앱을 만듭니다.
+<!---
+        :::image type="content" source="media/teams-app-capabilities-group.png" alt-text="Graphic that shows the app capabilities of a Microsoft Teams app." border="false":::
+--->
 
 * **봇**: 봇을 챗봇 또는 대화형 봇이라고도 합니다. 간단하고 반복적인 작업을 실행하는 앱입니다. 봇 상호 작용은 빠른 질문과 대답이거나 서비스 또는 지원에 대한 액세스를 제공하는 복잡한 대화일 수 있습니다. 사용자는 개인 채팅, 채널 또는 그룹 채팅에서 봇과 대화를 나눌 수 있습니다. 자세한 내용은 [Microsoft Teams의 봇을 참조하세요](/microsoftteams/platform/bots/what-are-bots).
 
-  Teams는 개인 채팅 및 채널을 통해 봇을 지원합니다. 관리자는 Microsoft 365 혹은 Office 365 조직에서 봇의 사용을 허용할지 여부를 제어할 수 있습니다. 사용자 지정 봇을 켜거나 끄는 방법에 대한 자세한 내용은 [Teams 관리 센터의 앱 관리 및 거버넌스 개요를 참조하세요](manage-apps.md).
+* **탭**: 탭은 채널 또는 채팅의 맨 위에 고정된 Teams 인식 웹 페이지입니다. 탭을 사용하면 웹과 유사한 환경으로 콘텐츠 및 서비스와 상호 작용할 수 있습니다. 개별 사용자에 대한 팀, 그룹 채팅 또는 개인 앱 내 채널의 일부로 추가할 수 있는 간단한 HTML `iframe` 태그입니다. 자세한 내용은 [Microsoft Teams 탭을 참조하세요](/microsoftteams/platform/tabs/what-are-tabs).
 
-* **탭**: 탭은 채널 또는 채팅의 맨 위에 고정된 Teams 인식 웹 페이지입니다. 탭을 사용하면 웹과 유사한 환경으로 콘텐츠 및 서비스와 상호 작용할 수 있습니다. 앱 매니페스트에 선언된 도메인을 가리키는 간단한 HTML <iframe\> 태그이며 개별 사용자에 대한 팀, 그룹 채팅 또는 개인 앱 내 채널의 일부로 추가할 수 있습니다. 자세한 내용은 [Microsoft Teams 탭을 참조하세요](/microsoftteams/platform/tabs/what-are-tabs).
-  모든 개인 채팅에서 대화, 파일, 조직 및 활동 탭이 기본적으로 생성됩니다. 개발자는 이러한 기본 제공 탭 외에도 사용자 지정 탭을 디자인하고 추가할 수 있습니다. 자세한 내용은 [Teams에서 기본 제공 및 사용자 지정 탭 사용](/microsoftteams/platform/tabs/what-are-tabs)을 참조하세요.
-
-* **웹후크 및 커넥터**: 웹후크 및 커넥터는 웹 서비스를 Microsoft Teams의 채널 및 팀에 연결하는 데 도움이 됩니다. 웹후크는 Teams 채널에서 발생한 모든 작업에 대해 사용자에게 알리는 사용자 정의 HTTP 콜백입니다. 앱이 실시간 데이터를 가져오는 방법입니다. 커넥터를 사용하면 사용자가 웹 서비스에서 알림 및 메시지를 수신하도록 구독할 수 있습니다. 자세한 내용은 [웹후크 및 커넥터를 참조하세요](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).
+* **웹후크 및 커넥터**: 웹후크 및 커넥터는 다양한 웹 서비스를 Microsoft Teams의 채널 및 팀에 연결하는 데 도움이 됩니다. 웹후크는 Teams 채널에서 발생한 모든 작업에 대해 사용자에게 알리는 사용자 정의 HTTP 콜백입니다. 앱이 실시간 데이터를 가져오는 방법입니다. 커넥터를 사용하면 사용자가 웹 서비스에서 알림 및 메시지를 수신하도록 구독할 수 있습니다. 자세한 내용은 [웹후크 및 커넥터를 참조하세요](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).
 
   사용자가 Teams에서 사용자 지정 커넥터를 사용할 수 있도록 하려면 Teams [에서 사용자 지정 커넥터 사용을 참조하세요](office-365-custom-connectors.md).
 
 * **메시징 확장**: 메시징 확장은 앱 콘텐츠를 삽입하거나 최종 사용자가 대화에서 벗어나지 않고도 메시지에 대해 작업하는 바로 가기입니다. 사용자는 메시지 작성 영역, 명령 상자 또는 메시지에서 직접 외부 시스템에서 작업을 검색하거나 시작할 수 있습니다. 자세한 내용은 [메시지 확장을 참조하세요](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet).
 
-* **모임 확장**: 사용자는 모임 내에서 탭, 봇 및 메시지 확장을 통합하여 모임 환경을 향상시키고 모임의 생산성을 높일 수 있습니다. 다양한 참가자 역할 및 사용자 유형을 식별하고, 모임 이벤트를 얻고, 모임 내 대화 상자를 생성할 수 있습니다. 자세한 내용은 [Teams용 앱 모임을 참조하세요](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings).
+* **모임 확장**: 사용자는 모임 내에 메시지 확장을 통합하여 모임 환경을 향상시키고 모임의 생산성을 높일 수 있습니다. 다양한 참가자 역할 및 사용자 유형을 식별하고, 모임 이벤트를 얻고, 모임 내 대화 상자를 생성할 수 있습니다. 자세한 내용은 [Teams용 앱 모임을 참조하세요](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings).
 
-* **카드 및 작업 모듈**: 카드는 사용자에게 다양한 시각적, 오디오 및 선택 가능한 메시지를 제공하고 대화 흐름에 도움을 줍니다. 작업 모듈은 Microsoft Teams에서 모달 팝업 환경을 만드는 데 도움이 됩니다. 작업을 시작하고 완료하거나 비디오 또는 BI(Power Business Intelligence) 대시보드와 같은 풍부한 정보를 표시하는 데 유용합니다. 자세한 내용은 [카드 및 작업 모듈을 참조하세요](/microsoftteams/platform/task-modules-and-cards/cards-and-task-modules).
+<!---
+* **Cards and task modules**: Cards provide users with various visual, audio, and selectable messages and help in conversation flow. Task modules help you create modal pop-up experiences in Microsoft Teams. They're useful for starting and completing the tasks, or displaying rich information like videos or Power business intelligence (BI) dashboards. For more information, see [Cards and task modules](/microsoftteams/platform/task-modules-and-cards/cards-and-task-modules).
+--->
+
+* **활동 피드**: Teams의 활동 피드에는 채널 및 채팅과 같은 다양한 범위의 모든 활동에 대한 알림이 포함되어 있습니다. 앱은 팀 또는 채널의 모든 구성원에게 메시지를 브로드캐스트하여 업데이트를 알릴 수 있습니다. 사용자는 자신이 보는 알림을 사용자 지정할 수 있습니다.
 
 Teams 기능에 매핑된 일반적인 사용 사례를 보려면 [사용 사례를 Teams 앱 기능에 매핑을 참조하세요](/microsoftteams/platform/concepts/design/map-use-cases).
 
@@ -143,4 +136,3 @@ Teams 기능에 매핑된 일반적인 사용 사례를 보려면 [사용 사례
 * [Teams용 앱 템플릿에 대해 자세히 알아보세요](/microsoftteams/platform/samples/app-templates).
 * [Teams 앱 업데이트 및 관리자 역할](apps-update-experience.md)
 * [Teams 관리 센터의 앱 관리 및 거버넌스 개요](manage-apps.md)
-
