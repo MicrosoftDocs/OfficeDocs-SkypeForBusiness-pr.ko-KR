@@ -17,22 +17,22 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 이 문서에서는 Teams 패널 디바이스를 사용하는 방법에 대한 지침을 제공합니다.
-ms.openlocfilehash: fff3df797e043b83662aacc9a67ef1af45b733a4
-ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
+ms.openlocfilehash: b5dbe92b1c2c3f08683ca58a403fdbb4e318efca
+ms.sourcegitcommit: 75b29de261b4de652c7f2e89da4ad7158da773f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "68801779"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "69183007"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>Microsoft Teams 패널을 사용하는 방법
 
-Microsoft Teams 패널은 일반적으로 입구 옆에 있는 모임 공간 바로 바깥에 탑재된 컴팩트한 디지털 디스플레이 장치입니다. 이러한 터치 스크린 패널은 모임 공간 및 예약된 모임에 대한 한눈에 볼 수 있는 전용 Microsoft Teams 장치입니다. 생동감 넘치는 색으로 구분된 LED 및 홈 화면 표시기를 사용하여 공간을 사용할 수 있는지 아니면 멀리서 예약했는지 확인할 수 있습니다. Teams 패널을 사용하여 임시 모임에 사용할 수 있는 모임 공간을 예약할 수 있습니다.
+Microsoft Teams 패널은 일반적으로 입구 옆에 있는 모임 공간 바로 바깥쪽에 탑재된 컴팩트한 디지털 디스플레이 장치입니다. 이러한 터치 스크린 패널은 모임 공간 및 예약된 모임에 대한 한눈에 볼 수 있는 전용 Microsoft Teams 장치입니다. 생동감 넘치는 색으로 구분된 LED 및 홈 화면 표시기를 사용하여 공간을 사용할 수 있는지 아니면 멀리서 예약했는지 확인할 수 있습니다. Teams 패널을 사용하여 임시 모임에 사용할 수 있는 모임 공간을 예약할 수 있습니다.
 
 Teams 패널 디바이스는 Microsoft Teams와 함께 사전 설치되며 Outlook 또는 Teams 일정을 통해 예약된 모임 세부 정보를 표시합니다.
 
 이 문서에서는 최종 사용자와 관리자 모두에게 Teams 패널 디바이스를 사용하는 방법에 대한 지침을 제공합니다. 또한 이러한 디바이스 사용에 대한 [질문과 대답](#frequently-asked-questions) 을 제공합니다.
 
-패널 디바이스에 대한 개요와 조직에서 이를 계획, 제공 및 관리하는 방법에 대한 지침은 [Microsoft Teams 패널 배포를 참조하세요](teams-panels.md).
+패널 디바이스에 대한 개요와 조직에서 패널 디바이스를 계획, 제공 및 관리하는 방법에 대한 지침은 [Microsoft Teams 패널 배포를 참조하세요](teams-panels.md).
 
 빠른 시작은 [Teams 패널 시작을 참조하세요](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be).
 
@@ -125,7 +125,7 @@ Teams 패널 디바이스를 사용하여 다음을 수행합니다.
     :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="임시 모임을 위해 모임 공간이 예약되어 있음을 보여 주는 홈 화면":::
 
     > [!NOTE]
-    > 모임 공간이 Microsoft Teams 룸인 경우 이 Teams 모임에 회의실 내 Microsoft Teams 룸 또는 Surface Hub 디바이스에 _참가_ 할 수 있습니다.
+    > 모임 공간이 Microsoft Teams 룸인 경우 이 Teams 모임에 회의실 Microsoft Teams 룸 또는 Surface Hub 디바이스를 사용하여 _참가_ 할 수 있습니다.
 
 ### <a name="report-a-problem"></a>문제 보고
 
@@ -186,7 +186,7 @@ Teams 패널 디바이스를 사용하여 다음을 수행합니다.
 > [!NOTE]
 > 일부 OEM은 **Teams 관리자 설정** 옵션을 사용자 지정 옵션으로 바꿀 수 있습니다. **Teams 관리자 설정** 옵션이 표시되지 않으면 디바이스 설명서에서 패널의 관리자 설정에 액세스하는 방법에 대한 지침을 확인합니다.
 
-#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Android의 Microsoft Teams 룸과 Teams 패널 페어링
+#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Android에서 Microsoft Teams 룸과 Teams 패널 페어링
 
 Android에서 Teams 패널 Teams 룸을 페어링하려면 두 디바이스 모두 동일한 리소스 계정에 로그인해야 합니다.
 
@@ -200,15 +200,18 @@ Teams 패널 관리자 자격 증명을 사용하여 로그인합니다.
 
 체크 인 및 회의실 릴리스 설정을 사용하면 사용자가 모임 시작 시 예약한 회의실의 Teams 패널에서 모임에 체크 인할 수 있습니다. 사용자가 모임 시작 시간 이후에 설정된 시간 내에 체크인하지 않으면 회의실이 해제되고 다른 사용자가 예약할 수 있게 됩니다.
 
-Teams 패널을 Android의 Microsoft Teams 룸과 페어링하면 모임이 늦게 실행될 때 체크 인 알림이 회의실 전면 디스플레이에 표시되도록 설정할 수 있습니다.
+Teams 패널을 Android의 Microsoft Teams 룸과 페어링하면 모임이 늦게 실행될 때 회의실 전면 디스플레이에 체크 인 알림이 표시되도록 설정할 수 있습니다.
 
-체크인 및 객실 릴리스를 사용하도록 설정하려면 [Microsoft Teams 패널의 체크인 및 객실 릴리스를 참조하세요](check-in-and-room-release.md).
+체크인 및 회의실 릴리스를 사용하도록 설정하려면 [Microsoft Teams 패널의 체크인 및 객실 릴리스를 참조하세요](check-in-and-room-release.md).
 
 #### <a name="enable-or-disable-check-out-manual-room-release"></a>체크 아웃 사용 또는 사용 안 함(수동 회의실 릴리스)
 
 체크 아웃을 사용하도록 설정하면 최종 사용자가 Teams 패널 사용하여 회의실을 수동으로 해제할 수 있습니다. 객실을 해제하면 현재 예약이 종료되고 다른 사용자가 예약할 수 있습니다.
 
 이 기능은 기본적으로 사용하지 않도록 설정되지만 디바이스별로 사용하도록 설정할 수 있습니다. 이 기능을 사용하도록 설정하려면 **설정 > 디바이스 설정 > Teams 관리자 설정 > 모임** 으로 이동한 다음 **체크 아웃** 을 켭니다.
+
+> [!NOTE]
+> 예약 예약이 끝나기 전에 회의실이 해제된 경우 이끌이는 회의실에서 거절하는 전자 메일 메시지를 받게 됩니다. 이는 다른 사용자가 예약할 수 있도록 회의실이 일정에서 예약을 제거하기 때문에 발생합니다. 예약을 거부하는 메시지는 무시할 수 있습니다.
 
 > [!NOTE]
 > 쌍을 이루는 Teams 룸 디바이스가 활성 호출에 있는 경우 Teams 패널 사용하여 회의실을 해제할 수 없습니다.

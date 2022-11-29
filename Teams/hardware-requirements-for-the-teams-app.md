@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1bd04b590a789756d0b41153b886be8ba6d777e7
-ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
+ms.openlocfilehash: 3de0ed17ceee33106e3281707d90427569558922
+ms.sourcegitcommit: 75b29de261b4de652c7f2e89da4ad7158da773f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "68928508"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "69183017"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams의 하드웨어 요구 사항
 
@@ -44,7 +44,7 @@ ms.locfileid: "68928508"
 |.NET 버전    |  .NET 4.5 CLR 이상 필요       |
 |비디오    |  USB 2.0 비디오 카메라       |
 |장치    |   표준 노트북 카메라, 마이크 및 스피커    |
-|화상 통화 및 모임|<ul><li>2코어 프로세서가 필요합니다. 비디오/화면 공유 해상도 및 프레임 속도 향상을 위해 4코어 프로세서 이상을 권장합니다.</li> <li>배경 비디오 효과에는 Windows 10 또는 AVX2 명령 집합이 있는 프로세서가 필요합니다.</li> <li>지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조하세요.</li><li>Microsoft Teams 룸에서 근접 검색을 사용하여 모임에 참가하려면 Bluetooth LE가 필요합니다. Windows의 Bluetooth LE를 사용하려면 클라이언트 디바이스에서 Bluetooth를 사용하도록 설정해야 하며 64비트 버전의 Teams 클라이언트가 필요합니다. 이 기능은 32비트 Teams 클라이언트에서는 사용할 수 없습니다.</li></ul> |
+|화상 통화 및 모임|<ul><li>2코어 프로세서가 필요합니다. 비디오/화면 공유 해상도 및 프레임 속도 향상을 위해 4코어 프로세서 이상을 권장합니다.</li> <li>배경 비디오 효과에는 Windows 10 또는 AVX2 명령 집합이 있는 프로세서가 필요합니다.</li> <li>지원되지 않는 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조하세요.</li><li>Microsoft Teams 룸 근접 검색을 사용하여 모임에 참가하려면 Bluetooth LE가 필요합니다. Windows의 Bluetooth LE를 사용하려면 클라이언트 디바이스에서 Bluetooth를 사용하도록 설정해야 하며 64비트 버전의 Teams 클라이언트가 필요합니다. 이 기능은 32비트 Teams 클라이언트에서는 사용할 수 없습니다.</li></ul> |
 |Teams 라이브 이벤트 | Teams 라이브 이벤트를 생성하는 경우 Core i5 Kaby Lake 프로세서, 4.0GB RAM 이상 및 하드웨어 인코더가 있는 컴퓨터를 사용하는 것이 좋습니다. **지원되지 않는** 디코더 및 인코더 목록은 [하드웨어 디코더 및 인코더 드라이버 권장 사항](hardware-decoders-and-encoders.md)을 참조하세요. |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Mac용 Teams 하드웨어 요구 사항
