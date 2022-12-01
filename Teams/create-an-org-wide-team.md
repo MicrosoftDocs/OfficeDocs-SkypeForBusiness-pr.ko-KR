@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams의 조직 전체 팀을 사용하여 모든 사용자가 공동 작업할 수 있도록 지원
+title: Microsoft Teams에서 조직 전체 팀을 사용하여 모든 사용자가 공동 작업할 수 있도록 지원
 ms.author: mikeplum
 author: MikePlumleyMSFT
 ms.reviewer: phlouie
@@ -18,15 +18,17 @@ ms.collection:
 - ContentEnagagementFY23
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ee17d482c311a4bdd92ebad55e29058104a89b98
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+ms.custom:
+- seo-marvel-apr2020
+- chat-teams-channels-revamp
+ms.openlocfilehash: 5acc918c4fbe3994a93020e7b4b09db4ab1671f3
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68890057"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198920"
 ---
-# <a name="use-organization-wide-teams-in-microsoft-teams-to-help-everyone-collaborate"></a>Microsoft Teams의 조직 전체 팀을 사용하여 모든 사용자가 공동 작업할 수 있도록 지원
+# <a name="use-organization-wide-teams-in-microsoft-teams-to-help-everyone-collaborate"></a>Microsoft Teams에서 조직 전체 팀을 사용하여 모든 사용자가 공동 작업할 수 있도록 지원
 
 글로벌 관리자는 중소 규모의 조직의 모든 사람이 단일 공동 작업 팀의 일원이 될 수 있는 방법을 제공하는 조직 전체 팀을 만들 수 있습니다. 조직 전체 팀은 자동으로 조직의 모든 사용자를 포함하고 사용자가 조직에 가입하고 나갈 때 멤버 자격을 최신 상태로 유지합니다.
 

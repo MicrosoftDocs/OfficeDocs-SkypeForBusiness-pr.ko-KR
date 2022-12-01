@@ -8,6 +8,7 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 - m365initiative-securecollab
@@ -18,12 +19,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams에서 비공개 채널을 사용하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: f5513b5b86e77a49978e1dcd1cd09f6e12bff70a
-ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
+ms.openlocfilehash: d1a97d904d61044c693addb364cbafbf4d46b9a3
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "68962953"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198870"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams의 비공개 채널
 

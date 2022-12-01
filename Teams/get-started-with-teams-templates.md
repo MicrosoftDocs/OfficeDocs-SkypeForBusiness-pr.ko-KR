@@ -20,23 +20,24 @@ f1.keywords:
 ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
+- chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4560e5845b2f9beabc8227d79bebc889c9d42c37
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: cc753913c90703295180765d7961c3747063011f
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131127"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198300"
 ---
 # <a name="get-started-with-team-templates-using-microsoft-graph"></a>Microsoft Graph를 사용하여 팀 템플릿 시작하기
 
 > [!NOTE]
 > 팀 템플릿은 현재 비공개 채널 만들기를 지원하지 않습니다. 프라이빗 채널 만들기는 템플릿 정의에 포함되지 않습니다.
 
-Microsoft Teams의 팀 템플릿은 비즈니스 요구 사항 또는 프로젝트를 중심으로 설계된 팀의 구조에 대한 정의입니다. 팀 템플릿을 사용하면 미리 정의된 설정, 채널 및 앱을 사용하여 풍부한 공동 작업 공간을 빠르고 쉽게 만들 수 있습니다. 팀 템플릿은 조직 전체에 일관된 팀을 배포하는 데 도움이 될 수 있습니다.
+Microsoft Teams의 팀 템플릿은 비즈니스 요구 사항 또는 프로젝트를 중심으로 설계된 팀 구조의 정의입니다. 팀 템플릿을 사용하면 미리 정의된 설정, 채널 및 앱을 사용하여 풍부한 공동 작업 공간을 빠르고 쉽게 만들 수 있습니다. 팀 템플릿은 조직 전체에 일관된 팀을 배포하는 데 도움이 될 수 있습니다.
 
-Microsoft Graph를 사용하면 [고유한 템플릿을 만들](/graph/api/resources/teamtemplate?view=graph-rest-beta) 거나 Teams에 포함된 미리 빌드된 팀 템플릿을 사용하여 팀을 만들 수 있습니다. 이 문서에서는 템플릿에서 정의할 수 있는 속성과 Microsoft Graph에서만 사용할 수 있는 미리 빌드된 템플릿에 대해 알아봅니다.
+Microsoft 그래프를 사용하면 [고유한 템플릿을 만들](/graph/api/resources/teamtemplate?view=graph-rest-beta&preserve-view=true)거나 Teams에 포함된 미리 빌드된 팀 템플릿을 사용하여 팀을 만들 수 있습니다. 이 문서에서는 템플릿에서 정의할 수 있는 속성과 Microsoft Graph에서만 사용할 수 있는 미리 빌드된 템플릿에 대해 알아봅니다.
 
 이 문서는 다음과 같은 경우에 적합합니다.
 
@@ -78,5 +79,5 @@ Microsoft Graph를 사용하면 [고유한 템플릿을 만들](/graph/api/resou
 ## <a name="related-articles"></a>관련 기사
 
 - [Teams 관리 센터에서 팀 템플릿 시작하기](get-started-with-teams-templates-in-the-admin-console.md)
-- [팀 만들기](/graph/api/team-post?view=graph-rest-beta) (미리 보기)
-- [New-Team](/powershell/module/teams/New-Team?view=teams-ps)
+- [팀 만들기](/graph/api/team-post?view=graph-rest-beta&preserve-view=true) (미리 보기)
+- [New-Team](/powershell/module/teams/New-Team?view=teams-ps&preserve-view=true)

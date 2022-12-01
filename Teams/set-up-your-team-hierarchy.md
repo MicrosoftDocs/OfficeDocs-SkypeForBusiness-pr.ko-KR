@@ -12,14 +12,15 @@ audience: admin
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: dc4e7e88e855432f17c7daed9584e20e0e4739f1
-ms.sourcegitcommit: fcbbc197e43bcd63bf95cb329df9cb52e06ee356
+ms.openlocfilehash: 93b8b06238b0f6e15ab5fac5dcb0caeece819d9e
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "68842116"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198360"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>팀 대상 계층 구조 설정
 
@@ -268,7 +269,7 @@ Description: TeamID in row # doesn't match a valid Group ID. Please view our doc
 
 스키마 CSV 파일에서 팀에 올바른 TeamId를 사용하고 있는지 확인합니다. TeamId는 팀을 뒷받침하는 Microsoft 365 그룹의 그룹 ID와 동일해야 합니다. Microsoft Teams 관리 센터에서 팀의 그룹 ID를 조회할 수 있습니다.
 
-1. [Microsoft Teams 관리 센터의](https://admin.teams.microsoft.com/) 왼쪽 탐색 영역에서 **Teams 팀** > **관리** 로 이동합니다.
+1. [Microsoft Teams 관리 센터의](https://admin.teams.microsoft.com/) 왼쪽 탐색 영역에서 Teams **팀** > **관리** 로 이동합니다.
 2. **그룹 ID** 열이 테이블에 표시되지 않으면 테이블의 오른쪽 위 모서리에 있는 **열 편집** 을 선택한 다음 **그룹 ID** 를 켭니다.
 3. 목록에서 팀을 찾은 다음 그룹 ID를 찾습니다.
 

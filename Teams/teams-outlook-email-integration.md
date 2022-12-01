@@ -12,18 +12,19 @@ search.appverid: MET150
 description: Microsoft Teams 대화의 실행 가능한 활동 전자 메일을 사용하도록 설정하고 사용하지 않도록 설정하는 방법에 대해 알아봅니다.
 ms.collection:
 - M365-collaboration
+ms.custom: chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43435c436685c53e0ad077887a9fe9d991cf2d61
-ms.sourcegitcommit: f5480d0ca34b3160980a4b46b5afa34271293a26
+ms.openlocfilehash: de1bd12a0f079154a37156e3a01c3e5791bef10c
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68899692"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198510"
 ---
 # <a name="manage-actionable-activity-emails"></a>실행 가능한 활동 전자 메일 관리
 
-실행 가능한 활동 이메일은 기본적으로 사용하도록 설정되며 Microsoft Teams에서 누락된 대화를 조직 내 사용자에게 알립니다.
+실행 가능한 활동 전자 메일은 기본적으로 사용하도록 설정되며 조직의 사용자에게 Microsoft Teams에서 누락된 대화를 알립니다.
 
 누락된 활동 전자 메일은 누락된 메시지 후에 보낸 메시지를 포함하여 대화에 대한 최신 회신을 보여줍니다. 이 기능을 사용하면 사용자가 **회신** 을 선택하여 Outlook에서 직접 회신할 수 있습니다.
 

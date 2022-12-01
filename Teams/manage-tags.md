@@ -8,19 +8,20 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Microsoft Teams의 조직에서 태그를 사용하는 방법을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 56a2daf53c362accec8059b11fba400547a7b6ff
-ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
+description: Microsoft Teams에서 조직에서 태그를 사용하는 방법을 관리하는 방법을 알아봅니다.
+ms.openlocfilehash: ddf7956486db8bbd483ddde9d51c568450a7fe45
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2022
-ms.locfileid: "68869563"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69199120"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Microsoft Teams에서 태그 관리
 

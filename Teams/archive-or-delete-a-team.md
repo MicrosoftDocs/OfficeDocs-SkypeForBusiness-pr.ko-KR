@@ -15,16 +15,17 @@ f1.keywords:
 ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
+- chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9178bb793f25d9c052041432c20af4be8fb4033
-ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
+ms.openlocfilehash: 79a9472286a7e08e8c6dce4c4f40d76b7e4f2b4e
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2022
-ms.locfileid: "68792787"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198970"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft Teams에서 팀 보관 또는 삭제하기
 
@@ -69,7 +70,7 @@ ms.locfileid: "68792787"
 
 ## <a name="restore-a-deleted-team"></a>삭제된 작업 복원하기
 
-팀과 연결된 Microsoft 365 그룹을 복원하여 삭제된 팀을 복원하려면 다음 단계를 수행합니다. 팀을 위해 Microsoft 365 그룹을 복원하면 탭, 표준 채널, 비공개 채널 및 관련 사이트 모음을 비롯한 팀 콘텐츠가 복원됩니다.
+팀과 연결된 Microsoft 365 그룹을 복원하여 삭제된 팀을 복원하려면 다음 단계를 수행합니다. 팀의 Microsoft 365 그룹을 복원하면 탭, 표준 채널, 개인 채널 및 관련 사이트 모음을 비롯한 팀 콘텐츠가 복원됩니다.
 
 기본적으로 삭제된 Microsoft 365 그룹은 30일 동안 유지됩니다. 이 30일의 기간을 “일시 삭제”라고 하며 이 기간 동안 그룹을 복원할 수 있습니다. 자세한 내용은 [삭제된 그룹 복원을 참조하세요](/microsoft-365/admin/create-groups/restore-deleted-group).
 

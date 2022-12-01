@@ -11,7 +11,9 @@ search.appverid: MET150
 ms.localizationpriority: high
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
+ms.custom:
+- ms.teamsadmincenter.orgwidesettings.guestaccess.overview
+- chat-teams-channels-revamp
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
@@ -19,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams의 게스트 액세스를 사용하면 조직의 팀에서 팀과 채널에 대한 액세스 권한을 부여하여 조직 외부의 사용자와 공동 작업을 할 수 있습니다.
-ms.openlocfilehash: d7f850855ab131267b20bae07b015127777a21f4
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
-ms.translationtype: HT
+ms.openlocfilehash: 399cd1c0aecb7377292810b26cd123873405f547
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839069"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198470"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams의 게스트 액세스
 
@@ -35,16 +37,16 @@ ms.locfileid: "64839069"
 
 게스트는 조직에 학교 또는 회사 계정이 없는 사람입니다. 예를 들어, 게스트에는 파트너, 공급 업체, 공급자 또는 컨설턴트 등이 포함될 수 있습니다. 조직에 속하지 않은 사용자를 Teams에서 게스트로 추가할 수 있습니다. 비즈니스 계정 (즉, Azure Active Directory 계정) 또는 소비자 전자 메일 계정 (Outlook.com, Gmail.com 또는 기타 사용자)이 있는 모든 사용자는 팀과 채널 환경에 대한 액세스 권한을 가지고 Teams에 게스트로 참여할 수 있습니다.
 
-Teams에 게스트를 초대하면 Azure Active Directory에 게스트 계정이 만들어지고 다른 Microsoft 365 사용자와 동일한 규정 준수 및 감사 보호가 적용됩니다. 게스트 액세스에는 Azure AD 및 Microsoft 365 서비스 제한이 적용됩니다.
+When you invite a guest to Teams, a guest account is created for them in Azure Active Directory and they are covered by the same compliance and auditing protection as other Microsoft 365 users. Guest access is subject to Azure AD and Microsoft 365 service limits.
 
-게스트 환경에는 설계상 제한이 있습니다. 게스트가 Teams에서 수행할 수 있는 작업과 수행할 수 없는 작업에 대한 전체 목록은 [Microsoft Teams의 게스트 액세스](guest-experience.md)를 참조하세요.
+The guest experience has limitations by design. For a full list of what a guest can and can't do in Teams, see [Guest access in Microsoft Teams](guest-experience.md).
 
 > [!IMPORTANT]
-> 게스트는 동시 업그레이드 모드를 위해 Temas 조직 전체 설정을 따릅니다. 이 항목은 변경할 수 없습니다.
+> Guests follow Teams Org-wide settings for the coexistence Upgrade mode. This can't be changed.
 
 외부 액세스 (페더레이션)와 게스트 액세스를 비교하려면 (어느 것을 사용할 지 결정하려면) [Teams의 다른 조직의 사용자와 커뮤니케이션](communicate-with-users-from-other-organizations.md)을 참조하세요.
 
-공유 채널은 게스트 액세스에 대한 대안을 제공하므로 Azure AD에서 게스트 계정을 요구하지 않고도 조직 외부의 사용자를 초대할 수 있습니다. 게스트 액세스를 공유 채널과 비교하려면 [외부 공동 작업 계획](/microsoft-365/solutions/plan-external-collaboration)을 참조하세요.
+Shared channels offer an alternative to guest access, allowing you to invite people outside your organization without requiring a guest account in Azure AD. To compare guest access with shared channels, see [Plan external collaboration](/microsoft-365/solutions/plan-external-collaboration).
 
 게스트 액세스를 설정하려면 [팀에서 게스트와 공동 작업](/microsoft-365/solutions/collaborate-as-team)을 참조하세요. 
 

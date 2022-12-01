@@ -19,14 +19,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ca199dbe81b2636a895ca25386abf53f6277758
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: a92848867cfa10782fdbb2d465fdd44f59ab9f8d
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131337"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198480"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Teams 관리 센터에서 팀 템플릿 시작하기
 
@@ -39,7 +40,7 @@ ms.locfileid: "69131337"
 
 ## <a name="overview"></a>개요
 
-Microsoft Teams의 팀 템플릿은 비즈니스 요구 사항 또는 프로젝트를 중심으로 설계된 팀의 구조에 대한 정의입니다. 관리자는 템플릿을 사용하여 조직 전체에 일관된 팀을 쉽게 배포할 수 있습니다. 템플릿을 사용하면 사용자가 미리 정의된 설정, 채널 및 앱을 사용하여 풍부한 공동 작업 공간을 빠르게 만들 수 있습니다.
+Microsoft Teams의 팀 템플릿은 비즈니스 요구 사항 또는 프로젝트를 중심으로 설계된 팀 구조의 정의입니다. 관리자는 템플릿을 사용하여 조직 전체에 일관된 팀을 쉽게 배포할 수 있습니다. 템플릿을 사용하면 사용자가 미리 정의된 설정, 채널 및 앱을 사용하여 풍부한 공동 작업 공간을 빠르게 만들 수 있습니다.
 
 Microsoft Teams 관리 센터에서 또는 PowerShell을 사용하여 팀 템플릿을 관리할 수 있습니다. Microsoft에서 제공하는 미리 빌드된 템플릿을 사용할 수 있으며 [사용자 고유의 사용자 지정 템플릿을 만들 수도 있습니다](#create-your-own-team-templates). [템플릿 정책을 적용](#apply-team-template-policies)하여 Teams에서 사용자가 사용할 수 있는 템플릿을 제어할 수도 있습니다.
 

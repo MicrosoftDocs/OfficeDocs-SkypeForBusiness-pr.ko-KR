@@ -14,16 +14,18 @@ ms.reviewer: rafarhi
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-ms.custom: seo-marvel-mar2020
+ms.custom:
+- seo-marvel-mar2020
+- chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
 description: 관리자는 Microsoft Teams 데스크톱 및 웹 클라이언트 및 Azure Active Directory B2B 협업 포털에서 조직에 새 게스트를 추가하는 방법을 알아볼 수 있습니다.
-ms.openlocfilehash: 17ba8ff379566208a186857071310f6b7c6fd416
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 1427b523f2e9e8ec802a8e8d3459f9edadbb68ca
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268133"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69199140"
 ---
 # <a name="add-a-guest-to-a-team"></a>팀에 게스트 추가
 
@@ -39,15 +41,15 @@ ms.locfileid: "67268133"
 
 Azure AD B2B 공동 작업을 통해 조직에서는 B2B 사용자에 대한 조건부 액세스 및 MFA(Multi-Factor Authentication) 정책을 적용할 수 있습니다. 조직의 전일제 직원과 구성원에 대해 이러한 정책을 사용하는 것과 같은 방법으로 이러한 정책을 테넌트, 앱 또는 개별 사용자 수준에서 적용할 수 있습니다. 이러한 정책은 리소스 조직에서 적용됩니다. 자세한 내용은 [B2B 공동 작업 사용자에 대한 조건부 액세스](/azure/active-directory/external-identities/conditional-access)를 참조하세요. 개별 게스트는 차단할 수 없습니다.
 
-Azure AD B2B, Microsoft 365 그룹 또는 SharePoint를 통해 이미 추가한 게스트를 사용할 수 있습니다. Microsoft 365 관리자 또는 팀 소유자는 해당 게스트를 해당 팀에 추가할 수 있습니다. 팀과 연결된 Microsoft 365 그룹에 게스트를 직접 추가하는 경우 게스트는 팀에 액세스할 수 있지만 Microsoft 365 그룹은 게스트에게 초대 이메일을 생성하지 않으므로 팀의 누군가가 게스트에게 알려야 합니다.
+Azure AD B2B, Microsoft 365 그룹 또는 SharePoint를 통해 이미 추가한 게스트는 사용할 준비가 된 것입니다. Microsoft 365 관리자 또는 팀 소유자는 해당 게스트를 해당 팀에 추가할 수 있습니다. 팀과 연결된 Microsoft 365 그룹에 게스트를 직접 추가하는 경우 게스트는 팀에 액세스할 수 있지만 Microsoft 365 그룹은 게스트에게 초대 이메일을 생성하지 않으므로 팀의 누군가가 게스트에게 알려야 합니다.
 
 > [!NOTE]
 > 게스트는 [Microsoft 365 또는 Office 365](/office365/servicedescriptions/office-365-service-descriptions-technet-library) 및 [Azure Active Directory](/azure/active-directory/external-identities/current-limitations) 서비스 제한에 영향을 받습니다.
 
-Azure AD 또는 Microsoft 365 보안 센터에서 게스트 추가를 추적할 수 있습니다. Microsoft Teams에서 게스트 추가가 감사되고 Azure AD 그룹 관리 작업 “그룹에 구성원이 추가됨”으로 기록됩니다. 자세한 내용은 [B2B 협업 사용자 감사 및 보고를](/azure/active-directory/external-identities/auditing-and-reporting) 참조하고 [규정 준수 센터에서 감사 로그를 검색](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)합니다.
+Azure AD 또는 Microsoft 365 보안 센터에서 게스트 추가를 추적할 수 있습니다. Microsoft Teams에서 게스트 추가가 감사되고 Azure AD 그룹 관리 작업 “그룹에 구성원이 추가됨”으로 기록됩니다. 자세한 내용은 [B2B 협업 사용자 감사 및 보고](/azure/active-directory/external-identities/auditing-and-reporting) 및 [규정 준수 센터에서 감사 로그 검색을 참조하세요](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Microsoft Teams에서 게스트 액세스 권한 부여](teams-dependencies.md)
 

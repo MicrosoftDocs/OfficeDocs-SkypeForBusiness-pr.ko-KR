@@ -18,13 +18,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
+- chat-teams-channels-revamp
 description: 'Advisor for Teams로 Microsoft Teams 사용을 계획하고 성공적으로 배포하세요.  '
-ms.openlocfilehash: 795765459c7796449379fe4c8fb327140a19e9e2
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: e691a224679b8026ec91ecf3b1b5c16f6016c20e
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268823"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198330"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Advisor for Teams를 사용하여 Microsoft Teams 배포
 
@@ -142,7 +143,7 @@ Teams용 어드바이저가 배포 팀을 만들면 어드바이저 봇에서 �
 >
 
 > [!IMPORTANT]
-> Advisor for Teams 봇은 배포 팀에 환영 메시지를 보내는 데만 사용됩니다. 추가 데이터는 수집되지 않습니다.
+> Advisor for Teams 봇은 배포 팀에 환영 메시지를 보내는 데만 사용됩니다. 추가 데이터가 수집되지 않습니다.
 
 > [!IMPORTANT]
 > Teams용 어드바이저 봇은 기본적으로 사용하도록 설정되어 있습니다. Teams용 어드바이저를 사용할 계획인 경우 사용을 해제하지 않습니다.
@@ -212,7 +213,7 @@ Teams 지원 센터 및 챔피언을 준비하는 방법에 대한 지침 및 �
 
 사이트를 사용자 지정하고 학습 계획을 종합한 다음 사용자가 학습 경로를 통해 지속적인 학습을 하도록 장려할 수 있는 방법을 생각해 보세요.
 
-통신 채널을 사용하여 사이트를 홍보하고 인지도를 높이세요. 예를 들어, 사용자와 소통할 때 "Teams로 생산성을 높이는 방법에 대한 교육 및 지원 사이트를 확인"과 같은 표준 태그 라인을 포함하세요.
+Use your communication channels to promote the site and generate awareness. For example, include a standard tagline such as “Check out our training and support site for how to get productive with Teams” in communications to your users.
 
 팀별로 공동 작업할 수 있는 방법을 강조 표시하여 사용자를 참여시키고 학습 경로 사이트로 안내하여 학습 방법을 학습할 수 있습니다.
 
@@ -258,7 +259,7 @@ Advisor for Teams에서는 EUII(최종 사용자 식별 정보) 이외의 정보
 
 ### <a name="can-i-use-advisor-for-teams-with-fasttrack"></a>Teams용 어드바이저를 FastTrack과 사용할 수 있나요?
 
-예, FastTrack은 Teams를 구축하려는 모든 고객을 위해 Teams용 어드바이저를 활용합니다. Teams용 어드바이저(필요할 경우)를 사용하여 배포 팀 초기 설정을 지원하고 Teams 롤아웃 중 특정 주제에 대해 필요할 경우 지원을 제공할 수도 있습니다.
+Yes, FastTrack leverages Advisor for Teams for all customers looking to deploy Teams. They can assist with the initial setup of your Deployment team using Advisor for Teams (if required) and also provide as-needed support on specific topics during your Teams rollout.
 
 ### <a name="can-i-use-advisor-for-teams-with-a-partner"></a>Teams용 어드바이저를 파트너와 함께 사용할 수 있나요?
 

@@ -7,6 +7,7 @@ ms.reviewer: vinbel, luises
 ms.topic: article
 ms.service: msteams
 audience: admin
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
@@ -18,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: 외부 액세스 및 게스트 액세스를 사용하여 Microsoft Teams에서 외부 조직의 사용자와 통화, 채팅, 검색 및 추가하는 방법을 알아봅니다.
-ms.openlocfilehash: 14b1bee39caacc6465c64dbb2151cbeed936b3ff
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: f416453a93c07945f9df55c863f76cbb8b736a78
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418467"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198320"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>게스트 액세스 및 외부 액세스를 사용하여 조직 외부 사용자와 공동 작업
 
@@ -64,7 +65,7 @@ Teams, 비즈니스용 Skype(온라인 또는온-프레미스) 또는 Skype를 �
 
 게스트 액세스를 사용하여 조직 외부의 사람을 팀에 추가하여 채팅, 통화, 미팅, 파일 공동 작업을 할 수 있습니다. 게스트는 기본 팀 구성원과 거의 동일한 모든 Teams 기능을 제공받을 수 있습니다. 자세한 내용은 [Teams의 게스트 환경](guest-experience.md)을 참조하세요.
 
-게스트는 조직의 Azure Active Directory에 B2B 공동 작업 사용자로 추가되며 게스트 계정을 사용하여 Teams에 로그인해야 합니다. 즉, 조직에 로그인하기 위해 자신의 조직에서 로그아웃해야 할 수 있습니다.
+게스트는 조직의 Azure Active Directory에 B2B 협업 사용자로 추가되며 게스트 계정을 사용하여 Teams에 로그인해야 합니다. 즉, 조직에 로그인하기 위해 자신의 조직에서 로그아웃해야 할 수 있습니다.
 
 게스트 액세스는 다음 테넌트에서 사용할 수 있습니다.
 
@@ -116,7 +117,7 @@ Teams에서 게스트 액세스를 구성하려면 [팀에서 게스트와 공�
 <sup>1</sup> 사용자가 게스트로 추가되어 있고 게스트 계정으로 로그인되어 있는 경우 제공됩니다.<br>
 <sup>2</sup> 전자 메일 또는 SIP(Session Initiation Protocol) 주소만 해당됩니다.<br>
 <sup>3</sup> 서로 다른 두 조직의 Teams 전용 사용자에게 Teams 전용 1:1 채팅이 지원됩니다. <br>
-<sup>4</sup> 기본적으로 외부 참가자는 전화를 건 참가자의 전화 번호를 볼 수 없습니다. 이러한 전화 번호의 개인 정보를 보호하려면 **입장/퇴장 알림 유형** 에 대해 **음** 을 선택합니다(이렇게 하면 Teams에서 번호를 읽을 수 없음). 자세한 내용은 [Microsoft Teams에서 모임 입장 및 퇴장 알림 켜기 또는 끄기](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)를 참조하세요.<br>
+<sup>4</sup> By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams). To learn more, read [Turn on or off entry and exit announcements for meetings in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md). <br>
 <sup>5</sup> 기본적으로 허용되지만 Teams 관리자가 해제할 수 있습니다
 
 ## <a name="related-topics"></a>관련 항목

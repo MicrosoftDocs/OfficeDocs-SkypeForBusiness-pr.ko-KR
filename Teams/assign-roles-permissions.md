@@ -12,20 +12,21 @@ description: 팀 작성 권한을 포함하여 Microsoft Teams 내에서 팀 소
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0f259a7a24552988d4eca503deeb9151dde144d
-ms.sourcegitcommit: 0760416ee0bead3ada93f4d37f8aebc74222bd3c
+ms.openlocfilehash: b25a5d654e4bd7a807918aa86e0bfd52aff2ca04
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2022
-ms.locfileid: "69019414"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198760"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서 팀 소유자 및 구성원 할당
 
-**소유자** 와 **구성원** 은 Microsoft Teams 내의 두 사용자 역할입니다. 새 팀을 만드는 사용자에게는 기본적으로 소유자 상태가 부여됩니다. 소유자와 구성원은 팀 및 채널과 상호 작용할 때 다양한 유형의 권한과 기능을 갖습니다. Teams의 역할에 대한 자세한 내용은 [Microsoft Teams의 팀 및 채널 개요](teams-channels-overview.md) 를 참조하세요.
+**소유자** 와 **구성원** 은 Microsoft Teams 내의 두 사용자 역할입니다. 새 팀을 만드는 사용자에게는 기본적으로 소유자 상태가 부여됩니다. 소유자와 구성원은 팀 및 채널과 상호 작용할 때 다양한 유형의 권한과 기능을 갖습니다. Teams의 역할에 대한 자세한 내용은 [Microsoft Teams의 팀 및 채널 개요](teams-channels-overview.md)를 참조하세요.
 
 > [!NOTE]
 > 기존 Microsoft 365 그룹에서 팀을 만든 경우 사용 권한이 상속됩니다.
@@ -38,7 +39,7 @@ ms.locfileid: "69019414"
 
 ## <a name="restrict-permission-to-create-teams"></a>팀을 만들 수 있는 권한 제한
 
-Exchange Online 사서함이 있는 모든 사용자에게는 Microsoft Teams 내에서 Microsoft 365 그룹 및 팀을 만들 수 있는 권한이 있습니다. 그룹 만들기 및 관리 권한을 사용자 집합에 위임하여 사용자가 새 팀 및 Microsoft 365 그룹을 만들지 못하도록 제한합니다. 이 제한이 활성화된 경우 팀 소유자나 구성원 모두 새 팀을 만들 수 없습니다. 자세한 내용은 [Microsoft 365 그룹 생성 가능 사용자 관리](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)를 참조하세요.
+Exchange Online 사서함이 있는 모든 사용자에게는 Microsoft Teams 내에서 Microsoft 365개의 그룹과 팀을 만들 수 있는 권한이 있습니다. 그룹 만들기 및 관리 권한을 사용자 집합에 위임하여 사용자가 새 팀을 만들고 365 그룹을 Microsoft 제한합니다. 이 제한이 활성화된 경우 팀 소유자나 구성원 모두 새 팀을 만들 수 없습니다. 자세한 내용은 [Microsoft 365 그룹 생성 가능 사용자 관리](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)를 참조하세요.
 
 ## <a name="user-permissions-based-on-assigned-roles"></a>할당된 역할에 따른 사용자 권한
 

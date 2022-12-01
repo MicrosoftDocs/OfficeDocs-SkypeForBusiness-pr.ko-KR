@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 사용자 지정 팀 템플릿 만들기
+title: Microsoft Teams에서 사용자 지정 팀 템플릿 만들기
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -8,22 +8,23 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Microsoft Teams 사용자 지정 팀 템플릿을 만드는 방법을 알아봅니다.
+description: Microsoft Teams에서 사용자 지정 팀 템플릿을 만드는 방법을 알아봅니다.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b313df288488de22e99943120ffd0fd94d34210
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: c99fc2ebedac1372beff283ccbcf057c0bfdf78b
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675570"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198520"
 ---
-# <a name="create-a-custom-team-template-in-microsoft-teams"></a>Microsoft Teams 사용자 지정 팀 템플릿 만들기
+# <a name="create-a-custom-team-template-in-microsoft-teams"></a>Microsoft Teams에서 사용자 지정 팀 템플릿 만들기
 
 **사용자 지정 템플릿은 EDU 고객에게 아직 지원되지 않습니다.**
 
@@ -46,7 +47,7 @@ ms.locfileid: "65675570"
 
 4. **팀 템플릿** 섹션에서 **새 템플릿 만들기를** 선택합니다.
 
-5. **템플릿 설정** 섹션에서 다음 필드를 완료한 다음, **다음** 을 선택합니다.
+5. **템플릿 설정** 섹션에서 다음 필드를 완료한 다음 **, 다음** 을 선택합니다.
     - 템플릿 이름
     - 템플릿 짧고 긴 설명
     - 로캘 표시 여부  
@@ -66,17 +67,17 @@ ms.locfileid: "65675570"
 
 8. 완료되면 **제출** 을 선택합니다.
 
-새 템플릿이 **팀 템플릿** 목록에 표시됩니다. 템플릿을 사용하여 Teams 팀을 만들 수 있습니다.
+새 템플릿이 **팀 템플릿** 목록에 표시됩니다. 템플릿을 사용하여 Teams에서 팀을 만들 수 있습니다.
 
 > [!Note]
-> 팀 사용자가 갤러리에서 사용자 지정 템플릿 변경 내용을 보는 데 최대 24시간이 걸릴 수 있습니다.
+> 팀 사용자가 갤러리에서 사용자 지정 템플릿 변경을 확인하는 데 최대 24시간이 걸릴 수 있습니다.
 
 ## <a name="customizing-website-tab-apps"></a>웹 사이트 탭 앱 사용자 지정
 
 > [!Note]
 > 이 기능은 초기 미리 보기로 제공됩니다.
 
-사용자 지정 팀 템플릿에서 채널에 대한 웹 사이트 탭의 URL을 지정할 수 있습니다. 템플릿을 사용하여 팀을 만드는 최종 사용자에게는 지정된 사이트 URL에 미리 설정된 웹 사이트 탭이 있습니다.
+사용자 지정 팀 템플릿의 채널에 대한 웹 사이트 탭의 URL을 지정할 수 있습니다. 템플릿을 사용하여 팀을 만드는 최종 사용자에게는 지정된 사이트 URL로 미리 설정된 웹 사이트 탭이 있습니다.
 
 시작하려면 다음을 수행합니다.
 
@@ -98,18 +99,18 @@ ms.locfileid: "65675570"
 
 **문제**: 추가 사용자 지정 탭이 포함된 사용자 지정 템플릿에서 팀을 만든 경우 사용자 지정 탭 앱 대신 빈 탭이 표시될 수 있습니다. 기본 탭(예: **게시물**, **파일** 및 **Wiki**)이 예상대로 표시됩니다.
 
-**해결 방법**: 이 문제를 해결하려면 사용자 지정 탭을 제거하고 동일한 앱으로 새 탭을 추가합니다. 사용자 지정 탭을 제거하고 새 탭을 추가할 수 있는 권한이 없는 경우 팀 소유자에게 문의하세요.
+**해결 방법**: 이 문제를 해결하려면 사용자 지정 탭을 제거하고 동일한 앱이 있는 새 탭을 추가합니다. 사용자 지정 탭을 제거하고 새 탭을 추가할 수 있는 권한이 없는 경우 팀 소유자에게 문의하여 도움을 요청하세요.
 
-현재 사용자 지정 템플릿에서 만든 향후 팀을 위한 수정 작업을 진행하고 있습니다.
+현재 사용자 지정 템플릿에서 만든 향후 팀을 위한 수정 작업을 진행 중입니다.
 
-**문제**: 브라우저에서 Teams 사용하는 경우 일부 웹 사이트는 Teams 탭 내에서 렌더링되는 것을 지원하지 않습니다.
+**문제**: 브라우저에서 Teams를 사용하는 경우 일부 웹 사이트는 Teams 탭 내에서 렌더링되는 것을 지원하지 않습니다.
 
 ![브라우저 오류 메시지입니다.](media/browser-error-message.png)
 
-**해결 방법**: 웹 사이트 탭의 내용을 보는 데 문제가 있는 경우 별도의 웹 페이지에서 탭을 열거나 데스크톱 앱에서 Teams 열어 웹 사이트 탭 앱을 보도록 리디렉션됩니다.
+**해결 방법**: 웹 사이트 탭의 콘텐츠를 보는 데 문제가 있는 경우 별도의 웹 페이지에서 탭을 열거나 데스크톱 앱에서 Teams를 열어 웹 사이트 탭 앱을 보도록 리디렉션됩니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-- [관리 센터에서 팀 템플릿을 사용하여 시작](get-started-with-teams-templates-in-the-admin-console.md)
+- [관리 센터에서 팀 템플릿 시작](get-started-with-teams-templates-in-the-admin-console.md)
 - [기존 팀에서 템플릿 만들기](create-template-from-existing-team.md)
 - [기존 팀 템플릿에서 팀 템플릿 만들기](create-template-from-existing-template.md)

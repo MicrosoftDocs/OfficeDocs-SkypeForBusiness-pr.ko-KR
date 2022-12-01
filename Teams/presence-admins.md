@@ -8,7 +8,9 @@ ms.service: msteams
 audience: admin
 ms.reviewer: rakayala
 description: Teams에서 현재 상태 및 현재 상태 기능에 대한 관리 설정에 대해 알아 봅니다.
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- chat-teams-channels-revamp
 ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:
@@ -17,12 +19,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b28dfccd79c99d633d56480963f06632cd758ae
-ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
+ms.openlocfilehash: 2f2969af142828ca5d478f29f2afee319ada91b7
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2022
-ms.locfileid: "67283099"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198590"
 ---
 # <a name="user-presence-in-teams"></a>Teams에서의 사용자 현재 상태
 
@@ -47,13 +49,13 @@ ms.locfileid: "67283099"
 || ![빈 빨간색 원, 다른 용무 중 표시.](media/Presence_Busy_OOF.png) 통화 중, 부재 중|
 |  ![흰색 선이 있는 빨간색 원, 방해 금지 표시.](media/Presence_DND.png) 방해 금지 ||
 || ![흰색 선이 있는 빨간색 원, 프레젠테이션 중 표시.](media/Presence_DND.png) 프레젠테이션 중|
-|| ![흰색 선이 있는 빨간색 원, 방해 금지 표시.](media/Presence_DND.png) 방해 금지. 포커스는 사용자가 일정의 MyAnalytics/Insights에서 포커스 시간을 예약할 때 발생합니다.|
+|| ![흰색 선이 있는 빨간색 원, 방해 금지 표시.](media/Presence_DND.png) 집중하는 중. 집중하는 중은 사용자가 일정의 MyAnalytics/Insights에서 포커스 시간을 예약할 때 발생합니다.|
 | ![노란색 시계 아이콘, 자리 비움 표시.](media/Presence_Away.png) 자리 비움| ![노란색 시계 아이콘, 자리 비움 표시.](media/Presence_Away.png) 자리 비움|
 || ![노란색 시계 아이콘, 자리 비움 표시](media/Presence_Away.png)자리 비움 마지막 접속 *시간*|
 |![노란색 시계 아이콘, 자리 비움, 곧 돌아오겠음 표시.](media/Presence_Away.png) 곧 돌아오겠음| |
-|![x가 있는 회색 원, 오프라인 표시.](media/Presence_Offline.png) 오프라인으로 표시|![x가 있는 회색 원, 오프라인 표시](media/Presence_Offline.png) 오프라인. 사용자가 몇 분 동안 장치에 로그인하지 않으면 오프라인으로 표시됩니다. |
+|![x가 있는 회색 원, 오프라인 표시.](media/Presence_Offline.png) 오프라인으로 표시|![x가 있는 회색 원, 오프라인 표시](media/Presence_Offline.png) 오프라인.  사용자가 몇 분 동안 장치에 로그인하지 않으면 오프라인으로 표시됩니다. |
 || ![빈 회색 원, 상태 알 수 없음 표시.](media/Presence_Unknown.png) 상태 알 수 없음|
-|| ![화살표가 있는 자주색 원, 부재 중 표시.](media/Presence_OOF.png) 부재 중. 부재 중은 자동 회신이 설정된 경우에 사용됩니다. |
+|| ![화살표가 있는 자주색 원, 부재 중 표시.](media/Presence_OOF.png) 부재 중. 부재 중은 자동 회신이 설정되면 사용됩니다. |
 
  > [!NOTE]
  > 사서함이 온-프레미스에 호스트된 사용자의 경우 1시간(최대)의 현재 상태 지연이 예상됩니다.
@@ -91,7 +93,7 @@ ms.locfileid: "67283099"
 
 Teams의 관리자 설정은 비즈니스용 Skype와 다음과 같은 점에서 다릅니다.
 
-- Teams에서 개인 정보 모드를 사용하지 않는 한 조직의 사용자에 대해 항상 현재 상태 공유를 사용할 수 있습니다. 개인 정보 모드에서는 외부 사용자에게 현재 상태가 표시되지 않습니다.
+- Teams에서는 개인 정보 모드를 사용하지 않는 한 조직의 사용자에 대해 항상 현재 상태 공유를 사용할 수 있습니다. 개인 정보 모드에서는 외부 사용자가 현재 상태를 볼 수 없습니다.
 - Teams의 사용자는 항상 모든 사용자와 현재 상태 공유(페더레이션 서비스 포함)가 활성화되어 있습니다. 연락처 목록(비즈니스용 Skype에 연락처 목록이 있는 경우)은 **채팅 > 연락처** 또는 **통화 > 연락처** 아래에 표시됩니다.
 - Teams의 사용자는 클라이언트 방해 금지 및 혁신적인 기능이 항상 활성화되어 있습니다.
 - Teams가 Outlook과 통합된 경우 사용자는 일정(부재 중 및 기타 일정 정보 포함) 통합이 항상 활성화되어 있습니다.

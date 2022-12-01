@@ -23,12 +23,12 @@ ms.collection:
 - m365initiative-meetings
 - highpri
 description: 사용자가 조직에서 예약하는 모든 Teams 모임 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 3faff1779830539470ae3d04cc73e58da65a637c
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: e5cacfb81cf3bf1ef768051d2094b0a70af93927
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68583879"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198340"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams에서의 모임 설정 관리
 
@@ -55,7 +55,7 @@ ms.locfileid: "68583879"
 
     ![관리 센터에서 모임에 대한 참가자 설정 스크린샷.](media/meeting-settings-participants.png "Microsoft Teams 관리 센터에서 Teams 모임에 대한 참가자 설정의 스크린샷")
 
-> [!CAUTION]
+> [!Important]
 > 익명 사용자가 조직의 사용자가 예약한 모임에 참여하지 못하게 하려면 이 설정을 해제합니다.
 
 ### <a name="using-powershell-to-configure-per-organizer-policy"></a>PowerShell을 사용하여 이끌이별 정책 구성
@@ -99,7 +99,7 @@ ms.locfileid: "68583879"
 
 3. **참가자** 에서 **익명 사용자가 모임의 앱과 상호 작용 가능** 에 대한 설정을 변경할 수 있습니다.
 
-> [!CAUTION]
+> [!Important]
 > 익명 사용자가 조직의 사용자가 예약한 모임에 앱과 상호 작용하지 못하게 하려면 이 설정을 해제합니다.
 
 ## <a name="customize-meeting-invitations"></a>모임 초대장의 사용자 지정

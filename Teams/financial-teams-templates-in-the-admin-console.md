@@ -17,14 +17,15 @@ f1.keywords:
 ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
+- chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51ec855bc9065bb65c0f6eae14a3e41683cfbc6f
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
-ms.translationtype: HT
+ms.openlocfilehash: 096bab4289d5ac9e81c63f83cd73efd41d98e7be
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046134"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198692"
 ---
 # <a name="use-financial-team-templates"></a>금융 팀 템플릿 사용
 
@@ -38,7 +39,7 @@ Teams에는 금융 서비스 조직을 위해 설계된 템플릿이 포함되�
 
 |다음과 같은 경우: | 그렇다면 귀하는: |
 | ---- | --------- |
-| 관리자 또는 IT 전문가 |[Teams 관리자 센터에서 팀 템플릿을 관리합니다](#manage-team-templates-in-the-teams-admin-center). 팀 템플릿을 보고 템플릿 정책을 적용하여 직원이 팀을 만들기 위해 Teams에서 사용할 수 있는 템플릿을 제어합니다. |
+| 관리자 또는 IT 전문가 |[Manage team templates in the Teams admin center](#manage-team-templates-in-the-teams-admin-center). View team templates and apply templates policies to control which templates your staff can use in Teams for creating teams. |
 | 개발자 | [Microsoft Graph를 사용](#use-team-templates-with-microsoft-graph)하여 팀 템플릿에서 팀을 만듭니다. |
 
 ## <a name="manage-team-templates-in-the-teams-admin-center"></a>Teams 관리 센터에서 팀 템플릿 관리
@@ -60,7 +61,7 @@ Teams에는 금융 서비스 조직을 위해 설계된 템플릿이 포함되�
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>Microsoft Graph에서 팀 템플릿 사용
 
-개발자는 Microsoft Graph를 사용해 미리 작성된 팀 템플릿을 사용해 팀을 만들 수 있습니다. Microsoft Graph에서 팀 템플릿을 사용하는 방법에 관한 자세한 내용은 [Microsoft Graph를 사용하여 팀 템플릿 시작하기](get-started-with-teams-templates.md), [Microsoft Teams API 개요](/graph/teams-concept-overview?view=graph-rest-1.0) 및 [teamsTemplate 리소스 유형](/graph/api/resources/teamstemplate?view=graph-rest-1.0)을 참조하세요.
+Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0&preserve-view=true), and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0&preserve-view=true).
 
 ### <a name="bank-branch"></a>은행 지점
 
