@@ -13,12 +13,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 조직의 Teams 사용자와 Skype(소비자) 사용자 간의 상호 운용성 기능에 대해 알아봅니다.
 ms.localizationpriority: medium
-ms.openlocfilehash: e8f6d102a3b66d5140473d0f2ab11b5af97fc78f
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: 5cbb4bdf492de67131c75c97685317ef8cae866c
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198680"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242322"
 ---
 # <a name="teams-and-skype-interoperability"></a>Teams 및 Skype 상호 운용성
 
@@ -87,7 +87,7 @@ Teams 사용자가 Skype 사용자의 초기 대화 요청을 수락하거나 �
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>Microsoft Teams 관리 센터에서
 
-Microsoft Teams 관리 센터에서 **사용자** > **외부 액세스** 로 이동한 다음 **사용자가 Skype 사용자와 통신할 수 있도록** 켭니다. 이 및 기타 외부 액세스 설정을 구성하는 방법에 대한 단계별 지침은 [Teams에서 외부 액세스 관리를 참조하세요](./manage-external-access.md#allow-or-block-domains).
+Microsoft Teams 관리 센터에서 **사용자** > **외부 액세스** 로 이동한 다음 **사용자가 Skype 사용자와 통신할 수 있도록** 켭니다. 이 및 기타 외부 액세스 설정을 구성하는 방법에 대한 단계별 지침은 [Teams에서 외부 액세스 관리를 참조하세요](./manage-external-access.md).
 
 ### <a name="using-powershell"></a>PowerShell 사용
 

@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Calling Plans
 description: 이 표를 사용하여 Microsoft Teams용 멕시코에서 전화 번호를 가져오고 관리하는 방법에 대한 정보를 찾을 수 있습니다.
-ms.openlocfilehash: 9f0794a53e6f3bdb8f10b85e823d746b7991cebf
-ms.sourcegitcommit: 8ec18996c84ad0dc0809a0a405f8429b1f2e0ebc
+ms.openlocfilehash: 20adc33f97df7486630ec8227afaab8c4402925d
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2022
-ms.locfileid: "69236337"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242482"
 ---
 # <a name="phone-number-management-for-mexico"></a>멕시코 전화 번호 관리
 
@@ -32,7 +32,7 @@ ms.locfileid: "69236337"
   
 |**무엇을 하고 싶으신가요?**|**올바른 양식을 다운로드하여 보내주세요.**|
 |:-----|:-----|
-|Microsoft Teams 관리 센터에 나열되지 않은 새 사용자 또는 서비스 전화 번호를 가져옵니다.   <br/> |이러한 양식 중 하나를 다운로드합니다. <br/>  [멕시코에 대한 새로운 전화 번호 요청(es-mx)](https://download.microsoft.com/download/0/0/8/008e6ad0-1b1c-4b2c-949d-9b885f6f3650/new-phone-number-request-for-mexico-(v.1.0)-(es-mx).pdf) <br/>  [멕시코에 대한 새로운 전화 번호 요청(en-us)](https://download.microsoft.com/download/0/2/6/02657735-678d-44cb-b2ed-36a66407150e/new-phone-number-request-for-mexico-(v.1.0)-(en-us).pdf)<br/>  <br/>입력하고 [TNS 서비스 데스크에 문의하여 지침을 확인하세요](contact-tns-service-desk.md).<br/><br/> 또한 삼자 계약을 작성하고 서명하고 [TNS 서비스 데스크에 문의하여 지침을 받아야 합니다](contact-tns-service-desk.md). 이 양식은 새 전화 번호를 받기 위해 주문을 한 후 TNS Service Desk 팀에서 사용자에게 전송됩니다. <br/><br/>|
+|Microsoft Teams 관리 센터에 나열되지 않은 새 사용자 또는 서비스 전화 번호를 가져옵니다.   <br/> |이러한 양식 중 하나를 다운로드합니다. <br/>  [멕시코에 대한 새로운 전화 번호 요청(es-mx)](https://download.microsoft.com/download/0/0/8/008e6ad0-1b1c-4b2c-949d-9b885f6f3650/new-phone-number-request-for-mexico-(v.1.0)-(es-mx).pdf) <br/>  [멕시코에 대한 새로운 전화 번호 요청(en-us)](https://download.microsoft.com/download/0/2/6/02657735-678d-44cb-b2ed-36a66407150e/new-phone-number-request-for-mexico-(v.1.0)-(en-us).pdf)<br/>  <br/>입력하고 [TNS 서비스 데스크에 문의하여 지침을 확인하세요](contact-tns-service-desk.md). <br/><br/>|
 |우리에게 전송 전화 번호를 가져옵니다.  <br/> | 이 양식을 다운로드합니다. <br/>[멕시코에 대한 LOA(승인서)(es-mx)](https://download.microsoft.com/download/a/7/b/a7bc578f-218b-46f6-a192-0df5b6abc653/LOA-MX-GEO-ES.pdf) <br/> <br/>입력하고 [TNS 서비스 데스크에 문의하여 지침을 확인하세요](contact-tns-service-desk.md). <br/><br/> LOA와 함께 다음도 포함해야 합니다. <br/>- 변호사 권한 <br/>- 승인된 사람의 ID <br/>- 최신 청구서 <br/>- 전송 편지\* <br/><br/> \**이 양식은 전화 번호를 전송하라는 주문을 한 후 TNS 서비스 데스크 팀에서 보내드립니다.* <br/><br/> **참고:** 멕시코의 모든 포트 활성화는 현지 멕시코 시티 시간 오전 2시에서 오전 7시 30분 사이에 걸쳐 있는 *포팅 기간* 동안 발생하며, 이 기간 동안 번호를 전송하기 위한 작업이 수행되고 이 전환 중에 전화 통신 시스템에 대한 서비스 장애가 발생할 수 있습니다.포팅 창이 완료되면 서비스 장애를 보고해야 하는 경우 [TNS 서비스 데스크에 문의하세요](contact-tns-service-desk.md).|
 |국가별 전화 디렉터리에 전화 번호를 게시/게시 취소합니다.  <br/> |게시/게시 취소하려는 전화 번호 목록에 [대한 지침은 TNS 서비스 데스크에 문의](contact-tns-service-desk.md)하세요.      <br/> |
 |사용자의 번호를 서비스 번호로 변경합니다.  <br/> |Teams 관리 센터에 로그인하고 **전화 번호** 페이지로 이동하여 **전화 번호 지원 받기를** 선택합니다. <br/> |

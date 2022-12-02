@@ -1,5 +1,5 @@
 ---
-title: 온라인 커넥터에서 비즈니스용 Skype PowerShell 모듈로 Teams 마이그레이션
+title: 비즈니스용 Skype Online 커넥터에서 Teams PowerShell 모듈로 마이그레이션
 author: pupara
 ms.author: pupara
 ms.reviewer: pupara
@@ -9,40 +9,40 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: 온라인 커넥터에서 비즈니스용 Skype PowerShell 모듈로 Teams PowerShell 모듈로 이동하여 Teams.
+description: 비즈니스용 Skype Online Connector에서 Teams PowerShell 모듈로 이동하여 Teams를 관리하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdd6460e6a17a15193104a0871a57fa6dbff8105
-ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
+ms.openlocfilehash: 648ce1fb69f9e1641840f2e4b92acc1b98f4bbe8
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58866360"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242292"
 ---
-# <a name="migrating-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>온라인 커넥터에서 비즈니스용 Skype PowerShell 모듈로 Teams 마이그레이션
+# <a name="migrating-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>비즈니스용 Skype Online 커넥터에서 Teams PowerShell 모듈로 마이그레이션
 
-Teams PowerShell 모듈은 PowerShell 명령줄에서 직접 Teams 관리하기 위한 전체 cmdlet 집합을 제공합니다. 관리자는 비즈니스용 Skype 관리에 대해 비즈니스용 온라인 커넥터를 Teams 없습니다.
+Teams PowerShell 모듈은 PowerShell 명령줄에서 직접 Teams를 관리하기 위한 전체 cmdlet 집합을 제공합니다. 관리자는 Teams 관리를 위해 비즈니스용 Skype Online 커넥터를 요구하지 않습니다.
 
 > [!NOTE]
-> Teams 관리자에게 메시지 센터 게시물(MC244740, 2021년 3월 16일)을 통해 알림을 수신했습니다. 이 변경에 대한 MC250940, 2021년 4월 16일)
+> Teams 관리자는 메시지 센터 게시물(MC244740, 2021년 3월 16일자)을 통해 알림을 받았습니다. MC250940, 2021년 4월 16일자) 이 변경 내용에 대해 알아봅니다.
 >
-> Teams PowerShell 모듈은 최신 인증을 사용하지만 기본 인증을 허용하도록 Windows WinRM(원격 관리) 클라이언트를 구성해야 합니다. 기본 [인증을 위해 WinRM을](/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1) Windows PowerShell 방법에 대한 지침은 다운로드 및 설치를 참조하세요.
+> Teams PowerShell 모듈은 최신 인증을 사용하지만 기본 WinRM(Windows 원격 관리) 클라이언트는 기본 인증을 허용하도록 구성해야 합니다. 기본 인증에 WinRM을 사용하도록 설정하는 방법에 대한 지침은 [Windows PowerShell 다운로드 및 설치](/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1)를 참조하세요.
 
 ## <a name="how-to-migrate"></a>마이그레이션 방법
 
-온라인 커넥터를 비즈니스용 Skype PowerShell 모듈로 Teams 쉽게 마이그레이션할 수 있습니다. 아래 단계에서는 이 작업을 하는 방법을 설명합니다.
+비즈니스용 Skype Online 커넥터를 사용하여 Teams PowerShell 모듈로 마이그레이션하는 것은 쉽고 간단합니다. 아래 단계에서는 이 작업을 수행하는 방법을 설명합니다.
 
-1. 최신 PowerShell Teams 설치합니다. 단계에 대한 자세한 내용은 [PowerShell Microsoft Teams 를 참조하세요.](teams-powershell-install.md)
+1. 최신 Teams PowerShell 모듈을 설치합니다. 단계는 [Microsoft Teams PowerShell 설치](teams-powershell-install.md)를 참조하세요.
 
-2. 비즈니스용 Skype 커넥터를 제거합니다. 이렇게하려면 제어판에서 프로그램 및 기능으로 **이동하여** 온라인 비즈니스용 Skype, Windows PowerShell 모듈을 선택한 다음 **제거를** **선택합니다.**
+2. 비즈니스용 Skype Online 커넥터를 제거합니다. 이렇게 하려면 제어판 **프로그램 및 기능** 으로 이동하여 **비즈니스용 Skype Online을 선택하고 모듈을 Windows PowerShell** 제거 **를 선택합니다.**
 
-3. PowerShell 스크립트에서 참조되는 모듈 이름을 에서 ```Import-Module```
+3. PowerShell 스크립트에서 에서 참조되는 모듈 이름을 변경합니다.```Import-Module```
 
-    `SkypeOnlineConnector``LyncOnlineConnector`또는 `MicrosoftTeams` 를 를(를)
+    `SkypeOnlineConnector` 또는 `LyncOnlineConnector` 를 로 지정합니다 `MicrosoftTeams`.
 
-    예를 들어 으로 `Import-Module -Name SkypeOnlineConnector` `Import-Module -Name MicrosoftTeams` 변경합니다.
+    예를 들어 를 로 변경 `Import-Module -Name SkypeOnlineConnector` 합니다 `Import-Module -Name MicrosoftTeams`.
 
-4. PowerShell Teams 2.0 이상을 사용하는 경우 를 참조하는 스크립트를 `New-CsOnlineSession` `Connect-MicrosoftTeams` 업데이트합니다. `Import-PsSession`를 사용할 때 암시적으로 수행되는 비즈니스용 Skype 온라인 원격 PowerShell 세션을 설정하는 데 더 이상 필요하지 `Connect-MicrosoftTeams` 않습니다.
+4. Teams PowerShell 모듈 2.0 이상을 사용하는 경우 를 참조하는 스크립트를 업데이트합니다 `New-CsOnlineSession` `Connect-MicrosoftTeams`. `Import-PsSession`을 사용할 `Connect-MicrosoftTeams`때 암시적으로 수행되므로 비즈니스용 Skype 온라인 원격 PowerShell 세션을 설정하는 데 더 이상 필요하지 않습니다.
 
     ```powershell
        # When using the Skype for Business online connector
@@ -73,14 +73,14 @@ Teams PowerShell 모듈은 PowerShell 명령줄에서 직접 Teams 관리하기 
          Disconnect-MicrosoftTeams
     ```
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
-[PowerShell Microsoft Teams 설치](teams-powershell-install.md)
+[Microsoft Teams PowerShell 설치](teams-powershell-install.md)
 
-[PowerShell을 사용하여 Teams 관리 Teams 관리](teams-powershell-managing-teams.md)
+[Teams PowerShell을 사용하여 Teams 관리](teams-powershell-managing-teams.md)
 
 [Teams PowerShell 릴리스 정보](teams-powershell-release-notes.md)
 
-[Microsoft Teams cmdlet 참조](/powershell/teams/?view=teams-ps)
+[Microsoft Teams cmdlet 참조](/powershell/teams/)
 
-[비즈니스용 Skype cmdlet 참조](/powershell/skype/intro?view=skype-ps)
+[비즈니스용 Skype cmdlet 참조](/powershell/skype/intro)

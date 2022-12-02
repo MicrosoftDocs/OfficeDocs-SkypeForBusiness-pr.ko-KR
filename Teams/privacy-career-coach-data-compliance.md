@@ -11,20 +11,20 @@ ms.collection:
 ms.reviewer: ''
 search.appverid: MET150
 f1keywords: ''
-description: 교육 또는 EDU의 경력 코치와 관련하여 Microsoft가 취한 개인 정보 보호, 규정 준수 및 의도적인 조치에 대해 알아봅니다.
+description: 교육 또는 EDU의 경력 코치와 관련하여 Microsoft 취한 개인 정보 보호, 규정 준수 및 의도적인 조치에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 0f28381aad61cbe7fecf21e189bc5ab278ce3008
-ms.sourcegitcommit: 9ea1ed450ba89e9cbc094018a832bd25c08e92e4
+ms.openlocfilehash: 1a21f3337ca9255572c25fd152f928c6444dc317
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2022
-ms.locfileid: "68825690"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242492"
 ---
 # <a name="career-coach-data-and-compliance"></a>경력 코치 데이터 및 규정 준수
 
-이 문서에서는 앱 내 기능뿐만 아니라 개인 데이터 또는 개인 정보를 찾아서 GDPR 의무에 따라 DSR(데이터 주체 요청)에 응답하는 데 도움이 되는 다른 도구를 사용하는 방법에 대해 설명합니다. 경력 코치는 데이터를 고객 콘텐츠 및 시스템 생성 로그의 두 가지 범주로 광범위하게 분류합니다. 경력 코치에서 고객 콘텐츠에는 사용자 데이터, 테넌트 구성 데이터 및 학생 활동 데이터가 포함되며, 시스템 생성 로그에는 Microsoft에서 생성된 로그 및 Microsoft가 사용자에게 엔터프라이즈 서비스를 제공하는 데 도움이 되는 관련 데이터가 포함됩니다.
+이 문서에서는 앱 내 기능뿐만 아니라 개인 데이터 또는 개인 정보를 찾아서 GDPR 의무에 따라 DSR(데이터 주체 요청)에 응답하는 데 도움이 되는 다른 도구를 사용하는 방법에 대해 설명합니다. 경력 코치는 데이터를 고객 콘텐츠 및 시스템 생성 로그의 두 가지 범주로 광범위하게 분류합니다. 경력 코치에서 고객 콘텐츠에는 사용자 데이터, 테넌트 구성 데이터 및 학생 활동 데이터가 포함되고 시스템 생성 로그에는 사용자에게 엔터프라이즈 서비스를 제공하는 데 도움이 Microsoft 되는 Microsoft 생성된 로그 및 관련 데이터가 포함됩니다.
 
 ## <a name="customer-content"></a>고객 콘텐츠
 
@@ -73,22 +73,22 @@ ms.locfileid: "68825690"
 
 ## <a name="system-generated-logs"></a>시스템 생성 로그
 
-시스템 생성 로그에는 Microsoft가 사용자에게 엔터프라이즈 서비스를 제공하는 데 도움이 되는 로그 및 Microsoft에서 생성한 관련 데이터가 포함됩니다. 시스템 생성 로그에는 고유한 식별자(일반적으로 시스템에서 생성된 숫자)와 같이 주로 가명화된 데이터가 포함되어 있으며, 이 데이터는 개인을 직접 식별할 수 없지만 엔터프라이즈 서비스를 사용자에게 제공하는 데 사용됩니다. 이 데이터의 예는 다음과 같습니다.
+시스템 생성 로그에는 Microsoft 사용자에게 엔터프라이즈 서비스를 제공하는 데 도움이 되는 Microsoft 생성된 로그 및 관련 데이터가 포함됩니다. 시스템 생성 로그에는 고유한 식별자(일반적으로 시스템에서 생성된 숫자)와 같이 주로 가명화된 데이터가 포함되어 있으며, 이 데이터는 개인을 직접 식별할 수 없지만 엔터프라이즈 서비스를 사용자에게 제공하는 데 사용됩니다. 이 데이터의 예는 다음과 같습니다.
 
 - 사용자 활동 로그와 같은 제품 및 서비스 사용 현황 데이터입니다.
 - 사용자 검색 요청 및 쿼리 데이터.
 - 사용자 또는 다른 시스템의 시스템 기능 및 상호 작용의 산물로 제품 및 서비스에 의해 생성된 데이터입니다.
 
 > [!NOTE]
-> 시스템 생성 로그에서 데이터를 제한하거나 수정하는 기능은 지원되지 않습니다. 시스템 생성 로그의 데이터는 Microsoft 클라우드 및 진단 데이터 내에서 수행된 사실적인 작업을 구성하며, 이러한 데이터를 수정하면 작업의 기록 기록이 손상되고 사기 및 보안 위험이 증가합니다. 경력 코치는 30일 동안 시스템 생성 로그를 유지합니다.
+> 시스템 생성 로그에서 데이터를 제한하거나 수정하는 기능은 지원되지 않습니다. 시스템 생성 로그의 데이터는 Microsoft 클라우드 및 진단 데이터 내에서 수행되는 사실적인 작업을 구성하며, 이러한 데이터를 수정하면 작업의 기록 기록이 손상되고 사기 및 보안 위험이 증가합니다. 경력 코치는 30일 동안 시스템 생성 로그를 유지합니다.
 
 ### <a name="exporting-and-deleting-system-generated-logs"></a>시스템 생성 로그 내보내기 및 삭제
 
-테넌트 전역 관리자는 조직 내에서 특정 사용자의 Office 365 서비스 및 애플리케이션 사용과 관련된 시스템 생성 로그에 액세스할 수 있는 유일한 사람입니다. 경력 코치는 [Office 365 제공하는 시스템 생성 로그에 액세스하고 내보내는 프로세스](https://learn.microsoft.com/compliance/regulatory/gdpr-dsr-Office365#accessing-and-exporting-system-generated-logs)와 일치합니다.
+테넌트 전역 관리자는 조직 내에서 특정 사용자의 Office 365 서비스 및 애플리케이션 사용과 관련된 시스템 생성 로그에 액세스할 수 있는 유일한 사람입니다. 경력 코치는 [Office 365 제공하는 시스템 생성 로그에 액세스하고 내보내는 프로세스](/compliance/regulatory/gdpr-dsr-Office365#accessing-and-exporting-system-generated-logs)와 일치합니다.
 
 ## <a name="more-information"></a>추가 정보
 
 - [Microsoft Teams 경력 코치 시작](career-coach.md)
 - [개인 정보 관련 질문과 대답](https://privacy.microsoft.com/faq)
-- [Microsoft 제품 및 데이터 - Microsoft 개인 정보](https://privacy.microsoft.com/privacy-in-our-products)
+- [제품 및 데이터 Microsoft - Microsoft 개인 정보](https://privacy.microsoft.com/privacy-in-our-products)
 - [Microsoft 계정 개인 정보 설정](https://account.microsoft.com/account/privacy?refd=privacy.microsoft.com&ru=https%3A%2F%2Faccount.microsoft.com%2Fprivacy%2F%3Frefd%3Dprivacy.microsoft.com&destrt=privacy-dashboard)

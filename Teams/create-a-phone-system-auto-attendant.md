@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams에 대한 자동 전화 교환 설정
+title: Microsoft Teams 자동 전화 교환 설정
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -20,15 +20,15 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Phone System
-description: Microsoft Teams에서 자동 전화 교환을 설정하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 68a3364130fa344786cffbc642fe77e0b7a6a2cd
-ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
+description: Microsoft Teams 자동 전화 교환을 설정하는 방법을 알아봅니다.
+ms.openlocfilehash: 7f90aa2d61540895601d09c2f7eab9b133a6ee1a
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69139142"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242422"
 ---
-# <a name="set-up-an-auto-attendant"></a>자동 전화 교환 설정
+# <a name="set-up-a-microsoft-teams-auto-attendant"></a>Microsoft Teams 자동 전화 교환 설정
 
 자동 전화 교환을 통해 사용자가 조직에 전화를 걸고 메뉴 시스템을 탐색하여 올바른 부서, 통화 큐, 사람 또는 운영자에게 문의할 수 있습니다. Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 조직에 대한 자동 전화 교환을 만들 수 있습니다.
 
@@ -199,7 +199,7 @@ ms.locfileid: "69139142"
 
 *다이얼 범위* 는 호출자가 이름별 전화 걸기 또는 전화 접속을 사용하는 경우 디렉터리에서 사용할 수 있는 사용자를 정의합니다. **모든 온라인 사용자의** 기본값에는 온라인 사용자이거나 비즈니스용 Skype 서버 사용하여 온-프레미스에서 호스트되는 조직의 모든 사용자가 포함됩니다.
 
-**포함** 또는 **제외** 에서 **사용자 지정 사용자 그룹을** 선택하고 하나 이상의 Microsoft 365 그룹, 배포 목록 또는 보안 그룹을 선택하여 특정 사용자를 포함하거나 제외할 수 있습니다. 예를 들어 전화 걸기 디렉터리에서 조직의 임원을 제외할 수 있습니다.
+**포함** 또는 **제외** 에서 **사용자 지정 사용자 그룹을** 선택하고 하나 이상의 Microsoft 365개 그룹, 메일 그룹 또는 보안 그룹을 선택하여 특정 사용자를 포함하거나 제외할 수 있습니다. 예를 들어 전화 걸기 디렉터리에서 조직의 임원을 제외할 수 있습니다.
 
 사용자가 두 목록에 모두 있는 경우 디렉터리에서 제외됩니다.
 

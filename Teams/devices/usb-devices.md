@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 'Microsoft Teams에서 인증된 USB 주변 장치 및 장치(예: 헤드셋, 스피커폰, 웹캠 및 모니터)를 확인합니다.'
-ms.openlocfilehash: dcee4b84795ad825ccbd81ef30f3f44b745cfb82
-ms.sourcegitcommit: ed7d3b12d4bfe48863de873360c2ae90bbb15530
+ms.openlocfilehash: 8a767eb2572012496dc5dba94e989f969f12df27
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69194939"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242312"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams용으로 인증된 USB 오디오 및 비디오 장치
 
@@ -81,7 +81,7 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 Teams [에서 헤드
 
 ## <a name="certified-devices"></a>인증된 디바이스
 
-*테이블 업데이트 날짜: 2022년 10월*
+*테이블 업데이트 날짜: 2022년 11월*
 
 > [!NOTE]
 > 날짜 형식은 MM/DD/YYYY입니다.
@@ -93,7 +93,7 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 Teams [에서 헤드
 |Cisco                |Desk Camera 4K                                             |10/15/2022      |Microsoft Teams 인증                           |
 |Epos                 |EXPAND Vision 1/S6                                         |10/13/2022      |Microsoft Teams 인증                           |
 |레 노 버               |USB-C ANC In-Ear 헤드폰으로 이동                             |9/20/2022       |Microsoft Teams 인증                           |
-|Logi(Logi)                 |Brio 500/505 카메라                                       |9/14/2022       |Microsoft Teams 인증                           |
+|Logi(Logi)                 |Brio 500/505/501 카메라                                   |9/14/2022       |Microsoft Teams 인증                           |
 |Jabra                |50 II 참여                                               |7/29/2022       |Microsoft Teams 인증                           |
 |Jabra                |40 II 참여                                               |7/29/2022       |Microsoft Teams 인증                           |
 |Logi(Logi)                 |도킹 스피커폰                                          |7/13/2022       |Microsoft Teams 인증                           |

@@ -22,12 +22,12 @@ description: Teams 또는 IT 관리자는 해당 도메인의 사용자가 사�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: d1cb230b362ca3c38c9986d54f222a903cb06eed
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: d3396c9982cfe4de9eacc085bfe3a572fdc4b667
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198570"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242432"
 ---
 # <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>Microsoft Teams에서 외부 모임 및 채팅 관리
 
@@ -55,7 +55,9 @@ Teams 관리 센터는 조직 수준에서 외부 액세스를 제어합니다. 
 > [!NOTE]
 > Teams 사용자는 다른 조직의 사용자와 모임 또는 채팅을 호스트할 때 앱을 추가할 수 있습니다. 또한 해당 조직에서 호스트하는 모임 또는 채팅에 참가할 때 다른 조직의 사용자가 공유하는 앱을 사용할 수도 있습니다. 호스팅 사용자 조직의 데이터 정책과 해당 사용자 조직에서 공유하는 타사 앱의 데이터 공유 사례가 적용됩니다.
 
-## <a name="allow-or-block-domains"></a>도메인 허용 또는 차단
+## <a name="specify-trusted-organizations"></a>신뢰할 수 있는 조직 지정
+
+조직에서 외부 모임 및 채팅에 대해 신뢰하는 조직을 정의하기 위해 특정 도메인을 허용하거나 차단할 수 있습니다. (다른 조직도 조직의 도메인을 허용해야 합니다.)
 
 차단된 도메인을 추가하면 다른 모든 도메인이 허용됩니다. 허용된 도메인을 추가하면 다른 모든 도메인이 차단됩니다. 이 규칙의 예외는 익명 참가자가 모임에서 허용되는 경우입니다. Teams 관리 센터(**사용자** > **외부 액세스**)에서 외부 액세스를 설정하는 네 가지 시나리오가 있습니다.
 
@@ -70,7 +72,7 @@ Teams 관리 센터는 조직 수준에서 외부 액세스를 제어합니다. 
 - **모든 외부 도메인 차단** - 조직의 사용자가 모든 도메인에서 조직 외부의 사용자와 모임을 찾고, 통화하고, 채팅하고, 설정할 수 없도록 합니다.
 
 > [!NOTE]
-> 허용된 도메인 또는 차단된 도메인은 모임에 대한 익명 액세스가 "꺼진" 경우 모임에만 적용됩니다.
+> 익명 액세스가 허용되는 경우 차단된 도메인의 사람 여전히 익명으로 모임에 참가할 수 있습니다.
 
 ![외부 도메인 설정 스크린샷](./media/external-access-domain-settings.png)
 
