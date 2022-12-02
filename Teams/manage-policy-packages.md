@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams에서 정책 패키지 관리
+title: Teams에서 정책 패키지 관리
 ms.author: mabond
 author: mkbond007
 manager: serdars
@@ -20,14 +20,14 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams에서 정책 패키지를 사용, 관리 및 사용자 지정하여 사용자 그룹에 대한 정책을 관리할 때 일관성을 단순화, 간소화 및 제공하는 방법을 알아봅니다.
-ms.openlocfilehash: f91fdcdecb66fbc08b8ce75563f6034594fd448c
-ms.sourcegitcommit: ad7eb80a266a96bb894f3801b51587c07786c257
+ms.openlocfilehash: 138b1cada469a71cf844c8a73b1cb12511fc68b2
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2022
-ms.locfileid: "69128176"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69245695"
 ---
-# <a name="manage-policy-packages-for-microsoft-teams"></a>Microsoft Teams에 대한 정책 패키지 관리
+# <a name="managing-policy-packages-in-teams"></a>Teams에서 정책 패키지 관리
 
 Microsoft Teams의 정책 패키지는 조직에서 유사한 역할을 가진 사용자에게 할당할 수 있는 미리 정의된 정책 및 정책 설정의 모음입니다. 조직 전체의 사용자 그룹에 대한 정책을 관리할 때 일관성을 제공하고 간소화하고 일관성을 제공하도록 정책 패키지를 빌드했습니다.  
 

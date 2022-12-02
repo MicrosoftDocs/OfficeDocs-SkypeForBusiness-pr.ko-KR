@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: jastark
 audience: admin
 search.appverid: MET150
-description: Microsoft Teams의 사용자 지정 통화 정책뿐만 아니라 다양한 통화 정책 설정에 사용자를 만들고 수정하고 추가하는 방법을 알아봅니다.
+description: 다양한 통화 정책 설정뿐만 아니라 Microsoft Teams에서 사용자 지정 통화 정책에 사용자를 만들고 수정하고 추가하는 방법을 알아봅니다.
 ms.localizationpriority: medium
 ms.collection:
 - M365-voice
@@ -20,14 +20,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8efff8e93dd95ef2b1199b6a766f175e9b2afa4
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+ms.openlocfilehash: a02df903574c7e7db796294ad90c9e05ab732eb0
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68892611"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69245776"
 ---
-# <a name="calling-and-call-forwarding-in-teams"></a>Teams에서 통화 및 착신 전환
+# <a name="calling-policies-calling-and-call-forwarding-features-in-teams"></a>통화 정책: Teams의 통화 및 착신 전환 기능
 
 Microsoft Teams에서 통화 정책은 사용자가 사용할 수 있는 통화 및 착신 전환 기능을 제어합니다. 통화 정책은 사용자가 비공개 통화를 할 수 있는지, 다른 사용자 또는 외부 전화 번호로의 통화 전달 또는 동시 벨소리를 사용할 수 있는지, 음성 메일로 통화를 라우팅하고, 통화 그룹에 전화를 걸고, 인바운드 및 아웃바운드 통화에 위임을 사용할 수 있는지 여부를 결정합니다.
 
