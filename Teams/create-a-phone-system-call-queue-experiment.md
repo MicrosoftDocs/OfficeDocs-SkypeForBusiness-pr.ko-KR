@@ -23,19 +23,16 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
-adobe-target: true
-adobe-target-activity: ''
-adobe-target-experience: Experience B
-adobe-target-content: ./create-a-phone-system-call-queue-experiment
+robots: noindex
 description: Microsoft Teams에서 통화 큐를 설정하는 방법을 알아봅니다. 통화 큐는 인사말 메시지를 제공하고, 음악을 누르고, 리디렉션을 호출하고, 기타 기능을 제공합니다.
-ms.openlocfilehash: ed3be4feffd516292b7dfe902ac7d1856f6f6a44
+ms.openlocfilehash: 401479f73b81fffcdcb6d5d1d3663a80e4fc7b86
 ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251791"
+ms.locfileid: "69252004"
 ---
-# <a name="create-a-call-queue-in-microsoft-teams"></a>Microsoft Teams에서 통화 큐 만들기
+# <a name="create-a-call-queue"></a>통화 큐 만들기
 
 통화 큐는 특정 문제 또는 질문에 도움을 줄 수 있는 조직의 사용자에게 발신자를 라우팅합니다. 호출은 에이전트라고 하는 큐의 사용자에게 한 번에 하나씩 배포 *됩니다*.
 
@@ -69,15 +66,13 @@ ms.locfileid: "69251791"
 
 ## <a name="follow-these-steps-to-set-up-your-call-queue"></a>다음 단계에 따라 통화 큐를 설정합니다.
 
-## <a name="step-1-general-info"></a>[1단계: 일반 정보](#tab/general-info)
-
-## <a name="step-1-set-up-general-information"></a>1단계: 일반 정보 설정
+### <a name="step-1-set-up-general-information"></a>1단계: 일반 정보 설정
 
 통화 큐를 설정하려면 [Teams 관리 센터에서](https://go.microsoft.com/fwlink/p/?linkid=2066851) **음성** 을 확장하고 **통화 큐를** 선택한 다음 **추가** 를 선택합니다.
 
 맨 위에 있는 상자에 통화 큐의 이름을 입력합니다.
 
-### <a name="add-a-resource-account"></a>리소스 계정 추가
+#### <a name="add-a-resource-account"></a>리소스 계정 추가
 
 기존 리소스 계정을 추가하려면 다음을 수행합니다.
 
@@ -102,7 +97,7 @@ ms.locfileid: "69251791"
 
 자세한 내용은 [Teams 리소스 계정 관리를 참조하세요](manage-resource-accounts.md).
 
-### <a name="assign-a-calling-id-optional"></a>호출 ID 할당(선택 사항)
+#### <a name="assign-a-calling-id-optional"></a>호출 ID 할당(선택 사항)
 
 **표준 통화 큐가 있는 Teams 채널/협업 통화 데스크톱 사용자 및 Teams 모바일 클라이언트 사용자에게 제공됩니다.**
 
@@ -138,7 +133,7 @@ ID를 호출하기 위해 이 새 리소스 계정을 만든 후에도 다음을
 - Microsoft 통화 플랜 라이선스 할당, 운영자 연결 전화 번호 할당 또는 직접 라우팅에 대한 온라인 음성 라우팅 정책 할당
 - Microsoft 통화 플랜을 사용하는 경우 [리소스 계정에 서비스 전화 번호](manage-resource-accounts.md#assign-a-service-number) 할당
 
-### <a name="set-the-call-queue-language"></a>통화 큐 언어 설정
+#### <a name="set-the-call-queue-language"></a>통화 큐 언어 설정
 
 [지원되는 언어](create-a-phone-system-call-queue-languages.md)를 선택합니다.
 
@@ -146,9 +141,7 @@ ID를 호출하기 위해 이 새 리소스 계정을 만든 후에도 다음을
 
 언어를 선택한 후에는 **통화 큐 추가** 페이지의 맨 아래에 있는 **다음** 단추를 선택합니다.
 
-## <a name="step-2-greeting-and-music"></a>[2단계: 인사말 및 음악](#tab/greeting-music)
-
-## <a name="step-2-add-a-greeting-and-on-hold-music"></a>2단계: 인사말 및 보류 중인 음악 추가
+### <a name="step-2-add-a-greeting-and-on-hold-music"></a>2단계: 인사말 및 보류 중인 음악 추가
 
 *새로 만들기 - 이제 통화 큐 주 인사 **말에 대해 인사말 메시지 추가** (TTS(Text to Speech))가 지원됩니다.*
 
@@ -168,9 +161,7 @@ Teams는 *큐에 대기* 중인 동안 발신자에게 기본 음악을 제공�
 
 인사말 및 보류 음악을 선택한 후 **통화 큐 추가** 페이지 아래쪽에서 **다음** 단추를 선택합니다.
 
-## <a name="step-3-call-answering"></a>[3단계: 전화 응답](#tab/call-answering)
-
-## <a name="step-3-set-up-who-will-answer-incoming-calls"></a>3단계: 수신 전화를 받을 사람 설정
+### <a name="step-3-set-up-who-will-answer-incoming-calls"></a>3단계: 수신 전화를 받을 사람 설정
 
 [호출 큐에 에이전트를 추가하기 위한 필수 구성 요소를 검토합니다](plan-auto-attendant-call-queue.md#prerequisites).
 
@@ -194,7 +185,7 @@ Teams 채널을 통해 최대 200명의 에이전트를 추가할 수 있습니�
 >
 > 팀에 200명 이상의 멤버가 있는 경우 처음 200명의 멤버만 사전순으로 호출 큐에 에이전트로 추가됩니다.
 
-### <a name="users-and-groups"></a>사용자 및 그룹
+#### <a name="users-and-groups"></a>사용자 및 그룹
 
 그룹을 통해 최대 20대의 에이전트를 개별적으로, 최대 200명까지 에이전트를 추가할 수 있습니다.
 
@@ -216,7 +207,7 @@ Teams 채널을 통해 최대 200명의 에이전트를 추가할 수 있습니�
 >
 > 그룹에 200명 이상의 멤버가 있는 경우 처음 200명의 멤버만 사전순으로 호출 큐에 에이전트로 추가됩니다.
 
-### <a name="conference-mode"></a>회의 모드
+#### <a name="conference-mode"></a>회의 모드
 
 **회의 모드** 는 에이전트가 통화를 수락한 후 호출자가 에이전트에 연결하는 데 걸리는 시간을 줄입니다. 회의 모드가 작동하려면 통화 큐의 에이전트가 다음 클라이언트 중 하나를 사용해야 합니다.
 
@@ -241,9 +232,7 @@ Teams 채널을 통해 최대 200명의 에이전트를 추가할 수 있습니�
 
 통화 응답 옵션을 선택한 후 통화 **큐 추가** 페이지의 맨 아래에 있는 **다음** 단추를 선택합니다.
 
-## <a name="step-4-agent-selection"></a>[4단계: 에이전트 선택](#tab/agent-selection)
-
-## <a name="step-4-select-your-agent-routing-options"></a>4단계: 에이전트 라우팅 옵션 선택
+### <a name="step-4-select-your-agent-routing-options"></a>4단계: 에이전트 라우팅 옵션 선택
 
 **라우팅 방법** 은 에이전트가 큐에서 통화를 받는 순서를 결정합니다.
 
@@ -269,7 +258,7 @@ Teams 채널을 통해 최대 200명의 에이전트를 추가할 수 있습니�
 >
 > 에이전트에 대한 통화 큐 호출 프레젠테이션이 위치 기반 라우팅 제한과 충돌할 수 있습니다. 이 경우 에이전트는 통화 알림을 받지만 통화에 응답할 수 없습니다. 이 조건은 다른 에이전트가 통화에 응답할 수 있거나, 호출자가 중단되거나, 통화 큐 시간 제한 조건이 발생할 때까지 계속됩니다.  
 
-### <a name="presence-based-call-routing"></a>현재 상태 기반 통화 라우팅
+#### <a name="presence-based-call-routing"></a>현재 상태 기반 통화 라우팅
 
 **현재 상태 기반 통화 라우팅** 은 호출 에이전트의 가용성 상태를 사용하여 선택한 라우팅 방법에 대한 호출 라우팅 목록에 에이전트를 포함해야 하는지 여부를 결정합니다.
 
@@ -291,13 +280,13 @@ Teams 채널을 통해 최대 200명의 에이전트를 추가할 수 있습니�
 >
 > 현재 상태 기반 라우팅이 사용하도록 설정된 경우 비즈니스용 Skype 클라이언트를 사용하는 에이전트가 통화 라우팅 목록에 포함되지 않습니다. 비즈니스용 Skype를 사용하는 에이전트가 있는 경우 현재 상태 기반 통화 라우팅을 사용하지 않습니다.
 
-### <a name="call-agents-can-opt-out-of-taking-calls"></a>통화 에이전트는 통화 걸기 옵트아웃할 수 있습니다.
+#### <a name="call-agents-can-opt-out-of-taking-calls"></a>통화 에이전트는 통화 걸기 옵트아웃할 수 있습니다.
 
 통화 에이전트가 호출을 옵트아웃할 수 있는지 여부를 지정할 수 있습니다.
 
 통화 에이전트를 켜면 **통화 수신을 옵트아웃할 수 있습니다**.
 
-### <a name="agent-alert-time"></a>에이전트 경고 시간
+#### <a name="agent-alert-time"></a>에이전트 경고 시간
 
 **에이전트 알림 시간** 은 큐가 다음 에이전트로 통화를 리디렉션하기 전에 에이전트의 통화가 울리는 시간을 지정합니다.
 
@@ -306,9 +295,7 @@ Teams 채널을 통해 최대 200명의 에이전트를 추가할 수 있습니�
 
 에이전트 통화 라우팅 옵션을 선택한 후 통화 **큐 추가** 페이지의 맨 아래에 있는 **다음** 단추를 선택합니다.
 
-## <a name="step-5-call-overflow"></a>[5단계: 호출 오버플로](#tab/call-overflow)
-
-## <a name="step-5-set-how-to-handle-call-overflow"></a>5단계: 호출 오버플로를 처리하는 방법 설정
+### <a name="step-5-set-how-to-handle-call-overflow"></a>5단계: 호출 오버플로를 처리하는 방법 설정
 
 **큐 최대 호출 수** 는 지정된 시간에 큐에 대기할 수 있는 최대 통화 수를 지정합니다.
 
@@ -331,9 +318,7 @@ Teams 채널을 통해 최대 200명의 에이전트를 추가할 수 있습니�
 
 통화 오버플로 처리 옵션을 선택한 후 통화 **큐 추가** 페이지의 맨 아래에 있는 **다음** 단추를 선택합니다.
 
-## <a name="step-6-call-timeout"></a>[6단계: 통화 시간 제한](#tab/call-timeout)
-
-## <a name="step-6-set-how-to-handle-call-timeouts"></a>6단계: 통화 시간 제한을 처리하는 방법 설정
+### <a name="step-6-set-how-to-handle-call-timeouts"></a>6단계: 통화 시간 제한을 처리하는 방법 설정
 
 **통화 시간 초과: 최대 대기 시간** 은 통화가 리디렉션되거나 연결이 끊어지기 전에 큐에 대기할 수 있는 최대 시간을 지정합니다.
 
@@ -351,8 +336,6 @@ Teams 채널을 통해 최대 200명의 에이전트를 추가할 수 있습니�
 > 음성 메일(개인)은 표시된 대로 음성 메일로 직접 전화를 보내지 않고 사용자에게 전화를 보냅니다. 지원에서 조사 중입니다.
 
 통화 시간 제한 처리 옵션을 선택한 후 **통화 큐 추가** 페이지의 맨 아래에 있는 **제출** 단추를 선택합니다.
-
----
 
 ## <a name="resources-for-complex-scenarios"></a>복잡한 시나리오에 대한 리소스
 
@@ -404,8 +387,8 @@ Teams 채널을 통해 최대 200명의 에이전트를 추가할 수 있습니�
 8. 공용 채널만 지원됩니다.
 9. 자동 전화 교환 및 통화 큐는 PSTN 연결 방법 간에 호출을 전송할 수 없습니다.
 10. GCCH/DOD의 경우 다음 위치에서 사용자 설정 포털을 통해서만 사용할 수 있습니다.
-- GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
-- 국방부: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
+    - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
+    - 국방부: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 
 ### <a name="supported-clients"></a>지원되는 클라이언트
 

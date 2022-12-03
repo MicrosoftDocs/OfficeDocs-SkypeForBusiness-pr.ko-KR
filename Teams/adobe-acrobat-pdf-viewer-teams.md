@@ -18,16 +18,16 @@ description: Adobe Acrobat을 기본 PDF 뷰어로 설정하여 Microsoft Teams�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 44721429b81b3f502a76a037add7a880e469add5
-ms.sourcegitcommit: ed7d3b12d4bfe48863de873360c2ae90bbb15530
+ms.openlocfilehash: 4776b2928ee734c1b37856e44d184c53bfc0dd90
+ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69194989"
+ms.lasthandoff: 12/03/2022
+ms.locfileid: "69251901"
 ---
 # <a name="set-adobe-acrobat-as-the-default-pdf-viewer-in-microsoft-teams"></a>Microsoft Teams에서 Adobe Acrobat을 기본 PDF 뷰어로 설정
 
-관리자는 Adobe Acrobat을 Microsoft Teams에서 PDF 파일을 보고 편집하는 기본 앱으로 설정할 수 있습니다. 최종 사용자는 Adobe Acrobat 구독 또는 Adobe ID 없이 PDF 파일을 보고, 검색하고, 주석을 달 수 있습니다.
+관리자는 Adobe Acrobat을 Microsoft Teams에서 PDF 파일을 보고 편집하는 기본 앱으로 설정할 수 있습니다. 최종 사용자는 PDF 파일을 보고 검색할 수 있습니다. 또한 사용자는 로그인한 후 PDF 파일에 댓글을 달고 무료로 주석을 달 수 있습니다.
 
 Adobe Acrobat 앱을 테넌트의 PDF 파일 기본 핸들러로 구성하려면 다음 단계를 사전에 완료해야 합니다.
 

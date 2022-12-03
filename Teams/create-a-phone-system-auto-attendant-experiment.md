@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 자동 전화 교환 설정
+title: Microsoft Teams에 대한 자동 전화 교환 설정
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -20,19 +20,16 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Phone System
-adobe-target: true
-adobe-target-activity: ''
-adobe-target-experience: Experience B
-adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
+robots: noindex
 description: Microsoft Teams에서 자동 전화 교환을 설정하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 1908ccb02fa3aadc0bb906f718e5493eb8ff8e2f
+ms.openlocfilehash: cafbe1594666f156801f83b7944e4ecce4887752
 ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251761"
+ms.locfileid: "69252003"
 ---
-# <a name="set-up-a-microsoft-teams-auto-attendant"></a>Microsoft Teams 자동 전화 교환 설정
+# <a name="set-up-an-auto-attendant"></a>자동 전화 교환 설정
 
 자동 전화 교환을 통해 사용자가 조직에 전화를 걸고 메뉴 시스템을 탐색하여 올바른 부서, 통화 큐, 사람 또는 운영자에게 문의할 수 있습니다. Microsoft Teams 관리 센터 또는 PowerShell을 사용하여 조직에 대한 자동 전화 교환을 만들 수 있습니다.
 
@@ -52,7 +49,7 @@ ms.locfileid: "69251761"
 > [!NOTE]
 > **조직의 Person** 으로 통화를 리디렉션할 때 해당 사용자는 음성을 사용하도록 설정해야 합니다. 음성 사용에 대한 자세한 내용은 [사용자에게 Teams 추가 기능 라이선스 할당을 참조하세요](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 >
-> **연산** 자 정의는 선택 사항이지만 권장됩니다.  자동 전화 교환은 사용자 또는 공유 음성 메일 계정이 삭제되어 자동 전화 교환 구성에 오류가 있는 경우 운영자에게 호출을 리디렉션합니다.  연산자가 정의되지 않은 경우 자동 전화 교환은 호출을 삭제합니다.
+> **연산** 자 정의는 선택 사항이지만 권장됩니다.  자동 전화 교환은 호출자가 메뉴에서 선택하지 않거나, 잘못된 옵션을 반복적으로 선택하거나, 이름이나 번호로 전화를 반복적으로 실패하는 경우 운영자에게 전화를 리디렉션합니다.  연산자가 정의되지 않은 경우 자동 전화 교환은 호출을 삭제합니다.
 
 ## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>지난 6개월 동안 자동 전화 교환의 새로운 기능
 
@@ -75,9 +72,7 @@ ms.locfileid: "69251761"
 
 ## <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>자동 전화 교환을 설정하려면 다음 단계를 수행합니다.
 
-## <a name="step-1-general-info"></a>[1단계: 일반 정보](#tab/general-info)
-
-## <a name="step-1-set-the-auto-attendants-general-information"></a>1단계: 자동 전화 교환의 일반 정보 설정
+### <a name="step-1-set-the-auto-attendants-general-information"></a>1단계: 자동 전화 교환의 일반 정보 설정
 
 자동 전화 교환을 설정하려면 [Teams 관리 센터에서](https://go.microsoft.com/fwlink/p/?linkid=2066851) **음성** 을 확장하고 **자동 전화 교환을** 선택한 다음 **추가** 를 선택합니다.
 
@@ -96,23 +91,21 @@ ms.locfileid: "69251761"
 
 자동 전화 교환의 일반 정보를 설정했으면 **다음** 을 선택합니다.
 
-## <a name="step-2-basic-call-flow"></a>[2단계: 기본 호출 흐름](#tab/call-flow)
+### <a name="step-2-set-up-the-basic-call-flow"></a>2단계: 기본 호출 흐름 설정
 
-## <a name="step-2-set-up-the-basic-call-flow"></a>2단계: 기본 호출 흐름 설정
-
-### <a name="set-a-greeting"></a>인사말 설정
+#### <a name="set-a-greeting"></a>인사말 설정
 
 - **오디오 파일 재생을** 선택하는 경우 **파일 업로드** 단추를 사용하여 에 오디오로 저장된 기록된 인사말 메시지를 업로드할 수 있습니다. WAV, .MP3 또는 입니다. WMA 형식입니다. 녹음/녹화는 5MB를 초과할 수 없습니다.
 
 - **인사말 입력을** 선택하면 자동 전화 교환이 전화를 받을 때 시스템에서 입력한 텍스트(최대 1,000자)를 읽습니다.
 
-### <a name="route-the-call"></a>통화 라우팅
+#### <a name="route-the-call"></a>통화 라우팅
 
 - **연결 끊기를** 선택하면 자동 전화 교환이 전화를 끊습니다.
 - **리디렉션 호출** 을 선택하는 경우 통화 라우팅 대상 중 하나를 선택할 수 있습니다.
 - **재생 메뉴 옵션을** 선택하는 경우 **오디오 파일 재생** 또는 **인사말 메시지에 입력** 을 선택한 다음 메뉴 옵션과 디렉터리 검색 중에서 선택할 수 있습니다.
 
-#### <a name="play-menu-options"></a>재생 메뉴 옵션
+##### <a name="play-menu-options"></a>재생 메뉴 옵션
 
 *새로 만들기 - 선택하기 전에 호출자가 모든 메뉴 옵션을 수신 대기하도록 요구하는 수신 대기 강제 옵션을 사용하도록 설정할 수 있습니다.*
  *New - \* (별표) 및 \# (파운드) 키는 이제 메뉴 옵션에서 사용할 수 있습니다.*
@@ -131,7 +124,7 @@ ms.locfileid: "69251761"
 
 - **리디렉션 -** 호출자가 이 옵션을 선택할 때 사용되는 통화 라우팅 대상입니다. 자동 전화 교환 또는 통화 큐로 리디렉션하는 경우 연결된 리소스 계정을 선택합니다.
 
-##### <a name="directory-search"></a>디렉터리 검색
+###### <a name="directory-search"></a>디렉터리 검색
 
 대상에 다이얼 키를 할당하는 경우 **디렉터리 검색** 에 대해 **없음** 을 선택하는 것이 좋습니다. 호출자가 특정 대상에 할당된 키를 사용하여 이름 또는 확장 프로그램에 전화를 걸려고 하면 이름 또는 확장 입력을 완료하기 전에 예기치 않게 대상으로 라우팅될 수 있습니다. 디렉터리 검색을 위한 별도의 자동 전화 교환을 만들고 다이얼 키를 사용하여 기본 자동 전화 교환 링크를 사용하는 것이 좋습니다.
 
@@ -148,9 +141,7 @@ ms.locfileid: "69251761"
 
 기본 통화 흐름 옵션을 설정했으면 **다음** 을 선택합니다.
 
-## <a name="step-3-after-hours-call-flow"></a>[3단계: 시간 후 통화 흐름](#tab/after-hours)
-
-## <a name="step-3-set-up-call-flow-for-after-hours-optional"></a>3단계: 시간 후 통화 흐름 설정(선택 사항)
+### <a name="step-3-set-up-call-flow-for-after-hours-optional"></a>3단계: 시간 후 통화 흐름 설정(선택 사항)
 
 각 자동 전화 교환에 대해 업무 시간을 설정할 수 있습니다.
 
@@ -168,9 +159,7 @@ ms.locfileid: "69251761"
 
 시간 후 통화 흐름을 추가한 후 **다음** 을 선택합니다.
 
-## <a name="step-4-holiday-call-flow"></a>[4단계: 휴일 통화 흐름](#tab/holidays)
-
-## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>4단계: 휴일에 대한 통화 흐름 설정(선택 사항)
+### <a name="step-4-set-up-call-flows-for-holidays-optional"></a>4단계: 휴일에 대한 통화 흐름 설정(선택 사항)
 
 자동 전화 교환은 [설정한 각 휴일](set-up-holidays-in-teams.md)에 대한 통화 흐름을 가질 수 있습니다. 각 자동 전화 교환에 최대 20개의 예약된 휴일을 추가할 수 있습니다.
 
@@ -197,9 +186,7 @@ ms.locfileid: "69251761"
 
 모든 휴일 시간을 추가했으면 **다음** 을 선택합니다.
 
-## <a name="step-5-dial-scope"></a>[5단계: 전화 걸기 범위](#tab/dial-scope)
-
-## <a name="step-5-set-up-dial-scope-optional"></a>5단계: 다이얼 범위 설정(선택 사항)
+### <a name="step-5-set-up-dial-scope-optional"></a>5단계: 다이얼 범위 설정(선택 사항)
 
 *다이얼 범위* 는 호출자가 이름별 전화 걸기 또는 전화 접속을 사용하는 경우 디렉터리에서 사용할 수 있는 사용자를 정의합니다. **모든 온라인 사용자의** 기본값에는 온라인 사용자이거나 비즈니스용 Skype 서버 사용하여 온-프레미스에서 호스트되는 조직의 모든 사용자가 포함됩니다.
 
@@ -212,9 +199,7 @@ ms.locfileid: "69251761"
 
 **다이얼 범위** 옵션을 선택한 후 **다음** 을 선택합니다.
 
-## <a name="step-6-resource-accounts"></a>[6단계: 리소스 계정](#tab/resource-accounts)
-
-## <a name="step-6-set-up-resource-accounts-optional"></a>6단계: 리소스 계정 설정(선택 사항)
+### <a name="step-6-set-up-resource-accounts-optional"></a>6단계: 리소스 계정 설정(선택 사항)
 
 모든 자동 전화 교환에는 연결된 리소스 계정이 있어야 합니다.  첫 번째 수준 자동 전화 교환에는 연결된 서비스 번호가 있는 하나 이상의 리소스 계정이 필요합니다. 원하는 경우 각 리소스 계정을 별도의 서비스 번호로 자동 전화 교환에 할당할 수 있습니다.
 
@@ -223,8 +208,6 @@ ms.locfileid: "69251761"
 리소스 계정을 추가한 후 **다음** 을 선택합니다.
 
 자세한 내용은 [Teams 리소스 계정 관리를](manage-resource-accounts.md) 참조하세요.
-
----
 
 ## <a name="resources-for-complex-scenarios"></a>복잡한 시나리오에 대한 리소스
 

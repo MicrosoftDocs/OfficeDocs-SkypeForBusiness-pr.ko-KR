@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 810e4a2c151284786092d664170388f17c0461e6
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
-ms.translationtype: HT
+ms.openlocfilehash: 93a338ef393c783c4fc2240b580f3cd316c354ee
+ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564116"
+ms.lasthandoff: 12/03/2022
+ms.locfileid: "69251891"
 ---
 # <a name="sign-out-of-microsoft-teams"></a>Microsoft Teams에서 로그아웃
 
@@ -50,7 +50,7 @@ Teams 데스크톱 클라이언트나 브라우저에서 로그아웃하려면 �
 
 ## <a name="sign-out-of-teams-on-mobile-devices"></a>모바일 장치에서 Teams에서 로그아웃
 
-모바일에서는 메뉴로 이동하여 **더 보기** 메뉴를 선택한 다음 **로그아웃** 을 선택하여 Teams에서 로그아웃할 수 있습니다. 로그아웃하면 다음에 앱을 실행할 때 자격 증명을 다시 입력해야 합니다.
+모바일에서는 사용자 아이콘으로 이동하여 **설정을** 선택한 다음 로그아웃을 선택하여 Teams **에서 로그아웃** 할 수 있습니다. 로그아웃한 후에는 다음에 앱을 시작할 때 자격 증명을 다시 입력해야 합니다.
 
 ### <a name="global-sign-in-and-sign-out-for-frontline-workers"></a>일선 근로자를 위한 전체 로그인 및 로그아웃
 
