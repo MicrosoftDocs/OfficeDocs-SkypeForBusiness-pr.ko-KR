@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams의 웨비나를 위한 설정
+title: 웨비나 설정
 ms.author: mabond
 author: mkbond007
 manager: serdars
@@ -19,112 +19,141 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 - highpri
-description: Teams 모임에 대한 웨비나 정책을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 2c83452a37752745072b8a128f9e0eec8db3d7c0
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+description: Teams에서 웨비나 및 모임 등록 정책을 관리하는 방법을 알아봅니다.
+ms.openlocfilehash: 37983f8597b9e1a0ed511c2d767c503494447481
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614581"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307583"
 ---
-# <a name="set-up-for-webinars-in-microsoft-teams"></a>Microsoft Teams의 웨비나를 위한 설정
+# <a name="set-up-webinars-in-microsoft-teams"></a>Microsoft Teams에서 웨비나 설정
 
-이 문서는 웹 세미나를 호스트하도록 조직을 설정하는 데 도움이 됩니다.
+> [!NOTE]
+> 이 문서에서는 미리 보기 상태이며 Teams Premium 라이선스가 필요한 웨비나의 일부 기능에 대해 설명합니다.
 
-## <a name="what-are-webinars"></a>웨비나란?
+이제 Microsoft 새 웨비나 환경을 제공합니다. 이 문서에서는 이러한 기능을 사용하도록 설정을 업데이트하는 방법을 설명합니다.
 
-웨비나는 발표자와 참가자가 명확한 역할을 갖는 구조화된 모임으로, 종종 교육 목적이나 영업 및 마케팅 리드 생성 시나리오에 사용됩니다.
+웨비나를 사용하려는 경우 새 웨비나 환경을 사용하는 것이 좋습니다.
 
-조직에서 웨비나를 설정한 후 사용자는 웨비나를 예약하고 참석자에게 등록을 열 수 있습니다. 많은 토론 및 작업 할당이 포함된 기존 모임과 달리 웨비나는 대화형 프레젠테이션을 위한 것이며 참석자 분석을 위한 도구를 제공합니다.
+모임 등록에는 기본 웨비나 기능, 모임 등록을 요구하는 기능 및 참석 보고서가 포함됩니다. 새 웨비나 환경을 사용하도록 설정하면 모임 등록 및 다음과 같은 여러 새 웨비나 기능을 사용할 수 있습니다.
+
+- 웨비나에 대한 전용 이벤트 및 등록 페이지
+- 공동 이끌이
+- 이벤트 페이지의 발표자 bios
+- 등록 상태 개요 및 관리
+
+[Teams 웹 세미나 시작](https://support.microsoft.com/office/42f3f874-22dc-4289-b53f-bbc1a69013e3)에서 최종 사용자가 사용할 수 있는 새로운 기능에 대해 자세히 알아보세요.
+
+조직에서 모임 등록을 사용하도록 설정한 경우 새로 만든 모든 웨비나에는 새 환경이 있습니다. 이전에 예약된 웨비나는 이전 웨비나 환경을 사용합니다. 새 환경은 TeamsEventsPolicy를 사용합니다. 웨비나를 해제한 경우 새 환경이 출시될 때 웹 세미나가 꺼져 있습니다.
+
+현재 기본 웨비나 환경은 Teams 모임 정책(Set-CsTeamsMeetingPolicy)을 사용하여 모임 등록에 의해 제어됩니다. 나중에 모임 등록 설정은 웨비나를 제어하지 않습니다. 웹 세미나는 Teams 이벤트 정책(Set-CsTeamsEventsPolicy)에 의해 제어되는 것으로 전환되고 있습니다.
+
+새 웨비나 환경은 PowerShell에서 구성됩니다. [새 웨비나 환경을 설정하는 방법에](#set-up-new-webinar-experience) 대한 예제를 참조하세요.
+
+모임, 웨비나 및 라이브 이벤트의 차이점에 대한 자세한 내용은 [모임, 웨비나 및 라이브 이벤트를 참조하세요](quick-start-meetings-live-events.md).
 
 > [!IMPORTANT]
-> 사용자가 웹 세미나를 설정할 수 있도록 하려면 개인 목록 만들기를 사용하도록 설정하여 SharePoint에서 Microsoft Lists 구성해야 합니다. 자세한 내용은 [Microsoft Lists 대한 제어 설정을](/sharepoint/control-lists) 참조하세요.
+> 사용자가 웨비나를 설정할 수 있도록 하려면 eDiscovery 목적으로 개인 목록을 만들도록 설정하여 SharePoint에서 Microsoft Lists 구성해야 합니다. 자세한 내용은 [Microsoft Lists 대한 설정 제어를 참조하세요](/sharepoint/control-lists).
 
-## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>사용자가 Teams 관리 센터에서 웨비나를 예약할 수 있도록 허용
+## <a name="set-up-new-webinar-experience"></a>새 웨비나 환경 설정
 
-Teams 관리 센터를 사용하여 조직에 대한 웨비나를 설정할 수 있습니다. Teams 관리 센터에서 **모임 모임** 정책 아래에 웹 세미나를 설정하는 **정책을** 찾을 수 있습니다 > .
+PowerShell을 사용하여 조직에 대한 새 웨비나 환경을 설정해야 합니다. Teams 관리 센터에서 새 웨비나 환경을 구성하는 기능은 아직 사용할 수 없습니다.
+
+새 웨비나 환경을 사용하려면 모임 등록이 설정되어야 합니다.
+
+### <a name="configure-the-new-webinar-experience-with-powershell"></a>PowerShell을 사용하여 새 웨비나 환경 구성
+
+새 웨비나 환경을 설정하려면 **Windows PowerShell Set-CsTeamsEventsPolicy** cmdlet 내에서 다음 특성을 사용합니다.
+
+|매개 변수|기본 설정|설명|
+|---------|-----------|---------------|
+|AllowWebinars|사용|이 설정은 사용자가 웨비나를 만들 수 있는지 여부를 결정합니다.|
+|EventAccessType|모든 사용자|이 설정은 등록할 이벤트 등록 페이지 또는 이벤트 사이트에 액세스할 수 있는 사용자와 이벤트에서 세션에 참가할 수 있는 사용자 유형을 결정합니다.|
+
+이러한 cmdlet을 실행하려면 먼저 Microsoft Teams PowerShell에 연결해야 합니다. 자세한 내용은 [Microsoft Teams PowerShell을 사용하여 Teams 관리를 참조하세요](/microsoftteams/teams-powershell-managing-teams).
+
+1. 모임 등록을 켭니다.
+
+    ```powershell
+    Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingRegistration $True
+    ```
+
+1. 새 웨비나 환경을 활성화합니다.
+
+    ```powershell
+    Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinars Enabled
+    ```
+
+1. 웨비나 및 모임에 등록할 수 있는 사용자를 구성합니다.
+
+    - **조직의 **_only_* _ 사용자가 웨비나 및 meetings_ 등록하도록 허용*
+
+        ```powershell
+        Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType EveryoneInCompanyExcludingGuests
+        ```
+
+    - **익명 사용자를 포함한 모든 사용자가 웨비나 및 모임에 등록할 수 있도록 허용**
+
+        ```powershell
+        Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType Everyone
+        ```
+
+> [!IMPORTANT]
+> 모임 **설정** 에서 **익명 사용자가 모임에 참가할 수** 없으면 익명 사용자는 웨비나에 참가할 수 없습니다. 자세한 내용을 알아보고 이 설정을 사용하도록 설정하려면 [Teams의 모임 설정을 참조하세요](meeting-settings-in-teams.md).
+
+## <a name="configure-meeting-registration"></a>모임 등록 구성
+
+웨비나를 사용하려면 모임 등록을 켜야 합니다.
+
+모임 **모임 정책** 아래의 Teams 관리 센터를 사용하여 **모임** >  등록 및 웨비나를 설정할 수 있습니다.
 
 ### <a name="meeting-registration"></a>모임 등록
 
-이 기능을 켜면 사용자가 웨비나를 예약할 수 있습니다. 기본적으로 이 설정은 켜져 있습니다. 모임 등록을 해제하려면 이 정책을 **끄** 도록 설정합니다.
+**모임 등록** 을 켜면 조직의 사용자가 등록이 필요한 웨비나 및 모임을 예약할 수 있습니다. 기본적으로 이 설정은 켜져 있습니다. 모임 등록 및 웨비나를 끄려면 이 정책을 **끄** 기로 설정합니다.
 
-> [!IMPORTANT]
-> 모임 등록이 작동하려면 **비공개 모임 일정이** 설정되어야 합니다. 기본적으로 이 정책은 Teams 관리 센터에서 설정됩니다. 교육 테넌트에 있는 학생의 경우 이 정책은 기본적으로 꺼져 있습니다. 학생을 위한 비공개 모임 예약을 사용하도록 설정하는 방법에 대한 자세한 내용은 [교육용 Teams 정책 및 정책 패키지를 참조하세요](policy-packages-edu.md).
+**모임 등록이** 작동하려면 비공개 모임 일정이 설정되어야 합니다. [비공개 모임 일정](meeting-policies-in-teams-general.md)에 대해 자세히 알아보세요.
 
-### <a name="who-can-register"></a>등록할 수 있는 사용자
+교육 테넌트 학생의 경우 이 정책은 기본적으로 꺼져 있습니다. 학생을 위한 비공개 모임 예약을 사용하도록 설정하는 방법에 대한 자세한 내용은 [교육용 Teams 정책 및 정책 패키지를 참조하세요](policy-packages-edu.md).
 
-**모든 사용자를** 선택하면 익명 사용자를 포함한 모든 사용자가 웨비나에 등록하고 참석할 수 있습니다. **조직의 모든** 사용자를 선택하는 경우 조직의 사용자만 웨비나에 등록할 수 있습니다. 모임 등록이 해제된 경우 이 옵션을 사용할 수 없으며 아무도 웨비나에 등록할 수 없습니다.
+#### <a name="who-can-register"></a>등록할 수 있는 사용자
 
 > [!NOTE]
-> **등록할 수 있는 사용자의** 기본값은 교육 테넌트에 **있는 조직의 모든** 사용자입니다. 자세한 내용은 [교육용 Teams 정책 마법사](easy-policy-setup-edu.md)를 참조하세요.
+> 이 정책은 새 웨비나 환경에는 적용되지 않습니다. 새 웨비나 환경에 등록할 수 있는 사용자를 구성하려면 [PowerShell을 사용하여 새 웨비나 환경 구성](#configure-the-new-webinar-experience-with-powershell)에 표시된 대로 를 사용합니다`Set-CsTeamsEventsPolicy -EventAccessType`.
 
-### <a name="engagement-report"></a>참여 보고서
+이 정책은 모임 등록으로만 웨비나를 등록하고 참석할 수 있는 사용자를 제어합니다. 이 정책에는 **모임 등록** 이 켜져 있는 경우에만 사용할 수 있는 두 가지 옵션이 있습니다. 기본적으로 **등록할 수 있는 사람은** **모두** 로 설정됩니다.
 
-이 작업이 완료되면 이끌이는 설정한 웨비나를 등록하고 참석한 사람에 대한 보고서를 볼 수 있습니다. 이 정책은 기본적으로 설정됩니다. 자세한 내용은 [Teams - Engagement 보고서의 모임 정책을](meeting-policies-in-teams-general.md#engagement-report) 참조하세요. 최종 사용자 환경에 대한 자세한 내용은 [모임 참석 보고서 보기 및 다운로드](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)를 참조하세요.
+**모든 사용자를** 선택하면 익명 사용자를 포함한 모든 사용자가 웨비나에 등록하고 참석할 수 있습니다. **조직의 모든 사용자를** 선택하는 경우 조직의 사용자만 웨비나에 등록하고 참석할 수 있습니다. 모임 등록이 꺼져 있으면 등록 **할 수 있는 사람** 설정을 사용할 수 없으며 아무도 웨비나에 등록할 수 없습니다.
 
-## <a name="allow-users-to-schedule-webinars-using-powershell"></a>사용자가 PowerShell을 사용하여 웨비나를 예약하도록 허용
+**등록할 수 있는 사용자의** 기본값은 교육 테넌트 **에서 조직의 모든 사람** 입니다. 자세한 내용은 [교육용 Teams 정책 마법사](easy-policy-setup-edu.md)를 참조하세요.
 
-**Windows PowerShell Set-CsTeamsMeetingPolicy** cmdlet 내에서 다음 특성을 사용하여 Teams의 웨비나에 대해 설정할 수 있습니다.
+## <a name="collect-webinar-and-meeting-registration-attendance"></a>웨비나 및 모임 등록 참석 수집
 
-- AllowMeetingRegistration
-- WhoCanRegister
-- AllowPrivateMeetingScheduling
+**모임 모임** > **정책** 아래의 Teams 관리 센터를 사용하여 **참여 보고서를** 켤 수 있습니다.
+
+이 상태가 되면 이끌이는 설정한 웨비나 또는 모임에 등록하고 참석한 사람에 대한 보고서를 볼 수 있습니다. 이 정책은 기본적으로 설정됩니다. 자세한 내용은 [Teams의 모임 정책 - 참여 보고서를 참조하세요](meeting-policies-in-teams-general.md#engagement-report). 최종 사용자 환경에 대한 자세한 내용은 [모임 참석 보고서 보기 및 다운로드](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310)를 참조하세요.
+
+PowerShell에서 **AllowEngagementReport** 매개 변수를 사용하여 이를 켤 수 있습니다. 이 정책은 기본적으로 설정됩니다. 해제하려면 PowerShell에서 다음 명령을 실행합니다.
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowEngagementReport Disabled
+```
 
 cmdlet에 대한 자세한 내용은 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) 를 참조하세요.
 
-> [!NOTE]
-> 이러한 cmdlet을 실행하려면 먼저 Microsoft Teams PowerShell에 연결해야 합니다. 자세한 내용은 [Microsoft Teams PowerShell을 사용하여 Teams 관리를](/microsoftteams/teams-powershell-managing-teams) 참조하세요.
+## <a name="turn-off-webinars"></a>웨비나 끄기
 
-### <a name="allow-users-to-schedule-webinars"></a>사용자가 웹 세미나를 예약하도록 허용
+PowerShell을 사용하여 웨비나를 끌 수 있습니다. 그러면 모임 등록만 있는 웨비나뿐만 아니라 새 웨비나 환경도 해제됩니다.
 
-조직의 사용자만 등록을 제한하거나 테넌트 내부 및 외부의 모든 사용자에게 등록을 열 수 있습니다. 기본적으로 **WhoCanRegister** 는 전역 **(조직 전체 기본값)** 정책의 **모든** 사용자로 설정됩니다. 모임 등록을 해제하려면 **AllowMeetingRegistration을** **False** 로 설정합니다.
-
-> [!IMPORTANT]
-> **AllowMeetingRegistration** 이 작동하려면 **AllowPrivateMeetingScheduling** 을 **True** 로 설정해야 합니다.
-
-1. 모임 등록 켜기
+다음 PowerShell 스크립트를 사용하여 웨비나를 끕니다.
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
+Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingRegistration $False
+Set-CSTeamsEventsPolicy -Identity <policy name> -AllowWebinars Disabled
 ```
-
-2. 비공개 모임 일정 설정
-
-```powershell
-Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
-```
-
-3. 웹 세미나에 등록할 수 있는 사용자 구성
-
-**조직의 사용자 *만* 웹 세미나에 등록할 수 있도록 허용**
-
-```powershell
-Set-CsTeamsMeetingPolicy -WhoCanRegister EveryoneInCompany
-```
-
-**익명 사용자를 포함한 모든 사용자가 웹 세미나에 등록할 수 있도록 하려면 다음을 실행합니다.**
-
-```powershell
-Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
-```
-
-> [!CAUTION]
-> 모임 설정에서 익명 참가가 해제된 경우 익명 사용자는 웨비나에 참가할 수 없습니다. 자세한 내용을 알아보고 이 설정을 사용하도록 설정하려면 [Teams의 모임 설정을 참조하세요](meeting-settings-in-teams.md).
-
-### <a name="collect-meeting-attendance"></a>모임 참석 수집
-
-**AllowEngagementReport** 매개 변수를 사용하면 누가 웨비나를 등록하고 참석했는지 확인할 수 있습니다. 이 정책은 기본적으로 켜져 있습니다. 끄려면 PowerShell에서 다음 명령을 실행합니다.
-
-```powershell
-Set-CsTeamsMeetingPolicy -AllowEngagementReport Disabled
-```
-
-## <a name="configure-webinar-settings"></a>웹 세미나 설정 구성
-
-웹 세미나에 대한 환경을 사용하도록 설정한 후에는 추가 관리자 관리가 필요하지 않습니다. 정책은 웹 세미나 이끌이에 대해 표시되는 옵션을 제어합니다.
 
 ## <a name="related-topics"></a>관련 주제
 
 - [Teams의 모임 정책 - 일반](meeting-policies-in-teams-general.md)
-- [Set-CsTeamsMeetingPolicy 설명서](/powershell/module/skype/set-csteamsmeetingpolicy)
-- [교육용 Teams 정책 마법사](easy-policy-setup-edu.md)
+- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
+- [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)

@@ -21,12 +21,12 @@ description: 이 문서에서는 Microsoft Teams에서 라이브 이벤트를 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a1bbc6452847182533271f4aa7c7652ff8b00ba3
-ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
+ms.openlocfilehash: f458aded53926fed8772de70af2a105cdf9e5fda
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2022
-ms.locfileid: "68966317"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307653"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams의 라이브 이벤트 계획하기
 
@@ -107,7 +107,7 @@ As a best practice, we recommend that you create a channel for producers and pre
 > [!IMPORTANT]
 > **Microsoft 365 라이브 이벤트 한도 증가**
 >
-> **고객의 요구를 계속해서 지원하기 위해 2022년 12월 31일까지 다음을 포함하여 라이브 이벤트에 대한 임시 기한 연장을 확대할 것입니다**.
+> **고객의 요구 사항을 계속 지원하기 위해 다음을 포함하여 2023년 6월 30일까지 라이브 이벤트에 대한 임시 제한 증가를 연장합니다.**
 >
 >- 최대 20,000명의 참석자를 위한 이벤트 지원
 >- 한 테넌트에 걸쳐 동시에 50개의 이벤트가 호스트될 수 있습니다.
@@ -140,7 +140,7 @@ As a best practice, we recommend that you create a channel for producers and pre
 |라이브 캡션 및 자막 |&#x2714; |&#x2714; |&#x274C; |
 |라이브 이벤트 녹음/녹화의 캡션 |&#x2714; |&#x2714; |&#x2714; |
 |참석자 DVR 컨트롤(일시 중지, 되감기) |&#x2714; |&#x2714; |&#x2714; |
-|Microsoft eCDN |&#x274C; |&#x2714; |&#x2714; |
+|eCDN Microsoft |&#x274C; |&#x2714; |&#x2714; |
 |파트너 eCDN 지원 |&#x2714; (Kollective, Hive, Riverbed) |&#x2714;(Kollective, Hive, Ramp, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
 |프로듀서용 브로드캐스트 후 참석 보고서 |&#x2714; |&#x2714; |&#x274C; |
 |대상 그룹 감정 분석 – 실시간 투표 및 설문 조사 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |

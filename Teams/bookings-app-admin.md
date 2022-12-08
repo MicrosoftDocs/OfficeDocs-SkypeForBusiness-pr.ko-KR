@@ -22,23 +22,21 @@ ms.collection:
 - m365-frontline
 - tier2
 - highpri
+- m365initiative-meetings
 ms.reviewer: ''
 description: 조직의 사용자를 위해 Teams에서 Bookings 앱을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 4669b27efb351c375d5d5fd1104843e21c6f5ba9
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: abcd906f18b10b7d82b67682de439f1eb6592cd6
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131307"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307523"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Microsoft Teams에서 Bookings 앱 관리
 
-Microsoft Teams의 Bookings 앱은 대면 및 가상 약속을 예약하는 간단한 방법을 제공합니다. 예를 들어, 의료 방문, 재무 상담, 인터뷰, 고객 지원 및 교육 사무실 시간. 자세한 내용은 [Teams 및 Bookings 앱을 사용하여 가상 약속을 참조하세요](/microsoft-365/frontline/bookings-virtual-visits).
+Microsoft Teams의 Bookings 앱은 대면 및 가상 약속을 예약하는 간단한 방법을 제공합니다. 예를 들어 의료 방문, 재무 상담, 인터뷰, 고객 지원 및 교육 사무실 시간 등이 있습니다. 자세한 내용은 [Teams 및 Bookings 앱으로 가상 약속 참조하세요](/microsoft-365/frontline/bookings-virtual-appointments).
 
-스케줄러에서는 단일 환경에서 여러 부서 및 직원 일정 및 내부 및 외부 참석자와의 통신을 관리할 수 있습니다. 가상 약속은 강력한 화상 회의 기능을 제공하는 Microsoft Teams 모임을 통해 개최됩니다.
-
-> [!NOTE]
-> 스케줄러만 Teams에 Bookings 앱을 설치하면 됩니다. 가상 약속을 수행하거나 참여하는 직원은 앱이 필요하지 않습니다. Outlook 또는 Teams 일정 또는 예약 확인 전자 메일의 Teams 모임 링크에서 약속에 참가하기만 하면 됩니다.
+스케줄러에서는 단일 환경에서 여러 부서 및 직원 일정 및 내부 및 외부 참석자와의 통신을 관리할 수 있습니다. 가상 약속은 강력한 비디오 회의 기능을 제공하는 Teams 모임을 통해 개최됩니다.
 
 ## <a name="prerequisites-to-use-the-bookings-app-in-teams"></a>Teams에서 Bookings 앱을 사용하기 위한 필수 구성 요소
 
@@ -50,9 +48,9 @@ Microsoft Teams의 Bookings 앱은 대면 및 가상 약속을 예약하는 간�
 
 ## <a name="availability-of-bookings-in-teams"></a>Teams의 Bookings 가용성
 
-Teams용 Microsoft Bookings 앱은 데스크톱 및 웹에서 사용할 수 있습니다. [Teams의 앱 및 Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) 관리 센터의 **앱 관리** 에서 찾을 수 있습니다.
+Teams용 Bookings 앱은 데스크톱 및 웹에서 사용할 수 있습니다. [Teams의 앱 및 Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) 관리 센터의 **앱 관리** 에서 찾을 수 있습니다.
 
-### <a name="control-access-to-bookings-within-your-organization"></a>조직 내에서 Bookings에 대한 액세스 제어
+## <a name="control-access-to-bookings-within-your-organization"></a>조직 내에서 Bookings에 대한 액세스 제어
 
 Bookings 앱에 액세스할 수 있는 사용자와 앱의 특정 기능에 액세스할 수 있도록 제어하는 방법에는 여러 가지가 있습니다. Microsoft Bookings 앱을 사용할 수 있도록 설정하거나 Microsoft 365 관리 센터 사용하지 않도록 설정할 수 있습니다. 또는 일부 사용자가 Bookings 일정을 만들 수 있도록 Bookings 앱 정책을 만들 수 있습니다. [Microsoft Bookings 액세스 권한을](/microsoft-365/bookings/get-access) 참조하세요.
 
@@ -64,17 +62,29 @@ Bookings에 가장 적합한 환경을 사용하도록 설정하려면 Teams 모
 
 모임 정책에 대한 자세한 내용은 [Teams에서 모임 정책 관리 및 Teams에서](meeting-policies-in-teams.md) [모임 정책 및 모임 만료를 참조하세요](meeting-expiration.md).
 
+## <a name="sms-text-notifications"></a>SMS 텍스트 알림
+
+![정보 아이콘](media/info.png) **이 기능은 [Teams 프리미엄](teams-add-on-licensing/licensing-enhance-teams.md) (미리 보기)으로 이동합니다. 사용자는 미리 보기 기간 동안 이 기능을 계속 사용할 수 있습니다. 미리 보기 후에는 Teams Premium 라이선스가 필요합니다.**
+
+조직의 직원이 예약한 가상 약속을 위해 외부 참석자에게 SMS 텍스트 알림을 보낼 수 있는지 여부를 제어할 수 있습니다.
+
+기본적으로 이 설정은 켜지고 조직의 모든 Bookings 일정에 대해 SMS 텍스트 알림이 사용하도록 설정됩니다. Bookings 관리자 및 스케줄러가 나중에 [예약된 약속 유형](/microsoft-365/frontline/bookings-virtual-appointments#scheduled-appointment-type) 및 예약된 개별 약속에서 필요에 따라 SMS 알림을 끄거나 켜도록 선택할 수 있습니다.
+
+이 설정을 구성하려면 Microsoft 365 관리 센터 \> **설정** \> **조직 설정** 으로 이동한 다음 예약 **을** 선택합니다. **Microsoft SMS 문자 메시지 알림을 보낼 수 있도록** 허용 확인란을 선택하거나 선택 취소합니다.
+
+[조직에 대한 SMS 텍스트 알림을 구성하는](/microsoft-365/bookings/turn-bookings-on-or-off) 방법에 대해 자세히 알아봅니다.
+
 ## <a name="optional-staff-approvals-setting"></a>선택적 직원 승인 설정
 
 Bookings가 일정 가용성 정보를 공유하기 전에 다른 사람들이 약속을 예약하기 전에 직원이 옵트인하도록 요구할 수 있습니다.
 
-이 설정을 사용하려면 설정  **설정** **Microsoft 365 관리 센터** \> \> 이동한 다음 예약 **을** 선택합니다.
+이 설정을 사용하도록 설정하려면 Microsoft 365 관리 센터 \> **설정** \> **조직 설정** 으로 이동한 다음 예약 **을** 선택합니다. **직원 승인 필요** 확인란을 선택합니다.
 
 이 설정이 켜져 있으면 직원은 예약 일정에 대한 멤버십을 승인하도록 요청하는 이메일을 받습니다.  
 
-이 기능은 점차적으로 Microsoft 365 및 Office 365 고객을 대상으로 전 세계에 배포되고 있습니다. 사용자 환경에서 아직 모든 옵션을 사용할 수 없는 경우 곧 다시 확인하세요.
+[직원 승인 설정을 구성하는 방법에](/microsoft-365/bookings/turn-bookings-on-or-off) 대해 자세히 알아봅니다.
 
-## <a name="changing-your-default-domain-when-setting-up-bookings-mailbox"></a>Bookings 사서함을 설정할 때 기본 도메인 변경
+## <a name="changing-your-default-domain-when-setting-up-a-bookings-mailbox"></a>Bookings 사서함을 설정할 때 기본 도메인 변경
 
 Bookings 사서함을 설정할 때 Microsoft 365 또는 Office 365 조직의 기본 전자 메일 도메인이 사용됩니다. 그러나 기본 도메인은 외부 받는 사람에게 모임 초대를 보낼 때 문제가 발생할 수 있습니다. 예를 들어 초대에 스팸 플래그가 지정되고 받는 사람의 정크 폴더로 이동될 수 있으므로 받는 사람이 초대를 볼 수 없습니다.
 
@@ -82,11 +92,11 @@ Bookings 사서함을 만들기 전에 기본 도메인을 변경하는 것이 �
 
 Bookings 사서함을 만든 후 기본 도메인을 변경해야 하는 경우 PowerShell을 사용합니다.
 
-```PowerShell
+```powerShell
 Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress business@domain.com -EmailAddresses business@domain.com
 ```
 
-사서함 cmdlet [설정](/powershell/module/exchange/mailboxes/set-mailbox) 에 대한 PowerShell 설명서를 참조하세요.
+자세한 내용은 [사서함 설정을 참조하세요](/powershell/module/exchange/mailboxes/set-mailbox).
 
 > [!NOTE]
 > Exchange 하이브리드 구성을 사용하는 경우 기본 도메인을 변경할 때 온-프레미스 Exchange와 Exchange Online 간의 메일 흐름을 철저히 테스트하는 것이 좋습니다.
@@ -103,7 +113,7 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
 
 ## <a name="related-articles"></a>관련 기사
 
-[브라우저에서 Teams 가상 약속에 대한 조인 환경 관리](/microsoft-365/frontline/browser-join)
+[브라우저에서 Teams 가상 약속 대한 조인 환경 관리](/microsoft-365/frontline/browser-join)
 
 
   [최종 사용자를 위한 Bookings 설명서](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)

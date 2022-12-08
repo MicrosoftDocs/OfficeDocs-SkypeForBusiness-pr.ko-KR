@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba285480bc1316d33ea6a5708ec7ef7e6d7451f9
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 7a972af743d25a490b8ad0643e84bcd5ff606743
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377626"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307743"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>소규모 비즈니스를 위한 Microsoft Teams Essentials 빠른 시작 가이드
 
@@ -29,9 +29,9 @@ Microsoft Teams Essentials는 소규모 비즈니스를 위한 모임, 채팅 �
 
 ### <a name="before-you-continue"></a>계속하기 전에
 
-Microsoft Teams Essentials는 직접 Microsoft의 웹 사이트와 엄선된 Microsoft Cloud 파트너를 통해 구매할 수 있습니다. 직접 및 파트너를 통한 구독은 서로 다른 ID 시스템을 사용하기 때문에 여러 가지 면에서 다릅니다. 자세한 내용은 이 문서의 뒷부분에 있는 표를 참조하세요. [ Microsoft Teams Essentials 플랜](#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans)으로 이동하세요.
+Microsoft Teams Essentials는 직접 Microsoft의 웹 사이트와 엄선된 Microsoft Cloud 파트너를 통해 구매할 수 있습니다. 직접 및 파트너를 통한 구독은 서로 다른 ID 시스템을 사용하기 때문에 여러 가지 면에서 다릅니다. 자세한 내용은 [Microsoft Teams Essentials 계획을 참조하세요](#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans).
 
-Microsoft의 직영 웹 사이트를 사용하여 구매한 구독은 Microsoft 계정 ID를 사용하며, TomislavK@outlook.com, TomislavK@gmail.com, TomislavK@ContosoLandscaping.com 등 기존 전자 메일을 사용하여 가입할 수 있습니다.
+Microsoft 직접 웹 사이트를 통해 구매한 구독은 Microsoft 계정 ID를 사용하여 TomislavK@outlook.com, TomislavK@gmail.com 또는 TomislavK@ContosoLandscaping.com 같은 기존 전자 메일 주소를 사용하여 등록할 수 있습니다.
 
 또는 엄선된 Microsoft 인증 파트너를 통해 구매한 Teams Essentials는 새 로그인/ID를 만들도록 요청하는 AAD(Azure Active Directory)를 사용합니다. 파트너는 기존 전자 메일 주소를 사용하여 로그인할 수 있도록 Teams Essentials를 기존 전자 메일 주소에 연결하도록 구성할 수 있습니다.  
 
@@ -47,7 +47,7 @@ Microsoft 인증 파트너를 통해 Teams Essentials를 구매한 경우 **Micr
 다음 표에는 여러 플랜에서 사용할 수 있는 주요 Microsoft Teams 기능이 나와 있습니다. 특정 주의 사항이 적용됩니다. 자세한 내용은 각주를 참조하세요. 이 표는 예고 없이 변경될 수 있습니다. 최신 기능의 전체 목록은 [Microsoft Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)을 방문하세요.
 
  
-|Microsoft Teams 플랜 | [**Microsoft Teams(무료)**](manage-freemium.md) | [**Microsoft Teams Essentials**](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials(AAD ID)** | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
+|Microsoft Teams 플랜 | **Microsoft Teams(무료)** | [**Microsoft Teams Essentials**](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials(AAD ID)** | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
 |---------|---------|---------|---------|---------|
 |***기능***     |         |         |         |         |
 | **모임 및 통화** | 예| 예| 예 |   예    |
@@ -71,16 +71,15 @@ Microsoft 인증 파트너를 통해 Teams Essentials를 구매한 경우 **Micr
 | 화이트보드 |         |         |  예       |     예    |
 | 참석자 등록 페이지, 전자 메일 확인 및 보고가 포함된 호스트 웨비나. |     |     |      | 비즈니스 표준에서 사용 가능|
 | **채팅 및 공동 작업**     |         |         |         |         |
-| 무제한 채팅(비공개 및 그룹) |     예    |   예      |   예      |    예      |
+| 무제한 채팅(일대일 & 그룹) |     예    |   예      |   예      |    예      |
 | Office 앱에서 실시간 공동 작업 |     예    |   예      |   예      |  예      |
 | 게스트 액세스: 회사 내부 및 외부 사용자와 채팅|     예    |   예      |   예      |  예      |
 | 투표 |     예    |   예      |   예      |  예      |
-| 그룹 채팅 템플릿 |     예    |   예      |   | | 
 | 팀 및 채널 |     |   |   예      |  예      |
 | **생산성 앱 및 서비스** |         |         |         ||
 | 파일 및 문서 클라우드 스토리지(사용자당) |     5GB    |   10GB      |   10GB     | 1TB | 
 | Word, Excel, PowerPoint 웹 및 모바일 앱 |     예   |   예      |   예      | 예 | 
-| Google 캘린더 동기화 |     준비 중    |   준비 중      |   예&sup1;      | 예&sup1; | 
+| Google 캘린더 동기화 |     예    |   예      |   예&sup1;      | 예&sup1; | 
 | 앱 확장성(250개 이상의 통합 앱 및 서비스) |     |        |   예      | 예 | 
 | 고객 전자 메일 도메인 주소로 Exchange 전자 메일 호스팅 |    |   | 2GB&sup2; |    50GB|
 |**보안 및 규정 준수**     |         |         |         | | 
@@ -91,9 +90,9 @@ Microsoft 인증 파트너를 통해 Teams Essentials를 구매한 경우 **Micr
 | 기존 데이터 및 사용자를 Microsoft 365에 마이그레이션  |     |   | 예  | 예|
 | 오디오 회의 및 Teams 전화를 비롯한 추가 서비스 기능 |     |   |   예      | 예 |
 
-<sup>1</sup> 다음 구성으로 Google 캘린더 및 기타 타사 캘린더에 대한 연결을 제공합니다. [Microsoft Teams Essentials(AAD ID) 구성 가이드](connect-teams-essentials-to-email.md)
+<sup>1</sup> Google 일정 및 기타 타사 일정에 대한 연결을 다음 구성으로 제공합니다. [Microsoft Teams Essentials(AAD ID) 구성 가이드](connect-teams-essentials-to-email.md)
 
-<sup>2</sup> 파트너를 통한 Teams Essentials(AAD ID)는 2GB Exchange 사서함을 포함하며, Archiving은 포함하지 않습니다. 사용자는 타사 전자 메일 공급자와 이를 동기화할 수 있습니다.
+<sup>2</sup> 파트너를 통한 Teams Essentials(AAD ID)에는 2GB Exchange 사서함과 보관이 없으므로 사용자가 타사 전자 메일 공급자와 동기화할 수 있습니다.
 
 
 > [!IMPORTANT] 
@@ -101,7 +100,7 @@ Microsoft 인증 파트너를 통해 Teams Essentials를 구매한 경우 **Micr
 
 ## <a name="administration-limits-and-specifications-for-microsoft-teams-essentials"></a>Microsoft Teams Essentials에 대한 관리 제한 사항 및 사양
 
-[Microsoft Teams 제한 사항 및 사양](/microsoftteams/limits-specifications-teams)으로 이동하여 Teams에 적용되는 제한 사항, 사양 및 기타 요구 사항에 대해 자세히 알아보세요.
+[Teams에 적용되는 제한, 사양 및](/microsoftteams/limits-specifications-teams) 기타 요구 사항에 대한 자세한 내용은 Microsoft Teams 제한 및 사양을 참조하세요.
 
 ## <a name="get-microsoft-teams-essentials"></a>Microsoft Teams Essentials 받기
 
@@ -117,67 +116,60 @@ Teams Essentials를 시작하려면 다음 단계를 수행하세요.
 
 이렇게 하려면 다음 세 단계를 완료합니다.
 
-1.  **Teams 앱을 설치합니다.** [Microsoft Teams 다운로드](https://www.microsoft.com/microsoft-teams/download-app)로 이동하고 **가정용 Teams** 에서 옵션을 선택하여 PC 또는 모바일 장치에 Teams 클라이언트를 설치합니다. 회사 및 학교용 Teams는 Teams Essentials와 호환되지 않으므로 가정용 Teams 옵션을 다운로드해야 합니다. :::image type="content" source="media/essentials-downloa.png" alt-text="가정용 Teams 다운로드 옵션의 스크린샷":::
+1.  **Teams 앱을 설치합니다.** Microsoft Teams 다운로드로 이동하여 PC 또는 모바일 디바이스에 [Teams](https://www.microsoft.com/microsoft-teams/download-app) 클라이언트를 설치합니다.
 
 2. **Teams에 익숙해집니다.** Teams에 익숙해지는 가장 좋은 방법은 바로 사용하기 시작하는 것입니다. 애플리케이션의 기능을 더 잘 이해할 수 있도록 시간을 들여 애플리케이션을 살펴보세요.
 
 3. **채택을 계획합니다.** 소규모 비즈니스의 경우 사용자 채택 계획은 사용자에게 Teams 사용 방법을 개별적으로 보여주는 것만큼 간단할 수 있습니다. 종종 소규모 비즈니스 고객은 새 애플리케이션에 대해 이 단계를 고려하지 않아 애플리케이션의 성공 및 채택에 부정적인 영향을 미칩니다.
 
-3.  **Microsoft Teams Essentials 관리.** 무료 버전의 Microsoft Teams와 마찬가지로 조직에서 Teams Essentials에 처음으로 등록하는 사람으로 관리자 역할은 제한적입니다. 팀 구성원을 추가 및 제거하고 이 역할을 가진 다른 구성원을 초대할 수 있는지 여부를 지정할 수 있지만 고급 관리 기능이나 Microsoft Teams 관리 센터에 대한 액세스 권한은 없습니다.
-
-## <a name="upgrade-from-a-free-version-of-microsoft-teams-to-microsoft-teams-essentials"></a>무료 버전의 Microsoft Teams에서 Microsoft Teams Essentials로 업그레이드
-
-조직에서 무료 버전의 Microsoft Teams를 사용하는 경우 Teams에서 직접 사용자에 대한 플랜을 구매하여 Teams Essentials 버전으로 쉽게 업그레이드할 수 있습니다.
-
-#### <a name="upgrade-requirements"></a>업그레이드 요구 사항
-
-기존 Teams 무료 구독에 등록한 사용자인 경우 Microsoft Teams Essentials로 업그레이드할 수 있습니다. 무료 버전의 Microsoft Teams에서는 조직에서 Teams에 등록한 첫 번째 사용자가 제한된 관리자 역할을 맡습니다.
+4.  **Microsoft Teams Essentials 관리.** Microsoft Teams Essentials 업그레이드한 모든 Teams(무료) 사용자는 이를 관리할 수 있습니다.
 
 > [!NOTE]
-> 데이터를 업그레이드하고 전송하려면 이 섹션에 설명된 Teams 애플리케이션 [업그레이드 프로세스](#how-do-i-upgrade-my-organization)를 통해 구독을 구매해야 합니다. Teams Essentials로 업그레이드는 현재 Teams 무료(클래식) 사용자에게 지원되지 않습니다. **[Teams 무료에서 Teams로 업그레이드](https://support.microsoft.com/office/upgrade-from-teams-free-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39)** 문서의 단계에 따라 Teams의 정식 버전으로 업그레이드할 수 있습니다.
+> Teams(무료)에서 Microsoft Teams Essentials 업그레이드하는 방법에 대한 자세한 내용은 [Teams(무료)에서 Microsoft Teams Essentials 업그레이드를 참조하세요](#upgrade-from-teams-free-to-microsoft-teams-essentials).
 
-#### <a name="limitations"></a>제한 사항
+Microsoft Teams Essentials 관리는 사용자가 구매한 사용자를 대신하여 의도한 비율로 다른 사용자에게 Microsoft Teams Essentials 좌석을 할당하는 것을 의미합니다. Microsoft 관리 센터를 통해 Microsoft Teams Essentials 관리할 수 있습니다.
+
+### <a name="upgrade-from-teams-free-to-microsoft-teams-essentials"></a>Teams(무료)에서 Microsoft Teams Essentials
+
+조직에서 무료 버전의 Microsoft Teams를 사용하는 경우 Teams [Microsoft](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options)에서 사용자에 대한 플랜을 직접 구매하여 Teams Essentials 버전으로 쉽게 업그레이드할 수 있습니다.
+
+## <a name="upgrade-from-teams-free-classic-to-teams"></a>Teams 무료(클래식)에서 Teams로 업그레이드
+
+Teams 무료(클래식) 사용자는 전체 버전의 Teams로 업그레이드할 수 있습니다. 즉, Microsoft 365 Business(기본) 및 Microsoft 365 Business(표준)와 같은 구독으로 업그레이드할 수 있습니다.
+
+업그레이드는 [Teams 무료(클래식)에서 Teams로 업그레이드](https://support.microsoft.com/office/upgrade-from-teams-free-classic-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39)에 지정된 단계에 따라 수행할 수 있습니다.
+
+### <a name="limitations"></a>제한 사항
 
 다음 제한 사항에 유의하세요.
 
-- 업그레이드한 후 Teams(무료)로 다시 전환할 수 없습니다.
+- 업그레이드한 후에는 Teams 무료(클래식)로 다시 전환할 수 없습니다.
 
-- 여러 Teams(무료) 테넌트는 단일 유료 테넌트에 병합할 수 없습니다.
+- 여러 Teams 무료(클래식) 테넌트는 단일 유료 테넌트로 병합할 수 없습니다.
 
-- 모든 사용자는 동일한 도메인에 있어야 합니다. (모든 사용자는 *사용자 이름*@*domain.com* 형식으로 로그인합니다.)
+- 모든 사용자는 동일한 도메인에 있어야 합니다. (모든 사용자는 *사용자 이름*@ 형식으로 로그인 전자 메일을 받습니다. *domain.com*.)
 
-- 모든 사용자를 업그레이드해야 합니다. 동일한 테넌트의 Teams(무료) 및 유료 구독 사용자 혼합은 지원되지 않습니다.
+- 모든 사용자를 업그레이드해야 합니다. 동일한 테넌트의 Teams 무료(클래식) 및 유료 구독 사용자의 혼합은 지원되지 않습니다.
 
->[!IMPORTANT]
-> 현재 Microsoft Teams 무료(클래식)를 사용 중인 경우 여기로 이동하여 Microsoft 365로 업그레이드하세요. **[Teams 무류에서 Teams로 업그레이드](https://support.microsoft.com/office/upgrade-from-teams-free-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39)**
-
-#### <a name="how-do-i-upgrade-my-organization"></a>조직을 업그레이드하려면 어떻게 해야 하나요?
-
-Microsoft Teams Essentials 버전의 Teams로 업그레이드하려면 상단 탐색 메뉴에서 **...** 를 선택합니다. 그런 다음 표시되는 드롭다운 메뉴 하단에서 **업그레이드** 버튼을 선택합니다.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="업그레이드 단추를 보여주는 스크린샷"::: 
-
-Teams에서 **업그레이드** 단추를 선택하면 [소규모 비즈니스용 Microsoft Teams](https://www.microsoft.com/microsoft-teams/upgrade-teams)로 이동합니다.
-
-Teams에 로그인하는 데 사용하는 현재 전자 메일 주소를 입력한 다음 Microsoft Teams Essentials 플랜을 구매합니다.
-
-
-### <a name="can-i-purchase-teams-essentials-using-aad-identity-through-microsofts-website"></a>Microsoft 웹 사이트를 통해 AAD ID를 사용하여 Teams Essentials를 구매할 수 있나요?  
+#### <a name="can-i-purchase-teams-essentials-using-aad-identity-through-microsofts-website"></a>Microsoft 웹 사이트를 통해 AAD ID를 사용하여 Teams Essentials를 구매할 수 있나요?  
 
 아니요. AAD ID가 있는 Teams Essentials는 엄선된 Microsoft 클라우드 파트너를 통해서만 구매할 수 있습니다. 파트너와 협력하려면 [Microsoft 파트너 클라우드 솔루션 공급자 찾기](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider)를 방문하세요.
 
-### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>Microsoft Teams Essentials에 기존 전자 메일 시스템을 사용할 수 있나요?  
+#### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>Microsoft Teams Essentials에 기존 전자 메일 시스템을 사용할 수 있나요?  
 
-Yes. You can keep your existing email system and leverage Teams Essentials to meet, chat and collaborate.  
+예. 기존 전자 메일 시스템을 유지하고 Teams Essentials를 사용하여 모임, 채팅 및 공동 작업을 수행할 수 있습니다.  
 
-### <a name="can-i-connect-my-existing-calendar-solution-with-teams-essentials"></a>기존 일정 솔루션을 Teams Essentials와 연결할 수 있나요?
+#### <a name="can-i-connect-my-existing-calendar-solution-with-teams-essentials"></a>기존 일정 솔루션을 Teams Essentials와 연결할 수 있나요?
+
 Yes. You can sync existing calendars from Outlook.com and Google with Teams Essentials.
 
 기존 일정 솔루션을 Teams Essentials(AAD ID)와 연결하려면 이 문서의 뒷부분에 있는 지침을 따르세요.
 
-### <a name="how-do-i-connect-my-current-email-and-calendar-with-teams-essentials-aad-identity"></a>현재 전자 메일과 일정을 Teams Essentials(AAD ID)와 어떻게 연결하나요?
+#### <a name="how-do-i-connect-my-current-email-and-calendar-with-teams-essentials-aad-identity"></a>현재 전자 메일과 일정을 Teams Essentials(AAD ID)와 어떻게 연결하나요?
 
 시작하려면 [**Microsoft Teams Essentials(AAD ID)를 일정이 있는 기존 전자 메일 시스템에 연결**](connect-teams-essentials-to-email.md)을 방문하여 자세한 내용을 확인하세요. Google Workspace와 같은 기존 전자 메일 시스템을 Microsoft Teams Essentials(AAD ID)에 연결하여 통합된 일정으로 플랫폼 간에 연결을 유지하고 로그인할 수 있습니다.
 
-### <a name="can-i-upgrade-teams-essentials-bought-directly-through-microsofts-website-to-microsoft-365"></a>Microsoft 웹 사이트를 통해 직접 구입한 Teams Essentials를 Microsoft 365로 업그레이드할 수 있나요?
+#### <a name="can-i-upgrade-teams-essentials-bought-directly-through-microsofts-website-to-microsoft-365"></a>Microsoft 웹 사이트를 통해 직접 구입한 Teams Essentials를 Microsoft 365로 업그레이드할 수 있나요?
 
 Teams Essentials에서 Microsoft 365로의 업그레이드는 곧 제공될 예정입니다.
 

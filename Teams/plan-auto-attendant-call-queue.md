@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 자동 전화 교환 및 통화 큐에 대해 알아보고 이를 사용하여 발신자가 메뉴 시스템을 통해 조직의 사용자 또는 부서에 연결할 수 있도록 돕는 방법을 알아봅니다.
-ms.openlocfilehash: acaa4d3e4db56b1b64869f92d27f2dfd73c4afee
-ms.sourcegitcommit: 0dfe48fde767d8d9ed7bfc93684af05534acad12
+ms.openlocfilehash: 5b5076ecd8ea521071124f5400ac5c2831b4fbfe
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "69166734"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307623"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Teams 자동 전화 교환 및 통화 큐 계획
 
@@ -78,7 +78,7 @@ ms.locfileid: "69166734"
 > [!NOTE]
 > 리소스 계정은 로그인할 수 없으므로 계속 유지되어야 합니다. 이러한 계정에는 채팅 및 현재 상태를 사용할 수 없습니다.
 
-통화 큐에서 전화를 받는 에이전트는 온라인 또는 온-프레미스 사용자를 Enterprise Voice 사용하도록 설정해야 합니다. 또한 통화 큐에서 직접 라우팅 번호를 사용하는 경우 전화 회의 또는 통화를 전송해야 하는 에이전트도 다음이 필요합니다.
+통화 큐에서 전화를 받는 에이전트는 온라인 또는 온-프레미스 사용자를 Enterprise Voice 사용하도록 설정해야 합니다. 자세한 내용은 [사용자의 전화 번호 할당, 변경 또는 제거](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) 및 [직접 라우팅을 위한 사용자 사용을 참조하세요](/microsoftteams/direct-routing-enable-users). 또한 통화 큐에서 직접 라우팅 번호를 사용하는 경우 전화 회의 또는 통화를 전송해야 하는 에이전트도 다음이 필요합니다.
 
 - 통화 큐에서 전송 모드를 사용하는 경우 할당된 [온라인 음성 라우팅 정책](manage-voice-routing-policies.md) 입니다.
 - 통화 큐에서 회의 모드를 사용하는 경우 할당된 [오디오 회의 라이선스](set-up-audio-conferencing-in-teams.md) 또는 [온라인 음성 라우팅 정책](manage-voice-routing-policies.md) 입니다.

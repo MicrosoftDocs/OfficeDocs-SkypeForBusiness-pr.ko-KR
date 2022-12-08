@@ -12,12 +12,12 @@ ms.collection:
 description: Microsoft Teams 관리에 사용되는 Teams PowerShell 모듈의 애플리케이션 기반 인증에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fd2928b62b71f0f981ecd0083cf4b15acc2da3f
-ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
+ms.openlocfilehash: 04cc2e3c069f30e44dd0c62a42be42fd1cce16b7
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "68928335"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307953"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell 모듈의 애플리케이션 기반 인증
 
@@ -91,8 +91,8 @@ Azure Ad에서 애플리케이션을 만들기 위한 샘플 단계는 아래에
 
 1. Azure AD 애플리케이션 등록
 2. 애플리케이션에 API 권한 할당
-   - -Cs cmdlet의 경우 \*API 권한이 필요하지 않습니다.
-   - 비 \*Cs cmdlet의 경우 필요한 Microsoft Graph API 권한은 , , `Group.ReadWrite.All`, `AppCatalog.ReadWrite.All``TeamSettings.ReadWrite.All`, `Channel.Delete.All`, , `ChannelSettings.ReadWrite.All`, `ChannelMember.ReadWrite.All`입니다`User.Read.All`.  
+   - -Cs cmdlet의 경우 \*필요한 Microsoft Graph API 권한은 입니다`Organization.Read.All`.
+   - 비 \*Cs cmdlet의 경우 필요한 Microsoft Graph API 권한은 , , `User.Read.All`, `Group.ReadWrite.All`, `AppCatalog.ReadWrite.All``TeamSettings.ReadWrite.All`, , `Channel.Delete.All`, `ChannelSettings.ReadWrite.All`, `ChannelMember.ReadWrite.All`입니다`Organization.Read.All`.  
 3. 자체 서명된 인증서 생성
 4. 인증서를 Azure AD 애플리케이션에 연결
 5. 애플리케이션에 [Azure AD 역할](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) 할당
