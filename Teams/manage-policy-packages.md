@@ -10,6 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
 f1.keywords:
@@ -20,14 +21,16 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams에서 정책 패키지를 사용, 관리 및 사용자 지정하여 사용자 그룹에 대한 정책을 관리할 때 일관성을 단순화, 간소화 및 제공하는 방법을 알아봅니다.
-ms.openlocfilehash: 138b1cada469a71cf844c8a73b1cb12511fc68b2
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: c2c5884261a4e55c64f3164fd805f708ed42598d
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69245695"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69318426"
 ---
 # <a name="managing-policy-packages-in-teams"></a>Teams에서 정책 패키지 관리
+
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 Microsoft Teams의 정책 패키지는 조직에서 유사한 역할을 가진 사용자에게 할당할 수 있는 미리 정의된 정책 및 정책 설정의 모음입니다. 조직 전체의 사용자 그룹에 대한 정책을 관리할 때 일관성을 제공하고 간소화하고 일관성을 제공하도록 정책 패키지를 빌드했습니다.  
 
@@ -81,7 +84,7 @@ Teams에는 현재 다음 정책 패키지가 포함되어 있습니다.
 ## <a name="custom-policy-packages"></a>사용자 지정 정책 패키지
 
 > [!NOTE]
-> 사용자 지정 정책 패키지 기능은 미리 보기에서 사용할 수 있습니다. 미리 보기 후에 이 기능을 사용하려면 각 사용자에게 Teams Premium 라이선스가 필요합니다.
+> 사용자 지정 정책 패키지에는 Teams Premium이 필요합니다.
 
 사용자 지정 정책 패키지를 사용하면 조직에서 비슷한 역할을 가진 사용자를 위해 고유한 정책 집합을 번들로 묶을 수 있습니다. 필요한 정책 유형 및 정책을 추가하여 고유한 정책 패키지를 만듭니다.
 
