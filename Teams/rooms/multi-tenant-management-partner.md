@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 파트너를 위한 Mult 테넌트 고객 관리.
 f1keywords: ''
-ms.openlocfilehash: 681efe6832a3829b54b23345f04e32151f130939
-ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
+ms.openlocfilehash: 6a98ff56548dcefc48be41657b368a9634ad8123
+ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "69046827"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "69343308"
 ---
 # <a name="multi-tenant-customer-management-for-partners"></a>파트너를 위한 다중 테넌트 고객 관리
 
@@ -36,7 +36,7 @@ MTM 포털은 이 [링크를](https://partner.rooms.microsoft.com/) 통해 액�
 
 ## <a name="pre-requisites-for-managing-your-customers-through-the-mtm-experience"></a>MTM 환경을 통해 고객을 관리하기 위한 필수 구성 요소
 
-MTM 포털에 액세스하려면 조직이 MTR Pro Management에 대한 엘리트 파트너로 등록되어야 합니다. 엘리트 파트너 연락처가 되려면 askelite@microsoft.com.
+다중 테넌트 관리 콘솔에 대한 액세스를 제공하는 Elite 프로그램은 중단되었으며 이 프로그램에 새 파트너를 온보딩하지 않습니다. 여러분의 이해와 인내에 감사드리며 곧 새로운 형식을 발표할 예정입니다. 
 
 ## <a name="on-boarding-customers"></a>온보딩 고객
 

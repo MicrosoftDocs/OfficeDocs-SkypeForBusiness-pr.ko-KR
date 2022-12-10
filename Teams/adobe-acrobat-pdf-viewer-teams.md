@@ -18,12 +18,12 @@ description: Adobe Acrobat을 기본 PDF 뷰어로 설정하여 Microsoft Teams�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 4776b2928ee734c1b37856e44d184c53bfc0dd90
-ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
+ms.openlocfilehash: 67be332ee916f30b0341dc3ac03e047558cead0c
+ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251901"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "69343295"
 ---
 # <a name="set-adobe-acrobat-as-the-default-pdf-viewer-in-microsoft-teams"></a>Microsoft Teams에서 Adobe Acrobat을 기본 PDF 뷰어로 설정
 
@@ -66,7 +66,9 @@ Adobe Acrobat 앱을 테넌트의 PDF 파일 기본 핸들러로 구성하려면
 
 1. **저장** 을 선택합니다.
 
-저장을 선택하면 Teams에서 Adobe Acrobat 앱을 PDF 파일의 기본 파일 핸들러로 사용합니다.
+1. 필요에 따라 Adobe Acrobat 라이선스를 소유한 경우 Microsoft Azure Active Directory ID로 SSO를 허용할 수 있습니다. [ID 설정 및 Single Sign-On](https://helpx.adobe.com/enterprise/using/set-up-identity.html)의 지침을 사용하여 SSO를 구성하는 것이 좋습니다.
+
+구성을 완료한 후 Teams는 Adobe Acrobat 앱을 PDF 파일의 기본 파일 처리기로 사용합니다.
 
 일부 개인 또는 그룹에 대해 Adobe Acrobat 앱을 선택적으로 허용하려면 [앱 사용 권한 정책을](teams-app-permission-policies.md) 사용합니다.
 
@@ -81,4 +83,5 @@ Adobe Acrobat 앱을 테넌트의 PDF 파일 기본 핸들러로 구성하려면
 * 앱을 제거하려면 최종 사용자가 Teams 클라이언트에서 앱을 제거할 수 있습니다. 관리 설치 정책을 사용하여 Adobe Acrobat 앱을 제거할 수 있습니다.
 * Adobe Acrobat 앱을 차단하는 경우 설치 정책에서 앱을 제거합니다. 이렇게 하면 최종 사용자 환경이 네이티브 PDF 파일 뷰어를 사용하는 환경으로 되돌아갑니다.
 * Teams 데스크톱 클라이언트에서 Adobe Acrobat 앱에 로그인하는 데 문제가 있는 경우 [브라우저에서 Teams](https://teams.microsoft.com/) 를 사용하여 로그인합니다.
-* PDF 파일에 주석을 달거나 주석을 달려면 무료 [Adobe 계정에](https://acrobat.adobe.com/us/en/) 로그인해야 합니다.
+* 무료 [Adobe 계정에](https://acrobat.adobe.com/us/en/) 로그인하여 PDF 파일에 주석을 달거나 주석을 달 수 있습니다. Teams의 앱은 PDF 파일 주석 추가, 구성, 압축 및 보호와 같은 기능을 제공할 수 있습니다. 기능 및 필수 구성 요소의 전체 목록은 [Acrobat 앱을 사용하여 Teams에서 PDF 파일 관리를 참조하세요](https://www.adobe.com/content/dam/dx-dc/pdf/ue/acrobat-msft-teams-feature-comp-ue.pdf).
+* PDF 문서에서 공동 작업할 때 해당 문서가 있는 지역의 Adobe 서버에 임시로 저장됩니다(최대 24시간). 이 임시 스토리지는 일시적인 처리를 용이하게 하기 위한 것입니다. 문서는 로컬 파일 시스템으로부터 서버로 전송될 때 엔드 투 엔드로 암호화되며 서버에서도 암호화된 상태로 유지됩니다. [Acrobat에 대한 보안을](https://aka.ms/Adobe_Acrobat_Security) 참조하세요.
