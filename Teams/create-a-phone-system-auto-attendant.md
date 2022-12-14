@@ -25,12 +25,12 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
 description: Microsoft Teams에서 자동 전화 교환을 설정하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 1484b70dca4ffe1e148522cf6e907f79be732702
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 1294559d1fcca7b1dace8f12cd3203b7effa4c80
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307543"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379394"
 ---
 # <a name="set-up-a-microsoft-teams-auto-attendant"></a>Microsoft Teams 자동 전화 교환 설정
 
@@ -172,7 +172,7 @@ ms.locfileid: "69307543"
 
 ## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>4단계: 휴일에 대한 통화 흐름 설정(선택 사항)
 
-자동 전화 교환은 [설정한 각 휴일](set-up-holidays-in-teams.md)에 대한 통화 흐름을 가질 수 있습니다. 각 자동 전화 교환에 최대 20개의 예약된 휴일을 추가할 수 있습니다.
+자동 전화 교환은 [설정한 각 휴일](set-up-holidays-in-teams.md)에 대한 통화 흐름을 가질 수 있습니다. 각 자동 전화 교환에 최대 20개의 휴일 집합을 추가할 수 있습니다. 각 휴일 집합에는 최대 10개의 고유한 날짜 범위가 포함될 수 있습니다. 휴일 날짜는 자동 전화 교환에 추가되는 모든 휴일 집합에서 고유해야 합니다.
 
 *새로 만들기 - 선택하기 전에 호출자가 모든 메뉴 옵션을 수신 대기하도록 요구하는 수신 대기 강제 옵션을 사용하도록 설정할 수 있습니다.*
  *New - \* (별표) 및 \# (파운드) 키는 이제 메뉴 옵션에서 사용할 수 있습니다.*

@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 description: 관리자 및 IT 전문가를 위한 Microsoft Teams Premium에 대해 알아봅니다.
-ms.openlocfilehash: f38afe581c96cfe64bd5fd305c3d5f7f09b7c83e
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 2d7c43f6dd46a635d7aceaaa95548b8c4f31f590
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69308039"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379465"
 ---
 # <a name="microsoft-teams-premium---overview-for-administrators"></a>Microsoft Teams 프리미엄 - 관리자 개요
 
@@ -65,13 +65,13 @@ Teams Premium은 다음과 같은 주요 기능을 사용하여 모임을 보호
 
 
 
-| 기능/작업  | 관리자를 위한 설명서 |
-| -------------------- | ----------- | 
-| 민감도 레이블 | [세 가지 보호 계층으로 Teams 모임 구성](configure-meetings-three-tiers-protection.md) | 
-| 워터 마크 | [모임에 워터마크 필요(문서)](watermark-meeting-content-video.md) |
-| E2EE(엔드투엔드 암호화) | [중요한 모임에 대한 암호화](end-to-end-encrypted-meetings.md) | 
-| 템플릿, 레이블 및 정책 | [템플릿, 민감도 레이블 및 정책](meeting-templates-sensitivity-labels-policies.md)
-| 기록할 수 있는 사용자 제한 | [중요한 모임에 대한 녹음/녹화 관리](manage-meeting-recording-options.md) | 
+| 기능/작업  | 관리자를 위한 설명서 | 최종 사용자에 대한 설명서
+| -------------------- | ----------- | ------------ |
+| 민감도 레이블 | [세 가지 보호 계층으로 Teams 모임 구성](configure-meetings-three-tiers-protection.md) | |
+| 워터 마크 | [모임에 워터마크 필요](watermark-meeting-content-video.md) | [모임에 대한 워터마크](https://support.microsoft.com/office/watermark-for-teams-meetings-a9166432-f429-4a19-9a72-c9e8fdf4f589)|
+| E2EE(엔드투엔드 암호화) | [중요한 모임에 대한 암호화](end-to-end-encrypted-meetings.md) | [암호화 사용](https://support.microsoft.com/office/use-end-to-end-encryption-for-teams-meetings-a8326d15-d187-49c4-ac99-14c17dbd617c)  |
+| 템플릿, 레이블 및 정책 | [템플릿, 민감도 레이블 및 정책](meeting-templates-sensitivity-labels-policies.md)  | [사용자 지정 템플릿 사용](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f) |
+| 기록할 수 있는 사용자 제한 | [중요한 모임에 대한 녹음/녹화 관리](manage-meeting-recording-options.md) | [모임 녹음/녹화](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24?storagetype=stage#bkmk_whocanstartorstoparecording) |
 
 
 ## <a name="custom-meetings"></a>사용자 지정 모임
@@ -86,12 +86,12 @@ Teams Premium은 모임을 사용자 지정하기 위한 다음과 같은 추가
 
 - **사용자 지정 함께 모드 장면** - 조직의 개발자가 모임에 대한 비디오 장면을 정의하고 사용자 지정할 수 있는 Teams 앱입니다.  
 
-| 기능/작업 | 관리자를 위한 설명서 |
-| -------------------- | ----------- | 
-| 모임 템플릿 | - [개요](custom-meeting-templates-overview.md)<br>- [사용자 지정 모임 템플릿 만들기](create-custom-meeting-template.md)|
-| 모임 테마 | [Teams 모임을 위한 테마](meeting-themes.md) | 
-| 사용자 지정 모임 배경 | [모임 배경](custom-meeting-backgrounds.md)| 
-| 사용자 지정 함께 모드 장면 | [사용자와 개발자를 위한 콘텐츠](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| 
+| 기능/작업 | 관리자를 위한 설명서 | 최종 사용자에 대한 설명서
+| -------------------- | ----------- | ------------ |
+| 모임 템플릿 | - [개요](custom-meeting-templates-overview.md)<br>- [사용자 지정 모임 템플릿 만들기](create-custom-meeting-template.md)| [사용자 지정 템플릿 사용](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f)
+| 모임 테마 | [Teams 모임을 위한 테마](meeting-themes.md) | [모임 테마 사용](https://support.microsoft.com/office/use-meeting-themes-for-teams-meetings-fbfd826d-1112-4790-918a-5a82cac8250e) |
+| 사용자 지정 모임 배경 | [모임 배경](custom-meeting-backgrounds.md)| |
+| 사용자 지정 함께 모드 장면 | [사용자와 개발자를 위한 콘텐츠](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
 
 
 
@@ -108,11 +108,11 @@ Teams Premium은 새 Teams 이벤트 정책을 사용하여 사용자에게 고�
 - **등록 개요 및 관리** - 각 이벤트에 대해 활성화된 등록 기능에 따라 다른 등록 상태의 참석자 목록이 포함된 등록 상태 요약입니다.
 
 
-| 기능/작업 | 관리자를 위한 설명서 | 
-| -------------------- | ----------- | 
-| 모임, 웨비나 및 라이브 이벤트 이해 | [빠른 시작](quick-start-meetings-live-events.md) | 
-| 웨비나 설정 | [웨비나 설정](set-up-webinars.md) | 
-| 웨비나에 대한 모임 정책 | [모임 정책](meeting-policies-in-teams-general.md)
+| 기능/작업 | 관리자를 위한 설명서 | 최종 사용자에 대한 설명서
+| -------------------- | ----------- | ----------- |
+| 모임, 웨비나 및 라이브 이벤트 이해 | [빠른 시작](quick-start-meetings-live-events.md) | |
+| 웨비나 설정 | [웨비나 설정](set-up-webinars.md) | - [웨비나 등록 관리](https://support.microsoft.com/office/manage-webinar-registration-923f382a-0cca-433a-b38d-7461971192d1) <br> - [참석자가 보는 내용 관리](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
+| 웨비나에 대한 모임 정책 | [모임 정책](meeting-policies-in-teams-general.md) | |
 
 
 

@@ -21,12 +21,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Microsoft Teams에서 자동 전화 교환을 설정하고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 97f298e03a6495dda4ec7568f3e3b022548bba08
-ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
+ms.openlocfilehash: 0acdbacb9899184aaf21003193d62b3dcc4eab3a
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69139262"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379364"
 ---
 # <a name="set-up-an-auto-attendant"></a>자동 전화 교환 설정
 
@@ -170,7 +170,7 @@ ms.locfileid: "69139262"
 
 ## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>4단계: 휴일에 대한 통화 흐름 설정(선택 사항)
 
-자동 전화 교환은 [설정한 각 휴일](set-up-holidays-in-teams.md)에 대한 통화 흐름을 가질 수 있습니다. 각 자동 전화 교환에 최대 20개의 예약된 휴일을 추가할 수 있습니다.
+자동 전화 교환은 [설정한 각 휴일](set-up-holidays-in-teams.md)에 대한 통화 흐름을 가질 수 있습니다. 각 자동 전화 교환에 최대 20개의 휴일 집합을 추가할 수 있습니다. 각 휴일 집합에는 최대 10개의 고유한 날짜 범위가 포함될 수 있습니다. 휴일 날짜는 자동 전화 교환에 추가되는 모든 휴일 집합에서 고유해야 합니다.
 
 *새로 만들기 - 선택하기 전에 호출자가 모든 메뉴 옵션을 수신 대기하도록 요구하는 수신 대기 강제 옵션을 사용하도록 설정할 수 있습니다.*
  *New - \* (별표) 및 \# (파운드) 키는 이제 메뉴 옵션에서 사용할 수 있습니다.*
@@ -201,7 +201,7 @@ ms.locfileid: "69139262"
 
 *다이얼 범위* 는 호출자가 이름별 전화 걸기 또는 전화 접속을 사용하는 경우 디렉터리에서 사용할 수 있는 사용자를 정의합니다. **모든 온라인 사용자의** 기본값에는 온라인 사용자이거나 비즈니스용 Skype 서버 사용하여 온-프레미스에서 호스트되는 조직의 모든 사용자가 포함됩니다.
 
-**포함** 또는 **제외** 에서 **사용자 지정 사용자 그룹을** 선택하고 하나 이상의 Microsoft 365 그룹, 배포 목록 또는 보안 그룹을 선택하여 특정 사용자를 포함하거나 제외할 수 있습니다. 예를 들어 전화 걸기 디렉터리에서 조직의 임원을 제외할 수 있습니다.
+**포함** 또는 **제외** 에서 **사용자 지정 사용자 그룹을** 선택하고 하나 이상의 Microsoft 365개 그룹, 메일 그룹 또는 보안 그룹을 선택하여 특정 사용자를 포함하거나 제외할 수 있습니다. 예를 들어 전화 걸기 디렉터리에서 조직의 임원을 제외할 수 있습니다.
 
 사용자가 두 목록에 모두 있는 경우 디렉터리에서 제외됩니다.
 

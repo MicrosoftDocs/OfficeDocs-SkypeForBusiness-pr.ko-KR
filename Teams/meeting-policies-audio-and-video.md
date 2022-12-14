@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: 오디오 및 비디오에 대한 Teams에서 모임 정책 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 111b91a26a3c1058c6fb574f5feb7b6a6d8c00b2
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 9e4e4ac9e2c1c63b9f45a71c5e006bba48ebbfc8
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307893"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379374"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>오디오 & 비디오에 대한 모임 정책 설정
 
@@ -205,21 +205,21 @@ Teams 관리 센터와 PowerShell을 모두 사용하여 이 정책을 설정할
 
 ## <a name="far-end-camera-control-fecc-for-pan-tilt-zoom-ptz-cameras"></a>PTZ(팬 틸트 확대/축소) 카메라용 FECC(Far end Camera Control)
 
-극단 카메라 컨트롤은 Windows 리소스 계정의 Teams 룸 할당할 수 있는 정책입니다. Teams 룸에 연결된 PTZ 카메라는 모임 중에 Teams 클라이언트 앱의 모임 참가자가 제어할 수 있습니다.
+극단 카메라 컨트롤은 Teams 룸 리소스 계정에 할당할 수 있는 정책입니다. Teams 룸에 연결된 PTZ 카메라는 모임 중에 Teams 클라이언트 앱의 모임 참가자가 제어할 수 있습니다.
 
 극단 카메라 컨트롤을 사용하려면 모임 참가자가 **PTZ 카메라 컨트롤** 앱을 가져와야 합니다.  조직의 앱 스토어에서 앱을 사용할 수 있도록 하는 방법을 알아보려면 앱 [허용 및 차단](manage-apps.md#allow-and-block-apps) 을 참조하세요.
 
-모임에서 원거리 카메라 컨트롤을 사용할 수 있는 사용자를 지정하려면 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy?view=skype-ps) cmdlet을 사용하여 Teams 룸 리소스 계정에 새 정책을 만들고 할당하거나 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)를 사용하여 기존 정책을 수정합니다. 매개 변수를 `TeamsCameraFarEndPTZMode` 다음 값 중 하나로 설정합니다.
+모임에서 원거리 카메라 컨트롤을 사용할 수 있는 사용자를 지정하려면 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 Teams 룸 리소스 계정에 새 정책을 만들고 할당하거나 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)를 사용하여 기존 정책을 수정합니다. 매개 변수를 `TeamsCameraFarEndPTZMode` 다음 값 중 하나로 설정합니다.
 
 |설정값|동작|
 |---|---|
-|사용 안 함|기본 설정입니다. 'disabled'로 설정하면 아무도 PTZ 카메라 컨트롤을 사용할 수 없습니다.|
-|AutoAcceptAll|모든 모임 참가자가 PTZ 카메라 컨트롤을 자동으로 사용할 수 있습니다.|
-|AutoAcceptInTenant|PTZ 카메라 컨트롤은 Teams 룸과 동일한 조직의 참가자만 자동으로 사용할 수 있습니다.|
+|`Disabled`|기본 설정입니다. 로 `Disabled`설정하면 아무도 PTZ 카메라 컨트롤을 사용할 수 없습니다.|
+|`AutoAcceptAll`|모든 모임 참가자가 PTZ 카메라 컨트롤을 자동으로 사용할 수 있습니다.|
+|`AutoAcceptInTenant`|PTZ 카메라 컨트롤은 Teams 룸과 동일한 조직의 참가자만 자동으로 사용할 수 있습니다.|
 
 이 또는 `AutoAcceptInTenant`로 `AutoAcceptAll` 설정된 경우 `TeamsCameraFarEndPTZMode` 모임 중 언제든지 Teams 룸에서 카메라 컨트롤을 수동으로 끌 수 있습니다. 카메라가 꺼져 있는 경우에도 카메라 컨트롤을 사용할 수 없습니다.
 
-기계식 PTZ 및 UVC 컨트롤이 있는 모든 카메라가 지원됩니다. PTZ 및 비 PTZ 카메라를 포함하여 Teams용으로 인증된 카메라 목록은 [USB 오디오 및 비디오 주변 장치에 대한 인증된 펌웨어 버전을 참조하세요](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals). 이 기능은 디지털 PTZ 컨트롤이 있는 카메라 또는 Android의 Teams 룸 아직 지원되지 않습니다.  
+기계식 PTZ 및 UVC 컨트롤이 있는 모든 카메라가 지원됩니다. PTZ 및 비 PTZ 카메라를 포함하여 Teams용으로 인증된 카메라 목록은 [USB 오디오 및 비디오 주변 장치에 대한 인증된 펌웨어 버전을 참조하세요](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals). 이 기능은 디지털 PTZ 컨트롤이 있는 카메라에서 아직 지원되지 않습니다.  
 
 > [!NOTE]
 > PTZ 컨트롤을 테스트하기 전에 카메라 펌웨어를 업데이트합니다. 펌웨어를 업데이트하려면 OEM(원래 장비 제조업체) 설명서를 참조하세요.
