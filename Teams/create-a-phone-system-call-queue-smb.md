@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Microsoft Teams에서 통화 큐를 설정하는 방법을 알아봅니다. 통화 큐는 인사말 메시지를 제공하고, 음악을 누르고, 리디렉션을 호출하고, 기타 기능을 제공합니다.
-ms.openlocfilehash: b7cfd7d17c9813d9d3f3ee65ceb7d1a9f1c96be4
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: ea11c7f8dde402c047c8a0aeabb5d724ddccf33b
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69242582"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392538"
 ---
 # <a name="create-a-microsoft-teams-call-queue"></a>Microsoft Teams 통화 큐 만들기 
 
@@ -130,9 +130,9 @@ ms.locfileid: "69242582"
 
 ID를 호출하기 위해 이 새 리소스 계정을 만든 후에도 다음을 수행해야 합니다.
 
-- [Teams 전화 리소스 계정 라이선스](manage-resource-accounts.md#assign-a-license) 할당
-- Microsoft 통화 플랜 라이선스 할당, 운영자 연결 전화 번호 할당 또는 직접 라우팅에 대한 온라인 음성 라우팅 정책 할당
-- Microsoft 통화 플랜을 사용하는 경우 [리소스 계정에 서비스 전화 번호](manage-resource-accounts.md#assign-a-service-number) 할당
+- [Teams 전화 리소스 계정 라이선스](manage-resource-accounts.md#assign-a-license)를 할당합니다.
+- Microsoft 통화 플랜 라이선스를 할당하거나, 운영자 연결 전화 번호를 할당하거나, 직접 라우팅에 대한 온라인 음성 라우팅 정책을 할당합니다.
+- Microsoft 통화 플랜을 사용하는 경우 [리소스 계정에 전화 번호를](manage-resource-accounts.md#assign-a-phone-number) 할당합니다.
 
 ### <a name="set-the-call-queue-language"></a>통화 큐 언어 설정
 

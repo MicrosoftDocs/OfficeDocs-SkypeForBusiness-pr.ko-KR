@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 description: 관리자 및 IT 전문가를 위한 Microsoft Teams Premium에 대해 알아봅니다.
-ms.openlocfilehash: 2d7c43f6dd46a635d7aceaaa95548b8c4f31f590
-ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
+ms.openlocfilehash: 9e7af9c777ba5fec8ca8b68da7f1069737702617
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 12/14/2022
-ms.locfileid: "69379465"
+ms.locfileid: "69392478"
 ---
 # <a name="microsoft-teams-premium---overview-for-administrators"></a>Microsoft Teams 프리미엄 - 관리자 개요
 
@@ -63,8 +63,6 @@ Teams Premium은 다음과 같은 주요 기능을 사용하여 모임을 보호
 - **엔드 투 엔드 암호화** - 민감도 레이블을 통해 적용됩니다. 엔드 투 엔드 암호화는 더 높은 수준의 보호가 필요한 모임에 대한 보안을 강화합니다.
 
 
-
-
 | 기능/작업  | 관리자를 위한 설명서 | 최종 사용자에 대한 설명서
 | -------------------- | ----------- | ------------ |
 | 민감도 레이블 | [세 가지 보호 계층으로 Teams 모임 구성](configure-meetings-three-tiers-protection.md) | |
@@ -82,16 +80,17 @@ Teams Premium은 모임을 사용자 지정하기 위한 다음과 같은 추가
 
 - **모임 테마** - 조직에서 모임 환경에서 시각적 ID를 확장할 수 있습니다. 단일 테넌트 내에서 다양한 사업부 및 부서에 대한 모임 테마를 설정하고 만들 수 있습니다.
 
-- **사용자 지정 모임 배경** - 최종 사용자가 사용할 수 있는 사용자 지정 모임 배경을 만들고 정의할 수 있습니다. 
+- **조직의 사용자 지정 모임 배경** - Teams Premium 라이선스를 사용하여 최종 사용자가 사용할 수 있는 사용자 지정 모임 배경을 만들고 정의할 수 있습니다.
 
-- **사용자 지정 함께 모드 장면** - 조직의 개발자가 모임에 대한 비디오 장면을 정의하고 사용자 지정할 수 있는 Teams 앱입니다.  
+- **조직의 사용자 지정 함께 모드 장면** - Teams Premium 라이선스를 사용하여 최종 사용자가 사용할 수 있는 모임에 대한 사용자 지정 모드 장면을 만들거나 사용자 지정하거나 수락할 수 있습니다.
+
 
 | 기능/작업 | 관리자를 위한 설명서 | 최종 사용자에 대한 설명서
 | -------------------- | ----------- | ------------ |
 | 모임 템플릿 | - [개요](custom-meeting-templates-overview.md)<br>- [사용자 지정 모임 템플릿 만들기](create-custom-meeting-template.md)| [사용자 지정 템플릿 사용](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f)
 | 모임 테마 | [Teams 모임을 위한 테마](meeting-themes.md) | [모임 테마 사용](https://support.microsoft.com/office/use-meeting-themes-for-teams-meetings-fbfd826d-1112-4790-918a-5a82cac8250e) |
-| 사용자 지정 모임 배경 | [모임 배경](custom-meeting-backgrounds.md)| |
-| 사용자 지정 함께 모드 장면 | [사용자와 개발자를 위한 콘텐츠](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
+| 조직의 사용자 지정 모임 배경 | [모임 배경](custom-meeting-backgrounds.md)| |
+| 조직의 사용자 지정 함께 모드 장면 | [사용자와 개발자를 위한 콘텐츠](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
 
 
 

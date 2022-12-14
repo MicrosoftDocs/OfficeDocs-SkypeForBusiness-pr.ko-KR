@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 description: Microsoft Teams Premium 추가 기능 라이선스를 사용하여 Microsoft Teams 환경을 개선하는 방법을 알아봅니다.
-ms.openlocfilehash: e650c5c40623e3748deb9275d439dfd5328a317b
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: ec0f71e252a38beca0613a546ef9ddd990f6a53d
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69308029"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392348"
 ---
 # <a name="microsoft-teams-premium-licensing"></a>Microsoft Teams Premium 라이선스
 
@@ -41,7 +41,6 @@ Microsoft Teams Premium은 Microsoft 365 구독이 있는 조직에서 다음과
 - [Teams Premium은 Teams와 어떻게 비교하나요?](#how-does-teams-premium-compare-to-teams)
 - [Teams 프리미엄으로 이동할 현재 Teams 기능이 있나요?](#are-there-current-teams-features-that-will-move-to-teams-premium)
 - [Teams Premium을 구매하기 위한 요구 사항은 무엇인가요?](#what-are-the-requirements-to-purchase-teams-premium)
-- [Teams는 Teams Premium 기능에 대한 액세스를 어떻게 적용하나요?](#how-does-teams-enforce-access-to-teams-premium-features)
 - [Teams Premium은 Teams 룸 Pro 어떻게 다른가요?](#how-does-teams-premium-differ-from-teams-rooms-pro)
 - [라이선스를 구입하기 전에 Teams Premium을 경험할 수 있나요?](#can-i-experience-teams-premium-before-buying-licenses)
 - [Teams Premium 라이선스를 구매할 어떻게 할까요? 있나요?](#how-do-i-purchase-teams-premium-licenses)
@@ -60,7 +59,7 @@ Microsoft 365 구독을 구매하는 고객은 사용자에 대한 Teams 라이�
 |---------|:-----:|:-------------:|
 | Teams 모임 주최 및 참석 | X | X |
 | Teams의 표준 모양과 느낌 경험 | X | X |
-| 표준 Teams 모임 배경 사용 | X | X |
+| 사용자 수준에서 표준 및 사용자 지정 모임 배경 사용| X | X |
 | 모임 중에 라이브 캡션 읽기 | X | X |
 | 조직의 모임 템플릿 사용자 지정 |  | X |
 | 모임 로비에 조직 브랜딩 추가 |  | X |
@@ -176,25 +175,6 @@ Teams Premium을 일반적으로 구매할 수 있게 되면 관리자가 Teams 
 **사용자 요구 사항은** 다음과 같습니다.
 
 - Teams를 사용하는 Office 365 또는 Microsoft 365 구독.
-
-## <a name="how-does-teams-enforce-access-to-teams-premium-features"></a>Teams는 Teams Premium 기능에 대한 액세스를 어떻게 적용하나요?
-
-사용자가 경험하는 Teams 환경은 Teams 라이선스 및 Teams 역할에 따라 달라집니다. Teams는 기능별로 사용자의 라이선스 및 역할 기능을 확인하여 적절한 환경을 제공합니다.
-
-예를 들어 Teams 모임에서 Teams는 각 사용자의 Teams 라이선스와 모임 이끌이인지 참석자인지 확인합니다. 이러한 요인은 사용자의 환경과 모임에서 다른 참가자의 경험을 결정합니다.
-
-- **이끌이 기반:** 일부 기능은 이끌이 수준에서 라이선스를 확인합니다. 모임 이끌이에게 기능에 대한 올바른 라이선스가 있는 경우 해당 기능도 공유되고 해당 모임 중에 모임 참석자가 액세스할 수 있게 됩니다.
-- **참석자 기반:** 일부 기능은 참석자 수준에서 라이선스를 확인합니다. 모임 중에 다른 참석자가 Teams 환경을 공유하고 액세스할 수 없습니다.
-
-다음 표에서는 각 Teams 프리미엄 기능에 대한 라이선스 검사를 보여줍니다.
-
-|  | 이끌이 기반 라이선스 확인 | 참석자 기반 라이선스 검사 |
-|--|-------------------------------|------------------------------|
-| **모임** | &#10004; 사용자 지정 모임 템플릿 사용 </br> &#10004; 사용자 지정 테마 모임 사용 </br> &#10004; 라이브 이벤트에 Microsoft eCDN 사용 | &#10004; 사용자 지정 함께 모드 장면 사용 </br> &#10004; 사용자 지정 배경 및 로비 사용 |
-| **웨비나** | &#10004; 웨비나 그린 룸 설정 </br> 웹 세미나 모드 관리 &#10004; </br> &#10004; 사용 RTMP-In </br> 웹 세미나 등록 수동 승인 &#10004; </br> &#10004; 등록 대기 목록 만들기 </br> &#10004; 등록 날짜 및 시간 제한 |  |
-| **모임 보호** | &#10004; 최대 50명의 참가자를 위한 엔드 투 엔드 암호화 사용 </br> &#10004; 모임에 워터마크 추가 </br> 모임에 민감도 레이블 적용 &#10004; </br> &#10004; 모임 채팅에서 복사/붙여넣기 방지 </br> &#10004; 모임을 기록할 수 있는 사용자 제어 </br> 사용자 지정 사용자 정책 패키지 &#10004; |  |
-| **지능형 모임** | &#10004; 번역된 캡션 읽기 라이브 </br> &#10004; 자동 생성된 챕터를 사용하여 모임 탐색 | &#10004; 모임 후 전사 번역 </br></br> *모임 요약 AI 기능:* </br> &#10004; 모임에 참가하고 떠났을 때의 타임스탬프 보기 </br> &#10004; 모임 후 제안된 작업 받기 </br> &#10004; 추천 스피커를 사용하여 검색 </br> &#10004; @mentions 보기 |
-| **가상 약속** | SMS 알림 설정 &#10004; </br> Access Premium 가상 약속 앱 &#10004; </br> &#10004; 약속 및 로비에 사용자 지정 배경 사용 | SMS 알림 설정 &#10004; </br> Access Premium 가상 약속 앱 &#10004; </br> &#10004; 예약된 약속 큐 및 주문형 약속 큐 보기 및 관리 </br> 고급 가상 약속 분석 보기 &#10004; </br> &#10004; 약속 후 후속 작업 보내기 |
 
 ## <a name="how-does-teams-premium-differ-from-teams-rooms-pro"></a>Teams Premium은 Teams 룸 Pro 어떻게 다른가요?
 

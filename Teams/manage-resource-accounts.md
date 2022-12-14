@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 이 문서에서는 Microsoft Teams에서 리소스 계정을 만들고, 편집하고, 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: cde570c23b6d2e6b673f6cc0f49c9905c3b45fd1
-ms.sourcegitcommit: 55d2f515f5040b4c083f529d7b818c84d42378a0
+ms.openlocfilehash: 3ac03e8531457d21d2988db0a86ca8bdca367f0a
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69147435"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392208"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams에서 리소스 계정 관리
 
@@ -35,7 +35,7 @@ ms.locfileid: "69147435"
 
 ## <a name="next-steps"></a>다음 단계
 
-리소스 계정 설정을 완료하고 필요한 경우 서비스 번호를 할당하면 자동 전화 교환 또는 통화 큐와 함께 리소스 계정을 사용할 준비가 된 것입니다.
+리소스 계정 설정을 완료하고 필요한 경우 전화 번호를 할당하면 자동 전화 교환 또는 통화 큐와 함께 리소스 계정을 사용할 준비가 된 것입니다.
 
 자세한 내용은 다음 참조를 참조하세요.
 
@@ -73,7 +73,7 @@ ms.locfileid: "69147435"
 
 ## <a name="delete-a-resource-account"></a>리소스 계정 삭제
 
-서비스 번호가 보류 중 모드에서 중단되는 것을 방지하려면 삭제하기 전에 리소스 계정에서 전화 번호를 분리해야 합니다.
+보류 중인 모드에서 전화 번호가 중단되는 것을 방지하려면 삭제하기 전에 리소스 계정에서 전화 번호를 분리해야 합니다.
 
 이렇게 하면 **사용자** 탭 아래의 Microsoft 365 관리 센터 리소스 계정을 삭제할 수 있습니다.
 

@@ -23,12 +23,12 @@ ms.collection:
 - purview-compliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23de1b32e757df8cc1f971ad4e9bed255f95af41
-ms.sourcegitcommit: d95a3408e31d3dec37c534c110b09a8847bec724
+ms.openlocfilehash: 2e07da669e489a53dfabd2ee7c1fee2079497857
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "69156834"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392168"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>통화 & 모임에 대한 Teams 정책 기반 녹음/녹화 소개
 
@@ -42,7 +42,7 @@ Teams 커뮤니케이션을 구성, 관리, 기록, 저장 및 분석하기 위�
 
 - 기존 Teams 관리 통화 및 모임 도구 및 정책과의 통합을 포함하여 규정 준수 기록을 위한 새로운 관리 정책
 
-준수 기록은 Microsoft 365 A3/A5/E3/E5/Business Premium, Office 365 A3/A5/E3/E5 사용자 또는 Teams 룸/공용 영역 전화 라이선스에서 사용하도록 설정할 수 있습니다. 
+준수 기록은 Microsoft 365 A3/A5/E3/E5/Business Premium, Office 365 A3/A5/E3/E5 사용자, Teams 룸 라이선스 또는 Microsoft Teams 공유 디바이스 라이선스에서 사용하도록 설정할 수 있습니다.
 
 > [!NOTE]
 > 규정 준수 기록은 현재 E911 긴급 통화 서비스에 대해 지원되지 않습니다.

@@ -23,14 +23,16 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 982730f7c839eeab2a55bc8997eade8aec31bebc
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: 45148768d023b3cb6b609c1f315fe8d71031a573
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614271"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392198"
 ---
 # <a name="meetings-webinars-and-live-events"></a>모임, 웨비나 및 라이브 이벤트
+
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 Microsoft Teams에서는 모임, 웨비나, 라이브 이벤트 등 여러 가지 방법으로 모임을 할 수 있습니다.
 
@@ -44,7 +46,7 @@ Microsoft Teams에서는 모임, 웨비나, 라이브 이벤트 등 여러 가�
 
 | 모임 유형 | 참가자 수 | 상호 작용 | 등록 지원 |
 |----------|--------|--------|-----|
-| 모임  | 최대 20,000* | - 최대 1,000명의 참가자가 완전히 상호 작용하는 동등한 모임 기능을 갖습니다. <br> - 1,000명 이상 최대 20,000명의 참가자에게 [보기 전용](view-only-meeting-experience.md) 기능이 있습니다.  | 아니요 |
+| 모임  | 최대 20,000* | - 최대 1,000명의 참가자가 완전히 상호 작용하는 동등한 모임 기능을 갖습니다. <br> - 1,000명 이상 최대 20,000명의 참가자에게 [보기 전용](view-only-meeting-experience.md) 기능이 있습니다.  | 예, 등록이 있는 모임 사용(웨비나 1.0) |
 | 웨비나 | - 최대 1,000명<br>- 곧 제공될 [보기 전용](view-only-meeting-experience.md) 기능의 제한이 높아졌습니다. |- 최대 1,000명의 참가자가 완전한 대화형 기능을 사용할 수 있습니다.<br> - 대상 그룹 상호 작용을 구성할 수 있습니다.<br> - 발표자를 지정할 수 있습니다. | 예 |
 | 라이브 이벤트 | 최대 20,000**명 |- 많은 대상 그룹에게 브로드캐스트할 수 있습니다. <br>- 대상 그룹 상호 작용을 위한 중재된 질문 및 답변입니다. <br> - 외부 발표자를 포함한 제작자 및 발표자를 지정할 수 있습니다.<br>- 보다 고도화된 프로덕션 기능을 지원합니다. | 아니요 |
 
@@ -55,7 +57,7 @@ Microsoft Teams에서는 모임, 웨비나, 라이브 이벤트 등 여러 가�
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
 > [!NOTE]
-> Microsoft Teams를 사용하여 온라인 이벤트를 배달하기 위한 역할별 지침을 얻으려면 [가상 이벤트 플레이북](https://aka.ms/VirtualEventPlaybook)을 참조하세요. Microsoft Tech Community [가상 이벤트 포럼](https://aka.ms/VirtualEventForum)에 참가할 수도 있습니다.
+> 자세한 내용과 Microsoft Teams를 사용하여 온라인 이벤트를 제공하기 위한 역할별 지침을 얻으려면 [가상 이벤트 플레이북](https://aka.ms/VirtualEventPlaybook)을 참조하세요. Microsoft Tech Community [가상 이벤트 포럼](https://aka.ms/VirtualEventForum)에 참가할 수도 있습니다.
 
 > [!NOTE]
 > 다양한 플랫폼에서 Teams 모임 및 이벤트를 신속하게 구성하는 방법에 대한 자세한 내용은 [플랫폼별 Teams 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)을 참조하세요.
@@ -95,7 +97,30 @@ Teams의 **모임** 에는 최대 1,000명을 위한 오디오, 동영상 및 �
 
 ## <a name="webinars"></a>웨비나
 
-**웹 세미나** 는 발표자와 참가자가 명확한 역할을 하는 구조화된 모임입니다. 웨비나와 Teams 모임의 주요 차이점은 웨비나가 등록을 지원하고 참석자 참여 데이터를 제공한다는 것입니다. 조직에서 웹 세미나를 활성화하려면 [Teams에서 웹 세미나 설정](set-up-webinars.md)을 참조하세요.
+**웹 세미나** 는 발표자와 참가자가 명확한 역할을 하는 구조화된 모임입니다. 웨비나 모임과 Teams 모임의 주요 차이점은 웨비나는 강력한 등록 관리, 사용자 지정 가능한 이벤트 및 등록 사이트, 이벤트 지향 기본 모임 옵션을 지원한다는 것입니다.
+
+조직에서 이미 웨비나를 사용하고 있는 경우 Teams 모임 정책 및 모임 등록을 지원하고 참여 데이터를 추적할 수 있는 다음 설정에 익숙합니다.
+
+- AllowMeetingRegistration(사용 또는 사용 안 함)
+- WhoCanRegister(게스트 또는 모든 사람을 제외한 회사의 모든 사용자)
+
+새 웨비나 환경이 릴리스되면 다음 설정이 포함된 새 Teams 이벤트 정책이 제공됩니다.
+
+- AllowWebinars(사용 또는 사용 안 함)
+- EventAccessType(게스트 또는 모든 사람을 제외한 회사의 모든 사용자)
+
+새 정책은 등록 및 추적을 계속 지원하며 웨비나 환경에 추가 기능을 제공합니다. 처음에는 다음을 사용할 수 있습니다.
+
+- 사용 약관 사용자 지정 질문
+- 발표자 bio
+- 배너, 로고 및 미리 정의된 색
+- 고급 등록 기능: 수동 승인, 대기 목록, 등록 날짜 및 시간 제한
+- 등록 개요 및 관리: 각 이벤트에 대해 다른 등록 상태의 참석자 목록이 있는 등록 상태의 요약으로, 사용하도록 설정된 등록 기능에 따라 달라집니다.
+
+새 정책을 사용하여 새 기능을 사용할 수 있게 되면 활용하려고 합니다.
+
+기능 및 웨비나를 설정하는 방법에 대한 자세한 내용은 [웨비나 설정을 참조하세요](set-up-webinars.md).
+
 
 ### <a name="key-training-for-end-users"></a>최종 사용자를 위한 핵심 교육
 
@@ -152,6 +177,8 @@ Teams와 함께 제공되는 앱을 사용하고, 인증된 타사 앱과 템플
 라이선스 없이 누구나 Teams 모임, 웹 세미나 또는 공개 라이브 이벤트에 무료로 참석할 수 있습니다.
 
 모임, 웨비나 또는 라이브 이벤트를 조직, 예약 및 주최하는 사용자에게는 [Microsoft Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)에 나열된 Microsoft 365 라이선스 중 하나가 필요합니다. 이미 Teams를 사용하고 있다면 모임, 웨비나 및 라이브 이벤트를 구성하고 주최하는 데 필요한 라이선스가 있을 것입니다.
+
+Teams Premium 라이선스에 대한 자세한 내용은 [Teams Premium 라이선스](teams-add-on-licensing/licensing-enhance-teams.md)를 참조하세요.
 
 사람들이 전화로 모임에 전화를 걸 수 있도록 하려면 오디오 회의를 설정해야 합니다. 오디오 회의에 대한 자세한 내용은 [Teams의 오디오 회의](deploy-audio-conferencing-teams-landing-page.md)를 참조하세요.
 

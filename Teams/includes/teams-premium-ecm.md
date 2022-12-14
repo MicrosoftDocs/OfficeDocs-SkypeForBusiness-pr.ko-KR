@@ -1,0 +1,1 @@
+![정보 아이콘](../media/info.png) **이 문서에 설명된 일부 기능에는 현재 배포 중인 [Teams 프리미엄(미리 보기)](/MicrosoftTeams/enhanced-teams-experience) 이 필요합니다.**

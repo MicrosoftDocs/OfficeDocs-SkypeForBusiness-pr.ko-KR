@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 872d2f904919186d631fbfbd913ee500ea6421d9
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: c7a608132af2807c1fc59e25f7dac39433fe5dc5
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706835"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392098"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 보기 전용 모임 환경
 
@@ -30,6 +30,9 @@ ms.locfileid: "67706835"
 
 > [!Note]
 > 모임이 최대 수용인원에 도달할 경우 10,000명 규모의 보기 전용 브로드캐스트 환경까지 수용할 수 있도록 Teams가 원활하게 규모를 조정합니다. 또한 원격 작업 증가 기간 중, 올해 말까지는 이보다 더 많은 규모인 20,000명의 브로드캐스트를 활용할 수 있습니다. 웨비나는 현재 보기 전용 브로드캐스트 환경을 지원하지 않습니다.
+
+> [!Note]
+> Teams 모임은 TLE(Teams Live Event)이 아니며 Microsoft eCDN을 활용하지 않습니다. 자세한 내용은 [Microsoft eCDN 온보딩 검사 목록을 참조하세요](/ecdn/integration/onboarding-checklist-for-tle-customers).
 
 Microsoft Teams에서 최대 10,000명 참석자가 Teams 모임에 참가할 수 있습니다. 사용자 1000명이 입장하여 주 모임이 최대 허용 인원에 도달하면, 추가 참석자는 보기 전용 환경을 통해 참가하게 됩니다.
 
@@ -44,7 +47,7 @@ Microsoft Teams에서 최대 10,000명 참석자가 Teams 모임에 참가할 �
 
 ## <a name="teams-view-only-experience-controls"></a>Teams 보기 전용 모임 환경 제어
 
-[SkypeForBusiness PowerShell 모듈](/powershell/module/skype/?view=skype-ps) 또는 [MicrosoftTeams 모듈](https://www.powershellgallery.com/packages/MicrosoftTeams) 버전 2.0.0 이상에서 [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet을 사용하여 보기 전용 환경을 사용 설정합니다.
+[SkypeForBusiness PowerShell 모듈](/powershell/module/skype/) 또는 [MicrosoftTeams 모듈](https://www.powershellgallery.com/packages/MicrosoftTeams) 버전 2.0.0 이상에서 [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 보기 전용 환경을 사용 설정합니다.
 
 `MicrosoftTeams` 권장 모듈을 사용하려면 다음을 수행합니다.
 
@@ -129,7 +132,7 @@ Teams 보기 전용 환경 참석자들은 다음을 할 수 있습니다.
 - 보기 전용 참석자는 참석자 보고서에 포함되지 않습니다.
 - 보기 전용 참석자는 단일 비디오 환경을 이용하게 됩니다. 현재 발표자 또는 공유되고 있는 콘텐츠 중 하나는 볼 수 있지만 두가지를 동시에 볼 수 없습니다.
 - 현재는 보기 전용 참석자를 위한 **갤러리**, **대형 갤러리**, 또는 **함께 모드** 레이아웃을 지원하지 않습니다.
-- 보기 전용 참석자는 '내 조직의 사람', '조직 및 게스트의 사람', '내 조직, 신뢰할 수 있는 조직 및 게스트의 사람', '모두'와 같은 로비 정책에서만 지원됩니다. 보기 전용 참석자를 지원하지 않는 로비 정책을 사용하는 경우 보기 전용 참석자가 모임에서 거부됩니다. 
+- 보기 전용 참석자는 '내 조직에서 사람', '조직 및 게스트에서 사람', '조직, 신뢰할 수 있는 조직 및 게스트의 사람', '모두'와 같은 로비 정책에서만 지원됩니다. 보기 전용 참석자를 지원하지 않는 로비 정책을 사용하는 경우 보기 전용 참석자가 모임에서 거부됩니다. 
 - 보기 전용 참석자의 대기 시간은 일반 참석자와 동일하지 않습니다. <sup>1</sup>
 
   <sup>1</sup> 보기 전용 참석자는 회의에서 비디오 및 오디오가 30초 지연되어 제공됩니다.  

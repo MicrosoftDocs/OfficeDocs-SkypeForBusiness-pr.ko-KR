@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft 직접 라우팅을 통해 지원되는 고객 제공 SBC(세션 테두리 컨트롤러)를 전화 시스템에 연결하는 방법을 알아봅니다.
-ms.openlocfilehash: e3da76d8fa3f848945607a7e27f6b162623951b3
-ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
+ms.openlocfilehash: 811115c23d88ff3ce1b7fa6af8f8757afb33fecf
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2022
-ms.locfileid: "69343188"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392328"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -122,26 +122,25 @@ Teams 사용자는 일대일 Teams-PSTN 또는 Teams-To-Teams 통화를 시작�
 
 다음을 확인해야 합니다.
  
-- CsOnlineVoiceRoutingPolicy가 사용자에게 할당됩니다. 
+- CsOnlineVoiceRoutingPolicy가 사용자에게 할당됩니다.
 
-- 프라이빗 통화 허용은 Microsoft Teams에 대한 테넌트 수준에서 사용하도록 설정됩니다. 
+- 프라이빗 통화 허용은 Microsoft Teams에 대한 테넌트 수준에서 사용하도록 설정됩니다.
 
 직접 라우팅은 Microsoft 통화 플랜에 대한 라이선스가 부여된 사용자도 지원합니다. 통화 플랜이 있는 전화 시스템은 직접 라우팅 인터페이스를 사용하여 일부 통화를 라우팅할 수 있습니다. 그러나 사용자의 전화 번호는 온라인으로 획득하거나 Microsoft 이식해야 합니다.  
 
-동일한 사용자에 대한 통화 플랜 및 직접 라우팅 연결을 혼합하는 것은 선택 사항이지만 유용할 수 있습니다. 예를 들어 사용자에게 Microsoft 통화 플랜이 할당되었지만 SBC를 사용하여 일부 호출을 라우팅하려는 경우입니다. 가장 일반적인 시나리오 중 하나는 타사 PBX에 대한 호출입니다.  타사 PBX를 사용하면 해당 PBX에 연결된 휴대폰에 대한 호출을 제외한 모든 통화는 Microsoft 통화 플랜을 사용하여 라우팅되지만 타사 PBX에 연결된 휴대폰에 대한 호출은 SBC로 이동하므로 PSTN이 아닌 엔터프라이즈 네트워크 내에 유지됩니다. 
+동일한 사용자에 대한 통화 플랜 및 직접 라우팅 연결을 혼합하는 것은 선택 사항이지만 유용할 수 있습니다. 예를 들어 사용자에게 Microsoft 통화 플랜이 할당되었지만 SBC를 사용하여 일부 호출을 라우팅하려는 경우입니다. 가장 일반적인 시나리오 중 하나는 타사 PBX에 대한 호출입니다.  타사 PBX를 사용하면 해당 PBX에 연결된 휴대폰에 대한 호출을 제외한 모든 통화는 Microsoft 통화 플랜을 사용하여 라우팅되지만 타사 PBX에 연결된 휴대폰에 대한 호출은 SBC로 이동하므로 PSTN이 아닌 엔터프라이즈 네트워크 내에 유지됩니다.
 
-전화 시스템 라이선스에 대한 자세한 내용은 Office 및 [계획 옵션](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)[에서 최대한 활용](https://products.office.com/compare-all-microsoft-office-products?tab=2) 및 [Teams 추가 기능 라이선스 Microsoft 참조하세요](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
+전화 시스템 라이선스에 대한 자세한 내용은 Office 및 [계획 옵션](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)[에서 최대한 활용](https://products.office.com/compare-all-microsoft-office-products?tab=2) 및 [Teams 추가 기능 라이선스 Microsoft 참조하세요](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-## <a name="supported-end-points"></a>지원되는 끝점 
+## <a name="supported-end-points"></a>지원되는 끝점
 
 를 엔드포인트로 사용할 수 있습니다.
 
-- 모든 Teams 클라이언트. 
+- 모든 Teams 클라이언트.
 
-- 공용 영역 전화. [Microsoft Teams용 공용 영역 전화 설정을 참조하세요](./set-up-common-area-phones.md). 직접 라우팅을 사용하여 공용 영역 전화를 설정할 때 통화 플랜 라이선스가 필요하지 않습니다.
+- 공용 영역 전화. [Microsoft Teams에 대한 공용 영역 전화 설정을](./set-up-common-area-phones.md) 참조하세요. 직접 라우팅을 사용하여 공용 영역 전화를 설정할 때 통화 플랜 라이선스가 필요하지 않습니다.
 
 - 3PIP 휴대폰을 비즈니스용 Skype. [Microsoft Teams에서 비즈니스용 Skype 전화(3PIP) 지원을](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351) 참조하세요.
-
 
 ## <a name="sbc-domain-names"></a>SBC 도메인 이름
 
@@ -155,7 +154,8 @@ contoso.com|예|**유효한 이름:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.c
 |contoso.onmicrosoft.com|아니요|SBC 이름에는 *.onmicrosoft.com 도메인 사용이 지원되지 않습니다.
 
 새 도메인 이름을 사용하려는 경우를 가정합니다. 예를 들어 테넌트는 contoso.com 테넌트에서 등록된 도메인 이름으로 사용하고 sbc1.sip.contoso.com 사용하려고 합니다. 이름 sbc1.sip.contoso.com SBC를 페어링하려면 먼저 테넌트의 도메인에 sip.contoso.com 도메인 이름을 등록해야 합니다. 도메인 이름을 등록하기 전에 SBC와 sbc1.sip.contoso.com 페어링하려고 하면 "이 테넌트용으로 구성되지 않았기 때문에 "sbc1.sip.contoso.com" 도메인을 사용할 수 없습니다." 오류가 표시됩니다.
-도메인 이름을 추가한 후에는 UPN user@sip.contoso.com 사용자를 만들고 Teams 라이선스를 할당해야 합니다. 테넌트 도메인에 추가되고, 새 이름을 가진 사용자가 생성되고, 라이선스가 사용자에게 할당된 후 도메인 이름을 완전히 프로비전하는 데 최대 24시간이 걸릴 수 있습니다. 
+
+도메인 이름을 추가한 후에는 UPN user@sip.contoso.com 사용자를 만들고 Teams 라이선스를 할당해야 합니다. 테넌트 도메인에 추가되고, 새 이름을 가진 사용자가 생성되고, 라이선스가 사용자에게 할당된 후 도메인 이름을 완전히 프로비전하는 데 최대 24시간이 걸릴 수 있습니다.
 
 회사에 하나의 테넌트에서 여러 SIP 주소 공간이 있을 수 있습니다. 예를 들어 회사에서 SIP 주소 공간으로 contoso.com 두 번째 SIP 주소 공간으로 fabrikam.com 수 있습니다. 일부 사용자는 주소 user@contoso.com 있고 일부 사용자에게는 주소 user@fabrikam.com 있습니다. 
 
@@ -166,14 +166,16 @@ SBC에는 하나의 FQDN만 필요하며 쌍을 이루는 테넌트의 주소 �
   
 ## <a name="public-trusted-certificate-for-the-sbc"></a>SBC에 대한 신뢰할 수 있는 공용 인증서
 
-Microsoft CSR(인증 서명 요청)을 생성하여 SBC에 대한 인증서를 요청하는 것이 좋습니다. SBC용 CSR 생성에 대한 구체적인 지침은 SBC 공급업체에서 제공하는 상호 연결 지침 또는 설명서를 참조하세요. 
+Microsoft CSR(인증 서명 요청)을 생성하여 SBC에 대한 인증서를 요청하는 것이 좋습니다. SBC용 CSR 생성에 대한 구체적인 지침은 SBC 공급업체에서 제공하는 상호 연결 지침 또는 설명서를 참조하세요.
 
 > [!NOTE]
 > 대부분의 CA(인증 기관)에서는 프라이빗 키 크기가 2048 이상이어야 합니다. CSR을 생성할 때는 이 점을 염두에 두어야 합니다.
 
 인증서에는 SBC FQDN이 CN(일반 이름) 또는 SAN(주체 대체 이름) 필드여야 합니다.
 
-또는 직접 라우팅은 CN 및/또는 SAN에서 와일드카드를 지원하며 와일드카드는 [TLS를 통한 표준 RFC HTTP](https://tools.ietf.org/html/rfc2818#section-3.1)를 준수해야 합니다. 예를 들어 SBC FQDN sbc.contoso.com 일치하지만 sbc.test.contoso.com 일치하지 않는 .contoso.com 사용하는 \*것이 있습니다.
+또는 직접 라우팅은 CN 및/또는 SAN에서 와일드카드를 지원하며 와일드카드는 [TLS를 통한 표준 RFC HTTP](https://tools.ietf.org/html/rfc2818#section-3.1)를 준수해야 합니다.
+
+예를 들어 SBC FQDN sbc.contoso.com 일치하지만 sbc.test.contoso.com 일치하지 않는 .contoso.com 사용하는 \*것이 있습니다.
 
 직접 라우팅 SIP 인터페이스는 Microsoft 신뢰할 수 있는 루트 인증서 프로그램의 일부인 CA(인증 기관)에서 서명한 인증서만 신뢰합니다. SBC 인증서가 프로그램의 일부인 CA에서 서명하고 인증서의 EKU(확장 키 사용) 확장에 서버 인증이 포함되어 있는지 확인합니다.
 자세한 정보: [프로그램 요구 사항 - 신뢰할 수 있는 루트 프로그램 Microsoft](/security/trusted-root/program-requirements)
@@ -188,7 +190,7 @@ Microsoft CSR(인증 서명 요청)을 생성하여 SBC에 대한 인증서를 �
 > [!NOTE]
 > SBC의 Teams 연결에 대해 MTLS(상호 TLS) 지원이 사용하도록 설정된 경우 Teams TLS 컨텍스트의 SBC 신뢰할 수 있는 루트 저장소에 Baltimore CyberTrust Root 및 DigiCert 글로벌 루트 G2 인증서를 설치해야 합니다. (이는 Microsoft 서비스 인증서가 이러한 두 루트 인증서 중 하나를 사용하기 때문입니다.) 이러한 루트 인증서를 다운로드하려면 [Office 365 암호화 체인](/microsoft-365/compliance/encryption-office-365-certificate-chains)을 참조하세요. 자세한 내용은 [Office TLS 인증서 변경 내용을 참조하세요](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes).
 
-## <a name="sip-signaling-fqdns"></a>SIP 신호: FQDN 
+## <a name="sip-signaling-fqdns"></a>SIP 신호: FQDN
 
 직접 라우팅은 다음 환경에서 제공됩니다.
 
@@ -274,6 +276,7 @@ SBC는 dns 쿼리를 만들어 sip.pstnhub.microsoft.com 확인합니다. SBC �
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>미디어 트래픽: 포트 범위
+
 미디어 바이패스 없이 직접 라우팅을 배포하려는 경우 아래 요구 사항이 적용됩니다. 미디어 바이패스에 대한 방화벽 요구 사항은 [직접 라우팅을 사용하여 미디어 바이패스 계획을](./direct-routing-plan-media-bypass.md) 참조하세요.
 
 미디어 트래픽은 Microsoft 클라우드의 별도 서비스로 들어오고 흐릅니다. 미디어 트래픽의 IP 주소 범위는 다음과 같습니다.
@@ -292,7 +295,8 @@ SBC는 dns 쿼리를 만들어 sip.pstnhub.microsoft.com 확인합니다. SBC �
 - 52.127.88.0/21
 
 ### <a name="port-range-applicable-to-all-environments"></a>포트 범위(모든 환경에 적용 가능)
-미디어 프로세서의 포트 범위는 다음 표에 나와 있습니다. 
+
+미디어 프로세서의 포트 범위는 다음 표에 나와 있습니다.
 
 |트래픽을|보낸 사람|받는 사람|원본 포트|대상 포트|
 |:--- |:--- |:--- |:--- |:--- |
@@ -301,7 +305,6 @@ SBC는 dns 쿼리를 만들어 sip.pstnhub.microsoft.com 확인합니다. SBC �
 
   > [!NOTE]
   > Microsoft SBC에서 동시 호출당 두 개 이상의 포트를 권장합니다.
-
 
 ## <a name="media-traffic-media-processors-geography"></a>미디어 트래픽: 미디어 프로세서 지리
 
@@ -331,22 +334,23 @@ SBC는 dns 쿼리를 만들어 sip.pstnhub.microsoft.com 확인합니다. SBC �
 
 미디어가 아닌 바이패스 사례에만 적용됩니다. 미디어 바이패스를 사용하면 미디어가 Teams 클라이언트와 SBC 간에 직접 흐릅니다.
 
-Cloud Media Processor와 Microsoft Teams 클라이언트 사이의 다리에서 SILK 또는 G.722가 사용됩니다. 이 레그의 코덱 선택은 여러 매개 변수를 고려한 Microsoft 알고리즘을 기반으로 합니다. 
+Cloud Media Processor와 Microsoft Teams 클라이언트 사이의 다리에서 SILK 또는 G.722가 사용됩니다. 이 레그의 코덱 선택은 여러 매개 변수를 고려한 Microsoft 알고리즘을 기반으로 합니다.
 
   > [!NOTE]
   > 미디어 다시 대상 지정은 지원되지 않습니다. 직접 라우팅 통화 중에 SBC가 Teams 직접 라우팅에 새 미디어 IP를 보내는 경우 SIP 신호에서 협상되지만 미디어는 Teams 직접 라우팅에서 새 IP 주소로 전송되지 않습니다.
 
 ## <a name="supported-session-border-controllers-sbcs"></a>지원되는 SBC(세션 테두리 컨트롤러)
 
-Microsoft 직접 라우팅과 페어링하기 위해 인증된 SCC만 지원합니다. Enterprise Voice 비즈니스에 중요하기 때문에 Microsoft 선택한 SBC를 사용하여 집중적인 테스트를 실행하고 SBC 공급업체와 협력하여 두 시스템이 호환되는지 확인합니다. 
+Microsoft 직접 라우팅과 페어링하기 위해 인증된 SCC만 지원합니다. Enterprise Voice 비즈니스에 중요하기 때문에 Microsoft 선택한 SBC를 사용하여 집중적인 테스트를 실행하고 SBC 공급업체와 협력하여 두 시스템이 호환되는지 확인합니다.
 
-유효성이 검사된 디바이스는 Teams 직접 라우팅에 대해 인증됨으로 나열됩니다. 인증된 디바이스는 모든 시나리오에서 작동하도록 보장됩니다. 
+유효성이 검사된 디바이스는 Teams 직접 라우팅에 대해 인증됨으로 나열됩니다. 인증된 디바이스는 모든 시나리오에서 작동하도록 보장됩니다.
 
 지원되는 SBC에 대한 자세한 내용은 [직접 라우팅에 대해 인증된 세션 테두리 컨트롤러를 참조하세요](direct-routing-border-controllers.md).
 
 ## <a name="support-boundaries"></a>지원 경계
+
 Microsoft는 인증 디바이스로 사용하는 경우에만 직접 라우팅을 사용하는 전화 시스템을 지원합니다. 문제가 있는 경우 SBC 공급업체의 고객 지원에 먼저 문의해야 합니다. 필요한 경우 SBC 공급업체에서 내부 채널을 통해 Microsoft로 문제를 에스컬레이션합니다. Microsoft에는 인증되지 않은 디바이스에서 직접 라우팅을 통해 전화 시스템에 연결할 경우 지원을 거부할 권리가 있습니다. Microsoft에서 고객의 직접 라우팅 문제가 공급업체의 SBC 장치와 관련된 것으로 판단되면 고객은 SBC 공급업체에 다시 참여를 요청해야 합니다.
- 
+
 ## <a name="see-also"></a>참고 항목
 
 [직접 라우팅 구성](direct-routing-configure.md)

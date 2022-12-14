@@ -1,5 +1,5 @@
 ---
-title: 공용 영역 전화 라이선스 설정
+title: Microsoft Teams용 공용 영역 전화 설정
 ms.author: danismith
 author: DaniEASmith
 manager: serdars
@@ -22,51 +22,32 @@ ms.custom:
 - seo-marvel-mar2020
 - admindeeplinkMAC
 - admindeeplinkTEAMS
-description: 로비, 리셉션 공간 및 회의실용 공용 영역 전화기를 설정하는 방법을 알아봅니다.
-ms.openlocfilehash: 2a282526a0592c46c053e9c0319112a9238a6051
-ms.sourcegitcommit: 92a0df6fc3aa62cec1bf72a40690fb8e16226965
+description: 로비, 리셉션 공간 및 회의실에 대한 공용 영역 전화를 설정하는 방법을 알아봅니다.
+ms.openlocfilehash: 06005f853ac125478ae1fd99dba2d022c5eb0100
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2022
-ms.locfileid: "68836752"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392158"
 ---
 # <a name="set-up-common-area-phones-for-microsoft-teams"></a>Microsoft Teams용 공용 영역 전화 설정
 
-공용 영역 전화는 일반적으로 로비 또는 많은 사람들이 전화를 걸 수 있는 다른 영역(리셉션 공간, 로비 또는 회의 전화)에 배치됩니다. 공용 영역 전화는 **공용 영역 전화** 라이선스에 연결된 계정으로 로그인됩니다.
+공용 영역 전화는 일반적으로 로비 또는 많은 사람들이 전화를 걸 수 있는 다른 영역(리셉션 공간, 로비 또는 회의 전화)에 배치됩니다. 공용 영역 전화는 **Microsoft Teams 공유 디바이스** 라이선스에 연결된 계정으로 로그인됩니다.
 
 이 문서에서는 공유 공간에 대한 공용 영역 휴대폰으로 Teams 전화 디바이스를 배포하고 구성하는 방법에 대한 개요를 제공합니다. 오디오 회의를 포함하여 보다 완벽한 회의실 환경을 위해 Teams 룸 디바이스를 사용하여 전용 **Teams 룸** 라이선스를 구매하는 것이 좋습니다. Teams 룸 대한 자세한 내용은 [Microsoft Teams 룸 참조하세요](rooms/index.md).
-
-## <a name="overview"></a>개요
-
-**공용 영역 전화** 라이선스는 다음을 지원합니다.
-
-|                                           | 공용 영역 전화                                 |
-|-------------------------------------------|---------------------------------------------------|
-| **Microsoft Teams**                       | &#x2714;                                          |
-| **Teams Phone**  &sup1;                   | &#x2714;                                          |
-| **오디오 회의**                    | &#x2718; &sup2;                                   |
-| **Microsoft Intune**                      | &#x2714;                                          |
-| **Azure Active Directory Premium 플랜 1** | &#x2714;                                          |
-| **Exchange Online 플랜 2**                | &#x2714;  &sup3;                                  |
-| **전 세계 가용성**                | &#x2714;                                          |
-| **채널 가용성**                  | EA, EAS, EES, CSP, Web Direct, GCC, GCC-High, DoD |
-
-&sup1; 이전에는 *전화 시스템으로 알려져 있습니다*.
-&sup2; 공용 영역 전화는 모임 이끌이가 제공하는 전화 접속 번호를 통해 오디오 회의에 참가할 수 있습니다.
-&sup3; 클라우드 기반 음성 메일 기능만 가능합니다.
 
 > [!NOTE]
 > 비즈니스용 Skype 서버 만든 공용 영역 전화 개체에 대한 계정은 Microsoft Teams로 마이그레이션할 수 없습니다. 이 문서의 단계에 따라 Teams에 대한 해당 계정을 다시 만들고 필요한 경우 PSTN(공용 전환 전화 네트워크) 연결을 마이그레이션합니다.
 
 ## <a name="step-1---buy-the-licenses"></a>1단계 - 라이선스 구입
 
-먼저 CAP( **공용 영역 전화** ) 라이선스를 구매하고 인증된 휴대폰이 있는지 확인해야 합니다. 인증된 휴대폰을 검색하고 자세히 알아보려면 [Microsoft Teams 디바이스](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)로 이동하세요.
+먼저 **Teams 공유 디바이스** 라이선스를 구매하고 인증된 휴대폰이 있는지 확인해야 합니다. 인증된 휴대폰을 검색하고 자세히 알아보려면 [Microsoft Teams 디바이스](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)로 이동하세요.
 
 1. [Microsoft 365 관리 센터](https://go.microsoft.com/fwlink/p/?linkid=2024339) **청구** > **구매 서비스** 로 이동합니다.
 
-2. **범주별 보기** 섹션이 아직 표시되지 않으면 **Microsoft에서 구매** 로 이동하여 **제품 보기를** 선택합니다. 그런 다음 **공동 작업 및 통신을** 선택합니다.  
+2. **범주별 보기** 섹션이 아직 표시되지 않으면 **Microsoft 구매** 로 이동하여 **제품 보기를** 선택합니다. 그런 다음 **공동 작업 및 통신을** 선택합니다.  
 
-3. 제품 목록에서 **공용 영역 전화를** 찾고 **세부 정보를** 선택합니다.
+3. 제품 목록에서 **Microsoft Teams 공유 디바이스** 를 찾고 **세부 정보를** 선택합니다.
 
 4. 필요한 라이선스 수를 입력하고 **구매** 를 선택합니다.
 
@@ -96,16 +77,16 @@ ms.locfileid: "68836752"
     > [!IMPORTANT]
     > 최종 사용자의 로그인 문제를 방지하려면 공용 영역 휴대폰에 대한 암호를 수동으로 설정하는 것이 좋습니다.
 
-6. 디바이스의 사용 위치를 선택하고 계정에 **공용 영역 전화** 라이선스를 할당합니다. 통화 플랜과 같은 다른 라이선스가 필요한 경우 할당합니다.
+6. 디바이스의 사용 위치를 선택하고 **Teams 공유 디바이스** 라이선스를 계정에 할당합니다. 통화 플랜과 같은 다른 라이선스가 필요한 경우 할당합니다.
 
 > [!NOTE]
-> 전화 시스템 기능을 사용하여 라이선스를 추가할 필요가 없습니다. **공용 영역 전화** 라이선스에 포함되어 있습니다.
+> 전화 시스템 기능을 사용하여 라이선스를 추가할 필요가 없습니다. **Teams 공유 디바이스** 라이선스에 포함되어 있습니다.
 >
 > 직접 라우팅 또는 운영자 연결에서 Microsoft 전화 시스템을 사용하지 않는 경우 **통화 플랜** 라이선스를 추가할 수 있습니다. 라이선스에 대한 자세한 내용은 [Microsoft Teams 추가 기능 라이선스를 참조하세요](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
-둘 이상의 사용자 계정에 대한 라이선스를 한 번에 만들고 할당하려는 경우 PowerShell을 사용합니다. 자세한 내용은 [PowerShell을 사용하여 Microsoft 365 사용자 계정 만들기 및 PowerShell](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true) 을 [사용하여 사용자 계정에 Microsoft 365 라이선스 할당을 참조하세요](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
+둘 이상의 사용자 계정에 대한 라이선스를 한 번에 만들고 할당하려는 경우 PowerShell을 사용합니다. 자세한 내용은 [PowerShell을 사용하여 Microsoft 365 사용자 계정 만들기 및 PowerShell](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)을 사용하여 [사용자 계정에 Microsoft 365 라이선스 할당을 참조하세요](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
 
 ## <a name="step-3---set-policies-for-common-area-phones"></a>3단계 - 공용 영역 휴대폰에 대한 정책 설정
 
@@ -113,7 +94,7 @@ ms.locfileid: "68836752"
 
 ### <a name="ip-phone-policies"></a>IP 전화 정책
 
-Teams IP Phone 정책은 휴대폰에 로그인하는 계정이 공용 영역 전화 라이선스 이외의 라이선스가 있는 경우에만 수정할 수 있습니다.  Microsoft 365 E3 또는 E5 구독 또는 Office 365 Enterprise E1, E3 또는 E5 구독으로 라이선스가 부여된 경우 IP 전화 정책을 수정할 수 있습니다.  공용 영역 전화 계정에서 회의실 라이선스를 사용하는 경우 모드만 사용할 `MeetingRoomSignIn` 수 있습니다. `MeetingRoomSignIn` 모드는 가장 일반적인 지역 휴대폰에서 사용할 수 없습니다. 전화 인터페이스에 대해 지원되는 재정의에 대한 자세한 내용은 [Microsoft Teams Android 디바이스 사용자 인터페이스 설정을 참조하세요](/microsoftteams/devices/teams-android-devices-user-interface#override-automatic-user-interface-detection). 
+Teams IP Phone 정책은 휴대폰에 로그인하는 계정이 **Teams 공유 디바이스** 라이선스 이외의 라이선스가 있는 경우에만 수정할 수 있습니다.  Microsoft 365 E3 또는 E5 구독 또는 Office 365 Enterprise E1, E3 또는 E5 구독으로 라이선스가 부여된 경우 IP 전화 정책을 수정할 수 있습니다.  공용 영역 전화 계정에서 **Teams 룸** 라이선스를 사용하는 경우 모드만 사용할 `MeetingRoomSignIn` 수 있습니다. `MeetingRoomSignIn` 모드는 가장 일반적인 지역 휴대폰에서 사용할 수 없습니다. 전화 인터페이스에 대해 지원되는 재정의에 대한 자세한 내용은 [Microsoft Teams Android 디바이스 사용자 인터페이스 설정을 참조하세요](/microsoftteams/devices/teams-android-devices-user-interface#override-automatic-user-interface-detection).
 
 Teams IP 전화 정책을 사용하여 [SignInMode 매개 변수](/powershell/module/skype/new-csteamsipphonepolicy#parameters) 를 로 `CommonAreaPhoneSignIn` 설정하여 Teams 전화 장치에서 공통 영역 전화 환경을 사용하도록 설정합니다.
 
@@ -167,7 +148,7 @@ PSTN 연결 옵션 [에 따라 전화 번호를](manage-phone-numbers-landing-pa
 
 기본적으로 기본 통화 환경은 공용 영역 전화의 홈 화면에 있지만 고급 통화 환경을 켤 수 있습니다.
 
-다음 고급 통화 기능은 **공용 영역 전화** 라이선스 및 최신 Teams 업데이트(최소 버전: 1449/1.0.94.2022061702)가 있는 지원되는 Teams 전화 장치 모델에 사용할 수 있습니다.
+Teams **공유 디바이스** 라이선스 및 최신 Teams 업데이트(최소 버전: 1449/1.0.94.2022061702)를 사용하는 지원되는 Teams 전화 장치 모델에 다음과 같은 고급 통화 기능을 사용할 수 있습니다.
 
 - [대기를 호출하고 검색합니다](call-park-and-retrieve.md).
 - [Exchange Online 플랜 2를 통한 클라우드 기반 음성 메일](set-up-phone-system-voicemail.md).
@@ -177,7 +158,7 @@ PSTN 연결 옵션 [에 따라 전화 번호를](manage-phone-numbers-landing-pa
 - [그룹 통화 픽업](call-sharing-and-group-call-pickup.md).
 - [전달 규칙](teams-calling-policy.md).
 
-지원되는 Teams 전화 장치 모델에서 이러한 고급 통화 기능을 사용하려면 [Teams 관리 센터](https://go.microsoft.com/fwlink/p/?linkid=2066851) 또는 공용 영역 전화 계정에 로그인한 Teams 전화 장치에서 **고급 통화** 토글을 켤 수 있습니다.
+지원되는 Teams 전화 장치 모델에서 이러한 고급 통화 기능을 사용하려면 [Teams 관리 센터 또는 Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851) 공유 디바이스 계정에 로그인한 Teams 전화 장치에서 **고급 통화** 토글을 켤 수 있습니다.
 
 고급 호출 기능을 켜려면 필요한 모든 기능을 지원할 수 있는 하드웨어 모델을 구매해야 합니다.
 
@@ -197,10 +178,10 @@ PSTN 연결 옵션 [에 따라 전화 번호를](manage-phone-numbers-landing-pa
 
 ## <a name="next-steps"></a>다음 단계
 
-이제 조직의 공용 영역 전화를 설정하고 로그인했으므로 Teams 관리 센터에서 관리할 수 있습니다. 자세한 내용은 [Microsoft Teams: 디바이스 관리를 참조하세요](devices/device-management.md) .
+이제 조직의 공용 영역 전화를 설정하고 로그인했으므로 Teams 관리 센터에서 관리할 수 있습니다. [자세한 내용은 Microsoft Teams: 디바이스 관리를 참조하세요](devices/device-management.md).
 
 ## <a name="related-articles"></a>관련 기사
 
 - [Microsoft Teams 디바이스를 원격으로 업데이트합니다](devices/remote-update.md).
 - [Microsoft Teams 디바이스 태그를 관리합니다](devices/manage-device-tags.md).
-- [Microsoft Teams 디바이스 상태 모니터링](alerts/device-health-status.md).
+- [teams 디바이스 상태 모니터링을 Microsoft](alerts/device-health-status.md).
