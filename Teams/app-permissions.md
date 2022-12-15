@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 643c354086d93d7aa3edd4d73216b4b9d5dbbe56
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 43e960a623992502f07d028a152fec3104e8670b
+ms.sourcegitcommit: 7104222e5d379d1338fa8bf2555754d3ac5eeb82
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912477"
+ms.lasthandoff: 12/15/2022
+ms.locfileid: "69412251"
 ---
 # <a name="information-accessed-and-actions-performed-by-apps-and-related-admin-considerations"></a>액세스한 정보 및 앱에서 수행한 작업 및 관련 관리자 고려 사항
 
@@ -68,12 +68,6 @@ Microsoft Teams 앱은 하나 이상의 기능을 설치, 업그레이드 및 �
   * 개인 메시지를 받고 회신합니다.
   * 그룹 채팅을 받고 회신합니다.
   * 채널 메시지를 받고 회신합니다.
-
-* 다음은 명시적 권한이 아니지만 매니페스트에 선언된 RECEIVE_MESSAGE 및 REPLYTO_MESSAGE 및 봇을 사용할 수 있는 범위에 암시됩니다.
-
-  * RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
-  * RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
-  * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
 
 * SEND_FILES RECEIVE_FILES:<sup>2</sup> 봇이 개인 채팅에서 파일을 보내고 받을 수 있는지 여부를 제어합니다(아직 그룹 채팅 또는 채널에 지원되지 않음).
 
