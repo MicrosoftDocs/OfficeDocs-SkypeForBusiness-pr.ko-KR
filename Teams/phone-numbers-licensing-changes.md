@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 라이선스 변경이 전화 번호 관리에 미치는 영향을 알아봅니다.
-ms.openlocfilehash: e023c1606157a5beeafedfa358e470555ba7f653
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: f75c5aeea577163e9f3ee6d1d4302836de0d1e7e
+ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614321"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69414675"
 ---
 # <a name="how-licensing-affects-phone-number-management"></a>라이선스가 전화 번호 관리에 미치는 영향
 
@@ -37,7 +37,7 @@ ms.locfileid: "68614321"
 
 ## <a name="remove-a-license"></a>라이선스 제거
 
-할당된 전화 번호가 있는 사용자가 있고 하나 이상의 필수 구성 요소 라이선스를 제거하는 경우 라이선스를 제거하면 사용자의 전화 번호도 할당 취소됩니다. 할당된 전화 번호가 없으면 Microsoft Teams에서 PSTN 통화를 하고 받을 수 있는 사용자의 기능이 영향을 받습니다.
+할당된 전화 번호가 있는 사용자가 있고 하나 이상의 필수 구성 요소 라이선스를 제거한 경우 라이선스를 제거하면 사용자의 전화 번호도 할당 취소됩니다. 할당된 전화 번호가 없으면 Microsoft Teams에서 PSTN 전화를 걸고 받을 수 있는 사용자의 기능이 영향을 받습니다.
 
 사용자의 [PSTN 연결 옵션](pstn-connectivity.md)에 따라 라이선스를 제거하면 전화 통신 매개 변수에 다음과 같은 영향을 미칩니다.
 
@@ -47,7 +47,7 @@ ms.locfileid: "68614321"
   - 전화 번호 데이터베이스에서 전화 번호 할당 상태를 할당되지 않음으로 설정
 
 
-- **운영자 연결 전화 번호가 있는 사용자로부터 Microsoft 365 Phone System 라이선스를 제거** 하면 다음이 수행됩니다.
+- **Operator Connect 전화 번호가 있는 사용자로부터 Microsoft 365 전화 시스템 라이선스를 제거** 하면 다음이 수행됩니다.
   - LineUri 지우기
   - EnterpriseVoiceEnabled를 False로 설정
   - 전화 번호 데이터베이스에서 전화 번호의 할당 상태를 할당되지 않음으로 설정
@@ -61,22 +61,14 @@ ms.locfileid: "68614321"
 
 ## <a name="change-a-license"></a>라이선스 변경
 
-필수 구성 요소 라이선스 중 하나가 포함된 사용자에 대한 라이선스를 변경해야 하는 경우 라이선스 변경 내용이 동시에 적용되고 저장되었는지 확인해야 합니다. 이 방법을 사용하면 사용자가 할당된 전화 번호를 유지하고 Microsoft Teams에서 PSTN 통화를 계속 만들고 받을 수 있습니다. 
+필수 구성 요소 라이선스 중 하나가 포함된 사용자에 대한 라이선스를 변경해야 하는 경우 라이선스 변경 내용이 동시에 적용되고 저장되었는지 확인해야 합니다. 이 방법을 사용하면 사용자가 할당된 전화 번호를 유지하고 Microsoft Teams에서 PSTN 전화를 계속 받고 받을 수 있습니다. 
 
 예를 들어 현재 Microsoft 365 E3 라이선스가 있는 사용자에게 Microsoft 365 E5 라이선스를 할당하려는 경우를 가정합니다. 
 
-- Teams 관리 센터를 사용하는 경우 사용자 세부 정보 **라이선스 및 앱** 탭에서 **변경 내용 저장** 을 클릭하기 전에 이전 라이선스가 제거되고 새 라이선스가 추가되었는지 확인합니다. 
+- Teams 관리 센터를 사용하는 경우 사용자 세부 정보의 **라이선스 및 앱** 탭에서 **변경 내용 저장** 을 클릭하기 전에 이전 라이선스가 제거되고 새 라이선스가 추가되었는지 확인합니다. 
 
 - PowerShell cmdlet, [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense) 또는 [Set-MgUserLicense](/powershell/module/microsoft.graph.users.actions/set-mguserlicense)를 사용하는 경우 cmdlet을 한 번 실행하고 -AddLicenses 및 -RemoveLicenses 매개 변수를 모두 사용합니다.
 
-(이전 라이선스를 제거하고 변경 사항을 저장한 다음 새 라이선스를 추가하고 변경 사항을 저장하면 전화 번호가 할당되지 않고 사용자가 Microsoft Teams에서 PSTN 통화를 만들고 받을 수 있는 기능이 손실될 수 있습니다. 새 라이선스를 할당한 후에는 사용자에게 전화 번호를 다시 할당해야 합니다.)
+(이전 라이선스를 제거하고 변경 사항을 저장한 다음 새 라이선스를 추가하고 변경 사항을 저장하면 전화 번호가 할당되지 않으며 사용자가 Microsoft Teams에서 PSTN 전화를 걸고 받을 수 있는 기능이 손실될 수 있습니다. 새 라이선스를 할당한 후에는 사용자에게 전화 번호를 다시 할당해야 합니다.)
 
-
-
-
-
-
-
-
-
-
+그룹 기반 라이선스와 동시에 라이선스를 변경하는 방법에 대한 자세한 내용은 [Azure Active Directory에서 사용자 또는 그룹에 대한 라이선스 할당 변경을 참조하세요](/azure/active-directory/enterprise-users/licensing-groups-change-licenses).

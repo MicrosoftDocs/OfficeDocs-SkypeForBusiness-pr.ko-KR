@@ -21,12 +21,12 @@ description: 네트워크 설정, 라이선스 할당, 라이브 이벤트 기�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a6fff8443899431176c904bf5a253ceed38d44f4
-ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
+ms.openlocfilehash: 899229e5acfdbd5864cc055672f4ae7ac16e6dee
+ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2022
-ms.locfileid: "68965104"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69414716"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams에서 실시간 이벤트 설정
 
@@ -92,9 +92,9 @@ Windows PowerShell 사용하여 이 작업을 수행할 수도 있으며, 현재
 
 ## <a name="step-4-set-up-a-video-distribution-solution-for-live-events-in-teams"></a>4단계: Teams에서 라이브 이벤트에 대한 비디오 배포 솔루션 설정
 
-라이브 이벤트 비디오 재생은 ABR(Adaptive Bitrate Streaming)을 사용하지만 유니캐스트 스트림이므로 모든 시청자가 인터넷에서 자신의 비디오 스트림을 받고 있습니다. 조직의 많은 부분으로 전송되는 실시간 이벤트 또는 비디오의 경우 시청자가 상당한 양의 인터넷 대역폭을 소비할 수 있습니다. 라이브 이벤트에 대한 인터넷 트래픽을 줄이려는 조직의 경우 Microsoft는 자사 솔루션인 [Microsoft eCDN](/ecdn) (엔터프라이즈 콘텐츠 배달 네트워크)을 제공합니다. 라이브 이벤트 솔루션은 SDN(소프트웨어 정의 네트워크) 또는 eCDN을 제공하는 Microsoft의 신뢰할 수 있는 비디오 배달 파트너와도 통합됩니다. 이러한 SDN/eCDN 플랫폼을 통해 조직은 최종 사용자 보기 환경을 희생하지 않고도 네트워크 대역폭을 최적화할 수 있습니다. 이러한 솔루션은 엔터프라이즈 네트워크에서 보다 확장 가능하고 효율적인 비디오 배포를 가능하게 하는 데 도움이 될 수 있습니다.
+라이브 이벤트 비디오 재생은 ABR(Adaptive Bitrate Streaming)을 사용하지만 유니캐스트 스트림이므로 모든 시청자가 인터넷에서 자신의 비디오 스트림을 받고 있습니다. 조직의 많은 부분으로 전송되는 실시간 이벤트 또는 비디오의 경우 시청자가 상당한 양의 인터넷 대역폭을 소비할 수 있습니다. 라이브 이벤트에 대한 이 인터넷 트래픽을 줄이려는 조직의 경우 Microsoft [eCDN](/ecdn)(엔터프라이즈 콘텐츠 배달 네트워크)을 Microsoft 자사 솔루션을 제공합니다. 라이브 이벤트 솔루션은 SDN(소프트웨어 정의 네트워크) 또는 eCDN을 제공하는 Microsoft 신뢰할 수 있는 비디오 배달 파트너와도 통합됩니다. 이러한 SDN/eCDN 플랫폼을 통해 조직은 최종 사용자 보기 환경을 희생하지 않고도 네트워크 대역폭을 최적화할 수 있습니다. 이러한 솔루션은 엔터프라이즈 네트워크에서 보다 확장 가능하고 효율적인 비디오 배포를 가능하게 하는 데 도움이 될 수 있습니다.
 
-- **Microsoft eCDN** Microsoft eCDN은 Teams에 통합되어 있으며 Stream 및 Yammer와도 호환됩니다. 회사 네트워크 내에서 피어 투 피어 기술을 사용하여 WAN 연결에서 대역폭을 오프로드합니다.
+- **Microsoft eCDN** Microsoft eCDN은 Teams에 통합되며 Stream 및 Yammer와도 호환됩니다. 회사 네트워크 내에서 피어 투 피어 기술을 사용하여 WAN 연결에서 대역폭을 오프로드합니다.
 
 - **Teams 외부에서 솔루션 구매 및 설정** Microsoft의 신뢰할 수 있는 비디오 제공 파트너를 활용하여 비디오 제공 확장에 대한 전문가의 도움을 받으세요. 
 
@@ -104,9 +104,9 @@ Windows PowerShell 사용하여 이 작업을 수행할 수도 있으며, 현재
 
 - **Kollective** 는 기존 네트워크 인프라를 활용하여 다양한 형식(라이브 스트리밍 비디오, 주문형 비디오, 소프트웨어 업데이트, 보안 패치 등)으로 콘텐츠를 더 빠르고 안정적이며 더 적은 대역폭으로 제공하는 클라우드 기반의 스마트 피어링 배포 플랫폼입니다. Microsoft의 보안 플랫폼은 세계 최대 금융 기관의 신뢰를 받고 있으며 추가 하드웨어와 설정이 필요하지 않고 유지 관리가 쉽습니다. [자세히 알아보세요](https://kollective.com/microsoft-pilot/).
 
-- **Ramp OmniCache** 는 차세대 네트워크 배포를 제공하고 글로벌 WAN을 통한 비디오 컨텐츠의 완벽한 전달을 보장하여 이벤트 제작자가 네트워크 대역폭을 최적화하고 성공적인 라이브 이벤트 브로드 캐스트 및 주문형 스트리밍을 지원하도록 돕습니다. 팀에서 진행되는 라이브 이벤트에 대한 램프 OmniCache에 대한 지원은 곧 제공 될 예정입니다. [자세히 알아보세요](https://rampecdn.com).
+- **Ramp** 는 안전하고 완벽한 비디오 배달을 위한 범용 eCDN 솔루션을 제공합니다. 최고 금융, 의료 및 정부 기관에서 신뢰하는 Ramp는 온-프레미스, 클라우드 또는 하이브리드에 배포하며 제로 트러스트 환경에 적합합니다. 유니버설 라이선스에는 세 가지 eCDN 배달 방법(P2P, 멀티캐스트 및 캐시)이 모두 포함되어 있어 라이브 스트리밍 및 주문형 비디오가 회사 네트워크를 공유하는 중요 비즈니스용 애플리케이션을 보호하기 위해 가장 낮은 대역폭 영향으로 최고 품질로 전달되도록 합니다. [자세한 정보](https://rampecdn.com/)를 확인합니다.
 
-- 네트워크 최적화 업계 표준인 **Riverbed** 는 가속 솔루션을 Microsoft Teams 및 Stream으로 확장하고 있습니다.  이제 Microsoft 365 고객은 Teams 및 Stream을 포함한 365개 트래픽을 다른 주요 엔터프라이즈 SaaS 서비스와 함께 자신 있게 가속화하여 어디서나 인력 생산성을 높일 수 있습니다. Teams 및 Stream 가속은 Riverbed의 세계적 수준의 지원과 지속적인 투자에 대한 모든 보증과 함께 제공되는 손쉽게 설정을 통해 사용할 수 있습니다.
+- 네트워크 최적화 업계 표준인 **Riverbed** 는 가속 솔루션을 Microsoft Teams 및 Stream으로 확장하고 있습니다.  이제 Microsoft 365명의 고객은 Teams 및 Stream을 포함한 365개의 트래픽을 자신 있게 가속화하고 다양한 주요 엔터프라이즈 SaaS 서비스와 함께 어디서나 인력 생산성을 높일 수 있습니다. Teams 및 Stream 가속은 Riverbed의 세계적 수준의 지원과 지속적인 투자에 대한 모든 보증과 함께 제공되는 손쉽게 설정을 통해 사용할 수 있습니다.
 
 > [!NOTE]
 > 타사 SDN 또는 eCDN 솔루션을 선택하는 경우 공급자의 솔루션 사용을 제어하는 선택한 **타사 공급자의 서비스 약관 및 개인 정보 보호 정책이** 적용됩니다. 공급자의 솔루션 사용에는 Microsoft 볼륨 라이선싱 조건 또는 온라인 서비스 조건이 적용되지 않습니다. **타사 공급자의 약관** 에 동의하지 않을 경우 Teams에서 해당 솔루션을 사용하지 마세요.
