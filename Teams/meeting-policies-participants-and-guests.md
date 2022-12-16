@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 참가자 및 게스트에 대한 Teams에서 모임 정책 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: a5d18ea0e3f8c6cd008a12258fd94c3a0b725ac3
-ms.sourcegitcommit: 1fe19c4a6e9f6116515df531786cc3e482e27093
+ms.openlocfilehash: 42321eb1edadeda928ab0cb9e78e166478b73ed9
+ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2022
-ms.locfileid: "68876284"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69436674"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>모임 정책 설정 - 참가자 및 게스트
 
@@ -54,7 +54,7 @@ ms.locfileid: "68876284"
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>익명 사용자의 모임 시작 허용
 
-이 설정은 리더리스 전화 접속 회의 모임을 허용하는 이끌이별 정책입니다. 이 설정은 전화 접속 사용자가 조직의 인증된 사용자 없이 모임에 참가할 수 있는지 여부를 제어합니다. 기본적으로 이 설정은 꺼져 있습니다. 즉, 전화 접속 사용자는 조직의 인증된 사용자가 모임에 참가할 때까지 대기실에서 대기합니다.
+이 설정은 리더리스 전화 접속 회의 모임을 허용하는 이끌이별 정책입니다. 이 설정은 익명 사용자와 전화 접속 발신자가 조직의 인증된 사용자 없이 모임에 참가할 수 있는지 여부를 제어합니다. 기본적으로 이 설정은 꺼져 있습니다. 즉, 익명 사용자와 전화 접속 발신자는 조직의 인증된 사용자가 모임에 참가할 때까지 대기실에서 대기합니다.
 
 > [!NOTE]
 > 이 설정이 꺼져 있고 전화 접속 사용자가 먼저 모임에 참가하고 로비에 배치된 경우 조직 사용자는 Teams 클라이언트와 모임에 참가하여 로비에서 사용자를 허용해야 합니다. 전화 접속 사용자는 대기실 컨트롤을 사용할 수 없습니다.

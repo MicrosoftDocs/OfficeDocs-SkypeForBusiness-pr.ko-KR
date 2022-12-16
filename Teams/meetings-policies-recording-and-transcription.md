@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
 description: 기록 및 전사를 위해 Teams에서 모임 정책 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: fd0dc824f380fb9a001442267445340944e055c4
-ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
+ms.openlocfilehash: 06a05d2eb8a8c1542b79fa4c37b68ea4a3aa6d32
+ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "68928314"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69436762"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>& 기록 기록을 위한 모임 정책 설정
 
@@ -98,11 +98,11 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 #### <a name="recording-expiration-settings-and-microsoft-365-retention-policies-in-microsoft-purview"></a>Microsoft Purview에서 만료 설정 및 Microsoft 365 보존 정책 기록
 
-파일 보존은 파일 삭제보다 우선합니다. Purview 보존 정책을 사용하는 Teams 모임 녹음/녹화는 보존 기간이 완료될 때까지 Teams 모임 녹음/녹화 만료 정책에서 삭제할 수 없습니다. 예를 들어 파일이 5년 동안 유지되고 Teams 모임 녹음/녹화 만료 정책이 60일 동안 설정된 Purview 보존 정책이 있는 경우 Teams 모임 녹음/녹화 만료 정책은 5년 후에 녹음/녹화를 삭제합니다.
+파일 보존은 파일 삭제보다 우선합니다. Purview 보존 정책을 사용하는 Teams 모임 녹음/녹화는 보존 기간이 완료될 때까지 Teams 모임 녹음/녹화 만료 정책에서 삭제할 수 없습니다. 예를 들어 파일이 5년 동안 유지되고 Teams 모임 녹음/녹화 만료 정책이 60일 동안 설정된 Purview 보존 정책이 있는 경우 Teams 모임 녹음/녹화 만료 정책은 5년 후에 녹음/녹화를 영구적으로 삭제합니다.
 
 Teams 모임 녹음/녹화 만료 정책과 삭제 날짜가 다른 Purview 삭제 정책이 있는 경우 파일은 두 날짜의 가장 빠른 시간에 삭제됩니다. 예를 들어 1년 후에 파일이 삭제되고 Teams 모임 녹음/녹화 만료가 120일 동안 설정된다는 Purview 삭제 정책이 있는 경우 Teams 모임 녹음/녹화 만료 정책은 120일 후에 파일을 삭제합니다.
 
-이를 방지하는 Purview 보존 정책이 없는 한 사용자는 만료 날짜 이전에 기록을 수동으로 삭제할 수 있습니다.
+이를 방지하는 Purview 보존 정책이 없는 한 사용자는 만료 날짜 이전에 기록을 수동으로 삭제할 수 있습니다. 보존 기간에 있는 녹음/녹화가 사용자가 수동으로 삭제하는 경우 녹음/녹화는 보존 보존 라이브러리에 보관됩니다. 그러나 녹화는 최종 사용자에게 삭제된 것으로 표시됩니다. 자세한 내용은 [SharePoint 및 OneDrive의 보존에 대해 알아보기를 참조하세요](/microsoft-365/compliance/retention-policies-sharepoint#how-retention-works-for-sharepoint-and-onedrive).
 
 ### <a name="deletion-of-recordings"></a>녹음/녹화 삭제
 
