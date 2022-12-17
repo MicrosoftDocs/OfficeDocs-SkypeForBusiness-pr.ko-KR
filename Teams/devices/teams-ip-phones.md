@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 Microsoft Teams에 대해 인증된 책상 및 회의 전화기를 알아봅니다.
-ms.openlocfilehash: 56a8f5eb18600b62944732312c391ff7bd20201b
-ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
+ms.openlocfilehash: 4117cffe61e10c968cb92777ab5158732a62df21
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69436704"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438286"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 인증 Android 디바이스
 
@@ -36,7 +36,7 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 > [!IMPORTANT]
 > Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 하드웨어 디자인 및 성능에 대한 특정 요구 사항만 충족하도록 보장합니다. 인증 프로그램은 기능 수준 또는 클라우드 환경 지원을 평가하지 않습니다.
 >
-> 클라우드 환경 지원을 포함하여 Windows용 Teams 룸 및 Android용 Teams 룸 지원되는 기능에 대한 자세한 내용은 [Windows 및 Android 기능 비교를 위한 Teams 룸](../rooms/teams-devices-feature-comparison.md) 참조하세요.
+> 클라우드 환경 지원을 포함하여 Windows의 Teams 룸 및 Android에서 Teams 룸 지원되는 기능에 대한 자세한 내용은 [Windows 및 Android 기능 비교의 Teams 룸](../rooms/teams-devices-feature-comparison.md) 참조하세요.
 
 인증 프로그램은 모든 인증된 디바이스가 Teams 및 Teams 관리 센터에 필요한 기능 집합으로 Android 버전을 실행하도록 설계되었습니다. 인증 종료 날짜는 인증 프로그램에 들어갈 때 디바이스에서 실행되는 Android OS 버전을 기반으로 합니다. OEM 파트너는 Android OS 버전을 업그레이드하고 다시 인증하거나 최신 모델을 릴리스하여 인증 수명을 연장하기 위해 노력하고 있습니다.
 

@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-meetings
 - highpri
 description: Teams에서 웨비나 및 모임 등록 정책을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 37983f8597b9e1a0ed511c2d767c503494447481
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 5493104b93a74dad6763e0a5ba6c9e6fd57575de
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307583"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438476"
 ---
 # <a name="set-up-webinars-in-microsoft-teams"></a>Microsoft Teams에서 웨비나 설정
 
@@ -52,6 +52,9 @@ ms.locfileid: "69307583"
 새 웨비나 환경은 PowerShell에서 구성됩니다. [새 웨비나 환경을 설정하는 방법에](#set-up-new-webinar-experience) 대한 예제를 참조하세요.
 
 모임, 웨비나 및 라이브 이벤트의 차이점에 대한 자세한 내용은 [모임, 웨비나 및 라이브 이벤트를 참조하세요](quick-start-meetings-live-events.md).
+
+> [!NOTE]
+> 새 웨비나 환경은 Microsoft 365 GCC, Microsoft 365GCC High 또는 Microsoft 365 DoD에 사용할 수 없습니다. 기존 웨비나 환경은 Microsoft 365 GCC High 또는 Microsoft 365 DoD에 사용할 수 없습니다.
 
 > [!IMPORTANT]
 > 사용자가 웨비나를 설정할 수 있도록 하려면 eDiscovery 목적으로 개인 목록을 만들도록 설정하여 SharePoint에서 Microsoft Lists 구성해야 합니다. 자세한 내용은 [Microsoft Lists 대한 설정 제어를 참조하세요](/sharepoint/control-lists).

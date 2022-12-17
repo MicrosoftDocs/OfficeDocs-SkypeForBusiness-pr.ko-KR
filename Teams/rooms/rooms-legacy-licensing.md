@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Microsoft Teams 룸 다양한 유형의 통화 및 모임 기능에 대해 이전에 사용할 수 있었던 라이선스에 대해 알아보고 비교합니다.
-ms.openlocfilehash: a452267c789baa374f8bc5ade3fe050c4269831f
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: e02dd830f9d356400fa153305209dc59f48a765b
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392395"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438434"
 ---
 # <a name="microsoft-teams-rooms-legacy-licenses"></a>레거시 라이선스 Microsoft Teams 룸
 
@@ -38,7 +38,7 @@ ms.locfileid: "69392395"
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>공유 통신 디바이스에 대한 라이선스 솔루션
 
-다음 라이선스는 2022년 9월 6일 이전에 Teams 룸 디바이스(예: android용 Microsoft Teams 룸, Microsoft Surface Hub 및 Teams 룸)를 구매한 고객에게 제공되었습니다.
+다음 라이선스는 2022년 9월 6일 이전에 Teams 룸 디바이스(예: android에서 Microsoft Teams 룸, Microsoft Surface Hub 및 Teams 룸)를 구매한 고객에게 제공되었습니다.
 
 |&nbsp;|Microsoft Teams 룸 스탠더드 |Microsoft Teams 룸 프리미엄 |
 |:--- |:---: |:---: |

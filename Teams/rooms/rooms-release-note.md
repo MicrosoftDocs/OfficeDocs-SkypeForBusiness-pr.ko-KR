@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 관리 Microsoft Teams 룸 누적 개선 사항을 나열하는 Microsoft Teams 룸 대한 릴리스 정보를 읽을 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c6416115d65f223b3785be050520548c2e69ba4
-ms.sourcegitcommit: 23224d983ae027c4923e52ed8e31953ae0f84807
+ms.openlocfilehash: 256ab81b195d5a758e07c24741b1dc8a7ff13218
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69422817"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438367"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 룸 릴리스 정보
 
@@ -106,7 +106,7 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 - Teams 모임에서 화이트보드 시작
 - 프레임에 맞춤 비디오 로스터 컨트롤
 - 오버플로 모임 지원
-- ID로 확대/축소 모임 참가(직접 게스트 조인)
+- 직접 게스트 조인을 통해 ID별로 확대/축소 모임에 참가합니다. ID별 Zoom 모임 참가에 대한 지원이 이 릴리스에 추가되었으며 앞으로 몇 주 안에 사용하도록 설정될 예정입니다.
 - 타사 모임에 대한 품질 수정(직접 게스트 참가)
 - Teams가 로그인되지 않은 경우 라이선스가 표시되지 않는 설정의 라이선스 정보 수정
 - 새로운 기본 배경 화면 (생생한 깃발) 및 네 개의 다른 새로운 배경 화면
