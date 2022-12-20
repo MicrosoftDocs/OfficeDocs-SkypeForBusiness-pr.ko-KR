@@ -3,6 +3,28 @@
 
 
 
+## <a name="week-of-december-12-2022"></a>2022년 12월 12일 주
+
+
+| 게시됨 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 12/14/2022 | [Microsoft Teams 공유 디바이스 라이선스](/MicrosoftTeams/teams-add-on-licensing/teams-shared-device-license) | 추가 |
+| 12/14/2022 | [Microsoft Teams에서 모임 로비를 우회할 수 있는 사용자 제어](/MicrosoftTeams/who-can-bypass-meeting-lobby) | 추가 |
+| 12/14/2022 | [Teams Android 디바이스 사용자 인터페이스 Microsoft 설정](/MicrosoftTeams/devices/teams-android-devices-user-interface) | 으로 바뀌었습니다 |
+| 12/14/2022 | [Teams용 디바이스](/MicrosoftTeams/devices/teams-ip-phones) | 으로 바뀌었습니다 |
+| 12/14/2022 | [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan) | 으로 바뀌었습니다 |
+| 12/14/2022 | [Microsoft Teams 프리미엄 - 관리자 개요](/MicrosoftTeams/enhanced-teams-experience) | 으로 바뀌었습니다 |
+| 12/14/2022 | [Microsoft Teams용 공용 영역 전화 설정](/MicrosoftTeams/set-up-common-area-phones) | 으로 바뀌었습니다 |
+| 12/14/2022 | [Microsoft Teams Premium 라이선스](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | 으로 바뀌었습니다 |
+| 12/15/2022 | [오디오 회의 일반적인 질문](/MicrosoftTeams/audio-conferencing-common-questions) | 으로 바뀌었습니다 |
+| 12/15/2022 | [전화 번호 및 라이선스 변경](/MicrosoftTeams/phone-numbers-licensing-changes) | 으로 바뀌었습니다 |
+| 12/15/2022 | [Microsoft Teams 룸 릴리스 정보(Windows)](/MicrosoftTeams/rooms/rooms-release-note) | 으로 바뀌었습니다 |
+| 12/16/2022 | [Teams 또는 비즈니스용 Skype Online 용 프록시 서버](/MicrosoftTeams/proxy-servers-for-skype-for-business-online) | 으로 바뀌었습니다 |
+| 12/16/2022 | [Android에서 Microsoft Teams 룸 배포](/MicrosoftTeams/devices/collab-bar-deploy) | 으로 바뀌었습니다 |
+| 12/16/2022 | [원격으로 Microsoft Teams 디바이스 업데이트](/MicrosoftTeams/devices/remote-update) | 으로 바뀌었습니다 |
+| 12/16/2022 | [Windows 보안에 대한 Microsoft Teams 룸](/MicrosoftTeams/rooms/security-windows) | 으로 바뀌었습니다 |
+
+
 ## <a name="week-of-december-05-2022"></a>2022년 12월 5일 주
 
 
