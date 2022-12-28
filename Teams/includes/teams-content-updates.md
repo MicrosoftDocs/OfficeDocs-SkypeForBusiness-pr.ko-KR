@@ -3,6 +3,15 @@
 
 
 
+## <a name="week-of-december-19-2022"></a>2022년 12월 19일 주
+
+
+| 게시됨 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 12/19/2022 | [Microsoft 365에서 Teams 앱에 대한 액세스 관리](/MicrosoftTeams/manage-third-party-teams-apps) | 으로 바뀌었습니다 |
+| 12/21/2022 | [Microsoft Teams의 가상 약속 모임 템플릿](/MicrosoftTeams/virtual-appointment-meeting-template) | 추가 |
+
+
 ## <a name="week-of-december-12-2022"></a>2022년 12월 12일 주
 
 
