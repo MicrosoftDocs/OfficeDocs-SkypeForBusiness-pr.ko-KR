@@ -22,12 +22,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 7713f1f2bf1f3a4866751d02ba702cb2d3d244f0
-ms.sourcegitcommit: d95a3408e31d3dec37c534c110b09a8847bec724
+ms.openlocfilehash: 7ded369ab991a37e711c416a7448447f148c069c
+ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "69156844"
+ms.lasthandoff: 12/29/2022
+ms.locfileid: "69677418"
 ---
 # <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>Microsoft Teams 앱 및 해당 기능 이해
 
@@ -92,7 +92,7 @@ Microsoft 앱 개발 방법을 사용하여 기능 및 프로덕션 준비 샘�
 
 사용자는 Teams 데스크톱 또는 웹 클라이언트의 Teams 앱 스토어에서 Teams에서 사용할 수 있는 모든 앱을 볼 수 있습니다. 사용자는 이름으로 검색하고, 범주별로 찾아보고, 조직을 위해 빌드되고 Power Platform을 사용하여 빌드된 앱으로 검색하여 Teams에서 앱을 검색하고 설치할 수 있습니다.
 
-쉽게 액세스할 수 있도록 앱을 Teams에 고정할 수 있습니다. 설정 정책이 허용하는 경우와 Teams 관리자가 앱을 허용하는 경우 사용자가 [직접 앱을 고정](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) 할 수 있습니다. 관리자는 앱을 고정하고 고정된 앱의 동작을 제어할 수 있습니다. 자세한 내용은 [앱 설정 정책을 참조하세요](/teams-app-setup-policies).
+쉽게 액세스할 수 있도록 앱을 Teams에 고정할 수 있습니다. 설정 정책이 허용하는 경우와 Teams 관리자가 앱을 허용하는 경우 사용자가 [직접 앱을 고정](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) 할 수 있습니다. 관리자는 앱을 고정하고 고정된 앱의 동작을 제어할 수 있습니다. 자세한 내용은 [앱 설정 정책을 참조하세요](/microsoftteams/teams-app-setup-policies).
 
 :::image type="content" source="media/user-app-experience-find-apps.png" alt-text="사용자가 Microsoft Teams에서 앱을 검색할 수 있는 모든 위치를 보여 주는 스크린샷" lightbox="media/user-app-experience-find-apps-full.png":::
 

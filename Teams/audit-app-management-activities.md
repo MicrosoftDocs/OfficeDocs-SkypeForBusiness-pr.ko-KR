@@ -16,12 +16,12 @@ description: 조직 내 사용자 및 관리자의 Teams 앱 활동을 감사하
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 5aee5bf00d486586b4bc8e9583504be5e4a9b922
-ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
+ms.openlocfilehash: 9114bae9fa24a546aec2629f1f347af193b10fd5
+ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251881"
+ms.lasthandoff: 12/29/2022
+ms.locfileid: "69677508"
 ---
 # <a name="search-audit-logs-for-app-management-activities-and-events"></a>앱 관리 활동 및 이벤트에 대한 감사 로그 검색
 
@@ -78,7 +78,7 @@ Teams 앱 활동의 감사 로그를 검색하려면 다음 단계를 수행합�
 
 ## <a name="related-articles"></a>관련 기사
 
-* [Microsoft Power Platform 설치 작업 조사를 위해 감사 로그 사용](manage-power-platform-apps.md#use-audit-logs-to-investigate-microsoft-power-platform-installation-activity)
+* [감사 로그를 사용하여 Microsoft Power Platform 설치 활동을 조사](manage-power-platform-apps.md#use-audit-logs-to-check-microsoft-power-platform-installation-activity)합니다.
 * [규정 준수 포털에서 감사 로그 검색](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 * [Microsoft Purview 감사 프리미엄의 개요](/microsoft-365/compliance/advanced-audit).
 * [감사 켜기 또는 끄기](/microsoft-365/compliance/turn-audit-log-search-on-or-off).

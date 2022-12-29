@@ -18,16 +18,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b0f01942dcee0ed5f2696c7e6ab5b31d67a98856
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: e86f5e372bc1c03c2dc75b09f5e26b8fb5d98241
+ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912877"
+ms.lasthandoff: 12/29/2022
+ms.locfileid: "69677498"
 ---
-# <a name="find-teams-apps-that-undergo-microsoft-365-app-compliance-program-for-security-compliance-and-privacy"></a>보안, 규정 준수 및 개인 정보 보호를 위해 Microsoft 365 앱 규정 준수 프로그램을 거치는 Teams 앱 찾기
+# <a name="know-about-apps-that-undergo-app-compliance-program-for-security-data-handling-and-privacy"></a>보안, 데이터 처리 및 개인 정보 보호를 위한 앱 준수 프로그램을 거치는 앱에 대해 알아보기
 
-Microsoft 규정 준수 프로그램은 주요 업계 표준 프레임워크에서 파생된 제어에 대해 앱을 검사 및 감사합니다. 이 프로그램은 고객 데이터를 보호하기 위해 강력한 보안 및 규정 준수 관행이 마련되어 있음을 보여줍니다. 프로그램에는 다음과 같은 단계가 있습니다.
+Microsoft 365 앱 준수 프로그램은 선도적인 업계 표준 프레임워크에서 파생된 컨트롤에 대해 앱을 검사하고 감사합니다. 이 프로그램은 고객 데이터를 보호하기 위해 강력한 보안 및 규정 준수 관행이 마련되어 있음을 보여줍니다. 프로그램에는 다음과 같은 단계가 있습니다.
 
 * [게시자 확인](#publisher-verification).
 * [게시자 증명](#publisher-attestation).
@@ -57,7 +57,7 @@ Microsoft 규정 준수 프로그램은 주요 업계 표준 프레임워크에�
 
   :::image type="content" source="media/attested-app-tac1.png" alt-text="Teams 관리 센터에서 게시자 인증 아이콘은 인증된 모든 앱에 표시됩니다.":::
 
-* Teams 관리 센터에서 [앱에 권한을 부여하기 전에 앱](app-permissions-admin-center.md) 이름 앞에 파란색 확인 표시가 게시자 증명 앱임을 나타냅니다. 모든 Microsoft 365 앱은 게시자 증명을 거치므로 Microsoft 365 앱에도 파란색 확인 표시가 표시됩니다.
+* Teams 관리 센터에서 [앱에 권한을 부여하기 전에 앱](app-permissions-admin-center.md) 이름 앞에 파란색 확인 표시가 게시자 증명 앱임을 나타냅니다. 모든 Microsoft 365개의 앱도 게시자 증명을 통과하므로 파란색 확인 표시는 Microsoft 365개의 앱에도 표시됩니다.
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="Teams 관리 센터의 권한 부여 대화 상자에서 파란색 체크 표시는 해당 앱이 게시자 증명 앱임을 나타냅니다.":::
 
@@ -90,7 +90,7 @@ Microsoft는 주요 업계 표준 프레임워크에서 파생된 일련의 보�
 
   :::image type="content" source="media/m365cert-app-details-banner.png" alt-text="Teams 관리 센터에서 특정 앱을 관리할 때 해당 앱의 배너에서 Microsoft 365 인증 정보 보기":::
 
-* Teams 관리 센터에서 [앱에 권한을 부여하기 전에 앱](app-permissions-admin-center.md) 이름 앞에 파란색 확인 표시가 게시자 증명 앱임을 나타냅니다. 모든 Microsoft 365 앱은 게시자 증명을 거치므로 Microsoft 365 앱에도 파란색 확인 표시가 표시됩니다.
+* Teams 관리 센터에서 [앱에 권한을 부여하기 전에 앱](app-permissions-admin-center.md) 이름 앞에 파란색 확인 표시가 게시자 증명 앱임을 나타냅니다. 모든 Microsoft 365개의 앱도 게시자 증명을 통과하므로 파란색 확인 표시는 Microsoft 365개의 앱에도 표시됩니다.
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="Teams 관리 센터의 권한 부여 대화 상자에서 관리자는 파란색 체크 표시를 확인하여 앱이 Microsoft 365 인증됐는지를 확인할 수 있습니다.":::
 
@@ -121,7 +121,7 @@ Microsoft는 주요 업계 표준 프레임워크에서 파생된 일련의 보�
 
 1. **보안 및 규정 준수** 탭을 선택합니다.
 
-   :::image type="content" source="media/mcas.png" alt-text="Teams 관리 센터 보안 및 규정 준수 탭의 스크린샷":::
+   :::image type="content" source="media/mcas.png" alt-text="Teams 관리 센터 보안 및 규정 준수 탭의 스크린샷" lightbox="media/mcas.png":::
 
    앱에 지원되는 기능에 관한 자세한 내용을 보려면 각 범주의 드롭다운 목록을 선택합니다.
 
