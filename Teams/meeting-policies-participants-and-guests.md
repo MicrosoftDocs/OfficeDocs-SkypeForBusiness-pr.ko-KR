@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 참가자 및 게스트에 대한 Teams에서 모임 정책 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 42321eb1edadeda928ab0cb9e78e166478b73ed9
-ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
+ms.openlocfilehash: 26d2fd24d8b241b8f79276148ed27abd3e5412b1
+ms.sourcegitcommit: 84a832330c0a9f9fb818bbfb22e534fe035c1837
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69436674"
+ms.lasthandoff: 01/03/2023
+ms.locfileid: "69693391"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>모임 정책 설정 - 참가자 및 게스트
 
@@ -61,14 +61,14 @@ ms.locfileid: "69436674"
 
 ## <a name="who-can-present-in-meetings"></a>모임에 참석할 수 있는 사람
 
-사용자별 정책에 해당합니다. 이 설정으로 Teams 클라이언트의 **모임 옵션** 에서 **발표할 수 있는 사람** 설정 기본값을 변경합니다. 이 정책 설정은 지금 모임 시작 모임을 비롯한 모든 모임에 영향을 미칩니다.
+이 설정은 Teams 클라이언트의 **모임 옵션** 에서 **누가 표시할 수 있나요?** 설정의 기본값을 변경할 수 있는 사용자별 정책입니다. **모임에 참석할 수 있는 사용자** 정책 설정은 모임 지금 모임을 비롯한 모든 모임에 영향을 줍니다.
 
 **발표할 수 있는 사람** 설정을 통해 모임 이끌이는 모임의 발표자 역할을 할 수 있는 사람을 선택합니다. 자세한 내용은 [Teams 모임의 참가자 설정 변경](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e) 및 [Teams 모임에서의 역할](https://support.microsoft.com/office/c16fa7d0-1666-4dde-8686-0a0bfe16e019)을 참조하세요.
 
-Teams에서 **누가 표시할 수 있나요?** 설정의 기본값을 지정하려면 정책에서 다음 설정 중 하나로 설정합니다.
+Teams에서 **누가 프레젠테이션할 수 있나요?** 설정의 기본값을 지정하려면 **모임 정책에 누가 표시할 수** 있나요? 설정 중 하나로 설정합니다.
 
 - **이끌이는 재정의할 수 있지만 사용자는 재정의할 수 있습니다**. 모임 이끌이만 발표자가 될 수 있으며 모든 모임 참가자는 참석자로 지정됩니다. 이 매개 변수는 Teams의 **나만** 설정에 해당합니다.
-- **조직의 모든 사용자가 재정의할 수 있습니다**. 게스트 사용자를 포함하여 조직의 인증된 사용자는 발표자가 될 수 있습니다. 이 설정은 Teams에서 **조직의 사람** 설정에 해당합니다.
+- **조직의 모든 사용자이지만 사용자는 재정의할 수 있습니다**. 게스트를 포함하여 조직의 인증된 사용자는 발표자가 될 수 있습니다. 이 설정은 Teams에서 **조직의 사람** 설정에 해당합니다.
 - **사용자가 재정의할 수 있는 모든 사용자**: 모든 모임 참가자는 발표자가 될 수 있습니다. 이 값은 기본값입니다. 이 설정은 Teams의 **모든 사용자** 설정에 해당합니다.
 
 기본값을 설정한 후에도 모임 이끌이는 여전히 Teams에서 이 설정을 변경하고 본인이 예약하는 모임에서 발표할 수 있는 사용자를 선택할 수 있습니다.
@@ -145,7 +145,7 @@ Teams에서 **누가 표시할 수 있나요?** 설정의 기본값을 지정하
 
 모임 이끌이에 적용된 정책은 모임의 다른 사용자에게 영향을 줄 수 있습니다. 예를 들면 다음과 같습니다.
 
-- 이끌이가 **모임에서 채팅** 을 **모든 사용자에 대해 켜** 기로 설정하거나 **익명 사용자를 제외한 모든 사용자에 대해 켜** 기로 설정한 경우 사용자의 개별 정책이 적용되고 모든 사용자가 모임에서 채팅을 할  수 없습니다.
+- 이끌이가 **모임에서 채팅** 을 **모든 사용자에 대해 켜** 기로 설정하거나 **익명 사용자를 제외한 모든 사용자에 대해** 켜기로 설정한 경우 사용자의 개별 정책이 적용되고 설정된 **모든** 사용자가 모임에서 채팅할 수 없습니다.
 - 이끌이가 **모임에서 채팅** 을 **모든 사용자에 대해 끄** 기로 설정한 경우 이끌이의 정책이 적용되고 아무도 모임에서 채팅할 수 없습니다.
 
 <a name="bkparticipantsandguests"> </a>
@@ -156,7 +156,7 @@ Teams에서 **누가 표시할 수 있나요?** 설정의 기본값을 지정하
 
 이 설정은 모임을 만들거나 이끌이가 업데이트할 때 적용됩니다. 기본적으로 이 설정은 꺼져 있습니다. [Teams 모임의 Q&A에](/manage-qna-for-teams) 대해 자세히 알아보세요.
 
-QnAEngagementMode 매개 변수는 PowerShell에서 이 정책을 제어합니다. Q&A는 Teams 관리 센터 내에서도 조정할 수 있습니다.
+Teams Q&A는 **참가자 & 게스트** 섹션 **의** > **모임 모임 정책에** 따라 Teams 관리 센터 내에서 조정할 수 있습니다. 매개 변수 `-QnAEngagementMode` 는 PowerShell에서 이 정책을 제어합니다.
 
 |설정값 |동작  |
 |---------|---------|
@@ -169,7 +169,7 @@ QnAEngagementMode 매개 변수는 PowerShell에서 이 정책을 제어합니�
 
 ## <a name="enable-meeting-policy-settings"></a>모임 정책 설정 사용
 
-모임 정책 설정을 사용하도록 설정하려면 [Teams 관리 센터](https://admin.teams.microsoft.com/policies/meetings)(**모임 정책** >  참가자 **&** **정책** >  편집) 또는 Teams PowerShell의 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용할 수 있습니다. 
+모임 정책 설정을 사용하도록 설정하려면 [Teams 관리 센터](https://admin.teams.microsoft.com/policies/meetings)(**모임 정책** >  참가자 **&** **정책** >  편집) 또는 Teams PowerShell의 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용할 수 있습니다.
 
 이 예제에서는 PowerShell을 사용하여 모든 사용자가 모임을 시작하거나 참가할 수 있도록 전역 모임 정책을 수정합니다.
 
@@ -178,7 +178,6 @@ Set-CsTeamsMeetingPolicy -Identity Global -AutoAdmittedUsers "Everyone" -AllowAn
 ```
 
 정책을 설정한 후에는 사용자에게 적용해야 합니다. 전역(조직 전체 기본값) 정책을 수정한 경우 사용자에게 자동으로 적용됩니다. 정책 변경 내용이 적용되려면 4시간 이상 기다려야 하지만 최대 24시간이 걸릴 수 있습니다.
-
 
 ## <a name="related-topics"></a>관련 항목
 

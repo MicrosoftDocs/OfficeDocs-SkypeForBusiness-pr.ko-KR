@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Teams에서 일반 모임 정책 설정을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 97ba1da0301f1a5515caf88d5f428578b653653a
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: cc0d704c5a78d09da4c1332d48f795cdb611d134
+ms.sourcegitcommit: 84a832330c0a9f9fb818bbfb22e534fe035c1837
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307513"
+ms.lasthandoff: 01/03/2023
+ms.locfileid: "69693381"
 ---
 # <a name="meeting-policy-settings---general"></a>모임 정책 설정 - 일반
 
@@ -37,8 +37,6 @@ ms.locfileid: "69307513"
 - [Outlook 추가 기능](#outlook-add-in)
 - [채널 모임 예약](#channel-meeting-scheduling)
 - [비공개 모임 예약](#private-meeting-scheduling)
-- [비공개 모임에서 지금 모임](#meet-now-in-private-meetings)
-- [지정된 발표자 역할 모드](#designated-presenter-role-mode)
 - [참여 보고서](#engagement-report)
 - [모임 등록](#meeting-registration)
 - [웨비나](#webinars)
@@ -48,7 +46,7 @@ ms.locfileid: "69307513"
 
 ## <a name="meet-now-in-channels"></a>채널에서 지금 만나보세요
 
-이 정책은 사용자별 정책에 해당하며 모임이 시작되기 전에 적용됩니다. 이 설정은 사용자가 Teams 채널에서 임시 모임을 시작할 수 있는지 여부를 제어합니다. 이 기능을 켜면 사용자가 **모임** 단추를 클릭하여 임시 모임을 시작하거나 채널에서 모임을 예약할 수 있습니다. 기본값은 True입니다.
+이 정책은 사용자별 정책에 해당하며 모임이 시작되기 전에 적용됩니다. 이 설정은 사용자가 Teams 채널에서 계획되지 않은 모임을 시작할 수 있는지 여부를 제어합니다. 이 설정을 켜면 사용자는 **모임** 단추를 클릭하여 계획되지 않은 모임을 시작하거나 채널에서 모임을 예약할 수 있습니다. 이 설정은 기본적으로 설정됩니다.
 
 [![메시지 아래 지금 모임 시작 아이콘을 보여주는 스크린샷](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
@@ -58,7 +56,7 @@ ms.locfileid: "69307513"
 
 ![새 모임 예약 기능을 보여주는 스크린샷](media/meeting-policies-outlook-add-in.png)
 
-이 기능을 해제하면 사용자가 Outlook에서 새 모임을 만들 때 Teams 모임을 예약할 수 없습니다. 예를 들어 Windows 기반 Outlook에서는 **새 Teams 모임** 옵션이 리본에 표시되지 않습니다.
+이 설정을 해제하면 사용자가 Outlook에서 새 모임을 만들 때 Teams 모임을 예약할 수 없습니다. 예를 들어 Windows 기반 Outlook에서는 **새 Teams 모임** 옵션이 리본에 표시되지 않습니다.
 
 ## <a name="channel-meeting-scheduling"></a>채널 모임 예약
 
@@ -74,7 +72,7 @@ ms.locfileid: "69307513"
 
 [![모임을 예약하려는 채널을 선택하기 위한 일정 옵션을 보여 주는 스크린샷](media/meeting-policies-select-a-channel-to-meet-in.png)](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
-채널 게시물 페이지에서는 다음을 사용하지 않도록 설정합니다.
+채널 게시물 페이지에서 다음 기능이 비활성화됩니다.
 
 - 채널 회신 작성란의 **모임 예약** 단추
   ![모임을 예약할 채널을 선택하기 위한 일정 옵션을 보여 주는 스크린샷](media/schedule-meeting-disabled-in-chat2.png)
@@ -89,7 +87,7 @@ ms.locfileid: "69307513"
 
 - 사용자는 채널 일정에서 시간 블록을 끌어서 선택하여 채널 모임을 만들 수 없습니다.
 
-- 사용자는 바로 가기 키를 사용하여 채널 일정에 모임을 만들 수 없습니다.
+- 사용자는 바로 가기 키를 사용하여 채널 일정에서 모임을 만들 수 없습니다.
 
 관리 센터에서:
 
@@ -99,29 +97,9 @@ ms.locfileid: "69307513"
 
 ## <a name="private-meeting-scheduling"></a>비공개 모임 예약
 
-이 정책은 사용자별 정책에 해당하며 모임이 시작되기 전에 적용됩니다. 이 설정은 사용자가 Teams에서 비공개 모임을 예약할 수 있는지 여부를 제어합니다. 모임이 팀의 채널에 게시되지 않은 경우 비공개 모임에 해당합니다.
+이 정책은 사용자별 정책에 해당하며 모임이 시작되기 전에 적용됩니다. 이 설정은 사용자가 Teams에서 비공개 모임을 예약할 수 있는지 여부를 제어합니다. 모임이 팀의 채널에 게시되지 않은 경우 비공개 모임에 해당합니다. **비공개 모임 일정** 은 기본적으로 켜져 있습니다.
 
-**비공개 모임 예약 허용** 및 **채널 모임 예약 허용** 을 끄면 Teams의 사용자에 **대해 필요한 참석자 추가** 및 **채널 추가** 옵션이 비활성화됩니다. 이 설정은 기본적으로 켜져 있습니다.
-
-## <a name="meet-now-in-private-meetings"></a>비공개 모임에서 지금 모임
-
-이 정책은 사용자별 정책에 해당하며 모임이 시작되기 전에 적용됩니다. 이 설정은 사용자가 임시 비공개 모임을 시작할 수 있는지 여부를 제어합니다.  이 설정은 기본적으로 켜져 있습니다.
-
-## <a name="designated-presenter-role-mode"></a>지정된 발표자 역할 모드
-
-사용자별 정책에 해당합니다. 이 설정으로 Teams 클라이언트의 **모임 옵션** 에서 **발표할 수 있는 사람** 설정 기본값을 변경합니다. 이 정책 설정은 지금 모임 시작 모임을 비롯한 모든 모임에 영향을 미칩니다.
-
-**발표할 수 있는 사람** 설정을 통해 모임 이끌이는 모임의 발표자 역할을 할 수 있는 사람을 선택합니다. 자세한 내용은 [Teams 모임의 참가자 설정 변경](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) 및 [Teams 모임에서의 역할](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019)을 참조하세요.
-
-현재 PowerShell을 사용해서만 이 정책 설정을 구성할 수 있습니다. [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용하여 기존의 Teams 모임 정책을 편집할 수 있습니다. 또는 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet을 사용하여 새로운 Teams 모임 정책을 만들고 이를 사용자에게 할당합니다.
-
-Teams의 **발표할 수 있는 사람** 설정 기본값을 지정하려면 **DesignatedPresenterRoleMode** 매개 변수를 다음 중 하나로 설정합니다.
-
-- **EveryoneUserOverride**: 모든 모임 참가자가 발표자가 될 수 있습니다. 이 값은 기본값입니다. 이 매개 변수는 Teams의 **모든 사용자** 설정에 해당합니다.
-- **EveryoneInCompanyUserOverride**: 게스트 사용자를 포함한 조직의 인증된 사용자가 발표자가 될 수 있습니다. 이 매개 변수는 Teams의 **내 조직의 사용자** 설정에 해당합니다.
-- **OrganizerOnlyUserOverride**: 모임 이끌이만 발표자가 될 수 있으며 모든 모임 참가자는 참석자로 지정됩니다. 이 매개 변수는 Teams의 **나만** 설정에 해당합니다.
-
-기본값을 설정한 후에도 모임 이끌이는 여전히 Teams에서 이 설정을 변경하고 본인이 예약하는 모임에서 발표할 수 있는 사용자를 선택할 수 있습니다.
+**비공개 모임 일정** 및 **채널 모임 일정** 설정을 모두 해제하면 Teams 사용자에 **대해 필요한 참석자 추가** 및 **채널 추가** 옵션이 비활성화됩니다.
 
 ## <a name="engagement-report"></a>참여 보고서
 
@@ -142,7 +120,7 @@ Teams의 **발표할 수 있는 사람** 설정 기본값을 지정하려면 **D
 
 ## <a name="meeting-registration"></a>모임 등록
 
-사용자별 정책에 해당합니다. 이 기능을 켜면 조직의 사용자가 모임에 등록을 추가할 수 있습니다. 이 정책은 기본적으로 사용하도록 설정됩니다.
+사용자별 정책에 해당합니다. 이 설정을 켜면 조직의 사용자가 모임에 등록을 추가할 수 있습니다. 이 정책은 기본적으로 사용하도록 설정됩니다.
 
 모임 등록에 대한 자세한 내용은 모임 등록 구성을 참조 [하세요](set-up-webinars.md#configure-meeting-registration).
 
@@ -164,7 +142,7 @@ Teams의 **발표할 수 있는 사람** 설정 기본값을 지정하려면 **D
 
 사용자가 사용할 수 있게 하려는 모임 추가 기능을 지정하려면 **PreferredMeetingProviderForIslandsMode** 매개 변수를 다음과 같이 설정합니다.
 
-- Outlook에서 Teams 모임 추가 기능과 비즈니스용 Skype 추가 기능을 모두 사용하려면 매개 변수를 **TeamsAndSfB** 로 설정합니다. 이 값은 기본값입니다.
+- Outlook에서 Teams 모임 추가 기능과 비즈니스용 Skype 추가 기능을 모두 사용하려면 매개 변수를 **TeamsAndSfB** 로 설정합니다. **TeamsAndSfB** 는 기본값입니다.
 - Outlook에서 Teams 모임 추가 기능만 사용하려면 매개 변수를 **Teams** 로 설정합니다. 이 정책을 설정하면 향후 모든 모임에 Teams 모임 참가 링크가 생깁니다. 기존의 비즈니스용 Skype 모임 참가 링크는 Teams로 마이그레이션되지 않습니다. 이 정책을 설정해도 현재 상태, 채팅, PSTN 통화 또는 비즈니스용 Skype의 다른 모든 기능에 영향을 미치지 않습니다. 즉, 사용자는 계속 이들 기능을 위해 비즈니스용 Skype를 사용하게 됩니다.
 
   매개 변수를 **Teams** 로 설정했다가 다시 **TeamsAndSfB** 로 전환하면 두 모임 추가 기능이 모두 활성화됩니다. 그러나 기존 Teams 모임 참가 링크는 비즈니스용 Skype 마이그레이션되지 않습니다. 변경 후 예약된 비즈니스용 Skype 모임만 비즈니스용 Skype 모임 참가 링크가 생깁니다.
@@ -177,7 +155,7 @@ Teams 관리 센터에서 모임 정책의 **참가자 & 게스트** 섹션 아�
 
 PowerShell에서 설정을 구성하려면 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet을 사용합니다. 해제하려면 **AllowMeetingReactions를** **False** 로 설정합니다.
 
-사용자의 반응 설정을 꺼도 사용자는 본인이 예약한 모임에서 반응을 사용할 수 있습니다. 모임 이끌이는 기본 설정에 관계없이 계속 모임 옵션 페이지에서 반응을 켤 수 있습니다.
+사용자에 대한 반응을 해제한다고 해서 사용자가 예약하는 모임에서 반응을 사용할 수 없다는 의미는 아닙니다. 모임 이끌이는 기본 설정에 관계없이 계속 모임 옵션 페이지에서 반응을 켤 수 있습니다.
 
 ## <a name="speaker-coach"></a>발표자 코치
 
