@@ -3,6 +3,14 @@
 
 
 
+## <a name="week-of-december-26-2022"></a>2022년 12월 26일 주
+
+
+| 게시됨 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 12/27/2022 | [Ignite 2020의 Teams 세션](/MicrosoftTeams/ignite-2020-landing-page) | 으로 바뀌었습니다 |
+
+
 ## <a name="week-of-december-19-2022"></a>2022년 12월 19일 주
 
 
@@ -19,10 +27,10 @@
 |------|------------|--------|
 | 12/14/2022 | [Microsoft Teams 공유 디바이스 라이선스](/MicrosoftTeams/teams-add-on-licensing/teams-shared-device-license) | 추가 |
 | 12/14/2022 | [Microsoft Teams에서 모임 로비를 우회할 수 있는 사용자 제어](/MicrosoftTeams/who-can-bypass-meeting-lobby) | 추가 |
-| 12/14/2022 | [Teams Android 디바이스 사용자 인터페이스 Microsoft 설정](/MicrosoftTeams/devices/teams-android-devices-user-interface) | 으로 바뀌었습니다 |
+| 12/14/2022 | [Microsoft Teams Android 디바이스 사용자 인터페이스 설정](/MicrosoftTeams/devices/teams-android-devices-user-interface) | 으로 바뀌었습니다 |
 | 12/14/2022 | [Teams용 디바이스](/MicrosoftTeams/devices/teams-ip-phones) | 으로 바뀌었습니다 |
 | 12/14/2022 | [직접 라우팅 계획](/MicrosoftTeams/direct-routing-plan) | 으로 바뀌었습니다 |
-| 12/14/2022 | [Microsoft Teams 프리미엄 - 관리자 개요](/MicrosoftTeams/enhanced-teams-experience) | 으로 바뀌었습니다 |
+| 12/14/2022 | [Microsoft Teams Premium - 관리자 개요](/MicrosoftTeams/enhanced-teams-experience) | 으로 바뀌었습니다 |
 | 12/14/2022 | [Microsoft Teams용 공용 영역 전화 설정](/MicrosoftTeams/set-up-common-area-phones) | 으로 바뀌었습니다 |
 | 12/14/2022 | [Microsoft Teams Premium 라이선스](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | 으로 바뀌었습니다 |
 | 12/15/2022 | [오디오 회의 일반적인 질문](/MicrosoftTeams/audio-conferencing-common-questions) | 으로 바뀌었습니다 |
@@ -49,7 +57,7 @@
 | 12/5/2022 | [Teams 모임에 대한 사용자 지정 모임 배경](/MicrosoftTeams/custom-meeting-backgrounds) | 추가 |
 | 12/5/2022 | [Microsoft Teams의 사용자 지정 모임 템플릿 개요](/MicrosoftTeams/custom-meeting-templates-overview) | 추가 |
 | 12/5/2022 | [중요한 Teams 모임에 종단 간 암호화 필요](/MicrosoftTeams/end-to-end-encrypted-meetings) | 추가 |
-| 12/5/2022 | [Microsoft Teams 프리미엄 - 관리자 개요](/MicrosoftTeams/enhanced-teams-experience) | 추가 |
+| 12/5/2022 | [Microsoft Teams Premium - 관리자 개요](/MicrosoftTeams/enhanced-teams-experience) | 추가 |
 | 12/5/2022 | [중요한 Teams 모임에 대한 채팅 관리](/MicrosoftTeams/manage-chat-sensitive-meetings) | 추가 |
 | 12/5/2022 | [중요한 Teams 모임에 대한 모임 프레젠테이션 환경 관리](/MicrosoftTeams/manage-meeting-presentation-experience) | 추가 |
 | 12/5/2022 | [중요한 모임에 대한 Microsoft Teams 모임 녹음/녹화 옵션 관리](/MicrosoftTeams/manage-meeting-recording-options) | 추가 |
