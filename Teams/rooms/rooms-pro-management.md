@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams 룸 Pro 관리에 대해 알아봅니다.
 f1keywords: ''
-ms.openlocfilehash: cadf078c4d56c518acda73a44b62c55f346f189c
-ms.sourcegitcommit: 0e4e5b9933970827ea4be137ca98eab6994e2301
+ms.openlocfilehash: 9ef0db845e9eb0778bc53cbcf9e0998531daf6e0
+ms.sourcegitcommit: 2363af0ed4de97f1ec836ca2ad9e3854cf9fa601
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/04/2023
-ms.locfileid: "69696893"
+ms.locfileid: "69702091"
 ---
 # <a name="microsoft-teams-rooms-pro-management"></a>Microsoft Teams 룸 Pro 관리
 
@@ -58,7 +58,7 @@ Microsoft Teams 룸 Pro 관리 모니터링 솔루션은 엔드포인트의 소�
 |**업데이트 관리**    |배포의 미리 구성된 링에 따라 Microsoft Teams 룸 애플리케이션의 자동화된 구성 및 제공.         |
 |**인사이트 및 권장 사항**     |실내 상태, 사용량 및 장비 안정성에 대한 인사이트.         |
 |**규정 준수 및 인증**   |Microsoft Online Services에 적용되는 모든 표준을 충족합니다.         |
-|**지원되는 장치**    |인증된 Microsoft Teams 룸 시스템 및 주변 장치.<br>*2022년 하반기에 제공되는 Surface Hub 및 MTR Android 지원*        |
+|**지원되는 장치**    |인증된 Microsoft Teams 룸 시스템 및 주변 장치.<br>*2023년에 제공되는 Surface Hub 및 MTR Android 지원*        |
 |**지원되는 지역**    |[지원되는 지역을 참조하세요](#supported-regions).        |
 |**통합**    |인시던트 조정을 위해 고객 호스팅 Service Now와 기본 통합이 가능합니다.         |
 
