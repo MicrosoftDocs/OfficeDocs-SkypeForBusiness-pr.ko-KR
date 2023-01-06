@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 다이얼 플랜 및 라우팅
+title: Microsoft Teams Dial 플랜 및 라우팅
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,20 +20,20 @@ localization_priority: Normal
 f1.keywords:
 - CSH
 description: Microsoft Teams에서 전화 걸기 플랜 및 라우팅
-ms.openlocfilehash: b45fd9ec15ae6a9bb8f342096711b58512aead43
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: 1d8c4ed750369c6b5bf393ebceae850703f89395
+ms.sourcegitcommit: 0a2476471713e1eba791060db2c8c888484033a7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69242472"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69722118"
 ---
-# <a name="microsoft-teams-dial-plans-and-routing"></a>Microsoft Teams 다이얼 플랜 및 라우팅
+# <a name="microsoft-teams-dial-plans-and-routing"></a>Microsoft Teams Dial 플랜 및 라우팅
 
 이 섹션의 문서에서는 Microsoft Teams의 다이얼 플랜 및 통화 라우팅에 대해 설명합니다. 
 
 - [다이얼 플랜이란?](what-are-dial-plans.md)
 - [다이얼 플랜 만들기 및 관리](create-and-manage-dial-plans.md)
-- [할당되지 않은 마비로 호출 라우팅](routing-calls-to-unassigned-numbers.md)
+- [할당되지 않은 숫자로 호출 라우팅](routing-calls-to-unassigned-numbers.md)
 
 이 섹션의 문서는 PSTN(공용 전환 전화 네트워크)에 연결하기 위한 모든 옵션에 적용됩니다. 통화 플랜, 운영자 연결, Teams 전화 모바일 및 직접 라우팅. 모든 PSTN 연결 옵션에 대한 자세한 내용은 [PSTN 연결 옵션을 참조하세요](pstn-connectivity.md).
 
