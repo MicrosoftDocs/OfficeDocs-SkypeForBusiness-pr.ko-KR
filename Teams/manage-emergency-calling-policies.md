@@ -20,16 +20,16 @@ description: Microsoft Teams에서 긴급 통화 정책을 사용하고 관리�
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 4b5d293cbbd588a564ff1a0118ab4d56f96c17a2
-ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
+ms.openlocfilehash: 1d2dc0e2213f6294e2c596722a4f5ab49bec8487
+ms.sourcegitcommit: eb0e754d7e2877f686021d3ab75b6d8d44db3a95
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69414645"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69727750"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Microsoft Teams에서 긴급 통화 정책 관리
 
-조직에서 Microsoft 통화 플랜, 운영자 연결, Teams 전화 모바일 또는 직접 라우팅을 [PSTN 연결 옵션](pstn-connectivity.md)으로 사용하는 경우 Microsoft Teams의 긴급 통화 정책을 사용하여 조직의 Teams 사용자가 긴급 전화를 걸 때 발생하는 작업을 정의할 수 있습니다.
+조직에서 [PSTN 연결 옵션](pstn-connectivity.md)으로 Microsoft 통화 플랜, 운영자 연결, Teams 전화 모바일 또는 직접 라우팅을 사용하는 경우 Microsoft Teams의 긴급 통화 정책을 사용하여 조직의 Teams 사용자가 긴급 전화를 걸 때 발생하는 작업을 정의할 수 있습니다.
 
 정책을 할당받은 사용자가 응급 서비스를 호출할 때 알릴 사용자와 알림을 받는 방법을 설정할 수 있습니다. 예를 들어 조직의 보안 데스크에 자동으로 알리고 긴급 통화를 수신하도록 정책 설정을 구성할 수 있습니다.  
 
@@ -61,7 +61,7 @@ Microsoft Teams 관리 센터에서 **음성** > **긴급 정책** 으로 이동
 
 7.  **음소거된 알림 모드에서 회의** 중 하나를 선택한 경우 **긴급 통화 알림을 위해 전화 걸기 번호** 상자에서 전화를 걸고 긴급 통화에 참가할 사용자 또는 그룹의 PSTN 전화 번호를 입력할 수 있습니다. 예를 들어 조직의 보안 데스크 번호를 입력합니다. 긴급 전화가 걸려 올 때 전화를 받고 통화에서 수신 대기할 수 있습니다. 모드가 음소거된 회의로 설정되어 있지만 음소거 해제할 수 있는 경우에도 PSTN 휴대폰 **을 음소거 해제할 수** 없습니다.
 
-8. 조직의 보안 데스크와 같은 하나 이상의 사용자 또는 그룹을 검색하여 선택하여 긴급 전화를 걸 때 알립니다.  알림을 사용자, 메일 그룹 및 보안 그룹의 이메일 주소로 보낼 수 있습니다. 최대 50명의 사용자에게 알림을 받을 수 있습니다.
+8. 긴급 전화(예: 보안 데스크 직원)가 발생할 때 알릴 사용자를 설정합니다. 사용자, 메일 그룹 또는 보안 그룹 목록을 정의할 수 있습니다. 최대 50명의 사용자에게 알림을 받을 수 있습니다.
 
 9. **적용** 을 클릭합니다.
 

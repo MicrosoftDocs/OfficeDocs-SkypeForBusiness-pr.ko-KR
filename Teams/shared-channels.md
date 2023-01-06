@@ -19,12 +19,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams에서 공유 채널을 사용하고 관리하는 방법을 알아보세요.
-ms.openlocfilehash: b7f151b68bf37ccf3e14e3a442b4d2b1c6acc52f
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: d45e2f1ea7f6daef8cd2b4a3af57944629d59a8a
+ms.sourcegitcommit: eb0e754d7e2877f686021d3ab75b6d8d44db3a95
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69199150"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69727870"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams의 공유 채널
 
@@ -70,7 +70,7 @@ Shared channels is enabled by default in Teams. You can choose if people can cre
 
 공유 채널 소유자가 하나 이상의 공유 채널을 운영하는 마지막 소유자일 경우 Teams 클라이언트를 통해 제거할 수 없습니다.
 
-마지막 공유 채널 소유자가 조직을 떠나거나 팀과 연결된 Microsoft 365 그룹에서 제거되면 조직의 공유 채널 구성원이 자동으로 공유 채널 소유자로 승격됩니다. 조직에서 홍보할 구성원이 없으면 공유 채널은 소유자가 없는 상태로 유지됩니다. Teams 관리자는 채널 소유자를 수동으로 할당해야 합니다. 이 상황을 방지하려면 둘 이상의 소유자를 추가하는 것이 좋습니다.
+마지막 공유 채널 소유자가 조직을 떠나거나 팀과 연결된 Microsoft 365 그룹에서 제거된 경우 조직의 공유 채널 구성원이 자동으로 공유 채널 소유자로 승격됩니다. 조직에서 홍보할 구성원이 없으면 공유 채널은 소유자가 없는 상태로 유지됩니다. Teams 관리자는 채널 소유자를 수동으로 할당해야 합니다. 이 상황을 방지하려면 둘 이상의 소유자를 추가하는 것이 좋습니다.
 
 구성원(사용자 유형 속성)으로 변환된 게스트를 포함하여 공유 채널에 추가할 수 없습니다.
 
@@ -161,6 +161,8 @@ Teams는 공유 채널 사이트의 수명 주기를 관리합니다. 사이트�
 - 공유 채널은 Stream, Planner, Forms를 제외한 탭을 지원합니다.
 
 - 봇, 커넥터 및 메시지 확장은 지원되지 않습니다.
+
+- 조직 전체 팀은 공유 채널의 구성원으로 추가될 수 없습니다.
 
 - 기존 팀에서 팀을 만들면 기존 팀의 공유 채널은 복사되지 않습니다.
 

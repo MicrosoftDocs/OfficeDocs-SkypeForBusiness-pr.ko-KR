@@ -22,16 +22,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 7ded369ab991a37e711c416a7448447f148c069c
-ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
+ms.openlocfilehash: a41393f763c9d8ebb328d586f6ae12636e87b0b4
+ms.sourcegitcommit: eb0e754d7e2877f686021d3ab75b6d8d44db3a95
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/29/2022
-ms.locfileid: "69677418"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69727740"
 ---
 # <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>Microsoft Teams 앱 및 해당 기능 이해
 
-Teams의 앱은 사용자가 회사 도구와 서비스를 통합하고 다른 사용자와 공동 작업하는 데 도움이 됩니다. 예를 들어 Teams에서 고정된 일정 앱을 사용하여 다른 사용자와 빠르게 공동 작업하는 최종 사용자, 사용자에게 Teams 채널의 웹 서비스 품질을 알려주는 봇 기능이 있는 앱, 채널에서 다양한 최종 사용자에게 작업을 공유하고 할당하는 앱이 있습니다. Microsoft Teams 앱은 로컬로 배포할 필요가 없는 웹 기반 SaaS 앱입니다.
+Teams의 앱은 사용자가 회사 도구와 서비스를 통합하고 다른 사용자와 공동 작업하는 데 도움이 됩니다. 예를 들어 Teams에서 고정된 일정 앱을 사용하여 다른 사용자와 빠르게 공동 작업하는 최종 사용자, 사용자에게 Teams 채널의 웹 서비스 품질을 알려주는 봇 기능이 있는 앱, 채널에서 다양한 최종 사용자에게 작업을 공유하고 할당하는 앱이 있습니다. Microsoft Teams 앱은 로컬로 배포할 필요가 없는 웹 기반 SaaS 앱과 같습니다. 최종 사용자가 Teams 클라이언트에 앱을 추가해도 이진 파일을 설치할 필요가 없습니다.
 
 관리자는 조직의 IT 정책, 표준 및 위험 프로필과 함께 최종 사용자의 광범위한 요구 사항의 균형을 맞추는 앱 거버넌스 프로세스를 설정합니다.
 
@@ -43,7 +43,7 @@ Teams의 앱은 사용자가 회사 도구와 서비스를 통합하고 다른 �
 
 * [Teams의 일부인 핵심 앱](#core-apps).
 * [Microsoft에서 만든 다른 앱](#apps-created-by-microsoft).
-* 파트너가 만든 [타사 앱](#third-party-apps-created-by-independent-app-developers)(Microsoft 유효성 검사)
+* 파트너가 만든 [타사 앱](#third-party-apps-created-by-independent-app-developers)(Microsoft에서 유효성 검사).
 * 사용자 고유의 조직에서 만든[사용자 지정 앱](#custom-apps-created-within-an-organization-for-internal-use).
 
 ## <a name="core-apps"></a>핵심 앱
@@ -52,7 +52,7 @@ Teams의 앱은 사용자가 회사 도구와 서비스를 통합하고 다른 �
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="핵심 앱은 기본적으로 Teams에 고정된 앱입니다." lightbox="media/core-apps-pinned2.png":::
 
-## <a name="apps-created-by-microsoft"></a>Microsoft 만든 앱
+## <a name="apps-created-by-microsoft"></a>Microsoft에서 만든 앱
 
 Microsoft는 생산성과 공동 작업을 개선하기 위해 많은 앱을 제공합니다. 사용자와 최종 사용자는 Teams 관리 센터에서 게시자로 나열되거나 Teams 스토어에서 공급자로 나열된 Microsoft를 검색하여 이러한 앱을 찾을 수 있습니다.
 
@@ -62,7 +62,7 @@ Teams는 목록, 작업, 칭찬, 승인 등의 기본 제공 앱 집합을 제�
 
 ## <a name="third-party-apps-created-by-independent-app-developers"></a>독립 앱 개발자가 만든 타사 앱
 
-Microsoft 제공된 앱 외에도 타사 앱을 사용할 수 있습니다. Microsoft 이러한 모든 앱의 기능과 보안의 유효성을 엄격하게 검사합니다. 정교한 수동 및 자동화된 테스트는 Teams 스토어에서 이러한 앱을 사용할 수 있도록 하기 전에 실행되며, 많은 테스트는 앱이 라이브로 게시된 후에도 정기적인 주기로 계속됩니다. 앱 유효성 검사의 이점을 이해하려면 [타사 앱의 유효성 검사](overview-of-app-validation.md)를 참조하세요. 일부 앱은 [Microsoft 규정 준수 프로그램을](overview-of-app-certification.md) 구독하여 유효성 검사를 초과하는 여러 계층의 추가 검사를 거칩니다.
+Microsoft에서 제공하는 앱 외에도 타사 앱을 사용할 수 있습니다. Microsoft는 이러한 모든 앱의 기능과 보안의 유효성을 엄격하게 검사합니다. 정교한 수동 및 자동화된 테스트는 Teams 스토어에서 이러한 앱을 사용할 수 있도록 하기 전에 실행되며, 많은 테스트는 앱이 라이브로 게시된 후에도 정기적인 주기로 계속됩니다. 앱 유효성 검사의 이점을 이해하려면 [타사 앱의 유효성 검사](overview-of-app-validation.md)를 참조하세요. 일부 앱은 [Microsoft 규정 준수 프로그램을](overview-of-app-certification.md) 구독하여 유효성 검사 이외의 여러 계층의 추가 검사를 거칩니다.
 
 :::image type="content" source="media/3p-apps-in-teams.png" alt-text="Teams 스토어에 있는 타사 앱의 예시 스크린샷":::
 
@@ -78,7 +78,7 @@ Microsoft 제공된 앱 외에도 타사 앱을 사용할 수 있습니다. Micr
 
 ## <a name="about-app-templates"></a>앱 템플릿 정보
 
-Microsoft 앱 개발 방법을 사용하여 기능 및 프로덕션 준비 샘플 앱을 만들고 제공합니다. 전체적으로 이러한 앱은 Teams용 앱 템플릿이라고 하며 다음을 위해 제공됩니다.
+Microsoft는 앱 개발 방법을 사용하여 기능 및 프로덕션 준비 샘플 앱을 만들고 제공합니다. 전체적으로 이러한 앱은 Teams용 앱 템플릿이라고 하며 다음을 위해 제공됩니다.
 
 * Teams에서 몇 가지 공동 작업 사용 사례를 보여 줍니다.
 * 앱 개발 모범 사례 및 방법을 소개합니다.

@@ -25,12 +25,12 @@ ms.collection:
 - m365initiative-meetings
 ms.reviewer: ''
 description: 조직의 사용자를 위해 Teams에서 Bookings 앱을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: abcd906f18b10b7d82b67682de439f1eb6592cd6
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 66e3d0450eaad1843c94833cb7bb6d417959eb8c
+ms.sourcegitcommit: eb0e754d7e2877f686021d3ab75b6d8d44db3a95
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307523"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69727760"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Microsoft Teams에서 Bookings 앱 관리
 
@@ -64,13 +64,16 @@ Bookings에 가장 적합한 환경을 사용하도록 설정하려면 Teams 모
 
 ## <a name="sms-text-notifications"></a>SMS 텍스트 알림
 
-![정보 아이콘](media/info.png) **이 기능은 [Teams 프리미엄](teams-add-on-licensing/licensing-enhance-teams.md) (미리 보기)으로 이동합니다. 사용자는 미리 보기 기간 동안 이 기능을 계속 사용할 수 있습니다. 미리 보기 후에는 Teams Premium 라이선스가 필요합니다.**
+![정보 아이콘](media/info.png) **이 기능은 [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md)(미리 보기)로 이동합니다. 사용자는 미리 보기 기간 동안 이 기능을 계속 사용할 수 있습니다. 미리 보기 후에는 사용자에게 Teams Premium 라이선스가 필요합니다.**
+
+> [!NOTE]
+> Bookings 라이선스가 있는 고객을 위해 2023년 3월 1일(이전 2023년 1월 31일)을 통해 무제한 SMS 알림을 제공할 예정입니다. 프로모션 기간이 끝나갈수록 라이선스 요구 사항에 대한 추가 세부 정보를 제공합니다. 프로모션 기간 이후에 가격 책정 세부 정보를 받으려면 계정 팀 또는 지원팀에 문의하세요.
 
 조직의 직원이 예약한 가상 약속을 위해 외부 참석자에게 SMS 텍스트 알림을 보낼 수 있는지 여부를 제어할 수 있습니다.
 
 기본적으로 이 설정은 켜지고 조직의 모든 Bookings 일정에 대해 SMS 텍스트 알림이 사용하도록 설정됩니다. Bookings 관리자 및 스케줄러가 나중에 [예약된 약속 유형](/microsoft-365/frontline/bookings-virtual-appointments#scheduled-appointment-type) 및 예약된 개별 약속에서 필요에 따라 SMS 알림을 끄거나 켜도록 선택할 수 있습니다.
 
-이 설정을 구성하려면 Microsoft 365 관리 센터 \> **설정** \> **조직 설정** 으로 이동한 다음 예약 **을** 선택합니다. **Microsoft SMS 문자 메시지 알림을 보낼 수 있도록** 허용 확인란을 선택하거나 선택 취소합니다.
+이 설정을 구성하려면 Microsoft 365 관리 센터 \> **설정** \> **조직 설정** 으로 이동한 다음 예약 **을** 선택합니다. **Microsoft에서 SMS 문자 메시지 알림을 보낼 수 있도록 허용** 확인란을 선택하거나 선택 취소합니다.
 
 [조직에 대한 SMS 텍스트 알림을 구성하는](/microsoft-365/bookings/turn-bookings-on-or-off) 방법에 대해 자세히 알아봅니다.
 
