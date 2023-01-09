@@ -16,12 +16,12 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: 두 사용자가 TeamsOnly 업그레이드 모드에 있는 Microsoft Teams의 외부 액세스(페더레이션된) 사용자를 위한 네이티브 Teams 채팅 환경에 대해 알아봅니다.
-ms.openlocfilehash: 134216364fdd7397d8a7d72a2ae6684cfa9f90b4
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: 759ad4f03de099637df0e92a7a8925a7c18ae3fd
+ms.sourcegitcommit: 8f26bf0ff88f1f6881de32914be00d5f0cc7396a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198880"
+ms.lasthandoff: 01/09/2023
+ms.locfileid: "69740803"
 ---
 # <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Microsoft Teams의 외부(페더레이션된) 사용자를 위한 네이티브 채팅 환경
 
@@ -30,6 +30,9 @@ Microsoft Teams 사용자가 외부(페더레이션된) 사용자와 채팅하�
 다른 조직의 사용자에 대한 네이티브 채팅 환경은 모든 Teams 테넌트에서 켜져 있지만 모든 사용자가 자격이 있는 것은 아닙니다. 네이티브 채팅 환경을 제공하려면 보낸 사람 및 수신자 모두를 TeamsOnly 업그레이드 모드로 구성해야 합니다. 업그레이드 정책에 대한 자세한 내용은 [공존 및 업그레이드 설정 설정을 참조하세요](setting-your-coexistence-and-upgrade-settings.md).
 
 Teams의 외부 액세스 사용자에 대한 기능 목록을 보려면 [외부 및 게스트 액세스 비교](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)를 참조하세요.
+
+> [!NOTE]
+> Microsoft 365 클라우드 환경에서는 기본 채팅 환경을 사용할 수 없습니다. Microsoft 365 WorldWide(GCC 포함) 간 GCC High, GCC High from/to DoD 또는 DoD 간 WW.
 
 ## <a name="how-do-i-know-if-im-in-a-native-chat"></a>네이티브 채팅에 있는지 어떻게 할까요? 알 수 있나요?
 
