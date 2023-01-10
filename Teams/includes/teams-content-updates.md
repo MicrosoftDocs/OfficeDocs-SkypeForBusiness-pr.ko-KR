@@ -3,6 +3,18 @@
 
 
 
+## <a name="week-of-january-02-2023"></a>2023년 1월 2일 주
+
+
+| 게시됨 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 1/3/2023 | [일반 모임 정책 관리](/MicrosoftTeams/meeting-policies-in-teams-general) | 으로 바뀌었습니다 |
+| 1/3/2023 | [참가자 및 게스트에 대한 모임 정책 관리](/MicrosoftTeams/meeting-policies-participants-and-guests) | 으로 바뀌었습니다 |
+| 1/3/2023 | [오디오 회의 전화 걸기/통화 시간(분)](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | 으로 바뀌었습니다 |
+| 1/4/2023 | [Microsoft Teams의 교육 인사이트에 대한 IT 관리자 가이드](/MicrosoftTeams/class-insights) | 으로 바뀌었습니다 |
+| 1/5/2023 | 기존 Microsoft 365 그룹 향상 | 제거 |
+
+
 ## <a name="week-of-december-26-2022"></a>2022년 12월 26일 주
 
 
