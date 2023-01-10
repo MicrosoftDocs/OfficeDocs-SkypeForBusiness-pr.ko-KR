@@ -15,13 +15,13 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: 'Microsoft Teams에서 인증된 USB 주변 장치 및 장치(예: 헤드셋, 스피커폰, 웹캠 및 모니터)를 확인합니다.'
-ms.openlocfilehash: 8a767eb2572012496dc5dba94e989f969f12df27
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+description: 'Microsoft Teams용으로 인증된 USB 주변 장치 및 장치(예: 헤드셋, 스피커폰, 웹캠 및 모니터)를 확인합니다.'
+ms.openlocfilehash: 88ea7be3fc27fadccb25cd173b0df5f7f618004f
+ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69242312"
+ms.lasthandoff: 01/09/2023
+ms.locfileid: "69749074"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams용으로 인증된 USB 오디오 및 비디오 장치
 
@@ -36,14 +36,14 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 Teams [에서 헤드
 
 ## <a name="understanding-certification-categories"></a>인증 범주 이해
 
-사용자는 비즈니스용 Skype Teams로 업그레이드할 때 이전에 인증된 디바이스를 교체할 필요가 없습니다.  모든 인증된 디바이스는 Microsoft Teams 및 비즈니스용 Skype 사용자에 대해 지원되며 몇 가지 차이점만 있습니다.  또한 인증은 특정 디바이스 범주에 대한 추가 지정을 제공합니다.
+사용자는 비즈니스용 Skype Teams로 업그레이드할 때 이전에 인증된 디바이스를 교체할 필요가 없습니다.  인증된 모든 디바이스는 Microsoft Teams 및 비즈니스용 Skype 사용자에 대해 지원되며 몇 가지 차이점만 있습니다.  또한 인증은 특정 디바이스 범주에 대한 추가 지정을 제공합니다.
 
-- **이 수준에서 인증된 Teams 업그레이드 디바이스로 인증** 된 비즈니스용 Skype 처음에 비즈니스용 Skype 인증되었습니다. Microsoft 디바이스 제조업체와 협력하여 원래 하드웨어를 변경하지 않고도 최상의 Teams 통합 환경을 제공했습니다. *후크위치* 단추는 통화 중이 아닌 경우 Teams 단추 역할을 하며 시간이 지남에 따라 더 많은 기능을 포함할 수 있습니다.  이 범주의 디바이스는 마케팅 자료에 Teams 인증 배지를 포함할 수 있습니다.
-- 이 수준에서 인증 **된 Microsoft Teams** 디바이스 인증은 손상 없는 Teams 환경을 위해 인증된 최신 디바이스를 나타냅니다. 이러한 디바이스는 이전 인증의 모든 이점을 제공하며 LED 표시기가 있는 전용 Teams 단추도 포함합니다. 대부분의 폼 팩터에서 Teams 단추는 Teams 로고가 있는 쉽게 찾을 수 있는 촉각 단추가 됩니다. Microsoft 시간이 지남에 따라 펌웨어 업데이트를 통해 새로운 가치를 제공하기 위해 디바이스 제조업체와 계속 협력하고 있습니다.
+- **이 수준에서 인증된 Teams 업그레이드 디바이스로 인증** 된 비즈니스용 Skype 처음에 비즈니스용 Skype 인증되었습니다. Microsoft는 디바이스 제조업체와 협력하여 원래 하드웨어를 변경하지 않고도 최상의 Teams 통합 환경을 제공했습니다. *후크위치* 단추는 통화 중이 아닌 경우 Teams 단추 역할을 하며 시간이 지남에 따라 더 많은 기능을 포함할 수 있습니다.  이 범주의 디바이스는 마케팅 자료에 Teams 인증 배지를 포함할 수 있습니다.
+- **Microsoft Teams 인증** 이 수준에서 인증된 디바이스는 손상 없는 Teams 환경을 위해 인증된 최신 디바이스를 나타냅니다. 이러한 디바이스는 이전 인증의 모든 이점을 제공하며 LED 표시기가 있는 전용 Teams 단추도 포함합니다. 대부분의 폼 팩터에서 Teams 단추는 Teams 로고가 있는 쉽게 찾을 수 있는 촉각 단추가 됩니다. Microsoft는 디바이스 제조업체와 지속적으로 협력하여 시간이 지남에 따라 펌웨어 업데이트를 통해 새로운 가치를 제공합니다.
 
 ### <a name="special-usage-designations"></a>특별 사용 현황 지정
 
-- **네이티브 Bluetooth 인증 오디오 주변 장치**  Microsoft Teams용으로 인증된 대부분의 Bluetooth 헤드셋 및 스피커폰은 PC 및 Mac 호스트에 연결하기 위해 USB 동글과 함께 사용하도록 설계되었습니다. 많은 사용자가 충분한 USB 포트가 없거나 다른 위치에서 작업할 때 USB 동글을 가지고 오는 것을 기억하지 않아도 되므로 디바이스를 호스트와 직접 페어링하는 옵션을 요구해 왔습니다.
+- **네이티브 Bluetooth 인증 오디오 주변 장치**  Microsoft Teams 인증을 받은 대부분의 Bluetooth 헤드셋 및 스피커폰은 PC 및 Mac 호스트에 연결하기 위해 USB 동글과 함께 사용하도록 설계되었습니다. 많은 사용자가 충분한 USB 포트가 없거나 다른 위치에서 작업할 때 USB 동글을 가지고 오는 것을 기억하지 않아도 되므로 디바이스를 호스트와 직접 페어링하는 옵션을 요구해 왔습니다.
 
     헤드셋 및 스피커폰을 포함한 네이티브 Bluetooth 인증 디바이스는 Windows PC에서 지원됩니다(macOS는 향후 지원될 수 있음). 디바이스는 USB 동글을 사용 및 사용하지 않고 오디오 성능, 통화 제어 및 Teams 단추 통합을 테스트합니다.
 
@@ -81,13 +81,16 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 Teams [에서 헤드
 
 ## <a name="certified-devices"></a>인증된 디바이스
 
-*테이블 업데이트 날짜: 2022년 11월*
+*테이블 업데이트 날짜: 2022년 12월*
 
 > [!NOTE]
 > 날짜 형식은 MM/DD/YYYY입니다.
 
 | 제조업체        | 모델                                                     | 자격      | 인증된 프로그램                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|레 노 버               |T24mv-30 모니터                                           |12/19/2022      |Microsoft Teams 인증                           |
+|레 노 버               |T27hv-30 모니터                                           |12/19/2022      |Microsoft Teams 인증                           |
+|레 노 버               |컨퍼런스 콜 베이스 스피커폰                          |12/19/2022      |Microsoft Teams 인증                           |
 |Epos                 |ADAPT 561 II 헤드셋                                       |10/20/2022      |Microsoft Teams 인증                           |
 |Jabra                |Evolve2 싹                                               |10/17/2022      |Microsoft Teams 인증                           |
 |Cisco                |Desk Camera 4K                                             |10/15/2022      |Microsoft Teams 인증                           |
