@@ -18,22 +18,22 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6648502d9b6a3e727ef30f1e94289f1428d8a4e2
-ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
+ms.openlocfilehash: 43026c80108adeff777e3a003fb93fece44d8c50
+ms.sourcegitcommit: 66d8e3d7a29a03c5deba9780964bc03f6587017f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2022
-ms.locfileid: "69438526"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69774813"
 ---
 # <a name="teams-rooms-on-windows-and-android-feature-comparison"></a>Windows 및 Android 기능 비교의 Teams 룸
 
-Microsoft Teams 룸 환경은 고객을 염두에 두고 설계되었습니다. 모든 고객에게는 고유한 요구 사항이 있으므로 Microsoft Windows 및 Android에서 Teams 룸 포함하여 다양한 옵션을 제공합니다. 
+Microsoft Teams 룸 환경은 고객을 염두에 두고 설계되었습니다. 모든 고객에게는 고유한 요구 사항이 있으므로 Microsoft는 Windows 및 Android의 Teams 룸 포함하여 다양한 옵션을 제공합니다. 
 
 핵심 기능은 두 플랫폼에서 모두 사용할 수 있으므로 최종 사용자는 항상 훌륭한 오디오 및 비디오 환경을 제공하고, 원터치 조인을 사용하여 모임에 참가하고, 라이브 캡션과 같은 포괄 기능에 액세스하고 손을 들 수 있습니다. 
 
-Microsoft Teams와 Teams 룸 새로운 기능을 제공함에 따라 모든 플랫폼으로 가져오기 위해 노력하지만 각 플랫폼에 대한 기술 타당성 및 고객 피드백과 같은 여러 요인으로 인해 기능이 서로 다른 시간에 출시 될 수 있습니다. 즉, Android 플랫폼에 오기 전에 Windows에서 일부 기능이 출시되는 것을 볼 수 있습니다. 
+Microsoft는 Teams 및 Teams 룸 새로운 기능을 제공하므로 모든 플랫폼으로 가져오기 위해 노력하지만 각 플랫폼에 대한 기술 타당성 및 고객 피드백과 같은 여러 요인으로 인해 기능이 서로 다른 시간에 출시 될 수 있습니다. 즉, Android 플랫폼에 오기 전에 Windows에서 일부 기능이 출시되는 것을 볼 수 있습니다. 
 
-다양한 플랫폼에서 사용할 수 있는 기능을 안내하기 위해 주기적으로 업데이트되는 아래 차트를 참조하세요. 모든 Teams 룸 기능이 이 목록에 포함되지는 않으므로 [Microsoft 365 로드맵](https://www.microsoft.com/en-us/microsoft-365/roadmap) 및 Microsoft 영업 담당자에게 자세한 내용을 계속 문의하세요.    
+다양한 플랫폼에서 사용할 수 있는 기능을 안내하기 위해 주기적으로 업데이트되는 아래 차트를 참조하세요. 모든 Teams 룸 기능이 이 목록에 포함되지는 않으므로 [Microsoft 365 로드맵 및 Microsoft](https://www.microsoft.com/en-us/microsoft-365/roadmap) 영업 담당자에게 자세한 내용을 계속 문의하세요.    
 
 ## <a name="teams-devices-for-shared-spaces"></a>공유 공간을 위한 Teams 디바이스
 
@@ -50,7 +50,7 @@ Microsoft Teams와 Teams 룸 새로운 기능을 제공함에 따라 모든 플�
 |                                          | 직접 게스트 조인                                                                                            | 대화 가능                                                                                                                                      | 대화 가능                                           |
 | **모임 참여 및 공동 작업** | 직관적인 용도로 빌드된 앱 환경                                                                      | 대화 가능                                                                                                                                      | 대화 가능                                           |
 |                                          | 비디오 및 콘텐츠 레이아웃(예: 함께 모드, 대형 갤러리, 갤러리만, 갤러리 및 콘텐츠) | 대화 가능                                                                                                                                      | 대화 가능                                           |
-|                                          | 앞줄 레이아웃                                                                                             | 대화 가능                                                                                                                                      | 사용할 수 없음                                       |
+|                                          | 앞줄 레이아웃                                                                                             | 대화 가능                                                                                                                                      | 준비 중                                       |
 |                                          | 채팅 거품                                                                                                 | 대화 가능                                                                                                                                      | 준비 중                                         |
 |                                          | 손을 들어 모든 손 낮추기                                                                                  | 대화 가능                                                                                                                                      | 대화 가능                                           |
 |                                          | 여러 참가자 고정                                                                                    | 대화 가능                                                                                                                                      | 준비 중                                         |
@@ -83,6 +83,7 @@ Microsoft Teams와 Teams 룸 새로운 기능을 제공함에 따라 모든 플�
 |                                          | 자동 Teams 앱 업데이트                                                                                  | 대화 가능                                                                                                                                      | 대화 가능                                           |
 |                                          | 디바이스 자동 등록                                                                                       | 대화 가능                                                                                                                                      | 대화 가능                                           |
 |                                          | 통화 품질 분석                                                                                       | 대화 가능                                                                                                                                      | 대화 가능                                           |
+|                                          | 사용자 지정 테마                                                                                       | 대화 가능                                                                                                                                      | 사용할 수 없음                                           |
 | **/Space에 적합**                     | 포커스(2~4명)                                                                                           | 대화 가능                                                                                                                                      | 대화 가능                                           |
 |                                          | 소형(4~6명)                                                                                           | 대화 가능                                                                                                                                      | 대화 가능                                           |
 |                                          | 중간(6~12명)                                                                                         | 대화 가능                                                                                                                                      | 대화 가능                                           |

@@ -28,12 +28,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 비즈니스용 Skype 옵션에 대한 통화 플랜(PSTN 통화 플랜)과 조직의 라이선스를 가져오는 방법에 대해 알아봅니다.
-ms.openlocfilehash: eaf08af459a5f6149b3068802b104c1458dfc727
-ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
+ms.openlocfilehash: f09517572b27fb67ab9657dcfa4c7bd4c5c7867b
+ms.sourcegitcommit: 66d8e3d7a29a03c5deba9780964bc03f6587017f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69139112"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69774723"
 ---
 # <a name="calling-plans-for-microsoft-teams"></a>Microsoft Teams에 대한 통화 플랜
 
@@ -56,6 +56,9 @@ ms.locfileid: "69139112"
 
   - **종량제 통화 플랜 영역-2**: 오스트리아, 벨기에, 크로아티아, 체코 공화국, 덴마크, 에스토니아, 핀란드, 프랑스, 독일, 헝가리, 아일랜드, 이탈리아, 라트비아, 리투아니아, 룩셈부르크, 네덜란드, 뉴질랜드, 노르웨이, 폴란드, 포르투갈, 루마니아, 싱가포르, 슬로바키아, 슬로베니아, 남아프리카 공화국, 스페인, 스웨덴 및 스위스의 사용자에 대해 구매합니다.
     - 영역 2 라이선스는 현재 미국 푸에르토리코에서 판매할 수 없습니다.
+
+> [!NOTE]
+> 멕시코는 자체 종량제 통화 계획을 가지고 있습니다. 영역의 일부가 아닙니다. 독립적인 종량제 통화 플랜을 구매해야 합니다.
 
 동일한 통화 플랜이 있는 동일한 국가/지역의 모든 사용자(Microsoft 365 관리 센터 라이선스 영역에 정의된 사용자 국가 위치)는 분 풀을 공유합니다. 예를 들어 120분 국내 통화 플랜이 할당된 동일한 국가/지역에 100명의 사용자가 있는 경우 12,000분의 풀을 공유합니다. 이 분을 초과하는 모든 호출은 분당 요금이 청구됩니다.
 
