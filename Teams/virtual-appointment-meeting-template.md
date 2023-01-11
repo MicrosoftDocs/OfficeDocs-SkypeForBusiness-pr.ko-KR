@@ -17,14 +17,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 459845115d8a705673f21b5e8a57dadac59841f6
-ms.sourcegitcommit: f8da8f613fc3902d2607e322ad9dfbdeb8838c4c
+ms.openlocfilehash: f0d93bb05a6456499ab1c0c16070149d8cdfd949
+ms.sourcegitcommit: 0d25efb3dae31d5199807a14baaf30e944f561ce
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2022
-ms.locfileid: "69624924"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69767629"
 ---
 # <a name="virtual-appointment-meeting-template-in-microsoft-teams"></a>Microsoft Teams의 가상 약속 모임 템플릿
+
+![정보 아이콘](media/info.png) **이 문서에 설명된 일부 기능에는 [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md)(미리 보기)가 필요합니다**.
 
 ## <a name="overview"></a>개요
 

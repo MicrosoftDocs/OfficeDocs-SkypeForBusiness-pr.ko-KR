@@ -19,14 +19,17 @@ ms.custom:
 - admindeeplinkMAC
 robots: noindex
 description: Teams 무료(클래식) 라이선스를 제거하고 조직의 사용자를 위해 유료 Teams 라이선스를 할당하는 방법을 알아봅니다.
-ms.openlocfilehash: 027f84577a50d445eb01bce896417f23e503abb7
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: 3015036d0656a80ac8440d2c193003cc7d67d9fc
+ms.sourcegitcommit: 0d25efb3dae31d5199807a14baaf30e944f561ce
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749162"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69767669"
 ---
 # <a name="retire-microsoft-teams-free-classic-for-your-organization"></a>조직의 무료 Microsoft Teams(클래식) 사용 중지
+
+> [!NOTE]
+> Teams 무료(클래식) 사용자인 경우 IT 관리자가 이 문서의 다음 작업을 수행하지 않는 한 2023년 4월 중순 Teams에 액세스할 수 없게 됩니다.
 
 2023년 4월 중순에 Microsoft는 **무료 Microsoft Teams(클래식)** 라이선스를 사용 중지합니다.
 
