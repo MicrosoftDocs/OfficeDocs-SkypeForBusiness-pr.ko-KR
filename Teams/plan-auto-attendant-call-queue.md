@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 자동 전화 교환 및 통화 큐에 대해 알아보고 이를 사용하여 발신자가 메뉴 시스템을 통해 조직의 사용자 또는 부서에 연결할 수 있도록 돕는 방법을 알아봅니다.
-ms.openlocfilehash: 5b5076ecd8ea521071124f5400ac5c2831b4fbfe
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 097d4d0e921e0481e4986cce6f599cbd55044138
+ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307623"
+ms.lasthandoff: 01/10/2023
+ms.locfileid: "69763619"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Teams 자동 전화 교환 및 통화 큐 계획
 
@@ -71,8 +71,8 @@ ms.locfileid: "69307623"
 자동 전화 교환을 구성하고 큐를 호출하려면 다음 리소스가 필요합니다.
 
 - 각 자동 전화 교환 및 각 통화 큐에 대한 [리소스 계정](manage-resource-accounts.md) 입니다.
-- Teams 사용자 또는 외부 전화 번호로 직접 전화를 걸 수 있는 각 리소스 계정에 대한 무료 [Microsoft Teams 전화 Resource Account 라이선스](teams-add-on-licensing/virtual-user.md)입니다.
-- 하나 이상의 [Microsoft 서비스 번호](getting-service-phone-numbers.md), [운영자 연결 번호](operator-connect-plan.md), [직접 라우팅 번호](direct-routing-plan.md) 또는 외부 전화 번호에서 직접 전화를 걸려는 각 리소스 계정에 대한 하이브리드 번호입니다.
+- 각 [리소스 계정에 대한 무료 Microsoft Teams 전화 Resource Account 라이선스](teams-add-on-licensing/virtual-user.md)입니다.
+- 외부 전화 번호에서 직접 전화를 걸려는 각 리소스 계정에 대한 [Microsoft 서비스 번호](getting-service-phone-numbers.md), [운영자 연결 번호](operator-connect-plan.md), [직접 라우팅 번호](direct-routing-plan.md) 또는 하이브리드 번호가 하나 이상 있습니다.
   - 서비스 번호는 통행료 또는 무료 번호일 수 있습니다.
 
 > [!NOTE]
@@ -147,12 +147,12 @@ ms.locfileid: "69307623"
 
 **회의 모드** 는 Teams VOIP 통화 및 PSTN 호출을 에이전트에 연결하는 데 걸리는 시간을 크게 줄이는 통화 큐의 옵션입니다. 회의 모드가 작동하려면 통화 큐의 에이전트가 다음 클라이언트 중 하나를 사용해야 합니다.
 
-- 최신 버전의 Microsoft Teams 데스크톱 클라이언트, Android 앱 또는 iOS 앱입니다.
-- 전화 시스템 버전 1449/1.0.94.2020051601 이상을 Microsoft.
+- Microsoft Teams 데스크톱 클라이언트, Android 앱 또는 iOS 앱의 최신 버전입니다.
+- Microsoft Phone System 버전 1449/1.0.94.2020051601 이상
   
 에이전트의 Teams 계정을 Teams 전용 모드로 설정합니다. 요구 사항을 충족하지 않는 에이전트는 통화 라우팅 목록에 포함되지 않습니다.
 
-에이전트가 모두 호환되는 클라이언트를 사용하고 있는 경우 통화 큐에 통화 회의 모드를 설정하는 것이 좋습니다.
+회의 모드는 기본적으로 사용하도록 설정됩니다. 요구 사항을 충족하지 않는 에이전트가 있는 경우 통화 큐 구성 중에 회의 모드를 수동으로 사용하지 않도록 설정해야 합니다.
 
 **통화 라우팅 흐름** 계획은 조직에 전화하는 사람들을 위한 가장 효율적인 라우팅을 결정하는 데 도움이 됩니다. 통화 라우팅 흐름을 계획하는 방법을 알아보려면 [통화 라우팅 흐름 계획을 참조하세요](plan-your-call-routing-flow.md).
 

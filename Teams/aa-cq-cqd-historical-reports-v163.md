@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 ROBOTS: NOINDEX, NOFOLLOW
 description: Teams 자동 전화 교환 & 통화 큐 기록 보고서 Power BI 보고서를 사용하여 GCC High 및 DoD 고객의 자동 전화 교환 및 통화 큐 기록 데이터를 보는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 619be6d7f0f78f67ef2db0f0693de82120d128c4
-ms.sourcegitcommit: e9718ad7e23317d490b238b3801267cb2e6b26e2
+ms.openlocfilehash: cde953bfd8e9c95c60c795f6de91488506c2addf
+ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2022
-ms.locfileid: "69176762"
+ms.lasthandoff: 01/10/2023
+ms.locfileid: "69763679"
 ---
 # <a name="auto-attendant-and-call-queue-historical-reports-for-gcc-high-and-dod"></a>GCC High 및 DoD에 대한 자동 전화 교환 및 통화 큐 기록 보고서
 
@@ -66,15 +66,17 @@ Power BI Desktop 설치해야 합니다. [Microsoft Windows 스토어](https://a
 
 1. [컴퓨터에 CQD Power BI 쿼리 템플릿](https://www.microsoft.com/download/details.aspx?id=102291) zip 파일을 다운로드하여 저장합니다.
 
-1. zip 파일을 엽니다.
+2. zip 파일을 엽니다.
 
-1. `CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit` 템플릿 파일을 엽니다. Power BI Desktop 시작되어야 합니다.
+3. `CQD Teams Auto Attendant & Call Queue Historical Report V1.63.pbit` 템플릿 파일을 엽니다. Power BI Desktop 시작되어야 합니다.
 
-1. CQD 데이터 파이프라인 지역을 선택하라는 메시지가 표시됩니다. 테넌트가 있는 지역을 선택합니다.
+4. CQD 데이터 파이프라인 지역을 선택하라는 메시지가 표시됩니다. 테넌트가 있는 지역을 선택합니다.
 
-  :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="CQD 데이터 파이프라인 지역을 선택하는 스크린샷":::
+     :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="CQD 데이터 파이프라인 지역을 선택하는 스크린샷":::
 
-1. 테넌트가 있는 지역은 [Get-CsTenant](/powershell/module/skype/get-cstenant) cmdlet을 사용하여 가져올 수 있습니다.
+    퍼블릭 클라우드 테넌트
+
+5. 테넌트가 있는 지역은 [Get-CsTenant](/powershell/module/skype/get-cstenant) cmdlet을 사용하여 가져올 수 있습니다.
 
     ```powershell
     (Get-CsTenant).ServiceInstance
@@ -82,19 +84,27 @@ Power BI Desktop 설치해야 합니다. [Microsoft Windows 스토어](https://a
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    1. 영역이 인 위의 예제와 같이 지역 다음에 **/** 표시됩니다 `noam`.
+    영역이 인 위의 예제와 같이 지역 다음에 **/** 표시됩니다 `noam`.
 
- 1. 이 보고서는 샘플 데이터로 시작됩니다.
+    GCC High 및 DoD 테넌트
+
+6. 다음 커넥터 중 하나를 사용하도록 템플릿을 업데이트합니다.
+
+   - GCCH: `https://data.cqd.gov.teams.microsoft.us/RunQuery`
+   - 국방부: `https://data.cqd.dod.teams.microsoft.us/RunQuery`
+
+
+7. 이 보고서는 샘플 데이터로 시작됩니다.
  
- 1. 사용자 고유의 데이터를 보려면 Power BI Desktop 쿼리 아래 **의 홈** 탭에서 **새로 고침****을** 선택합니다.
+8. 사용자 고유의 데이터를 보려면 Power BI Desktop 쿼리 아래 **의 홈** 탭에서 **새로 고침****을** 선택합니다.
 
    :::image type="content" source="media/aa-cq-historical-report-02-v163.png" alt-text="새로 고침 옵션을 선택하는 스크린샷":::
 
-1. 로그인하라는 메시지가 표시됩니다. **조직 계정을** 선택한 다음 **로그인을** 선택합니다.
+9. 로그인하라는 메시지가 표시됩니다. **조직 계정을** 선택한 다음 **로그인을** 선택합니다.
 
-  :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="V1.63에 대한 로그인을 보여 주는 스크린샷":::
+   :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="V1.63에 대한 로그인을 보여 주는 스크린샷":::
 
-1. **연결을** 선택하면 데이터가 새로 고쳐집니다.
+10. **연결을** 선택하면 데이터가 새로 고쳐집니다.
 
 ## <a name="data-latency-for-aa-and-cq-analytics"></a>AA 및 CQ 분석에 대한 데이터 대기 시간
 
@@ -116,11 +126,11 @@ Power BI Desktop 설치해야 합니다. [Microsoft Windows 스토어](https://a
 
 1. 리본에서 **보기 탭** 을 선택합니다.
 
-  :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="보기 탭을 선택하여 색 구성표를 변경하는 스크린샷":::
+    :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="보기 탭을 선택하여 색 구성표를 변경하는 스크린샷":::
 
 2. 드롭다운 목록에서 색 스키마를 선택합니다.
 
-  :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="다양한 색 구성표를 보여 주는 스크린샷":::
+    :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="다양한 색 구성표를 보여 주는 스크린샷":::
   
 ## <a name="auto-attendant-and-call-queue-historical-reports-definitions"></a>자동 전화 교환 및 통화 큐 기록 보고서 정의
 
