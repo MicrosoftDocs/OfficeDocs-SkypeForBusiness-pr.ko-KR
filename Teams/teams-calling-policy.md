@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: jastark
 audience: admin
 search.appverid: MET150
-description: 다양한 통화 정책 설정뿐만 아니라 Microsoft Teams에서 사용자 지정 통화 정책에 사용자를 만들고 수정하고 추가하는 방법을 알아봅니다.
+description: Microsoft Teams의 사용자 지정 통화 정책뿐만 아니라 다양한 통화 정책 설정에 사용자를 만들고 수정하고 추가하는 방법을 알아봅니다.
 ms.localizationpriority: medium
 ms.collection:
 - M365-voice
@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a02df903574c7e7db796294ad90c9e05ab732eb0
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: a478e203ed973ff2199b4ad500de0441e200918d
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69245776"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69781469"
 ---
 # <a name="calling-policies-calling-and-call-forwarding-features-in-teams"></a>통화 정책: Teams의 통화 및 착신 전환 기능
 
@@ -61,23 +61,23 @@ Microsoft Teams에서 통화 정책은 사용자가 사용할 수 있는 통화 
 
 ### <a name="make-private-calls"></a>개인 전화 걸기
 
-이 설정은 Teams의 모든 통화 기능을 제어합니다. Teams의 모든 통화 기능을 끄려면 이 기능을 끕니다.
+이 설정은 Teams의 모든 통화 기능을 제어합니다. Teams의 모든 통화 기능을 끄려면 이 설정을 끕니다.
 
 ### <a name="cloud-recording-for-calling"></a>통화용 클라우드 기록
 
-이 설정은 사용자가 통화를 기록할 수 있는지 여부를 제어합니다. 기본적으로 꺼져 있습니다.
+이 설정은 사용자가 통화를 기록할 수 있는지 여부를 제어합니다. 이 설정은 기본적으로 꺼져 있습니다.
 
 ### <a name="transcription"></a>전사
 
-이 설정은 사용자가 통화 기록을 사용할 수 있는지 여부를 제어합니다. 기본적으로 꺼져 있습니다.
+이 설정은 사용자가 통화 기록을 사용할 수 있는지 여부를 제어합니다. 이 설정은 기본적으로 꺼져 있습니다.
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>조직의 사용자에게 착신 전환 및 동시 울림
 
-이 설정은 들어오는 전화를 다른 사용자에게 전달할 수 있는지 또는 조직의 다른 사람에게 동시에 전화를 걸 수 있는지 여부를 제어합니다. 기본적으로 켜집니다.
+이 설정은 들어오는 전화를 다른 사용자에게 전달할 수 있는지 또는 조직의 다른 사람에게 동시에 전화를 걸 수 있는지 여부를 제어합니다. 이 설정은 기본적으로 설정됩니다.
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-external-phone-numbers"></a>외부 전화 번호로 착신 전환 및 동시 벨소리
 
-이 설정은 들어오는 호출을 외부 번호로 전달할 수 있는지 또는 동시에 외부 번호를 울릴 수 있는지 여부를 제어합니다. 기본적으로 켜집니다.
+이 설정은 들어오는 호출을 외부 번호로 전달할 수 있는지 또는 동시에 외부 번호를 울릴 수 있는지 여부를 제어합니다. 이 설정은 기본적으로 설정됩니다.
 
 ### <a name="voicemail-is-available-for-routing-inbound-calls"></a>음성 메일은 인바운드 통화 라우팅에 사용할 수 있습니다.
 
@@ -89,7 +89,7 @@ Microsoft Teams에서 통화 정책은 사용자가 사용할 수 있는 통화 
 
 ### <a name="inbound-calls-can-be-routed-to-call-groups"></a>인바운드 호출을 호출 그룹으로 라우팅할 수 있습니다.
 
-이 설정은 들어오는 호출을 호출 그룹으로 전달할 수 있는지 여부를 제어합니다. 기본적으로 켜져 있습니다.
+이 설정은 들어오는 호출을 호출 그룹으로 전달할 수 있는지 여부를 제어합니다. 이 설정은 기본적으로 켜져 있습니다.
 
 ### <a name="delegation-for-inbound-and-outbound-calls"></a>인바운드 및 아웃바운드 호출에 대한 위임
 
@@ -97,7 +97,7 @@ Microsoft Teams에서 통화 정책은 사용자가 사용할 수 있는 통화 
 
 ### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>PSTN을 통한 수신자 우회 및 통화 보내기 방지
 
-이를 **켜** 기로 설정하면 PSTN을 통해 전화를 보내고 네트워크를 통해 보내고 통행료를 우회하는 대신 요금이 발생합니다. 이 설정은 기본적으로 꺼져 있습니다.
+이 설정을 켜면 PSTN을 통해 전화를 보내고 네트워크를 통해 전화를 보내고 통행료를 우회하는 대신 요금이 발생합니다. 이 설정은 기본적으로 꺼져 있습니다.
 
 ### <a name="music-on-hold-for-pstn-calls"></a>PSTN 통화에 대한 음악 보류 중
 
@@ -110,14 +110,15 @@ Microsoft Teams에서 통화 정책은 사용자가 사용할 수 있는 통화 
 - **사용하도록 설정되지 않음** 사용 중 옵션을 사용할 수 없으며 사용자가 이미 전화를 받고 있는 동안 신규 또는 들어오는 호출이 사용자에게 계속 전달될 수 있습니다.
 - **사용** 새 호출 또는 들어오는 호출은 사용 중인 신호와 함께 거부됩니다.
 - **답** 사용자의 응답이 없는 설정(예: 음성 메일로 라우팅 또는 다른 사용자에게 전달)이 사용됩니다.
+- **사용자 제어** 이 옵션은 현재 작동하지 않습니다. 설정하면 값을 **사용 안** 됨으로 설정으로 읽습니다.
 
 ### <a name="web-pstn-calling"></a>웹 PSTN 호출
 
-이 설정을 사용하면 사용자가 Teams 웹 클라이언트를 사용하여 PSTN 번호를 호출할 수 있습니다. 기본적으로 켜집니다.
+이 설정을 사용하면 사용자가 Teams 웹 클라이언트를 사용하여 PSTN 번호를 호출할 수 있습니다. 이 설정은 기본적으로 설정됩니다.
 
 ### <a name="real-time-captions-in-teams-calls"></a>Teams 통화의 실시간 캡션
 
-이 설정은 Teams 통화의 실시간 캡션을 사용자가 사용할 수 있는지 여부를 제어합니다. 기본적으로 켜져 있습니다.
+이 설정은 Teams 통화의 실시간 캡션을 사용자가 사용할 수 있는지 여부를 제어합니다. 이 설정은 기본적으로 켜져 있습니다.
 
 ### <a name="automatically-answer-incoming-meeting-invites"></a>들어오는 모임 초대에 자동으로 응답
 
@@ -125,11 +126,11 @@ Microsoft Teams에서 통화 정책은 사용자가 사용할 수 있는 통화 
 
 ### <a name="spam-filtering"></a>스팸 필터링
 
-이 설정을 사용하면 들어오는 호출에서 사용할 수 있는 스팸 필터링 유형을 제어할 수 있습니다. 기본 및 IVR(Captcha Interactive Voice) 검사를 모두 수행할 수 있습니다. 기본적으로 켜져 있습니다.
+이 설정을 사용하면 들어오는 호출에서 사용할 수 있는 스팸 필터링 유형을 제어할 수 있습니다. 기본 및 IVR(Captcha Interactive Voice) 검사를 모두 수행할 수 있습니다. 이 설정은 기본적으로 켜져 있습니다.
 
 ### <a name="sip-devices-can-be-used-for-calls"></a>SIP 디바이스를 호출에 사용할 수 있습니다.
 
-이 설정을 사용하면 사용자가 SIP 디바이스를 사용하여 전화를 걸고 받을 수 있습니다. 기본적으로 꺼져 있습니다.
+이 설정을 사용하면 사용자가 SIP 디바이스를 사용하여 전화를 걸고 받을 수 있습니다. 이 설정은 기본적으로 꺼져 있습니다.
 
 ### <a name="open-apps-in-browser-for-incoming-pstn-calls"></a>들어오는 PSTN 호출에 대한 브라우저에서 앱 열기
 
