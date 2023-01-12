@@ -24,12 +24,12 @@ appliesto:
 ms.reviewer: yinchang
 description: Teams 관리 센터와 Microsoft Graph에서 의료 팀 템플릿을 관리하고 사용하여 의료 조직을 위한 팀을 빠르고 쉽게 만드는 방법을 알아보세요.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a80d36b51d3f45ca906525d93e502dbfbba1cb6d
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: 17f5ce2774dd163f5f244bea0e685623f64ed59f
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131077"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69778968"
 ---
 # <a name="use-healthcare-team-templates"></a>팀 의료 서식 파일 사용
 
@@ -53,52 +53,52 @@ Teams에는 의료 기관을 위해 특별히 설계된 템플릿이 포함되�
 일반적인 팀 템플릿에 대한 자세한 내용은 [Teams 관리 센터에서 팀 템플릿 시작하기](../../get-started-with-teams-templates-in-the-admin-console.md)를 참조하세요.
 
 현재 다음과 같은 미리 빌드된 의료 팀 템플릿을 제공합니다. 이를 보려면 Teams 관리 센터의 왼쪽 탐색 메뉴에서 **팀** > **팀 템플릿** 으로 이동하세요.
-### <a name="patient-care"></a>환자 간호
 
- 이 서식 파일은 병동, 병실 또는 부서 내에서 의사소통과 공동 작업을 하기 위한 서식 파일입니다. 이 템플릿을 사용하여 병동의 환자 관리 및 운영 요구 사항을 용이하게 할 수 있습니다. 예를 들어, *공지* 채널에 병동 공지를 게시하고 *직원* 채널에서 교대조를 관리합니다.
+### <a name="patient-care"></a>환자 관리
 
-| 서식 파일 유형 |TemplateId| 이 템플릿과 함께 제공되는 속성 |
-| ------------------ |---|----------------------------------------------------- |
-| 환자 간호 |`healthcareWard` | 채널<ul><li>일반</li><li>공지 사항<ul><li>게시판&sup1;</li></ul></li><li>장애물<ul><li>목록(마지막 환자)&sup1;</li></ul></li><li>회진<ul><li>검사&sup1;</li></ul></li><li>직원</li><li>교육</li></ul> 앱: <ul><li>Wiki</li><li>목록</li><li>작업</li><li>승인</li><li>교대 근무</li><li>게시판</li><li>검사</li></ul>|
-||||
+병동, 병실 또는 부서 내에서 의료 커뮤니케이션 및 공동 작업을 간소화합니다. 이 템플릿을 사용하여 환자 관리 및 병동의 운영 요구를 용이하게 합니다. 예를 들어, *공지* 채널에 병동 공지를 게시하고 *직원* 채널에서 교대조를 관리합니다.
 
-&sup1;앱이 탭으로 채널에 추가되었습니다.
+>[!div class="mx-tdBreakAll"]
+>| 서식 파일 유형 |TemplateId| 이 템플릿과 함께 제공되는 속성 |
+>| ------------------ |---|----------------------------------------------------- |
+>| 환자 관리 |`healthcareWard` | 채널<ul><li>일반</li><li>공지 사항</li><li>장애 요소</li><li>라운드</li><li>직원</li><li>교육</li></ul> 앱: <ul><li>승인</li><li>게시판</li><li>검사</li><li>목록</li><li>교대 근무</li><li>Planner 및 할 일별 작업</li><li>Wiki</li></ul>|
+
 ### <a name="hospital"></a>병원
 
-이 서식 파일은 병원 내에서 여러 병동, 병실, 부서 간 의사소통과 공동 작업을 수행하기 위해 제작되었습니다. 이 서식 파일에는 병원 운영을 위한 채널 집합이 포함되어 있으며 추가 사용자 지정을 위해 확장할 수 있습니다.
+병원 내에서 여러 병동, 병실, 부서 간 의사소통과 공동 작업을 간소화할 수 있습니다. 이 서식 파일에는 병원 운영을 위한 채널 집합이 포함되어 있으며 추가 사용자 지정을 위해 확장할 수 있습니다.
 
-| 서식 파일 유형 |TemplateId | 이 템플릿과 함께 제공되는 속성 |
-| ------------------|-- |----------------------------------------------------- |
-|병원|`healthcareHospital`|채널 <ul><li>일반<ul><li>목록&sup1;</li></ul></li><li>공지<ul><li>게시판&sup1;</li></ul></li><li>규정 준수</li><ul><li>검사&sup1;</li></ul></li><li>보호</li><li>인적 리소스<ul><li>아이디어&sup1;</li></ul></li><li>약국</li></ul> 앱: <ul><li>Wiki</li><li>작업</li><li>목록</li><li>승인</li><li>교대 근무</li><li>게시판</li><li>검사</li><li>아이디어</li></ul>|
-||||
+>[!div class="mx-tdBreakAll"]
+>| 서식 파일 유형 |TemplateId | 이 템플릿과 함께 제공되는 속성 |
+>| ------------------|-- |----------------------------------------------------- |
+>|병원|`healthcareHospital`|채널 <ul><li>일반</li><li>공지 사항</li><li>규정 준수</li></li><li>보호</li><li>인적 리소스</li><li>약국</li></ul>  앱: <ul><li>승인</li><li>게시판</li><li>직원 아이디어</li><li>검사</li><li>목록</li><li>교대 근무</li><li>Planner 및 할 일별 작업</li><li>Wiki</li></ul>|
 
-&sup1;앱이 탭으로 채널에 추가되었습니다.
 ## <a name="use-team-templates-with-microsoft-graph"></a>Microsoft Graph에서 팀 템플릿 사용
 
 Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview), and [teamsTemplate resource type](/graph/api/resources/teamstemplate).
 
 다음은 미리 빌드된 의료 팀 템플릿입니다.
-### <a name="ward"></a>병동
 
-병동 서식 파일은 병동, 병실 또는 부서 내에서 의사소통과 공동 작업을 하기 위한 서식 파일입니다. 이 서식 파일을 사용하여 병동의 환자 관리 및 운영 요구 사항을 용이하게 만들 수 있습니다. 예를 들어, 병동 공지 사항을 *공지 사항* 채널에서 게시하고 *직원* 에서 교대 근무를 관리할 수 있습니다. 병동 작업을 간소화하고자 하는 경우, 이 서식 파일이 매우 적합합니다.
+### <a name="patient-care"></a>환자 관리
 
-|템플릿 유형 |TemplateId |템플릿 채널|
-|:--- |:---|:---|
-|의료 - 병동 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | 일반<br>공지&sup2; <br> 장애요인&sup2; <br> 회진&sup2; <br> 직원관리&sup2; <br> 교육&sup2; |
-|     | |         |
+이 서식 파일은 병동, 병실 또는 부서 내에서 의사소통과 공동 작업을 하기 위한 서식 파일입니다. 이 템플릿을 사용하여 환자 관리 및 병동의 운영 요구를 용이하게 합니다. 예를 들어, 병동 공지 사항을 *공지 사항* 채널에서 게시하고 *직원* 에서 교대 근무를 관리할 수 있습니다. 병동 작업을 간소화하고자 하는 경우, 이 서식 파일이 매우 적합합니다.
+
+>[!div class="mx-tdBreakAll"]
+>|템플릿 유형 |TemplateId |템플릿 채널|
+>|:--- |:---|:---|
+>|의료 - 병동 | `https://graph.microsoft.com/beta/teamsTemplates('healthcareWard')`   | 일반<br>공지&sup2; <br> 장애요인&sup2; <br> 회진&sup2; <br> 직원관리&sup2; <br> 교육&sup2; |
 
 &sup2;자동 즐겨찾기 채널
 
 ### <a name="hospital"></a>병원
 
-이 병원 서식 파일은 병원 내에서 여러 병동, 병실, 부서 간 의사소통과 공동 작업을 수행하기 위해 제작되었습니다. 이 템플릿에는 *공지*, *보호* 및 *약국* 과 같은 여러 운영 채널이 포함되어 있습니다. 또한 추가 부서 또는 전문 채널로 템플릿을 확장하는 데 사용할 수 있는 스크립트를 제공합니다. 필요에 맞게 편집할 수 있습니다.
+이 서식 파일은 병원 내에서 여러 병동, 병실, 부서 간 의사소통과 공동 작업을 수행하기 위해 제작되었습니다. 여기에는 *알림*, *양육권* 및 약국과 같은 여러 운영 채널이 포함 *됩니다*. 또한 더 많은 부서 또는 특수 채널로 템플릿을 확장하는 데 사용할 수 있는 스크립트도 제공합니다. 필요에 맞게 편집할 수 있습니다.
 
-예를 들어 *내분비학* 부서가 있지만 *안과* 채널이 필요하지 않은 경우 스크립트를 조정하여 *내분비학* 채널을 포함하고 *안과* 채널을 제거할 수 있습니다. 알림 포화 상태를 방지하기 위해 이러한 특수 또는 병동 모델의 채널은 자동 즐겨찾기하지 않는 것이 좋습니다. 사용자는 일반적으로 관련이 있는 모든 채널을 즐겨찾습니다.
+예를 들어 *내분비학* 부서가 있지만 *안과* 에 대한 채널이 필요하지 않은 경우 내 *분비학* 채널을 포함하고 안 *과* 채널을 제거하도록 스크립트를 조정할 수 있습니다. 알림 포화 상태를 방지하기 위해 이러한 특수 또는 병동 모델의 채널은 자동 즐겨찾기하지 않는 것이 좋습니다. 사용자는 일반적으로 관련이 있는 모든 채널을 즐겨찾습니다.
 
-|서식 파일 유형 |TemplateId |템플릿 채널|
-|:--- |:---|:---|
-|의료 - 병원 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | 일반<br>공지&sup2; <br> 준수2; <br> 보호 <br> 인적 리소스 <br> 약국 |
-| | |  |
+>[!div class="mx-tdBreakAll"]
+>|서식 파일 유형 |TemplateId |템플릿 채널|
+>|:--- |:---|:---|
+>|의료 - 병원 | `https://graph.microsoft.com/beta/teamsTemplates('healthcareHospital')`   | 일반<br>공지&sup2; <br> 준수2; <br> 보호 <br> 인적 리소스 <br> 약국 |
 
 &sup2;자동 즐겨찾기 채널
 

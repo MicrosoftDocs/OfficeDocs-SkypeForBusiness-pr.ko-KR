@@ -20,12 +20,12 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01621d73f1f16fa23a6b4c9042e7d0cecdc2f366
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: 287bd53ffee2780927d2aa147f3bc2e2e07b3dbd
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198350"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69778978"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>관리 센터에서 일반 팀 템플릿 사용
 
@@ -33,7 +33,7 @@ ms.locfileid: "69198350"
 
 Microsoft Teams의 팀 템플릿을 사용하면 설정, 채널 및 사전 설치된 앱의 미리 정의된 팀 구조를 제공하여 팀을 빠르고 쉽게 만들 수 있습니다.
 
-팀 템플릿을 사용하여 조직 전체에 일관된 팀을 배포합니다. 템플릿은 사용자가 Teams를 효과적으로 사용하는 방법을 파악하는 데 도움이 될 수도 있습니다. 템플릿을 확장하여 특정 조직의 요구에 맞는 팀을 만들 수도 있습니다.
+팀 템플릿을 사용하여 조직 전체에 일관된 팀을 배포합니다. 템플릿은 사용자가 Teams를 효과적으로 사용하는 방법을 파악하는 데 도움이 될 수도 있습니다.
 
 Teams에는 특정 비즈니스 요구 사항 및 프로젝트에 대해 만든 미리 빌드된 템플릿이 포함되어 있습니다. 이 문서에서는 다양한 시나리오에 대해 조직에서 사용할 수 있는 템플릿의 일반적인 범주를 소개합니다.
 

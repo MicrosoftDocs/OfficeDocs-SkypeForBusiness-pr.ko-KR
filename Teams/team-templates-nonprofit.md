@@ -20,12 +20,12 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1818a4eee46cca88c873af35278453ab84b1341
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: cd5a1064c4a0104a4eab6d25a3adb0614c12d256
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198960"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69779058"
 ---
 # <a name="use-nonprofit-team-templates"></a>비영리 팀 템플릿 사용
 
@@ -33,9 +33,9 @@ Microsoft Teams의 팀 템플릿을 사용하면 설정, 채널 및 사전 설�
 
 비영리 조직의 경우 팀 템플릿은 조직 전체에 일관된 팀을 신속하게 배포하는 데 도움이 되므로 특히 강력할 수 있습니다. 템플릿은 또한 직원이 Teams를 효과적으로 사용하는 방법에 대해 방향을 잡는 데 도움이 됩니다.
 
-팀에는 자원 봉사자 관리 활동을 간소화하도록 설계된 자원 봉사자 관리 팀 템플릿이 포함되어 있습니다. 이 사전 제작된 템플릿을 사용하여 직원이 자원 봉사자 관리 작업 및 활동에 대해 의사 소통하고 협업할 팀을 빠르게 만들 수 있습니다.
+Teams에는 자원 봉사자 관리 활동을 간소화하도록 설계된 자원 봉사자 관리 팀 템플릿이 포함되어 있습니다. 이 사전 제작된 템플릿을 사용하여 직원이 자원 봉사자 관리 작업 및 활동에 대해 의사 소통하고 협업할 팀을 빠르게 만들 수 있습니다.
 
-이 문서에서는 자원 봉사자 관리 팀 템플릿과 이 템플릿을 사용하여 팀을 만드는 방법에 대해 알아봅니다. 이 문서에서는 Teams 관리 센터에서 팀 템플릿을 관리하는 방법에 대한 개요도 제공합니다.
+이 문서에서는 자원 봉사자 관리 팀 템플릿과 이를 사용하여 팀을 만드는 방법에 대해 알아봅니다. 이 문서에서는 Teams 관리 센터에서 팀 템플릿을 관리하는 방법에 대한 개요도 제공합니다.
 
 ## <a name="manage-volunteers-team-template"></a>자원 봉사자 팀 템플릿 관리
 
@@ -43,11 +43,12 @@ Microsoft Teams의 팀 템플릿을 사용하면 설정, 채널 및 사전 설�
 
 이 템플릿에는 자원 봉사자 관리 활동을 간소화하도록 설계된 채널과 앱이 포함되어 있습니다. 직원은 온보딩 자료와 자주 사용하는 문서를 구성 및 공유하고 보고서를 보고 중요한 팀 및 이벤트 공지 사항 등을 최신 상태로 유지할 수 있습니다. 이 템플릿은 또한 [비영리 조직용 Microsoft Cloud](/industry/nonprofit/)의 일부를 구성하는 앱인 [자원 봉사자 관리](/dynamics365/industry/nonprofit/volunteer-management-use)와 통합되어 직원이 Teams 내에서 자원 봉사자 참여 기회를 관리할 수 있도록 합니다.
 
-자원 봉사자 관리 팀 템플릿과 함께 제공되는 채널 및 앱은 다음과 같습니다.
+다음은 자원 봉사자 관리 팀 템플릿과 함께 제공되는 채널 및 앱입니다.
 
-| 서식 파일 유형 |TemplateId | 이 템플릿과 함께 제공되는 속성 |
-| ------------------|-- |----------------------------------------------------- |
-|자원 봉사자 관리| `ManageVolunteers` |채널 <ul><li>일반<ul><li>웹 사이트&sup1;</li></ul><li>공지 사항</li><li>보고<ul><li>Power BI&sup1;</li></ul></li><li>자원 봉사자 관리<ul><li>Power Apps&sup1;</li></ul></li><li>참여 기회<ul><li>작업&sup1;</li></ul></li><li>자원 봉사자 온보딩<ul><li>SharePoint&sup1;</li><li>OneNote&sup1;</li></ul></li></ul> 앱: <ul><li>웹 사이트</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>작업</li><li>SharePoint</li><li>OneNote</li></ul>|
+>[!div class="mx-tdBreakAll"]
+>| 서식 파일 유형 |TemplateId | 이 템플릿과 함께 제공되는 속성 |
+>| ------------------|-- |----------------------------------------------------- |
+>|자원 봉사자 관리| `com.microsoft.teams.template.ManageVolunteers` |채널 <ul><li>일반<ul><li>웹 사이트&sup1;</li></ul><li>공지 사항</li><li>보고<ul><li>Power BI&sup1;</li></ul></li><li>자원 봉사자 관리<ul><li>Power Apps&sup1;</li></ul></li><li>참여 기회<ul><li>Planner 및 To Do&sup1의 작업</li></ul></li><li>자원 봉사자 온보딩<ul><li>SharePoint&sup1;</li><li>OneNote&sup1;</li></ul></li></ul>앱: <ul><li>OneNote</li><li>Power Apps</li><li>Power BI</li><li>SharePoint</li><li>Planner 및 할 일별 작업</li><li>웹 사이트</li><li>YouTube</li></ul>|
 
 &sup1;앱이 탭으로 채널에 추가되었습니다.
 

@@ -20,12 +20,12 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 096bab4289d5ac9e81c63f83cd73efd41d98e7be
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: 4ea67bec0fd8750e32ebb5f65d0258fa7c172a46
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198692"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69778948"
 ---
 # <a name="use-financial-team-templates"></a>금융 팀 템플릿 사용
 
@@ -50,14 +50,14 @@ Teams에는 금융 서비스 조직을 위해 설계된 템플릿이 포함되�
 
 현재 금융 서비스 조직을 위해 다음과 같은 미리 빌드된 팀 템플릿을 제공합니다. 이를 보려면 Teams 관리 센터의 왼쪽 탐색 메뉴에서 **팀** > **팀 템플릿** 으로 이동하세요.
 
-### <a name="collaborate-within-a-bank-branch"></a>은행 지점 안에서 공동 작업
+### <a name="bank-branch"></a>은행 지점
 
 주택 담보 대출 공동 작업과 같은 허들, 고객 모임, 비즈니스 프로세스 전반에 걸쳐 사용자 은행 지점 직원들의 공동 작업을 중앙에 집중시키고 공지 사항 및 포상과 관련하여 모든 사용자들이 계속 진행 상황을 알 수 있도록 합니다.
 
-| 서식 파일 유형 |TemplateId| 이 템플릿과 함께 제공되는 속성 |
-| ------------------ |--|----------------------------------------------------- |
-|은행 지점| `CollaborateWithinABankBranch`|채널 <ul><li>일반<li>공지 사항</li><li>장애 요소</li><li>고객 모임</li><li>승인 요청 </li><li>코칭</li><li>기술 개발</li><li>대출 처리</li><li>고객 불만 사항</li><li>쿠도스</li><li>재미있는 내용</li><li>규정 준수</li></ul>앱:<ul><li>칭찬 </li><li>문제 보고자</li><li>Wiki</li><li>일정</li><li>승인</li><li>게시판</li><li>아이디어</li></ul>|
-||||
+>[!div class="mx-tdBreakAll"]
+>| 서식 파일 유형 |TemplateId| 이 템플릿과 함께 제공되는 속성 |
+>| ------------------ |--|----------------------------------------------------- |
+>|은행 지점| `com.microsoft.teams.template.CollaborateWithinABankBranch`|채널 <ul><li>일반<li>공지 사항</li><li>장애 요소</li><li>고객 모임</li><li>승인 요청 </li><li>코칭</li><li>기술 개발</li><li>대출 처리</li><li>고객 불만 사항</li><li>쿠도스</li><li>재미있는 물건</li><li>규정 준수</li></ul>앱:<ul><li>승인</li><li>게시판</li><li>채널 일정</li><li>직원 아이디어</li><li>문제 보고</li><li>칭찬</li><li>교대 근무</li><li>Wiki</li></ul>|
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>Microsoft Graph에서 팀 템플릿 사용
 
@@ -67,10 +67,10 @@ Developers can use Microsoft Graph to create teams from pre-built team templates
 
 주택 담보 대출 공동 작업과 같은 허들, 고객 모임, 비즈니스 프로세스 전반에 걸쳐 사용자 은행 지점 직원들의 공동 작업을 중앙에 집중시키고 공지 사항 및 포상과 관련하여 모든 사용자들이 계속 진행 상황을 알 수 있도록 합니다.
 
-| 서식 파일 유형 |TemplateId| 템플릿 채널 |
-| ------------------ |--|----------------------------------------------------- |
-|은행 지점|`https://graph.microsoft.com/beta/teamsTemplates('CollaborateWithinABankBranch')`|일반<br>공지 사항<br>장애 요소<br>고객 모임<br>승인 요청<br>코칭<br>기술 개발<br>대출 처리<br>고객 불만 사항<br>쿠도스<br>재미있는 내용<br>규정 준수|
-||||
+>[!div class="mx-tdBreakAll"]
+>| 서식 파일 유형 |TemplateId| 템플릿 채널 |
+>| ------------------ |--|----------------------------------------------------- |
+>|은행 지점|`https://graph.microsoft.com/beta/teamsTemplates('CollaborateWithinABankBranch')`|일반<br>공지 사항<br>장애 요소<br>고객 모임<br>승인 요청<br>코칭<br>기술 개발<br>대출 처리<br>고객 불만 사항<br>쿠도스<br>재미있는 물건<br>규정 준수|
 
 > [!NOTE]
 > 금융 서비스 조직에 적용되는 추가 팀 템플릿은 [중소기업용 Microsoft Graph에서 빌드된 팀 템플릿](smb-templates.md)을 참조하세요.
