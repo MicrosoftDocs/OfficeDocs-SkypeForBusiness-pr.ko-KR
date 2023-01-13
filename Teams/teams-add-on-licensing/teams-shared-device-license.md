@@ -9,6 +9,7 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -19,16 +20,16 @@ ms.custom:
 - Licensing
 - admindeeplinkMAC
 description: 공용 영역 전화, Teams 디스플레이 및 Teams 패널에 대한 Microsoft Teams 공유 디바이스 라이선스에 대해 알아봅니다.
-ms.openlocfilehash: 5ab7f3dfae180d71abdcf51b0c33adc8abd0a9ab
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: bf43b7882b2e4cb97c987b6d820117d467dd9a7d
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392723"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69800214"
 ---
 # <a name="microsoft-teams-shared-devices-licensing"></a>Microsoft Teams 공유 디바이스 라이선스
 
-Microsoft Teams는 하이브리드 작업 시나리오를 지원하고 사용자가 유연한 공간에서 작업할 수 있도록 할 수 있습니다. **Microsoft Teams 공유 디바이스** 추가 기능 라이선스를 사용하면 사무실에서 공용 영역 전화, 핫 데스크용 Teams 디스플레이 및 모임 공간을 위한 Teams 패널을 포함하여 디바이스를 공유 디바이스로 지정할 수 있습니다.
+Microsoft Teams는 하이브리드 작업 시나리오를 지원하고 사용자가 유연한 공간에서 작업할 수 있도록 할 수 있습니다. **Microsoft Teams 공유 디바이스 추가 기능** 라이선스를 사용하면 사무실에서 공용 영역 전화, 핫 데스크용 Teams 디스플레이 및 모임 공간을 위한 Teams 패널을 포함하여 디바이스를 공유 디바이스로 지정할 수 있습니다.
 
 다른 Teams 추가 기능 라이선스에 대한 자세한 내용은 [Microsoft Teams 추가 기능 라이선스를 참조하세요](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
@@ -59,7 +60,7 @@ Microsoft Teams는 하이브리드 작업 시나리오를 지원하고 사용자
 
 1. [Microsoft 365 관리 센터](https://go.microsoft.com/fwlink/p/?linkid=2024339) **청구** > **구매 서비스** 로 이동합니다.
 
-1. **Microsoft 구매** 섹션을 찾고 **제품 보기를** 선택합니다.
+1. **Microsoft에서 구매** 섹션을 찾고 **제품 보기를** 선택합니다.
 
 1. **공동 작업 및 통신** 필터를 선택합니다.
 
@@ -75,4 +76,4 @@ Microsoft Teams는 하이브리드 작업 시나리오를 지원하고 사용자
 
 - [공통 지역 전화 설정](/microsoftteams/set-up-common-area-phones)
 - [Microsoft Teams 패널](/microsoftteams/devices/teams-panels)
-- [Microsoft Teams 표시](/microsoftteams/devices/teams-displays)
+- [Microsoft Teams가 표시](/microsoftteams/devices/teams-displays)

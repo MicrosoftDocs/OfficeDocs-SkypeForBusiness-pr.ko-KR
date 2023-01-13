@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +17,12 @@ ms.reviewer: mikedav
 description: 오디오 회의, 전화 시스템 및 통화 플랜과 같은 기능을 위해 사용자에게 Teams 추가 기능 라이선스를 할당하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60bde63ab3cc499c022ef2d23b669b543d6f5dd9
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: 162169bd3aa7a1641133e8729d4872f8547b58ed
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392088"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69799934"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>사용자에게 Teams 추가 기능 라이선스 할당
 

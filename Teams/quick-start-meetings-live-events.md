@@ -23,12 +23,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45148768d023b3cb6b609c1f315fe8d71031a573
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: e9fbd6e9075ee5680eaae4dc88dde96c842c5a7b
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392198"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69800054"
 ---
 # <a name="meetings-webinars-and-live-events"></a>모임, 웨비나 및 라이브 이벤트
 
@@ -50,14 +50,14 @@ Microsoft Teams에서는 모임, 웨비나, 라이브 이벤트 등 여러 가�
 | 웨비나 | - 최대 1,000명<br>- 곧 제공될 [보기 전용](view-only-meeting-experience.md) 기능의 제한이 높아졌습니다. |- 최대 1,000명의 참가자가 완전한 대화형 기능을 사용할 수 있습니다.<br> - 대상 그룹 상호 작용을 구성할 수 있습니다.<br> - 발표자를 지정할 수 있습니다. | 예 |
 | 라이브 이벤트 | 최대 20,000**명 |- 많은 대상 그룹에게 브로드캐스트할 수 있습니다. <br>- 대상 그룹 상호 작용을 위한 중재된 질문 및 답변입니다. <br> - 외부 발표자를 포함한 제작자 및 발표자를 지정할 수 있습니다.<br>- 보다 고도화된 프로덕션 기능을 지원합니다. | 아니요 |
 
-*2022년 12월 31일까지 기존 10,000명에서 20,000명으로 상향 조정됩니다.
+*일반적인 10,000은 2023년 6월 30일까지 20,000으로 증가합니다.
 
-**2022년 12월 31일까지 기존 10,000명에서 20,000명으로 상향 조정됩니다. Yammer 및/또는 Microsoft Stream의 라이브 이벤트로 더 많은 수를 예약할 수 있습니다. 자세한 내용은 [Microsoft 365의 라이브 이벤트](/stream/live-event-m365)를 참조하세요. 참석자가 20,000명이 넘는 이벤트에는 [라이브 이벤트 지원 프로그램](/stream/live-events-assistance)이 필요합니다.
+**일반적인 10,000은 2023년 6월 30일까지 20,000으로 증가합니다. Yammer 및/또는 Microsoft Stream의 라이브 이벤트로 더 많은 수를 예약할 수 있습니다. 자세한 내용은 [Microsoft 365의 라이브 이벤트](/stream/live-event-m365)를 참조하세요. 참석자가 20,000명이 넘는 이벤트에는 [라이브 이벤트 지원 프로그램](/stream/live-events-assistance)이 필요합니다.
 
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
 > [!NOTE]
-> 자세한 내용과 Microsoft Teams를 사용하여 온라인 이벤트를 제공하기 위한 역할별 지침을 얻으려면 [가상 이벤트 플레이북](https://aka.ms/VirtualEventPlaybook)을 참조하세요. Microsoft Tech Community [가상 이벤트 포럼](https://aka.ms/VirtualEventForum)에 참가할 수도 있습니다.
+> Microsoft Teams를 사용하여 온라인 이벤트를 배달하기 위한 역할별 지침을 얻으려면 [가상 이벤트 플레이북](https://aka.ms/VirtualEventPlaybook)을 참조하세요. Microsoft Tech Community [가상 이벤트 포럼](https://aka.ms/VirtualEventForum)에 참가할 수도 있습니다.
 
 > [!NOTE]
 > 다양한 플랫폼에서 Teams 모임 및 이벤트를 신속하게 구성하는 방법에 대한 자세한 내용은 [플랫폼별 Teams 기능](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)을 참조하세요.
@@ -178,7 +178,7 @@ Teams와 함께 제공되는 앱을 사용하고, 인증된 타사 앱과 템플
 
 모임, 웨비나 또는 라이브 이벤트를 조직, 예약 및 주최하는 사용자에게는 [Microsoft Teams 서비스 설명](/office365/servicedescriptions/teams-service-description)에 나열된 Microsoft 365 라이선스 중 하나가 필요합니다. 이미 Teams를 사용하고 있다면 모임, 웨비나 및 라이브 이벤트를 구성하고 주최하는 데 필요한 라이선스가 있을 것입니다.
 
-Teams Premium 라이선스에 대한 자세한 내용은 [Teams Premium 라이선스](teams-add-on-licensing/licensing-enhance-teams.md)를 참조하세요.
+Teams Premium 라이선스에 대한 자세한 내용은 [Teams Premium 라이선스를 참조하세요](teams-add-on-licensing/licensing-enhance-teams.md).
 
 사람들이 전화로 모임에 전화를 걸 수 있도록 하려면 오디오 회의를 설정해야 합니다. 오디오 회의에 대한 자세한 내용은 [Teams의 오디오 회의](deploy-audio-conferencing-teams-landing-page.md)를 참조하세요.
 
