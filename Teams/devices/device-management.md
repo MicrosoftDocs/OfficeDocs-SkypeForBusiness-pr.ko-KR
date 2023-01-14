@@ -21,18 +21,18 @@ ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b34d554c0930efa622e60a695203e5fa35bd48ab
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: e545a6d4208e6f54abbf72327cf887d45b34e141
+ms.sourcegitcommit: 1934c4803b5b6ae9b9ccd49e695944446d5d5810
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69245706"
+ms.lasthandoff: 01/14/2023
+ms.locfileid: "69807480"
 ---
 # <a name="manage-devices-in-teams"></a>Teams에서 디바이스 관리 
 
 Microsoft Teams 관리 센터에서 조직의 Microsoft Teams와 함께 사용되는 디바이스를 관리할 수 있습니다. 조직의 디바이스 인벤토리를 보고 관리하고 디바이스에 대한 진단 업데이트, 다시 시작 및 모니터링과 같은 작업을 수행할 수 있습니다. 디바이스 또는 디바이스 그룹에 구성 프로필을 만들고 할당할 수도 있습니다.
 
-디바이스 구성 변경, 디바이스 다시 시작, 업데이트 관리 또는 디바이스 및 주변 장치 상태 보기와 같은 디바이스를 관리하려면 다음 Microsoft 365 관리자 역할 중 하나를 할당해야 합니다.
+디바이스 구성 변경, 디바이스 다시 시작, 업데이트 관리 또는 디바이스 및 주변 장치 상태 보기와 같은 디바이스를 관리하려면 다음 Microsoft 365 관리자 역할 중 하나를 할당받아야 합니다.
 
 - Microsoft 365 전역 관리자
 - Teams 서비스 관리자
@@ -50,13 +50,13 @@ Teams에 대해 인증되고 등록된 모든 디바이스를 관리할 수 있�
 - [Teams 디스플레이](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=34)
 - [Teams 패널](teams-panels.md)
 
-디바이스를 관리하려면 [Microsoft Teams 관리 센터의](https://admin.teams.microsoft.com) 왼쪽 탐색에서 **Teams 디바이스** 로 이동한 다음 디바이스 유형을 선택합니다. 디바이스의 각 유형에는 개별적으로 관리할 수 있는 고유한 섹션이 있습니다.
+디바이스를 관리하려면 [Microsoft Teams 관리 센터의](https://admin.teams.microsoft.com) 왼쪽 탐색 영역에서 **Teams 디바이스** 로 이동한 다음 디바이스 유형을 선택합니다. 디바이스의 각 유형에는 개별적으로 관리할 수 있는 고유한 섹션이 있습니다.
 
 ## <a name="manage-teams-rooms-on-windows-devices"></a>Windows 디바이스에서 Teams 룸 관리
 
 Teams 관리 센터를 사용하여 조직 전체의 Windows 디바이스에서 Teams 룸 보고 원격으로 관리할 수 있습니다. Teams 관리 센터를 사용하면 어떤 디바이스가 정상 상태이고 주의가 필요한지 한눈에 쉽게 확인할 수 있으며, 특정 디바이스에 집중하여 디바이스 상태, 모임 성능, 통화 품질 및 주변 장치에 대한 자세한 정보를 볼 수 있습니다. 
 
-다음은 Teams 룸 디바이스를 관리하기 위해 수행할 수 있는 몇 가지 작업입니다. Teams 룸 디바이스는 Windows의 Teams **디바이스** > Teams 룸 Microsoft Teams [관리 센터에서](https://admin.teams.microsoft.com) 찾을 수 **있습니다**.
+다음은 Teams 룸 디바이스를 관리하기 위해 수행할 수 있는 몇 가지 작업입니다. Teams 룸 디바이스는 Windows의 **Teams 디바이스** > Teams 룸 아래 [의 Microsoft Teams 관리 센터에서](https://admin.teams.microsoft.com) 찾을 수 **있습니다**.
 
 Teams 룸 디바이스를 관리하는 방법에 대한 자세한 내용은 [Microsoft Teams 룸 관리를](../rooms/rooms-manage.md) 참조하세요.
 
@@ -86,6 +86,23 @@ Android에서 Teams 룸 휴대폰, Teams 디스플레이 및 Teams 패널이 등
 | 디바이스 태그를 사용하여 디바이스 필터링        | 필터 아이콘을 선택하고, **태그** 필드를 선택하고, 필터링할 디바이스 태그를 지정하고, **적용** 을 선택합니다. 디바이스 태그를 사용하여 디바이스를 필터링하는 방법에 대한 자세한 내용은 [필터를 사용하여 특정 태그가 있는 디바이스 반환을 참조하세요](manage-device-tags.md#use-filters-to-return-devices-with-a-specific-tag). |
 | 디바이스 기록 및 진단 보기     | **기록** 열 아래에서 디바이스에 대한 **보기** 링크를 클릭하여 업데이트 기록 및 진단 세부 정보를 확인합니다.                                                                                                                                                                                         |
 
+### <a name="view-android-device-sign-in-failures"></a>Android 디바이스 로그인 실패 보기
+
+Android 디바이스에 로그인하는 데 문제가 있는 경우 디바이스의 세부 정보 페이지를 확인하여 어떤 로그인 오류가 발생했는지 확인할 수 있습니다.
+
+1. 왼쪽 탐색 영역에서 Teams 디바이스로 이동하여 **Teams 디바이스** 유형을 > 선택합니다. 예를 들어 Android 디바이스가 휴대폰인 경우 **휴대폰** 을 선택합니다.
+2. 로그인 실패를 보려는 휴대폰의 표시 이름을 클릭합니다. 그러면 디바이스의 세부 정보 페이지가 열립니다.
+3. 디바이스 세부 정보 페이지에서 **활동 탭을** 선택한 다음, 활동 유형 드롭다운 **에서 로그인 실패****를** 선택합니다.
+
+> [!NOTE]
+> 로그인하는 데 문제가 있는 디바이스에 대한 로그인 오류가 표시되지 않으면 디바이스의 펌웨어가 제조업체에서 제공하는 최신 버전에 있는지 확인합니다.
+
+반환되는 결과에는 다음 정보가 포함됩니다.
+
+- 로그인 실패가 발생한 시간입니다.
+- 디바이스에 로그인하려고 시도한 계정입니다.
+- 실패의 원인입니다.
+
 ### <a name="use-configuration-profiles-in-teams"></a>Teams에서 구성 프로필 사용
 
 구성 프로필을 사용하여 Android의 Teams 룸, Teams 디스플레이, Teams 전화 및 Teams 패널을 포함하여 조직의 다양한 Teams 디바이스에 대한 설정 및 기능을 관리합니다. 사용하거나 사용하지 않도록 설정할 설정 및 기능을 포함하도록 구성 프로필을 만들거나 업로드한 다음 디바이스 또는 디바이스 집합에 프로필을 할당할 수 있습니다. 
@@ -101,6 +118,7 @@ Teams 디바이스 유형에 대한 구성 프로필을 만들려면 다음을 �
    새로 만든 구성 프로필이 프로필 목록에 표시됩니다.
 
 #### <a name="assign-a-configuration-profile"></a>구성 프로필 할당
+
 Teams 디바이스 유형에 대한 구성 프로필을 만든 후 하나 이상의 디바이스에 할당합니다.
 
 1. 왼쪽 탐색 영역에서 **Teams 디바이스** 로 이동한 > Teams 디바이스 유형을 선택합니다. 예를 들어 Teams 패널 디바이스에 구성 프로필을 할당하려면 Teams **디바이스** > **Teams 패널을** 선택합니다.
