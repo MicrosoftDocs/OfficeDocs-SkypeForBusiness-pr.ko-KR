@@ -3,6 +3,42 @@
 
 
 
+## <a name="week-of-january-09-2023"></a>2023년 1월 9일 주
+
+
+| 게시됨 |토픽 제목 | 변경 |
+|------|------------|--------|
+| 1/9/2023 | [조직의 무료 Microsoft Teams(클래식) 사용 중지](/MicrosoftTeams/teams-add-on-licensing/remove-assign-free-licenses) | 추가 |
+| 1/9/2023 | [사용자의 전화 번호 가져오기](/MicrosoftTeams/getting-phone-numbers-for-your-users) | 으로 바뀌었습니다 |
+| 1/9/2023 | [통화 플랜에 대한 서비스 전화 번호 가져오기](/MicrosoftTeams/getting-service-phone-numbers) | 으로 바뀌었습니다 |
+| 1/9/2023 | [통화 플랜의 전화 번호 관리](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | 으로 바뀌었습니다 |
+| 1/9/2023 | [포트 주문 수동 제출](/MicrosoftTeams/phone-number-calling-plans/manually-submit-port-order) | 으로 바뀌었습니다 |
+| 1/9/2023 | [Microsoft Teams로 전화 번호 전송](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams) | 으로 바뀌었습니다 |
+| 1/10/2023 | [GCC High 및 DoD에 대한 자동 전화 교환 및 통화 큐 기록 보고서](/MicrosoftTeams/aa-cq-cqd-historical-reports-v163) | 으로 바뀌었습니다 |
+| 1/10/2023 | [자동 전화 교환 및 통화 큐 기록 보고서가 업데이트됨](/MicrosoftTeams/aa-cq-cqd-historical-reports) | 으로 바뀌었습니다 |
+| 1/10/2023 | [Microsoft Teams에 대한 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | 으로 바뀌었습니다 |
+| 1/10/2023 | [Microsoft Teams 자동 전화 교환 설정](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 으로 바뀌었습니다 |
+| 1/10/2023 | [Microsoft Teams 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | 으로 바뀌었습니다 |
+| 1/10/2023 | [Microsoft Teams에서 통화 큐 만들기](/MicrosoftTeams/create-a-phone-system-call-queue) | 으로 바뀌었습니다 |
+| 1/10/2023 | [Teams에서 리소스 계정 관리](/MicrosoftTeams/manage-resource-accounts) | 으로 바뀌었습니다 |
+| 1/10/2023 | [Microsoft Teams에서 스트리밍을 위한 인코더 구성](/MicrosoftTeams/teams-encoder-configuration) | 추가 |
+| 1/10/2023 | [Microsoft Teams에서 스트리밍을 위한 인코더 설정](/MicrosoftTeams/teams-encoder-setup) | 추가 |
+| 1/10/2023 | [Microsoft Teams에서 스트림 만들기](/MicrosoftTeams/teams-stream-create-event) | 추가 |
+| 1/10/2023 | [Microsoft Teams에서 비디오 배달 크기 조정](/MicrosoftTeams/teams-stream-ecdn) | 추가 |
+| 1/10/2023 | [Microsoft Teams의 스트리밍 인코더 개요](/MicrosoftTeams/teams-stream-overview) | 추가 |
+| 1/10/2023 | [Microsoft Teams에서 라이브 스트리밍 문제 해결](/MicrosoftTeams/teams-stream-troubleshooting) | 추가 |
+| 1/10/2023 | [Microsoft Teams에서 실시간 이벤트 설정](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 으로 바뀌었습니다 |
+| 1/10/2023 | [Microsoft Teams 라이브 이벤트란 무엇인가요?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 으로 바뀌었습니다 |
+| 1/11/2023 | [팀 의료 서식 파일 사용](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | 으로 바뀌었습니다 |
+| 1/11/2023 | [금융 팀 템플릿 사용](/MicrosoftTeams/financial-teams-templates-in-the-admin-console) | 으로 바뀌었습니다 |
+| 1/11/2023 | [Teams 관리 센터에서 팀 템플릿 시작하기](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 으로 바뀌었습니다 |
+| 1/11/2023 | [관리 센터에서 제조 팀 템플릿 시작](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | 으로 바뀌었습니다 |
+| 1/11/2023 | [비영리 팀 템플릿 사용](/MicrosoftTeams/team-templates-nonprofit) | 으로 바뀌었습니다 |
+| 1/11/2023 | [Microsoft Teams의 통화 정책: 통화 및 착신 전환 기능](/MicrosoftTeams/teams-calling-policy) | 으로 바뀌었습니다 |
+| 1/13/2023 | [Microsoft Teams에서 디바이스 관리](/MicrosoftTeams/devices/device-management) | 으로 바뀌었습니다 |
+| 1/13/2023 | [Microsoft Teams 룸 관리](/MicrosoftTeams/rooms/rooms-manage) | 으로 바뀌었습니다 |
+
+
 ## <a name="week-of-january-02-2023"></a>2023년 1월 2일 주
 
 
@@ -52,39 +88,3 @@
 | 12/16/2022 | [Android에서 Microsoft Teams 룸 배포](/MicrosoftTeams/devices/collab-bar-deploy) | 으로 바뀌었습니다 |
 | 12/16/2022 | [원격으로 Microsoft Teams 디바이스 업데이트](/MicrosoftTeams/devices/remote-update) | 으로 바뀌었습니다 |
 | 12/16/2022 | [Windows 보안에 대한 Microsoft Teams 룸](/MicrosoftTeams/rooms/security-windows) | 으로 바뀌었습니다 |
-
-
-## <a name="week-of-december-05-2022"></a>2022년 12월 5일 주
-
-
-| 게시됨 |토픽 제목 | 변경 |
-|------|------------|--------|
-| 12/5/2022 | [Microsoft Teams에서 Bookings 앱 관리](/MicrosoftTeams/bookings-app-admin) | 으로 바뀌었습니다 |
-| 12/5/2022 | [중요한 모임에 대한 Microsoft Teams 모임 로비 구성](/MicrosoftTeams/configure-lobby-sensitive-meetings) | 추가 |
-| 12/5/2022 | [기준 보호를 사용하여 Teams 모임 구성](/MicrosoftTeams/configure-meetings-baseline-protection) | 추가 |
-| 12/5/2022 | [매우 중요한 데이터에 대한 보호를 사용하여 Teams 모임 구성](/MicrosoftTeams/configure-meetings-highly-sensitive-protection) | 추가 |
-| 12/5/2022 | [중요한 데이터에 대한 보호를 사용하여 Teams 모임 구성](/MicrosoftTeams/configure-meetings-sensitive-protection) | 추가 |
-| 12/5/2022 | [세 가지 보호 계층으로 Teams 모임 구성](/MicrosoftTeams/configure-meetings-three-tiers-protection) | 추가 |
-| 12/5/2022 | [Microsoft Teams에서 사용자 지정 모임 템플릿 만들기](/MicrosoftTeams/create-custom-meeting-template) | 추가 |
-| 12/5/2022 | [Teams 모임에 대한 사용자 지정 모임 배경](/MicrosoftTeams/custom-meeting-backgrounds) | 추가 |
-| 12/5/2022 | [Microsoft Teams의 사용자 지정 모임 템플릿 개요](/MicrosoftTeams/custom-meeting-templates-overview) | 추가 |
-| 12/5/2022 | [중요한 Teams 모임에 종단 간 암호화 필요](/MicrosoftTeams/end-to-end-encrypted-meetings) | 추가 |
-| 12/5/2022 | [Microsoft Teams Premium - 관리자 개요](/MicrosoftTeams/enhanced-teams-experience) | 추가 |
-| 12/5/2022 | [중요한 Teams 모임에 대한 채팅 관리](/MicrosoftTeams/manage-chat-sensitive-meetings) | 추가 |
-| 12/5/2022 | [중요한 Teams 모임에 대한 모임 프레젠테이션 환경 관리](/MicrosoftTeams/manage-meeting-presentation-experience) | 추가 |
-| 12/5/2022 | [중요한 모임에 대한 Microsoft Teams 모임 녹음/녹화 옵션 관리](/MicrosoftTeams/manage-meeting-recording-options) | 추가 |
-| 12/5/2022 | [Microsoft Teams에서 모임 템플릿 관리](/MicrosoftTeams/manage-meeting-templates) | 추가 |
-| 12/5/2022 | [Microsoft Teams에서 가상 약속 앱 관리](/MicrosoftTeams/manage-virtual-appointments-app) | 추가 |
-| 12/5/2022 | [일반 모임 정책 관리](/MicrosoftTeams/meeting-policies-in-teams-general) | 으로 바뀌었습니다 |
-| 12/5/2022 | [중요한 모임에 Teams 모임 템플릿, 민감도 레이블 및 관리자 정책을 함께 사용합니다.](/MicrosoftTeams/meeting-templates-sensitivity-labels-policies) | 추가 |
-| 12/5/2022 | [Teams 모임을 위한 모임 테마](/MicrosoftTeams/meeting-themes) | 추가 |
-| 12/5/2022 | [모임, 웨비나 및 라이브 이벤트](/MicrosoftTeams/quick-start-meetings-live-events) | 으로 바뀌었습니다 |
-| 12/5/2022 | [웨비나 설정](/MicrosoftTeams/set-up-webinars) | 으로 바뀌었습니다 |
-| 12/5/2022 | [Microsoft Teams Premium 라이선스](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | 추가 |
-| 12/5/2022 | [Microsoft Teams 추가 기능 라이선스](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 으로 바뀌었습니다 |
-| 12/5/2022 | [중요한 Teams 모임에 워터마크 필요](/MicrosoftTeams/watermark-meeting-content-video) | 추가 |
-| 12/7/2022 | [소규모 비즈니스를 위한 Microsoft Teams Essentials 빠른 시작 가이드](/MicrosoftTeams/get-started-with-teams-essentials) | 으로 바뀌었습니다 |
-| 12/7/2022 | [무료 Microsoft Teams(클래식) 관리](/MicrosoftTeams/manage-freemium) | 으로 바뀌었습니다 |
-| 12/7/2022 | [Microsoft Teams의 필수 모바일 진단 데이터](/MicrosoftTeams/policy-control-diagnostic-data-mobile) | 으로 바뀌었습니다 |
-| 12/7/2022 | [무료 Microsoft Teams(클래식) 구독으로 업그레이드](/MicrosoftTeams/upgrade-freemium) | 으로 바뀌었습니다 |
-| 12/8/2022 | [실시간 원격 분석을 사용하여 모임 품질 저하 문제 해결](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | 으로 바뀌었습니다 |
