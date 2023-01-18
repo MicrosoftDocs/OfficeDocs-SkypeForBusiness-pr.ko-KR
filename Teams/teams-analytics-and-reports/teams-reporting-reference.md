@@ -1,5 +1,5 @@
 ---
-title: Teams 분석 및 보고 Microsoft
+title: Microsoft Teams 분석 및 보고
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -19,31 +19,37 @@ description: 이 문서에서는 Microsoft Teams 관리 센터에서 사용할 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0a688a3356ce31dd478c35082195ace8f6be4d47
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: e93a34f19ecf53e05a51fe36983a9f46f741e67e
+ms.sourcegitcommit: 40cba40b1babdb3fbfc1a416b7eeb0118f8353df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307663"
+ms.lasthandoff: 01/18/2023
+ms.locfileid: "69820323"
 ---
-# <a name="microsoft-teams-analytics-and-reporting"></a>Teams 분석 및 보고 Microsoft
+# <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 분석 및 보고
 
 Microsoft Teams에 대한 새로운 분석 및 보고 환경은 Microsoft Teams 관리 센터에서 사용할 수 있습니다. 다양한 보고서를 실행하여 조직의 사용자가 Teams를 사용하는 방법에 대한 인사이트를 얻을 수 있습니다. 예를 들어 채널 및 채팅 메시지를 통해 통신하는 사용자 수와 Teams에 연결하는 데 사용하는 디바이스 종류를 확인할 수 있습니다. 조직은 보고서의 정보를 사용하여 사용 패턴을 더 잘 이해하고, 비즈니스 의사 결정을 내리고, 교육 및 커뮤니케이션 활동을 알릴 수 있습니다.
 
 ## <a name="how-to-access-the-reports"></a>보고서에 액세스하는 방법
 
-보고서에 액세스하려면 Microsoft 365 또는 Office 365 전역 관리자, Microsoft 365 또는 Office 365 전역 읽기 권한자, Teams 서비스 관리자 또는 비즈니스용 Skype 관리자여야 합니다. Teams 관리자 역할 및 각 관리자 역할이 액세스할 수 있는 보고서에 대한 자세한 내용은 [Teams 관리자 역할을 사용하여 Teams 관리를](../using-admin-roles.md) 참조하세요.
+보고서에 액세스하려면 다음 역할 중 하나를 할당받아야 합니다.
+
+- 전역 관리자.
+- Teams 또는 비즈니스용 Skype 관리자.
+- 전역 판독기(테넌트 수준 집계만, 사용자 또는 팀 데이터 없음)
+
+Teams 관리자 역할 및 각 관리자 역할이 액세스할 수 있는 보고서에 대한 자세한 내용은 [Teams 관리자 역할을 사용하여 Teams 관리를](../using-admin-roles.md) 참조하세요.
 
 Microsoft Teams 관리 센터로 이동하여 왼쪽 탐색 영역에서 **분석 & 보고서를** 선택한 다음 **보고서 보기** 에서 실행할 보고서를 선택합니다.
 
 > [!NOTE]
-> Microsoft Teams 관리 센터의 보고서는 Microsoft 365 관리 센터 Microsoft 365 보고서의 일부인 Teams의 활동 보고서와는 별개입니다. Microsoft 365 관리 센터 활동 보고서에 대한 자세한 내용은 [관리 센터에서 Microsoft 365 보고서를 참조하세요](/microsoft-365/admin/activity-reports/activity-reports).
+> Microsoft Teams 관리 센터의 보고서는 Microsoft 365 관리 센터 Microsoft 365 보고서의 일부인 Teams의 활동 보고서와는 별개입니다. Microsoft 365 관리 센터 활동 보고서에 대한 자세한 내용은 [관리 센터의 Microsoft 365 보고서를 참조하세요](/microsoft-365/admin/activity-reports/activity-reports).
 
 ## <a name="teams-reporting-reference"></a>Teams 보고 참조
 
 다음은 다양한 환경의 Microsoft Teams 관리 센터에서 사용할 수 있는 Teams 보고서 목록과 각 보고서에서 사용할 수 있는 일부 정보의 개요입니다.
 
-Teams 보고 환경을 지속적으로 개선하고 기능과 기능을 추가하고 있습니다. 시간이 지남에 따라 보고서에 추가 기능을 구축하고 Microsoft Teams 관리 센터에서 새 보고서를 추가할 예정입니다.
+Teams 보고 환경을 지속적으로 개선하고 기능과 기능을 추가하고 있습니다. 시간이 지남에 따라 보고서에 추가 기능을 빌드하고 Microsoft Teams 관리 센터에서 새 보고서를 추가할 예정입니다.
 
 |보고서  |공용 |Gcc |GCCH |국방부 |측정된 항목은 무엇인가요? |
 |---------|---------|---------|---------|---------|---------|
@@ -64,7 +70,7 @@ Teams 보고 환경을 지속적으로 개선하고 기능과 기능을 추가�
 
 ## <a name="make-the-user-specific-data-anonymous"></a>사용자 특정 데이터를 익명으로 만들기
 
-Teams 사용자 활동 보고서의 데이터를 익명으로 만들려면 전역 관리자여야 합니다. 전역 관리자는 보고서 및 내보내기에서 표시 이름, 그룹 이름, 전자 메일 및 AAD ID와 같은 식별 가능한 정보(MD5 해시 사용)를 숨길 수 있습니다.
+사용 보고서에서 식별 가능한 정보를 익명으로 만들려면 전역 관리자 합니다. 전역 관리자 보고서 및 내보내기에서 표시 이름, 그룹 이름, 전자 메일 및 AAD ID와 같은 식별 가능한 정보(MD5 해시 사용)를 숨길 수 있습니다.
 
 1. Microsoft 365 관리 센터 **설정** \> **조직 설정** 으로 이동하고 **서비스** 탭에서 **보고서를** 선택합니다.
     

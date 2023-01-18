@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 최상의 결과를 생성하기 위해 Microsoft Teams에 대해 인증된 책상 및 전화 회의 전화기를 알아봅니다.
-ms.openlocfilehash: 26d5e0c4ec5255629183f4720fcfca6b816f86db
-ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
+ms.openlocfilehash: fc9b078744f2d681989ed49befd4ba84b4aec90a
+ms.sourcegitcommit: 40cba40b1babdb3fbfc1a416b7eeb0118f8353df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2023
-ms.locfileid: "69812835"
+ms.lasthandoff: 01/18/2023
+ms.locfileid: "69820343"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 인증 Android 디바이스
 
@@ -431,6 +431,7 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 | 디바이스 모델  | 펌웨어 버전 | 포함된 제품 릴리스|
 |:--------------|:-----------------|:-------------------------|
+|Logitech Tap Scheduler | `1.8.181` |2022년 업데이트 #4  |
 |Yealink RoomPanel | ` 147.15.0.36 ` | 2022년 업데이트 #4 |
 |깔끔한 패드 패널 | `NFA1.20220914.1215` | 2022 업데이트 #3A  |
 |깔끔한 패드 패널 | `NFA1.20220914.1206` | 2022 업데이트 #3A  |
