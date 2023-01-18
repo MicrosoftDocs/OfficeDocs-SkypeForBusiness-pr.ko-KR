@@ -28,12 +28,12 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-call-queue-experiment
 description: Microsoft Teams에서 통화 큐를 설정하는 방법을 알아봅니다. 통화 큐는 인사말 메시지를 제공하고, 음악을 누르고, 리디렉션을 호출하고, 기타 기능을 제공합니다.
-ms.openlocfilehash: 4b12b1e89b11902299f973a97bdace44a841029e
-ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
+ms.openlocfilehash: b7bb107dc87ababd9c514655521525b6997fac29
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2023
-ms.locfileid: "69763569"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812725"
 ---
 # <a name="create-a-call-queue-in-microsoft-teams"></a>Microsoft Teams에서 통화 큐 만들기
 
@@ -400,10 +400,10 @@ Teams 채널을 통해 최대 200명의 에이전트를 추가할 수 있습니�
 2. Microsoft Teams iPhone 앱, Microsoft Teams Android 앱.
 3. 에이전트 라우팅 방법에 대해 가장 긴 유휴 상태를 선택하면 프레즌스 기반 라우팅이 자동으로 활성화됩니다.
 4. 에이전트가 호출될 순서를 설정할 수 없습니다.
-5. 전화 통화가 위치 기반 라우팅에 사용하도록 설정된 직접 라우팅 게이트웨이에서 큐로 라우팅되는 경우 회의 모드가 지원되지 않습니다.
+5. 전화 통화가 Location-Based 라우팅에 사용하도록 설정된 직접 라우팅 게이트웨이에서 큐로 라우팅되는 경우 회의 모드가 지원되지 않습니다. Location-Based 라우팅을 사용한 통화 큐 구현은 [음성 앱(자동 전화 교환 또는 통화 큐)](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue)을 참조하세요.
 6. Microsoft Teams 전화 시스템만.
 7. 의 사용자 설정 포털 페이지를 [https://aka.ms/vmsettings](https://aka.ms/vmsettings)통해
-8. 공용 채널만 지원됩니다.
+8. 표준 채널만 지원됩니다.
 9. 자동 전화 교환 및 통화 큐는 PSTN 연결 방법 간에 통화를 전송할 수 없습니다.
 10. GCCH/DOD의 경우 다음 위치에서 사용자 설정 포털을 통해서만 사용할 수 있습니다.
 - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)

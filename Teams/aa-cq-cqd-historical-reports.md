@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 업데이트된 Teams 자동 전화 교환 & 통화 큐 기록 보고서 Power BI 보고서를 사용하여 자동 전화 교환 및 통화 큐 기록 데이터를 보는 방법에 대해 알아봅니다.
-ms.openlocfilehash: ed267cf2d96f15236aa68339049d2c721249ec00
-ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
+ms.openlocfilehash: 0ff8e7d1b5a1b9901c5b8a5da49d67fbf8ac5275
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2023
-ms.locfileid: "69763559"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812735"
 ---
 # <a name="auto-attendant-and-call-queue-historical-reports"></a>자동 전화 교환 및 통화 큐 기록 보고서
 
@@ -302,9 +302,13 @@ Power BI Desktop 설치해야 합니다. [Microsoft Windows 스토어](https://a
 
 ## <a name="known-issues"></a>알려진 문제
 
-- 통화 큐 및 자동 전화 교환은 통화 큐/자동 전화 교환 이름 대신 리소스 계정의 ID로 표시됩니다.  자동 전화 교환 또는 통화 큐에 대한 모든 트래픽을 표시하려면 자동 전화 교환 또는 통화 큐에 할당된 모든 리소스 계정을 선택해야 합니다.
+- **통화 큐** 보고서의 **통화 결과** 시각적 개체는 많은 수의 **_알 수 없는_** 호출을 보고할 수 있습니다. 이는 지원에서 수정하기 위해 작업 중인 호출 분류 문제 때문입니다.  이는 호출 분류 문제일 뿐이며 이러한 호출은 시스템에서 성공적으로 처리되었습니다.
 
-- 통화 큐/자동 전화 교환 데이터가 개인 데이터로 간주되고 데이터 개인 정보 보존 정책이 적용되므로 대시보드에서 28일의 기록만 사용할 수 있습니다.
+- 첫 번째 자동 전화 교환 또는 통화 큐에서 호출에 응답하는 호출 및 호출자 작업만 보고됩니다.  연결된 자동 전화 교환(한 자동 전화 교환이 다른 자동 전화 교환으로 전송되는 경우) 또는 연결된 통화 큐(한 통화 큐가 다른 통화 큐로 전송되는 경우)의 통화 및 호출자 작업은 보고되지 않습니다. 
+
+- 통화 큐 및 자동 전화 교환은 통화 큐 또는 자동 전화 교환 이름 대신 리소스 계정의 ID로 표시됩니다.  자동 전화 교환 또는 통화 큐에 대한 모든 트래픽을 표시하려면 자동 전화 교환 또는 통화 큐에 할당된 모든 리소스 계정을 선택해야 합니다.
+
+- 통화 큐 및 자동 전화 교환 데이터는 개인 데이터로 간주되며 데이터 개인 정보 보존 정책의 적용을 받기 때문에 대시보드에서 28일의 기록만 사용할 수 있습니다.
 
 - 일부 시나리오에서는 **클라우드 통화 큐 에이전트 타임라인** 보고서에서 에이전트가 응답한 통화 수가 Teams 클라이언트 통화 기록에 표시된 통화 수와 다를 수 있습니다. Teams 클라이언트 호출 기록이 올바르습니다. 지원은 조사 중이지만 현재 복구할 수 있는 예상 시간은 없습니다.
 

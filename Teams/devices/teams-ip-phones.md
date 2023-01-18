@@ -21,33 +21,33 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 - seo-marvel-apr2020
-description: 최상의 결과를 Microsoft Teams에 대해 인증된 책상 및 회의 전화기를 알아봅니다.
-ms.openlocfilehash: 4117cffe61e10c968cb92777ab5158732a62df21
-ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
+description: 최상의 결과를 생성하기 위해 Microsoft Teams에 대해 인증된 책상 및 전화 회의 전화기를 알아봅니다.
+ms.openlocfilehash: 26d5e0c4ec5255629183f4720fcfca6b816f86db
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2022
-ms.locfileid: "69438286"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812835"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 인증 Android 디바이스
 
-Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 전체 Teams 환경(오디오, 비디오, 사용자 인터페이스)에서 더 높은 성능 목표와 품질 메트릭을 통해 높은 표준을 충족하도록 보장합니다. Microsoft 및 OEM 파트너는 디바이스가 보안, 오디오 및 비디오 품질, Teams 환경 및 접근성을 비롯한 모든 인증 요구 사항을 충족할 수 있도록 적극적으로 협력하고 있습니다.
+Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 전체 Teams 환경(오디오, 비디오, 사용자 인터페이스)에서 더 높은 성능 목표와 품질 메트릭을 통해 높은 표준을 충족하도록 보장합니다. Microsoft와 OEM 파트너는 디바이스가 보안, 오디오 및 비디오 품질, Teams 환경 및 접근성을 비롯한 모든 인증 요구 사항을 충족할 수 있도록 적극적으로 협력하고 있습니다.
 
 > [!IMPORTANT]
-> Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 하드웨어 디자인 및 성능에 대한 특정 요구 사항만 충족하도록 보장합니다. 인증 프로그램은 기능 수준 또는 클라우드 환경 지원을 평가하지 않습니다.
+> Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 하드웨어 디자인 및 성능에 대한 특정 요구 사항을 충족하도록 보장합니다. 인증 프로그램은 기능 수준 또는 클라우드 환경 지원을 평가하지 않습니다.
 >
 > 클라우드 환경 지원을 포함하여 Windows의 Teams 룸 및 Android에서 Teams 룸 지원되는 기능에 대한 자세한 내용은 [Windows 및 Android 기능 비교의 Teams 룸](../rooms/teams-devices-feature-comparison.md) 참조하세요.
 
 인증 프로그램은 모든 인증된 디바이스가 Teams 및 Teams 관리 센터에 필요한 기능 집합으로 Android 버전을 실행하도록 설계되었습니다. 인증 종료 날짜는 인증 프로그램에 들어갈 때 디바이스에서 실행되는 Android OS 버전을 기반으로 합니다. OEM 파트너는 Android OS 버전을 업그레이드하고 다시 인증하거나 최신 모델을 릴리스하여 인증 수명을 연장하기 위해 노력하고 있습니다.
 
-인증 기간 이후 Microsoft 인증 기간이 끝난 후 2년 동안 이러한 디바이스에서 최신 버전의 Teams 클라이언트를 지원하기 위해 최선을 다하고 있습니다.
+인증 기간 이후 Microsoft는 인증 기간이 끝난 후 2년 동안 이러한 디바이스에서 최신 버전의 Teams 클라이언트를 지원하기 위해 최선을 다하고 있습니다.
 
 >[!NOTE]
 >인증 종료 날짜는 최신 Android OS 버전으로 업그레이드하려는 OEM 파트너 계획에 따라 정기적으로 업데이트됩니다.
 
 ## <a name="certified-teams-phones"></a>인증된 Teams 휴대폰
 
-다음 디바이스는 Microsoft Teams 전화 인증 프로그램에서 인증됩니다.
+다음 디바이스는 Microsoft Teams 휴대폰 인증 프로그램에서 인증됩니다.
 
 |디바이스 모델    | 펌웨어 버전    | 현재 인증 종료 날짜 | Android OS 버전                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
@@ -63,7 +63,6 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 | AudioCodes C435HD                      | `1.12.33`                                                  | 2023년 8월 5일               | 9 |
 | AudioCodes C455HD                      | `1.14.404`                                                 | 2023년 8월 5일               | 9 |
 | 크레스트론 UC-2                          |`1.0.1.46`                                                  | 2023년 8월 5일               | 9 |
-| Lenovo ThinkSmart View                 | `CD-18781Y.200410.067`                                     | 2022년 12월 5일             | 8.1 |
 | Poly Trio C60, Trio C60 NR, Trio C60 ND | `5.9.3.6155`                                              | 2023년 8월 5일               | 9 |
 | Poly CCX400                            | `1.0.0.0200`                                               | 2023년 8월 5일               | 9 |
 | Poly CCX600                            | `5.9.12.1122`                                              | 2023년 8월 5일               | 9 |
@@ -106,14 +105,13 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 ## <a name="certified-teams-displays"></a>인증된 Teams 디스플레이
 
-다음 디바이스는 Teams에서 Android 인증 프로그램을 표시하는 Microsoft 인증됩니다.
+다음 디바이스는 Microsoft Teams Displays Android 인증 프로그램에서 인증됩니다.
 
 | 디바이스 모델 | 펌웨어 버전 | 현재 인증 종료 날짜  | Android OS 버전 |
 |:------------------------|:-----------------|:--------------|----------------------------------|
 | 깔끔한 프레임 nf21f1 | `NFF1.20220914.1210` | 2024년 9월 3일 | 10 |
 | 크레스트론 UC-P8-TD |`1.0.0.42`| 2023년 8월 5일 |  9  |
 | 크레스트론 UC-P10-TD |`1.0.0.42`| 2023년 8월 5일 |  9  |
-|Lenovo ThinkSmart View|`CD-18781Y.201006.099`| 2022년 12월 5일 |  8.1  |
 
 ## <a name="certified-teams-panels"></a>인증된 Teams 패널
 다음 디바이스는 Microsoft Teams 패널 인증 프로그램에서 인증됩니다.
@@ -161,7 +159,7 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 #### <a name="firmware-versions"></a>펌웨어 버전
 
-디바이스에 새 펌웨어 버전을 설치하는 경우 Microsoft Teams 앱, 회사 포털 및 관리 에이전트의 해당 설치된 버전을 확인할 수 있습니다. **포함된 제품 릴리스 열에서 제품 릴리스** 를 찾은 다음 이전 **앱 버전** 테이블에서 제품 릴리스를 조회합니다.
+디바이스에 새 펌웨어 버전을 설치할 때 설치된 Microsoft Teams 앱, 회사 포털 및 관리 에이전트의 해당 버전을 확인할 수 있습니다. **포함된 제품 릴리스 열에서 제품 릴리스** 를 찾은 다음 이전 **앱 버전** 테이블에서 제품 릴리스를 조회합니다.
 
 | 디바이스 모델  | 펌웨어 버전  | 포함된 제품 릴리스  |
 |:----------------|:--------------|:----------------------------|
@@ -261,7 +259,7 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 | Yealink VP59        | `91.15.0.54`         | 2020년 업데이트 #7           |
 | Yealink CP960       | `73.15.0.115`      | 2020년 업데이트 #7           |
 
-이러한 디바이스에서 지원하는 기능에 대한 자세한 내용은 [Microsoft Teams 휴대폰 기능 집합](phones-for-teams.md)을 참조하세요.
+이러한 디바이스에서 지원하는 기능에 대한 자세한 내용은 [Microsoft Teams 휴대폰 기능 집합](phones-for-teams.md) 을 참조하세요.
 
 [Microsoft Teams 디스플레이를 참조하세요](teams-displays.md).
 
@@ -288,7 +286,7 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 #### <a name="firmware-versions"></a>펌웨어 버전
 
-디바이스에 새 펌웨어 버전을 설치할 때 **포함된 제품 릴리스** 열에서 제품 릴리스를 찾아 설치한 해당 Microsoft Teams 앱, 회사 포털 및 관리 Agent 버전을 확인할 수 있습니다. 그런 다음 위의 **앱 버전** 테이블에서 제품 릴리스를 조회합니다.
+디바이스에 새 펌웨어 버전을 설치할 때 **포함된 제품 릴리스** 열에서 제품 릴리스를 찾아 설치한 해당 Microsoft Teams 앱, 회사 포털 및 관리 에이전트 버전을 확인할 수 있습니다. 그런 다음 위의 **앱 버전** 테이블에서 제품 릴리스를 조회합니다.
 
 | 디바이스 모델  | 펌웨어 버전 | 포함된 제품 릴리스 |
 |:--------------|:-----------------|:-------------------------|
@@ -399,7 +397,7 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 #### <a name="firmware-versions"></a>펌웨어 버전
 
-디바이스에 새 펌웨어 버전을 설치할 때 **포함된 제품 릴리스** 열에서 제품 릴리스를 찾아 설치한 해당 Microsoft Teams 앱, 회사 포털 및 관리 Agent 버전을 확인할 수 있습니다. 그런 다음 위의 **앱 버전** 테이블에서 제품 릴리스를 조회합니다.
+디바이스에 새 펌웨어 버전을 설치할 때 **포함된 제품 릴리스** 열에서 제품 릴리스를 찾아 설치한 해당 Microsoft Teams 앱, 회사 포털 및 관리 에이전트 버전을 확인할 수 있습니다. 그런 다음 위의 **앱 버전** 테이블에서 제품 릴리스를 조회합니다.
 
 | 디바이스 모델  | 펌웨어 버전 | 포함된 제품 릴리스|
 |:--------------|:-----------------|:-------------------------|
@@ -429,7 +427,7 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 #### <a name="firmware-versions"></a>펌웨어 버전
 
-디바이스에 새 펌웨어 버전을 설치할 때 **포함된 제품 릴리스** 열에서 제품 릴리스를 찾아 설치한 해당 Microsoft Teams 앱, 회사 포털 및 관리 Agent 버전을 확인할 수 있습니다. 그런 다음 위의 **앱 버전** 테이블에서 제품 릴리스를 조회합니다.
+디바이스에 새 펌웨어 버전을 설치할 때 **포함된 제품 릴리스** 열에서 제품 릴리스를 찾아 설치한 해당 Microsoft Teams 앱, 회사 포털 및 관리 에이전트 버전을 확인할 수 있습니다. 그런 다음 위의 **앱 버전** 테이블에서 제품 릴리스를 조회합니다.
 
 | 디바이스 모델  | 펌웨어 버전 | 포함된 제품 릴리스|
 |:--------------|:-----------------|:-------------------------|
@@ -453,7 +451,7 @@ Microsoft Teams 디바이스 인증 프로그램은 인증된 디바이스가 �
 
 ## <a name="more-resources"></a>추가 리소스
 
-이러한 디바이스에서 지원하는 기능에 대한 자세한 내용은 [Microsoft Teams 휴대폰 기능 집합](phones-for-teams.md)을 참조하세요.
+이러한 디바이스에서 지원하는 기능에 대한 자세한 내용은 [Microsoft Teams 휴대폰 기능 집합](phones-for-teams.md) 을 참조하세요.
 
 [모바일 디바이스에서 디바이스 펌웨어 버전을 확인하려면 모바일 디바이스에서 펌](phones-for-teams.md)웨어 버전 찾기를 참조하세요.
 
@@ -463,6 +461,6 @@ Teams를 가져오는 방법에 대한 자세한 내용은 [Microsoft Teams에 �
 
 인증 프로그램에 참여하려는 공급업체인 경우 요구 사항 및 사용 가능한 프로그램에 [가입하는 방법을](/skypeforbusiness/certification/how-to-join) 참조하세요.
 
-[Microsoft Teams 휴대폰 및 인증된 디바이스를 탐색합니다.](https://products.office.com/microsoft-teams/across-devices/devices)
+[Microsoft Teams 휴대폰 및 인증된 디바이스를 살펴보세요.](https://products.office.com/microsoft-teams/across-devices/devices)
 
 [Teams 및 Skype 상호 운용성](../teams-skype-interop.md)

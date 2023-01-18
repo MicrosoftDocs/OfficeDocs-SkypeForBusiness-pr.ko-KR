@@ -12,12 +12,12 @@ ms.collection:
 description: Microsoft Teams 관리에 사용되는 Teams PowerShell 모듈의 애플리케이션 기반 인증에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04cc2e3c069f30e44dd0c62a42be42fd1cce16b7
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 60d9bf64233db3f5e615c0904c6eb376f187266c
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307953"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812845"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell 모듈의 애플리케이션 기반 인증
 
@@ -47,6 +47,13 @@ ms.locfileid: "69307953"
   Connect-MicrosoftTeams -CertificateThumbprint "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" -ApplicationId "00000000-0000-0000-0000-000000000000" -TenantId "YYYYYYYY-YYYY-YYYY-YYYY-YYYYYYYYYYYY"
   ```
   CertificateThumbprint 매개 변수를 사용하는 경우 명령을 실행하는 컴퓨터에 인증서를 설치해야 합니다. 인증서는 사용자 인증서 저장소에 설치해야 합니다.
+  
+- 인증서 개체를 사용하여 연결:
+
+  ```powershell
+  Connect-MicrosoftTeams -Certificate <%X509Certificate2 object%> -ApplicationId "00000000-0000-0000-0000-000000000000" -TenantId "YYYYYYYY-YYYY-YYYY-YYYY-YYYYYYYYYYYY"
+  ```
+  Certificate 매개 변수를 사용하는 경우 명령을 실행하는 컴퓨터에 인증서를 설치할 필요가 없습니다. 스크립트를 실행할 때 & 인증서를 원격으로 저장할 수 있습니다. Certificate 매개 변수는 Teams PowerShell 모듈 버전 4.9.2-preview 이상에서 사용할 수 있습니다.
   
 - 액세스 토큰을 사용하여 연결:
   
@@ -92,7 +99,7 @@ Azure Ad에서 애플리케이션을 만들기 위한 샘플 단계는 아래에
 1. Azure AD 애플리케이션 등록
 2. 애플리케이션에 API 권한 할당
    - -Cs cmdlet의 경우 \*필요한 Microsoft Graph API 권한은 입니다`Organization.Read.All`.
-   - 비 \*Cs cmdlet의 경우 필요한 Microsoft Graph API 권한은 , , `User.Read.All`, `Group.ReadWrite.All`, `AppCatalog.ReadWrite.All``TeamSettings.ReadWrite.All`, , `Channel.Delete.All`, `ChannelSettings.ReadWrite.All`, `ChannelMember.ReadWrite.All`입니다`Organization.Read.All`.  
+   - 비 \*Cs cmdlet의 경우 필요한 Microsoft Graph API 권한은 , , `User.Read.All`, `Group.ReadWrite.All`, `AppCatalog.ReadWrite.All``TeamSettings.ReadWrite.All`, `Channel.Delete.All`, , `ChannelSettings.ReadWrite.All`, `ChannelMember.ReadWrite.All`입니다`Organization.Read.All`.  
 3. 자체 서명된 인증서 생성
 4. 인증서를 Azure AD 애플리케이션에 연결
 5. 애플리케이션에 [Azure AD 역할](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) 할당

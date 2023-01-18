@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell의 최신 변경 내용에 대해 알아봅니다.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29fcd5c5c9f12ae4d7ab9fe965ead62bd8f89046
-ms.sourcegitcommit: 1fdf109a7a99b113ffbe77d62acb8bbb0107dfed
+ms.openlocfilehash: 009805fd9fd39884762effdb4009e16a594028ba
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "69036554"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812705"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 릴리스 정보
 
@@ -31,6 +31,7 @@ ms.locfileid: "69036554"
 
 | 날짜 | 버전 | 업데이트 |
 |------- | -------------------- | ------------------------------ |
+| 2023년 1월 | [4.9.2-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.9.2-preview) |<li>프라이빗 미리 보기에서 Get-CsSdgBulkSignInRequestStatus & New-CsSdgBulkSignInRequest cmdlet을 릴리스합니다.</li><li>Connect-MicrosoftTeams에 Certificate 매개 변수를 추가합니다.</li><li>[New\|Set]-CsCallQueue에 WelcomeTextToSpeechPrompt 매개 변수를 추가합니다.</li><li>Test-CsEffectiveTenantDialPlan & Test-CsVoiceNormalizationRule cmdlet에 대한 파이프라인 입력 문제를 해결합니다.</li>
 | 2022년 11월 | [4.9.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.9.1) |<li>GA의 Connect-MicrosoftTeams 애플리케이션 기반 인증 지원을 릴리스합니다. [Teams PowerShell 모듈의 애플리케이션 기반 인증에 대한](teams-powershell-application-authentication.md) 자세한 내용입니다.</li><li>[New\|Get\|Set\|Remove]-CsTeamsChannelsPolicy 및 [New\|Get\|Set\|Remove]-CsTeamsUpdateManagementPolicy의 새 구현을 포함합니다. 기능은 이전 구현과 동일하게 유지됩니다.</li><li>UseNewTeamsClient 매개 변수를 TeamsUpdateManagementPolicy에 추가합니다.</li><li>TeamsChannelsPolicy에 EnablePrivateTeamDiscovery 매개 변수를 추가합니다.</li><li>일부 정책 cmdlet에 대해 인증 토큰이 새로 고쳐지지 않는 문제를 해결합니다.</li><li>일부 cmdlet의 표시 형식이 손상된 문제를 해결합니다.</li><li>-Identity 매개 변수 없이 실행할 때 출력에 SipProxyAddress, TeamsMediaLoggingPolicy, CountryAbbreviation, UserValidationErrors 및 WhenCreated 특성을 Get-CsOnlineUser 추가합니다. 이러한 특성 중 CountryAbbreviation, UserValidationErros 및 WhenCreated는 아직 값을 표시하지 않습니다. 이러한 내용은 [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser)에서 점진적으로 출시될 예정입니다.</li><li>공유 채널에서 외부 멤버를 관리하기 위해 -User 매개 변수에 대해 UPN을 사용하는 Add-TeamChannelUser & Remove-TeamChannelUser 수정합니다.</li>
 | 2022년 10월 | [4.9.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.9.0) |<li>GA에서 [Get\|Set]-CsTeamsEducationConfiguration cmdlet을 릴리스합니다.</li><li>[New Get Set Remove]-CsTeamsFeedbackPolicy, [New\|Get\|Set\|Remove]-CsTeamsMessagingPolicy, [New\|Get\|Set\|Remove]-CsTeamsMeetingPolicy 및 [New Get\|Set\|Remove]-CsOnlineVoicemailPolicy의 새\|구현을 포함합니다.\|\|\| 기능은 이전 구현과 동일하게 유지됩니다.</li><li>ExplicitRecordingConsent, ForceStreamingAttendeeMode 매개 변수를 TeamsMeetingPolicy에 추가합니다.</li><li>Description, PreambleAudioFile, PostambleAudioFile, PreamblePostambleMandatory 매개 변수를 OnlineVoicemailPolicy에 추가합니다.</li><li>TeamsMessagingPolicy에 AllowChatWithGroup 매개 변수를 추가합니다.</li><li>TeamsFeedbackPolicy에 EnableFeatureSuggestions 매개 변수를 추가합니다.</li><li>Update-CsTeamsShiftsConnectionInstance cmdlet을 릴리스합니다.</li>
 | 2022년 10월 | [4.8.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.8.1-preview) |<li>[New Get Set Remove]-CsTeamsMessagingPolicy, [New\|Get\|Set\|Remove]-CsTeamsMeetingPolicy 및 [New\|Get\|Set\|Remove]-CsOnlineVoicemailPolicy의 새 구현을 포함합니다.\|\|\| 참고: 이러한 Cmdlet은 현재 powershell.exe만 작동합니다. 그들은 pwsh.exe 위해 작동하지 않습니다. 이 문제는 다음 GA 릴리스에서 수정될 예정입니다.</li><li>ExplicitRecordingConsent, ForceStreamingAttendeeMode 매개 변수를 TeamsMeetingPolicy에 추가합니다.</li><li>Description, PreambleAudioFile, PostambleAudioFile, PreamblePostambleMandatory 매개 변수를 OnlineVoicemailPolicy에 추가합니다.</li><li>AllowChatWithGroup 및 EnableFeatureSuggestions 매개 변수를 TeamsMessagingPolicy에 추가합니다.</li><li>Update-CsTeamsShiftsConnectionInstance cmdlet을 릴리스합니다.</li>

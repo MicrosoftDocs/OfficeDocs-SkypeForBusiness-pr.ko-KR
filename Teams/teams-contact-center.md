@@ -10,34 +10,34 @@ ms.reviewer: anblak
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: Microsoft Teams용 CCaaS(통합 컨택 센터 as a Service) 솔루션 개요
+description: Microsoft Teams용 CCaaS(통합 연락처 센터 as a Service) 솔루션 개요
 appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: ee3a64cb37e99c6ab452e735042935ec2148e994
-ms.sourcegitcommit: 548978550d58f8657d7035b57b736e9cf9b15984
+ms.openlocfilehash: f5916a09afc042c0dd2de65ece286efabc63a9e7
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "69163238"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812685"
 ---
-# <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams에 대한 컨택 센터 통합
+# <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams용 연락처 센터 통합
 
-  이 문서에서는 Microsoft Teams 연결된 컨택 센터 인증 프로그램에 참여하는 Microsoft Teams 및 솔루션 공급자와 컨택 센터 솔루션을 통합하는 방법에 대한 개요를 제공합니다.
+  이 문서에서는 Microsoft Teams 연결 컨택 센터 인증 프로그램에 참여하는 솔루션 공급자 및 Microsoft Teams와 컨택 센터 솔루션을 통합하는 방법에 대한 개요를 제공합니다.
 
-## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>Microsoft Teams에 대한 컨택 센터 통합이란?
+## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>Microsoft Teams용 연락처 센터 통합이란?
 
-Microsoft Teams는 채팅, 비디오 모임, 통화 등의 통신 모드에서 내부 및 외부 고객 연결의 허브 역할을 함으로써 고객 상호 작용 작업 스트림을 지원합니다. 일부 조직의 경우 [자동 전화 교환](./what-are-phone-system-auto-attendants.md) 및 [통화 큐](./create-a-phone-system-call-queue.md)를 포함하여 Teams의 [클라우드 음성 기능을](./cloud-voice-landing-page.md) Microsoft 요구 사항을 충족합니다.
+Microsoft Teams는 채팅, 비디오 모임 및 통화를 포함한 통신 모드에서 내부 및 외부 고객 연결의 허브 역할을 하여 고객 상호 작용 작업 스트림을 지원합니다. 일부 조직의 경우 [자동 전화 교환](./what-are-phone-system-auto-attendants.md) 및 [통화 큐](./create-a-phone-system-call-queue.md)를 비롯한 Microsoft Teams의 [클라우드 음성 기능이](./cloud-voice-landing-page.md) 요구 사항을 충족합니다.
 
-비즈니스 도구 및 워크플로가 있는 솔루션을 통해 고객 경험을 주도하려는 조직의 경우 Microsoft Teams에 대한 컨택 센터 통합을 통해 CCaaS(Contact Center as a Service) 솔루션 공급자가 솔루션을 Teams에 통합할 수 있습니다.
+비즈니스 도구 및 워크플로가 있는 솔루션을 통해 고객 경험을 주도하려는 조직의 경우 Microsoft Teams용 연락처 센터 통합을 통해 CCaaS(Contact Center as a Service) 솔루션 공급자가 솔루션을 Teams에 통합할 수 있습니다.
 
 
-## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft Teams 인증 프로그램을 위한 연결된 연락처 센터
+## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft Teams 인증 프로그램에 대한 연결된 연락처 센터
 
-Microsoft Teams 인증 프로그램에 대한 연결된 컨택 센터는 각 참여 공급자의 솔루션이 Microsoft 솔루션에서 기대하는 품질, 호환성 및 안정성을 제공하는지 확인합니다.
+Microsoft Teams용 연결된 연락처 센터 인증 프로그램은 각 참여 공급자의 솔루션이 Microsoft 솔루션에서 기대하는 품질, 호환성 및 안정성을 제공하는지 확인합니다.
 
-통합 연락처 센터 솔루션을 찾는 조직인 경우 인증된 솔루션 공급자 목록은 [연락처 센터에 대한 인증된 Microsoft Teams 솔루션을](https://cloudpartners.transform.microsoft.com/contact-center-solutions) 참조하고 인증 과정에서 공급자 목록은 [연결된 연락처 센터 솔루션을](#connected-contact-center-solutions) 참조하세요.
+통합 컨택 센터 솔루션을 찾는 조직인 경우 인증된 솔루션 공급자 목록은 [연락처 센터에 대한 인증된 Microsoft Teams 솔루션을](https://cloudpartners.transform.microsoft.com/contact-center-solutions) 참조하고 인증 과정에서 공급자 목록은 [연결된 연락처 센터 솔루션을](#connected-contact-center-solutions) 참조하세요.
 
 인증 프로그램에 참여하려는 공급업체인 경우 [다음 단계로 이 양식을](https://aka.ms/CallingPlatformIntake) 작성합니다. 추가 컨텍스트 및 세부 정보를 제공해야 하는 경우 [메일을 Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com) 보냅니다.
 
@@ -67,6 +67,7 @@ Microsoft Teams 인증 프로그램에 대한 연결된 컨택 센터는 각 참
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 | `Puzzel` | https://www.puzzel.com/microsoft-teams                            |
+| `ROGER365.io` | https://www.roger365.io/contact-center-teams                         |
 | `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Tendfor` | https://www.tendfor.com                                                            |
 
@@ -88,7 +89,6 @@ Microsoft Teams 인증 프로그램에 대한 연결된 컨택 센터는 각 참
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
-| `ROGER365.io` | https://www.roger365.io/contact-center-teams                         |
 | `Sikom` | http://www.sikom.de/microsoft-teams/                            |
 | `Solgari` | https://solgari.com/converse-for-teams/                       |
 | `Ultatel` | https://www.ultatel.com/microsoft-teams-contact-center/                     |

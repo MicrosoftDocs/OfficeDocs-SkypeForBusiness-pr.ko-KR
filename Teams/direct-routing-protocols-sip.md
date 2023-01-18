@@ -16,12 +16,12 @@ f1.keywords:
 description: 직접 라우팅 프로토콜
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5a05dbc6519c4f90cf0cc0d49e996467bf10230
-ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
+ms.openlocfilehash: 6cf7bf4040a75e59518312edd32c9c4e77f11728
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69414726"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812715"
 ---
 # <a name="direct-routing---sip-protocol"></a>직접 라우팅 - SIP 프로토콜
 
@@ -76,13 +76,13 @@ ms.locfileid: "69414726"
 
 3. 3단계는 2단계가 실패한 경우에만 적용됩니다. 
 
-   연락처 헤더(FQDN: sbc12.adatum.biz, 호스트 부분을 제거한 후 FQDN: adatum.biz)에 표시된 FQDN에서 호스트 부분을 제거하고 이 이름이 Microsoft 365 또는 Office 365 조직에서 DNS 이름으로 등록되었는지 확인합니다. 이 테넌트에서 사용자 조회가 수행됩니다. 찾을 수 없으면 호출이 실패합니다.
+   연락처 헤더(FQDN: sbc12.adatum.biz, 호스트 부분을 제거한 후 adatum.biz)에 표시된 FQDN에서 호스트 부분을 제거하고 이 이름이 Microsoft 365 또는 Office 365 조직에서 DNS 이름으로 등록되어 있는지 확인합니다. 이 테넌트에서 사용자 조회가 수행됩니다. 찾을 수 없으면 호출이 실패합니다.
 
 4. Request-URI에 표시된 전화 번호를 사용하여 2단계 또는 3단계에 있는 테넌트 내에서 역방향 번호 조회를 수행합니다. 제공된 전화 번호를 이전 단계에서 찾은 테넌트 내의 사용자 SIP URI와 일치합니다.
 
 5. 트렁크 설정을 적용합니다. 이 SBC에 대한 테넌트 관리자가 설정한 매개 변수를 찾습니다.
 
-   Microsoft 쌍을 이루는 SBC에서 만든 요청 URI를 수정할 수 있는 Microsoft SIP 프록시와 쌍을 이루는 SBC 사이에 타사 SIP 프록시 또는 사용자 에이전트 서버가 있는 것을 지원하지 않습니다.
+   Microsoft는 Microsoft SIP 프록시와 쌍을 이루는 SBC 간에 타사 SIP 프록시 또는 사용자 에이전트 서버를 보유하는 것을 지원하지 않습니다. 이 서버는 쌍을 이루는 SBC에서 만든 요청 URI를 수정할 수 있습니다.
 
    하나의 SBC가 많은 테넌트(통신 사업자 시나리오)와 상호 연결된 시나리오에 필요한 두 가지 조회(2단계 및 3단계)에 대한 요구 사항은 이 문서의 뒷부분에서 다룹니다.
 
@@ -90,7 +90,7 @@ ms.locfileid: "69414726"
 
 #### <a name="contact-header"></a>연락처 헤더
 
-Microsoft SIP 프록시에 들어오는 모든 SIP 메시지(옵션, 초대)의 경우 연락처 헤더에는 다음과 같이 URI 호스트 이름에 쌍을 이루는 SBC FQDN이 있어야 합니다.
+Microsoft SIP 프록시에 들어오는 모든 SIP 메시지(옵션, 초대)의 경우 연락처 헤더에 다음과 같이 URI 호스트 이름에 쌍을 이루는 SBC FQDN이 있어야 합니다.
 
 구문: 연락처: SBC의 <sip:phone 또는 sip address@FQDN;transport=tls> 
 
@@ -98,7 +98,7 @@ Microsoft SIP 프록시에 들어오는 모든 SIP 메시지(옵션, 초대)의 
 
 구문: 연락처: SBC의 <sip:FQDN;transport=tls>
 
-이 이름(FQDN)은 제공된 인증서의 일반 이름 또는 주체 대체 이름 필드에 있어야 합니다. Microsoft 인증서의 일반 이름 또는 주체 대체 이름 필드에서 이름의 와일드카드 값을 사용할 수 있습니다.   
+이 이름(FQDN)은 제공된 인증서의 일반 이름 또는 주체 대체 이름 필드에 있어야 합니다. Microsoft는 인증서의 일반 이름 또는 주체 대체 이름 필드에서 이름의 와일드카드 값을 사용할 수 있습니다.   
 
 와일드카드 지원은 [RFC 2818, 섹션 3.1](https://tools.ietf.org/html/rfc2818#section-3.1)에 설명되어 있습니다. 특히:
 
@@ -133,9 +133,9 @@ SIP 프록시는 새 대화 내 클라이언트 트랜잭션(예: Bye 또는 다
 
 [RFC 3261, 섹션 8.1.1.8](https://tools.ietf.org/html/rfc3261#section-8.1.1.8)에 따르면 새 대화 상자가 발생할 수 있는 모든 요청에 연락처 헤더가 필요합니다. 프록시가 대화 상자에서 향후 요청의 경로를 유지하려는 경우에만 Record-Route 필요합니다. 프록시 SBC가 [직접 라우팅을 위한 로컬 미디어 최적화](./direct-routing-media-optimization.md)와 함께 사용 중인 경우 프록시 SBC가 경로에 남아 있어야 하므로 레코드 경로를 구성해야 합니다. 
 
-Microsoft 프록시 SBC를 사용하지 않는 경우 연락처 헤더만 사용하는 것이 좋습니다.
+프록시 SBC를 사용하지 않는 경우 연락처 헤더만 사용하는 것이 좋습니다.
 
-- [RFC 3261, 섹션 20.30](https://tools.ietf.org/html/rfc3261#section-20.30)에 따라 프록시가 대화 상자에서 이후 요청의 경로를 유지하려는 경우 Record-Route 사용됩니다. 이 경우 모든 트래픽이 Microsoft SIP 프록시와 쌍을 이루는 SBC 간에 이동하므로 프록시 SBC가 구성되지 않은 경우에는 필수가 아닙니다. 
+- [RFC 3261, 섹션 20.30](https://tools.ietf.org/html/rfc3261#section-20.30)에 따라 프록시가 대화 상자에서 이후 요청의 경로를 유지하려는 경우 Record-Route 사용됩니다. 모든 트래픽이 Microsoft SIP 프록시와 쌍을 이루는 SBC 간에 이동하므로 프록시 SBC가 구성되지 않은 경우에는 필수가 아닙니다. 
 
 - Microsoft SIP 프록시는 연락처 헤더(Record-Route 아님)만 사용하여 아웃바운드 ping 옵션을 보낼 때 다음 홉을 결정합니다. 프록시 SBC가 사용되지 않는 경우 두 매개 변수(Contact 및 Record-Route)가 아닌 하나의 매개 변수(연락처)만 구성하면 관리가 간소화됩니다. 
 
@@ -228,7 +228,7 @@ SBC는 Replaces를 사용하여 초대를 지원해야 합니다.
 
 ## <a name="size-of-sdp-considerations"></a>SDP 고려 사항의 크기
 
-직접 라우팅 인터페이스는 1,500바이트를 초과하는 SIP 메시지를 보낼 수 있습니다.  SDP의 크기는 주로 이를 발생합니다. 그러나 SBC 뒤에 UDP 트렁크가 있는 경우 Microsoft SIP 프록시에서 수정되지 않은 트렁크로 전달되는 경우 메시지가 거부될 수 있습니다. Microsoft 메시지를 UDP 트렁크로 보낼 때 SBC에서 SDP의 일부 값을 제거하는 것이 좋습니다. 예를 들어 ICE 후보 또는 사용되지 않는 코덱을 제거할 수 있습니다.
+직접 라우팅 인터페이스는 1,500바이트를 초과하는 SIP 메시지를 보낼 수 있습니다.  SDP의 크기는 주로 이를 발생합니다. 그러나 SBC 뒤에 UDP 트렁크가 있는 경우 Microsoft SIP 프록시에서 수정되지 않은 트렁크로 전달되는 경우 메시지가 거부될 수 있습니다. 메시지를 UDP 트렁크로 보낼 때 SBC에서 SDP의 일부 값을 제거하는 것이 좋습니다. 예를 들어 ICE 후보 또는 사용되지 않는 코덱을 제거할 수 있습니다.
 
 ## <a name="call-transfer"></a>통화 전환
 
@@ -317,11 +317,11 @@ SIP 프록시는 비 우회 호출에서 세션 타이머를 지원(항상 제�
 
 SIP 프록시는 Request-URI를 분석하고 user=phone 매개 변수가 있는 경우 서비스는 Request-URI를 전화 번호로 처리하여 사용자 번호와 일치합니다. 매개 변수가 없는 경우 SIP 프록시는 추론을 적용하여 Request-URI 사용자 유형(전화 번호 또는 SIP 주소)을 결정합니다.
 
-Microsoft 항상 user=phone 매개 변수를 적용하여 통화 설정 프로세스를 간소화하는 것이 좋습니다.
+항상 user=phone 매개 변수를 적용하여 통화 설정 프로세스를 간소화하는 것이 좋습니다.
 
 ## <a name="history-info-header"></a>History-Info 헤더
 
-History-Info 헤더는 SIP 요청의 대상을 다시 지정하는 데 사용되며 "네트워크 및 최종 사용자에게 다양한 서비스를 사용하도록 요청 기록 정보를 캡처하기 위한 표준 메커니즘을 제공합니다." 자세한 내용은 [RFC 4244 – 섹션 1.1](http://www.ietf.org/rfc/rfc4244.txt)을 참조하세요. Microsoft 전화 시스템의 경우 이 헤더는 Simulring 및 착신 전환 시나리오에서 사용됩니다.  
+History-Info 헤더는 SIP 요청의 대상을 다시 지정하는 데 사용되며 "네트워크 및 최종 사용자에게 다양한 서비스를 사용하도록 요청 기록 정보를 캡처하기 위한 표준 메커니즘을 제공합니다." 자세한 내용은 [RFC 4244 – 섹션 1.1](http://www.ietf.org/rfc/rfc4244.txt)을 참조하세요. Microsoft Phone System의 경우 이 헤더는 Simulring 및 착신 전환 시나리오에서 사용됩니다.  
 
 보내는 경우 History-Info 다음과 같이 사용하도록 설정됩니다.
 
@@ -336,7 +336,7 @@ History-Info 헤더는 SIP 요청의 대상을 다시 지정하는 데 사용되
   > [!NOTE]
   > 프라이빗 항목(RFC 4244의 섹션 3.3에 정의된 메커니즘에 따라 결정됨)은 SIP 트렁크 공급자가 신뢰할 수 있는 피어이기 때문에 그대로 전달됩니다.
 
-- 인바운드 History-Info 무시됩니다.
+- ForwardCallHistory 매개 변수를 사용하도록 설정하면 인바운드 History-Info 유지됩니다. 유지된 History-Info 루프 방지에 사용할 수 있습니다.
 
 다음은 SIP 프록시에서 보낸 기록 정보 헤더의 형식입니다.
 
