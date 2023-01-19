@@ -17,14 +17,13 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 - admindeeplinkMAC
-robots: noindex
 description: Teams 무료(클래식) 라이선스를 제거하고 조직의 사용자를 위해 유료 Teams 라이선스를 할당하는 방법을 알아봅니다.
-ms.openlocfilehash: 3015036d0656a80ac8440d2c193003cc7d67d9fc
-ms.sourcegitcommit: 0d25efb3dae31d5199807a14baaf30e944f561ce
+ms.openlocfilehash: 7e9596f631c461e3c1e9134b279c232e384aba6b
+ms.sourcegitcommit: ff5411084dc34754462d5fd67b64db7a7e76f1e1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2023
-ms.locfileid: "69767669"
+ms.lasthandoff: 01/19/2023
+ms.locfileid: "69823297"
 ---
 # <a name="retire-microsoft-teams-free-classic-for-your-organization"></a>조직의 무료 Microsoft Teams(클래식) 사용 중지
 
