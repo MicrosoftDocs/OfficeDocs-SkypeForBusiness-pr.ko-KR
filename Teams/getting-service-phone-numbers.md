@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Teams용 오디오 회의, 자동 전화 교환 및 통화 큐(서비스 번호)에 대한 새 전화 번호 및 포트를 얻거나 기존 번호를 전송하는 방법을 알아봅니다.
-ms.openlocfilehash: f72e24db204a53680a3f82469a7a77ca81943d8f
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: 21f577f2db325d57b9f87a2329dcd3ab121b4d5e
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749054"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835461"
 ---
 # <a name="service-phone-numbers-for-calling-plans"></a>통화 플랜의 서비스 전화 번호
 
@@ -74,7 +74,11 @@ ms.locfileid: "69749054"
 이식 마법사에 문제가 발생하는 경우 [포트 주문을 수동으로 제출](phone-number-calling-plans/manually-submit-port-order.md) 하거나 [조직의 전화 번호 관리](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)로 이동하여 국가 또는 지역을 선택한 다음 LOA(승인서)를 다운로드할 수 있습니다. LOA를 사용하여 전송할 각 서비스 번호 유형(예: 유료 및 무료)에 대해 별도의 포트 주문을 제출해야 합니다. LOA에서 올바른 유형의 서비스 번호를 선택해야 합니다. 서비스 번호(사용자 또는 구독자 번호가 아님)를 전송하도록 지정하거나 동시 호출 용량이 통화 볼륨을 처리하기에 충분하지 않을 수 있는지 확인합니다.  
 
 > [!NOTE]
-> Microsoft Teams 관리 센터에서 추가 전화 번호를 구입할 수 있습니다. 많은 수의 포트(1000개 이상), 복잡한 포트 또는 도움이 필요한 경우 [TNS 서비스 데스크에 문의](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)하세요.
+> 기존 전화 번호 및 추가 설명서 요구 사항을 포팅/전송하는 LOA에 대한 자세한 내용은 [통화 플랜에 대한 전화 번호 관리를 참조하세요](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+>
+>사용자를 위해 999개 이하의 전화 번호를 포트/전송하려면 추가 처리를 위해 완료되고 서명된 LOA를 Microsoft Teams 관리 센터에 업로드합니다. Microsoft Teams 관리 센터에서 추가 전화 번호를 구입할 수도 있습니다.
+>
+> 999개 이상의 전화 번호를 포팅/전송하거나 Microsoft Teams 관리 센터에서 포팅 프로세스에 문제가 발생하는 경우 해당 지역의 TNS 서비스 데스크에 [포트 주문을 수동으로 제출할](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) 수 있습니다.
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>조직의 전화 번호 보기
 

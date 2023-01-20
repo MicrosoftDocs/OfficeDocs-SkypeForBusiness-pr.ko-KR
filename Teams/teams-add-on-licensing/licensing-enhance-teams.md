@@ -3,7 +3,7 @@ title: Microsoft Teams Premium 라이선스
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
-ms.reviewer: ''
+ms.reviewer: jogruszc
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 description: Microsoft Teams Premium 추가 기능 라이선스를 사용하여 Microsoft Teams 환경을 개선하는 방법을 알아봅니다.
-ms.openlocfilehash: d9307bc9b26421f4930c4355f42c274b5aad12a3
-ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
+ms.openlocfilehash: 36cc97d1eca47f94276c26ec7d8aeefb1e244d17
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/13/2023
-ms.locfileid: "69800062"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835571"
 ---
 # <a name="microsoft-teams-premium-licensing"></a>Microsoft Teams Premium 라이선스
 
@@ -42,9 +42,11 @@ Microsoft Teams Premium Microsoft 365 구독이 있는 조직에서 다음과 �
 - [Teams Premium Teams와 어떻게 비교하나요?](#how-does-teams-premium-compare-to-teams)
 - [Teams Premium 이동하는 현재 Teams 기능이 있나요?](#are-there-current-teams-features-that-will-move-to-teams-premium)
 - [Teams Premium 구매하기 위한 요구 사항은 무엇인가요?](#what-are-the-requirements-to-purchase-teams-premium)
+- [어떤 사용자에게 라이선스를 할당해야 Teams Premium?](#which-users-should-be-assigned-teams-premium-licenses)
 - [Teams Premium Teams 룸 Pro 어떻게 다른가요?](#how-does-teams-premium-differ-from-teams-rooms-pro)
 - [라이선스를 구입하기 전에 Teams Premium 경험할 수 있나요?](#can-i-experience-teams-premium-before-buying-licenses)
 - [Teams Premium 라이선스를 구매할 어떻게 할까요? 있나요?](#how-do-i-purchase-teams-premium-licenses)
+- [사용자 라이선스를 할당한 후 관리자 구성이 필요한가요?](#is-admin-configuration-required-after-assigning-users-licenses)
 
 Teams Premium 기능을 설정하고 구성하는 방법을 알아보려면 [Microsoft Teams Premium - 관리자에 대한 개요](/microsoftteams/enhanced-teams-experience)를 참조하세요. 여기에는 최종 사용자 설명서에 대한 링크도 포함됩니다.
 
@@ -69,7 +71,9 @@ Microsoft 365 구독을 구매하는 고객은 사용자에 대한 Teams 라이�
 | 모임 중에 실시간 번역된 캡션 읽기 |  | X |
 | 모임 후 전사 번역(*출시 예정*) |  | X |
 | 실시간 데이터 스토리지 켜기 |  | X |
-| 라이브 이벤트에 대한 eCDN 켜기 |  | X |
+| 라이브 이벤트에 대한 eCDN 켜기\* |  | X |
+
+\**eCDN은 독립 실행형 라이선스로 획득할 수 있으며 필요한 경우 Teams Premium 외부에서 더 많은 라이선스를 구매할 수 있습니다. eCDN 독립 실행형 라이선스에 대한 자세한 내용은 [Microsoft eCDN](https://www.microsoft.com/microsoft-teams/ecdn)을 참조하세요.*
 
 ### <a name="webinars"></a>웨비나
 
@@ -106,7 +110,7 @@ Microsoft 365 구독을 구매하는 고객은 사용자에 대한 Teams 라이�
 | 사용자 지정 사용자 정책 패키지 |  | X |
 | 고급 모임 모니터링 및 경고 켜기 |  | X |
 
-\**이 기능은 Microsoft 365 E5 구독을 사용하는 Teams Premium 사용자만 사용할 수 있습니다. 라이선스 요구 사항에 대한 자세한 내용은 [구매 Teams Premium 요구 사항은 무엇인가요?를](#what-are-the-requirements-to-purchase-teams-premium) 참조하세요.*
+\**이 기능은 Microsoft 365 E5 구독 또는 Microsoft E3 구독과 고급 규정 준수 라이선스가 있는 Teams Premium 사용자에게만 제공됩니다. 라이선스 요구 사항에 대한 자세한 내용은 [구매 Teams Premium 요구 사항은 무엇인가요?를](#what-are-the-requirements-to-purchase-teams-premium) 참조하세요.*
 
 ### <a name="meetings-reporting"></a>모임 보고
 
@@ -147,35 +151,51 @@ Teams Premium 일반 릴리스를 통해 일부 Teams 기능은 Teams 라이선�
 Teams Premium 이동하는 기능은 다음과 같습니다.
 
 - 라이브 번역 캡션.
+  - Teams Premium 일반 공급 후 60일까지 모든 Teams 구독자가 사용할 수 있습니다.
 - 사용자가 모임을 떠났거나 참가한 경우에 대한 Teams 모임 녹음/녹화의 타임라인 표식입니다.
+  - 일반 공급 후 30일까지 모든 Teams 구독자가 사용할 수 Teams Premium.
 - 사용자 지정 조직 함께 모드 장면.
+  - 일반 공급 후 30일까지 모든 Teams 구독자가 사용할 수 Teams Premium.
 - 가상 약속: SMS 알림.
+  - 일반 공급 후 30일까지 모든 Teams 구독자가 사용할 수 Teams Premium.
 - 가상 약속: Teams 관리 센터의 조직 분석.
+  - 일반 공급 후 30일까지 모든 Teams 구독자가 사용할 수 Teams Premium.
 - 가상 약속: 예약된 큐 보기입니다.
+  - 일반 공급 후 30일까지 모든 Teams 구독자가 사용할 수 Teams Premium.
 
 ### <a name="is-there-a-grace-period-to-switch-to-team-premium-before-my-users-lose-functionality"></a>사용자가 기능을 잃기 전에 Team Premium으로 전환할 유예 기간이 있나요?
 
-Teams Premium 일반적으로 구매할 수 있게 되면 관리자가 Teams Premium 구매할 수 있는 30일의 유예 기간이 있습니다.
+Teams Premium 일반적으로 구매할 수 있게 되면 관리자가 Teams Premium 구매할 수 있는 60일의 유예 기간이 있습니다.
 
-30일 유예 기간이 지나면 관리자가 사용자에 대한 Teams Premium 라이선스를 구매하고 할당하지 않는 한 사용자는 Teams Premium 추가 기능 없이 Teams에서 이전에 사용할 수 있었던 기능에 액세스할 수 없게 됩니다.
+60일 유예 기간이 지나면 관리자가 사용자에 대한 Teams Premium 라이선스를 구매하고 할당하지 않는 한 사용자는 Teams Premium 추가 기능 없이 Teams에서 이전에 사용할 수 있었던 기능에 액세스할 수 없게 됩니다.
 
 일부 테넌트는 Teams Premium 평가판 라이선스가 있을 수 있습니다. 평가판 라이선스가 만료되면 사용자는 즉시 Teams Premium 기능을 잃게 됩니다. 사용자 지정 템플릿 및 모임 배경과 같은 Teams Premium 기능과 연결된 자산은 테넌트에서 유지되지만 회색으로 표시되고 사용할 수 없습니다.
 
 ## <a name="what-are-the-requirements-to-purchase-teams-premium"></a>Teams Premium 구매하기 위한 요구 사항은 무엇인가요?
 
-릴리스에서 Teams Premium EA, EAS, EES, CSP, 웹 다이렉트, NCE – 고객 주도 및 NCE를 포함한 모든 Microsoft 구매 채널을 통해 전 세계적으로 구매할 수 있습니다.
+릴리스에서 Teams Premium EA, EAS, CSP, Web Direct, NCE – 고객 주도 및 NCE를 비롯한 모든 Microsoft 구매 채널을 통해 전 세계적으로 구매할 수 있습니다.
 
 사용자에 대한 Teams Premium 라이선스를 구매하려면 테넌트와 사용자가 요구 사항을 충족하는지 확인합니다.
 
 **테넌트 요구 사항은** 다음과 같습니다.
 
-- 상업용, 전 세계 공공 부문, EDU, GCC 또는 비영리 테넌트여야 합니다.
+- 상업용, 전 세계 공공 부문, EDU 또는 비영리 테넌트여야 합니다.
   - 일반 릴리스에서는 Microsoft에서 Teams Premium 대한 EDU 특정 라이선스 또는 EDU 할인을 제공하지 않습니다.
-  - GCC High 및 DoD 테넌트는 일반 릴리스에서 Teams Premium 라이선스를 구입할 수 없습니다.
+  - GCC, GCC High 및 DoD 라이선스는 일반 릴리스 이후 언젠가 사용할 수 있게 됩니다.
 
 **사용자 요구 사항은** 다음과 같습니다.
 
 - Teams를 사용하는 Office 365 또는 Microsoft 365 구독.
+
+### <a name="can-i-acquire-teams-premium-features-without-the-teams-premium-license"></a>Teams Premium 라이선스 없이 Teams Premium 기능을 얻을 수 있나요?
+
+Teams Premium 단일 라이선스로 대규모 Teams 기능을 번들로 묶습니다. 다른 라이선스 시나리오를 통해 단일 Teams Premium 기능을 획득할 수 있는 인스턴스가 있습니다. 그러나 Teams Premium 라이선스는 조직 및 사용자의 Teams 환경을 향상시키기 위한 가장 전체적이고 간단한 방법이 되도록 설계되었습니다.
+
+## <a name="which-users-should-be-assigned-teams-premium-licenses"></a>어떤 사용자에게 라이선스를 할당해야 Teams Premium?
+
+Teams Premium Teams Premium 기능의 혜택을 받는 모든 사용자에게 Teams Premium 라이선스가 할당되어야 하는 사용자별 월별 라이선스입니다.
+
+가상 약속 외부 참가자에 대한 라이선스 요구 사항은 없습니다.
 
 ## <a name="how-does-teams-premium-differ-from-teams-rooms-pro"></a>Teams Premium Teams 룸 Pro 어떻게 다른가요?
 
@@ -208,3 +228,26 @@ Teams Premium 평가판 라이선스가 있는 조직에는 사용자에게 할�
 Teams Premium 라이선스를 구매한 후에는 [Microsoft 365 관리 센터](https://go.microsoft.com/fwlink/p/?linkid=834822) 사용자에게 라이선스를 할당합니다.
 
 Microsoft 365 관리 센터 라이선스 할당에 대한 지침은 [사용자에게 Microsoft 365 라이선스 할당을 참조하세요](/microsoft-365/admin/manage/assign-licenses-to-users).
+
+## <a name="is-admin-configuration-required-after-assigning-users-licenses"></a>사용자 라이선스를 할당한 후 관리자 구성이 필요한가요?
+
+많은 Teams Premium 기능을 사용하려면 IT 관리자가 기능을 구성해야 사용자가 기능에 액세스할 수 있습니다.
+
+다음 목록은 사용자가 기능에 액세스하기 전에 관리자 구성이 필요한 Teams Premium 기능을 나타냅니다.
+
+- 최대 50명의 참가자가 모임에서 엔드 투 엔드 암호화 사용
+- 모임에 워터마크 추가
+- 민감도 레이블 추가
+- 모임 채팅에서 복사 및 붙여넣기 방지
+- 조직 사용자 지정 배경 사용
+- 조직 사용자 지정된 함께 모드 장면 사용
+- 사용자 지정 정책 패키지 할당
+- 조직 사용자 지정 모임 템플릿 사용
+- 조직 사용자 지정 브랜딩 보기
+- 라이브 이벤트에 eCDN 사용
+- RTMP-In 사용
+- 가상 약속 SMS 알림 보내기
+- 가상 약속 Premium 앱에 액세스
+- Teams 관리 센터에서 가상 약속 데이터 액세스
+
+지침에 대한 링크는 [Microsoft Teams Premium - 관리자 개요를 참조하세요](/microsoftteams/enhanced-teams-experience).

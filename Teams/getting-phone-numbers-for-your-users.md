@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Teams에 대한 새 번호, 포트 또는 이전 번호를 가져오는 방법과 변경 내용을 사용자에게 표시하는 방법을 알아봅니다.
-ms.openlocfilehash: b4bdbc686a26bf179fbe85d2a19ca5b82c19b324
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: d92d48f95e620767148d3917a78d1e72c87f0645
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749064"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835491"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>사용자의 전화 번호 가져오기
 
@@ -78,6 +78,13 @@ ms.locfileid: "69749064"
 
 - 999개 이상의 전화 번호를 이식해야 하는 경우 [포트 주문을 수동으로 제출](phone-number-calling-plans/manually-submit-port-order.md) 하거나 [조직의 전화 번호 관리를](/microsoftteams/manage-phone-numbers-for-your-organization) 참조하여 올바른 LOA(권한 부여서)를 다운로드할 수 있습니다. LOA 문서를 완료하고 서명한 다음 해당 지역의 [TNS 서비스 데스크](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) 에 문의하세요.
 
+> [!NOTE]
+> 기존 전화 번호 및 추가 설명서 요구 사항을 포팅/전송하는 LOA에 대한 자세한 내용은 [통화 플랜에 대한 전화 번호 관리를 참조하세요](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+>
+>사용자를 위해 999개 이하의 전화 번호를 포트/전송하려면 추가 처리를 위해 완료되고 서명된 LOA를 Microsoft Teams 관리 센터에 업로드합니다. 
+>
+> 999개 이상의 전화 번호를 포팅/전송하거나 Microsoft Teams 관리 센터에서 포팅 프로세스에 문제가 발생하는 경우 해당 지역의 TNS 서비스 데스크에 [포트 주문을 수동으로 제출할](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) 수 있습니다.
+
 ## <a name="view-the-phone-numbers-for-your-organization"></a>조직의 전화 번호 보기
 
 **Microsoft Teams 관리 센터 사용**
@@ -87,9 +94,6 @@ ms.locfileid: "69749064"
 ## <a name="assign-phone-numbers-to-users"></a>사용자에게 전화번호 할당
 
 전화 번호를 받은 후에는 각 사용자에게 번호를 할당해야 합니다. 자세한 내용은 [사용자의 전화 번호 할당, 변경 또는 제거를 참조하세요](./assign-change-or-remove-a-phone-number-for-a-user.md).
-
-> [!NOTE]
-> 이보다 더 많은 전화 번호를 받아야 하는 경우 [비즈니스 제품 지원 담당자 - 관리 도움말에 문의하세요](/microsoft-365/admin/contact-support-for-business-products).
 
 이 비디오에서는 사용자에게 전화 번호를 할당하는 단계를 보여줍니다.
 

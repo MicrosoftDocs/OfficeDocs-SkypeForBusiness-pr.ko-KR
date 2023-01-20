@@ -18,16 +18,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 포트 주문 요청을 수동으로 제출하는 방법을 알아봅니다.
-ms.openlocfilehash: a1a333b70f717e83df5743e2532bf0092c262054
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: f00f8e31055e20dc39dbee9a5809adad566bc4b0
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749034"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835471"
 ---
 # <a name="manually-submit-a-port-order"></a>포트 주문 수동 제출
 
-대부분의 고객의 경우 Microsoft Teams 관리 센터에서 포트 주문을 완료할 수 있습니다. 해당 프로세스에 대한 지침은 [Microsoft Teams로 전화 번호 전송을 참조하세요](transfer-phone-numbers-to-teams.md).
+대부분의 고객의 경우 Microsoft Teams 관리 센터에서 999개 이하의 전화 번호의 포트 주문을 완료할 수 있습니다. 해당 프로세스에 대한 지침은 [Microsoft Teams로 전화 번호 전송을 참조하세요](transfer-phone-numbers-to-teams.md).
 
 경우에 따라 서비스 요청을 수동으로 제출하여 전화 번호를 가져오거나, 전화 번호를 전송하거나, 전화 번호를 해제하거나, 주소를 변경해야 할 수 있습니다. 각 국가 및 지역에 필요한 사항을 확인하거나 번호 포팅에 대한 자세한 내용은 [조직의 전화 번호 관리를 참조하세요](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
@@ -40,6 +40,9 @@ ms.locfileid: "69749034"
 1. 국가 또는 지역의 [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 를 다운로드합니다.
 2. 양식을 작성합니다.
 4. [TNS 서비스 데스크](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)로 보냅니다.
+
+> [!NOTE]
+> 기존 전화 번호 및 추가 설명서 요구 사항을 포팅/전송하는 LOA에 대한 자세한 내용은 [통화 플랜에 대한 전화 번호 관리를 참조하세요](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
 
 ## <a name="what-else-should-you-know-about-number-porting"></a>번호 포팅에 대해 알아야 할 다른 사항
 
