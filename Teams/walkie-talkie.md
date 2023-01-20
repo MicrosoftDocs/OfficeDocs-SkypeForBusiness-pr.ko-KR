@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.date: 11/17/2022
-ms.openlocfilehash: abb14f937064b394106e0cf2d58f756371a7c04e
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: c4184e82e99fa4f3169fea14c62f3a892750bf8c
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131277"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845895"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams의 Walkie Talkie 앱
 
@@ -131,6 +131,10 @@ Teams의 Walkie Talkie에는 인터넷 연결이 필요합니다. 최적의 환�
 > 사용자가 Bluetooth 액세서리를 사용하는 경우 MDM(모바일 디바이스 관리) 솔루션이 Bluetooth 디바이스를 차단하지 않는지 확인합니다.
 
 Android OS 버전 12 이상을 실행하는 디바이스에서는 Bluetooth 권한이 필요하며 BLE 스택을 사용하여 연결하는 위치 권한이 더 이상 필요하지 않습니다. Teams 수준에서 "주변 권한"이 부여되지 않은 경우 사용자에게 Bluetooth 권한에 대한 프롬프트가 표시됩니다. 헤드셋과 같은 Bluetooth 액세서리가 장치에 연결되어 있는지 여부에 관계없이 이 프롬프트가 표시됩니다. Bluetooth 액세서리가 연결된 경우 **허용** 을 탭하면 Walkie Talkie를 Bluetooth 액세서리에 연결합니다.
+
+## <a name="get-insight-into-walkie-talkie-usage-and-performance"></a>Walkie Talkie 사용량 및 성능에 대한 인사이트 얻기
+
+Teams 관리 센터의 [Walkie Talkie 사용 현황 및 성능 보고서는](teams-analytics-and-reports/walkie-talkie-usage-report.md) 조직의 Walkie Talkie 활동 및 성능에 대한 개요를 제공합니다. 이 보고서는 생성 및 수신된 PTT 전송 수, 채널 활동, 전송 기간, 디바이스 및 참가자 세부 정보와 같은 정보를 제공합니다.
 
 ## <a name="more-information"></a>추가 정보
 

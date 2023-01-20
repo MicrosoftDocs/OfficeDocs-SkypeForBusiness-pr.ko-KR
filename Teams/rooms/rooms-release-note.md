@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 관리 Microsoft Teams 룸 누적 개선 사항을 나열하는 Microsoft Teams 룸 대한 릴리스 정보를 읽을 수 있습니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f6d600552c2f636618ff14a1ccf88be60df74879
-ms.sourcegitcommit: 66d8e3d7a29a03c5deba9780964bc03f6587017f
+ms.openlocfilehash: 5e6a0c85453d1613a5d3841a8511feea487937d7
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2023
-ms.locfileid: "69774733"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845905"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 룸 릴리스 정보
 
@@ -40,7 +40,7 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 
 |릴리스 |에 게시됨 <br/> Microsoft Store |
 |--- |--- |
-|4.15.58.0 | 12/15/2022 |
+|4.15.58.0 | 1/10/2023 |
 |4.14.24.0 |9/2/2022 |
 |4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
@@ -97,7 +97,7 @@ Teams 룸 최신 수명 주기 정책의 적용을 받습니다. 자세한 내�
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams 룸 기능 소개 및 문제 해결
 
-### <a name="415580-12152022"></a>4.15.58.0 (12/15/2022)
+### <a name="415580-1102023"></a>4.15.58.0 (1/10/2023)
 
 이 업데이트에 도입된 내용은 다음과 같습니다.
 

@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Microsoft Teams용 Microsoft 추가 기능 라이선스 및 각 라이선스를 사용하는 기능에 대해 알아봅니다.
-ms.openlocfilehash: cdda8211bb700683d94782a7db719e5860e7d6eb
-ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
+ms.openlocfilehash: 490eb833c923ba1a247bb140222b449530131947
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/13/2023
-ms.locfileid: "69799924"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845885"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams 추가 기능 라이선스
 
@@ -59,12 +59,12 @@ Teams 구독에 추가할 수 있는 Teams 추가 기능 라이선스 및 해당
 
 중소기업, 엔터프라이즈 조직, 교육 기관, 정부 기관 또는 비영리 단체이든 Teams 전화 시스템 및 PSTN 연결을 얻는 세 가지 방법이 있습니다.
 
-- Microsoft 365 Business, E1/E3, A1/A3 또는 G1/G3 플랜을 구입하고 통화 플랜 번들 라이선스 **가 있는 Teams Phone** 을 추가합니다.
+- AAD, Microsoft 365 Business, E1/E3, A1/A3, F1/F3 또는 G1/G3 플랜을 사용하여 Teams Essentials를 구입하고 통화 플랜 번들 라이선스 **를 사용하여 Teams Phone** 을 추가합니다.
   - 이 모델은 Teams 전화 시스템 PBX 기능 및 Microsoft 국내 통화 플랜을 제공합니다.
   - 모든 전화 번호 관리 및 청구가 Microsoft에서 처리되도록 하려면 이 설정을 선택합니다.
   - [해당 지역에서 Teams Phone with Calling Plan 번들 라이선스를 사용할 수](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 있는지 확인합니다.
 
-- E1/E3, A1/A3 또는 G1/G3 플랜을 구입하고 **, Teams 전화 표준 요금제** 라이선스를 추가하고, Microsoft 독립 실행형 통화 플랜 또는 타사 PSTN 통신 사업자를 선택합니다.
+- AAD, E1/E3, A1/A3, F1/F3 또는 G1/G3 플랜을 사용하여 Teams Essentials를 구입하고 **, Teams 전화 표준 요금제** 라이선스를 추가하고, Microsoft 독립 실행형 통화 플랜 또는 타사 PSTN 통신 사업자를 선택합니다.
   - 이 모델은 Teams 전화 시스템을 제공하지만 여전히 PSTN에 연결해야 합니다.
   - 모든 PSTN 연결 옵션을 보려면 [PSTN 연결 옵션을 참조하세요](../pstn-connectivity.md).
   - 모든 음성 솔루션에 대해 알아보려면 [Teams 음성 솔루션 계획을 참조하세요](../cloud-voice-landing-page.md).

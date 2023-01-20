@@ -19,12 +19,12 @@ description: 이 문서에서는 Microsoft Teams 관리 센터에서 사용할 �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e93a34f19ecf53e05a51fe36983a9f46f741e67e
-ms.sourcegitcommit: 40cba40b1babdb3fbfc1a416b7eeb0118f8353df
+ms.openlocfilehash: 1062afeebfde89835330fbc4f367e0fccbe01513
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/18/2023
-ms.locfileid: "69820323"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845925"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 분석 및 보고
 
@@ -66,6 +66,7 @@ Teams 보고 환경을 지속적으로 개선하고 기능과 기능을 추가�
 |[Teams 가상 약속 사용 현황 보고서](/microsoft-365/frontline/virtual-appointments-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)|예|예|아니요|아니요| 가상 약속 수<br>예약 예약 수<br>Teams EHR(전자 건강 기록) 통합 약속 수<br>약속의 평균 기간<br>참석자의 평균 로비 대기 시간<br>시작 시간<br>모임 ID<br>로비 대기 시간<br>기간<br>상태<br>제품 유형<br>참석자<br>부서<br>SMS 전송<br>약속이 고급 가상 약속 기능을 사용했는지 여부|
 |[Teams 고급 가상 약속 활동 보고서](/microsoft-365/frontline/advanced-virtual-appointments-activity-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |예|예|아니요|아니요|고급 가상 약속 기능을 사용하는 사용자 수<br>SMS 텍스트 알림을 사용하는 사용자 수<br>로비 채팅을 사용하는 사용자 수(출시 예정)<br>주문형 약속을 수행하는 사용자 수|
 |[Teams EHR 커넥터 가상 약속 보고서](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |예|예|아니요|아니요| 시작 시간<br>기간<br>기본(모임 이끌이의 이름)<br>기본 이메일(모임 이끌이의 이메일)<br>부서<br>전화 교환<br>로비 대기 시간<br>약속이 할당 한도 내에 있는지 여부|
+|[Walkie Talkie 사용량 및 성능 보고서](walkie-talkie-usage-report.md) |예|예|아니요|아니요| 메트릭에는 생성 및 수신된 PTT(푸시 투 토크) 전송 수, 채널 활동, 전송 기간, 디바이스 및 참가자 세부 정보가 포함됩니다.|
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="make-the-user-specific-data-anonymous"></a>사용자 특정 데이터를 익명으로 만들기

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 업데이트된 Teams 자동 전화 교환 & 통화 큐 기록 보고서 Power BI 보고서를 사용하여 자동 전화 교환 및 통화 큐 기록 데이터를 보는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 0ff8e7d1b5a1b9901c5b8a5da49d67fbf8ac5275
-ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
+ms.openlocfilehash: dad1fa07d476aa5bcfa1e39818d9d7a01b7fdc56
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2023
-ms.locfileid: "69812735"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845915"
 ---
 # <a name="auto-attendant-and-call-queue-historical-reports"></a>자동 전화 교환 및 통화 큐 기록 보고서
 
@@ -537,11 +537,9 @@ VAAC API는 RESTful 애플리케이션에 액세스할 수 있는 모든 애플�
 
 ### <a name="preparation"></a>준비
 
-[Postman을 다운로드합니다](https://www.postman.com/).
-
-리포지토리: [sync_pstn_avs 분석을](https://skype.visualstudio.com/SBS/_git/sync_pstn_avs-analytics) 다운로드하고 압축을 풉니다.
-
-폴더를 Postman으로 가져옵니다. 
+1. [Postman을 다운로드합니다](https://www.postman.com/).
+1. 다운로드한 `sync_pstn_avs-analytics.zip` [zip 파일 지침에서 파일](#v3xx-installation)의 압축을 풉니다.
+1. 폴더를 Postman으로 가져옵니다. 
 
 :::image type="content" source="media/aa-cq-historical-report-postman-01.png" alt-text="가져오기 완료를 보여 주는 스크린샷":::
 
@@ -555,7 +553,6 @@ VAAC API는 RESTful 애플리케이션에 액세스할 수 있는 모든 애플�
 6. **저장** 을 클릭합니다.
 
 :::image type="content" source="media/aa-cq-historical-report-postman-02.png" alt-text="구성된 사용자 이름, 암호 및 테넌트 ID 필드를 보여 주는 스크린샷":::
-
 
 7. 왼쪽 레일 메뉴에서 **컬렉션을** 선택합니다.
 8. **구성 API 액세스 토큰 - Prod를** 선택하고 **본문** 탭으로 이동합니다.
@@ -585,7 +582,6 @@ VAAC API는 RESTful 애플리케이션에 액세스할 수 있는 모든 애플�
 :::image type="content" source="media/aa-cq-historical-report-postman-04.png" alt-text="dataResult 필드가 있는 쿼리 결과를 보여 주는 스크린샷":::
 
 이 경우 데이터는 쿼리 차원 및 측정 특성에서 요청된 순서와 동일한 순서로 "dataResult" 필드에 있습니다.
-
 
 ### <a name="compress-the-json-query"></a>JSON 쿼리 압축
 

@@ -1,7 +1,7 @@
 ---
 title: 'Teams: 모임 정책 관리'
-author: tonysmit
-ms.author: tonysmit
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams에서 모임 정책 설정 관리하기를 알아보세요. 정책 설정을 사용하여 사용자가 예약한 모임의 참가자가 사용할 수 있는 기능을 제어합니다.
-ms.openlocfilehash: 374c51a1356ebdc7940185f64a98a334ce7bb66d
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: 9b4d816902f5956bdc3dabee5a79fc644768d170
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614000"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845875"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams에서의 모임 정책 관리
 
@@ -387,7 +387,7 @@ PowerShell을 사용하여 제어권을 주거나 제어권 요청을 수락할 
 - 게스트
 - 외부 액세스 사용자  
 
-외부 참가자가 공유를 제어하는 동안 외부 액세스 사용자가 다른 외부 참가자에게 제어 권한을 부여할 수 있는지 여부는 조직에서 **제어 설정을 제공하거나 요청할 수 있습니다** .
+외부 액세스 사용자가 공유를 제어하는 동안 외부 액세스 사용자가 다른 외부 참가자에게 제어할 수 있는지 여부는 외부 참가자가 조직에서 **제어 설정을 제공하거나 요청할 수 있습니다** .
 
 PowerShell을 사용하여 외부 참가자가 제어권을 주거나 제어권 요청을 수락할 수 있는지 여부를 제어하려면 AllowExternalParticipantGiveRequestControl cmdlet을 사용합니다.
 
