@@ -17,20 +17,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 중요한 Teams 모임에서 참석자 비디오 및 공유 콘텐츠에 워터마크를 사용하거나 요구하는 방법을 알아봅니다.
-ms.openlocfilehash: 199ba2d84ca4187a7d8e3c4f9a4d471bb9251598
-ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
+ms.openlocfilehash: 6037bc6e9dbe79d9ecee10666f4c34e4e778216a
+ms.sourcegitcommit: 5e0900ed7a21ed4e854cc00dbfb4ae4ff2372262
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/13/2023
-ms.locfileid: "69800246"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69950505"
 ---
 # <a name="require-a-watermark-for-sensitive-teams-meetings"></a>중요한 Teams 모임에 워터마크 필요
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-화면에 공유된 콘텐츠와 참석자 비디오 모두에 대해 Teams 모임에 워터마크를 표시하도록 설정할 수 있습니다. 워터마크에는 모임 참가자의 이메일 주소가 표시됩니다. 모임 참가자는 워터마크를 끌 수 없습니다. 
+화면에 공유된 콘텐츠와 참석자 비디오 모두에 대해 Teams 모임에 워터마크를 표시하도록 설정할 수 있습니다. 워터마크에는 모임 참가자의 이메일 주소가 표시됩니다. 모임 참가자는 워터마크를 끌 수 없습니다.
 
-워터마크는 Teams 데스크톱, Teams 모바일, Windows의 Microsoft Teams 룸, Surface Hub의 Microsoft Teams 룸 지원됩니다. (Android의 Microsoft Teams 룸 워터마크는 지원되지 않습니다.) [CVI(Cloud Video Interop)](cloud-video-interop.md)를 포함하여 지원되지 않는 플랫폼에서 모임에 참가하는 사람 워터마크 없이 콘텐츠를 볼 수 있습니다.
+워터마크는 Teams 데스크톱 및 모바일에서 지원됩니다. 지원되지 않는 플랫폼에서 모임에 참가하는 사람 오디오 전용 환경을 갖습니다.
+
+[CVI(Cloud Video Interop)](cloud-video-interop.md)에서 참가하는 참가자는 워터마크 없이 콘텐츠를 볼 수 있습니다.
 
 다음 참가자는 워터마크를 사용할 때 오디오 전용 환경을 제공합니다.
 
@@ -38,6 +40,10 @@ ms.locfileid: "69800246"
 - VDI(Virtual Desktop Infrastructure) 참가자
 - 익명 참가자
 - 오버플로 참가자
+- Windows에서 Microsoft Teams 룸 Surface Hub의 Microsoft Teams 룸
+- Android에서 Microsoft Teams 룸
+- 이전 Teams 클라이언트
+- [Microsoft Teams 룸 디바이스에서 직접 게스트 조인](/microsoftteams/rooms/third-party-join)
 
 > [!Note]
 > 민감도 레이블, 사용자 지정 모임 템플릿 및 워터마크의 모임 설정에는 Teams Premium 필요합니다.

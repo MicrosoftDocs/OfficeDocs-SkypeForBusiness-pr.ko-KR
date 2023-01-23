@@ -20,19 +20,19 @@ ms.collection:
 - m365initiative-meetings
 - highpri
 description: Teams에서 웨비나 및 모임 등록 정책을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: 5493104b93a74dad6763e0a5ba6c9e6fd57575de
-ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
+ms.openlocfilehash: 097f4c385261ba1aea96990751d208b99d4d8b93
+ms.sourcegitcommit: 5e0900ed7a21ed4e854cc00dbfb4ae4ff2372262
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2022
-ms.locfileid: "69438476"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69950435"
 ---
 # <a name="set-up-webinars-in-microsoft-teams"></a>Microsoft Teams에서 웨비나 설정
 
 > [!NOTE]
 > 이 문서에서는 미리 보기 상태이며 Teams Premium 라이선스가 필요한 웨비나의 일부 기능에 대해 설명합니다.
 
-이제 Microsoft 새 웨비나 환경을 제공합니다. 이 문서에서는 이러한 기능을 사용하도록 설정을 업데이트하는 방법을 설명합니다.
+Microsoft는 이제 새로운 웨비나 환경을 제공합니다. 이 문서에서는 이러한 기능을 사용하도록 설정을 업데이트하는 방법을 설명합니다.
 
 웨비나를 사용하려는 경우 새 웨비나 환경을 사용하는 것이 좋습니다.
 
@@ -54,7 +54,9 @@ ms.locfileid: "69438476"
 모임, 웨비나 및 라이브 이벤트의 차이점에 대한 자세한 내용은 [모임, 웨비나 및 라이브 이벤트를 참조하세요](quick-start-meetings-live-events.md).
 
 > [!NOTE]
-> 새 웨비나 환경은 Microsoft 365 GCC, Microsoft 365GCC High 또는 Microsoft 365 DoD에 사용할 수 없습니다. 기존 웨비나 환경은 Microsoft 365 GCC High 또는 Microsoft 365 DoD에 사용할 수 없습니다.
+> 온-프레미스 사용자의 경우 새 웨비나 환경을 아직 사용할 수 없습니다.
+>
+> 새 웨비나 환경은 Microsoft 365 GCC, Microsoft 365 GCC High 또는 Microsoft 365 DoD에서 사용할 수 없습니다. 기존 웨비나 환경은 Microsoft 365 GCC High 또는 Microsoft 365 DoD에서 사용할 수 없습니다.
 
 > [!IMPORTANT]
 > 사용자가 웨비나를 설정할 수 있도록 하려면 eDiscovery 목적으로 개인 목록을 만들도록 설정하여 SharePoint에서 Microsoft Lists 구성해야 합니다. 자세한 내용은 [Microsoft Lists 대한 설정 제어를 참조하세요](/sharepoint/control-lists).
@@ -113,7 +115,7 @@ PowerShell을 사용하여 조직에 대한 새 웨비나 환경을 설정해야
 
 ### <a name="meeting-registration"></a>모임 등록
 
-**모임 등록** 을 켜면 조직의 사용자가 등록이 필요한 웨비나 및 모임을 예약할 수 있습니다. 기본적으로 이 설정은 켜져 있습니다. 모임 등록 및 웨비나를 끄려면 이 정책을 **끄** 기로 설정합니다.
+**모임 등록** 을 켜면 조직의 사용자가 등록이 필요한 웨비나 및 모임을 예약할 수 있습니다. 이 설정은 기본적으로 켜져 있습니다. 모임 등록 및 웨비나를 끄려면 이 정책을 **끄** 기로 설정합니다.
 
 **모임 등록이** 작동하려면 비공개 모임 일정이 설정되어야 합니다. [비공개 모임 일정](meeting-policies-in-teams-general.md)에 대해 자세히 알아보세요.
 
@@ -126,7 +128,7 @@ PowerShell을 사용하여 조직에 대한 새 웨비나 환경을 설정해야
 
 이 정책은 모임 등록으로만 웨비나를 등록하고 참석할 수 있는 사용자를 제어합니다. 이 정책에는 **모임 등록** 이 켜져 있는 경우에만 사용할 수 있는 두 가지 옵션이 있습니다. 기본적으로 **등록할 수 있는 사람은** **모두** 로 설정됩니다.
 
-**모든 사용자를** 선택하면 익명 사용자를 포함한 모든 사용자가 웨비나에 등록하고 참석할 수 있습니다. **조직의 모든 사용자를** 선택하는 경우 조직의 사용자만 웨비나에 등록하고 참석할 수 있습니다. 모임 등록이 꺼져 있으면 등록 **할 수 있는 사람** 설정을 사용할 수 없으며 아무도 웨비나에 등록할 수 없습니다.
+**모든 사용자를** 선택하면 익명 사용자를 포함한 모든 사용자가 웨비나에 등록하고 참석할 수 있습니다. **조직의 모든 사용자를** 선택하는 경우 조직의 사용자만 웨비나에 등록하고 참석할 수 있습니다. 모임 등록이 꺼져 있으면 **등록할 수 있는 사람** 설정을 사용할 수 없으며 아무도 웨비나에 등록할 수 없습니다.
 
 **등록할 수 있는 사용자의** 기본값은 교육 테넌트 **에서 조직의 모든 사람** 입니다. 자세한 내용은 [교육용 Teams 정책 마법사](easy-policy-setup-edu.md)를 참조하세요.
 
@@ -134,7 +136,7 @@ PowerShell을 사용하여 조직에 대한 새 웨비나 환경을 설정해야
 
 **모임 모임** > **정책** 아래의 Teams 관리 센터를 사용하여 **참여 보고서를** 켤 수 있습니다.
 
-이 상태가 되면 이끌이는 설정한 웨비나 또는 모임에 등록하고 참석한 사람에 대한 보고서를 볼 수 있습니다. 이 정책은 기본적으로 설정됩니다. 자세한 내용은 [Teams의 모임 정책 - 참여 보고서를 참조하세요](meeting-policies-in-teams-general.md#engagement-report). 최종 사용자 환경에 대한 자세한 내용은 [모임 참석 보고서 보기 및 다운로드](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310)를 참조하세요.
+이 설정이 설정되면 이끌이는 설정한 웨비나 또는 모임에 등록하고 참석한 사람에 대한 보고서를 볼 수 있습니다. 이 정책은 기본적으로 설정됩니다. 자세한 내용은 [Teams의 모임 정책 - 참여 보고서를 참조하세요](meeting-policies-in-teams-general.md#engagement-report). 최종 사용자 환경에 대한 자세한 내용은 [모임 참석 보고서 보기 및 다운로드](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310)를 참조하세요.
 
 PowerShell에서 **AllowEngagementReport** 매개 변수를 사용하여 이를 켤 수 있습니다. 이 정책은 기본적으로 설정됩니다. 해제하려면 PowerShell에서 다음 명령을 실행합니다.
 
