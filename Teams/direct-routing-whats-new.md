@@ -14,20 +14,24 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 6d2496ef355df7a935dbf45321a8b8fd63b8e8de
-ms.sourcegitcommit: fc1787ad74a8c454f750a294def188b532cbadd5
+ms.openlocfilehash: 85a700faf37044c97c432707b07b6d6699c6692b
+ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67854434"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69948585"
 ---
 # <a name="whats-new-for-direct-routing"></a>직접 라우팅의 새로운 기능
 
 이 문서에서는 직접 라우팅의 새로운 사항에 대해 설명합니다. 업데이트를 자주 확인합니다.
 
-## <a name="trunk-demoting-logic-based-on-sip-options"></a>SIP 옵션에 따라 트렁크 수준 내리기 논리
+## <a name="new-direct-routing-sip-endpoints"></a>새 직접 라우팅 SIP 엔드포인트 
 
-트렁크 상태에 대한 SIP 옵션을 기반으로 하는 새로운 기능이 도입되었습니다. 게이트웨이 구성에서 사용하도록 설정된 경우(Set-CsOnlinePSTNGateway cmdlet 및 SendSipOptions 매개 변수 참조) 아웃바운드 호출에 대한 라우팅 논리는 SIP 옵션을 주기적으로 보내지 않는 트렁크를 강등합니다(예상 기간은 분당 SBC에서 보낸 하나의 SIP 옵션). 이러한 강등된 트렁크는 아웃바운드 통화에 사용할 수 있는 트렁크 목록의 끝에 배치되며 마지막 트렁크로 시도됩니다. 따라서 호출 설정 시간이 감소할 수 있습니다.
+Microsoft는 Teams 직접 라우팅 SIP 엔드포인트에 새로운 신호 IP를 도입할 예정입니다. 이 변경 내용이 서비스 가용성에 영향을 주지 않도록 하려면 세션 테두리 컨트롤러 및 방화벽이 권장 서브넷 52.112.0.0/14 및 52.120.0.0/14를 분류 및 ACL 규칙에 사용하도록 구성되어 있는지 확인합니다. 자세한 내용은 [Microsoft 365, Office 365 및 Office 365 GCC 환경을 참조하세요](direct-routing-plan.md#microsoft-365-office-365-and-office-365-gcc-environments).  
+
+## <a name="trunk-demoting-logic-based-on-sip-options"></a>SIP 옵션을 기반으로 하는 트렁크 강등 논리
+
+트렁크 상태에 대한 SIP 옵션 기반의 새로운 기능이 도입되었습니다. 게이트웨이 구성에서 사용하도록 설정된 경우(Set-CsOnlinePSTNGateway cmdlet 및 SendSipOptions 매개 변수 참조) 아웃바운드 호출에 대한 라우팅 논리는 SIP 옵션을 주기적으로 보내지 않는 트렁크를 Microsoft 백 엔드로 강등합니다(예상 기간은 분당 SBC에서 보낸 하나의 SIP 옵션). 이러한 강등된 트렁크는 아웃바운드 호출에 사용할 수 있는 트렁크 목록의 끝에 배치되며 마지막 트렁크로 시도됩니다. 따라서 호출 설정 시간이 감소할 수 있습니다.
 Microsoft 지역(NOAM, EMEA, APAC, OCEA) SIP 프록시에 5분 이내에 하나 이상의 SIP 옵션을 보내지 않는 해당 기능에 대해 사용하도록 설정된 모든 트렁크는 강등된 것으로 간주됩니다. 트렁크가 Microsoft 지역 SIP 프록시의 하위 집합에만 SIP 옵션을 보내는 경우 이러한 경로가 먼저 시도되고 나머지는 강등됩니다.
 
 
@@ -39,7 +43,7 @@ Microsoft 지역(NOAM, EMEA, APAC, OCEA) SIP 프록시에 5분 이내에 하나 
 
 서비스 영향을 방지하려면 다음을 수행합니다.
 
-- 분류 또는 ACL 규칙에 권장되는 서브넷(52.112.0.0/14 및 52.120.0.0/14)을 사용합니다.
+- 분류 또는 ACL 규칙에 권장 서브넷(52.112.0.0/14 및 52.120.0.0/14)을 사용합니다.
 - 직접 라우팅에 대한 세션 테두리 컨트롤을 구성할 때 sip-all FQDN 사용을 중단합니다.
 
 자세한 내용은 [직접 라우팅 계획을 참조하세요](direct-routing-plan.md).
@@ -48,20 +52,20 @@ Microsoft 지역(NOAM, EMEA, APAC, OCEA) SIP 프록시에 5분 이내에 하나 
 
 Microsoft 365는 다른 CA(루트 인증 기관) 집합을 사용하도록 Teams 및 기타 서비스를 업데이트하고 있습니다.
 
-자세한 내용과 영향을 받는 서비스의 전체 목록은 [Microsoft Teams를 포함한 Microsoft 365 서비스에 대한 TLS 인증서 변경 내용을 참조하세요](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/tls-certificate-changes-to-microsoft-365-services-including/ba-p/3249676).
+자세한 내용과 영향을 받는 서비스의 전체 목록은 [Microsoft Teams를 포함한 Microsoft 365 서비스에 대한 TLS 인증서 변경을 참조하세요](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/tls-certificate-changes-to-microsoft-365-services-including/ba-p/3249676).
 
 ## <a name="certificate-authorities"></a>인증 기관
 
-2022년 2월 1일부터 직접 라우팅 SIP 인터페이스는 Microsoft 신뢰할 수 있는 루트 인증서 프로그램의 일부인 CA(인증 기관)에서 서명한 인증서만 신뢰합니다. 서비스 영향을 방지하려면 다음 단계를 수행합니다.
+2022년 2월 1일부터 직접 라우팅 SIP 인터페이스는 Microsoft 신뢰할 수 있는 루트 인증서 프로그램의 일부인 CA(인증 기관)에서 서명한 인증서만 신뢰합니다. 서비스에 영향을 주지 않도록 다음 단계를 수행합니다.
 
 - SBC 인증서가 Microsoft 신뢰할 수 있는 루트 인증서 프로그램의 일부인 CA에 의해 서명되었는지 확인합니다.
 - 인증서의 EKU(확장 키 사용) 확장에 "서버 인증"이 포함되어 있는지 확인합니다.
 
-Microsoft 신뢰할 수 있는 루트 인증서 프로그램에 대한 자세한 내용은 [프로그램 요구 사항 - Microsoft 신뢰할 수 있는 루트 프로그램을](/security/trusted-root/program-requirements) 참조하세요.
+Microsoft 신뢰할 수 있는 루트 인증서 프로그램에 대한 자세한 내용은 [프로그램 요구 사항 - Microsoft 신뢰할 수 있는 루트 프로그램을 참조하세요](/security/trusted-root/program-requirements).
 
-신뢰할 수 있는 CA 목록은 [Microsoft 포함 CA 인증서 목록을 참조하세요](https://ccadb-public.secure.force.com/microsoft/IncludedCACertificateReportForMSFT).
+신뢰할 수 있는 CA 목록은 [Microsoft 포함된 CA 인증서 목록을 참조하세요](https://ccadb-public.secure.force.com/microsoft/IncludedCACertificateReportForMSFT).
 
-## <a name="replace-headers"></a>머리글 바꾸기
+## <a name="replace-headers"></a>헤더 바꾸기
 
 2022년 4월부터 직접 라우팅은 Replaces 헤더가 정의된 SIP 요청을 거부합니다. Microsoft에서 Replaces 헤더를 SBC(Session Border Controller)로 보내는 흐름에는 변경 내용이 없습니다.
 

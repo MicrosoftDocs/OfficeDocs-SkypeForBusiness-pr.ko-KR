@@ -17,13 +17,15 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Licensing
+- admindeeplinkTEAMS
+- admindeeplinkMAC
 description: Microsoft Teams Premium 추가 기능 라이선스를 사용하여 Microsoft Teams 환경을 개선하는 방법을 알아봅니다.
-ms.openlocfilehash: 36cc97d1eca47f94276c26ec7d8aeefb1e244d17
-ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
+ms.openlocfilehash: 1d85c5d601dc74d7c308f05fa07bd99a2f274791
+ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/20/2023
-ms.locfileid: "69835571"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69948565"
 ---
 # <a name="microsoft-teams-premium-licensing"></a>Microsoft Teams Premium 라이선스
 
@@ -146,30 +148,24 @@ Microsoft 365 구독을 구매하는 고객은 사용자에 대한 Teams 라이�
 
 ## <a name="are-there-current-teams-features-that-will-move-to-teams-premium"></a>Teams Premium 이동하는 현재 Teams 기능이 있나요?
 
-Teams Premium 일반 릴리스를 통해 일부 Teams 기능은 Teams 라이선스에서 Teams Premium 라이선스로 전환됩니다. 사용자가 이러한 기능을 계속 사용할 수 있도록 하려면 Teams Premium 라이선스를 구매하고 할당해야 합니다.
+Teams Premium 일반 릴리스를 통해 일부 Teams 기능은 Teams 라이선스에서 Teams Premium 라이선스로 전환됩니다. 이러한 각 기능에는 일반 공급 후 30일 또는 60일의 유예 기간이 있습니다. 유예 기간이 만료되면 사용자는 해당 기능에 대한 액세스 권한을 잃게 됩니다.
+
+사용자가 이러한 기능을 계속 사용할 수 있도록 하려면 Teams Premium 라이선스를 구매하고 할당해야 합니다.
 
 Teams Premium 이동하는 기능은 다음과 같습니다.
 
 - 라이브 번역 캡션.
-  - Teams Premium 일반 공급 후 60일까지 모든 Teams 구독자가 사용할 수 있습니다.
+  - 일반 공급 후 60일 유예 기간 동안 모든 Teams 구독자가 사용할 수 Teams Premium.
 - 사용자가 모임을 떠났거나 참가한 경우에 대한 Teams 모임 녹음/녹화의 타임라인 표식입니다.
-  - 일반 공급 후 30일까지 모든 Teams 구독자가 사용할 수 Teams Premium.
+  - 일반 공급 후 60일 유예 기간 동안 모든 Teams 구독자가 사용할 수 Teams Premium.
 - 사용자 지정 조직 함께 모드 장면.
-  - 일반 공급 후 30일까지 모든 Teams 구독자가 사용할 수 Teams Premium.
+  - 일반 공급 후 30일 유예 기간 동안 모든 Teams 구독자가 사용할 수 Teams Premium.
 - 가상 약속: SMS 알림.
-  - 일반 공급 후 30일까지 모든 Teams 구독자가 사용할 수 Teams Premium.
+  - 일반 공급 후 30일 유예 기간 동안 모든 Teams 구독자가 사용할 수 Teams Premium.
 - 가상 약속: Teams 관리 센터의 조직 분석.
-  - 일반 공급 후 30일까지 모든 Teams 구독자가 사용할 수 Teams Premium.
+  - 일반 공급 후 30일 유예 기간 동안 모든 Teams 구독자가 사용할 수 Teams Premium.
 - 가상 약속: 예약된 큐 보기입니다.
-  - 일반 공급 후 30일까지 모든 Teams 구독자가 사용할 수 Teams Premium.
-
-### <a name="is-there-a-grace-period-to-switch-to-team-premium-before-my-users-lose-functionality"></a>사용자가 기능을 잃기 전에 Team Premium으로 전환할 유예 기간이 있나요?
-
-Teams Premium 일반적으로 구매할 수 있게 되면 관리자가 Teams Premium 구매할 수 있는 60일의 유예 기간이 있습니다.
-
-60일 유예 기간이 지나면 관리자가 사용자에 대한 Teams Premium 라이선스를 구매하고 할당하지 않는 한 사용자는 Teams Premium 추가 기능 없이 Teams에서 이전에 사용할 수 있었던 기능에 액세스할 수 없게 됩니다.
-
-일부 테넌트는 Teams Premium 평가판 라이선스가 있을 수 있습니다. 평가판 라이선스가 만료되면 사용자는 즉시 Teams Premium 기능을 잃게 됩니다. 사용자 지정 템플릿 및 모임 배경과 같은 Teams Premium 기능과 연결된 자산은 테넌트에서 유지되지만 회색으로 표시되고 사용할 수 없습니다.
+  - 일반 공급 후 30일 유예 기간 동안 모든 Teams 구독자가 사용할 수 Teams Premium.
 
 ## <a name="what-are-the-requirements-to-purchase-teams-premium"></a>Teams Premium 구매하기 위한 요구 사항은 무엇인가요?
 
@@ -233,21 +229,20 @@ Microsoft 365 관리 센터 라이선스 할당에 대한 지침은 [사용자�
 
 많은 Teams Premium 기능을 사용하려면 IT 관리자가 기능을 구성해야 사용자가 기능에 액세스할 수 있습니다.
 
-다음 목록은 사용자가 기능에 액세스하기 전에 관리자 구성이 필요한 Teams Premium 기능을 나타냅니다.
+다음 목록은 사용자가 기능에 액세스하기 전에 [Teams 관리 센터에서](https://go.microsoft.com/fwlink/p/?linkid=2066851) 관리자 구성이 필요한 Teams Premium 기능을 나타냅니다.
 
-- 최대 50명의 참가자가 모임에서 엔드 투 엔드 암호화 사용
-- 모임에 워터마크 추가
-- 민감도 레이블 추가
-- 모임 채팅에서 복사 및 붙여넣기 방지
-- 조직 사용자 지정 배경 사용
-- 조직 사용자 지정된 함께 모드 장면 사용
-- 사용자 지정 정책 패키지 할당
-- 조직 사용자 지정 모임 템플릿 사용
-- 조직 사용자 지정 브랜딩 보기
-- 라이브 이벤트에 eCDN 사용
-- RTMP-In 사용
-- 가상 약속 SMS 알림 보내기
-- 가상 약속 Premium 앱에 액세스
-- Teams 관리 센터에서 가상 약속 데이터 액세스
+- 최대 50명의 참가자가 모임에 종단 간 암호화를 사용합니다.
+- 모임에 워터마크 추가.
+- 민감도 레이블 추가.
+- 모임 채팅에서 복사 및 붙여넣기 방지.
+- 조직에서 사용자 지정한 배경을 사용합니다.
+- 조직 사용자 지정된 함께 모드 장면 사용.
+  - 관리 사용자 지정 함께 모드 장면을 만들어야 합니다.
+- 사용자 지정 정책 패키지가 할당됩니다.
+- 조직에서 사용자 지정한 모임 템플릿 사용.
+- 조직 사용자 지정 브랜딩을 확인합니다.
+- 라이브 이벤트에 eCDN 사용.
+- RTMP-In 사용.
+- 브랜딩을 사용하여 가상 약속 로비 룸 사용자 지정
 
 지침에 대한 링크는 [Microsoft Teams Premium - 관리자 개요를 참조하세요](/microsoftteams/enhanced-teams-experience).
