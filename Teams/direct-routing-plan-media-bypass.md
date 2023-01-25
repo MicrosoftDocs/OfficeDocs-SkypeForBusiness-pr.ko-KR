@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 미디어 트래픽 경로를 단축하고 성능을 향상시킬 수 있는 전화 시스템 직접 라우팅을 사용하여 미디어 바이패스를 계획하는 방법을 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 638a39a843648ab8fab770c28d92b196201e20f5
-ms.sourcegitcommit: c627bd1df17aefdc353bc4da6db169dfe169031e
+ms.openlocfilehash: ea92103789927d35ae8bdd317987f32863d4d74e
+ms.sourcegitcommit: e09591a0df9848b50bfeda29650e91e9d35724af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "68680511"
+ms.lasthandoff: 01/24/2023
+ms.locfileid: "69981793"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>직접 라우팅을 위한 미디어 바이패스 계획
 
@@ -151,7 +151,7 @@ Microsoft Cloud에는 미디어 트래픽 경로에 있을 수 있는 두 가지
 
 IP 범위는 다음과 같습니다.
 - 52.112.0.0/14(IP 주소는 52.112.0.1에서 52.115.255.254로)
-- 52.120.0.0/14(IP 주소는 52.120.0.1에서 52.123.255.254로)
+- 52.122.0.0/15(IP 주소는 52.122.0.1에서 52.123.255.254로)
 
 \* 코드 변환 설명: 
 
@@ -199,7 +199,7 @@ SIP 신호의 경우 FQDN 및 방화벽 요구 사항은 바이패스되지 않�
 
 FQDN **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com** 및 **sip3.pstnhub.microsoft.com** 다음 서브넷의 IP 주소로 확인됩니다.
 - 52.112.0.0/14
-- 52.120.0.0/14
+- 52.122.0.0/15
 
 신호를 위해 주소에서 들어오고 나가는 트래픽을 허용하려면 방화벽에서 이러한 모든 IP 범위에 대한 포트를 열어야 합니다.
 
