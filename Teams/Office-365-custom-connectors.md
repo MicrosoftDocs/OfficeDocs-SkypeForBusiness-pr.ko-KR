@@ -7,39 +7,38 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
-ms.date: 09/01/2022
+ms.date: 01/24/2023
 ms.collection:
 - M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 사용하는 서비스에 대한 Teams 채널에 콘텐츠 및 업데이트를 직접 자주 제공하여 커넥터가 팀을 업데이트하는 방법을 알아봅니다.
+description: 사용하는 서비스를 위해 Teams 채널에 콘텐츠 및 업데이트를 자주 전달하여 커넥터가 팀을 업데이트하는 방법을 알아봅니다.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fb65e7c91aa7ac0de7c8dade3a442f457d72657f
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: bf38711da0205e7c674e769942d00d340d51f66e
+ms.sourcegitcommit: 1cb5f7129562eb2b228da23497c0e09e53da3872
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377006"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69983686"
 ---
 # <a name="manage-microsoft-365-connectors-and-custom-connectors"></a>Microsoft 365 커넥터 및 사용자 지정 커넥터 관리
 
-팀을 최신 상태로 유지하기 위해 커넥터는 자주 사용하는 콘텐츠 및 서비스 업데이트를 Teams 채널에 직접 제공합니다. 커넥터를 사용하여 Teams 사용자는 Trello, Wunderlist, GitHub 및 Azure DevOps Services와 같은 인기 있는 서비스에서 업데이트를 받을 수 있습니다. 업데이트는 팀의 채팅 스트림에 직접 게시됩니다.
+Microsoft Teams의 커넥터는 타사 서비스에서 Teams 채널로 직접 콘텐츠 및 서비스 업데이트를 제공합니다. 커넥터를 사용하여 사용자는 Trello, Wunderlist, GitHub 및 Azure DevOps Services 같은 인기 있는 서비스에서 업데이트를 받습니다. 업데이트는 채팅 스트림에 직접 게시됩니다. 이렇게 하면 모든 멤버가 동기화 상태를 유지하고 관련 정보를 빠르게 받을 수 있습니다.
 
-Microsoft 365 커넥터는 Microsoft Teams 및 Microsoft 365 그룹 ​​모두에서 사용됩니다. 모든 구성원이 쉽게 동기화 상태를 유지하고 관련 정보를 빠르게 받을 수 있습니다. Microsoft Teams와 Microsoft Exchange에서 동일한 커넥터를 사용할 수 있습니다. 그러나 Microsoft 365 그룹에 대해 구성된 커넥터를 비활성화하면 Microsoft 365 그룹이 커넥터를 만드는 기능도 비활성화됩니다.
+Microsoft 365 커넥터는 Teams 및 Microsoft 365 그룹 모두에서 사용됩니다. Teams 및 Microsoft Exchange에서 동일한 커넥터를 사용할 수 있습니다. 
 
-팀의 모든 구성원은 팀 권한이 허용되는 경우 커넥터를 사용하여 팀을 인기 있는 클라우드 서비스에 연결할 수 있으며 모든 팀 구성원은 해당 서비스의 활동에 대해 알림을 받습니다. 커넥터는 처음에 커넥터를 설정한 구성원이 떠난 후에도 계속 작동합니다. 추가 또는 제거 권한이 있는 모든 팀 구성원은 다른 구성원의 커넥터 설정을 수정할 수 있습니다.
+<!--- However, if you disable any connectors configured for a Microsoft 365 group, it also disables the ability for the Microsoft 365 group to create connectors. --->
+
+팀 권한이 허용하는 경우 팀의 모든 구성원이 팀에 커넥터를 추가할 수 있으며 모든 팀 구성원은 해당 서비스의 활동에 대한 알림을 받습니다. 추가 또는 제거 권한이 있는 모든 팀 구성원은 다른 구성원의 커넥터 설정을 수정할 수 있습니다.
 
 ## <a name="enable-or-disable-connectors-in-teams"></a>Teams에서 커넥터 활성화 또는 비활성화
 
-Exchange Online PowerShell V2 모듈은 최신 인증을 사용하고 MFA(다단계 인증)와 함께 작동하여 Microsoft 365의 모든 Exchange 관련 PowerShell 환경에 연결합니다. 관리자는 Exchange Online PowerShell을 사용하여 전체 테넌트 또는 특정 그룹 사서함에 대한 커넥터를 비활성화하여 해당 테넌트 또는 사서함의 모든 사용자에게 영향을 줄 수 있습니다. 일부 특정 사용자에 대해서는 비활성화할 수 없습니다. 또한 GCC(Government Community Cloud) 환경에서는 커넥터가 기본적으로 비활성화되어 있습니다.
-
-> [!NOTE]
-> 커넥터는 GCC(정부 클라우드 커뮤니티) 환경에서 기본적으로 비활성화되어 있습니다. 이를 활성화하려면 `SetOrganizationConfig` cmdlet을 사용하여 `ConnectorsEnabled` 또는 `ConnectorsEnabledForTeams` 매개 변수를 `$true`(으)로 설정합니다. [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true)에 연결합니다.
+Exchange Online PowerShell v2 모듈은 최신 인증을 사용하고 MFA(다단계 인증)를 사용하여 Microsoft 365의 모든 Exchange 관련 PowerShell 환경에 연결합니다. 관리자는 Exchange Online PowerShell을 사용하여 전체 테넌트 또는 특정 그룹 사서함에 대한 커넥터를 비활성화하여 해당 테넌트 또는 사서함의 모든 사용자에게 영향을 줄 수 있습니다. 일부 특정 사용자에 대해 사용하지 않도록 설정할 수 없습니다.
 
 테넌트 설정이 그룹 설정보다 우선합니다. 예를 들어 관리자가 그룹에 대한 커넥터를 활성화하고 테넌트에서 비활성화하는 경우 그룹의 커넥터는 비활성화됩니다. Teams에서 커넥터를 활성화하려면 MFA가 있거나 없는 최신 인증을 사용하여 [Exchange Online PowerShell에 연결](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps#connect-to-exchange-online-powershell-using-modern-authentication-with-or-without-mfa&preserve-view=true)합니다.
 
@@ -81,7 +80,60 @@ Teams 커넥터는 보안을 강화하기 위해 새 URL로 전환하고 있습�
 
    :::image type="content" source="media/teams-url-updated.png" alt-text="URL의 스크린샷은 최신 메시지입니다.":::
 
+## <a name="considerations-when-using-connectors-in-teams"></a>Teams에서 커넥터를 사용할 때 고려 사항
+
+* 커넥터는 GCC(정부 클라우드 커뮤니티) 환경에서 기본적으로 비활성화되어 있습니다. 이를 활성화하려면 `SetOrganizationConfig` cmdlet을 사용하여 `ConnectorsEnabled` 또는 `ConnectorsEnabledForTeams` 매개 변수를 `$true`(으)로 설정합니다. [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true)에 연결합니다.
+
+* 팀에 커넥터를 추가한 사용자가 팀을 떠나는 경우 커넥터는 계속 작동합니다.
+
+* 다음 커넥터는 2023년 1월 이후에 사용할 수 없습니다.
+
+  * Aha
+  * 에어브레이크 (동음이의)
+  * AIRCALL
+  * APPLINKS
+  * APPSIGNAL
+  * BEANSTALK
+  * BITBUCKET
+  * BITBUCKETSERVER
+  * 친구
+  * BUGSNAG
+  * BUILDKITE
+  * CATSONE
+  * CHATRA
+  * CIRCLECI
+  * CODESHIP
+  * Getresponse
+  * GHOSTINSPECTOR
+  * 홈
+  * Heroku
+  * HONEYBADGER
+  * 인터 콤
+  * LOGENTRIES
+  * NEWRELIC
+  * OPSGENIE
+  * PAGERDUTY
+  * PAPERTRAIL
+  * Pingdom
+  * PIVOTALTRACKER
+  * 레이건 주
+  * ROLLBAR
+  * RUNSCOPE
+  * SATISMETER
+  * 세마포
+  * 센 트리
+  * SHAREPOINTNEWS
+  * SIMPLEINOUT
+  * STATUSPAGEIO
+  * Subversion
+  * TEAMFOUNDATIONSERVER
+  * TESTFAIRY
+  * TRAVISCI
+  * UPDOWN
+  * USERLIKE
+  * XPDEV
+
 ## <a name="related-articles"></a>관련 기사
 
 * [사용자 지정 커넥터 및 웹후크 개요](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)
-* [Office 365 커넥터 만들기](/microsoftteams/platform/webhooks-and-connectors/how-to/connectors-creating)
+* [Office 365 커넥터를 만드는 방법](/microsoftteams/platform/webhooks-and-connectors/how-to/connectors-creating)

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7a608132af2807c1fc59e25f7dac39433fe5dc5
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: 0c2ca0a88f17f3493bfbbcff727321c45a04fdea
+ms.sourcegitcommit: 3056f95e9f654b78636949f43eacdde297e52c6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392098"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69990383"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 보기 전용 모임 환경
 
@@ -29,7 +29,7 @@ ms.locfileid: "69392098"
 > 보기 전용 브로드캐스트는 Microsoft 365 E3/E5 및 Microsoft 365 A3/A5에서 사용할 수 있습니다. 이 기능은 2021년 3월 1일을 기본값 해제로 사용하도록 설정됩니다. Microsoft 365 정부 커뮤니티 클라우드(GCC)의 기능 배포는 2021년 3월 말에 시작됩니다. 정부 커뮤니티 클라우드 높음(GCCH) 및 국방부(DoD)는 차후에 배포될 예정입니다. 이 기능의 사용을 기본값으로 하려면 해당 날짜 이후에 기본 정책을 변경해야 합니다. PowerShell을 통해 정책 설정을 사용 `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`.
 
 > [!Note]
-> 모임이 최대 수용인원에 도달할 경우 10,000명 규모의 보기 전용 브로드캐스트 환경까지 수용할 수 있도록 Teams가 원활하게 규모를 조정합니다. 또한 원격 작업 증가 기간 중, 올해 말까지는 이보다 더 많은 규모인 20,000명의 브로드캐스트를 활용할 수 있습니다. 웨비나는 현재 보기 전용 브로드캐스트 환경을 지원하지 않습니다.
+> 모임이 최대 수용인원에 도달할 경우 10,000명 규모의 보기 전용 브로드캐스트 환경까지 수용할 수 있도록 Teams가 원활하게 규모를 조정합니다. 또한 원격 작업이 증가하는 이 기간 동안 2023년 6월 30일까지 20,000명 이상의 더 큰 방송을 활용합니다. 웨비나는 현재 보기 전용 브로드캐스트 환경을 지원하지 않습니다.
 
 > [!Note]
 > Teams 모임은 TLE(Teams Live Event)이 아니며 Microsoft eCDN을 활용하지 않습니다. 자세한 내용은 [Microsoft eCDN 온보딩 검사 목록을 참조하세요](/ecdn/integration/onboarding-checklist-for-tle-customers).

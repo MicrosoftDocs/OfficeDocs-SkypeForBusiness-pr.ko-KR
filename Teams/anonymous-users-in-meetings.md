@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: IT 전문가의 경우 - Microsoft Teams에서 익명 모임 참여가 작동하는 방식을 알아봅니다.
-ms.openlocfilehash: fe4dbec2bc606838bd5cafbaec5ef9d9ecdd8a88
-ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
+ms.openlocfilehash: a4f1833059febf2f8481cba9f1b3716519613e89
+ms.sourcegitcommit: 1cb5f7129562eb2b228da23497c0e09e53da3872
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2023
-ms.locfileid: "69948694"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69983736"
 ---
 # <a name="manage-anonymous-participant-access-to-teams-meetings-it-admins"></a>Teams 모임에 대한 익명 참가자 액세스 관리(IT 관리자)
 
@@ -34,9 +34,9 @@ ms.locfileid: "69948694"
 - **익명 사용자가 모임** Teams 모임에 참가할 수 있는 설정(조직 수준)을 설정해야 합니다.
 - 모임 이끌이에게 **익명 사용자가** 모임에 참가하도록 허용 컨트롤이 켜져 있는 Teams 모임 정책이 할당되어야 합니다.
 
-익명 참가는 기본적으로 조직 및 기본 전역 모임 정책에 대해 설정됩니다.
+익명 모임 참가는 기본적으로 조직 및 기본 전역 모임 정책에 대해 설정됩니다. 조직 수준 설정을 유지하고 모임 정책을 사용하여 다른 사용자(모임 이끌이)에 대해 익명 모임 참가를 설정하거나 해제하는 것이 좋습니다.
 
-익명 참가를 사용하는 경우 로비 정책은 익명 참가자가 모임에 참가하는 방식에 영향을 줍니다. 자세한 내용은 [Microsoft Teams에서 모임 로비를 우회할 수 있는 사용자 제어를 참조하세요](who-can-bypass-meeting-lobby.md).
+익명 모임 참가를 사용하는 경우 로비 정책은 익명 참가자가 모임에 참여하는 방식에 영향을 줍니다. 자세한 내용은 [Microsoft Teams에서 모임 로비를 우회할 수 있는 사용자 제어를 참조하세요](who-can-bypass-meeting-lobby.md).
 
 #### <a name="meetings-with-trusted-organizations"></a>신뢰할 수 있는 조직과의 모임
 
@@ -81,15 +81,15 @@ ms.locfileid: "69948694"
 
 다음을 사용하여 익명 참가자가 모임에 참가할 수 있는지 여부를 제어할 수 있습니다.
 
-- `-DisableAnonymousJoin` 조직 수준 설정을 구성하기 위한 [Set-CsTeamsMeetingConfiguration](/powershell/module/skype/set-csteamsmeetingconfiguration)의 매개 변수입니다. (이 집합을 False로 설정하고 Set-CsTeamsMeetingPolicy -AllowAnonymousUsersToJoinMeeting을 사용하여 사용자 또는 그룹 수준에서 익명 조인을 제어하는 것이 좋습니다.)
+- `-DisableAnonymousJoin` 조직 수준 설정을 구성하기 위한 [Set-CsTeamsMeetingConfiguration](/powershell/module/skype/set-csteamsmeetingconfiguration)의 매개 변수입니다. (이 집합을 False로 설정하고 Set-CsTeamsMeetingPolicy -AllowAnonymousUsersToJoinMeeting을 사용하여 사용자 또는 그룹 수준에서 익명 모임 참가를 제어하는 것이 좋습니다.)
 - `-AllowAnonymousUsersToJoinMeeting` 사용자 수준 모임 정책을 구성하기 위한 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)의 매개 변수
 
-익명 참가자가 모임에 참가할 수 있도록 하려면 다음 값을 설정하여 익명 참가를 허용하도록 둘 다 구성해야 합니다.
+익명 참가자가 모임에 참가할 수 있도록 하려면 다음 값을 설정하여 익명 모임 참가를 허용하도록 둘 다 구성해야 합니다.
 
 - `Set-CsTeamsMeetingConfiguration -DisableAnonymousJoin`**$false**
 - `Set-CsTeamsMeetingPolicy -AllowAnonymousUsersToJoinMeeting` 관련 모임 이끌이에 대한 **$true** 설정
 
-## <a name="block-anonymous-join-for-specific-client-types"></a>특정 클라이언트 형식에 대한 익명 조인 차단
+## <a name="block-anonymous-meeting-join-for-specific-client-types"></a>특정 클라이언트 유형에 대한 익명 모임 참가 차단
 
 익명 참가자가 모임에 참가할 수 있는 경우 teams 클라이언트 또는 [Azure Communication Services](/azure/communication-services/) 사용하여 빌드된 사용자 지정 클라이언트를 사용할 수 있습니다. 
 

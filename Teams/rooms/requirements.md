@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 적절한 장치, 마이크, 스피커, 카메라 및 디스플레이 선택을 포함하여 Microsoft Teams 룸 지원하기 위한 요구 사항에 대해 알아봅니다.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 62e1ca6b2254047a14a11cf4c4c9ffb10477a0e3
-ms.sourcegitcommit: ed7d3b12d4bfe48863de873360c2ae90bbb15530
+ms.openlocfilehash: c5b1c9adda541926b48a943f796380fa8730a4a5
+ms.sourcegitcommit: 3056f95e9f654b78636949f43eacdde297e52c6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69194929"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69990403"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 룸 요구사항
 
@@ -97,6 +97,7 @@ Microsoft Teams 룸 크기가 다른 객실 크기로 확장됩니다. Teams 룸
   |[폴리 이글 아이 디렉터 II와 폴리 G85-T 키트, 레노버와](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g85) |Core i5| 8GB | 128GB|
   |Lenovo Thinksmart Core를 사용하는 Poly GC8 콘솔|Core i5|8GB|128GB|
   |Dell Optiplex 7080을 사용하는 Poly GC8 콘솔|Core i5|8GB|128GB|
+  |[HP 800 G9 컴퓨팅이 있는 Poly GC8 콘솔 -MTR-W](https://www.poly.com/us/en/solutions/platform/microsoft/video/teams-rooms-windows)|Core i5|8GB|128GB|
   |[Intel NUC를 사용하는 Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8GB |128GB |
   |[Intel NUC를 사용하는 Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8GB |128GB |
   |[Intel NUC를 사용하는 Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8GB|128GB|

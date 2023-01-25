@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 'Microsoft Teams용으로 인증된 USB 주변 장치 및 장치(예: 헤드셋, 스피커폰, 웹캠 및 모니터)를 확인합니다.'
-ms.openlocfilehash: 88ea7be3fc27fadccb25cd173b0df5f7f618004f
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: f8c964dddf2214540e9c384993f46c5a3d944da1
+ms.sourcegitcommit: 3056f95e9f654b78636949f43eacdde297e52c6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749074"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69990393"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams용으로 인증된 USB 오디오 및 비디오 장치
 
@@ -81,13 +81,27 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 Teams [에서 헤드
 
 ## <a name="certified-devices"></a>인증된 디바이스
 
-*테이블 업데이트 날짜: 2022년 12월*
+*테이블 업데이트 날짜: 2023년 1월*
 
 > [!NOTE]
 > 날짜 형식은 MM/DD/YYYY입니다.
 
 | 제조업체        | 모델                                                     | 자격      | 인증된 프로그램                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Epos                 |SDW D1 DECT USB 동글이 있는 SDW 5061 헤드셋              |1/20/2023       |Microsoft Teams 인증                           |
+|Epos                 |SDW D1 DECT USB 동글이 있는 SDW 5031 헤드셋              |1/20/2023       |Microsoft Teams 인증                           |
+|Epos                 |SDW D1 DECT USB 동글이 있는 SDW 5011 헤드셋              |1/20/2023       |Microsoft Teams 인증                           |
+|Dell                 |P2424HEB 모니터                                           |1/18/2023       |Microsoft Teams 인증                           |
+|Dell                 |P2724DEB 모니터                                           |1/18/2023       |Microsoft Teams 인증                           |
+|Dell                 |P3424WEB 모니터                                           |1/18/2023       |Microsoft Teams 인증                           |
+|Yealink              |BH76 헤드셋                                               |12/22/2022      |Microsoft Teams 인증                           |
+|로지텍             |Brio 300/301/305 카메라                                    |12/22/2022      |Microsoft Teams 인증                           |
+|많은                 |동글 버전 v1008을 사용하는 Savi 7310 UC 시리즈 헤드셋     |12/22/2022      |Microsoft Teams 인증                           |
+|많은                 |동글 버전 v1008을 사용하는 Savi 7320 UC 시리즈 헤드셋     |12/22/2022      |Microsoft Teams 인증                           |
+|Yealink              |WH62 듀얼/모노 휴대용 헤드셋                            |12/21/2022      |Microsoft Teams 인증                           |
+|Yealink              |DECT 동글이 있는 WH63 휴대용 헤드셋                     |12/21/2022      |Microsoft Teams 인증                           |
+|Cisco                |320 시리즈(321/322) 헤드셋                              |12/20/2022      |Microsoft Teams 인증                           |
+|Cisco                |720 시리즈(721/722) 헤드셋                              |12/20/2022      |Microsoft Teams 인증                           |
 |레 노 버               |T24mv-30 모니터                                           |12/19/2022      |Microsoft Teams 인증                           |
 |레 노 버               |T27hv-30 모니터                                           |12/19/2022      |Microsoft Teams 인증                           |
 |레 노 버               |컨퍼런스 콜 베이스 스피커폰                          |12/19/2022      |Microsoft Teams 인증                           |
@@ -97,15 +111,18 @@ Teams의 통화 제어 지원에 대한 자세한 내용은 Teams [에서 헤드
 |Epos                 |EXPAND Vision 1/S6                                         |10/13/2022      |Microsoft Teams 인증                           |
 |레 노 버               |USB-C ANC In-Ear 헤드폰으로 이동                             |9/20/2022       |Microsoft Teams 인증                           |
 |Logi(Logi)                 |Brio 500/505/501 카메라                                   |9/14/2022       |Microsoft Teams 인증                           |
+|소니                 |YY2969 이어버드                                             |9/6/2022        |Microsoft Teams 인증                           |
 |Jabra                |50 II 참여                                               |7/29/2022       |Microsoft Teams 인증                           |
 |Jabra                |40 II 참여                                               |7/29/2022       |Microsoft Teams 인증                           |
 |Logi(Logi)                 |도킹 스피커폰                                          |7/13/2022       |Microsoft Teams 인증                           |
+|Microsoft            |오디오 도크 스피커폰                                    |7/12/2022       |Microsoft Teams 인증                           |
 |Dell                 |WB5023 카메라                                              |6/29/2022       |Microsoft Teams 인증                           |
 |Epos                 |ADAPT 560 II 헤드셋                                       |6/22/2022       |Microsoft Teams 인증                           |
 |Epos                 |C10/C20/C50 시리즈 헤드셋                                |5/31/2022       |Microsoft Teams 인증                           |
 |Jabra                |Engage55 Mono/Stereo 헤드셋                               |5/25/2022       |Microsoft Teams 인증                           |
 |Epos                 |40T 스피커폰 확장                                    |5/24/2022       |Microsoft Teams 인증                           | 
 |Dell                 |U3223QZ 모니터                                            |5/24/2022       |Microsoft Teams 인증                           |
+|Microsoft            |발표자+                                                 |5/12/2022       |Microsoft Teams 인증                           |
 |많은                 |Studio P21 모니터                                         |5/12/2022       |Microsoft Teams 인증                           |
 |Yealink              |UH38 헤드셋                                               |5/2/2022        |Microsoft Teams 인증                           |   
 |Yealink              |BH72 헤드셋                                               |5/2/2022        |Microsoft Teams 인증                           |

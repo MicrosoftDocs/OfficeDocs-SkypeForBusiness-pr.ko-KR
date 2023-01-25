@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5ae4adf9d803ea0b3482451a9ece5d3ceb0df598
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: ee791259b938345876e9761344616fac7d1d9e45
+ms.sourcegitcommit: 3056f95e9f654b78636949f43eacdde297e52c6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307533"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69990413"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams의 제한 사항 및 사양
 
@@ -123,16 +123,14 @@ Users who participate in conversations that are part of the chat list in Teams m
 
 |기능     | 최대 한도 |
 |------------|---------------|
-|모임에 참가 중인 사용자 수(채팅 및 전화를 걸 수 있음)  | 1000에는 GCC, GCCH 및 DoD가 포함되지만 A1(300)은 포함되지 않습니다. **보기 전용** 에서는 주최자가 E3/E5/A3/A5 SKU 및 정부(GCC, GCC High, DoD)에 대한 라이선스를 보유한 모임에 최대 20,000명의 청취자만 참가할 수 있습니다. 웨비나에서도 보기 전용 환경을 곧 사용할 수 있습니다. [보기 전용 환경](view-only-meeting-experience.md)에 대해 자세히 알아보세요.<sup>1,2</sup>|
+|모임에 참가 중인 사용자 수(채팅 및 전화를 걸 수 있음)  | 1000에는 GCC, GCCH 및 DoD가 포함되지만 A1(300)은 포함되지 않습니다.|
 |채팅에서 영상 또는 음성 통화 중인 사용자 수 | 20 |
 |최대 PowerPoint 파일 크기 | 2GB|
 |Teams는 Microsoft Stream에 업로드되지 않은 [모임 녹화](cloud-recording.md)를 보관하며 로컬로 다운로드할 수 있습니다. | 20일 |
 | 모임 녹음/녹화 최대 길이 | 4시간 또는 1.5GB. 이 한도에 도달하면 녹음/녹화가 종료되고 자동으로 다시 시작됩니다.
+
+자세한 내용은 [모임, 웨비나 및 라이브 이벤트를 참조하세요](/microsoftteams/quick-start-meetings-live-events).  
   
-<sup>1</sup> 대규모 모임, 웨비나 및 실시간 이벤트에서 최상의 경험을 위해 Microsoft는 Teams 데스크톱 클라이언트 또는 Teams 모바일 클라이언트의 최신 버전을 사용할 것을 권장합니다.
-
-<sup>2</sup> 대규모 모임, 웨비나 및 라이브 이벤트의 발표자는 Teams 데스크톱 클라이언트를 사용해야 합니다. 대규모 모임을 호스트하는 방법에 대한 자세한 내용은 [대규모 Teams 모임에 대한 모범 사례](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)를 참조하세요.
-
 > [!NOTE]
 > 소규모 회의실은 참석자 수가 300명 미만인 모임에서만 만들 수 있습니다. 또한 모임에 소규모 회의실을 만들면 모임 참석자 수가 자동으로 300명으로 제한됩니다. 최종 사용자에게 300명 이상의 참가자가 필요한 모임에서 소규모 회의실을 시작하지 않도록 권고하세요. 대규모 Teams 모임에 대한 자세한 내용은 [대규모 Teams 모임 대한 모범 사례](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) 지침을 최종 사용자와 공유하세요.
 
@@ -152,15 +150,19 @@ Users who participate in conversations that are part of the chat list in Teams m
 > [!NOTE]
 > Microsoft Teams 모임의 제한 시간은 30시간입니다.
 
-## <a name="teams-live-events"></a>Teams 라이브 이벤트
+## <a name="live-events"></a>라이브 이벤트
+  
+라이브 이벤트는 조직에서 최대 20,000명의 대규모 온라인 대상 그룹에게 스트리밍되는 이벤트를 예약하고 제작할 수 있는 구조화된 모임입니다. 라이브 이벤트에서 대상 그룹과의 상호 작용은 관리되는 질문 및 답변 환경입니다.
 
 |기능     | 최대 한도 |
 |------------|---------------|
-|대상 그룹 크기 | 10,000 참석자 |
+|대상 그룹 크기 | 최대 20,000명의 참석자 <sup>1</sup> |
 |이벤트 기간 | 4시간 |
-|Microsoft 365 또는 Office 365 조직에서 실행되는 동시 발생 라이브 이벤트 <sup>1</sup> | 15 |
+|Microsoft 365 또는 Office 365 조직 <sup>2</sup>에서 실행되는 동시 라이브 이벤트 | 15 |
 
-<sup>1</sup> You can schedule as many Live Events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
+<sup>1</sup> 일반적인 10,000은 2023년 6월 30일까지 20,000으로 증가합니다. Yammer 및/또는 Microsoft Stream의 라이브 이벤트로 더 많은 수를 예약할 수 있습니다. 자세한 내용은 [Microsoft 365의 라이브 이벤트](/stream/live-event-m365)를 참조하세요. 참석자가 20,000명이 넘는 이벤트에는 [라이브 이벤트 지원 프로그램](/stream/live-events-assistance)이 필요합니다.  
+  
+<sup>2</sup> 원하는 만큼 라이브 이벤트를 예약할 수 있지만 한 번에 15개만 실행할 수 있습니다. 프로듀서가 라이브 이벤트에 참가하는 즉시 실행 중인 것으로 간주합니다. 16번째 라이브 이벤트에 참가하려고 시도하는 프로듀서는 오류 메시지를 받습니다.
 
 라이브 이벤트에 대한 자세한 내용은 [Teams 라이브 이벤트](teams-live-events/plan-for-teams-live-events.md#teams-live-events)로 이동하세요. [Teams 라이브 이벤트 예약](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)을 참조하세요.
 
