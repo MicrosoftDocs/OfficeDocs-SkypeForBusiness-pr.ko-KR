@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft 직접 라우팅을 통해 지원되는 고객 제공 SBC(세션 테두리 컨트롤러)를 전화 시스템에 연결하는 방법을 알아봅니다.
-ms.openlocfilehash: ba0db105d94fef7c81d79929c5cc7f9371f0fc6c
-ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
+ms.openlocfilehash: 5d7912adf0c97bd0d26e6000efdd42d745e55dc3
+ms.sourcegitcommit: 1cb5f7129562eb2b228da23497c0e09e53da3872
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2023
-ms.locfileid: "69948515"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69983696"
 ---
 # <a name="plan-direct-routing"></a>직접 라우팅 계획
 
@@ -189,6 +189,11 @@ CSR(인증 서명 요청)을 생성하여 SBC에 대한 인증서를 요청하�
 
 > [!NOTE]
 > SBC의 Teams 연결에 대해 MTLS(상호 TLS) 지원이 사용하도록 설정된 경우 Teams TLS 컨텍스트의 SBC 신뢰할 수 있는 루트 저장소에 Baltimore CyberTrust Root 및 DigiCert 글로벌 루트 G2 인증서를 설치해야 합니다. (이는 Microsoft 서비스 인증서가 이러한 두 루트 인증서 중 하나를 사용하기 때문입니다.) 이러한 루트 인증서를 다운로드하려면 [Office 365 암호화 체인](/microsoft-365/compliance/encryption-office-365-certificate-chains)을 참조하세요. 자세한 내용은 [Office TLS 인증서 변경 내용을 참조하세요](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes).
+  
+MTLS 연결이 Teams 인프라에서 시작되었는지 확인하려면 Teams 서버 쪽 인증서에서 다음 검사를 구현하도록 SBC를 구성해야 합니다.
+- 인증서 발급 체인이 다음 루트 CA 중 하나에서 시작되었는지 확인합니다. [Baltimore CyberTrust Root](/microsoft-365/compliance/encryption-office-365-certificate-chains.md#baltimore-cybertrust-root)
+-- [DigiCert 글로벌 루트 G2](/microsoft-365/compliance/encryption-office-365-certificate-chains.md#digicert-global-root-g2)
+- 인증서 "주체 대체 이름"에 "sip.pstnhub.microsoft.com"이 포함되어 있는지 확인합니다.
 
 ## <a name="sip-signaling-fqdns"></a>SIP 신호: FQDN
 
@@ -284,7 +289,7 @@ SBC는 dns 쿼리를 만들어 sip.pstnhub.microsoft.com 확인합니다. SBC �
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365, Office 365 및 Office 365 GCC 환경
 
 - 52.112.0.0/14(IP 주소는 52.112.0.1에서 52.115.255.254로).
-- 52.120.0.0/14(IP 주소는 52.120.0.1에서 52.123.255.254로).
+- 52.122.0.0/15(IP 주소는 52.122.0.1에서 52.123.255.254로).
 
 ### <a name="office-365-dod-environment"></a>doD 환경 Office 365
 
